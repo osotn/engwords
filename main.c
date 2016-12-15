@@ -77,13 +77,13 @@ int str_copy(char *d, char *s, int max_len)
 
 int is_str_equal(char *s1, char *s2, int max_len)
 {
-  char c;
+  char c, l;
   int i = 0;
 
-  while (i++ < max_len && (c = *s1++) == *s2++ && c != '\0')
+  while (i++ < max_len && (c = *s1++) == (l = *s2++) && c != '\0')
     ;
 
-  if (c == '\0' || i == max_len)
+  if (c == '\0' && l == '\0')
     return 1;
 
   return 0; 
