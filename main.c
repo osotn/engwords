@@ -186,7 +186,8 @@ void main(int argc, char * argv[])
  
     add_word(word);
   
-    if (argc > 1)
+
+    if (argc > 1 && (i >= atoi(argv[1])))
     {
       is_s = is_sound(word);
       printf("%5d. %s  %s\n", i, is_s ? "#" : " ", word);
