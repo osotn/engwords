@@ -205,6 +205,8 @@ void main(int argc, char * argv[])
 
   printf("\n=== Word number is %d\n", i);
 
+  printf("\n=== Unique word number is %d\n", words_index);
+
   i = 0;
   while (i < words_index)
   {
@@ -218,5 +220,4 @@ void main(int argc, char * argv[])
     i++; 
   }
 
-  printf("\n=== Unique word number is %d\n", words_index);
 }
