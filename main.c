@@ -5,7 +5,7 @@
 
 #define DEBUG_VERBOSITY 
 
-#define MAX_WORD_NUM  1000
+#define MAX_WORD_NUM  10000
 #define MAX_WORD_SIZE 100
 #define PLAYER_NAME "mplayer"
 #define PLAYER_OUTPUT ">/dev/null 2>&1"
@@ -15,6 +15,12 @@
 
 #define PLAYER_CMD "mplayer ""\""SOUND_FILE_NAME"\""" >/dev/null 2>&1 </dev/null"
 #define PLAYER_CMD_SIZEOF (sizeof(PLAYER_CMD) + MAX_WORD_SIZE)
+
+#define FIRST_1000_FILE_NAME "words/first_1000/%s.txt"
+#define FIRST_1000_FILE_NAME_SIZEOF (sizeof(FIRST_1000_FILE_NAME) + MAX_WORD_SIZE)
+
+#define FIRST_3000_FILE_NAME "words/first_3000/%s.txt"
+#define FIRST_3000_FILE_NAME_SIZEOF (sizeof(FIRST_3000_FILE_NAME) + MAX_WORD_SIZE)
 
 #ifndef BOOLEAN
 #define BOOLEAN int
@@ -124,11 +130,35 @@ int add_word(char *s)
 
 int is_sound(char *s)
 {
-  char fname[SOUND_FILE_NAME_SIZEOF];
+  char fname[SOUND_FILE_NAME_SIZEOF + 1];
 
   sprintf(fname, SOUND_FILE_NAME, s);
   //printf("File name %s", fname);
   return (access(fname, F_OK) != -1); 
+}
+
+int is_first_1000(char *s)
+{
+  char fname[FIRST_1000_FILE_NAME_SIZEOF + 1];
+
+  sprintf(fname, FIRST_1000_FILE_NAME, s);
+  return (access(fname, F_OK) != -1);
+}
+
+int is_first_3000(char *s)
+{
+  char fname[FIRST_3000_FILE_NAME_SIZEOF + 1];
+
+  sprintf(fname, FIRST_3000_FILE_NAME, s);
+  return (access(fname, F_OK) != -1);
+}
+int create_empty_file(char *s, int max_size)
+{
+  char cmd[MAX_WORD_SIZE + sizeof("touch .ext")];
+
+  sprintf(cmd, "touch %s.txt", s);
+  system(cmd);
+  return TRUE;
 }
 
 void sound(char *s)
@@ -176,7 +206,8 @@ void main(int argc, char * argv[])
 {
   int i = 0;
   int len;
-  int is_s;
+  int is_s, is_f1000, is_f3000;
+  char *p;
   char word[MAX_WORD_SIZE + 1];
 
   while ((len = get_word(word, MAX_WORD_SIZE, FALSE)) > 0)
@@ -187,18 +218,34 @@ void main(int argc, char * argv[])
     add_word(word);
   
 
-    if (argc > 1 && (i >= atoi(argv[1])))
+    if (argc > 1 && strcmp(argv[1], "-f") && i >= atoi(argv[1]))
     {
       is_s = is_sound(word);
-      printf("%5d. %s  %s\n", i, is_s ? "#" : " ", word);
+      is_f1000 = is_first_1000(word);
+      is_f3000 = is_first_3000(word);
+      p = is_f1000 ? "1T" : (is_f3000 ? "3T" : "xx");
+      printf("%5d. %s %s  %s\n", i, p, is_s ? "#" : " ", word);
       if (is_s)
         sleep(1);
       else
         sleep(2);
-      sound_if_possible(word);    
+      sound_if_possible(word);
     }
     i++;
   }
+
+  if (argc > 1 && !strcmp(argv[1], "-f"))
+  {
+    i = 0;
+    while (i < words_index)
+    {
+      if (!create_empty_file(words[i].word, MAX_WORD_SIZE))
+        printf("Fail to create file for a word %s\n", words[i].word);
+      i++;
+    }
+    printf("Created %d files\n", i);
+  }
+
 
   if (argc > 1)
     return;
@@ -211,8 +258,12 @@ void main(int argc, char * argv[])
   while (i < words_index)
   {
     is_s = is_sound(words[i].word);
-    printf("%5d. (%3d) %s %s\n", i, words[i].number, is_s ? "#" : " ", words[i].word);
-    sound_if_possible(words[i].word);    
+    is_f1000 = is_first_1000(words[i].word);
+    is_f3000 = is_first_3000(words[i].word);
+    p = is_f1000 ? "1T" : (is_f3000 ? "3T" : "xx");
+    printf("%5d. (%3d) %s %s %s\n", i, words[i].number,
+           p, is_s ? "#" : " ", words[i].word);
+    sound_if_possible(words[i].word);
 
     if (!is_s)
       sleep(10);
