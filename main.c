@@ -1,7 +1,14 @@
+/*
+ * English words
+ * by Oleksandr Sotnikov
+ * (c) 2017-2018
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
+#include <ctype.h>
 
 #define DEBUG_VERBOSITY 
 
@@ -21,6 +28,9 @@
 
 #define FIRST_3000_FILE_NAME "words/first_3000/%s.txt"
 #define FIRST_3000_FILE_NAME_SIZEOF (sizeof(FIRST_3000_FILE_NAME) + MAX_WORD_SIZE)
+
+#define FIRST_10000_FILE_NAME "words/first_10000/%s.txt"
+#define FIRST_10000_FILE_NAME_SIZEOF (sizeof(FIRST_10000_FILE_NAME) + MAX_WORD_SIZE)
 
 #ifndef BOOLEAN
 #define BOOLEAN int
@@ -49,7 +59,7 @@ int get_word(char *s, int len_max, BOOLEAN b_print)
   {
     putchar(c);
 
-    if (c != ' ' && c != '\t' && c != '\n')
+    if (c != ' ' && c != '\t' && c != '\n' && c != '\"' && c != ',' && c != '>')
     {
       if (len < len_max)
         s[len] = c;
@@ -152,6 +162,15 @@ int is_first_3000(char *s)
   sprintf(fname, FIRST_3000_FILE_NAME, s);
   return (access(fname, F_OK) != -1);
 }
+
+int is_first_10000(char *s)
+{
+  char fname[FIRST_10000_FILE_NAME_SIZEOF + 1];
+
+  sprintf(fname, FIRST_10000_FILE_NAME, s);
+  return (access(fname, F_OK) != -1);
+}
+
 int create_empty_file(char *s, int max_size)
 {
   char cmd[MAX_WORD_SIZE + sizeof("touch .ext")];
@@ -206,7 +225,7 @@ void main(int argc, char * argv[])
 {
   int i = 0;
   int len;
-  int is_s, is_f1000, is_f3000;
+  int is_s, is_f1000, is_f3000, is_f10000;
   char *p;
   char word[MAX_WORD_SIZE + 1];
 
@@ -223,7 +242,8 @@ void main(int argc, char * argv[])
       is_s = is_sound(word);
       is_f1000 = is_first_1000(word);
       is_f3000 = is_first_3000(word);
-      p = is_f1000 ? "1T" : (is_f3000 ? "3T" : "xx");
+      is_f10000 = is_first_10000(word);
+      p = is_f1000 ? "1T" : (is_f3000 ? "3T" : ( is_f10000 ? "xT" : "xx"));
       printf("%5d. %s %s  %s\n", i, p, is_s ? "#" : " ", word);
       if (is_s)
         sleep(1);
@@ -260,7 +280,8 @@ void main(int argc, char * argv[])
     is_s = is_sound(words[i].word);
     is_f1000 = is_first_1000(words[i].word);
     is_f3000 = is_first_3000(words[i].word);
-    p = is_f1000 ? "1T" : (is_f3000 ? "3T" : "xx");
+    is_f10000 = is_first_10000(words[i].word);
+    p = is_f1000 ? "1T" : (is_f3000 ? "3T" : ( is_f10000 ? "xT" : "xx"));
     printf("%5d. (%3d) %s %s %s\n", i, words[i].number,
            p, is_s ? "#" : " ", words[i].word);
     sound_if_possible(words[i].word);
@@ -272,3 +293,6 @@ void main(int argc, char * argv[])
   }
 
 }
+
+/* EOF */
+
