@@ -231,11 +231,12 @@ void main(int argc, char * argv[])
 
   while ((len = get_word(word, MAX_WORD_SIZE, FALSE)) > 0)
   {
+    //printf(">%s\n", word);
     if (transform_word(word) == 0)
       continue;
- 
+
+    //printf(">>%s\n", word);
     add_word(word);
-  
 
     if (argc > 1 && strcmp(argv[1], "-f") && i >= atoi(argv[1]))
     {
