@@ -1,0 +1,27 @@
+Storage options
+Embedded devices need storage that takes little power, is physically compact, robust,
+and reliable over a lifetime of perhaps tens of years. In almost all cases, that means
+solid state storage, which was introduced many years ago with read-only memory
+(ROM), but for the past 20 years it has been flash memory of some kind. There have
+been several generations of flash memory in that time, progressing from NOR to
+NAND to managed flash such as eMMC.
+NOR flash is expensive but reliable and can be mapped into the CPU address
+space, which allows you to execute code directly from flash. NOR flash chips
+are low-capacity, ranging from a few megabytes to a gigabyte or so.
+NAND flash memory is much cheaper than NOR and is available in higher capacities,
+in the range of tens of megabytes to tens of gigabytes. However, it needs a lot of
+hardware and software support to turn it into a useful storage medium.
+Managed flash memory consists of one or more NAND flash chips packaged with a
+controller which handles the complexities of flash memory and presents a hardware
+interface similar to that of a hard disk. The attraction is that it removes complexity
+from the driver software and insulates the system designer against the frequent
+changes in flash technology. SD cards, eMMC chips, and USB flash drives fit into
+this category. Almost all of the current generation of smartphones and tablets
+have eMMC storage, and that trend is likely to progress with other categories of
+embedded devices.
+Hard drives are seldom found in embedded systems. One exception is digital video
+recording in set-top boxes and smart TVs in which a large amount of storage is needed
+with fast write times.
+In all cases, robustness is of prime importance: you want the device to boot and reach
+a functional state despite power failures and unexpected resets. You should choose
+filesystems that behave well under such circumstances.
