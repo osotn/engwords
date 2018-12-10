@@ -1,15 +1,11 @@
 Core, Distribution, and Access
 If you have ever taken a networking class or read a book about network design, you have
 
-probably heard the terms core, distribution, and access when referring to networking archi-
-tecture. Proper network design is imperative no matter what type of network topology is
+probably heard the terms core, distribution, and access when referring to networking architecture. Proper network design is imperative no matter what type of network topology is
 
-used. The core of the network is the high-speed backbone or the superhighway of the net-
-work. The goal of the core is to carry large amounts of information between key data cen-
-ters or distribution areas, just as superhighways connect cities and metropolitan areas.
+used. The core of the network is the high-speed backbone or the superhighway of the network. The goal of the core is to carry large amounts of information between key data centers or distribution areas, just as superhighways connect cities and metropolitan areas.
 
-The core layer does not route traffi c or manipulate packets but rather performs high-
-speed switching. Redundant solutions are usually designed at the core layer to ensure the
+The core layer does not route traffi c or manipulate packets but rather performs high-speed switching. Redundant solutions are usually designed at the core layer to ensure the
 
 fast and reliable delivery of packets. The distribution layer of the network routes or directs
 traffi c toward the smaller clusters of nodes or neighborhoods of the network.

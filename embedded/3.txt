@@ -1,0 +1,21 @@
+NOR flash
+The memory cells in NOR flash chips are arranged into erase blocks of, for example,
+128 KiB. Erasing a block sets all the bits to 1. It can be programmed one word at a
+time (8, 16 or 32 bits, depending on the data bus width). Each erase cycle damages
+the memory cells slightly and, after a number of cycles, the erase block becomes
+unreliable and cannot be used anymore. The maximum number of erase cycles
+should be given in the data sheet for the chip but is usually in the range of
+100K to 1M.
+The data can be read word by word. The chip is usually mapped into the CPU
+address space which means that you can execute code directly from NOR flash. This
+makes it a convenient place to put the bootloader code as it needs no initialization
+beyond hardwiring the address mapping. SoCs that support NOR flash in this way
+have configurations that give a default memory mapping such that it encompasses
+the reset vector of the CPU.
+The kernel, and even the root filesystem, can also be located in flash memory,
+avoiding the need for copying them into RAM and thus creating devices with
+small memory footprints. The technique is known as eXecute In Place, or XIP.
+It is very specialized and I will not examine it further here. There are some
+references at the end of the chapter.
+There is a standard register-level interface for NOR flash chips called the common
+flash interface or CFI, which all modern chips support.
