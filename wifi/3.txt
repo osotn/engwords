@@ -17,7 +17,7 @@ waves. When measuring a wave, the wavelength is typically measured from the peak
 wave to the peak of the next wave. Amplitude and wavelength are both properties of waves.
 Frequency
 Frequency describes a behavior of waves. Waves travel away from the source that generates
-them. How fast the waves travel, or more specifi cally, how many waves are generated over
+them. How fast the waves travel, or more specifically, how many waves are generated over
 a 1-second period of time, is known as frequency. If you were to sit on a pier and count
 how often a wave hits it, you could tell someone how frequently the waves were coming to
 shore. Think of radio waves in the same way; however, radio waves travel much faster than
@@ -37,12 +37,12 @@ Degrees
 In an ideal world, waves are created and transmitted from one station and received perfectly intact at another station. Unfortunately, RF communications do not occur in an ideal
 world. There are many sources of interference and many obstacles that will affect the wave
 in its travels to the receiving station. In Chapter 2, we will introduce you to some of the
-outside infl uences that can affect the integrity of a wave and your ability to communicate
+outside influences that can affect the integrity of a wave and your ability to communicate
 between two stations.
 Time and Phase
 Suppose you have two stopped watches and both are set to noon. At noon you start
-your fi rst watch, and then you start your second watch 1 hour later. The second watch is
-1 hour behind the fi rst watch. As time goes by, your second watch will continue to be 1
+your first watch, and then you start your second watch 1 hour later. The second watch is
+1 hour behind the first watch. As time goes by, your second watch will continue to be 1
 hour behind. Both watches will maintain a 24-hour day, but they are out of sync with each
 other. Waves that are out of phase behave similarly. Two waves that are out of phase are
 essentially two waves that have been started at two different times. Both waves will
