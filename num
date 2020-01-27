@@ -1,0 +1,18 @@
+#!/bin/sh
+
+echo -n "Most    1000: "
+./run.sh -ufm <words/1000.txt | tail -1
+echo -n "Oxfords 3000: "
+./run.sh -ufm <words/oxford_3000_keys/oxford3000_uniq.txt | tail -1
+echo -n "IELTS   4000: "
+./run.sh -ufm <words/ielts_general_4000/ielts_general_4000.txt | tail -1
+echo -n "TOEFL   5000: "
+./run.sh -ufm <words/toefl_5000.txt | tail -1
+echo -n "Google 10000: "
+./run.sh -ufm <words/google-10000-english.txt | tail -1
+
+
+
+ls -l translations/ | wc -l
+ls -l words/active/ | wc -l
+ls -l sound/ | wc -l
