@@ -1,0 +1,14 @@
+CHAPTER 2: THE FILE SYSTEM
+Everything in the UNIX system is a file. That is less of an oversimplification than you might think. When the first version of the system was being
+designed, before it even had a name, the discussions focused on the structure
+of a file system that would be clean and easy to use. The file system is central
+to the success and convenience of the UNIX system. It is one of the best examples of the "keep it simple" philosophy, showing the power achieved by careful
+implementation of a few well-chosen ideas.
+To talk comfortably about commands and their interrelationships, we need
+a good background in the structure and outer workings of the file system. This
+chapter covers most of the details of using the file system - what files are,
+how they are represented, directories and the file system hierarchy, permissions, inodes (the system's internal record of files) and device files. Because
+most use of the UNIX system deals with manipulating files, there are many
+commands for file investigation or rearrangement; this chapter introduces the
+more commonly used ones.
+

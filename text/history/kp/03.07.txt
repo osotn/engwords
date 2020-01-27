@@ -1,0 +1,96 @@
+3.7 More on I/O redirection
+The standard error was invented so that error messages would always
+appear on the terminal:
+$ diff file1 fie12 >diff.out
+diff: fie12: No such file or directory
+$
+It's certainly desirable that error messages work this way - it would be most
+unfortunate if they disappeared into diff . out, leaving you with the impression that the erroneous diff command had worked properly.
+E very program has three default files established when it starts, numbered
+by small integers called file descriptors (which we will return to in Chapter 7).
+The standard input, 0, and the standard output, 1, which we are already familiar with, are often redirected from and into files and pipes. The last, numbered 2, is the standard error output, and normally finds its way to your terminal.
+Sometimes programs produce output on the standard error even when they
+work properly. One common example is the program time, which runs a
+command and then reports on the standard error how much time it took.
+$ time we ch3.1
+931 4288 22691 ch3.1
+real
+user
+sys
+1 . a
+0.4
+0.4
+$ time we eh3.1 >we.out
+real 2.0
+user 0.4
+sys 0.3
+$ time we eh3.1 >we.out 2>time.out
+$ cat time.out
+real
+user
+sys
+$
+1 . 0
+0.4
+0.3
+The construction 2>filename (no spaces are allowed between the 2 and the»
+directs the standard error output ino the file; it's syntactically graceless but it
+does the job. (The times produced by time are not very accurate for such a
+short test as this one, but for a sequence of longer tests the numbers are useful
+and reasonably trustworthy, and you might well want to save them for further
+analysis; see, for example, Table 8.1.)
+It is also possible to merge the two output streams:
+$ time we eh3. 1 >we.out 2>&1
+$ cat we. out
+931 4288 22691 ch3.1
+real
+user
+sys
+$
+1 . 0
+0.4
+0.3
+The notation 2 >& 1 tells the shell to put the standard error on the same stream
+as the standard output. There is not much mnemonic value to the ampersand;
+it's simply an idiom to be learned. You can also use 1 >&2 to add the standard
+output to the standard error:
+echo ... 1>&2
+prints on the standard error. In shell files, it prevents the messages from vanishing accidentally down a pipe or into a file.
+The shell provides a mechanism so you can put the standard input for a
+command along with the command, rather than in a separate file, so the shell
+file can be completely self-contained. Our directory information program 411
+could be written
+$ cat 411
+grep "$*" «End
+dial-a-joke 212-976-3838
+dial-a-prayer 212-246-4200
+dial santa 212-976-3636
+dow jones report 212-976-4141
+End
+$
+The shell jargon for this construction is a here document; it means that the
+input is right here instead of in a file somewhere. The« signals the construction; the word that follows (EJ:?d in our example) is used to delimit the input,
+which is taken to be everything up to an occurrence of that word on a line by
+itself. The shell substitutes for $, '...', and \ in a here document, unless
+some part of the word is quoted with quotes or a backslash; in that case, the
+whole document is taken literally.
+We'll return to here documents at the end of the chapter, with a much more
+interesting example.
+Table 3.2 lists the various input-output redirections that the shell understands.
+Exercise 3-14. Compare the here-document version of 411 with the original. Which is
+easier to maintain? Which is a better basis for a general service?
+Table 3.2: Shell I/O Redirections
+direct standard output to file
+append standard output to file
+take standard input from file
+connect standard output of program PI to input of P2
+obsolete synonym for :
+direct output from file descriptor n to file
+append output from file descriptor n to file
+merge output from file descriptor n with file descriptor m
+merge input from file descriptor n with file descriptor m
+here document: take standard input until next s at
+beginning of a line; substitute for $, '...', and \
+here document with no substitution
+here document with no substitution
+

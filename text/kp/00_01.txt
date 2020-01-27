@@ -1,0 +1,141 @@
+PREFACE
+"The number of UNIX installations has grown to 10, with more expected."
+(The UNIX Programmer's Manual, 2nd Edition, June, 1972.)
+The UNIxt operating system started on a cast-off DEC PDP-7 at Bell Laboratories in 1969. Ken Thompson, with ideas and support from Rudd Canaday,
+Doug McIlroy, Joe Ossanna, and Dennis Ritchie, wrote a small general-
+purpose time-sharing system comfortable enough to attract enthusiastic users
+and eventually enough credibility for the purchase of a larger machine - a
+PDP-ll/20. One of the early users was Ritchie, who helped move the system
+to the PDP-ll in 1970. Ritchie also designed and wrote a compiler for the C
+programming language. In 1973, Ritchie and Thompson rewrote the UNIX kernel in C, breaking from the tradition that system software is written in assembly language. With that rewrite, the system became essentially what it is
+today.
+Around 1974 it was licensed to universities "for educational purposes" and
+a few years later became available for commercial use. During this time, UNIX
+systems prospered at Bell Labs, finding their way into laboratories, software
+development projects, word processing centers, and operations support systems
+in telephone companies. Since then, it has spread world-wide, with tens of
+thousands of systems installed, from microcomputers to the largest mainframes.
+What makes the UNIX system so successful? We can discern several rea-
+sons. First, because it is written in C, it is portable - UNIX systems run on a
+range of computers from microprocessors to the largest mainframes; this is a
+strong commercial advantage. Second, the source code is available and written
+in a high-level language, which makes the system easy to adapt to particular
+requirements. Finally, and most important, it is a good operating system,
+especially for programmers. The UNIX programming environment is unusually
+rich and productive.
+Even though the UNIX system introduces a number of innovative programs
+and techniques, no single program or idea makes it work well. Instead, what
+makes it effective is an approach to programming, a philosophy of using the
+computer. Although that philosophy can't be written down in a single sentence, at its heart is the idea that the power of a system comes more from the
+relationships among programs than from the programs themselves. Many UNIX
+programs do quite trivial tasks in isolation, but, combined with other programs, become general and useful tools.
+Our goal in this book is to communicate the UNIX programming philosophy.
+Because the philosophy is based on the relationships between programs, we
+must devote most of the space to discussions about the individual tools, but
+throughout run the themes of combining programs and of using programs to
+build programs. To use the UNIX system and its components well, you must
+understand not only how to use the programs, but also how they fit into the
+environment.
+As the UNIX system has spread, the fraction of its users who are skilled in
+its application has decreased. Time and again, we have seen experienced
+users, ourselves included, find only clumsy solutions to a problem, or write
+programs to do jobs that existing tools handle easily. Of course, the elegant
+solutions are not easy to see without some experience and understanding. We
+hope that by reading this book you will develop the understanding to make
+your use of the system - whether you are a new or seasoned user - effective
+and enjoyable. We want you to use the UNIX system well.
+We are aiming at individual programmers, in the hope that, by making
+their work more productive, we can in turn make the work of groups more
+productive. Although our main target is programmers, the first four or five
+chapters do not require programming experience to be understood, so they
+should be helpful to other users as well.
+Wherever possible we have tried to make our points with real examples
+rather than artificial ones. Although some programs began as examples for the
+book, they have since become part of our own set of everyday programs. All
+examples have been tested directly from the text, which is in machine-readable
+form.
+The book is organized as follows. Chapter 1 is an introduction to the most
+basic use of the system. It covers logging in, mail, the file system, commonly-used commands, and the rudiments of the command interpreter. Experienced
+users can skip this chapter.
+Chapter 2 is a discussion of the UNIX file system. The file system is central
+to the operation and use of the system, so you must understand it to use the
+system well. This chapter describes files and directories, permissions and file
+modes, and inodes. It concludes with a tour of the file system hierarchy and
+an explanation of device files.
+The command interpreter, or shell, is a fundamental tool, not only for running programs, but also for writing them. Chapter 3 describes how to use the
+shell for your own purposes: creating new commands, command arguments,
+shell variables, elementary control flow, and input-output redirection.
+Chapter 4 is about filters: programs that perform some simple transformation on data as it flows through them. The first section deals with the grep
+pattern-searching command and its relatives; the next discusses a few of the
+more common filters such as sort; and the rest of the chapter is devoted to
+two general-purpose data transforming programs called sed and awk. sed is
+a stream editor, a program for making editing changes on a stream of data as
+it flows by. awk is a programming language for simple information retrieval
+and report generation tasks. It's often possible to avoid conventional programming entirely by using these programs, sometimes in cooperation with the
+shell.
+Chapter 5 discusses how to use the shell for writing programs that win
+stand up to use by other people. Topics include more advanced control flow
+and variables, traps and interrupt handling. The examples in this chapter
+make considerable use of sed and awk as wen as the shell.
+Eventually one reaches the limits of what can be done with the shell and
+other programs that already exist. Chapter 6 talks about writing hew programs
+using the standard I/O library. The programs are written in C, which the
+reader is assumed to know, or at least be learning concurrently. We try to
+show sensible strategies for designing and organizing new programs, how to
+build them in manageable stages, and how to make use of tools that already
+exist.
+Chapter 7 deals with the system calls, the foundation under all the other
+layers of software. The topics include input-output, file creation, error processing, directories, inodes, processes, and signals.
+Chapter 8 talks about program development tools: yacc, a parser-
+generator; make, which controls the process of compiling a big program; and
+lex, which generates lexical analyzers. The exposition is based on the
+development of a large program, a C-like programmable calculator.
+Chapter 9 discusses the document preparation tools, illustrating them with a
+user-level description and a manual page for the calculator of Chapter 8. It
+can be read independently of the other chapters.
+Appendix 1 summarizes the standard editor ed. Although many readers
+will prefer some other editor for daily use, ed is universally available, efficient
+and effective. Its regular expressions are the heart of other programs like
+grep and sed, and for that reason alone it is worth learning.
+Appendix 2 contains the reference manual for the calculator language of
+Chapter 8.
+Appendix 3 is a listing of the final version of the calculator program,
+presenting the code all in one place for convenient reading.
+Some practical matters. First, the UNIX system has become very popular,
+and there are a number of versions in wide use. For example, the 7th Edition
+comes from the original source of the UNIX system, the Computing Science
+Research Center at Bell Labs. System III and System V are the official Bell
+Labs-supported versions. The University of California at Berkeley distributes
+systems derived from the 7th Edition, usually known as VCB 4.xBSD. In
+addition, there are numerous variants, particularly on small computers, that
+are derived from the 7th Edition.
+We have tried to cope with this diversity by sticking closely to those aspects
+that are likely to be the same everywhere. Although the lessons that we want
+to teach are independent of any particular version, for specific details we have
+chosen to present things as they were in the 7th Edition, since it forms the
+basis of most of the UNIX systems in widespread use. We have also run the
+examples on Bell Labs' System V and on Berkeley 4.1BSD; only trivial changes
+were required, and only in a few examples. Regardless of the version your
+machine runs, the differences you find should be minor.
+Second, although there is a lot of material in this book, it is not a reference
+manual. We feel it is more important to teach an approach and a style of use
+than just details. The UNIX Programmer's Manual is the standard source of
+information. You will need it to resolve points that we did not cover, or to
+determine how your system differs from ours.
+Third, we believe that the best way to learn something is by doing it. This
+book should be read at a terminal, so that you can experiment, verify or contradict what we say, explore the limits and the variations. Read a bit, try it
+out, then come back and read some more.
+We believe that the UNIX system, though certainly not perfect, is a marvelous computing environment. We hope that reading this book will help you
+to reach that conclusion too.
+Weare grateful to many people for constructive comments and criticisms,
+and for their help in improving our code. In particular, Jon Bentley, John
+Linderman, Doug McIlroy, and Peter Weinberger read multiple drafts with
+great care. We are indebted to Al Aho, Ed Bradford, Bob Flandrena, Dave
+Hanson, Ron Hardin, Marion Harris, Gerard Holzmann, Steve Johnson, Nico
+Lomuto, Bub Martin, Larry RosIer, Chris Van Wyk, and Jim Weythman for
+their comments on the first draft. We also thank Mike Bianchi, Elizabeth
+Bimmler, Joe Carfagno, Don Carter, Tom De Marco, Tom Duff, David Gay,
+Steve Mahaney, Ron Pinter, Dennis Ritchie, Ed Sitar, Ken Thompson, Mike
+Tilson, Paul Tukey, and Larry Wehr for valuable suggestions.
+Brian Kernighan
+Rob Pike

@@ -1,0 +1,166 @@
+3.4 Command arguments and parameters
+Although nu is adequate as it stands, most shell programs interpret arguments, so that, for example, filenames and options can be specified when the
+program IS run.
+Suppose we want to make a program called ex to change the mode of a file
+to executable, so
+$ ex nu
+is a shorthand for
+$ ehmod +x nu
+We already know almost enough to do this. We need a file called ex whose
+contents are
+chmod +x filename
+The only new thing we need to know is how to tell ex what the name of the
+file is, since it will be different each time ex is run.
+When the shell executes a file of commands, each occurrence of $1 is
+replaced by the first argument, each $ 2 is replaced by the second argument,
+and so on through $ 9. So if the file ex contains
+chmod +x $1
+when the command
+$ ex nu
+is run, the sub-shell replaces "$1" by its first argument, "nu."
+Let's look at the whole sequence of operations:
+$ echo 'chrnod +x $1' >cx
+$ sh ex ex
+$ echo echo Hi, there! >hello
+$ hello
+hello: cannot execute
+$ ex hello
+$ hello
+Hi, there!
+$ mv ex /usr/you/bin
+$ rm hello
+$
+Notice that we said
+$ sh ex ex
+USING THE SHELL 83
+Create cx originally
+Make cx itself executable
+Make a test program
+Try it
+Make it executable
+Try again
+It works
+Install ex
+Clean up
+exactly as the shell would have automatically done if ex were already executable and we typed
+$ ex ex
+What if you want to handle more than one argument, for example to make
+a program like ex handle several files at once? A crude first cutis to put nine
+arguments into the shell program, as in
+chmod +x $1 $2 $3 $4 $5 $6 $7 $8 $9
+(It only works up to $ 9, because the string $ 10 is parsed as "first argument,
+$ 1, followed by a a"!) If the user of this shell file provides fewer than nine
+arguments, the missing ones are nun strings; the effect is that only the arguments that were actually provided are passed to ehmod by the sub-shell. So
+this implementation works, but it's obviously unclean, and it fails if more than
+nine arguments are provided.
+Anticipating this problem, the shell provides a shorthand $* that means "all
+the arguments." The proper way to define ex, then, is
+chmod +x $*
+which works regardless of how many arguments are provided.
+With $* added to your repertoire, you can make some convenient shell
+files, such as Ie or m:
+$ cd /usr/you/bin
+$ cat lc
+# lc: count number of lines in files
+wc -1 $*
+$ cat m
+# m: a concise way to type mail
+mail $*
+$
+Both can sensibly be used without arguments. If there are no arguments, $*
+will be null, and no arguments at all will be passed to we or mail. With or
+without arguments, the command is invoked properly:
+$ Ie /usr/you/bin/*
+1 /usr/you/bin/cx
+2 /usr/you/bin/lc
+2 /usr/you/bin/m
+1 /usr/you/bin/nu
+2 /usr/you/bin/what
+1 /usr/you/bin/where
+9 total
+$ Is /usr/you/bin : Ie
+6
+$
+These commands and the others in this chapter are examples of personal
+programs, the sort of things you write for yourself and put in your bin, but
+are unlikely to make publicly available because they are too dependent on personal taste. In Chapter 5 we will address the issues of writing shell programs
+suitable for public use.
+The arguments to a shell file need not be filenames. For example, consider
+searching a personal telephone directory. If you have a file named
+/usr /you/lib/phone-book that contains lines like
+dial-a-joke 212-976-3838
+dial-a-prayer 212-246-4200
+dial santa 212-976-3636
+dow jones report 212-976-4141
+then the grep command can be used to search it. (Your own lib directory is
+a good place to store such personal data bases.) Since grep doesn't care about
+the format of information, you can search for names, addresses, zip codes or
+anything else that you like. Let's make a directory assistance program, which
+we'll call 411 in honor of the telephone directory assistance number where we
+live:
+$ eeho 'grep $* /usr/you/lib/phone-book' >411
+$ ex 411
+$ 4 11 joke
+dial-a-joke 212-976-3838
+$ 411 dial
+dial-a-joke 212-976-3838
+dial-a-prayer 212-246-4200
+dial santa 212-976-3636
+$ 4 11 ' dow jones'
+grep: can't open jones Something is wrong
+$
+The final example is included to show a potential problem: even though dow
+j one s is presented to 411 as a single argument, it contains a space and is 
+longer in quotes, so the sub-shell interpreting the 411 command converts it
+into two arguments to grep: it's as if you had typed
+$ grep dow jones /usr/you/lib/phone-book
+and that's obviously wrong.
+One remedy relies on the way the shell treats double quotes. Although
+anything quoted with '...' is inviolate, the shell looks inside If... If for $ 's, \ 's,
+and '..."s. So if you revise 411 to look like
+grep "$*" /usr/you/Iib/phone-book
+the $* will be replaced by the arguments, but it will be passed to grep as a
+single argument even if it contains spaces.
+$ 411 dow jones
+dow jones report 212-976-4141
+$
+By the way, you can make grep (and thus 411) case-independent with the
+-y option:
+$ grep -y pattern ...
+with -y, lower case letters in pattern will also match upper case letters in the
+input. (This option is in 7th Edition grep, but is absent from some other systems. )
+There are fine points about command arguments that we are skipping over
+until Chapter 5, but one is worth noting here. The argument $0 is the name
+of the program being executed - in ex, $ 0 is "ex." A novel use of $ 0 is in
+the implementation of the programs 2, 3, 4, ..., which print their output in
+that many columns:
+$ who , 2
+,
+drh ttyO Sep 28 21:23 cvw tty5 Sep 28 21:09
+dmr tty6 Sep 28 22:10 scj tty7 Sep 28 22:11
+you tty9 Sep 28 23:00 jIb ttyb Sep 28 19:58
+$
+The implementations of 2, 3, ... are identical; in fact they are links to the
+same file:
+$ In 2 3; In 2 4; In 2 5; In 2 6
+$ Is -Ii [1-9]
+16722 -rwxrwxrwx 5 you 51 Sep 28 23:21 2
+16722 -rwxrwxrwx 5 you 51 Sep 28 23:21 3
+16722 -rwxrwxrwx 5 you 51 Sep 28 23:21 4
+16722 -rwxrwxrwx 5 you 51 Sep 28 23:21 5
+16722 -rwxrwxrwx 5 you 51 Sep 28 23:21 6
+$ 15 /usr/you/bin I 5
+I
+2 3 4 411 5
+6 ex Ie m nu
+what where
+$ cat 5
+# 2, 3 , 0 print in n columns
+o .. . .
+pr -$0 -t -11 $*
+$
+The -t option turns off the heading at the top of the page and the -In option
+sets the page length to n lines. The name of the program becomes the
+number-of-columns argument to pr, so the output is printed a row at a time in
+the number of columns specified by $ O.
+

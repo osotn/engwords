@@ -1,0 +1,50 @@
+Amplitude and Wavelength
+RF communication starts when radio waves are generated from an RF transmitter and
+picked up, or “heard,” by a receiver at another location. RF waves are similar to the waves
+that you see in an ocean or lake. Waves are made up of two main components: wavelength
+and amplitude (see Figure 1.5).
+FIGURE
+This drawing shows the wavelength and amplitude of a wave
+Wavelength (360 degrees
+Amplitude Amplitude is the height, force, or power of the wave. If you were standing in
+the ocean as the waves came to shore, you would feel the force of a larger wave much more
+than you would a smaller wave. Transmitters do the same thing, but with radio waves.
+Smaller waves are not as noticeable as bigger waves. A bigger wave generates a much larger
+electrical signal picked up by the receiving antenna. The receiver can then distinguish
+between highs and lows.
+Wavelength Wavelength is the distance between similar points on two back-to-back
+waves. When measuring a wave, the wavelength is typically measured from the peak of a
+wave to the peak of the next wave. Amplitude and wavelength are both properties of waves.
+Frequency
+Frequency describes a behavior of waves. Waves travel away from the source that generates
+them. How fast the waves travel, or more specifically, how many waves are generated over
+a 1-second period of time, is known as frequency. If you were to sit on a pier and count
+how often a wave hits it, you could tell someone how frequently the waves were coming to
+shore. Think of radio waves in the same way; however, radio waves travel much faster than
+the waves in the ocean. If you were to try to count the radio waves that are used in wireless
+networking, in the time it would take for one wave of water to hit the pier, several billion
+radio waves would have also hit the pier.
+Phase
+Phase is a relative term. It is the relationship between two waves with the same frequency.
+To determine phase, a wavelength is divided into 360 pieces referred to as degrees (see
+Figure 1.6). If you think of these degrees as starting times, then if one wave begins at the 0
+degree point and another wave begins at the 90 degree point, these waves are considered to
+be 90 degrees out of phase.
+
+FIGURE 1 . 6 This drawing shows two waves that are identical; however, they are 90
+degrees out of phase with each other.
+Degrees
+In an ideal world, waves are created and transmitted from one station and received perfectly intact at another station. Unfortunately, RF communications do not occur in an ideal
+world. There are many sources of interference and many obstacles that will affect the wave
+in its travels to the receiving station. In Chapter 2, we will introduce you to some of the
+outside influences that can affect the integrity of a wave and your ability to communicate
+between two stations.
+Time and Phase
+Suppose you have two stopped watches and both are set to noon. At noon you start
+your first watch, and then you start your second watch 1 hour later. The second watch is
+1 hour behind the first watch. As time goes by, your second watch will continue to be 1
+hour behind. Both watches will maintain a 24-hour day, but they are out of sync with each
+other. Waves that are out of phase behave similarly. Two waves that are out of phase are
+essentially two waves that have been started at two different times. Both waves will
+complete full 360-degree cycles, but they will do it out of phase, or out of sync with
+each other.

@@ -1,0 +1,173 @@
+Programming in C++
+Prof. Partha Pratim Das
+Department of Computer Science and Engineering
+Indian Institute of Technology, Kharagpur
+Lecture – 05
+Arrays and Strings
+Welcome to module 3 of Programming in C++. This module we will discuss about arrays and
+strings. We have in module 2 seen what are the basic differences between a C program and a
+C++ program. We will continue on the same note.
+(Refer Slide Time: 00:41)
+In this module we will try to particularly understand the use of arrays in C and C++. We will
+introduce a basic notion of what is called vector in C++, which is pretty much like arrays, but
+lot more powerful and we will try to see how strings are used in C and in contrast how the
+string type operates in C++.(Refer Slide Time: 01:06)
+So, these are the points that we will cover.
+(Refer Slide Time: 01:11)
+To get started we have side by side shown two programs, both of them. They actually are
+identical except for the difference in the IO header. So, a basic use of array as in C can bedone in C++ exactly in the same notation and with the same meaning. So, the first message is
+arrays can be used in C++ exactly as you know in C. So, here we are just assigning some
+values to the different array elements and printing them, only difference is in terms the using
+the printf or using the cout.
+(Refer Slide Time: 01:56)
+.
+Now, the one of the main issues in C, in terms of using arrays that you all must have faced is,
+when I want to use an array in C, I need to know; I need to specify the size of the array which
+means at the maximum number of elements that the array can contain beforehand, that is at
+the time of writing the program or to be specific at the time of compiling the program. So, if I
+do not know that size, then I need to provide a size which is greater than what can happen at
+in any one of the cases that I execute, run in the program.
+Certainly there are two ways of handling this situation. One is, I define, declare a large array
+and this can be done; this can be either hard coded, the size can be hard coded within the
+program or the size can be somewhat soft coded by using a manifest constant and the other
+case that you have seen earlier in C programming is you would use malloc to dynamically
+allocate space and allocate the array at the run time and then you use it and if you are using
+malloc, you will also have to remember to free it up, when you are use of that array is done.(Refer Slide Time: 03:21)
+So, let us see, how does this look in terms of as we migrate from C to C++. So, this is just
+showing the C example on the left hand side. We are hard coding the size of the array arr to
+100 on the right column we are doing the same thing, except that now you have a manifest
+constant MAX, which is defined to have a value 100 and we are using that MAX. The
+advantage of using the manifest constant is there could be 10 different arrays, whose size is to
+be specified to 100.
+Now, if I hard code all of them and sometime later I need to change all those sizes from 100
+to 1000, then at 10 places I will need to go and edit and I might just forget to do all of them,
+but if I hash define or use a manifest constant then I can make the change only at one place,
+change the definition of MAX 100 to 1000 and all of those will change. So, it is a better
+programming practice in C to use manifest constant and not hard code value, you already
+know this.(Refer Slide Time: 04:35)
+Now, you show the similar situation in between C and C++ on the right column now, you
+have a C++ program. Certainly, the array size, the maximum array size as MAX can be hash
+define to 100 as has been done, but what we show here is just focus on the line right after the
+header of main. We are writing vector within corner bracket int and then the array name and
+within parentheses, we show the size MAX.
+Vector is a new introduction in C++. This is not a built-in type; please do not consider this to
+be a built-in type. This is something which is provided by the C++ standard library. So, if you
+move your attention to the top in terms of the #include list, you will find #, there is
+#includ<vector>. So, there is standard library header vector which has all the necessary
+declaration definitions for a vector type and you can use that in this way; what it means is
+vector for in all respect what likes arrays can be. So, you just focus within the ‘for’ loop, you
+see how the array elements are being accessed.
+On the left hand side, it is a well known array int arr[MAX]. We write it as arr[i] on the right,
+it is a vector of int we use the same indexing notation to access the array elements. So, vector
+is same in terms of access notation and the result of doing the read or write access with the
+traditional array, but it has the advantage that its size is not necessarily fixed at the compile
+time.Now, in this example we have just shown that how to use vector with a fixed initial size
+MAX. So, when we say vector and within corner bracket int, what we mean that within
+corner bracket, we are providing the type of the element that the array is composed of, which
+is what we write in C as int arr[MAX], we write it as vector within corner bracket int and
+whatever we provide as the maximum size within the square brackets here, we pass it as a
+parameter after the arr name.
+So, this is just a notational difference, right now just accept this as a different notation of
+writing, declaring arrays and once you have done that rest of the program you can forget
+about, that you are specifically using a vector you can just continue to use them as arrays.
+(Refer Slide Time: 07:42)
+Now with this, let me show where you actually get the advantage. Now, let us focus on the
+second mechanism of using arbitrary sized arrays that is you do not know at all as to how
+large an array can be you will get to know only when the program is executed by the user. So,
+the user will probably provide the size of the array, the number of elements that the user
+wants.
+So, on the C program, on the left see that the first we are asking the user; how many elementsare there, and the user provides a count value and if you have to do this in C, then will have
+to dynamically allocate the array using malloc as is shown and proceed with that. Certainly
+you will need to write a very complex form in malloc because you really need to say how
+much memory you want, malloc returns you a void star pointer, you need to remember and
+cast that to the int star.
+All those nuances of C programming exist; now just shift your focus to the right on the same
+lines. Now, we are declaring the variable as a vector of int the variable is arr and please note
+in contrast to what we had shown earlier, we are not passing any MAX size. So, if we do not
+pass a MAX size then we get a vector of a default sizes, C++ standard library will have some
+default size which is not fixed, but some default size array will be there, but the following
+line we write something which you are not familiar in the notation. We are writing
+arr.resize(), we call this as resize being a member function of the vector type. What it does, is
+in this resize function if we pass a value as we are passing through the variable count, then
+the vector will resize to the count number of elements.
+So, let us assume that the default size with which the vector was created is 10 and now the
+user at the run time as given an input 100 to count, when arr.resize() is done the value will be
+passed as 100 and the vector will change to having hundred elements from the original ten
+elements.
+So, resize can be used very conveniently to increase or decrease the number of elements that
+a vector can have or for that matter the vector form of array can have. So, with that you get
+rid of using all this malloc and is complicated notation and remembering to free that location
+and so on. We can just use vector and resize them as needed which makes the use of arrays in
+C++ programs as vector container is far more convenient and compact than the similar
+mechanism in C.(Refer Slide Time: 10:59)
+Next, let us take a look in the handling of strings as you are; would be already familiar that
+besides 2 numerical types that is whole numbers int and the floating point numbers, the next
+most widely used and most required type or values that we need to deal with our strings
+where we are talking about a sequence of characters, and what do we have in; if we are
+working in C, we have what is now called a C string.
+C does not have a default type as string, but it has a string.h standard library header which
+provides a whole lot of string functions like strlen, strcpy, strcat and so on and with that C
+string is just an array of characters, which we say is terminated by NULL, which means that
+if you scan the array from left to right, you will continue to consider that you have a string till
+you come across the first null characters or the characters with ASCII value 0; please note
+that in the array after this NULL, there could be several other characters still remaining, but
+they are not considered to be part of the string.
+Now, with this convention if we use the string functions from string. h header then you will
+be able to achieve variety of string operations as you all are familiar with. In contrast, C++
+now introduces a string type in C++ standard library. This is pretty much like we talked about
+vector. So, string also is not a built-in type, but it is a type added through the standard library
+and you will have to use the string header of C++ standard library to get the strings and it hassome amazing behavior like being able to write concatenations of string as an addition
+expression.
+(Refer Slide Time: 13:06)
+So, we will illustrate those. Here is a simple parallel between a C program and a C++
+program. This program starts with two strings that are defined within the program the hello
+world and we want to concatenate the second string after the first string. So, we just want to
+put them side by side the first string followed by the second string and make one
+concatenated string.
+So, if you have to do that in C, on the left you can see what you will need to do you will need
+to have an array large enough to contain the concatenated string let us called it str, you will
+have to copy the first string str1 into str and then you will have to concatenate str2 into what
+is already copied in str. So, it will just come after that, so first hello will hello followed by a
+blank will get copied to str and then world will get concatenated strcpy and strcat does the job
+and then you can print it.
+In contrast, in C++ you have a string type in the string header. So, you include the string
+header now you do not declare them as characters arrays you declare them as string which isthe name of the type given in that header; please note that this name is all in lower case and
+then you have the string variable, name str1 and you initialize it constant string hello blank or
+world.
+The very interesting things is when you have to concatenate it you do not really need to copy
+the first string and then do concatenation, you can just say that I am adding str2 to str1. So,
+we say str1+ str2, so this is pretty much like I have a variable x having value 3, have a
+variable y having value 5. I write x plus y to mean 3 plus 5, which is 8. So that is an integer
+addition.
+This is kind of a string addition in the type of string, this becomes a concatenation operation
+and we will see the amazing power in C++ to be able to define operators for your own types
+in whatever way you want to interpret them. For example, you could use this to write algebra
+for rectangles you can have two rectangles, if you have a rectangle type and you can define
+then the addition of two rectangles is basically making a union of this rectangles to make a
+rectangle large enough to contain both these rectangles and so on. So, this features in terms of
+string is available in C++ therefore, it becomes really easy to deal with strings.
+In C++ particularly note that in C, you will really need to know what is the size of the result?
+So, that you can define again an array large enough for the variable str because if this is str is
+not enough in size then strcpy, strcat later on will fail in C++ you do not need to bother about
+any of this when you do when you declare the variable str as a type string and you initialize it
+with the concatenation of str1+ str2 the compiler automatically takes scare of managing the
+size and will give you a string which is large enough to contain the concatenation. So, there is
+a lot of easy in the whole handling of strings.(Refer Slide Time: 17:00)
+Further, actually does not just end with adding strings or use the addition operator for
+concatenation of strings, you can do several other operations.
+In fact, you do not actually need any of the string dot h functions that you have in the C
+standard library and achieve their task by using the more natural operators like you can use an
+assignment in place of doing string copy, you can use the all the comparison operators less
+than equal to less than greater than equal to greater than in place of using strcmp . We know
+str cmp is a relatively complex functions to use because it can take; it takes two strings; two
+C strings that is card stack pointers and returns you a value which could either be -1 or be 0
+or be +1 depending on which string is larger or equal if the strings are equal and so on.
+Now, you do not with string type in C++ you do not need to get into any of this. You can just
+use the comparison operators and compare strings much in the same way you compare
+integers or floating point numbers. So, this is a very strong features of C++ and particularly
+for string, this is an extremely convenient way. So, even without getting into deep
+understanding of C++ you could just start using string and make all your programs smarter
+and easier to write.(Refer Slide Time: 18:34)
+In this module we have shown - how we can work with arrays, how vector really makes it
+easier to make arrays variable sized and how strings operations can be done very easily in C+
++ using the string type from the standard library.

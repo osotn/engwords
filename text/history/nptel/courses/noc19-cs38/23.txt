@@ -1,0 +1,230 @@
+Programming in C++
+Prof. Partha Pratim Das
+Department of Computer Science and Engineering
+Indian institute of Technology, Kharagpur
+Lecture - 23
+Constructors, Destructors and Object Lifetime
+Welcome to module 13 of Programming in C++.
+(Refer Slide Time: 00:30)
+In this module, we will talk about understanding how objects are constructed or
+Initialized, and after their use how they are destructed or De-Initialized, and in this whole
+process what is the life time that the object will have. In terms of the object-oriented
+futures in C++ we have already seen how classes can be defined and how objects of a
+certain class can be instantiated.
+We have already had a look in the data members and methods and we have talked about
+the whole paradigm of information hiding, the basic design process of access
+specification and visibility restriction to make data members particularly private in a
+design and provide an interface to methods which is public. Now, we will extend on that
+and talk more, this was more on the design aspect in terms of the structure of a class orthe blue print of different objects. Now in the current module will look specifically on
+the runtime execution, runtime behavior of an object starting trying to find out when
+does it get into life, and how long does it remain in life? And what happens at the end of
+life of an object?
+(Refer Slide Time: 02:07)
+We will get started with all these discussions, this is outline does it can see on the left of
+your panel also.(Refer Slide Time: 02:13)
+So, let us refer back to one of the earlier examples of stack we have already introduced
+this earlier. This stack has two data members, an array of characters to store the stack
+elements, a top marker which will keep the index of the top element and in the public it
+has the four LIFO methods, LIFO interface, empty, push, pop and top to use this stack
+and here we show the use of this stack to reverse a string.
+Now, if we look into this then in a closer scrutiny you will find that here we are using
+this instantiating this stack to create a stack object, but as soon as we create this stack
+object we cannot start using it for doing the reverse string operation that we are having to
+do here, in between we need to make sure that the stack has a proper initialization, in the
+sense that once s is instantiated I need to know, ascertain, what is the value of the top
+marker at this point.
+This is a point where no operation has happened so far, so you need to make sure that the
+stack just created conceptually has to be a null stack containing nothing an empty stack
+and therefore, its top marker must be one less than the first element that can go into the
+array that is the top marker must be -1. So, for this code to work it is critical that we add
+the initial value of top marker through an assignment after the stack variable as been
+instantiated.If you look closely further you will realize that we are able to do this because I have
+defined the stack variables, the data members as public. Therefore, I can easily access the
+top_ data member and do this assignment and so therefore we what we observed here is
+in this solution we have an initialization which exposes the internal of the stack in
+contrary to the information hiding principles that we had invite earlier.
+So, let us move on to the right column where in contrast to the public data that we are
+used here, in contrast we use private data we go back to our information hiding paradigm
+so we make the data private and if we do that naturally, we cannot write this anymore
+here because as you can very well understand that if we try to write s.top_ = -1; then the
+compiler will not compile this program it will give us an error saying that top is a private
+data member and cannot be accessed. We solve that problem by introducing a separate
+function say by the name of init() which we put on the interface as a public method and
+init() basically initializes top to -1, and here instead of doing s.top = -1 we give a call to
+the init(). They should serve the same purpose.
+With this we can still maintain the information hiding principle that the object-oriented
+design must follow and ensure that the solution will work. And a side benefit of doing
+this is also you can compare here in these two lines, for example when the data member
+was public as we had illustrated earlier in terms of access specification module that if the
+data member is public it is possible to create some potential risk, if inadvertently s.top is
+assign to some value in the middle. But, when we are back to the information hiding
+principle now this kind of a code cannot be return with a private data because it will
+become compilation error. In that way making the data member private and providing a
+init function is a better proposition of solution for the initialization problem, and
+certainly we would like to work on with this private data further.(Refer Slide Time: 07:10)
+Now let us move on. On the left column you see the same code that you just saw which
+has the private data and public methods including and init() method to initialize top. As
+we have observed that provides a clean initialization, but the question is certainly what if
+the application forgets to call init(), or what if the application would call init() at a wrong
+position? If the application misses to call this init() which for the application as actually
+no purpose because the application is trying to reverse a string and it knows that it is a
+LIFO structure which has empty, top, pop and push, these four methods but, for all this
+to work it as to call in it but if it misses on that then naturally we have an arbitrary value
+in top to start with, and therefore the whole program will give a very unpredictable
+behavior.
+So, you ask a question that can we do better than this, can we when the stack is actually
+instantiated when it is defined is it possible that right at that instantiation point if this
+initialization call can be somehow done. The mechanism of constructor basically
+provides this solution. C++ provides a mechanism by which if you instantiate an object a
+special function call the constructor is invoked right at this point, and this constructor can
+be used to initialize the values of data members as are required. Just looking into this
+example, then we do not have the init() call anymore this is not there instead we have
+introduced a new method which is called the constructor of this object. How do youknow this is the constructor? It has a typical signature of having the same name as the
+name of the class, so by the name you know this is a constructor it has a little bit of
+different way of putting things and we will discuss that more.
+But, what we say here is necessarily we are saying that take the data member top and put
+-1 as an initial value. The other, it is not required to initialize the array because it will get
+used as and when push and pop happens. But the advantage is, if we define a constructor
+then as soon as the control will pass this particular point that is when the object gets
+instantiated immediately an automatic call, an implicit call, will happen to this method,
+and that call will make sure that top is indeed assign to -1. So, when we return from this
+call at this point we already have the top of yes initialize to -1 and that, this implicit
+initialization is a beauty of the constructor.
+(Refer Slide Time: 10:51)
+Let us look at more examples say here, let us now we again have the same kind of
+example with the stack where the constructor is there and we know on the left-hand side
+that the constructor will initialize top all that I am showing here is earlier the constructor
+was written as a part of the class right at this point you will remember. But now, we have
+written it outside of the class, it is written as Stack::Stack():, this naming also you willrecall is any class member has a name which is qualified by the name of the class. So,
+this is the name of the class Stack, this is the name of constructor.
+What we have is the body of the constructor, and in that body first we have initialized top
+to -1 and then rest of the cout statement. If we do this then as soon as the stack is
+instantiated here the call is made to this point top is initialized the cout happens which
+you see here control comes back and then the reversal of the string happens. A very
+seamless procedure by which the top is getting explicitly initialized, of course the other
+data member which is a array is a automatic default initialization because it is a given
+array of certain size.
+Now, let us see if we just make a small change instead of having an automatic array if
+you just have a pointer to character, therefore what we are trying to do is to dynamically
+create this array. So naturally in the stack code the initialization to top remains same, but
+we now also have to initialize the array pointer which we do by dynamically allocating
+it. At this point let us understand this way of writing the initialization. Just note carefully
+that in the initialization we first write the name of the data member and then within a pair
+of parenthesis we write the value that we want to use it as an initialization. If we look at
+data, this is the data pointer and this expression as you know will use the operator new
+allocate an array of character having 10 elements and return a pointer to that array having
+char * as a pointer type and that pointer is what is being set as a initial value in data.
+This is something which we had not seen earlier. The earlier styles where of assignment
+where we will say top_ =1, or we will say data = new char[10] like this. But here this
+special way of writing the initialization which is possible only when you are using a
+constructor and note that after the signature of the constructor you have a separator as
+colon and you need to write this whole list of initializations of data members between
+this colon and the opening curly brackets of the constructor body.
+Here you write the data member one after the other separated by coma and after every
+data member within a pair of parenthesis you write what value you want to initialize
+them with. Certainly, every data member can occur here only once and it is not necessarythat all data members will have to be initialized, but we can initialize all of them also if
+we want as we done in this case.
+What will happen for this particular version of the stack? As soon as the control passes
+this point, where the stack as being instantiated this constructor will get called, so for the
+stack object s the top will get initialize to -1 there will be a dynamic allocation of the
+character array of size 10 and its pointer will be set to data, and then the stack call, this
+message will get printed and on completion the control will come back to this point
+where the string reverse will proceed.
+With this we can see that the constructor can be used to initialize the data member in
+multiple different ways and the mechanism of C++ will ensure that instantiation itself is
+initialization of the object as well. And the application has no over head of remembering
+or trying to make sure that the initialization happens for the stack data part or for the
+stack top marker part, it will be the responsibility of the constructor and the compiler will
+call this constructor implicitly we do not have to remember to call it, at an appropriate
+point it will get called every time.
+(Refer Slide Time: 16:44)Now, just to some up what does a constructor do, a constructor as we have seen is
+necessarily a member function, but it has a number of differences with the member
+function. So, being a member function, it has a this pointer like any member function,
+but its name as I already mentioned is specifically the name of the class which is not so
+for the other member functions.
+You may have noticed already that there is no return type being shown because the job of
+the constructor is to construct the object and initialize it, it is not meant for doing a
+computation and giving you a value back. Even though at the constructor is a function it
+does not return any value and it does not have a return type not even void. You have seen
+function which have void return type which say that I am not returning anything, but in
+constructor that is not the case. In the constructor what you say is there is no mechanism
+to return any value at all, so there is no return type to be specified.
+Since there is no return type there is no return statement either so you will not find any
+return statement unlike a common member function where there can be return statement
+or the return could be implicit if your return type is void, but a constructor will not need
+any return statement it will return implicitly. In addition, the constructor will have the
+initialization list which I have just explained the list of data members within parenthesis
+the initialization value. The list starts with a colon ends with the beginning of the
+constructor body, and this is something which as no parallel for any other member
+functions. The constructor does not have any explicit call it is implicitly called by
+instantiation as soon as I instantiate this object the constructor will get called, where as
+the call objects are necessarily explicit in nature.
+We will see examples, but finally a constructor may have any number of parameters in
+the example that we have seen right now there is no parameter, but a constructor like any
+other member function may have any number of parameters, and like other member
+functions a constructor can be over loaded as well.(Refer Slide Time: 19:20)
+A constructor is a special function which basically will help us in initializing objects
+implicitly all the time. We quickly flip through a couple of slides looking at variety of
+constructors that you can define in C++, you can have parameters in the constructor these
+are called Parameterized constructor. We are showing the double type again which we
+have already seen so this parameter values can be used to initialize the data members
+through the initialization list. Then the constructor will get invoked implicitly by
+instantiation and there are two syntax typically that can be used for it.
+One is a typical function call kind of syntax, where you put the object name and with in
+parenthesis you put the parameters of the constructor in the same order in which they are
+define for the constructor. So when I do write this particular object instantiation it means
+that when control passes this point the constructor of complex will get called where 4.2
+will get go as the value of re, 5.3 will go as a value of im and with that the object will get
+constructed and set as the object c. Beyond this if you do c.re you should get a value 4.2,
+that is what this print statement show here, where we print the complex number complex
+notation and compute its norm. Similarly, if I do im component of c I will get 5.3.
+In the second, in case of d we just show the same thing in a different alternate notation
+this is called list initialization. That is, if you have multiple parameters in a constructoryou could put the initial values of these parameters in terms of a pair of curly braces
+(Refer Time: 21:22) in the list notation and use an initialization symbol after the object
+name. The effect of both are same, they are just alternate notations for doing the same
+operation. So, constructors which have one or more parameters is known as
+Parameterized constructors.
+(Refer Slide Time: 21:45)
+Now, constructor in every respect is just another member function, or specifically just
+another function in C++ therefore, if I have parameters I can also have default values for
+parameters. So, I can have constructor with different default values so you show an
+example here again with the two parameters re and im having default values 0.0. Then
+based on all the rules of default parameter for functions and default parameters for
+invocation of functions, we can use this same constructor to construct objects in three
+different ways I can put both the parameters I can just specify the first parameter or I can
+specify none of the parameter. Parameters that are not specified will take the default
+values and accordingly if you print out you will be able to see the corresponding objects
+as they have got created. It is just showing that the whole mechanism of defaulting
+parameter values all rules has we have learnt for function with default parameters will
+also apply to constructors.(Refer Slide Time: 23:06)
+This is just another example here, is we are going back to to stack so we show a
+constructor for a stack with a default size_t value 10 (size_t = 10). In the definition of the
+constructor we have a parameter, so if I want I can pass this parameter value for example
+here, we are constructing the object taking the length of the string that we want to reverse
+because we know that if this stack is meant to reverse the given string STR then it is
+never going to need more size than the length of the string so we can use that and make a
+stack which is just large enough to accommodate the string and here you can see that the
+constructor is printing as to what is the size of the stack that has got created. If I do not
+use this, if we do not provide all this information of what should be the size if we just
+write Stack s then certainly it will take the default parameter value 10 and create a stack
+of 10 elements.
+So, these are the different examples of constructors that we can have.(Refer Slide Time: 24:25)
+Next like any other C++ group of functions the constructors can also be overloaded,
+which mean that a class can more than one constructor because necessarily being a
+constructor it has the same name as the class name, so if I want to write two constructor
+they will necessarily have the same name, but it is permitted to do so as long as they
+differed in the number of parameters or types of parameters and so on. All rules of
+function overloading as we are learnt will apply exactly in the same way in the terms of
+over-loaded constructor. So here we are showing the three constructors for complex
+which one which takes two parameters re and im both, one which just takes array and
+one which takes nothing.
+And we are using these parameters in terms of the three possible instantiations of the
+number of parameters deciding which particular form of the constructor that will get
+invoked. For example, if we look at this instantiation of c2, when c2 will gets
+instantiated then naturally this constructor which has one parameter will get invoked.
+Whereas, if c1, when c1 is being instantiated then the constructor having two parameters
+will get invoked, so all rules of over loaded constructors apply in this case.
+In this way constructors can be over loaded and we can write construction process in
+terms of variety of different parameters and their combinations and so on and as we goforward we will see several more examples of how overloaded constructions becomes
+important for writing very effective construction mechanism for the different classes that
+we built.

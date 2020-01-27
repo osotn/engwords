@@ -1,0 +1,386 @@
+1.1 Getting started
+Some prerequisites about terminals and typing
+To avoid explaining everything about using computers, we must assume you
+have some familiarity with computer terminals and how to use them. If any of
+the following statements are mystifying, you should ask a local expert for help.
+The UNIX system is full duplex: the characters you type on the keyboard are
+sent to the system, which sends them back to the terminal to be printed on the
+screen. Normally, this echo process copies the characters directly to the
+screen, so you can see what you are typing, but sometimes, such as when you
+are typing a secret password, the echo is turned off so the characters do not
+appear on the sc"een.
+Most of the keyboard characters are ordinary printing characters with no
+special significance, but a few tell the computer how to interpret your typing.
+By far the most important of these is the RETURN key. The RETURN key signifies the end of a line of input; the system echoes it by moving the terminal's
+cursor to the beginning of the next line on the screen. RETURN must be
+pressed before the system will interpret the characters you have typed.
+RETURN is an example of a control character - an invisible character that
+controls some aspect of input and output on the terminal. On any reasonable
+terminal, RETURN has a key of its own, but most control characters do not.
+Instead, they must be typed by holding down the CONTROL key, sometimes
+called CTL or CNTL or CTRL, then pressing another key, usually a letter. For
+example, RETURN may be typed by pressing the RETURN key or,
+equivalently, holding down the CONTROL key and typing an 'm'. RETURN
+might therefore be called a control-m, which we will write as ctl-m. Other control characters include ctl-d, which tells a program that there is no more input;
+ctl-g, which rings the bell on the terminal; ctl-h, often called backspace, which
+can be used to correct typing mistakes; and ctl-i, often called tab, which
+advances the cursor to the next tab stop, much as on a regular typewriter. Tab
+stops on UNIX systems are eight spaces apart. Both the backspace and tab characters have their own keys on most terminals.
+Two other keys have special meaning: DELETE, sometimes called RUBOUT
+or some abbreviation, and BREAK, sometimes called INTERRUPT. On most
+UNIX systems, the DELETE key stops a program immediately, without waiting
+for it to finish. On some systems, ctl-c provides this service. And on some
+systems, depending on how the terminals are connected, BREAK is a synonym
+for DELETE or ctl-c.
+A Session with UNIX
+Let's begin with an annotated dialog between you and your UNIX system.
+Throughout the examples in this book, what you type is printed in slanted
+letters, computer responses are in typewriter-style characters, and
+explanations are in italics.
+Establish a connection: dial a phone or turn on a switch as necessary.
+Your system should say
+login: you
+Password:
+You have mail.
+$
+$
+$ date
+Sun Sep 25 23:02:57 EDT
+$ who
+jIb
+you
+mary
+doug
+egb
+bob
+$ mail
+From doug
+give me a
+ttyO
+tty2
+tty4
+tty5
+tty7
+tty8
+Type your name, then press RETURN
+Your password won't be echoed as you type it
+There's mail to be read after you log in
+The system is now ready for your commands
+Press RETURN a couple of times
+What's the date and time?
+1983
+Who's using the machine?
+Sep 25 13:59
+Sep 25 23:01
+Sep 25 19:03
+Sep 25 19:22
+Sep 25 17:17
+Sep 25 20:48
+Read your mail
+Sun Sep 25 20:53 EDT 1983
+call sometime monday
+? RETURN moves on to the next message
+From mary Sun Sep 25 19:07 EDT 1983 Next message
+Lunch at noon tomorrow?
+? d
+$
+$ mail mary
+lunch at 12 is fine
+ctl-d
+$
+Delete this message
+No more mail
+Send mail to mary
+End of mail
+Hang up phone or turn off terminal
+and that's the end
+Sometimes that's all there IS to a session, though occasionally people do
+some work too. The rest of this section will discuss the session above, plus
+other programs that make it possible to do useful things.
+Logging in
+You must have a login name and password, which you can get from your
+system administrator. The UNIX system is capable of dealing with a wide
+variety of terminals, but it is strongly oriented towards devices with lower case;
+case distinctions matter! If your terminal produces only upper case (like some
+video and portable terminals), life will be so difficult that you should look for
+another terminal.
+Be sure the switches are set appropriately on your device: upper and lower
+case, full duplex, and any other settings that local experts advise, such as the
+speed, or baud rate. Establish a connection using whatever magic is needed
+for your terminal; this may involve dialing a telephone or merely flipping a
+switch. In either case, the system should type
+login:
+If it types garbage, you may be at the wrong speed; check the speed setting and
+other switches. If that fails, press the BREAK or INTERRUPT key a few times,
+slowly. If nothing produces a login message, you will have to get help.
+When you get the login: message, type your login name in lower case.
+Follow it by pressing RETURN. If a password is required, you will be asked
+for it, and printing will be turned off while you type it.
+The culmination of your login efforts is a prompt, usually a single character, indicating that the system is ready to accept commands from you. The
+prompt is most likely to be a dollar sign $ or a percent sign %, but you can
+change it to anything you like; we'll show you how a little later. The prompt is
+actually printed by a program called the command interpreter or shell, which is
+your main interface to the system.
+There may be a message of the day just before the prompt, or a notification
+that you have mail. You may also be asked what kind of terminal you are
+using; your answer helps the system to use any special properties the terminal
+might have.
+Typing commands
+Once you receive the prompt, you can type commands, which are requests
+that the system do something. We will use program as a synonym for command. When you see the prompt (let's assume it's $), type date and press
+RETURN. The system should reply with the date and time, then print another
+prompt, so the whole transaction will look like this on your terminal:
+$ date
+Mon Sep 26 12:20:57 EDT 1983
+$
+Don't forget RETURN, and don't type the $. If you think you're being
+ignored, press RETURN; something should happen. RETURN won't be mentioned again, but you need it at the end of every line.
+The next command to try is who, which tells you everyone who is currently
+logged in:
+$ who
+rIm ttyO Sep 26 11:17
+pjw tty4 Sep 26 11:30
+gerard tty7 Sep 26 10:27
+mark tty9 Sep 26 07:59
+you ttya Sep 26 12:20
+$
+The first column is the user name. The second is the system's name for the
+connection being used ("tty" stands for '''teletype,'' an archaic synonym for
+"terminal") . The rest tells when the user logged on. You might also try
+$ who am i
+you ttya
+$
+Sep 26 12:20
+If you make a mistake typing the name of a command, and refer to a non-existent command, you will be told that no command of that name can be
+found:
+$ whom
+whom: not found
+$
+Misspelled command name ...
+... so system didn't know how to run it
+Of course, if you inadvertently type the name of an actual command, it will
+run, perhaps with mysterious results.
+Strange terminal behavior
+Sometimes your terminal will act strangely, for example, each letter may be
+typed twice, or RETURN may not put the cursor at the first column of the next
+line. You can usually fix this by turning the terminal off and on, or by logging
+out and logging back in. Or you can read the description of the command
+stty ("set ,terminal options") in Section 1 of the manual. To get intelligent
+treatment of tab characters if your terminal doesn't have tabs, type the command
+$ stty -tabs
+and the system will convert tabs into the right number of spaces. If your terminal does have computer-settable tab stops, the command tabs will set them
+correctly for you. (You may actually have to say
+$ tabs terminal-type
+to make it work - see the tabs command description in the manual.)
+Mistakes in typing
+If you make a typing mistake, and see it before you have pressed RETURN,
+there are two ways to recover: erase characters one at a time or kill the whole
+line and re-type it.
+If you type the line kill character, by default an at-sign @, it causes the
+whole line to be discarded, just as if you'd never typed it, and starts you over
+on a new line:
+$ ddtae@
+date
+Mon Sep 26 12:23:39 EDT 1983
+$
+Completely botched; start over
+on a new line
+The sharp character # erases the last character typed; each # erases one
+more character, back to the beginning of the line (but not beyond). So if you
+type badly, you can correct as you go:
+$ dd#atte##e Fix it as you go
+Mon Sep 26 12:24:02 EDT 1983
+$
+The particular erase and line kill characters are very system dependent. On
+many systems (including the one we use), the erase character has been changed
+to backspace, which works nicely on video terminals. You can quickly check
+which is the case on your system:
+$ datee4-
+datee: not found
+$ datee#
+Mon Sep 26 12:26:08 EDT 1983
+$
+Try 
+It's not 
+Try #
+It is #
+(We printed the backspace as +- so you can see it.) Another common choice is
+ctl-u for line kill.
+We will use the sharp as the erase character for the rest of this section
+because it's visible, but make the mental adjustment if your system is different.
+Later on, in "tailoring the environment," we will tell you how to set the erase
+and line kill characters to whatever you like, once and for all.
+What if you must enter an erase or line kill character as part of the text? If
+you precede either # or @ by a backslash \, it loses its special meaning. So to
+enter a # or @, type \# or \@. The system may advance the terminal's cursor
+to the next line after your @, even if it was preceded by a backslash. Don't
+worry - the at-sign has been recorded.
+The backslash, sometimes called the escape character, is used extensively to
+indicate that the following character is in some way special. To erase a
+backslash, you have to type two erase characters: \##. Do you see why?
+The characters you type are examined and interpreted by a sequence of programs before they reach their destination, and exactly how they are interpreted
+depends not only on where they end up but how they got there.
+E very character you type is immediately echoed to the terminal, unless
+echoing is turned off, which is rare. Until you press RETURN, the characters
+are held temporarily by the kernel, so typing mistakes can be corrected with
+the erase and line kill characters. When an erase or line kill character is preceded by a backslash, the kernel discards the backslash and holds the following
+character without interpretation.
+When you press RETURN, the characters being held are sent to the program that is reading from the terminal. That program may in turn interpret
+the characters in special ways; for example, the shell turns off any special
+interpretation of a character if it is preceded by a backslash. We'll come back
+to this in Chapter 3. For now, you should remember that the kernel processes
+erase and line kill, and backslash only if it precedes erase or line kill; whatever
+characters are left after that may be interpreted by other programs as well.
+Exercise 1-1. Explain what happens with
+$ date\@
+o
+Exercise 1-2. Most shells (though not the 7th Edition shell) interpret # as introducing a
+comment, and ignore all text from the # to the end of the line. Given this, explain the
+following transcript, assuming your erase character is also #:
+$ date
+Mon Sep 26 12:39:56 EDT 1983
+$ #date
+Mon Sep 26 12:40:21 EDT 1983
+$ \#date
+$ \\#date
+#date: not found
+$
+o
+Type-ahead
+The kernel reads what you type as you type it, even if it's busy with something else, so you can type as fast as you want, whenever you want, even when
+some command is printing at you. If you type \ while the system is printing,
+your input characters will appear intermixed with the output characters, but
+they will be stored away and interpreted in the correct order. You can type
+commands one after another without waiting for them to finish or even to
+be gin.
+Stopping a program
+You can stop most commands by typing the character DELETE. The
+BREAK key found on most terminals may also work, although this is system
+dependent. In a few programs, like text editors, DELETE stops whatever the
+program is doing but leaves you in that program. Turning off the terminal or
+hanging up the phone will stop most programs.
+If you just want output to pause, for example to keep something critical
+from disappearing off the screen, type etl-s. The output will stop almost
+immediately; your program is suspended until you start it again. When you
+want to resume, type etl-q.
+Logging out
+The proper way to log out is to type etl-d instead of a command; this tells
+the shell that there is no more input. (How this actually works will be
+explained in the next chapter.) You can usually just turn off the terminal or
+hang up the phone, but whether this really logs you out depends on your system.
+Mail
+The system provides a postal system for communicating with other users, so
+some day when you log in, you will see the message
+You have mail.
+before the first prompt. To read your mail, type
+$ mail
+Your mail will be printed, one message at a time, most recent first. After each
+item, mail waits for you to say what to do with it. The two basic responses
+are d, which deletes the message, and RETURN 'I which does not (so it will still
+be there the next time you read your mail). Other responses include p to
+reprint a message, s filename to save it in the file you named, and q to quit
+from mail. (If you don't know what a file is, think of it as a place where you
+can store information under a name of your choice, and retrieve it later. Files
+are the topic of Section 1.2 and indeed of much of this book.)
+mail is one of those programs that is likely to differ from what we describe
+here; there are many variants. Look in your manual for details.
+Sending mail to someone is straightforward. Suppose it is to go to the person with the login name nicc. The easiest way is this:
+$ mail nico
+Now type in the text of the letter
+on as many lines as you like ...
+After the last line of the letter
+type a control-d.
+ctl-d
+$
+The etl-d signals the end of the letter by telling the mail command that there
+is no more input. If you change your mind half-way through composing the
+letter, press DELETE instead of etl-d. The half-formed letter will be stored in
+a file called dead. letter instead of being sent.
+For practice, send mail to yourself, then type mail to read it. (This isn't
+as aberrant as it might sound - it's a handy reminder mechanism.)
+There are other ways to send mail - you can send a previously prepared
+letter, you can mail to a number of people all at once, and you may be able to
+send mail to people on other machines. For more details see the description of
+the mail command in Section 1 of the UNIX Programmer's Manual. Hen-
+ceforth we'll use the notation mail( 1) to mean the page describing mail in
+Section 1 of the manual. All of the commands discussed in this chapter are
+found in Section 1.
+There may also be a calendar service (see calendar(1)); we'll show you in
+Chapter 4 how to set one up if it hasn't been done already.
+Writing to other users
+If your UNIX system has multiple users, someday, out of the blue, your terminal will print something like
+Message from mary tty7...
+accompanied by a startling beep. Mary wants to write to you, but unless you
+take explicit action you won't be able to write back. To respond, type
+$ write mary
+This establishes a two-way communication path. Now the lines that Mary
+types on her terminal will appear on yours and vice versa, although the path is
+slow, rather like talking to the moon.
+If you are in the middle of something, you have to get to a state where you
+can type a command. Normally, whatever program you are running has to
+stop or be stopped, but some programs, such as the editor and wri te itself,
+have a '!' command to escape temporarily to the shell - see Table 2 in
+Appendix 1.
+The wri te command imposes no rules, so a protocol is needed to keep
+what you type from getting garbled up with what Mary types. One convention
+is to take turns, ending each turn with (0), which stands for "over," and to
+signal your intent to quit with (00), for "over and out."
+Mary's terminal:
+$ write you
+Your terminal:
+$ Message from mary tty7...
+write mary
+Message from you ttya...
+did you forget lunch? (0)
+did you forget lunch? (0)
+five@
+ten minutes (0)
+ten minutes (0)
+ok (00)
+ok (00)
+ctl-d
+EOF
+ctl-d
+$ EOF
+$
+You can also exit from wr i te by pressing DELETE. Notice that your typing
+errors do not appear on Mary's terminal.
+If you try to write to someone who isn't logged in, or who doesn't want to
+be disturbed, you'll be told. If the target is logged in but doesn't answer after
+a decent interval, the person may be busy or away from the terminal; simply
+type ctl-d or DELETE. If you don't want to be disturbed, use me sg( 1) .
+News
+Many UNIX systems provide a news service, to keep users abreast of
+interesting and not so interesting events. Try typing
+$ news
+There is also a large network of UNIX systems that keep in touch through telephone calls; ask a local expert about netnews and USENET.
+The manual
+The UNIX Programmer's Manual describes most of what you need to know
+about the system. Section 1 deals with commands, including those we discuss
+in this chapter. Section 2 describes the system calls, the subject of Chapter 7,
+and Section 6 has information about games. The remaining sections talk about
+functions for use by C programmers, file formats, and system maintenance.
+(The numbering of these sections varies from system to system.) Don't forget
+the permuted index at the beginning; you can skim it quickly for commands
+that might be relevant to what you want to do. There is also an introduction
+to the system that gives an overview of how things work.
+Often the manual is kept on-line so that you can read it on your terminal.
+If you get stuck on something, and can't find an expert to help, you can print
+any manual page on your terminal with the command man command-name.
+Thus to read about the who command, type
+$ man who
+and, of course,
+$ man man
+tells about the man command.
+Computer-aided instruction
+Your system may have a command called learn, which provides
+computer-aided instruction on the file system and basic commands, the editor,
+document preparation, and even C programming. Try
+$ learn
+If learn exists on your system, it will tell you what to do from there. If that
+fails, you might also try teach.
+Games
+It's not always admitted officially, but one of the best ways to get comfortable with a computer and a terminal is to play games. The UNIX system comes
+with a modest supply of games, often supplemented locally. Ask around, or
+see Section 6 of the manual.
+

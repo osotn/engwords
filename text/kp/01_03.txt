@@ -1,0 +1,192 @@
+1.3 More about files: directories
+The system distinguishes your file called junk from anyone else's of the
+same name. The distinction is made by grouping files into directories, rather
+in the way that books are placed on shelves in a library, so files in different
+directories can have the same name without any conflict.
+Generally each user has a personal or home directory, sometimes called
+login directory, that contains only the files that belong to him or her. When
+you log in, you are "in" your home directory. You may change the directory
+you are working in - often called your working or current directory - but
+your home directory is always the same. Unless you take special action, when
+you create a new file it is made in your current directory. Since this is initially
+your home directory, the file is unrelated to a file of the same name that might
+exist in someone else's directory.
+A directory can contain other directories as well as ordinary files ("Great
+directories have lesser directories..."). The natural way to picture this organization is as a tree of directories and files. It is possible to move around within
+this tree, and to find any file in the system by starting at the root of the tree
+and moving along the proper branches. Conversely, you can start where you
+are and move toward the root.
+Let's try the latter first. Our basic tool is the command pwd ("print working directory"), which prints the name of the directory you are currently in:
+Table 1.1:
+Is
+1 s filenames
+Is -t
+Is -1
+Is -u
+Is -r
+ed filename
+cp filel file2
+mv filel file2
+rm filenames
+cat filenames
+pr filenames
+pr -n filenames
+pr -m filenames
+we filenames
+we -1 filenames
+grep pattern filenames
+grep -v pattern files
+sort filenames
+tail filename
+tail -n filename
+tail +n filename
+crop filel file2
+diff filel fUe2
+Common File System Commands
+list names of all files in current directory
+list only the named files
+list in time order, most recent first.
+1ist long: more information; also Is -It
+hst by time last used; also Is -lu, Is -lut
+Ust in reverse order; also -rt, -r1 t, etc.
+edit named file
+copy filel to file2, overwrite old file2 if it exists
+move filel to file2, overwrite old file2 if it exists
+remove named files, irrevocably
+print contents of named files
+print contents with header, 66 lines per page
+print in n columns
+print named files side by side (multiple columns)
+count lines, words and characters for each file
+count lines for each file
+print lines matching pattern
+print lines not matching pattern
+sort files alphabetically by line
+print last 10 lines of file
+print last n lines of file
+start printing file at line n
+print location of first difference
+print all differences between files
+$ pwd
+/usr/you
+$
+This says that you are currently in the directory you, in the directory usr,
+which in turn is in the root directory, which is conventionally called just 'I'.
+The / characters separate the components of the name; the limit of 14 characters mentioned above applies to each component of such a name. On many
+systems, /usr is a directory that contains the directories of all the normal
+users of the system. (Even if your home directory is not /usr /you, pwd will
+print something analogous, so you should be able to follow what happens
+below. )
+If you now type
+$ 1s /usr/you
+you should get exactly the same list of file names as you get from a plain 1 So
+When no arguments are provided, 1 S lists the contents of the current directory; given the name of a directory, it lists the contents of that directory.
+Next, try
+$ 1s /usr
+This should print a long series of names, among which is your own login directory you.
+The next step is to try listing the root itself. Y ou should get a response
+similar to this:
+$ 1s /
+bin
+boot
+dev
+etc
+lib
+tmp
+unix
+usr
+$
+(Don't be confused by the two meanings of /: it's both the name of the root
+and a separator in filenames.) Most of these are directories, but unix is actually a file containing the executable form of the UNIX kernel. More on this in
+Chapter 2.
+N ow try
+$ cat /usr/you/junk
+(if junk is still in your directory) 0 The name
+/usr/you/junk
+is called the pathname of the file. "Pathname" has an intu itive meaning: it
+represents the full name of the path from the root through the tree of directories to a particular file. It is a universal ru]e in the UNIX system that wherever you can use an ordinary filename, you can use a pathname.
+The file system is structured like a genealogical tree; here is a picture that
+may make it clearer.
+you mike
+/
+junk
+Your file named junk is unrelated to Paul's or to Mary's.
+Pathnames aren't too exciting if all the files of interest are in your own
+directory, but if you work with someone else or on several projects con-currently, they become handy indeed. For example, your friends can print
+your junk by saying
+$ cat /usr/you/junk
+Similarly, you can find out what files Mary has by saying
+$ Is /usr/mary
+data
+junk
+$
+or make your own copy of one of her files by
+$ cp /usr/mary/data data
+or edit her file:
+$ ed /usr/mary/data
+If Mary doesn't want you poking around in her files, or vice versa, privacy
+can be arranged. Each file and directory has read-write-execute permissions
+for the owner, a group, and everyone else, which can be used to control access.
+(Recall Is -1.) In our local systems, most users most of the time find openness of more benefit than privacy, but policy may be different on your system,
+so we'll get back to this in Chapter 2.
+As a final set of experiments with pathnames, try
+$ Is /bin /usr/bin
+Do some of the names look familiar? When you run a command by typing its
+name after the prompt, the system looks for a file of that name. It normally
+looks first in your current directory (where it probably doesn't find it), then in
+/bin, and finally in /usr /bin. There is nothing special about commands
+]ike cat or 1 s, except that they have been collected into a couple of directories to be easy to find and administer. To verify this, try to execute some of
+these programs by using their full pathnames:
+$ /bin/date
+Mon Sep 26 23:29:32 EDT
+$ /bin/who
+srm tty1
+cvw "tty4
+you tty5
+$
+1983
+Sep 26 22:20
+Sep 26 22:40
+Sep 26 23:04
+Exercise 1-3. Try
+"i
+$ 1s /usr/games
+and do whatever comes naturally. Things might be more fun outside of normal working
+hours. 0
+Changing directory - cd
+If you work regularly with Mary on information in her directory, you can
+say "I want to work on Mary's files instead of my own." This is done by
+changing your current directory with the cd command:
+$ cd /usr/mary
+Now when you use a filename (without /'s) as an argument to cat or pr, it
+refers to the file in Mary's directory. Changing directories doesn't affect any
+permissions associated with a file - if you couldn't access a file from your
+own directory, changing to another directory won't alter that fact.
+It is usually convenient to arrange your own files so that all the files related
+to one thing are in a directory separate from other projects. For example, if
+you want to write a book, you might want to keep all the text in a directory
+called book. The command rnkdir makes a new directory.
+$ mkdir book
+$ cd book
+$ pwd
+/usr/you/book
+Make a directory
+Go to it
+Make sure you're in the right place
+$ cd
+$ pwd
+/usr/you
+$
+Write the book (several minutes pass)
+Move up one level in file system
+, . . ' refers to the parent of whatever directory you are currently in, the directory one level closer to the root. '..' is a synonym for the current directory.
+$ cd
+Return to home directory
+all by itself will take you back to your home directory, the directory where you
+log in.
+Once your book is published, you can clean up the files. To remove the
+directory book, remove all the files in it (we'll show a fast way shortly), then
+cd to the parent directory of book and type
+$ rmdir book
+rmdir will only remove an empty directory.
+

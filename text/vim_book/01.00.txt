@@ -1,0 +1,301 @@
+CHAPTER 1
+The vi Text Editor
+Unix * has a number of editors that can process the contents of text files, whether those
+files contain data, source code, or sentences. There are line editors, such as ed and ex ,
+which display a line of the file on the screen; and there are screen editors, such as vi
+and Emacs, which display a part of the file on your terminal screen. Text editors based
+on the X Window System are also commonly available and are becoming increasing
+popular. Both GNU Emacs and its derivative, XEmacs, provide multiple X windows;
+two interesting alternatives are the sam and Acme editors from Bell Labs. Vim also
+provides an X-based interface.
+vi is the most useful standard text editor on your system. ( vi is short for visual editor
+and is pronounced “vee-eye.” This is illustrated graphically in Figure 1-1.) Unlike
+Emacs, it is available in nearly identical form on every modern Unix system, thus providing a kind of text-editing lingua franca. † The same might be said of ed and ex , but
+screen editors are generally much easier to use. (So much so, in fact, that line editors
+have generally fallen into disuse.) With a screen editor, you can scroll the page, move
+the cursor, delete lines, insert characters, and more, while seeing the results of your
+edits as you make them. Screen editors are very popular, since they allow you to make
+changes as you read through a file, like you would edit a printed copy, only faster.
+To many beginners, vi looks unintuitive and cumbersome—instead of using special
+control keys for word processing functions and just letting you type normally, it uses
+all of the regular keyboard keys for issuing commands. When the keyboard keys are
+issuing commands, vi is said to be in command mode. You must be in a special insert
+mode before you can type actual text on the screen. In addition, there seem to be so
+many commands.
+* These days, the term “Unix” includes both commercial systems derived from the original Unix code base,
+and Unix work-alikes whose source code is available. Solaris, AIX, and HP-UX are examples of the former,
+and GNU/Linux and the various BSD-derived systems are examples of the latter. Unless otherwise noted,
+everything in this book applies across the board to all those systems.
+† GNU Emacs has become the universal version of Emacs. The only problem is that it doesn’t come standard
+with most commercial Unix systems; you must retrieve and install it yourself.
+3Figure 1-1. Correct pronunciation of vi
+Once you start learning, however, you realize that vi is well designed. You need only
+a few keystrokes to tell vi to do complex tasks. As you learn vi , you learn shortcuts
+that transfer more and more of the editing work to the computer—where it belongs.
+vi (like any text editor) is not a “what you see is what you get” word processor. If you
+want to produce formatted documents, you must type in codes that are used by another
+formatting program to control the appearance of the printed copy. If you want to indent
+several paragraphs, for instance, you put a code where the indent begins and ends.
+Formatting codes allow you to experiment with or change the appearance of your
+printed files, and, in many ways, they give you much more control over the appearance
+of your documents than a word processor. Unix supports the troff formatting package. ‡ The TEX and L A TEX formatters are popular, commonly available alternatives. §
+( vi does support some simple formatting mechanisms. For example, you can tell it to
+automatically wrap when you come to the end of a line, or to automatically indent new
+lines. In addition, Vim version 7 provides automatic spellchecking.)
+As with any skill, the more editing you do, the easier the basics become, and the more
+you can accomplish. Once you are used to all the powers you have while editing with
+vi , you may never want to return to any “simpler” editor.
+What are the components of editing? First, you want to insert text (a forgotten word
+or a new or missing sentence), and you want to delete text (a stray character or an entire
+paragraph). You also need to change letters and words (to correct misspellings or to
+reflect a change of mind about a term). You might want to move text from one place
+‡ troff is for laser printers and typesetters. Its “twin brother” is nroff , for line printers and terminals. Both
+accept the same input language. Following common Unix convention, we refer to both with the name
+troff . Today, anyone using troff uses the GNU version, groff . See http://www.gnu.org/software/groff/ for
+more information.
+§ See http://www.ctan.org and http://www.latex-project.org for information on TEX and L A TEX, respectively.
+4 | Chapter 1: The vi Text Editorto another part of your file. And, on occasion, you want to copy text to duplicate it in
+another part of your file.
+Unlike many word processors, vi ’s command mode is the initial or “default” mode.
+Complex, interactive edits can be performed with only a few keystrokes. (And to insert
+raw text, you simply give any of the several “insert” commands and then type away.)
+One or two characters are used for the basicIp commands. For example:
+i
+Insert
+cw
+Change word
+Using letters as commands, you can edit a file with great speed. You don’t have to
+memorize banks of function keys or stretch your fingers to reach awkward combina
+tions of keys. You never have to remove your hands from the keyboard, or mess around 
+with multiple levels of menus! Most of the commands can be remembered by the letters
+that perform them, and nearly all commands follow similar patterns and are related to
+each other.
+In general, vi commands:
+• Are case-sensitive (uppercase and lowercase keystrokes mean different things; I is
+different from i ).
+• Are not shown (or “echoed”) on the screen when you type them.
+• Do not require an ENTER after the command.
+There is also a group of commands that echo on the bottom line of the screen. Bottomline commands are preceded by different symbols. The slash ( / ) and the question mark
+( ? ) begin search commands, and are discussed in Chapter 3. A colon ( : ) begins all ex
+commands. ex commands are those used by the ex line editor. The ex editor is available
+to you when you use vi , because ex is the underlying editor and vi is really just its
+“visual” mode. ex commands and concepts are discussed fully in Chapter 5, but this
+chapter introduces you to the ex commands to quit a file without saving edits.
+A Brief Historical Perspective
+Before diving into all the ins and outs of vi , it will help you to understand vi ’s worldview
+of your environment. In particular, this will help you make sense of many of vi ’s otherwise more obscure error messages, and also appreciate how the vi clones have evolved
+beyond the original vi .
+vi dates back to a time when computer users worked on terminals connected via serial
+lines to central mini-computers. Hundreds of different kinds of terminals existed and
+were in use worldwide. Each one did the same kind of actions (clear the screen, move
+the cursor, etc.), but the commands needed to make them do these actions were
+A Brief Historical Perspective | 5different. In addition, the Unix system let you choose the characters to use for backspace, generating an interrupt signal, and other commands useful on serial terminals,
+such as suspending and resuming output. These facilities were (and still are) managed
+with the stty command.
+The original UCB version of vi abstracted out the terminal control information from
+the code (which was hard to change) into a text-file database of terminal capabilities
+(which was easy to change), managed by the termcap library. In the early 1980s, System V introduced a binary terminal information database and terminfo library. The
+two libraries were largely functionally equivalent. In order to tell vi which terminal you
+had, you had to set the TERM environment variable. This was typically done in a shell
+startup file, such as .profile or .login .
+Today, everyone uses terminal emulators in a graphic environment (such as xterm ). The
+system almost always takes care of setting TERM for you. (You can use vi from a PC non GUI console too, of course. This is very useful when doing system recovery work in
+single-user mode. There aren’t too many people left who would want to work this way
+on a regular basis, though.) For day-to-day use, it is likely that you will want to use a
+GUI version of vi , such as Vim or one of the other clones. On a Microsoft Windows
+or Mac OS X system, this will probably be the default. However, when you run vi (or
+some other screen editor of the same vintage) inside a terminal emulator, it still uses
+TERM and termcap or terminfo and pays attention to the stty settings. And using it inside
+a terminal emulator is just as easy a way to learn vi as any other.
+Another important fact to understand about vi is that it was developed at a time when
+Unix systems were considerably less stable than they are today. The vi user of yesteryear
+had to be prepared for the system to crash at arbitrary times, and so vi included support
+for recovering files that were in the middle of being edited when the system crashed. ‖
+So, as you learn vi and see the descriptions of various problems that might occur, bear
+these historical developments in mind.
+Opening and Closing Files
+You can use vi to edit any text file. vi copies the file to be edited into a buffer (an area
+temporarily set aside in memory), displays the buffer (though you can see only one
+screenful at a time), and lets you add, delete, and change text. When you save your
+edits, vi copies the edited buffer back into a permanent file, replacing the old file of the
+same name. Remember that you are always working on a copy of your file in the buffer,
+and that your edits will not affect your original file until you save the buffer. Saving
+your edits is also called “writing the buffer,” or more commonly, “writing your file.”
+‖ Thankfully, this kind of thing is much less common, although systems can still crash due to external
+circumstances, such as a power outage.
+6 | Chapter 1: The vi Text EditorOpening a File
+v
+i
+vi is the Unix command that invokes the vi editor for an existing file or for
+a brand new file. The syntax for the vi command is:
+$ vi [filename]
+The brackets shown on the above command line indicate that the filename is optional.
+The brackets should not be typed. The $ is the Unix prompt. If the filename is omitted,
+vi will open an unnamed buffer. You can assign the name when you write the buffer
+into a file. For right now, though, let’s stick to naming the file on the command line.
+A filename must be unique inside its directory. A filename can include any 8-bit character except a slash (/), which is reserved as the separator between files and directories
+in a pathname, and ASCII NUL, the character with all zero bits. You can even include
+spaces in a filename by typing a backslash (\) before the space. In practice, though,
+filenames generally consist of any combination of uppercase and lowercase letters,
+numbers, and the characters dot (.) and underscore (_). Remember that Unix is case-sensitive: lowercase letters are distinct from uppercase letters. Also remember that you
+must press ENTER to tell Unix that you are finished issuing your command.
+When you want to open a new file in a directory, give a new filename with the vi
+command. For example, if you want to open a new file called practice in the current
+directory, you would enter:
+$ vi practice
+Since this is a new file, the buffer is empty and the screen appears as follows:
+~
+~
+~
+"practice" [New file]
+The tildes (~) down the lefthand column of the screen indicate that there is no text in
+the file, not even blank lines. The prompt line (also called the status line) at the bottom
+of the screen echoes the name and status of the file.
+You can also edit any existing text file in a directory by specifying its filename. Suppose
+that there is a Unix file with the pathname /home/john/letter . If you are already in
+the /home/john directory, use the relative pathname. For example:
+$ vi letter
+brings a copy of the file letter to the screen.
+If you are in another directory, give the full pathname to begin editing:
+$ vi /home/john/letter
+Opening and Closing Files | 7Problems Opening Files
+• When you invoke vi , the message [open mode] appears.
+Your terminal type is probably incorrectly identified. Quit the editing session immediately by typing :q . Check the environment variable $TERM . It should be set to
+the name of your terminal. Or ask your system administrator to provide an adequate terminal type setting.
+• You see one of the following messages:
+Visual needs addressable cursor or upline capability
+Bad termcap entry
+Termcap entry too long
+terminal: Unknown terminal type
+Block device required
+Not a typewriter
+Your terminal type is either undefined, or there’s probably something wrong with
+your terminfo or termcap entry. Enter :q to quit. Check your $TERM environment
+variable, or ask your system administrator to select a terminal type for your
+environment.
+• A [new file] message appears when you think a file already exists.
+Check that you have used correct case in the filename (Unix filenames are case-sensitive). If you have, then you are probably in the wrong directory. Enter :q to
+quit. Then check to see that you are in the correct directory for that file (enter
+pwd at the Unix prompt). If you are in the right directory, check the list of files in
+the directory (with ls ) to see whether the file exists under a slightly different name.
+• You invoke vi , but you get a colon prompt (indicating that you’re in ex line-editing
+mode).
+You probably typed an interrupt before vi could draw the screen. Enter vi by typing
+vi at the ex prompt ( : ).
+• One of the following messages appears:
+[Read only]
+File is read only
+Permission denied
+“Read only” means that you can only look at the file; you cannot save any changes
+you make. You may have invoked vi in view mode (with view or vi -R ), or you do
+not have write permission for the file. See the section “Problems Saving Files” on
+page 10.
+• One of the following messages appears:
+Bad file number
+Block special file
+Character special file
+Directory
+Executable
+8 | Chapter 1: The vi Text EditorNon-ascii file
+file non-ASCII
+The file you’ve called up to edit is not a regular text file. Type :q! to quit, then
+check the file you wish to edit, perhaps with the file command.
+• When you type :q because of one of the previously mentioned difficulties, this message
+appears:
+No write since last change (:quit! overrides).
+You have modified the file without realizing it. Type :q! to leave vi . Your changes
+from this session will not be saved in the file.
+Modus Operandi
+As mentioned earlier, the concept of the current “mode” is fundamental to the way
+vi works. There are two modes, command mode and insert mode. You start out in
+command mode, where every keystroke represents a command. In insert mode, everything you type becomes text in your file.
+Sometimes, you can accidentally enter insert mode, or conversely, leave insert mode
+accidentally. In either case, what you type will likely affect your files in ways you did
+not intend.
+Press the ESC key to force vi to enter command mode. If you are already in command
+mode, vi will beep at you when you press the ESC key. (Command mode is thus
+sometimes referred to as “beep mode.”)
+Once you are safely in command mode, you can proceed to repair any accidental
+changes, and then continue editing your text.
+Saving and Quitting a File
+You can quit working on a file at any time, save your edits, and return to the Unix
+prompt. The vi command to quit and save edits is ZZ . Note that ZZ is capitalized.
+Let’s assume that you do create a file called practice to practice vi commands, and
+that you type in six lines of text. To save the file, first check that you are in command
+mode by pressing ESC , and then enter ZZ .
+Keystrokes
+ZZ
+Results
+"practice" [New file] 6 lines, 320 characters
+Give the write and save command, ZZ . Your file is saved as a regular Unix file.
+ls
+ch01
+ch02
+practice
+Listing the files in the directory shows the new file practice that you created.
+Opening and Closing Files | 9You can also save your edits with ex commands. Type :w to save (write) your file but
+not quit vi ; type :q to quit if you haven’t made any edits; and type :wq to both save
+your edits and quit. ( :wq is equivalent to ZZ .) We’ll explain fully how to use ex commands in Chapter 5; for now, you should just memorize a few commands for writing
+and saving files.
+Quitting Without Saving Edits
+When you are first learning vi , especially if you are an intrepid experimenter, there are
+two other ex commands that are handy for getting out of any mess that you might create.
+What if you want to wipe out all of the edits you have made in a session and then return
+to the original file? The command:
+:e! ENTER
+returns you to the last saved version of the file, so you can start over.
+Suppose, however, that you want to wipe out your edits and then just quit vi ? The
+command:
+:q! ENTER
+quits the file you’re editing and returns you to the Unix prompt. With both of these
+commands, you lose all edits made in the buffer since the last time you saved the file.
+vi normally won’t let you throw away your edits. The exclamation point added to
+the :e or :q command causes vi to override this prohibition, performing the operation
+even though the buffer has been modified.
+Problems Saving Files
+• You try to write your file, but you get one of the following messages:
+File exists
+File file exists - use w!
+[Existing file]
+File is read only
+Type :w! file to overwrite the existing file, or type :w newfile to save the edited
+version in a new file.
+• You want to write a file, but you don’t have write permission for it. You get the message
+“Permission denied.”
+Use :w newfile to write out the buffer into a new file. If you have write permission
+for the directory, you can use mv to replace the original version with your copy of
+it. If you don’t have write permission for the directory, type :w pathname/file to
+write out the buffer to a directory in which you do have write permission (such as
+your home directory, or /tmp ).
+10 | Chapter 1: The vi Text Editor• You try to write your file, but you get a message telling you that the file system is full.
+Type :!rm junkfile to delete a (large) unneeded file and free some space. (Starting
+an ex command with an exclamation point gives you access to Unix.)
+Or type :!df to see whether there’s any space on another file system. If there is,
+choose a directory on that file system and write your file to it with :w pathname .
+( df is the Unix command to check a disk’s free space.)
+• The system puts you into open mode and tells you that the file system is full.
+The disk with vi ’s temporary files is filled up. Type :!ls /tmp to see whether there
+are any files you can remove to gain some disk space. # If there are, create a temporary Unix shell from which you can remove files or issue other Unix commands.
+You can create a shell by typing :sh ; type CTRL-D or exit to terminate the shell
+and return to vi . (On modern Unix systems, when using a job-control shell, you
+can simply type CTRL-Z to suspend vi and return to the Unix prompt; type fg to
+return to vi .) Once you’ve freed up some space, write your file with :w! .
+• You try to write your file, but you get a message telling you that your disk quota has
+been reached.
+Try to force the system to save your buffer with the ex command :pre (short
+for :preserve ). If that doesn’t work, look for some files to remove. Use :sh (or
+CTRL-Z if you are using a job-control system) to move out of vi and remove files.
+Use CTRL-D (or fg ) to return to vi when you’re done. Then write your file
+with :w! .
+Exercises
+The only way to learn vi is to practice. You now know enough to create a new file and
+to return to the Unix prompt. Create a file called practice , insert some text, and then
+save and quit the file.
+Open a file called practice in the current directory: vi practice
+Insert text: i any text you like
+Return to command mode: ESC
+Quit vi , saving edits: ZZ
+# Your vi may keep its temporary files in /usr/tmp , /var/tmp , or your current directory; you may need to poke
+around a bit to figure out where exactly you’ve run out of room. Vim generally keeps its temporary file in the
+same directory as the file being edited.
+Quitting Without Saving Edits | 11

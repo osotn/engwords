@@ -1,0 +1,1142 @@
+Ok. So, come back to you know this V 12 and
+V 2 1 for example, right.
+
+So, ah that ah this is actually this is point
+1 right.
+
+And this is your your lamp right this is I
+am drawing something like this this is your
+
+lamp and this is your point 2 this is point
+2 this is plus this is minus. So, this voltage
+
+is your V 1 2 right. So, if V 1 2 is equal
+to say a 10 volt this is plus minus therefore,
+
+V 2 1 V 2 1 will be minus 10 volt right. ah
+If you make V 1 2 that is if this is plus
+
+this is minus may be 10 volt, then V 2 1 will
+be minus 10 volt this is understandable right.
+
+. So, . So, so size are used to represent
+the reference direction of voltage polarity.
+
+The voltage V 1 2 can be interpreted I told
+you this one that best way this one the potential
+
+point 1 with respect to point 2 is V 1 2 therefore,
+logically it follows that just I told you
+
+that V 1 2 if V 1 2 is 10 volt then V 2 1
+will be minus 10 volt therefore V 1 2 is equal
+
+to say minus V 2 1.
+So, for the purpose of further explanation
+
+come to the figure 1.7 right 2 representation
+of the same ah same voltage you come here
+
+right.
+For example come here. So, here it is point
+
+1 it is 1 and 2 this is a lamp.
+So, it is 10 volt. So, point ah meaning is
+
+point 1 is 10 volt above point 2 this is the
+meaning right similarly if it is ah this is
+
+1 this is 2 now polarity has changed suppose
+this is minus this is plus. So, this has been
+
+minus and this has been made plus and this
+has become made minus. Therefore, say this
+
+one also can be like this is a plus this is
+a plus thing. So, point 2 is minus 10 volt
+
+above point 1. So, whenever you talk like
+this, you take plus as their reference point
+
+right. If I if it is like if it is given like
+this; that means, point 1 that is a plus terminal
+
+point 1 is 10 volt above point 2.
+And here it is ah here it is 2 ah here it
+
+is minus 1, but minus 10 volt; that means,
+point 2 is minus 10 volt above point 1 understandable
+
+right understandable you will take this is
+plus terminal as your reference point from
+
+there you will take meaning is same. So, here
+it is point 2 is minus 10 volt above point
+
+1, here it is point 1 is 10 volt above point
+2 understandable right . So, 2 equivalent
+
+representation of the same voltage V 1 2 either
+this representation or that representation
+
+both are equivalent to each other right.
+So, whatever whatever was ah whatever was
+
+there, that has been just now that has been
+explained. Therefore, therefore, this ah your
+
+in general a voltage drop from 1 to 2 is equivalent
+to the voltage rise from 2 to 1 meaning is
+
+same meaning is same. So, next is power and
+energy.
+
+So, power and energy calculation are very
+important in circuit analysis because only
+
+current and voltage actually both do not serve
+all the purpose because output maybe power.
+
+For example, suppose at your residence the
+bulb is there tube light is there these are
+
+all represented by power.
+So, therefore, voltage and current are useful
+
+variables in an electric circuit, but they
+are not sufficient by themselves. One reason
+
+is that useful output of the system often
+is non electrical and this output is conveniently
+
+expressed in terms of power and energy. And
+second thing is that output or if you take
+
+an electrical elements or devices their power
+output is maybe limited maybe 40 watt maybe
+
+4 thousand watt, but it is limited right.
+So, another reason is that all practical devices
+
+have limitation on the amount of power that
+they can handle just ah some devices or specification
+
+is there. If you see anything can be bulb
+or any light or fan, you will find some specification
+
+is there and one important specification is
+the power right. For example, you all know
+
+from our experience that is 60 watt bulb gives
+more light than a 40 watt bulb because ah
+
+60 watt is powerful than 40 watt we also know
+that when we ah pay our electricity bills
+
+we are actually paying for the electric energy
+that is watt hour consume over a certain period
+
+of time right we or that ah whatever electric
+bill if you ah pay this is watt hour.
+
+In general it will higher you ah your higher
+values of unit that is kilo watt hour right.
+
+So, ah sometimes in in this rhymes we define
+energy like this that energy is power multiplied
+
+by hour because if you look it that energy
+is power multiplied by hour because it is
+
+a watt hour watt into hour right. So, ah . So,
+we know we now we now relate the power and
+
+energy to voltage and current, because we
+have to relate now power and energy to the
+
+voltage as well as the current. So, power
+is the time rate of a expanding or a absorbing
+
+energy.
+So, power is measured in watts. So, mathematically
+
+p is equal to dw by dt, it is actually your
+what you call that is a time rate of a expanding
+
+or absorbing energy. So, it is p is equal
+to dw by dt where p is the power in watts
+
+right w is the energy in joules right and
+t is the time in second. So, that is one watt
+
+from this equation one watt is equal to your
+one joule per second it is one joule per second
+
+right. So, once again the power actually is
+measure in watts. So, mathematically this
+
+is p dw by dt and ah from that from that physics
+the definition is power is the time rate of
+
+expanding or absorbing energy. Simply do not
+write the power is the time rate of energy
+
+then it is not correct better you should write
+power is the time rate of expanding or absorbing
+
+energy right.
+So, therefore, from equation 1.1 we have seen
+
+right I is equal to dq by dt and so on. So,
+and 1.4 and 1.6 this equation is 1.6 therefore,
+
+p is equal to dw by dt is equal to we can
+write this equation dw by dq into dq by dt
+
+right and dw by dq we have seen it is V and
+from equation 1.1 I is equal to dq by dt it
+
+is I from equation 1.4 it is your dw by dq
+is equal to v.
+
+So, p is equal to v into i right. So, this
+is actually p is a power. So, this is equation
+
+7. I think I need not write it again now it
+is understandable that, dw by dt we write
+
+it in partial derivative that your ah chain
+chain rule of their differentiation rather,
+
+but dw by dq into dq by dt. And dw by dq is
+equal to v and dq if that is d dw by dq is
+
+equal to V that is from equation 1.4 and i
+is equal to your dq by dt that is from equation
+
+1.1. So, power is equal to voltage into current
+right.
+
+So, equation 1.7 shows the power associated
+with basic circuit elements is simply the
+
+product of the current in the element and
+the voltage across the element. Therefore,
+
+power is a quantity associated with the pair
+of terminals and we have to be able to tell
+
+from our calculation whether power is being
+delivered to the element or supplied by the
+
+element. If the power has a plus sign this
+is ah this is interesting this you have to
+
+understand if the power has a plus sign power
+is been delivered to or absorbed by the element.
+
+If power is a plus sign right or ah later
+we will see in the numericals and other thing,we
+
+will be accustomed with this and if on the
+other hand the power has a minus sign right
+
+that is power is being supplied by the element
+so, but ah ah, but ah how do we know when
+
+the power has a positive or a negative sign
+right. So, this is the question ah. So, polarity
+
+of voltage and direction of current play a
+major role in determine the sign of power
+
+it is therefore, your important to see this
+right. So, this one ah look at this one .
+
+This is a simple circuit element say something
+it is say it is something. So, this is plus
+
+this is minus right. So, current is this current
+is plus ah sorry this terminal is plus current
+
+is flowing from this direction and here actually
+what we will do that, whenever whenever a
+
+current your entering the positive terminal
+you will take the sign of current is positive.
+
+So, this current is entering the terminal
+means from plus terminal the current is flowing
+
+So, p is equal to v into i right. So, that
+is why the power is positive; that means,
+
+this element actually is absorbing the electrical
+power so; that means, ah when i is leaving
+
+the plus terminal or entering into the plus
+terminal right. So, not leaving when its entering
+
+into the your what you call this this your
+plus terminal; that means, current flowing
+
+in this direction. So, p is equal to v i.
+Now ah it is actually entering the terminal
+
+and when the current is leaving the plus terminal
+you take minus sign, at the same time you
+
+can understand that actually the i the current
+is going into the element from plus.
+
+So, current is your what you call entering
+into the plus terminal and when current is
+
+leaving the plus terminal it is leaving leaving
+the plus terminal. So, current signs ah your
+
+symbol i you will take ah your direction it
+will be negative. So, p is equal to minus
+
+vi v inverse as it is v, but i is there is
+a sign will change it will be minus vi right
+
+this thing you have to ah this is absorbing
+power and this ah in this case element is
+
+supplying power, because p is equal to minus
+v into a i right.
+
+So, one is entering into this your what you
+call plus terminal, another is leaving the
+
+plus terminal. So, when it is entering into
+the plus terminal sign should sign of current
+
+should be plus and when is leaving the plus
+terminal it should be minus. This certain
+
+things I mean basic thing you have to keep
+it in mind right. So, so reference polarities
+
+for power using the passive sign convention.
+Now in order to power have a positive sign
+
+right the direction of current and this ah
+this ah rate thing is nothing actually right.
+
+So, direction of current and polarity of voltage
+must confirm with those shown in figure 1.8
+
+a and b. Now whatever I told right by the
+passive sign convention current enters through
+
+the positive polarity of the voltage and this
+case p is equal to vi, because this current
+
+is entering through their positive polarity.
+Whenever current entering through the positive
+
+polarity. So, sign i that current ah your
+ah sign it should be taken as a plus that
+
+is why p is equal to plus vi and in this case
+current this thing current is leaving the
+
+plus terminal we should take minus that is
+why p is equal to minus vi right.
+
+Therefore. So, by the passive sign convention
+current enters through the positive polarity
+
+of the voltage, and this case p is equal to
+vi; that means, vi greater than 0 right. So,
+
+vi greater than 0 implies that the element
+is ah absorbing power and when p is equal
+
+to when p is equal to minus vi right. So,
+element your what you call in this case vi
+
+negative as figure b the element actually
+is releasing or supplying power. Throughout
+
+the text or throughout this course we will
+follow the passive sign convention.
+
+So, I suggest once again ah when we because
+later stage we will solve any problem is another
+
+thing. So, basic thing should be initially
+ah it should be clear right so; that means,
+
+when current entering to the positive terminal
+i should be positive, when current leaving
+
+the your positive terminal i should be negative.
+So, when it is positive then it is element
+
+is absorbing power when it is negative element
+this element minus vi means it is supplying
+
+or delivering power right that is why it is
+minus vi .
+
+So,. So, passive sign convention is satisfied
+I told you when the current enters through
+
+the positive terminal of an element and p
+is equal to plus vi; however, if the current
+
+enters your through the negative terminal,
+then p is equal to minus vi; that means, if
+
+you look at the diagram other way I think
+it is ah current entering through the negative
+
+terminal here also I have made I here it is
+ah another way is that current entering through
+
+the positive terminal it is i. So, p is equal
+to plus vi current enter is your negative
+
+terminal p is equal to minus vi. Otherwise
+current entering through the positive terminal
+
+or leaving through the negative terminal.
+The way you can easy easiest way is current
+
+entering through the positive terminal. So,
+it is plus vi, current entering through the
+
+negative terminal it is minus vi current entering
+through the positive terminal element is absorbing
+
+power, current entering through the negative
+terminal element is supplying or delivering
+
+power, I hope you have understood this right
+this is require right.
+
+So, in general we can write power absorbed
+is equal to minus of power supplied. Same
+
+concept like your ah the way it will be the
+I 1 2 is equal to minus I 2 1, V 1 2 is equal
+
+to minus your ah V 2 1 similar way you can
+write plus power absorbed is equal to minus
+
+power supplied because ah power balance or
+energy balance equals to now this has to be
+
+satisfied. Now now look at that figure ah
+this figure figure one point it shows 2 cases
+
+of element with absorbing power.
+If you look into that ah if you look into
+
+that here power entering into the sorry current
+entering into the positive terminal this is
+
+plus right and this is the 5 volt. So, what
+will be the power? V is equal to 5 volt 4
+
+is and I is equal to 4 ampere. So, power will
+be 5 into 4. So, 20 watt right because current
+
+entering into the positive terminal same thing
+you look, this is at this is now we have made
+
+this is 2 plus this is minus and it is here
+it is in the a entering into the positive
+
+terminal.
+But here also if you look into that current
+
+is entering through the positive terminal
+because current goes like this goes like this
+
+and goes like this right. So, in this case
+your ah just hold on . So, in this case this
+
+is i is equal to 4 ampere. So, this is that
+your what you call current going like this
+
+going like this going like this this is 4
+ampere. So, current entering through the positive
+
+terminal and in this case ah here also current
+entering through the positive terminal goes
+
+like this goes like this this is also 4 ampere.
+So, ultimately both the cases current entering
+
+through the positive terminal, but here it
+is 1 2 here also 1 2, but this has been in
+
+plus this has been in minus.
+So, in this case also p is equal to 5 into
+
+4 so; that means, your what you call 20 watts.
+So, both the cases element actually is absorbing
+
+the power right. So, both circuits apply it
+is absorbing the power. So, so both the both
+
+the your what you call ah both the ah circuit
+actually absorbing the power. So, I hope you
+
+have understood this right. So, so both the
+circuit it is p is equal to 20 watt 5 into
+
+4 here also 5 into 20 only thing is that.
+We see that current entering through that
+
+your positive terminal here also it goes like
+this I showed you.
+
+So, little bit you ah you know you should
+understand this then things will be easier
+
+for your later stage. Now this one now this
+one if you look that 2 cases of an element
+
+with a supplying of power. In this case if
+you look that current actually entering into
+
+the negative terminal just ah just I will
+for your ah this thing I will ah ah just I
+
+will ah make it like this for this one this
+is 4 ampere. So, current is going like this.
+
+So, it is this direction is given here. So,
+current actually entering through the negative
+
+terminal.
+So, I should be taken as a negative. So, p
+
+is equal to minus 4 into 5. So, minus 20 watt;
+that means, this ah element actually supplying
+
+the power. Similarly here also current is
+entering into the negative terminal. So, it
+
+is going like this. So, current enter into
+the negative terminal, here also it is minus
+
+your therefore, this will be minus 4 into
+5. So, minus 20 watt; that means, power is
+
+negative. So, this element is supplying power
+right or delivering power right.
+
+So, just hold on right. So, . So, this is
+actually took minus 20 watt and minus 20 watt.
+
+So, hope this one and this one concept is
+clear to you right from the beginning ah in
+
+this course, you have to you know if you ah
+um ah your ah what you call if you make this
+
+understanding is you know ah clear, then later
+stage you will find things are very easy.
+
+So, there should not be any confusion or anything
+right. So, when you will go through this course
+
+and when you will see if you have any doubt,
+ah you can put the question and you are ask
+
+a question or you know forum ah we will we
+are there to ah your what you call answer
+
+all your queries, but understanding is ah
+your more important .
+
+So, now for any electric circuit law of conservation
+of energy must be obeyed right. For this reason
+
+at any instant of time little bit I hope it
+is ah underst[and]- ah it is it is your ah
+
+your ah readable you can make it it must be
+obeyed for this reason at any instant of time,
+
+the algebraic sum of the power in a circuit
+must be 0. T herefore, we can write in general
+
+sigma power is equal to 0 sigma p is equal
+to 0 our meaning is in a circuit you may have
+
+many voltage sources and many electrical elements
+right.
+
+So, sources many cases power will be delivered
+and power will be absorbed. So, total power
+
+delivered right and total or in a other way
+I can put that power delivered plus your power
+
+your delivered or a supplied plus power absorbed
+is equal to your 0. So, therefore, in this
+
+case in the case of power also that your sigma
+p is equal to 0; that means, summation of
+
+all the power or later we will see later we
+will see how this ah your what you call this
+
+ah power delivered is equal to power absorbed
+right that we will see later.
+
+So, sigma in general summation is equal to
+0 this is it. So, this equation 1.8, it confirms
+
+you confirms the fact that the total power
+supplied to the circuit your must bal is the
+
+total power absorbed right. So, this is the
+concept that way we write sigma p is equal
+
+to 0; this one we will see much later when
+I will take the example as it is as. Now to
+
+calculate the energy w, supplied or absorbed
+by a circuit element between time say t 0
+
+and t we integrate power therefore, we know
+that power is equal to your ah dw by dt right
+
+therefore, dw is equal to I am not writing
+understandable, earlier we have seen the power
+
+is equal to dw by dt
+So, dw will be is equal to pdt if you integrate.
+
+So, w is equal to time t 0 to 2 pdt, but p
+is equal to vi you substitute here p is equal
+
+to vi therefore, time is t 0 to t dt right
+therefore, this energy is the that therefore,
+
+the energy is the capacity to do work. So,
+energy is measured in joules. So, the w is
+
+measured in joule right. So, the electric
+power utility companies measure energy in
+
+watt hour or kilo watt hour right . So, one
+watt hour is equal to 3600 joules .
+
+These are the standard ah this thing you can
+you can you can keep it in your mind now we
+
+will come to ah few small example right small
+example. So, I hope up to this before going
+
+to this this few more example, I hope up to
+this you have your ah understood ah your what
+
+you call the basic concept the current the
+voltage the power and the passive sign convention
+
+right and and and then in the case of power
+that your what you call that ah plus or minus
+
+that absorbed or delivered, similarly in the
+case of voltage that which point is higher
+
+than the other other point 1 point is higher
+than ah higher point other point that ah per
+
+your voltage, all this things hopefully you
+have understood right
+
+Therefore one hour is equal to 3600 joules
+right now ah now come to that few simple examples
+
+that how much charge is represented by 5524
+electrons this is example 1.
+
+So, each electron has e is equal to minus
+1.602 into 10 to the power minus 19 coulomb
+
+that we know here is 5524 electrons will have
+minus 1.602 into 10 to the power minus 19
+
+coulomb per electron into 5524 because each
+electron has ah this thing this much of coulomb
+
+that is why you writing; you are writing minus
+1.602 into 10 to the minus coulomb per electron
+
+you are writing into 5524 electrons. So, total
+will be 8.849 into 10 to the power minus 16
+
+coulomb right.
+Here little bit has been cut ah for scanning.
+
+So, this is actually coulomb now example 2;
+the total charge entering a terminal is this
+
+is actually this is actually page number ah
+17 given by q is equal to say 3 t sin 2 pi
+
+t ah say milli coulomb right. So, determine
+the current at t is equal to 0.4 second. ah
+
+Very simple thing q is given. So, we know
+that i is equal to dq by dt. So, ddt of 3
+
+t sin 2 phi t right. So, this is your 2 pi
+t.
+
+So, if you take the derivative of this one.
+So, it is i is equal to 3 sin 2 pi t plus
+
+6 pi t cosine of 2 pi t that is milli ampere
+because it is it is is actually it is in milli
+
+coulomb. So, that is why you are writing it
+is milli ampere. So, at t is equal to 0.3
+
+seconds. So, put here t is equal to 0.3 second.
+So, in this case i is equal to 3 sin 2 pi
+
+into 0.3 plus 6 pi into your 0.3 cosine of
+2 pi into 0.3 milli ampere. So, ah after computing
+
+this we will get i is equal to 1.106 milli
+ampere at t is equal to 0.4 second right.
+
+Ah ah . So, here know here actually here it
+is it should be it should be your what you
+
+call 0.3 because here I have taken t is equal
+to 0.3 so, but here by you know while writing
+
+is it has been made 0.4 it should be 0.3.
+So, there should not be any confusion ah.
+
+So, here ah it is a it is you know it is a
+screen, we cannot ah make a correction here
+
+ah. So, ah. So, it is actually this this one
+actually will be ah um ah this one actually
+
+will be t is equal to 0.3 huh. So, there should
+not be any confusion. So, that is why here
+
+we made t is equal to 0.3.
+So, next one is determine the total charge
+
+the example 1 0.3 determine the total charge
+entering a terminal between t is equal to
+
+2 second and t is equal to 4 second. So, current
+passing through the terminal is given i is
+
+equal to 2 t square minus t ampere.
+This i is given right and time span is given
+
+2 t is equal to 2 second to 4 second. So,
+by using equation 1.2 that we know the i is
+
+equal to dq by dt i is equal to dq by dt.
+So, dq is equal to idt. So, q is equal to
+
+integration ydt, but time limit is t 0 to
+t. So, this is from equation 1.2 right. So,
+
+it is t 0 is given this is given 2 t is equal
+to 2 second and t is equal to 4 second. So,
+
+here actually t 0 is equal to 2 second here
+right this is t 0 equal to 2 second and this
+
+is your t is equal to 4 second right. So,
+it is 2 to 4 2 t square minus t into dt. So,
+
+if you integrate this it will be 2 by 3 t
+cube minus t square by 2 limit is 2 to 4.
+
+If you simplify right. So, you will get q
+is equal to 31.33 coulomb right. So, next
+
+is example is say 1.4. So, charge versus time
+for a given circuit element is your given
+
+by qt is equal to 0 for t less than 0 right
+and qt is equal to 2 minus 2 into e to the
+
+power minus 100 t, for t greater than 0. you
+have to plot qt and it versus time. Qt is
+
+already given only it you have to plot it
+you have to find out then plot both right.
+
+So, solution we know that it is equal to dq
+by dt.
+
+So, it is given qt is equal to 0 for t less
+than 0 right therefore, your it is actually
+
+if you take the derivative also for t less
+than 0. So, ah actually whenever we take then
+
+it is less than 0 means say it is something
+like this the past history of the circuit,
+
+later later in transient we will try to see
+this say it is past history of the circuit.
+
+So, that is why its mathematically represent
+that is your what you call that t less than
+
+0. So, in this case qt is equal to 0.
+So, for t less than 0. So, this is 0 and when
+
+qt is equal to 2 minus 2 into e to the power
+minus 100 t you take the derivative dqt by
+
+dt. So, here if you do so, then it will be
+200 e to the power minus 100 t for t greater
+
+than 0. Now plot of qt and it shown in figure
+2 this is the plot of your qt qt already given
+
+right qt is already given right . So, in this
+case if t is equal to you put in this expression,
+
+if you put t is equal to 0 right then what
+will be there the e to the power 0. So, actually
+
+1. So, 2 minus 2 0.
+So, graph starts from 0 and right and when
+
+your when t is increasing it is in millisecond.
+So, when t is increasing finally, it will
+
+reach to the steady state the 2 right.
+When here here when t is your increasing like
+
+t greater than 0 and t is increasing say t
+tends to infinity right so; that means, this
+
+term will vanish only 2 will be there. So,
+that is why it is your approaching and that
+
+is qt is coulomb that is 2 coulomb and this
+is the current right it is the current when
+
+t is equal to 0, current is 200 ampere because
+when t is equal to 0 this term is ah 1. So,
+
+it is 200. So, it is starting from 200 right
+And when t is your increasing, when t is increasing
+
+this current actually approaching towards
+0 and when t tends to infinity t is going
+
+to infinity right this term will vanish it
+will be 0. So, at steady state current will
+
+be your 0. So, this is the plot of your this
+thing it versus time and this is your qt versus
+
+time this is the plot. So, a plot of charge
+and this is the plot of current right.
+
+So, example another example say 1.5, the current
+flowing through an element is that i is equal
+
+to one ampere for t greater than 0 and t less
+than 1.
+
+And second thing if it is 3 t square ampere
+for t greater than 1 and in when current ah
+
+time is in between 0 and 1, the current is
+one ampere that is current is constant and
+
+when for t greater than 1, it is 3 t square
+ampere say it is given. So, we have to find
+
+out the charge entering the element from t
+is equal to 0 second to t is equal to 2 second
+
+. So, this is the determining the charge entering
+the element from t is equal to 0 second to
+
+t is equal to 2 seconds.
+So, we know that q is equal to t 0 to to idt
+
+is just we have seen right and t 0 to t 1
+idt plus t 1 to t i dt then you ah you have
+
+a 2 time interval this is say t 0 and this
+is t 1; t 1 is one second. So, 0 to 1. So,
+
+t 0 to t 1. So, this is t 0 actually t 0 actually
+0 and t 1 is one second right another thing
+
+is you want in between 2 second. So, another
+is that t 1 to t. So, t 1 again is one second
+
+this is one and t is equal to 2 second. So,
+2 I hope it is understandable to you because
+
+ah ah ah when you are understanding this t
+0 to t. So, that you have 2 intervals one
+
+is 0 to 1 and another is t greater than 1,
+but you have to find out in between 0 to 2
+
+second.
+So, 0 to 1 that is t 0 is equal to 0 and t
+
+1 is equal to 1 right and then this one then
+t 1 to t t 1 is equal to 1 then 1 to 2 second
+
+and t is equal to 2 what is the idt this is
+the idt. So, this can be written as 0 to 1,
+
+i is equal to your 1 into dt because this
+is giving one ampere. So, i is equal to in
+
+this case i is equal to in between the interval
+0 and 1, i is equal to one ampere. So, that
+
+is why it is one into dt plus in between the
+and when t greater than one it is 3 t square
+
+a. So, 1to t 1 to , but we want to in between
+0 and 2 seconds. So, 1 to 2 it will be 3 t
+
+square into dt.
+This simple thing, but I hope you have understood
+
+this right when you will integrate and solve
+it you will get q is equal to 8 coulomb this
+
+is actually 8 c 8 coulomb right. So, I repeat
+once again for your ah you know understanding
+
+because and if you start in the very first
+year that it is one in between 0 and one that
+
+is this is t 0 is equal to 0 t 1 is equal
+to 1, but you have to you have to determine
+
+the charge entering the element from t is
+equal to 0 second to t is equal to 2 second.
+
+But first you have to consider this because
+0 to 1. So, this is one ampere. So, ah t 0
+
+to t idt and then t 0 to your what you call
+ah this one t 0 to t 1 then t 1 to t right
+
+t 1 to t and then your is equal to the 0 to
+1 in between 0 to 1 current is one ampere.
+
+So, one into dt plus that it is greater than
+one therefore, it is one to 2 3 t square dt
+
+because expression is 3 t square it is greater
+than 1, but you one in between 1 and 2; that
+
+means, this 3 t square d ah dt.
+If you integrate this it will be your 1 plus
+
+7. So, 8 coulomb right I hope you have understood
+this simple thing now another thing another
+
+example is this is actually page number 19
+here. So, electrical energy is converted to
+
+heat at the rate of 8 kilo joule per minute
+in a resistor ah ah your what you call and
+
+charge flowing through it at the rate of 300
+coulomb per minute.
+
+So, what is the voltage difference across
+the resistor terminal? So, electrical energy
+
+is converted to heat at the rate of 8 kilo
+joule per minute in a resister and charge
+
+flowing through it at the rate of 300 coulomb
+per minute. So, what is the voltage difference
+
+across the resistor terminal? So, in this
+case we know that your v is equal to p upon
+
+i right that is the power; that means, p is
+given 8 kilo joule per minute. So, it is 8
+
+into 10 to the power 3. So, 1000 joule per
+minute and q is given that 300 coulomb per
+
+minute. So, it is 300 coulomb per minute.
+So, that is 26.67 joule per coulomb that is
+
+the voltage joule per coulomb is equal to
+voltage we have seen earlier
+
+So, v is equal to 26.67 volt. So, ah. So,
+and another thing is and a energy source your
+
+forces a constant current of 4 ampere for
+6 second to flow through a lamp. If 4 kilo
+
+joule is given off in the form of light and
+the and heat energy determine the voltage
+
+drop across the lamp. So, it is telling that
+energy source forces ah ah your what you call
+
+a constant current of 4 ampere for 6 second
+to flow through a lamp right.
+
+Ah If 4 kilo joule is given off in the form
+of light and heat energy determine the voltage
+
+drop across the lamp. So, total charge is
+q you know you know that i is equal to dq
+
+by dt. So, in general we can write that ah
+dq is equal to i dt. So, here we are writing
+
+delta eq is equal to i into dt right. So,
+delta eq. So, i is given 4 ampere this is
+
+your 4 ampere the constant and your time t
+is 6 second. So, delta t is equal to 6 second.
+
+So, 4 into 6 that is 24 coulomb.
+So, and the voltage drop you know voltage
+
+is equal to that your potential difference
+is equal to dw upon dq. So, the here we are
+
+writing for the um your in v is equal to right
+in delta w by delta eq. So, it is given 4
+
+kilo joule. So, 4 into 10 to the power 3 divided
+by delta q we got 24 coulomb. So, it is one
+
+166.67 volt. Now 1.8 compute the power delivered
+to an element at t is equal to 4 millisecond
+
+ah if the current entering its positive terminal
+is i is equal to 4 cos 100 pi t your ampere.
+
+So, and the voltage is ah and the voltage
+is a is equal to is given v is equal to 3
+
+i one expression another is given v is equal
+to 3 di by dt. So, the it is it is hours that
+
+compute the power delivered to an element
+at t is equal to 4 millisecond, if the current
+
+entering its positive terminal is i is equal
+to 4 cos 100 pi t ampere and the voltage is
+
+v is equal to 3 i and v is equal to 3 di dt
+right. So, solution is simple v is equal to
+
+3 I so, 3 into 4 cross 100 pi t.
+So, 12 cos 100 pi t; hence the power is p
+
+is equal to v i listen one thing this is we
+are covering ah then general it is a dc dc
+
+circuit dc codes, but one or 2 simple example
+of your sine cosine function I am taken and
+
+detail sine cosine detailed ah your in terms
+of sine cosine and single phase power or 3
+
+phase power that will come when the ac circuit.
+Here just to give you a feeling of that you
+
+know time function power and this thing, but
+later you will see that in single phase circuit
+
+we will ah power your your power computation
+is different and 3 phase also something interesting,
+
+but here it is it is here simple it is given
+in terms of time function just to give you
+
+a feeling, but that this is ah just ah to
+ah know little bit of energy power the basic
+
+concept.
+So,. So, p is equal to if you make vi, it
+
+will be expression if you multiply all these
+2 it will be 48 cos squared 100 pi t, but
+
+when t is equal to 4 millisecond.
+That is 4 into 10 to the power minus second
+
+you substitute here t is equal to 4 your ah
+millisecond, then you will get p is equal
+
+to 48 cos square whatever its comes inside
+you will get p is equal to 4.603 watt. Now
+
+also another thing is given given that v is
+equal to 3 di by dt.
+
+So, it is 3 and ddt di is given the expression
+of i is given 4 cos 100 pi t. So, here it
+
+is your ah i is equal to 4 cos 100 pi t. Take
+the derivative v is equal to minus 1200 pi
+
+sin 100 pi t . So, p is equal to v into i.
+So, this is the expression of v and this is
+
+the expression of i 4 cos 100 pi t you multiply
+right and you will get p is equal to minus
+
+2400 pi sin 200 pi t at t is equal to 4 millisecond
+that is 4 into 10 minus 3 second you put here
+
+t is equal to 4 into 10 to the power minus
+3 you put it here, you will get it is p is
+
+equal to minus 4431.8 watt that is minus 4.4318
+kilowatt right.
+
+So, course. So, up to ah ah up to this ah
+these are some more example we will see later.
+
+So, up to this we will it will give you some
+feeling, but regarding time ah variation of
+
+current and voltage, but all time variation
+other things we will see for single phase
+
+thing, but this is a only first will be consider
+you know ah dc circuit, basic ah concept,
+
+then basic laws, basic theorems right this
+is transient or first order circuit only and
+
+ah next we will ah your what you call, but
+these are the power cut ah your current everything
+
+taken in time such such we will give some
+flavor in the at the beginning right so.
+
+Thank you very much .
+

@@ -1,0 +1,162 @@
+2.3 Directories and filenames
+All the files you own have unambiguous names, starting with usr you,
+but if the only file you have is junk, and you type Is, it doesn't print
+lusr Iyoul junk; the filename is printed without any prefix:
+$ 1s
+junk
+$
+That is because each running program, that is, each process, has a current
+directory, and all filenames are implicitly assumed to start with the name of
+that directory, unless they begin directly with a slash. Your login shell, and
+Is, therefore have a current directory. The command pwd (print working
+directory) identifies the current directory:
+$ pwd
+/usr/you
+$
+The current directory is an attribute of a process, not a person or a program
+- people have login directories, processes have current directories. If a process creates a child process, the child inherits the current directory of its
+parent. But if the child then changes to a new directory, the parent is unaffected - its current directory remains the same no matter what the child does.
+The notion of a current directory is certainly a notational convenience,
+because it can save a lot of typing, but its real purpose is organizational.
+Related files belong together in the same directory. Ius r is often the top
+directory of the user file system. (user is abbreviated to usr in the same
+spirit as cmp, Is, etc.) lusr Iyou is your login directory, your current directory when you first log in. lusr Isrc contains source for system programs,
+lusrlsrc/cmd contains source for UNIX commands, lusrlsrc/cmd/sh
+contains the source files for the shell, and so on. Whenever you embark on a
+new project, or whenever you have a set of related files, say a set of recipes,
+you could create a new directory with mkdir and put the files there.
+$ pwd
+/usr/you
+$ rokdir recipes
+$ cd recipes
+$ pwd
+/usr/you/recipes
+$ mkdir pie cookie
+$ ed pie/apple
+$ ed cookie/choc.chip
+$
+Notice that it is simple to refer to subdirectories. pie/apple has an obvious
+meaning: the apple pie recipe, in directory /usr/you/recipes/pie. You
+could instead have put the recipe in, say, recipes/apple. pie, rather than
+in a subdirectory of recipes, but it seems better organized to put all the pies
+together, too. For example, the crust recipe could be kept in
+recipes/pie/crust rather than duplicating it in each pie recipe.
+Although the file system is a powerful organizational tool, you can forget
+where you put a file, or even what files you've got. The obvious solution is a
+conlmand or two to rummage around in directories. The Is command is certainly helpful for finding files, but it doesn't look in sub-directories.
+$ cd
+$ ls
+junk
+recipes
+$ file *
+junk:
+recipes:
+$ ls recipes
+cookie
+ascii text
+directory
+pie
+$ ls recipes/pie
+apple
+crust
+$
+This piece of the file system can be shown pictorially as:
+/usr/you
+/
+junk recipes
+/
+pie
+/
+apple
+cookie
+
+crust
+choc.chip
+The command du (disc usage) was written to tell how much disc space is
+consumed by the files in a directory, including all its subdirectories.
+$ du
+6 ./recipes/pie
+4 ./recipes/cookie
+11 ./recipes
+13
+$
+The filenames are obvious; the numbers are the number of disc blocks - typically 512 or 1024 bytes each - of storage for each file. The value for a directory indicates how many blocks are consumed by all the files in that directory
+and its subdirectories, including the directory itself.
+du has an option -a, for "all," that causes it to print out all the files in a
+directory. If one of those is a directory, d u processes that as well:
+$ du -a
+2
+3
+6
+3
+4
+11
+1
+13
+$
+./recipes/pie/apple
+./recipes/pie/crust
+./recipes/pie
+./recipes/cookie/choc.chip
+./recipes/cookie
+./recipes
+./junk
+The output of du -a can be piped through grep to look for specific files:
+$ du -a : grep choc
+3 ./recipes/cookie/choc.chip
+$
+Recall from Chapter 1 that the name '.' is a directory entry that refers to the
+directory itself; it permits access to a directory without having to know the full
+name. du looks in a directory for files; if you don't tell it which directory, it
+assumes' . " the directory you are in now. Therefore, junk and . / junk are
+names for the same file.
+Despite their fundamental properties inside the kernel, directories sit in the
+file system as ordinary files. They can be read as ordinary files. But they
+can't be created or written as ordinary files - to preserve its sanity and the
+users' files, the kernel reserves to itself all control over the contents of directories.
+The time has come to look at the bytes in a directory:
+$ od -cb .
+0000000 4 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0
+064 073 056 000 000 000 000 000 000 000 000 000 000 000 000 000
+0000020 273 ( \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0 \0
+273 050 056 056 000 000 000 000 000 000 000 000 000 000 000 000
+0000040 252 r e c i p e s \0 \0 \0 \0 \0 \0 \0
+252 073 162 145 143 151 160 145 163 000 000 000 000 000 000 000
+0000060 230 = j u n k \0 \0 \0 \0 \0 \0 \0 \0 \0 \0
+230 075 152 165 156 153 000 000 000 000 000 000 000 000 000 000
+0000100
+$
+See the filenames buried in there? The directory format is a combination of
+binary and textual data. A directory consists of 16-byte chunks, the last 14
+bytes of which hold the filename, padded with ASCII NUL's (which have value
+0) and the first two of which tell the system where the administrative information for the file resides - we'll come back to that. Every directory begins
+with the two entries ' . ' ("dot") and '. . ' ("dot-dot").
+$ cd
+$ cd recipes
+$ pwd
+/usr/you/recipes
+$ cd ..; pwd
+/usr/you
+$ cd ..; pwd
+/usr
+$ cd ..; pwd
+/
+$ cd ..; pwd
+/
+$
+Home
+Up one level
+Up another level
+Up another level
+Up another level
+Can't go any higher
+The directory / is called the root of the file system. Every file in the system is in the root directory or one of its subdirectories, and the root is its own
+parent directory.
+Exercise 2-2. Given the information in this section, you should be able to understand
+roughly how the Is command operates. Hint: cat . >foo; Is -f foo. 0
+Exercise 2-3. (Harder) How does the pwd command operate? 0
+Exercise 2-4. du was written to monitor disc usage. U sing it to find files in a directory
+hierarchy is at best a strange idiom, and perhaps inappropriate. As an alternative, look
+at the manual page for find(l), and compare the two commands. In particular, compare the command du -a : grep o. 0 with the corresponding invocation of find.
+Which runs faster? Is it better to build a new tool or use a side effect of an old one?
+

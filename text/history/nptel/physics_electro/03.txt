@@ -1,0 +1,263 @@
+Introduction to Electromagnetism
+Prof. Manoj K. Harbola
+Department of Physics
+Indian Institute of Technology, Kanpur
+Lecture - 03
+Force Due to Distribution of Charges
+In the previous class, we calculated Force on a Charge Due to a Collection of Charges and we
+use principle of superposition.
+(Refer Slide Time: 00:21)
+In this class, we will calculate force on a charge q due to distribution of charges. By
+distribution I mean it could be a charge distributed over a line, and this I will say charge per
+unit length will give me the distribution that charge could be dependent on which position
+and moreover it could be independent. There could also be charge say on a ring or on a disk,
+here again I will say charge per unit length (=λ/length) which is usually denoted by lambda or
+charge per unit area (Charge/area = σ) or charge in a volume (Charge/volume =ρ ⃗
+(r) ), which
+will be charge density charge per unit volume. This is known as the charge density, this is
+known as surface charge density, this is linear charge density, so let us consider these cases.(Refer Slide Time: 01:45)
+To start with, let us take a line charge extending from minus L by 2 to L by 2. So, that origin
+it is center is at the origin, let this direction be y and I want to calculate force on a charge q
+kept at a distance x from the origin. The line charge I will denote by different color, so let me
+write denote it by red, this is a line charge and let this magnitude be lambda per unit length.
+Then, as we did in the case of collection of charges, let me take a small element of length dy
+at this point at a distance y from the origin and calculate the x and y component of the forces,
+of the force on charge q. In this case, the distance from this element to the charge is going to
+be square root of x square plus y square.
+So, that by coulomb's law the force on charge q F vector is going to be equal to lambda d y is
+the charge in this element here, q over 4 pi Epsilon 0 1 over x square plus y square in the
+direction of x minus y y over x square plus y square raise to 1 half, where this vector that I
+have written here, you can check is this vector and that divided by the magnitude gives me
+the unit vector in that direction, this indeed is the force direction.
+qλdy 1 x ^ x − y ^ y
+⃗
+F =
+4 π ε 0 x 2 + y 2 2 2 12
+( x + y )
+So, F x is given by the x component which is q lambda over 4 pi Epsilon 0 x d y over x
+square plus y square raise to 3 by 2, 3 by 2 comes by combining these two terms and this is
+integrated from minus L by 2 to L by 2, which will give me q lambda over 4 pi Epsilon 0 xwill remain there. I am left with the integral L by 2 d y over x square plus y square raised to
+the power 3 by 2. You substitute y equals x tangent theta, so that dy becomes x secant square
+theta d theta.
+L
+2
+F x =
+qλ
+∫
+4 π ε 0 −L
+2
+L
+2
+xdy
+2
+3
+2 2
+=
+( x + y )
+qλx
+∫
+4 π ε 0 −L
+2
+dy
+2
+3
+2 2
+( x + y )
+2
+y=xtanθ ,dy=x sec θdθ
+(Refer Slide Time: 04:57)
+And substitute this in the integral and you are going to get F x is equal to q lambda x over 4
+pi Epsilon 0 tan inverse minus L by 2 x to theta equals tan inverse L over 2 x, x secant square
+theta d theta divided by x cubed secant cube theta. I am going to cancel some terms, this x
+and this x cancels with this and gives me x only, this secant square theta divided by sec cube
+theta gives me secant theta which becomes cosine theta on top.
+And therefore, this integral becomes q lambda over 4 pi Epsilon 0 tan inverse L over 2 x with
+the minus sign in front to tan inverse L over 2 x cos theta d theta and this immediately gives
+you answer which is 2 q lambda over 4 pi Epsilon 0, there was this x here also. So, this x here
+sin of tan inverse L over 2 x which actually becomes again I cancel this 2 with this and give
+you 2 to get 2 q lambda over 2 pi Epsilon 0 1 over x sin of tan inverse L over 2 x is going to
+be L divided by square root of L square plus 4 x square, that is the answer for F x.tan −1 (
+F x =
+qλx
+4 π ε 0
+L
+)
+2x
+∫
+tan −1 (
+−L
+)
+2x
+2
+tan −1 (
+L
+)
+2x
+x sec θdθ
+qλ
+qλ
+=
+cosθdθ=
+∫
+3
+3
+2 π ε 0 x
+x sec θ 4 π ε 0 x tan ( −L )
+−1
+2x
+L
+2
+√ L + 4 x 2
+(Refer Slide Time: 06:57)
+How about the y component? The y component is going to be F y equals q lambda, you can
+check that I am writing the expression from the previous slide 4 pi Epsilon 0 instead of x.
+Because, now I will be taking a component in the y direction, so I will have minus y d y over
+x square plus y square raise to 3 by 2 and this is going to be from minus L by 2 to L by 2, you
+can see this is an odd integral in y and therefore, this thing vanishes.
+L
+2
+F y =
+−qλ
+∫
+4 π ε 0 −L
+2
+ydy
+2
+3
+2 2
+=0
+( x + y )
+So, on the line passing through the middle of a line charge at a distance x from it, the force on
+charge q is in direction x only and it is value is F x equals q lambda over 2 pi Epsilon 0 x L
+over square root of L square plus 4 x square. As L tends to infinity; that means, the line
+becomes of infinite length, you can see that F x goes to q lambda over 2 pi Epsilon 0 l over x,
+a well known result.F x =
+qλ
+2 π ε 0 x
+(Refer Slide Time: 08:30)
+Let us take example 2, for the second example I am going to take let me write example 2. I
+am going to take a ring of charge, again having lambda charge per unit length and calculate
+force on a charge q kept at a distance h from the ring. Now, you see each element of this line
+charge is going to apply a force on this, let us take two particular elements on the opposite
+sides and I am doing it for a purpose, if I look at the force due to this element, it is going to
+be pointing this way.
+And if I take the force due to this element is going to going to point this way, all the
+distances, this distance is going to be suppose this radius is R, this distance is going to be h
+square plus R square. Similarly, this distance is going to be h square plus R square, so the
+magnitudes of the forces of the same and by symmetry you can see, that they are horizontal
+components are going to be in the opposite directions and they are going to cancel and it is
+only the vertical component that will survive.
+So, what I can do is, for each element I can take the vertical component add it up, let us see
+what the vertical component is going to be. So, the vertical component the force due to this
+small element of length dl is going to be on charge q, due to this charge lambda dl is going to
+be 4 pi Epsilon 0 force magnitude times 1 over h square plus r square. Now, I take it isvertical component, so if this let me erase this height now, now that it is clear what it is, if
+this angle is theta, so is this angle.
+And therefore, vertical component is going to be F cosine of theta, which by this triangle you
+can see it is nothing but h divided by this distance. So, this is going to be q lambda over 4 pi
+Epsilon 0 h divided by square root of h square plus r square which will give me h square plus
+R square raise to 3 by 2 and there is a dl. Now, if I integrate this force that gives me the total
+force, this integration all the quantities q lambda, thus all these are fixed. So, only integration
+comes over dl and integration dl is really the length of the ring which is 2 pi R.
+| F | =
+qλdl
+1
+4 π ε 0 (h 2 + R 2 )
+∫ | F | cosθ= ∫ 4 qλ
+πε
+h
+0
+2
+3
+2 2
+dl ; ∫ dl=2 πR
+( h + R )
+And therefore, the net force answer comes out to be only in the vertical direction is going to
+be equal to 2 pi q lambda h R over 4 pi Epsilon 0 h square plus R square raise to 3 by 2. You
+can actually see that 2 pi, R is the length times lambda, it is going to the net charge on the
+ring. So, I can also write this as net charge on the ring times Q times h divided by 4 pi
+Epsilon 0 h square plus R square raise to 3 by 2.
+F vertical =
+2 πqλhR
+2
+3
+2 2
+4 π ε 0 ( h + R )
+=
+Qqh
+2
+3
+2 2
+4 π ε 0 ( h + R )
+Notice, I am writing it on the left of the screen that has h tends to 0 or it becomes 0, force is 0
+which makes sense, because the charge is right here, all the forces from all around pushing
+are pushing the charge by equal amount. So, this is the answer. I can now use this result to
+calculate force on charge q on the axis of a disc and that is going to give my example number
+3.(Refer Slide Time: 12:54)
+In example number 3, I am going to take this disc and put a charge at height h on the axis, I
+am going to use the result of previous example. In the previous example, what we saw is that
+the force on the charge is in the vertical direction, it is magnitude is given by Q q over 4 pi
+epsilon 0 h over h square plus R square raise to 3 by 2. What I am going to do now is, divide
+this entire disc into small rings.
+So, let us take a ring of radius R, so I am taking a ring of radius R width dr and if the disc
+carries charge sigma per unit area, then on this ring the charge Q is going to be or let us say
+small differential charge dQ is going to be sigma times 2 pi r dr, 2 pi r dr is the area of this
+ring. And therefore, the force due to this small ring or let us write differential force is going
+to be d Q which is sigma times 2 pi Q over 4 pi Epsilon 0 h over h square plus now I am
+going to write small r square raise to 3 by 2 and there is a r dr which is this term which I have
+written out here to facilitate integration.
+F=
+Qq
+4 π ε 0
+dF ring =
+h
+3
+( h 2 + R 2 ) 2
+σ 2 πqhrdr
+2
+3
+2 2
+4 π ε 0 ( h + R )So, therefore, the net force which is again going to be vertical will be 2 pi sigma q over 4 pi
+Epsilon 0 h integration r varies from 0 to capital R r dr over h square plus r square raise to 3
+by 2, and now if I make the substitution h square plus r square equals let us say y square.
+R
+F vertical =
+2
+2
+2 πσqh
+∫
+4 π ε 0 0
+rdr
+2
+3
+2 2
+( h + r )
+2
+h +r = y ; rdr= ydy
+(Refer Slide Time: 15:28)
+So, that r d r is y d y I get the vertical force to be 2 pi sigma q over 4 pi Epsilon 0 integration
+this integration is now going to be from h to square root of h square plus R square y dy over y
+cubed this gives me y square and I get 2 pi sigma q over 4 pi Epsilon 0 1 over y with a minus
+sign h square root of h square plus R square and that answer comes out to be, let us cut this
+also two sigma q over 2 Epsilon 0 1 over h minus 1 over h square plus R square square root
+and this is going to be the vertical direction.
+2 πσqh
+F vertical =
+4 π ε 0
+√ h 2 + R 2
+∫
+h
+ydy σqh 1
+1
+[ − 2 2 ]
+3 =
+2 ε 0 h √ h + R
+y
+Notice, if R tends to infinity this force goes to sigma q over 2 pi Epsilon 0, if I go to the
+previous page there was not this h also which I missed. So, there is going to be 1 h out here.F=
+σq
+2 π ε 0
+(Refer Slide Time: 16:53)
+Next page, there is going to be an h out here, let me show it by different color mistake the
+mistake I made h out here, h out here. And therefore, the force becomes sigma q upon 2 pi
+Epsilon 0 and that is the answer. So, I have solved three examples simple examples of forces
+due to charge distribution.

@@ -1,0 +1,295 @@
+Introduction to Electromagnetism
+Prof. Manoj K. Harbola
+Department of Physics
+Indian Institute of Technology, Kanpur
+Lecture - 05
+Electric Field due to a Charged Distribution
+In the previous lectures, we have discussed the Electric Field due to Charges and Charge
+Distributions. In fact, while calculating forces on a given charge q, we had also calculated
+electric field due to a charge distribution, because if I take small q to be 1, it becomes the
+electric field. Let us do some more examples of calculating electric field in this lecture, I will
+do two examples here and both are important and will be used in the future.
+(Refer Slide Time: 00:48)
+I am going to calculate electric field due to example 1 a, an electric dipole and 2 due to a
+surface charge. In example 2, you will also learn a trick to deal with such cases. In both the
+cases, we will be doing some limiting processes. So, this is quite an instructive and important
+lecture.(Refer Slide Time: 01:33)
+To calculate the field due to a dipole, I am going to be more specific a point dipole what we
+are going to do is take the dipole to be made up of 2 charges minus q and plus q separated by
+distance 2a. So, that the magnitude of dipole moment is given by 2qa, and the direction of
+dipole moment is from negative to positive charge.
+| ⃗ p | =2 qa
+So, p is going to have a direction from negative to positive charge, if I take the dipole to be
+sitting at the origin and in the z direction, then I will take the charges minus q at minus a at z
+equals minus a and plus q to be sitting at z equals plus a and I can write the dipole moment p
+of this to be equal to 2qa in the z direction.
+⃗ p=2 qa ^ z
+To make it a point dipole finally, what we are going to do is take limit ‘a’ going to 0 and q
+going to infinity, such that product qa remains finite and equal to some p value that makes it a
+point dipole. So, let us calculate the field due to this point dipole.(Refer Slide Time: 03:32)
+I am going to make it again, this is my point dipole plus q sitting here minus q sitting here.
+So, the field at some vector r is going to be 1 over 4 pi Epsilon 0 q the positive charge gives
+me the field q, r minus a in the z direction. I will write a cube here and a vector r minus ‘az’
+on the top, there is a field due to the positive charge and that due to negative charge is going
+to be minus q r plus ‘az’ over r plus ‘az’ cubed.
+1 q ( ⃗ r −a ^ z ) q ( r ⃗ +a ^ z )
+⃗
+E ( r ⃗ ) =
+[
+−
+]
+4 π ε 0 | ⃗ r −a z ^ | 3 | r ⃗ +a ^ z | 3
+To make it more explicit, let me draw this point r, this is vector r minus ‘az’ and the one from
+the bottom here is r plus ‘az’ and we want to calculate this field and finally, take the limit q
+times a going to a finite number. Since, we are already assuming that we are going to take the
+limit a going to 0, I can expand these two quantities in the denominator. So, let us write
+modulus of r plus ‘az’, I am going to include minus also right here which is going to be
+square root of r square plus ‘a’ square plus 2 a r dot product of r unit vector with z unit vector
+which is going to be cosine theta raise to 1 half and for the minus sign it will be minus here.
+2
+2
+| ⃗ r +a ^ z | = ( r + a +2arcosθ )
+1
+2
+Since, I am going to take a going to 0, so a is much, much, much less than r we are going to
+neglect a square term and keep only this term. So, by Binomial theorem I can approximate
+this as r 1 plus or minus 2 a by r cosine theta raise to 1 half which is...| ⃗ r +a ^ z | ≅r 1 ± 2 a cosθ
+(
+r
+)
+1
+2
+(Refer Slide Time: 06:13)
+Thus we can write r plus or minus a z cubed as r cubed 1 plus or minus 2a over r cosine theta
+raise to 3 by 2 which by Binomial theorem is r cubed 1 plus or minus 3a over r cos theta.
+3
+| ⃗ r +a ^ z | =r 1 ± 2a cosθ 2 ≅r 3 (1± 3 a cosθ)
+r
+r
+3
+3
+(
+)
+And therefore, the field due to this dipole sitting at the origin at a distance r is going to be
+given as E r equals q over 4 pi Epsilon 0. Inside I have vector r minus az divided by r cubed 1
+minus 3 a over r cos theta minus let me use a different colour r plus az over r cubed 1 plus 3 a
+over r cosine of theta bracket closed.
+q
+⃗
+E ( r ⃗ ) =
+[
+4 π ε 0
+( r ⃗ −a z ^ )
+( ⃗ r +a ^ z )
+−
+]
+3 a
+3 a
+3
+3
+r (1−
+cosθ) r (1+
+cosθ )
+r
+r
+Again I am going to use Binomial theorem and take the factors encircled in purple to the
+numerator and write this whole thing as E r equals q over 4 pi Epsilon 0 r cubed I am going to
+take out r cubed and inside, I am left with r minus ‘az’ times 1 plus 3a over r cosine of theta
+minus r plus a z times 1 minus 3 a over r cosine of theta.⃗
+E ( r ⃗ ) =
+q
+3 a
+3 a
+[ ( r ⃗ −a z ^ ) 1+
+cosθ −( ⃗ r +a ^ z ) 1− cosθ ]
+3
+r
+r
+4 π ε 0 r
+(
+)
+(
+)
+(Refer Slide Time: 08:41)
+I will again expand this keeping terms only up to first order in a and what I get is E r is equal
+to q over 4 pi Epsilon 0 r cubed r plus 3a over r, r vector cosine of theta minus az minus r plus
+3a over r, r vector cosine of theta, this blue one is the second term minus az let me check if I
+am doing it correctly, ((Refer Time: 09:24)) yes this is indeed correct. And now, if I use the
+fact that r vector divide by r is unit vector r, then I can write E r as q over 4 pi Epsilon 0 r
+cubed and by the way here this term cancels, inside I get 6a r unit vector cosine of theta
+minus 2a z which I can write as take 2 a out 2 a q over 4 pi Epsilon 0 3 cosine of theta r unit
+vector minus z.
+⃗
+E ( r ⃗ ) =
+q
+2 aq
+[ 6 a r ^ cosθ−2 a ^ z ] =
+[3 cosθ r ^ −^ z ]
+3
+4 π ε 0
+4 π ε 0 r
+I now want to be more general and realize that p vector is equal to 2 a q z and therefore, the
+term 2 a q combined with the first term here is 2 a q times 3 cosine of theta r, cosine theta is
+nothing but z dot r r unit vector. So, I can write this as equal to 2 a q z dot r times unit vector
+r multiplied by 3 which is nothing but 3 p dot r r. Similarly, 2 a q z this whole term combined
+with z is nothing but p and remember I am taking the limit that I am working under is that a
+goes to 0 and q goes to infinity, such that 2 q a goes to p.(Refer Slide Time: 12:00)
+So, combining all these I can write E r as p dot r r with the 3 here minus p over 4 pi Epsilon 0
+r cubed, this is the expression for a dipole sitting with any orientation now at the origin.
+3 ( ⃗ p . r ^ ) r ^ −⃗ p
+⃗
+E ( r ⃗ ) =
+4 π ε 0 r 3
+Because, now I am taking the dot product, so it does not really matter dot product gives me
+that cosine theta already. If the dipole is at let us say r prime some point r prime, then this r
+would represent the distance from that point and I am going to have E at r is going to be 3 p
+dot unit vector in the direction of r minus r prime unit vector in that direction.
+Unit vector r minus r prime minus p divided by 4 pi Epsilon 0 r minus r prime cubed, which
+explicitly I can also write as 3 p dot vector r minus r prime multiplied by vector r minus r
+prime. Since, I have multiplied by the vectors I will divide by r minus r prime raise to 5
+minus p over r minus r prime cubed of course, there is a 1 over 4 pi Epsilon 0 outside.
+⃗
+E ( r ⃗ ) =
+[
+]
+^ ' ) ( r−r
+^ ' ) −⃗ p
+3 ⃗ p . ( r−r
+3
+4 π ε 0 | r ⃗ −⃗ r ' |
+'
+'
+3 [ ⃗ p . ( r ⃗ −⃗ r ) ] ( r ⃗ −⃗ r )
+1
+⃗ p
+=
+{
+−
+}
+5
+3
+4 π ε 0
+| r−r ' |
+| ⃗ r −⃗ r ' |(Refer Slide Time: 14:01)
+Next example I want to take we will use Gauss’s law and in this I want to take a positively
+charge sphere superimpose it on a negatively charge sphere and calculate the field due to this
+superposition of these two in this region, where they overlap. In a way you can think
+electrically this overlap region also to have no charge density, rho is 0. Because, positive and
+negative charges cancel, equivalently you can also think of this as being hollow, because
+electrically it does not matter.
+So, in a way we are also calculating the electric field in a hollow region, this is hollow region
+when charge outside on one side is positive and charge on the other side is negative, these
+two centres are displaced by some distance a. I am finally, going to take the limit in this case,
+where these two charges will overlap for most of the regions. So, that this negative side will
+give me a very thin slice of negative charge, positive side will give me a very thin slice of
+positive charge.
+And you can see in the middle the charges are going to have largest magnitude and it
+diminishes as you go to the side and this region is hollow by taking appropriate limits, limit a
+going to 0 and this charge density rho going to infinity. So, that the charge on the surface
+remains finite I will get the electric field due to a surface charge distribution rho theta or
+sigma theta which is some constant times cosine of theta and you will see that. So, again I am
+going to use a limiting process.(Refer Slide Time: 16:49)
+So, let us take a sphere with uniform charge density rho r and this problem you have solved
+in your 12th grade, if you apply Gauss’s law and calculate the field inside at a distance r this
+field comes out to be rho r by 3 Epsilon naught. But, let us do it explicitly anyway E dot ds
+gives me charge enclosed divided by Epsilon 0. So, if I take the inner surface E dot ds is
+going to be E at r times 4 pi r square and charge enclosed is 4 pi by 3 rho r cubed divided by
+Epsilon 0 here 4 pi cancels, this r square cancels and gives me a single r.
+And therefore, field at r comes out to be rho magnitude of field at r comes out to be rho r over
+3 Epsilon 0, if I write the vector field v E at r it is direction is radially out and using this
+spherical polar coordinates I can write this as rho vector r divided by 3 Epsilon 0 this is the
+field.
+∫ E . ds= Qε
+0
+3
+4 π r ; | E ( r ) | = ρr
+E ( r ) .4 π r =
+ρ
+3 ε 0
+3 ε 0
+2
+ρ ⃗ r
+⃗
+E ( r ⃗ ) =
+3 ε 0(Refer Slide Time: 18:22)
+Now, let us superimpose these two charges that we were talking about, here is the positive
+charge, here is the negative charge, positive charge at this distance r gives me a field which is
+going like this radially out. If I look at the negative charge it gives me a field like this towards
+the centre, because the negative charge at any point. So, let me make this picture again, let
+me take any point, let us say point out here, here is electric field due to positive charge and
+here is electric field due to negative charge.
+If I call this vector r 1 and call this vector from the point where I am calculating the electric
+field towards the centre r 2 , then the electric field at this point is equal to some due to the field
+due to the positive charge plus that due to the negative charge. So, I am going to write this at
+rho r 1 divided by 3 Epsilon 0. And since r 2 is already in the direction where the in the
+direction of the electric field I can write this as plus rho r 2 over 3 Epsilon 0 combine them
+together I can take rho over 3 Epsilon 0 out I have r 1 plus r 2 , this is r 1 vector, this is r 2 vector.
+So, their sum is this vector whose magnitude that distance between the centres of theses
+spheres and vector is from positive charge towards the negative charge. So, I can write this as
+rho vector a over 3 Epsilon 0, this is very interesting result.
+⃗
+E=
+ρ ⃗
+r 1 ρ ⃗
+r 2
+ρ
+ρ ⃗ a
++
+=
+r +⃗
+r ) =
+( ⃗
+3 ε 0 3 ε 0 3 ε 0 1 2 3 ε 0Because, now you look at this contribution of the two fields, if I take this negative charge
+here and the positive charge here in this hollow region field is the same everywhere it is
+pointing from negative to positive side it’s magnitude is rho a divide by 3 Epsilon 0 provided
+these two densities are the same that is how everything worked out.
+And it is direction is from the centre of the positive charge towards the centre of the negative,
+this is very interesting result no matter what you do field inside is constant in this hollow
+region. Now, we are going to use this fact to derive field due to a surface charge distribution.
+(Refer Slide Time: 21:37)
+Let me now take these spheres to be overlapping over most of the regions and they are
+displaced by small vector a, these are the centres. Let us now take how much is the charge in
+this region, now since I am going to use this spherical polar coordinates it will be useful if I
+make this arrangement in the vertical direction, this is the centre of the two spheres. Because,
+the distance between them is very small I can take almost a common centre and I want to
+calculate the charge in this volume.
+Remember, how much is the volume element, this small volume element d v is going to be
+again a is very, very small a is much, much, much less than the radius of these spheres a in
+fact, will tend to 0. So, I can write this as R square d cosine of theta, because this angle is
+theta d phi times d r, where d r is this distance along the radial direction.
+2
+dV =R d ( cosθ ) dφ . drSo, again I am taking this particular volume element, this distance is d r how much is dr?
+Remember what we said, we said these are displaced by distance a.
+So, this distance here is a, this distance here is a and this is d r, this angle is theta. So, you can
+see that d r is a cosine of theta ( dr=acosθ ) , so I can write this small volume element as R
+square d cosine of theta d phi times a cosine of theta.
+2
+dV =R d ( cosθ ) dφ . acosθ
+And therefore, the charge in this region d Q is going to be rho the density cosine of theta, let
+me bring a also here times R square d cosine theta d phi, recall from our one of our previous
+lectures this is nothing but the area element in the radial direction for this sphere. So, this is
+nothing but a rho cosine of theta d s.
+2
+dQ=( aρcosθ ) R d ( cosθ ) dφ=( aρcosθ ) . ds
+(Refer Slide Time: 24:46)
+So, what I have the situation now if I think of this as single sphere, I have positive charge
+here which is rho a cosine of theta d s which I can write as a surface charge density sigma
+times d s, where sigma depends on theta and sigma theta is equal to some rho a cosine of
+theta. In the limit of a going to 0 and rho going to infinity, such that rho a goes to some sigma
+0 I can write sigma theta as sigma 0 cosine of theta.
+σ ( θ ) =σ 0 cosθBut, these are two displaces spheres. So, what will the field look like, field will be in the
+direction of displacement from positive to negative side.
+And therefore, the electric field which remember earlier we derived to be rho a over 3
+Epsilon 0 is going to be rho a it is in the minus z direction divided by 3 Epsilon 0. But, rho a
+we have said is nothing but sigma naught. So, this is sigma naught over 3 Epsilon 0 z in the
+minus z direction.
+(Refer Slide Time: 26:14)
+What do we conclude? We conclude that if I have a sphere over which sigma depends on the
+angle from some axis, some axis if you go away by an angle theta, if sigma theta is sigma 0
+cosine of theta. So, that it is positive all over here and negative on the other side maximum
+being along this axis and then it diminishes and becomes 0 here. Then, E field is constant
+inside and as is given by sigma naught over 3 Epsilon 0 pointing from positive to negative
+side. That is a very important result, you also learnt in this how to use Gauss theorem with
+two charge distributions and it gives you a result that for a particular surface charge density
+you get a constant field inside this is sphere.
+

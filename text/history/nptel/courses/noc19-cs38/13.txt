@@ -1,0 +1,241 @@
+Programming in C++
+Prof. Partha Pratim Das
+Department of Computer Science and Engineering
+Indian Institute of Technology, Kharagpur
+Lecture – 13
+Default Parameters and Function Overloading (Contd.)
+Welcome to Module 8 of Programming in C++. We have been discussing on this module
+in the earlier part and we talked about default parameters. Now, we will start discussing
+the function overloading.
+(Refer Slide Time: 00:40)
+To understand the function overloading, we will first take an example to illustrate why at
+all something like a function overloading is required and what it could possibly mean.
+So, here is an example in C. It is an example to multiply matrices, multiply vectors with
+matrices or multiply vectors themselves. So, if you look little carefully into the
+definitions given here, first we define three types, these are alias. Matrix is a two-
+dimensional square matrix that we have taken here in this example. Then, in the second
+VecRow. In this VecRow is a row vector and VecCol is a column vector. So, you can
+understand these. These you can look at this.So, these are the three types and then, what we want is, wherever it is defined by the
+rules of matrix multiplication, we want to write function to multiply them. The first
+function multiplies two matrices and returns the result matrix. You can easily see that
+‘Mat a’ is a square matrix a, ‘Mat b’ is another square matrix and both of them have size
+10. So, if I multiply them, I will get another square matrix c as a result by the rules and
+you understand that since we are writing this in C, the call by value, we need to use
+pointers to get the output from this function.
+Now, suppose I also want to define a multiplication which is the second one which is
+between a square matrix ‘a’ and a column vector ‘b’. If I do that, naturally I will get a
+column vector c. Now, if we can recap on the rules by which we multiply matrices, the
+row column mechanism which all of you know and I do not need to elaborate that here.
+You will know that there is hardly any difference between multiplying two matrices or
+multiplying a matrix or rather post multiplying a square matrix with a column vector of
+the same size. Only difference being your result will be a column vector and if you
+proceed, if we look into the third, it is a pre-multiplication of a matrix by a row vector.
+If you look into the fourth, it is multiplication of a column vector by a row vector where
+the result turns to be a square matrix and in the fifth, you get ‘c’, the multiplication of a
+row vector by a column vector which turns out to be a single value. Now, all of this
+follows the same algorithm for multiplication, but if I want to express them, code them in
+C language, I will need to provide all different names. If you look into this part, I need to
+provide all different names to these functions because they are different functions. They
+take different kinds of, they all take three arguments because conceptually they are
+taking ‘a’ and ‘b’ matrices and multiplying and giving you a result ‘c’.
+But since these are all different types, I need to have different names given to this
+function and when I am using, I not only need to understand what different parameters I
+am passing but corresponding to that i.e ‘rv’ is a row vector ‘m2’ is a matrix. So, I have
+to remember that, if I am using a row vector and a matrix, my name of the function has
+to be ‘multiply_VR_M’ or something similar. Whereas if I am doing multiplication of a
+row vector by a column vector, then the name of the function has to be something
+different e.g. Multiply_VR_VC.So, if you summarize these observations, so what you understand is five multiplication
+functions that we show here, share the same functionality. They have same algorithm, but
+just they have five different kinds of argument types and result types and consequently C
+needs to treats them as five different separate functions. Now, C++ fortunately has an
+elegant solution for this situation, where different functions which have similar
+functionality maybe they use the same algorithm or maybe they use slightly different
+variations of the same algorithm, but certainly has to deal with different kinds of data
+types in the argument can now share their function name and can make the whole
+programming exercise lot easier.
+So, to start with, continuing with the same example, now this is again coded in C++. Just
+look at the major differences. The first if you look into the typedef, they are identical. We
+are dealing with the same types. If you look into the five functions, we have the same
+five functions so far as the functionality is concerned that is the first one still multiplies
+two matrices, the second one multiplies a matrix, post multiplies a matrix with a column
+vector and so on, but if you look into the names, you see something very different. You
+see that all of them have the same name, something that you could not have done in C.
+In C we formally say that function names are global. These are global symbols. So, in the
+whole of C program, irrespective of how many files in which you write and so on, but in
+the whole of the program that will run as one unit from call to one main, every function
+name has to be distinct, every function name. There can be only one function name for
+every different function that you write for the program, but here you can see that we have
+five different functions sharing the same name, but of course when you look into their
+parameters like in here, all the parameters you will find that no two of them have the
+same set of parameters.
+They do not actually need to, because what distinguishes the first multiply which
+multiplies two matrices and gives through another square matrix from the second
+function which post multiplies a matrix with a column vector to give a column vector or
+the third one which pre-multiplies a matrix with a row vector to give a row vector. All of
+them have various different, their corresponding different data types for the arguments.Now added with that the small thing that we have done is what we have learnt in module
+6 and 7 that we have learnt to use the call by reference matrices at big objects. So, you
+would not like to pass them as value and copy them, rather we would like to pass them as
+reference and to make sure that the input matrices or vectors are not tempered within the
+function. We make those parameters constant whereas, on the output side we use just the
+call by reference mechanisms, so that we do not need that indirect pointer part, but this is
+just a matter of detail with the points to note is all these five have the same name and all
+these five can be used by the respective actual parameters with the same name.
+So, what happens is suppose I am trying to do a post multiplication of a matrix with a
+column vector, so I have a matrix ‘m1’, I have a column vector ‘cv’ and if I multiply
+them, what should I get? I should get a column vector. So, let say I am expecting the
+column vector ‘rcv’ as a result. So, what I say I just write multiply; I put ‘m1’ as the
+matrix, ‘cv’ as a column vector and ‘rcv’ as my result matrix. Now, somehow this means
+that if I do this and I must call that particular function appropriately which multiplies;
+post multiplies a square matrix with a column vector.
+So, very interestingly if you specify these parameters in this function, then interestingly
+this will actually call this function. Though there are five functions, all of them called as
+multiply and I am calling this function also as multiply, but somehow, I will be able to
+understand given the parameters, given the types of the parameters that I am actually
+interested in the second function with whom the types of these parameters, the type of
+this parameter is Mat which matches here, the type of the second parameter is parameter
+‘cv’ is ‘VecCol’ which matches here and type of the third parameter rcv is again ‘VecCol’
+which matches here. We find that this is the only function out of the 5, where these 3
+parameters match in their type and the compiler would be accordingly able to call the
+second function here from this particular invocation.
+Similarly, if I look into this, then depending on the types of these 3 parameters, the
+compiler would be able to actually call this function because ‘rv’ is ‘VecRow’, ‘rcv’ is
+‘VecCol’ and ‘r’ is int. ‘rv’, ‘cv’, ‘r’, ‘VecRow’, ‘VecCol’, int will only specifically call
+the last function which is exactly what will work. So, these 5 functions have different
+argument types, but they are treated as one function having a common name in C++ andthis feature is very-very powerful, and which will enable us to do lot of things is called
+function overloading or as we will slowly understand an alternate name, more formal
+name for it is static polymorphism. So, we just saw the motivation of why the function
+overloading would be easy. We saw that in situation where we had to give five different
+function names to five different functions while their core functionality, core algorithm is
+still same and we had to remember all these names distinctly, we in C++ can use function
+overloading to just use the same name and depending on our call or use of the function,
+the appropriate function will get called appropriate function will be bound to the
+particular call we have seen that. So, now we go forward and see how we can do
+different kinds of function overloading in C++.
+(Refer Slide Time: 13:27)
+So, in function overloading, we define multiple functions having the same name because
+unless you have more than one function having the same name, that issue of overloading
+does not arise and the second is the binding happens at compile type. Binding is a formal
+term to say that given the function call, how do you decide which particular function will
+actually be called and that process is known as binding. This is what the compiler does.
+So, this is called the binding at compile time.(Refer Slide Time: 14:13)
+Now, let us look into this. On the two columns, we will show two different kinds of
+instances here. We show the overloading of a function ‘Add’ where the first instance
+here, you just look at specifically focus on the parameters. The ‘Add’ takes two integer
+parameters and returns an integer in the second case, it takes two double parameters and
+returns a double. So, we are trying to write an ‘Add’ function which conceptually should
+add two numbers, but in C it does matter or in C++ also, it does matter as to whether the
+numbers it is adding are int or they are double or they are something else.
+Now, I can write these two functions together in my same code and then, I am using it at
+two different places. Here I am using it Add(x, y), where x is an int and y is an int. So,
+basically, I am calling the ‘Add’ with two int parameters. Therefore, this call will get
+bound to this definition of add which is what works for two int parameters whereas, if
+you look into the second call of the add function which uses ‘s’ and ‘t’ of type double,
+our parameter types are double and double the compiler will figure out that this call is
+actually for the second definition of the add function and will bind it there.
+Accordingly, the first one will print a sum 11 and the second call will print a sum 7.75.
+As we all know that it does matter for addition as to what type of data you are using
+because if I am adding two integers, I have one kind of addition. If I am adding twodoubles, I have a different kind of addition. So, in this part we have seen that the function
+‘Add’ has in both cases, the same number of parameters, but the types of the parameters
+are different and based on that we are able to resolve as to what a particular call is talking
+about, from the call, what particular function of the different alternatives that have been
+overloaded needs to be actually invoked, need to be actually bound. Now, it is not
+necessary for overloading.
+So far, all the examples we have seen either the five multiply functions or the add
+functions here, the number of parameters have been same in all cases, but this is not
+mandatory for function overloading. So, look at the right column.
+The next example, here we show two functions Area. The first one is meant to compute
+the area of a rectangle. So, it has to take two parameters of width and height, multiply
+them and written that, whereas, the second one takes only one parameter because it is
+supposed to compute the area of a square, so, you just take that and squares that number
+and written it. So, between these two functions, the name is same. This has two
+parameters whereas, this has one parameter and we will see below that we can still work
+with this given if you call ‘Area(x,y)’, then we know that there are one function. One of
+these function, this one has two parameters, the parameter x as here is int, parameter y is
+also int. So, it is a (int, int) call. So, two parameters, both of them should int. They are
+indeed int here. So, this call will actually invoke the first area function.
+In contrast if we look into the second call, there is one parameter ‘z’ which is of type int.
+This will get bound to the second area function which has one parameter. So,
+appropriately different functions as overloaded, will get called even when there are
+different numbers of parameters. Note that though the numbers of parameters are
+different, in terms of the first parameter here the type is a same.
+In the earlier cases, the number of parameters where same in the earlier cases. Just the
+different types where giving you the clue in terms of which is the right function to call,
+here the numbers are different even though the type is overlapping. You still are able to
+resolve, were still able to bind the right function for the right call. So, when you talk
+about function overloading, we are basically talking about situations where there is morethan one function which needs to be used and these functions are somewhat related in
+their functionality.
+Now, certainly you will not overload a function to do square root with the function to
+sort ten numbers. I mean you could always call them; let say I use a name ‘myfunc’ and I
+overload ‘myfunc’, if the parameter is double, then it will find square root and if the
+parameter to ‘myfunc’ is an array then it would sort. It is according to function
+overloading rules, you will able to do that, but certainly that will be a disaster use of this
+feature.
+So, when we overload the basic conceptualization is that all overloaded functions must
+have very related functionality. They should be talking about very similar algorithms, but
+the types of the parameters that they use, number of parameters that they use for doing
+the computation has to be distinct, so that I can give the same name to all of these
+functions and that is mechanism by which function overloading works in C++
+(Refer Slide Time: 21:16)
+There are some restrictions in terms of function overloading. Function overloading is
+primarily decided based on the signature of the function as we have discussed that in
+every time case, we are saying that, in C, how you resolve between two functions. Theymust have different names, different functions. In C++, two functions or more than two
+functions can have the same name. How do you resolve? You resolve based on their
+signature, based on the number of parameters, based on the types of the parameters we
+have seen so many examples.
+Now, the question is, if I have two functions which have; let us check this particular case
+here, I have two functions. Again area, both of them use the same number of parameters,
+both of them use the same types of parameters (int, int) and (int, int), but their return
+types are different. Now, please note such kind of functions cannot be used together. This
+is not possible in terms of function overloading.
+So, perhaps this shown here, this is one typical error message from a compiler showing
+you that here it is saying, it takes the first function that is okay, when you tries to compile
+the second function when tries to look into that, it says, that is why it is talking about the
+second function which this double return type says overloaded function differs only by
+return type. It differs only by return type and that is not what is allowed and that is why
+this is considered to be a redefinition as if you are redefining the same function as if you
+would have given this if you would have compiled this example with C.
+You would also find a very similar error message because this is a redefinition message.
+The first message is what is typical from the function overloading point of view that you
+cannot overload two functions unless their number of parameters differ or the number of
+parameters sustains, but still the types of the parameters are different at least for one
+parameter if their signatures are just different in the return type, then that overloading is
+not permitted.(Refer Slide Time: 23:56)
+So, please keep this restriction in mind while you deal with, while you write overloaded
+functions. To sum up in terms of the rules that we have for function overloading will say
+that the same function name may be used in several definitions. That is a basic
+overloading concept. The function with the same name must have different number of
+formal parameters and /or different types of formal parameters we have seen examples of
+both. Function selection is based on the number and types of the actual parameters. We
+have seen examples here as well.
+Then, this function selection as it is done by the compiler is known as overload
+resolution. What it means that, you have multiple functions overloaded. Multiple
+functions by the same name and you are given one call site; you are given one call where
+you are trying to figure out which of these multiple candidates should be used. That
+process is called process of resolution for the overloading, something that C++ compiler
+performs and, overtime, you will understand that it is actually extremely complex
+process and extremely powerful process and by that process, the compiler tries to decide
+which particular function of the given overloaded versions you are going to use or you
+intend to use in the call site, if the compiler feels to do that.If two functions have the same signature but different return types or for some other
+reason the parameter types being different, but not distinct enough for the compiler to
+resolve. If compiler fails to do that, then the compiler will tell you that you are
+attempting to re-declare or you would tell that I am confused and will say that there is
+ambiguity in that and in such cases, you will have to do something different to make the
+function overloading work or avoid function overloading and to write the code in a
+different form.
+Overloading is in a form gives you static polymorphism. We are not immediately going
+into depths of static polymorphism. We will talk about polymorphism later in the context
+of various C++ features. The core features here I would just like to explain the two
+words.
+Polymorphism means, poly means- many and morph means- to change. So,
+polymorphism is accommodating multiple changes or multiple forms into one. So, here
+the polymorphism means that the same function by name, but it has depending on the
+parameter type, different behavior, different algorithms and different interfaces. So, you
+are trying to basically decide on this multiple form and then you say that this is static.
+What static here means that you want to do this all in the compile time that is the
+compiler should be able to decide between these multiple forms and tell you exactly
+which of these different forms, polymorphic forms you are trying to use at your function
+call. So, combined together this kind of decision or overload mechanism is known as
+static polymorphism.
+Of course, there are other forms of polymorphism which are typically called dynamic or
+run type polymorphism which we will discuss after when we get into discussing the
+object base part of the C++ language.

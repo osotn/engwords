@@ -1,0 +1,1032 @@
+So, ok welcome to this ah course that fundamentals
+of electrical engineering . So, before giving
+
+you introduction just I like I would like
+to tell one or two words, that is a this course
+
+is mainly for the first year engineering students
+where in fact, all the first year engineering
+
+student can take this course and this is a
+very basic course only at the beginning I
+
+am telling that in the introduction ah you
+know ah that a video that 5 minutes video,
+
+their one thing I said only independent sources,
+but ah I found at dependent sources also it
+
+is very simple thing .
+So, dependent sources also will be covered
+
+so, those are the things and we will start
+from the ah basic concepts right basic concepts
+
+and from there will your what you call slowly
+and slowly will move into you know much deeper
+
+understanding and ah your first the dc part
+will be covered and then your single phase,
+
+three phases is circuit everything will be
+covered may have your including resonance
+
+or maximum importance for theorem and your
+what you call that magnetically couple circuits.
+
+And then whatever first year courses is there
+for your transformer single phase transformer
+
+your equivalent circuit and after voltage
+regulation, then little bit of three phase
+
+induction machine up to your equivalent circuit
+as were as first year course is concern and
+
+then that dca machine right so, this way let
+us start first thing is that your basic concept
+
+right. So, generally all branches of electrical
+engineering actually are based on two thing
+
+that is your electric circuit theory and elective
+magne and electromagnetic theory, where is
+
+the I mean this is the your what you call
+will be that main two things.
+
+So, several branches in electrical engineering
+like power system, control system, ah electric
+
+machines, instrumentation, then electronics,
+then communication, all are based on your
+
+electric circuit theory right .
+So, this codes is mainly your what you call
+
+that your ah suitable for your what you call
+the first semester or your first year rather
+
+electrical engineering student and so, we
+will start ah from your very basic thing .
+
+So, therefore, the basic electric circuit
+theory course is your important course for
+
+an electrical engineering student and of course,
+and excellent starting point for a first semester
+
+student or first year student in electrical
+engineering education, electrical engineering
+
+means it covers all the things like electrical,
+then your electronics ecu call then your instrumentation.
+
+So, everybody I mean all the specializing
+in first year they can ah they can take this
+
+course right and .
+So, and basically ah if you think about electrical
+
+engineering we are often interested that actually
+electrical transfer in energy from one point
+
+to another . This is ah this is common idea
+you have when is look at that circuit at house
+
+hold and you might have seen somewhere in
+that power generic station right, but ultimate
+
+thing is that you often interested in transferring
+energy from one point to another that is also
+
+your transferring energy. So, to do these
+we require in interconnections of electrical
+
+devices right .
+So, and such interconnection is known as an
+
+as your as an electric electric circuit like
+if I mark it by this ah, if this thing this
+
+plain we require an interconnection of electrical
+devices and such interconnection is known
+
+as an electric circuit right and each component
+of the electric circuit is known as element.
+
+So, what we need actually we require an interconnection
+of electrical devices and interconnection
+
+it will be through wires only conducting wires
+only and such interconnection is known as
+
+the electric circuit and each element of the
+electric circuit is known as your element;
+
+that means, each component of the electric
+circuit is known as an element right .
+
+Therefore, an electric circuit is an interconnection
+of electrical elements . So, this is the your
+
+what you call ah this is your ah the I mean
+require may the your electrical elements and
+
+electric circuit is an interview what you
+call therefore, electrical interconnection
+
+of electrical elements . So, just will come
+to the figure one is shows a ah simple electric
+
+circuit right so, it consist of 4 basic elements
+look ah.
+
+Just look at this circuit it consist of 4
+basic element so, one is voltage source so,
+
+this is very you know very basic things we
+have started. So, this is a voltage source
+
+representing says battery this symbol will
+come later battery symbol will come later
+
+ah this is the switch and this is ah conducting
+material if you close, this which will be
+
+close, if it is open it is open and this is
+actually conducting wire there is a conductor
+
+represent wire and this is the lamp and this
+is the philament say it is a made of tungsten
+
+right .
+So, this is the simple circuit so, a lamp
+
+connecting ah such a simple circuit has several
+applications such as your torch light or search
+
+light it is c . So, this is a simple electric
+circuit now let us come to the voltage source
+
+representing a battery.
+So, basically what happen electrical charge
+
+that is electron say in that it were writing
+electron. So, we will flow through the circuit
+
+due to chemical forces in the battery right
+due to the chemical forces in the battery
+
+of course, ah little bit of ah your battery
+you calling little bit of ah physics your
+
+in physics you have studied the battery is
+right .
+
+So, here will not ah your what you call here
+will not cover to the chemical reaction another
+
+thing, but some whatever we have learn from
+there only we talk about that . So, will flow
+
+through the circuit due to the chemical forces
+in the battery the charge gains energy from
+
+chemicals in the battery ah and delivers energy
+to the lamp right. So, these negating charge
+
+I will come to little bit later . So, the
+charge actually gains energy from the chemicals
+
+and your in the battery and delivers energy
+to the lamp the actually the from here actually
+
+energy is coming to the lamp right and the
+battery voltage is a measure of the energy
+
+gained by unit of charge as if moves through
+the battery.
+
+Later will see the your voltage another things
+, but the battery voltage is a measure of
+
+the energy gain by unit of charge as it moves
+through the battery, but of course, if the
+
+switch is switch ah switch is closed right,
+but one thing is that that suppose this conductor
+
+wire suppose it is a hm your it is a your
+ah what you call that, copper wires and the
+
+plastic insulation will be there right and
+this is the tungsten, tungsten wire actually
+
+is not a good ah your what you call a conductor
+as compared to the copper will come to that
+
+right.
+And, but question is the wires are of made
+
+of copper conductor I just told you and had
+insulator from one another by electrical insulation
+
+coating the your coating the wire that you
+have seen that you have seen . So, electrons
+
+actually readily move through the copper conductor,
+but not through the plastic insulation . So,
+
+this wire is there, but it is your plastic
+insulation right and that switch I told you
+
+it will allow this allow the current . If
+you close the switch current will flow if
+
+you just open it and current will not flow
+.
+
+So, and the lamp actually I told you it contains
+ah tungsten wire it can withstand high temperature
+
+. So, tungsten is not as will be as your electrical
+conductor or as copper and electrons actually
+
+experience collisions with the atoms of the
+tungsten right and ah that is the tungsten
+
+wires, because that if that is to the copper
+conductor that your what you call charge or
+
+electron is flowing and it will make a your
+what you call collision with the atoms of
+
+the tungsten wire . So, therefore, resulting
+in heating of the tungsten and we can say
+
+that tungsten wire had electrical resistance
+.
+
+So, thus energy is transferred by the chemical
+action in the battery to the electrons right
+
+and then to the tungsten where it appears
+as heat. So, the tungsten becomes hot enough
+
+so, that light is emitted . So, I will put
+a question to you that your a that is your
+
+is many questions on this thing when I will
+move ah that ah . So, whatever that electrons
+
+flow just let me go to this circuit ah just
+hold on, hm ah is that actually electrons
+
+is flowing through this copper conductor,
+when it come to that is at collision actually
+
+we that of the tungsten and therefore, it
+is causing as you know ah heat .
+
+So; that means, we can say the tungsten has
+an electrical resistance right and I will
+
+put a question here that we have seen that
+your ah that bulb 40 vat, 60 vat, and 100
+
+watt and so on . So, they have all the filaments
+tungsten filaments say so, a question to what
+
+is the diameter on this, your this tungsten
+filament because if you see then you will
+
+find it is look like a coin right and what
+is that your diameter of this tungsten filament
+
+this is a question to you .
+So, this is actually your, what you call ah
+
+that, how that we get that, your bulb ah this
+thing right ah. So, 40 watt ah that later
+
+will see 40 watt, 60 watt or 100 watt right.
+Therefore, the energy is transfer by the chemical
+
+action in the battery because battery has
+a chemical action. So, that energy is transformed
+
+in the electrons and then to the tungsten
+where it appears as the heat. So, tungsten
+
+becomes hot enough so, that light is emitted
+. So, this is a basic philosophy you have
+
+your what you call that is simple circuit
+is simple dc volt a simple switch wires and
+
+your tungsten lamp. Whatever you see in that
+your what you call 40, 60, your 80 ah sorry
+
+100 watt bulbs.
+So, now system of unit actually in all electrical
+
+engineer is this thing we deal with several
+measurable quantity like quantities like voltage
+
+your then ah current ampere right power watt
+and so on . So; however, I have measurement
+
+must be communicated in a standard language,
+such that all engineering professionals can
+
+understand irrespective of the country where
+the measurement is conducted such an international
+
+measurement language is the international
+system units.
+
+That is we call in short SI unit right, it
+is a international system units we call SI
+
+units right . So, adopted by the general conference
+on weights are measured that was in 1960.
+
+So, we follow that your what you call that
+SI is SI units, we call international system
+
+u of units in sort we call other way we call
+is SI right. So, basically in this international
+
+system there are 6 principal units ah basically
+6 only 6 principal unit, we need from which
+
+the units of all other physical quantities
+can be obtain right.
+
+So, just I am giving with this 6 units so,
+table 1.1 it shows the 6 principal units you
+
+needs and there symbols the SI units are use
+through the throughout the world right.
+
+So, one major advantage of the SI unit is
+that, it uses prefix says based on the power
+
+obtain and to relates smaller and larger units
+to the basic units. So, table 1.2 shows SI
+
+prefixes and that symbols will come to that
+first this 6 basic SI units right .
+
+So, this is the your 6 base, one is luminous
+intensity candela that is it call cd, another
+
+is the thermodynamic temperature Kelvin in
+sort ah in your symbol is K and is the length
+
+meter symbol is m, another is mass kilogram
+it is kg, another is time it is second, an
+
+electric current in ampere A this is the 6
+standard international or your what you call
+
+SI units form which other can be other can
+be obtain . So, this is the stat 6 say your
+
+basic SI units. So, it should be in your mind
+and then your table 1.2 it is actually will
+
+see that the SI prefixes .
+So, ah there are many 1 or 2, I am making
+
+that like if it is 10 to the power 18 it call
+exa it is symbol is capital E, you know this
+
+is 10 to the power 15 you call peta it is
+capital is ah your what capital P, we call
+
+10 to the power 12 you call tera ah it is
+T, then 10 to the power 9 right so, it is
+
+giga it is G, then when come 10 to the power
+6 ah it is mega right it is M and so on, 10
+
+to the power 3 is actually it is a not coming
+to ah alien to this, but 10 to the power 3
+
+means kilo. So, accordingly number accordingly
+numbering you can make it right it is k so,
+
+these way your deka, desi, centi, milli, micro
+all.
+
+But last one is 10 to the power minus 18 it
+is call atto in small a we call a, 10 to the
+
+power minus 15 it is called femto f and 10
+to the power minus 12 it is pico p and so
+
+on . So, from 10 to the power 18 the 10 to
+the power plus 18 to 10 to the power minus
+
+18 these are actually your, what you call
+the SI prefixes this is multiply this is prefix
+
+and these are the symbols. So, first basic
+6 SI units and these are your what you call
+
+the SI prefixes so, this we should know right.
+Next is the charge and current . Now, the
+
+concept of electric charge is the underlying
+principle of explaining all electrical phenomena,
+
+the most basic quantity in an electric circuit
+is the electric charge, here we will review
+
+some important characteristic of electric
+charge .
+
+Then will come to the current actually current
+is the rate of change of your what you call
+
+the charge flow . So, will come to that the
+first one is the charge is bipolar, meaning
+
+that electrical effects are observed in ah
+your are describe in terms of positive than
+
+negative charges right. So, charge is bipolar
+so, it means electrical effects are describe
+
+in terms of positive and your negative charges
+the first thing.
+
+Second thing is according to experimental
+observation, the only charges that occur in
+
+nature are integral multiplies of the electronic
+charge that e is equal to this will know from
+
+your class 12 physics also, e is equal to
+minus 1.602 into 10 to the power minus 19
+
+coulomb right . So, this is your the only
+charges that occur in nature or integral multiples
+
+or the electronic charge that is this value
+.
+
+And third point is the electrical effects
+are attributed to both the separation of charge
+
+and your charges in motion and the fourth
+point is the law of conservation of charge
+
+state that charge can neither be created nor
+destroyed only transferred right; So, it neither
+
+you can create nor you can destroy only it
+can be transferred right, thus the algebraic
+
+sum of the electric charge is a system does
+not change .
+
+So, the fourth one is very important right
+ah so, this should be in your mind . So, effects
+
+of electric charge can be experience when
+we carry to a remove our woollen sweater I
+
+mean you might have seen also remove our woollen
+sweater and have it stick to our body or walk
+
+across a carpet and receive a shock, other
+electrical charge I mean if you I mean when
+
+remove our your woollen sweater you know you
+can see that it is your sticking and our body
+
+this is due to the electric charge or sometimes
+so, we get some kind of shock when you are
+
+working you know you receive a shock when
+you are working only carpet .
+
+Other thing is that ah you take a very small
+pieces of paper and keep it and if you raw
+
+away take a plastic and raw we can your hair
+and just after that you ah hold it on the
+
+piece of paper you will find that all piece
+of papers are attracted towards their what
+
+you call towards that your that plastic right
+you can experience of your own so, any way
+
+.
+So, therefore, charge is an electrical property
+
+of the atomic particles of which matter consists
+measured in coulomb. So, charge unit of charge
+
+is a coulomb and it is an electrical property
+of the atomic particles of which matter actually
+
+consist so, measure in coulomb .
+Now, consider the flow of electric charges
+
+a so, actually this is actually you do not
+look it this as the page number right . So,
+
+now, consider the flow of electric, a unique
+feature of electric charge is that it can
+
+be transfer from one place to another place
+; that means, it is mobile ; that means, charge
+
+can be transfer for one place to another.
+So, in cities mobile when it can be converted
+
+to another form of energy right and the motion
+of charge creates and electric your fluid
+
+we call it is current .
+So, the little bit way of to see that when
+
+you, we know that a conducting wire consists
+of several atoms right and a battery is a
+
+source of electromagnetic force . So, conductor
+conducting wire consist of several atoms and
+
+a battery is a source of electrometric force,
+when a conducting wire is connected to a battery
+
+the very fast example what we saw that voltage
+source is switch ah, conducting wires and
+
+a transient lamp right .
+The charges are compelled to move so, as soon
+
+as a, you know battery is there a conducting
+wire is there so, as soon as the connected
+
+the wire that was the battery . So, what will
+happen, charges are compute to move positive
+
+charge is move in one direction and the negative
+charges move in the opposite direction a very
+
+simple logic this motion of charge is create
+electric current .
+
+Now, now which direction of the charge we
+will consider the direction of the current,
+
+convention is to take the current flow as
+the movement of the positive charges that
+
+is opposite to the flow of negative charge
+is as shown in next figure 1.2 .
+
+So, if you look at this, suppose this is battery
+this is shown little bit you know bigger way
+
+to show that your charge flowing. So, this
+is actually negative charge flowing, this
+
+is the negative terminal, this is the positive
+terminal . So, the charge will flowing in
+
+the direction of the your what you call positive
+flow of charge so, this way.
+
+So, that is the from plus so, this is the
+convention so, this the direction of the current
+
+or in other way it is opposite to the flow
+of the negative charge, this is the flow of
+
+negative charge it is move this is minus so,
+it is moving in a other way . So, this is
+
+actually convention therefore, if you look
+into that the convention is, this is the convention
+
+is to take the current flow or the movement
+of positive charge is that is opposite to
+
+the flow of the negative charges as shown
+in figure this is figure 1.2.
+
+So, the way the direction of the positive
+flow charge is these are the direction of
+
+the current or the opposite to the directive
+flow of the charge . So, the electrical effects
+
+caused by charges in motion depend on the
+rate of charge flow, the rate of charge flow
+
+is known as the electric current suppose if
+q is the charge, t is the time and i is the
+
+currents. So, i actually is equal to dq by
+dt .
+
+So, mathematically the relationship between
+current and charge and time is different in
+
+that i is equal to dq by dt this is a equation
+1.1, that i is that current in ampere, q is
+
+the charge in coulombs and t the time in second.
+So, basically current is the your what you
+
+call by is equal to dq by dt .
+If note that 1 ampere is equal to 1 coulomb
+
+per second; that means, if this side is 1
+ampere this side it has to be 1. So, this
+
+is coulomb, this is second so, it will be
+1 coulomb per second right .
+
+Suppose if q for example, a suppose ah you
+take the data in such a fashion such that
+
+the dq is 5 dt is also 5 so, that way . So,
+it will be your what you call that per 1 coulomb
+
+per second right . So, the charge transfer
+between the time t 0 and t is obtain by integrating
+
+both side of equation 1 we get; that means,
+suppose at initial time t is equal to t 0
+
+and your final time is t, then if you integrate
+this equation if you get this equation therefore,
+
+that q can be made that is equal to t 0 to
+t idt ; that means, this one of you come that
+
+your dq is equal to i into dt, therefore q
+is equal to integral of t 0 to t then idt
+
+.
+So, that equation we are writing q is equal
+
+to t 0 to idt; that means, charge transferred
+right if between time t 0 and t. So, this
+
+is the equation q is equal to t 0 to t idt,
+this is equation 1.2 right so; that means,
+
+equation 1 suggest that current need to be
+a constant valued function that means, here
+
+from this equation 1 it suggest that current
+actually need to the constant valued function
+
+right .
+So, constant valued function as we will see
+
+later that can be several types of current
+that is your ah your charge can be vary with
+
+time in several ways. We will see both bc
+and ac, ac at the time you will see current
+
+is time warring right and for dc actually
+current is constant so, it will ah not time
+
+warring right .
+So, when a current is constant with time right,
+
+we say that we have direct current that is
+dc current, I will show you the diagram thus
+
+a direct current is a current that remain
+constant with time. So, I mean it is your
+
+what you call it is your whatever may be the
+time the current is constant .
+
+On the other hand, a current that varies with
+time and reversing direction periodically
+
+that is plus minus plus minus say right is
+call the alternating current, this alternating
+
+current we will see for ac circuit not now,
+but little bit of diagram and other things
+
+I will show you for the sake of ah your what
+you call understanding. So, thus an alternating
+
+current is a current that varies with time
+periodically right so, that means, it will
+
+be plus minus plus minus .
+So, alternating current is use in our house
+
+hold the because all our household everything
+is ac source, ac power right. So, ac circuit
+
+will see later first bc then ac to run the
+refrigerator, toaster, air conditioner and
+
+other electrical appliances, whatever ac dense
+will get these are all ah your ac power ac
+
+voltage ac current right.
+So, but dc it has current is constant so,
+
+figure 1.3 actually shows the values of a
+dc current and then sine sudden ac current
+
+. So, in this case you are this is understand
+the wave, this is sinusoidal and little bit
+
+as portion as cutter or this is sinusoidal
+or this is figure 1.3. So, this is a dc current,
+
+this is current, this is time second, it is
+the constant suppose current dc, current is
+
+that 3 ampere it is constant right.
+Final this is actually aperiodic this is periodically
+
+changing from plus to minus . So, this is
+ac current this is a cosine function and this
+
+is your ac current it is given i is equal
+to say cosine 2 pi ah your 2 pi ah, t just
+
+hold on that this is the function, i is equal
+to cos 2 pi t right. So, this is ac current
+
+ac current will see later .
+So, and this is a example of dc current, now
+
+figure 1.4; that means, this one such the
+other types of time warring current such as
+
+the triangular and square wave, this is also
+time warring current this is triangular function
+
+this is current and this is also it is rectangular
+one, this is also changing periodically. So,
+
+plus minus, this is also, this is triangular
+wave from this is square wave from this is
+
+also alternating, alternating current right
+.
+
+So, now as we have seen earlier the direction
+of current flow is conventionally taken as
+
+the direction of positive charge movement
+I told you, that current when you take the
+
+battery symbol plus minus form the plus the
+positive charge is flowing. So, that is why
+
+is taken has direction of the positive charge
+movement.
+
+So, based on this convention a current of
+4 amperes say may be represented your positively
+
+or negatively, this is shown in figure 5 where
+a lamp is connected in series with a battery
+
+look how it is .
+Starting from this ah let us will try to understand
+
+the if we start to understand everything the
+later stage we will find things say are things
+
+are become very simple to us . So, what will
+do, the just tried to understand the basic
+
+flow basic understanding if this is clear
+then you will find circuit theory this ah
+
+your what you call this circuit pattern another
+thing is a very simple for example, this is
+
+a battery, that is a battery symbol another
+thing so, will come later.
+
+There is a battery, this is plus symbol, minus
+symbol and this is your ah 2 terminals are
+
+mark 1 and 2 right and this is your say tungsten
+lamp, this is a lamp and when you take the
+
+4 ampere current says flowing say 4 ampere
+current is flowing . So, it is 1 to 2 it is
+
+given 1 to 4 ampere, then what will be I to
+21 it will just opposite know it will be minus
+
+4 because this current actually moving like
+this ah, when you take this current is coming
+
+like this I 12 and, but when you take reverse
+a direction that I 21 it will be minus 4 ampere
+
+.
+So, in this figure I 12 is 4 ampere this means
+
+that current through the lamp with it a reference
+direction pointing from 1 to 2, that this
+
+is a reference direction 1 to 2 that if you
+take 12 to 4 ; that means, current is flowing
+
+4 ampere 1 to 2 positive right , but if you
+take other way or suppose if you take 2 to
+
+1 that it will just negative sine it will
+be minus 4 ampere, if you take 2 to 1, just
+
+reversal of the your what you call the direction
+because here we have taken I 12 here we have
+
+taken I 21 .
+Therefore, your ah I 21 is the current to
+
+the with it is reference directed from 2 to
+1 of course, I 12 and I 21 are the same in
+
+magnitude and opposite in sign so, because
+they denote the same current, but with opposite
+
+direction. Thus we have I 12 is equal to minus
+I 21 is equal to 4 ampere that magnitude is
+
+same , but I 12 is 4 ampere therefore, I 21
+is equal to minus 4 ampere so, this is equation
+
+1.3 .
+So, this part is very simple, but understandable
+
+if you ; that means, direct reference direction
+1 to 2 means from 1 to 2 4 ampere if you take
+
+this is reference written 2 to 1 the sine
+is change, then I 21 should be minus 4 ampere
+
+therefore, I 12 is equal to minus I 21 is
+equal to 4 ampere, current magnitude will
+
+remain same only the sine part right other
+way. So, this is actually little bit understanding
+
+of the current, next is the voltage .
+So, now current part is voltage, as explain
+
+in the previous section just now to move the
+electron in a conductor in a particular direction
+
+if require some work or energy is transfer
+right . So, this work actually is done by
+
+external electric electro ah motive force
+emf, typically represented by the battery
+
+as shown in figure 1.2 right so, this is your
+figure 1. 2 .
+
+So, this is actually external electromotive
+force emf, typically represent by the battery
+
+figure 1.2 will come, this emf now this figure
+1.2 you have seen that your one ah voltage
+
+source, then your what you call the transient
+filament law right. This emf is also known
+
+as potential difference or we call sometimes
+voltage right, actually ah whenever positive
+
+and negative charges are separated energy
+is expanded.
+
+So, this emf is also known as the potential
+difference and voltage . So, actually whenever
+
+positive and negative charges are separated
+energy actually is expanded . So, voltage
+
+is the energy per unit charge created by the
+separation. Thus the voltage say V 12 between
+
+2 points, 1 and 2 in an electric circuit it
+is something like this suppose ah ah electric
+
+ah . This is your actually 2 points say will
+come to that other thing, this is the 2 point
+
+this is 1 and 2 and this is the voltage say
+V 12 and this is the lamp right .
+
+Therefore when you come here thus the voltage
+V 12 between 2 points say 1 and 2 in an electric
+
+circuit is that energy or work needed to move,
+a unit charge from 1 to 2. We express this
+
+ratio in differential form that is b is equal
+to small v is equal to capital V 12 suffix
+
+is equal to d w upon dq, for w is the energy
+in joules, q is the charge in coulombs and
+
+V 12 the voltage in volts . So, voltage actually
+that is your V 12 actually dw of dw by dq
+
+the w is the energy ah energy in joules and
+q the charge in coulomb.
+
+So, in equation so, this is actually your
+equation 1.4 therefore, equation 1.4 it is
+
+evident that 1 volt is equal to if it is this
+side is 1 volt it will be 1 joule per coulomb
+
+. So, that is why it is 1 joule per coulomb
+or 1 joule is equal to your 1 Newton meter.
+
+So, one Newton meter per coulomb, but 1 joule
+per coulomb there will be used .
+
+So, thus voltage or potential difference is
+the energy required to move a unit charge
+
+through an element right you will just I just
+I say thus why underline the voltage or potential
+
+difference is the energy require to move a
+unit charge through an element like figure
+
+look at the figure, figure 1.6 source the
+voltage that was a lamp connected between
+
+points 1 and 2, the plus and minus symbol
+sines are also given . So, this is the polarity
+
+this is 1 and this is 2, 1 is positive, 2
+is negative. So, sines are used to represent
+
+reference direction of voltage polarity .
+So, the voltage V 12 to can be interpreted
+
+as your in 2 ways first thing is this point
+you try to understand first one is the point
+
+1 is at a potential of V 12 volts higher than
+point 2, look at this diagram right, it this
+
+point is your at a potential of V 12 higher
+than this your ah your what you call that
+
+ah other point 2. So; that means, point 1
+is at a potential of V 12 volts higher than
+
+point 2 or the potential at point 1 with respect
+to point 2 is V 12 or the potential at point
+
+1 with respect to point 2 is V 12 second one
+easy at to remember right.
+
+So, this is the concept the plus minus right
+. So, in this case either point 1 is at potential
+
+or V 12 volts higher than point 2 or the potential
+at point 1 with respect to point 2 is V 12
+
+right . So, therefore, the logically it follows
+that V 12 is equal to minus V 21 ; that means,
+
+if you take say we suffer example say just
+for example, say V 12 is equal to just one
+
+minute ah say ah ah .
+Sir transient .
+
+May maybe is could.
+Ah white white board.
+
+white board .
+Ok
+
+Thank you we will be back again
+Thank you.
+

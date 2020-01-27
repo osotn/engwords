@@ -1,0 +1,1298 @@
+
+ everyone again I will come out of this
+session continuing our discussion on the Linux
+
+see the Linux basics lecture 2 before I start
+the lecture I want to recap give you a little
+
+bit of recap as what we have done in the past
+lecture.
+
+So we covered the history of Linux from UNIX
+mainly it has about 50 years of history at
+
+this point started somewhere in 1960s UNIX
+the people started working on UNIX with the
+
+mini computers then around 1991 the Linux
+came into being the main person who invented
+
+Linux - four - four walls we also looked at
+why UNIX is very popular operating system
+
+and then while in it for of the popular offering
+system the main reason why UNIX is Pablo because
+
+UNIX provides excellent security features
+and it also allows multi you go multitasking
+
+and multi city processor capabilities.
+We actually saw and we define all those terms
+
+what it means and then Linux actually provides
+more features on top of that first of all
+
+Linux is an open system. So you get the source
+code along with the Linux operating system
+
+and then we also saw how it also has very
+solid they gained teachers it is globally
+
+verified so to speak because there are so
+many users using Linux and going through all
+
+the programs all the features of Linux verifying
+them everything so more than 30 years of verification
+
+experience England.
+And then it is an open platform and the companies
+
+also use some of the commercial aspects of
+it and then we also saw the main parts of
+
+the Linux operating system the kernel the
+shell and the file system we defined each
+
+one of them as to how they interact with the
+user as we saw the kernel is the lowest level
+
+which mainly like provides the interface to
+the hardware systems so it manages the resources
+
+for the resources for being so units and then
+also the memory when all those different parts
+
+are managed the shell actually sits on top
+of the tunnel and then that provides interface
+
+power from the user to the hardware.
+So in between all these things is the file
+
+system which is essentially also defined what
+the file system is how the files are structured
+
+inside the Linux operating system and one
+key thing that we notice was all the devices
+
+are represented as files so if you want to
+actually put something in the at the determinable
+
+we simply write to a file and if you want
+to read from keyboard we simply read a file
+
+so that facilitates all kinds of interaction
+much more easy compared to say even windows
+
+operating system where you have to actually
+start a process and then basically use the
+
+process to communicate to your higher devices.
+We also saw how to use the shell the what
+
+exactly is shell is form it is essentially
+am an interpreter so basically the new invoke
+
+a shell it comes up with the prompt the prompt
+could be shaped like a dollar percentage a
+
+greater than sign in click that and each one
+represents various shell and we saw a couple
+
+of shelves like the sea shell the Bourne shell
+or the bee-ash and with the Bourne-again shell
+
+with vase or - the both official is also notice
+it is called the TC shell which provides an
+
+additional capability on top of the original
+habilitation then we have got some basic introduction
+
+to the commands.
+The commands like LS is the list command we
+
+also saw the command structure inside the
+Linux operating system which is command followed
+
+by options followed by arguments and then
+we saw a couple of commands unless on CD unless
+
+is the list command which lists all the files
+in a given directory then these are like the
+
+in boxing lessons equitable l LS x a l s-
+t LS names are based options that we saw and
+
+then also like on CD is the change directory
+which allows us to go from one directory to
+
+another and this is essentially.
+When you go again it has many options and
+
+also like arguments it needs the one argument
+minimum which is well I would not say like
+
+it in each one you can also like give it no
+arguments and do you see that I mean I want
+
+you to see what happens then you know just
+a city with no arguments where is it go we
+
+are very to take you try that experiment is
+very rich it a fun extent otherwise.
+
+You need one argument which is the destination
+deduction if you do not stick to any destination
+
+what happens so that is something that you
+can do when you get to play with one will
+
+Linux platform so I also have a couple of
+activities for you based on the lecture one.
+
+This is something that you can try talk I
+am going to get a chance to play on the Linux
+
+platform number one is you can type man we
+also saw this man command with the manual
+
+to get details about any romance so man bash
+is okay with the shell see what happens whether
+
+it is man brash and bold man PC usage these
+are two shells so you can get more information
+
+about the shell of shell a lot of options
+again the shell also follows the very similar
+
+command rules that we talked we know all about
+already it is all by the options and then
+
+the arguments for try it out see what happens.
+I also ask you to do this other activity it
+
+is you have a pile structure so you know the
+slash represents the loop and then there is
+
+a B the directory a and then under the directory
+o P and C and then under root we have also
+
+under the directive of be under that you have
+directly e so I want you to write to CD commands
+
+to go from B.
+To basically one will be an absolute command
+
+the other one is a relative will become an
+means using there you are and then there you
+
+want to go that is the relative command and
+then the absolute command is this follow from
+
+the route whatever these absolute paths so
+try it out I think it is a fun exercise this
+
+gives you some more understanding of how the
+city can work so with that we will start today's
+
+lecture I am going to cover more of the commands
+themselves we will look at various commands
+
+and the oh we can make use of them.
+
+So I am going to start from there we left
+off this is the last I just wanted to again
+
+reinforce on goal recommend couple of things
+we did not talk about some of this stuff we
+
+talked about the tilde to represent the home
+directory you can also type CD is slash home
+
+slash which takes us to the slash home it
+may not be your home directory your home may
+
+be like slash home slash for your username
+in this case let us say like the account in
+
+here is easily so it goes there now you can
+also type in like a humble home KDC a CPR
+
+and that takes you to the next level.
+And then from there like I mean we know that
+
+the dot actually moves back one level up so
+if you do a CD dot it takes us back to the
+
+slash home and then if you do like CD dot
+slash dot from the home from your a CPR then
+
+it takes you to the root connection so you
+can see like I mean how to navigate and now
+
+go from one directed another and as I said
+like the if you just do the previous exercise
+
+that will give you like a good grounding as
+to how to navigate using simple let us go
+
+on the next command that we are going to talk
+about,
+
+Is the mkdir or in short we just say make
+so make the command allows us to create new
+
+directories and the new directories can be
+created under the current directory or if
+
+you give like an absolute part it will also
+create wherever you want it to be created
+
+so here essentially the syntax is make-do
+followed by the direction so again here egg
+
+there is a command and the directly name is
+the argument you can also use certain option
+
+for example the - P let me create the directory
+three directory the three essentially like
+
+a minute it creates this whole tree which
+is the one followed by up to four.
+
+Vedas thing meaning the one is the top level
+under that you have the two and then under
+
+that you have the and then you can also do
+make the der five which is this creating a
+
+new directory called the time and then we
+say CD pound / $ so the pound dollar has a
+
+meaning here the pound $ means the argument
+the last argument of the previous command
+
+so anytime you start with a bang it has basically
+like the bang denotes so the command so we
+
+will see some of the shortcuts until they
+go even though I will I will tell some of
+
+the structures.
+As they go along but this bang followed by
+
+the dollar the dollar denotes the last argument
+from the previous owner so when we say like
+
+CD and dollar that Bank dollar is a shortcut
+or verify so then you say like city bank dollar
+
+basically it moves from the move the cursor
+from the current directly to their file because
+
+we already created the design this is a very
+useful socket I think like them in many others
+
+form use this pretty often the other shortcut
+is also like dank bang if you do the bang
+
+that that is shortcut for the previous command.
+And then you can also say like bang however
+
+like I mean put an negative integer and that
+takes you back so many nerve system for example
+
+bang -2 is the command that got executed prior
+to the previous amount so bang minus 1 is
+
+the same as that one and then similarly that
+you can go progressively behind how many our
+
+commands without that and we will see some
+more commands which allows you to get these
+
+kind of shortcuts and then more in kind of
+that navigation so the next one that we will
+
+talk about is the user for semicolon.
+
+Semicolon is the usually a command operator
+so this allows us to actually contact Nate
+
+multiple commands using the line so in this
+one for example then say make the 5 semicolon
+
+then CD to the 5 there is no period actually
+so once you do that for example is shown here
+
+it creates the directory and then moves the
+per set to that benefit so now you can say
+
+the prompt actually here it is actually this
+very end time that is actually now in this
+
+route slash there too so and then here also
+like. I mean we already learned about this
+
+the CD - which is essentially going back to
+the previous command or previous directly.
+
+Where it came from this is not that it is
+going up on level but whichever directly that
+
+was their biggest for example I can say like
+I am in the I can gain like the route slash
+
+select the one then already had created a
+under the root there is a good the route slash
+
+the two and then if I say like for example
+CD - / root / the - under one and then if
+
+I say CD - it actually takes me back to door
+1 not 2 / 4 so this is the important distinction.
+
+That I want you to keep in mind something
+that you note notice in this particular even
+
+bigger is shelves. On this in this particular
+window with various tabs so you can actually
+
+click and go to those thing again this is
+all like the features of the multitasking
+
+that they already know about when we learn
+to the beam of nature um the all the next
+
+command that we will learn is cat.
+
+Is the short form for detonate or detonation
+essentially like I mean when you say cat and
+
+the argument is a filename once you give the
+file name the command interpreter just open
+
+that file and displays each line and until
+the end of the line then it being puts it
+
+back put the prompt back so this is like I
+mean you cannot do any edits or anything but
+
+if you only like displace the contents of
+the file so for example like I mean there
+
+is this text file a CPR dot text that we have
+and then you say like cat a CPR it just rolls
+
+through that all the lines and it displays
+line.
+
+Belong so VLSI design verification or verilock
+system a log all this V M M and OB M and another
+
+on so all these are displayed and then and
+then even there is an empty line this side
+
+you notice the end and then it brings back
+to the prompt so this is again another useful
+
+command to see what is inside particular so
+now the question is how do we use it I mean
+
+death by displaying a file I can through all
+the lines does not seem that useful correct
+
+but there are many ways that we can use it
+for example you can copy a file into another
+
+file and that you can use a list tap command
+to do it. So how do I do it let us look at
+
+that but here.
+
+There is a special character another character
+which is the greater than sign so when we
+
+say like cat to a file so in this one actually
+like I mean we can keep typing whatever we
+
+type in that goes into this file called sly
+one and then when we do the ctrl D it comes
+
+back so this is one way to enter or edit a
+file not really like useful in the sense that
+
+we cannot go back and change things around
+or move things around this is like this line
+
+by line it is for input so say like I mean
+if you want to type in like some notes into
+
+just a file you can just do this cat and redirect
+to a file.
+
+And then they start typing your notes and
+then it will just create it to move it is
+
+a useful in some sense basically I mean you
+can also say like an inspector at PI one and
+
+then redirect to file - that actually lets
+you copy that file so you will now have two
+
+files PI 1 and PI 2 both same information
+so this is the this is where I am actually
+
+you are using two things one is the cat command
+also the great direction operator which is
+
+the greater than some so in this case um when
+you say like one greater than time it creates
+
+this new file and essentially Lange in right.
+Into that file and if the final one is our
+
+fly one is already there then it will not
+usually right into that it will say hey this
+
+file is there I cannot overwrite it in some
+shells it also allows the writing of the content
+
+so here actually if the final one is already
+exists then it overrides identify one it is
+
+true but sometimes some shells actually within
+will not do that and then it comes back with
+
+an arrow so it depends on like the kind of
+shell movie but you can again this is one
+
+of the features of Linux if you go customization
+that people talk about so now let us see like
+
+I mean how we can use this one so the next
+slide is to give you an example of,
+
+Where it is getting over within here we display
+the mission to tap cat cortex that displays
+
+the content this we already saw but now when
+we do the cat greater than tech prepare text
+
+and then you start typing this in such as
+is not this ignition and then we do a control
+
+D and then now when you issue the same cat
+command the previous command we see actually
+
+the file is changed and we get on with this
+again try this out try various combinations
+
+of this and I think you understand it better
+that way now let us the water.
+
+The next one which is a little bit more interesting
+it is the double greater-than so it is two
+
+arrows see here what is this actually is slightly
+different than a single arrow this the two
+
+greater than signs actually lets you to append
+to a file what that means is the fly one in
+
+the period example.
+
+Saw that contained all these things now if
+you take at two great events and then take
+
+that word or text and then when you type in
+the sector is not addressing is in control
+
+D it will contain all these things and the
+next line after this empty line will be this
+
+one so that is the big difference between
+the signature is a number two so again now
+
+why how can you use it so here there is a
+one way to use it which is sly one apply one
+
+file to and then you are saying greater than
+PI what happens into this one is actually
+
+contact needs both these files and write it
+into the fine.
+
+Now the question is how do you append Fire
+fly 1 into pile to the simple thing is like
+
+eliminate this file thing and then you can
+say at apply one double arrow by two and then
+
+whatever the content in file two will be will
+have fly1 appended to it at the end if you
+
+want the reverse one like the pile to go to
+go after the p of p 1 then you need to reverse
+
+all click Add by to append to fly one and
+then that is appended to so again another
+
+one command to pave it I encourage you to
+actually try this out and try it out multiple
+
+times and various combinations to just understand
+how this network you. So here is an example
+
+again.
+
+We first typed in whatever the capital text
+and success is not a destination and then
+
+followed by control D to break this man now
+the next one is cat and two arrows and capital
+
+texts and then it's a progressive journey
+and then now with an tech product X we get
+
+those two lines that they enter so this is
+another way to enter a data into a file but
+
+you know is still we are we know like now
+how to create a file.
+
+How to actually work with the file but it
+is still not very clear as to how we can write
+
+some programs and how to navigate through
+a pipe we will talk about some of the commands
+
+so later on in this course but let us go on
+with this knowledge now the next one is now
+
+we know that how to copy using the app but
+Linux also supports a regular copy function.
+
+Which is the command is CT and CP also has
+again a number of options but it has few main
+
+arguments source file and the destination
+pile so if we without any options we say a
+
+p-51 file into it copies the content of file
+one into the content of file into point two
+
+so this is another this is a very useful term
+and we use this a lot of times actually in
+
+the real life and the Linux also allows you
+to actually copy many files to a destination
+
+and you can also specify a directory here
+instead of the file and then it will create
+
+the file one exact copy of a file one and
+call it also as file one under this particular
+
+collection.
+So here we can say T p- PRF again all these
+
+things are having a meaning and then we will
+see what they mean then it takes this the
+
+files and directories and subdirectory from
+this cat fur area from pepper into the HDD
+
+backup table and it fades exactly like all
+the files into them so here you see that actually
+
+it is not the arguments of other files working
+to insert they are the directors so that is
+
+why I like I mean it is left as vaguely as
+it is the source and destination.
+
+The source could be the filename or a directory
+destination could be a file name or a direction
+
+and they are directory then you need some
+options to make sure that which files are
+
+getting puffy and even liked in source you
+can use for wild cards which is something
+
+we will learn for example the star denotes
+so star you know some all the possible files
+
+and then you can also like filter them by
+specific characters and name so now let's
+
+look at why we specify these four options
+the P R and F what do they mean.
+
+So here is a brief look into the options on
+the - I is an interactive and it prompts before
+
+over writing so if I like this symbol base
+station directory and you're trying to overwrite
+
+it will ask you hey we want to overwrite you
+want happen you want to cancel this or skip
+
+this file so then you can even use that particular
+option to either copy it or to skip it or
+
+which is one that you want to do - F is the
+fourth option which is essentially does not
+
+matter whether I like this whether it is um
+it is preserved.
+
+Whatever it is it basically forces it into
+the filters remove it and then it will try
+
+again - P is the pressure mode where all the
+ownership the timestamps of all the things
+
+are preserved and we will see like what that
+means like because there is a special section
+
+on what this file ownership what kind of things
+that you can do and also like what are the
+
+modes that you can work on a file and then
+the - R is a recursive ball it is a recursive
+
+copy which means that it goes and finds all
+the sub directories and subdirectories of
+
+the directory then it copies everything so
+a copy - RF is a pores and recursive which
+
+is one moves many times.
+Dash you is the update copy only them before
+
+styling from newer than the distance in front
+or if the destination file is missing so here
+
+essentially if you already have something
+new and if you are trying to overwrite the
+
+previous version it will prevent copying from
+copy previous
+
+Version so very useful feature so the CP - RF
+is as I said local you for more than what
+
+you can imagine in day-to-day operations.
+Now if you want more details - in Harrogate
+
+it you get more details on so there are two
+is we talked about this earlier one is the
+
+man CP by that out see what you get and also
+like city - help it should give you all these
+
+options. And what are the fifth Nag in said
+short was more than the man will give you
+
+like more details so now let us move on to
+the next command.
+
+It is MV is just call it move the more command
+is different from me because more command
+
+basically takes the pile and then moves it
+over to the new distribution so in the windows
+
+world analog is to cut and paste whereas the
+CP command is more like a copy and paste so
+
+again the arguments here are the source and
+the destination and you can also rename a
+
+file which means that the destination could
+be specified as of filing rather than directly
+
+named if you specify the direction in the
+name that preserved and if this it moves over
+
+to the new directory.
+But at the same time if you specify a new
+
+file name as a destination then it moves it
+and also changes and rename a file to the
+
+name that you wanted that you selected you
+and there are many options here there is one
+
+across and one there is mentioned this is
+the - is interactive which is you see it is
+
+trying to overwrite a new file it basically
+asked you to conform so you really want to
+
+do it or not again another nifty feature and
+for getting more help on this command I want
+
+you to type in the man move to get more.
+
+So let us go to the next one 
+the next one is the RM command R M stands
+
+for remove so essentially let you use RM to
+remove any button again you have to use it
+
+is it extremely carefully unless you want
+to do it go do it because the deletions are
+
+permanent in then ascending so once you delete
+a file it goes to the heap and essentially
+
+dependents are lost forever the government
+should use this the country is in you your
+
+thumbs to anyway so RM by limb that is the
+command and it has many options RM - I basically
+
+interactive.
+Where it pumps you before deleting a file
+
+it asks you a we really want to delete this
+file and thumbs that and then we are a minus
+
+RF is the recursive and force as you as we
+saw so it basically goes and recursively delete
+
+all the files from sub directory the directory
+is from under any of the source or the argument
+
+that you suspect and our - our RF also does
+not prompt when it tries to delete the fun
+
+so it is really a dangerous command record
+the root and then they say like Armand power
+
+boom everything gone.
+So do not try to do this and then here actually
+
+like in like our manpower let us start the
+little star here this means all the files
+
+and in fact you can also see the starter tab
+it also mean poo the same thing whether this
+
+character or not I mean there is a file it
+just is it this is the most powerful command
+
+I will say in any of the Linux platforms so
+don't ever do this one hour - adder style
+
+if you do it from your home directory the
+entire home directory is gone we do it the
+
+root directory the root is more so I mean
+there are several bishops that happen because
+
+of you symbols our lines are a star on the
+other lines are at startups. so now let us
+
+look at the next command .
+
+This are under again are under is used to
+remove any directories so as you know garlic
+
+Adam just the simple remove command is typically
+used to remove pie even though I like that
+
+mean if you use the Ottoman all the associated
+directories can also remove but are under
+
+specifically removes Adam tree so you are
+in this example you do an LS of the home directory
+
+and see we call these files ax I appear exact
+there copy of your ATAR all those things No
+
+that is okay.
+Cat purr and you Rector one so see the color
+
+differences right so this ovum reference is
+green all these TC ragu a sporty copy and
+
+all these things are do and then you have
+red and then there are black ones so typically
+
+the black ones are the ASCII files the red
+ones here are the binary files and then you
+
+get the blue ones which are mainly directories
+and then the green one is some other type
+
+that it cannot detect oh it basically say
+it is a PDF we move on actually so it is tagged
+
+as being so this is one of the things that
+some of the shelves provide it is kind of
+
+color it is the various files based on extensions.
+So it is very easy to see that okay how many
+
+directories are all okay I have a crossed
+directory check for one is it directly x I
+
+r Taylors a directory or VM TT is a directory
+and then rebel day of inches so now I can
+
+go and actually remove it they are in the
+back for one which is this particular directive
+
+and then if you do an LS command that particular
+thing is missing and here you can also say
+
+like the ovum TC but then it comes back with
+a comma with the palm saying that a you are
+
+trying to remove a directory which has content
+in it which other which has some files in
+
+it.
+So I cannot do this so that is that this message
+
+that they represent so if you want to do it
+there are two ways of doing it on it you can
+
+say like RM o V M TP / star and then first
+remove all the files then you should wanna
+
+go that is one way to it or the other way
+in any one guess it's the RM minus RF recursively
+
+go and remove and that also removes this particular
+action so in the next actually provides the
+
+good features to actually work on this to
+for all the commands so that you don't have
+
+this one way with multiple ways you can be
+very creative in your approach so now let
+
+us go to the next one the next command.
+
+That we will learn is the PWD stands for present
+working directory so what does that mean so
+
+this is their prompt is it is almost saying
+that this is today and what is today is there
+
+you are right at this point of time then so
+essentially the PWD venue and you say it gives
+
+you which directory that you are currently
+working on or where your prompt is so again
+
+you are in now - home we know that actually
+from first one and then you have various files
+
+needed an LS command so one thing that you
+notice is also like.
+
+I mean before 404 this could be a machine
+name currently like I am in that so it looks
+
+for some shells also display the amount number
+so if you are running the first command then
+
+it will say 1 2 3 4 in this case it looks
+like this machine after or 4 so the kappa
+
+404 you go into the home directory you have
+removed the chapter 1 lead another LS and
+
+then the OB MTC that is this is all like the
+previous commands basically there you could
+
+remove that and then said we should be exactly
+what NP I can over move now you assure the
+
+PWD command basically it comes up with.
+What where it is today that it is currently
+
+this is the slash phone that is a - 1 here
+and then it continues on so this is again
+
+a very useful command because sometimes the
+directories can be like very long like you
+
+can be under a size because it being free
+flash being size means like a it can go all
+
+the way up to like say three and then the
+prompt it only displays probably like this
+
+V so now you want to understand what is my
+present working direction.
+
+So the PWD will give you the exactly where
+you want okay so this is something like a
+
+DTS so now PWD gives you there you are but
+still you have to know where you want to go
+
+and then based on that you can do like CD
+command LS things like that form so this again
+
+very useful command anymore so now the next
+command.
+
+That we will study is the less event so we
+are already the command cat so les is very
+
+similar to the cat comment in fact we should
+start with more and then you can feel like
+
+less but more and less are pretty much more
+or less the same similar type of comments
+
+the only difference
+Between the cat and the less is unless actually
+
+displays the file but it does not go back
+to the prompt so it stays within that file
+
+and then so it lets you go up and down the
+file and the interface is similar to an editor
+
+interface even though you cannot edit the
+file.
+
+But you can navigate inside the phone so if
+I used to be then it first displays only portion
+
+of it doesn't display the whole thing like
+all the cat does basically it runs through
+
+the thing and then it comes back the pump
+instead of that the less command actually
+
+displays the file one page at a time and then
+it lets you navigate usually then go forward
+
+by this pressing the spacebar or you can go
+back by this typing be expressing be and then
+
+need to be will go back one page there are
+some other additional stuff one is the use
+
+of slash to search within the file. So you
+can say slash and then followed by a particular
+
+string and then that is the command will search
+for that particular string inside the file
+
+to see whether it is present where it is present
+inside that and then for fitting the less
+
+you just simply type Q and then there are
+additional commands inside of less this one
+
+is the percentage for man personally it is
+G which takes you to which this place.
+
+Where what is the current percentage or the
+current line how much percentage of file is
+
+powered by the Sun at an angle there exactly
+the current banks in the file the lowercase
+
+G and I forget D actually they take you to
+the first character of the file and then the
+
+last character first line of the file in the
+last name.
+
+So uppercase G takes you to the last line
+and Lotus D will take people personal so again
+
+this is the letter command is mainly used
+for inspection and you can also specify like
+
+the condition often like - they will clear
+the screen before displaying so if there is
+
+any residual stuff and it's small file it
+you will still like see from the top of the
+
+terminal all this is done and then plus n
+is there n denotes the number of line so say
+
+like + 10 it starts printing only from the
+tenth line so this is again another thing
+
+to inspect files so you want to actually look
+at a file without actually editing it touching
+
+it.
+Then the less is your command to do that again
+
+touching is another thing then when you open
+a file or reading alone you are not changing
+
+the timestamp you do not want to say that
+hey I edited the form it is only read reading
+
+if you want to edit the file then as soon
+as you edit the timestamp changes and then
+
+this new times pan will be put in based on
+when you read the file or when you started
+
+reading by the right option also so we will
+talk about some of those things in the last
+
+section where we will talk about the file
+system and how to interact the file system.
+
+You now here is an example of less command.
+
+So in this one it is a very top five for basically
+display this in the entire screen and then
+
+just a end so now if you if you type into
+then this is this little bit you can actually
+
+navigate using the D and magazine my ID enough
+is a that I mentioned and in this file is
+
+too small so watch but if the file goes into
+multiple pages then it takes in the first
+
+at the last after perfecting here actually
+even the prompt is missing because then I
+
+can get this big whole page and when basically
+once you do the Q then it will be thing go
+
+back to the font here it does not look that
+interesting but in reality if you have a net
+
+list for example.
+You can search through the place to find a
+
+particular component you can also search through
+timing reports to understand where the maximum
+
+delay things like that so again the less demand
+has for large phone to days small program
+
+in terms of inspection mostly okay so let
+us go to the next one it is command.
+
+Which is the head the head displays top part
+of the file which is the starting point and
+
+then you can also make it display more lines
+but the default is 10 lines we use this a
+
+like head and then behind it displays the
+first 10 lines in that pipe and then the - end
+
+essentially allows you to change the number
+of lines to be shown so you can pay like - and
+
+for then it will display the first four lines
+if you can if you so the various options are
+
+there like the here the example is head - in
+50 Philo text displays the first 50 lines
+
+of the Diagnostics ad - 18 I will name without
+the n also it also works the starting line
+
+for the power So why is this again important
+the reason is the head command.
+
+Is used in many places there you want to make
+sure that the file created and more the file
+
+has all the proper input again nice another
+one is if you know that there is a splash
+
+bar to denote a particular program and you
+want to know like version from the program
+
+itself then you can do ahead of that program
+on the log file and then you know that okay.
+
+Bits Rogan is using the other base.
+Are basically to display the first 50 probably
+
+that is where all the I use are all covered
+so you know exactly with Bubo what did I use
+
+in that I need it to run before you okay so
+we will see an example of head here the Linux
+
+context essentially display the first 10 lines
+of time oh seven eight nine ten so you can
+
+do this many people minutes and ways so now
+a complementary tool head is the tail command.
+
+We will also see this one a tail command.
+
+And should displace 10 lines of a file but
+it does not display the first line but the
+
+last ones so the same as head command but
+only thing is this displays the last 10 lines
+
+of a file again why is this important ok we'll
+see in a bit and so here also like you can
+
+give the same options the - end in the number
+or this - number this changes the number of
+
+lines differently and there are other options
+too one of the options that we always use
+
+is the - s option the - F option actually
+gives on a continuous basis the last 10 lines.
+
+So it constantly updated it does not go back
+to the prompt so why is this important or
+
+why do you need this combo pair feature because
+the tail - F and then filename it could be
+
+a log file and then you can actually track
+how the program is working and how the log
+
+file is changing over time so now you can
+say like I mean how the program is actually
+
+progressing and then if you see anything wrong
+with that you can put a stop to it you can
+
+control C and in fact to break the tail - that
+you are easy difficulty to come off of it
+
+and the same thing.
+Basically you can apply to the program itself
+
+if you see something wrong in the running
+of the program. You can put a stop it and
+
+this is it does not change the time stamp
+on the file name so if the file name is getting
+
+written out and we were walking around the
+time stamp you can you should not worry about
+
+it if you are using a tail mindset so now
+let us look at how the tail is used in the
+
+file.
+
+So here we specify tail - tail just a little
+text and it displays the content of the critical
+
+file with only the last 10 lines so if it
+has more than 10 lines those lines are already
+
+omitted in this example so I say as I said
+earlier when we talked about the less command
+
+the command that goes along with the less
+is what is called a more.
+
+So again as very similar to 
+go like that and again it has many options
+
+the - T clears the display before actually
+clear the screen deposit explain actual display
+
+and then - N and our display is the first
+n line perform and the + n displays the lines
+
+from that particular end and then you can
+also just see the next set of lines for next
+
+page full of lines which is passing enter
+the same concept basically in the less you
+
+we pressed the spacebar here. We press ENTER
+to advance to the next page you so one use
+
+of the more command is shown here.
+
+So we do a LS is the list command via mobile
+vault and then we know that - l a l stands
+
+for long calm and then is it being all the
+files which includes the dark patch so here
+
+you see like the auto FSK is the dark dot
+amount is the birthday you can see it also
+
+displays these files which is missing and
+you just said LS all year in LS minus L so
+
+and then it also displays all these things
+over here there are a couple of things to
+
+note in this command on it the LS - la which
+we on the inaudible in the slash which is
+
+the root directory.
+That we know about this is a special character
+
+which is the type we call it vitamin - actually
+a command and then the mode so the pipes and
+
+T's are something that we will learn later
+on these are the commands to change the command
+
+flow itself basically so here in this one
+what we are saying by using this pipe is do
+
+the LS - la on this particular directory and
+send that output to this problem and this
+
+program is more so it displays user directories
+page the page the first page has all these
+
+elements then it will say like more so if
+you press like enter then it will show the
+
+next page usually the more command.
+
+Exits out then it comes to the end similar
+to the tab essentially whereas the less will
+
+still be inside the pool so I think like that
+is one of the probably the difference between
+
+hormone unmoor and the less but I guess this
+gives you a very good understanding about
+
+additional commands we will take up from this
+point onwards the next time around we will
+
+go into more deeper into the Linux now that
+we understood pretty much the basics it will
+
+see what do all these characters mean.
+What does this mean what does this mean then
+
+you are out in the date time your extra group
+are represented. Even like these things what
+
+do they mean? So we will learn about those
+things in the next session so again thank
+
+you very much thank you for listening again
+there is the next time I will again recap
+
+the this particular lecture and then we will
+from that point thanks for coming.
+

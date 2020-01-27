@@ -1,0 +1,532 @@
+APPENDIX 1: EDITOR
+SUMMARY
+The "standard" UNIX text editor is a program called ed, originally written
+by Ken Thompson. ed was designed in the early 1970's, for a computing
+environment on tiny machines (the first UNIX system limited user programs to
+8K bytes) with hard -copy terminals running at very low speeds (10-15 characters per second). It was derived from an earlier editor called qed that was
+popular at the time.
+As technology has advanced, ed has remained much the same. You are
+almost certain to find on your system other editors with appealing features; of
+these, "visual" or "screen" editing, in which the screen of your terminal
+reflects your editing changes as you make them, is probably the most common.
+So why are we spending time on such a old-fashioned program? The
+answer is that ed, in spite of its age, does some things really well. It is available on all UNIX systems; you can be sure that it will be around as you move
+from one system to another. It works well over slow-speed telephone lines and
+with any kind of terminal. ed is also easy to run from a script; most screen
+editors assume that they are driving a terminal, and can't conveniently take
+their input from a file.
+ed provides regular expressions for pattern matching. Regular expressions
+based on those in ed permeate the system: grep and sed use almost identical
+ones; egrep, awk and lex extend them; the shell uses a different syntax but
+the same ideas for filename n1atching. Some screen editors have a "line
+mode" that reverts to a version of ed so that you can use regular expressions.
+Finally, ed runs fast. It's quite possible to invoke ed, make a one-line
+change to a file, write out the new version, and quit, all before a bigger and
+fancier screen editor has even started.
+Basics
+ed edits one file at a time. It works on a copy of the file; to record your
+changes in the original file, you have to give an explicit command. ed provides commands to manipulate consecutive lines or lines that match a pattern,
+and to make changes within lines.
+Each ed command is a single character, usually a letter. Most commands
+can be preceded by one or two line numbers, which indicate what line or lines
+are to be affected by the command; a default line number is used otherwise.
+Line numbers can be specified by absolute position in the file (1, 2, ...), by
+shorthand like $ for the last line and '..' for the current line, by pattern
+searches using regular expressions, and by additive combinations of these.
+Let us review how to create files with ed, using De Morgan's poem from
+Chapter 1.
+$ ed poem
+?poem Warning: the file poem doesn't exist
+a Start adding lines
+Great fleas have little fleas
+upon their backs to bite 'em,
+And little fleas have lesser fleas,
+and so ad infinitum.
+w poem
+121
+q
+$
+Type a '.' to stop adding
+Write lines to file poem
+ed reports 121 characters written
+Quit
+The command a adds or appends lines; the appending mode is terminated
+by a line with a 'II ' by itself. There is no indication of which mode you are in,
+so two common mistakes to watch for are typing text without an a command,
+and typing commands before typing the ' .. '.
+ed will never write your text into a file automatically; you have to tell it to
+do so with the w command. If you try to quit without writing your changes,
+however, ed prints a ? as a warning. At that point, another q command will
+let you exit without writing. Q always quits regardless of changes.
+$ ed poem
+121 File exists, and has 121 characters
+a Add some more lines at the end
+And the great fleas themselves, in turn,
+have greater fleas to go on;
+While these again have greater still,
+and greater still, and so on.
+Type a '.' to stop adding
+q Try to quit
+? Warning: you didn't write first
+w No filename given; poem is assumed
+263
+q
+$ we poem
+8
+Now it's OK to quit
+Check for sure
+46
+263 poem
+$
+Escape to the shell with !
+If you are running ed, you can escape temporarily to run another shell
+command; there's no need to quit. The ed command to do this is '! ':
+$ ed poem
+263
+fwc poem
+8
+R un we without leaving e d
+46
+263 poem
+q
+$
+You have returned from the command
+Quit without w is OK: no change was made
+Printing
+The lines of the file are numbered 1, 2, ...; you can print the n-th line by
+giving the command np or just the number n, and lines m through n with
+m, np. The "line number" $ is the last line, so you don't have to count lines.
+1
+$
+1,$p
+Print 1 st line; same as 1 p
+Print last line; same as $ p
+Print lines 1 through last
+You can print a file one line at a time just by pressing RETURN; you can back
+up one line at a time with '-'. Line numbers can be combined with + and -:
+$-2,$p
+1,2+3p
+Print last 3 lines
+Print lines 1 through 5
+But you can't print past the end or in reverse order; commands like $, $ + 1 p
+and $, 1p are illegal.
+The list command 1 prints in a format that makes all characters visible; it's
+good for finding control characters in files, for distinguishing blanks from tabs,
+and so on. (See vis in Chapter 6.)
+Patterns
+Once a file becomes longer than a few lines, it's a bother to have to print it
+all to find a particular line, so ed provides a way to search for lines that match
+a particular pattern: /pattern/ finds the next occurrence of pattern.
+$ ed poem
+263
+/flea/
+Great fleas have little
+/flea/
+And little fleas
+//
+And
+??
+And
+Search for next line containing flea
+fleas
+Search for next one
+have lesser fleas,
+Search for next using same pattern
+the great fleas themselves, in turn,
+Search backwards for same pattern
+little fleas have lesser fleas,
+ed remembers the pattern you used last, so you can repeat a search with just
+//. To search backwards, use ?pattern? and ??
+Searches with /... / and ?..? "wrap around" at either end of the text:
+$ p Print last line. ( 'p' is optional)
+and greater still, and so on.
+/flea/ Next flea is near beginning
+Great fleas have little fleas
+?? Wrap around beginning going backwards
+have greater fleas to go on;
+A pattern search like /flea/ is a line number just as 1 or $ is, and can be
+used in the same contexts:
+1,/flea/p
+?flea?+1,$p
+Print from 1 to next flea
+Print from previous flea + 1 to end
+Where are we anyway?
+ed keeps track of the last line where you did something: printing or adding
+text or reading a file. The name of this line is '. '; it is pronounced "dot" and
+is called the current line. Each command has a defined effect on dot, usuaHy
+setting it to the last line affected by the command. You can use dot in the
+same way that you use $ or a number like 1:
+$ ed poem
+263
+Print current line; same as $ after reading
+and greater still, and so on.
+. - 1 , . p Print previous line and this one
+While these again have greater still,
+and greater still, and so on.
+Line number expressions can be abbreviated:
+Shorthand: Same as: Shorthand: Same as:
+. -1 + . + 1
+or -2 .-2 ++ or +2 .+2
+-n .-n +n .+n
+$- $-1 . 3 .+3
+Append, change, delete, insert
+The append command a adds lines after the specified line; the delete command d deletes lines; the insert command i inserts lines before the specified
+line; the change command c changes lines, a combination of delete and insert.
+na
+ni
+m,nd
+m,nc
+Add text after line n
+Insert text before line n
+Delete lines m through n
+Change lines m through n
+If no line numbers are gIven, dot is used. The new text for a, c and i
+commands is terminated by a '..' on a line by itself; dot is left at the last line
+added. Dot is set to the next line after the last deleted line, except that it
+doesn't go past line $.
+Oa
+dp
+.. , $dp
+1,$d
+? pat? , .. - 1 d
+$dp
+$c
+1,$c
+Add text at beginning (same as 1 i)
+Delete current line, print next (or last, if at $)
+Delete from here to end, print new last
+Delete everything
+Delete from previous 'pat' to just before dot
+Delete last line, print new last line
+Change last line. ($a adds after last line)
+Change all lines
+Substitution,. undo
+It's a pain to have to re-type a whole line to change a few letters in it. The
+substitute command 8 is the way to replace one string of letters by another:
+s/old/new/
+s/old/new/p
+s/old/new/g
+s/old/new/gp
+Change first old into new on current line
+Change first old into new and print line
+Change each old into new on current line
+Change each old into new and print line
+Only the leftmost occurrence of the pattern in the line is replaced, unless a 'g'
+follows. The 8 command doesn't print the changed line unless there is a 'p' at
+the end. In fact, most ed commands do their job silently, but almost any command can be followed by p to print the result.
+If a substitution didn't do what you wanted, the undo command u will undo
+the most recent substitution. Dot must be set to the substituted line.
+u
+up
+Undo most recent substitution
+Undo most recent substitution and print
+Just as the p and d commands can be preceded by one or two line numbers
+to indicate which lines are affected, so can the 8 command:
+1,$s/old/new/p
+Find next old; change to new
+Find next old; change to new
+(pattern is remembered)
+Change first old to new on each line;
+print last line changed
+Change each old to nL.W on each line;
+print last line changed
+/old/s/old/new/
+/old/s//new/
+1,$s/old/new/gp
+Note that 1, $8 applies the 8 command to each line, but it still means only the
+leftmost match on each line; the trailing 'g' is needed to replace all occurrences
+in each line. Furthermore, the p prints only the last affected line; to print all
+changed lines requires a global command, which we'll get to shortly.
+The character & is shorthand; if it appears anywhere on the right side of an
+8 command, it is replaced by whatever was matched on the left side:
+s/big/very &1
+s/big/& &1
+s/o*/(&)1
+s/and/\&1
+Replace big by very big
+Replace big by big big
+Parenthesize entire line (see 0 * below)
+Replace and by & (\ turns off special meaning)
+Metacharacters and regular expressions
+In the same way that characters like * and > and : have special meaning to
+the shell, certain characters have special meaning to ed when they appear in a
+search pattern or in the left-hand part of an s command. Such characters are
+called metacharacters, and the patterns that use them are called regular expressions. Table 1 lists the characters and their meanings; the examples below
+should be read in conjunction with the table. The special meaning of any character can be turned off by preceding it with a backslash.
+[...]
+[A...]
+Table 1: Editor Regular Expressions
+any non-special character c matches itself
+turn off any special meaning of character c
+matches beginning of line when A begins pattern
+matches end of line when $ ends pattern
+matches any single character
+matches anyone of characters in ...; ranges like a - z are legal
+matches any single character not in ...; ranges are legal
+matches zero or more occurrences of r,
+where r is a character, . or [...]
+on right side of s only, produces what was matched
+tagged regular expression; the matched string
+is available as \ 1, etc., on both left and right side
+No regular expression matches a newline.
+c
+\c
+A
+$
+r*
+&
+\(...\)
+Pattern:
+IA$I
+1..1
+IAI
+Ithingl
+IAthingl
+Ithing$1
+IAthing$1
+Ithing..$1
+/thing\..$1
+1\/thing\11
+l[tT]hingl
+Ithing[O-9]1
+Matches:
+empty line, i. e ., newline only
+non-empty, i. e ., at least one character
+all lines
+thing anywhere on line
+thing at beginning of line
+thi ng at end of line
+line that contains only thing
+thing plus any character at end of line
+thing.. at end of line
+Ithingl anywhere on line
+thing or Thing anywhere on line
+thing followed by one digit
+Ithing["Q-9]1
+Ithing[Q-9]["Q-9]1
+Ithing1e*thing21
+l"thing1e*thing2$1
+thing followed by a non-digit
+thing followed by digit, non-digit
+thing 1 then any string then thing2
+thing 1 at beginning and thing2 at end
+Regular expressions involving * choose the leftmost match and make it as long
+as possible. Note that x* can match zero characters; xx* matches one or
+more.
+Global commands
+The global commands g and v apply one or more other commands to a set
+of lines selected by a regular expression. The g command is most often used
+for printing, substituting or deleting a set of lines:
+m,nglrelcmd
+m,nvlrelcmd
+For all lines between m and n that match re, do cmd
+For all lines between m and n that don't match re, do cmd
+The g or v commands can be preceded by line numbers to limit the range; the
+default range is 1, $ .
+g/.../p
+g/.../d
+g/.../sllrepllp
+g/. ../sl Irepllgp
+g I... I slpatlrepll
+g I... I slpatlrepllp
+g/.. ./slpatlrepllgp
+v I... I slpatlrepll gp
+v/"$/p
+g/.. . Icmdl \
+cmd2\
+cmd3
+Print all lines matching regular expression ...
+Delete all lines matching...
+Replace 1st... on each line by 'repl', print changed lines
+Replace each ... by 'repl', print changed lines
+On lines matching ..., replace 1 st 'pat' by 'repl'
+On lines matching ..., replace 1 st 'pat' by 'repl' and print
+On lines matching ..., replace all 'pat' by 'repl' and print
+On lines not matching ..., replace all 'pat' by 'repl', print
+Print all non-blank lines
+To do multiple commands with a single g,
+append \ to each cmd
+but the last
+The commands controlled by a g or v command can also use line numbers.
+Dot is set in turn to each line selected.
+g Ithing I . , . + 1 P Print each line with thing and next
+g/"\ e EQI .1 ,1"\ e ENI -s/alpha/beta/gp Change alpha to beta only
+between e EQ and . EN, and print changed lines
+Moving and copying lines
+The command m moves a contiguous group of lines; the t command makes
+a copy of a group of lines somewhere else.
+m,nm d
+m,n t d
+Move lines m through n to after line d
+Copy lines m through n to after line d
+If no source lines are specified, dot is used. The destination line d cannot be
+in the range m, n - 1. Here are some common idioms using m and t:
+-, .. t..
+Move current line to after next one (interchange)
+Move current line to before previous one
+Same: -- is the same as -2
+Does nothing
+Move current line to end (roO moves to beginning)
+Duplicate current line (t$ duplicates at end)
+Duplicate previous and current lines
+Duplicate entire set of lines
+Reverse order of lines
+m+
+m-2
+m--
+m-
+m$
+t..
+1,$t$
+g/"/roO
+Marks and line numbers
+The command = prints the line number of line $ (a poor default), .. = prints
+the number of the current line, and so on. Dot is unchanged.
+The command kc marks the addressed line with the lower case letter c; the
+line can subsequently be addressed as ' c. The k command does not change
+dot. Marks are convenient for moving large chunks of text, since they remain
+permanently attached to lines, as in this sequence:
+, a , , bro ..
+Find line... and mark with a
+Find line ... and mark with b
+Print entire range to be sure
+Find target line
+Move selected lines after it
+I. ../ka
+I. ../kb
+, a , , bp
+1...1
+Joining, splitting and rearranging lines
+Lines can be joined with the j command (no blanks are added):
+m,nj
+Join lines m through n into one line
+The default range is " , .. + 1, so
+jp
+- , .. jp
+Join current line to next and print
+Join previous line to current and print
+Lines can be split with the substitute command by quoting a newline:
+s/part1part2/part1\
+part21
+sl 1\
+Ig
+Split line into two parts
+Split at each blank;
+makes one word per line
+Dot is left at the last line created.
+To talk about parts of the matched regular expression, not just the whole
+thing, use tagged regular expressions: if the construction \ ( ... \) appears in a
+regular expression, the part of the whole that it matches is available on both
+the right hand side and the left as \ 1. There can be up to nine tagged expressions, referred to as \1, \2, etc.
+s/\(...\)\(.*\)/\2\1/
+/\(..*\)\1/
+Move first 3 characters to end
+Find lines that contain a repeated adjacent string
+File handling commands
+The read and write commands rand w can be preceded by line numbers:
+n r file
+m,nw file
+m,nW file
+Read file; add it after line n; set dot to last line read
+Write lines m-n to file; dot is unchanged
+Append lines m-n to file; dot is unchanged
+The default range for wand W is the whole file. The default n for r is $, an
+unfortunate choice. Beware.
+ed remembers the first file name used, either from the command line or
+from an r or w command. The file command f prints or changes the name of
+the remembered file:
+f
+f file
+Print name of remembered file
+Set remembered name to 'file'
+The edit command e reinitializes ed with the remembered file or with a new
+one:
+e
+e file
+Begin editing remembered file
+Begin editing 'file'
+The e command is protected the same way as q is: if you haven't written your
+changes, the first e will draw an error message. E reinitializes regardless of
+changes. On some systems, ed is linked to e so that the same command
+(e filename) can be used inside and outside the editor.
+Encryption
+Files may be encrypted upon writing and decrypted upon reading by giving
+the x command; a password will be asked for. The encryption is the same as
+in crypt( 1) . The x command has been changed to X (upper case) on some
+systems, to make it harder to encrypt unintentionally.
+Summary of commands
+Table 2 is a summary of ed commands, and Table 3 lists the valid line
+numbers. Each command is preceded by zero, one or two line numbers that
+indicate how many line numbers can be provided, and the default values if
+they are not. Most commands can be followed by a p to print the last line
+affected, or 1 for list format. Dot is normally set to the last line affected; it is
+unchanged by f, k, w, x, =, and!.
+Exercise. When you think you know ed, try the editor quiz; see qui z( 6). 0
+.a
+. , "C
+. , . d
+e file
+f file
+1 , $g Irel cmds
+. ].
+.,.+1j
+. kc
+. , . 1
+. , . m line
+. , . p
+q
+$ r file
+. , . slrelnewl
+.. , . t line
+..U
+1 , $v/relcmds
+1 , $w file
+x
+$=
+! cmdline
+( . + 1 ) newline
+Table 2: Summary of ed Commands
+add text until a line containing just . is typed
+change lines; new text terminated as with a
+delete lines
+reinitialize with file. E resets even if changes not written
+set remembered file to file
+do ed cmds on each line matching regular expression re;
+multiple cmds separated by \newline
+insert text before line, terminated as with a
+join lines into one
+mark line with letter c
+list lines, making invisible characters visible
+move lines to after line
+print lines
+quit. Q quits even if changes not written
+read file
+substitute new for whatever matched re
+copy lines after line
+undo last substitution on line (only one)
+do ed cmds on each line not matching re
+write lines to file; w appends instead of overwriting
+enter encryption mode (or ed -x filename)
+print line number
+execute UNIX command cmdline
+print line
+n
+$
+Ire I
+?re?
+'c
+NI + n
+NI,N2
+NI ;N2
+Table 3: Summary of ed Line Numbers
+absolute line number n, n = 0, 1, 2, ...
+current line
+last line of text
+next line matching re; wraps around from $ to 1
+previous line matching re; wraps around from 1 to $
+line with mark c
+line NI + n (additive combination)
+lines N 1 through N2
+set dot to N 1, then evaluate N2
+NI and N2 may be specified with any of the above
+

@@ -1,0 +1,134 @@
+206 The directory hierarchy
+In Chapter 1, we looked at the file system hierarchy rather informally,
+starting from /usr/you. We're now going to investigate it in a more orderly
+way, starting from the top of the tree, the root.
+The top directory is /.
+$ 1s /
+bin
+boot
+dev
+etc
+lib
+tmp
+unix
+usr
+$
+/unix IS the program for the UNIX kernel itself: when the system starts,
+/unix is read from disc into memory and started. Actually, the process
+occurs in two steps: first the file /boot is read; it then reads in /unix. More
+information about this "bootstrap" process may be found in boot(8). The rest
+of the files in /, at least here, are directories, each a somewhat self-contained
+section of the total file system. In the following brief tour of the hierarchy,
+play along with the text: explore a bit in the directories mentioned. The more
+familiar you are with the layout of the file system, the more effectively you
+will be able to use it. Table 2.1 suggests good places to look, although some of
+the names are system dependent.
+/bin (binaries) we have seen before: it is the directory where the basic
+programs such as who and ed reside.
+/dev (devices) we will discuss in the next section.
+jete (et cetera) we have also seen before. It contains various administrative files such as the password file and some system programs such as
+jete/getty, which initializes a terminal connection for /bin/login.
+/ ete/re is a file of shell commands that is executed after the system is
+bootstrapped. jete/group lists the members of each group.
+/lib (library) contains primarily parts of the C compiler, such as
+/lib/epp, the C preprocessor, and /lib/libe. a, the C subroutine library.
+/tmp (temporaries) is a repository for short-lived files created during the
+Table 2.1: Interesting Directories (see also hier(7))
+root of the file system
+essential programs in executable form ("binaries")
+device files
+system miscellany
+login message of the day
+password file
+essential libraries, etc.
+temporary files; cleaned when system is restarted
+executable form of the operating system
+user file system
+system administration: accounting info., etc.
+user binaries: trof f, etc.
+dictionary (words) and support for spell( 1)
+game programs
+header files for C programs, e.g. math. h
+system header files for C programs, e. g. inode. h
+libraries for C, FORTRAN, etc.
+on-line manual
+manual pages for section 1 of manual
+hardware diagnostics, bootstrap programs, etc.
+community service messages
+public oddments: see ascii(7) and eqnchar(7)
+source code for utilities and libraries
+source for commands in /bin and /usr /bin
+source code for subroutine libraries
+working directories for communications programs
+line printer temporary directory
+mail in -boxes
+working directory for the uucp programs
+source for the operating system kernel
+alternate temporary directory (little used)
+your login directory
+your personal programs
+/
+/bin
+/dev
+/etc
+/etc/motd
+/etc/passwd
+/lib
+/tmp
+/unix
+/usr
+/usr/adm
+/usr/bin
+/usr/dict
+/usr/games
+/usr/include
+/usr/include/sys
+/usr/lib
+/usr/man
+/usr/man/man1
+/usr/mdec
+/usr/news
+/usr/pub
+/usr/src
+/usr/src/cmd
+/usr/src/lib
+/usr/spool
+/usr/spool/lpd
+/usr/spool/mail
+/usr/spool/uucp
+/usr/sys
+/usr/tmp
+/usr/you
+/usr/you/bin
+execution of a program. When you start up the editor ed, for example, it
+creates a file with a name like /tmp/ eO 0512 to hold its copy of the file you
+are editing, rather than working with the original file. It could, of course,
+create the file in your current directory, but there are advantages to placing it
+in /tmp: although it is unlikely, you might already have a file called e00512
+in your directory; /tmp is cleaned up automatically when the system starts, so
+your directory doesn't get an unwanted file if the system crashes; and often
+/tmp is arranged on the disc for fast access.
+There is a problem, of course, when several programs create files in /tmp
+at once: they might interfere with each other's files. That is why ed's temporary file has a peculiar name: it is constructed in such a way as to guarantee
+that no other program will choose the same name for its temporary file. In
+Chapters 5 and 6 we will see ways to do this.
+/usr is called the "user file system," although it may have little to do with
+the actual users of the system. On our machine, our login directories are
+/usr /bwk and /usr frob, but on your machine the /usr part might be different, as explained in Chapter 1. Whether or not your personal files are in a
+subdirectory of /usr, there are a number of things you are likely to find there
+(although local customs vary in this regard , too). Just as in /, there are directories called /usr /bin, /usr /1ib and /usr /tmp. These directories have
+functions similar to their namesakes in /, but contain programs less critical to
+the system. For example, nroff is usually in /usr /bin rather than /bin,
+and the FORTRAN compiler libraries live in /usr /1 ib. Of course, just what
+is deemed "critical" varies from system to system. Some systems, such as the
+distributed 7th Edition, have all the programs in /bin and do away with
+/usr /bin altogether; others split /usr /bin into two directories according to
+frequency of use.
+Other directories in /usr are /usr fadm, containing accounting information and /usr/dict, which holds a modest dictionary (see spe11(1)). The
+on-line manual is kept in /usr/man - see /usr/man/man1/spell..1, for
+example. If your system has source code on-line, you will probably find it in
+/usr/src.
+It is worth spending a little time exploring the file system, especially usr,
+to develop a feeling for how the file system is organized and where you might
+expect to find things.
+

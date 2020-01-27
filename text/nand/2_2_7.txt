@@ -1,0 +1,113 @@
+We are approaching the end of this module. And in this unit,
+we're going to discuss how to implement the VM translator
+on the Hack Platform and this is indeed the turning
+point in this module, because up until now I did not commit
+myself to the Hack Platform and I describe in very general
+terms how to implement our VM, our virtual machine on any
+given computer platform. So now, I'm going to make
+a commitment to a certain target platform which will be the Hack computer. So, I have to give you some
+information on how to do it. So let us begin with the big picture,
+which is extremely important and the picture is that we begin
+with some Jack program, presumably, and
+the Jack program is stored as one or more Jack files which are put in a certain
+directory or you may call it folder. And this directory has a name,
+I call it myProg and then I'm going to apply the JackCompiler
+to this entire directory. And the JackCompiler is going
+to create two, in this example, two new files which would be the VM
+translations of the Jack files. So one will be called by default,
+Foo.vm and the other one is going
+to be called Bar.vm. And every method, constructor and
+function in the source code is going to be translated into
+a VM function in the target code. Now this process is something that you
+don't have to worry about, because we are going to discuss it at length later on
+in the course when we build the compiler. But from now on, it's certainly our
+business, because now we are in the world of the VM and
+we have to translate this code further. That's what the VM
+translator is all about and the VM translator is going
+to do something dramatic. It's going to take all these
+different standalone functions and kind of weave them into. Well, weave is not a good word, but it will transform them into
+a single assembly file. So, notice how several things
+got lost in the translation. When we translated from Jack to the VM,
+we lost the notion of constructors, methods and functions,
+because everything became functions. And when we translated
+from the VM to assembly, we lost the notion of functions. Because now, we just have a long
+stream of assembly commands and we have to use assembly in order to capture
+the semantics of the source VM code. So, this VM translator is
+actually the program that we are developing in the current project and
+in the previous one. So that's the big picture and
+we are going to write the assembly on the right-hand side using
+Hack assembly, because I made this decision that I'm going to
+implement it on the Hack Platform. And in order to do it, I have to comply to
+certain conventions and the first convention is booting. What should I do when I
+turn on the computer? How will the computer know
+to execute my program? So, here are the assumptions
+that I request to make. First of all, this should be
+a VM programming convention and the convention is that one file in any
+VM program must be named Main.vn and one VM function within this
+file must be named main. This is something that
+the compiler has to take care of, because the compiler is going
+to write this VM code and it's going to be taken care of quote,
+unquote, automatically, because we have the same
+requirement at the Jack level. We'll see that when we
+write Jack programs, we also require that at least
+one class will be named main and one function in this class
+would be named main also. This convention,
+we are going to get it for free, quote, unquote, then we need a certain
+convention in the implementation. In our case, the VM translator. When the VM translator, when the VM
+implementation starts running or is reset,
+it has to start executing an argumentless operating system function called Sys.init. So, the VM implementation
+must begin with this code. It must call Sys.init and
+Sys.init is already programmed at the OS level,
+which is not our business right now. So, Sys.init is already programmed to call
+Main.main and enter an infinite loop. So Sys.init, once it starts running
+will end up causing the program is programmed to start running as well. The Main.main will start running and
+then the whole titres game or whatever it is will start
+executing in front of us. Finally, we need some hardware platform or
+convention to comply to and that is what is known
+as the Bootstrap code. We have to somehow call Sys.init, so the
+Sys.init will be able to call Main.main. And so we request that the code
+that you see here will be stored in the target computer's instruction
+memory beginning in address zero, because the computer that we built, the Hack computer is programmed
+to start executing the program, which is totally structured memory,
+beginning with address zero. That's one of the operational
+rules of the Hack computer. And not only Hack, most computers in
+the world comply to this convention here. So, the first thing that the computer
+will do is it will set SP to 256. And by doing this, it will determine
+that the stack should begin in this address in the whole stream and
+then it will call Sys.init. These two things must be
+done in machine language, in assembly and that's it. And from this point onward,
+let the show begin. Everything will roll smoothly, because the VM translator will know
+what to do with every VM command. That's what we did in the last in all
+the units actually in this module. Now in order to generate
+code that complies to all the explanations that I gave before, we have to propose some standard
+mapping on the Hack Platform. I explained in the previous module
+why we need standard mapping. And indeed, if you recall, this is just a summary of
+everything that we did so far. We use the Hack RAM and
+we use it to store all the pointers that you see
+here using the scheme here. I'm not going to explain it, because we went through it in
+detail throughout the units. But now, I also wanted you to see this thing in
+the overall context of the whole stream. So, this is the entire whole
+stream of the Hack computer. It consists of about 32,000 words and the top 2K words are what we've
+been discussing all the time, that's the blue stuff on the left and
+then we have several other areas on the whole
+stream which we call heap. Memory mapped I/O and some unused space. And as far as the VM
+implementation is concerned, we worry only about
+the top 2K of the ram and everything else is something that is
+going to be used for other purposes. Purposes that are not within
+the jurisdiction of the VM implementation. So, we move on to the last
+slide in this unit and that is a documentation of all the special symbols that your VM
+translator ought to use. So first of all, in the previous module, we decided to use these
+special symbols and I'm not going to repeat
+this information now. And in order to implement everything
+described in this module, we're going to use a few more
+conventions that you see here. We're going to use three more
+types of special symbols for generating labels and
+what I have here is just a screenshot from the book
+that the companies discuss. You are welcome to read this
+information on your own. I'm not going to dwell on it,
+because it's very technical and not extremely interesting. So now,
+it's on you to write the VM translator and generate all the code which is necessary
+in order to implement the VM language. And in the next unit,
+we'll describe how to actually do it using an implementation
+language like Java or Python in which you will
+write your VM translator.

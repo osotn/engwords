@@ -1,0 +1,1013 @@
+So, we have back again as we have studied
+ah little bit of energy right what our so,
+
+one different example then again we will go
+to the circuit theory just to give you some
+
+you know some ideas, regarding energy then
+I for example, like this is example 1.12 that
+
+is example 12. A residential consumer consumes
+800 kilowatt hour in the month of March right
+
+determine the electricity for the month using
+the following rate schedule right.
+
+For example base monthly charge is rupees
+12 first 100 kilowatt hour per month at rupees
+
+1.5 per kilowatt hour, say next 200 kilowatt
+hour per month at rupees 2 per kilowatt hour
+
+and over 200 kilowatt hour per month at rupees
+2.5 kilowatt hour right .
+
+Now, we have to calculate the electricity
+bill so, base monthly charge is rupees 12
+
+now 100 kilowatt hour at rupees 1.5 per kilowatt
+hour therefore, 100 kilowatt hour at rupees
+
+1.5. So, 100 into 1.5 so, it is rupees 150,
+then next 200 kilowatt hour per month rupees
+
+2 per kilowatt hour .
+So, it is ah your next 200 kilowatt hour at
+
+rupees 2 so, it is 2 into 200 so, rupees 400.
+Now, totally is your 800 kilowatt hour, now
+
+here it is 100 plus, 200, 300 kilowatt hour
+already we have computed rupees 150 and 400
+
+remaining will be 500 kilowatt hour , but
+the 800 minus 100 minus 200 so, remaining
+
+500 . So, 500 kilowatt hour remaining 500
+kilowatt hour will be at rupees 2.5. So, it
+
+is given 2.5 per kilowatt hour . So, rupees
+2.5 per kilowatt hour so, 500 into 2.5. So,
+
+rupees 1250, but monthly base charge is rupees
+12. So, ru plus 150 plus 400 plus rupees 1250
+
+if you add up all total charge will be rupees
+1812 right .
+
+Now, total your what you call ah, annual your
+residential energy it is consume 800 kilowatt
+
+hour. So, if you take the average. So, average
+cost per this thing will be rupee or rupees
+
+1812 divided by 800 kilowatt hour . So, that
+comes approximately on an average rupees 2.265
+
+per kilowatt hour and this is simple example,
+because we have taken know that energy we
+
+are talking of. So, just for p in to your
+time power into time right ah, one ah before
+
+going to the next example one sometimes we
+call in English rhymes. That energy is power
+
+multiplied by hour ah, another I can put in
+better way that electrical energy is power
+
+multiplied by hour right. So, that is kilowatt
+hour, because kilowatt is the power and hour
+
+is the time .
+So, next is so, this is a simple example I
+
+took for you. So, hope it is understandable
+very simple thing right. Next example 13 so,
+
+you have to determine the power absorbed or
+supplied by each component of the circuit
+
+as shown in figure 19, this is figure 19 this
+is one electrical element is 5 voltage give
+
+plus minus it consi, it actually either supply
+it or a absorbed we will see later. That p
+
+power, power p 1 this is a voltage source
+right this at this is another dependent voltage
+
+source and this is another, another source
+is there, but the terminal plus minus 3 voltage
+
+given .
+So, we have to find out that power absorbed
+
+or supplied by each of the source, now look
+this 8 ampere current, this is the 8 ampere
+
+current it is first you let us start from
+this ah from your this element which I have
+
+voltage across it is 5 volt right. So, and
+power ah we have to find out p 1 is the power
+
+supplied or absorbed .
+So, this 8 ampere current actually this current
+
+actually come leaving the plus terminal right.
+Leaving the plus terminal means it is where
+
+your what you call sign will be negative when
+power supplied actually right, because this
+
+8 ampere if you look at the direction of the
+current this 8 ampere current actually leaving
+
+the plus terminal.
+So, p 1 will be your minus 5 into 8 minus
+
+41 that is supplied, look into that, that
+8 ampere current is out of the plus terminal
+
+everything I have written for you, but I am
+explaining it. So, p 1 will be 5 into minus
+
+8 so, minus 41. So, power supplied now here
+so, p 1 is the power supplied .
+
+Now, this 8 ampere current is entering into
+the positive terminal, whenever it enters
+
+into the positive terminal means this source
+actually absorbing power. So, in this case
+
+it is 2 volt and 8 ampere. So, p 2 will be
+8 into 2, 16 watt that is power absorbed.
+
+So, if you look into that 8 ampere current
+is entering the plus terminal of p 2 . So,
+
+p 2 will be 2 into 8, 16 watt power absorbed
+right .
+
+Now, next is the 3 ampere now here in here
+it is now this 8 ampere, current 3 ampere
+
+is going here, 5 ampere is going here. Now
+this is a dependent voltage source, now you
+
+see that this is 0.6 I and this is 5 ampere.
+So, if you multiply 0.6 into I it will be
+
+3 ampere ah just hold on. So, if it is your
+0.6 I so, it will be 0.6 I, I is equal to
+
+here it is 5 ampere. So, it will be 0.6 into
+5 so, it will be 3 volt; that means, volt
+
+for I is equal to 5 ampere voltage of the
+dependent your dependent voltage source it
+
+is actually is equal to 3 volt right 3 volt
+.
+
+Now, this 3 ampere current is entering into
+the your what you call positive terminal so,
+
+power is being absorbed . So, it will be 3
+ampere in to 3 volt. So, p 3 will be 3 into
+
+3, 9 watt that is absorbed right so, in the
+just hold on .
+
+So, in this case . So, . So, in this case
+your . So, if you see that p 3 is equal to
+
+your 0.6 into 5 I told you that is 3 volt
+into 3 ampere. So, 9 watt power absorbed right
+
+.
+So, next is this 5 ampere, this 5 ampere current
+
+entering to the positive terminal right ; that
+means, as I entering into the positive terminal
+
+means it is power absorbed. So, it will be
+p 4 will be 5 ampere into 3 volt so, 15 watt.
+
+So, p 4 will be 3 into 5 that is 15 watt power
+absorbed. So, power supplied is it is taken
+
+minus 40 watt and your power absorbing that
+is 16 watt, here it is 9 watt. So, 16 plus
+
+9, 25 here it is plus 15 so, 40 watt . So,
+power supplied is minus sign indicates power
+
+supplied. So, supplied is 45, 40 watt and
+absorb is also 40 watt so, perfectly matching
+
+. So, now, absorbed as your power supplied
+and power absorbed I hope this thing is clear
+
+to you now right .
+Next is another example now this is actually
+
+state which interconnects in figure ah 20
+are valid and which are invalid you have to
+
+tell, there are 4 connections that which connections
+are valid and which connections are in connections
+
+are invalid . Now, take this connection 1
+here, the volt this is terminal 1 and terminal
+
+2. So, across terminal 1 2 that is voltage
+sources connect V is equal to 5 volt, now
+
+when across 1 2 also it dependent voltage
+source is connected V s is equal to 4 V. So,
+
+if you put 5 V of V is equal to 5. So, V s
+will be 4 into 5 so, 20 volt so, but across
+
+the it is your across the say your ah 1 2
+same terminal you cannot connect 2 different
+
+voltage source. So, this is an invalid connection
+so, this is invalid connection .
+
+Now, if you come to this one here, V is equal
+to 5 volt and is equal to 2 into V. So, is
+
+V is 5 volt. So, is basically 2 into 5; that
+means, your 10 ampere. So, it is a valid circuit
+
+connection there, even voltage source is there,
+one dependent current sources. So, this is
+
+a valid connection so, but this is invalid
+connection.
+
+Now here if you come here a current source
+is given is equal to 2 ampere, but it dependent
+
+voltage source V s is equal to 4 is , but
+this is equal to 2 ampere. So, V s is equal
+
+to 4 into 2 8 volt. So, it is a current source
+it is a dependent voltage source, there is
+
+series actually later we will see that. So,
+it is a valid connection this is a valid connection
+
+at they are connected across terminal 1 2
+so, it is a valid connection .
+
+Now, this one a current source is there is
+i s equal to 3 ampere and a dependent current
+
+source is there where i x is equal to 3 into
+i s. Now when i s is equal to all I am not
+
+writing I am telling from my mouth I think
+it is understandable to a simple thing . So,
+
+i s is equal to 3 ampere so, i x i is equal
+to 3 into 3 so, 9 ampere, but this is 3 ampere
+
+and this is coming 9 ampere. So, it is not
+possible right so, this is an invalid circuit.
+
+So, this circuit this one invalid and this
+one is invalid and this 2 are valid circuit,
+
+b and c are valid circuit connection and a
+and d these are invalid connections right.
+
+So, hope it is understandable to you because
+the why I have taken this one . So, at the
+
+starting from the beginning we have to know
+all these things because later stage we have
+
+to solve different type of problem. So, staring
+from the beginning we have to clear our you
+
+know ideas .
+So, all these things I have written here , but
+
+later you can go through these ah, when you
+will go through the bleed your you can go
+
+through ones, but I have explain that exactly
+what 
+
+it is right . So, everything I have written
+here, but I have explain. So, not for that
+
+ah your what you call going through this .
+Now, this one now determine the power supplied
+
+that absorbed by is component in figure 1.21,
+but I am telling 1.21 . That is chapter 1.21
+
+figures I am telling figure 21 . So, here
+1, 2, 3, 4, ah 4 elements are there and current
+
+is I this 10 ampere this I actually is equal
+to 10 ampere. So, this is I, this is your
+
+I right and this I is equal to actually 10
+ampere . So, this I is equal to 10 ampere,
+
+this I is equal to 10 ampere .
+Now, this ah your what you call this I 10
+
+ampere, this is leaving the terminal this
+one this 16 volt source just hold on this
+
+ah your this is 16 volt source. So, 10 ampere
+current is leaving the terminal your what
+
+you call positive terminal so; that means,
+power supplied, as you leaving this power
+
+this thing. So, this is 16 volt source here
+and this is your ah sorry this is 16 volt
+
+and this is actually current source plus minus
+this voltage across this is 16 volt . So,
+
+this is a current source.
+So, 10 ampere current it is entering into
+
+this your what you call this ah negative terminal
+of 6 volt . So, this is a current source and
+
+voltage across this is 16 volt this is a current
+source ah I have over looked actually it is
+
+a current source and this is a voltage this
+is a voltage source, this is a voltage source
+
+and this is a dependent current source .
+So, in this case and across this voltage is
+
+16 volt, then first we have to find out p
+4, p 4 is there p 2, p this is p 1, this is
+
+actually p 1, just hold on let me correct
+this is actually your p 1 right this is p
+
+1 . So, just hold on . So, this is p 1 I have
+corrected that. So, now, this current source
+
+so, it is actually supplying power because
+it is leaving this terminal. So, p 1 will
+
+is equal to 6 it will be ah minus 16 into
+10.
+
+So, minus 160 watt. So, p 1 is equal to 16
+into minus 10 minus this is power supplied
+
+right . Now, next is if you look into this,
+this 10 ampere current entering the negative
+
+terminal other way actually it is leaving
+the current leaving the plus terminal, because
+
+this is entering a minus terminal ok, but
+because either entering minus terminal or
+
+leaving the plus terminal; that means, 6 volt
+also it is supplying power because this is
+
+the direction of the current if current is
+flowing this direction. So, basically this
+
+current entering to the minus terminal leaving
+the plus terminal. So, p 2 actually this shows
+
+actually your what you call it is supplying
+power. So, it will be minus sign right .
+
+So, in that case p 2 will be 6 into minus
+10 minus 60 watt power supplied . So, this
+
+is your 6 into minus 10 ah this is the 10
+ampere current source say is that current
+
+source supplying 10 ampere current here this
+current is 10 ampere so, it is minus 60 watt.
+
+Now, next is this 6 ampere another 6 ampere
+current entering into this 22 volt source
+
+. So, it is it is entering into the positive
+terminal. So, as it is entering into a positive
+
+terminal means this voltage source actually
+this source actually is absorbing this absorbing
+
+power. So, it will be p 3 will be 22 into
+6 so, it will be 132 watt.
+
+So, p 3 will be your 22 into 6, 132 watt so,
+power absorbed right . Next is that, this
+
+is your another your dependent ah current
+source . So, here your what you call here
+
+0.4 I. So, I is equal to 10 ampere just hold
+on I am writing for you.
+
+So, 0.4 I so, this is your ah 0.4 and I is
+equal to 10, so, this is actually 4 volt right
+
+this is 4 volt. And this one your this is
+actually plus terminal, this is minus terminal
+
+right. So, this is at this actually this is
+a this is an wire only this is a wire only.
+
+So, plus minus means here it is plus, here
+it is minus ; that means, here it is plus,
+
+here it is minus, when this is plus actually
+this is minus; that means, the direction of
+
+the current is this way so; that means, current
+is actually entering into the positive terminal
+
+. That means, this source this dependent current
+source actually absorbing power I hope you
+
+are understanding will be clear loop this
+is plus minus; that means, this is plus, this
+
+is minus .
+And this ah your current direction is this
+
+way. So, this plus this is plus minus means
+this is also plus, this is also minus and
+
+this is the direction of the current; that
+means, current is entering into the positive
+
+terminal because this is positive terminal
+; that means, this show and this here it is
+
+your what you call here, it is ah this is
+your current source sorry this is 4 into 10
+
+it is ah your 4 ampere sorry it is current
+source. So, it is 4 ampere right, ah it is
+
+ah ah 4 ampere sorry right.
+So, this is your 4 ampere, now what is the
+
+voltage. So, no other electrical element is
+there. So, across this across this current
+
+source the voltage is also 22 volt because
+here it is across this is 22 volt. So, same
+
+voltage will be impressed across this your
+this ah your dependent current source .
+
+So, this is actually your 4 ampere so; that
+means, 22 into 4 the power absorbed by this
+
+source will be 88 watt. So, if you just hold
+on . So, I am ah deleting this one right just
+
+hold on right . So, if you come to this, that
+is your this is your actually this is p 4
+
+. So, this is actually your p 4 is equal to
+look 22 into that 0.4 into 10 4 ampere. So,
+
+88 watts so, power absorbed.
+Now, if you add 132 and your 88 this is power
+
+absorbed whatever it will come 220 or so,
+right and if you see the power supplied it
+
+is 160 minus and minus 60 so, minus 220. So,
+it is exactly matching . So, this way you
+
+have to understand I hope you have understood
+this because no other element. So, whatever
+
+22 volt is there that will be impressed across
+this dependent current source.
+
+And I is equal to your 10 amperes so, it is
+4 into I so, 4 ampere and voltage across this
+
+your dependent current source is 22 volt.
+So, 22 into 4 because whatever volt I told
+
+you just now that to showing polarity sign.
+So, this way you can I means just you have
+
+just we have to your what you call, we have
+to clear our concept about all this things
+
+.
+Then only we can we can solve things easily.
+
+So, there should not be any path for confusion
+or anything even when I am writing also one
+
+or two places I am over looping your what
+you call over loop looking on this, but this
+
+is current source it will be 4 ampere. So,
+[laughter] by mistake I wrote 4 volt so, it
+
+is ah your what you call this . So, this is
+your 4 ampere. So, I hope it is understandable
+
+to you right .
+So, next one you look. So, right so, next
+
+one is ah this is these are the very small
+thing ah, but very tricky ah when you are
+
+starting your ah learning this course . So,
+if you clear our concept about this you will
+
+find things are very interesting in the later
+stage right .
+
+So, for example, figure 22 shows a circuit
+diagram determine the power supplied or absorbed
+
+by the voltage source, but first one it is
+given V is equal to 1 volt and I is equal
+
+to 2 ampere you have to find out that power
+supplied or absorbed by the voltage source;
+
+that means, this voltage source right. So,
+first one is given V 1 is equal to 1 volt
+
+and I is equal to 2 ampere .
+So, when I is equal to 2 ampere right, when
+
+I is equal to 2 ampere. So, I is equal to
+2 ampere right 2 ampere [vocalized-noise and
+
+this is the direction of the current, this
+is the direction of the current ; that means,
+
+the current actually flowing like this; that
+means, this current actually entering into
+
+this per your plus terminal ; that means,
+the voltage source actually this is actually
+
+it absorbed power because it is a entering
+into the positive terminal that means, but
+
+voltage is 1 volt .
+So, V is equal to it is given for this case
+
+1 volt and I is equal to is given your 2 ampere
+2 ampere. So, it will be 2 into 1 that is
+
+2 watt power absorbed by the voltage source.
+So, here I have so, this is actually just
+
+hold on I . So, I am rubbing this. So, it
+will be power absorbed by the voltage source
+
+. So, just hold on right. So, this one your
+this is the 2 watt the power absorbed .
+
+Now, next one it is given look the V is equal
+to 6 volt, but I is equal to minus 4 ampere.
+
+So, in this circuit I am I am drawing it again
+for your understanding it is the case b, it
+
+is the for this case this is case b . So,
+V is equal to 6 volt , but your current is
+
+I is equal to minus 4 ampere ; that means,
+the direction of the current will be reverse
+
+so; that means, if I for yours ah understanding
+if I draw it like this .
+
+If I draw it like this the because I is equal
+to minus 4. So, in this direction so, I making
+
+this arrow this direction and this is your
+voltage source, voltage is 6 volt . So, V
+
+is equal to 6 volts second case it is in the
+second case V is equal to 6 volt and I is
+
+minus 4 ampere this direction; that means,
+this direction I is equal to I can write positive
+
+4 ampere and this current actually is flowing
+like this it is flowing like this ; that means,
+
+the current actually leaving the voltage terminal
+because it is direction is like this .
+
+So, basically the current actually leaving
+the your plus terminal; that means, your power,
+
+power will be your I is given 4 ampere and
+voltage is 6 volt. So, p it will be 24 watt
+
+, but it is leaving the plus terminal; that
+means, power supplied. So, minus 24 so, power
+
+supplied by the voltage source right. So,
+that so, let me clean this one again I will
+
+be back to you right. So, just hold on so,
+if you come to this your this is your p is
+
+equal to VI power supplied the second case
+right.
+
+Now, third case it is given that v is equal
+to minus 12 volt and I is equal to minus 16
+
+ampere . So, in this case just for your understanding
+again I will draw the for the case c. So,
+
+this is your ah just hold on this is your
+case c it is V is equal to minus 12 and I
+
+is equal to minus 16 ampere. So, what you
+can do the easiest way, rather than complicating
+
+the thing .
+So, this is my current source right as I is
+
+equal to minus 16 ampere. So, direction of
+I is given. So, this is the positive dire
+
+I is when I is positive this is the direction
+is given, it is minus 16 means you just make
+
+the arrow downwards right and this one your
+voltage also voltage source also it is given
+
+minus 12 volt. So, this one if you make minus
+and this is make plus so; that means, voltage
+
+is equal to we can write 12 volt and this
+is your I, I is equal to you write your 16
+
+ampere, what I did for your understanding
+as V is equal to minus 12 volt I have reverse
+
+the direction of the current because it is
+sorry I is equal to minus 16 ampere. So, I
+
+have reverse the direction of the current
+and V is equal to minus 12 volts. So, I have
+
+reverse the polarity .
+So; that means, the current is flowing in
+
+this direction current is flowing in this
+direction; that means, the current actually
+
+entering into the positive terminal of the
+voltage source ; that means, it is absorbing
+
+power. So, p will be is equal to your 16 into
+12 watt this power it is being absorbed by
+
+this voltage source because it is entering
+into the positive terminal right.
+
+So, it will be actually 192 watt right. So,
+I hope you have got it this right. So, make
+
+things simpler way to better we should not
+make the thing complicated way . So, make
+
+the things simplest way such that you will
+understand each and every thing ok. Then now
+
+let me clean this one . So, that is why the
+all calculation I have made this power absorbed
+
+192 watt everything is here, but ah everything
+I am trying to make it for you .
+
+Then this figure this is for example, 17 now
+figure 27 sources circuit diagram determine
+
+p 1 and p 2 for I is equal to 4 ampere and
+I is equal to minus 3 ampere right. So, when
+
+I is equal to this is a your dependent voltage
+source, this is a dependent voltage source
+
+and first case is I is equal to 4 ampere . So,
+first case that I equal to 4 ampere right
+
+and it is a dependent voltage source. So,
+this it is 2 I so, here voltage will be 2
+
+into your 4 because first case this case it
+is I is equal to 4 ampere.
+
+So, in this case what will happen that, this
+is your 2 into 4 this is volt ; that means,
+
+it is 8 volt right and this I is equal to
+4 ampere this current actually entering into
+
+the positive terminal of this dependent voltage
+source ; that means, your; that means, this
+
+4 I this I is equal to 4 ampere first leaving
+this voltage leaving this plus terminal; that
+
+means, when you leaving the plus terminal;
+that means, voltage p 1 that is the 8 volt
+
+source it is actually supplying power .
+So, when it is leaving the plus terminal it
+
+will be minus and voltage is V is equal to
+8 into I is equal to your 4 ampere this is
+
+the 4 ampere. So, minus 4 so, this will be
+minus 32 watt right this is the power supplied
+
+right, this is power supplied.
+Now, the another thing is this current is
+
+entering into the dependent voltage source
+the plus terminal; that means, this source
+
+actually absorbing power . So, here it is
+8 volt and 4 ampere current is entering because
+
+I is equal to 4. So, it will be p 2 will is
+equal to 8 into 4 so, 32 watt. So, this is
+
+actually power absorbed right. So, hope this
+thing is totally clear to you so, let me clean
+
+this right.
+Second case I is equal to minus 3 ampere just
+
+tell me one thing this one second case this
+one please do not read I am I am striking
+
+it off right, second case ah your this one
+the second case this do not read here it is
+
+that calculation here, it is wrong this do
+not read. I will explain what exactly this
+
+one you should not read, the second case I
+am explaining on this your what you call on
+
+ah that on the problem itself just hold on.
+So, this you should not read for the second
+
+case right .
+So, now I am going back to that problem, let
+
+me clean this ah . So, just hold on . So,
+second case your, I is equal to your minus
+
+3 ampere, now what will happen, if I is equal
+to minus 3 ampere . So, what I will do I will
+
+redraw the circuit . So, in this case ah just
+hold on so, in this case that I is equal to
+
+minus 3 ampere.
+So, what I will do, this is dependent voltage
+
+source, this is plus minus, this is your sorry
+this is your voltage source, this is plus,
+
+this is minus 8 volt source, this is the current
+source right and as it is I is equal to minus
+
+3 ampere. So, a delete siring upwards as it
+is minus 3. So, we have taking this direction
+
+say I is equal to 3 ampere and this is my
+8 volt and this is your 2 I right this is
+
+dependent voltage source .
+Now, in this case here it will be 2 into 3
+
+that is equal to 6 volt right, now this is
+8 volt. So, if you look into that this ah
+
+3 ampere current actually if current is moving
+like this moving like this. So, 3 ampere current
+
+is this is actually p 1 and this is your p
+2 . So, in this case 3 ampere current entering
+
+into the your what you call positive terminal
+of this voltage source so; that means, power
+
+absorbed by this voltage source this is p
+1. So, p 1 will be is equal to 8 volt into
+
+that 3 is equal to 24 watt right 24 watt.
+So, this power absorbed .
+
+Now, and in this case for dependent voltage
+source this actually leaving the plus terminal
+
+so, p 2 will be negative power supplied and
+p 2 will be is equal to your this is minus
+
+ah minus sign power supplied. So, it is 6
+volt 2 into 3 dependent voltage source 6 volt
+
+it is 6 ah into this 3 . So, it is minus 18
+watt this is actually what you call the power
+
+supplied by the, this is absorbed and this
+is minus sign means power supplied .
+
+So, if you add these 24 minus 8 18 algebraic
+sum . So, 6 difference is there my question
+
+is to you power balance has to be matched
+because absorbed power plus your ah supplied
+
+power is equal to 0, but here it is 24 minus
+18 6 watt. So, ah difference is there where
+
+that power has gone .
+So, just hint is that you calculate I am not
+
+telling, this source actually is supplying
+another 6 watt power right this current source
+
+then only it will match. So, you find out
+from where you will get this 6 watt, this
+
+is an example this is a your what you call
+problem for you should solve this one right
+
+.
+So, at a so, I am ah. So, this is the problem
+
+actually. So, whatever I have rubbed it there
+do not go through this is the problem . So,
+
+6 differences is there I am telling you this
+current source actually supplying 6 watt,
+
+but you calculate from how 6 if that 6 watt
+you calculate from your said the how can you
+
+calculate that I will not tell here, but it
+is an exercise for you right
+
+So, I am let me clean this. So, do not see
+that one . So, now, this one you have to tell
+
+which is ah we are what you call valid connection
+and which is invalid connection that is the
+
+thing look this is 1 2 terminal. So, across
+this 10 volt this is also 10 volt. So, this
+
+two sources are connected actually in parallel
+later we will see . So, this is a valid connection
+
+right because 10 volt 10 volt valid connection.
+Now, here one 5 ampere ah current source is
+
+there a 10 voltage 10 another 10 both are
+connected across terminal 1 2 absolutely no
+
+problem this is also a valid connection right.
+This two are valid connection because any
+
+across any terminal you can only connect the
+equal voltage source if there is a difference
+
+is then that is invalid connection that is
+not possible and any current source and this
+
+voltage source this is also a valid connection.
+Now, this one across this terminal 1 2 this
+
+is a 5 volt and this is a 10 volt it cannot
+be 2 cannot be different right it has to be
+
+same because they are connected across the
+same terminal . So, this is invalid connection.
+
+Similarly, this 1 2 ampere currents ah source
+and another 5 ampere in the same it is not
+
+valid because it is a simple circuit. So,
+this is invalid connection this is invalid
+
+connection here it is invalid 5 ampere here
+it is 2 ampere it is not possible . So, because
+
+a 5 ampere 2 ampere cannot flow like this
+I write the either it has to be 2 or it has
+
+to be your what you call ah this 5, but both
+the way we have connected it is invalid connection
+
+similarly here also it is invalids connection.
+So, a b are valid connection c d are invalid
+
+connection. So, everything written there everything
+is written there. So, just you will jus you
+
+will go through . Now, these are all exercise.
+So, exercise 1 answers are given not reading
+
+again when you will ah read this video you
+can pause and see this problem . So, your
+
+ah this is problem 2 so, answers are given
+hope these all answers are correct you will
+
+solve it, now problem 3 .
+So, this is ah also your powers absorbed power
+
+supplied problem right. So, all answers are
+given and problem 4. This is also given the
+
+total charge entering ah the element this
+is also answers given . So, this is problem
+
+5 . So, we will do this all valid or invalid
+connections so, you will solve this one right.
+
+So, this is one then and answer for everything,
+this is a valid or invalid connection it is
+
+actually ah circuit inside the box absorbing
+or supplying power right . Everything is given
+
+you read this problem very carefully very
+carefully and do this a b c all the all the
+
+c d 4 connections are there .
+Accordingly we will make it answers are also
+
+given right. And problem 6 this is your voltage
+your voltage 0 for say time varying voltage
+
+actually given . So, you have to find out
+the energy delivered answer is given . So,
+
+this is there are 5 connections there, you
+have to see that ah whether how many of them
+
+are valid or invalid right this is there are
+5 connections and all answers are given .
+
+And this is also a time varying we will see
+for a ac circuit, but this is simply given
+
+you have to find out the energy the joule
+absorbed right . And this is another simple
+
+problem right you have to find out that that
+ah you have to just ah answer is given right,
+
+that stove element this much when connected
+to a this long ah how long does it take to
+
+consume 30000 joules. So, answer is given
+and this is the last one .
+
+This is the current ah time varying your what
+you call current is given right you have to
+
+find out total passed charge through the element
+right and these answers are given. So, everything
+
+is given.
+Thank you very much we will be back again
+
+.
+

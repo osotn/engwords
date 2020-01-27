@@ -1,0 +1,151 @@
+Introduction to Electromagnetism
+Prof. Manoj K. Harbola
+Department of Physics
+Indian Institute of Technology, Kanpur
+Lecture - 2
+Coloumb’s for ce due to several point charges
+(Refer Slide Time: 00:09)
+The Coulomb force follows the principle of superposition; that is the force due to several
+charges is given as the sum of force due to individual charge. So, this is what we learnt so far.
+(Refer Slide Time: 00:27)Now because of this nature; suppose I take now charge Q 1 , Q 2 , Q 3 , Q 4 and so on, and try to
+find what is the force on a given charge q. Let this distance be r 1 . Let this distance be r 2 . Let
+the distance be r 3 . Let this distance be r 4 , and let me write them as vectors. So, vector this is
+vector, this is vector, this is vector, this is vector. Then the net force is going to be summation
+of individual forces on q, and this has to be vector sums. So, this is going to be 1 over 4 pi
+epsilon 0, which is common; q, q 1 over r 1 square r 1 unit vector plus q 2 over r 2 square r 2 unit
+vector plus so on.
+Q 1
+Q 2
+1
+⃗
+F net =
+q[ 2 r ^ 1 + 2 r ^ 2 +...]
+4 π ε 0 r 1
+r 2
+Notice that vectors have been written in such a way, that whether they are positive or
+negative charges, all the directions of properly taken care of.
+(Refer Slide Time: 01:58)
+So, I can write that the net force F net, is equal to 1 over 4 pi epsilon 0 forces on q summation
+q i over r i square r i unit vector.
+Q i
+1
+⃗
+F net =
+q ∑ 2 r ^ i
+4 π ε 0
+r i
+Sometimes this is also written as 1 over 4 pi epsilon 0 cube summation i q i over I can write r
+i cubed and make this a vector, is the same thing, because r i vector divided by r i is going to
+be r i unit vector.Q i
+1
+⃗
+F net =
+q ∑ 3 r ⃗ i
+4 π ε 0
+r i
+This is also known as principle of superposition; that means, the net field can be calculated
+by adding fields in a linear manner. What it also means is, if charge Q 1 is doubled force due
+to Q 1 also gets doubled.
+(Refer Slide Time: 03:19)
+So, now let use this to calculate forces on some configuration. Suppose I have two charge;
+example one, suppose I have two charges, separated by certain distance. Let us say this is in
+the x y plane, x y. Let this be charge Q, let this be charge Q, separated by a distance a. And I
+put a third charge q at a distance x from them, this is q. Find the force on q. Now force, as we
+said earlier on q is going to be force due to upper charge. Let us call this 1, let us call this 2.
+So, this is going to be force due to 1 plus force due to 2.
+⃗
+F =⃗
+F 1 + ⃗
+F 2
+This is a vector force right. So, let us take the charge 1 and see what happens. Here is charge
+1 q, here is chare q. This is here a distance x, this is at a distance a by 2. The force is going to
+be given by this vector.
+So, F 1 is going to be 1 over 4 pi epsilon 0 Q q over. What is this distance, this is x square plus
+a square by 4 square root. Square of that is going to be x square plus a square by 4, times unit
+vector in this direction. And what is this vector. This vector is nothing but this vector minusthis vector. So, this going to be x x minus a by 2 y; that is a vector form charge 1 to q, charge
+1 to q, and therefore unit vector is equal to this vector x x minus a y to y divide by its
+magnitude, which is going to be square root of x square plus a square by 4. So, I put this here,
+I am going to get the unit vector x x minus a by 2 y divided by x square plus a square by 4 1
+half. So, that my final answer in this case is, 1 over 4 pi epsilon 0 Q q over x square plus a
+square by 4, 3 by 2, which is nothing but the distance raise to three times a vector x x minus a
+by 2 y.
+1
+⃗
+F 1 =
+4 π ε 0
+a
+Qq (x x ^ − y ^ )
+2
+(
+2 3/ 2
+a
+x +
+4
+2
+)
+(Refer Slide Time: 07:04)
+Let me write it again. I have this configuration charge Q here, charge Q here, charge q here at
+a distance x a by 2 a by 2. I am calling this charge 1, I am calling this charge 2. Then force F 1
+if you got out of 1 over 4 pi epsilon 0 q q over x square plus a square by 4 raise to 3 by 2 x x
+minus a by 2 y.
+1
+⃗
+F 1 =
+4 π ε 0
+a
+Qq (x x ^ − y ^ )
+2
+(
+2 3/ 2
+a
+x +
+4
+2
+)Let us see it makes sense. It tells me that force in the x direction is this way, and force in the
+y direction, is in the minus direction, which is perfectly fine because the net force is going to
+be like this, x component like this and y component like this. I can similarly now write F 2 ; F 2
+has a same magnitude, except that, is along in this vector. And what is this vector. This vector
+is nothing but x x minus minus a by 2 y, which is x x plus a by 2 y, and therefore, F 2 I can
+write as, 1 over 4 pi epsilon 0 Q q over the distance cubed x squared plus a squared by 4 raise
+to 3 by 2, which is the same distance. This distance and upper distance is the same, a vector
+out here changes x x plus a by 2 y.
+1
+⃗
+F 2 =
+4 π ε 0
+a
+Qq (x x ^ + ^ y )
+2
+(
+2 3/ 2
+a
+x +
+4
+2
+)
+So, you now found both the forces, add them up and I get the net force, is equal to 1 over 4 pi
+epsilon 0 Q q over x square plus a square by 4 raise to 3 by 2. Notice that this part will
+cancel; 1 is positive sign, and 1 is negative sign for times 2 x x; that is the answer.
+1 Qq (2 x ^ x )
+⃗
+F =
+4 π ε 0 2 a 2 3/ 2
+x +
+4
+(
+)
+Note one, if x is 0 F is equal to 0; that make sense, because of this charge is here. This fellow
+pushes it this way, the other fellow pushes this way, and the net force is 0. Two, if x becomes
+very large, I can ignore a square by 4, and then the net force F is 1 over 4 pi epsilon 0 2 q q
+over x square.
+1 2Qqx x ^
+⃗
+F =
+4 π ε 0 x 2
+So, it is as if, at center there is a there is a charge 2 q sitting applying force on q, and the other
+certain things, we are noticing.(Refer Slide Time: 10:24)
+So, to conclude, what we have learnt in this chapter one, is Coulomb’s law. How calculate
+force on a given charge due to more than one point charge. What we are going to do in the
+next lecture is consider distributed charges, distribution of charges and calculate force due to
+this distribution.
+Thank you.

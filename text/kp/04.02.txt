@@ -1,0 +1,92 @@
+4.2 Other filters
+The purpose of this section is to alert you to the existence and possibilities
+of the rich set of small filters provided by the system, and to give a few examples of their use. This list is by no means all-inclusive - there are many more
+that were part of the 7th Edition, and each installation creates some of its own.
+All of the standard ones are described in Section 1 of the manual.
+We begin with sort, which is probably the most useful of all. The basics
+of sort were covered in Chapter 1: it sorts its input by line in ASCII order.
+Although this is the obvious thing to do by default, there are lots of other ways
+that one might want data sorted, and sort tries to cater to them by providing
+lots of different options. For example, the -f option causes upper and lower
+case to be "folded," so case distinctions are eliminated. The - d option (dictionary order) ignores all characters except letters, digits and blanks in comparlsons.
+Although alphabetic comparisons are most common, sometimes a numeric
+comparison is needed. The -n option sorts by numeric value, and the -r
+option reverses the sense of any comparison. So,
+$ Is / sort -f
+$ Is -s / sort -n
+$ Is -s / sort -nr
+Sort filenames in alphabetic order
+Sort with smallest files first
+Sort with largest files first
+sort normally sorts on the entire line, but it can be told to direct its attention only to specific fields. The notation +m means that the comparison skips
+the first m fields; +0 is the beginning of the line. So, for example,
+$ Is -1 / sort +3nr
+$ who / sort +4n
+Sort by byte count, largest first
+Sort by time of login, oldest first
+Other useful sort options include -0, which specifies a filename for the
+output (it can be one of the input files), and -u, which suppresses all but one
+of each group of lines that are identical in the sort fields.
+Multiple sort keys can be used, as illustrated by this cryptic example from
+the manual page s ort( 1) :
+$ sort +Of +0 -u filenames
++ Of sorts the line, folding upper and lower case together, but lines that are
+identical may not be adjacent. So + 0 is a secondary key that sorts the equal
+lines from the first sort into normal ASCII order. Finally, -u discards any
+adjacent duplicates. Therefore, given a list of words, one per line, the command prints the unique words. The index for this book was prepared with a
+similar sort command, using even more of sort's capabilities. See sort( 1).
+The command uniq is the inspiration for the -u flag of sort: it discards
+all but one of each group of adjacent duplicate lines. Having a separate program for this function allows it to do tasks unrelated to sorting. For example,
+uniq will remove multiple blank lines whether its input is sorted or not.
+Options invoke special 'vays to process the duplications: uniq -d prints only
+those lines that are duplicated; uniq -u prints only those that are unique (i.e.,
+not duplicated); and uniq -c counts the number of occurrences of each line.
+We'll see an example shortly.
+The comm command is a file comparison program. Given two sorted input
+files f 1 and f 2, comm prints three columns of output: lines that occur only in
+f 1, lines that occur only in f2, and lines that occur in both files. Any of these
+columns can be suppressed by an option:
+$ comm -12 £1 £2
+prints only those lines that are in both files, and
+$ comm -23 £1 £2
+prints the lines that are in the first file but not in the second. This is useful for
+comparing directories and for comparing a word list with a dictionary.
+The tr command transliterates the characters in its input. By far the most
+common use of tr is case conversion:
+$ tr a-z A-Z
+$ tr A-Z a-z
+Map lower case to upper
+Map upper case to lower
+The dd command is rather different from all of the other commands we
+have looked at. It is intended primarily for processing tape data from other
+systems - its very name is a reminder of OS/360 job control language. dd will
+do case conversion (with a syntax very different from tr); it will convert from
+ASCII to EBCDIC and vice versa; and it will read or write data in the fixed size
+records with blank padding that characterize non-UNIX systems. In practice,
+dd is often used to deal with raw, unformatted data, whatever the source; it
+encapsulates a set of facilities for dealing with binary data.
+To illustrate what can be accomplished by combining filters, consider the
+following pipeline, which prints the 10 most frequent words in its input:
+cat $*
+tr -sc A-Za-z '\012' :
+sort
+uniq -c
+sort -n
+tail
+5
+Compress runs of non-letters into newline
+cat collects the files, since tr only reads its standard input. T'he tr command is from the manual: it compresses adjacent non-letters into newlines, thus
+converting the input into one word per line. The words are then sorted and
+uniq -c compresses each group of identical words into one line prefixed by a
+count, which becomes the sort field for sort -no (This combination of two
+sorts around a uniq occurs often enough to be called an idiom.) The result
+is the unique words in the document, sorted in increasing frequency. tail
+selects the 10 most common words (the end of the sorted list) and 5 prints
+them in five columns.
+By the way, notice that ending a line with is a valid \vay to continue it.
+Exercise 4-3. Use the tools in this section to write a simple spelling checker, using
+/usr/dict/words. What are its shortcomings, and how would you address them? 0
+Exercise 4-4. Write a word-counting program in your favorite programming language
+and compare its size, speed and maintainability with the word-counting pipeline. How
+easily can you convert it into a spelling checker?
+

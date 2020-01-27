@@ -1,0 +1,749 @@
+CHAPTER 2
+Simple Editing
+This chapter introduces you to editing with vi , and it is set up to be read as a tutorial.
+In it you will learn how to move the cursor and how to make some simple edits. If
+you’ve never worked with vi , you should read the entire chapter.
+Later chapters will show you how to expand your skills to perform faster and more
+powerful edits. One of the biggest advantages for an adept user of vi is that there are
+so many options to choose from. (One of the biggest disadvantages for a newcomer to
+vi is that there are so many different editor commands.)
+You can’t learn vi by memorizing every single vi command. Start out by learning the
+basic commands introduced in this chapter. Note the patterns of use that the commands have in common.
+As you learn vi , be on the lookout for more tasks that you can delegate to the editor,
+and then find the command that accomplishes it. In later chapters you will learn more
+advanced features of vi , but before you can handle the advanced, you must master the
+simple.
+This chapter covers:
+•
+•
+•
+•
+Moving the cursor
+Adding and changing text
+Deleting, moving, and copying text
+More ways to enter insert mode
+vi Commands
+vi has two modes: command mode and insert mode. As soon as you enter a file, you
+are in command mode, and the editor is waiting for you to enter a command. Commands enable you to move anywhere in the file, to perform edits, or to enter insert
+mode to add new text. Commands can also be given to exit the file (saving or ignoring
+your edits) in order to return to the Unix prompt.
+13You can think of the different modes as representing two different keyboards. In insert
+mode, your keyboard functions like a typewriter. In command mode, each key has a
+new meaning or initiates some instruction.
+There are several ways to tell vi that you want to begin insert mode. One of the
+most common is to press i . The i doesn’t appear on the screen, but after you press
+it, whatever you type will appear on the screen and will be entered into the buffer. The
+cursor marks the current insertion point. * To tell vi that you want to stop inserting text,
+press ESC . Pressing ESC moves the cursor back one space (so that it is on the last
+character you typed) and returns vi to command mode.
+I
+For example, suppose you have opened a new file and want to insert the word “introduction.” If you type the keystrokes iintroduction , what appears on the screen is:
+introduction
+When you open a new file, vi starts in command mode and interprets the first keystroke
+( i ) as the insert command. All keystrokes made after the insert command are considered
+text until you press ESC . If you need to correct a mistake while in insert mode, backspace and type over the error. Depending on the type of terminal you are using, backspacing may erase what you’ve previously typed or may just back up over it. In either
+case, whatever you back up over will be deleted. Note that you can’t use the backspace
+key to back up beyond the point where you entered insert mode. (If you have disabled
+vi compatibility, Vim allows you to backspace beyond the point where you entered
+insert mode.)
+vi has an option that lets you define a right margin and provides a carriage return
+automatically when you reach it. For right now, while you are inserting text, press
+ENTER to break the lines.
+Sometimes you don’t know whether you are in insert mode or command mode. Whenever vi does not respond as you expect, press ESC once or twice to check which mode
+you are in. When you hear the beep, you are in command mode.
+Moving the Cursor
+You may spend only a small amount of time in an editing session adding new text in
+insert mode; much of the time you will be making edits to existing text.
+In command mode you can position the cursor anywhere in the file. Since you begin
+all basic edits (changing, deleting, and copying text) by placing the cursor at the text
+that you want to change, you want to be able to move the cursor to that place as quickly
+as possible.
+* Some versions show that you’re in input mode in the status line.
+14 | Chapter 2: Simple EditingThere are vi commands to move the cursor:
+• Up, down, left, or right—one character at a time
+• Forward or backward by blocks of text such as words, sentences, or paragraphs
+• Forward or backward through a file, one screen at a time
+In Figure 2-1, an underscore marks the present cursor position. Circles show movement
+of the cursor from its current position to the position that would result from various
+vi commands.
+O
+b
+2k
+$
+With a screen editor you can scroll the
+page, move the cursor, delete lines,
+and more, while seeing the results of
+your edits as you make them.
+2h
+j
+2w
+Figure 2-1. Sample movement commands
+Single Movements
+The keys h , j , k , and l , right under your fingertips, will move the cursor:
+h
+Left, one space
+j
+Down, one line
+k
+Up, one line
+l
+Right, one space
+You can also use the cursor arrow keys ( ← , ↓ , ↑ , → ), + and - to go up and down, or
+the ENTER and BACKSPACE keys, but they are out of the way. At first, it may seem
+awkward to use letter keys instead of arrows for cursor movement. After a short while,
+though, you’ll find it is one of the things you’ll like best about vi —you can move around
+without ever taking your fingers off the center of the keyboard.
+Moving the Cursor | 15Before you move the cursor, press ESC to make sure that you are in command mode.
+Use h , j , k , and l to move forward or backward in the file from the current cursor
+position. When you have gone as far as possible in one direction, you hear a beep and
+the cursor stops. For example, once you’re at the beginning or end of a line, you cannot
+use h or l to wrap around to the previous or next line; you have to use j or k . † Similarly,
+you cannot move the cursor past a tilde (~) representing a line without text, nor can
+you move the cursor above the first line of text.
+Numeric Arguments
+You can precede movement commands with numbers. Figure 2-2 shows how the command 4l moves the cursor four spaces to the right, just as if you had typed l four times
+( llll ).
+4l
+With a screen editor you can scroll the
+Figure 2-2. Multiplying commands by numbers
+The ability to multiply commands gives you more options and power for each command you learn. Keep this in mind as you are introduced to additional commands.
+Movement Within a Line
+When you saved the file practice , vi displayed a message telling you how many lines
+are in that file. A line is not necessarily the same length as the visible line (often limited
+to 80 characters) that appears on the screen. A line is any text entered between newlines.
+(A newline character is inserted into the file when you press the ENTER key in insert
+mode.) If you type 200 characters before pressing ENTER , vi regards all 200 characters
+as a single line (even though those 200 characters visibly take up several lines on the
+screen).
+As we mentioned in Chapter 1, vi has an option that allows you to set a distance from
+the right margin at which vi will automatically insert a newline character. This option
+is wrapmargin (its abbreviation is wm ). You can set a wrapmargin at 10 characters:
+:set wm=10
+This command doesn’t affect lines that you’ve already typed. We’ll talk more about
+setting options in Chapter 7. (This one really couldn’t wait!)
+If you do not use vi ’s automatic wrapmargin option, you should break lines with carriage
+returns to keep the lines of manageable length.
+† Vim, with nocompatible set, allows you to “space past” the end of the line to the next one with l or the space
+bar.
+16 | Chapter 2: Simple Editing0 Two useful commands that involve movement within a line are:
+0 (digit zero)
+Move to beginning of line.
+$
+Move to end of line.
+In the following example, line numbers are displayed. (Line numbers can be displayed
+in vi by using the number option, which is enabled by typing :set nu in command mode.
+This operation is described in Chapter 7.)
+1
+2
+With a screen editor you can scroll the page,
+move the cursor, delete lines, insert characters,
+and more, while seeing the results of your edits
+as you make them.
+3 Screen editors are very popular.
+$ The number of logical lines (3) does not correspond to the number of visible lines
+(5) that you see on the screen. If the cursor were positioned on the d in the word
+delete, and you entered $ , the cursor would move to the period following the word
+them. If you entered 0 , the cursor would move back to the letter m in the word move,
+at the beginning of line two.
+Movement by Text Blocks
+w You can also move the cursor by blocks of text: words, sentences, paragraphs,
+etc. The w command moves the cursor forward one word at a time, counting
+symbols and punctuation as equivalent to words. The following line shows cursor
+movement by w :
+cursor, delete lines, insert characters,
+You can also move by word, not counting symbols and punctuation, using the W command. (You can think of this as a “large” or “capital” Word.)
+Cursor movement using W looks like this:
+cursor, delete lines, insert characters,
+To move backward by word, use the b command. Capital B allows you to move backward by word, not counting punctuation.
+As mentioned previously, movement commands take numeric arguments; so, with either the w or b commands you can multiply the movement with numbers. 2w moves
+forward two words; 5B moves back five words, not counting punctuation.
+To move to a specific line, you can use the G command. Plain G goes to the end of the
+file, 1G goes to the top of the file, and 42G goes to line 42. This is described in more detail
+later in the section “The G (Go To) Command” on page 43.
+Moving the Cursor | 17With a editor you can scrooll the page,
+move the cursor, delete lines, nisret
+characters, and more, while results of
+your edits as you make tham.
+Since they allow you to make changes
+as you read through a file, much as
+you would edit a printed copy,
+screen editors are very popular.
+Figure 2-3. Proofreading edits
+We’ll discuss movement by sentences and by paragraphs in Chapter 3. For now,
+practice using the cursor movement commands that you know, combining them with
+numeric multipliers.
+Simple Edits
+When you enter text in your file, it is rarely perfect. You find typos or want to improve
+on a phrase; sometimes your program has a bug. Once you enter text, you have to be
+able to change it, delete it, move it, or copy it. Figure 2-3 shows the kinds of edits you
+might want to make to a file. The edits are indicated by proofreading marks.
+In vi you can perform any of these edits with a few basic keystrokes: i for insert (which
+you’ve already seen); a for append; c for change; and d for delete. To move or copy text,
+you use pairs of commands. You move text with a d for “delete,” then a p for “put”;
+you copy text with a y for “yank,” then a p for “put.” Each type of edit is described in
+this section. Figure 2-4 shows the vi commands you use to make the edits marked in
+Figure 2-3.
+Inserting New Text
+You have already seen the insert command used to enter text into a new file. You also
+use the insert command while editing existing text to add missing characters, words,
+and sentences. In the file practice , suppose you have the sentence:
+you can scroll
+the page, move the cursor, delete
+lines, and insert characters.
+18 | Chapter 2: Simple Editingi screen ESC
+P
+rs
+dd
+x
+i seeing the ESC
+With a editor you can scrooll the page,
+move the cursor, delete lines, nisret
+characters, and more while results of
+your edits as you make tham.
+Since they allow you to make changes
+as you read through a file, much as
+you would edit a printed copy,
+screen editors are very popular.
+cw
+insert
+ESC
+re
+r.
+x
+rS
+Figure 2-4. Edits with vi commands
+with the cursor positioned as shown. To insert With a screen editor at the beginning of
+the sentence, enter the following:
+Keystrokes
+Results
+2k
+you can scroll
+the page, move the cursor, delete
+lines, and insert characters.
+Move the cursor up two lines with the k command, to the line where you want to
+make the insertion.
+iWith a
+With a you can scroll
+the page, move the cursor, delete
+lines, and insert characters.
+Press i to enter insert mode and begin inserting text.
+screen editor
+With a screen editor you can scroll
+the page, move the cursor, delete
+lines, and insert characters.
+ESC
+Finish inserting text, and press ESC to end the insert and return to command mode.
+Appending Text
+a You can append text at any place in your file with the append command, a . This
+works in almost the same way as i , except that text is inserted after the cursor
+rather than before the cursor. You may have noticed that when you press i to enter
+insert mode, the cursor doesn’t move until after you enter some text. By contrast, when
+you press a to enter insert mode, the cursor moves one space to the right. When you
+enter text, it appears after the original cursor position.
+Changing Text
+c You can replace any text in your file with the change command, c . To tell c how
+Simple Edits | 19much text to change, you combine c with a movement command. In this way, a movement command serves as a text object for the c command to affect. For example, c can
+be used to change text from the cursor:
+cw
+To the end of a word
+c2b
+Back two words
+c$
+To the end of line
+c0
+To the beginning of line
+After issuing a change command, you can replace the identified text with any amount
+of new text, with no characters at all, with one word, or with hundreds of lines. c , like
+i and a , leaves you in insert mode until you press the ESC key.
+When the change affects only the current line, vi marks the end of the text that will be
+changed with a $ , so that you can see what part of the line is affected. (See the example
+for cw , next.)
+Words
+c
+w To change a word, combine the c (change) command with w for word. You
+can replace a word ( cw ) with a longer or shorter word (or any amount of
+text). cw can be thought of as “delete the word marked and insert new text until ESC
+is pressed.”
+Suppose you have the following line in your file practice :
+With an editor you can scroll the page,
+and want to change an to a screen. You need to change only one word:
+Keystrokes
+w
+Results
+With an editor you can scroll the page,
+Move with w to the place you want the edit to begin.
+cw
+With a$ editor you can scroll the page,
+Give the change word command. The end of the text to be changed will be marked with a $
+(dollar sign).
+a screen
+With a screen editor you can scroll the page,
+Type in the replacement text, and then press ESC to return to command mode.
+cw also works on a portion of a word. For example, to change spelling to spelled, you
+can position the cursor on the i, type cw , then type ed, and finish with ESC .
+20 | Chapter 2: Simple EditingGeneral Form of vi Commands
+In the change commands we’ve mentioned up to this point, you may have noticed the
+following pattern:
+(command)(text object)
+command is the change command c , and text object is a movement command (you don’t
+type the parentheses). But c is not the only command that requires a text object. The
+d command (delete) and the y command (yank) follow this pattern as well.
+Remember also that movement commands take numeric arguments, so numbers can
+be added to the text objects of c , d , and y commands. For example, d2w and 2dw are
+commands to delete two words. With this in mind, you can see that most vi commands
+follow a general pattern:
+(command)(number)(text object)
+or the equivalent form:
+(number)(command)(text object)
+Here’s how this works. number and command are optional. Without them, you simply
+have a movement command. If you add a number, you have a multiple movement. On
+the other hand, combine a command ( c , d , or y ) with a text object to get an editing
+command.
+When you realize how many combinations are possible in this way, vi becomes a
+powerful editor indeed!
+Lines
+c
+c To replace the entire current line, use the special change command, cc . cc
+changes an entire line, replacing that line with any amount of text entered
+before pressing ESC . It doesn’t matter where the cursor is located on the line; cc replaces the entire line of text.
+A command like cw works differently from a command like cc . In using cw , the old text
+remains until you type over it, and any old text that is left over (up to the $ ) goes away
+when you press ESC . In using cc , though, the old text is wiped out first, leaving you a
+blank line on which to insert text.
+The “type over” approach happens with any change command that affects less than a
+whole line, whereas the “blank line” approach happens with any change command that
+affects one or more lines.
+C C replaces characters from the current cursor position to the end of the line. It has
+the same effect as combining c with the special end-of-line indicator $ ( c$ ).
+Simple Edits | 21The commands cc and C are really shortcuts for other commands, so they don’t follow
+the general form of vi commands. You’ll see other shortcuts when we discuss the delete
+and yank commands.
+Characters
+One other replacement edit is given by the r command. r replaces a single
+character with another single character. You do not have to press ESC to return
+to command mode after making the edit. There is a misspelling in the line below:
+r
+Pith a screen editor you can scroll the page,
+Only one letter needs to be corrected. You don’t want to use cw in this instance because
+you would have to retype the entire word. Use r to replace a single character at the
+cursor:
+Keystrokes
+rW
+Results
+With a screen editor you can scroll the page,
+Give the replace command r , followed by the replacement character W.
+Substituting text
+s Suppose you want to change just a few characters, and not a whole word. The
+substitute command ( s ), by itself, replaces a single character. With a preceding
+count, you can replace that many characters. As with the change command ( c ), the last
+character of the text will be marked with a $ so that you can see how much text will be
+changed.
+S The S command, as is usually the case with uppercase commands, lets you change
+whole lines. In contrast to the C command, which changes the rest of the line from
+the current cursor position, the S command deletes the entire line, no matter where the
+cursor is. vi puts you in insert mode at the beginning of the line. A preceding count
+replaces that many lines.
+Both s and S put you in insert mode; when you are finished entering new text, press
+ESC .
+R The R command, like its lowercase counterpart, replaces text. The difference is
+that R simply enters overstrike mode. The characters you type replace what’s on
+the screen, character by character, until you type ESC . You can overstrike a maximum
+of only one line; as you type ENTER , vi will open a new line, effectively putting you
+into insert mode.
+22 | Chapter 2: Simple EditingChanging Case
+~ Changing the case of a letter is a special form of replacement. The tilde ( ~ ) command will change a lowercase letter to uppercase or an uppercase letter to lowercase. Position the cursor on the letter whose case you want to change, and type a ~ .
+The case of the letter will change, and the cursor will move to the next character.
+In older versions of vi , you cannot specify a numeric prefix or text object for the ~ to
+affect. Modern versions do allow a numeric prefix.
+If you want to change the case of more than one line at a time, you must filter the text
+through a Unix command such as tr , as described in Chapter 7.
+Deleting Text
+d You can also delete any text in your file with the delete command, d . Like the
+change command, the delete command requires a text object (the amount of text
+to be operated on). You can delete by word ( dw ), by line ( dd and D ), or by other movement
+commands that you will learn later.
+With all deletions, you move to where you want the edit to take place, then give the
+delete command ( d ) and the text object, such as w for word.
+Words
+d
+w Suppose you have the following text in the file:
+Screen editors are are very popular,
+since they allowed you to make
+changes as you read through a file.
+with the cursor positioned as shown. You want to delete one are in the first line:
+Keystrokes
+2w
+Results
+Screen editors are are very popular,
+since they allowed you to make
+changes as you read through a file.
+Move the cursor to where you want the edit to begin (are).
+dw
+Screen editors are very popular,
+since they allowed you to make
+changes as you read through a file.
+Give the delete word command ( dw ) to delete the word are.
+dw deletes a word beginning where the cursor is positioned. Notice that the space following the word is deleted.
+Simple Edits | 23dw can also be used to delete a portion of a word. In this example:
+since they allowed you to make
+you want to delete the ed from the end of allowed.
+Keystrokes
+dw
+Results
+since they allowyou to make
+Give the delete word command ( dw ) to delete the word, beginning with the position of the
+cursor.
+dw always deletes the space before the next word on a line, but we don’t want to do that
+in this example. To retain the space between words, use de , which deletes only to the
+end of a word. Typing dE deletes to the end of a word, including punctuation.
+You can also delete backward ( db ) or to the end or beginning of a line ( d$ or d0 ).
+Lines
+d
+d The dd command deletes the entire line that the cursor is on. dd will not
+delete part of a line. Like its complement, cc , dd is a special command. Using
+the same text as in the previous example, with the cursor positioned on the first line as
+shown here:
+Screen editors are very popular,
+since they allow you to make
+changes as you read through a file.
+you can delete the first two lines:
+Keystrokes
+2dd
+Results
+changes as you read through a file.
+Give the command to delete two lines ( 2dd ). Note that even though the cursor was not positioned on the beginning of the line, the entire line is deleted.
+D The D command deletes from the cursor position to the end of the line. ( D is a
+shortcut for d$ .) For example, with the cursor positioned as shown:
+Screen editors are very popular,
+since they allow you to make
+changes as you read through a file.
+24 | Chapter 2: Simple Editingyou can delete the portion of the line to the right of the cursor:
+Keystrokes
+Results
+D
+Screen editors are very popular,
+since they allow you to make
+changes
+Give the command to delete the portion of the line to the right of the cursor ( D ).
+Characters
+x Often you want to delete only one or two characters. Just as r is a special change
+command to replace a single character, x is a special delete command to delete a
+single character. x deletes only the character the cursor is on. In the line here:
+zYou can move text by deleting text and then
+you can delete the letter z by pressing x . ‡ A capital X deletes the character before the
+cursor. Prefix either of these commands with a number to delete that number of characters. For example, 5x will delete the five characters under and to the right of the cursor.
+Problems with deletions
+• You’ve deleted the wrong text and you want to get it back.
+There are several ways to recover deleted text. If you’ve just deleted something and
+you realize you want it back, simply type u to undo the last command (for example,
+a dd ). This works only if you haven’t given any further commands, since u undoes
+only the most recent command. Alternatively, a U will restore the line to its pristine
+state, the way it was before any changes were applied to it.
+You can still recover a recent deletion, however, by using the p command, since
+vi saves the last nine deletions in nine numbered deletion buffers. If you know, for
+example, that the third deletion back is the one you want to restore, type:
+"3p
+to “put” the contents of buffer number 3 on the line below the cursor.
+This works only for a deleted line. Words, or a portion of a line, are not saved in a
+buffer. If you want to restore a deleted word or line fragment, and u won’t work,
+use the p command by itself. This restores whatever you’ve last deleted. The next
+few subsections will talk more about the commands u and p .
+Note that Vim supports “infinite” undo, which makes life much easier. See the
+section “Undoing Undos” on page 296 for more information.
+‡ The mnemonic for x is that it is supposedly like “x-ing out” mistakes with a typewriter. Of course, who uses
+a typewriter anymore?
+Simple Edits | 25Moving Text
+In vi , you move text by deleting it and then placing that deleted text elsewhere in the
+file, like a “cut and paste.” Each time you delete a text block, that deletion is temporarily
+saved in a special buffer. Move to another position in your file and use the put command
+( p ) to place that text in the new position. You can move any block of text, although
+moving is more useful with lines than with words.
+p The put command ( p ) puts the text that is in the buffer after the cursor position.
+The uppercase version of the command, P , puts the text before the cursor. If you
+delete one or more lines, p puts the deleted text on a new line(s) below the cursor. If
+you delete less than an entire line, p puts the deleted text into the current line, after the
+cursor.
+Suppose in your file practice you have the text:
+You can move text by deleting it and then,
+like a "cut and paste,"
+placing the deleted text elsewhere in the file.
+each time you delete a text block.
+and you want to move the second line, like a “cut and paste,” below the third line. Using
+delete, you can make this edit:
+Keystrokes
+dd
+Results
+You can move text by deleting it and then,
+placing the deleted text elsewhere in the file.
+each time you delete a text block.
+With the cursor on the second line, delete that line. The text is placed in a buffer (reserved
+memory).
+p
+You can move text by deleting it and then,
+placing that deleted text elsewhere in the file.
+like a "cut and paste"
+each time you delete a text block.
+Give the put command, p , to restore the deleted line at the next line below the cursor. To finish
+reordering this sentence, you would also have to change the capitalization and punctuation
+(with r ) to match the new structure.
+Once you delete text, you must restore it before the next change command or delete command. If you make another edit that affects the buffer, your deleted text will be lost. You can repeat the put over and over,
+so long as you don’t make a new edit. In Chapter 4, you will learn how
+to save text you delete in a named buffer so that you can retrieve it later.
+Transposing two letters
+You can use xp (delete character and put after cursor) to transpose two letters. For
+example, in the word mvoe, the letters vo are transposed (reversed). To correct a
+26 | Chapter 2: Simple Editingtransposition, place the cursor on v and press x , then p . By coincidence, the word
+transpose helps you remember the sequence xp ; x stands for trans, and p stands for pose.
+There is no command to transpose words. The section “More Examples of Mapping
+Keys” on page 107 discusses a short sequence of commands that transposes two words.
+Copying Text
+y Often you can save editing time (and keystrokes) by copying a part of your file to
+use in other places. With the two commands y (for yank) and p (for put), you can
+copy any amount of text and put that copied text in another place in the file. A yank
+command copies the selected text into a special buffer, where it is held until another
+yank (or deletion) occurs. You can then place this copy elsewhere in the file with the
+put command.
+As with change and delete, the yank command can be combined with any movement
+command ( yw , y$ , 4yy ). Yank is most frequently used with a line (or more) of text,
+because to yank and put a word usually takes longer than simply to insert the word.
+The shortcut yy operates on an entire line, just as dd and cc do. But the shortcut Y , for
+some reason, does not operate the way D and C do. Instead of yanking from the current
+position to the end of the line, Y yanks the whole line; that is, Y does the same thing as
+yy .
+Suppose you have in your file practice the text:
+With a screen editor you can
+scroll the page.
+move the cursor.
+delete lines.
+You want to make three complete sentences, beginning each with With a screen editor
+you can. Instead of moving through the file, making this edit over and over, you can
+use a yank and put to copy the text to be added.
+Keystrokes
+yy
+Results
+With a screen editor you can
+scroll the page.
+move the cursor.
+delete lines.
+Yank the line of text that you want to copy into the buffer. The cursor can be anywhere on the
+line you want to yank (or on the first line of a series of lines).
+2j
+With a screen editor you can
+scroll the page.
+move the cursor.
+delete lines.
+Move the cursor to where you want to put the yanked text.
+P
+With a screen editor you can
+scroll the page.
+Simple Edits | 27Keystrokes
+Results
+With a screen editor you can
+move the cursor.
+delete lines.
+Put the yanked text above the cursor line with P .
+jp
+With a screen editor you can
+scroll the page.
+With a screen editor you can
+move the cursor.
+With a screen editor you can
+delete lines.
+Move the cursor down a line and put the yanked text below the cursor line with p .
+Yanking uses the same buffer as deleting. Each new deletion or yank replaces the previous contents of the yank buffer. As we’ll see in Chapter 4, up to nine previous yanks
+or deletions can be recalled with put commands. You can also yank or delete directly
+into up to 26 named buffers, which allows you to juggle multiple text blocks at once.
+Repeating or Undoing Your Last Command
+Each edit command that you give is stored in a temporary buffer until you give the next
+command. For example, if you insert the after a word in your file, the command used
+to insert the text, along with the text that you entered, is temporarily saved.
+Repeat
+. Any time you make the same editing command over and over, you can save time
+by duplicating it with the repeat command, the period (.). Position the cursor
+where you want to repeat the editing command, and type a period.
+Suppose you have the following lines in your file:
+With a screen editor you can
+scroll the page.
+With a screen editor you can
+move the cursor.
+You can delete one line, and then, to delete another line, simply type a period.
+Keystrokes
+dd
+Results
+With a screen editor you can
+scroll the page.
+move the cursor.
+Delete a line with the command dd .
+.
+With a screen editor you can
+scroll the page.
+Repeat the deletion.
+28 | Chapter 2: Simple EditingOlder versions of vi have problems repeating commands. For example, such versions
+may have difficulty repeating a long insertion when wrapmargin is set. If you have such
+a version, this bug will probably bite you sooner or later. There’s not a lot you can do
+about it after the fact, but it helps to be forewarned. (Modern versions do not seem to
+have this problem.) There are two ways you can guard against a potential problem
+when repeating long insertions. You can write your file ( :w ) before repeating the insertion (returning to this copy if the insertion doesn’t work correctly). You can also turn
+off wrapmargin like this:
+:set wm=0
+In the later section “More Examples of Mapping Keys” on page 107, we’ll show you
+an easy way to use the wrapmargin solution. In some versions of vi , the command CTRL-@ repeats the most recent insertion. CTRL-@ is typed in insert mode and returns you
+to command mode.
+Undo
+u As mentioned earlier, you can undo your last command if you make an error.
+Simply press u . The cursor need not be on the line where the original edit was
+made.
+To continue the previous example, showing deletion of lines in the file practice :
+Keystrokes
+u
+Results
+With a screen editor you can
+scroll the page.
+move the cursor.
+u undoes the last command and restores the deleted line.
+U , the uppercase version of u , undoes all edits on a single line, as long as the cursor
+remains on that line. Once you move off a line, you can no longer use U .
+Note that you can undo your last undo with u , toggling between two versions of text.
+u will also undo U , and U will undo any changes to a line, including those made with u .
+A tip: the fact that u can undo itself leads to a nifty way to get around
+in a file. If you ever want to get back to the site of your last edit, simply
+undo it. You will pop back to the appropriate line. When you undo the
+undo, you’ll stay on that line.
+Vim lets you use CTRL-R to “redo” an undone operation. Combined with infinite
+undo, you can move backward and forward through the history of changes to your file.
+See the section “Undoing Undos” on page 296 for more information.
+Simple Edits | 29More Ways to Insert Text
+You have inserted text before the cursor with the sequence:
+itext to be inserted ESC
+You’ve also inserted text after the cursor with the a command. Here are some other
+insert commands for inserting text at different positions relative to the cursor:
+A
+Append text to end of current line.
+I
+Insert text at beginning of line.
+o (lowercase letter “o”)
+Open blank line below cursor for text.
+O (uppercase letter “o”)
+Open blank line above cursor for text.
+s
+Delete character at cursor and substitute text.
+S
+Delete line and substitute text.
+R
+Overstrike existing characters with new characters.
+All of these commands place you in insert mode. After inserting text, remember to press
+ESC to return to command mode.
+A (append) and I (insert) save you from having to move your cursor to the end or
+beginning of the line before invoking insert mode. (The A command saves one keystroke
+over $a . Although one keystroke might not seem like much of a saving, the more adept
+—and impatient—an editor you become, the more keystrokes you will want to omit.)
+o and O (open) save you from having to insert a carriage return. You can type these
+commands from anywhere within the line.
+s and S (substitute) allow you to delete a character or a whole line and replace the
+deletion with any amount of new text. s is the equivalent of the two-stroke command
+c SPACE , and S is the same as cc . One of the best uses for s is to change one character
+to several characters.
+R (“large” replace) is useful when you want to start changing text, but you don’t know
+exactly how much. For example, instead of guessing whether to say 3cw or 4cw , just type
+R and then enter your replacement text.
+30 | Chapter 2: Simple EditingNumeric Arguments for Insert Commands
+Except for o and O , the insert commands just listed (plus i and a ) take numeric prefixes.
+With numeric prefixes, you might use the commands i , I , a , and A to insert a row of
+underlines or alternating characters. For example, typing 50i* ESC inserts 50 asterisks,
+and typing 25a*- ESC appends 50 characters (25 pairs of asterisk and hyphen). It’s
+better to repeat only a small string of characters. §
+With a numeric prefix, r replaces that number of characters with a repeated instance
+of a single character. For example, in C or C++ code, to change || to && , you would
+place the cursor on the first pipe character and type 2r& .
+You can use a numeric prefix with S to substitute several lines. It’s quicker and more
+flexible, though, to use c with a movement command.
+A good case for using the s command with a numeric prefix is when you want to change
+a few characters in the middle of a word. Typing r wouldn’t be correct, and typing cw
+would change too much text. Using s with a numeric prefix is usually the same as typing
+R .
+There are other combinations of commands that work naturally together. For example,
+ea is useful for appending new text to the end of a word. It helps to train yourself to
+recognize such useful combinations so that they become automatic.
+Joining Two Lines with J
+J Sometimes while editing a file you end up with a series of short lines that are
+difficult to scan. When you want to merge two lines into one, position the cursor
+anywhere on the first line, and press J to join the two lines.
+Suppose your file practice reads:
+With a
+screen editor
+you can
+scroll the page, move the cursor
+Keystrokes
+J
+Results
+With a screen editor
+you can
+scroll the page, move the cursor
+J joins the line the cursor is on with the line below.
+.
+With a screen editor you can
+scroll the page, move the cursor
+Repeat the last command ( J ) with the . to join the next line with the current line.
+§ Very old versions of vi have difficulty repeating the insertion of more than one line’s worth of text.
+Joining Two Lines with J | 31Using a numeric argument with J joins that number of consecutive lines. In the example
+here, you could have joined three lines by using the command 3J .
+Problem Checklist
+• When you type commands, text jumps around on the screen and nothing works the
+way it’s supposed to.
+Make sure you’re not typing the J command when you mean j .
+You may have hit the CAPS LOCK key without noticing it. vi is case-sensitive;
+that is, uppercase commands ( I , A , J , etc.) are different from lowercase commands
+( i , a , j ), and if you hit this key, all your commands are interpreted not as lowercase
+but as uppercase commands. Press the CAPS LOCK key again to return to lowercase, press ESC to ensure that you are in command mode, and then type either
+U to restore the last line changed or u to undo the last command. You’ll probably
+also have to do some additional editing to fully restore the garbled part of your file.
+Review of Basic vi Commands
+Table 2-1 presents a few of the commands you can perform by combining the
+commands c , d , and y with various text objects. The last two rows show additional
+commands for editing. Tables 2-2 and 2-3 list some other basic commands. Table 2-4 summarizes the rest of the commands described in this chapter.
+Table 2-1. Edit commands
+Text object Change Delete Copy
+One word cw dw yw
+Two words, not counting punctuation 2cW or c2W 2dW or d2W 2yW or y2W
+Three words back 3cb or c3b 3db or d3b 3yb or y3b
+One line cc dd yy or Y
+To end of line c$ or C d$ or D y$
+To beginning of line c0 d0 y0
+Single character r x or X yl or yh
+Five characters 5s 5x 5yl
+Table 2-2. Movement
+Movement Commands
+← , ↓ , ↑ , → h , j , k , l
+To first character of next line +
+To first character of previous line -
+To end of word e or E
+Forward by word w or W
+32 | Chapter 2: Simple EditingMovement Commands
+Backward by word b or B
+To end of line $
+To beginning of line 0
+Table 2-3. Other operations
+Operations Commands
+Place text from buffer P or p
+Start vi , open file if specified vi file
+Save edits, quit file ZZ
+No saving of edits, quit file :q!
+Table 2-4. Text creation and manipulation commands
+Editing action Command
+Insert text at current position i
+Insert text at beginning of line I
+Append text at current position a
+Append text at beginning of line A
+Open new line below cursor for new text o
+Open new line above cursor for new text O
+Delete line and substitute text S
+Overstrike existing characters with new text R
+Join current and next line J
+Toggle case ~
+Repeat last action .
+Undo last change u
+Restore line to original state U
+You can get by in vi using only the commands listed in these tables. However, in order
+to harness the real power of vi (and increase your own productivity), you will need
+more tools. The following chapters describe those tools.
+Review of Basic vi Commands | 33CHAPTER 3dd

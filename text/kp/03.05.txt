@@ -1,0 +1,66 @@
+3.5 Program output as arguments
+Let us turn now from command arguments within a shell file to the generation of arguments. Certainly filename expansion from metacharacters like * is
+the most common way to generate arguments (other than by providing them
+explicitly), but another good way is by running a program. The output of any
+program can be placed in a command line by enclosing the invocation in backquotes' , .
+$ echo At the tone the time will be 'date'.
+At the tone the time will be Thu Sep 29 00:02:15 EDT 1983.
+$
+A small change illustrates that '...' is interpreted inside double quotes "... ":
+$ echo "At the tone
+> the time will be 'date'."
+At the tone
+the time will be Thu Sep 29 00:03:07 EDT 1983.
+$
+As another example, suppose you want to send mail to a list of people
+whose login names are in the file mailinglist. A clumsy way to handle this
+is to edit mailinglist into a suitable mail command and present it to the
+shell, but it's far easier to say
+$ mail 'cat mailinglist' <letter
+This runs cat to produce the list of user names, and those become the arguments to mai 1. (When interpreting output in backquotes as arguments, the
+shell treats newlines as word separators, not command-line terminators; this
+subject is discussed fully in Chapter 5.) Backquotes are easy enough to use
+that there's really no need for a separate mailing-list option to the mail command.
+A slightly different approach is to convert the file mailinglist from just
+a list of names into a program that prints the list of names:
+$ cat mailinglist
+echo don whr ejs rob
+$ ex mailinglist
+$ mailinglist
+don whr ejs rob
+$
+New version
+N ow mailing the letter to the people on the list becomes
+$ mail 'mailinglist' <letter
+With the addition of one more program, it's even possible to modify the
+user list interactively. The program is called pick:
+$ pi ck arguments ...
+presents the arguments one at a time and waits after each for a response. The
+output of pick is those arguments selected by y (for "yes") responses; any
+other response causes the argument to be discarded. For example,
+$ pr 'pick *.c' / lpr
+presents each filename that ends in . c; those selected are printed with pr and
+Ipr. (pick is not part of the 7th Edition, but it's so easy and useful that
+we've included versions of it in Chapters 5 and 6.)
+Suppose you have the second version of mailinglist. Then
+$ mail 'pick \'mailinglist\" <letter
+don? y
+whr?
+ejs?
+rob? y
+$
+sends the letter to don and mb. Notice that there are nested backquotes; the
+backslashes prevent the interpretation of the inner" "during the parsing of
+the outer one.
+Exercise 3-10. If the backslashes are omitted in
+$ echo 'echo \'date\"
+what happens? 0
+Exercise 3-11. Try
+$ 'date'
+and explain the result. 0
+Exercise 3-12.
+$ grep -1 pattern filenames
+lists the filenames in which there was a match of pattern, but produces no other output.
+Try some variations on
+$ command 'grep -1 pattern filenames'
+

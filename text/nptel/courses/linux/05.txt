@@ -1,0 +1,1437 @@
+Hi everyone, welcome to the Linux and the
+programming basics class today we will continue
+
+to the next section this is the Linux networking
+calling it lecture one but recall this is
+
+lecture number five we just finished the Linux
+basics ,where we introduced the concept of
+
+Linux how Linux developed over time ,we also
+talked about the various parts of the Linux
+
+kernel shell in the file system.
+
+And then when we went through several commands
+for starting some basic commands like Ls,ce
+
+and a thing that when we moved on to more
+esoteric commands and we also like had some
+
+fun exercises to see how these commands can
+work together, so today again.
+
+We continue finish off that section with a
+couple of things that are remaining so these
+
+are the things that is already like the PI
+system commands Grep ,fgrep, locate uniq ,sort
+
+touch etc so today we will finish up this
+section there were few commands that when
+
+we just talk about those events and then we
+will start the Linux networking piece of the
+
+lecture, so without wasting much time.
+
+Let us begin so some more commands so these
+are some of the key commands to slightly advanced
+
+commands than what we saw before the first
+command is tar it is the short form or to
+
+archive so essentially tar is used to archive
+a directory structure so assume that you have
+
+a directory a under that there are some files
+B and C and then another direction D and then
+
+the D contains C and F and then maybe like
+G as an under the directory structure this
+
+entire directory structure is there and then
+the archive et1 archive flat 5.
+
+So the tar command actually combines all these
+it goes down the parenting collect all these
+
+files and put them all together in a single
+file so that way it is the easy to actually
+
+transfer this file and then once, we extract
+this archive then we can get back the all
+
+the file itself and usually this tar archives
+all the files in the archive format actually
+
+like.
+
+I mean the it is a glyph format independent
+so whatever the format is there underneath
+
+thing it puts them in that order so here is
+one example this is essentially let are CB
+
+FP and then in turn multiple files and then
+we do not put together in one and here the
+
+destination is given first in the argument.
+
+So a lab on Hr. is the distinction and then
+the lab one can be the entire directory or
+
+just can be a single file which one that you
+want to and then we want to actually extract
+
+this file we just replace the C with X here
+the this command you can actually go to man
+
+pages and man tar and then look at what these
+options are but it is a two day straight covered.
+
+I think we will stand or verbose ,I think
+again I will ,I would like you to actually
+
+explore this a little bit more.
+
+So again the command is tar it stands for
+to archive and then you basically give the
+
+destination first and then you specify which
+files or which folders that you want to okay
+
+again here you can actually do multiple files
+and then if you want all of them to I want
+
+to explore this I want you to focus this particular
+the other command that we will use this the
+
+grip, this is actually for compressing a file
+so typically a file as it could be some of
+
+these files can run into multiple gigabytes
+of information.
+
+But sometimes these files will have more form
+empty holes or it could be encrypted and made
+
+it much tinier ,so these are this compressing
+utility which compresses the file and again.
+
+I want you to do a man to find out what man
+entry is therefore grip or gzip so one thing
+
+is this -9 what is - 9 stand for you can find
+it out when you do them and easy here we do
+
+the man I mean when you because it is it - 9
+the lab 1 from this command chart it generates
+
+another file called lab 1 of tar that and
+DV.
+
+The subscript stands for cities with 5 and
+gzip is definitely a binary file and also
+
+you will be able to read it and there are
+utilities that you can use to open the gzip
+
+and read it nowadays like a lot of these utilities
+are becoming more commonplace to get back
+
+this I told you liked Tar - xvf which is shown
+here you can also do the first thing is what
+
+you do is like you do a gzip - CD to get the
+untoward.
+
+You can also do the there are other commands
+like done zip D unzip which is essentially
+
+unzip the file which is from the compressed
+file it brings like the larger file and there
+
+is nowadays like a shorter route it gzip Z,
+Z stands for unzip and then entire v so this
+
+is another handy command that you can use
+it or doing your operations then there are
+
+few other commands.
+
+I am fine essentially echo whatever you put
+in it just displays back.
+
+So like I mean typical first command that
+you write in Linux will be echo and then you
+
+get in the ports you say hello world and then
+it echo back that hello world and then the
+
+other one is clear which is also an important
+command which is basically clears the , so
+
+that whatever you typed in it goes up and
+then I am basically this in a blank screen
+
+is left point to begin your wall then there
+are some special characters you already saw
+
+this greater than sign and then followed by
+the filename.
+
+Essentially like when we do the any command
+and then pipe and rather than a file name
+
+in the output of that command, we will go
+into that file again there are special ways
+
+to actually distinguish what is the standard
+out and what is a standard error you can look
+
+it up when you do the math pages for that
+and then you should be able to see a lot of
+
+entry for that and then there is also like
+a less than that you can use it is essentially
+
+the contents of the file now goes into the
+command and then the pipe one.
+
+That we already saw this agreement that is
+so in pipe the output of one command into
+
+another form using the pipe comment there
+is also another nifty operator which is the
+
+back ticks also called back tick here you
+can see that there is this date has a back
+
+tick in front of it and then also like and
+it is a single quote that is or actually it
+
+is called a back tick and so then we do this
+I want to see like what you get as an output
+
+this is backtick did you know that echo command
+actually echoes what always in type of code
+
+if you use the back pick what will be the
+output and then also like.
+
+I mean there is a small programming person
+for you seek one to ten what do we do on this
+
+one essentially like the backtick is used
+as a command expander essentially what it
+
+does is exactly execute whatever following
+the back take a second, and so since the date
+
+is a command will execute the data and mostly
+produces for goal value of the beta's same
+
+thing for sequence one to ten prints the sequence
+above the number one ten integers, so it is
+
+fun to actually do the programming okay.
+
+So now let us look at just what the activities
+are for or this week so again, I want you
+
+to use math to find the details on the comment
+that we mentioned we saw earlier and then
+
+I want you to actually explore the mall in
+the Linux command structure with these following
+
+commands I have given this as an example for
+you can use this and then see what all things
+
+that you can get this will also become your
+lab ,once you start doing this okay so now
+
+we start our today's lecture which is essentially
+the lecture on the next networking.
+
+So in today's lecture we will be covering
+the main ideas what is really networking what
+
+does networking mean you saw that Linux is
+a multitasking multi-user multi CPU system,
+
+so the multi CPU and multi-user are key aspects
+of what networking then we will talk about
+
+the OSI model which is one of the key concepts
+that was developed or networking and in fact
+
+there are graduate courses on OSI models so
+we would not go into like gory details as
+
+to like what all the things.
+
+You will at least look at the basics as to
+what exactly it stands for and why is it important
+
+in our complex and then we will move to the
+various other things in the Linux networking
+
+area so today we will be mostly like dealing
+with the OSI model and why is it important
+
+for us so how does it make the machines interact
+that is the one of the key things that we
+
+in today let us look at what is networking.
+
+So the classical definition or networking
+is how computer or components in our now the
+
+terminology we will move to this call that
+moves how they talk to each other that is
+
+the key aspects of people, so that is what
+networking is all about so the so far we saw
+
+how a single window single you go out interacts
+with the next system which is good in the
+
+sense that you can still one program, but
+you cannot interact with other machines other
+
+users using Linux so far so today we will
+break that barrier and actually start talking
+
+about.
+
+How we can communicate with other users how
+other in Newer system how they can communicate
+
+your session or you can also see how we can
+ask every mode machines perform a graph for
+
+us which is again crucial for LSF for the
+load balancer type of application in fact
+
+that the entire computer industry built on
+this networking basis and the basics as you
+
+know the today like .I mean most of the browsing
+that you do makes when you do the various
+
+interaction with the various websites.
+
+They are all using the networking principle
+and these are we will see how we can do that
+
+using so before we talk about networking and
+network itself which is a passive entity there
+
+turtle computers are there and they are all
+interacting that network has two characteristics
+
+the few characteristics are number one input
+time which is essentially you can define it
+
+as the number of modes or network so for example,
+if there are five computers connected or in
+
+your university.
+
+You have a you have many computers connected
+to the central server or any coming computers
+
+connected to each other the number of computers
+becomes the size of the network the second
+
+characteristic of a network is a topology
+here essentially we talk about what is the
+
+configuration okay, we know that there are
+five computers, that are interacting with
+
+each other how are they connected are they
+connected one is this connected to one or
+
+one is going to all of them those kind of
+what kind of configuration.
+
+That is the main aspects that we will talk
+about the third item in a network is physical
+
+which is how are they connected are they connected
+using copper wires are connected using fiber
+
+channel here we will go a little bit deeper
+not just consider the physical medium but
+
+also like what is the speed are they connected
+on a table so many megahertz or how they are
+
+connected so we will talk about that and then
+finally the protocol is how do they talk to
+
+each other so then one wants to talk what
+does it do or if somebody is talking and how
+
+do you import that person.
+
+So again this is you have the rules of conversation
+very similar to how humans interact with each
+
+other so we will see some of these concepts
+in books like.
+
+So the characteristics the size is determined
+by the number of nodes as I mentioned earlier
+
+and there are many systems that are prevalent
+today the LAN or the wide area network LAN
+
+or locally are two examples, but there are
+many such networks are they already available
+
+in use today so that is where the size comes
+into picture what is the topology as I mentioned
+
+before one computer is connected to all of
+them or to the next-door neighbor how do they
+
+can go do they connect that is the one are
+they connected in a hierarchy.
+
+So based on that you can have like a tar connection
+or ring banishing a point-to-point connection
+
+things like that and then hierarchy can see
+those are all like point to be used upon physical
+
+as I mentioned it is the medium by which the
+computers are connected to each other and
+
+today we have several such medium one is the
+internet the other one is a gigabit internet
+
+fiber channel these are all like characterized
+as various speeds so that you have you can
+
+establish the connectivity in fact.
+
+I should add here that even Wi-Fi also can
+be considered as a physical connection which
+
+is what is the characteristic of connecting
+wirelessly and though there is more the medium
+
+is actually there this enables ,you to phone
+and finally, the protocol there are many types
+
+of protocol the earliest one is the round
+robin then you can bring the round robin is
+
+essentially every computer is connected in
+the big circle and each one gets specified
+
+time for communicating.
+
+So essentially I communicate or by 100 milliseconds
+and then pass the command to the next forum
+
+or the next one implicitly it will take over
+so every say like ten computers are planted
+
+in this form of work every computer gets just
+100 milliseconds so by one second you cover
+
+all the , so every second the computers get
+to connect get to talk you can see like how
+
+inefficient system can be because if somebody
+does not want to talk still he will hold up
+
+for 100 milliseconds before he pass it on.
+
+I mean before the temple goes in person then
+they were token ring that was developed which
+
+is mostly there is a token that gets fast
+if you want to talk so if I want to talk I
+
+because the token from whoever has it open
+if I get the token then .I can talk and then
+
+I have when I finish talking I still hold
+on to the token until the another person asks
+
+for it and then in that case I can just posit
+talking to a person again you did not see
+
+that and how inefficient this kind of system
+could mean so there are the in real terms
+
+actually like them.
+
+In 100 days t 10 base T things like that are
+more propping protocol and then finally the
+
+hyper transport this is another protocol there
+is one point two point six so let us some
+
+move on so the next one so now that we understand
+what the network is now how do we make them
+
+so one of the significant achievement.
+
+In the 18th is the development of this open
+systems interconnection model to enable how
+
+computers can talk to each other until this
+time like.
+
+I mean all the communication used to be very
+every company had its own rules and every
+
+computer use community in its own base but
+this open systems interconnection model pretty
+
+much standardized how the computers need to
+connect and this helped develop the whole
+
+internet itself which is now as you know we
+cannot live without geometric.
+
+So the open systems interconnection model
+divided the whole communication framework
+
+into seven layers ,so the first layer here
+is the lowest layer which is physical then
+
+there is a layer called data link layer then
+there is another layer called the network
+
+layer and then the transport layer so these
+four layers are the lower layers lower layer
+
+these are the ones by which the data actually
+gets transmitted okay, so now the next three
+
+layers the session layer presentation layer
+and the application layer are at the top of
+
+the pyramid.
+
+They are more concerned with the semantics
+of the message which is okay, I am sending
+
+a message so the lower four layers are just
+concerned about how can I get it to another
+
+person but the top layer is the one that gives
+the intelligence to that message, so that
+
+it is routed in the proper way so again so
+if you think about like an human the brains
+
+are all in the top the application presentation
+position layer and then these are all the
+
+other sense organs make them make us warm.
+
+So if you just left it to these layers this
+whole layer will be just walking around aimlessly
+
+because we know how to walk but in order to
+reach a destination we need these three layers
+
+so let us look at how these layers are position
+again as I mentioned the OSI is a big topic
+
+there are graduate courses on just this just
+one aspect of it just explaining all these
+
+layers and how they communicate how to build
+those waves so we would not t go into that
+
+gory details we only will limit ourselves
+to why this is important and how can we use
+
+them use it in our networking case and then
+give this move on.
+
+So we look at from now the talk down is we
+look at the brains and then we are going to
+
+more details the lower physical age, so the
+lay layer seventh and fifth and file then
+
+the reason why we combine these three things
+that I will explain now between later but
+
+the application layer provides four different
+services to publications so this is where
+
+that the topmost the all the gory details
+are shown.
+
+I mean or the gory details are hidden but
+the actual semantics is shown so it uses the
+
+underlying layers to do the work and here
+the application layer can list.
+
+Your mail program the HTTP which is the website
+or the telnet and we will study in more details
+
+regarding the next two which is the FTP or
+File Transfer Protocol and then the DNS so
+
+this next layer is the presentation layer
+this converts, the data from application into
+
+a common format and vice versa here is when
+gets the common format data from the down
+
+below it converts that into the application.
+
+So that applications can be directly the session
+layer essentially is the layer that organizes
+
+synchronize change of data between application
+processes again we combine this because one
+
+of the team protocol that we will learn which
+is the IP the internet protocol combines BP
+
+these three layers in this one okay
+
+So now let us look at the next layer which
+is the transport layer this is where the messages
+
+are actually being transported and it provides
+into in transportation of segments, so example
+
+here is the TCP which we will browse through
+now in the next section again this actually
+
+this layer encapsulate the TCP segment with
+what we are the one things to be done in two
+
+layer packets and it also adds reliability
+by detecting and transmitting the last packet
+
+so here so whenever a packet gets lost this
+is the layer that sweetens.
+
+Which that until it gets a message saying
+that that packet was received by well there
+
+was the receiver and then it is use of these
+acknowledgments and sequence of number and
+
+sequence numbers to keep track of successful
+out of order and lost packets there are timers
+
+that are also included in this layer that
+help differentiate between the log and the
+
+delay, so if the timer is waiting indefinitely
+you know that actually there is a loss and
+
+go there are fixed number of time fixed amount
+of time of it is how much it will wait before
+
+it.
+
+Can declare that something is a lost packet
+so we have seen like I mean from this one
+
+it is more like the real program or command
+or something that you want service over and
+
+now.
+
+We talked about packets in this slide well
+we now take that thing take the program from
+
+this slide break that into small pieces and
+then we try to send it to whoever wants to
+
+service that particular program or so this
+request so now when we go into the next layer
+
+they are much more granular so we will go
+into that.
+
+So before that ,I would just wanted to say
+couple of words so I gave you the example
+
+in layer four that it is TCP and the example
+which is it stand for transmission control
+
+protocol this is a connection-oriented protocol
+there is also another one that is prevalent
+
+which is the user Datagram protocol which
+is more like connectionless protocol and but
+
+this is little bit unreliable so I just wanted
+to want you to know these terminologies because
+
+in future you will be using these terminologies
+or somebody mean of devotees.
+
+So now let us go to the next layer up to the
+layer 3 layer 3 is essentially it is the network
+
+layer this is the layer that route the information
+within the network so this mainly deals with
+
+all the address places addresses so essentially
+IP is an input layer implementation and it
+
+defines the addresses in such a way that the
+route selection can be determined so we will
+
+look at what is an IP address and how to do
+how to actually assign an echo or how the
+
+IP addresses are today.
+
+And then again the it uses a single address
+space for the entire internet work it adds
+
+an additional layer of struggling so this
+is different from the MAC address that we
+
+know.
+
+So here essentially like I mean or unreliable
+networks essentially like I mean if the packet
+
+gets lost the network layer that will care
+for Iolaus and since the higher layers actually
+
+can recent back so this layer is not really
+that the intelligence is already lost when
+
+you come home and then basically like it powers
+rackets up by hop so again as we know that
+
+if you want if you have like many computers
+connected and from one computer you can actually
+
+walk through multiple computers then reach
+the final destination we will see like how
+
+this is done in mobile charge in L.
+And apply but I just wanted to give you the
+
+introduction on this and also it makes the
+routing decision as to how can a packet be
+
+sent closer to its destination, so all the
+time it is looking at the above and comparing
+
+the verities and where is the destination
+and see what will be the next hop point that
+
+is needs throughout and then if it floats
+at that point that is that will make it closer
+
+to the destination or it is going to be far
+away from based on that it transmits that
+
+pocket and so essentially like.
+
+I mean you have these four since I talked
+about all these things like I mean so there
+
+are forwarding tables and the routing table
+and that kind of knows that space its nearest
+
+neighbors wants to look cool they are what
+is their address things like that so based
+
+on that it can actually like now send these
+packets all out again, the routers can talk
+
+to each other they exchange information about
+the network topology.
+
+So if the another router which is having this
+table routing table it can actually share
+
+the table with this computer so the 32 know
+what is the surrounding natural of that particular.
+
+So now let us look at the data link layer
+here the intelligence is completely lost so
+
+we started with the packet information our
+actually the actual message then we split
+
+into packets then the previous layer the network
+layer was only concerned with where to set
+
+it now when we go into data link layer even
+like we are losing that intelligence also
+
+here the data link layer is only responsible
+to provide reliable transmit of data across.
+
+The physical network it bundles bits into
+frames and moves frames between the holes
+
+on the same thing and the key characteristic
+of the frame is it has a business start and
+
+end and the size, so the receiving computer
+can determine from the looking at the header
+
+of the frame it can determine when the message
+will end and it also has a definite source
+
+and the destination link layer addresses so
+this is the Internet MAC address of the computers
+
+simply.
+
+So again once the network layer decides of
+this is where I am going to go so then it
+
+knows that exactly okay .I am receiving it
+from this computer things like that so it
+
+is it is a care addressing is already specified
+and then the link layers detect corrected
+
+frames and some of them also can resend so
+some of the upper level tasks can be done
+
+at the lower level also this is the things
+are evolving so you will see more of that
+
+and finally the physical layer.
+
+Which is essentially the actual connection
+info and here it moves the bits using voltages
+
+so we do not even talk about the bits and
+the bikes these are all like just the real
+
+communication channels , so one of the examples
+modern-day example is service of the sterilizer
+
+be single sterilizer essentially like.
+
+I mean there we do not worry about okay what
+is the address that it is going is it going
+
+in the right direction things like that here
+we just move one bit from one point to new
+
+to the other and that uses just the voltage.
+
+So here we look at the eye opening baby's
+other characteristics so that the RF interference
+
+is there or not things like that that is all
+we worried at this level, so again there is
+
+no concept of bytes or frames the bits are
+defined by this voltage level very similar
+
+to so this is their the VLSI designers really
+contribute in the sense of our knowledge about
+
+how things transmit through a copper or any
+other wheel or fiber.
+
+So again so now we understood the various
+layers now let us put together and see like
+
+I mean how we can make you both this as I
+mentioned the distinction between.
+
+The tcp/ip and OSI protocol is the top three
+layers are combined or the tcp/ip which is
+
+essentially like what we will be dealing with
+Linux Network inside the OSI is more like
+
+a generalized for policy specifying it is
+distribution so the tcp/ip is pretty much
+
+the implementation for Linux and then again
+just a recap is the application layer provides
+
+for the main application support the applications
+can be like main the web or HTTP etc, transport
+
+layer this is basically the TCP end-to-end
+reliability that is the main reason or main
+
+use of this layer.
+
+The network is essentially like it is basically
+like the IP forwarding essentially it looks
+
+at the particular packet and its address and
+it forwards to the neighbor using a best-effort
+
+algorithm so you can think of this as what
+is there working people and what is the forward
+
+table elf it and then based on that it to
+the forward ,and then once that it decides
+
+like that put it in the data link layer takes
+over and that helps in framing the message
+
+and then the delivery of the movie itself
+to the distribution and it uses the physical
+
+layer or actually the wires.
+
+To send it and again here there will be like
+other protocols that will take over as to
+
+whether how to clock the system, let us just
+send the clock along with the data or separately
+
+or is it a serial data first type of communication
+there are several things expose II and well
+
+nowadays it call like the studies basically
+it is ethereal data more goes on so those
+
+are the things that that are done in the digital.
+
+So here is how it is important for our Linux
+application ,so the application layer is where
+
+the kernel resides in and kernel also uses
+some of these concepts basically making them
+
+because all the wind cortical and that is
+actually sent to the network interface, which
+
+is then is a physical interface to the subsequent
+and if you look at it this kind of this model
+
+helps us to isolate some of the various areas
+for example, if the we are using Wi-Fi or
+
+our fiber channel or any other the wire line
+communication those are all like isolated
+
+from the top.
+
+Because only the network interface is going
+to change, so this helps us to actually reuse
+
+all the programs that we are writing all the
+protocols all the intelligence building up
+
+front - still reuse and gain benefits even
+then the lower level lower layers changes
+
+to some other things again same thing like.
+
+I mean if you consider any layer that those
+layers can be changed independently of the
+
+other layers and that is one of the key benefits
+of this model.
+
+So let us look at the layer interaction.
+
+Because this is one of the things that we
+want to just browse through it and then we
+
+can move on again then when we start doing
+the communication the topmost layer essentially
+
+or essentially like .I mean those are valid
+end-to-end what that means is when we start
+
+a communication we start at this layers and
+then the receiver wherever this application
+
+gets executed they also see all the way up
+to stop this the transport protocol could
+
+be n 2 n.
+
+The network protocol is throughout the internet
+work itself and then basically like having
+
+the link and the physical layer will be different
+on the top so you can on one table you can
+
+use Wi-Fi wire line things like that so this
+can be so now.
+
+Let us see all this is done so here is an
+OSI interaction which is essentially with
+
+the top layer so and the application starts
+that the Co-essentially for process the various
+
+translations happen throughout the as the
+message goes down before layers then finally
+
+the physical layer transmission to the next
+one, and in the next one the message is put
+
+together all, the up the network layer there
+it is seeing that okay this is not my destination
+
+something else is the destination.
+
+So again this particular router transmit that
+message to the next one and in the next router
+
+again like a minute it tries to identify whether
+it needs to provide the service it is not
+
+so the message stops at the network view and
+then it gets routed back and then it goes
+
+to the physical layer and finally agree to
+co-host there now it goes back all the way
+
+and then oh it is at service so we can see
+that actually like this come four layers and
+
+n2m and the message the network layer is throughout
+the internet working.
+
+Whereas this physical layer could be different
+or different messages and different distinctions
+
+so similarly on a PCB essentially like we
+do not have the session in the presentation
+
+layer but working wise it is very much similar
+to the earlier model where it goes through
+
+the physical layer goes up and then the IP
+layer essentially disciples and says that
+
+okay , hey this is not the destination so
+go to the next hop.
+
+So the next half point of the next clock pixel
+and this could be like meaning actually of
+
+stated in bottom diagram there could be one
+draw a couple of rotors or many routers are
+
+if the host is directly connected to the other
+hole then you can directly go up also, so
+
+it all depends on how your network configuration
+is we already saw that the characteristics
+
+of the network so that is what determines
+how these communication can happen.
+
+So now we will be going into the IP overview.
+
+I just wanted to give some basic overview
+of the IP addresses so here there are three
+
+different things basically make them network
+address subnet address and the host address
+
+then basically read up the numbers that normally
+encounter like one party dot told 112 dot
+
+28 dot something and then how would that connects
+to the other ones and then we the Gateway.
+
+Which is essentially what is the router and
+that translates into or sends it to another
+
+one here this host is a 30.8 sec so you can
+see that the router is kind of anarchical
+
+between sitting between these two and how
+this is done.
+
+So in the IP header essentially like I mean
+you have so this is what the consisting of
+
+this is what is in the message you have various
+fields if I then again I do not require you
+
+to understand all of these and in this course
+the main things that I want you to know or
+
+basically the length of them the message because
+is also encoded and then what is the source
+
+IP address and the destination of the edges
+here we also talked about a time to live essentially
+
+like.
+
+I mean this feel make sure that after that
+particular time it is declared I said last
+
+packet basically can be retransmitted so this
+time is used for to set the timer to enable
+
+the timer so that it can see like then it
+should be transmitted and then there are some
+
+identification this and then there is a header
+section, so you can see that one two three
+
+four five six this six 32-bit words are essentially
+just to set up the communication then after
+
+that the data will begin.
+
+So and you can also feel like context ends
+essentially for the reliable transmission
+
+so then the destination encounters this and
+then basically detection and then it is streams
+
+go match then you can discard that and then
+it waits for the packet and the pocket to
+
+be below so there definitely is how to communicate
+and achieve through these protocols and you
+
+can also see that actually like the overhead
+is this two three four five six times.
+
+32 bits or overhead of this protocol because
+for every packet that you send you need to
+
+send these bits and columns.
+
+And this actually explains how the communication
+theory happened so the data the transport
+
+layer attaches the better and it converts
+the data into a transport layer data and then
+
+when it goes to the network layer Network
+layer adds more headers it takes the whole
+
+thing the network layer data and then if you
+look at it actually, it is it has this the
+
+transport layer header and then the pita and
+then the data link layer.
+
+Now as it puts its own header and it also
+puts a trailer blocks and suddenly you can
+
+see that actually like the data is only like
+so much and all these are overheads for the
+
+communication.
+
+So the I introduce the several terminologies
+in this lecture the packets essentially are
+
+like it is a encapsulated or it is a capsule
+and message capsule, so let us go back to
+
+this picture so the message capsule contains
+the data and then it contains a little bit
+
+more, so you can think of this as a medicine
+say for example where the main ingredient
+
+main active ingredient is with the data and
+then you put a coating a sugar coating name
+
+or using the header and then you have you
+are actually putting multiple coatings.
+
+Because it is going to go through multiple
+systems and finally like a top cover to cover
+
+the medicine and which is the actual the capsule
+which oh and that is how you can picture this
+
+and then that that is how it goes from these
+form faces, so in this lecture we use like
+
+I mean different name form so if the Internet
+or the link layer we call it as a frame at
+
+the IP layer we can call it as a Datagram
+and at the TCP layer.
+
+We call it a success so we look at this so
+here is the link layer the link layer is essentially
+
+it now we call it as a frame and then we go
+into the network layer the IP here and now
+
+this is a
+Datagram which is very similar to a telegram,
+
+or something mobile and then at the transport
+layer it is still called as a segment, so
+
+they all refer to the data with various pieces
+added to it and we will briefly look at how
+
+these things are added and then sometimes
+we just use packet for all these things.
+
+So in the documentation and things like that
+all these different terminologies we may just
+
+use packet so now we go into more details
+is here.
+
+So we start with the lowest level which is
+the Internet or the transport the link layer
+
+so in link layer we have a preamble we order
+in the destination with using a six bytes
+
+and then source is also six by the length
+of the data is given as 2 bytes and then what
+
+kind of what is the type of that message which
+is another 2 bytes and then we transmit, the
+
+data the data can vary in size from 46 to
+1500 bytes and then there is a NPS which is
+
+like a CRC also likely more like an encryption
+that constitutive of 4 bytes.
+
+So the destination and source are the 48-bit
+MAC addresses and then the type is essentially
+
+given as before numbers so basically like
+zero 800 means the data portion of the internet
+
+frame contains the IP Datagram and then the
+806 is for ARP type of so this is that the
+
+Internet.
+
+Now when we go into the next higher level,
+we saw the IP in IP essentially like, I mean
+
+now bits are organizing this fashion again
+you see that actually like I mean this is
+
+the things may be small but the data is broken
+into multiple pieces there here once those
+
+the data gets added then it is compiled into
+this form there we have a version I HL the
+
+type of service the total length and then
+basically some identification.
+
+There are some flags we saw this one the time-to-live
+protocol header section the source address
+
+this museum approve and then some options
+and padding and finally with that down the
+
+six 32-bit or 8 or 4 byte in so far, this
+is like 24 bytes of get scan it is insane
+
+so here the addresses are now different here
+they are more like the MAC addresses then
+
+so here they are like the IP address is small.
+
+So again the MAC addresses just provide a
+point to point or one hops whereas now the
+
+IP addresses will provide us to go from one
+computer to another computer power then.
+
+When we go to the next higher layer the TCP
+there it is even so the way it is here now
+
+we are defining what is called ports there
+is a source port and the destination port
+
+and the sequence number and then an acknowledgement
+number then it has several long flags and
+
+then finally like I mean there's a checksum
+and then finally the data is also sent as
+
+with this song in this segment so here the
+source and the destination are no longer.
+
+The IP addresses now they are the ports so
+once you know the IP addresses this IP addresses
+
+that are already implied by for IP header
+and we know which for to open on goes like
+
+this so we will we will go into more details
+when we talk about directory services which
+
+will be coming in the next term next sections
+and then the data offset is five which means
+
+like there are twenty octet after that the
+data.
+
+So again there are predefined rules as to
+how to get the data into the data and things
+
+like that.
+
+So on the internet layer again basically they
+are 48 bit unique device addresses are provided
+
+for each of them.
+
+I encourage you to find the MAC addresses
+for your own machines and try to find like
+
+more kind of command is needed to get to the
+MAC addresses and basically reduces this we
+
+are protocol with a new protocol in order
+to communicate channel information.
+
+So in the Linux world essentially like.
+
+I mean so we saw all these things essentially
+the networking inter-process communication
+
+they kind of they are called the it uses a
+special kind of pipe on support several address
+
+families and support several socket types
+so the socket is what we will see.
+
+So here is the basically like the various
+families that it supports in fact, you can
+
+also see that that you go amateur radio for
+protocol for there with the in the Linux itself
+
+but we will limit ourselves.
+
+To mostly mobile unit for the main pockets
+and then.
+
+The sockets are essentially whether it is
+a screen Datagram and then basically can be
+
+a reliable delivered messages or a sequence
+packet we will just touch upon these things
+
+we won't be going more people.
+
+So I just wanted to give you an idea about
+so we saw from the tcp/ip and the Internet
+
+layers below.
+
+So they communicate through these sockets
+to the Linux so then we learnt about this
+
+essentially like I mean the these are the
+next higher layers or which are we have which
+
+are on top of the TCP layer itself and which
+provides the network capability so essentially
+
+like I mean the TCP and they open water called
+the sockets, which are essentially mentioned
+
+below and then these sockets are the ones
+that communicates to the network application
+
+from the user side so here also like.
+
+When you can see that the kernel is all the
+things below and then if they transform to
+
+interpretation from power.
+
+So a simple client-server mechanism is what
+we will talk about so in a server actually
+
+there is a socket that is created we bind
+an address to the socket and then the server
+
+destined for the client also creates a socket
+and then it connects that socket into to the
+
+server and once that connection is to see
+you then if the server is okay, with the tension
+
+then it sends an except signal back to the
+client and then the client starts sending
+
+whatever the message that it would not system.
+
+So this is a simple Centerville protocol an
+example of this is the HTTP so again when
+
+we make do a Google search essentially like
+to search something actually the client is
+
+making all these some kind of connections
+to the server and then getting the data out
+
+of it and all the things so like now we saw
+this much essentially, like there it creates
+
+a socket and starts communicating that star
+is starting to communicate here represents
+
+all the things that we saw in this diagram
+below.
+
+This portion and also all the things that
+we learn in all these this tag.
+
+So I hope like I mean now we have a good understanding
+of what happens when we send a request and
+
+how that gets into the Machine and how its
+communicated so this all goes back to that
+
+OSI layer the technician mobile PC TM to protocol
+let me talk about so there is a lot of things
+
+that goes.
+
+In the background we we do not we do not really
+understand or we do not really want to understand
+
+what the fine again it is important from the
+VLSI designers perspective because all these
+
+things ultimately end up in the designers
+hands and we let designers want to improve
+
+these designs and make sure that the communication
+form always reliable and powerful.
+
+So with that we conclude today's lecture and
+we will pick up some more of this IP addressing.
+
+In the next session and then we will continue
+other the advanced Linux networking topics
+
+demo session thanks.
+

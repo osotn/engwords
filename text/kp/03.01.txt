@@ -1,0 +1,137 @@
+3.1 Command line structure
+To proceed, we need a slightly better understanding of just what a command is, and how it is interpreted by the shell. This section is a more formal
+coverage, with some new information, of the shell basics introduced in the first
+chapter.
+The simplest command is a single word, usually naming a file for execution
+(later we will see some other types of commands):
+$ who
+you
+jpl
+$
+Execute the file /bin/who
+tty2
+tty4
+Sep 28 07:51
+Sep 28 08:32
+A command usually ends with a newline, but a semicolon is also a command
+terminator:
+$ date;
+Wed Sep
+$ date;
+Wed Sep
+you
+jpl
+$
+28 09:07:15 EDT 1983
+who
+28 09:07:23 EDT 1983
+tty2 Sep 28 07:51
+tty4 Sep 28 08:32
+Although semicolons can be used to terminate commands, as usual nothing
+happens until you type RETURN. Notice that the shell only prints one prompt
+after multiple commands, but except for the prompt,
+$ date; who
+is identical to typing the two commands on different lines. In particular, who
+doesn't run until date has finished.
+Try sending the output of "date; who" through a pipe:
+$ date; who : we
+Wed Sep 28 09:08:48 EDT 1983
+2 10 60
+$
+This might not be what you expected, because only the output of who goes to
+wc. Connecting who and wc with a pipe forms a single command, called a
+pipeline, that runs after date. The precedence of : is higher than that of ';'
+as the shell parses your command line.
+Parentheses can be used to group commands:
+$ (date; who)
+Wed Sep 28 09:11:09 EDT 1983
+you tty2 Sep 28 07:51
+jpl tty4 Sep 28 08:32
+$ (date; who) I we
+3 16 89
+$
+The outputs of date and who are concatenated into a single stream that can be
+sent down a pipe.
+Data flowing through a pipe can be tapped and placed in a file (but not
+another pipe) with the tee command, which is not part of the shell, but is
+nonetheless handy for manipulating pipes. One use is to save intermediate output in a file:
+$ (date; who) : tee save : we
+3 16 89
+$ cat save
+Wed Sep 28 09:13:22 EDT 1983
+you tty2 Sep 28 07:51
+jpl tty4 Sep 28 08:32
+$ we <save
+Output from we
+3
+16
+89
+$
+tee copies its input to the named file or files, as well as to its output, so wc
+receives the same data as if tee weren't in the pipeline.
+Another command terminator is the ampersand &. It's exactly like the
+senlicolon or newline, except that it tells the shell not to wait for the command
+to complete. Typically, & is used to run a long-running command "in the
+background" while you continue to type interactive commands:
+$ long-running-command &
+5273
+$
+Process-id of long-running-eommand
+Prompt appears immediately
+Given the ability to group commands, there are some more interesting uses of
+barkground processes. The command sleep waits the specified number of
+seconds before exiting:
+$ sleep 5
+$
+$ (sleep 5; date) & date
+5278
+Wed Sep 28 09:18:20 EDT 1983
+$ Wed Sep 28 09:18:25 EDT 1983
+Five seconds pass before prompt
+Output from second date
+Prompt appears, then date 5 sec. later
+The background process starts but immediately sleeps; meanwhile, the second
+date command prints the current time and the shell prompts for a new command. Five seconds later, the sleep exits and the first date prints the new
+time. It's hard to represent the passage of time on paper, so you should try
+this example. (Depending on how busy your machine is and other such details,
+the difference between the two times might not be exactly five seconds.) This
+is an easy way to run a command in the future; consider
+$ (sleep 300; echo Tea is ready) &
+5291
+$
+Tea will be ready in 5 minutes
+as a handy reminder mechanism. (A ctl-g in the string to be echoed will ring
+the terminal's bell when it's printed.) The parentheses are needed in these
+examples, since the precedence of & is higher than that of '; '.
+The & terminator applies to commands, and since pipelines are commands
+you don't need parentheses to run pipelines in the background:
+$ pr file : lpr &
+arranges to print the file on the line printer without making you wait for the
+command to finish. Parenthesizing the pipeline has the same effect, but
+requires more typing:
+$ (pr file I lpr) &
+Same as last example
+Most programs accept arguments on the command line, such as file (an
+argument to pr) in the above example. Arguments are words, separated by
+blanks and tabs, that typically name files to be processed by the command, but
+they are strings that may be interpreted any way the program sees fit. For
+example, pr accepts names of files to print, echo echoes its arguments without
+interpretation, and grep's first argument specifies a text pattern to search for.
+And, of course, most programs also have options, indicated by arguments
+beginning with a minus sign.
+The various special characters interpreted by the shell, such as <, >, ;, ;
+and &, are not arguments to the programs the shell runs. They instead control
+how the shell runs them. For example,
+$ echo Hello >junk
+tells the shell to run echo with the single argument Hello, and place the output in the file junk. The string > junk is not an argument to echo; it is
+interpreted by the shell and never seen by echo. In fact, it need not be the
+last string in the command:
+$ >junk echo Hello
+is identical, but less obvious.
+Exercise 3-1. What are the differences among the following three commands?
+$ cat file / pr
+$ pr <file
+$ pr file
+(Over the years the redirection operator < has lost some ground to pipes; people seem to
+find "cat file :" more natural than "<file".)
+

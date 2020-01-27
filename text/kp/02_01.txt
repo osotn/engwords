@@ -1,0 +1,167 @@
+2.1 The basics of files
+A file is a sequence of bytes. (A byte is a small chunk of information, typically 8 bits long. For our purposes, a byte is equivalent to a character.) No
+structure is imposed on a file by the system, and no meaning is attached to its
+contents - the meaning of the bytes depends solely on the programs that interpret the file. Furthermore, as we shall see, this is true not just of disc files but
+of peripheral devices as well. Magnetic tapes, mail messages, characters typed
+on the keyboard, line printer output, data flowing in pipes - each of these
+files is just a sequence of bytes as far as the system and the programs in it are
+concerned.
+The best way to learn about files is to play with them, so start by creating a
+small file:
+$ ed
+a
+now is the time
+for all good people
+w junk
+36
+q
+$ 1s -1 junk
+-rw-r--r-- 1 you
+$
+36 Sep 27 06:11 junk
+junk is a file with 36 bytes - the 36 characters you typed while appending
+(except, of course, for correction of any typing mistakes). To see the file,
+$ cat junk
+now is the time
+for all good people
+$
+cat shows what the file looks like. The command ad (octal dump) prints a
+visible representation of all the bytes of a file:
+$ od -c junk
+0000000 n 0 w i s t h e t i m e \n
+0000020 f 0 r a 1 1 9 0 0 d p e 0
+0000040 p 1 e \n
+0000044
+$
+The -c option means "interpret bytes as characters." Turning on the -b
+option will show the bytes as octal (base 8) numberst as well:
+$ od -cb junk
+0000000 n 0 w i s t h e t i m e \n
+156 157 167 040 151 163 040 164 150 145 040 164 151 155 145 012
+0000020 f 0 r a 1 1 9 0 0 d p e 0
+146 157 162 040 141 154 154 040 147 157 157 144 040 160 145 157
+0000040 p 1 e \n
+160 154 145 012
+0000044
+$
+The 7-digit numbers down the left side are positions in the file, that is, the
+t Each byte in a file contains a number large enough to encode a printable character. The encoding on most UNIX systems is called ASCII (American Standard Code for Information Interchange),
+but some machines, particularly those manufactured by IBM, use an encoding called EBCDIC (Extended Binary-Coded-Decimal Interchange Code). Throughout this book, we will assume the ASCII
+encoding; cat /usr/pub/ascii or read ascii(7) to see the octal values of all the characters.
+ordinal number of the next character shown, in octal. By the way, the
+emphasis on octal numbers is a holdover from the PDP-11, for which octal was
+the preferred notation. Hexadecimal is better suited for other machines; the
+-x option tells ad to print in hex.
+Notice that there is a character after each line, with octal value 012. This
+is the ASCII newline character; it is what the system places in the input when
+you press the RETURN key. By a convention borrowed from C, the character
+representation of a newline is \n, but this is only a convention used by programs like ad to make it easy to read - the value stored in the file is the single byte 012.
+Newline is the most common example of a special character. Other characters associated with some terminal control operation include backspace (octal
+value 010, printed as \b), tab (011, 't), and carriage return (015, \r).
+It is important in each case to distinguish between how the character is
+stored in a file and how it is interpreted in various situations. For example,
+when you type a backspace on your keyboard (and assuming that your erase
+character is backspace), the kernel interprets it to mean that you want to discard whatever character you typed previously. Both that character and the
+backspace disappear, but the backspace is echoed to your terminal, where it
+makes the cursor move one position backwards.
+If you type the sequence
+'\+-
+(i.e., \ followed by a backspace), however, the kernel interprets that to mean
+that you want a literal backspace in your input, so the' is discarded and the
+byte 010 winds up in your file. When the backspace is echoed on your terminal, it moves the cursor to sit on top of the ,.
+When you print a file that contains a backspace, the backspace is passed
+uninterpreted to your terminal, which again will move the cursor one position
+backwards. When you use ad to display a file that contains a backspace, it
+appears as a byte with value 010, or, with the -c option, as \b.
+The story for tabs is much the same: on input, a tab character is echoed to
+your terminal and sent to the program that is reading; on output, the tab is
+simply sent to the terminal for interpretation there. There is a difference,
+though - you can tell the kernel that you want it to interpret tabs for you on
+output; in that case, each tab that would be printed is replaced by the right
+number of blanks to get to the next tab stop. Tab stops are set at columns 9,
+17, 25, etc. The command
+$ stty -tabs
+causes tabs to be replaced by spaces when printed on your terminal. See
+stty( 1).
+The treatment of RETURN is analogous. The kernel echoes RETURN as a
+carriage return and a newline, but stores only the newline in the input. On
+output, the newline is expanded into carriage return and newline.
+The UNIX system is unusual in its approach to representing control informa-
+tion, particularly its use of newlines to terminate lines. Many systems instead
+provide "records," one per line, each of which contains not only your data but
+also a count of the number of characters in the line (and no ne/line). Other
+systems terminate each line with a carriage return and a newline, because that
+sequence is necessary for output on most terminals. (The word "linefeed" is a
+synonym for newline, so this sequence is often called "CRLF," which is nearly
+pronounceable.)
+The UNIX system does neither - there are no records, no record counts,
+and no bytes in any file that you or your programs did not put there. A newline is expanded into a carriage return and a newline when sent to a terminal,
+but programs need only deal with the single newline character, becau se that is
+all they see. For most purposes, this simple scheme is exactly what is wanted.
+When a more complicated structure is needed, it can easily be built on top of
+this; the converse, creating simplicity from complexity, is harder to achieve.
+Since the end of a line is marked by a newline character, you might expect
+a file to be terminated by another special character, say \e for "end of file."
+Looking at the output of ad, though, you will see no special character at the
+end of the file - it just stops. Rather than using a special code, the system
+signifies the end of a file by simply saying there is no more data in the file.
+The kernel keeps track of file lengths, so a program encounters end-of-file
+when it has processed all the bytes in a file.
+Programs retrieve the data in a file by a system call (a subroutine in the
+kernel) called read. Each time read is called, it returns the next part of a
+file - the next line of text typed on the terminal, for example. read also says
+how many bytes of the file were returned, so end of file is assumed when a
+read says "zero bytes are being returned." If there were any bytes left, read
+would have returned some of them. Actually, it makes sense not to represent
+end of file by a special byte value, because, as we said earlier, the meaning of
+the bytes depends on the interpretation of the file. But all files must end, and
+since all files must be accessed through read, returning zero is an
+interpretation-independent way to represent the end of a file without introducing a new special character.
+When a program reads from your terminal, each input line is given to the
+program by the kernel only when you type its newline (i.e, press RETURN).
+Therefore if you make a typing mistake, you can back up and correct it if you
+realize the rrlistake before you type newline. If you type newline before realizing the error, the line has been read by the system and you cannot correct it.
+We can see how this line-at-a-time input works using cat. cat normally
+saves up or buffers its output to write in large chunks for efficiency, but cat
+-u "unbuffers" the output, so it is printed immediately as it is read:
+$ cat
+123
+456
+789
+ctl- d
+123
+456
+789
+$ cat -u
+123
+123
+456
+456
+789
+789
+ctl- d
+$
+Buffered output from cat
+Unbuffered output from cat
+cat receives each line when you press RETURN; without buffering, it prints
+the data as it is received.
+N ow try something different: type some characters and then a ctl-d rather
+than a RETURN:
+$ cat -u
+123ctl-d123
+cat prints the characters out immediately. ctl-d says, "immediately send the
+characters I have typed to the program that is reading from my terminal." The
+ctl-d itself is not sent to the program, unlike a newline. Now type a second
+ctl-d, with no other characters:
+$ cat -u
+12 3ctl-d 12 3ctl-d$
+The shell responds with a prompt, because cat read no characters, decided
+that meant end of file, and stopped. ctl-d sends whatever you have typed to
+the program that is reading from the terminal. If you haven't typed anything,
+the program will therefore read no characters, and that looks like the end of
+the file. That is why typing ctl-d logs you out - the shell sees no more input.
+Of course, ctl-d is usually used to signal an end-of-file but it is interesting that
+it has a more general function.
+Exercise 2-1. What happens when you type ctl-d to ed? Compare this to the command
+$ ed <file
+

@@ -1,0 +1,1026 @@
+ok, so, basic concept to we have seen particularly
+the current voltage and that your power and
+
+that power supplied and power absorbed, right.
+So, we will now come to the basic laws. So,
+
+generally your in the in the electrical ah
+circuit analysis , right.
+
+The concept such as current voltage and power
+in an electrical circuit have been we have
+
+studied in the chapter 1 ah. In a given circuit
+may be or to determine these variables requires
+
+that we must understand some fundamental laws
+that given your that govern electric circuit.
+
+So, these laws are known as ohms' law and
+Kirchhoff's current law and Kirchhoff's voltage
+
+law; that is, KCL and KVL and before that
+ohm's law . So, these laws actually form the
+
+foundation upon which the electric circuit
+ah analysis is built.
+
+So, in this topic actually in addition to
+an addition to the laws, we will also involve
+
+right some commonly applied technique electric
+circuit analysis . This technique actually
+
+include the current division voltage division
+combining resistors in series or parallel
+
+and star to delta and delta to star transformation,
+right.
+
+So, in this particularly in that basic law
+we will see that application of this laws,
+
+and the technique will be your what you call
+restricted to only resistors circuit and several
+
+examples are presented. So, in this case we
+will form we will represent several examples
+
+by as the DC circuits. So, will only consider
+the resistive part right, but let us try to
+
+understand this.
+So, first is let us see the ohm's law in general
+
+actually materials have a characteristic behavior
+of your resisting the flow of electric charge.
+
+If you resisting the flow of electric charge
+means it is basically resisting the flow of
+
+current, right .
+So, the physical property or ability to resist
+
+current is known as resistance. So, that for
+any material, right it has some physical property
+
+or ability to resist current is known as resistance
+and is represented by the symbol R, capital
+
+R these the symbol R; in other words, resistance
+is the capacity of materials to impede the
+
+flow of current or more specifically the flow
+of electric charge. So, circuit element used
+
+to model this behavior is is the resistor.
+So, this is actually ah actually that what
+
+you call regarding the resistance .
+Now, conceptually we can understand the resistance
+
+actually of a material if we think about moving
+electrons that make up electric current interacting
+
+with and being resisted by the atomic structure
+of the material through which they are moving
+
+. So, because of the your course of these
+interaction some amount of electric energy
+
+is converted to thermal energy and dissipated
+in the form of heat. This effect actually
+
+is not desirable, but look, but many useful
+electrical appliances take advantage of resistance
+
+heating including space heaters, irons stoves
+and toasters right.
+
+So, this we take that your what you call that
+um that that your what you call the effect
+
+of resistance, right. So, if we see that figure
+this figure 2.1.
+
+So, figure 1 a it is shows a material with
+uniform cross section ah area ah sectional
+
+area of a length is l and resistivity is ohm
+ah rho that is ohm meters, right. So, this
+
+is your ah ah I need not mark it by red ink
+it is understandable, this is a your what
+
+you call uniform ah cross section is like
+a cylindrical shape that all wire it looks
+
+like a cylindrical shape . And this length
+l and cross sectional area of it is A, right.
+
+So, it is circular and material with resistivity
+rho, and this is the symbol of the resistance
+
+and these the current entering, it is the
+plus minus right.
+
+So, resistance your resistance is a later
+we will see that resistor ah earlier we have
+
+seen, but again we will see that a resistor
+is a passive element. So, it absorbed power
+
+. So, that is why this this is the current
+these a 2 terminal, and these the resistor
+
+R and current is entering into the positive
+terminal across the resistor voltage is v.
+
+So, resistor actually absorbed power that
+is why this way you represent right.
+
+So, because it is a passive element it will
+absorbed power. So, that is why it is that
+
+is why it is your what you call , your plus
+plus it is taken and minus it is taken convince
+
+noise. But if we reverse the direction also
+method solving circuit one can do it, but
+
+ultimately we will find resistor actually
+your what you call um that absorbing power
+
+because current , that is why this conversely
+is taken this symbol is for resistor, right
+
+.
+So, we know that from your ah your physics
+
+electricity ah subject, we know that R is
+equal to rho into l by a, right. So, the amount
+
+of resistance that will depend on the material.
+So, what type of material your using that
+
+it depend like gold ah, silver, aluminum,
+copper and other thing right . So, good conduct
+
+good conductors such as copper and aluminum
+have low resistivity. If you have low resistivity,
+
+then you have your what you call they have
+the low your resistance, right and hence have
+
+small values of resistance.
+So, they are good choices for wiring right
+
+ah your used to conduct electric current.
+In a circuit diagram copper or aluminum wiring
+
+is is ah copper or aluminum wiring is not
+usually modeled as a resistor. If you take
+
+a wire you cannot modeled is as a resistor,
+because wire has a very negligible resistance
+
+you can ignore it right , but resistor actually
+made of your what you call the carbon and
+
+some compound alloy, right?
+So, in circuit connection copper or aluminum
+
+is not usually modeled as a resistor, you
+will take resistance of the wire in the if
+
+you take ah resistance of wire is 0 , right.
+So, the resistance of the wire is so small
+
+compared to the resistance of the other elements
+in the circuit that we can neglect ah the
+
+wiring resistance. So, it is also small it
+is almost 0 will neglect it, right? And for
+
+such that our circuit diagram will be simplified.
+For the purpose of constructing circuit resistors
+
+are compound resistors are usually made from
+metallic alloys and the carbon compounds,
+
+right .
+So, in the first year when we will first year
+
+when we will do first year lab, there you
+will see barrier type of rheostat, right . So,
+
+the circuit symbol for the resistor is given
+this is this is the this is the circuit symbol
+
+for the resistor resistor is given here and
+I told you something about these also why
+
+you will make it like this, right . So, and
+there are some materials of I have I have
+
+wrote it for you the resistivity ah for commonly
+use material like gold.
+
+It is resistivity it is ohm ohm meter. So,
+gold is 2.45 into 10 to the power minus 8,
+
+it is a good conductor, but you cannot use
+it is very expensive .
+
+Silver also 1.64 into 10 to the power minus
+8, it is a good conductor, but silver also
+
+expensive you cannot make it , but copper
+and aluminum 1.72 into 10 to the power minus
+
+8 is a good conductor . Aluminum also 2.8
+into 10 to the power minus 8, that it also
+
+good conductor. Other thing are semiconductor
+ah if just for computational purpose that
+
+conductor semiconductor and your insulator
+material just I given a table .
+
+Now, silicon is 6.4 into 10 to the power 2
+it is semiconductor carbon also 4.4 into 10
+
+to the power minus 5, it is your semiconductor.
+And germanium 47 into 10 to the power minus
+
+2 it is a semiconductor. And mica it is 5
+into 10 to the power 11. So, insulator these
+
+all ohm meter all ohm meter ohm meter unit
+is given here, ohm meter and paper one into
+
+10 to the power 10 this is insulator. So,
+may conductor semiconductor and insulator
+
+and there resistivity something I have taken
+I have kept it here right .
+
+So now ohm that is gs ohm actually ah is a
+lifespan was 1787 to 1854. So, here German
+
+physicist actually who established the relationship
+between the current and voltage for a resistor,
+
+right. So, this if this relationship is known
+as your ohm's law. So, ohms law is the algebraic
+
+relationship between voltage and current for
+a resistor. So, actually ohms' law states,
+
+the voltage v across a resistor is directly
+proportional to the current i flowing through
+
+the resistor.
+I mean if you have a resistor and current
+
+is flowing through this resistor say this
+current is i and across the resistor is voltage
+
+is v. So, v is proportional to i, now v is
+equal to Ri that constant of proportional
+
+take to R that is called resistance. So, that
+is your v proportional to i, that is this
+
+is equation ah 2, 2.2 for chapter 2 or v is
+equal to iR, right.
+
+So, equation 3 that is 2.3 is a mathematical
+forms of form of ohms' law.
+
+Ohm define the constant of proportionality
+for a resistor to be resistance R. The resistance
+
+can change if the external or internal conditions
+of the elements are your altered.
+
+So, that ah it can be change if you internal
+or external ah things are that element altered;
+
+for example, if if it a temperature increases
+so, resistance change right if. So, if there
+
+if there are changes in the temperature so,
+R will change. So, R in equation 2.3 is measured
+
+in the unit of ohm designated as ohm, right
+. So, equation 2.3; that means, these equation
+
+these equation 2.3 right.
+We can write that your R is equal to v upon
+
+i right; that means, v is volt i is ampere
+and R it is ohm. So, one ohm is equal to 1
+
+volt per ampere. So, this is a understandable
+a simple thing this is a understandable to
+
+you, right .
+Now, the polarity of voltage v and the direction
+
+of the current i must conform with the passive
+sign convention as shown in figure 2.1 b.
+
+2.1 b means this figure I showed you earlier
+this figure, this figure 2.1 v. I told you
+
+that R is a R is a passive element resistor
+is a passive element and current entering
+
+into the positive we have taken plus minus
+and assuming current entering a positive terminal.
+
+So, it absorbed power and across this voltage
+is v, v is equal to iR. So, that this is that
+
+convention this is the convention this is
+figure 2.1 b I told you earlier also , right.
+
+So, in therefore, your this if current flows
+from a higher potential to lower potential,
+
+right v is equal to iR it is true and if current
+flows from a lower potential to higher potential,
+
+then v is equal to minus R. The meaning is
+something like this, ah let me go to this
+
+a figure 2.1 b, right. So, it is showing current
+your plus i this way; that is, higher potential
+
+to here it is mentioned that higher potential
+to lower potential, right.
+
+So, if the current flows from a higher potential
+to lower potential v is equal to iR, but if
+
+it is current flows from a lower potential
+to higher potential, v will be is equal to
+
+minus iR; that means, you're that means, ah
+let me let me just for your understanding.
+
+So, I mean this is this is one, but if it
+happen so, if it happen so say this is I making
+
+plus this is minus, this is my resistance
+R, and if the deduction of the current is
+
+like this, this is i these voltage is v, then
+v will be is equal to minus iR.
+
+Because current is flowing from lower potential
+to higher potential, right. So, it will be
+
+v is equal to minus iR, but when we will solve
+the numericals and other thing we will find
+
+that actually later we will see that your
+what you call that resistor resistor is passive
+
+element final it will absorbed power if v
+is equal to minus R it happens you will find
+
+that I will be negative. So, ultimately v
+will be is equal to iR because direction will
+
+change right .
+So, in this case so, that means, it if direction
+
+of the current change it will be v is equal
+to minus iR. Later when see when we will go
+
+for KVL equation we will see that, right.
+So, let me let me clean this one . So, so
+
+this is this is clear to you, that which is
+higher to lower and lower to higher ah potential,
+
+right. So, that is v is equal to minus R,
+since the value of R can vary from 0 to infinity,
+
+R may be 0 to infinity. So, we can so, we
+must consider the 2 extreme possible values
+
+of R that is when R is equal to infinity and
+when R is equal to 0.
+
+So, for example, look at this circuit before
+explanation suppose suppose this is a this
+
+is an this is a your what you call some electric
+circuit represented by your just a simple
+
+box, right. And this is open, so that means,
+R is equal to infinity; that means, current
+
+is 0. So, when R is equal to infinity or R
+tends to infinity i is equal to v by R so,
+
+if R tends to infinity I will be 0. So, it
+is called when R tends to infinity means is
+
+says it is an open circuit, right?
+And when R is equal to 0 just just connect
+
+it like this without no other electric elements
+simply wire. So, approximately we are not
+
+considering the resistance of the wire it
+is neglected. So, when R is equal to 0 so,
+
+your i is equal to v by R, right. So, R is
+equal to 0 means it is a short circuit it
+
+a huge huge current will flow. And in that
+case v is equal to 0 .
+
+So, for open circuit v is there, but i is
+0, right ? When R tends to infinity, but when
+
+it is short circuit when you short it ah suppose
+these 2 terminals are shorted. So, I will
+
+be there because it is a close path, i will
+be there current will be high, but R is equal
+
+to 0. But v at same time v is equal to 0,
+because b is equal to iR if R is equal to
+
+0, then v is equal to 0. So, that is why v
+is equal to 0 short circuit, this is an open
+
+circuit.
+So, that means, when I R tends to infinity
+
+limit b by R will be 0, right. So, it is an
+open circuit when i is equal to 0, similarly
+
+when b is equal to iR, when it is a short
+circuit, right. So, R tends to 0 so, v is
+
+equal to 0, but i is not 0 for short circuit
+ah it will be fault actually, it will carry
+
+huge amount of current and if short circuit
+happens your are electrical devices or elements
+
+will be damaged also, right. So, this is the
+this is the your 2 cases for short circuit
+
+and a open circuit and short circuit, open
+circuit means resistance is infinity, short
+
+circuit means resistance is 0, right.
+Now, now 3 you have to understand each and
+
+everything as symbol also . So, a resistor
+is either a it may be either a fixed resistor
+
+or a variable type, right. So, there are 3
+different symbols are shown, this is actually
+
+this is fixed type this is 2 terminals are
+there. So, this is a fixed resistance R. Say
+
+right this is a fixed resistance.
+Now in this case this is a variable resistance
+
+whenever cutting an arrow through it, right.
+So, this is actually variable resistance.
+
+When we will do first year laboratory, you
+will see the fixed or variable resistance
+
+in the same one terminal will be ah 1 3 point
+if we fixed it on the both the end of the
+
+resistance a resistor will find is a fixed
+value, but one point is a fixed point another
+
+is a variable point, when we will do first
+year laboratory if the barrier type of rheostat
+
+you will see this.
+And third one this one and wiper is there
+
+this is a this is also variable, but this
+is symbol of this potentiometer. Perhaps in
+
+physics lab in your ah in in your you might
+have seen it, right this is a potentiometer.
+
+So, this is third one is symbol for potentiometer
+or pot for short, right. So, this is a potentiometer
+
+and this is a variable resistor, whenever
+making the arrow means this indicates a variable,
+
+but this is a fixed one. So, these are symbols
+so, everything is written here.
+
+So, not telling it again right, now, it is
+what mentioning here that the all the resistors
+
+all all the all that here that not all the
+resistors actually obey ohms' law, right?
+
+Because resistors may be non-linear in that
+case, it does not obey the ah your ohm's law.
+
+So, a is a resistor that always that obey
+is ohms' law is known as a linear resistor.
+
+So, I have underlined these one so, a resistor
+that obeys ohms' law is known as a linear
+
+register.
+So, a linear resistor has a constant resistance,
+
+and it is current voltage characteristic is
+linear right as shown in passing through the
+
+origin.
+If you see this these a linear register characteristic
+
+it is slope is R, it is passing through the
+origin since a this following this follows
+
+ohms' law, right? Because it is a linear characteristic.
+But if you see, but this characteristic v
+
+by i, it is not from not a straight line it
+is some kind something like a curve linear,
+
+right . So, so, resistance they does not obey
+ohms law is known as non-linear resistor . So,
+
+resistance of a non-linear resistor actually
+varies with current and typical current voltage
+
+characteristic is this is the typical current
+voltage characteristic.
+
+For example, your light bulb and diode are
+the examples of devices with non-linear resistance.
+
+So, ah I mean any any any devices obeys , I
+mean a it obeys your ohm's law , that is a
+
+resistor that that is a call a linear resistor.
+If it is not that is non-linear resistor simple
+
+thing, right. So, this is the iv characteristic
+of a linear resistor the first one iv characteristic
+
+of a non-linear resistor, right?
+Now, in a circuit in in a circuit analysis
+
+we always represent one thing reciprocal of
+resistance R; that means, is known as conductance
+
+, that we reciprocal of resistance we defined
+as a conductance, right. For example, if G
+
+is equal to 1 upon R, right. R is you know
+that b is equal to b is equal to iR right
+
+b is equal to iR then 1 upon R is equal to
+i by v. So, that is why G is equal to i by
+
+v, right?
+So, the conductance G actually is a measure
+
+of how well an element will conduct current,
+this is actually the idea . So, conductance
+
+G is a measure of how well an element will
+conduct your current.
+
+So, the unit of conductance is mho or siemens.
+So, either actually ohm is the unit of ah
+
+resistor resistance. So, it is reciprocal
+of that that is why it is mean mho or symbol
+
+is also just opposite right or siemens ah.
+In short it is s that is the your unit of
+
+the conductance .
+So, one siemens is equal to 1 mho is equal
+
+to 1 ampere per volt , these a conductance
+i is the ampere v is the volt so, ampere per
+
+volt. So, one siemens is equal to 1 mho is
+equal to 1 ampere per volt this starting I
+
+have started this thing from the very you
+know beginning such that ah such that ah nothing
+
+will be left out hopefully, right ?
+So, thus conductance is the ability of an
+
+element to conduct electric current. So, this
+is that that is why I have underlined here,
+
+the conductance is the ability of an element
+your what you call to conduct electric current.
+
+Now, equation 7, right from equation 2.7,
+if these equation i is equal to Gv from this
+
+equation, right ? So, from this equation actually
+i is equal to conductance into voltage Gv,
+
+now the power dissipated by a resistor can
+be expressed as p is equal to you know vi,
+
+right, I am not writing by pen here it is
+a understandable p is equal to vi and v is
+
+equal to iR. So, here I put v is equal to
+iR; that means, it is i square R, right is
+
+equal to v square upon R.
+Because i is equal to v by R ah this one if
+
+I write for you, ah just hold on ah. So, ah
+. So, this is actually i square R so, i is
+
+equal to also we can write now. i is equal
+to v by R; that means, v square by R square
+
+into R, that is is equal to this one v square
+by R, right?
+
+So, i is equal to your ah your what you call
+v square , i square R is equal to v square
+
+by R. So, let me let me ah remove this one
+clean this one, right?
+
+So, this is that means, p; that means, R is
+always positive, and it is v square. So, power
+
+loss across resistor is always positive it
+absorbed power, right ? Very simple thing,
+
+but we have to try to understand this, right.
+So, p is equal to vi a resistor is a passive
+
+element it absorbed power, and R is always
+positive for any circuit you take R is positive,
+
+and it is v square whatever may be the v plus
+or minus is square means always positive.
+
+So, p is equal to v square by R always it
+is positive where i square R always positive;
+
+that means, it absorbed power .
+Similarly, also just other you can write p
+
+is equal to vi, now it is v, but in terms
+of conductance i is equal to G into v; that
+
+is v square G, right ? Or you can you can
+ah you can make if it is i square, G because
+
+v is equal to your what you call ah your i
+is equal to Gv, right, i is equal to Gv. So,
+
+v is equal i is equal to Gv. So, v is equal
+to i by G, if you substitute here v is equal
+
+to your i by G I making it for you just one
+line .
+
+So, if it is v is equal to your ah, your what
+you call just 1-minute ah , sorry this is
+
+i is equal to your ah G into your v, therefore,
+v is equal to your i by G. So, if you substitute
+
+here v is equal to i by G. So, it is i square
+by G square into G that is your i square by
+
+G . So, this is what your got, right? So,
+this is i square by G so now, let me clean
+
+it , right?
+So, the here also it is v square i square,
+
+here I mean G is taken positive it is reciprocal
+of resistance. So, conductance is always positive
+
+it is v square or i square; whatever may be
+the positive or negative value, vi does not
+
+matter if this p is always positive, right?
+That means, it is that means, it show that
+
+your what power dissipated in a resistor your
+what you call it is actually it is a absorbed
+
+power, right? Resistor observed power so,
+power resistor is a non-linear function of
+
+the either current or voltage this is it is
+a parabolic type p is equal to i square R
+
+is equal to v square by R or p is equal to
+v square G or i square by G it is a parabolic
+
+type of functions, right.
+So, it is graph will be either this side you
+
+plot i or v, this is power it is a parabolic
+function just just I have ah drawn right.
+
+So, since resistance R and conductance G are
+just what I will told, that it is positive
+
+right quantities the power dissipated in a
+resistor is always positive. I told you thus
+
+a resistor always your absorbed power from
+the circuit it absorbed, right this confirms
+
+the idea that a resistor is passive element.
+And it is incapable of generating energy,
+
+this is very important for you. When we will
+listen this video, right just see that what
+
+what we are discussing, right.
+Now, up to this your ohm's law and this thing
+
+let us come now to a small example , right?
+An electric heater draws 4 ampere and at 240
+
+volt.
+So, find it is resistance so, we know R is
+
+equal to v is equal to iR. So, R is equal
+to v by i v is equal to 240 and i is equal
+
+to 4 so, 60 ohm the resistance, right .
+Another small example in each circuit in figure
+
+2.6, right. So, this is 3 circuits are there
+the value of either v or i is not known. Ri
+
+we have to find determine the a the values
+of v and i b the power dissipated in each
+
+resistor. So, you have to find out v or i
+v or i right whatever it is known are unknown,
+
+unknown quantities you have to find out.
+Now, look at this circuit is a current source
+
+one ampere, right? And this is your this is
+this current is entering the positive terminal.
+
+So, v is equal to iR so, i is one ampere and
+R is equal to 8 ohm. So, it will be v is equal
+
+to 8 volt. And it is your current is flow
+entering into the positive terminal, right
+
+that is flowing from higher potential to lower
+potential. So, it will be positive so, v is
+
+equal to iR . So, it is one into 8 so, v is
+equal to 1 into 8 8 volt.
+
+Now, second case is, it is I hope I am not
+marking it by pen ah I think it is simple
+
+think. So, it is understandable to you, right?
+This one ampere means this current is flow
+
+this one ampere flowing through this circuit,
+I mean , ok just just just let me make it
+
+one thing for you these i is equal to 1 ampere.
+So, the current is flowing like this current
+
+is flowing this one ampere current is flowing
+like this, this is actually ah showing it
+
+this i. So, this i is equal to one ampere,
+this is what is shown here, right?
+
+So, let me let me let me clean it . Similarly,
+ah just hold on , similarly ah this this this
+
+is mho this is actually this value is G is
+given, this is 0.1 mho G is given conductance
+
+is given, right.
+So, this is actually ah G is equal to 0.1
+
+mho conductance is given of the circuit, right.
+So, so, in this case a voltage is given your
+
+100, 100-volt ah ah that is 100 volt. So,
+you have to find out that what is what is
+
+the current. So, just just let me let me clean
+this one, right?
+
+So, in this case ah just hold on ah, in this
+case your i is equal to actually you know
+
+this think i is equal to Gv, right i is equal
+to G into v.
+
+So, it is G is 0.1 and it is 100 so, i is
+equal to 10 ampere, right. So, it is i is
+
+equal to Gv, now another thing is that there
+actually ah your what you call this is 50
+
+volt, and this is 25-ohm ah resistor, but
+look at that this current actually flowing
+
+this means current entering into the plus
+terminal. Later you will find this things
+
+will be easier when we will come to the KVL
+equation, but write from the beginning current
+
+is entering into the ; that means, current
+is flowing from your higher potential this
+
+thing higher potential to ah lower potential,
+right.
+
+So, in this case, if you come to this that
+; that means, the direction of the your voltage
+
+rise. So, 25 resistor and the direction of
+the voltage rise across the resistor. So,
+
+i is equal to minus 50 by 25 is equal to minus
+2 ampere, right. So, because this is in the
+
+direction of the your what you call in the
+voltage rise. So, that is why the negative
+
+sign has come. So, that is why it is your
+i is equal to minus 50 by 25 that is minus
+
+2 ah your ah your ampere, right .
+So, this is actually voltage source, right
+
+this is one resistor this voltage source.
+So, it is from the voltage your from the higher
+
+ah your what you call in the direction of
+the voltage rise, because it will encounter
+
+plus first one is the KVL thing at the time
+things will be easier . So, this is your what
+
+you call minus 2 ampere .
+Now, now last b part is your part b, ah this
+
+thing ah the power dissipated in each resistor
+here. We have seen the current is one ampere
+
+and it is your what you call R is equal to
+8 ohm.
+
+So, in the first case, the that is v square
+by R, that is power ah a absorbed by the resistor
+
+8 ohm. So, bracket I am writing a power this
+8 ohm means power absorbed in the 8-ohm resistor
+
+v square by R. So, v square actually v is
+8, we have computed divided by R ah is 8 ohm.
+
+So, it is is equal to the same thing i square
+R. So, i is one one square R into 8 actually
+
+it is 8 watt. It is also 64 by 8, 8 watt i
+square also ah one square R 8 . So, it is
+
+8 watt so, it is understandable.
+Similarly, that second circuit that there
+
+G is your 0.1 ohm, this G is actually ah sorry
+0.1 mho, and voltage is 100 volt. So, in this
+
+case you can see that power ah your basically
+it is a resistor say. So, it is your what
+
+will be the power absorbed. So, i square by
+G so, i is 10 ampere ah. So, 10 square by
+
+G is 0.1. So, it is equal to same thing v
+square G is equal to v is 100 volt, and G
+
+is ah 100 square into G is 0.1 ultimately
+it will become 1,000 watt, right.
+
+Similarly, your ah 25 ohm that is this circuit,
+this circuit 25 ohm resistor, right? Whatever
+
+may be the current it does not matter, right.
+So, it is v square by R is equal to 50 square
+
+by 25, and is equal to also i square R i is
+equal to minus 2 square into 25. So, ultimately
+
+100 what I told you that for whatever may
+be the direction of the current or or the
+
+polarity of the voltage plus minus that power
+ah your absorbed by the resistor , resistor
+
+absorbed power it sign will be always positive,
+right?
+
+So, in this so, all this cases, you can see
+it is 8 watt thousand watt or 100 watt all
+
+the cases resistor actually absorbing power,
+right this is, this is another small thing
+
+that figure 2.7 shows simple circuit than
+the current i the conductance G and the power
+
+p. So, it is 30-volt source, and here one
+resistor is there and it is 5-ohm resistance
+
+and current flowing through this ah your is
+i, right.
+
+So, in this case voltage across in this case
+there is no other element here, right no other
+
+element. So, this is 30 volt; that means,
+just ah just for your understanding only this
+
+this voltage is 30 volt. So, this is plus
+minus means this is plus minus. So, this voltage
+
+is whatever whatever plus minus means this
+is also plus minus , this 30-volt means is
+
+to same voltage will be impress across this
+your resistor; that means, my v will be is
+
+equal to your 30 volt, right so, same voltage.
+So, understandable it is very simple thing
+
+this is plus minus is plus minus. So, there
+is no other element here. So, plus minus and
+
+so, whatever voltage is here same voltage
+is here because no other element. So, there
+
+is no voltage drop later, we will see this.
+So, v will be is equal to 30 volt. So, let
+
+me clean this one, right ? So, then what then
+what will be the current then?
+
+So, current will be i is equal to v by R is
+equal to 30 by 5 is equal to 6 ampere .
+
+So, conductance is G is equal to 1 upon R.
+So, 1 by 5 so, 0.2 mho, because reciprocal
+
+about. So, power is equal to v into i is equal
+to 30 into 6. So, 180 watt this we can calculate,
+
+or p is equal to i square R that is 6 square
+i is the i is 6 ampere, we have calculated
+
+this 6 ampere 6 square into 5. So, 180 watt
+or p is equal to your v square G, that is
+
+your ah your 30 v is 30 volt. So, 30 square
+into 0.2 that is also 180 watt the way one
+
+you can compute the your power, but is a resistor.
+So, it will be power absorbed. So, all this
+
+cases sign is positive.
+Thank you very much, we will be back again.
+

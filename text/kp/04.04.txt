@@ -1,0 +1,625 @@
+4.4 The awk pattern scanning and processing language
+Some of the limitations of sed are remedied by awk. The idea in awk is
+much the same as in sed, but the details are based more on the C programming language than on a text editor. U sage is just like sed:
+$ a wk 'program' filenames ...
+but the program is different:
+pattern { action }
+pattern { action }
+awk reads the input in the filenames one line at a time. Each line is compared
+with each pattern in order; for each pattern that matches the line, the
+corresponding action is performed. Like sed, awk does not alter its input
+files.
+The patterns can be regular expressions exactly as in egrep, or they can be
+more complicated conditions reminiscent of C. As a simple example, though,
+$ a wk ' /regular expression/ { pr in t }' filenames ...
+does what egrep does: it prints every line that matches the regular expression.
+Either the pattern or the action is optional. If the action is omitted, the
+default action is to print matched lines, so
+$ a wk ' /regular expression/' filenames ...
+does the same job as the previous example. Conversely, if the pattern is omitted, then the action part is done for every input line. So
+$ awk ' { print }' filenames...
+does \\i"hat cat does, albeit more slowly.
+One final note before we get on to interesting examples. As with sed, it is
+possible to present the program to awk from a file:
+$ awk -f cmdfile filenames...
+Fields
+awk splits each input line automatically into fields, that is, strings of non-blank characters separated by blanks or tabs. By this definition, the ou tpu t of
+who has five fields:
+$ who
+you
+jim
+$
+tty2
+tty4
+Sep 29 11:53
+Sep 29 11:27
+awk calls the fields $1, $ 2, ..., $NF, where NF is a variable whose value is set
+to the number of fields. In this case, NF is 5 for both lines. (Note the difference between NF, the number of fields, and $NF, the last field on the line. In
+awk, unlike the shell, only fields begin with a $; variables are unadorned.)
+For example, to discard the file sizes produced by du -a,
+$ du -a : awk '{ print $2 }'
+and to print the names of the people logged in and the time of login, one per
+lin e :
+$ who: awk '{ print $1, $5 }'
+you 11:53
+jim 11:27
+$
+To print the name and time of login sorted by time:
+$ who: awk '{ print $5, $1 }' : sort
+11:27 jim
+11:53 you
+$
+These are alternatives to the sed versions shown earlier in this chapter.
+Although awk is easier to use than sed for operations like these, it is usually
+slower, both getting started and in execution when there's a lot of input.
+awk normally assumes that white space (any number of blanks and tabs)
+separates fields, but the separator can be changed to any single character. One
+way is with the -F (upper case) command-line option. For example, the fields
+in the password file /etc/passwd are separated by colons:
+$ sed 3q /etc/passwd
+root:3DofHR5KoB.3s:0:1:S.User:/:
+ken:y.68wd1.ijayz:6:1:K.Thompson:/usr/ken:
+dmr:z4u3dJWbg7wCk:7:1:D.M.Ritchie:/usr/dmr:
+$
+To print the user names, which come from the first field,
+$ sed 3q /etc/passwd : awk -F: '{ print $1 }'
+root
+ken
+dmr
+$
+The handling of blanks and tabs is intentionally special. By default, both
+blanks and tabs are separators, and leading separators are discarded. If the
+separator is set to anything other than blank, however, then leading separators
+are counted in determining the fields. In particular, if the separator is a tab,
+then blanks are not separator characters, leading blanks are part of the field,
+and each tab defines a field.
+Printing
+awk keeps track of other interesting quantities besides the number of input
+fields. The built-in variable NR is the number of the current input "record" or
+line. So to add line numbers to an input stream, use this:
+$ awk '{ print NR, $0 }'
+The field $ 0 is the entire input line, unchanged. In a print statement items
+separated by commas are printed separated by the output field separator, which
+is by default a blank.
+The formatting that print does is often acceptable, but if it isn't, you can
+use a statement called printf for complete control of your output. For example, to print line numbers in a field four digits wide, you might use the following:
+$ awk ' { printf "%4d %s\n", NR, $0 }'
+%4d specifies a decimal integer (NR) in a field four digits wide, %s a string of
+characters ($ 0), and \n a newline character, since printf doesn't print any
+spaces or newlines automatically. The printf statement in awk is like the C
+function; see printf(3).
+We could have written the first version of ind (from early in this chapter)
+as
+awk '{ printf "\t%s\n", $0 }' $*
+which prints a tab (\ t) and the input record.
+Patterns
+Suppose you want to look in /etc/passwd for people who have no passwords. r-fhe encrypted password is the second field, so the program is just a
+pattern:
+$ awk -F: ' $2 == "", /etc/passwd
+The pattern asks if the second field is an empty string (' = =' is the equality test
+operator). You can write this pattern in a variety of ways:
+$ 2 =::: "" 2 nd field is empty
+$2 - /A$/ 2nd field matches empty string
+$ 2 ! - / e / 2 nd field doesn't match any character
+length ($2) == 0 Length of 2nd field is zero
+The symbol "" indicates a regular expression match, and ! - means "does not
+match." The regular expression itself is enclosed in slashes.
+length is an awk built-in function that produces the length of a string of
+characters. A pattern can be preceded by ! to negate it, as in
+!"(,,:t 2 = = "")
+"
+The' ! ' operator is like that in C, but opposite to sed, where the ! follows the
+pattern.
+One common use of patterns in awk is for simple data validation tasks.
+1any of these amount to little more than looking for lines that fail to meet
+some criterion; if there is no output, the data is acceptable ("no news is good
+news"). For example, the following pattern makes sure that every input
+record has an even number of fields, using the operator % to compute the
+remainder:
+NF % 2 != 0
+# print if odd number of fields
+Another prints excessively long lines, using the built-in function length:
+length($O) > 72 # print if too long
+awk uses the same comment convention as the shell does: a # marks the beginning of a comment.
+You can make the output somewhat more informative by printing a warning
+and part of the too-long line, using another built-in function, substr:
+length($O) > 72 { print "Line", NR, "too long:", substr($0,1,60)
+substr (s , m, n) produces the substring of s that begins at position m and is n
+characters long. (The string begins at position 1.) If n is omitted, the sub-string from m to the end is used. substr can also be used for extracting
+fixed-position fields, for instance, selecting the hour and minute from the output of date:
+$ date
+Thu Sep 29 12:17:01 EDT 1983
+$ date / awk '{ print substr($4, 1, 5) }'
+12:17
+$
+Exercise 4-7. How many awk programs can you write that copy input to output as cat
+does? Which is the shortest?
+The BEGIN and END patterns
+awk provides two special patterns, BEGIN and END. BEGIN actions are
+performed before the first input line has been read; you can use the BEGIN
+pattern to initialize variables, to print headings or to set the field separator by
+assigning to the variable FS:
+$ awk 'BEGIN { FS = ":" }
+> $2 == "" , /etc/passwd
+$ No output: we all use passwords
+END actions are done after the last line of input has been processed:
+$ awk 'END { print NR }'
+prints the nurnber of lines of input.
+Arithmetic and variables
+The examples so far have involved only simple text manipulation. awk's
+real strength lies in its ability to do calculations on the input data as well; it is
+easy to count things, compute sums and averages, and the like. A common use
+of awk is to sum columns of numbers. For example, to add up all the numbers
+in the first column:
+{ s :: S + $1 }
+END { print s }
+Since the number of values is available In the variable NR, changing the last
+line to
+END { print s, s/NR }
+prints both sum and average.
+This example also illustrates the use of variables in awk. s is not a built-in
+variable, but one defined by being used. Variables are initialized to zero by
+default so you usually don't have to worry about initialization.
+awk also provides the same shorthand arithmetic operators that C does, so
+the example would normally be written
+{ s += $1 }
+END { print s }
+S += $1 is the same as s =: S + $1, but notationaUy more compact.
+You can generalize the example that counts input lines like this:
+{ nc += length($O) + 1 # number of chars, 1 for \n
+nw += NF # number of worp.s
+}
+END { print NR, nw, nc }
+This counts the lines, words and characters in its input, so it does the same job
+as we (although it doesn't break the totals down by file).
+As another example of arithmetic, this program computes the number of
+66-line pages that will be produced by running a set of files through pr. This
+can be wrapped up in a command called prpages:
+$ cat prpages
+# prpages: compute number of pages that pr will print
+wc $* :
+awk 'II total$1 { n += int«$1+55) I 56) }
+END { print n }'
+$
+pr puts 56 lines of text on each page (a fact determined empirically). The
+number of pages is rounded up, then truncated to an integer with the built-in
+function int, for each line of we output that does not match total at the end
+of a line.
+$ we eh4. oN-
+753 3090
+612 2421
+637 2462
+802 2986
+50 213
+2854 11172
+$ prpages eh4.oN-
+53
+$
+18129
+13242
+13455
+16904
+1117
+62847
+ch4.1
+ch4.2
+ch4.3
+ch4.4
+ch4.9
+total
+To verify this result, run pr into awk directly:
+$ pr eh4.oN- : awk 'END { print NR/66 }'
+53
+$
+Variables in awk also store strings of characters. Whether a variable is to
+be treated as a number or as a string of characters depends on the context.
+Roughly speaking, in an arithmetic expression like s+=$1, the numeric value
+is used; in a string context like x= IV abe ", the string value is used; and in an
+ambiguous case like x>y, the string value is used unless the operands are
+clearly numeric. (The rules are stated precisely in the awk manual.) String
+variables are initialized to the empty string. Coming sections will put strings to
+good use.
+awk itself maintains a number of built-in variables of both types, such as
+NR and FS. Table 4.3 gives the complete list. Table 4.4 lists the operators.
+Exercise 4-8. Our test of prpages suggests alternate implementations. Experiment to
+see which is fastest. D
+Control flow
+It is remarkably easy (speaking from experience) to create adjacent duplicate words accidentally when editing a big document, and it is obvious that
+that almost never happens intentionally. To prevent such problems, one of the
+Table 4.3: awk Built-in Variables
+name of current input file
+field separator character (default blank & tab)
+number of fields in input record
+number of input record
+output format for numbers (default %g; see printf(3))
+output field separator string (default blank)
+output record separator string (default newline)
+input record separator character ( default newline)
+awk Operators (increasing order of precedence)
+= += -= *= /= %= assignment; v op= expr is v = v op (expr)
+: : OR: exprl I : expr2 true if either is;
+expr2 not evaluated if exprl is true
+&& AND: exprl && expr2 true if both are;
+expr2 not evaluated if expr 1 is false
+negate value of expression
+> > = < < = - - ! = - I - relational operators;
+- and I - are match and non-match
+nothing string concatenation
++ - plus, minus
+* / % multiply, divide, remainder
++ + increment, decrement (prefix or postfix)
+the components of the Writer's Workbench family of programs, called
+double, looks for pairs of identical adjacent words. Here is an implementation of double in awk:
+$ cat double
+awk '
+FILENAME != prevfile {
+NR = 1
+prevfile = FILENAME
+# new file
+# reset line number
+}
+NF > 0 {
+if ($1 == lastword)
+printf "double %s, file %s, line %d\n",$1,FILENAME,NR
+for (i = 2; i <= NF; i++)
+if {$i == $(i-1»
+printf "double %s, file %s, line %d\n",$i,FILENAME,NR
+i f (NF > 0)
+lastword = $NF
+}' $*
+$
+The operator ++ increments its operand, and the operator -- decrements.
+The built-in variable FILENAME contains the name of the current input file.
+Since NR counts lines from the beginning of the input, we reset it every time
+the filename changes so an offending line is properly identified.
+The if statement is just like that in C:
+if ( condition)
+statement]
+else
+statement2
+If condition is true, then statement] is executed; if it is false, and if there is an
+else part, then statement2 is executed. The else part is optional.
+The for statement is a loop like the one in C, but different from the
+shell's:
+for ( expression]; condition; expression2)
+statement
+The for is identical to the following while statement, which is also valid in
+awk:
+expression]
+whi Ie ( condition) {
+statement
+expression2
+}
+For example,
+for (i = 2; i <= NF; i++)
+runs the loop with i set in turn to 2, 3, ..., up to the number of fields, NF.
+The break statement causes an immediate exit from the enclosing while
+or for; the continue statement causes the next iteration to begin (at condition in the while and expression2 in the for). The next statement causes
+the next input line to be read and pattern matching to resume at the beginning
+of the awk program. The exi t statement causes an immediate transfer to the
+END pattern.
+Arrays
+awk provides arrays, as do most programming languages. As a trivial
+example, this awk program collects each line of input in a separate array element, indexed by line number, then prints them out in reverse order:
+$ cat backwards
+# backwards: print input in backward line order
+awk' {line[NR] = $0 }
+END { for (i = NR; i > 0; i--) print line[i] } , $*
+$
+Notice that, like variables, arrays don't have to be declared; the size of an
+array is limited only by the memory available on your machine. Of course if a
+very large file is being read into an array, it may eventually run out of
+memory. To print the end of a large file in reverse order requires cooperation
+with tail:
+$ tail -5 /usr/dict/web2 : backwards
+zymurgy
+zymotically
+zymotic
+zymosthenic
+zymosis
+$
+tai 1 takes advantage of a file system operation called seeking, to advance to
+the end of a file without reading the intervening data. Look at the discussion
+of lseek in Chapter 7. (Our local version of tail has an option -r that
+prints the lines in reverse order, which supersedes backwards.)
+Normal input processing splits each input line into fields. It is possible to
+perform the same field-splitting operation on any string with the built-in function spl i t:
+n = split(s, arr, sep)
+.
+splits the string s into fields that are stored in elements 1 through n of the
+array arr. If a separator character sep is provided, it is used; ptherwise the
+current value of FS is used. For example, split( $0 ,a,":") splits the input
+line on colons, which is suitable for processing letc/passwd, and
+spli t ( "9/29/83" , date, "I") splits a date on slashes.
+$ sed 1q /etc/passwd : awk '(split($O,a,":"); print a[1]}'
+root
+$ echo 9/29/83 : awk '(split($O,date,"/"); print date[3]}'
+83
+$
+Table 4.5 lists the awk built-in functions.
+Table 4.5: awk Built-in Functions
+cosine of expr
+. I f expr
+exponentla 0 expr: e
+reads next input line; returns 0 if end of file, 1 if not
+position of string s2 in sl; returns 0 if not present
+integer part of expr; truncates toward 0
+length of string s
+natural logarithm of expr
+sine of expr
+split s into a [ 1 ] ...a [n] on character c; return n
+format ... according to specification fmt
+n-character substring of s beginning at position m
+Associative arrays
+A standard problem in data processing is to accumulate values for a set of
+name-value pairs. That is, from input like
+Susie 400
+John 100
+Mary 200
+Mary 300
+John 100
+Susie 100
+Mary 100
+we want to compute the total for each name:
+John 200
+Mary 600
+Susie 500
+awk provides a neat way to do this, the associative array. Although one normally thinks of array subscripts as integers, in awk any value can be used as a
+subscript. So
+{ sum[$1] += $2 }
+END { for {name in sum} print name, sum [name] }
+IS the complete program for adding up and printing the sums for the name-value pairs like those above, whether or not they are sorted. Each name ($1)
+is used as a subscript in sum; at the end, a special form of the for statement is
+used to cycle through all the elements of sum, printing them out. Syntactically, this variant of the for statement is
+for (var in array)
+statement
+Although it might look superficially like the for loop in the shell, it's unrelated. It loops over the subscripts of array, not the elements, setting var to
+each subscript in turn. The subscripts are produced in an unpredictable order,
+however, so it may be necessary to sort them. In the example above, the output can be piped into sort to list the people with the largest values at the top.
+$ awk '...' : sort +1nr
+The implementation of associative memory uses a hashing scheme to ensure
+that access to any element takes about the same time as to any other, and that
+(at least for moderate array sizes) the time doesn't depend on how many elements are in the array.
+The associative memory is effective for tasks like counting all the words in
+the input:
+$ cat wordfreq
+awk' {for (i = 1; i <= NF; i++) num[$i]++ }
+END { for (word in num) print word, num[word] }
+, $*
+$ wordfreq ch4.* , sort +1 , sed 20q , 4
+, -nr , ,
+the 372 .cw 345 of 220 is 185
+to 175 a 167 in 109 and 100
+. P 1 94 .P2 94 .PP 90 $ 87
+awk 87 sed 83 that 76 for 75
+The 63 are 61 line 55 print 52
+$
+The first f or loop looks at each word in the input line, incrementing the element of array num subscripted by the word. (Don't confuse awk's $i, the i'th
+field of the input line, with any shell variables.) After the files-ha1t!'been read,
+the second for loop prints, in arbitrary order, the words and their counts.
+Exercise 4-9. The output from wordfreq includes text formatting commands like . cw,
+which is used to print words in this font. How would you get rid of such n,pn-
+words? How would you use tr to make wordfreq work properly regardless of the
+case of its input? Compare the implementation and performance of wordfreq to the
+pipeline from Section 4.2 and to this one:
+sed '5/[ ][ ]*/\
+/g' $* : sort : uniq -c : sort -nr
+Strings
+Although both sed and awk are used for tiny jobs like selecting a single
+field, only awk is used to any extent for tasks that really require programming.
+One example is a program that folds long lines to 80 columns. Any line that
+exceeds 80 characters is broken after the 80th; a \ is appended as a warning,
+and the residue is processed. The final section of a folded line is right-justified, not left-justified, since this produces more convenient output for program listings, which is what we most often use fold for. As an example,
+using 20-character lines instead of 80,
+$ cat test
+A short line.
+A somewhat longer linee
+This line is quite a bit longer than the last one.
+$ fold test
+A short line.
+A somewhat longer li\
+nee
+This line is quite a\
+bit longer than the\
+last one.
+$
+Strangely enough, the 7th Edition provides no program for adding or
+removing tabs, although pr in System V will do both. Our implementation of
+f old uses sed to convert tabs into spaces so that awk's character count is
+right. This works properly for leading tabs (again typical of program source)
+but does not preserve columns for tabs in the middle of a line.
+# fold: fold long lines
+sed 's// /g' $* :
+awk '
+# convert tabs to 8 spaces
+BEGIN {
+N = 80 # folds at column 80
+for (i = 1; i <= N; i++) # make a string of blanks
+blanks ::: blanks VI "
+}
+{ if (en = length{$O» <= N)
+print
+else {
+for (i ::: 1; n > N; n -::: N) {
+printf "%s\\\n", substr{$O,i,N)
+i += N;
+}
+printf "%s%s\n", substr{blanks,1,N-n), substr{$O,i)
+}
+} ,
+In awk there IS no explicit string concatenation operator; strings are
+concatenated when they are adjacent. Initially, blanks is a null string. The
+loop in the BEGIN part creates a long string of blanks by concatenation: each
+trip around the loop adds one more blank to the end of blanks. The second
+loop processes the input line in chunks until the remaining part is short
+enough. As in C, an assignment statement can be used as an expression, so
+the construction
+if (( n == 1 ength ( $ 0 » < :: N) ...
+assigns the length of the input line to n before testing the value. Notice the
+parentheses.
+Exercise 4-10. Modify fold so that it will fold lines at blanks or tabs rather than splitting a word. Make it robust for long words. D
+Interaction with the shell
+Suppose you want to write a program field n that will print the n-th field
+from each line of input, so that you could say, for example,
+$ who 1 field 1
+to print only the login names. awk clearly provides the field selection capability; the main problem is passing the field number n to an awk program. Here
+is one implementation:
+awk '{ print $'$1' }'
+The $1 is exposed (it's not inside any quotes) and thus becomes the field
+number seen by awk. Another approach uses double quotes:
+awk "{ print \$$1 }"
+In this case, the argument is interpreted by the shell, so the '$ becomes a $
+and the $1 is replaced by the value of n. We prefer the single-quote style
+because so many extra ,'s are needed with the double-quote style in a typical
+awk program.
+A second example is addup n, which adds up the numbers in the n-th field:
+awk '{ s +== $'$1' }
+END { print s }'
+A third example forms separate sums of each of n columns, plus a grand
+total:
+awk '
+BEGIN { n = '$1' }
+{ for (i = 1; i <= n; i++)
+sum[i] += $i
+}
+END {
+for (i = 1; i <= n; i++) {
+printf "%6g ", sum[i]
+total += sum[i]
+}
+printf "; total = %6g\n", total
+} ,
+We use a BEGIN to insert the value of n into a variable, rather than cluttering
+up the rest of the pr0gram with quotes.
+The main problem with all these examples is not keeping track of whether
+one is inside Qr outside of the quotes (though that is a bother), but that as
+currently written, such programs can read only their standard input; there is no
+way to pass them both the parameter n and an arbitrarily long list of
+filenames. This requires some shell programming that we'll address in the next
+chapter.
+A calendar service based on awk
+Our final example uses associative arrays; it is also an illustration of how to
+interact with the shell, and demonstrates a bit about program evolution.
+The task is to have the system send you mail every morning that contains a
+reminder of upcoming events. (There may already be such a calendar service;
+see calendar( 1). This section shows an alternate approach.) The basic service should tell you of events happening today; the second step is to give a day
+of warning - events of tomorrow as well as today. The proper handling of
+weekends and holidays is left as an exercise.
+The first requirement is a place to keep the calendar. For that, a file called
+calendar in /usr/you seems easiest.
+$ cat calendar
+Sep 30 mother's birthday
+Oct 1 lunch with joe, noon
+Oct 1 meeting 4pm
+$
+Second, you need a way to scan the calendar for a date. There are many
+choices here; we will use awk because it is best at doing the arithmetic necessary to get from "today" to "tomorrow," but other programs like sed or
+egrep can also serve. The lines selected from the calendar are shipped off by
+mail, of course.
+Third, you need a way to have calendar scanned reliably and automatically every day, probably early in the morning. This can be done with at,
+which we mentioned briefly in Chapter 1.
+If we restrict the format of calendar so each line begins with a month
+name and a day as produced by date, the first draft of the calendar program
+IS easy:
+$ date
+Thu Sep 29 15:23:12 EDT 1983
+$ cat bin/calendar
+# calendar: version 1 -- today only
+awk <$HOME/calendar '
+BEGIN { split("''''date'''''', date) }
+$1 == date[2] && $2 == date[3]
+, : mail $NAME
+$
+The BEGIN block splits the date produced by date into an array; the second
+and third elements of the array are the month and the day. Weare assuming
+that the shell variable NAME contains your login name.
+The remarkable sequence of quote characters is required to capture the date
+in a string in the middle of the awk program. An alternative that is easier to
+understand is to pass the date in as the first line of input:
+$ cat bin/calendar
+# calendar: version 2 -- today only, no quotes
+(date; cat $HOME/calendar) :
+awk '
+NR == 1 { mon = $2; day = $3 } # set the date
+NR > 1 && $1 == mon && $2 == day # print calendar lines
+, : mail $NAME
+$
+The next step is to arrange for calendar to look for tomorrow as well as
+today. Most of the time all that is needed is to take today's date and add 1 to
+the day. But at the end of the month, we have to get the next month and set
+the day back to 1. And of course each month has a different number of days.
+This is where the associative array comes in handy. Two arrays, days and
+nextmon, whose subscripts are month names, hold the number of days in the
+month and the name of the next month. Then days[ "Jan"] is 31, and
+nextmon [ "Jan"] is Feb. Rather than create a whole sequence of statements
+like
+days["Jan"] = 31; nextmon["Jan"] = "Feb"
+days["Feb"] = 28; nextmon["Feb"] = "Mar"
+we will use split to convert a convenient data structure into the one really
+needed:
+$ cat calendar
+# calendar: version 3 -- today and tomorrow
+awk <$HOME/calendar '
+BEGIN {
+x = "Jan 31 Feb 28 Mar 31 Apr 30 May 31 Jun 30 " ,
+"Jul 31 Aug 31 Sep 30 Oct 31 Nov 30 Dec 31 Jan 31"
+split(x, data)
+for (i = 1; i < 24; i += 2) {
+days[data[i]] = data[i+1]
+nextmon[data[i]] = data[i+2]
+}
+split("'"'date'"'", date)
+mon1 = date[2]; day1 = date[3]
+mon2 = mon1; day2 = day1 + 1
+if (day1 >= days[mon1]) {
+day2 = 1
+mon2 = nextmon[mon1]
+}
+}
+$1 -- mon1 && $2 -- day1 I I $1 -- mon2 && $2 -- day2
+, I mail $NAME
+$
+Notice that Jan appears twice in the data; a "sentinel" data value like this simplifies processing for December.
+The final stage is to arrange for the calendar program to be run every day.
+What you want is for someone to wake up every morning at around 5 AM and
+run calendar. You can do this yourself by remembering to say (every day!)
+$ at Sam
+calendar
+ctl-d
+$
+but that's not exactly automatic or reliable. The trick is to tell at not only to
+run the calendar, but also to schedule the next run as well.
+$ cat early.morning
+calendar
+echo early.morning I at Sam
+$
+The second line schedules another at command for the next day, so once
+started, this sequence is self-perpetuating. The at command sets your PATH,
+current directory and other parameters for the commands it processes, so you
+needn't do anything special.
+Exercise 4-11. Modify calendar so it knows about weekends: on Friday, "tomorrow"
+includes Saturday, Sunday and Monday. Modify calendar to handle leap years.
+Should calendar know about holidays? How would you arrange it?
+Exercise 4-12. Should calendar know about dates inside a line, not just at the beginning? How about dates expressed in other formats, like 10/1/83? 0
+Exercise 4-13. Why doesn't calendar use getname instead of $NAME? 0
+Exercise 4-14. Write a personal version of rm that moves files to a telnporary directory
+rather than deleting them, with an at command to clean out the directory while you are
+sleeping. 0
+Loose ends
+awk is an ungainly language, and it's impossible to show all its capabilities
+in a chapter of reasonable size. Here are some other things to look at in the
+manual:
+. Redirecting the output of print into files and pipes: any print or
+printf statement can be followed by > and a filename (as a quoted string
+or in a variable); the output will be sent to that file. As with the shell, »
+appends instead of overwriting. Printing into a pipe uses I instead of >.
+. Multi-line records: if the record separator RS is set to newline, then input
+records will be separated by an empty line. In this way, several input lines
+can be treated as a single record.
+. "Pattern, pattern" as a selector: as in ed and sed, a range of lines can be
+specified by a pair of patterns. This matches lines from an occurrence of
+the first pattern until the next occurrence of the second. A simple example
+IS
+NR == 10, NR == 20
+which matches lines 10 through 20 inclusive.
+

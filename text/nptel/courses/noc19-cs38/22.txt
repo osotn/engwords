@@ -1,0 +1,104 @@
+Programming in C++
+Prof. Partha Pratim Das
+Department of Computer Science and Engineering
+Indian Institute of Technology, Kharagpur
+Lecture - 22
+Access Specifiers (Contd.)
+Welcome to part 2 of module 12 of Programming in C++. We have discussed in this
+module the different access specifier, so the visibility options of member of a class. We
+have learnt that there are public and private access specifiers which can be used to
+control who can access which part of the class. Public specifiers means that anyone, that
+is any global function or any other class can access the member which is specified as
+public, but if some member data member or method is specified as private then that data
+member or method can be accessed only from within the definition of the class or more
+precisely from other methods of the same class, but it cannot be access by anyone else.
+Based on this we have outline the principle of information hiding where we have
+prescribed that we should always have the attributes or data members as private and the
+methods as public giving us the basic hiding of the state from the behavior of the object.
+And we have seen example of that using a stack showing that if you expose the
+implementation if you put the data members in public then what kind of difficulties and
+risk that one would run, instead if the data members are private and only the methods of
+the stack type or stack class, push, pop, top and empty are public then an application
+would be able to seamlessly use a stack without being concerned about how the stack is
+actually implemented without running any risk of tampering the stack in the process of
+writing the application. Finally, we have shown how typically a code object-oriented C+
++ code should be organized for hiding information in terms of the header and
+implementation files.(Refer Slide Time: 02:41)
+We will next talk about an Idiom, which is a commonly known as the Get-Set Idiom
+which is used for fine grained access control in different members of a class or an object.
+We know that we will put all attributes in private and we will put methods in public and
+this restricts access to data completely which is, what one extreme that you can have.
+Now typically we would like to fine grained this access and we would like to provide
+selective public member functions or read functions or get methods or write functions or
+set methods on the data that we have protected by making them private.
+So, I just illustrate the whole idea in terms of an example, here is a class which I just call
+it as a class MyClass which is not very important. There are four data members assumed
+and I have not used any access specifier after the beginning of the class definition here
+which means that by default these data members are private there in, and these data
+members are intended in a way that the first data members read write is a data member
+which, as I being a data member it is private so nobody can directly come and change its
+value, but in terms of its use I would like to read and write its value. For example, this is
+a member like a re components of a complex number, im component of a complex
+number or so, I would need to read and set the value of this component if I am reading a
+complex number. If I am writing the current value of a complex number I will need to
+read the re, im component and then so on. A large number of data member aggregatemembers turned out to be read write. So, I need to provide some mechanism by which I
+should be able to do that and the simple way to do this is to provide a pair of get-set
+functions.
+What is the get, set function do? A get function say on the read write on this variable say
+has a name getReadWrite, it is simply takes this data member and returns it. This method
+is kept in the public space, so any external function or any other member functions of
+any other class can call the getReadWrite functions seamlessly, because it is available in
+the public space. And this in turn will access the private member and return its value. So
+in about a way we are selectively making this the value of this known to the external
+world with the control that whenever somebody has to do that somebody has to go
+through this particular (Refer Time: 05:46). For example, one what is the basic difference
+between providing this get and let us say similarly I have a set which can take a value v
+and actually a science is valued to the data members read write. So basically, if I have get
+and set both then I can read as well as write the value of this variable readWrite.
+Now you will wonder an (Refer Time: 06:14) question has to why do you want to make
+this private and then put a pair of public methods which can get and set this, we could
+have just made this public and anybody could have change that. But yes, in terms of read
+write this is similar, but there is a major difference because if I put it in public then the
+object will never get to know, when it is being this particular data member is being read
+or when it is being read. But if it is done through a function is a method then when it is
+being read I can also do some computation here. When is being written I can also do
+some computation before or after this value is written it to. So, the object will always be
+aware that the value of read write has been changed or the value of read write has been
+read by somebody. So, it is not exactly seem as to putting this data member as a public
+access.
+Now, coming to the other data members if we look into the next one we want to just
+make it read only. So, there is a lot of in terms of any model different real-world data
+types, encapsulations we will find that there are lot of data which is read only like date of
+birth. Date of birth of a person cannot keep on changing so it should be set to something
+when I create the object for that person and after that it should not be possible to change,is the best way to control that would be to make this a with the private access and then
+allow just a get function on it. So, which will allow somebody to read the date of birth
+and possibly compute age of that person or read the employee Id and check out, read the
+roll number of the student, and find the grade of the student and so on. All these get
+function will allow us to get that data but will not be able to change that data. So, which
+means that this particular if I just provide the get function and the responding data
+becomes read only data.
+Once you get this then obviously rest becomes very straight forward it is just completing
+the all possible combinations I can have a right only variable if you just have a set
+method on that variable but there is no get method do not wonder variables can be write
+only there are several variables which can be write only. One very common example is
+password, because password is so sensitive that normally you would not like to allow
+any mechanism at all to read a password all that you might want, might allow will have
+to allow is the is a mechanism to change the password when needed. So, password is
+something which you just write you never read that values. You can just have only set
+and not no get functions which makes it a write only.
+Similarly, in the final group you may have invisible members like the top of the stack or
+the data array of the stack you just do not want to know how the stack operates all that
+you want to know is push, pop, top and empty you should work. So, there should be no
+method at all either to read the value of top or data or to change/set the value of top or
+data, and therefore there should be no set-get methods on that. So, with this set-get idiom
+as you can see that we can create a very fine grain control on the accessibility of the data
+members and similar accessibility of different methods can also be done, but certainly
+get-set is a is a typical idiom that works for data members to allow you to do more finite
+things.(Refer Slide Time: 10:05)
+With this we will close on this module. In this module we have understood access
+specifiers how they help to control visibility of the class members, the public, and the
+private. They can be used as we have seen to hide information about the implementation
+of a class while exposing the behavior through the interface and we have specifically
+seen that get-set methods a specific idiom is often used in C++ to provide very fine grain
+control on the interface in terms of what access to the data members you want to provide
+in your design.

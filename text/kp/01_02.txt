@@ -1,0 +1,393 @@
+1.2 Day..to...day use: files and common commands
+Information in a UNIX system is stored in files, which are much like ordinary office files. Each file has a name, contents, a place to keep it, and some
+administrative information such as who owns it and how big it is. A file might
+contain a letter, or a list of names and addresses, or the source statements of a
+program, or data to be used by a program, or even programs in their executable form and other non-textual material.
+The UNIX file system is organized so you can maintain your own personal
+files without interfering with files belonging to other people, and keep people
+from interfering with you too. There are myriad programs that manipulate
+files, but for now, we will look at only the more frequently used ones.
+Chapter 2 contains a systematic discussion of the file system, and introduces
+many of the other file-related commands.
+Creating files -- the editor
+If you want to type a paper or a letter or a program, how do you get the
+information stored in the machine? Most of these tasks are done with a text
+editor, which is a program for storing and manipulating information in the
+computer. Almost every UNIX system has a screen editor, an editor that takes
+advantage of modern terminals to display the effects of your editing changes in
+context as you make them. Two of the most popular are vi and emacs. We
+won't describe any specific screen editor here, however, partly because of typographic limitations, and partly because there is no standard one.
+There is, however, an older editor called ed that is certain to be available
+on your system. It takes no advantage of special terminal features, so it will
+work on any terminal. It also forms the basis of other essential programs
+(including some screen editors), so it's worth learning eventually. Appendix 1
+contains a concise description.
+No matter what editor you prefer, you'll have to learn it well enough to be
+able to create files. We'll use ed here to make the discussion concrete, and to
+ensure that you can make our examples run on your system, but by all means
+use whatever editor you like best.
+To use ed to create a file called junk with some text in it, do the following:
+$ ed
+a
+now type in
+whatever text you want ...
+Invokes the text editor
+ed command to add text
+w junk
+39
+q
+$
+The command a ("append") tells ed to start collecting text. The"." that signals the end of the text must be typed at the beginning of a line by itself.
+Don't forget it, for until it is typed, no other ed commands will be recognized
+- everything you type will be treated as text to be added.
+The editor command w ("write") stores the information that you typed;
+"w junk" stores it in a file called junk. The filename can be any word you
+like; we picked junk to suggest that this file isn't very important.
+ed responds with the number of characters it put in the file. Until the w
+command, nothing is stored permanently, so if you hang up and go home the
+information is not stored in the file. (If you hang up while editing, the data
+you were working on is saved in a file called ed. hup, which you can continue
+with at your next session.) If the system crashes (i.e., stops unexpectedly
+because of software or hardware failure) while you are editing, your file will
+contain only what the last write command placed there. But after w the information is recorded permanently; you can access it again later by typing
+Type a '.' by itself to stop adding text
+Write your text into a file called junk
+ed prints number of characters written
+Quit ed
+$ ed junk
+Of course, you can edit the text you typed in, to correct spelling mistakes,
+change wording, rearrange paragraphs and the like. When you're done, the q
+command ("quit") leaves the editor.
+What files are out there?
+Let's create two files, junk and temp, so we know what we have:
+$ ed
+a
+To be or not to be
+w junk
+19
+q
+$ ed
+a
+That is the question.
+w temp
+22
+q
+$
+The character counts from ed include the character at the end of each line,
+called newline, which is how the system represents RETURN.
+The Is command lists the names (not contents) of files:
+$ Is
+junk
+temp
+$
+which are indeed the two files just created. (There might be others as well
+that you didn't create yourself.) The names are sorted into alphabetical order
+automatically.
+Is, like most commands, has options that may be used to alter its default
+behavior. Options follow the command name on the command line, and are
+usually made up of an initial minus sign '-' and a single letter meant to suggest
+the meaning. For example, Is -t causes the files to be listed in "time" order:
+the order in which they were last changed, most recent first.
+$ Is -t
+temp
+junk
+$
+The -1 option gives a "long" listing that provides more information about each
+file:
+$ Is -1
+total 2
+-rw-r--r-- 1 you
+-rw-r--r-- 1 you
+$
+19 Sep 26 16:25 junk
+22 Sep 26 16:26 temp
+"total 2" tells how many blocks of disc space the files occupy; a block is
+usually either 512 or 1024 characters. The string -rw-r--r-- tells who has
+permission to read and write the file; in this case, the owner (you) can read
+and write, but others can only read it. The" 1" that follows is the number of
+links to the file; ignore it until Chapter 2. "you" is the owner of the file, that
+is, the person who created it. 19 and 22 are the number of characters in the
+corresponding files, which agree with the numbers you got from ed. The date
+and time tell when the file was last changed.
+Options can be grouped: Is -It gives the same data as Is -1, but sorted
+with most recent files first. The -u option gives information on when files
+were used: Is -lut gives a long (-1) listing in the order of most recent use.
+The option -r reverses the order of the output, so Is -rt lists in order of
+least recent use. You can also name the files you're interested in, and 1 swill
+list the information about them only:
+$ 15 -1 junk
+-rw-r--r-- 1 you
+$
+19 Sep 26 16:25 junk
+The strings that follow the program name on the command line, such as -1
+and junk in the example above, are called the program's arguments. Arguments are usually options or names of files to be used by the command.
+Specifying options by a minus sign and a single letter, such as -t or the
+combined -It, is a common convention. In general, if a command accepts
+such optional arguments, they precede any filename arguments, but may otherwise appear in any order. But UNIX programs are capricious in their treatment
+of multiple options. For example, standard 7th Edition Is won't accept
+$ 15 -1 -t
+Doesn't work in 7th Edition
+as a synonym for Is -It, while other programs require multiple options to be
+separated.
+As you learn more, you will find that there is little regularity or system to
+optional arguments. Each command has its own idiosyncrasies, and its own
+choices of what letter means what (often different from the same function in
+other commands). This unpredictable behavior is disconcerting and is often
+cited as a major flaw of the system. Although the situation is improving -
+new versions often have more uniformity - all we can suggest is that you try
+to do better when you write your own programs, and in the meantime keep a
+copy of the manual handy.
+Printing files - cat and pr
+Now that you have some files, how do you look at their contents? There
+are many programs to do that, probably more than are needed. One possibility
+is to use the editor:
+$ ed junk
+19
+1,$p
+To be or not to be
+q
+$
+ed reports 19 characters in junk
+Print lines 1 through last
+File has only one line
+All done
+ed begins by reporting the numbr of characters in junk; the command 1, $p
+tells it to print all the lines in the file. After you learn how to use the editor,
+you can be selective about the parts you print.
+There are times when it's not feasible to use an editor for printing. For
+example, there is a limit - several thousand lines - on how big a file ed can
+handle. Furthermore, it will only print one file at a time, and sometimes you
+want to print several, one after another without pausing. So here are a couple
+of alternatives.
+First is cat, the simplest of all the printing commands. cat prints the contents of all the files named by its arguments:
+$ cat junk
+To be or not to be
+$ cat temp
+That is the question.
+$ cat junk temp
+To be or not to be
+That is the question.
+$
+The named file or files are catenatedt (hence the name "cat") onto the terminal one after another with nothing between.
+There's no problem with short files, but for long ones, if you have a high-speed connection to your computer, you have to be quick with ctl-s to stop
+output from cat before it flows off your screen. There is no "standard" command to print a file on a video terminal one screenful at a time, though almost
+every UNIX system has one. Your system might have one called pg or more.
+Ours is called p; we'll show you its implementation in Chapter 6.
+Like cat, the command pr prints the contents of all the files named in a
+list, but in a form suitable for line printers: every page is 66 linyJs (11 inches)
+long, with the date and time that the file was changed, the page number, and
+the filename at the top of each page, and extra lines to skip over the fold in
+the paper. Thus, to print junk neatly, then skip to the top of a new page and
+print temp neatly:
+t "Catenate" is a slightly obscure synonym for "concatenate."
+$ pr junk temp
+Sep 26 16:25 1983 junk Page 1
+To be or not to be
+(60 more blank lines)
+Sep 26 16:26 1983 temp Page 1
+That is the question.
+(60 more blank lines)
+$
+pr can also produce multi-column output:
+$ pr -3 filenalnes
+prints each file in 3-column format. You can use any reasonable number in
+place of "3" and pr will do its best. (The word filenames is a place-holder for
+a list of names of files.) pr -m will print a set of files in parallel columns.
+See pr( 1).
+It should be noted that pr is not a formatting program in the sense of rearranging lines and justifying margins. The true formatters are nroff and
+troff, which are discussed in Chapter 9.
+There are also commands that print files on a high-speed printer. Look in
+your manual under names like Ip and Ipr, or look up "printer" in the permuted index. Which to use depends on what equipment is attached to your
+machine. pr and Ipr are often used together; after pr formats the information properly, Ipr handles the mechanics of getting it to the line printer. We
+will return to this a little later.
+Moving, copying, removing flies - mv, cp, rm
+Let's look at some other commands. The first thing is to change the name
+of a file. Renaming a file is done by "moving" it from one name to another,
+like this:
+$ mv junk precious
+This means that the file that used to be called junk is now called precious;
+the contents are unchanged. If you run Is now, you will see a different list:
+junk is not there but precious is.
+$ 1s
+precious
+temp
+$ cat junk
+cat: can't open junk
+$
+Beware that if you move a file to another one that already exists, the target file
+is replaced.
+To make a copy of a file (that is, to have two versions of something), use
+the cp command:
+$ cp precious precious.save
+makes a duplicate copy of precious in precious. save.
+Finally, when you get tired of creating and moving files, the rm command
+removes all the files you name:
+$ rm temp junk
+rm: junk nonexistent
+$
+You will get a warning if one of the files to be removed wasn't there, but otherwise rm, like most UNIX commands, does its work silently. There is no
+prompting or chatter, and error messages are curt and sometimes unhelpful.
+Brevity can be disconcerting to newcomers, but experienced users find talkative
+commands annoying.
+What's in a filename?
+So far we have used filenames without ever saying what a legal name is, so
+it's time for a couple of rules. First, filenames are limited to 14 characters.
+Second, although you can use almost any character in a filename, common
+sense says you should stick to ones that are visible, and that you should avoid
+characters that might be used with other meanings. We have already sed, for
+example, that in the Is command, Is -t means to list in time order. So if
+you had a file whose name was -t, you would have a tough time listing it by
+name. (How would you do it?) Besides the minus sign as a first character,
+there are other characters with special meaning. To avoid pitfalls, you would
+do well to use only letters, numbers, the period and the underscore until you're
+familiar with the situation. (The period and the underscore are conventionally
+used to divide filenames into chunks, as in precious. save above.) Finally,
+don't forget that case distinctions matter - junk, Junk, and JUN-K are three
+different names.
+A handful of useful commands
+Now that you have the rudiments of creating files, listing their names, and
+printing their contents, we can look at a half-dozen file-processing commands.
+To make the discussion concrete, we'll use a file called poem that contains a
+familiar verse by Augustus De Morgan. Let's create it with ed:
+$ ed
+a
+Great fleas have little fleas
+upon their backs to bite 'em,
+And little fleas have lesser fleas,
+and so ad infinitum.
+And the great fleas themselves, in turn,
+have greater fleas to go on;
+While these again have greater still,
+and greater still, and so on.
+w poem
+263
+q
+$
+The first command counts the lines, words and characters In one or more
+files; it is named we after its word-counting function:
+$ we poem
+8
+46
+263 poem
+$
+That is, poem has 8 lines, 46 words, and 263 characters. The definition of a
+"word" is very simple: any string of characters that doesn't contain a blank,
+tab or newline.
+we will count more than one file for you (and print the totals), and it will
+also suppress any of the counts if requested. See we( 1) .
+The second command is called grep; it searches files for lines that match a
+pattern. (The name comes from the ed command g/regular-expression/p,
+which is explained in Appendix 1.) Suppose you want to look for the word
+"fleas" in poem:
+$ grep fleas poem
+Great fleas have little fleas
+And little fleas have lesser fleas,
+And the great fleas themselves, in turn,
+have greater fleas to go on;
+$
+grep will also look for lines that don't match the pattern, when the option -v
+is used. (It's named 'v' after the editor command; you can think of it as
+inverting the sense of the match.)
+$ grep -v fleas poem
+upon their backs to bite 'em,
+and so ad infinitum.
+While these again have greater still,
+and greater still, and so on.
+$
+grep can be used to search several files; in that case it will prefix the
+filename to each line that matches, so you can tell where the match took place.
+There are also options for counting, numbering, and so on. grep will also
+handle much more complicated patterns than just words like "fleas," but we
+will defer consideration of that until Chapter 4.
+The third command is sort, which sorts its input into alphabetical order
+line by line. This isn't very interesting for the poem, but let's do it anyway,
+just to see what it looks like:
+$ sort poem
+and greater still, and so on.
+and so ad infinitum.
+have greater fleas to go on;
+upon their backs to bite 'em,
+And little fleas have lesser fleas,
+And the great fleas themselves, in turn,
+Great fleas have little fleas
+While these again have greater still,
+$
+The sorting is line by line, but the default sorting order puts blanks first, then
+upper case letters, then lower case, so it's not strictly alphabetical.
+sort has zillions of options to control the order of sorting - reverse
+order, numerical order, dictionary order, ignoring leading blanks, sorting on
+fields within the line, etc. - but usually one has to look up those options to be
+sure of them. Here are a handful of the most common:
+sort -r
+sort -n
+sort -nr
+sort -f
+sort +n
+Reverse normal order
+Sort in numeric order
+Sort in reverse numeric order
+Fold upper and lower case together
+Sort starting at n + l-st field
+Chapter 4 has more information about sort.
+Another file-examining command is tail, which prints the last 10 lines of
+a file. That's overkill for our eight-line poem, but it's good for larger files.
+Furthermore, tail has an option to specify the number of lines, so to print
+the last line of poem:
+$ tail -1 poem
+and greater still, and so on.
+$
+tail can also be used to print a file starting at a specified line:
+$ tail +3 filename
+starts printing with the 3rd line. (Notice the natural inversion of the mInus
+sign convention for arguments.)
+The final pair of commands is for comparing files. Suppose that we have a
+variant of poem in the file new_poem:
+$ cat poem
+Great fleas have little fleas
+upon their backs to bite 'em,
+And little fleas have lesser fleas,
+and so ad infinitum.
+And the great fleas themselves, in turn,
+have greater fleas to go on;
+While these again have greater still,
+and greater still, and so on.
+$ cat new_poem
+Great fleas have little fleas
+upon their backs to bite them,
+And little fleas have lesser fleas,
+and so on ad infinitum.
+And the great fleas themselves, in turn,
+have greater fleas to go on;
+While these again have greater still,
+and greater still, and so on.
+$
+There's not much difference between the two files; in fact you'll have to look
+hard to find it. This is where file comparison commands come in handy. cmp
+finds the first place where two files differ:
+$ cmp poem new_poem
+poem new_poem differ: char 58, line 2
+$
+This says that the files are different in the second line, which is true enough,
+but it doesn't say what the difference is, nor does it identify any differences
+beyond the first.
+The other file comparison command is diff, which reports on all lines that
+are changed, added or deleted:
+$ diff poem new_poem
+2c2
+< upon their backs to bite 'em,
+> upon their backs to bite them,
+4c4
+< and so ad infinitum.
+> and so on ad infinitum.
+$
+This says that line 2 in the first file (poem) has to be changed into line 2 of the
+second file (new _poem), and similarly for line 4.
+Generally speaking, cmp is used when you want to be sure that two files
+really have the same contents. It's fast and it works on any kind of file, not
+just text. diff is used when the files are expected to be somewhat different,
+and you want to know exactly which lines differ. diff works only on files of
+text.
+A summary of file system commands
+Table 1.1 is a brief summary of the commands we've seen so far that deal
+with files.
+`

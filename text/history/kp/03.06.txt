@@ -1,0 +1,194 @@
+3.6 Shell variables
+The shell has variables, like those in most programming languages, which
+in shell jargon are sometimes called parameters. Strings such as $ 1 are positional parameters - variables that hold the arguments to a shell file. The digit
+indicates the position on the command line. We have seen other shell variables: PATH is the list of directories to search for commands, HOME is your
+login directory, and so on. Unlike variables in a regular language, the argument variables cannot be changed; although PATH is a variable whose value is
+$PATH, there is no variable 1 whose value is $1. $1 is nothing more than a
+compact notation for the first argument.
+Leaving positional parameters aside, shell variables can be created, accessed
+and modified. For example,
+$ PATH=:/bin:/usr/bin
+is an assignment that changes the search path. There must be no spaces
+around the equals sign, and the assigned value must be a single word, which
+means it must be quoted if it contains shell metacharacters that should not be
+interpreted. The value of a variable is extracted by preceding the name by a
+dollar sign:
+$ PATH=$PATH:/usr/games
+$ echo $PATH
+:/usr/you/bin:/bin:/usr/bin:/usr/games
+$ PATH=: /usr /you/bin: /bin : /usr /bin Restore it
+$
+Not all variables are special to the shell. You can create new variables by
+assigning them values; traditionally, variables with special meaning are spelled
+in upper case, so ordinary names are in lower case. One of the common uses
+of variables is to remember long strings such as pathnames:
+$ pwd
+/usr/you/bin
+$ dir= 'pwd"
+$ cd /usr/mary/bin
+$ In $dir/cx tJ
+$
+$ cd $dir
+$ pwd
+/usr/you/bin
+$
+Remember where we are
+Go somewhere else
+Use the variable in a filename
+Work for a while
+Return
+The shell built-in command set displays the values of all your defined variables. To see just one or two variables, echo is more appropriate.
+$ set
+HOME=/usr/you
+IFS=
+PATH=:/usr/you/bin:/bin:/usr/bin
+PS1=$
+PS2=>
+dir=/usr/you/bin
+$ echo $dir
+/usr/you/bin
+$
+The value of a variable is associated with the shell that creates it, and is not
+automatically passed to the shell's children.
+$ x=Hello
+$ sh
+$ echo $x
+Create x
+New shell
+$ ctl- d
+$
+$ echo $x
+Hello
+$
+Newline only: x undefined in the sub-shell
+Leave this shell
+Back in original shell
+x still defined
+This mearJl3 that a shell file cannot change the value of a variable, because the
+shell file is run by a sub-shell:
+$ echo 'x="Good Bye"
+> echo $x' >setx
+$ cat setx
+x="Good Bye"
+echo $x
+$ echo $x
+Hello
+$ sh setx
+Good Bye
+$ echo $x
+Hello
+$
+Make a two-line shell file...
+. .. to set and print x
+x is He 110 in original shell
+x is Good Bye in sub-shell...
+.. .but still Hello in this shell
+There are times when using a shell file to change shell variables would be
+useful, however. An obvious example is a file to add a new directory to your
+PATH. The shell therefore provides a command '.' (dot) that executes the
+commands in a file in the current shell, rather than in a sub-shell. This was
+originally invented so people could conveniently re-execute their . profile
+files without having to log in again, but it has other uses:
+$ cat /usr/you/bin/games
+PATH=$PATH: /usr/games Append /usr/games to PATH
+$ echo $PATH
+:/usr/you/bin:/bin:/usr/bin
+$ . games
+$ echo $PATH
+:/usr/you/bin:/bin:/usr/bin:/usr/games
+$
+The file for the '.' command is searched for with the PATH mechanism, so it
+can be placed in your bin directory.
+When a file is executing with '. " it is only superficially like running a shell
+file. The file is not "executed" in the usual sense of the word. Instead, the
+commands in it are interpreted exactly as if you had typed them interactively
+- the standard input of the shell is temporarily redirected to come from the
+file. Since the file is read but not executed, it need not have execute permissions. Another difference is that the file does not receive command line arguments; instead, $1, $2 and the rest are empty. It would be nice if arguments
+were passed, but they are not.
+The other way to set the value of a variable in a sub-shell is to assign to it
+explicitly on the command line before the command itself:
+$ echo 'echo $x' >echox
+$ cx echox
+$ echo $x
+Hello
+$ echox
+As before
+x not set in sub-shell
+$ x=Hi echox
+Hi
+$
+Value of x passed to sub-shell
+(Originally, assignments anywhere in the command line were passed to the
+command, but this interfered with dd( 1).)
+The '.' mechanism should be used to change the value of a variable permanently, while in-line assignments should be used for temporary changes. As
+an example, consider again searching /usr /games for commands, with the
+directory not in your PATH:
+$ 1s /usr/games : grep fort
+fortune Fortune cookie command
+$ fortune
+fortune: not found
+$ echo $PATH
+:/usr/you/bin:/bin:/usr/bin /usr/games not in PATH
+$ PATH=/usr/games fortune
+Ring the bell; close the book; quench the candle.
+$ echo $PATH
+: /usr /you/bin: /bin: /usr /bin PATH unchanged
+$ cat /usr/you/bin/games
+PATH=$PATH: /usr/games games command still there
+$ . games
+$ fortune
+Premature optimization is the root of all evil - Knuth
+$ echo $PATH
+: /usr/you/bin: /bin: /usr/bin: /usr/games PATH changed this time
+$
+It's possible to exploit both these mechanisms in a single shell file. A
+slightly different games command can be used to run a single game without
+changing PATH, or can set PATH permanently to include /usr/games:
+$ cat /usr/you/bin/games
+PATH=$PATH:/usr/games $* Noe $*
+$ cx /usr/you/bin/games
+$ echo $PATH
+: /usr /you/bin: /bin: /usr /bin Doesn't have /usr / game s
+$ games fortune
+I'd give my right arm to be ambidextrous.
+$ echo $PATH
+: /usr /you/bin : /bin : /usr /bin Still doesn't
+$ . games
+$ echo $PATH
+:/usr/you/bin:/bin:/usr/bin:/usr/games Now it does
+$ fortune
+He who hesitates is sometimes saved.
+$
+The first call to games ran the shell file in a sub-shell, where PATH was temporarily modified to include /usr/games. The second example instead interpreted the file in the current shell, with $ * the empty string, so there was no
+command on the line, and PATH was modified. Using games in these two
+ways is tricky, but results in a facility that is convenient and natural to use.
+When you want to make the value of a variable accessible in sub-shells, the
+shell's export command should be used. (You might think about why there
+is no way to export the value of a variable from a sub-shell to its parent.)
+Here is one of our earlier examples, this time with the variable exported:
+$ x=Hell0
+$ export x
+$ sh
+$ echo $x
+Hello
+New shell
+x known in sub-shell
+$ x='Good Bye'
+$ echo $x
+Good Bye
+$ ctl-d
+$
+$ echo $x
+Hello
+$
+Change its value
+Leave this shell
+Back in original shell
+x still He 110
+export has subtle semantics, but for day-to-day purposes at least, a rule of
+thumb suffices: don't export temporary variables set for short-term convenience, but always export variables you want set in an your shells and sub-shells
+(including, for example, shells started with the ed's ! command). Therefore,
+variables special to the shell, such as PATH and HOME, should be exported.
+Exercise 3-13. Why do we always include the current directory in PATH? Where
+should it be placed?
+

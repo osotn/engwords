@@ -1,0 +1,230 @@
+2.4 Permissions
+E very file has a set of permissions associated with it, which determine who
+can do what with the file. If you're so organized that you keep your love
+letters on the system, perhaps hierarchically arranged in a directory, you probably don't want other people to be able to read them. You could therefore
+change the permissions on each letter to frustrate gossip (or only on some of
+the letters, to encourage it), or you might just change the permissions on the
+directory containing the letters, and thwart snoopers that way.
+But we must warn you: there is a special user on every UNIX system, called
+the super-user, who can read or modify any file on the system. The special
+login name root carries super-user privileges; it is used by system administrators when they do system maintenance. There is also a command called su
+that grants super-user status if you know the root password. Thus anyone
+who knows the super-user password can read your love letters, so don't keep
+sensitive material in the file system.
+If you need more privacy, you can change the data in a file so that even the
+super-user cannot read (or at least understand) it, using the crypt command
+(crypt(l)). Of course, even crypt isn't perfectly secure. A super-user can
+change the crypt command itself, and there are cryptographic attacks on the
+crypt algorithm. The former requires malfeasance and the latter takes hard
+work, however, so crypt is in practice fairly secure.
+In real life, most security breaches are due to passwords that are given
+away or easily guessed. Occasionally, system administrative lapses make it
+possible for a maJicious user to gain super-user permission. Security issues are
+discussed further in some of the papers cited in the bibliography at the end of
+this chapter.
+When you log in, you type a name and then verify that you are that person
+by typing a password. The name is your login identification, or login-id. But
+the system actually recognizes you by a number, called your user-id, or uid. In
+fact different login-id's may have the same uid, making them indistinguishable
+to the system, although that is relatively rare and perhaps undesirable for secu-
+rity reasons. Besides a uid, you are assigned a group identification, or group-id, which places you in a class of users. On many systems, all ordinary users
+(as opposed to those with login-id's like root) are placed in a single group
+called other, but your system may be different. The file system, and therefore the UNIX system in general, determines what you can do by the
+permissions granted to your uid and group-id.
+The file / etc/pas swd is the password file; it contains all the login information about each user. You can discover your uid and group-id, as does the
+system, by looking up your name in /etc/passwd:
+$ grep you /etc/passwd
+you:gkmbCTrJ04COM:604:1:Y.O.A.People:/usr/you:
+$
+The fields in the password file are separated by colons and are laid out like this
+(as seen in passwd(5)):
+login-id: encrypted-password: uid: group-id: miscellany: login-directory: shell
+The file is ordinary text, but the field definitions and separator are a convention agreed upon by the programs that use the information in the file.
+The shell field is often empty, implying that you use the default shell,
+/bin/sh. The miscellany field may contain anything; often, it has your name
+and address or phone number.
+Note that your password appears here in the second field, but only in an
+encrypted form. Anybody can read the password file (you just did), so if your
+password itself were there, anyone would be able to use it to masquerade as
+you. When you give your password to login, it encrypts it and compares the
+result against the encrypted password in /etc/passwd. If they agree, it lets
+you log in. The mechanism works because the encryption algorithm has the
+property that it's easy to go from the clear form to the encrypted form, but
+very hard to go backwards. For example, if your password is ka-boom, it
+might be encrypted as gkmbCTrJ04COM, but given the latter, there's no easy
+way to get back to the original.
+The kernel decided that you should be allowed to read /etc/passwd by
+looking at the permissions associated with the file. There are three kinds of
+permissions for each file: read (i.e., examine its contents), write (i.e., change
+its contents), and execute (i.e., run it as a program). Furthermore, different
+permissions can apply to different people. As file owner, you have one set of
+read, write and execute permissions. Your "group" has a separate set. Everyone else has a third set.
+The -1 option of Is prints the permissions information, among other
+things:
+$ Is -1 /etc/passwd
+-rw-r--r-- 1 root 5115 Aug 30 10:40 /etc/passwd
+$ Is -lg /etc/passwd
+-rw-r--r-- 1 adm 5115 Aug 30 10:40 /etc/passwd
+$
+These two lines may be collectively interpreted as: /etc/passwd is owned by
+login-id root, group adm, is 5115 bytes long, was last modified on August 30
+at 10:40 AM, and has one link (one name in the file system; we'll discuss links
+in the next section). Some versions of ls give both owner and group In one
+invocation.
+The string -rw-r- -r- - is how ls represents the permissions on the file.
+The first -- indicates that it is an ordinary file. If it were a directory, there
+would be a d there. The next three characters encode the file owner's (based
+on uid) read, write and execute permissions. rw- means that root (the
+owner) may read or write, but not execute the file. An executable file would
+have an x instead of a dash.
+The next three characters (r--) encode group permissions, in this case that
+people in group adm, presumably the system administrators, can read the file
+but not write or execute it. The next three (also r - -) define the permissions
+for everyone else - the rest of the users on the system. On this machine,
+then, only root can change the login information for a user, but anybody may
+read the file to discover the information. A plausible alternative would be for
+group adm to also have write permission on /ete/passwd.
+The file jete/group encodes group names and group-id's, and defines
+which users are in which groups. /ete/passwd identifies only your login
+group; the newgrp command changes your group permissions to another
+grou p.
+Anybody can say
+$ ed /etc/passwd
+and edit the password file, but only root can write back the changes. You
+might therefore wonder how you can change your password, since that involves
+editing the password file. The program to change passwords is called pas swd;
+you will probably find it in /bin:
+$ 1s -1 /bin/passwd
+-rwsr-xr-x 1 root
+$
+8454 Jan 4 1983 /bin/passwd
+(Note that /ete/passwd is the text file containing the login information,
+while /bin/passwd, in a different directory, is a file containing an executable
+program that lets you change the password information.) The permissions here
+state that anyone may execute the cDmmand, but only root can change the
+passwd command. But the s instead of an x in the execute field for the file
+owner states that, when the command is run, it is to be given the permissions
+corresponding to the file owner, in this case root. Because /bin/passwd is
+"set-uid" to root, any user can run the passwd command to edit the pass-
+word file.
+The set-uid bit is a simple but elegant ideat that solves a number of security
+problems. For example, the author of a game program can make the program
+set-uid to the owner, so that it can update a score file that is otherwise
+t The set-uid bit is patented by Dennis Ritchie.
+protected from other users' access. But the set-uid concept is potentially
+dangerous. /bin/passwd has to be correct; if it were not, it could destroy
+system information under root's auspices. If it had the permissions
+-rwsrwxrwx, it could be overwritten by any user, who could therefore replace
+the file with a program that does anything. This is particularly serious for a
+set-uid program, because root has access permissions to every file on the system. (Some UNIX systems turn the set -uid bit off whenever a file is modified,
+to reduce the danger of a security hole.)
+The set-uid bit is powerful, but used primarily for a few system programs
+such as pas swd. Let's look at a more ordinary file.
+$ 1s -1 /bin/who
+-rwxrwxr-x 1 root
+6348 Mar 29 1983 /bin/who
+$
+who is executable by everybody, and writable by root and the owner's group.
+What "executable" means is this: when you type
+$ who
+to the shell, it looks in a set of directories, one of which is /bin, for a file
+named "who." If it finds such a file, and if the file has execute permission,
+the shell calls the kernel to run it. The kernel checks the permissions, and, if
+they are valid, runs the program. Note that a program is just a file with execute permission. In the next chapter we will show you programs that are just
+text files, but that can be executed as commands because they have execute
+permission set.
+Directory permissions operate a little differently, but the basic idea is the
+same.
+$ 1s -ld .
+drwxrwxr-x 3 you
+$
+80 Sep 27 06:11 .
+The -d option of Is asks it to tell you about the directory itself, rather than its
+contents, and the leading d in the output signifies that' " ' is indeed a directory.
+An r field means that you can rea the directory, so you can find out what
+files are in it with Is (or od, for that matter). A w means that you can create
+and delete files in this directory, because that requires modifying and therefore
+writing the directory file.
+Actually, you cannot simply write in a directory - even root is forbidden
+to do so.
+$ who >.
+.: cannot create
+$
+Try to overwrite '.'
+You can't
+Instead there are system calls that create and remove files, and only through
+them is it possible to change the contents of a directory. The permissions idea,
+however, still applies: the w fields tell who can use the system routines to
+modify the directory.
+Permission to remove a file is independent of the file itself. If you have
+write permission in a directory, you may remove files there, even files that are
+protected against writing. The rm command asks for confirmation before
+removing a protected file, however, to check that you really want to do so -
+one of the rare occasions that a UNIX program double-checks your intentions.
+(The -f flag to rm forces it to remove files without question.)
+The x field in the permissions on a directory does not mean execution; it
+means "search." Execute permission on a directory determines whether the
+directory may be searched for a file. It is therefore possible to create a directory with mode - -x for other users, implying that users may access any file
+that they know about in that directory, but may not run Is on it or read it to
+see what files are there. Similarly, with directory permissions r - -, users can
+see (Is) but not use the contents of a directory. Some installations use this
+device to turn off /usr/games during busy hours.
+The chmod ( change mode) command changes permissions on files.
+$ chmod permissions filenames ...
+The syntax of the permissions is clumsy, however. They can be specified in
+two ways, either as octal numbers or by symbolic description. The octal
+numbers are easier to use, although the symbolic descriptions are sometimes
+convenient because they can specify relative changes in the permissions. It
+would be nice if you could say
+$ chmod rw-rw-rw- junk
+Doesn't work this way!
+rather than
+$ chmod 666 junk
+but you cannot. The octal modes are specified by adding together a 4 for
+read, 2 for write and 1 for execute permission. The three digits specify, as in
+Is, permissions for the owner, group and everyone else. The symbolic codes
+are difficult to explain; you must look in chmod( 1) for a proper description.
+For our purposes, it is sufficient to note that + turns a permission on and that
+- turns it off. For example
+$ chmod +x command
+allows everyone to execute command, and
+$ chmod -w file
+turns off write permission for everyone, including the file's owner. Except for
+the usual disclaimer about super-users, only the owner of a file may change the
+permissions on a file, regardless of the permissions themselves. Even if somebody else allows you to write a file, the system will not allow you to change its
+permission bits.
+$ 1s -ld /usr/mary
+drwxrwxrwx 5 mary 704 Sep 25 10:18 /usr/mary
+$ chmod 444 /usr/mary
+chmod: can't change /usr/mary
+$
+If a directory is writable, however, people can remove files in it regardless of
+the permissions on the files themselves. If you want to make sure that you or
+your friends never delete files from a directory, remove write permission from
+it:
+$ cd
+$ date >temp
+$ chmod -w .
+$ 1s -ld .
+dr-xr-xr-x 3 you
+$ rm temp
+rm: temp not removed
+$ chmod 775 .
+$ 1s -ld .
+drwxrwxr-x 3 you
+$ rm temp
+$
+Make directory unwritable
+80 Sep 27 11:48 .
+Can't remove file
+Restore permission
+80 Sep 27 11:48 .
+Now you can
+temp is now gone. Notice that changing the permIssIons on the directory
+didn't change its modification date. The modification date reflects changes to
+the file's contents, not its modes. The permissions and dates are not stored in
+the file itself, but in a system structure caned an index node, or i-node, the
+subject of the next section.
+Exercise 2-5. Experiment with chmod. Try different simple modes, like 0 and 1. Be
+careful not to damage your login directory!
+

@@ -1,0 +1,142 @@
+Introduction to Electromagnetism
+Prof. Manoj K. Harbola
+Department of Physics
+Indian Institute of Technology, Kanpur
+Lecture - 04
+What is Electric field?
+(Refer Slide Time: 00:10)
+How about Coulomb's force and how different charge is interact with each other? In
+particular we learnt, if there is a charge q 1 , another charge q 2 and the distance between them is
+r 12 . Then the force between them, let us say the force on 1 is given by 1 over 4 pi Epsilon 0,
+q 1 , q 2 over r 12 square, r 12 with the minus sign here unit vector or we load it even better 1 over
+4 pi Epsilon 0, q 1 , q 2 over r 12 q vector r from 2 to 1. This is r from 2 to 1. And this covered all
+the repulsive and attractive forces.
+−1 q 1 q 2
+1 q 1 q 2
+⃗
+^
+F 1 =
+r
+⃗
+2 r 12 =
+4 π ε 0 r 12
+4 π ε 0 r 3 12 21
+Now, the other thing we learnt that, how to experimentally checked that this dependence F is
+1 over r square. In today's lecture, we want to introduce a new idea called the electric field.
+Although, when dealing with electrostatic situation, description by electric field and the
+Coulomb's force were directly between two charges is the same as far as the forces on
+charges are concerned. But, we will see later that this is a conceptual advance, let me just talk
+a bit about it.(Refer Slide Time: 02:04)
+Let us look at a charge distribution and the force is applied on a charge q far away, and last
+time we saw that this force is given by integration dv over r minus r prime cubed charge
+distribution rho r prime acting on q.
+q
+⃗
+F =
+∫ dV ρ ( ⃗ r ' )
+4 π ε 0 | ⃗ ' | 2
+r ⃗ − r
+(Refer Slide Time: 02:41)What we learnt in last lecture is interior charge distribution is given, let us say this is rho r
+prime and I am calculating force on a charge q at a distance. So, let us make the co ordinate
+system, this is at vector r and this vector is given by r prime, the distance from here to here is
+this vector is r minus r prime. Then, the force on q is given as F is equal to 1 over 4 pi
+Epsilon 0.
+Since, this charge q, I will put a q here, integration volume integral rho r prime r minus r
+prime over modulus r minus r prime cubed. Notice that, this quantity here is actually 1 over r
+square or 1 over the distance between the charges square. When I integrate this, when I am
+calculating force due to each small distribution, small charge here and adding it up, which
+was a principle of superposition we learnt earlier. The question we ask now is, is it that I
+always need the other charge to find the force or this is original charge distribution itself does
+something in the space. So, that in other charge q feels a force, let us understand that.
+q
+dV
+⃗
+F =
+ρ (⃗
+r ' )(⃗ r − r ⃗ ' )
+∫
+4 π ε 0 | ⃗ ' | 3
+r ⃗ − r
+(Refer Slide Time: 04:17)
+What we are going to now say is that is the charge distribution, given here rho r prime itself
+creates a field around it that means, it distorts something around it. It creates a lot of linesaround it, so that if I put a charge somewhere, because of this whatever I have created which I
+am going to call the electric field, a force is applied on this.
+So, charge distributions creating an electric field around itself and I am going to denote it by
+E vector at r. So, that when charge q is put in this field, the force on this charge is given as q
+times E r. So, notice, what we are saying is, even if this charge is not there, due to the
+presence of this original charge distribution of field is created inside. By field, we mean at
+every point, at every point, there is a vector, at every point, there is a vector point in a certain
+direction and when I put an extra charge on this, it creates a force.
+⃗
+F =q ⃗
+E (⃗ r )
+Now, as far as calculating force on q is concerned, whether I think in terms of fields or I think
+in terms of when this charges are brought to whether there is a force, it does not make a
+difference. Then, why I am introducing such an idea of a field? Is it real? Can I really check,
+if there is a charge distribution it creates this field around itself? We will see later in the
+course that it is a real quantity that is capable of propagating from one place to the other. So,
+it is a real, real entity.
+So, from now onwards, we are going to focus on the electric field produced by charge
+distribution, because that is what really is a physical quantity, and later we will see that is
+what really you now take information from one place to the other or it apply forces on for a
+given charge. So, what we are going to now talk about is the electric field.(Refer Slide Time: 06:56)
+As I said is now that given any field E at r, the force on a charge q, put there is going to be q
+times this E r.
+⃗
+F =q ⃗
+E (⃗ r )
+That means, by definition electric field is nothing but force per unit charge direction and
+magnitude both are equivalent to force per unit charge. So, that is the way I am defining it
+mathematically, but conceptually is a advance, as I said, what we are actually suggesting is,
+given a charge distribution q, it is creating a field around itself.
+So, this exist something around it that I am calling the electric field and it is direction and
+magnitude is given by force is applied on a unit charge.(Refer Slide Time: 08:15)
+So, let us see, therefore given this distribution of charge the electric field by definition at
+point r is going to be 1 over 4 pi Epsilon 0, integration over this volume rho r prime over r
+minus r prime cubed times vector r minus r prime.
+q
+⃗
+F =
+∫ dV ρ ( ⃗ r ' )(⃗ r − r ⃗ ' )
+4 π ε 0 | ⃗ ' | 3
+r ⃗ − r
+Let us see, what we are doing, we are taking this as the origin, I am calculating field at a
+point r.
+Due to this charge distribution here and due to this small volume here, the electric field is
+given by at a distance r minus r prime. It is given by 1 over 4 pi Epsilon 0, dv rho r prime
+over r minus r prime cubed times r minus r prime. And due to this entire charge distribution, I
+just integrated all, this becomes the electric field by principle of super position.(Refer Slide Time: 09:38)
+For example, if I take a point charge, let us say at some position vector R, then the electric
+field at some other position r is going to be E equals 1 over 4 pi Epsilon 0. This is effective
+from here to here, this will be r minus R is going to be q over r minus R cubed r minus R.
+And the way it is going to look, I will draw it in different color is all these lines, three lines
+going away from this point charge, this is how I am going to denote it.
+So, notice that field exist everywhere, because given a unit charge or given any charge,
+anywhere around the point charge is going to experience a force. So, by definition field exists
+everywhere, but that field exist independent of whether the charges there or not, even that we
+do not feel any force this charge by itself is creating a field.(Refer Slide Time: 11:12)
+Let us look at a line charge, you know the previous lectures, we did a line charge of carrying
+a lambda per unit length and what we saw is that, it creates a field like this around it. So,
+anywhere around it, I put a charger experiences is a force, if I look at it from the top, let us
+look at it top, this is the line charge. The lines are all going out as you go further away; a field
+magnitude becomes a smaller sometimes indicate it by making smaller arrows, we go further
+away arrows becoming even smaller.
+So, by making these pictures, what I am making you feel is that, something exists around a
+given charge and that is what I am going to call electric field. And you also seen, how to
+obtain it from a given charge distribution, other the example of fields, let me just talk a bit
+about them, so that you get a feeling for this.(Refer Slide Time: 12:32)
+Other examples of fields, a very obvious example that you are familiar with is gravitational
+field, in which I can say that, if there is a mass, it creates a gravitational field around it. So,
+something exist that gravitational field exist, because if there is mass is being somewhere and
+given any other mass put here. It experiences is a force F vector whose magnitude is given by
+m times this gravitational field, which we call g, gravitational acceleration.
+(Refer Slide Time: 13:31)
+Another example of field is going to be, suppose there is fluid flowing and I try to see, how
+the velocity of this fluid is changing, this may be coming out of what a tap here and fluid mayflow like this. So, you see at each point, there is a different velocity associated with this water
+flowing out of the pipe. It obviously, each one follow the trajectory like this, but there at each
+point, there is a velocity, I can say, there is a velocity field.
+I can also ask, what is mass percent unit area, per unit time, flowing through any cross section
+here or a cross section here and that is what called current, which give me the direction of
+flow as well as the amount that fluid flowing. So, this current j r is also a field, which exist
+everywhere is a vector quantity. So, these are some example of the field, I given in two
+examples of what electric field around two different charges looks like.

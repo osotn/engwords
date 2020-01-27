@@ -1,0 +1,144 @@
+Beagle boards are compact, low-cost, open-source Linux computing platforms
+that can be used to build complex applications that interface high-level software and low-level electronic circuits. These are ideal platforms for prototyping
+project and product designs that take advantage of the power and freedom of
+Linux, combined with direct access to input/output pins and buses, allowing
+you to interface with electronics components, modules, and USB devices. The
+following are some characteristics of the single-board computing (SBC) boards:
+They are powerful, containing a processor that can perform up to 2 billion
+instructions per second.
+They are widely available at relatively low-cost, as little as $25–$90 depending on the board chosen.
+ They support many standard interfaces for electronics devices.
+ They use little power, running at between 1 W (idle) and 2.3 W (peak).
+ They are expandable through the use of daughter boards and USB devices.
+
+They are strongly supported by a huge community of innovators and
+enthusiasts.
+They are open-hardware and support open-software tools and applications for commercial and noncommercial applications.
+The BeagleBone and PocketBeagle boards run the Linux operating system,
+which means you can use many open-source software libraries and applications directly with them. Open-source software driver availability also enables
+you to interface devices such as USB cameras, keyboards and Wi-Fi adapters
+with your project, without having to source proprietary alternatives. Therefore,
+you have access to comprehensive libraries of code that have been built by a
+talented open-source community; however, it is important to remember that
+the code typically comes without any type of warranty or guarantee. If there
+are problems, then you have to rely on the good nature of the community to
+resolve them. Of course, you could also fix the problems yourself and make the
+solutions publicly available.
+The BeagleBoard.org Foundation is a U.S. nonprofit corporation that aims to
+provide embedded systems education in open-source hardware and software.
+Over the last ten years, the Foundation has developed high-quality boards that
+are renowned in the open-source community for their detailed documentation,
+for their extensive support, and for providing a strong bridge between idea
+prototyping and commercial product design.
+The platform boards are formed by the integration of a high-performance
+microprocessor on a printed circuit board (PCB) and an extensive software ecosystem. The physical PCB is not a complete product; rather, it is a
+prototype reference design that you can use to build a complete product. It is
+an open-hardware platform, meaning you can download and use the Beagle-
+Bone or PocketBeagle hardware schematics and layouts directly within your
+own product design. In fact, despite the impressive capability of these boards,
+they do not fully expose all the features and interfaces of the Texas Instruments
+Sitara AM335x System on Chip (SoC).
+Recent BeagleBone and PocketBeagle boards utilize an Octavo Systems System-in-Package (SiP), which incorporates the Sitara AM335x processor along with
+DDR memory, power management functionality, and all required passive components into a single ball-grid array (BGA) package, as displayed in Figure 1-1.
+This SiP design approach vastly simplifies the circuit layout of boards that are
+based on the AM335x processor platform and has allowed for the small formfactor of the PocketBeagle. You should keep this approach in mind should you
+decide to commercialize your designs, as it could accelerate the time-to-market
+of the final product by many months.
+One impressive feature of the Beagle platform is that board functionality can
+be extended with daughter boards, called capes, which connect to the expansion
+headers (the two black 2 × 23 connector rows in Figure 1-1(a), or the unpopulated
+2 × 18 rows in Figure 1-1(b)). You can design your own capes and attach them
+securely to your board using these headers. In addition, many capes are available for purchase that can be used to expand the functionality of your board.
+Some examples of these are described later in this chapter.
+The first five BeagleBone PCBs were designed by Gerald Coley, a co-founder
+of the BeagleBoard.org Foundation who is now the president of Embedded
+Product Design ( www.emprodesign.net ). Over the past few years, the boards and
+several of its capes have been manufactured by CircuitCo ( www.circuitco.com ),
+Element14 ( www.element14.com ), and its subsidiary Embest ( www.embest-tech.
+com ). Therefore, when you purchase a Beagle board, you are not purchasing it
+from the BeagleBoard.org Foundation; rather, the foundation is the focal point
+for a community of developers and users.
+
+Who Should Use the Beagle Platform
+Anybody who wants to transform an engineering concept into a real interactive
+electronics product, project, prototype, or work of art should consider using the
+Beagle platform. That said, integrating high-level software and low-level electronics is not an easy task. However, the difficulty involved in an implementation
+depends on the level of sophistication that the project demands.
+The BeagleBoard.org community is working hard to ensure their platform
+is accessible by everyone who is interested in integrating it into their projects,
+whether they are students, makers, artists, or hobbyists. Tools and software
+development environments, such as Jason Kridner’s BoneScript Node.js library
+(a co-founder of BeagleBoard.org) and the Cloud9 integrated development environment (IDE), enable users to write and build code directly in a web browser
+that is capable of controlling electronics hardware. The BoneScript library is
+introduced in Chapter 2.
+For more advanced users, with electronics or computing knowledge, the Beagle
+platform enables additional development and customization to meet specific
+project needs. Again, such customization is not trivial: You may be an electronics
+expert, but high-level software programming and/or the Linux operating system
+might cause you difficulty. Or, you may be a programming guru but you have
+never wired an LED! This book aims to cater to all types of users, providing
+each type of reader with enough Linux, electronics, and software exposure to
+ensure that you can be productive, regardless of your previous experience level.
+When to Use Beagle Boards
+The Beagle boards are perfectly placed for the integration of high-level software
+and low-level electronics in any type of project. Whether you are planning to build
+an automated home management system, robot, smart display, sensor network,
+vending machine, or internet-connected work of interactive art, the boards have
+the processing power to do whatever you can imagine of an embedded device.
+The major advantage over more traditional embedded systems, such as the
+Arduino, PIC, and AVR microcontrollers, is apparent when you leverage the
+Linux OS for your projects. For example, if you built a home automation system
+using the BeagleBone and you then decided that you wanted to make certain
+information available on the internet, you could simply install a web server.
+You could then use server-side scripting or your favorite programming language to interface with your home automation system to capture and share the
+information. Alternatively, your project might require secure remote access. In
+that case, you could install a secure shell (SSH) server simply by using the Linux
+command sudo apt install sshd (these commands are covered in Chapter 2).
+This could potentially save you weeks of development work. In addition, you
+have the comfort of knowing that the same software is running securely on
+millions of machines around the world. Linux also provides you with device
+driver support for many USB peripherals and adapters, making it possible for
+you to connect cameras, Wi-Fi adapters, and other low-cost consumer peripherals directly to your platform, without the need for complex and/or expensive
+software driver development. If you are connecting an embedded system to the
+...
+
+When Should You Not Use the Beagle Boards
+The Linux OS was not designed for real-time or predictable processing. As a result,
+there are significant challenges in using this OS for deterministic processing tasks
+such as sampling a sensor precisely every one-millionth of a second. Therefore,
+in its default state, the Beagle boards are not an ideal platform for real-time systems applications. Sophisticated real-time versions of Linux are available, but
+they are currently targeted at experienced Linux developers. However, unlike
+many other Linux SBCs, the BeagleBone does have an on-board solution that
+goes some way toward resolving this interfacing problem. Within the AM335x
+SoC, there are two on-board microcontrollers, called programmable real-time units
+(PRUs), which can be programmed for real-time interfacing applications. This
+is an advanced topic that is described in Chapt or to a display (e.g., a touchscreen or monitor), you should consider a
+Linux SBC such as the Beagle boards before any other option.
+There are low-cost dedicated solutions available for real-time sampling and
+control tasks (such as the TI MSP430 or SimpleLink wired and wireless MCUs)
+that may be more appropriate for real-time interfacing. It is also important to
+remember that you can interconnect such real-time microcontrollers to the Beagle
+boards via electrical buses (e.g., I 2 C, UART, CAN bus, and Ethernet) and have
+the Linux SBC act as the central processor for a distributed control system. This
+is an important concept as part of the Internet of Things (IoT) and is described
+in detail in Chapters 10, 11, and 12.
+The second application type that the Beagle platform will find difficult is
+that of playing or processing high-definition video. The processing overhead
+of software decoding and playing encoded video streams is immense and is
+beyond the capability of the BeagleBone at high-definition video resolutions.
+The Raspberry Pi ( www.raspberrypi.org ) board has this capability because its
+Broadcom BCM2835/7 processors were designed for multimedia applications, and
+it has a hardware implementation of H.264/MPG-4 decoders and encoders. For
+applications such as running Kodi home media center ( kodi.tv ), you are better
+off purchasing a Raspberry Pi 3 (Model B+). In addition, you should of course
+purchase my book, Exploring Raspberry Pi, from the same Wiley mini-series!
+If your intention is to develop an embedded Linux image processing or computer vision platform, then you should consider the Xilinx Zynq platform ( tiny.
+cc/beagle102 ), as it integrates an ARM-based processor that can run Linux
+alongside the hardware programmability of an FPGA. This allows the computationally intensive but parallelizable image processing functionality to be
+offloaded from the Linux kernel to the programmable logic hardware. Boards
+such as the PYNQ, ZYBO, or Arty Z7 are available, but be aware that they are
+complex devices.
+For interfacing Linux to electronic circuits, it is hard to beat the Beagle boards,
+as the range of input/outputs, openness of the platform, and quality of documentation available are second to none.
+
+

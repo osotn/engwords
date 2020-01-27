@@ -1,0 +1,782 @@
+So, we have seen few examples some one or
+two more we will see small example ah. For
+
+example or this thing example 1.9 right, that
+how much energy does a 200 watt electric ah
+
+lamp consume in 2 hours right. So, expression
+for energy is given as your you know that
+
+it is the p into t right.
+So, basically it is watt hour. So, this is
+
+power and this is your time . So, 200 watt
+and it is for 2 hour. So, 200 into 2 so, 400
+
+watt hour right , but we know that joule per
+second is equal to watt because you have seen
+
+p is equal to d w by dt w is the work done
+so, in joule. So, it is joule per second right
+
+therefore, one hour is equal to your 60 into
+60, 3600 second.
+
+So, this is 200 into 2. So, 400 into 1 hour
+this is hour right. So, 1 hour is equal to
+
+60 into 6 ah. So, this much of joule that
+is 720,000 joule and is equal to your 720
+
+kilo joule, because joule per second is equal
+to watt as well as you make this watt hour
+
+into watt second we are making this one watt
+second because one hour is equal to your 60
+
+into 60, so, 3600 second multiplied by this
+200 into 400. So, this much of watt second
+
+and joule per second is equal to watt. So,
+joule is equal to watt second. So, this much;
+
+that means, this unit actually watt second
+is equal to this joule is equal to 720 kilo
+
+joule. So, small example.
+Now, another example tell this is here look
+
+whenever we are taking time function here
+it is a we are anyway we are interested for
+
+initially for the dc circuit, but when we
+will go for single phase ac and 3 phase ac
+
+circuits at the time detail we learn, but
+little bit idea little bit of you know ah
+
+flavor you will get here that that much . So,
+for example, example 10 it is given derive
+
+an expression for the power for the voltage
+source shown in figure 1.12 this is your figure
+
+1.12 also compute the energy for the interval,
+t is equal to 0 to t is equal to infinity
+
+right .
+So, this is that this is the figure circuit
+
+element right, now this is the voltage source,
+now current i is equal to is given 2 into
+
+e to the power minus t ampere, this is the
+current i is equal to 2 it is the time function
+
+i is equal to say 2 into e to the power minus
+t ampere and this voltage v it is equal to
+
+12 volt.
+So, question is that that first thing is that
+
+this is a voltage source and current entering
+into the positive terminal right current entering
+
+into the positive terminal, but in this case
+just power expression will calculate that
+
+p is equal to you know that v into i therefore,
+current enter the positive polarity hence
+
+we can compute power as p is equal to vi.
+So, it is v is equal to 12 volt it is 12 volt
+
+right and i is equal to 2 into e to the power
+minus t ampere therefore, it is 12 into 2
+
+e to the power minus t 24 e to the power minus
+t watt these a time function, later we will
+
+see in ac circuit time function we will see,
+but just to give you a flavor .
+
+So, expression for energy transferred is given
+by it is given in between time t is equal
+
+to 0 to t is equal to infinity. So, here that;
+that means, your what you call energy transfer
+
+limit 0 to infinity p into dt right. So, you
+know p is power and t in terms of time second.
+
+So, what second it comes it will be joule
+then right.
+
+So, it is 0 to infinity 24 e to the power
+minus t dt. So, you integrate this much of
+
+joule you integrate this. So, it will be minus
+24 e to the power minus t 0 to infinity put
+
+this values you will get it is 24 joule right.
+So, expression for energy transferred it is
+
+actually 24 joule, I think this is simple
+thing it is understandable to all of you right
+
+slowly and slowly you have to understand now
+each and everything.
+
+So, active and passive circuit elements . So,
+an electric circuit is simply an interconnection
+
+of the elements earlier we have discussed
+above this right. So, circuit analysis is
+
+the process of determining the currents through
+the elements or the voltage across the elements
+
+of the circuit, either you have to find out
+the current through an element or the voltage
+
+across this elements right. So, that is our
+circuit analysis.
+
+So, basically there are 2 types of elements
+found in electric circuit one is active element,
+
+another is passive elements, actually active
+elements are those which are not passive or
+
+in the other way passive elements are those
+we cannot active something like this right,
+
+by considering the energy delivered to or
+by them right.
+
+So, a circuit element your is said to be passive
+if the total energy delivered to it your from
+
+the rest of the circuit is always nonnegative;
+that means, it is I mean it is it can be 0
+
+or positive right . So, a circuit element
+is said to be passive, if the total energy
+
+delivered to it from the rest of the circuit
+is nonnegative; that means, that the rest;
+
+that means, that suppose energy is equal to
+given for any initial time t 0 to t p into
+
+dt is energy because p is power and time watt
+second actually is equal to joule.
+
+So, this t is equal to t 0 t. So, p is equal
+to vi say t, but mathematically you can represent
+
+like this. So, t 0 to t limit it is vi dt
+it will be greater that equal to 0 then you
+
+can say it is a passive elements.
+Of course, an active element is one that is
+
+not passive just opposite right. So, if this
+is equation 1.10 first that was a equation
+
+10 right it does not hold for all time in
+general an active element is capable of generating
+
+energy while passive element is not active
+element it will generate energy, but passive
+
+element it cannot generate. For example that
+passive elements are resistors ah in general
+
+resistors, inductors and capacitors these
+are actually passive elements right and example
+
+of active elements are it is generators, batteries
+and operational amplifiers.
+
+So, these are certain things you should keep
+it in your mind. So, passive elements are
+
+resistors inductors or capacitors and active
+elements example are generators, batteries
+
+and your operational amplifiers. So, in this
+section we will be familiar with some of the
+
+your what you call that important active element.
+So, the most important active elements are
+
+voltage or current sources right. So, that
+generally deliver power to the circuit connected
+
+to them, either voltage source or current
+source just I would like to tell one thing
+
+in that introduction video I mention that
+thing that only handle independent sources,
+
+but let me tell you later I thought that your
+dependent sources also will be covering very
+
+simple thing then everything will be concrete
+right.
+
+So, dependent source also will be there, but
+very simple later you will know very simple.
+
+So, both your independent and dependent both
+sources will be considered right. So, there
+
+are 2 types of sources independent and dependent
+sources. So, will consider a both all the
+
+in the introduction be device said only independent
+later I realize no both will consider right.
+
+So, an independent voltage source is a basically
+a two - terminal element for example, your
+
+this is a voltage source say two terminal
+element right and symbol I will come to that
+
+later right ah. And that maintains a specified
+voltage between these 2 terminal between this
+
+terminal it is ah your this voltage is specified
+right between this 2 terminal right. The voltage
+
+is completely independent of this voltage
+is completely independent of the current right
+
+or or it is independent of the voltage of
+some other parts of the circuit right . So,
+
+physical sources such as generators and batteries
+may be regarded as appropriations to ideal
+
+voltage sources. So, either generator and
+batteries you can ah you can be regarded as
+
+your ideal voltage sources that way we will
+think.
+
+Now, one is look at the symbol here, one circle
+is there and it is plus minus this can be
+
+represented by dc as well as ac both you can
+dc one of the symbol right, I am not ah there
+
+not ac I said say time varying I will say
+time varying right. So, either plus minus
+
+it can be regarded as your dc source or time
+varying and this one value you make that one
+
+your what you call plus minus if you make
+the larger ah your larger one larger continuous
+
+line is plus and smaller one is minus. So,
+this is actually v or dc source right.
+
+But this one ah it can be used for constant
+or time varying voltage this can be this symbol
+
+meaning for both. So, if you use this symbol
+also absolutely correct or if it is a pure
+
+dc then this one this one also can be used
+for a pure dc . So, these 2 are symbol for
+
+your ah independent voltage sources right.
+So, similarly so, can be. So, that is why
+
+the whatever I said that can be used to represent
+dc voltage source, but the symbol of this
+
+thing can also. So, be used for a time varying
+voltage source, but dc as well as time varying
+
+both can be made .
+So, an independent current source, when it
+
+is independent current source again it is
+a two - terminal elements, it is a two - terminal
+
+element that provides a specified current
+right your what you call completely independent
+
+of the voltage ah across the source. So, this
+for this current source whatever it is there
+
+is completely independent of the voltage across
+the source right. So, this is totally these
+
+a symbol of the current source and these current
+source if this symbol is ah true for both
+
+ah dc as well ac right this symbol is two
+or both will ac we will see later.
+
+So, independent sources are usually meant
+to deliver power to the your external circuit.
+
+So, this symbol this figure one is a true
+for both dc and ac I have told you right . So,
+
+example i is equal to 2 ampere, if it is i
+is equal to 2 ampere say if i is equal to
+
+2 ampere here right then it is a pure dc source
+and if i is equal to say 2 sin 100 pi pi t
+
+then it is an ac current source, but this
+symbol this symbol is same for both dc as
+
+well as ac, when we will go much deeper we
+will know all this things in detail right.
+
+So, not making much exerciser wherever necessary
+I will do it. So, these thing is understandable
+
+right. So, now dependent sources are usually
+this dependent sources are usually a diamond
+
+shape. So, for example, this is plus minus
+this is dependent current source right an
+
+arrow is shown upward here right just for
+the purpose of example and this is your dependent
+
+voltage source; that means, dependent voltage
+source means this voltage whatever it is it
+
+may be function of current in the some part
+of the your some branch of the circuit or
+
+may be a function of some voltage across some
+elements of the circuit.
+
+Similarly, this current is may be the function
+of some other ah branch current in the circuit
+
+or may be function of some voltage across
+the ah your circuit. So, these are dependent.
+
+So, these are not ideal these are not constant
+these are dependent sources . So, symbol is
+
+this is diamond shape and this symbol is your
+like this that is the dependent sources these
+
+dependent voltage source and this is dependent
+current source.
+
+So many things are written here, but whatever
+I am telling meaning is same right. So, and
+
+a dependent or controlled voltage source is
+similar to an independent source except that
+
+the voltage across the source terminals is
+a function of other your what you call other
+
+voltages or current in the circuit for example,
+look. This is this is actually your dependent
+
+voltage source v 0 is given 2 into v x is
+general you can take a into v x right a maybe
+
+1 2 3 4 what is ever and below less than 1
+also .
+
+So, it is some 2 into v x is taken for, this
+is v x actually is the voltage in the circuit
+
+across some other branch right, but just symbolically
+it is shown that v 0 is equal 2 v x, a v x
+
+changes then v 0 will change right. So, this
+is actually called voltage controlled voltage
+
+source, because this v 0 is function of this
+voltage across some other element in the circuit
+
+say x. So, that is why it is written say v
+x . So, this is actually they voltage controlled
+
+voltage source, because v 0 is a function
+of v x and this v x is the voltage of the
+
+circuit act was some other element x right
+this why you imagine at the stage.
+
+Similarly, this is also this voltage v 0 it
+is taken 3 into i x, sometimes we call this
+
+is a gain parameter 3, it is 3 it may be 4
+5 2 1.2 it does not matter, just for the purpose
+
+of explanation we have taken v 0 is equal
+to 3 into i x. If the i x is the current through
+
+some other branch some branch x a and i x
+is changing to a v 0 is changing; that means,
+
+it is a it is actually called current controlled
+voltage source because these voltage source
+
+v 0 is function of the current, that is why
+it is called current controlled voltage source
+
+CCVS ah in short it is voltage controlled
+voltage source VCVS right .
+
+So, this is actually dependent source that
+ah your v is equal to your ah v 0 is equal
+
+to 2 v x or v 0 is equal to 3 i x these are
+called dependent source that is v 0 in case
+
+it may be function of voltage ah or may be
+function of current also right. So, this is
+
+when it is function of voltage it is called
+voltage controlled voltage source when these
+
+function of current it is called current controlled
+voltage source because it is because v 0 is
+
+a function of the current, I hope this is
+simple thing I hope it is understandable to
+
+you.
+Similarly, that means, whatever I said that
+
+everything, everything is written here this
+is figure 1.6 say 1.0 ab. So, whatever ,whatever
+
+I said everything, everything is everything
+is written here. So, I am not reading or not
+
+telling further everything is written here
+right and only thing is that here in this
+
+case ah whenever it is ah your dependent on
+the current so, this parameter this 3 you
+
+will call the gain parameter right.
+So, now the now next is the next is this is
+
+your what you call voltage source, now current
+flowing through a dependent current source
+
+is determined by a current or voltage elsewhere
+in the circuit for example. This is for example,
+
+say current controlled current source. So,
+this is a dependent ah current source this
+
+is i 0 is equal to say 2 into i x say 2 is
+it is 2 i have taken it may be 3 4 less than
+
+1 whatever it is it does not matter right,
+but further purpose of explanation say it
+
+is 2 into i x .
+So, this is actually current controlled current
+
+source because this i 0 the current is function
+of the current i x, i x may be the current
+
+of some element your in the your branch size
+current i x flowing some branch x a. So, this
+
+these actually that i 0 is equal to 2 into
+i x so; that means, it is current controlled
+
+current source whenever this is function of
+this one it is function of current i x. So,
+
+it is current controlled current source CCCS
+we call right.
+
+Similarly, this current when i 0 is 3 v x
+it is voltage controlled current source because
+
+this i 0 is function of the voltage v x ah.
+So, it it and this v x is maybe it is the
+
+voltage across ah your across the branch say
+x right. So, i 0 equal 3 your what you call
+
+this 3 i have taken 3 it may be 1 2 3 4 it
+does not matter this is also called gain parameter.
+
+So, i 0 is equal to 3 v x and this is your
+what you call voltage controlled current source.
+
+And another thing is that whenever we are
+showing this is plus minus it is shown right
+
+similarly for the current source whenever
+this arrow is upward this ah I mean it is;
+
+that means, that means current is leaving
+this terminal. So, this arrow this is your
+
+what you call that arrow upward means the
+current is leaving upward I mean current is
+
+moving flowing upward. So, current is flowing
+like this flowing like this right.
+
+So, this I mean if it is like this just hold
+on right. So, this is the that your what you
+
+call current is flowing like this, similarly
+this is your what you call that your upward
+
+this thing direction. So, current is flowing
+like this right. So, this is actually your
+
+ah upward direction is shown, if it is downward
+direction then naturally it will be reversal
+
+direction will be in other way so, this is
+the meaning that your upward.
+
+So, this is your what you call ah current
+source right just hold on. So, this is actually
+
+this currents source we are now ah now we
+are ah you have seen that your what you call
+
+a dependent voltage source and ah your dependent
+current source, both are dependent on either
+
+voltage or current right now. So, whatever
+I said that is your ah in the our this circuit
+
+everything, everything is explained here,
+everything is explained here.
+
+So, it is simple thing. So, not I mean ah
+this thing going do not to repeat this again
+
+right so. That means the controlled - voltage
+sources and controlled - current sources right
+
+are useful in constructing the circuit models
+for many types of real world devices such
+
+as your ah such as your ah transistor, just
+hold down such as your transistor, then your
+
+transformer, then electrical machines and
+electronic amplifiers right . So, these are
+
+the your what you call that this kind of ah
+this thing your real time ah real world application
+
+just hold on.
+So, this thing so, there are 4 such sources
+
+you have shown. So, voltage controlled voltage
+source we call VCVS, current controlled voltage
+
+source already we have shown CCVS, then current
+controlled current source CCCS and voltage
+
+controlled current sources VCCS right these
+are the 4 thing, next you take another example.
+
+So, ah determine this circuit is shown this
+is say example 11. So, determine the power
+
+absorbed or supplied by each element in figure
+this, now you know little bit of you have
+
+to understand little bit for example, if you
+see that the current I is equal to 6 ampere
+
+this is 6 ampere. Now voltage is given v is
+equal to 20 volt plus minus p 1 p 2 here,
+
+this is another element p 2, this is p 3 and
+this is p 4, this is another dependent current
+
+source. So, these are the you have to find
+out power absorbed or power supplied right,
+
+power supplied must be is equal to power absorbed.
+If you see something is not matching then
+
+somewhere something has gone wrong in calculation
+.
+
+Now this is actually some element so, plus
+minus polarity has been mark, here also voltage
+
+source polarity plus minus has been mark,
+here also polarity plus minus has been mark
+
+right and this is your current is shown upward
+and this current source is showing one upon
+
+6 I; that means, if I is equal to 6 ampere
+here I is equal to look 6 ampere if we put
+
+I is equal to 6 here it will be actually 1
+ampere.
+
+Now, ah previous when our previous discussion
+we are seen that, when that your current leaving
+
+the this is a voltage source current leaving
+the your ah your positive polarity or positive
+
+terminal; that means, power is supplied and
+sign will be negative right. So, in this case
+
+if you see that this I 1 current is coming
+out from this source. So, it is actually leaving
+
+that your what you call that leaving this
+plus terminal; that means, power supplied
+
+convulsively negative therefore, p 1 will
+be your minus 20 into 6. So, minus 120 watt
+
+it will be power supplied.
+So; that means, if you look at here that p
+
+1 is equal to 20 into minus 6 that is minus
+120 watt this is the supplied power. So, whenever
+
+current is leaving plus terminal it should
+be minus I told you earlier; that means, power
+
+supplied right and this current I is equal
+to 6 ampere according to this polarity, entering
+
+into this circuit into this element right
+therefore, it this circuit will absorbed power
+
+because current entering at the positive terminal;
+that means, power absorbed should be 12 into
+
+6 p 2 is equal to 12 volt into I is equal
+to 6 ampere. So, it will be your 12 into 6
+
+so, your thing it will be 72 watt.
+So, here it will see that that in the that
+
+your p 2 is equal to 72 that is power absorbed
+power that is p 2 is equal to 72 watt, again
+
+you come to this circuit that again 7 ampere
+current is entering into this terminal. So,
+
+it is a positive; that means, as current entering
+into the positive terminal it will be power
+
+absorbed and voltage is given 8. So, 8 into
+7 so, p 3 will be 56 watt power absorbed.
+
+So, it is made here that p 3 is equal to 8
+into 7, 56 watt right. So, it is absorbed
+
+power.
+Now, come here this is the current source,
+
+now question is that this is this is the current
+source now here just making it here only right
+
+making it here. So, I is equal to 6 ampere;
+that means, this one is equal to your 1 by
+
+6 into 6 write in here that is your 1 ampere
+this is 1 ampere. Now question is whether
+
+it your what you call it delivered or absorbed
+power, now look this terminal is plus this
+
+is minus; that means, this is the simply wire
+only this is the simply wire only right .
+
+So; that means, I can mark it here this is
+plus and this is minus because this is plus
+
+minus nothing is there. So, this is plus minus
+and this current is upward means current is
+
+ah your what you call this one ampere current
+is moving like this, flowing like this; that
+
+means, current actually leaving this terminal
+the plus plus terminal as well as a leaving
+
+means it is power supplied right whenever
+current leaving the plus terminal this power
+
+it is power supplied .
+So; that means, this sign will be negative,
+
+but is current here is one ampere current
+here is your what you call 1 ampere now what
+
+is the voltage. Now if you come to this your
+if you come here look that voltage across
+
+this your it is 8 into minus 1 6 I told you
+because current is leaving the plus terminal.
+
+So, it is your minus 1 I is equal to 6 ampere.
+So, it is coming minus 8 watt supplied power;
+
+that means, here you come just hold on .
+So, whenever I was explaining this ah this
+
+one your this is your what you call that this
+voltage actually suppose this is plus minus
+
+I mean this point is a this is b then nothing
+is the also this point is a this is also b.
+
+So, this voltage actually if we make like
+this the v a b is equal to say 8 volt right.
+
+So, same voltage here also 8 volt, but current
+I is equal to your 6 ampere here I is equal
+
+to 6 ampere is given look at that point when
+I am making 6 ampere. So, basically this one
+
+will be 1 upon 6 into 6 that is your 1 ampere
+right and I told you the direction is a upward.
+
+So, current is flowing through this and this
+is plus minus means this is plus, this is
+
+minus right therefore, that current is leaving
+the plus terminal because this is plus, this
+
+is minus it leaving the plus terminal. So,
+if it is so; that means, it is power. So,
+
+your what you call, power supplied by this
+source it will be actually your this thing
+
+will be minus your 8 into 1 so, that is your
+minus 8 watt right so, this is the concept
+
+ok.
+Thank you very much we will be back again
+
+.
+

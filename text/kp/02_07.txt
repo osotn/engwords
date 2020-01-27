@@ -1,0 +1,191 @@
+2.7 Devices
+We skipped over / dev in our tour, because the files there provide a nice
+review of files in general. As you might guess from the name, /dev contains
+device files.
+One of the prettiest ideas in the UNIX system is the way it deals with peripherals - discs, tape drives, line printers, terminals, etc. Rather than having
+special system routines to, for example, read magnetic tape, there is a file
+called /dev/mtO (again, local customs vary). Inside the kernel, references to
+that file are converted into hardware commands to access the tape, so if a program reads /dev/mtO, the contents of a tape mounted on the drive are
+returned. For example,
+$ cp /dev/rntO junk
+copies the contents of the tape to a file called junk. cp has no idea there is
+anything special about /dev/mtO; it is just a file - a sequence of bytes.
+The device files are something of a zoo, each creature a little different, but
+the basic ideas of the file system apply to each. Here is a significantly shortened list of our / dev:
+$ 1s -1 /dev
+crw--w--w- 1 root o , 0 Sep 27 23:09 console
+crw-r--r-- 1 root 3, 1 Sep 27 14:37 kmem
+crw-r--r-- 1 root 3, 0 May 6 1981 mem
+brw-rw-rw- 1 root 1 , 64 Aug 24 17:41 mtO
+crw-rw-rw- 1 root 3, 2 Sep 28 02:03 null
+crw-rw-rw- 1 root 4, 64 Sep 9 15:42 rmtO
+brw-r----- 1 root 2, 0 Sep 8 08:07 rpOO
+brw-r----- 1 root 2, 1 Sep 27 23:09 rp01
+crw-r----- 1 root 13, 0 Apr 12 1983 rrpOO
+crw-r----- 1 root 13, 1 Jul 28 15:18 rrp01
+crw-rw-rw- 1 root 2, 0 Jul 5 08:04 tty
+crw--w--w- 1 you 1 , 0 Sep 28 02:38 ttyO
+crw--w--w- 1 root 1 , 1 Sep 27 23:09 tty1
+crw--w--w- 1 root 1 , 2 Sep 27 17:33 tty2
+crw--w--w- 1 root 1 , 3 Sep 27 18:48 tty3
+$
+The first things to notice are that instead of a byte count there is a pair of
+small integers, and that the first character of the mode is always a 'b' or a 'e'.
+This is how Is prints the information from an inode that specifies a device
+rather than a regular file. The in ode of a regular file contains a list of disc
+blocks that store the file's contents. For a device file, the inode instead contains the internal name for the device, which consists of its type - character
+(e) or block (b) - and a pair of numbers, called the major and minor device
+numbers. Discs and tapes are block devices; everything else - terminals,
+printers, phone lines, etc. - is a character device. The major number encodes
+the type of device, while the minor number distinguishes different instances of
+the device. For example, /dev/ttyO and /dev/tty1 are two ports on the
+same terminal controller, so they have the same major device number but different minor numbers.
+Disc files are usually named after the particular hardware variant they
+represent. /dev/rpOO and /dev/rp01 are named after the DEC RP06 disc
+drive attached to the system. There is just one drive, divided logically into two
+file systems. If there were a second drive, its associated files would be named
+/dev/rp10 and /dev/rp11. The first digit specifies the physical drive, and
+the second which portion of the drive.
+You might wonder why there are several disc device files, instead of just
+one. For historical reasons and for ease of maintenance, the file system is
+divided into smaller subsystems. The files in a subsystem are accessible
+through a directory in the main system. The program jete/mount reports
+the correspondence between device files and directories:
+$ /etc/mount
+rp01 on /usr
+$
+In our case, the root system occupies /dev/rpOO (although this isn't reported
+by /etc/mount) while the user file system - the files in /usr and its subdirectories - reside on /dev/rp01.
+The root file system has to be present for the system to execute. /bin,
+/dev and /etc are always kept on the root system, because when the system
+starts only files in the root system are accessible, and some files such as
+/bin/ sh are needed to run at all. During the bootstrap operation, all the file
+systems are checked for self-consistency (see iCheck(8) or fsck(8», and
+attached to the root system. This attachment operation is called mounting, the
+software equivalent of mounting a new disc pack in a drive; it can normally be
+done only by the super-user. After /dev/rp01 has been mounted as /usr,
+the files in the user file system are accessible exactly as if they were part of the
+root system.
+For the average user, the details of which file subsystem is mounted where
+are of little interest, but there are a couple of relevant points. First, because
+the subsystems may be mounted and dismounted, it is illegal to make a link to
+a file in another subsystem. For example, it is impossible to link programs in
+/bin to convenient names in private bin directories, because /usr is in a different file subsystem from /bin:
+$ In /bin/mail /usr/you/bin/m
+In: Cross-device link
+$
+There would also be a problem because inode numbers are not unique in different file systems.
+Second, each subsystem has fixed upper limits on size (number of blocks
+available for files) and inodes. If a subsystem fills up, it will be impossible to
+enlarge files in that subsystem until some space is reclaimed. The df (disc
+free space) command reports the available space on the mounted file subsystems:
+$ df
+/dev/rpOO 1989
+/dev/rp01 21257
+$
+/usr has 21257 free blocks. Whether this is ample space or a crisis depends
+on how the system is used; some installations need more file space headroom
+than others. By the way, of all the commands, df probably has the widest
+variation in output format. Your df output may look quite different.
+Let's turn now to some more generally useful things. When you log in, you
+get a terminal line and therefore a file in / dev through which the characters
+you type and receive are sent. The tty command tells you which terminal you
+are uSIng:
+$ who am i
+you ttyO Sep 28 01:02
+$ tty
+/dev/ttyO
+$ 1s -1 /dev/ttyO
+crw--w--w- 1 you 1, 12 Sep 28 02:40 /dev/ttyO
+$ date >/dev/ttyO
+Wed Sep 28 02:40:51 EDT 1983
+$
+Notice that you own the device, and that only you are permitted to read it. In
+other words, no one else can directly read the characters you are typing. Anyone may write on your terminal, however. To prevent this, you could chmod
+the device, thereby preventing people from using wri te to contact you, or you
+could just use mesg.
+$ mesg n
+$ 1s -1 /dev/ttyO
+crw------- 1 you
+$ mesg y
+$
+Turn off messages
+1, 12 Sep 28 02:41 /dev/ttyO
+Restore
+It is often useful to be able to refer by name to the terminal you are using,
+but it's inconvenient to determine which one it is. The device /dev/tty is a
+synonym for your login terminal, whatever terminal you are actually using.
+$ date >/dev/tty
+Wed Sep 28 02:42:23 EDT 1983
+$
+/dev/tty is particularly useful when a program needs to interact with a user
+even though its standard input and output are connected to files rather than the
+terminal. crypt is one program that uses /dev/tty. The "clear text"
+comes from the standard input, and the encrypted data goes to the standard
+output, so crypt reads the encryption key from /dev/tty:
+$ crypt <c1eartext >cryptedtext
+Enter key: Type encryption key
+$
+The use of /dev/tty isn't explicit in this example, but it is there. If crypt
+read the key from the standard input, it would read the first line of the clear
+text. So instead crypt opens /dev/tty, turns off automatic character echoing so your encryption key doesn't appear on the screen, and reads the key. In
+Chapters 5 and 6 we will come across several other uses of /dev/tty.
+Occasionally you want to run a program but don't care what output is produced. For example, you may have already seen today's news, and don't want
+to read it again. Redirecting news to the file /dev/null causes its output to
+be thrown away:
+$ news >/dev/null
+$
+Data written to /dev/null is discarded without comment, while programs
+that read from / dev /null get end-of-file immediately, because reads from
+/dev/null always return zero bytes.
+One common use of /dev/null is to throwaway regular output so that
+diagnostic messages are visible. For example, the time command (time( 1))
+reports the CPU usage of a program. The information is printed on the standard error, so you can time commands that generate copious output by sending
+the standard output to /dev/null:
+$ Is -1 /usr/dict/words
+-r--r--r-- 1 bin 196513 Jan 20 1979 /usr/dict/words
+$ time grep e /usr/dict/words >/dev/null
+real 13.0
+user 9.0
+sys 2.7
+$ time egrep e /usr/dict/words >/dev/null
+real
+user
+sys
+$
+8.0
+3.9
+2.8
+The numbers in the output of time are elapsed clock time, CPU time spent in
+the program and CPU time spent in the kernel while the program was running.
+egrep is a high-powered variant of grep that we will discuss in Chapter 4; it's
+about twice as fast as grep when searching through large files. If output from
+grep and egrep had not been sent to /dev/null or a real file, we would
+have had to wait for hundreds of thousands of characters to appear on the terminal before finding out the timing information we were after.
+Exercise 2-9. Find out about the other files in / dev by reading Section 4 of the
+manual. What is the difference between /dev/mtO and /dev/rmtO? Comment on
+the potential advantages of having subdirectories in /dev for discs, tapes, etc. D
+Exercise 2-10. Tapes written on non-UNIX systems often have different block sizes, such
+as 800 bytes - ten 80-character card images - but the tape device /dev/mtO expects
+512-byte blocks. Look up the dd command (dd(I)) to see how to read such a tape. D
+Exercise 2-11. Why isn't /dev /tty just a link to your login terminal? What would
+happen if it were mode rw--w--w- like your login termina]? D
+Exercise 2-12. How does wri tee 1) work? Hint: see utmp(5). D
+Exercise 2-13. How can you tell if a user has been active at the terminal recently?
+History and bibliographic notes
+The file system forms one part of the discussion in "UNIX implementation,"
+by Ken Thompson (BSTJ, July, 1978). A paper by Dennis Ritchie, entitled
+"The evolution of the UNIX time-sharing system" (Symposium on Language
+Design and Programming Methodology, Sydney, Australia, Sept. 1979) is an
+fascinating description of how the file system was designed and implemented
+on the original PDP-7 UNIX system, and how it grew into its present form.
+The UNIX file system adapts some ideas from the MUL TICS file system. The
+MULTICS System: An Examination of its Structure, by E. I. Organick (MIT
+Press, 1972) provides a comprehensive treatment of MUL TICS.
+"Password security: a case history," by Bob Morris and Ken Thompson, is
+an entertaining comparison of password mechanisms on a variety of systems; it
+can be found in Volume 2B of the UNIX Programmer' s Manual.
+In the same volume, the paper "On the security of UNIX," by Dennis
+Ritchie, explains how the security of a system depends more on the care taken
+with its administration than with the details of programs like crypt.
+

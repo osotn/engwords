@@ -1,0 +1,224 @@
+5.3 while and until loops: watching for things
+In Chapter 3, the for loop was used for a number of simple iterative programs. Usually, a for loops over a set of filenames, as in 'for i in "* . c', or
+all the arguments to a shell program, as in 'for i in $"*'. But shell loops are
+more general than these idioms would suggest; consider the for loop in
+which.
+There are three loops: for, while and until. The for is by far the
+most commonly used. It executes a set of commands - the loop body - once
+for each element of a set of words. Most often these are just filenames. The
+while and until use the exit status from a command to control the execution
+of the commands in the body of the loop. The loop body is executed until the
+condition command returns a non-zero status (for the while) or zero (for the
+until). while and until are identical except for the interpretation of the
+exit status of the command.
+Here are the basic forms of each loop:
+for i in list of words
+do
+loop body, $ i set to successive elements of list
+done
+for i
+do
+done
+while command
+do
+loop body executed as long as command returns true
+done
+until command
+do
+loop body executed as long as command returns false
+done
+The second form of the for, in which an empty list implies $*, is a convenient
+shorthand for the most common usage.
+The conditional command that controls a while or until can be any command. As a trivial example, here is a while loop to watch for someone (say
+Mary) to log in:
+while sleep 60
+do
+who : grep mary
+done
+The sleep, which pauses for 60 seconds, will always execute normally (unless
+interrupted) and therefore return "success," so the loop will check once a
+minute to see if Mary has logged in.
+This version has the disadvantage that if Mary is already logged in, you
+must wait 60 seconds to find out. Also, if Mary stays logged in, you will be
+told about her once a minute. The loop can be turned inside out and written
+with an until, to provide the information once, without delay, if Mary is on
+now:
+until who : grep mary
+do
+sleep 60
+done
+This is a more interesting condition. If Mary is logged in, 'who I grep mary'
+prints out her entry in the who listing and returns "true," because grep
+returns a status to indicate whether it found something, and the exit status of a
+pipeline is the exit status of the last element.
+Finally, we can wrap up this command, give it a name and install it:
+$ cat watehfor
+# watchfor: watch for someone to log in
+PATH=/bin:/usr/bin
+case $# in
+0) echo 'Usage: watchfor person' 1>&2; exit 1
+esac
+until who : egrep "$1"
+do
+sleep 60
+done
+$ ex watehfor
+$ watehfor you
+you ttyO Oct 1 08:01
+$ mv watehfor /usr/you/bin
+$
+It works
+Install it
+We changed grep to egrep so you can type
+$ watehfor 'joe/mary'
+to watch for more than one person.
+As a more complicated example, we could watch all people logging in and
+out, and report as people come and go - a sort of incremental who. The basic
+structure is simple: once a minute, run who, compare its output to that from a
+minute ago, and report any differences. The who output win be kept in a file,
+so we will store it in the directory /tmp. To distinguish our files from those
+belonging to other processes, the shell variable $ $ (the process id of the shell
+command), is incorporated into the filenames; this is a common convention.
+Encoding the command name in the temporary files is done mostly for the system administrator. Commands (including this version of watchwho) often
+leave files lying around in /tmp, and it's nice to know which command is
+doing it.
+$ cat watchwho
+# watchwho: watch who logs in and out
+PATH=/bin:/usr/bin
+new=/tmp/wwho1.$$
+old=/tmp/wwho2.$$
+>$old # create an empty file
+while
+do
+# loop forever
+done
+who >$new
+diff $old $new
+mv $new $old
+sleep 60
+awk '/>/ { $1 = "in:
+/</ { $1 = "out:
+"; print}
+"; print }'
+$
+" :" is a shell built-in command that does nothing but evaluate its arguments
+and return "true." Instead, we could have used the command true, which
+merely returns a true exit status. (There is also a false command.) But':'
+is more efficient than true because it does not execute a command from the
+file system.
+diff output uses < and> to distinguish data from the two files; the awk
+program processes this to report the changes in an easier-to-understand format.
+Notice that the entire while loop is piped into awk, rather than running a
+fresh awk once a minute. sed is unsuitable for this processing, because its
+output is always behind its input by one line: there is always a line of input
+that has been processed but not printed, and this would introduce an unwanted
+dela y .
+Because old is created empty, the first output from wa tchwho is a list of
+all users currently logged in. Changing the command that initially creates old
+to who >$old will cause watchwho to print only the changes; it's a matter of
+taste.
+Another looping program is one that watches your mailbox periodically;
+whenever the mailbox changes, the program prints "You have mail." This is
+a useful alternative to the shell's built-in mechanism using the variable MAIL.
+We have implemented it with shell variables instead of files, to illustrate a different way of doing things.
+$ cat checkmail
+# checkmail: watch mailbox for growth
+PATH=/bin:/usr/bin
+MAIL=/usr/spool/mail/'getname' # system dependent
+t=${1-60}
+x="'ls -1 $MAIL'"
+while
+do
+y="'ls -1 $MAIL'"
+echo $x $y
+x="$y"
+sleep $t
+done awk '$4 < $12 { print "You have mail" }'
+$
+We have used awk again, this time to ensure that the message is printed only
+when the mailbox grows, not merely when it changes. Otherwise, you'll get a
+message right after you delete mail. (The shell's built-in version suffers from
+this drawback.)
+The time interval is normally set to 60 seconds, but if there is a parameter
+on the command line, as in
+$ checkmail 30
+that is used instead. The shell variable t is set to the time if one is supplied,
+and to 60 if no value was given, by the line
+t=${1-60}
+This introduces another feature of the shell.
+$ {var} is equivalent to $var, and can be used to avoid problems with
+variables inside strings containing letters or numbers:
+$ var=hello
+$ varx=goodbye
+$ echo $var
+hello
+$ echo $varx
+goodbye
+$ echo ${var}x
+hellox
+$
+Certain characters inside the braces specify special processing of the variable.
+If the variable is undefined, and the name is followed by a question mark, then
+the string after the ? is printed and the shell exits (unless it's interactive). If
+the message is not provided, a standard one is printed:
+$ echo $ {var?}
+hello
+$ echo ${junk?}
+junk: parameter not set
+$ echo ${junk?error!}
+junk: error!
+$
+CHAPTER 5
+SHELL PROGRAMMING
+149
+O.K.; var is set
+Default message
+Message provided
+Note that the message generated by the shell always contains the name of the
+undefined variable.
+Another form is ${var-thing} which evaluates to $var if it is defined,
+and thing if it is not. $ {var=thing} is similar, but also sets $var to
+thing:
+$ echo ${junk-'Hi there'}
+Hi there
+$ echo ${junk?}
+junk: parameter not set
+$ echo ${junk='Hi there'}
+Hi there
+$ echo ${junk?}
+Hi there
+$
+junk unaffected
+junk set to Hi there
+The rules for evaluating variables are given in Table 5.3.
+Returning to our original example,
+t=${1-60}
+sets t to $ 1, or if no argument is provided, to 60.
+Table 503: Evaluation of Shell Variables
+$var
+${var}
+${var-thing}
+${var=thing}
+${var?message}
+${var+thing}
+value of var; nothing if var undefined
+same; useful if alphanumerics follow variable name
+value of var if defined; otherwise thing.
+$var unchanged.
+value of var if defined; otherwise thing.
+If undefined, $var set to thing
+if defined, $var. Otherwise, print message
+and exit shell. If message empty, print:
+var: parameter not set
+thing if $var defined, otherwise nothing
+Exercise 5-9. Look at the implementation of true and false in /bin or /usr/bin.
+(How would you find out where they are?) 0
+Exercise 5-10. Change watchfor so that multiple arguments are treated as different
+people, rather than requiring the user to type ' joe : mary'. 0
+Exercise 5-11. Write a version of watchwho that uses conun instead of awk to compare
+the old and new data. Which version do you prefer? 0
+Exercise 5-12. Write a version of watchwho that stores the who output in shell variables instead of files. Which version do you prefer? Which version runs faster?
+Should watchwho and checkmail do & automatically? 0
+Exercise 5-13. What is the difference between the shell : do-nothing command and the
+# comment character? Are both needed?
+

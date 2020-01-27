@@ -1,0 +1,227 @@
+3.2 Metacharacters
+The shell recognizes a number of other characters as special; the most commonly used is the asterisk * which tells the shell to search the directory for
+filenames in which any string of characters occurs in the position of the *. For
+example,
+$ echo '*
+is a poor facsimile of 1 s. Something we didn't mention in Chapter 1 is that
+the filename-matching characters do not look at filenames beginning with a
+dot, to avoid problems with the names ' . ' and '. . ' that are in every directory.
+The rule is: the filename-matching characters only match filenames beginning
+with a period if the period is explicitly supplied in the pattern. As usual, a
+judicious echo or two will clarify what happens:
+$ Is
+.profile
+junk
+temp
+$ echo *
+junk temp
+$ echo .*
+. .. . profile
+$
+Characters like * that have special properties are known as metacharacters.
+There are a lot of them: Table 3.1 is the complete list, although a few of them
+won't be discussed until Chapter 5.
+Given the number of shell metacharacters, there has to be some way to say
+to the shell, "Leave it alone." The easiest and best way to protect special
+characters from being interpreted is to enclose them in single quote characters:
+$ echo '***'
+***
+$
+It's also possible to use the double quotes "...", but the shell actually peeks
+inside these quotes to look for $, "... , and \, so don't use "... II unless you
+intend some processing of the quoted string.
+A third possibility is to put a backslash \ in front of each character that you
+want to protect from the shell, as in
+$ echo \*\*\*
+Although \ * \"* \ * isn't much like English, the shell terminology for it is still a
+word, which is any single string the shell accepts as a unit, including blanks if
+they are quoted.
+Quotes of one kind protect quotes of the other kind:
+$ echo "Don't do that!"
+Don't do that!
+$
+and they don't have to surround the whole argument:
+$ echo x'*'y
+x*y
+$ echo '*'A'?'
+*A?
+$
+Table 3.1: Shell Metacharacters
+prog > file direct standard output to file
+prog > > file append standard output to file
+prog <file take standard input from file
+PI :P2 connect standard output of PI to standard input of P2
+here document: standard input follows, up to next str
+on a line by itself
+match any string of zero or more characters in filenames
+match any single character in filenames
+match any single character from ccc in filenames;
+ranges like 0 - 9 or a - z are legal
+command terminator: PI ;P2 does P b then P2
+like ; but doesn't wait for P I to finish
+run command(s) in ...; output replaces '...'
+run command(s) in ... in a sub-shell
+run command(s) in ... in current shell (rarely used)
+$ 0... $9 replaced by arguments to shell file
+value of shell variable var
+value of var; avoids confusion when concatenated with text;
+see also Table 5.3
+\c take character c literally, \newline discarded
+take ... literally
+take ... literally after $, \...' and \ interpreted
+if # starts word, rest of line is a comment (not in 7th Ed.)
+assign to variable var
+run PI; if successful, run P 2
+run PI; if unsuccessful, run P 2
+In this last example, because the quotes are discarded after they've done their
+job, echo sees a single argument containing no quotes.
+Quoted strings can contain newlines:
+$ echo 'hello
+> world'
+hello
+world
+$
+The string '> ' is a secondary prompt printed by the shell when it expects you
+to type more input to complete a command. In this example the quote on the
+first line has to be balanced with another. The secondary prompt string is
+stored in the shell variable PS2, and can be modified to taste.
+In all of these examples, the quoting of a metacharacter prevents the shell
+from trying to interpret it. The command
+$ echo x*y
+echoes all the filenames beginning x and ending y. As always, echo knows
+nothing about files or shell metacharacters; the interpretation of *, if any, is
+supplied by the shell.
+What happens if no files match the pattern? The shell, rather than com-
+plaining (as it did in early versions), passes the string on as though it had been
+quoted. It's usually a bad idea to depend on this behavior, but it can be
+exploited to learn of the existence of files matching a pattern:
+$ Is x*y
+x*y not found
+$ >xyzzy
+$ Is x*y
+xyzzy
+$ Is 'x*y'
+x*y not found
+$
+Message from Is: no such files exist
+Create xyzzy
+File xyzzy matches x*y
+Is doesn't interpret the *
+A backslash at the end of a line causes the line to be continued; this is the
+way to present a very long line to the shell.
+$ echo abc\
+> def\
+> ghi
+abcdefghi
+$
+Notice that the newline is discarded when preceded by backslash, but is
+retained when it appears in quotes.
+The metacharacter # is almost universally used for shell comments; if a
+shell word be gins with #, the rest of the line is ignored:
+$ echo hello # there
+hello
+$ echo hello#there
+hello#there
+$
+The # was not part of the original 7th Edition, but it has been adopted very
+widely, and we will use it in the rest of the book.
+Exercise 3-2. Explain the output produced by
+$ 1s .*
+o
+A digression on echo
+Even though it isn't explicitly asked for, a final newline is provided by
+echo. A sensible and perhaps cleaner design for echo would be to print only
+what is requested. This would make it easy to issue prompts from the shell:
+$ pure-echo Enter a command:
+Enter a command:$
+No trailing newline
+but has the disadvantage that the most common case - providing a newline -
+is not the default and takes extra typing:
+$ pure-echo 'Hello!
+> '
+Hello!
+$
+Since a command should by default execute its most commonly used function,
+the real echo appends the final newline automatically.
+Bu t what if it isn't desired? The 7th Edition echo has a single option, -n,
+to suppress the last newline:
+$ echo -n Enter a command:
+Enter a command:$
+$ echo -
+Prompt on same line
+Only -n is special
+$
+The only tricky case is echoing -n followed by a newline:
+$ echo -n '-n
+> '
+-n
+$
+It's ugly, but it works, and this is a rare situation anyway.
+A different approach, taken in System V, is for echo to interpret C-like
+backslash sequences, such as \b for backspace and \c (which isn't actually in
+the C language) to suppress the last newline:
+$ echo 'Enter a command:\c'
+Enter a command:$
+System V version
+Although this mechanism avoids confusion about echoing a minus sign, it has
+other problems. echo is often used as a diagnostic aid, and backslashes are
+interpreted by so many programs that having echo look at them too just adds
+to the confusion.
+Still, both designs of echo have good and bad points. We shall use the 7th
+Edition version (-n), so if your local echo obeys a different convention, a
+couple of our programs will need minor revision.
+Another question of philosophy is what echo should do if given no argu-
+ments - specifically, should it print a blank line or nothing at all? All the
+current echo implementations we know print a blank line, but past versions
+didn't, and there wete once great debates on the subject. Doug McIlroy
+imparted the right feelings of mysticism in his discussion of the topic:
+The UNIX and the Echo
+There dwelt in the land of New Jersey the UNIX, a fair maid whom savants traveled far to
+admire. Dazzled by her purity, all sought to espouse her, one for her virginal grace, another for
+her polished civility, yet another for her agility in performing exacting tasks seldom accomplished
+even in much richer lands. So large of heart and accommodating of nature was she that the UNIX
+adopted all but the most insufferably rich of her suitors. Soon many offspring grew and prospered
+and spread to the ends of the earth.
+Nature herself smiled and answered to the UNIX more eagerly than to other mortal beings.
+Humbler folk, who knew little of more courtly manners, delighted in her echo, so precise and crystal clear they scarce believed she could be answered by the same rocks and woods that so garbled
+their own shouts into the wilderness. And the compliant UNIX obliged with perfect echoes of whatever she was asked.
+When one impatient swain asked the UNIX, 'Echo nothing,' the UNIX obligingly opened her
+mouth, echoed nothing, and closed it again.
+'Whatever do you mean,' the youth demanded, 'opening your mouth like that? Henceforth
+never open your mouth when you are supposed to echo nothing!' And the UNIX obliged.
+'But I want a perfect performance, even when you echo nothing,' pleaded a sensitive youth,
+'and no perfect echoes can come from a closed mouth.' Not wishing to offend either one, the UNIX
+agreed to say different nothings for the impatient youth and for the sensitive youth. She called the
+sensitive nothing '\n.'
+Yet now when she said '\n,' she was really not saying nothing so she had to open her mouth
+twice, once to say '\n,' and once to say nothing, and so she did not please the sensitive youth, who
+saId forthwith, 'The \n sounds like a perfect nothing to me, but the second one ruins it. I want you
+to take back one of them.' So the UNIX, who could not abide offending, agreed to undo some
+echoes, and called that '\c.' Now the sensitive youth could hear a perfect echo of nothing by asking
+for '\n' and '\c' together. But they say that he died of a surfeit of notation before he ever heard
+one.
+Exercise 3-3. Predict what each of the following grep commands will do, then verify
+your understanding.
+grep \$ grep \\
+grep \\$ grep \\\\
+grep \\\$ grep "\$"
+grep '\$' grep '''$'
+grep '\'$' grep "$"
+A file containing these commands themselves makes a good test case if you want to
+experiment. 0
+Exercise 3-4. How do you tell grep to search for a pattern beginning with a '-'? Why
+doesn't quoting the argument help? Hint: investigate the -e option. 0
+Exercise 3-5. Consider
+$ echo */*
+Does this produce all names in all directories? In what order do the names appear? 0
+Exercise 3-6. (Trick question) How do you get a / into a filename (i.e., a / that
+doesn't separate components of the path)? 0
+Exercise 3-7. What happens with
+$ cat x y >y
+and with
+$ cat x »x
+Think before rushing off to try them. 0
+Exercise 3-8. If you type
+$ rm *
+why can't rm warn you that you're about to delete all your files?
+
