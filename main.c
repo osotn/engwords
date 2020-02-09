@@ -20,35 +20,35 @@
 #define PLAYER_NAME "mplayer"
 #define PLAYER_OUTPUT ">/dev/null 2>&1"
 
-#define SOUND_FILE_NAME "sound/%s.mp3"
-#define SOUND_FILE_NAME_SIZEOF (sizeof(SOUND_FILE_NAME) + MAX_WORD_SIZE)
+#define SOUND_FILE_NAME "%ssound/%s.mp3"
+#define SOUND_FILE_NAME_SIZEOF (3 + sizeof(SOUND_FILE_NAME) + MAX_WORD_SIZE)
 
-#define PHONETIC_FILE_NAME "phonetics/%s"
-#define PHONETIC_FILE_NAME_SIZEOF (sizeof(PHONETIC_FILE_NAME) + MAX_WORD_SIZE)
+#define PHONETIC_FILE_NAME "%sphonetics/%s"
+#define PHONETIC_FILE_NAME_SIZEOF (3+ sizeof(PHONETIC_FILE_NAME) + MAX_WORD_SIZE)
 
-#define TRANSLATION_FILE_NAME "translations/%s"
-#define TRANSLATION_FILE_NAME_SIZEOF (sizeof(TRANSLATION_FILE_NAME) + MAX_WORD_SIZE)
+#define TRANSLATION_FILE_NAME "%stranslations/%s"
+#define TRANSLATION_FILE_NAME_SIZEOF (3 + sizeof(TRANSLATION_FILE_NAME) + MAX_WORD_SIZE)
 
 #define PLAYER_CMD "mplayer ""\""SOUND_FILE_NAME"\""" >/dev/null 2>&1 </dev/null"
 #define PLAYER_CMD_SIZEOF (sizeof(PLAYER_CMD) + MAX_WORD_SIZE)
 
-#define FIRST_1000_FILE_NAME "words/first_1000/%s.txt"
-#define FIRST_1000_FILE_NAME_SIZEOF (sizeof(FIRST_1000_FILE_NAME) + MAX_WORD_SIZE)
+#define FIRST_1000_FILE_NAME "%swords/first_1000/%s.txt"
+#define FIRST_1000_FILE_NAME_SIZEOF (3 + sizeof(FIRST_1000_FILE_NAME) + MAX_WORD_SIZE)
 
-#define OXFORD_3000_KEYS_FILE_NAME "words/oxford_3000_keys/%s.txt"
-#define OXFORD_3000_KEYS_FILE_NAME_SIZEOF (sizeof(OXFORD_3000_KEYS_FILE_NAME) + MAX_WORD_SIZE)
+#define OXFORD_3000_KEYS_FILE_NAME "%swords/oxford_3000_keys/%s.txt"
+#define OXFORD_3000_KEYS_FILE_NAME_SIZEOF (3 + sizeof(OXFORD_3000_KEYS_FILE_NAME) + MAX_WORD_SIZE)
 
-#define IELTS_4000_KEYS_FILE_NAME "words/ielts_general_4000/%s.txt"
-#define IELTS_4000_KEYS_FILE_NAME_SIZEOF (sizeof(IELTS_4000_KEYS_FILE_NAME) + MAX_WORD_SIZE)
+#define IELTS_4000_KEYS_FILE_NAME "%swords/ielts_general_4000/%s.txt"
+#define IELTS_4000_KEYS_FILE_NAME_SIZEOF (3 + sizeof(IELTS_4000_KEYS_FILE_NAME) + MAX_WORD_SIZE)
 
-#define TOEFL_5000_KEYS_FILE_NAME "words/toefl_5000/%s.txt"
-#define TOEFL_5000_KEYS_FILE_NAME_SIZEOF (sizeof(TOEFL_5000_KEYS_FILE_NAME) + MAX_WORD_SIZE)
+#define TOEFL_5000_KEYS_FILE_NAME "%swords/toefl_5000/%s.txt"
+#define TOEFL_5000_KEYS_FILE_NAME_SIZEOF (3 + sizeof(TOEFL_5000_KEYS_FILE_NAME) + MAX_WORD_SIZE)
 
-#define FIRST_10000_FILE_NAME "words/first_10000/%s.txt"
-#define FIRST_10000_FILE_NAME_SIZEOF (sizeof(FIRST_10000_FILE_NAME) + MAX_WORD_SIZE)
+#define FIRST_10000_FILE_NAME "%swords/first_10000/%s.txt"
+#define FIRST_10000_FILE_NAME_SIZEOF (3 + sizeof(FIRST_10000_FILE_NAME) + MAX_WORD_SIZE)
 
-#define MY_ACTIVE_FILE_NAME "words/active/%s"
-#define MY_ACTIVE_FILE_NAME_SIZEOF (sizeof(MY_ACTIVE_FILE_NAME) + MAX_WORD_SIZE) 
+#define MY_ACTIVE_FILE_NAME "%swords/active/%s"
+#define MY_ACTIVE_FILE_NAME_SIZEOF (3 + sizeof(MY_ACTIVE_FILE_NAME) + MAX_WORD_SIZE) 
 
 #ifndef BOOLEAN
 #define BOOLEAN int
@@ -69,10 +69,12 @@ static BOOLEAN fNoSound = FALSE;	/* -m: Mute mode */
 
 static int delay_sound_word_ms = 1000;
 
+static char *lang = "";                 /* english = "" */
+
 static void get_opts(int argc, char *const argv[])
 {
   int option;
-  while ((option = getopt(argc, argv, "unfmd:")) != -1)
+  while ((option = getopt(argc, argv, "unfmgd:")) != -1)
     switch (option)
     {
       case 'u':
@@ -87,6 +89,9 @@ static void get_opts(int argc, char *const argv[])
       case 'm':
         fNoSound = TRUE;
         break;
+      case 'g':
+	lang="de/"; /* germany */
+        break; 
 
       case 'd':
         delay_sound_word_ms = atoi(optarg);
@@ -200,7 +205,7 @@ int add_word(char *s)
 
 int is_file(char *word, const char *file_format, char *fname)
 {
-   sprintf(fname, file_format, word);
+   sprintf(fname, file_format, lang, word);
    //printf("File name %s", fname);
    return (access(fname, F_OK) != -1); 
 }
@@ -230,7 +235,7 @@ int is_first_1000(char *s)
 {
   char fname[FIRST_1000_FILE_NAME_SIZEOF + 1];
 
-  sprintf(fname, FIRST_1000_FILE_NAME, s);
+  sprintf(fname, FIRST_1000_FILE_NAME, lang, s);
   return (access(fname, F_OK) != -1);
 }
 
@@ -238,7 +243,7 @@ int is_oxford_3000_keys(char *s)
 {
   char fname[OXFORD_3000_KEYS_FILE_NAME_SIZEOF + 1];
 
-  sprintf(fname, OXFORD_3000_KEYS_FILE_NAME, s);
+  sprintf(fname, OXFORD_3000_KEYS_FILE_NAME, lang, s);
   return (access(fname, F_OK) != -1);
 }
 
@@ -246,7 +251,7 @@ int is_ielts_4000(char *s)
 {
   char fname[IELTS_4000_KEYS_FILE_NAME_SIZEOF + 1];
 
-  sprintf(fname, IELTS_4000_KEYS_FILE_NAME, s);
+  sprintf(fname, IELTS_4000_KEYS_FILE_NAME, lang, s);
   return (access(fname, F_OK) != -1);
 }
 
@@ -254,7 +259,7 @@ int is_toefl_5000_keys(char *s)
 {
   char fname[TOEFL_5000_KEYS_FILE_NAME_SIZEOF + 1];
 
-  sprintf(fname, TOEFL_5000_KEYS_FILE_NAME, s);
+  sprintf(fname, TOEFL_5000_KEYS_FILE_NAME, lang, s);
   return (access(fname, F_OK) != -1);
 }
 
@@ -262,7 +267,7 @@ int is_first_10000(char *s)
 {
   char fname[FIRST_10000_FILE_NAME_SIZEOF + 1];
 
-  sprintf(fname, FIRST_10000_FILE_NAME, s);
+  sprintf(fname, FIRST_10000_FILE_NAME, lang, s);
   return (access(fname, F_OK) != -1);
 }
 
@@ -270,7 +275,7 @@ int is_my_active(char *s)
 {
   char fname[MY_ACTIVE_FILE_NAME_SIZEOF + 1];
 
-  sprintf(fname, MY_ACTIVE_FILE_NAME, s);
+  sprintf(fname, MY_ACTIVE_FILE_NAME, lang, s);
   return (access(fname, F_OK) != -1);
 }
 
@@ -288,7 +293,7 @@ void sound(char *s)
 {
   char cmd[PLAYER_CMD_SIZEOF];
 
-  sprintf(cmd, PLAYER_CMD, s);
+  sprintf(cmd, PLAYER_CMD, lang, s);
   //printf("File cmd %s sizeof = %d", cmd, (int)PLAYER_CMD_SIZEOF);
   system(cmd);
 }
@@ -320,7 +325,7 @@ char *get_phonetic(char *s)
   static char phonetic[MAX_PHONETIC_SIZE + 1];
   char fname[PHONETIC_FILE_NAME_SIZEOF + 1];
 
-  sprintf(fname, PHONETIC_FILE_NAME, s);
+  sprintf(fname, PHONETIC_FILE_NAME, lang, s);
   get_file_line(fname, phonetic, MAX_PHONETIC_SIZE+1);
   return phonetic;  
 }
@@ -330,32 +335,100 @@ char *get_translation(char *s)
   static char translation[MAX_TRANSLATION_SIZE + 1];
   char fname[TRANSLATION_FILE_NAME_SIZEOF + 1];
 
-  sprintf(fname, TRANSLATION_FILE_NAME, s);
+  sprintf(fname, TRANSLATION_FILE_NAME, lang, s);
   get_file_line(fname, translation, MAX_TRANSLATION_SIZE+1);
   return translation;  
 }
 
+// ü = c3 bc; Ü = c3 9c
+// ö = c3 b6; Ö = c3 96
+// ä = c3 a4; Ä = c3 84
+// ß = c3 9f; ẞ = e1 ba 9e  
+int utf8_trick_isalpha(char *pc, int *pn)
+{
+  if (*(pc + 0) == (char)0xC3 &&
+	  (
+              *(pc + 1) == (char)0x9C || /* ü */
+              *(pc + 1) == (char)0xBC || /* Ü */
+              *(pc + 1) == (char)0x96 || /* ö */
+              *(pc + 1) == (char)0xB6 || /* Ö */
+              *(pc + 1) == (char)0x84 || /* ä */
+              *(pc + 1) == (char)0xA4 || /* Ä */
+              *(pc + 1) == (char)0x9F    /* ß */
+	   )) {
+    *pn = 2;
+    return 1;         
+  } else if ( *(pc + 0) == (char)0xE1 && *(pc + 1) == (char)0xBA && *(pc + 2) == (char)0x9E) {
+    *pn = 3;
+    return 1;
+  } else {
+    *pn = 1;
+    return isalpha(*pc);
+  }
+}
+
+int utf8_trick_tolower(char *pc, int *pn)
+{
+  char c;
+  int  i = 0;
+ 
+  *pn = 0;
+
+  while ( (c = pc[i]) != '\0') {
+  
+    if (*(pc + i + 0) == (char)0xC3 &&
+	  (
+              *(pc + i + 1) == (char)0x9C || /* ü */
+              *(pc + i + 1) == (char)0x96 || /* ö */
+              *(pc + i + 1) == (char)0x84    /* ä */
+	   )) {
+        *(pc + i + 1) |= 0x20;
+        i += 2;      
+    } else if ( *(pc + i + 0) == (char)0xE1 && *(pc + i + 1) == (char)0xBA && *(pc + i + 2) == (char)0x9E) {
+        *(pc + i + 0) = 0xC3;
+	*(pc + i + 1) = 0x9F;
+ 	
+	// shift s
+	{
+		int j=0;
+		char *p = pc + i + 2;
+		while ( (*p = *(p+1)) != '\0')
+                   p++;
+	}
+
+	(*pn)--;
+	i += 2;  
+    } else {
+        pc[i] = tolower(pc[i]);
+	i++;
+    }
+  } 
+
+}
+
+
 int transform_word(char *s)
 {
   char c;
-  int i = 0;
-
+  int i = 0, n;
  
-  if (!isalpha(*s))
+  if (!utf8_trick_isalpha(s, &n))
     return 0;
 
   while ((c = s[i]) != '\0')
   {
-    if (!isalpha(c) && c != '\'' && c != '-')
+    if (!utf8_trick_isalpha(s+i, &n)  && c != '\'' && c != '-')
     {
       s[i] = '\0';
       break;
     }
     
-    s[i++] = tolower(c);
+    i += n;
   }
 
-  return i; 
+  utf8_trick_tolower(s, &n);
+
+  return i + n; 
 }
 
 #define TTY_LIGHT_CYAN "\033[0;36m"
