@@ -4,6 +4,8 @@ export PS1
 PATH=.:$PATH
 export PATH
 
+type xclip 1>/dev/null 2>&1 && echo -n $1 | xclip -sel clip
+
 echo -n $2 >phonetics/$1
 echo -n $3 >translations/$1
 
