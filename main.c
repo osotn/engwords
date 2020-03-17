@@ -1,7 +1,7 @@
 /*
  * English words
  * by Oleksandr Sotnikov
- * (c) 2017-2019
+ * (c) 2017-2020
  */
 
 #include <stdio.h>
@@ -66,6 +66,7 @@ static BOOLEAN fUnique = FALSE;
 static BOOLEAN fNew = FALSE;
 static BOOLEAN fNoDelay = FALSE;	/* -f: Fast mode */
 static BOOLEAN fNoSound = FALSE;	/* -m: Mute mode */
+static BOOLEAN fPutChars = FALSE;	/* -p: Putchar mode */
 
 static int delay_sound_word_ms = 1000;
 
@@ -74,7 +75,7 @@ static char *lang = "";                 /* english = "" */
 static void get_opts(int argc, char *const argv[])
 {
   int option;
-  while ((option = getopt(argc, argv, "unfmgd:")) != -1)
+  while ((option = getopt(argc, argv, "unfmgpd:")) != -1)
     switch (option)
     {
       case 'u':
@@ -92,6 +93,10 @@ static void get_opts(int argc, char *const argv[])
       case 'g':
 	lang="de/"; /* germany */
         break; 
+
+      case 'p':
+        fPutChars = TRUE;
+        break;
 
       case 'd':
         delay_sound_word_ms = atoi(optarg);
@@ -118,7 +123,8 @@ int get_word(char *s, int len_max, BOOLEAN b_print)
 
   while ((c = getchar()) != EOF)
   {
-    putchar(c);
+    if (fPutChars)
+	putchar(c);
 
     if (c != ' ' && c != '\t' && c != '\n' && c != '\"' && c != ',' && c != '>')
     {
@@ -482,6 +488,8 @@ void main(int argc, char * argv[])
         printf(" %s", get_translation(word));  
       printf("\n");
       printf(TTY_NO_COLOR);
+
+      fflush(stdout);
 
       if (!fNoDelay) {
         if (is_s && !fNoSound) 
