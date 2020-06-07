@@ -1,6 +1,4 @@
 #set -x
-PS1='\[\033[01;32m\]word\[\033[00m\]\$ '
-export PS1
 PATH=.:$PATH
 export PATH
 
