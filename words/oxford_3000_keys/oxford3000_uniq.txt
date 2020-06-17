@@ -1,6 +1,4 @@
 a
-an
-article
 abandon
 abandoned
 ability
@@ -22,6 +20,7 @@ acceptable
 unacceptable
 access
 accident
+byaccident
 accidental
 accidentally
 accommodation
@@ -39,18 +38,18 @@ acquire
 across
 act
 action
+takeaction
 active
 actively
 activity
 actor
-actress
 actual
 actually
 ad
-advertisement
 adapt
 add
 addition
+inaddition
 additional
 address
 adequate
@@ -63,7 +62,9 @@ adopt
 adult
 advance
 advanced
+inadvance
 advantage
+takeadvantageof
 adventure
 advertise
 advertising
