@@ -67,6 +67,8 @@ static BOOLEAN fNew = FALSE;
 static BOOLEAN fNoDelay = FALSE;	/* -f: Fast mode */
 static BOOLEAN fNoSound = FALSE;	/* -m: Mute mode */
 static BOOLEAN fPutChars = FALSE;	/* -p: Putchar mode */
+/* Only for not unique mode */
+static BOOLEAN fNoInfo = FALSE;		/* -c: No info mode */
 
 static int delay_sound_word_ms = 1000;
 
@@ -75,7 +77,7 @@ static char *lang = "";                 /* english = "" */
 static void get_opts(int argc, char *const argv[])
 {
   int option;
-  while ((option = getopt(argc, argv, "unfmgpd:")) != -1)
+  while ((option = getopt(argc, argv, "unfmgpcd:")) != -1)
     switch (option)
     {
       case 'u':
@@ -96,6 +98,10 @@ static void get_opts(int argc, char *const argv[])
 
       case 'p':
         fPutChars = TRUE;
+        break;
+
+      case 'c':
+        fNoInfo = TRUE;
         break;
 
       case 'd':
@@ -479,14 +485,21 @@ void main(int argc, char * argv[])
       if (!is_a)
         printf(TTY_LIGHT_CYAN);
 
-      printf("%5d,%5d(%3d). %s %s%s  %s", i, index, words[index].number, p,
-          is_a ? "*" : "?", is_s ? "#" : " ", word);
+      if (!fNoInfo)
+      {
+          printf("%5d,%5d(%3d). %s %s%s  %s", i, index, words[index].number, p,
+              is_a ? "*" : "?", is_s ? "#" : " ", word);
+          if (is_p)
+              printf(" [%s]", get_phonetic(word));
+          if (is_t)
+              printf(" %s", get_translation(word));  
+          printf("\n");
+      }
+      else
+      {
+          printf("%s ", word);
+      }
 
-      if (is_p)
-        printf(" [%s]", get_phonetic(word));
-      if (is_t)
-        printf(" %s", get_translation(word));  
-      printf("\n");
       printf(TTY_NO_COLOR);
 
       fflush(stdout);
@@ -498,10 +511,14 @@ void main(int argc, char * argv[])
           usleep((delay_sound_word_ms * 2 + 1) * NUM_US_IN_MS);
       }
 
-      sound_if_possible(word);
+      if (!fNoSound) {
+          sound_if_possible(word);
+      }
     }
     i++;
   }
+
+  printf("\n");
 
 #if 0
   if (argc > 1 && !strcmp(argv[1], "-f"))
