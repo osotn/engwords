@@ -67,6 +67,7 @@ static BOOLEAN fNew = FALSE;
 static BOOLEAN fNoDelay = FALSE;	/* -f: Fast mode */
 static BOOLEAN fNoSound = FALSE;	/* -m: Mute mode */
 static BOOLEAN fPutChars = FALSE;	/* -p: Putchar mode */
+static BOOLEAN fWithoutColor = FALSE;	/* -b: Black mode */
 /* Only for not unique mode */
 static BOOLEAN fNoInfo = FALSE;		/* -c: No info mode */
 
@@ -77,7 +78,7 @@ static char *lang = "";                 /* english = "" */
 static void get_opts(int argc, char *const argv[])
 {
   int option;
-  while ((option = getopt(argc, argv, "unfmgpcd:")) != -1)
+  while ((option = getopt(argc, argv, "unfmgpcbd:")) != -1)
     switch (option)
     {
       case 'u':
@@ -102,6 +103,10 @@ static void get_opts(int argc, char *const argv[])
 
       case 'c':
         fNoInfo = TRUE;
+        break;
+
+      case 'b':
+        fWithoutColor = TRUE;
         break;
 
       case 'd':
@@ -482,7 +487,7 @@ void main(int argc, char * argv[])
       is_f5000 = is_toefl_5000_keys(word);
       is_f10000 = is_first_10000(word);
       p = is_f1000 ? "1T" : (is_f3000 ? "3T" : (is_f4000 ? "4T" : (is_f5000 ? "5T" : (is_f10000 ? "xT" : "xx"))));
-      if (!is_a)
+      if (!fWithoutColor && !is_a)
         printf(TTY_LIGHT_CYAN);
 
       if (!fNoInfo)
@@ -500,7 +505,8 @@ void main(int argc, char * argv[])
           printf("%s ", word);
       }
 
-      printf(TTY_NO_COLOR);
+      if (!fWithoutColor)
+        printf(TTY_NO_COLOR);
 
       fflush(stdout);
 
@@ -565,7 +571,7 @@ void main(int argc, char * argv[])
     is_f10000 = is_first_10000(words[i].word);
     p = is_f1000 ? "1T" : (is_f3000 ? "3T" : (is_f4000 ? "4T" : (is_f5000 ? "5T" : (is_f10000 ? "xT" : "xx"))));
 //    printf("%s\n", words[i].word);
-    if (!is_a)
+    if (!fWithoutColor && !is_a)
        printf(TTY_LIGHT_CYAN);
     printf("%5d. (%3d) %s %s%s%s%s %s", i, words[i].number,
            p, is_a ? "*" : "?", is_s ? "#" : " ",  is_p ? "P" : " ", is_t ? "T" : " ", words[i].word);
@@ -574,7 +580,8 @@ void main(int argc, char * argv[])
     if (is_t)
       printf(" %s", get_translation(words[i].word));  
     printf("\n");
-    printf(TTY_NO_COLOR);
+    if (!fWithoutColor)
+      printf(TTY_NO_COLOR);
 
     if (!fNoSound) {
       sound_if_possible(words[i].word);
