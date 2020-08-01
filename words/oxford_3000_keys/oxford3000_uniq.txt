@@ -405,6 +405,7 @@ bring
 broad
 broadly
 broadcast
+broken
 brother
 brown
 brush
@@ -429,17 +430,17 @@ butter
 button
 buy
 buyer
+by
 bye
-cent
+c
 cabinet
 cable
 cake
 calculate
 calculation
 call
-called
+becalled
 calm
-calmly
 camera
 camp
 camping
@@ -461,6 +462,8 @@ car
 card
 cardboard
 care
+takecare
+carefor
 career
 careful
 carefully
@@ -470,6 +473,7 @@ carpet
 carrot
 carry
 case
+incase
 cash
 cast
 castle
@@ -484,12 +488,10 @@ celebrate
 celebration
 cell
 cellphone
-cellular
+cent
 centimetre
-centimeter
 central
 centre
-center
 century
 ceremony
 certain
@@ -499,7 +501,6 @@ certificate
 chain
 chair
 chairman
-chairwoman
 challenge
 chamber
 chance
@@ -509,6 +510,7 @@ chapter
 character
 characteristic
 charge
+inchargeof
 charity
 chart
 chase
@@ -523,6 +525,7 @@ cheerfully
 cheese
 chemical
 chemist
+chemist's
 chemistry
 cheque
 chest
@@ -562,6 +565,7 @@ climbing
 clock
 close
 closely
+closee
 closed
 closet
 cloth
@@ -569,6 +573,7 @@ clothes
 clothing
 cloud
 club
+cm
 coach
 coal
 coast
@@ -584,9 +589,7 @@ collect
 collection
 college
 colour
-color
 coloured
-colored
 column
 combination
 combine
@@ -604,6 +607,7 @@ commit
 commitment
 committee
 common
+incommon
 commonly
 communicate
 communication
@@ -683,6 +687,8 @@ contrasting
 contribute
 contribution
 control
+incontrol
+undercontrol
 controlled
 uncontrolled
 convenient
@@ -707,6 +713,7 @@ cottage
 cotton
 cough
 coughing
+could
 council
 count
 counter
@@ -714,8 +721,10 @@ country
 countryside
 county
 couple
+acouple
 courage
 course
+ofcourse
 court
 cousin
 cover
@@ -731,6 +740,7 @@ cream
 create
 creature
 credit
+creditcard
 crime
 criminal
 crisis
@@ -748,6 +758,7 @@ crucial
 cruel
 crush
 cry
+ct
 cultural
 culture
 cup
@@ -787,6 +798,7 @@ day
 dead
 deaf
 deal
+dealwith
 dear
 death
 debate
@@ -794,7 +806,6 @@ debt
 decade
 decay
 december
-dec
 decide
 decision
 declare
@@ -807,7 +818,6 @@ deep
 deeply
 defeat
 defence
-defense
 defend
 define
 definite
@@ -849,6 +859,7 @@ despite
 destroy
 destruction
 detail
+indetail
 detailed
 determination
 determine
@@ -892,7 +903,6 @@ disapprove
 disapproving
 disaster
 disc
-disk
 discipline
 discount
 discover
@@ -906,6 +916,7 @@ disgusted
 dish
 dishonest
 dishonestly
+disk
 dislike
 dismiss
 display
@@ -938,6 +949,7 @@ downstairs
 downwards
 downward
 dozen
+doctor
 draft
 drag
 drama
@@ -960,6 +972,7 @@ drum
 drunk
 dry
 due
+dueto
 dull
 dump
 during
@@ -967,8 +980,7 @@ dust
 duty
 dvd
 each
-other
-one
+eachother
 ear
 early
 earn
@@ -993,6 +1005,7 @@ effectively
 efficient
 efficiently
 effort
+epgp
 egg
 either
 elbow
@@ -1009,7 +1022,6 @@ elevator
 else
 elsewhere
 email
-e-mail
 embarrass
 embarrassing
 embarrassed
@@ -1034,6 +1046,7 @@ encounter
 encourage
 encouragement
 end
+intheend
 ending
 enemy
 energy
@@ -1048,7 +1061,6 @@ enjoyment
 enormous
 enough
 enquiry
-inquiry
 ensure
 enter
 entertain
@@ -1071,6 +1083,7 @@ equipment
 equivalent
 error
 escape
+especially
 essay
 essential
 essentially
@@ -1078,7 +1091,6 @@ establish
 estate
 estimate
 etc
-et
 euro
 even
 evening
@@ -1087,11 +1099,11 @@ eventually
 ever
 every
 everyone
-everybody
 everything
 everywhere
 evidence
 evil
+ex
 exact
 exactly
 exaggerate
@@ -1104,6 +1116,7 @@ excellent
 except
 exception
 exchange
+inexchange
 excite
 exciting
 excited
@@ -1164,6 +1177,9 @@ unfairly
 faith
 faithful
 faithfully
+yoursfaithfully
+fall
+fallover
 false
 fame
 familiar
@@ -1177,7 +1193,7 @@ farm
 farming
 farmer
 farther
-farthest
+far
 fashion
 fashionable
 fast
