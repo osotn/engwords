@@ -1,0 +1,163 @@
+Software Engineering
+Prof. Rajib Mall
+Department of Computer Science and Engineering
+Indian Institute of Technology, Kharagpur
+Lecture – 03
+Introduction- III
+
+
+In the last lecture we discussed about the human cognitive limitations & we stated that
+while developing large software this is the main problem that is being faced.
+Software engineering is essential for developing large software as it tries to restrict its
+complexity so that the effort and time required to develop software is linear with the size
+of the software. Otherwise, if the software engineering principles are not applied and an
+intuitive approach like a build and fix module is used then the complexity growth, that is
+basically the cost, effort and the time for development increases exponentially.
+As there are two major principles involved: one is abstraction and the other is
+decomposition.
+(Refer Slide Time: 02:12)
+Abstraction is basically leaving out unnecessary part and focusing on some parts that you
+require. Given a problem if you look at the problem entirely, it appears very complex.
+We need to focus only on one aspect of the problem and ignore the rest. This process is
+basically called as Abstraction. As you focus, the attention is only on one aspect of the 
+problem and ignore the other aspects that are irrelevant to the point that you are focusing,
+this process is also known as Model Building.
+Every abstraction requires construction of a model and a model focuses on one aspect
+and ignores the rest. For example: you have a very large and complex building to be
+developed and you focus on how will it appear. You will construct a frontal model of a
+building & ignore the rest including its material it is build off, the thickness, floor plan,
+internal design and etc as you are just focused on the frontal view of the building.
+Every abstraction require some model building and a model basically focuses on some
+aspect and ignores the rest.
+(Refer Slide Time: 04:23)
+Considering a hypothetical case that you have been asked to develop an overall
+understanding of some country and given the responsibility to head the marketing &
+department of a company for some country.
+Would you like go to that country move around try to meet people, look at where are the
+mountains, the rivers and etc. It will be extremely complex task as it will take tens or
+hundreds of years still you will not be able to develop a proper understanding. What can
+be really done is to refer to various types of maps of the country.
+(Refer Slide Time: 05:51)
+The maps are basically model or an abstraction of a country. We can study the political
+map which focuses on the different provinces, capital, major cities, railway road
+connectivity and etc. You will look into the physical map and try to find out the
+vegetation, the elevation of the different places, rivers, sea shore and etc.
+An abstraction can help solve the complex problem very easily. One thing to notice is
+that there are various types of abstraction which can be made for the same problem.
+(Refer Slide Time: 06:48)
+Several abstractions to the same problem can be created. These focus on some specific
+aspect and ignore the rest. The different types of models help us to understand different
+aspects of the problem. For example, in the case of a building you would like a frontal
+model, a prototype, a floor plan and a thermal model of the building and etc. For the
+same problem various models can be created each focusing on some aspect of the
+problem.
+(Refer Slide Time: 07:54)
+If the problem is extremely complex, a single level of abstraction may itself be
+complicated. If these are the problems, we will create a first level abstraction then a
+second level abstraction and then abstraction of those second level abstraction and etc.
+For very complex problems you could create a hierarchy of abstractions. As you proceed
+with software design, you will look at hierarchy of abstractions that are used and in this
+hierarchical model, a model at any level will actually be the details on which the next
+level of model is built. Hence, a model is an abstraction of a lower level model and it’s
+also an implementation of the higher-level model.
+(Refer Slide Time: 09:32)
+Let’s look at the abstraction of a complex problem that is to understand all the life forms
+that inhabit the earth containing billions or trillions of species.
+In order to understand this life form, you can go on examining various species but
+nobody can complete the study in his lifetime. On the contrary you can create a hierarchy
+of abstraction.
+(Refer Slide Time: 10:27)
+Looking at a biology book you will be able to find such an abstraction, as at the topmost
+level there are only three types of living organisms these are: the animals, plant, and the 
+fungae. Then there are the mollusca, chordate & etc and the further hierarchies until you
+reach the bottom. Thus, for a complex problem the number of layers in the hierarchy can
+be large and each of these layers is basically a model.
+(Refer Slide Time: 11:29)
+What exactly is a model. A model is an abstraction where we focus on some issues and
+ignore the rest. Several types of models can be there for a problem and if it is a complex
+problem, we would create a hierarchy of models.
+Is it necessary to develop a model and does its construction help. As understanding a
+complex problem is extremely difficult due to human cognitive limitations. We would
+first understand the top of the hierarchy and then look at the other models to develop an
+incremental understanding of the problem.
+Examples of models: Consider the content page of a book and etc.
+You may come up with hundreds of different models that we use in the real life.
+(Refer Slide Time: 13:47)
+Another important principle is decomposition. Decomposition means to decompose a
+complex problem into small independent parts because the problem in its entirety is
+extremely complex, hard to understand & it takes exponentially large time. We would
+break the entire problem into small parts and examine the small problems. Once you put
+them together, you will get the understanding of the entire problem.
+Example situations in daily life: There were many places where you can use the principle
+of decomposition. We need to divided a large problem into small parts and as you put
+them together, you will get the solution to the entire full problem.
+(Refer Slide Time: 15:06)
+Popular example of the decomposition principle is that if you try to break a bunch of
+sticks tied together it would be extremely complex but if you decompose it then you can
+break the sticks individually.
+You need to decompose them such that each small problem can be solved separately and
+this is also a corner stone in all software engineering principles.
+(Refer Slide Time: 16:38)
+Consider a book is written half hazard, all mixed up. It would become extremely
+complex for someone trying to read the book. So, a chapter organization of a book is
+required and it’s actually a decomposition of a complex large thought into small
+manageable parts.
+(Refer Slide Time: 17:31)
+Software engineering helps when you have large problems to solve that are the industry
+standard problems. But there are two main techniques: abstraction and decomposition.
+The benefits of the software engineering principles are as follows:
+Firstly, you will get the skills to develop the large programs because the intuitive
+technique of build and fix, try to program and debug does not work for developing large
+programs. We should be able to create models that is abstraction and decompose the
+large programs, that would be the way to handle the exponential growth in complexity.
+Hence, these are the systematic techniques which will help us in applying the principles
+of abstraction and decomposition and develop large programs.
+(Refer Slide Time: 19:08)
+The second reason is that you will learn systematic techniques. To specify a problem,
+designing, do user interphase development, testing, project management, maintenance,
+etc and look into the issues that arise in team-based development.
+(Refer Slide Time: 19:50)
+The software engineering principles will be also useful to develop small programs in a
+better way after acquiring the required skillset. Even for small programs after studying
+the software engineering principles we will have a higher productivity and be able to
+write better quality programs.
+(Refer Slide Time: 20:18)
+The difference between the job and project. A job is a repetition of some well-defined
+and well understood tasks with little uncertainty whereas Project involves some
+challenges and exploration is where there is an uncertainty of outcome. For example:
+Consider to go to the market and fetch a chocolate, yes it can be done. It’s a welldefined, well understood task can be easily accomplished, there is no uncertainty you can
+definitely do it.
+An exploration is a work whose outcome is uncertain. For example: Consider to find a
+cure for cancer. You will go about doing the work but never know whether there will be
+any success at all. Project is somewhat in-between a job and exploration which is
+completely uncertain and also completely deterministic at the projects where there are
+many challenges but then some of the work is also routine.
+(Refer Slide Time: 22:08)
+A software development project consists of some routine work as well as there are
+challenges in it.
+There are mainly two types of software projects: one is product development projects or
+generic software development projects and services projects or custom software
+development. The total size of the industry for software development is extremely large,
+several trillions of US dollar and half of this is about developing and selling products. On
+the other hand, the rest are services.
+The growth in services is much more than that of products and soon we will have the
+services market more than the product market. Nearly, 50 ago, almost everything was
+product & there was hardly any services.
+(Refer Slide Time: 23:58)
+The issues in the software product development project and the services projects. The
+product development projects are basically packaged software. These are available for
+every individual. Anybody can order and buy this software. But if you look at the
+packaged software, they are of two types: one is the horizontal product which meets the
+need of mini companies. For example: Consider a word processing software or an
+operating system and etc. These are horizontal because a large number of companies and
+individuals are interested.
+Whereas, a vertical market software or a vertical product focuses only a small group of
+companies. For example, considering the telecom domain or chemical plant simulation,
+that is another vertical market or the banking software where only the banks are
+interested.
+There are of two types, one is the horizontal products which is developed for almost
+everyone whereas for the vertical products only a specific type of industry would be
+interested.
+Every custom software will basically have some software generic version or might be
+done for some customer and get tailored or custom made for the other customers.
+We will continue in the next lecture. Thank you.

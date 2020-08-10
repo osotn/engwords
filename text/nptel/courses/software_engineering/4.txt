@@ -1,0 +1,194 @@
+Software Engineering
+Prof. Rajib Mall
+Department of Computer Science and Engineering
+Indian Institute of Technology, Kharagpur
+Lecture – 04
+Introduction- IV
+In the last lecture we discussed about the different types of software projects.
+Looking into the different types of software projects that are been undertaken in the
+industry so that you will be able to appreciate the different principles which are used for
+the software development.
+The software projects are basically of two types:
+(Refer Slide Time: 00:58)
+One is the product development projects and the other are services projects.
+(Refer Slide Time: 01:08)
+As the software services are growing very fast, the market size for software services and
+the products are evenly balanced but on the contrary the software services projects are
+growing at a much faster rate. The software services project is basically an umbrella term
+in the sense that there are various types of software services projects. For example,
+Software customization, software maintenance and software testing. Consider some
+organization developed a software but the testing part has outsourced. Here, the software
+testing is software service. In another extreme form you may consider a company which
+supplies the contract programmers and a development company which will need some of
+these for carrying out some work and this is also considered a service.
+(Refer Slide Time: 03:07)
+The number of services projects is large as compared to product development projects.
+50-60 years back we had very little code written. Meeting the requirements of any
+customer needed to develop software from scratch. But, now a days to develop a new
+software, a lot of reuse is being made from the existing software.
+Consider a example that an education institute decides to automate various book keeping
+activities. If it was in the 1950s or 60s our project would take a year or two to develop
+the software and install at the educational institute. But right now, a month is an average
+time in which such a work can be completed or even within 15 days. So, the project
+duration has shortened and somebody can really develop a million-line code by basically
+tailoring out some existing software.
+As the speed of conducting business has increased tremendously not only in the
+education institute but all the companies, they want software to be quickly developed and
+installed and that is one of another reason that the services projects have really increased.
+(Refer Slide Time: 05:38)
+Looking at the market size of the IT industry in India it is growing rapidly over the last
+few years as per the report from the NASSCOM. The IT industry in India has made rapid
+progress, large number of projects are existing and majority of them have been
+completed. There is almost a growth of 10 percent of the GDP which comes from the IT
+industry.
+(Refer Slide Time: 06:49)
+Indian Software Companies had excelled in the services segment, almost every project is
+a services type of project.
+As you know that worldwide 50 percent of the development projects are product
+development and other 50 percent is services. But in India its entirely services project.
+The reasons are that: in product development system there is a large gestation and risk to
+develop a product. It may do well in the market or just flop. Lots of investment may
+vanish. But, if a product development project succeeds then it keeps on giving return
+year after a year whereas the services project is typically paid only once. But the Indian
+companies concentrate only on the services projects. There are only few product
+developments projects and some success stories about products in the Indian context.
+In the initial years of software development very few software existed. Almost every
+project started from scratch and projects were multiyear like 2,3,4,5-year long projects
+existed and the programming languages used were FORTRAN, PASCAL, COBOL,
+BASIC, etc. These programming languages didn’t support the reuse of code and almost
+all application was NON- GUI based. Now, every application has a GUI and heavy reuse
+is made. The project duration has really minimized from multiyear to just couple of
+months and the programming languages supports reuse of the code.
+(Refer Slide Time: 10:23)
+The traditional versus modern projects: Services segment is having a large growth rate,
+we tailor some existing software or try to reuse prebuilt library. In the modern projects
+the client is a part of the project and the client gives feedback according to the 
+requirement. There are product development projects largely and once the development
+starts no feedback can be taken, it freezes the requirements and start according to that.
+Right now, the customer is part of the project development. Even the large software is
+developed incrementally. That means that every 2 week the software is installed at the
+client and it then evolves new functionalities which gets added.
+No software is being developed from scratch and significant reuse of code is made.
+(Refer Slide Time: 11:57)
+What is computer systems engineering.
+In many developments work the hardware and software are developed together.
+There are many systems where the hardware also has to be designed from fresh and the
+software will run on that hardware. For examples: Consider a coffee wending machine or
+a robotic toy. Here, the robotic toy has a special processor containing its mechanical
+parts and etc and the software has to run on that specific processor which are not general
+type of processor.
+Let us also consider a new health band product. There product has a processor and health
+band which monitors the health and displays various suggestions and feedback. For this
+type of system where there is a hardware that needs to be developed and also the 
+software which has to work on that hardware, it is known as System Engineering. It’s a
+superset of the software engineering.
+(Refer Slide Time: 13:54)
+How is the computer systems engineering problem solved.
+Initially, a high-level understanding is made and then decide which part has to be solved
+by software and which part by hardware and its development start parallelly. The
+software will be tested by using a simulator and get developed.
+(Refer Slide Time: 14:35)
+The hardware simulator is used during software development and once the hardware and
+software development is complete, they are integrated and the entire full system is tested.
+(Refer Slide Time: 14:56)
+This is a model or a schematic of the computer systems engineering. Throughout the
+entire project duration, the project management activity is carried out to manage the
+various activities in the system engineering project.
+(Refer Slide Time: 15:49)
+Different software engineering techniques: Starting with simple techniques, the software
+techniques have become more and more sophisticated.
+(Refer Slide Time: 16:25)
+In early 1950s in the computer programming, the programs were small.
+(Refer Slide Time: 16:37)
+It was written using language like FORTRAN. Every programmer had his own style that
+is basically the build and fix programming and every program was developed according
+to the intuition of the programmer.
+(Refer Slide Time: 17:00)
+Languages like FORTRAN, ALGOL, COBOL were used later in 1960s and the
+assembly language used were restricted. But the productivity improved significantly with
+high level language programming.
+The productivity of high-level programming languages was higher as compared to
+assembly language programming.
+It’s because of two reasons: Firstly, for one single line of high-level program code you
+need to write many assembly codes and the high-level code is easily understood as the
+machine language is much more involved. As you will deal with abstraction that would
+deal only with the variables.
+So, high level language programming is much simpler. It abstracts out the details of
+hardware organization architecture.
+(Refer Slide Time: 18:51)
+Even though the high level programming languages were used the development was
+largely exploratory and the typical program size was only about thousand lines of code.
+(Refer Slide Time: 19:10)
+The size of the program increased and the exploratory style became insufficient. It was
+taking long to develop code as there were many bugs.
+(Refer Slide Time: 19:41)
+To develop a good program you need to pay attention to the control flow.
+(Refer Slide Time: 19:49)
+The control structure of a program is the sequence in which the programs instructions are
+executed. It may get altered when there are decisions, loops and etc.
+By looking at the control structure you can determine in what sequence the program will
+get executed. 
+The programmers got advised from the good programmers to pay attention to the control
+structure. Thus, the flow-charting technique was developed. The flow charts were used to
+represent the programs control structure and based on these the code was written.
+(Refer Slide Time: 21:36)
+To understand a code having this control structure, you have to understand the different
+paths through it starting from the first statement which are the statements that is executed
+and where the output is generated.
+(Refer Slide Time: 22:07)
+A program having a bad control flow representation will be very difficult to understand
+and debug as it will have lot of errors.
+(Refer Slide Time: 22:43)
+To understand this program, you have to trace the different paths through it. Imagine that
+there are thousands - millions of paths.
+To be able to trace the execution through all the paths will be extremely tedious as it will
+require a long of time. But if it had a good control structure and only few paths (just 3-4)
+then you can easily understand it compared to a very complex program control structure.
+(Refer Slide Time: 24:21)
+It gave rise to the control flow base design. The control flow base design consider to
+have a good control structure for the program.
+The GO TO statements were the culprits and they make the control structure bad. Earlier
+programming languages like FORTRAN,etc had the GO TO statements and they were
+used heavily.
+(Refer Slide Time: 25:09)
+The assembly programmers said that without jump instruction you cannot write a
+program. As GO TO statements were inevitable and without using GO TO statement you
+couldn’t write sophisticated programs.
+(Refer Slide Time: 25:38)
+Dijkstra published an article in the communication of ACM 1969, a landmark article
+known as ‘Goto Statement Considered Harmful’. He mentioned about the problems that
+a GO TO statement creates and obviously, many programmers who were basically
+having assembly programming background were unhappy.
+(Refer Slide Time: 26:04)
+On the contrary, they wrote counter articles and said that without GO TO statement you
+cannot really write a large program. 
+(Refer Slide Time: 26:14)
+To solve any programming problem that includes the large complex problems you need
+only three types of constructs: the sequence, selection and the alteration constructs.
+(Refer Slide Time: 26:36)
+Slowly everybody accepted that it is possible to write large programs without using GO
+TO statements and this earned the basis of the structured programming methodology.
+(Refer Slide Time: 26:48)
+Structured programming. A program is called structured when it uses only three types of
+constructs: the sequence, selection and iteration. Sequence is one statement after the
+other statement, like one arithmetic statement followed by another arithmetic statement.
+Selection like if, then, else, switch and etc. Iteration like for loop, while loop, do loop
+and etc.
+This basic feature of a structured program is that it only uses the sequence, selection and
+iteration type of statements and it also consists of modules.
+(Refer Slide Time: 27:58)
+Sometimes, you have to use GO TO statement and in the modern languages you do not
+require the use of GO TO but for the statements like break, premature loop exit,
+exceptions and etc. These are basically not structured constructs but occasionally it is
+allowed due to practical considerations.
+(Refer Slide Time: 28:32)
+Advantages of structured program. A structured program has a good control structure
+because it does not use GO TO statements and has only few paths. It is simple and
+therefore it is easy to read and understand and maintain.
+It requires less effort and time for development and is less buggy whereas in nonstructured program the bug may exist in one of the paths which you never thought and
+ever existed.
+The structured programming principle has been accepted. It is a very popular technique.
+The modern programming languages facilitate writing structured programs because they
+do not have constructs.
+We will continue in the next lecture.
+Thank you.

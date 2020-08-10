@@ -1,0 +1,195 @@
+Software Engineering
+Prof. Rajib Mall
+Department of Computer Science and Engineering
+Indian Institute of Technology, Kharagpur
+Lecture – 07
+Life Cycle Model (Contd.)
+Welcome to this lecture. In the last lecture we had discussed about some basic concepts
+about the Life Cycle Models. Now, we look at some of the well accepted life cycle
+models.
+(Refer Slide Time: 00:37)
+Many life cycles models have been proposed, the popular ones are waterfall, V model,
+evolutionary model, prototyping model and spiral model these have existed for quite
+some time and we will call this as the traditional models.
+In the recent years, the agile models have come into being. We will see the difference
+between the traditional model and the agile model and how this has come into being.
+Why these have become much more suitable for modern projects and etc.
+(Refer Slide Time: 01:31)
+A software lifecycle is also known as a software process. It’s a series of identifiable
+stages that a software product undergoes during its lifetime.
+What are stages? The stages typically are the feasibility study, requirements analysis,
+specification, design, coding, testing and maintenance.
+(Refer Slide Time: 02:58)
+The most intuitive lifecycle model is called as the classical waterfall model. It matches
+very closely to the model that we discussed in the last lecture.
+But, how exactly software’s have developed.
+For the development, we need to design based on the specification, code based on the
+design then test it and after testing is complete, install it and if there are any difficulties,
+problems or enhancements required then we should change and finally retire.
+The classical waterfall model matches closely to this intuitive development style. The
+phases consists of the feasibility study, requirements analysis & specification, design,
+coding & unit testing, integration and system testing & maintenance.
+But how the development should proceed? Initially, you do the feasibility study then the
+requirements analysis and specification. Based on the requirements, you do the design
+then code and unit test and then move to next stage that is integration and system testing
+and finally it’s delivered. This matches very closely to the intuitive model that we had
+discussed.
+(Refer Slide Time: 05:06)
+If we represent the classical waterfall model in a diagrammatical form, we will have
+feasibility study followed by requirements analysis followed by design, coding and once
+coding is complete you will carry out the testing and maintenance. It is the simplest and
+the most intuitive development style. 
+Even though this model is very easy to understand and if you understand this model, it
+becomes easy to understand the other models. Still, this model is more of an idealistic
+model as it is not really used in real projects & we will investigate the reason later.
+(Refer Slide Time: 06:04)
+In the classical waterfall model, there are many phases.
+Among all lifecycle phases the maintenance phase actually requires the maximum effort
+because the development might complete within couple of months but the maintenance
+goes on for years together and for almost every software the maintenance requires much
+more effort than the development effort.
+Similarly, among the development phases the testing phase typically consumes the
+maximum effort. If you plot the effort graph for a typical project you can see that the
+maintenance requires much more effort.
+Thus, the development phases testing requires the largest effort. Coding & design
+requires less effort on the requirements specification. 
+(Refer Slide Time: 08:01)
+The classical waterfall model or any other model used to document such a model must
+not only have the diagrammatic representation but also have the entry and exit criteria.
+What are the methodologies that are used in different phases and the outputs that is
+produced in every phase and is termed as the process model.
+(Refer Slide Time: 08:45)
+Every good organization documents the process model and gives it to the developers.
+The new developers are asked to master the development process before they start the
+development of the software. 
+(Refer Slide Time: 09:11)
+Looking into the different stages briefly. The first activity in the classical waterfall
+model is the feasibility study. In the feasibility study there are 3 main aspects that are
+determined, i.e.; whether the software that to be developed is economically feasible,
+whether the development effort and the cost that will be spent on developing software is
+it worth and lastly whether the developing organization has the technical competence
+required to develop the software or not.
+This is also termed as the cost benefit analysis.
+Considering the example for the development of some satellite communication. As the
+developers do not know how to use satellite communication and even write programs for
+satellite communication, they will find it technically infeasible.
+The third feasibility that needs to be determined during the feasibility study stage is
+scheduled feasibility. The time by which the customer requires the product to be
+delivered and the development involved to complete the work as per the required time.
+During the feasibility study, the project manager needs to determine 3 types of
+feasibility. Whether it is cost wise feasible, whether it can be done and the scheduled
+feasibility (i.e. whether it can be done in time or not). 
+(Refer Slide Time: 11:38)
+Let’s look how exactly the feasibility study can be carried out. The first thing is to
+roughly understand the requirements of the software and the customer requirements.
+What are the features of the software? (I.e. Comprising of different sort of data, the
+volume, the processing that needs to be done & finally the code to be written.)
+What is the output to be produced by the system and the various constraints & behavior
+of the system? Considering an example, whether the backup needs to be kept or whether
+the downtime requirement is very high or whether the data to be input from different
+locations of the company. These are some of the different constraints.
+(Refer Slide Time: 13:20)
+Once the requirements are understood then the project manager likes to execute it. As per
+the proposed alternate solution you need to find out the cost for its solution, do the cost
+benefit analysis, check whether schedule wise it is technically feasible and then find out
+the best solution and discuss with the customer and determine whether to execute or
+abandon the project.
+Looking at a case study that will help us appreciate what are the work or the activities
+that needs to be undertaken during the feasibility study phase. Let’s take a project of the
+special provident scheme for the coalfields limited, which itself is a large company
+having large number of employees exceeding 50,000. Now, the company has many
+casual laborers and mining is a risky profession, casualties are high, people get injured,
+killed even though there is a provident fund but the settlement time is high. Therefore,
+the company feels that it needs a special provident fund which can fasten the
+disbursement of the benefits at the earliest.
+The company invites software vendors to develop software for the special provident fund
+scheme. Many companies show interest and the project manager visits the main office of
+the company & try to understand what are the functionalities that is required.
+(Refer Slide Time: 15:30)
+There is a formula for how much compensation is to be paid. What are the restrictions on
+the compensation under which conditions compensation will not be paid and etc.
+The manager might visit some mine sites and finds out how the data will be input, that is
+what are the details of the employees, what is their contribution on a daily weekly or
+monthly basis and after understanding the complete situation he tries to propose an
+alternate solution.
+The alternate solutions proposes that the data needs to be maintained locally at the mine
+sites and periodically the data will be transferred to the main office (I.e. there will be
+computers at the mine site which will maintain the data in each mine and there will be a
+main computer & main server at the head office and depending on the request it will
+provide the answers).
+The other solution might be of transmitting the data as soon as it gets entered or at the
+end of the day to the mine site. All these data will be maintained at the head office.
+Instant results can be provided as here the communication costs are less but there is a
+delay and data are not up to date at the main office.
+To do a cost benefit analysis for each alternate solution, initially find out what is suitable
+to the coalfield officials and then find the cost for its solution and determine the best
+solution & check whether that is acceptable to the organization & whether there is 
+technical competence to develop the solution or whether it can be developed within the
+timeline and based on this the decision will be taken (no go decision).
+Just to summarize, the first thing during feasibility study is to understand the work and
+the features required. What are the data and how they will be input? What is the
+processing time and the constraints and etc. Once the rough understanding of the
+requirements is done, find out what are the best ways to solve it as there can be many
+alternate solutions.
+Examine the cost implications of different solutions & find out the best solution, present
+it to the customer & take their feedback.
+If everything goes fine and is acceptable to the officials, the project manager will take a
+go decision and the high-level solution that has been defined will be used by the
+developers and the development will proceed in this style.
+But there might be a situation where the technical competence is not there with the
+company or maybe the timeline by which the company needs it would be difficult to
+meet and hence the project manager might take a no-go decision and abandon the
+project.
+(Refer Slide Time: 21:12)
+The activities during the feasibility study, we can summarize that the work out on an
+overall understanding of the problem. Formulate the different solution strategies, propose 
+alternate solutions and determine the cost in terms of the resource required per cost of
+development and the development time.
+(Refer Slide Time: 21:38)
+Form a cost benefit analysis, find out the best solution and then decide whether to go
+ahead with the project or abandon because of high cost resources, constraints or technical
+reasons.
+(Refer Slide Time: 21:57)
+The cost of a project is not only the development cost but also consists of the operational
+costs.
+Consider an educational institute wants to have an automated solution. It is not just
+developing the software but also setting up the required infrastructure. Also, the
+operational cost like who will enter the data, we will take the backup, maintenance and
+will be taken into account.
+An organization trying to deploy an IT solution would identify all these costs and the
+cost of the solution would be the sum of the development cost setup and operational cost.
+Finally, you have to identify the benefits that you will accrue from this automation and
+then check whether the benefits are greater than the cost.
+(Refer Slide Time: 23:08)
+For a project to be taken up by an organization, the benefits must outweigh the costs. The
+costs are the development operation setup costs & the benefits. Some of them are
+quantifiable and some of them may be non-quantifiable. For example, let’s say we want
+to automate the book-keeping activities in an educational institute.
+Some of the benefits are quantifiable that how much manpower is saved by automating it
+but some are non-quantifiable. For example, the results may come out faster, the students
+may benefit. But we cannot really put a cost on through this & it’s difficult to quantify. 
+(Refer Slide Time: 24:18)
+After the feasibility study is over, typically the project manager prepares a ‘business
+case’. The business case basically mentions the costs and the benefits & then presents it
+to the top management about the cost implications and the benefits.
+(Refer Slide Time: 25:03)
+Typically, a good business case should touch upon the following points out of which one
+is the executive summary that what exactly is done is to be taken up to the top
+management to understand.
+The project background that under what circumstances the need for the project arouse
+and then the business opportunity that what exactly will be the benefit? What difference
+it will make and how much it will cost for the development, implementation, set of
+trainings, operations and the benefits in terms of revenue generation, cost reduction, nonquantifiable benefits and even the risks.
+The risks can be that the development costs will be much higher than estimated. Maybe,
+it will take more time than what is estimated. After it is developed, it may not be liked by
+the stakeholders and they may not use it. But there must be some arguments or plan
+regarding how these different threats or risks will be contained or handled and these are
+the different sections for the effective business cases.
+(Refer Slide Time: 28:03)
+We have so far looked at the feasibility study phase, as we look at the requirement
+analysis that the design, coding, testing and maintenance. But here it looks like a cascade
+of waterfall, the water is falling from one level to the next level and that is known as the
+waterfall model.
+The first stage is the feasibility study and the second stage is the requirements analysis
+and specification. We will start discussing very briefly about the activities done in
+requirement analysis as we will continue the discussion in the next lecture. Thank you. 

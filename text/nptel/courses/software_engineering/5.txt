@@ -1,0 +1,169 @@
+Software Engineering
+Prof. Rajib Mall
+Department of Computer Science and Engineering
+Indian Institute of Technology, Kharagpur
+Lecture – 05
+Introduction- V
+In the last lecture we looked at some introductory issues on software engineering.
+Now, we will discuss how briefly these techniques have evolved over time which will
+provide a better understanding about how the techniques have come into action.
+(Refer Slide Time: 01:16)
+In the early years of computer programming(1950s) all the programs were written in
+assembly language and the size of program were small comprising of few hundreds of
+lines of assembly code.
+(Refer Slide Time: 01:40)
+The programmers used the build and fix or the exploratory style as per their ease of
+convince.
+(Refer Slide Time: 02:02)
+In, 1960s higher level languages came into action like FORTRAN, ALGOL, COBOL,
+etc and this increased the productivity greatly.
+Writing in a high-level language is much more productive than in assembly language.
+It’s because of the three main reasons: First, in assembly language one needs to write the
+program considering the register contents, machines architecture and etc. Using a highlevel language, one writes the program in terms of the variables which corresponds to the
+real problem or the high-level language abstracts the machine details. Secondly, each
+high-level construct is equivalent to writing 3-4 assembly instructions. And, the third
+reason is that the high-level language programs are much nearer to the human’s language
+than the assembly & hence it becomes easy to write programs.
+(Refer Slide Time: 03:57)
+In 1960s, even though programs were written in high level language still the
+development was exploratory. Everyone use their own intuition to write the program and
+it worked because the program size was small, just about a few thousand lines of code.
+(Refer Slide Time: 04:24)
+Towards the end of that decade, the program sizes started to increase and it became
+extremely difficult for programmers to write using the exploratory style as there were lot
+of bugs involved.
+(Refer Slide Time: 05:00)
+The good programmers advised to “pay attention to the design of the program’s control
+structure”.
+(Refer Slide Time: 05:31)
+Control structure of a program: A control structure of a program is the sequence in which
+the programs statements can be executed.
+The flow-charting technique was developed to design good control structure. Before
+writing the program, represent the logic or the algorithm of the program in a flow chart
+and then translate the flow chart into code.
+(Refer Slide Time: 06:38)
+Why the flow-charting technique or a good control structure helps in writing quality
+programs.
+(Refer Slide Time: 07:22)
+If you do not use a control structure design and write the program as it comes to mind
+then the structure will be poor and it will become very difficult for programmer to
+understand and debug.
+(Refer Slide Time: 07:44)
+Looking at a program having a bad control structure. To understand it one needs to find
+every output that is produced, the instructions that are executed and etc. It’s extremely
+difficult to trace from where the input might have come.
+To understand this piece of code even if you try for a year or two, you would still not
+have a full understanding of the program.
+But, if we design the control structure using a flow chart: the number of paths will be
+limited and in reasonable small time, you could understand the program & debug it as
+the program development becomes fast and the productivity also increases.
+(Refer Slide Time: 09:37)
+As the control flow base design reduces the complexity. One thing that was observed by
+the experienced programmers was that the use of GO TO statements make the control
+structure bad. As long as a programmer writes program full of GO TO statements, even
+if he had designed the control structure & etc, he will end up writing bad code.
+Hence, the good programmers advised not to use GO TO statements as they will
+ultimately make the program structure bad.
+(Refer Slide Time: 10:29)
+In the late 1960s, there were many assembly programmers. Every assembly program
+typically had many jump statements and they thought that it would be impossible to
+write a program without using jump statements as the GO TO statements were
+inevitable.
+(Refer Slide Time: 11:41)
+Dijkstra published a article in the communications of ACM 1969 “Goto Statement
+Considered Harmful” and he argued that the GO TO statements will not be used unless it
+is absolutely necessary.
+(Refer Slide Time: 12:19)
+They said that GO TO statements are actually advantageous as they help write efficient
+programs and it’s inevitable. (Refer Slide Time: 12:32)
+To express any programming logic only three types of programming constructs are
+needed. These are sequence, selection and the iteration type of constructs. Naturally
+every programming language provides these three categories of constructs.
+(Refer Slide Time: 13:43)
+A program written without using GO TO statements forms the basis of structured
+programming and that’s one of the main requirements of a structured programming.
+(Refer Slide Time: 14:05)
+In the concept of structured programming no GO TOs are used, only three types of
+construct these are the sequence, selection and iteration. 
+(Refer Slide Time: 14:33)
+Sometimes they are necessary for practical consideration. For example, premature loop
+exist which is a form of GO TO statement or exception handling.
+(Refer Slide Time: 15:16)
+If someone does not write structured programs then he will face a lot of problems
+comprising the control structure will become bad and will be difficult to understand and
+hard to maintain. The program itself will require too much effort & time and it will carry
+a lot of bugs.
+The structured program has lot of advantages and it’s advised to write structured
+programs using the sequence, selection, iteration constructs and modular programs. As, a
+result the structured program has become inbuilt into the programming languages.
+(Refer Slide Time: 17:16)
+And, the advantages of structured programming was proved through large number of
+experimental observations.
+(Refer Slide Time: 17:32)
+Paying attention to control structure is not sufficient. As the programming is expensive,
+developing large programs usually takes long time and consists of many bugs.
+For developing large programs paying attention to the kind of data structure is required
+and the type of data structures should be designed very carefully.
+(Refer Slide Time: 18:30)
+The data structure which oriented the design in the early 1970s, the main objective was
+to design the programs data structure and the respective program structure can be derived
+from it.
+(Refer Slide Time: 19:01)
+Many data structure-oriented design techniques became popular in 1970s; the Jackson’s
+Structured Programming or the JSP methodology.
+(Refer Slide Time: 19:17)
+They provided constructs to design the data structure, to represent the data structure in
+diagrammatic form and then to write a program based on the data structure.
+(Refer Slide Time: 19:39)
+They had notations for representing sequence, selection, and iteration and then these are
+translated into program structure.
+(Refer Slide Time: 20:00)
+Other data structure oriented design technique was also very popular; namely the
+Warnier-Orr Methodology.
+(Refer Slide Time: 20:11)
+To get really good program we must pay particular attention to the data flows through
+the program. That is starting from the input what kind of processing is done until the
+output is done. It had a DFD notation, the data flow diagram notation where you can first
+represent the data flow from the input, until the output comes out. Once, we have the
+data flow representation for a program it can be transformed into a good design.
+(Refer Slide Time: 21:53)
+Starting with the data input, the processing that is done are called as the processing
+stations or functions and the data which flows between these processing stations is
+represented and the final design is obtained.
+(Refer Slide Time: 22:16)
+As the data flow diagram is a very simple technique and hardly requires an hour to learn
+this technique. It can be used to model the working of any system.
+(Refer Slide Time: 22:56)
+Consider a car assembly unit, where there are processing stations. One processing station
+takes engines & chassis and it fix the engine to the chassis. Then the chassis with the
+engine goes to another processing station where it takes out the doors and fits the door to
+the chassis and it proceeds to the next processing station. The representation of two
+parallel lines which store, gets it fits the wheels and then the assembled car comes out
+which is painted and ready to dispatch.
+(Refer Slide Time: 23:54)
+Subsequently the object-oriented technique in 1980s came into picture. This had the
+appeal of representing the natural objects in the problem and writing using this technique
+become quite sophisticated.
+(Refer Slide Time: 24:50)
+The main advantage of the object oriented design is that it leads to a very good modular
+design because the objects are essentially similar to a good modules which have data
+hiding or data abstraction entity.
+(Refer Slide Time: 25:33)
+There are many advantages of the object-oriented design technique. The design is simple
+just by looking at the design of a large and complex problem we will be able have a fair
+idea about the program. It helps to reuse, lowers the development time, development cost
+and produces code which is less buggy and easy to maintain.
+(Refer Slide Time: 26:22)
+The development in this area has been rapid compared to the programs that was written
+in 1950s and right now we can use the sophisticated techniques to write the program.
+(Refer Slide Time: 27:08)
+The other software engineering principles are also getting rapidly evolved.
+(Refer Slide Time: 27:22)
+For example: Consider the life cycle models. Having a good specification technique will
+examine project management techniques, testing techniques, debug techniques, quality
+assurance, matrix, case stools and etc.
+Compared to 1950, various software engineering techniques have evolved year after year
+and now, we have a reasonably sophisticated set of techniques which a developer must
+know to write good programs.
+That’s all, we will continue in the next lecture.
+Thank you.

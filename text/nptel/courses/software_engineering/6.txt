@@ -1,0 +1,193 @@
+Software Engineering
+Prof. Rajib Mall
+Department of Computer Science and Engineering
+Indian Institute of Technology, Kharagpur
+Lecture – 06
+Life Cycle Model
+Welcome, we will continue what we were discussing last time.
+(Refer Slide Time: 00:25)
+The software engineering principles themselves have evolved over the time resulting in
+the software development.
+The software writing problem is not the same. The problems have become much more
+complex but at the same time these are only incrementally different from the problem
+that has been solved.
+Compared to 1950s or 60s when the exploratory style was used, now the life cycle model
+have come into action and every program is being developed according to an adopted life
+cycle model and the development occurs through the stages.
+The stages typically consist of the requirements for analysis, specification, design,
+coding, testing, and etc.
+(Refer Slide Time: 01:58)
+The major difference between the way program was written between 1950s and 60s to
+now is that the emphasis has shifted from error correction to error prevention. In the
+earlier technique, the exploratory style was to first write the program and complete it
+somehow and then start correcting the errors. As there will be hundreds of errors, keep
+on eliminating them one by one until all errors are eliminated.
+But, now the emphasis is on error prevention. As the program is written, we track the
+errors and remove it from there itself and as soon as we have a mistake committed by the
+programmer in the program development, we try to detect it as close to the time of
+commitment of the error as possible. The main advantage of this is that it’s very cost
+effective.
+If you want to correct the error after testing then you will have to first find out where
+exactly the error has occurred, make changes to the code and again test it. Here, before
+testing we just identify the place where the error is written and we do not have to look or
+review the code, the specification & the design and then identify the error and correct it
+there itself. You don’t need to wait for error to be discussed, detected and determined
+during the testing phase. 
+(Refer Slide Time: 04:05)
+The software is developed through number of phases and in each phase wherever a
+program commits a mistake, it gets detected and corrected in that same phase as far as
+possible.
+(Refer Slide Time: 04:26)
+In the early exploratory style of program development, it was basically coding, you have
+to start writing the code as soon as the problem is given but now in the modern
+development practice, coding is actually a small part of the development activities. The
+major activities are specification, design, coding and testing. 
+(Refer Slide Time: 05:01)
+A lot of attention is now given to requirement specification then the design which has to
+be done, (i.e. the standard design techniques which are available).
+(Refer Slide Time: 05:16)
+At the end of every phase reviews are conducted. The main idea behind review is to
+detect errors as soon as they are committed by the programmer. You don’t need to wait
+for the error to be detected during testing. The reviews help us to detect the errors much
+earlier and therefore reduces the cost of development as well as the time of development. 
+(Refer Slide Time: 06:03)
+Earlier the programmer just wrote the code and then never know when it will get
+completed.
+The increased visibility made software project management much easier. Earlier, the
+projects were going hewer, one-year project taking 5 years was not uncommon but now
+due to the increased visibility, the project manager can very accurately determine when
+the project & at what stage it is and how long it will take to complete it.
+(Refer Slide Time: 07:49)
+Good documents are produced so that the later maintenance becomes much easier. Also,
+several metrics are used to determine the quality of the software, software project
+management and etc.
+(Refer Slide Time: 08:09)
+There are many project management techniques that are used like estimation, scheduling,
+monitoring, mechanisms and also case tools which are being used extensively.
+(Refer Slide Time: 08:24)
+Review questions: What do we mean by structured programming. Structured
+programming is writing programs that don’t use Go To’s, but only use sequence
+selection and iteration type of constructs and their modular.
+What problems may appear if a large program is developed without using structured
+programming techniques? The program will take longer time and it would cost much
+more as it will have lot of bugs & difficult to maintain as well as difficult to understand
+the code.
+(Refer Slide Time: 09:29)
+We will spend a couple of lectures on the lifecycle models because these are one of the
+basic principles that we must know and if a project is using certain lifecycle model, we
+must know why it’s being used and what is involved in that lifecycle model.
+(Refer Slide Time: 10:19)
+A life cycle is the set of stages through which something evolves. Considering an
+example: A human being life cycle involves from child to adult to old age and finally
+retired.
+Similar is with the software life cycle, conceptually you can think that somebody thought
+of the software – i.e. conceptualization, then it found out what exactly is needed -
+specification, then designing the software, test it, install it and finally delivery. The
+software’s may not be needed anymore because different software have become
+available which are much better or the hardware has changed and slowly with the
+passage of time it is no more used and eventually retired. 
+(Refer Slide Time: 11:48)
+What exactly is a software lifecycle model [also known as process model, the
+development process model or the software development life cycle (SDLC)]. Normally,
+we represent software lifecycle model (the process model) in the form of a diagrammatic
+representation but just a diagrammatic representation is not enough as it lacks details.
+Thus, with every lifecycle model we will not only have a diagrammatic model but also a
+descriptive description of what exactly is involved. As, every software is developed
+through different types of activities and the lifecycle model represents all these activities.
+It also establishes a precedence ordering and divides all these activities into phases.
+(Refer Slide Time: 13:59)
+In other words, every phase of development consists of many activities. Considering an
+example, the design stage activity may be structured analysis, structure design, design
+review and etc.
+(Refer Slide Time: 14:18)
+Why do we need a lifecycle model?
+As now a days every development organization have their own life cycle model which is
+a written description - graphical and it’s also available in the form of books which can be
+referred by existing programmers’ as well as new programmers.
+The main advantage of having such a graphical and written description, (i.e.; having a
+documented life cycle model) is that all developers will have a common understanding of
+activities.
+Therefore, the development becomes much more disciplined and it helps to identify the
+inconsistencies in the activities, redundancies & omissions.
+As long as we have a written lifecycle model for a specific project, we can look at the
+lifecycle model and tailor it for the activities which are not required and add new
+activities that will be required for the specific projects.
+Most of the quality standard requires organization’s which would qualify for the quality
+standard & they need to have a written lifecycle model or the process model. Quality
+standards like ISO, ACI are required for a documented lifecycle model.
+(Refer Slide Time: 16:50)
+Once the written life cycle model is available, the organization identifies the suitable
+lifecycle model for the type of the projects and the programmers & developers are asked
+to understand it fully and use it rigorously. 
+(Refer Slide Time: 17:11)
+The main advantage of the lifecycle model is that it helps to solve a big problem. As long
+as the problem is small it is done by one programmer or developer but when there is a
+team of developers working to solve a large problem then the lifecycle model has to be
+used because every developer needs to have a precise understanding of the problem.
+The earlier informal development technique that was used was the build and fix style.
+This can be used only when the problem is very small and within the grasp of an
+individual.
+The developer’s have flexibility in using whatever style that suited them but when there
+is a team development, this kind of informal style of development would create real
+problem and the project will fail. 
+(Refer Slide Time: 19:19)
+In a team development there must be precise understanding of the team members that
+who will do what, when & etc. Without such a disciplined life cycle model, there can be
+chaos and the project may fail.
+(Refer Slide Time: 19:46)
+Considering an example where life cycle is not followed, let a programmer writes the
+code for some part & another do the test document design & another doing the file
+structure & another one writing the specification and etc.
+This type of project is destined to failure because all the programmers are doing different
+activities and when the specification is done by one programmer, the other programmers
+have already written the code.
+(Refer Slide Time: 20:31)
+Every lifecycle model consists of a set of phases but before a phase starts certain
+conditions must be satisfied. Similarly, for a requirement phase to complete, you must
+know the conditions that must be satisfied for the stage to complete.
+For example, the required document is completely written and has been reviewed by the
+team members internally and also by the customer. Without having a phase entry and
+exit criterion clearly mentioned in the life cycle model, it will create a lot of confusion
+and different teams may interpret it differently and some might just write and then
+proceed to the next phase and etc.
+So, for the un-ambiguous interpretation of the life cycle model, every phase must have
+entry and exit criteria.
+(Refer Slide Time: 22:22)
+The zit criteria for the requirement specification phase is that requirements should have
+been gathered, analyzed, documented, internally reviewed by the team members and the
+customer must approved the requirements. The phase can start only after the phase entry
+criteria is satisfied.
+(Refer Slide Time: 23:03)
+The main advantage of having the phase entry and exit criteria is that it helps us define
+milestones. A milestone is an important event during the development of software.
+If the phase exit criteria are satisfied then an important milestone is reached. The other
+advantage of having milestones is that the project manager knows how far the project has
+progressed and it becomes easy to plan & monitor it.
+(Refer Slide Time: 24:26)
+If we do not have such milestones then the project manager is at a loss and does not
+know how far the project has progressed as he can just ask the team members that how
+long do you think it will take and etc.
+(Refer Slide Time: 24:49)
+As the project manager has to rely on the guess of the team members, typically the
+programmers tend to be optimistic and say that its almost done.
+This used to be a big problem when the lifecycle model was not being followed and this
+is known as the 99 percent complete syndrome. In this syndrome, whenever the project
+manager asked to the team member, they say its almost 99 percent done because they
+were highly optimistic but then it just keeps on taking more and more time and the
+project manager becomes impatient.
+Hence, the project management without a lifecycle model is very difficult and suffers
+from the 99 percent complete syndrome.
+(Refer Slide Time: 25:58)
+With the development precedes what are the documents that are produced? Is code, the
+only important active artifact and is to be given to the customer.
+As all the documentation needs to be developed. Considering the specification document,
+design document, test document, maintenance document, user’s manual and etc. All
+these documents have to be developed during the development process as code is just
+one part of the deliverables. 
+(Refer Slide Time: 27:08)
+So, far we have seen some very basic concepts on the life cycle, the phases, phase entry
+and exit criteria, milestones and etc.
+In the next lecture we will look at the important life cycle models, the traditional models
+like waterfall, V model, evolutionary, prototyping and spiral model and even the modern
+agile models.
+Thank you.
