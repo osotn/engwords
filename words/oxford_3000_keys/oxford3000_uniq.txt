@@ -210,7 +210,7 @@ artistic
 as
 ashamed
 aside
-asidefrom
+_aside_from
 ask
 asleep
 _falla_sleep
@@ -265,7 +265,7 @@ backwards
 backward
 bacteria
 bad
-gobad
+_go_bad
 badly
 bad-tempered
 bag
@@ -281,7 +281,7 @@ bar
 bargain
 barrier
 base
-basedon
+_based_on
 basic
 basically
 basis
@@ -357,7 +357,7 @@ blood
 blow
 blue
 board
-onboard
+_on_board
 boat
 body
 boil
@@ -565,7 +565,7 @@ climbing
 clock
 close
 closely
-closee
+close
 closed
 closet
 cloth
@@ -721,7 +721,7 @@ country
 countryside
 county
 couple
-acouple
+_a_couple
 courage
 course
 _of_course
@@ -740,7 +740,7 @@ cream
 create
 creature
 credit
-creditcard
+_credit_card
 crime
 criminal
 crisis
@@ -972,7 +972,7 @@ drum
 drunk
 dry
 due
-dueto
+_due_to
 dull
 dump
 during
@@ -980,7 +980,7 @@ dust
 duty
 dvd
 each
-eachother
+_each_other
 ear
 early
 earn
@@ -1221,7 +1221,7 @@ festival
 fetch
 fever
 few
-afew
+_a_few
 field
 fight
 fighting
@@ -1234,7 +1234,7 @@ finally
 finance
 financial
 find
-findout
+_find_out
 fine
 finely
 finger
