@@ -134,8 +134,8 @@ int get_word(char *s, int len_max, BOOLEAN b_print)
 
   while ((c = getchar()) != EOF)
   {
-    if (fPutChars)
-	putchar(c);
+    if (b_print)
+      putchar(c);
 
     if (c != ' ' && c != '\t' && c != '\n' && c != '\"' && c != ',' && c != '>')
     {
@@ -452,6 +452,9 @@ int transform_word(char *s)
 #define TTY_NO_COLOR   "\033[0m"
 
 
+#ifdef UNIT_TEST
+  #define main main_app
+#endif
 void main(int argc, char * argv[])
 {
   int i = 0;
@@ -465,7 +468,7 @@ void main(int argc, char * argv[])
 
   get_opts(argc, argv);
 
-  while ((len = get_word(word, MAX_WORD_SIZE, FALSE)) > 0)
+  while ((len = get_word(word, MAX_WORD_SIZE, fPutChars)) > 0)
   {
     int index;
     //printf(">%s\n", word);
