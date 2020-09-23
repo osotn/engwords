@@ -45,7 +45,7 @@ def color_unknown_words(sel):
         word = transform_word(ws)
         #print("2. ", word)
         if word and is_word_unknown(word):
-            buffer.remove_tag_by_name("all_text", sel[0], sel[1]);
+            buffer.remove_tag_by_name("all_text", ws[0], ws[1]);
             buffer.apply_tag_by_name("unknown_word", ws[0], ws[1])
             #print("3. ", buffer.get_text(ws[0], ws[1], True))
 

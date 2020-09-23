@@ -1,0 +1,138 @@
+Numbers
+=======
+
+Most people would say that numbers are the foundation of mathematics. This is quite a
+modern view, because for most of the past two thousand years, students began with geometry. On the other hand, numbers are certainly the foundation of computers, and a thorough
+understanding of numbers and how they work is vital to programming.
+In this respect, then, the journey begins with a look at the way computers represent numbers
+and what you can do with numbers using a computer. The goal here is to think about what a
+number is, especially the distinction between the number and the way you can represent
+it in writing or electronically.
+
+Numbers as Written
+------------------
+Numbers were not discovered in one fell swoop. The set of numbers commonly recognized
+today (positive counting numbers, negative counting numbers, zero, integers, rational numbers, irrational numbers, and imaginary numbers) required thousands of years to be discovered. While not reviewing the history of their discovery, a few points concerning their
+general definitions are worthwhile.
+
+Integers, Rationals, and Irrationals
+------------------------------------
+Mathematicians divide the world of numbers into several subsets. The first numbers to be
+recognized were the counting numbers, or natural numbers, which are represented by the
+symbol N . These are the numbers that children usually learn (1, 2, 3, 4, . . .). In addition,
+there is the number zero (0). Each of these can represent a distinct number of “things.”
+When you add the negative numbers, you have the set of integers, represented by the symbol
+Z . With the integers, however, a new domain opens out, for negative numbers are brought
+into the picture.
+What, then, is a negative number? You can think about negative numbers in terms of a
+transaction. Consider a situation in which you have 5 marbles. You are playing with another
+person, Anne, who has 4 marbles. When you give Anne 2 marbles, she gains 2 marbles, but
+it is also the case that she is giving you −2 marbles. Either way, you add 2 marbles to one
+side and subtract 2 from the other.
+Given this beginning, you can extend activities to consider multiplication. Think about
+negative numbers in terms of an operation of “the other way around.” Then you can see
+why two negative numbers multiplied together give a positive number. You give Anne
+2 marbles, which is “the other way round” to her giving you 2 marbles. Since she gave
+you −2 marbles, if you do this −2 times, it’s the other way round from her doing it 2 times,
+so it’s the other way round from −4, giving you +4.
+If this sounds confusing, the confusion explains why it took centuries for people to accept
+the idea of negative numbers. The problem was so difficult that fractions, the quotients
+of two integers, were accepted sooner. First there were the fractions of 1, such as 1 2 , and
+⁄
+2
+1
+3 . These are in many cases the reciprocals of the natural numbers, as when becomes .
+1
+2
+⁄
+1
+After the reciprocals, other simple fractions arose. These were fractions between 0 and 1,
+such as 2 3 . Then came the vulgar fractions, fractions greater than 1, such as 5 4 . At the
+end of the line, you have the complete set of rational numbers, symbolized by Q , which
+includes both positive and negative fractions, as well as the integers. The integers are
+included with the rational numbers, because they are viewed as a special kind of fraction
+that has a denominator of 1.
+
+Note
+The quotient of two numbers is what you get when you divide one number by
+another. When one integer is divided by another, the result is a fraction, where the
+first (top) number is called the numerator and the second (bottom) the denominator. Sometimes, quotient means just the integer part of a division, but this will be
+covered later on. Similarly, the terms sum, difference, and product refer to, respectively,
+the result of adding, subtracting, and multiplying two numbers.
+
+
+Irrational and Real Numbers
+---------------------------
+Beyond the rational numbers, you have the irrational numbers. Such numbers cannot be
+expressed by the quotient of two integers. For a long time it was thought that such numbers did not exist, but Pythagoras proved that at least one number, the square root of 2, was
+irrational. Since those days (roughly 550 B.C.E.), the field has expanded. Mathematicians
+now acknowledge that there are fundamentally more irrational numbers than rational ones.
+The rational and irrational numbers together form the set of real numbers, represented
+by the symbol R . In addition, however, there are other kinds of numbers, such as the
+complex numbers. These numbers include a multiple of the imaginary number i, which
+represents the square root of –1. While these numbers are beyond the scope of this chapter,
+they are dealt with in Chapter 18, which discusses quaternions.
+
+Note
+The square root of a number n, is represented mathematically by n . In a programming language, it is usually represented by a function, such as sqrt(n) . The square
+root of a number n is a number m, such that m ¥ m = n. When you multiply a number
+by itself in this way, the result is called the square of the number, denoted by n 2 , n^2 ,
+or power(n, 2) . A square is a special case of a power or an exponent. As long as p is
+positive, when you take a number n to the power p, written n p , or n^p , this means
+to multiply the number n by itself p times. Because two negative numbers multiplied
+together give a positive number, every positive number has two square roots, one
+positive and one negative, while negative numbers have no real square root. (What
+happens when p is negative will be dealt with later on.)
+
+The Number as a String of Digits
+--------------------------------
+Numbers can be represented many different ways. Consider the number 5. You can represent it geometrically, as a pentagon, but you can also represent it as a set of 5 dots. You
+can present it physically, as 5 beads on an abacus. Still another (and common) approach
+is to use the symbol “5,” which is defined to mean what you want it to mean. Each of
+these representations has its own advantage. For example, if you use beads, to perform
+operations such as adding and subtracting, you simply count beads back and forth. On the
+other hand, when you get to larger numbers involving many beads, using symbols has an
+advantage.
+As it is, it is not possible to have a unique symbol for each number. Instead, you use a
+limited set symbols, combining them to represent a given number, no matter how big. You
+do this by means of a base system. To create a base system, you choose a number b as a
+base. Then to represent a number n in the base b, you employ a recursive algorithm. Here
+is a pseudocode example of how this happens:
+
+Decimal, Binary, and Hexadecimal
+--------------------------------
+There’s nothing special about using 10 as a base, but since computers use base 2, base 10
+might not be the best choice to use as an example in the current context. Still, base 10 has
+its virtues, one of which is that humans have 10 fingers to count with. Because 10 is a
+multiple of 2 and of 5, it’s fairly easy to determine whether a number written in decimal
+notation is divisible by these two numbers. This is an advantage. On the other hand (no
+pun intended), it’s much harder to tell if it’s divisible by 4 or 7. However, there are some
+fairly simple tests for divisibility by 3 or 9, and it’s also easy to divide a number written
+in base 10 by 2 or 5.
+
+What if you use some other base? Consider, for example, base 12. This base is familiar, in
+part, because it has been extensively used for currency and measuring, resulting in the
+familiar system of feet and inches. It makes it easy to divide numbers by 2, 3, 4, or 6.
+Another is base 60, used in clocks, along with 12 hours. Still another is base 360, used in
+measuring angles. However, if the last two are to be used properly, they require a lot of
+individual symbols. The Babylonians used this base, but apparently responding to the
+complexity of the undertaking, they subdivided its values using a base 10 system. Although
+very logical, base 12 never caught on except in limited ways.
+
+Base 2, or binary, on the other hand, turns out to be useful in many ways and has found
+many advocates. In base 2, you represent numbers by powers of two. Using the base
+positions discussed earlier, the number 11 in base 2 is written as 1011, or 1 ¥ 8 + 0 ¥ 4 +
+1 ¥ 2 + 1 ¥ 1. As with base 10, as long as you work with integers, representing numbers
+in base 2 can be done uniquely. Another feature of base 2 is that while you need far more
+digits to represent any given number, you only need two symbols to do it. For example,
+1 is 1, 3 is 11, and 5 is 101. As people learn in a computer architecture course, this way
+of relating numbers allows you to speak of 1 as “on” and 0 as “off,” and this is the basic
+(binary) language of digital circuits.
+Base 2 requires two symbols, but another base common in computer operations requires
+16. This is hexadecimal, which uses the standard decimal symbols 0–9, added to
+six others, the letters A–F, which stand for 10–15. In hexadecimal, F1A represents
+15 ¥ 256 + 1 ¥ 16 + 10 ¥ 1, or 3866. Converting between binary and hexadecimal
+is quite simple, since each hexadecimal symbol can be translated directly into four binary
+symbols: F1A translates to 1111 0001 1010.
+
+
