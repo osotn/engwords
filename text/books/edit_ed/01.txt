@@ -1,0 +1,142 @@
+chapter i GETTING STARTED
+=========================
+
+1.1 File Copying
+----------------
+The first problem we want to tackle is how a program communicates with its
+environment. Since many of our programs are concerned with text 
+manipulation, one basic operation is reading characters from some source of input. To
+do this we will invent a function called getc, which reads the next input 
+character, and returns that character as its function value; each time it is called, it
+returns a new character. For now we'll ignore where the characters come from,
+although you can imagine them originating at an interactive terminal or some
+secondary storage device like a disk.
+We won't discuss what character set we have in mind, except to say that
+getc can return a value, distinguishable from all input character codes, that
+indicates that the end of the input has been reached. Similarly, the end of a
+text line is indicated by yet another unique value that is returned by getc.
+We'll also ignore all questions of efficiency, although we're fully aware that
+reading one character at a time at least sounds expensive. Temporarily we want
+to sweep as many details as we possibly can under the rug.
+Next we invent putc, the complement of getc. putc puts a single 
+character somewhere, such as a terminal, a printer, or a disk; one of its acceptable
+argument values signals the end of a text line. Again, we won't concern 
+ourselves with the precise details, nor with the efficiency of the operation. The
+main point is that getc and putc work together — the characters that getc
+gets can be put somewhere else by putc.
+If someone has provided these two basic operations, you can do a surprising
+amount of useful computing without ever knowing anything more about how
+they're implemented. As the simplest example, if you put the getc/putc pair
+inside a loop:
+	while (getc(c) is not at end of input) do
+		putc(c)
+you have a program that copies its input to its output and quits. A simple task,
+performed by an equally simple program. Certainly, someone ultimately has to
+worry about the choice of character set, detecting end of line and end of input,
+efficiency and the like, but most people need not be concerned, because getc
+and putc conceal the details. (If you want to know how they might work, we
+will show you simple versions in standard Pascal soon, and also explain why we
+didn't just use read and write.)
+
+
+This time the body of the while is a little bigger — it consists of an if, which
+in turn controls the assignment statement nl := nl + 1. The indentation
+shows what code is controlled by what, and unobtrusively but clearly draws
+attention to the logical structure of the program. Note how the use of a special
+value for the newline condition permits line count to be written as a minor
+variation on the structure of char count.
+The idea that text information is just a string of characters, with arbitrary
+length lines delimited by explicit NEWLINE characters, seems pretty obvious
+when you think about how a typewriter or a terminal works. But for all its
+obviousness, it's still an uncommon concept in many computing systems, where
+text must often be forced into either fixed length chunks reminiscent of cards or
+"records" with inconvenient properties.
+As we showed in the full expansion of copy earlier, it is not hard to impose
+this simplified form of input/output on an existing system, doing input and 
+output one character at a time. Each call to getc must test whether end of file
+has occurred (using the eof built-in function), and if not, whether the end of a
+line has happened (with eoln). For putc, we use writeln to terminate the
+line properly. This is not especially efficient, but it is by far the easiest tactic.
+The versions of getc and putc that we showed with copy work this way; they
+will serve temporarily in most systems.
+
+Localizing input and output in a pair of functions is better than spreading
+decisions about ends of lines and files and character sets all over a program. Of
+course the input might indeed be a stream of characters from a keyboard and
+the output might indeed be driving a typing mechanism, and all disk files might
+be maintained in this format, in which case getc and putc become trivial.
+But whatever the source or sink, we will stick with our interface and program in
+terms of typewriter-like text, performing all necessary translations as early as
+possible on input and as late as possible on output, to match up with character
+sets, terminals, line printers, and disk formats. Chapter 2 contains some 
+examples of programs for matching up to special devices. Having a uniform
+representation for text solves much of the problem of keeping tools uniform.
+
+How should we test line count to make sure it really works? When bugs
+occur, they usually arise at the "boundaries" or extremes of program operation.
+These are the "exceptions that prove the rule." Here the boundaries are fairly
+simple: a file with no lines and a file with one line. If the code handles these
+cases correctly, and the general case of a file with more than one line, it is
+probable that it will handle all inputs properly.
+
+1.4 Counting Words
+------------------
+The next counting program has applications in text processing — it counts
+the words in a file. We use it to answer questions like "How many words are
+there in this book?" (About 95,000, excluding programs.) For our purposes a
+word is a sequence of any characters except blanks, tabs and newlines. Every
+time there is a transition from not being in a word to being in a word, that
+signals another word to count. The variable in word is used to record which
+state the program is in at any given time; initially it is "not in a word."
+BLANK and TAB are further symbolic constants, which must be set to the 
+internal character codes that getc returns for blank and horizontal tab on your
+machine. For example, in the ASCII character set, BLANK is 32 and TAB is 9,
+but the purpose of using constants is precisely so that you won't have to know
+(or be tempted to use) specific values except in const declarations. It also
+helps portability if such values occur only in one easy-to-change place.
+inword is declared boolean, i.e., it can take on only the values true and
+false. We have quietly made use of boolean expressions already — they
+appear in all while and if statements — but this is the first time we found the
+need to memorize the result of a test by setting a variable, inword is true
+only when the input is ''inside'' a word.
+This example also shows some more control flow statements. First, an if
+statement may include an else, to specify an alternate action if the condition
+of the if is not met:
+
+The definition of "word" is simplistic.
+
+Removing Tabs
+-------------
+Suppose that you need to print a text file containing horizontal tab 
+characters on a device that cannot interpret tabs. As a first approximation, you might
+be content with fixed tab stops every four columns, as they are in this book. A
+tab character is thus replaced by from one to four spaces. Let us write a
+manual page for a program detab to do this:
+
+How do we know when the next tab position is reached? One possibility is
+to build into the main program the knowledge that tabs are set every four
+columns; then an arithmetic test suffices to decide if the current column is a tab
+stop. The trouble with such an approach comes when we decide to change the
+program, perhaps to allow tabs to be set at positions which aren't related by a
+simple arithmetic formula. If the "every four columns" decision is firmly wired
+into the program, it will be hard to cut it out.
+
+A more flexible organization is an array of tab stops, initialized for now to
+every four columns. This will be a lot easier to change; in fact we haven't even
+said whether the array contains a list of stops or a true/false indicator at
+each column, like a typewriter. Representing the stops in an array, in whatever
+manner, leads to a program that will readily upgrade for more general 
+applications.
+However we do it, it is still worthwhile to write a separate function tabpos
+which tells the main program whether a particular column is a tab stop or not.
+This way we avoid muddying up the basic logic of the control loop with tab 
+calculations, and conceal the representation of tab stops from the main routine.
+It is clear that the program must also keep track of what column it is in, and
+it must recognize the end of each line of text so it can reset the column counter.
+The second cut at the tab remover is thus:
+
+It is clear that the program must also keep track of what column it is in, and
+it must recognize the end of each line of text so it can reset the column counter.
+The second cut at the tab remover is thus:
+
+

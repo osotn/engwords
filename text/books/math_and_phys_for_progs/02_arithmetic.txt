@@ -1,0 +1,301 @@
+Arithmetic
+==========
+==========
+
+In This Chapter
+---------------
+■ Overview
+■ Fractions
+■ Proportions, Ratios, and Percentages
+■ Exponentials
+■ Logarithms
+
+Overview
+--------
+This chapter and the next explore basic mathematics. It is necessary to cover this ground
+to prepare for topics presented later in the book. As it is, many people come up against
+problems in more advanced settings because they do not understand or have forgotten
+basic concepts. Without the basics, it is sometimes possible to find workaround strategies
+or use techniques that have been learned by rote, but in the end, understanding how things
+work ensures that you will be able to continue indefinitely.
+This chapter examines the essentials of arithmetic, working with what in most computer
+languages are data types identified as integers and floats. While working with these data
+types does not cover the whole of arithmetic, it does provide pointers on a few topics that
+are often troublesome.
+You can find pseudocode samples relating to this chapter on the book’s companion website.
+
+Fractions
+=========
+You learned some of the details of working with fractions in the previous chapter, but
+because so many people seem to have trouble with them, this chapter presents them in
+more detail, starting with some basic arithmetic and moving a few steps beyond.
+
+Calculating Fractions
+---------------------
+A fraction is something like an instruction: it tells you to divide a by b. Fractions tend to
+appear in different ways in print. For example, the fraction
+2
+is exactly the same as the
+5
+value 2 ÷ 5. In fact, the division symbol ÷ is a representation of this process: the two dots
+represent the numerator (a) and the denominator (b) of the fraction.
+
+Multiply Two Fractions
+----------------------
+To multiply two fractions, you multiply the numerators and multiply the denominators:
+2 3 2 × 3 6
+=
+× =
+5 7 5 × 7 35
+Multiplication is represented by the English word “of,” as in “two fifths of three sevenths,”
+just as with integers you might say “five of these apples” and mean 5 ¥ apple. It’s easier
+to see how it works by breaking the process into two steps: dividing by the denominator
+(“take one fifth of three sevenths”) and then multiplying by the numerator (“now you
+want two of those”). When multiplying a fraction by an integer, remember that an integer
+is a fraction with a denominator of 1, which means that you can multiply the fraction’s
+numerator by the integer and leave the denominator alone (multiply it by 1).
+
+Divide Fractions
+----------------
+To divide by , first flip over so that it becomes . The one is the reciprocal of the
+other. Then you multiply:
+Why do this? Well, for starters, consider the behavior of integers. When you divide by 2,
+you halve the number (which means taking half of the number). As you just observed,
+1
+this is the same as multiplying by .
+2
+1
+When you divide a number by , you want to find out how many halves go into it (which
+2
+is twice as many as the number of 1s that go into it). Since the number of 1s that go into
+a number is the number itself (anything divided by 1 is unchanged), this means that a
+number divided by
+1
+is multiplied by 2.
+2
+As a general notion, division is represented by several words in English, such as “per”—
+your speed in miles per hour is the number of miles travelled divided by the number of
+hours taken—as well as “each” and “a.”
+
+Addition and Subtraction of Fractions
+-------------------------------------
+Addition and subtraction of fractions is a little more complicated than the previously discussed activities. As long as two fractions have the same denominator, you can add and
+subtract them fairly easily. You leave the denominator unchanged and perform normal
+arithmetic with the numerators. With addition, + = . With subtraction, − = . In
+both cases, you are counting, and the objects with which you are counting happen to be
+1
+5
+units of . It is only when you want to add fractions with different denominators that you
+hit problems, and this is so because the units you are trying to add are different.
+
+Fortunately, every fraction can be represented an infinite number of ways, so if you
+multiply the numerator and denominator by any number at all, you end up with the same
+fraction. This is because any number divided by itself is 1. For example, the fractions
+
+and are both equal to 1. As a result, you can multiply any given number by such
+
+fractions and leave the number unchanged. Calculations can be made easier by choosing
+the most convenient representation of them.
+
+Suppose you want to add to . It’s much easier to do this if you recognize that is equal
+to (multiplying the top and bottom by 2). Because both fractions have the same denominator, you can use this fact to make the problem into one involving arithmetic among the
+values of the denominators: + = . This process even works if you are adding fractions
+that can’t be easily converted, such as when is added to .
+
+In this instance, you can “cross-multiply,” which means that you multiply the numerator
+and denominator of each fraction by the denominator of the other. In the language of
+arithmetic, you “put them over a common denominator” (see Figure 2.1).
+
+Now consider how some of the arithmetic operations can be applied to code. To make things
+easier to understand, a pseudocode function can be created. The function encapsulates a
+problem involving fractions. Its name is add Fractions() , and it takes two arguments, each
+a fraction represented by a two-element array:
+
+A problem with this function is that the calculations it involves are potentially much
+more complicated than they need to be. Consider the expression presented earlier,
+1 1
+4 2
+2 1
++ . With the add Fractions() function, you calculate + , instead of the simpler + .
+2 4
+8 8
+4 4
+6
+3
+What’s more, the final answer is given as rather than . While this is technically
+8
+4
+correct, it is not what you really need.
+
+Factors and Factorization
+-------------------------
+In the previous section, the technique for adding fractions was to change the representation of the fractions to a more complicated representation before adding them. The problem with this approach is that you end up with more complexity than is needed. A better
+approach is to switch them back to a simpler version at the end. This is called reducing a
+fraction to its lowest terms, and to do this, it’s necessary to look at factors. A factor or
+divisor of an integer is an integer that can be exactly divided into the integer. So 1, 2, 3,
+and 6 are all factors of 6. If n is a factor of m, then you say that m is a multiple of n (or
+more strictly, an exact multiple, or integer multiple).
+
+The number 6 is called a “perfect number,” because it is the sum of all its factors
+other than itself. The numbers 1, 2, and 3 are the factors of 6, and 1 + 2 + 3 = 6. The
+Pythagoreans were particularly fond of perfect numbers.
+
+Consider the fraction , introduced previously. You can see that it would be much simpler 3/4
+if you divided everything by 2, making it . The number 2 is a factor of both the numerator
+and the denominator: it is a common factor of 6 and 8. In fact, because 6 and 8 have no
+common factor greater than 2, 2 is called the highest common factor, or more often, the
+greatest common divisor, or GCD. To reduce a fraction to its lowest terms, you need to
+divide the numerator and denominator by their GCD.
+
+In early studies of arithmetic, you probably found GCDs by finding the prime factors of
+two or more numbers. There is a simpler method, but for now it is useful to continue considering prime factors. They are useful in their own right. To explain prime factors, it is
+first necessary to define prime numbers. A prime number (or just “a prime”) is a number
+whose only factors are itself and 1. Conventionally, you exclude the number 1 from the
+list of primes because it’s something of a special case and makes for a less redundant
+pattern. The list of primes goes 2, 3, 5, 7, 11, 13, 17, 19, . . . . The prime numbers are
+something like the building blocks of multiplication, and there is an enormous body of
+mathematical writing about them—most of which has been by mathematicians looking
+for patterns in their distribution or ways to test whether a number is prime. Such studies
+are particularly important in the field of cryptography.
+
+Generating Prime Numbers
+------------------------
+You can generate a list of prime numbers less than some number M quite easily using a
+technique known as Eratosthenes’ Sieve. To do this, start with a list of all the numbers
+from 2 to M. Take the first number in the list, and delete all the numbers in the list that
+are divisible by this number. Remove the number from the list and add it to your list of
+primes. Then repeat this process. You need to do this only until the first number in the list
+is greater than M . After you’re past that point, all the remaining numbers must be prime,
+since they’re not divisible by any number smaller than the square root, and any product
+of two numbers bigger than M must be bigger than M.
+To return to the prime factors, a prime factor of a number n is, as you might expect, a
+prime number that is a factor of n. Every number can be represented in a unique way as
+a product of prime numbers—for example, 12 = 2 ¥ 2 ¥ 3. This fact goes by the very grand
+name of the Fundamental Theorem of Arithmetic. A number with more than one prime
+factor is said to be composite.
+
+The Fundamental Theorem of Arithmetic is one of the reasons that mathematicians
+contend that 1 is not prime. If it were, it would be an exception to this rule of
+uniqueness. You could represent any number as a product of its prime factors and
+any number of 1s.
+
+To find the prime factors of an arbitrary number n, the only absolutely reliable way is to
+keep dividing it by prime numbers until you find one. Of course, this can be a slow process
+for large numbers, but it’s not too bad for small ones, especially if you have already generated a list of primes. Here’s a function that will do it.
+
+When people are searching for extremely large primes (as they often do for cryptographic or other purposes), they don’t use this method because it would take an
+unfeasibly long time even on a very fast computer. Instead, they generally use various tricks to hone in on numbers that are extremely likely to be prime to within some
+particular degree of certainty. Depending on the application, this is usually enough.
+
+GCD and Euclid's Algorithm
+--------------------------
+To return to the question of the GCD of two numbers, if you want to find gcd(n, m) , you
+can do so by finding the prime factors of each of the numbers. Say that n is 24 and m is
+60. You use the function previously defined to find that the prime factors of n are 2, 2, 2,
+3. Of m the prime factors are 2, 2, 3, 5. Then you just take as many elements of each list
+as you can that match, which are two 2s and one 3. So gcd(n, m) is 2 ¥ 2 ¥ 3 = 12.
+On the other hand, you could use the phenomenally simple and ingenious method known
+as Euclid’s Algorithm, which is approximately a gazillion times faster.
+Euclid’s Algorithm relies on a simple observation. If you have three numbers, a, b, c, such
+that a = b + c, and if some number d is a factor of both a and b, then it must be a factor
+of c as well.
+Armed with this knowledge, you can design another function. To find gcd(n, m) , where
+n ≥ m, divide n by m and find the remainder r. Then you know that n = a ¥ m + r, for
+some a, where r < m (recall that this is the definition of the remainder). If r = 0, then m
+is a factor of n, so gcd(n, m) = m. Otherwise, because the GCD is a factor of both n and
+m by definition, it must also be a factor of r. And having gone this far, you repeat the
+process using the numbers m and r in place of n and m. Here is the pseudocode for the
+function:
+
+Eventually, you bottom out with a number d that is an exact divisor of the two arguments,
+and you can then work back to find that it is a common divisor of both of the original
+numbers. Euclid’s Algorithm is one of the most beautiful things in mathematics!
+
+Lowest Common Multiple
+----------------------
+After you have gcd(n, m) , you can also find another useful number, the least (or lowest)
+common multiple (LCM) of n and m. This is the smallest number that has both n and m
+as factors, and it is equal to n * m / gcd(n, m) . The LCM brings us back to the sum of
+two fractions.
+
+When adding two fractions, instead of cross-multiplying, the most efficient system is to
+“put them over the lowest common denominator.” In other words, you multiply the top
+and bottom of each fraction by the smallest possible number so that they have the same
+denominator. This lowest common denominator is the LCM of the two denominators.
+Consider how this works by calculating
+7
+7
++ . Instead of a bare cross-multiplication,
+24 30
+you multiply each fraction, top and bottom, by the denominator of the other, divided by
+the GCD of the two denominators. Here is what happens:
+
+Modulo Arithmetic
+-----------------
+As with several other techniques considered so far, Euclid’s Algorithm relies on a process
+of finding the remainder when dividing one number by another. This turns out to be such
+a useful procedure that there is a standard term for it. If you have two numbers n and m,
+such that when you divide n by m you get a remainder r, it is said that “n is congruent to
+r modulo m.” Congruence is normally expressed with a special triple bar symbol (≡), so
+you write n ≡ r(mod m).
+
+Actually, the congruence relation is a little more subtle than that, for two numbers are congruent mod m whenever they differ by an integer multiple of m. So when working modulo
+5, the numbers 4, 9, 14, . . . are all equivalent because they are all congruent to 4.
+Most programming languages allow you to work with modulo congruence relations
+through a modulo function. The function takes two arguments, n and m, and returns the
+remainder r. The expression is coded along the lines of mod (n, m) = r .
+
+If n ≥ 0, then the mod() function returns a value between 0 and m − 1. If n < 0, it generally returns a value between – (m − 1) and 0 (in the most commonly used languages, at
+least). Since in itself it is very useful, you can use a modified modulo function. Here is
+the pseudocode for this function:
+
+Cycling Through Data
+--------------------
+Because it is commonly used in situations where something cycles through a small list of
+options, modulo arithmetic is sometimes known as clock arithmetic. A clock contains
+only 12 numbers, so when calculating hours, 8 + 6 = 2. This is an example of modulo
+arithmetic in action.
+
+In programming, you can use modulo calculations to deal with circumstances like these.
+For example, suppose you create a clock and want to be able to add times together. Without
+modulo arithmetic, a pseudocode function would look something like this:
+
+Obviously, this isn’t a particularly complicated function. But still, using modulo arithmetic,
+it can be substantially simplified:
+
+Since such calculations take some getting used to, it’s helpful to examine them in more
+detail. In the first line, the new minutes are worked out. These should be in the range 0–59.
+Next, the full number of new minutes ( oldMinutes + addMinutes ) is evaluated, with the
+result that their value is modulo 60. The next line works out how many hours were taken
+out in the calculation, and for this a trick is employed. Recall that s trictModulo(n, m)
+is the remainder when n is divided by m. This means that, for some a, n = a*m +
+strictModulo (n, m) . To find a, then, you subtract strictModulo (n, m) from n and
+divide by m. In this case, since a is the number of hours (multiples of 60 minutes), you
+increase addHours by this amount.
+
+Proportions, Ratios, and Percentages
+====================================
+Returning to fractions, one of the most powerful interpretations of a fraction is as a ratio
+between the numerator and denominator. Another is as a percentage. This section considers these two concepts in detail.
+
+Mapping Between Ranges of Values
+--------------------------------
+“Ratio” (or proportion) actually means pretty much the same thing as “fraction,” but it is
+used in different circumstances, particularly when relating similar objects. (Similar here
+has a precise meaning, as well as its normal English one, and its precise meaning will be
+encountered in Chapter 5). Ratios are sometimes written using the colon. The ratio 4:3,
+for example, is equivalent to the fraction 4 3 . Two objects are in the size ratio 4:3 if one
+is 4 3 times the size of the other. Frequently, ratios are used to describe how something is
+divided up; so you might choose to divide a cake in the ratio 1:2, making one piece twice
+⁄
+⁄
+1
+2
+1 + 2
++
+=
+= 1. In other words,
+1 + 2 1 + 2 1 + 2
+you divide the cake into two pieces, one 1 3 the size, the other 2 3 the size.
+as big as the other. To do this, you use the fact that
+

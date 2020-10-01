@@ -135,4 +135,173 @@ six others, the letters A–F, which stand for 10–15. In hexadecimal, F1A repr
 is quite simple, since each hexadecimal symbol can be translated directly into four binary
 symbols: F1A translates to 1111 0001 1010.
 
+How Computers Represent Numbers
+-------------------------------
+Given that the binary system is at the heart of how numbers are represented in a computer,
+and this book is about mathematics for programming, it is beneficial to examine in
+greater detail how a computer uses binary numbers.
+
+Representing Integers
+---------------------
+Because binary can be conveniently represented by two symbols, 1 or 0, or on and off,
+it’s an ideal system for computers. As has been said many times, a computer thinks only
+in numbers, and numbers are represented by sets of “switches.” Each switch represents
+one bit of information, and each bit can be either “on” or “off.” (The word bit is a shortened term for the expression “binary digit.”) With eight such switches (bits), you can represent any number from 0 to 255. With 32 switches (bits), you can represent any number
+up to 4294967295. With 64 switches (bits), you can represent any number up to
+18,446,744,073,709,551,615. This is also known as a “quad word.”
+
+The computer’s native environment is designed to perform calculations very fast with any
+number using base 2, and this is relative to the number of bits of the processor. A 64-bit
+machine can handle far bigger calculations than a 32-bit one. Not all bits are used, however. Usually, one bit is set aside to represent whether the number is positive or negative.
+As a result, a 32-bit machine processes numbers from −2147483647 to 2147483647,
+instead only a positive range of numbers up to 4294967295.
+Since performing operations like addition and multiplication is so easy, binary computations are especially fast. Here is an algorithm that adds two numbers represented as
+strings in binary:
+
+
+Representing Rational and Irrational Numbers
+--------------------------------------------
+Thus far, the focus has been on integers, but base notation can be used to represent non-
+integers, also. The essential activity in this respect is to count down or up from 1. To
+accomplish this, a marker is used. The marker is referred to as the radix point. The radix
+point establishes the point at which to start counting. To work with decimal numbers, the
+radix point is called the decimal point, and the first column after the decimal point represents tenths, the second is hundredths, and so on. In binary, the first column after the
+radix point represents halves, the second quarters, and so on. Given this scheme of things,
+the number 1 3 8 is represented in binary as 1.011 (1 + 1 4 + 1 8 ).
+⁄
+⁄
+⁄
+But there is a problem with this system, which is that not all fractions can be represented
+this way. In decimal, it is troublesome representing 1 3 , because this fraction cannot
+be expressed as a sum of tenths, hundredths, and so on. It turns out to be the limit of the
+⁄
+⁄
+infinite series 3 + 3 + 3 + . . . . You express this by writing 1 3 in decimal as 0.333. . . .
+
+In binary, the situation is even worse. You cannot express any fraction whose denominator is divisible by any number other than 2. Consider, for example, that in decimal, 1 5 is
+exactly 0.2. In binary, however, it is the infinitely repeating number, 0.001100110011. . . .
+Because such numbers have no definitive termination point, computers have trouble with
+them.
+⁄
+There are two ways to get around this problem. One is to forget radix points and instead
+to represent the fraction in terms of its constituent integers, the numerator and denominator. Then every rational number can be represented exactly, without any troublesome repeating digits. Unfortunately, there are disadvantages to this as well. If you
+add 1 2 and 1 3 , the answer is expressed as follows: 5 6 . 5 6 + 1 7 = 41 42 .
+41
+1
+493
+42 + 11 =
+462 . This is known as an incompatible fraction. With such a fraction, the
+denominators have no common factor (covered more extensively in Chapter 2), so as you
+work with the fraction, you end up increasing the complexity of the denominator. As a
+result, it is easy to go above the computer’s maximum size for integers. Even if the maximum is not reached, the computer slows down as it carries out its calculations with
+increasingly bulky numbers. Except in very special cases, then, approaching fractions in
+this way is not a sensible move.
+
+Another problem with this approach is the existence of the irrational numbers, which
+can’t be expressed exactly as a fraction. Instead, you are forced to find an approximation.
+To arrive at an approximation, computers use the base system to represent non-integers,
+and round the number to the nearest digit.
+There can also be problems with this, however. Consider what occurs if a fixed-point
+representation of numbers is used. With this approach, a fixed set of digits (eight, for
+example) is used after the radix point. With only a limited number of bits to play with
+for each number, each bit added to the end means one less bit to use at the top. As a result,
+you are limiting how large and how small numbers can be. Allowing the radix point to be
+altered changes this situation, and this is what most programming languages do. This alternative is called floating-point representation, similar to what is called scientific notation.
+In scientific notation, a number is represented by giving the first “significant” (non-zero)
+digit, and then as many digits as required after that. Then you give an indication of where
+to place the radix. For example, the number 201.49 could be represented by (20149; 3).
+In fact, it is represented as “2.0149 e2.” By convention, you start with the radix after the
+first digit and count from there. You can count forward or backward (for example, 2.0149
+e–3 is 0.0020149). The index (e3) number is called the exponent.
+
+Standards and Computed Numbers
+------------------------------
+Floating-point numbers use a system similar to scientific notation. There are a number of
+standard formats. One has been established by the Institute of Electrical and Electronics
+Engineers (IEEE), an organization that has created many standard formats that are used
+commonly by computer manufacturers. These standards are important for creating a com-
+mon language between different hardware.
+As established in the IEEE standards, if you are working with 32 bits, you use 1 bit for
+the sign (positive or negative) and 8 bits for the position of the radix point, from −127
+(relative to a value of zero) to +127. This gives a total value of 255. The value of the actual
+number can then go as high as a little under 2 128 . The remaining 23 bits represent the
+mantissa, or actual digits of the number. Rather ingeniously, because the first significant
+digit of a binary number is always 1, there is no need to include this digit in the computer’s representation of the number. It is just implicitly there, which provides one more
+digit of precision. The actual digits of the floating-point representation are correctly called
+the significand, although the word mantissa is used for this, too.
+
+Considerations
+--------------
+In the operations just examined, the only problem with omitting the initial 1 of the mantissa is that it apparently leaves no way to represent a floating-point value of exactly zero.
+Fortunately, one extra trick can be added, which is to say that when the exponent part of
+the number is zero, the leading 1 is not to be assumed. This also means that numbers
+smaller than 2 –127 can be represented as long as it is accepted that these numbers will be
+less precise than usual. Using this trick of denormalization, numbers as low as 2 –149 can
+be represented.
+As you might expect, zero is represented by the floating-point number given by a zero
+significand and a zero exponent. The positive/negative bit can be either value. There are
+also a number of other special cases, which represent overflow and underflow, as well as
+the value NaN (“Not a Number”). The value NaN is sometimes returned when you attempt
+to do something that has no valid answer. An example of this is trying to find the square
+root of –1.
+How this pans out can be shown by considering the value given in decimal by 2 e–40.
+Here are the main features of the operations:
+
+Common Functions
+----------------
+This section explores a few functions that are common, in one form or another, to most
+computer languages: abs() , floor() , ceil(), and round() . Some languages provide these
+functions with different names, but they work the same, and the fact that they are so
+commonly provided testifies to their usefulness. In this context, the discussion involves
+how they are implemented.
+
+Absolute Values
+---------------
+The simplest of them is the abs() function, which returns the absolute value of a num-
+ber (float or integer). This is the value of the number, ignoring whether it is positive or
+negative. A function that finds the absolute value can be implemented this way:
+
+function abs(n)
+if n>=0 then return n
+otherwise return -n
+end function
+
+The absolute value of a number is its value made positive. In the abs() function, if n is
+negative then −n is positive. Of course, the computer doesn’t natively need to do anything
+even this complicated. It simply sets the value of the sign bit in the floating-point or integer representation to 0.
+
+Three functions are commonly used to convert float to integer values. Their specific
+purposes are as follows:
+■ For a number n, the floor() function finds the largest integer less than n.
+■ For a number n, the ceil() function finds the smallest integer greater than n.
+■ For a number n, the round( ) function finds the integer nearest to n.
+Figure 1.2 illustrates the actions of these three functions. Each range is represented
+by a solid line at one end and a broken line at the other. The solid and broken lines represent inclusion. For example, with floor(n)=3, n is greater than or equal to 3 but less
+than 4.
+
+Each of these functions is useful in different circumstances. The floor() and ceil() functions are easy for the computer to calculate using floating-point representations. If the
+exponent of the number is 5, then the functions can find the positive integer part (call
+it p) of the number by taking the first five digits of the significand. If it’s less than 1, the
+integer part is zero. If it is greater than the number of digits in the significand, then
+the function does not know the exact integer part. All that is then necessary is to check
+the sign of the number. If it is positive, then floor(n) is equal to p and ceil(n) is p + 1.
+If it’s negative, then ceil(n) is –p and floor(n) is –( p + 1) .
+The round() function rounds to the nearest whole number. This version of rounding is
+what most people learn in their early studies of math. The round() function finds an integer such that abs(n - round(n)) < 1 . Numbers exactly halfway between two integers,
+such as 1.5, are ambiguous. You define the round() function to round up in such cases.
+Given that the floor() and ceil() are defined, the round() function can be implemented
+as follows:
+
+While the round() function suffices to illustrate how a number can be rounded, it remains
+that it is simpler to calculate the value directly from the floating-point representation.
+Using this approach, you find the integer part p as before. To decide whether to round up
+or down, you look at the next digit of the significand, which in binary represents the value
+1 . If this digit is 0, then the fractional part of the number is less than 1 , which means
+2
+2
+that you round down. If it’s 1, then the fractional part is greater than or equal to 1 2 . If it is
+greater than or equal, you round up. The arbitrary decision to round up halves turns out to
+be quite handy. If you round them down, and the first digit of the fractional part is a 1, you
+still do not know whether to round up or down without looking at the rest of the digits.
+
 
