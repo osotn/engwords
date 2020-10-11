@@ -278,19 +278,11 @@ Proportions, Ratios, and Percentages
 Returning to fractions, one of the most powerful interpretations of a fraction is as a ratio
 between the numerator and denominator. Another is as a percentage. This section considers these two concepts in detail.
 
-Mapping Between Ranges of Values
---------------------------------
-“Ratio” (or proportion) actually means pretty much the same thing as “fraction,” but it is
-used in different circumstances, particularly when relating similar objects. (Similar here
-has a precise meaning, as well as its normal English one, and its precise meaning will be
-encountered in Chapter 5). Ratios are sometimes written using the colon. The ratio 4:3,
-for example, is equivalent to the fraction 4 3 . Two objects are in the size ratio 4:3 if one
-is 4 3 times the size of the other. Frequently, ratios are used to describe how something is
-divided up; so you might choose to divide a cake in the ratio 1:2, making one piece twice
-⁄
+....
+⁄.....,,..,....
 ⁄
 1
-2
+2...,.
 1 + 2
 +
 =
@@ -298,4 +290,418 @@ divided up; so you might choose to divide a cake in the ratio 1:2, making one pi
 1 + 2 1 + 2 1 + 2
 you divide the cake into two pieces, one 1 3 the size, the other 2 3 the size.
 as big as the other. To do this, you use the fact that
+
+Paper
+-----
+Ratios are most useful when dealing with scales of objects. If a piece of paper is 297 mm
+wide and 210 mm high (international standard A4 size), when you scale it to double its
+size, its sides remain in the same proportion. This isn’t surprising because, as has already
+been shown, multiplying both the numerator and the denominator of a fraction by the
+same number leaves the fraction unchanged.
+This fact is quite useful when scaling an object. If you know the initial ratio of the height to
+the width, then to calculate the height given the width, all you need to do is to multiply the
+new width by the same ratio. Here is the pseudocode for a function that accomplishes this:
+function new Height(originalWidth, original Height, new Width)
+return new Width * original Height / original Width
+end function
+
+You can also think about this the other way round. When scaling any object, every linear
+measure of the object (its diagonal, height, width, perimeter, and so on) is multiplied by
+the same amount. If you know the original value and new value of any one of these, every
+other dimension must be multiplied by the proportion of the new value to the old.
+Consider, for example
+
+This fact makes it easy to create a mapping function between two rectangles. If you know
+the coordinates of a point in one rectangle, you can relate them to the equivalent point in
+the other rectangle by multiplying them by the same proportion.
+Incidentally, the A classification of paper sizes is chosen specifically so that when you cut
+a piece of paper in half horizontally (in portrait format), you get the next A size up (see
+Figure 2.2). You can represent this algebraically as
+a Height
+a Width
+=
+a Width ( a Height / 2 )
+which translates to
+a Height 2 = 2 × a Width 2
+and
+a Height
+= 2
+a Width
+
+So for each size of paper, the height is 2 = 1.414 . . . times the width (or very close to it):
+2
+297
+= 2.0002 . . . . Figure 2.2 illustrates how the rectangles diminish as the ratio is applied.
+
+The Golden Ratio
+----------------
+Another useful proportion is called the golden ratio. A highly celebrated phenomenon
+among mathematicians, it is represented by the Greek letter Phi: φ (pronounced fee).
+This is the proportion of a rectangle such that, if you cut a square sized portion from one
+end, the remaining piece is in the same proportions as the original (see Figure 2.3). The
+algebra will not be explained in this context, but it turns out that φ =
+1 + 5
+= 1.618 . . . .
+2
+As Figure 2.3 illustrates, a pattern similar to the one glimpsed in Figure 2.2 results.
+
+The ancient Greeks and other thinkers through the ages have ascribed all kinds of wonderful properties to φ, calling it the Divine Proportion, the Golden Mean, and so on. They
+have contended that objects placed on a canvas (among other things) with such proportions are the most aesthetically pleasing. This is true to an extent (consider the facade of
+the Parthenon, which is often flaunted as an example), but recent psychological tests on
+the subject have shown that this isn’t universal. The proportion 1:sqrt(2) , as with the
+standard paper size, is much closer to the most popular. A further point, however, is that
+what people currently prefer could be explained by their continual exposure to A series
+paper.
+
+Fibonacci Sequence
+------------------
+When the Golden Ratio is mentioned, the Fibonacci Sequence is often the next topic. The
+Fibonacci Sequence is the sequence of numbers 1, 1, 2, 3, 5, 8, 13, 21, . . . , where each
+number is the sum of the two previous numbers. The ratio between successive terms of this
+sequence rapidly approaches φ, and this happens with any sequence of numbers generated
+by the same rule as the Fibonacci Sequence. The Fibonacci Sequence has proven interesting
+in a number of areas of science, for it frequently crops up in nature, describing, for example,
+such things as the concavity of seashells or how leaves on a vine are distributed.
+
+Making a Slider
+---------------
+Another common area where the notion of proportion is used involves sliders. A slider is
+a graphical representation of a range of numbers. In the standard slider, a line represents
+the range of numbers you are looking at (say from 10 to 100), and a movable pointer represents the current value (see Figure 2.4).
+
+To make a slider, you must know four values: the position of each end of the line and the
+maximum and minimum values they represent. For now, it is not necessary to know exactly
+what is meant by the “position” of the ends of the line. Just think of it as a number—say
+100 for one end and 200 for the other.
+
+When you initialize the slider, you can quickly calculate what might be expressed as its
+“intrinsic proportion.” You can think of this as the range of values represented by one unit
+of the slider. You calculate the proportion by finding the size of the total range divided by
+the total length of the slider.
+intrinsic Proportion =
+max Value − min Value
+end Point 2 − end Point 1
+
+To find the value represented by a particular point on the slider, you find how far the value
+is along the slider, multiply it by the intrinsic proportion, and then add on the minimum
+value:
+Value = ( this Point − end Point 1 ) × intrinsic Proportion + min Value
+
+Notice how similar this is to calculating proportions of a scaled piece of paper. Ultimately,
+it’s the same process. You’ve created a virtual piece of paper whose width is the length of
+the slider, and whose height is the range of values represented. When a new point is found,
+you scale down to another rectangle with the new width, but in the same proportions. It’s
+necessary only to remember that your rectangle doesn’t necessarily start at zero, so you
+have to add on the minimum value, as well.
+You can also go the other way. If you have a particular value you want to represent, you
+can find its position on the slider by finding its distance from the minimum value, dividing by the intrinsic proportion, and adding the end point:
+new Point =
+this Point − min Value
++ end Point1
+intrinsic Proportion
+
+Scrollbars are a special kind of slider. They represent the position of a small image within
+a large one. The principle is the same as with the standard slider, but it is complicated by
+the fact that the small image may vary in size. For example, consider a scrolling piece of
+text. If you know the height of the text in pixels and the height of your scrolling window,
+then your scrollbar is a slider that represents the values between 0 (the topmost position)
+and text Height window Height (the bottom most position). These values represent the pixel
+location of the text at the top of your window. When the text is at position text Height
+window Height, then the bottom of the window, window Height pixels away, is at text Height,
+the bottom of the text.
+If you look at the scrollbars in standard windows, you see that they also resize the sliding
+marker within the bar, to represent how much of the image you can see. This proportion is
+given by window Height / text Height (see Exercise 2.1).
+
+Calculating Percentages
+-----------------------
+Percentages are yet another kind of fraction. The number 20% is nothing more or less than
+the fraction
+20
+. (The word “percent” means “per cent,” or “per hundred.”) Calculating
+100
+with percentages is therefore a fairly straightforward extension of calculating with fractions, with the help of your English to math translation skills.
+1. 20% of 1000 is the same as 20/100 multiplied by 1000, which is 200.
+2. 20% of 1000 is 1000 – 20% of 1000, which is 1000 – 200 = 800.
+3. 20% more than 1000 is 1000 + 20% of 1000, which is 1000 + 200 = 1200.
+These last two calculations can be simplified slightly by adding or subtracting the percentage from 100 first:
+1. 20% off 1000 is 80% of 1000.
+2. 20% more than 1000 is 120% of 1000.
+Going the other way is just as simple. If an item is knocked down from $25 to $20, you
+can calculate the percentage decrease. The item has dropped by $5, which is
+original value. Since
+5
+¥ 100 = 20, this is a decrease of 20%.
+
+Compound Interest
+-----------------
+Percentages only become complicated in the world of compound interest, such as when
+money is added to an account by a fixed percentage each year. If you have a bank account
+that pays 3% interest, and you put in $1000, how much will you have at the end of 10
+years? You might think that it’s just a matter of adding 3% of $1000, which is $30, each
+year, but of course at the end of the second year you no longer have $1000. Instead, you
+have $1030. As a result, the percentage is wrong. To arrive at the right percentage, you
+must count the increase cumulatively.
+Here is the output from the code in the mortgates.html file, which generates a 10-year
+schedule.
+
+Debts and Interest
+------------------
+Interest on debts is similar, although loans such as mortgages are complicated further by
+the fact that you are paying off the debt as you go along. You may have seen the “mortgage calculators” you can use to enter the amount of mortgage, interest rate, and years of
+payment. Since this is probably the most complicated type of percentage calculation, it’s
+worth extended consideration. (Incidentally, what is being described here is a particular
+kind of capital and repayment mortgage: the precise nature of mortgages varies from
+country to country and lender to lender.)
+Consider first paying a monthly amount of $1000 on a mortgage of $100000, at an interest rate of 5%. How long would it take to pay off the mortgage?
+To start with, you must convert the interest rate into a monthly form. To accomplish this,
+make it a fraction so you don’t have to worry about percentages. From this beginning, the
+annual interest rate is
+5
+, or 0.05. You divide this by 12 to get the monthly interest rate
+100
+of 0.00417. Note that this already means that the true interest rate over the year is in fact
+more than 5%, because this is compound interest. The annual interest is 1.00417 12 – 1 =
+0.0511, or 5.11%.
+
+At the end of each month, the debt is increased by 0.00417. In other words, it is multiplied
+by 1.00417. After one month, this amounts to $100417. Then your payment is taken off
+the debt, so the current value of the loan is now $99417. Each month, you calculate
+new Loan = old Loan ¥ 1.00417 – $1000.
+Using this equation, here are the results
+
+This mortgage took just over 10 years to pay off—and you paid back significantly more
+than your original loan. Your total payment was $129628.96, nearly 30% more.
+You can write this as another formula, although the algebra is a lot more complicated:
+(
+)
+debt After N Months = initial Amount × I n − monthly Payment × I n − 1 + I n − 2 + ... + I + 1
+where I is the monthly increase, given by
+1 +
+The sequence I
+n − 1
+annual Interest
+1200
++ I n − 2 + ... + I + 1 is a special case of what is called a geometric progression, and turns out to have a value of
+I n – 1
+, so the final formula is
+I – 1
+debt After N Months = initial Amount × I n − monthly Payment ×
+I n − 1
+I − 1
+As though using a normal mortgage calculator, suppose that you want to calculate what your
+monthly payment will need to be if you are to pay off the debt in a particular number of
+years, assuming a fixed interest rate. If you are setting the amount of debt to 0 in the previous formula, set n to the correct number of months, and invert the formula, the result is
+as follows:
+monthly Payment = initial Amount ×
+I − 1
+I n − 1
+where n = number Of Years ¥ 12.
+Plug in the values of $100,000 at 5% over 10 years, and you get a monthly payment of
+$1060.66, which is just what the online calculators will tell you.
+
+
+Exponentials
+-------------
+You have already used the power function several times, and speaking generally, this
+function represents “multiplying a number by itself n times.” While this description marks
+a good beginning, full understanding of the power function requires delving further into
+what can be done with the function.
+
+Calculating with Powers
+------------------------
+What does it mean to multiply a number by itself –0.3 times? It seems to make no sense,
+but if you try entering power(2, -0.3), the computer will spit the value 0.81 back at you
+without hesitation. The idea of negative and fractional powers follows from the original
+definition. To see how this is so, consider some basic questions:
+■
+What is n p+q ?
+This means multiply n by itself (p + q) times. This is the same as multiplying it
+by itself p times and then multiplying the result by it q times. So n p+q = n p ¥ n q .
+■
+What is n p¥q ?
+This means multiply n by itself p ¥ q times. It is the same as multiplying it by
+itself p times, and doing that q times, which means n p¥q = (n p ) q = (n q ) p .
+■
+What is n 0 ?
+By the addition formula, for any p, n 0+p must be equal to n 0 ¥ n p . But n 0+p = n p ,
+so for any n, n 0 = 1.
+■
+What is (n ¥ m) p ?
+This means multiply (n ¥ m) by itself p times. This is the same as multiplying n
+by itself p times, multiplying m by itself p times, and then multiplying the results.
+So (n ¥ m) p = n p ¥ m p .
+■
+What is (n m ) p ?
+This appeared the other way round in the first example. Just to confirm, this
+means multiply n m by itself p times, n m ¥ n m ¥ ... ¥ n m . By the first addition
+formula, this is equal to n m¥p .
+■
+What is n –p ?
+By the addition formula, you know that n p–p = n p ¥ n –p . But n p–p = n 0 = 1, so this
+means that n –p =
+■
+1
+.
+n p
+What is n 1 / p ?
+Take a look at (n 1 / p ) p . This is equal to n 1 , which is equal to n 1 , which is n.
+Therefore n 1/p is the number such that when taken to the pth power, it is equal to
+n, otherwise known as the pth root of n. As a result, the square root, or second
+root, of n is equal to n 1/2 .
+
+
+As the previous list shows, the special definitions for negative or fractional powers follow
+naturally from just trying to make them consistent with the definition for integer powers.
+In fact, you can define a power function for all kinds of things, including imaginary numbers, matrices, and even functions themselves.
+One warning is appropriate, however. Within the realm of real numbers, fractional powers
+of negative numbers tend to be a problem. Consider, for example, that there is no square
+root of –1. On the other hand, there is a cube root (which is also –1!). In general, computers and calculators tend to avoid difficulties by not letting you even try to take the
+square root of –1. If you were to try to take power ( –1.1/3.0) , a problem that does not
+have an answer, it won’t let you. Given that the computer has no native way to represent
+the exact fraction 1 3 , this makes sense. If you need to find the cube root (or any other
+root) of a negative number, find the root of its absolute value and check it. Here is a
+pseudocode approach to accomplishing this:
+⁄
+function mthRoot(n, m)
+if n<0 then
+set p to power(-n, 1.0/m)
+if abs(power(-p, m)-n)<0.1 then return –p
+otherwise return “No such value”
+otherwise
+return power(n,1.0/m)
+end if
+end function
+To account for likely rounding errors, this function uses the trick of checking for close-
+ness rather than equality of floats.
+
+The Number e and the exp( ) Function
+------------------------------------
+Another word for power is exponential, a term already encountered. This word is used to
+describe the behavior of powers in general, rather than any particular power. For example,
+you speak of an “exponential function,” or a value “growing exponentially.” When working with exponentials, you’re likely to come across the number e, which is approximately
+2.718. This number has a special property that will be dealt with at length in a later
+chapter, but for now just think of it as a number. It happens to be equal to the infinite sum
+1 1 1 1
++ + + + ... , as well as a lot of other rather pretty patterns. (The exclamation points
+0 ! 1 ! 2 ! 3 !
+indicate the factorial function n! = 1 ¥ 2 ¥ ... ¥ n, with 0! defined to be 1.)
+
+From a programmer’s point of view, the number e is most likely to be encountered in the
+exp() function, where exp(x) equals e x . [To get the number e itself, just enter exp(1). ]
+It’s a kind of “standard” for exponentials.
+Note
+Don’t confuse the number e with the “exponential” notation you saw in Chapter 1,
+such as 1.53 e6. There “e” is just a label that tells us how many decimal places to
+shift. Mathematically, it’s equivalent to multiplying the mantissa by a power of the
+current base—in this case, assuming you are in decimal, it is 1.53 ¥ 10 6 .
+
+
+Exponential Functions in Real Life and Physics
+----------------------------------------------
+Mary has a Russian Vine in her back garden, which increases in length by 20% every
+week. This week it is 1 m long. If it keeps growing at the same rate, how long will it be
+in a year’s time?
+
+You may recognize this problem as similar to the mortgage calculations reviewed earlier
+in the chapter. As became evident with those problems, any time that a value is multiplied
+by a constant increment over time, it rapidly changes. This is called exponential growth,
+and it’s commonly encountered in real-world problems concerning growth of populations, organisms, or economies.
+
+After one week, Mary’s vine is 1.2 m long. After two weeks, it is 1.2 ¥ 1.2 = 1.44 m long.
+After 52 weeks, it will be 1.252 = 13104.63 m long—over 13 km! This explains the reason for the term “population explosion.” Exponential growth is very fast, and even the
+smallest growth rate can add up to a lot. If it only increased by 5% every week, it would
+still reach over 12 m in a year.
+When something is not growing but shrinking by a constant factor, you have exponential
+decay. This is most familiar from the area of radioactivity, where a radioactive element
+has a so-called “half-life,” which is the length of time it takes for half of any particular
+sample to decay. As exponential growth is fast, however, exponential decay is slow. In
+fact, in a sense, it is infinitely slow, because it will never finish altogether. If you keep
+multiplying a number by 1 2 , it becomes smaller and smaller, but it will never reach zero.
+Still, it will get as close to it as you like, and it is said, mathematically, to tend to (or
+approach) a limit of 0.
+
+People often become confused about radioactive decay. When they speak of a radioactive
+element having a half-life of several hundred (or thousand) years, they forget that this
+means it is not very radioactive. It is decaying slowly. And the element still will not be
+very radioactive a long time from now. Conversely, elements that are highly radioactive
+have a short half-life, so that while they are harmful in the short term, they soon decay
+and become relatively harmless. The most dangerous elements are those with intermediate half-lives, such as strontium-90, with a half-life around 30 years.
+
+
+Logarithms
+----------
+The flip side of the exponential function is the logarithm, a useful tool for dealing with
+very large numbers.
+
+Calculating with Logarithms
+---------------------------
+A logarithm is the inverse of an exponential. If a = b c , then you say c = log b (a). This is
+pronounced as, “the logarithm to base b of a,” or “log to base b of a.” It is the power you
+have to raise b to in order to get the answer a.
+Logarithms are generally available on the computer as one or more of the functions log e ( )
+and are sometimes referred to simply as log() . Usually log e ( ) is also expressed as ln(),
+which is pronounced “natural logarithm.”
+Most calculations with logarithms are direct counter parts of calculations with powers:
+■
+log(a) + log(b) = log(a ¥ b) [to any base]
+If n p = a and n q = b, then n p+q = n p ¥ n q = a ¥ b. So log(a ¥ b) = p + q, and since
+log(a) = p and log(b) = q, you have log(a) + log(b) = log(a ¥ b).
+■
+k ¥ log(a) = log(a k ) [to any base]
+This follows fairly naturally from the previous result, but you can also derive it
+directly. For instance, suppose n p = a. Then a k = (n p ) k = n p¥k . So log(a k ) = p ¥ k,
+and since p = log(a), this means that k ¥ log(a) = log(a k ).
+■
+log a (a) = l
+This is a consequence of the definition of a logarithm and th
+
+
+Using Logarithms to Simplify Calculations
+Before the arrival of pocket calculators and computers, logarithms were one of the most
+important tools used by mathematicians, scientists, and engineers. As Figure 2.5 illustrates,
+the fundamental tool was the slide rule, which showed two sets of numbers drawn in a
+logarithmic scale.
+
+What exactly is a logarithmic scale? If you look at Figure 2.5, you can see that the numbers
+are not spread evenly. They are bunched up at one end and more spread apart at the other.
+It is called a logarithmic scale because, if you take the value at each point on the ruler and
+replace it with its own logarithm to some base, the resulting ruler is linear. Equivalently, a
+point n centimeters along the rule represents the value p n , for some base p that depends on
+the scale.
+
+If you measure the distance on the scale between, say, 1 and 10, it is the same as the
+distance between 10 and 100. In fact, this is the primary feature of a logarithmic scale. If
+a = q ¥ b and c = q ¥ d for some q, then the distance between a and b on the scale is the
+same as the distance between c and d. Compare this to the normal linear scale, which has
+the same property for addition instead of multiplication. If a = q + b and c = q + d, then
+the distance between a and b is the same as the distance between c and d. Basically, a
+slide rule is to multiplication what a ruler is to addition.
+This property is useful because it means that you can easily multiply two numbers together
+using the slide rule. For example, as shown in Figure 2.6, if you want to multiply 12.45 by
+37.6, you find the point 12.45 on the top scale and slide the lower scale so that the inner
+1 is matched to it.
+
+
+Next, you locate the position of 37.6 on the lower scale and find the point that corresponds
+to it on the upper one. This point is marked in Figure 2.6. It is 468.12, the correct product.
+This works because the distance between 1 and 37.6 on one scale is equal to the distance
+between 1 ¥ 12.45 and 37.6 ¥ 12.45 on the other. Can you see how this follows from the
+definition of the logarithm? (See Exercise 2.3.)
+
+
+Using Logarithms to Deal with Large Numbers
+-------------------------------------------
+While slide rules are no longer standard issue in classrooms, the principle behind them
+remains important. This principle is that logarithms are a handy tool for dealing with large
+numbers. By applying a logarithm, you can bring enormously large numbers down to a
+more negotiable scale. As an illustration, consider that on a linear scale the value 5,000,000
+is a thousand times greater than 5000. When working in the logarithmic base of 10, it is only
+three units greater.
+This way of thinking is intuitively obvious. You have already used it when describing
+numbers in scientific notation. With the numbers just mentioned, 5,000,000 is represented
+in base 10 as 5 e6 and 5000 as 5 e3. In fact, the word “base” for both the logarithmic scale
+and the base notation looked at in Chapter 1 is a marker for how similar the two concepts
+are. As with the slide rule, it is a natural way of thinking when dealing with a multiplica-
+tive world instead of an additive one.
 

@@ -1,0 +1,22 @@
+CHAPTER 2: FILTERS
+We are going to continue what we began in the previous chapter — writing
+simple programs that read a standard input and write a standard output. By
+obvious analogy to electronics (or plumbing) we call such programs filters,
+because they make useful changes to a stream of data passing through. You
+will find that many tools fall into this category, including most of those in this
+book.
+2.1 Putting Tabs Back
+Let us begin by writing the filter entab, to complement detab. entab
+replaces strings of blanks by equivalent tabs and blanks. Remember what we
+said earlier about the benefits of having all your files look as much alike as 
+possible? You might use entab on files of fixed length records and produce
+typewriter-like text. That way, you could convert your files to a standard
+representation, one that has no wasteful imbedded blank strings. As an added
+payoff, your files are smaller and they all look alike; that makes it easier to
+write programs that talk and work together.
+Another use for entab is to prepare output to be sent to a terminal. You
+might have a program that expects to drive a smart printer. You would like to
+speed up the printing by tabbing whenever possible. Rather than rewrite a
+working program, you are better off with a separate program to filter the output
+just before it is typed. Thus entab.
+
