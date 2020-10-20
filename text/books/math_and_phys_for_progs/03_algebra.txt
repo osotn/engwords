@@ -1,0 +1,209 @@
+In This Chapter
+■ Overview
+■ Basic Algebra
+■ Working with Equations
+■ Factoring and Solving Quadratic Equations
+■ Functions and Graphs
+Overview
+This is a second chapter on fundamentals. In this chapter, the central concern is the principles of algebra, a branch of mathematics that deals with variables. Consideration is first
+given to the basic principles of algebra. After that, specific techniques are explored. The
+explorations include methods for using graphs to visualize equations and functions.
+
+Basic Algebra
+=============
+This section reviews a number of terms used in algebra. The terminology of algebra is
+extensive and essential for all areas of mathematics that are built on it. Given a beginning
+with terminology, the stage is then set for discussions of equations and other topics.
+
+Variables, Parameters, and Constants
+------------------------------------
+You represent two basic types of value in algebra. One is called a constant. The other is
+called a variable. Both of these values are usually represented as letters. Most people are
+familiar with them as the letters a, b, c, or x, y, z. A constant does not change. A variable
+does. Various names are applied to constants and variables depending on how they are
+used. The following list reviews the primary uses of variables and constants.
+■ Constant. A constant is a value that does not change. Examples are the constants
+e and φ. Likewise, values as represented by such symbols “1” and “2” are also
+constants. A constant can be an arbitrarily assigned value, as when you temporarily
+define the letter A to stand for the expression 2 + 1 .
+■ Parameter. A parameter is a value that defines a family of similar mathematical
+objects. For example, in the linear equation y = m ¥ x + c, the parameters m and c
+are used in all examples of this equation. The values substituted for m and c
+always convey the same type of information. You know what the value stands for.
+■ Unknown. An unknown is a token that represents a value that you do not know.
+For example, if you know that x is a particular number, and that x + 3 = 4, then
+you can calculate the (unknown) value of x.
+Variable. A variable represents something that can be of any value. This is like
+an argument passed to a function in the computer. For example, you can write a
+function that calculates the cube root of some number n, and n in this function
+is a variable.
+You’ll notice that these terms are a little fuzzy. After all, in the equation x + 3 = 4, you
+can call x an unknown. On the other hand, it is also a variable, for you can substitute a
+value into it (1). If you consider the equation at length, you also see that the value that
+you substitute for x is always the same, so x is a constant.
+The easiest way to think of these terms is as a hierarchy of variability. If you have an
+expression with a lot of letters, say u + a ¥ t, you can decide that one or more of these are
+“fixed,” and the others are “variable.” The fixed terms might be called parameters. For a
+particular set of parameters, you have a particular behavior for the variable terms. Then
+you might fix one of the parameters even more strongly and call it a constant. Each choice
+of a constant gives you a family of families. Finally, you can vary the constant to give
+you a family of families of families!
+Variables and constants are used in similar ways by mathematicians and programmers.
+There is one difference that stands out, however. Programmers are encouraged to create
+mnemonically significant variable and constant names. For example, rather than naming a
+variable in a program x, a programmer is encouraged to use a name such as num Of Players
+or account Number . Likewise, due to language conventions, programming languages might
+represent the Greek letter p with the characters PI. Constants, generally, are represented by
+words consisting of capital letters.
+
+Expressions and Terms
+---------------------
+A mathematical combination of variables or constants is called an expression. For example,
+(a ¥ x) + (x 2 ¥ 4) + 3 is an expression using the variables a and x, and the constants 3 and
+4. Another constant also appears. This is the 2 used as an exponent, which is shorthand
+for the expression x ¥ x.
+
+
+Note
+----
+As in manual evaluations, most compilers evaluate mathematical expressions in a
+standard order. First, expressions in parentheses are evaluated recursively. Next,
+other operators are evaluated sequentially: parentheses, division and multiplication,
+subtraction and addition. Thus the expression 1 + (2 ¥ 3 – 4) ¥ (–5 + 6) evaluates to
+1 + 2 ¥ 1, or 3. Expressions used as the numerators or denominators of fractions are
+considered to be in parentheses.
+
+A term is any subexpression of the main expression that does not contain additions or
+subtractions. It is convenient to group expressions into terms. With (a ¥ x) + (x 2 ¥ 4) + 3,
+if you consider x to be a variable and a to be a constant, then there are three terms, a ¥ x,
+x 2 ¥ 4, and 3. A term can contain any number of variables multiplied by a constant, which
+is called the coefficient. In the term x 2 ¥ 4, 4 is the coefficient of x 2 .
+Terms can be classified according to the exponents of the variables within them. The
+terms 3 ¥ x 2 and –2 ¥ x 2 are considered like terms because they both have the same exponent of the variable x, namely 2. On the other hand, 3 ¥ x 2 and 3 ¥ x are not like terms,
+because they contain different powers of x. Two terms are alike if they only differ by their
+coefficient.
+
+
+To extend the discussion, consider the expressions 2x and p(1 + q). In both expressions,
+two or more values are written next to one another. Such a construction indicates that a
+multiplication is to be performed. As a general rule, a coefficient is always written before
+the variables (2x, not x2), and terms outside parentheses are written first p(1 + q), not
+(1 + q)p. A term is usually written as a single string without multiplication signs, so the
+expression a ¥ x + x 2 ¥ 4 + 3 is written as ax + 4x 2 + 3. This allows you to easily group
+terms according to the exponents of their variables. For example, you see the x term, the
+x 2 term, and then the constant.
+
+Functions
+---------
+A function is a map that takes values from one set, called the domain of the function, and
+transforms them into values from the same or another set, called the range of the function. Consider a situation in which rational numbers are transformed into integers.
+Functions in mathematics are usually represented as a single letter followed by open and
+close parentheses between which the parameter of the function is represented. For
+instance, the equation y = f (x) indicates that the value x in the domain is mapped to the
+value y in the range. Functions are usually read as “f of x.” The value of the range is a
+function of the value of the domain. If you have a function f(x), then you refer to the value
+f(3) as the result of substituting 3 for x in the function. The result of substituting 3 for
+x in the function x → x ( x + 2 ) is the value 3 ¥ (3 + 2) = 3 ¥ 5 = 15. (The arrow is a logical
+symbol for “x maps to.”)
+
+What applies to math also applies to programming. Consider the floor() function, introduced in Chapter 1. When you use this function, you feed it a number that is not an integer
+(3.45, for example). It then returns an integer (3). You can also have Boolean functions,
+which map their input to just two values, 0 and 1. As an example, one common Boolean
+function is named is Prime() . This function returns 1 if the input is a prime number and 0
+otherwise. In typed computer languages, you generally need to specify in advance both the
+type of the input value of a function and the type of the output value. For example, you
+designate that the function requires an integer argument as input and returns a double
+(a floating-point value). This requirement formalizes the fundamental nature of functions,
+which requires that they draw from a specific domain and translate to a specific range
+
+
+Representations
+---------------
+Many mathematical functions have their own symbols, and these symbols are represented
+in program functions. The
+symbol represents the sqrt() function. Some mathematical
+functions directly correspond to program functions. Among these are sin() , cos() , and
+tan() . In other instances, the correspondence is not so clear. Consider the function x 2 + 2.
+This function might be formally expressed like this:
+square Plus Two(x: R Æ R ) = x 2 + 2
+The R Æ R part of this formulation is required in a formal definition of a function. It is
+not necessary to include it in this context, however. In this case, all it means is that both
+the input and output of the function are real numbers.
+
+Note
+The second R could be replaced with a > R + , signifying the set of positive real
+numbers, since you know that the output of the function is always positive. Even
+more accurately, it could be said that the range of the function is the set [2,∞]. This
+is a common notation for the set of real numbers from 2 to infinity. In this case, the
+function is shown to map to the whole of the range.
+
+One-to-One, Inverse, and Multivalued
+------------------------------------
+If you have a function f(x) and there are no two distinct input values a and b in its domain
+such that f(a) = f(b), then you call the function one-to-one. For such functions, there
+is also an inverse function, sometimes expressed as f '. With an inverse function, for
+every a in the function’s complete domain, f '(f (a)) = a. For example, the cube function,
+x Æ x 3 , is one-to-one. On the other hand, the square function, x Æ x 2 , is only one-to-one
+when considered over the domain of positive real numbers (a partial or limited domain).
+A function for which values in the domain map to the same value in the range is called
+many-to-one.
+Functions are multivalued when there is at least one value in the range that can map to
+more than one value in the domain. Among these is the mathematical square root function. With this function, both 1 and –1 are square roots of 1. Multivalued functions are
+usually the inverses of many-to-one functions, as in the case of the square root function.
+Strictly speaking, these are not functions at all, but it is useful to refer to them as functions. As a further point, it is impossible for self-contained functions programmed using
+standard programming languages to be multivalued. For example, the sqrt() function is
+a regular one-to-one function from R – to R + , and it always returns a positive square root.
+
+Polynomials
+-----------
+A polynomial is a particular kind of function of the form x Æ a 0 + a 1 x + a 2 x 2 + a 3 x 3 + ... +
+a n x n , where the values a 0 , a 1 , a 2 , . . . are all real numbers. Polynomials are distinguished
+according to degree. The function x → 2 x + 1 is a polynomial. It is called a linear or first-degree polynomial because the highest power of x is 1. The function x → 2 − x + 3 x 2 is a
+quadratic or second-degree polynomial because the highest power of x is 2. It is also
+possible to have polynomials in more than one variable, such as x → x 2 + 2 xy + y 2 .
+Note
+Discussion of functions has been formalized so far in this section, but a degree of
+informality makes things easier to communicate. From now on, such expressions
+as x 2 + 1 will be referred to as functions. This removes the need for expressing functions using the mapping notation of mathematics: x Æ x 2 + 1.
+
+
+Equations, Formulas, and Inequalities
+-------------------------------------
+An equation is like a mathematical sentence. It states that one expression is equal to
+another. Consider 1 = 1. This is a simple and rather obvious equation, as is 2 + 2 = 4.
+In most contexts, the term equation refers to a sentence that includes a variable, such as
+x + 2 = 5. This is a sentence that tells you a fact about the unknown x. In this case, it tells
+you enough about it that if you know that the equation is true, you can deduce what the value
+of x must be, namely, x = 3. The process of deduction is the main focus of elementary
+algebra.
+It is important to distinguish between a function, an expression, and an equation. A function
+is like a phrase with blanks in it. It might read, “The --- with tall ---’s.” An expression goes
+a step farther. It fills in the blanks with dummy variables: “The nnn with tall mmm’s.” An
+equation then tells you something about this expression by relating it to another. “The nnn
+with tall mmm’s is a qqq.”
+Of the three activities, only an equation can be true or false. In this case, you don’t know
+whether it is true or not because you don’t know what an nnn, an mmm, or a qqq are.
+But if the sentence were “an nnn is an nnn,” then you could know it is true, whatever an
+nnn might turn out to be. Such an equation is called a tautology. For example, x + 2 =
+x + 3 − 1 is a tautology because it is true no matter what the value of x is. The equation
+x + 1 = 2 is not a tautology, however. If x = 1, then the equation is true. If x is any other
+value, then it is false. The same happens in a program. If you are working with a variable
+x, and you have the line, if x + 2 = 3 , then the program executes the next line if and
+only if x = 1—that is, if the equation is true. Reversing the reasoning, if you know the
+equation is true, then you know the value of x must be 1.
+A formula is an equation with more than one variable, and it defines one variable in terms
+of others. For example, v = u + at is a formula that defines the value v in terms of the
+variables u, a and t. However, since formulas and equations can be treated identically, this
+is just a terminological distinction. Formulas are most often used to express relationships
+between physical values, such as distance = speed ¥ time.
+An inequality is like an equation, but it tells you something other than that the two equations
+are equal. The types of inequalities vary fairly extensively. An inequality might say that
+one expression is less than the other. Consider, for example, x + 1 < x + 2. This happens
+to be a tautological inequality, for it always true, no matter what the value of x. An
+inequality might also say that one expression is greater than another. Consider, for example x + 1 > y. This is an inequality that might or might not be true, depending on the values of x and y. On the other hand, an inequality might simply assert that two expressions
+are not the same. In a computer language, you might write x != y or x <> y .
+Mathematically, you usually write x ≠ y.
+Other symbols for inequalities are compounded or more abstract. Consider ≤ and ≥, representing “less than or equal to” and “greater than or equal to.” Still another symbol, not
+asserting inequality but instead a limited form of equality, is a, meaning “approximately
+equal to.” There is also the congruency symbol ≡ . The latter two are not generally referred
+to as inequalities, but neutrally as statements.

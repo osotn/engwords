@@ -702,6 +702,35 @@ This way of thinking is intuitively obvious. You have already used it when descr
 numbers in scientific notation. With the numbers just mentioned, 5,000,000 is represented
 in base 10 as 5 e6 and 5000 as 5 e3. In fact, the word “base” for both the logarithmic scale
 and the base notation looked at in Chapter 1 is a marker for how similar the two concepts
-are. As with the slide rule, it is a natural way of thinking when dealing with a multiplica-
-tive world instead of an additive one.
+are. As with the slide rule, it is a natural way of thinking when dealing with a multiplicative world instead of an additive one.
+
+Note
+----
+As will be seen in a later chapter, our ears do this, too. Both volume and pitch are
+interpreted by our brains using a logarithmic scale. The C below middle C has a frequency half that of middle C, and the C above that has twice the frequency again.
+Still, you hear them as being the same “distance” apart.
+
+Logarithms are useful for dealing with problems involving powers. Looking back at Mary’s
+Russian Vine, if you recall, grows by 20% each week (each week its length is multiplied by
+1.2), it’s reasonable to ask how many weeks it will be before the vine is long enough to
+encircle the world. The Earth has a circumference of approximately 40,000 km, which
+means that you want to know how many times you have to multiply 1 m by 1.2 to get an
+answer of 40,000,000 m.
+
+Note
+The circumference of the Earth has been known (approximately) since the time of
+the Greeks. It was first calculated accurately by Eratosthenes, creator of the Sieve
+glimpsed earlier in this chapter.
+
+You Should Now Know
+■ How to make calculations with fractions, ratios and percentages
+■ The concept of an interest rate and how it can be calculated
+■ The workings of the mod() function and how to use it to calculate with loops
+and integer divisions
+■ The concepts of factor, prime number, GCD and LCM, and how to use Euclid’s
+Algorithm to calculate the GDC of two integers
+■ The meanings of proportion and ratio, and how to use them to map between
+values and sizes, as well as create a graphical representation of a range
+■ How to use exponentials and logarithms to deal with large numbers and
+multiplicative functions
 
