@@ -70,6 +70,7 @@ static BOOLEAN fPutChars = FALSE;	/* -p: Putchar mode */
 static BOOLEAN fWithoutColor = FALSE;	/* -b: Black mode */
 /* Only for not unique mode */
 static BOOLEAN fNoInfo = FALSE;		/* -c: No info mode */
+static int how_many_sound_a_word = 1;	/* -s 1 */ 
 
 static int delay_sound_word_ms = 1000;
 
@@ -78,7 +79,7 @@ static char *lang = "";                 /* english = "" */
 static void get_opts(int argc, char *const argv[])
 {
   int option;
-  while ((option = getopt(argc, argv, "unfmgpcbd:")) != -1)
+  while ((option = getopt(argc, argv, "unfmgpcbd:s:")) != -1)
     switch (option)
     {
       case 'u':
@@ -112,6 +113,10 @@ static void get_opts(int argc, char *const argv[])
       case 'd':
         delay_sound_word_ms = atoi(optarg);
         break;
+
+      case 's':
+	how_many_sound_a_word = atoi(optarg);
+	break;
 
       case '?':
         printf("Unknown option: %c\n", option);
@@ -513,15 +518,20 @@ void main(int argc, char * argv[])
 
       fflush(stdout);
 
-      if (!fNoDelay) {
-        if (is_s && !fNoSound) 
-	  usleep(delay_sound_word_ms * NUM_US_IN_MS);
-        else
-          usleep((delay_sound_word_ms * 2 + 1) * NUM_US_IN_MS);
-      }
+      { int i;
+      for (i = 0; i < how_many_sound_a_word; i++)
+      {
+          if (!fNoDelay) {
+              if (is_s && !fNoSound) 
+	          usleep(delay_sound_word_ms * NUM_US_IN_MS);
+          else
+              usleep((delay_sound_word_ms * 2 + 1) * NUM_US_IN_MS);
+          }
 
-      if (!fNoSound) {
-          sound_if_possible(word);
+          if (!fNoSound) {
+              sound_if_possible(word);
+          }
+      }
       }
     }
     i++;
