@@ -191,11 +191,13 @@ value, then it is false. The same happens in a program. If you are working with 
 x, and you have the line, if x + 2 = 3 , then the program executes the next line if and
 only if x = 1—that is, if the equation is true. Reversing the reasoning, if you know the
 equation is true, then you know the value of x must be 1.
+
 A formula is an equation with more than one variable, and it defines one variable in terms
 of others. For example, v = u + at is a formula that defines the value v in terms of the
 variables u, a and t. However, since formulas and equations can be treated identically, this
 is just a terminological distinction. Formulas are most often used to express relationships
 between physical values, such as distance = speed ¥ time.
+
 An inequality is like an equation, but it tells you something other than that the two equations
 are equal. The types of inequalities vary fairly extensively. An inequality might say that
 one expression is less than the other. Consider, for example, x + 1 < x + 2. This happens
@@ -207,3 +209,11 @@ Other symbols for inequalities are compounded or more abstract. Consider ≤ and
 asserting inequality but instead a limited form of equality, is a, meaning “approximately
 equal to.” There is also the congruency symbol ≡ . The latter two are not generally referred
 to as inequalities, but neutrally as statements.
+
+
+Working with Equations
+======================
+Algebra allows you to make deductions about unknown quantities by manipulating them
+as symbols rather than calculating with them directly. This section reviews the primary
+techniques involved in algebraic manipulations.
+

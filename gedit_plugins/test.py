@@ -4,9 +4,19 @@ action = Gio.SimpleAction(name="engwords");
 action.connect('activate', lambda a,p: engwords())
 window.add_action(action)
 
+#window.get_application().add_accelerator("<Primary>E", "win.translations", None)
+#action = Gio.SimpleAction(name="translations");
+#action.connect('activate', lambda a,p: translations())
+#window.add_action(action)
+
 import os
+
 def is_word_unknown(word):
     return not os.path.exists("/home/osotn/gitspace/osotn/engwords/words/active/" + word)
+
+def is_word_untranslated(word):
+    return not os.path.exists("/home/osotn/gitspace/osotn/engwords/translations/" + word)
+
 
 def get_word(sel):
     iter, end = sel
@@ -49,12 +59,31 @@ def color_unknown_words(sel):
             buffer.apply_tag_by_name("unknown_word", ws[0], ws[1])
             #print("3. ", buffer.get_text(ws[0], ws[1], True))
 
+def color_untranslated_words(sel):
+    buffer = sel[0].get_buffer()
+    buffer.create_tag("all_text",     background="#FFFFFF", foreground="#000000");
+    buffer.apply_tag_by_name("all_text", sel[0], sel[1]);
+    buffer.create_tag("untranslated_word", background="#FFFFFF", foreground="#FF0000");
+    while sel[1].compare(sel[0]) >= 1:
+        ws = get_word(sel)
+        word = transform_word(ws)
+        if word and is_word_untranslated(word):
+            buffer.apply_tag_by_name("untranslated_word", ws[0], ws[1])
+
 def engwords():
     buffer = window.get_active_view().get_buffer()
     bounds = buffer.get_selection_bounds()
     if bounds == ():
         bounds = (buffer.get_start_iter(), buffer.get_end_iter())
     color_unknown_words(bounds)
+
+def translations():
+    print("Hello")
+    buffer = window.get_active_view().get_buffer()
+    bounds = buffer.get_selection_bounds()
+    if bounds == ():
+        bounds = (buffer.get_start_iter(), buffer.get_end_iter())
+    color_untranslated_words(bounds)
 
 # Test
 sel = (buffer.get_start_iter(), buffer.get_end_iter())
