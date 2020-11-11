@@ -44,22 +44,35 @@ def color_unknown_words(sel):
     buffer.create_tag("all_text",     background="#FFFFFF", foreground="#000000");
     buffer.apply_tag_by_name("all_text", sel[0], sel[1]);
     buffer.create_tag("unknown_word", background="#FFFFFF", foreground="#008F8F");
-    buffer.create_tag("untranslated_word", background="#FFFFFF", foreground="#FF0000");
+    buffer.create_tag("untransl_word", background="#FFFFFF", foreground="#0000FF");
+    buffer.create_tag("untransl_unknown_word", background="#FFFFFF", foreground="#FF0000");
     buffer.remove_tag_by_name("unknown_word", sel[0], sel[1]);
-    buffer.remove_tag_by_name("untranslated_word", sel[0], sel[1]);
+    buffer.remove_tag_by_name("untransl_word", sel[0], sel[1]);
+    buffer.remove_tag_by_name("untransl_unknown_word", sel[0], sel[1]);
     while sel[1].compare(sel[0]) >= 1:
         ws = get_word(sel)
         #print("1. ", buffer.get_text(ws[0], ws[1], True))
         word = transform_word(ws)
         #print("2. ", word)
-        if word and is_word_unknown(word):
-            buffer.remove_tag_by_name("all_text", ws[0], ws[1]);
-            if is_word_untranslated(word):
-                buffer.remove_tag_by_name("unknown_word", ws[0], ws[1]);
-                buffer.apply_tag_by_name("untranslated_word", ws[0], ws[1])
+        if word:
+            buffer.remove_tag_by_name("untransl_unknown_word", ws[0], ws[1]);
+            if is_word_unknown(word):
+                if is_word_untranslated(word):
+                    buffer.remove_tag_by_name("all_text", ws[0], ws[1]);
+                    buffer.remove_tag_by_name("untransl_word", ws[0], ws[1]);
+                    buffer.remove_tag_by_name("unknown_word", ws[0], ws[1]);
+                    buffer.apply_tag_by_name("untransl_unknown_word", ws[0], ws[1])
+                else:
+                    buffer.remove_tag_by_name("all_text", ws[0], ws[1]);
+                    buffer.remove_tag_by_name("untransl_word", ws[0], ws[1]);
+                    buffer.remove_tag_by_name("untransl_unknown_word", ws[0], ws[1]);
+                    buffer.apply_tag_by_name("unknown_word", ws[0], ws[1])
             else:
-                buffer.remove_tag_by_name("untranslated_word", ws[0], ws[1]);
-                buffer.apply_tag_by_name("unknown_word", ws[0], ws[1])
+                if is_word_untranslated(word):
+                    buffer.remove_tag_by_name("all_text", ws[0], ws[1]);
+                    buffer.remove_tag_by_name("unknown_word", ws[0], ws[1]);
+                    buffer.remove_tag_by_name("untransl_unknown_word", ws[0], ws[1]);
+                    buffer.apply_tag_by_name("untransl_word", ws[0], ws[1])
             #print("3. ", buffer.get_text(ws[0], ws[1], True))
 
 def engwords():

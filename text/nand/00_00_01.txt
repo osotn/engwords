@@ -1,0 +1,141 @@
+We're going to start this course by
+describing the main mental tool that we're going to use in this course and in fact the main mental tool that
+computer science uses all the time that will allow us to design a extremely
+complicated artifact step by step. 
+
+Many of you have probably
+taken a programming course. Many of you may have not,
+but mainly you have. Usually, in such a course, the fir,
+in the first class, in the first lesson, you start looking at the very, very simple
+program, sometimes called Hello World. And this is a program that just
+prints Hello World on the screen. Usually, you start discussing
+the various fluff. Eh, around the commands, basically
+stating, oh, here is the program, and this is how it's supposed to be written. You talk about various commands,
+eh, in the program. For example, the 4th line, or the 5th
+line, the, in what you see in front of you basically tells the computer to print
+a string "Hello World!" on the screen, and that's really what the program does. And you discuss all that things. And that's how you start a programming
+course, a programming 101 course. Now when you think about that
+that's very problematic. There are a lot of things
+that are under the hood here. First of all there's this amazing thing. What you see is the program
+with just a bunch of letters. So for example if you have the p letter,
+this is a letter p. It's not doing, doing anything,
+it's just a letter. And in fact we know that in computers
+the letter p is represented by a number, it turns out to be 112. So we have the number 112, and then you
+have a number 114 for r, and so on. And somehow these letters are supposed to
+do something, how does, does that happen? Well, you are told something
+about compiler that translated to a different language. And the other language,
+a computer hardware can execute, but how does that work? How does it even work? All that is swept under the rug when you
+start introduction to computer science or to programming. Similarly, if you look at
+even the simplest programs, the simplest command, for
+example, print "Hello World". How are you supposed to do that? Printing Hello World on the screen
+actually involves setting a bunch of pixels on your screen to
+be more lighter or darker. And it's a lot of pixels and you have to
+actually the pixels that are lighter in a very special order to somehow represent
+the letter H and then the letter E. How is that all, all, all that happened
+that's an extremely complicated thing and yet you just use it. And that is also swept under the rug. Again you're told about
+standard libraries and operating systems that do all that for
+you. But, you don't really worry about them. Why I don't we have to worry about them? 
+
+The main secret of computer science
+is the fact that you really don't have to worry about them. You can really start and do programming
+101, as many students have done throughout the years, without worrying
+about all these very basic questions. How does that happen? How come you don't need
+to worry about how? Because, it's enough to
+worry about the what. It's enough to use, what the programming
+language is supposed to do. And you don't need to worry
+about what happens behind it. Because you're only using it. You're not now actually
+trying to duplicate it. The how of something is
+called implementation. How do you actually make it happen. That's called to implement it. The what. It's called the abstraction. That is if you sell the computer
+languages of both to do such and such, you don't need to
+worry about how it is done. But the such and such, the exact
+specification of the such and such, that's the abstraction that we have that's
+the interface that you get to work with, and you only need to worry about
+that when you actually program. When you are taught. In programming 101,
+that you actually can run that program. The whole point is that you only
+need to worry about the abstraction. That when you write that command, it's supposed to write hello
+world on the screen, and the whole point is that you don't
+need to worry about how that is done. It's enough to know what it does. This is not the bug in the way that
+we teach programming languages, it's actually the main point
+of programming languages. Don't worry about the rest; just worry
+about what it's supposed to do and trust that someone else
+worried about the how. 
+So you may worry here, is this a scam? So if no one worries about
+how something is done only people are only enjoying the what's
+the nice things that are done. How is it ever going to be implemented? Who is going to worry about the how? Well, it could be someone else which is an always nice to know
+that someone else can do that. It could be you, later or earlier. If its later you don't need to worry about
+it now which is very nice because now you can focus on the task at hand which is
+using the com programming language. Even if it was you earlier that you
+already implemented the programming language in the past this allows you to
+forget allows you forget all the details all the works that you put into actually
+implementing it and just remember what. Is the thing that you did. So it's an extremely important thing. And that's the most,
+most potent tool of computer science. That, once we can separate concerns. When we can separate, we can forget
+a lot of details about implementation. And only remember a very clean, what? A very clean interface. A very clean. Description of what is done there. Then you get this mental, saving, of not having to have everything
+in your mind in the same time. You can repeat that many times in many
+different multiple layers of abstraction, one above the other. So, for example, suppose we have
+already built the blue stage box. We can forget its implementation. Worry only about its interface. When we try to implement
+a green box above it. Once we've finished with the green
+box we can again we can forget its implementation, worry about only the interface when we
+implement the yellow-orange box above it. When we finish that we can forget
+again the implementation when we try to implement the purple box
+above the interface of the orange box. This way we have multiple stages,
+each one of them very simple. And yet at the end we get
+the fantastically complex artifact composed of many simple stages. This is exactly what
+we'll do in this course. Here is a high level description of
+the different abstraction layers we have in this course. We start with very basic. [INAUDIBLE] Simple gates. We'll build more complicated
+chips from them and from them, we'll build even higher,
+more complicated chips like a CPU. And then, we put them into a computer and
+that continues as a software layer that we'll cover in part two of
+the course, where we build more and more complex software, software artifacts
+above these hardware artifacts. Every week we will worry about
+a single level of abstraction. We take the lower level as given. We only remember what it does,
+we forget how we did it. We implement the higher
+level of abstractions and the next level of abstraction. We test that it works. And then, presto, we finished the week. We can move to the next week where
+we already know that this level works very well. So, the lower level, we can take as given in the next week
+because we just finished implementing it. The next level we are going
+to actually guide you give you very explicit guidance how you're
+going to implement the next level of abstraction given the fact that you
+already have the previous time. Then we also give you a testing suite
+that allows you to really test the, what you did this week works so that can be sure that next week
+everything will keep on functioning. So by the end of the course,
+what have we achieved? By the end of the course, after a few
+weeks of actually a, every week building upon the previous layer,
+we get a complete functioning computer. A computer that starts with very basic
+building blocks, called Nand gates, which are very, very simple logic gates. And ending with a computer that
+can run almost any program,. For example the tetris that
+gives this course its name. In the process of doing it you've
+gained a lot of very important computer science tools. First of all, you've gained the experience
+of working with abstractions. You've gained that if, in experience of
+working with the main, working towards the computer science at every point in
+time forgetting about what you don't need to remember about the how and working
+about the ext level of abstraction. This is the main thing we always do with
+programmers, and you've experienced it. You also, by the way, once you've did all the different steps,
+you learned at every step what you need. And the different steps in
+building a computer are the real, the interesting pieces of
+information you need to know. You need to understand in order to
+understand how a computer is actually constructed. At the end of the day, you sort of
+now have a complete understanding. You have built a complete functioning
+computer, you understand all the levels. So finally, the myth of how a computer
+works is no longer mystical. You understand it. All this accomplishment, is going to be,
+is going to happen in 14 weeks. And in two parts in the first part of the
+course which is what we currently have on Corsera which is going to last seven weeks
+we're going to build the whole hardware platform of a computer we're going to
+start with a very simple logic command gate and we're going to create a computer
+that can run assembly machine programs. And this is what you do in the first,
+in the first part of the course, seven weeks, seven different steps,
+each step very simple. And you get the working hardware platform. In the second part of the course, which
+is going to be called, not surprisingly, from Nand to Tetris part two,
+we're going to start with the same hack computer which was
+built in the first part of the course,. And continue adding the software hierarchy
+that will allow us to actually run any type of application that we write in
+any, in a high level programming language, for example an application like Tetris,
+that gives this course it's name, but also any other type of application
+that you may want to write. The second part of the course is
+not available on Coursera yet. If you really, after doing this course,
+you cannot wait for it, you can always go to our book. Which had all the information
+including part two in keep on working directly from the book. What we're going to do in the next two
+unit is explain a little bit more, talk a little bit more about
+the road map ahead which tells us first of all what are we going to do
+in this course in the hard work part. What are the main steps
+that we're going to do. And then also what are the main steps
+that are going to be done in the second part of the course. And after that, in the next week we'll
+actually start doing, going step-by-step.
