@@ -1,0 +1,100 @@
+In this previous unit, Norm gave you an overall description
+of the Nand to Tetris journey. In this unit, we're going to focus on
+what we're going to do in this course, which is building a computer called Hack. So, here's the computer,
+in a very broad description, or sort of a diagram that captures only,
+some of its very main elements. It's going to have ROM, CPU,
+RAM and many other chips. And once we build this computer, we're going to connect it to a standard
+keyboard, and to a display unit. And at this point,
+you can start executing programs and enjoy the computer that
+you actually built. Which kind of programs? Well, anything that comes to your mind. You can write a program that plays Pong or
+a program that plays Space Invaders or Sokoban or, of course, Tetris. And these are actually examples of
+programs that were previously written by students. Who took this course. So, here's the general
+picture of this course and I'm basically repeating things
+that I know I've said before. We start with some general idea of
+the program that we want to write. We write the program, we compile it,
+we translate it further into machine language, we load the code
+into our computer. The computer is going to use all sorts
+of all sorts of chips that we built. Which are based on
+elementary logic gates and the whole thing ends up
+with the hardware itself. So basically what we did is
+we built a software hierarchy that sits on top of
+some hardware platform. And as Norm explained, we decided to split
+this enterprise into two different parts. The first part is called
+nand to Tetris part I and the second one which will be offered
+later is called nand to Tetris part II. And, in this particular course,
+we're going to focus on the hardware only, beginning at the very low
+level of the hardware itself, of electronics and and logic gates. And we're going to do it bottom up. So here we are at the very low
+level of of everything in, in applied computer science. And this actually is not computer science. This is electrical engineering and
+solid state physics, and so on. And all sorts of things that neither
+Norm and I understand much about. And therefore, we're going to obstruct
+the way this hardware and focus instead on the most elementary logic gate that
+we can think of, which is called Nand. You know, Nand is something that
+I can describe in ten seconds and I will do it in one of
+the following units, but for now. Let us assume that it's simply a basic,
+logic gate. We take this Nand gate, and from it, using
+a certain art called combinational logic, we're going to build a whole set
+of elementary logic gates like AND or Xor and so on. Then we'll take these gates and
+from them we are going to use both. Combinational logic and sequential logic,
+which is a different out of design, which takes into consideration times,
+and, and time and clocks, and from it we are going to build things like
+registers and RAM units, and and CPU. And then, we'll take this
+chip set that we built, and we'll design from it a full blown
+computer architecture called Hack. Now in order to write programs that can
+execute on this, on this machine and do it in a convenient way, we're going to also
+introduce an assembler into the picture and we're going to develop also an
+assembler for the Hack machine language. Now I've introduced all sorts of
+concepts that may sound very unfamiliar. Don't worry about it. Everything will be explained
+as the course progresses. Now, many of you are probably wondering, how are we going to actually
+build all these chips? Well, as it turns out, hardware engineers today don't do
+anything with their bare hands. They develop computers using computers. And in particular they use something
+called hardware simulator to design and test and debug the hardware
+that they want to build. And that's exactly what you
+will do also in this course. What we see here is a screenshot
+of our hardware simulator. A piece of software that you're going
+to download freely from our website. And the you're going to install it
+on your computer and you will do all the projects in this course using your
+computer and software that we will supply. So let us give you an example of
+how we are going to actually do it. Here's an example of Xor chip,
+which is one out of about 30 different chips that we're
+going to build in this course. And what you see here is an obstructed
+description of how Xor operates. So basically you're going to take
+this obstruction, think about it and. Along with all sorts of tips and
+guidance that we're going to provide. We'll come up with some logic
+diagram that enables you to build Xor using lower level gates,
+that you built before. Then you will take this diagram, and
+specify it using a language that we will teach you, which is called
+hardware description language. The result will be something
+called HDL program. You will take this HDL program. You will combine it with some test
+scripts that we that we will provide. And then you will debug, test,
+and complete your HDL program, using the hardware simulator
+that I described before. So that's what we're allowed to
+do with every one of the chips that we're going to build in this course. And the result is going
+to be the HAT computer. Now we're going to separate this
+journey into six different projects. So let me say a few words
+about every one of them. In the first week, we're going to
+build some elementary logic gates. 15 gates all together. As you see here in the slide. In the second week, we're going to
+build an arithmetic logic unit, an ALU, which is the centerpiece
+of the CPU that we'll build later. In the third week, we're going to
+build memory systems, you know, starting with registers and
+going all the way up to RAM and ROM units. In the fifth week we're going to take
+all the chips that, that we built so far and
+use it to design an actual computer. In week 4,
+before we build the computer we will write some programs in the Hack
+machine language in order to get, in order to get the feeling of
+what this computer is going to do, and in the last week in the course,
+we're going to introduce an assembler for the Hack machine language, and
+actually develop it in two different ways. One for people who have
+background in programming,. And one for people who don't. So these are all the projects that you're
+going to work on in this course and the result of your effort is
+going to be the Hack computer, a general purpose computer that can run
+any program that comes to your mind, Tetris and you know,
+practically anything else. Now, I'm sure that many
+of you are wondering, what do I have to know in
+order to take this course. Well, the answer is, we assume no
+previous knowledge whatsoever, in computer science engineering,
+or mathematics. All the necessary knowledge that is
+required to build the computer and to take this course. Is going to be supplied
+in the course itself. This is a self-contained course. You're going to learn a lot in
+seven weeks of exciting projects. So, this has been the unit in which
+we describe the journey from Nand to the Hack computer, and in the next unit we're going to overview
+the journey from Hack computer to Tetris.
