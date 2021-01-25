@@ -1,0 +1,21 @@
+What is Linux?
+- Linux is the kernel that powers a Linux Operating System.
+- Kernels are programs that talk directly to the hardware and manage resources and process
+- Kernels need a whole operating system to be useful
+- When a Linux Kernel is bundled with operating system software and shipped together, 
+  that is called a Linux Distribution.
+
+Linux Distributions
+ - Red Hat Family
+ - Debian Family
+ - Source Code Distributions
+ - System V Init vs SystemD
+
+Hardware Considerations
+ - Can you machine boot the installation media?
+ - How much hard drive space do you need?
+ - How much RAM do you need?
+ - Will your video card work?
+ - Will your wireless card work?
+ - What other hardware needs to work?
+
