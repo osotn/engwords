@@ -19,3 +19,22 @@ Hardware Considerations
  - Will your wireless card work?
  - What other hardware needs to work?
 
+Installation Methods
+ - DVD installation / ISO installation
+ - USB installation
+ - Hard Drive installation
+ - Network installation
+
+Time and Date
+ - How does a clock work?
+ - Why do time zones matter?
+ - Stored as localtime or UTC? What is the difference?
+ - How does network time work?
+
+Software Selections
+ - Which software should I select?
+ - What type of machine do I have?
+ - Can I install packages later?
+ - Where does the software come from?
+ - What are the requirements of different packages?
+
