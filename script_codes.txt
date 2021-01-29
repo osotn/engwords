@@ -1,0 +1,2 @@
+# Remember the last new words.
+echo `git status` | sed 's/\// /g' | run.sh -numf
