@@ -1,0 +1,151 @@
+Chapter 2
+=========
+Introduction
+------------
+There’s so much you want to do in life, and so little time. It’s the story of our modern lives. Now,
+you want to learn Vim. Congratulations for making this decision! Now think, what’s holding
+you back from getting started? It’s hard? It takes time? Effort?
+Over the years, I have learned two uncomfortable truths related to learning. First: skills take
+time and effort to master. And second: many things aren't fun until you’re good at them.
+While learning any skill, there is a period of time in which you’re horribly unskilled, and you’re
+painfully aware of that fact. The same applies when learning Vim. This book presents my
+personal quest to quickly learn Vim, and as such, it will help you to acquire new Vim skills in
+record time.
+One of the beautiful things about learning any subject is the fact that you don't need to know
+everything. What’s important is that you only need to understand a few critically important
+concepts that provide most of the value. The same goes for Vim.
+Mastering Vim Quickly is a set of foundational Vim concepts you can use to get things done.
+Once you master the fundamentals, you can accomplish even the most challenging Vim magic
+with surprising ease. And you will love it!
+Over the past few years, I read several books on Vim, passed through hundreds of tutorials
+and tips, used Vim from a few to over 10 hours a day and coded in more than a few different
+programming languages. Along the way, I’ve collected, distilled and refined my findings into
+the concepts and best tips which are presented in this book.
+If you invest the time and energy necessary to learn these concepts, you’ll easily be in the top
+5% of the human population when it comes to productivity in coding, programming and text
+editing.
+Think of this book as a filter. Instead of trying to absorb all of the Vim knowledge—and there’s
+really a lot out there—use this book to help you with what matters most. This way you can focus
+on what’s actually important: getting stuff done.
+
+Bram Moolenaar, the creator of Vim, wrote:
+“Learning to drive a car takes effort. Is that a reason to keep driving your bicycle?
+No, you realize you need to invest time to learn a skill. Text editing isn't different.
+You need to learn new commands and turn them into a habit.”
+And I completely agree. This book will help you improve your Vim skills.
+
+The art of learning
+-------------------
+I’m a learning addict. I usually read few books every month. This is good, because I learn a lot.
+Then I try out what I learned, and adopt what works for me. In this short chapter, I will present
+the three most important principles which work for me when it comes to learning.
+Don't skip them. I believe it’s very important that each one of you has the same basic start
+when it comes to learning techniques. I really want to help you learn Vim quickly. Therefore
+pay attention to these principles. Once they are understood, you can use them for learning and
+improving on any topic, not just Vim.
+
+Pareto principle
+Italian economist and sociologist Vilfredo Pareto (1848-1923) observed that 80% of the land in
+Italy was owned by 20% of the population. While investigating other countries, he found the
+same unequal distribution of income and wealth in each.
+Pareto’s Principle basically states that roughly 20% of all our actions produce 80% of our results.
+This means that 80% of effects come from 20% of causes. Because of these numbers, it’s also
+called 80/20 principle.
+We know that it doesn't have to be 80/20. It can also be 90/10, or 70/30. That’s not important
+right now. What you must know is that the 80/20 principle works, regardless of whether you’re
+conscious of it working or not. This is true for your business, personal life, and everything you
+learn. Including Vim.
+This means that, more or less, around 80% of what you’ve done today, has been pretty much
+worthless to your bottom line. You probably know there are things you should be doing, that
+you’re just not doing for whatever reason. Maybe you’re overweight or out of shape and you
+know you should work out more. But, back to the topic.
+Why am I telling you this at all, in a book about Vim? Well, I firmly believe that this principle is
+true. I use it in almost every important area of my life, and it gives me very good results. I also
+used this principle to quickly master Vim. This book provides you 20% of the most important
+Vim fundamentals, which will help you to learn Vim really fast.
+
+Mini habits
+In order to learn Vim, you need to commit to it.
+Think of the last time you made a commitment to learn something. Or to change something
+in your life. It was easy to make a commitment, wasn't it? Maybe you even had a plan! Then,
+fast forward a few weeks. Where’s that commitment? Gone, right? You’re not so motivated
+anymore. Your willpower is close to zero.
+I know this story very well. I’ve been there, and done that. I had to read a lot and try out what
+works to find my way out. And I finally did! In the next couple of paragraphs, you’ll read the
+summary. That’s all you need to know.
+When you commit to something, the best way to reach your goal is to create a habit. In this
+case, your goal would be mastering Vim quickly, and the habit you need to adopt is to regularly
+learn.
+The biggest barrier to forming new habits is usually the fact that it takes discipline to keep
+doing something you don't really feel like doing. I found a workaround for this. It’s called the
+mini habit. This is a game changer!
+Here’s my own example: As I was working on this book, sometimes I struggled to start writing.
+But once I start, I can easily write for longer periods of time. The problem is that, on some days,
+I don't want to start writing. So I won’t. I’m pretty sure you’ve experienced something similar,
+even with a different activity.
+
+The key to forming a habit is the consistency. So I decided and promised myself that, no matter
+what, I’ll stick to writing every day for the next month. Here’s what happened: for the first
+couple of days I was motivated to stick to the plan. Then my motivation got lower (always does),
+so I used my willpower to keep going.
+However, after a week or so, I missed a day. And once I missed one day, it’s was pretty easy to
+miss another. So my plan failed.
+That’s the biggest problem with forming new habits. If you’re not consistent, you can’t create a
+habit. So I finally understood the problem. When you feel resistance to something, you probably
+won’t do it. If you don't feel like starting some activity (whether it’s writing, running or anything
+else), motivation and willpower can’t really help for the long term.
+With mini habits, you make a workaround for this resistance. And when there’s no resistance,
+you just start and do what you should.
+The workaround in my example looked like this: I’ve made a commitment to write just 50 words
+a day. One paragraph or one Vim tip. That was my daily goal. It was very easy to achieve. I
+didn't feel resistance to write only 50 words. Even if I was having a bad day, I was still able to
+find a couple of minutes and write those 50 words! Anyone can do that. Actually, I realized that
+it was easier to write those 50 words, than it is was to not write them.
+Why? Because if you make a commitment, and if, no matter how good or bad you feel, you can’t 
+force yourself to write the damn 50 words, then you’re basically saying to yourself that you’re a
+big loser. Your pride won’t let you fail at something so ridiculously small. Especially if it takes
+less than two minutes to complete.
+This was a game changer for me.
+You might think: “Yeah, but there’s nothing you can achieve with writing 50 words per day . . . ”
+Well, that’s absolutely wrong. How so? You can try it. Sit down to write 50 words. Or trust me.
+When I would start with writing (with the 50 written words goal in mind), I would usually write
+far more than 50 words. Because once I would start, it was difficult to stop.
+And this is the real power I want to share. No matter how you feel. No matter how busy you
+are. It’s very hard to fail with such a tiny commitment. You can use this strategy for any other
+activity as well, it really works great.
+The whole trick for me was to make a commitment to write just 50 words every day. Your
+commitment could be learning Vim quickly. That’s why you must always go in with the intention
+to complete the smallest possible step. If you make it bigger, you will start to feel resistance.
+
+1% improvement per day
+You can’t master any skill in one day. You have to improve a little every single day. It compounds.
+That’s how you should approach learning Vim as well.
+Every day matters. You either increase your skill level for 1% or decrease it. It’s your choice.
+In the beginning, there’s no real difference between making a choice that is 1% better or 1%
+worse. It won’t impact you today. But, over time these small choices compound.
+When 1% compounds every day, it doubles every 72 days. If you commit to improve your Vim
+skills 1% every day, in one year your skills will be 38 times better!
+How do you know how much is 1%? Well, when it’s about Vim, it’s hard to measure it. I would
+suggest that you decide what your 1% is going to be. It can be reading one page of this book.
+Or learning one new Vim feature, command or trick.
+Another way is to dedicate a fixed time for learning Vim every day. Let’s say that you dedicate
+20 minutes every day to learning Vim. During those 20 minutes, you’ll improve your Vim
+skills—sometimes by 1%, sometimes by less or more. It’s not important to be that precise.
+What’s most important here is consistency. Keep improving your skills every single day.
+
+No Experience Necessary
+Don't worry if you’re a complete beginner. I don't assume that you’re already good in Vim
+(but this book will still be very useful if you are!). You’ll find the information in this book more
+valuable and practical than anything you learned from other Vim resources.
+Each chapter is packed with examples that support detailed explanations of all the important
+concepts, and they are presented in a way that helps you avoid the confusion that I faced when
+I was learning. With this book and plenty of practice, you will be amazed at how quickly you
+can go from complete beginner to super productive pro.
+Mastering Vim Quickly is for anyone who wants to learn Vim, but who possibly doesn't know
+where to start, or has tried to learn but struggled to make progress, or is intimidated by how
+difficult Vim appears to be. This book is designed to give you the head start I didn't have.
+Wherever you are, if you want to learn Vim, this book will help you learn smarter. Start exploring
+Vim today, and get to productivity fast!
+
+
+

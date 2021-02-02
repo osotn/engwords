@@ -1,0 +1,110 @@
+Chapter 3
+
+Mastering Vim - Basics
+
+Installing Vim 8
+If you don't have Vim already installed in your OS, you should do it now. I’ll assume that you’re
+using some sort of Linux. However, even if you use Vim on PC or Mac operating systems, it’s
+okay.
+In order to install Vim, you should run the following command:
+Gentoo: emerge vim
+Ubuntu/Debian: apt-get install vim
+CentOS/Fedora: yum install vim
+MacOS: brew install vim
+Now when you have installed Vim, we can start. Vim is also supported on Windows operating
+systems, but be aware that some commands won’t work as presented here. However, most of
+what we cover will work.
+
+Vim philosophy
+Vim is different from other text editors. Although it looks hard to learn, there are only two main
+ideas you need to really understand it. Those two are actually what makes Vim so different
+from other text editors. They are modal editing and operators.
+
+Modal editing
+The purpose of Vim is to enable you to edit text effectively.
+When you’re writing code, how do you spend most of your time in the editor? You’re likely not
+typing most of the time, but rather moving around through existing code and editing here and
+there.
+Because you spend more time editing than entering the text, Vim makes editing and navigation
+more powerful than any other text editor.
+For example, you want to jump to the end of your file? Simply press G . You want to jump to the
+top of your file? Hit gg .
+
+@!
+G  - jump to the end of a file
+gg - jump to the top of a file
+
+@!
+Modes: 
+ - Normal (command); <--- Esc
+ - Insert            <--- i
+
+You might wonder, how Vim will know whether you want to type letter G as a part of some word,
+or you want to jump to the end of your file. That’s why Vim has modes. What happens when you
+press G depends on the mode.
+Pressing G in Normal mode moves the cursor to the last line in your file. Pressing the same key
+in Insert mode will simply add G to your text. When you start Vim, it will be in Normal mode by
+default. If you want to enter text, you have to enter Insert mode.
+You can do it by pressing i while in Normal mode. When you’re done with typing your text,
+press Esc and you’ll return to Normal mode.
+Besides Normal and Insert modes, there are a few other important modes.
+
+
+Operators
+If you are used to moving your cursor using arrow keys, “page up,” “page down,” “home” and
+“end,” you’ll be very amazed what Vim can offer. You’ll be able to move your cursor faster and
+with better precision.
+For example, you want to delete a text from the middle of the sentence to the end of line? Place
+the cursor to the position from where you want to delete, and press d$ . Here d stands for delete,
+while $ means end of the line.
+It may look strange now, but you’ll see it’s very easy. In fact, there’s a whole Vim language
+which you’ll learn later. And once you do, you’ll love it!
+In the previous example, d is the operator command. Operator commands (or operators) can
+delete, change or insert text, copy or format it, etc. You’ll learn more about commands soon.
+
+
+Starting Vim
+When you want to start Vim from the command line, you have many options you can provide to
+it. Here’s the list of some options which you’ll find useful sooner or later:
+• +NUM - The cursor will be positioned on the line “NUM” for the first file you open.
+• +/{pattern} - The cursor will be positioned on the first line containing “pattern” in the first
+file you open.
+• +cmd or -c cmd - Command “cmd” will be executed after the first file has been read. It’s
+interpreted as an Ex command. You’ll learn about Ex commands soon.
+• -x - Use encryption to read or write files. You need to use this option only the first time
+for a given file. Every following time you’ll be asked for the password even without this
+option. The encryption implementation is not strong, so don't rely only on this protection
+for your important data.
+For example, to open file my_file.txt with the cursor positioned on line 33, you would start Vim
+like this:
+
+$ vim +33 my_file.txt
+
+
+
+This can be very handy when you’re debugging your code, and you know at which line you have
+an error to fix. Or, another case when it can be very useful is this SSH problem:
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@
+WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
+@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:+lqGiMAmByST3y6wER8uv5INGlIagx2pOVIMdAPc6LSRKI.
+Please contact your system administrator.
+Add correct host key in /home/jole/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/jole/.ssh/known_hosts:466
+ECDSA host key for secret.masteringvim.com has changed and you have requested strict checking.
+Host key verification failed.
+jole:~/ $ vim +466 .ssh/known_hosts
+
+
+This SSH issue can be resolved by removing the line 466 from ~/.ssh/known_hosts file. The solution
+listed above is a nice way to do it. However, the quickest way to do this is to run the following
+command in your terminal: vim .ssh/known_hosts +"466d|x"
+

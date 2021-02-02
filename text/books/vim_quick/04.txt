@@ -1,0 +1,88 @@
+Chapter 4
+
+Your first Vim session
+
+To run Vim, open your terminal, and type: vim
+This will start Vim, as always, in Normal mode. To start with inserting some text, you need to
+switch to Insert mode. You do this by simply pressing i . Feel free to type some text, and then
+try moving your cursor around with arrow keys, so you can gain familiarity.
+Now, when you’re done with typing, let’s save this text in a file. To do so, you need to get back
+to Normal mode. You do this always by pressing the Esc key.
+If you have never used Vim before, you’re probably a bit confused. What in the world is a
+mode? I’ll explain it to you very soon. For now, just try to understand that Vim is different than
+any other text editor you’ve used. The concept of modes is very simple: you want to insert
+text—then enter the Insert mode first. You’re done with typing? Exit Insert mode.
+Now, whenever you want to type a command, you need to type : . This is how every command
+starts. The command to save the file and exit Vim is :wq <filename> . Letter w comes from write,
+letter q comes from quit. So, type :wq test.txt and press Enter. Voilà, you’ve just created a file
+called test.txt .
+If you want to open a file you’ve just created, just type in your terminal: vim test.txt . Press key
+i and add some more text to your file. But, you don't want to save it this time. In order to close
+the file without saving it, and exit Vim, you’ll need to get back to Normal mode (press Esc) and
+type :q! .
+Simple as that. Of course, there are several more ways to open and close files in Vim, but this is
+enough for your fist Vim session.
+Now, let’s do something cool. You won’t understand everything now, but you’ll have a complete
+understanding of this example when you read the entire book.
+If you use https://github.com and git in the command line, you’ve probably had to squash some
+of your commits at times. This example will show you how quickly you can do it with Vim, even
+though you’re just at the very start.
+In case you don’t know what I’m talking about, never mind—just copy the snippet below to Vim
+and try out the example.
+Info: You’re squashing your commits, here’s the list of them:
+
+@!
+:wq <filename> <------ command, w=write, q=quite
+
+
+
+
+pick
+pick
+pick
+pick
+pick
+pick
+
+e08be68
+5b4143f
+855be75
+d7a5285
+59e82a2
+34cfc9c
+Add initial Rexfile
+Fixes
+fix
+Initial work
+add more stuff
+Fixes
+
+
+Task : Change word pick from line 2 to last line (line 6) to s .
+Solution:
+1. Open Vim. Press i to enter Insert mode. Then copy the text from above. Paste the text in
+Vim, using the shortcut for pasting in your terminal.
+2. Now press Esc to get back to Normal mode. Use arrows to place your cursor on the
+beginning of the second line.
+3. Press Ctrl -v. Then press right-arrow three times. You’ll notice that you just selected word
+pick in second line.
+4. Now press down-arrow four times. You’ll notice that you’ve selected all words pick starting
+from second to last line.
+5. While this block of words is selected, press c . That’s a command for changing text.
+6. All words in your selection will be deleted, and cursor placed on second line. Mode will
+change to Insert. Now just type s . That’s what we want to replace word pick with.
+7. Last final step - press Esc. And voila! You did it!
+Here’s how the result should look like:
+
+
+pick e08be68 Add initial Rexfile
+s 5b4143f Fixes
+s 855be75 fix
+s d7a5285 Initial work
+s 59e82a2 add more stuff
+s 34cfc9c Fixes
+
+
+This might look complicated, but trust me, it’s very easy. Keep reading, and soon you’ll
+understand what actually happened in this example.
+

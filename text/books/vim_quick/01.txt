@@ -1,0 +1,107 @@
+Chapter 1
+Instead of Preface
+
+What this book covers
+
+This book covers the most important Vim concepts. Besides Vim, it also covers some of the best
+learning strategies known to me (the author), and which are proven to work.
+Having an understanding of how our brain works, and being aware of simple but effective
+learning techniques, will help you to learn Vim (and any other topic) faster than ever before.
+What you need for this book
+You need to have a strong enough motivation and wish to learn Vim. That’s necessary. But it’s
+not enough. Motivation is not the factor which will change your life. If someone is a fool and
+becomes motivated, he merely becomes a motivated fool. That won’t lead to a positive change.
+You’d have to be disciplined in going through the challenge of improving your Vim skills. This
+way you’ll learn Vim quickly. But learning quickly is not equal to learning easily. You’ll have to
+put in some serious work.
+You might get stuck at some point. You might even think of giving up. You might think Vim is
+too hard. I’ll tell you one thing: Don’t wish Vim was easier, wish you were better!
+Who this book is for
+This book is for everyone who’d like to learn Vim. Whether you’re a beginner and you’re starting
+from scratch, or a more advanced user, I believe that you’ll find this book very useful.
+
+Vim versions
+All commands, shortcuts and examples in this book are tested using Vim 8. You’re free to use
+different versions of Vim while learning (like gvim, macvim, neovim), but some shortcuts and
+commands might behave differently than those presented in the book.
+That’s why I recommend you simply use Vim 8 while learning from this book. Once you’re done
+with it, you can think of moving to your preferred version of Vim.
+
+Conventions
+-----------
+Before we start with the real stuff, pay attention to the typographical conventions that are used
+in this book.
+Key presses
+Esc - Indicates that the named key (in this case key Esc) should be pressed.
+Ctrl -p - Keys separated by - should be pressed simultaneously. In this example, Ctrl key should
+be held down while the p key is pressed.
+
+Normal mode commands
+These are commands you type while you’re in Normal mode. For example, command to delete
+four words is the command: d4w . The named characters should be entered in order.
+
+Command line commands
+You’ll learn more about commands later. Now just pay attention to the format of this commands.
+Example of command line command (enable line numbers):
+:set nu
+
+This command enables line numbers.
+All commands starting with : should be executed in Normal mode. If you’re in a different mode,
+press Esc before you type a command. Within the Normal mode you can run Ex commands.
+Normal mode is also known as command mode.
+
+
+Fonts
+A code block will be used to show code samples, multiple commands and some examples. Here’s
+an example of presenting the read command and its shorter version:
+
+:read
+:r
+
+A fixed width font is used for filenames, code, variable names and commands.
+Other formatting
+There are commands shown in this format: :ju[mps] . This means that you can execute this
+command in two ways:
+:jumps
+:ju
+
+
+As you can see, everything between [ and ] is optional.
+Very often I’ll use bold characters in words explaining commands. For example: The command
+to delete is d .
+Bold characters in cases like this will indicate the command abbreviation, which should help
+you remember Vim commands easier.
+Commands are case sensitive. If you see g in command, that’s what you type. If you see G , it
+means you type capital G.
+If some commands should be typed in a system command line, they will be shown in a block
+like this:
+$ vim
+
+This is how you start Vim from command line. Characters $ are used to indicate the command
+line. You should type everything after that - in this case vim .
+
+Piracy
+Piracy of copyrighted material on the Internet is an ongoing problem. I do take the protection
+of my copyright and licenses very seriously. If you come across any illegal copies of my works in
+any form on the Internet, please email me at contact@jovicailic.org with a link to the suspected
+pirated material.
+I will greatly appreciate your help in protecting my work and ability to bring you more valuable
+content.
+
+Mastering Vim Quickly Newsletter
+I recommend you subscribe to my weekly newsletter Mastering Vim Quickly Newsletter available at http://masteringvim.com.
+Every week I’ll send you the best tips, tricks and news on Vim. Some of them will be from this
+book, but also lots of them are not covered in the book. Simply, there’s too many things you
+can learn about Vim. That’s why getting a tiny bit of knowledge once a week is a great way to
+steadily improve your Vim skills.
+
+Why this name
+First time I saw an advanced Vim user working on his code, my impression was like “wtf just
+happened”. He would edit his code in a way I’ve never seen before. Then, when I realized how
+easy it is to do this, I thought “omg I have to try this!”.
+That’s how I came up with Mastering Vim Quickly: From WTF to OMG in no time.
+Questions
+If you have a problem with any aspect of this book, feel free to contact me at any time. My
+email is: contact@jovicailic.org. I’ll do my best to address the problem.
+
+
