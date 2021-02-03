@@ -1,0 +1,392 @@
+Chapter 6
+
+Working with files
+------------------
+Opening files
+Here are the two most common methods for opening files in Vim.
+Method 1 - Open file from terminal
+Once you open your terminal, type vim and then the filename. For example:
+
+$ vim /etc/passwd
+
+Method 2 - Open file from Vim
+When you start Vim by running vim in your terminal, there will be no files loaded, by default.
+Then, run command: :e <filename> to open a file in your existing Vim session.
+For example:
+$ vim
+:e /etc/passwd
+
+@!
+:e /etc/passwd
+
+Very often you’d like to get the content of some other file into your current opened file. Actually,
+to be more precise, instead of “current opened file,” from now on, we’ll use the term “current
+buffer.”
+So when you open an existing file, the content of this file is loaded in one Vim buffer. You’ll learn
+much more about buffers later, but for now, just remember that buffer is a piece of memory
+that’s been loaded with the content of a file.
+Of course, you could open the second file, copy the content you need, return to first file, and
+paste. But, there’s a better way.
+Vim has a read command:
+
+:read
+
+
+
+You can use this command to insert a file, or the output from a system command, into the
+current buffer.
+Here are a few examples of how you can use it:
+
+@!
+:r(ead) <filename> Ex command
+:r !<system command>
+
+:r <------ below the cursor
+:0r <----- after 0s line
+:r!sed -n 2,8p file.txt <-- line 2 to 8 from file below the cursor
+
+
+Of course, all of these should be run in Normal mode. The last command will work only in Linux
+or macOS.
+
+Related tip: Using command gf, you can open a file whose name (or path) is under or after
+the cursor. Remember it as " goto file ". Similarly, using gx command, you can open links in
+your default browser.
+
+@!
+gf - go to file under or after cursor
+gx - got to open links in browser
+
+
+Closing files
+-------------
+There are more than a few ways to close a file in Vim. Here are some of the most common ways:
+Command Description
+:wq Save currently opened file and exit Vim (even if file is not changed).
+Exit Vim but write only when changes have been made.
+Equivalent to :x . Notice there’s no : . This is a key press.
+Exit Vim without saving currently opened file.
+Exit all open files in current Vim session.
+Saving files
+There are several ways to save a file in Vim. When you save the file, you actually write the
+contents of the buffer to the disk. That’s why, the command for saving is “write”.
+Here are the most common commands you should know:
+Command Description
+:w Save currently opened file (which was previously saved).
+Save currently opened file as file.txt .
+Save file as file.txt with overwrite option.
+Save current buffer as a new file file.txt .
+Like :w but only save when the buffer has been modified.
+:w file.txt
+:w! file.txt
+:sav file.txt
+:up[date] file.txt
+Navigation
+In order to be truly efficient with Vim, you have to learn how to properly navigate through your
+files, buffers, help system, etc. This section will enable you to improve your navigation speed
+drastically.
+Basic movement
+Just like in any other text editor, you can use arrow keys (Up, Down, Left, Right) to move around
+within your text in Vim. But, in Vim, there’s an alternative.
+Most advanced Vim users prefer to keep their hands and fingers around the home row on
+a keyboard. This is possible, because instead of arrows, you can use keys h, j, k and l for
+navigation.
+•
+•
+•
+•
+h - left
+j - down
+k - up
+l - right
+In the beginning, it might be hard to get used to these. The first problem is to remember which
+key does what. Here’s my suggestion for how to remember them:
+Look at your keyboard and notice how j looks like an arrow down, with a half head. So j takes
+your cursor one position down. These keys are positioned in this way (assuming you’re using a
+qwerty keyboard layout): H J K L.
+The key far right is l and it will take you to the right. The key far left is h and it will take you
+to the left. Two keys remain in the middle, j and k.
+
+As we already said, we can easily identify key j as an arrow pointing down. The only key left is
+k, which must take you up—as all the other directions we already covered.
+A lot of people suggest that you disable arrow keys, so you get used to h j k l keys faster. But I
+think differently. You shouldn't disable arrow keys at all. Feel free to use them as long as you
+feel comfortable with them. Just, from time to time, as you progress with Vim, try using h j k l
+sometimes.
+Bit by bit, you’d probably realize very quickly the great advantage of h j k l. You won’t have to
+move your fingers from the key home row, which is very comfortable and efficient.
+But it’s best not to hurry with h j k l keys. Trying to force yourself to use only them, and not
+arrow keys can often have a negative effect. So just ignore what everyone else is saying and do
+whatever feels more comfortable.
+Navigate through words
+It will take you some time to get used to, but I highly recommend that you try to adopt this
+kind of navigation. When you operate on a single line (or even a few), instead of moving one
+character up, down, left or right, you can move between words. Also, there are some other
+useful shortcuts you should remember:
+Key Description
+w Go
+Go
+Go
+Go
+Go
+Go
+W
+e
+E
+b
+B
+to
+to
+to
+to
+to
+to
+the
+the
+the
+the
+the
+the
+start of the next word
+start of the next WORD
+end of the current word
+end of the current WORD
+previous (before) word
+previous (before) WORD
+consists of a sequence of non-blank characters. It’s always delimited by white space. On
+the other hand, word is delimited by non-keyword characters, which are configurable. Remember
+that word ends at a non-word character, such as a . , - or ) .
+WORD
+For example, in sentence:
+
+
+Vim "navigation" is not-so difficult!
+
+
+we have 5 WORDS : Vim "navigation" is not-so difficult! , all delimited by white space. However, we
+have 10 words .
+So if you’re navigating through source code, and want to stop at delimiters and characters like
+( ) . { } , $ use w . If you’re working with text and want to skip these, then use W . For more
+information, take a look at :help 03.1 .
+Note: All of these commands for navigation can take a number as a prefix. For example 3w will
+take you to the start of the 3rd next word, while 6j will take you six lines below.
+Scrolling pages
+When you’ll be working with a large file, you need to move through the file differently. To scroll
+your file page by page, you can use the following shortcuts:
+Shortcut Description
+Ctrl-d Scroll
+Scroll
+Scroll
+Scroll
+Ctrl-u
+Ctrl-f
+Ctrl-b
+down half page
+up half page
+down full page (or forwards)
+up full page (to beginning, or backwards)
+Jumping around the file
+Vim offers you simple ways to go to the beginning or end of your file. This can be very handy
+when you’re working with large files. Beside these, in the table below, there are a few more
+handy shortcuts for jumping through the file:
+Command Description
+gg Go
+Go
+Go
+Go
+Go
+Go
+Go
+G
+{
+}
+%
+50%
+:NUM
+to
+to
+to
+to
+to
+to
+to
+the top of the file
+the bottom of the file
+the beginning of current paragraph
+the end of current paragraph
+the matching pair of (), [], {}
+line at the 50% of the file
+line NUM. :28 jumps to line 28
+Navigating inside the window
+Here are a few handy shortcuts you can benefit from, when it comes to moving your cursor in
+the current Vim window:
+Key Description
+H Move cursor to first (highest) line in current window.
+Move cursor to the lowest line in current window.
+Move cursor to the middle of the current window.
+
+Navigating in Insert mode
+If you want to move around and make edits in Insert mode, you shouldn't, most of the time. The
+proper way would be to hit Esc to get to Normal mode, go to the correct location, make an edit,
+and get back to Insert mode.
+For example, you could press Ctrl -o F m to move to previous m character and get to Insert mode.
+However, sometimes, you’d find it easier to stay in Insert mode. In these cases, using arrow
+keys to move around is usually not fast enough. Here’s what you could do:
+Shortcut Description
+Shift - Right-arrow
+Shift - Left-arrow Go to the right, word by word
+Go to the left, word by word
+Related tip: While in Insert mode, you can press Ctrl-o to get back to Normal mode and
+execute one command, after which you’ll be automatically returned to Insert mode.
+Basic search
+Vim has many search related options. We’re going to cover some of these in the next chapter.
+Right now, it’s important that you understand the basic theory of how search in Vim works.
+All search operations are done in Normal mode.
+You can search forward by pressing / and then typing your search pattern. Pressing Esc will
+cancel it, while pressing Enter will perform the search. Once you hit Enter, you can press n to
+search forwards for the next occurrence, or N to search backwards.
+Now, let’s try to figure out what would be the command to find the first match:
+1. First match, is usually placed “on the top” of all others.
+2. We already mentioned that command to jump to the top of a file is gg .
+3. And now we know that pressing n while searching will take us to next search pattern
+occurrence.
+So, if you perform a search for a pattern, and you want to jump to the first match, you need
+to hit ggn . Yup, this way we tell Vim: “go to the top of the file and find next (actually first
+occurrence)”.
+It’s the same logic for the command to take you to the last match of your search. As you might
+already guess, it’s GN .
+
+You can search backwards by pressing ? and then typing your search pattern. Pressing n
+searches in the same direction (in this case backwards), while N searches in the opposite
+direction (in this case forwards).
+Searching for the current word
+Vim can search for words under your cursor. In Normal mode, place your cursor to any word.
+Press * and Vim will search forwards for the next occurrence of that word! How cool is that!
+Press # and Vim will search backwards for the word under your cursor.
+These two commands are searching for exact words. So if you perform the search using these
+commands while your cursor is on word master , it would not find the word mastering .
+So if you don't want exact word matching, use commands g* and g# accordingly.
+Search history
+Vim keeps a search history. Just type / or ? and use the arrow up or down keys to go through
+previous search commands. Of course, you can edit a command (or only a pattern) you find in
+history and press Enter to search again.
+Let’s say the cursor is on a word, and you want to search for a similar word. Instead of typing
+the entire word, here’s what you can do:
+1. Press /
+2. Then press Ctrl -r and then Ctrl -w.
+This will copy the current word under cursor to the command line, ready for searching. Now
+you can edit it and press Enter.
+Once you’re done with searching, you can hit Ctrl -o to jump back to your previous position (or
+Ctrl -i which will jump forwards).
+What if you search for the last searched pattern again? There’s no need to type the pattern
+again, or ever go through history. Just press / and hit Enter - an empty search pattern will
+repeat the last search. This will also work for :s and :g commands, which we’ll cover later.
+Vim also allows you to enter a count before a search. For example, what if you want to jump to
+the fifth occurrence of the pattern? Simply type 5/pattern . Also, typing 6* will search for the
+sixth occurrence of the current word under the cursor.
+We have just covered the most important search basics.
+
+File Manager (netrw) in Vim
+Vim comes with a built-in netrw plugin which is a great way to browse files and directories
+within a Vim session. This file manager supports four ways of displaying files and directories.
+You can launch netrw in several ways like:
+• :Ex - open current directory in current Vim window (remember it as a shortcut of Explore).
+• :Ex <dir> - open specified directory <dir> .
+• :Sex - open current directory in horizontal split window (fun fact: Vim is the only editor in
+the world which has Sex as a command!).
+• :Vex - open current directory in vertical split window.
+• :Tex - open current directory in a new tab.
+• :Lexplore - open current directory in vertical split on the left. Default setting opens files in
+the window to the right of the netrw window.
+Try out these commands and see which one works the best for you. Personally, I prefer to have
+a file explorer in a vertical split, so I would usually run:
+
+:40vs +Ex
+
+
+
+to open current directory in vertical split window with width of 40 columns.
+After you read the chapter on mapping, you’ll know how to create a shortcut for this command,
+so you can open and close file explorer quickly.
+You can change the directory listing view to show more or less information, change the sorting
+order or hide some kinds of files. Once you start netrw, try to hit i to cycle through the view
+types. There are four of them: thin, long, wide and tree. Once you choose your favorite, set it to
+be the default one in your .vimrc file, like:
+
+let g:netrw_liststyle = 3
+
+
+
+Changing how files are opened
+With Vim, not only can you open files, but you can also open directories! Yes, go ahead and try
+to open some directory. For example, this command:
+
+$ vim /home/jole
+
+
+
+will open my home directory. What I’ll get is a list of all files and list of all subdirectories in the
+directory I’ve opened.
+
+When you open a directory with Vim, you actually started netrw. So yes, that’s the way to start
+it out of Vim. Now, it’s important to know that you can perform some of the basic file manager
+operations using netrw:
+• <Enter> - opens the file under the cursor, or enters the directory under the cursor
+• D - deletes the file under the cursor. You can visually select multiple files and use this
+command to delete all of them.
+• R - renames the file under the cursor.
+• X - executes the file under the cursor.
+• % - creates a new file in the current directory. Vim will ask you for a file name and open a
+buffer.
+By default, when you hit Enter to open a file, it will be opened in the same window as the netrw.
+That’s not really practical. You would usually like to keep netrw in a side split, and load your
+files in another split. Fortunately, this behavior can be changed with netrw_browse_split option.
+To make the selection permanent add the following to your .vimrc :
+
+let g:netrw_browse_split = 4
+
+
+
+Option 4 is the one I personally prefer. It open files in previous window (the current split you
+have beside netrw split).
+Set netrw split width
+How file explorer will position a window for the new file you open, can be set with the
+netrw_browse_split option. If you’d like to set the width of netrw split to 20% of your entire Vim
+window, put this in your .vimrc :
+
+let g:netrw_winsize = 20
+
+
+
+Editing files via SSH
+One of the lesser known features of Vim is the ability to edit files remotely, over the network.
+This feature comes with the netrw plugin. To achieve this, netrw uses the SSH protocol, and
+manages remote files via the scp command.
+Here’s how to do it:
+
+
+vim scp://user@myserver[:port]//path/to/file.txt
+
+Note the double / for the directory on the remote host, which is needed to correctly resolve the
+absolute path. [:port] is optional.
+So with the command above you can open a file located on a remote host for editing.
+What actually happens in the background is that Vim uses scp to download the requested file
+from a remote machine to a local /tmp directory, and then opens it for editing. When you save
+your changes to the file, the changes are first applied to a local copy in /tmp directory. After
+that, the file is uploaded via scp to the remote host.
+If you open a directory on a remote host, you could also use netrw to browse through remote
+files and directories. The important thing is to always specify the directory path with / at the
+end.
+Of course, it’s recommended that you use SSH keys for authentication. Otherwise, you might
+be asked for the SSH password too often.
+Beside SSH, there are other protocols supported such as sftp, ftp, dav, etc.
+For example, to open a file on a remote FTP server, you could run a command like:
+
+vim ftp://hostname/path/to/file
+
+
+
+Netrw offers lots of options and possibilities for remote editing, so for more information on this,
+take a look at :help scp .
+
+
