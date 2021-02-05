@@ -7,7 +7,7 @@ you’ll be disappointed with how Vim looks. But this is actually a good thing. 
 try to force you use their features, Vim does the opposite.
 The “interface” is very minimal. This means that you have to spend some time and effort to
 make the Vim interface look pretty, as well as to improve your productivity. The benefit is this
-process of configuration will help you understand better how Vim works.
+process of configuration will help you understand betnuter how Vim works.
 Vim configuration explained
 As a first step, we have to understand how to configure Vim. There are multiple configuration
 files, which can reside on different locations in your system, depending on which operating
@@ -18,7 +18,7 @@ hidden file called .vimrc .
 Whatever you change in this file will overrule any previous settings in the global vimrc file. If
 you’re not sure of your home directory location, run this command in Vim: :echo $HOME .
 The permanent configuration is set through .vimrc . But you can also configure the current Vim
-session. For example, if you’ve started Vim, and you don’t have line numbers shown, you can
+session. For example, if you’ve started Vim, and you don't have line numbers shown, you can
 run the command:
 
 :set number
@@ -56,7 +56,7 @@ by typing :set cursorline in Vim, or to make this permanent, add to your .vimrc 
 
 
 set cursorline 
-If you don’t like the styling of the line, you can change it like this, for example: 
+If you don't like the styling of the line, you can change it like this, for example: 
 :highlight CursorLine guibg=lightblue ctermbg=lightgrey 
 
 
@@ -73,7 +73,7 @@ not installed, Vim will ask you if it should try to download it.
 You can always check the configuration of any Vim setting by adding a ? to the end of its name.
 For example:
 
-set spell?
+set spell?b
 nospell
 Usability improvements
 Default Vim settings are not really great. If you’re going to use Vim seriously, then it’s definitely
