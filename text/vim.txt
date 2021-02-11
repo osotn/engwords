@@ -19,7 +19,7 @@ Lesson 1.3: TEXT EDITING - DELETION
 
 Lesson 1.4: TEXT EDITING - INSERTION
     ** Press  i  to insert text. **
-  Move the cursor on top of the first characnter AFTER where the text is to be inserted.
+  Move the cursor on top of the first character AFTER where the text is to be inserted.
 
 Lesson 1.5: TEXT EDITING - APPENDING
     ** Press  A  to append text. **
@@ -45,9 +45,10 @@ Lesson 2.3: ON OPERATORS AND MOTIONS
     motion - is what the operator will operate on (listed below).
 
   A short list of motions:
-    w - until the start of the next word, EXCLUDING its first character.
-    e - to the end of the current word, INCLUDING the last character.
-    $ - to the end of the line, INCLUDING the last character.
+    w or W - until the start of the next word, EXCLUDING its first character.
+    e or E - to the end of the current word, INCLUDING the last character.
+    b or B - previous words
+    $      - to the end of the line, INCLUDING the last character.
 		     
 Lesson 2.4: USING A COUNT FOR A MOTION
     ** Typing a number before a motion repeats it that many times. **
@@ -83,16 +84,27 @@ Lesson 4.1: CURSOR LOCATION AND FILE STATUS
      Type  G  to move to a line in the file. **
 NOTE:  You may see the cursor position in the lower right corner of the screen
        This happens when the 'ruler' option is set (see  :help 'ruler'  )
-  Press  G  to move you to the bottom of the file.
+  Press  G  to move you to the bottom (end) of the file.
   Type  gg  to move you to the start of the file.
 			
 Lesson 4.2: THE SEARCH COMMAND
      ** Type  /  followed by a phrase to search for the phrase. **
+  Press / and then typing your search pattern.
+  (Pressing Esc will cancel it, while pressing Enter will perform the search). 
   To search for the same phrase again, simply type  n .
   To search for the same phrase in the opposite direction, type  N .
   To search for a phrase in the backward direction, use  ?  instead of  / .
+  (If you pressed ? then n - would be case backwards, and N - forwards).
   To go back to where you came from press  CTRL-O
   Repeat to go back further.  CTRL-I goes forward.
+  Tip: gnn = search the top case, GN = search the bottom case.
+  To search for words under your cursor press * or # (backwards).
+  (searching for exact words, for pattern use g* and g#).
+  Vim keeps a search history. Just type / or ? and to go through previous
+  search command.
+  Press / then press Ctrl-r and then Ctrl-w then edit current word and Enter.
+  This will also work for :s and :g commands.
+   
 
 Lesson 4.3: MATCHING PARENTHESES SEARCH
   ** Type  %  to find a matching ),], or } (parenthesis or bracket)**
@@ -121,7 +133,9 @@ Lesson 5.3: SELECTING TEXT TO WRITE
   NOTE:  Pressing  v  starts Visual selection.  You can move the cursor around
        to make the selection bigger or smaller.  Then you can use an operator
        to do something with the text.  For example,  d  deletes the text.
-		   
+  CTRL-v - visual block vertical.
+  CTRL-v + do select block + c (change) + <new pattern> + <Enter> - block replacement!
+
 Lesson 5.4: RETRIEVING AND MERGING FILES
   ** To insert the contents of a file, type  :r FILENAME  **
   The file you retrieve is placed below the cursor line.
@@ -185,3 +199,101 @@ Lesson 7.3: COMPLETION
 NOTE:  Completion works for many commands.  Just try pressing CTRL-D and
        <TAB>.  It is especially useful for  :help .
 
+
+New Lesson: OPEN FILE
+$ vim {filename} [+NUM | +/{pattern}] [+cmd | -c cmd] [-x]
+// NUM - the cursor will be positioned on the line "NUM"
+// {pattern} - search pattern
+// cmd will be executed after the first file has been read, as Ex command.
+// -x - encryption to read (password)
+
+New Lesson: MODES
+Vim has 12 modes in total!!!
+ - Normal (navigation and text manipulation).
+ - Insert mode (for inserting new text)
+ - Visual mode (for navigation and manipulation of text selections)
+ - Insert Normal mode (in Insert mode, and press CTRL-o,
+       after execution of a command return to Insert mode)
+
+New Lesson: COMMANDS
+ - :{command}  - Ex command
+ - /{pattern}  - Search pattern
+ - "d4w" (e.g) - Editing command
+ - !{cmd}      - system command
+ - Mapped commands - can be we map or bind to some keys
+
+New Lesson: GO TO FILE/LINK
+ - gf - go to file under or after cursor
+ - gx - go to open links in browser
+
+New Lesson: CLOSING FILE
+ - :wq - save currently opened file and exit Vim (even if file is not changed)
+ - :x  - exit Vim but write only when changes have been made.
+ - ZZ = :x
+ - q!  = exit w/o saving
+ - qa - exit all open files in current Vim session
+
+New Lesson: SAVING FILE (write the contents of the buffer to the disk) 
+ - :w                   - save currently opened file
+ - :w <filename>        - save as
+ - :w! <filename>       - with overwrite option
+ - :sav <filename>      - save current buffere as a new file.
+ - :up[date] <filename> - ~ :w but only save when the buffere has been modified.
+
+New Lesson: NAVIGATION
+    k
+ h    l
+    j
+
+ - w or W - go to the start of the next Word;
+ - e or E - go to the End of the next Word;
+ - b or B - go to the previous (back) word;
+
+ WORD - consists of the sequence of non-blank characters, always delimited be white space.
+ WORD - ends at a non-word characters, such as a .,-) ----
+
+ - Ctrl-d = Scroll Down half page;
+ - Ctrl-u = Scroll Up half paga;
+ - Ctrl-f = Scroll down Full page (or forwards);
+ - Ctrl-b = Scroll up full page (to backwards);
+
+ - gg     = go to the top of the file;
+ - G      = go to the bottom of the file;
+ - {      = go to the beginning of current paragraph;
+ - }      = go to the end of current paragraph;
+ - %      = go to the matching pair of (), [], {}
+ - 50%    = go to the line at 50% of the file;
+ - :NUM   = go to the line NUM.
+
+ - H      = move cursor to first (highest) line in current window;
+ - L      = move cursor to the lowest line in current window;
+ - M      = move cursor to the middle of the current window;
+
+New Lesson: FILE MANAGER
+  Vim comes with a built-in newrw plugin which is a great way to browse
+  files and directories within a Vim session.
+  :Ex(plore) <dir> - open <dir> or current directory in current Vim window.
+  :Sex <dir> - open dir in horizontal split window.
+  :Vex <dir> - open dir in vertical split window.
+  :Lex(plore) - open dir in left vertical split.
+  (:40vs - vertical split window with width of 40 columns).
+  Hit i in netrw to change view types: thin, long, wide and tree.
+  When you open a directory with Vim, you actually started netrw.
+  In netrw:
+   - <Enter> - open file under the cursor;
+   - D - delete file under the cursor;
+   - R - renames the file under the cursor;
+   - X - executes the file under the cursor;
+   - % - create a new file in the current directory.
+
+New Lesson: EDITING VIA SSH
+  This feature comes with the netrw plugin.
+  To archieve this, netrw uses the SSH protocol and manages remote files
+  via the scp command.
+  $ vim scp://user@myserver[:port]//path/to/file.txt
+  Vim uses scp to download the requested file from remote machine to a local /tmp
+  and then opens it for editing. When you save changes to the file, the changes
+  are first applied to a local copy in /tmp and only after that, the file
+  is uploaded via scp to the remote host.
+  
+ 

@@ -31,9 +31,6 @@ In case you don't know what I’m talking about, never mind—just copy the snip
 and try out the example.
 Info: You’re squashing your commits, here’s the list of them:
 
-@!
-:wq <filename> <------ command, w=write, q=quite
-:q!
 
 
 Task : Change word pick from line 2 to last line (line 6) to s .
@@ -45,8 +42,6 @@ beginning of the second line.
 3. Press Ctrl -v. Then press right-arrow three times. You’ll notice that you just selected word
 pick in second line.
 
-@!
-Ctrl-v - visual block vertical
 
 4. Now press down-arrow four times. You’ll notice that you’ve selected all words pick starting
 from second to last line.
@@ -55,10 +50,6 @@ from second to last line.
 change to Insert. Now just type s . That’s what we want to replace word pick with.
 7. Last final step - press Esc. And voila! You did it!
 Here’s how the result should look like:
-
-@!
-Ctrl-v + select block + c (change) + <new pattern> + <Enter>
-
 
 
 This might look complicated, but trust me, it’s very easy. Keep reading, and soon you’ll

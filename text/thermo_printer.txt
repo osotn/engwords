@@ -1,0 +1,56 @@
+ESC/P = Epson Standard Code for Printers is a printer control language developed by Epson
+to control computer printers.
+It was mainly used in dot matrix printers and some inkjet printers, and is stil widely
+used in many receipt thermal printers.
+
+Escape sequences used, which start with the escape character ESC (ASCII code 27).
+
+ESC/POS is a variant for controlling receipt printers as commonly used at the point of sale (POS).
+OpenSource project 
+
+CUPS = Common UNIX Printing System is a modular printing system for Unix-like computer OS
+which allows a computer to act as a print server.
+A computer running CUPS is a host that can accept print jobs from client computers, process them,
+and send them to the appropriate printer.
+CUPS consists of a print spooler (between a computer application and a slow peripheral, such as a printer).
+and scheduler, a filter system that converts the print data to a format that the printer will understand,
+and a backend system that sends this data to the printer device.
+CUPS uses the IPP (Internet Printing Protocol) as the basic for managing print jobs and queues.
+It also provides the traditional command line interfaces.
+PPD = PostScript Printer Description (Adobe's) - config device driver for CUPS.
+
+Print data goes to a scheduler which sends jobs to a filter system that converts the print job into
+a format the printer will understand. The filter system then passes the data on to a backend -
+a special filter that sends print data to a device or network connection.
+
+
+CUPS:
+  log     - /var/log/cups/error_log
+  config  - /etc/cups/cupsd.conf <--- change level of messages on debug or debug2
+
+
+
+Scheduler - IPP/HTTP protocol
+
+Filtering process:
+ - raster to PCL
+ - raster to ESC/P
+ - ...
+
+$ lpstat -p -d  
+
+print
+# lp -d <printer> <filename>
+
+# change default printer
+$ lpoptions -d printer
+
+
+lpoptions -p POS58 -l
+PageSize/Media Size: *X58mmY210mm X58mmY297mm X58mmY3276mm
+CashDrawer/Cash Drawer: 0NoCashDrawer *1CashDrawer1BeforePrinting 2CashDrawer2BeforePrinting 3CashDrawer12BeforePrinting 4CashDrawer1AfterPrinting 5CashDrawer2AfterPrinting 6CashDrawer12AfterPrinting
+BlankSpace/Blank space at page's end: 0Print *1NoPrint
+FeedDist/Feed distance after print: 0feed3mm 1feed6mm 2feed9mm 3feed12mm 4feed15mm 5feed18mm 6feed21mm 7feed24mm 8feed27mm *9feed30mm 10feed33mm 11feed36mm 12feed39mm 13feed42mm 14feed45mm
+
+
+

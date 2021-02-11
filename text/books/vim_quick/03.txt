@@ -30,14 +30,6 @@ more powerful than any other text editor.
 For example, you want to jump to the end of your file? Simply press G . You want to jump to the
 top of your file? Hit gg .
 
-@!
-G  - jump to the end of a file
-gg - jump to the top of a file
-
-@!
-Modes: 
- - Normal (command); <--- Esc
- - Insert            <--- i
 
 You might wonder, how Vim will know whether you want to type letter G as a part of some word,
 or you want to jump to the end of your file. That’s why Vim has modes. What happens when you
@@ -77,11 +69,8 @@ option. The encryption implementation is not strong, so don't rely only on this 
 for your important data.
 For example, to open file my_file.txt with the cursor positioned on line 33, you would start Vim
 like this:
-
 $ vim +33 my_file.txt
-
-
-
+
 This can be very handy when you’re debugging your code, and you know at which line you have
 an error to fix. Or, another case when it can be very useful is this SSH problem:
 

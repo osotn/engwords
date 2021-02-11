@@ -7,11 +7,6 @@ some Vim concepts, as you probably have never experienced concepts like these wi
 text editors.
 
 @!
-Vim has 12 modes in total!!!
- - Normal (navigation and text manipulation).
- - Insert mode (for inserting new text)
- - Visual mode (for navigation and manipulation of text selections)
- - Insert Normal mode (in Insert mode, and press Ctrl -o, after execution of a command return to Insert mode)
 
 Modes
 -----
@@ -30,13 +25,6 @@ patterns (like /word ) and enter filter commands. After running the command, Vim
 Normal mode.
 
 @!
-:set number <---- Ex command
-:{command}
-
-/word <---------- Search pattern
-
-"d4w" <------- editing command
-
 @!
 Ctrl-o single Command in Insert mode
 

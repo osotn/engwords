@@ -38,3 +38,16 @@ Software Selections
  - Where does the software come from?
  - What are the requirements of different packages?
 
+Partitions
+ - Where can Linux be installed?
+ - What are SWAP partitions?
+ - What are the other partition types?
+ - What are the different file systems?
+ - What are mount points?
+
+Networking
+ - Why should I set a hostname?
+ - Why should I turn on my networking?
+ - Should I use DHCP or a manual configuration?
+ - Can I change networking after installation?
+
