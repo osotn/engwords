@@ -1,3 +1,12 @@
+# Manage external tools
+ - Ctrl   +   Alt   +  /    =  run -d 500 (current line)    # all words for the current line
+ - Ctrl   +   Alt   +  .    =  run -unfm  (selected line)   # unknown words of the selected line
+ - Ctrl   +   Alt   +  ,    =  run -d 500 (current word)
+
+# the same as "Ctrl+Alt+."
+ - Ctrl   +  Super  +  /    =  run -unfm  (selected line) 
+
+
 from gi.repository import Gio
 import os
 
