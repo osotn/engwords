@@ -71,8 +71,10 @@ static BOOLEAN fNoDelay = FALSE;	/* -f: Fast mode */
 static BOOLEAN fNoSound = FALSE;	/* -m: Mute mode */
 static BOOLEAN fPutChars = FALSE;	/* -p: Putchar mode */
 static BOOLEAN fWithoutColor = FALSE;	/* -b: Black mode */
+static BOOLEAN fNoIndexes = FALSE;      /* -i: No indexes mode */
 /* Only for not unique mode */
 static BOOLEAN fNoInfo = FALSE;		/* -c: No info mode */
+static BOOLEAN fNoWordNum = FALSE;      /* -w: No word number info */ 
 static int how_many_sound_a_word = 1;	/* -s 1 */ 
 
 static int delay_sound_word_ms = 1000;
@@ -82,7 +84,7 @@ static char *lang = "";                 /* english = "" */
 static void get_opts(int argc, char *const argv[])
 {
   int option;
-  while ((option = getopt(argc, argv, "unfmgpcbd:s:")) != -1)
+  while ((option = getopt(argc, argv, "unfmgpcbiwd:s:")) != -1)
     switch (option)
     {
       case 'u':
@@ -111,6 +113,14 @@ static void get_opts(int argc, char *const argv[])
 
       case 'b':
         fWithoutColor = TRUE;
+        break;
+
+      case 'i':
+        fNoIndexes = TRUE;
+        break;
+
+      case 'w':
+        fNoWordNum = TRUE;
         break;
 
       case 'd':
@@ -512,8 +522,9 @@ void main(int argc, char * argv[])
 
       if (!fNoInfo)
       {
-          printf("%5d,%5d(%3d). %s %s%s  %s", i, index, words[index].number, p,
-              is_a ? "*" : "?", is_s ? "#" : " ", word);
+          if (!fNoIndexes)
+              printf("%5d,%5d(%3d). ", i, index, words[index].number);
+          printf("%s %s%s  %s", p, is_a ? "*" : "?", is_s ? "#" : " ", word);
           if (is_p)
               printf(" [%s]", get_phonetic(word));
           if (is_t)
@@ -568,9 +579,11 @@ void main(int argc, char * argv[])
   if (!fUnique)
     return;
 
-  printf("\n=== Word number is %d\n", i);
+  if (!fNoWordNum)
+      printf("\n=== Word number is %d\n", i);
 
-  printf("\n=== Unique word number is %d\n", words_index);
+  if (!fNoWordNum)
+      printf("\n=== Unique word number is %d\n", words_index);
 
   for (i = 0; i < words_index; i++)
   {
@@ -599,8 +612,9 @@ void main(int argc, char * argv[])
 //    printf("%s\n", words[i].word);
     if (!fWithoutColor && !is_a)
        printf(TTY_LIGHT_CYAN);
-    printf("%5d. (%3d) %s %s%s%s%s %s", i, words[i].number,
-           p, is_a ? "*" : "?", is_s ? "#" : " ",  is_p ? "P" : " ", is_t ? "T" : " ", words[i].word);
+    if (!fNoIndexes)
+       printf("%5d. (%3d) ", i, words[i].number); 
+    printf("%s %s%s%s%s %s", p, is_a ? "*" : "?", is_s ? "#" : " ",  is_p ? "P" : " ", is_t ? "T" : " ", words[i].word);
     if (is_p)
       printf(" [%s]", get_phonetic(words[i].word));
     if (is_t)
@@ -621,9 +635,10 @@ void main(int argc, char * argv[])
 
  }
 
-  printf("\n=== Words: %d unknown, %d unsounded, %d untranslated\n",
-      unknown_words, unsounded_words, untranslated_words);
-
+  if (!fNoWordNum) {
+      printf("\n=== Words: %d unknown, %d unsounded, %d untranslated\n",
+          unknown_words, unsounded_words, untranslated_words);
+  }
 }
 
 /* EOF */
