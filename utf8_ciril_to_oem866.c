@@ -1,9 +1,8 @@
 /*
  * English words
- * by Oleksandr Sotnikov
+ * by Oleksandr Sotnikov.
  *
- * Utility: Translate UTF-8 cirillic to oem866
- *    utf8_ciril_to_oem866
+ * This utility translates UTF-8 cirillic to OEM866 code page.
  * 
  * (c) 2021
  */
@@ -13,6 +12,7 @@
 int utf8_is_cirillic(int c)
 {
 /*
+ *       UTF-8 2 bytes format:
  *       U+0080..U+07FF: 110xxxxx 10xxxxxx
  *
  *       110.....  10......
@@ -22,7 +22,7 @@ int utf8_is_cirillic(int c)
  *       1101ZZZC   10CCCCCC
  *        D0-D1         
  */
-        return (c == 0xD0 || c == 0xD1);
+    return (c == 0xD0 || c == 0xD1);
 }
 
 int utf8_get_u_2byte(int c1, int c2)
