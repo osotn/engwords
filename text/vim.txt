@@ -237,8 +237,8 @@ New Lesson: SAVING FILE (write the contents of the buffer to the disk)
  - :w                   - save currently opened file
  - :w <filename>        - save as
  - :w! <filename>       - with overwrite option
- - :sav <filename>      - save current buffere as a new file.
- - :up[date] <filename> - ~ :w but only save when the buffere has been modified.
+ - :sav <filename>      - save current buffer as a new file.
+ - :up[date] <filename> - ~ :w but only save when the buffer has been modified.
 
 New Lesson: NAVIGATION
     k
@@ -253,7 +253,7 @@ New Lesson: NAVIGATION
  WORD - ends at a non-word characters, such as a .,-) ----
 
  - Ctrl-d = Scroll Down half page;
- - Ctrl-u = Scroll Up half paga;
+ - Ctrl-u = Scroll Up half page;
  - Ctrl-f = Scroll down Full page (or forwards);
  - Ctrl-b = Scroll up full page (to backwards);
 
@@ -295,5 +295,97 @@ New Lesson: EDITING VIA SSH
   and then opens it for editing. When you save changes to the file, the changes
   are first applied to a local copy in /tmp and only after that, the file
   is uploaded via scp to the remote host.
-  
+  Beside SSH, there are other protocols supported: sftp, ftp, dav, etc.  
+
+New Lesson: PERSONALIING
+  How to configure vim. There are multiple configuration files:
+   - .vimrc = main config file, exists in two versions: global and personal
+     (personal in home dir). Local file will overrule any previous settings.
+     :echo $HOME
+   - :set <option> = config current vim session.
+     :set number; :set nonumber; set number! (to change on opposite).
+
+New Lesson: COLORING
+  Vim supports color schemes.
+  :colorscheme <Ctlr-D> 
+  (blue, darkblue, default, delek, desert, elflord, evening, industry,
+   koehler, morning, murphy, pablo, peachpuff, ron, shine, slate,
+   torte, zellner)
+
+New Lesson: CURSOR
+  :set cursorline
+  :highligh CursorLine guibg=lightblue ctermbg=lightgrey
+  :set cursorcolumn
+
+New Lesson: USEFULL OPTIONS
+  :set nu[mber]
+  :set spell  = enable spell checking
+  :set spelllang=en,de,it,rus
+  :set spell? - to check options  
+  :set nocompatible = rather then Vi setting
+  :set backspace=indent,eol,start = allow backspacing over <list>
+  :set history=1000 = defalt only 50
+  :set showcmd
+  :set showmode
+  :set autoread = automatically re-read files if unmodified inside Vim
+  :set hidden
+  :set laststatuS
+  :set ruler - cursor position
+  :set wildmenu - shoe display menu
+  :set tabpagemax=40
+  :set relativenumber
+  :set noerrorbells
+  :set visualbells
+  :set mouse=a - enable mouse for scrolling and resizing
+  :set background=dark
+  :set title
+  :set noswapfile
+  :set nobackup
+  :set nowb
+  :set autoindent - new line inherit the indentation of previous lines
+  :filetype plugin indent on
+  :set tabstop=4 = show existing tab with 4 space width
+  :set shiftwidth=2
+  :set expandtab =  spaces  instead tab
+  :set nowrap = don't wrap lines
+  :set incsearch
+  :set hlsearch
+  :set ignorecase
+  :set smartcase
+  :set encoding=utf-8
+  :set linebreak - wrap lines at convenient points, avoid wrapping in the middle word
+  :set scrolloff=3
+  :set sidescrolloff=5
+  :syntax enable - enable syntax highlighting
+  :set confirm - display a comfirmation dialog
+  :set nomodeline - ignore file's mode lines
+  :set shell = the shell to execute commands
+  :set spell
+
+New Lesson: STATUS LINE
+  It is the bar along the bottom.
+  The purpose of status line is to give you various information
+  about the status of the current buffer.
+  (default status line includes: info file path, permissions,
+   line numbers and a percentage numbery of where you are in the file).
+  Status line, by default, is shown only if you have more than one buffer open.
+  "show status line - comment in .vimrc
+  :set laststatus=2
+  :set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)
+  g+CTRL-g = detailed information about the number of line, words, char and etc.
+ 
+New Lesson: SWAP/BACKUP
+  .filename.swp in your location.
+  Swap files store changes you've made to the buffer.
+  After crashes a swap file will allow you to recover changes.
+  And also it uses as lock mechanism - warning.
+  ":set noswapfile
+  :!mkdir ~/.vim/swp
+  :set directory=$HOME/.vim/swp//
+
+New Lesson: PROJECT SPECIFIC .vimrc
+  " enable project specific vimrc
+  :set exrc
+  .vimrc in the root of your project folder!
+     
  

@@ -1,0 +1,125 @@
+============
+IPA Symbols:
+============
+
+Short Vowels
+============
+c99b=ɛ / e	Went, intend, send, letter.
+c3a6=æ / æ	Cat, hand, nap, flat, have.
+ca8c=ʌ / ʌ	Fun, love, money, one, London, come.
+ca8a=ʊ / ʊ	Put, look, should, cook, book, look.
+c992=ɒ / ɒ	Rob, top, watch, squat, sausage.
+c999=ə / ə	Alive, again, mother.
+c9aa=ɪ / 	bit, built, revert, escaped
+
+Long Vowels
+===========
+     i / i:	Need, beat, team.
+c99c=ɜ / ɜ:	Nurse, heard, third, turn.
+c994=ɔ / ɔ:	Talk, law, bored, yawn, jaw.
+     u / u:	Few, boot, lose, gloomy, fruit, chew.
+c3a6=ɑ / ɑ: 	Fast, car, hard, bath.
+
+Diphthong Vowels
+================
+ɪə	Near, ear, clear, tear, beer, fear
+eə	Hair, there, care, stairs, pear
+eɪ	Face, space, rain , case, eight
+ɔɪ	Joy, employ, toy, coil, oyster.
+aɪ	My, sight, pride, kind, flight
+əʊ	No, don’t, stones, alone, hole
+aʊ	Mouth, house, brown, cow, out
+
+Consonants Sounds: Fricatives
+=============================
+     f / f	Full, Friday, fish, knife.
+     v / v	Vest, village, view, cave.
+ceb8=θ / θ	Thought, think, Bath. 
+c3b0=ð / ð 	There, those, brothers, others.
+     z / z
+ca83=ʃ  / ʃ	Shirt, rush, shop, cash.
+ca92=ʒ / ʒ	Television, delusion, casual
+     h / h	High, help, hello.
+
+Consonants Sounds: Plosives
+===========================
+p	Pin, cap, purpose, pause.
+b	Bag, bubble, build, robe.
+t	Time, train, tow, late.
+d	Door, day, drive, down, feed.
+k	Cash, quick, cricket, sock.
+g	Girl, green, grass, flag.
+
+Consonants Sounds: Affricates
+=============================
+caa7=ʧ / ʈʃ	Choose, cheese, church, watch.
+caa4=ʤ / dʒ	Joy, juggle, juice, stage.
+
+Consonants Sounds: Nasals
+=========================
+m	Room, mother, mad, more.
+n	Now, nobody, knew, turn.
+c58b=ŋ / ŋ	King, thing, song, swimming.
+
+Consonants Sounds: Approximants
+===============================
+r	Road, roses, river, ring, ride.
+j	Yellow, usual, tune, yesterday, yard.
+w	Wall, walk, wine, world.
+l and ɫ	Law, lots, leap, long, pill, cold, chill, melt.
+
+===========================================================
+
+ˈ ˌ ː
+---
+cb88=ˈ                        '
+cb8c=ˌ                        ,
+cb90=ː                        :
+
+e æ ʌ ʊ ɒ ə
+------------
+c99b=ɛ / e           e
+c3a6=æ / æ           @
+ca8c=ʌ / ʌ           ^
+ca8a=ʊ / ʊ          <u>
+c992=ɒ / ɒ          <o>
+c999=ə / ə          <a>
+c9aa=ɪ /             <i>
+
+i: ɜ: ɔ: u: ɑ:
+--------------
+     i / i           i
+c99c=ɜ / ɜ           <e>
+c994=ɔ / ɔ           o   
+     u / u           u
+c3a6=ɑ / ɑ           a 
+
+ɪə eə eɪ ɔɪ aɪ əʊ aʊ
+--------------------
+
+f v θ ð z ʃ ʒ h 
+---------------
+     f / f            f
+     v / v            v
+ceb8=θ / θ           <S>
+c3b0=ð / ð           <Z>
+     z / z            z
+ca83=ʃ  / ʃ           <sh>
+ca92=ʒ / ʒ           <z> 
+     h / h            h
+
+p b t d	k g
+
+ʈʃ dʒ
+-----
+caa7=ʧ / ʈʃ          <tch>
+caa4=ʤ / dʒ         <dz>
+
+m n ŋ
+-----
+c58b=ŋ / ŋ           <n>
+
+r j w l
+-------
+
+

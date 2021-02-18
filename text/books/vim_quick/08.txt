@@ -1,0 +1,14 @@
+Chapter 8
+
+Undo and Redo
+Vim has a very powerful undo feature. When you press u in Normal mode, or run :u in Command
+mode, you’ll call the Undo command. To undo all recent changes on the current line, press U .
+When you press Ctrl -r in Normal mode or run :red[o] , you’ll run the redo command.
+If you want to undo multiple times, just press u the desired number of times. For example,
+command uuu will undo the last three changes. To undo multiple changes you can also use
+command u with a digit prefix, for example: 5u —which will undo the last five changes.
+That’s not all—it gets even better. In Vim, you can travel through time! Using command
+ea[rlier] you can go back in time, while using command lat[er] you can travel forward. These
+two commands work on a state basis. This means that, if you make 4 changes, and run earlier 2 ,
+last two changes would be reverted. Similarly, if you run command later 1 , Vim will redo one
+last change.

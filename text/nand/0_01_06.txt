@@ -1,0 +1,116 @@
+In this unit, we'll deal with a question,
+how to deal with a bunch of bits together. Really this shouldn't really be a whole
+unit, because it's almost trivial. But still, because there is a little bit
+of technical details attached to it, it's probably worthwhile to spend five or six,
+six minutes on this thing in a short unit. So the basic thing we want to
+point out is the following thing. When we design hardware, a lot of times we need to manipulate
+a bunch of bits together. First of all, it's going to be convenient,
+conceptually convenient to think about the bunch of bits that are manipulated
+together as one entity. And allow ourselves to think about it
+in a slightly higher abstraction level, not of the single bits but
+of a bunch of bits together is one entity. The second thing is, that of course sense
+we are going to describe our chips, our hardware in, in hardware description
+language, of course we will need some kind of support for that,
+in the hardware description language. So a bunch of bits together that
+are manipulated together and have one meaning
+are sometimes called busses. From, come, coming from some
+Latin word meaning many or multiple, something like that. So here is an example of how we can,
+of how we can think about that. So when we want to add two numbers,
+and we will build in the next, week, we will build some kind of
+chip that adds two binary numbers. Each one of these binary numbers
+will have a bunch of bits. Actually, 16 bits in our implementation. But we want to,
+to think about them as numbers. So our our chip that adds two numbers
+will be described as having two inputs. An a input, which is 16 bits. And the B input, which is 16 bits, and one output,
+which is out, which also has 16 bits. So in reality,
+our chip has 32 wires feeding into it, and 16 wires going out of it, but
+still it's convenient to think about it as two numbers feeding in and
+one number feeding out. In this way we can actually
+also think about these kind of numbers when we want to use them. So this is how the same chip
+will be described in HDL. I'm only giving the interface here,
+the API, and omitting all the internal structure, which
+is exactly what you'll learn next week. So we have simply eh, defined eh,
+our inputs as a and b. And we have in square brackets
+the number 16 which means that each one of these is 16 bits. Very much like the syntax for
+arrays in programming languages. Now once we have this kind of notation,
+we can think about these numbers and entities and
+manipulate them in higher level chips. So suppose we need to b,
+to build chips that now add three numbers. Each one of them 16 bits. Logically, we of course
+know how we can do that. We can just add two of them and
+then add the third one to the sum. So how do we do that? So we get them into, we get in our
+interface, three inputs, first, second, and third, each one of them 16 bits. And, we have it to, n, need to have an output which is f,
+just out of those 16 bits. And we want to manipulate it to
+this level of a, of abstraction. Not looking at all
+the separate bits themselves. This is how we do that in HDL. We have two  internal chips. One of them adds two 16 bits. , Add16 chips that we've just seen. And we add the first and
+the second inputs and plugs the result into a temporary variable
+called temp, which is also 16 bits. And then we take this temporary variable
+and add it to the temporary wire if you wish, or temporary bus 16 wires and add it
+to the third, getting our final output. And this is why how we can just manipulate
+inside HDL eh, the busses as entities. Now of course we should also be
+able to actually eh, manipulate and get access to separate bits in a bus
+because at the end of the day a bus is just a bunch of bits together. So here's an example of suppose we want
+to have a chip that gets us an input. A bus of 4 bits in this case. And outputs a single bit which is the AND
+of all the bits in the bus. How do we do that? To do that we will need
+to access bit after bit. And then simply add
+them one after another. And this is how we do that. And notice the syntax. That's an important thing,
+the syntax here. And when we put an index inside
+the name of a pin of a bus, we just mean the specific bit
+that we're talking about. We're using the convention in our HDL
+that is common to most programming languages nowadays, that a 4-bit bus
+has bits number 1, 0, 1, 2, and 3. So the indices go from 0
+to the bus width minus 1. And this is how we do that. You're going to, in the next project,
+in this project, you're going to have a bunch of chips
+that actually, that's what they do. They take a bunch of bits in the bus and
+just converge them and, and just mash them together
+into a single value. And we call this multi-way chips. So this, we call this kind of chip here,
+And4Way. Takes four bits and adds them together. Here's another example showing how
+we can manipulate bits inside buses. And in the context of another
+thing we'll do commonly in this, in this week's project,
+basically taking a bunch of operations and doing them in parallel to each one of the,
+the bits in a bunch of buses. So, in this example,
+we have two input buses, and we simply want to do a bitwise AND
+of them. Take the first bit of a and
+b, AND it together, and that should produce the first bit of out. Similarly, doing the same for
+the second bit, and so on. So here's how we do that. We simply have,
+we need to have four AND gates. Each one of that AND gates performs operation on one of
+the corresponding pairs of bits. And we access the bits one after another
+simply listing the 0s bit, first bit, second bit, and putting the AND
+gate on these inputs and producing the correct output. Immediately notice that the four bits of
+the out that we just produced, go out as, as a single bus because that's
+how it was defined in the API. So there are a bunch of technical
+[COUGH] bunch of technical conveniences sometimes that you want
+to use when dealing with buses. For example, you may sometimes want
+to break a bus into sub-buses. So the first example here shows, what happens if we want to compose a bus,
+a 16-bit bus. From two eight bit buses. So we, so this example shows that we have
+in our input two 8-bi, bus, two 8-bit buses called lsb, least significant byte,
+and msb, most significant byte. And if we want to plug them
+together into an AND 16 gate, we can just take the first 8 bits of
+the bus and plug the lsb into it. And the second 8-bit bits and
+plug the msb into it. And notice the co, the,
+notice the syntax for doing that. If we specify a sub-range,
+inside the square brackets, in exactly this format, with the dot
+dot notation, then we just get the bus being plugged into the correct
+sub-bus that we want to do it. We can do that on the input and
+we can do that on the output. And we can break them in different ways. Now different hardware description
+languages deal with all these issues and have different syntactic conventions. And of course for our, our hardware
+description language which you, which you will need to
+work with in the project. You can find the exact
+specification on the website. I would like to say just a one,
+a few words about some peculiarities if you wish on our HDL
+that you may find convenient to use. First of all, we do allow,
+[COUGH] we do allow overlaps of sub buses, so you can take say bit 0 to 5. And out them,
+output them as one bus of 6 bits. And then again take bits, let's say,
+3 to 7 and output them with another bus. So simply outputting the same
+bus in multiple ways that may be overlapping sub-buses. We allow that. Another convention that we
+have is internal buses. Are just their widths is completely
+deduced by what you plugged into them. So you don't need to specify the width
+of an internal pin. It's just if it was connected to a bus, it just gets a correct width
+that it was connected to. And the third syntactic convention that
+I would like to mention is the fact that if you want to plug lots of zeroes or
+lots of ones into a bus, you can do it and together in one command by using true or
+false as constants, and in all or both of these cases,
+you get, are multiplied. So if you plug true into some bus,
+each one of the bits gets a value 1. And similarly for false,
+where each one of the bits gets zero. So now we've finished this very simple, [COUGH] this very simple unit about
+handling lots of bits together, and now we're ready to actually completely
+specify the project of this week.
+
