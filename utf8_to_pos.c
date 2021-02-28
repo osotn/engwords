@@ -519,6 +519,214 @@ int main()
         '\x00', '\x00', '\x00',
     };
 
+    /* ɪ */
+    char IPA_U026A_bitmap[36] = {
+/*
+            
+            
+            
+            
+            
+  ******    
+  ******    
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+  ******    
+  ******    
+            
+            
+            
+*/
+        '\x00', '\x00', '\x00',
+        '\x00', '\x00', '\x00',
+        '\x06', '\x00', '\x18',
+        '\x06', '\x00', '\x18',
+        '\x07', '\xFF', '\xF8',
+        '\x07', '\xFF', '\xF8',
+        '\x06', '\x00', '\x18',
+        '\x06', '\x00', '\x18',
+        '\x00', '\x00', '\x00',
+        '\x00', '\x00', '\x00',
+        '\x00', '\x00', '\x00',
+        '\x00', '\x00', '\x00',
+    };
+
+    /* ʃ */
+    char IPA_U0283_bitmap[36] = {
+/*
+            
+      ***   
+     *****  
+    *** **  
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+    **      
+** ***      
+*****       
+ ***        
+*/
+        '\x00', '\x00', '\x06',
+        '\x00', '\x00', '\x07',
+        '\x00', '\x00', '\x03',
+        '\x00', '\x00', '\x07',
+        '\x1F', '\xFF', '\xFE',
+        '\x3F', '\xFF', '\xFC',
+        '\x70', '\x00', '\x00',
+        '\x60', '\x00', '\x00',
+        '\x70', '\x00', '\x00',
+        '\x30', '\x00', '\x00',
+        '\x00', '\x00', '\x00',
+        '\x00', '\x00', '\x00',
+    };
+
+    /* ʧ */
+    char IPA_U02A7_bitmap[36] = {
+/*
+            
+       ***  
+ **   ***** 
+ **  *** ** 
+ **  **     
+ **  **     
+ **  **     
+ **  **     
+*******     
+*******     
+ **  **     
+ **  **     
+ **  **     
+ **  **     
+ **  **     
+ **  **     
+ **  **     
+ ******     
+  *****     
+     **     
+     **     
+ ** ***     
+ *****      
+  ***       
+*/
+        '\x00', '\xC0', '\x00',
+        '\x3F', '\xFF', '\xC6',
+        '\x3F', '\xFF', '\xE7',
+        '\x00', '\xC0', '\x63',
+        '\x00', '\xC0', '\x67',
+        '\x1F', '\xFF', '\xFE',
+        '\x3F', '\xFF', '\xFC',
+        '\x70', '\x00', '\x00',
+        '\x60', '\x00', '\x00',
+        '\x70', '\x00', '\x00',
+        '\x30', '\x00', '\x00',
+        '\x00', '\x00', '\x00',
+    };
+
+    /* ʊ */
+    char IPA_U028A_bitmap[36] = {
+/*
+            
+            
+            
+            
+            
+****  ****  
+****  ****  
+  **  **    
+  **  **    
+ ***  ***   
+***    ***  
+**      **  
+**      **  
+**      **  
+**      **  
+**      **  
+**      **  
+**      **  
+***    ***  
+ ********   
+  ******    
+*/
+        '\x06', '\x3F', '\xE0',
+        '\x06', '\x7F', '\xF0',
+        '\x07', '\xE0', '\x38',
+        '\x07', '\xC0', '\x18',
+        '\x00', '\x00', '\x18',
+        '\x00', '\x00', '\x18',
+        '\x07', '\xC0', '\x18',
+        '\x07', '\xE0', '\x38',
+        '\x06', '\x7F', '\xF0',
+        '\x06', '\x3F', '\xE0',
+        '\x00', '\x00', '\x00',
+        '\x00', '\x00', '\x00',
+    };
+
+    /* ʒ */
+    char IPA_U0292_bitmap[36] = {
+
+/*
+            
+            
+            
+            
+            
+**********  
+**********  
+       ***  
+      ***   
+     ***    
+    ***     
+   ***      
+  *****     
+  ******    
+      ***   
+       ***  
+        **  
+        **  
+        **  
+        **  
+*      ***  
+**    ***   
+********    
+ ******     
+*/
+        '\x06', '\x00', '\x0E',
+        '\x06', '\x00', '\x07',
+        '\x06', '\x0C', '\x03',
+        '\x06', '\x1C', '\x03',
+        '\x06', '\x3C', '\x03',
+        '\x06', '\x7C', '\x03',
+        '\x06', '\xEE', '\x07',
+        '\x07', '\xC7', '\x0E',
+        '\x07', '\x83', '\xFC',
+        '\x07', '\x01', '\xF8',
+        '\x00', '\x00', '\x00',
+        '\x00', '\x00', '\x00',
+    };
+
     char IPA_U00E6_user_char = '+';    /* æ */
     char IPA_U00F0_user_char = '*';    /* ð */
     char IPA_U014B_user_char = ')';    /* ŋ */
@@ -528,6 +736,11 @@ int main()
     char IPA_U0259_user_char = '%';    /* ə */ 
     char IPA_U025B_user_char = '!';    /* ɛ */ 
     char IPA_U025C_user_char = '\"';   /* ɜ */ 
+    char IPA_U026A_user_char = ',';    /* ɪ */
+    char IPA_U0283_user_char = '-';    /* ʃ */
+    char IPA_U028A_user_char = '/';    /* ʊ */
+    char IPA_U0292_user_char = '0';    /* ʒ */
+    char IPA_U02A7_user_char = '.';    /* ʧ */
     char IPA_U02D0_user_char = '#';    /* ː */ 
     char IPA_U03B8_user_char = '$';    /* θ */ 
 
@@ -540,6 +753,11 @@ int main()
     define_use_character_12_24_cmd(IPA_U0259_bitmap, sizeof(IPA_U0259_bitmap), IPA_U0259_user_char);
     define_use_character_12_24_cmd(IPA_U025B_bitmap, sizeof(IPA_U025B_bitmap), IPA_U025B_user_char);
     define_use_character_12_24_cmd(IPA_U025C_bitmap, sizeof(IPA_U025C_bitmap), IPA_U025C_user_char);
+    define_use_character_12_24_cmd(IPA_U026A_bitmap, sizeof(IPA_U026A_bitmap), IPA_U026A_user_char);
+    define_use_character_12_24_cmd(IPA_U0283_bitmap, sizeof(IPA_U0283_bitmap), IPA_U0283_user_char);
+    define_use_character_12_24_cmd(IPA_U028A_bitmap, sizeof(IPA_U028A_bitmap), IPA_U028A_user_char);
+    define_use_character_12_24_cmd(IPA_U0292_bitmap, sizeof(IPA_U0292_bitmap), IPA_U0292_user_char);
+    define_use_character_12_24_cmd(IPA_U02A7_bitmap, sizeof(IPA_U02A7_bitmap), IPA_U02A7_user_char);
     define_use_character_12_24_cmd(IPA_U02D0_bitmap, sizeof(IPA_U02D0_bitmap), IPA_U02D0_user_char);
     define_use_character_12_24_cmd(IPA_U03B8_bitmap, sizeof(IPA_U03B8_bitmap), IPA_U03B8_user_char);
 
@@ -613,18 +831,41 @@ int main()
                 put_user_char(IPA_U025C_user_char);
                 break;
 
-            case 0x26A: /* ɪ  */  printf("<i>");   break;
-            case 0x283: /* ʃ  */  printf("<sh>");  break;
-            case 0x28A: /* ʊ  */  printf("<u>");   break;
+            case 0x26A: /* ɪ  */
+                //printf("<i>");   break;
+                put_user_char(IPA_U026A_user_char);
+                break;
+
+            case 0x283: /* ʃ  */
+                //printf("<sh>");  break;
+                put_user_char(IPA_U0283_user_char);
+                break;
+
+            case 0x28A: /* ʊ  */
+                //printf("<u>");   break;
+                put_user_char(IPA_U028A_user_char);
+                break;
+
             case 0x28C: /* ʌ  */  printf("^");     break;
-            case 0x292: /* ʒ  */  printf("<z>");   break;
+            case 0x292: /* ʒ  */
+                //printf("<z>");   break;
+                put_user_char(IPA_U0292_user_char);
+                break;
+
             case 0x2A4: /* ʤ  */  
-                printf("<dz>");
-                // skip a space symbol after dz.
+                //printf("<dz>");
+                putchar('d');                        /* d */
+                put_user_char(IPA_U0292_user_char);  /* ʒ */
+                // skip a space symbol after dʒ.
                 if ((c = getchar()) != ' ')
                     ungetc(c, stdin); 
                 break;
-            case 0x2A7: /* ʧ  */  printf("<tch>"); break;
+
+            case 0x2A7: /* ʧ  */
+                //printf("<tch>"); break;
+                put_user_char(IPA_U02A7_user_char);
+                break;
+
             case 0x2C8: /* ˈ  */  printf("'");     break;
             case 0x2CC: /* ˌ  */  printf(",");     break;
 
