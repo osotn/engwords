@@ -1,0 +1,114 @@
+During the first week of this course, we built a suite of 15
+elementary logic gates. And in the next week of the course, we're
+going to take this basic functionality and use it in order to build
+some more interesting and powerful chips like adders and
+arithmetic logic unit. Now whenever we teach this course
+every week of instruction, there's a whole set of issues and
+questions that come up about different aspects of building
+hardware and software systems. So we've decided to devote the last unit
+of each week to answer such questions. And we are calling this unit this last
+unit every week a perspective unit. So here are the questions that
+typically come up at the end of this unit in which we deal
+with elementary logic gates. So the first question of the day is is it possible to build a computer starting
+with a logic gate other than NAND? Well I'll take this question and
+the answer is indeed yes, it's possible. For example, you can use another
+elementary gate called NOR, which stands for not or, and base your entire
+computer on this atomic building block. Likewise, it is quite natural to start
+with the suite consisting of and, or and not gates and
+use them to build a system. And there are a number
+of other possibilities. And in fact it's quite similar to
+the way geometry can be founded on different sets of axioms. And each one of them can be yet
+another point of departure to build, you know, all the power and
+theorems of geometry. This is not such a bad analogy. However, it turns out that NAND gates are very popular in physical
+implementations of hardware systems. Because there are many integrated circuit
+technologies in which it is quite cheap or relatively cheap to build NAND gates. As you well know during
+the course during the first week, we treated these NAND gates
+as black box abstractions. So, the next question, which is directly
+related to the first one, is well, if you actually had to build a,
+a NAND gate, how would you go about it? Norm, maybe you can answer this question. >> Okay so, in this course we sort of made
+a point of not going into this question. Because we feel that is already physics or
+electronics, rather than computer science. But still, let us see an example. There are of course many different
+technologies to implement and navigate and as in any other gate. But let me show you,
+let me show you the simplest example, if you wish, of such an implementation. So here is an NMOS
+implementation of a NAND gate. [NOISE] We have a plus voltage, which is going to be one, our logical one. And the minus voltage,
+which is our logical zero, and we're going to connect them as follows. A little resistor here which is a connection, and then two nice transistors, NMOS transistors,
+which we connect this way. This is going to be our a input, and
+this is going to be our b input. And this is going to be our output. So these are the two
+transistors that we have. So how does this implementation work? The basic functionality of one of these
+endmost transistors, is that whatever that input gate has, gets high voltage,
+then it connects the two other terminals. If it gets a negative voltage inside,
+it disconnects the two terminals. So let's see what happens. If both a and b are one, then we get
+the high voltage here, high voltage here. These two terminals are connected
+by this transistor. These two terminals are connected
+by this transistor. So we get the connection all the way
+from the output, to negative. And since this is a weak connection and this is a strong connection, our output
+is going to be negative or zero. As we want in a NAND gate, because when
+a NAND gets one and one as inputs, it gets zero as output. In any other case, one of these two
+inputs is going to be negative, which means a low voltage. That when these two connected to
+the low variable of voltage input, it's going to disconnect
+the two terminals. In which case, there is not going to be a connection
+from the minus sign to the output. And so, this weak connection to the plus
+is the one that's going to rule, and we're going to get the plus output, which
+is exactly what we want in a NAND gate, which is two. So, this is a NMOS
+implementation of a NAND gate. There are many other technologies. This one is not used so
+much anymore, since the 70s or 80s. And the important thing in this course is,
+we do not care about the technology. We do not care neither about
+this implementation or if there are any other implementation. We want to abstract that away,
+away inside of gates that get true and false and output true and false and
+we don't care how exactly. >> So welcome back from the world
+of resistors and transistors. And once again, this is a level of detail that we are not
+going to get into in this course. So here's the next question that we have. And it's about hardware description
+languages, and, the question is. How does the HDL that we used in
+this course, and in this week, how does it compare to real HDL languages
+that hardware engineers normally use? Well first of all, our HDL is a very
+real language, because you can use it to design computers and simulate computers,
+and that's what HDLs are all about. At the same time obviously, industrial
+strength HDL languages like Verilog and VHDL are far more complex and
+powerful than our HDL. Typically they have
+a syntax which is some mix of the HDL that we use and something that
+looks like the C programming language. And they feature all sorts of high level
+programming constructs, like For and While, which eliminate the need to
+write a lot of repetitive HDL code. So it's very nice to
+use these capabilities. And they also feature
+like our language does, they feature the ability to model and
+simulate the notion of time and clocks. Without which, you wouldn't be
+able to build sequential logic. You know, logic that ends up with which, with which you end up building things like
+memories and and counters, and so on. So these languages are very nice. At the same time,
+they are quite complicated and would, it would take you at
+least a month or so to master the these languages in order to begin
+writing some code for this course. So as an alternative, Norm and I decide
+to, decided to design a very simple dialect or very simple version of HDL and
+offer it to you. It has all of the capabilities
+that we need in order to build the computer that we will build in this
+course, and you can learn it in one hour. The next question, which is for Norm, is as follows the chips that we built so
+far were quite simple. How does one go about designing complex
+chips containing hundreds of parts and connections? >> Well, the truth is [COUGH] that there
+is no simple general way of designing complex circuits. It's really a complicated
+design challenge, and you need human ingenuity to do it well. Now there are many techniques that
+you learn in in digital circuit digital circuit construction courses. For example, there are techniques for card no maps that allows you to optimize
+a gate with a small number of inputs. Sometimes you can use various tools. For example,
+there are so-called silicon compilers, where you specify what
+the functionality is that you want. And the silicon compiler already
+has inside it a lot of logic and a lot of algorithms that
+can optimize gates for you. But again, this is,
+it is not perfect algorithms. These are all heuristics because the
+general problem of so-called NP complete, you cannot find a computer
+program that does it perfectly. The real answer is,
+is that after all these tools and all these techniques and so
+on, at the end of the day, you use the usual tools of computer
+science modularity and abstraction. You break a complex problem
+into simpler parts, and the simpler parts are simpler
+to optimize and to construct. And at the end of the day,
+after you use all your tools, after you use all your techniques, you go
+back and use this modularity at the idea. >> So these were the questions that
+we chose to focus on in this first perspective unit of week one. As you can see, this particular format
+of the perspective unit is open-ended. There are numerous
+questions that can come up. Once again, we don't want to deal with
+the level of transistors and resistors. You know, this is something that
+belongs to electrical engineering. We want to focus on computer science. And when it comes to hardware
+technologies and so on, there are many questions that Norm and
+I cannot answer either. So we are we welcome any
+questions that can come up. You can post these questions
+on the course Q&A forum. And if there are other students who are
+who have some knowledge about these areas you are perfectly welcome to go to the Q &
+A forum of the website of this course and answer these questions on your own.

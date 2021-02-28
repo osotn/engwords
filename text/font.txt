@@ -1,0 +1,22 @@
+Computer font is implemented as a digital data file containing a set of graphically related glyphs, characters, or symbols.
+There are three basic kinds:
+ - bitmap fonts consist of a matrix of dots or pixels representing the image of each glyph in each face and size.
+ - vector fonts (including, and sometimes standing as a synonym for outline fonts) use Bezier curves, drawing instructions and mathematical formulas to describe each glyph.
+ - stroke fonts use a series of specified lines and addition information to define the profile.
+
+Bitmap fonts are faster and easier to use in computer code, but non-scalable, requiring a separate font for each size. Outline and stroke fonts can be resized using a single font and substituting different measurements for components of each glyph, but need rendering the outline to a bitmap for display on screen or in print.
+
+Fonts are designed and created using font editors.
+Fonts can be monospaced (i.e. every character is plotted a constant distance from the previous character that it is next to, while drawing) or proportional (each character has its own width).
+
+Bitmap stores as an array of pixels (bitmap). It is less commonly known as a raster font or a pixel font. Optimized size such as 8, 9, 10, 12, 14, 18, 24, 36, 48, 72 and 96 points (assuming a resolution of 96 DPI)
+
+DPI = dots per inch
+Bitmap fonts are used in the Linux console.
+
+Digital bitmap fonts (the final rendering of vector fonts) may use monochrome or shades of gray. The latter is anti-aliased. "Shades of gray" as intermediate between the color of the font and that of the background.
+
+BDF Standard
+------------
+
+

@@ -1,0 +1,92 @@
+Last week, we learned how to
+manipulate bits in a computer. We have yes, we have no, 1, 0, and
+we know how to manipulate them. But what can we do with only 1 and 0? Can we represent more
+sophisticated things with them? Of course we, we must, if we want to
+use a computer to do useful things. But what can you do with only two values,
+0 and 1? Well, you definitely can put
+two of them together, and then you get four possibilities. Three of them together,
+you get eight possibilities. In general,
+if you have n of them together, you have 2 to the n possibilities and
+now you could pre, represent any 2 to the n different
+things that you may want to. For example, you can represent numbers. And this is what we're
+going to be interested in. How are you going to
+represent integer numbers? Well, 0 is easy. 0, 1 is easy. 1. 2 is already the first problem,
+basically because we don't have yet another possibility, so
+we have to use two bits. 0, 10. Three is 11. For the next one,
+we already need another bit, 110 for 4. And in general, it seems we can represent any number
+that we want with some sequence of bits. Now how did we co,
+connect the sequence of bits, the binary representation of an integer
+number, to the integer number? What's going on? What's the general system? In order to understand that,
+we have to go back to second grade. When we learned about decimal numbers. When you see 789, what does that mean? Where, what does the digit 7, 8 and 9 have
+to do with the value of the number 789? Well, we learned that we have the
+positional system, where the right-most digit is the ones, the next one is
+the tens, the next one is the 100s. So we know that 789 is really 9 plus
+eight 10 plus seven 100s, and so on. In general, the case position
+from the right is 10 to the k. So now exactly the same thing that was
+going to happen also with binary numbers, but it's going to be much simpler
+because we only have 0 and 1 rather than all the numbers,
+digits between 0 and 9. Thus in binary notation, the different
+positions will be powers of 2. 1, 2, 4, 8 and so on. Suppose you want to know, for
+example, what is a value of 1 0 1, in binary notation? Well, we know the rightmost
+bit is basically the 1s. The next one, the 0, correspond to 2s. And the third,
+the left-most bit here, is the 4s. Altogether, we have 4 plus 2
+plus 2 times 0, plus 1 times 1. Altogether, that's 5, so our number is 5
+and in general, what do we do in general? Exactly the same thing. You have any sequence of bits and we
+are going to number them from the right. Most bit, which is going to be b 0,
+the next one b 1, and so on, all the way to bn,
+if we have n plus 1 bits. And the value of this thing
+is going to be b0 times 2 to the 0 plus d1 times 2 to the 1,
+plus b2 time 2 to the 2, all the way until the end of it, which we
+have, where we have bn time 2 to the n. And, this is going to be a number. And, that's how we can
+covert any sequence of bits, any binary representation of
+a number to the value of a number. One thing that we should note at this
+point that if we look at the maximum number we can represent with k bits. Well we sum up from 2 to the 0
+all the way to the k minus 1. Remember that the case bit
+if we start counting from 0, the last bit is not counted as index k,
+k minus 1. So we have the sum of 1 plus 2 plus 4,
+all the way to the 2k minus 1. All together,
+we have 2 to the k of that minus 1. And that's a range of bits,
+we can actually represent with k. The range of numbers we 
+can represent with k bits. Now, so far, we assumed, we have an arbitrary length number of
+bits that we can use to represent. And of course, if we want to
+represent an arbitrary long number,. We will need an arbitrary number of bits. In computers, you usually have a fixed
+number of bits that is allocated. And then of course you can only be
+able to represent a fixed number, a fixed range of integer numbers. So for example, eh,
+if we only have eight bits, what are the, what are the possible numbers
+that you can represent? Well you can represent that something
+starting with 000 eight times. 000 ending with a 1 all
+the way up to eight 1s. The smallest number is, we have all
+together 256, 256 such possibilities. The first one is index 0,
+the last one is index 255. Now, that's not exactly true. Really, when we have eight bits,
+usually we want to, to, want to reserve part of these, all the possibilities
+to actually represent negative numbers. We're not going to actually talk about
+this now, but rather in a unit from now. But in general, half of the  half of
+the 256 possibilities are going to be reserved for negative numbers, and
+we're only going to be able to use the numbers between 1, between 0 and
+127, and these are the positive numbers that we're going to be able to use out
+of these 256 possibilities of 8 bits. So far we saw, basically, if you better or a string of bits,
+how can you convert it to decimal numbers? Now we are going to do the opposite thing, suppose you were given a number
+in decimal, 87 for example. How can you represent it
+as a sequence of bits? This is also something which we should
+be able to do, if we're going back and forth between decimal notation and
+binary numbers. That they're actually going to be eh,
+represented as in the computer. Well remember that we know that really
+the way that we get the decimal from the binary is by summing up powers of 2. So we start by figuring out, figuring out what is the largest power
+of 2 that fits into our 87 number. And that is going to be 64. And then, what is the next one? After we have 64, what is the next
+power of 2 that we can add to 64 and we still remain under 87? That turns out to be 16. And so on, we can keep on going,
+and we write the number 87 as a sum of binary pow, of powers of 2. And it turns out that 87 is exactly 64
+plus 16 plus 4 plus 2 plus 1 and once we have that, from this representation of the
+decimal number, as a sum of powers of 2, we can quite directly actually
+get the binary representation. How do you do it? Well every time, we have a power that the peer is in the
+sum we need to put a 1 in the bit there. And whenever is a power is not
+part of the sum, we put a 0 there. So for example, look at the right-most
+bit, that corresponds to the 1s. We do have a 1, so that's going to be a 1. On the other hand, if you look at that third bit from
+the right, which is correspond to the 8s. Since we don't have 8 in the sum there,
+we're going to have 0s there. And that's basically a  general
+way how you can take any number and convert it to binary. So this concludes this unit
+where basically we discussed how you can represent integer
+numbers within a binary system. In the next unit, we're going to actually discuss how can we
+actually perform arithmetic operations. In particular, addition and
+these represented binary numbers. Once we get that under our belt,
+we will go back and discuss the issue of
+negative numbers in unit 3.

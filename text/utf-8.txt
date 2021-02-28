@@ -106,8 +106,8 @@ U-251   c991=ɑ / ɑ           a
 U-252   c992=ɒ / ɒ          <o>
 U-254   c994=ɔ / ɔ           o   
 U-259   c999=ə / ə          <a>
-U-25B   c99b=ɛ / e           e
-U-25C   c99c=ɜ / ɜ          <e>
++ U-25B   c99b=ɛ / e           e
++ U-25C   c99c=ɜ / ɜ          <e>
 U-26A   c9aa=ɪ /             <i>
 U-283   ca83=ʃ  / ʃ               <sh>
 U-283   ca8a=ʊ / ʊ               <u>
@@ -120,5 +120,39 @@ U-2C8   cb88=ˈ                        '
 U-2CC   cb8c=ˌ                        ,
 U-2D0   cb90=ː                        :
 U-3B8   ceb8=θ / θ           <S>
+
+
+ɛːɛ
+
+0000-007F  Basic Latin	Complete
+0080-00FF  Latin-1 Supplement	Complete
+0100-017F  Latin Extended-A	Complete
+0180-024F  Latin Extended-B	Complete
+0250-02AF  IPA Extensions	Complete
+02B0-02FF  Spacing Modifier Letters	Partial
+0300-036F  Combining Diacritical Marks	Partial
+0370-03FF  Greek	Complete
+0400-050F  Cyrillic	Complete
+0530-058F  Armenian	Complete
+0590-05FF  Hebrew	Partial
+0600-06FF  Arabic	Complete
+10A0-10FF  Georgian	Absent
+1E00-1EFF  Latin Extended Additional	Complete
+1F00-1FFF  Greek Extended	Absent
+2000-206F  General Punctuation	Complete
+2070-209F  Superscripts and Subscripts	Complete
+20A0-20CF  Currency Symbols	Complete
+2100-214F  Letterlike Symbols	Complete
+2150-218F  Number Forms	Complete
+2190-21FF  Arrows	Complete
+2200-22FF  Mathematical Operators	Complete
+2300-23FF  Miscellaneous Technical	Very few glyphs
+2500-257F  Box Drawing	Complete
+2580-259F  Block Elements	Complete
+25A0-25FF  Geometric Shapes	Complete
+2600-26FF  Miscellaneous Symbols	Partial
+FB00-FB4F  Alphabetic Presentation Forms	Very few glyphs
+FB50-FDFF  Arabic Presentation Forms-A	Complete
+FB70-FEFF  Arabic Presentation Forms-B	Complete
 
 

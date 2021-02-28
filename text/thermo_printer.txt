@@ -52,5 +52,61 @@ CashDrawer/Cash Drawer: 0NoCashDrawer *1CashDrawer1BeforePrinting 2CashDrawer2Be
 BlankSpace/Blank space at page's end: 0Print *1NoPrint
 FeedDist/Feed distance after print: 0feed3mm 1feed6mm 2feed9mm 3feed12mm 4feed15mm 5feed18mm 6feed21mm 7feed24mm 8feed27mm *9feed30mm 10feed33mm 11feed36mm 12feed39mm 13feed42mm 14feed45mm
 
+POS-5805DD
+POS-58 Receipt Printer User Manual
+is designed for use for use with electronic instruments such as:
+ - ECR;
+ - POS;
+ - banking;
+ - equipment;
+ - computer peripheral equipment, etc.
 
+Feature:
+ - High Speed printing: 90 mm per second.
+ - RS-232(POS-58S); USB(POS-58U)
+
+Print mothod: Thermal
+Paper Width:  57.5 mm
+Paper Diameter: 38 mm
+Resolution:   203DPI
+Font:         ASCII(12x24),(8x16)
+Head Life:    50 km
+Printing width: 48 mm
+
+Feed button: 20 mm
+
+? Debug mode - don't work
+
+ESC/POS Printing command set
+
+Print command:
+ -  1 LF                 Print and line feed
+ -  2 ESC J n            Print and Feed n dots paper
+Line spacing command
+ -  3 ESC 2              Select default line spacing
+ -  4 ESC 3 n            Set line spacing
+ -  5 ESC a n            Select justification (align)
+Character command
+ -  6 ESC ! n            Set character font size
+
+1. LF (line feed) '\n' = x\0A - prints the data in the print buffer and feeds one line.
+ESC (escape) or "Ctrl+[" '\e' (gcc) = x\1B
+
+2. ESC J n - print the data in the print buffer and feeds n dots.
+The line space - Feed, Default 30 dots
+3. ESC J 2 (default = 30), 4. ESC J 3 n <--- to change line spacing.
+(\x1B J 2)
+
+5. ESC a n - (0 = left, 2 = middle, 3 = right)
+
+6. ESC ! n - Select print mode
+echo -e "\x1B\x21\x00"
+
+The default value is 0. This command is effective for all characters.
+
+BIT0: 0:Character font 12x24 selected; 1:Character font 8x16 selected
+BIT3: 1:Emphasized mode selected; 0:Emphasized mode not selected
+BIT4: 1:Double Height mode selected; 0:Double Height mode not selected
+BIT5: 1:Double Width mode selected; 0:Double Width mode not selected
+BIT7: 1:Underline mode selected ; 0:Underline mode not selected
 

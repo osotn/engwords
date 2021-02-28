@@ -30,7 +30,7 @@ some of the logic gates. And we have some multi-way, and also multi-way 16-bit
 variants of the previous gates. And in order to make all these
 new concepts more familiar, I will focus on some gates
 in every one of these categories and say few words about them. And this, once again, will give you
-everything that you need In order to build any one of the gates in Project 1. So without further ado, let's start to talk about multiplexors and
+everything that you need In order to build any one of the gates in Project 1. So without further, let's start to talk about multiplexors and
 demultiplexors. So what is a multiplexor? A multiplexor is a gate
 that operates as follows. There are two inputs coming in,
 and we know them a and b. And there's a sel input coming in,
@@ -38,7 +38,7 @@ so-called, from the bottom. Of course in reality there's no bottom and left, but
 I'm talking about this gate diagram here. So three inputs come in, a, b, and sel. What does the multiplexor do? Well, if sel = 0,
 the multiplexor outputs a. If sel = 1 the multiplexor outputs b. That's it, that's the desired
 behavior of a multiplexor. And here is the truth
-table of the mulitplexor. We have three inputs, so
+table of the multiplexor. We have three inputs, so
 we have eight different possibilities. And you can convince yourself
 that the truth table is consistent with what we described before. We can also provide an abbreviated truth
 table of the multiplexor operation, and once again if sel is 0, the multiplexor
@@ -231,7 +231,7 @@ then A[0] stands for the right-most bit, sometimes called
 the least significant bit or the LSB. And A[15] stands for the left-most bit, also called the most significant bit or
 the MSB. So, this is just a convention that you
 have to keep in mind when you index your multi-bit busses, and
-finally we want to emphasize once again that we provide all sorts of
+finally we want to emphasize. once again that we provide all sorts of
 resources with which you can consult. When you write HDL code, in particular, the book has whole appendix
 dedicated to HDL programming and this appendix is also available
 online in the nand2tetris website. And there is an excellent document
