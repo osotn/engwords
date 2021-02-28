@@ -1,8 +1,11 @@
-all: main.c utf8_ciril_to_oem866.c utf8_ipa_phonet_to_ascii.c
+all: main.c utf8_ciril_to_oem866.c utf8_to_pos.c
 	gcc -o engwords main.c
-	gcc -o utf8_ciril_to_oem866 utf8_ciril_to_oem866.c
-	gcc -o utf8_ipa_phonet_to_ascii utf8_ipa_phonet_to_ascii.c
+	gcc -o utf8_to_pos utf8_to_pos.c
 
 unittests:  all main_test.c
 	gcc -o ut -DUNIT_TEST main.c main_test.c -Wl,--wrap=getchar -lcmocka
 	./ut
+
+clean:
+	rm -f main.o utf8_to_pos.o main_test.o engwords utf8_to_pos ut 
+
