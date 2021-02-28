@@ -1,7 +1,9 @@
 *.o
 engwords
+utf8_to_pos
+./font/bmptoraw
 *~
-/tmp/
+./tmp/
 *.mp4
 *.epub
 num-*
