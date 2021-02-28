@@ -41,7 +41,7 @@ def transform_word(sel):
     iter = start.copy()
     while end.compare(iter) >= 1:
         c = iter.get_char()
-        if (not c.isalpha()) and c not in ("'", '-'):
+        if ((not c.isalpha()) and c not in ("'", '-')) or (ord(c[0]) > 127):
             break
         iter.forward_char()
         word += c.lower()
