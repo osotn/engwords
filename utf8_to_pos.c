@@ -727,6 +727,48 @@ int main()
         '\x00', '\x00', '\x00',
     };
 
+    /* ʌ */
+    char IPA_U028C_bitmap[36] = {
+/*
+            
+            
+            
+            
+            
+    **      
+    **      
+   ****     
+   ****     
+  **  **    
+  **  **    
+  **  **    
+  **  **    
+ **    **   
+ **    **   
+ **    **   
+ **    **   
+**      **  
+**      **  
+**      **  
+**      **  
+            
+            
+            
+*/
+        '\x00', '\x00', '\x78',
+        '\x00', '\x07', '\xF8',
+        '\x00', '\x7F', '\x80',
+        '\x01', '\xF8', '\x00',
+        '\x07', '\x80', '\x00',
+        '\x07', '\x80', '\x00',
+        '\x01', '\xF8', '\x00',
+        '\x00', '\x7F', '\x80',
+        '\x00', '\x07', '\xF8',
+        '\x00', '\x00', '\x78',
+        '\x00', '\x00', '\x00',
+        '\x00', '\x00', '\x00',
+   };
+
     char IPA_U00E6_user_char = '+';    /* æ */
     char IPA_U00F0_user_char = '*';    /* ð */
     char IPA_U014B_user_char = ')';    /* ŋ */
@@ -739,6 +781,7 @@ int main()
     char IPA_U026A_user_char = ',';    /* ɪ */
     char IPA_U0283_user_char = '-';    /* ʃ */
     char IPA_U028A_user_char = '/';    /* ʊ */
+    char IPA_U028C_user_char = '1';    /* ʌ */
     char IPA_U0292_user_char = '0';    /* ʒ */
     char IPA_U02A7_user_char = '.';    /* ʧ */
     char IPA_U02D0_user_char = '#';    /* ː */ 
@@ -756,6 +799,7 @@ int main()
     define_use_character_12_24_cmd(IPA_U026A_bitmap, sizeof(IPA_U026A_bitmap), IPA_U026A_user_char);
     define_use_character_12_24_cmd(IPA_U0283_bitmap, sizeof(IPA_U0283_bitmap), IPA_U0283_user_char);
     define_use_character_12_24_cmd(IPA_U028A_bitmap, sizeof(IPA_U028A_bitmap), IPA_U028A_user_char);
+    define_use_character_12_24_cmd(IPA_U028C_bitmap, sizeof(IPA_U028C_bitmap), IPA_U028C_user_char);
     define_use_character_12_24_cmd(IPA_U0292_bitmap, sizeof(IPA_U0292_bitmap), IPA_U0292_user_char);
     define_use_character_12_24_cmd(IPA_U02A7_bitmap, sizeof(IPA_U02A7_bitmap), IPA_U02A7_user_char);
     define_use_character_12_24_cmd(IPA_U02D0_bitmap, sizeof(IPA_U02D0_bitmap), IPA_U02D0_user_char);
@@ -846,7 +890,11 @@ int main()
                 put_user_char(IPA_U028A_user_char);
                 break;
 
-            case 0x28C: /* ʌ  */  printf("^");     break;
+            case 0x28C: /* ʌ  */
+                //printf("^");     break;
+                put_user_char(IPA_U028C_user_char);
+                break;
+
             case 0x292: /* ʒ  */
                 //printf("<z>");   break;
                 put_user_char(IPA_U0292_user_char);
