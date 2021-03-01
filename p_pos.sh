@@ -1,1 +1,1 @@
-echo $* | ./run.sh -ibwumf | ./pos.sh >> /dev/usb/lp0
+echo $* | ./run.sh -ibwumf | ./pos.sh
