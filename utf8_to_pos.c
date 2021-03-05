@@ -83,6 +83,48 @@ int main()
 {
     int c;
 
+    /* Test */
+    char IPA_Utest_bitmap[36] = {
+/*
+* * * * * * 
+ * * * * * *
+* * * * * * 
+ * * * * * *
+* * * * * * 
+ * * * * * *
+* * * * * * 
+ * * * * * *
+* * * * * * 
+ * * * * * *
+* * * * * * 
+ * * * * * *
+* * * * * * 
+ * * * * * *
+* * * * * * 
+ * * * * * *
+* * * * * * 
+ * * * * * *
+* * * * * * 
+ * * * * * *
+* * * * * * 
+ * * * * * *
+* * * * * * 
+ * * * * * *
+*/
+        '\xAA', '\xAA', '\xAA',
+        '\x55', '\x55', '\x55',
+        '\xAA', '\xAA', '\xAA',
+        '\x55', '\x55', '\x55',
+        '\xAA', '\xAA', '\xAA',
+        '\x55', '\x55', '\x55',
+        '\xAA', '\xAA', '\xAA',
+        '\x55', '\x55', '\x55',
+        '\xAA', '\xAA', '\xAA',
+        '\x55', '\x55', '\x55',
+        '\xAA', '\xAA', '\xAA',
+        /*'\x55', '\x55', '\x55',*/ '\x00', '\x00', '\x00', /* <--- Must be \x00 */
+    };
+
     /* ɛ  */
     char IPA_U025B_bitmap[36] = {
 /*
@@ -769,24 +811,26 @@ int main()
         '\x00', '\x00', '\x00',
    };
 
-    char IPA_U00E6_user_char = '+';    /* æ */
-    char IPA_U00F0_user_char = '*';    /* ð */
-    char IPA_U014B_user_char = ')';    /* ŋ */
-    char IPA_U0251_user_char = '(';    /* ɑ */
-    char IPA_U0252_user_char = '\'';   /* ɒ */ 
-    char IPA_U0254_user_char = '&';    /* ɔ */ 
-    char IPA_U0259_user_char = '%';    /* ə */ 
-    char IPA_U025B_user_char = '!';    /* ɛ */ 
-    char IPA_U025C_user_char = '\"';   /* ɜ */ 
-    char IPA_U026A_user_char = ',';    /* ɪ */
-    char IPA_U0283_user_char = '-';    /* ʃ */
-    char IPA_U028A_user_char = '/';    /* ʊ */
-    char IPA_U028C_user_char = '1';    /* ʌ */
-    char IPA_U0292_user_char = '0';    /* ʒ */
-    char IPA_U02A7_user_char = '.';    /* ʧ */
-    char IPA_U02D0_user_char = '#';    /* ː */ 
-    char IPA_U03B8_user_char = '$';    /* θ */ 
+    char IPA_Utest_user_char = '!';    /* test */
+    char IPA_U00E6_user_char = '\"';   /* æ */
+    char IPA_U00F0_user_char = '#';    /* ð */
+    char IPA_U014B_user_char = '$';    /* ŋ */
+    char IPA_U0251_user_char = '%';    /* ɑ */
+    char IPA_U0252_user_char = '&';    /* ɒ */ 
+    char IPA_U0254_user_char = '\'';   /* ɔ */ 
+    char IPA_U0259_user_char = '(';    /* ə */ 
+    char IPA_U025B_user_char = ')';    /* ɛ */ 
+    char IPA_U025C_user_char = '*';    /* ɜ */ 
+    char IPA_U026A_user_char = '+';    /* ɪ */
+    char IPA_U0283_user_char = ',';    /* ʃ */
+    char IPA_U028A_user_char = '-';    /* ʊ */
+    char IPA_U028C_user_char = '.';    /* ʌ */
+    char IPA_U0292_user_char = '/';    /* ʒ */
+    char IPA_U02A7_user_char = '0';    /* ʧ */
+    char IPA_U02D0_user_char = '1';    /* ː */ 
+    char IPA_U03B8_user_char = '2';    /* θ */ 
 
+    define_use_character_12_24_cmd(IPA_Utest_bitmap, sizeof(IPA_Utest_bitmap), IPA_Utest_user_char);
     define_use_character_12_24_cmd(IPA_U00E6_bitmap, sizeof(IPA_U00E6_bitmap), IPA_U00E6_user_char);
     define_use_character_12_24_cmd(IPA_U00F0_bitmap, sizeof(IPA_U00F0_bitmap), IPA_U00F0_user_char);
     define_use_character_12_24_cmd(IPA_U014B_bitmap, sizeof(IPA_U014B_bitmap), IPA_U014B_user_char);
@@ -830,6 +874,11 @@ int main()
 
             switch (u)
             {
+            case 0x023E: /* Ⱦ = Test */
+                //printf("Test");
+                put_user_char(IPA_Utest_user_char);
+                break;
+
             case 0x0E6: /* æ  */
                 //printf("@");     break;
                 put_user_char(IPA_U00E6_user_char);
