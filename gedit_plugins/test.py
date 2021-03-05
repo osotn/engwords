@@ -6,6 +6,85 @@
 # the same as "Ctrl+Alt+."
  - Ctrl   +  Super  +  /    =  run -unfm  (selected line) 
 
+# POS
+ - Ctrl   +   Alt   +  '    =  pos_big.sh (current word)
+ - Ctrl   +   Alt   +  ;    =  p_pos.sh   (current word)
+
+ - Ctrl   +   Alt   +  ]    =  pos_big3.sh (current word)
+ - Ctrl   +   Alt   +  [    =  pos_big4.sh (current word)
+
+ - Ctrl   +   Alt   +  p    =  run.sh -ibwunmf | pos.sh (selected text) 
+
+ - Ctrl   +   Alt   +  0    = echo | pos.sh # feed
+
+# Scripts:
+
+Ctrl+Alt+/
+#!/bin/sh
+# english line
+cd ~/gitspace/osotn/engwords
+echo $GEDIT_CURRENT_LINE | ./engwords -d 500 >>./fifo
+
+Ctrl+Super+/
+#!/bin/sh
+# engwords new
+cd ~/gitspace/osotn/engwords
+echo `date` >>./fifo
+echo >>./fifo
+echo $GEDIT_SELECTED_TEXT | ./engwords  -unfm >>./fifo
+echo >>./fifo
+
+Ctrl+Alt+.
+#!/bin/sh
+# engwords selected
+cd ~/gitspace/osotn/engwords
+echo `date` >>./fifo
+echo >>./fifo
+echo $GEDIT_SELECTED_TEXT | ./engwords -unfm >>./fifo
+echo >>./fifo
+
+Ctrl+Alt+,
+#!/bin/sh
+# engwords word
+cd ~/gitspace/osotn/engwords
+echo $GEDIT_CURRENT_WORD | ./engwords -d 500 >>./fifo
+
+Ctrl+Alt+0
+#!/bin/sh
+# pos print empty line
+cd ~/gitspace/osotn/engwords
+echo | ./pos.sh
+
+Ctrl+Alt+P
+#!/bin/sh
+# pos print engwords selected
+cd ~/gitspace/osotn/engwords
+echo $GEDIT_SELECTED_TEXT | ./run.sh -ibwunmf | ./pos.sh
+
+Ctrl+Alt+;
+#!/bin/sh
+# pos print engwords word
+cd ~/gitspace/osotn/engwords
+./p_pos.sh $GEDIT_CURRENT_WORD | sed '$d'
+
+Ctrl+Alt+'
+#!/bin/sh
+# pos print word big
+cd ~/gitspace/osotn/engwords
+echo $GEDIT_CURRENT_WORD | ./pos_big.sh
+
+Ctrl+Alt+]
+#!/bin/sh
+# pos print word big3
+cd ~/gitspace/osotn/engwords
+echo $GEDIT_CURRENT_WORD | ./pos_big3.sh
+
+Ctrl+Alt+[
+#!/bin/sh
+# pos print word big4
+cd ~/gitspace/osotn/engwords
+echo $GEDIT_CURRENT_WORD | ./pos_big4.sh
+
 
 from gi.repository import Gio
 import os
