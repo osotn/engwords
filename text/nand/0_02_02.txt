@@ -1,0 +1,150 @@
+In the last unit, we saw how to represent
+numbers in computers using binary bits, but now we can represent numbers,
+that's an important thing. Now the whole point of representing
+something is if we want to manipulate it. What kind of manipulations do we
+want to do with numbers? Well we want to add them,
+subtract them, multiply them and so on. This is what we're going to
+learn how to do in this unit. Well, not all of them. What we will really be
+talking about is how to add. Once we do that we'll basically get
+the whole rest of the other operations almost for free. It turns out that once we understand
+how to represent negative numbers, which we will do in next unit, we will
+be able to get subtraction for free and to understand which of two
+numbers is greater for free. Multiplication and divisions are more
+complicated, but nicely enough, we can actually postpone them to software. We will not build in hardware any
+multiplication or division eh, circuitry. But rather,
+we will actually let software do it and things are much easier to do in
+software because you just have to write little programs rather than
+actually connect stupid little devices. So we get two sequences of binary numbers. How can we add them? Well one way we already know how to do,
+and that's going to be very easy. We convert them to decimal. We add the decimal numbers. That we know how to do from second grade. We get a decimal number. We convert it back to binary. That we just learned how to do. And we get the answer. This is great and fine, but
+of course that's not what a computer does. A computer doesn't know
+how to add decimal numbers without first converting
+them to binary numbers. So we need to figure out how to actually
+do the addition of binary numbers, and directly, without
+converting them to decimal. And how are we going to do that? As usual, everything I need to
+know I learned in second grade. So we need to go back to second grade. We need to add 5,783 plus another number. How do we do this kind of addition? What did we learn? Well, we start with the ones, with
+a right-most digit, and we add 3 plus 6, we get the 9 and
+we are all very happy with that. That's easy. But now what happens when we next,
+do the next digit and we have 8 plus 5? Well, 8 5, as 8 plus 5 is 13, and we cannot write 13 underneath the tens
+position because 13 is greater than 10. So we all learned this important and
+amazing trick of say, writing only 3 and having 1 as a carry to the 100s place. And then we know how to con,
+we can continue from there. And then we can con,
+add the 1 to the 7 and so on. And after we finish the left-most digit,
+we have the complete result. So, exactly the same thing we're
+going to do in binary numbers, only it's going to be much, much easier. So we take 1 plus 0, the right-most
+two digits, and we need to add them. And that's easy, 1 plus 0 is 1,
+we can write it down. If we have 0 plus 0,
+that's also going to be very easy. We can write them down. Now the first time we get into
+a problem is we have 1 plus 1. because 1 plus 1 is 2. 2 is more than what we can write in
+a single digit, bit, Boolean bit. So we actually need to do the same
+kind of trick, write down 0 and carry the 1 to the next position. And now we can continue. We need to add 1 plus 0 plus 1. That's again, more than what we can
+write in a single bit because that's 2. So we write 0, we carry 1. Now we have 1 plus 1 plus 1. The answer is 3. So we write down 1, and
+we carry another 1. And that's how we continue, until we get
+the final solution, the final answer. And that's all there is to it. In, the rest of the unit we'll actually
+learn how to do this thing exactly, how to do this thing
+completely mechanically, in the sense of really understanding
+how every operation works in true, terms of binary operations
+that we've learned so far. But the basic principle
+is extremely simple, just like we learned in second grade. Before we continue, there is one thing
+I want to take out of the way, and that is a question of overflow. Suppose that we were somehow unlucky and
+the, and the two left-most bits of our,
+the two numbers we were adding were 1. So what is the problem with that? The problem is that,
+that when we add them, we have a carry that needs to
+go to the left of the word size. And there is no place to carry, to put that carry bit because
+we finished our word size. So what would we do? Will we raise some warning or
+anything like that? Well, the answer is very simple. What is usually done in
+computer systems is nothing. We just ignore any carry bit
+that does not fit into the word. What does that mean, really? So if you try to look at it from a
+mathematical point of view, what it means is that the addition that we're actually
+doing in our hardware is not real integer addition, because we cannot go beyond
+the numbers that fit inside the word size. Instead, what we have is really
+an addition module 2 to the width of the word size if you
+look at it mathematically. In others, in, in other, in other words,
+the answer is correct, but may, except for the case that it may be off by exactly
+2 to the n where n is the word size. If the result was more than 2 to the n, the hardware automatically
+decreases 2 to the n, which is basically the carry that we just
+threw because there was an overflow. So that's what they usually do, and the rest of anyone using a computer,
+anyone using computer and software, needs to remember that if he exceeds the
+word size, then the result that you get, that you get is not the true integer
+result of the integer addition, but rather the truncated result after
+the overflow was already disposed of. Once we took good,
+got that out of the way, let's go back and try to understand how will we, we actually
+going to build this kind of an adder. How can we actually get, build hardware
+that gets two numbers as bits, as input bits, and
+the output is another number that actually represents the sum
+of the two input numbers? We'll do that in three easy stages. In the first stage we'll just
+learn how to add two bits. Very simple. The second stage we'll learn
+how to add three bits. It may seem there is a long way to go
+if we are progressing so slowly, but then in one big step we'll be able to add
+any two numbers of any number of digits. So let's start with that. So let's look at the typical
+operation we were, when we were adding two bits in the,
+in the process we just looked at. How do we took a 1 plus 1 and we added
+it and we got a 0 sum and a 1 carry. How did we do that? Well, the
+most important thing is to notice that if the rest of the bits of all
+these two numbers do not add, do not matter at all when we're doing
+just this one bit slice of operation. Whatever the other bits were, as long
+as what we're adding now is 1 plus 1, and as long as one additional
+important thing, the carry so far, the carry we had to this place was 0, whatever the other bits are, we still
+are doing the operation exactly the same. We're going to put,
+write 0 below these two 1s, and we're going to have a carry of 1. This tells us that now we have really
+a just a simple binary operation. Taking two bits, a and b, and
+producing two output bits which depend only on them, which is one of
+them we're going to call the sum, the binary sum of these two things,
+and the other is a carry. And this is really the first
+step that we need to do. This would actually allow
+us to add two bits. Now this operation really,
+which is the slice one oper, one, one step of the process that we saw so far,
+is that's naturally abstracted by a chip. [COUGH] And the chip gets two inputs,
+a and b, two outputs, and we know exactly, for every combination of inputs,
+what the output is supposed to be. This chip is called the half adder, and implementing it is the first thing that
+you'll do in the exercise for this week. In fact, we're going to give you the exact
+HDL that describes the interface of this chip, and you're just going to
+have to do the implementation, which actually does implement this operation
+that we'll now understand what it is. And we've finished the first
+step of our journey adding, of journey to add numbers adding two bits. Now if you remember, the only real
+restrictions that we had when, when we were doing this addition of two
+bits was the fact that the carry to this point was 0. But that's not the general case. What happens more generally,
+is there may be a carry. Suppose now that we get another
+bit of the input, called c, which describes the carry from the
+previous step, which can be either 0 or 1. Now how do we do this addition? Well, we know we end,
+add the three numbers and we still get the sum and the carry. Again, now we get a Boolean gate, a chip, if you wish,
+that we know exactly its functionality. We have three inputs, a, b, and
+c, two outputs, sum and carry. And there are eight
+possibilities of the inputs. And for each of them, we can very
+well know what the outputs are. So that's another chip. And that chip is called a full adder. And again, you can go and implement it. And indeed, this is the second part of we,
+of our joining to addition. And again,
+we're giving you the HDL of this chip, and please go ahead and implement it. And now we're ready for
+the final step for doing everything. We get two full numbers and
+we want to add them. How are we going to do that? Well, we already know how to do
+every single step of the process, so we just have to repeat
+doing the single step. So let's look at what we did. We first, let's color the bits,
+the right-most bit yellow, the next one green, the next one blue. This is just so
+we can talk about them in terms of colors. But of course in the implementation there
+are no colors, just different bits. So we start of course,
+by just adding the two yellow bits. And adding the two yellow bits is
+just a half adder because we have no carry so far. And we get a yellow sum and
+a yellow carry. Now the next step is, we need to add
+the yellow carry to the two green bits. And from that, we get a green sum and
+a green carry. Now we take the green carry,
+add it to the two blue bits. Each one of these colored steps
+is simply a full adder now. The thing that takes that yellow carry,
+the two green bits, and outputs a green carry and a green sum,
+that's just a full adder. And that already we've implemented. So to implement the whole thing,
+we just need to basically connect 16 of these full adders, or maybe 15 full adders
+and 1 half adder for the right-most bit, connect them together in the right way,
+and you get exactly a, an adder. And this is what you're supposed to do. This is our 16-bit adder. It accepts two numbers now,
+each one of them is a bus of 16 bits, and outputs a single number that is supposed
+to be their sum as 16-bit integers. And again,
+we're going to give you the HDL for this. It just specifies that you're going to
+get two numbers, two 16-bit numbers, as busses in input, and
+produce a single number, 16-bit bus as output that is their sum in
+terms of 2 representation of the number. And you can go ahead and implement that. So we've just learned
+how to add two numbers in a very concrete sense of building
+the chips that actually do that. The next unit we'll actually go back and
+actually look at how do we represent negative numbers, something that
+we still owe you from last unit. Once we do that it will turn out
+that we'll get subtraction for free. After we get that under our belt, then
+we'll go to the capstone of this week's this week's lecture which is building
+a complete arithmetical logic unit. And it turns out that most of
+the cleverness is already done. The most clever thing that we have in
+a ALU unit is just adding two numbers. But, of course,
+we need a lot of logic around it, and that's what we will do in the fourth unit.

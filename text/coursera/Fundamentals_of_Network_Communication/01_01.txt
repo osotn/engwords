@@ -1,0 +1,68 @@
+Welcome, today's lesson is on
+the revolution of communication networks. A communication network in simplest
+form is a set of equipment and facilities set to provide a service. Is a transfer of information between
+users located at various locations. So ability of modern communication
+networks to transfer communication at extremely high speeds. Allows user to do access information in
+large volumes nearly instantaneously. So internet provides the communication
+services that enables computers to provide valuable services such as web,
+e-commerce, interactive games,
+streaming, and far more. Three example networks show how services
+influence the design of the network. They are telegraph network,
+telephone network, and computer networks. Figure shows the improvement in
+information transmission bit rate over the last 150 years. In this time, we have gone from
+telegraph network operated at tenths of bits per second to modern optical
+systems, operated at terabytes per second. In telegraph network a message
+is transmitted across a network using signals. In 1837, Samuel Morris
+demonstrated a practical telegraph that provided the basis for
+digital telegraph service. Morse code converts text message
+in sequence of data and dashes, and use transmission system
+designed to convey dots and dashes. Later, electric telegraph
+networks exploded. In these networks, a message or telegraph
+would arrive at a telegraph station. And an operator would make a routing
+decision based on the destination address. Store - and - Forward process was adopted. That is operator would
+store the entire message until the desired communication
+line became available. And then forward the message to
+the next appropriate station. The process is described
+as messenger switching. Now let's consider the Telegraph Network
+from a service and architecture view point. THe network contains the following
+key elements or functions. The foundation is a digital
+transmission system that will convert text messages
+in two symbols for communication. Framing is required for indicating
+the beginning and end of messages, and the working a sequence of dots
+dash into meaningful messages. Multiplexing is combining
+the symbols from several operators onto the same communication line. A method of specifying
+the destination address is needed. A routing procedure to time
+the path that a message follows. One may note that there
+are many similarities between the telephone networking and
+today's package networking. In 1876, Bell invented the telephone. Basic telephone service
+improved the two way real time transmission of voice
+signals across a network. Signalling is required
+to establish a call. Initial design which involved a direct
+link line between any two users. And it was quickly recognized that
+providing dedicated lines between each pair of users is very costly and
+in a fitable space used it twice. Imagine a spider net. In 1878 telephone switch were introduced
+to human operator to interconnector users and on demand. Later, the patch panel switch on
+human operators were replaced by automated electromechanical switch. Sudden it performs switching
+in automated manner. In this circuit switching only N
+connection required to central office to interconnect N users. If a telephone connection involves
+more than a single telephone office, several offices collaborated to
+establish an end to end connection. Telephone switching office
+is what interconnecting and organized in a hierarchical network,
+with customers attaching to end office. Which in turn connected two tandem offices
+on the force as shown in the figure. The connection from local office to its
+customers is called as the last mile. Let's now consider the interplay
+switching systems. We see the telephone that
+works are connection - oriented because they require
+the setting up of a connection before the actual transfer of
+information can take place. The transfer mode of a networks
+that involves setting up a dedicated end-to-end connection
+is called circuit switching. Note that in circuit switching, the
+routing decision is made when the path is set up in the switch and the transmission
+equivalent across a network. A telephone numbering system is
+used to identify users or stations. Hierarchical network structure simplifies
+the routing and achieved scalability. History repeats itself. From telegraph networks we learned
+message switching, store and forward, and
+a connectionless communications. From telephone networks we
+learned the circuit switching. And the connection
+oriented at communication. Computer networks supports both packet
+switching and virtual circuit switching.

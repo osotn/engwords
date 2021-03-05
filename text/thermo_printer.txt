@@ -52,6 +52,15 @@ CashDrawer/Cash Drawer: 0NoCashDrawer *1CashDrawer1BeforePrinting 2CashDrawer2Be
 BlankSpace/Blank space at page's end: 0Print *1NoPrint
 FeedDist/Feed distance after print: 0feed3mm 1feed6mm 2feed9mm 3feed12mm 4feed15mm 5feed18mm 6feed21mm 7feed24mm 8feed27mm *9feed30mm 10feed33mm 11feed36mm 12feed39mm 13feed42mm 14feed45mm
 
+udev command:
+$ sudo udevadm info /dev/usb/lp0
+$ cat /etc/udev/rules.d/50-usb-pos-termal-printer.rules 
+SUBSYSTEM=="usbmisc", ATTRS{idVendor}=="0416", ATTRS{idProduct}=="5011", MODE="0666"
+$ sudo udevadm control --reload
+plug-out/plug-in printer
+$ ls -la /dev/usb/lp0 
+crw-rw-rw-
+
 POS-5805DD
 POS-58 Receipt Printer User Manual
 is designed for use for use with electronic instruments such as:
@@ -108,5 +117,22 @@ BIT0: 0:Character font 12x24 selected; 1:Character font 8x16 selected
 BIT3: 1:Emphasized mode selected; 0:Emphasized mode not selected
 BIT4: 1:Double Height mode selected; 0:Double Height mode not selected
 BIT5: 1:Double Width mode selected; 0:Double Width mode not selected
-BIT7: 1:Underline mode selected ; 0:Underline mode not selected
+BIT7: 1:Unde[rline mode selected ; 0:Underline mode not selected
+
+7. GS ! n - Select Font size x1 x2 x3 x4 times !!! Reverse from Android SDK.
+echo -e "\x1D\x21\x00"
+Width : BIT0, BIT1
+Height : BIT4, BIT5
+0x11 = x2 (16 chars);
+0x22 = x3 (10 chars);
+0x33 = x4 ( 8 chars).
+
+
+GS B n   Black/White reverse mode           <---- !!! Reverse from Android SDK. not ESC but GS!!!
+Hexadecimal \x1D \x42 n 
+
+
+
+To test symbol 'h'
+echo -e  "ȾȾȾȾȾȾȾ\nh ȾhȾ h\nȾȾȾȾȾȾȾȾ" | pos_big4.sh
 

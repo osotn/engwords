@@ -1,0 +1,50 @@
+Hello, welcome to
+Computer Communications specialization. I'm Mr. _Xiaobo _Zhou, a professor in computer science at the
+University of _Colorado, _Colorado Springs. I joined this beautiful and
+vibrant university in 2003. Time flies, I have been teaching at
+the university for almost 14 years, starting as an assistant professor,
+later as associate professor, and now full professor. I also served as a Chair of the Department
+of Computer Science from 2011 to 2016. Now I also serve as Interim Dean
+of the College of Engineering and Applied Sciences. I teach broadly in computer science,
+including computer networks and communication, operating systems,
+distributor systems, computer architecture, and programming. I directed the Distributed, Sustainable
+and Cloud Computing Lab called DISCO. My team aims to explore in depth
+understanding of distributed, sustainable, and cloud computing and
+augmented services. And develop innovative technologies
+to enhance the system performance, dependability, scalability,
+and the sustainability. The research was supported in part by
+the National Science Foundation and Air Force Research Lab. I obtained an _NSF Career Award in 2009 and the University Faculty Award for
+excellence research in 2011. Modern data centers hosting popular
+Internet services and big data applications, face significant challenges
+in performance and power control. The challenges are due to complex
+interaction of highly dynamic and heterogeneous workloads in compressed
+virtualized computing systems. Data center basic cloud services
+often exhibit unpredictable performance variations due to
+multitenant interference and the heterogeneity in dataset and hardware. Our research, designs and develops
+systematic approach at a system and middleware levels to
+reduce performance and variations of in-cloud applications
+without compromising other objectives, such as a high data center utilization and
+a good average of performance. Provide autonomic performance and
+power control on virtualized cloud environments, and
+enable big data processing frameworks. Such as _MapReduce _Hadoop and
+Spark to fully exploit the benefits of flexible and
+elastic resource allocations in the cloud, while addressing the overhead and
+issues caused by server virtualization. Many accomplishments are attributed
+at the dedication and talents from my graduate students. I have graduated 6 PhD students so far. After graduation, they joined
+academia as tenure track faculty, or industry as engineer,
+researcher, and a manager. I'm currently supervising
+eight PhD students. I'm very actively involved in
+professional communities related to distribute cloud computing, as well
+as computer communications and networks. I serve as a General Co-Chair,
+Program Co-Chair, Program Vice-Chair on several
+major international conferences, including _CCGrid, _GLOBECOM, and _ICCCN. I also served as a technical program or many conference in
+a fields such as _InfoCom. How I started was this. I obtained my degrees from university
+an Ivy league school in China. My senior design project was to
+implement a reliable upon _PSD circuit in a distributor
+cluster of Unix stations. I still recall the challenges of
+sequenceing on a Windows sliding. Follow watching or other workstations blocked by my
+sender machine at a broadcasting. An excitements of accomplishing
+the mechanism in a reliable and efficient way finally. This is the first time that I developed
+a Coursera MOOC specialization and there is certainly room to
+continue it's improvement but also seems to be hope that you
+find this specialization useful.

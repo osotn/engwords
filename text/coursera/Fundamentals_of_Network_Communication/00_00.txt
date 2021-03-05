@@ -1,0 +1,21 @@
+Week 1
+Introduction (4 min)
+Evolution of Communication Networks (5 min)
+Computer Network Evolution (5 min)
+Examples of Protocols and Services (5 min)
+
+Week 2
+Layered Architecture and OSI Model (5 min)
+OSI Unified View of Protocols and Services (5 min)
+TCP/IP: Architecture and Routing Examples (6 min)
+
+Week 3
+Berkeley Sockets API - I (6 min)
+Berkeley Sockets API - II (5 min)
+Digital Transmission Fundamentals (6 min)
+
+Week 4
+Error Control - Parity Checks (7 min)
+Error Control – Polynomial Codes (CRC) (7 min)
+CRC Capability, Internet Checksum (7 min)
+
