@@ -1,0 +1,67 @@
+Today, we will learn Layered Architecture
+and OSI reference model. OSI reference model was developed
+as an open system architecture for the design of computer networks that
+could communicate with each other. The model partitioned the communication
+process into seven layers. From the bottom up, they are physical
+layer, data link layer, network layer, transport layer, session layer,
+presentation layer, and application layer. The seven layers are for
+the communicating end systems. Note that the top four layers are for
+end-to-end communications. For a network node,
+it only has at lowest three layers. The network and data link layers involve interaction of
+peer to peer process across a single hop. One may ask, why layering architectures? A layering architecture simplifies design,
+implementation, and testing of networks by partitioning
+oval communication process into parts. Protocol in each layer can be designed
+separately from those in other layers. Protocol makes calls for
+services from the layer below. Layering also provides flexibility for
+modifying and evolving protocols and services
+without having to change layers below. Next, we discuss major functions
+of each layer from bottom up. Physical layer deals with the transmit
+of bits of our communication channel. Such as uncoupled wire pairs. The layer is concerned now with
+a particular choice of system parameters. It also is concerned with
+the procedures to set up and release the connection as
+well as mechanical aspects. The data link layer provides for the
+transfer of block of information called the frames across our transmission
+link that directly connects to nodes. It will insert framing information
+into the sequence of transmitted bits to indicate the boundary of the frames. It is concerned with how
+to group this into frames, how to detect big errors during
+digital transmission, and how to calculate checked bits for
+error detection. It inserts can show an address
+information in the header, and the check bits in the trailer, to enable
+recovery from transmission errors. Please note that our link includes the
+case where multiple nodes are connected to a broadcast medium,
+such as our local area network, LAN. Therefore, a media
+access control procedure is required to coordinate
+the access to the broadcast medium. Another key function is to do node
+to node flow control which is avoid a buffer overflow
+at the receiving node. Network layer provides for
+the transfer of packets across a communication network or
+multiple networks. One key aspect is that as addressing
+must be scalable to accommodate a very large number of network users. Another key aspect in that
+network codes jointly execute routing algorithms to determine
+the routing paths across the network. By routing protocol we mean the procedure
+to select paths across a network. This function makes network layer as
+the most complex in the reference model. The network layer is also responsible for
+congestion control to deal with temporary surges in packet
+to traffic from time to time. When two hosts are connected
+at two different networks, transfer of data must traverse two or more networks that are possibly differ in
+their internal routing and address scheme. In the networking is a part of network
+layer that provides transfer of package between gateway routers that
+are connected to intermediate network, as shown in the figure. The example in the figure
+illustrates a possible scenario that one host is connected to an ethernet LAN. My ATM network may
+connect gateway routers. Transport layer is responsible for
+the end to end transfer of messages from the process in a source machine to
+a process In the destination machine. The layer accepts message from its
+higher layer and prepares block of information called segments or data
+grams for transfer between end machines. Transporting layer provides
+different kind of services. One example, it may provide
+service that it involves reliable, error-free transfer of sequence bites or
+messages. And the other, it may provide
+a connectionless service of quick, and simple one message transfer. The session layer and the presentation
+layer were defined with different functions by inpractice that incorporated
+with to the application layer. Application layer is to provide services
+that are frequently required by applications that involve communication,
+for example, HTTP protocol, domain name service, file transfer,
+email and other applications. As a summary, the overall
+communication process between two or more machines connected across one or
+more networks is very complex. Layering partitions related communication
+functions into groups that are manageable.

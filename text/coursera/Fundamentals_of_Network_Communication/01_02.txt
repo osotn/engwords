@@ -40,7 +40,7 @@ to support Different applications. The transfer of message between
 networked computers seem to be similar to the message switching
 services in telegraph networks. But computer networks should
 support multiple applications, transmission time should be short enough. For messages from interactive
-applications, while the store-and-forward operation could induce high delay for
+applications, while the store - and - forward operation could induce high delay for
 large messages. Packet switching was designed to provide
 a package transfer service, where a packet is of variable length broken
 information up to some specified maximum. Using messages that do not fit inside
@@ -56,7 +56,7 @@ the check bits are used for error control. Destinations are identified
 by unique addresses. And the routing tables are calculating
 dynamically at the packet switch. It provides end-to-end congestion
 control to prevent congestion inside the network and
-flow control to prevent buffer overflow. As ARPANET evolved to NSF-NET,
+flow control to prevent buffer overflow. As ARPANET evolved to _NSF-NET,
 more nodes joined the network, and a new application was introduced. As workstations and PCs became
 more affordable there was need for low cost, low error rate,
 and high speed networks. The practice gave rise to networks with
