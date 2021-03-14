@@ -1,5 +1,5 @@
 # Manage external tools
- - Ctrl   +   Alt   +  /    =  run -d 500 (current line)    # all words for the current line
+ - Ctrl   +   Alt   +  /    =  run -d 1 (current line)    # all words for the current line
  - Ctrl   +   Alt   +  .    =  run -unfm  (selected line)   # unknown words of the selected line
  - Ctrl   +   Alt   +  ,    =  run -d 500 (current word)
 
@@ -23,7 +23,7 @@ Ctrl+Alt+/
 #!/bin/sh
 # english line
 cd ~/gitspace/osotn/engwords
-echo $GEDIT_CURRENT_LINE | ./engwords -d 500 >>./fifo
+echo $GEDIT_CURRENT_LINE | ./engwords -d 1 >>./fifo
 
 Ctrl+Super+/
 #!/bin/sh
