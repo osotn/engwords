@@ -449,27 +449,31 @@ int utf8_trick_tolower(char *pc, int *pn)
 
 }
 
-
-int transform_word(char *s)
+/* May skip the first characters of a word */
+int transform_word(char **p_s)
 {
   char c;
   int i = 0, n;
- 
-  if (!utf8_trick_isalpha(s, &n))
+
+  /* skip the first '(' */
+  while (**p_s == '(')
+      ++(*p_s);
+
+  if (!utf8_trick_isalpha(*p_s, &n))
     return 0;
 
-  while ((c = s[i]) != '\0')
+  while ((c = (*p_s)[i]) != '\0')
   {
-    if (!utf8_trick_isalpha(s+i, &n)  && c != '\'' && c != '-')
+    if (!utf8_trick_isalpha(*p_s + i, &n)  && c != '\'' && c != '-')
     {
-      s[i] = '\0';
+      (*p_s)[i] = '\0';
       break;
     }
     
     i += n;
   }
 
-  utf8_trick_tolower(s, &n);
+  utf8_trick_tolower(*p_s, &n);
 
   return i + n; 
 }
@@ -497,25 +501,26 @@ void main(int argc, char * argv[])
   while ((len = get_word(word, MAX_WORD_SIZE, fPutChars)) > 0)
   {
     int index;
+    char * p_word = word;
     //printf(">%s\n", word);
-    if (transform_word(word) == 0)
+    if (transform_word(&p_word) == 0)
       continue;
 
     //printf(">>%s\n", word);
-    index = add_word(word);
+    index = add_word(p_word);
 
     if (!fUnique)
     {
-      is_s = is_sound(word);
-      is_p = is_phonetic(word);
-      is_t = is_translation(word);
-      is_a = is_my_active(word);
-      is_f1000 = 0;//is_first_1000(word);
-      is_f3000 = is_oxford_3000_keys/*is_first_3000*/(word);
-      is_f4000 = is_ielts_4000(word);
-      is_f5000 = is_toefl_5000_keys(word);
-      is_f10000 = is_first_10000(word);
-      is_f20000 = is_first_20000(word);
+      is_s = is_sound(p_word);
+      is_p = is_phonetic(p_word);
+      is_t = is_translation(p_word);
+      is_a = is_my_active(p_word);
+      is_f1000 = 0;//is_first_1000(p_word);
+      is_f3000 = is_oxford_3000_keys/*is_first_3000*/(p_word);
+      is_f4000 = is_ielts_4000(p_word);
+      is_f5000 = is_toefl_5000_keys(p_word);
+      is_f10000 = is_first_10000(p_word);
+      is_f20000 = is_first_20000(p_word);
       p = is_f1000 ? "1T" : (is_f3000 ? "3T" : (is_f4000 ? "4T" : (is_f5000 ? "5T" : (is_f10000 ? "xT" : (is_f20000 ? "yT" : "xx")))));
       if (!fWithoutColor && !is_a)
         printf(TTY_LIGHT_CYAN);
@@ -524,16 +529,16 @@ void main(int argc, char * argv[])
       {
           if (!fNoIndexes)
               printf("%5d,%5d(%3d). ", i, index, words[index].number);
-          printf("%s %s%s  %s", p, is_a ? "*" : "?", is_s ? "#" : " ", word);
+          printf("%s %s%s  %s", p, is_a ? "*" : "?", is_s ? "#" : " ", p_word);
           if (is_p)
-              printf(" [%s]", get_phonetic(word));
+              printf(" [%s]", get_phonetic(p_word));
           if (is_t)
-              printf(" %s", get_translation(word));  
+              printf(" %s", get_translation(p_word));  
           printf("\n");
       }
       else
       {
-          printf("%s ", word);
+          printf("%s ", p_word);
       }
 
       if (!fWithoutColor)
@@ -552,7 +557,7 @@ void main(int argc, char * argv[])
           }
 
           if (!fNoSound) {
-              sound_if_possible(word);
+              sound_if_possible(p_word);
           }
       }
       }
