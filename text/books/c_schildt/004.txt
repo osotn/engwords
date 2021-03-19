@@ -1,0 +1,45 @@
+Chapter 4 Arrays and Strings
+============================
+
+An array is a collection of variables of the same type that are referred to through a common name.
+A specific element in an array is accessed by an index.
+In C, all arrays consist of contiguous memory locations.
+The lowest address corresponds to the first element.
+Arrays and pointers are closely related.
+
+single - dimensional arrays
+---------------------------
+type var_name[size];
+
+C89: the size of an array must be specified using a constant expression.
+C99: allows to determine sizes at run time.
+
+All arrays have 0 as the index of their first element.
+C has no bounds checking on arrays.
+
+type array[10];
+access array[0] .. array[9]
+type *p = array or &array[0] - it's the same. But don't use &array[0].
+
+Passing single - dimension arrays to functions
+----------------------------------------------
+You cannot to pass an entire array as an argument to a function.
+Only pass a pointer to an array by specifying the array's name without an index.
+Parameters can be:
+ - as a pointer;
+ - as a sized array;
+ - as an unsized array.
+
+Strings
+-------
+In C, a string is a null - terminated character array.
+A string constant is a list of characters enclosed in double quotes.
+
+
+
+
+
+
+
+
+

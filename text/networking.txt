@@ -1,0 +1,34 @@
+HTTPS
+How does HTTPS work?
+
+Prerequisities
+--------------
+You need to trust that public key cryptography and signature works:
+1. Any message encrypted with Bob's public key can only be decrypted with Bob's private key.
+2. Anyone with access to Alice's public key can verify that a message (signature) could only have been created by someone with access to Alice's private key.
+
+.---------.                                         .----------.
+|         |                                         |          |
+.---------.                                         .----------.
+Your browser                                      https://youtube.com
+
+                   -------------------->
+                       DNS request, get ip
+
+                   <-----------------------
+                      certificate that contains
+                      public key, siged by Google CA.
+
+                   --------------------->
+                       using public key, encrypted
+                       a new secret key with public key.
+
+
+.---------.                                         .----------.
+|         |                                         |          |
+.---------.                                         .----------.
+https://youtube.com                                   Google CA
+
+                                                  Private Key / Public Key
+
+

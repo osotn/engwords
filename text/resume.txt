@@ -1,0 +1,86 @@
+Cambium Networks
+----------------
+Fixed wireless is the operation of wireless communication devices or systems
+used to connect two fixed locations (e.g., building to building or tower to building)
+with a radio or other wireless link, such as laser bridge. It is part of a wireless
+LAN infrastructure.
+The point-to-point signal transmissions occur through the air over a terrestrial
+microwave platform rather than through copper or optical fiber.
+Fixed wireless antennas are generally larger than those in Wi-Fi setups and are
+designed for outdoor use. These antennas are typically designed to be used
+in the unlicensed ISM band radio frequency bands (900 MHz, 1.8 GHz, 2.4 GHz and 5 GHz).
+----
+
+Cambium Networks (formerly known as Motorola Canopy) is a fixed wireless networking
+system designed for wireless Internet service providers to provide Internet access.
+An American software company, it provides wireless technology, including 
+ - Enterprise WiFi
+ - switching solutions;
+ - Internet of Things;
+ - fixed wireless broadband for enterprises.
+
+It spun out of Motorola in October 2011.
+
+Point-to-point backhaul.
+In a hierarchical telecommunications network, the backhaul portion of the network comprises the intermediate links between the core network, or backbone network, and the small subnetworks at the edge of the network.
+
+ - point-to-point backhaul;
+ - point-to-multipoint communication wide area network (WAN);
+ - Wi-Fi indoor;
+ - outdoor access;
+ - cloud-based network management systems.
+
+Cambium Networks was created when Motorola Solutions sold the Canopy and Orthogon
+businesses in 2011.
+Three product lines:
+ - Point-to-point (PTP) (formerly Orthogon);
+ - Point-to-Multipoint (PMP) (formerly Canopy);
+ - ePMP = economic / equalize PMP !!!
+
+ePMP is a revolutionary wireless access platform for connecting emerging communities
+around the globe. e = equalize --- connect the unconnected. Make a difference, equalize
+is our call to action.
+
+Proprietary wireless IEEE 802.11 compatible protocol implementation, based on TDD, allowing long distance P2P and PMP links with high throughput.
+
+Wireless solution (custom TDMA MAC L2) PTP & PMP based on 802.11 Qualcomm SoC
+• Driving developing, platform bringup 
+
+Arisent - Frog - Delphi
+
+TDMA - time division multiple access
+
+August 2018 - April 2019
+
+SPI driver for mcu-based watchdog timer.
+on-fail log dump in RAM memory (cache problem, booting).
+flash memory control - mtd - char/block dev
+WiFi proprietary Cambium TDMA issues bug fixing/features
+Device Tree/uboot/config bringup
+OpenWrt
+SysReq, soft/hard reset
+802.11 Qualcomm SoC  n/ac
+
+ - С;
+ - Linix kernel / network drivers
+ - OpenWrt
+ - JIRA / bitbucket git/repo
+ - Jenkins - building, testing, and deploying - 
+CI ( continuous integration) /CD ( continuous delivery)
+ - Docker 
+
+Siklu
+Oct 2017    - August 2018
+
+Siklu WiGig MultiHaul AP (via Delphi Software outstaff)
+
+Development of Siklu WiGig (60GHz) L2 network Point-to-Multipoint radio (AP). 
+
+Implementation of ways for fast packet processing between radio and wired cards. 
+Including of BSP and kernel modules porting to 4.14 kernel, network drivers (Qualcomm Wil6210, Marvell Armada) acceleration, RPS and SMP affinity tunning, DPDK PMD.
+
+Marvell Armada (2 core) -> NXP
+DPDK PMD (poll mode driver).
+Open vSwitch (OVS)
+
+

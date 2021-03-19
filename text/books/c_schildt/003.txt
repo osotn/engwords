@@ -1,0 +1,39 @@
+Chapter 3 Statements
+====================
+
+// TODO
+
+Jump Statements
+---------------
+C has 4 statements that perform an unconditional branch:
+ - return;
+ - goto;
+ - break;
+ - continue.
+
+break and continue  - for any the loop statement.
+break               - for switch
+
+return <expression> - in function to return ( jump back to the point of calling ).
+return              - in void function, C99/C++
+
+goto <label>
+...
+label:
+
+Expression statements
+---------------------
+func();    /* a function call */
+a = b+c;   /* an assignment statement */
+b+f();     /* a valid, but strange statement */
+;          /* empty statement */
+
+Block statement
+---------------
+{} - compound statement
+
+
+
+
+
+

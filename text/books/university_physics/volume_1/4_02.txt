@@ -1,0 +1,53 @@
+Learning Objectives
+By the end of this section, you will be able to:
+
+Calculate the acceleration vector given the velocity function in unit vector notation.
+Describe the motion of a particle with a constant acceleration in three dimensions.
+Use the one-dimensional motion equations along perpendicular axes to solve a problem in two or three dimensions with a constant acceleration.
+Express the acceleration in unit vector notation.
+
+Instantaneous Acceleration
+--------------------------
+In addition to obtaining the displacement and velocity vectors of an object in motion, we often want to know its acceleration vector at any point in time along its trajectory. This acceleration vector is the instantaneous acceleration and it can be obtained from the derivative with respect to time of the velocity function, as we have seen in a previous chapter. The only difference in two or three dimensions is that these are now vector quantities. Taking the derivative with respect to time 𝐯⃗ (𝑡), we find
+
+𝐚⃗ (𝑡)=lim𝑡→0 (𝐯⃗ (𝑡+Δ𝑡)−𝐯⃗ (𝑡))/Δ𝑡=𝑑𝐯⃗ (𝑡)/𝑑𝑡.
+
+The acceleration in terms of components is
+
+𝐚⃗ (𝑡)=𝑑𝑣𝑥(𝑡)𝑑𝑡𝐢ˆ+𝑑𝑣𝑦(𝑡)𝑑𝑡𝐣ˆ+𝑑𝑣𝑧(𝑡)𝑑𝑡𝐤ˆ.
+4.9
+Also, since the velocity is the derivative of the position function, we can write the acceleration in terms of the second derivative of the position function:
+
+𝐚⃗ (𝑡)=𝑑2𝑥(𝑡)𝑑𝑡2𝐢ˆ+𝑑2𝑦(𝑡)𝑑𝑡2𝐣ˆ+𝑑2𝑧(𝑡)𝑑𝑡2𝐤ˆ.
+
+
+Constant Acceleration
+---------------------
+Multidimensional motion with constant acceleration can be treated the same way as shown in the previous chapter for one-dimensional motion. Earlier we showed that three-dimensional motion is equivalent to three one-dimensional motions, each along an axis perpendicular to the others. To develop the relevant equations in each direction, let’s consider the two-dimensional problem of a particle moving in the xy plane with constant acceleration, ignoring the z - component for the moment. The acceleration vector is
+
+𝐚⃗ =𝑎0𝑥𝐢ˆ+𝑎0𝑦𝐣ˆ.
+
+Each component of the motion has a separate set of equations similar to Equation 3.10–Equation 3.14 of the previous chapter on one-dimensional motion. We show only the equations for position and velocity in the x - and y - directions. A similar set of kinematic equations could be written for motion in the z - direction:
+
+𝑥(𝑡)=𝑥0+(𝑣𝑥)avg𝑡
+4.11
+𝑣𝑥(𝑡)=𝑣0𝑥+𝑎𝑥𝑡
+4.12
+𝑥(𝑡)=𝑥0+𝑣0𝑥𝑡+12𝑎𝑥𝑡2
+4.13
+𝑣2𝑥(𝑡)=𝑣20𝑥+2𝑎𝑥(𝑥−𝑥0)
+4.14
+𝑦(𝑡)=𝑦0+(𝑣𝑦)avg𝑡
+4.15
+𝑣𝑦(𝑡)=𝑣0𝑦+𝑎𝑦𝑡
+4.16
+𝑦(𝑡)=𝑦0+𝑣0𝑦𝑡+12𝑎𝑦𝑡2
+4.17
+𝑣2𝑦(𝑡)=𝑣20𝑦+2𝑎𝑦(𝑦−𝑦0).
+4.18
+Here the subscript 0 denotes the initial position or velocity. Equation 4.11 to Equation 4.18 can be substituted into Equation 4.2 and Equation 4.5 without the z - component to obtain the position vector and velocity vector as a function of time in two dimensions:
+
+𝐫⃗ (𝑡)=𝑥(𝑡)𝐢ˆ+𝑦(𝑡)𝐣ˆand𝐯⃗ (𝑡)=𝑣𝑥(𝑡)𝐢ˆ+𝑣𝑦(𝑡)𝐣ˆ.
+The following example illustrates a practical use of the kinematic equations in two dimensions.
+
+

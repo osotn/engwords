@@ -1,0 +1,81 @@
+
+Learning Objectives
+-------------------
+By the end of this section, you will be able to:
+
+Calculate position vectors in a multidimensional displacement problem.
+Solve for the displacement in two or three dimensions.
+Calculate the velocity vector given the position vector as a function of time.
+Calculate the average velocity in multiple dimensions.
+
+Displacement and velocity in two or three dimensions are straightforward extensions of the one-dimensional definitions. However, now they are vector quantities, so calculations with them have to follow the rules of vector algebra, not scalar algebra.
+
+Displacement Vector
+-------------------
+To describe motion in two and three dimensions, we must first establish a coordinate system and a convention for the axes. We generally use the coordinates x, y, and z to locate a particle at point P(x, y, z) in three dimensions. If the particle is moving, the variables x, y, and z are functions of time (t):
+
+𝑥=𝑥(𝑡)𝑦=𝑦(𝑡)𝑧=𝑧(𝑡).
+4.1
+The position vector from the origin of the coordinate system to point P is 𝐫⃗ (𝑡). In unit vector notation, introduced in Coordinate Systems and Components of a Vector, 𝐫⃗ (𝑡) is
+
+𝐫⃗ (𝑡)=𝑥(𝑡)𝐢ˆ+𝑦(𝑡)𝐣ˆ+𝑧(𝑡)𝐤ˆ.
+
+Figure 4.2 shows the coordinate system and the vector to point P, where a particle could be located at a particular time t. Note the orientation of the x, y, and z axes. This orientation is called a right - handed coordinate system (Coordinate Systems and Components of a Vector) and it is used throughout the chapter.
+
+With our definition of the position of a particle in three-dimensional space, we can formulate the three-dimensional displacement. Figure 4.3 shows a particle at time 𝑡1 located at 𝑃1 with position vector 𝐫⃗ (𝑡1). At a later time 𝑡2, the particle is located at 𝑃2 with position vector 𝐫⃗ (𝑡2). The displacement vector Δ𝐫⃗  is found by subtracting 𝐫⃗ (𝑡1) from 𝐫⃗ (𝑡2):
+
+Vector addition is discussed in Vectors. Note that this is the same operation we did in one dimension, but now the vectors are in three-dimensional space.
+
+----------------
+EXAMPLE 4.1
+Polar Orbiting Satellite
+A satellite is in a circular polar orbit around Earth at an altitude of 400 km—meaning, it passes directly overhead at the North and South Poles. What is the magnitude and direction of the displacement vector from when it is directly over the North Pole to when it is at −45° latitude?
+Strategy
+We make a picture of the problem to visualize the solution graphically. This will aid in our understanding of the displacement. We then use unit vectors to solve for the displacement.
+Solution
+Figure 4.4 shows the surface of Earth and a circle that represents the orbit of the satellite. Although satellites are moving in three-dimensional space, they follow trajectories of ellipses, which can be graphed in two dimensions. The position vectors are drawn from the center of Earth, which we take to be the origin of the coordinate system, with the y-axis as north and the x-axis as east. The vector between them is the displacement of the satellite. We take the radius of Earth as 6370 km, so the length of each position vector is 6770 km.
+--------------
+
+Velocity Vector
+---------------
+In the previous chapter we found the instantaneous velocity by calculating the derivative of the position function with respect to time. We can do the same operation in two and three dimensions, but we use vectors. The instantaneous velocity vector is now
+
+𝐯⃗ (𝑡)=limΔ𝑡→0𝐫⃗ (𝑡+Δ𝑡)−𝐫⃗ (𝑡)Δ𝑡=𝑑𝐫⃗ 𝑑𝑡.
+
+Let’s look at the relative orientation of the position vector and velocity vector graphically. In Figure 4.7 we show the vectors 𝐫⃗ (𝑡) and 𝐫⃗ (𝑡+Δ𝑡), which give the position of a particle moving along a path represented by the gray line. As Δ𝑡 goes to zero, the velocity vector, given by Equation 4.4, becomes tangent to the path of the particle at time t.
+
+
+Equation 4.4 can also be written in terms of the components of  𝐯⃗ (𝑡).  Since
+
+𝐫⃗ (𝑡)=𝑥(𝑡)𝐢ˆ+𝑦(𝑡)𝐣ˆ+𝑧(𝑡)𝐤ˆ,
+ 
+we can write
+
+𝐯⃗ (𝑡)=𝑣𝑥(𝑡)𝐢ˆ+𝑣𝑦(𝑡)𝐣ˆ+𝑣𝑧(𝑡)𝐤ˆ
+ 
+4.5
+where
+
+𝑣𝑥(𝑡)=𝑑𝑥(𝑡)𝑑𝑡,𝑣𝑦(𝑡)=𝑑𝑦(𝑡)𝑑𝑡,𝑣𝑧(𝑡)=𝑑𝑧(𝑡)𝑑𝑡.
+ 
+4.6
+If only the average velocity is of concern, we have the vector equivalent of the one-dimensional average velocity for two and three dimensions:
+
+𝐯⃗ avg=𝐫⃗ (𝑡2)−𝐫⃗ (𝑡1)/𝑡2−𝑡1.
+
+
+The Independence of Perpendicular Motions
+-----------------------------------------
+When we look at the three-dimensional equations for position and velocity written in unit vector notation, Equation 4.2 and Equation 4.5, we see the components of these equations are separate and unique functions of time that do not depend on one another. Motion along the x direction has no part of its motion along the y and z directions, and similarly for the other two coordinate axes. Thus, the motion of an object in two or three dimensions can be divided into separate, independent motions along the perpendicular axes of the coordinate system in which the motion takes place.
+
+To illustrate this concept with respect to displacement, consider a woman walking from point A to point B in a city with square blocks. The woman taking the path from A to B may walk east for so many blocks and then north (two perpendicular directions) for another set of blocks to arrive at B. How far she walks east is affected only by her motion eastward. Similarly, how far she walks north is affected only by her motion northward.
+
+INDEPENDENCE OF MOTION
+In the kinematic description of motion, we are able to treat the horizontal and vertical components of motion separately. In many cases, motion in the horizontal direction does not affect motion in the vertical direction, and vice versa.
+
+An example illustrating the independence of vertical and horizontal motions is given by two baseballs. One baseball is dropped from rest. At the same instant, another is thrown horizontally from the same height and it follows a curved path. A stroboscope captures the positions of the balls at fixed time intervals as they fall (Figure 4.8).
+
+It is remarkable that for each flash of the strobe, the vertical positions of the two balls are the same. This similarity implies vertical motion is independent of whether the ball is moving horizontally. (Assuming no air resistance, the vertical motion of a falling object is influenced by gravity only, not by any horizontal forces.) Careful examination of the ball thrown horizontally shows it travels the same horizontal distance between flashes. This is because there are no additional forces on the ball in the horizontal direction after it is thrown. This result means horizontal velocity is constant and is affected neither by vertical motion nor by gravity (which is vertical). Note this case is true for ideal conditions only. In the real world, air resistance affects the speed of the balls in both directions.
+
+The two-dimensional curved path of the horizontally thrown ball is composed of two independent one-dimensional motions (horizontal and vertical). The key to analyzing such motion, called projectile motion, is to resolve it into motions along perpendicular directions. Resolving two-dimensional motion into perpendicular components is possible because the components are independent.
+

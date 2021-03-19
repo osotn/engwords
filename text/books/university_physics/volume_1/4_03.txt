@@ -1,0 +1,14 @@
+Learning Objectives
+
+By the end of this section, you will be able to:
+
+Use one-dimensional motion in perpendicular directions to analyze projectile motion.
+Calculate the range, time of flight, and maximum height of a projectile that is launched and impacts a flat, horizontal surface.
+Find the time of flight and impact velocity of a projectile that lands at a different height from that of launch.
+
+Calculate the trajectory of a projectile.
+-----------------------------------------
+Projectile motion is the motion of an object thrown or projected into the air, subject only to acceleration as a result of gravity. The applications of projectile motion in physics and engineering are numerous. Some examples include meteors as they enter Earth’s atmosphere, fireworks, and the motion of any ball in sports. Such objects are called projectiles and their path is called a trajectory. The motion of falling objects as discussed in Motion Along a Straight Line is a simple one-dimensional type of projectile motion in which there is no horizontal movement. In this section, we consider two-dimensional projectile motion, and our treatment neglects the effects of air resistance.
+
+The most important fact to remember here is that motions along perpendicular axes are independent and thus can be analyzed separately. We discussed this fact in Displacement and Velocity Vectors, where we saw that vertical and horizontal motions are independent. The key to analyzing two-dimensional projectile motion is to break it into two motions: one along the horizontal axis and the other along the vertical. (This choice of axes is the most sensible because acceleration resulting from gravity is vertical; thus, there is no acceleration along the horizontal axis when air resistance is negligible.) As is customary, we call the horizontal axis the x-axis and the vertical axis the y-axis. It is not required that we use this choice of axes; it is simply convenient in the case of gravitational acceleration. In other cases we may choose a different set of axes. Figure 4.11 illustrates the notation for displacement, where we define 𝐬⃗  to be the total displacement, and 𝐱⃗  and 𝐲⃗  are its component vectors along the horizontal and vertical axes, respectively. The magnitudes of these vectors are s, x, and y.
+
