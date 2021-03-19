@@ -86,7 +86,7 @@ cd ~/gitspace/osotn/engwords
 echo $GEDIT_CURRENT_WORD | ./pos_big4.sh
 
 
-from gi.repository import Gio
+from gi.repository import Gio, Gtk, Pango
 import os
 
 window.get_application().add_accelerator("<Primary>E", "win.engwords", None)
@@ -94,13 +94,19 @@ action = Gio.SimpleAction(name="engwords");
 action.connect('activate', lambda a,p: engwords())
 window.add_action(action)
 
+# Need to change.
+engwords_path = "home/osotn/gitspace/osotn/engwords"
 
 def is_word_unknown(word):
-    return not os.path.exists("/home/osotn/gitspace/osotn/engwords/words/active/" + word)
+    return not os.path.exists(engwords_path + "/words/active/" + word)
 
 def is_word_untranslated(word):
-    return not os.path.exists("/home/osotn/gitspace/osotn/engwords/translations/" + word)
+    return not os.path.exists(engwords_path + "/translations/" + word)
 
+def is_word_xT(word):
+    p = engwords_path + "/words/"
+    f = "/" + word + ".txt"
+    return os.path.exists(p + "first_3000" + f) or os.path.exists(p + "ielts_general_4000" + f) or os.path.exists(p + "toefl_5000" + f) or os.path.exists(p + "first_10000" + f)
 
 def get_word(sel):
     iter, end = sel
@@ -117,6 +123,11 @@ def get_word(sel):
 def transform_word(sel):
     word = ""
     start, end = sel
+
+    # skip the first "(".
+    while start.get_char() == "(":
+        start.forward_char();
+
     iter = start.copy()
     while end.compare(iter) >= 1:
         c = iter.get_char()
@@ -127,40 +138,58 @@ def transform_word(sel):
     end.set_offset(iter.get_offset())
     return word
 
-def color_unknown_words(sel):
+def remove_all_tags(sel):
     buffer = sel[0].get_buffer()
-    buffer.create_tag("all_text",     background="#FFFFFF", foreground="#000000");
-    buffer.apply_tag_by_name("all_text", sel[0], sel[1]);
-    buffer.create_tag("unknown_word", background="#FFFFFF", foreground="#008F8F");
-    buffer.create_tag("untransl_word", background="#FFFFFF", foreground="#0000FF");
-    buffer.create_tag("untransl_unknown_word", background="#FFFFFF", foreground="#FF0000");
+
+    buffer.remove_tag_by_name("all_text", sel[0], sel[1]);
     buffer.remove_tag_by_name("unknown_word", sel[0], sel[1]);
     buffer.remove_tag_by_name("untransl_word", sel[0], sel[1]);
     buffer.remove_tag_by_name("untransl_unknown_word", sel[0], sel[1]);
+    buffer.remove_tag_by_name("unknown_word_xT", sel[0], sel[1]);
+    buffer.remove_tag_by_name("untransl_word_xT", sel[0], sel[1]);
+    buffer.remove_tag_by_name("untransl_unknown_word_xT", sel[0], sel[1]);
+
+
+def color_unknown_words(sel):
+    buffer = sel[0].get_buffer()
+
+    buffer.create_tag("all_text",     background="#FFFFFF", foreground="#000000");
+    buffer.create_tag("unknown_word", background="#FFFFFF", foreground="#008F8F");
+    buffer.create_tag("untransl_word", background="#FFFFFF", foreground="#0000FF");
+    buffer.create_tag("untransl_unknown_word", background="#FFFFFF", foreground="#FF0000");
+    buffer.create_tag("unknown_word_xT", background="#FFFFFF", foreground="#008F8F", underline=Pango.Underline.SINGLE);
+    buffer.create_tag("untransl_word_xT", background="#FFFFFF", foreground="#0000FF", underline=Pango.Underline.SINGLE);
+    buffer.create_tag("untransl_unknown_word_xT", background="#FFFFFF", foreground="#FF0000", underline=Pango.Underline.SINGLE);
+
+    remove_all_tags(sel)
+    buffer.apply_tag_by_name("all_text", sel[0], sel[1]);
+
     while sel[1].compare(sel[0]) >= 1:
         ws = get_word(sel)
         #print("1. ", buffer.get_text(ws[0], ws[1], True))
         word = transform_word(ws)
         #print("2. ", word)
         if word:
-            buffer.remove_tag_by_name("untransl_unknown_word", ws[0], ws[1]);
             if is_word_unknown(word):
                 if is_word_untranslated(word):
-                    buffer.remove_tag_by_name("all_text", ws[0], ws[1]);
-                    buffer.remove_tag_by_name("untransl_word", ws[0], ws[1]);
-                    buffer.remove_tag_by_name("unknown_word", ws[0], ws[1]);
-                    buffer.apply_tag_by_name("untransl_unknown_word", ws[0], ws[1])
+                    remove_all_tags(ws)
+                    if (is_word_xT(word)):
+                        buffer.apply_tag_by_name("untransl_unknown_word_xT", ws[0], ws[1])
+                    else:
+                        buffer.apply_tag_by_name("untransl_unknown_word", ws[0], ws[1])
                 else:
-                    buffer.remove_tag_by_name("all_text", ws[0], ws[1]);
-                    buffer.remove_tag_by_name("untransl_word", ws[0], ws[1]);
-                    buffer.remove_tag_by_name("untransl_unknown_word", ws[0], ws[1]);
-                    buffer.apply_tag_by_name("unknown_word", ws[0], ws[1])
+                    remove_all_tags(ws)
+                    if (is_word_xT(word)):
+                        buffer.apply_tag_by_name("unknown_word_xT", ws[0], ws[1])
+                    else:
+                        buffer.apply_tag_by_name("unknown_word", ws[0], ws[1])
             else:
                 if is_word_untranslated(word):
-                    buffer.remove_tag_by_name("all_text", ws[0], ws[1]);
-                    buffer.remove_tag_by_name("unknown_word", ws[0], ws[1]);
-                    buffer.remove_tag_by_name("untransl_unknown_word", ws[0], ws[1]);
-                    buffer.apply_tag_by_name("untransl_word", ws[0], ws[1])
+                    remove_all_tags(ws)
+                    if (is_word_xT(word)):
+                        buffer.apply_tag_by_name("untransl_word_xT", ws[0], ws[1])
+                    else:
+                        buffer.apply_tag_by_name("untransl_word", ws[0], ws[1])
             #print("3. ", buffer.get_text(ws[0], ws[1], True))
 
 def engwords():
