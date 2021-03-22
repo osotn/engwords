@@ -95,7 +95,7 @@ action.connect('activate', lambda a,p: engwords())
 window.add_action(action)
 
 # Need to change.
-engwords_path = "home/osotn/gitspace/osotn/engwords"
+engwords_path = "/home/osotn/gitspace/osotn/engwords"
 
 def is_word_unknown(word):
     return not os.path.exists(engwords_path + "/words/active/" + word)
