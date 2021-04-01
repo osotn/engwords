@@ -108,6 +108,9 @@ def is_word_xT(word):
     f = "/" + word + ".txt"
     return os.path.exists(p + "first_3000" + f) or os.path.exists(p + "ielts_general_4000" + f) or os.path.exists(p + "toefl_5000" + f) or os.path.exists(p + "first_10000" + f)
 
+def is_word_yT(word):
+    return os.path.exists(engwords_path + "/words/first_20000/" + word + ".txt") 
+
 def get_word(sel):
     iter, end = sel
     word_start = iter.copy()
@@ -148,6 +151,9 @@ def remove_all_tags(sel):
     buffer.remove_tag_by_name("unknown_word_xT", sel[0], sel[1]);
     buffer.remove_tag_by_name("untransl_word_xT", sel[0], sel[1]);
     buffer.remove_tag_by_name("untransl_unknown_word_xT", sel[0], sel[1]);
+    buffer.remove_tag_by_name("unknown_word_yT", sel[0], sel[1]);
+    buffer.remove_tag_by_name("untransl_word_yT", sel[0], sel[1]);
+    buffer.remove_tag_by_name("untransl_unknown_word_yT", sel[0], sel[1]);
 
 
 def color_unknown_words(sel):
@@ -160,6 +166,9 @@ def color_unknown_words(sel):
     buffer.create_tag("unknown_word_xT", background="#FFFFFF", foreground="#008F8F", underline=Pango.Underline.SINGLE);
     buffer.create_tag("untransl_word_xT", background="#FFFFFF", foreground="#0000FF", underline=Pango.Underline.SINGLE);
     buffer.create_tag("untransl_unknown_word_xT", background="#FFFFFF", foreground="#FF0000", underline=Pango.Underline.SINGLE);
+    buffer.create_tag("unknown_word_yT", background="#DFDFDF", foreground="#008F8F", underline=Pango.Underline.SINGLE);
+    buffer.create_tag("untransl_word_yT", background="#DFDFDF", foreground="#0000FF", underline=Pango.Underline.SINGLE);
+    buffer.create_tag("untransl_unknown_word_yT", background="#DFDFDF", foreground="#FF0000", underline=Pango.Underline.SINGLE);
 
     remove_all_tags(sel)
     buffer.apply_tag_by_name("all_text", sel[0], sel[1]);
@@ -175,12 +184,16 @@ def color_unknown_words(sel):
                     remove_all_tags(ws)
                     if (is_word_xT(word)):
                         buffer.apply_tag_by_name("untransl_unknown_word_xT", ws[0], ws[1])
+                    elif (is_word_yT(word)):
+                        buffer.apply_tag_by_name("untransl_unknown_word_yT", ws[0], ws[1])
                     else:
                         buffer.apply_tag_by_name("untransl_unknown_word", ws[0], ws[1])
                 else:
                     remove_all_tags(ws)
                     if (is_word_xT(word)):
                         buffer.apply_tag_by_name("unknown_word_xT", ws[0], ws[1])
+                    elif (is_word_yT(word)):
+                        buffer.apply_tag_by_name("unknown_word_yT", ws[0], ws[1])
                     else:
                         buffer.apply_tag_by_name("unknown_word", ws[0], ws[1])
             else:
@@ -188,6 +201,8 @@ def color_unknown_words(sel):
                     remove_all_tags(ws)
                     if (is_word_xT(word)):
                         buffer.apply_tag_by_name("untransl_word_xT", ws[0], ws[1])
+                    elif (is_word_yT(word)):
+                        buffer.apply_tag_by_name("untransl_word_yT", ws[0], ws[1])
                     else:
                         buffer.apply_tag_by_name("untransl_word", ws[0], ws[1])
             #print("3. ", buffer.get_text(ws[0], ws[1], True))
