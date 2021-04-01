@@ -15,7 +15,10 @@
 
  - Ctrl   +   Alt   +  p    =  run.sh -ibwunmf | pos.sh (selected text) 
 
- - Ctrl   +   Alt   +  0    = echo | pos.sh # feed
+ - Ctrl   +   Alt   +  0    =  echo | pos.sh # feed
+
+ - Ctrl   +   Alt   +  I    =  card format (current word)
+
 
 # Scripts:
 
@@ -85,6 +88,17 @@ Ctrl+Alt+[
 cd ~/gitspace/osotn/engwords
 echo $GEDIT_CURRENT_WORD | ./pos_big4.sh
 
+Ctrl+Alt+I
+#!/bin/sh
+cd ~/gitspace/osotn/engwords
+./p_pos.sh $GEDIT_CURRENT_WORD | sed '$d'
+echo | ./pos.sh
+echo $GEDIT_CURRENT_WORD | ./pos_big.sh
+echo | ./pos.sh
+[ -f ./definitions/${GEDIT_CURRENT_WORD} ] && cat ./definitions/${GEDIT_CURRENT_WORD} | ./pos.sh
+[ -f ./examples/${GEDIT_CURRENT_WORD} ] && echo "--------------------------------" | cat - ./examples/${GEDIT_CURRENT_WORD} | ./pos.sh
+echo | ./pos.sh
+echo | ./pos.sh
 
 from gi.repository import Gio, Gtk, Pango
 import os
