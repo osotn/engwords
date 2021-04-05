@@ -1,0 +1,18 @@
+
+Chapter 6 Functions.
+====================
+
+Functions are the building blocks of C and the place where all program activity occurs.
+
+ret-type function-name(parameter list)
+{
+body of the function
+}
+
+ret-type specifies the type of data that the function returns. A function may
+return any type of data except an array. The parameter list is a comma - separated
+list of variable names and their associated types. The parameter receive the
+values of the arguments when the function is called. A function can be without
+parameters, in which case the parameter list is empty. An empty parameter list
+can be explicitly specified as such by placing the keyword void inside the parameters.
+

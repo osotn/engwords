@@ -1,0 +1,502 @@
+CCNA (Cisco Certified Network Associate) <-- IT (information technology)
+Levels:
+ - Entry (CCENT);
+ - Associate (CCNA/CCDA);
+ - Professional (CCNP/CCDP);
+ - Expert (CCIE/CCDE);
+ - Architect (CCARr).
+
+Technical field:
+ - Routing & Switching;
+ - Design;
+ - Industrial Network;
+ - Network Security;
+ - Service Provider;
+ - Service Provider Operations;
+ - Storage Networking;
+ - Voice;
+ - Datacenter;
+ - Wireless.
+
+
+Part I
+
+Chapter 1
+Perspectives on Networking
+--------------------------
+
+------------------   --------------------
+| Use of network |   | network Engineer |
+------------------   --------------------
+
+use Internet form home:
+ - DSL = digital subscriber line;
+ - cable TV;
+ 
+Home network:
+-------------
+
+------   Ethernet   -----------  CATV      /
+| PC | ------------>| modem   |---------> /  The Internet
+------    cable     -----------  cable    \ 
+                                          /
+---------  Wireless -----------   DSL     \
+| phone |( )( )( )->| modem   |----------> \
+---------           -----------
+
+Cable modem:  Ethernet cable inlet & cable TV (CATV) outlet (round coaxial cable).
+
+Wireless LAN = Wi-Fi (instead of using an Ethernet cable).
+
+ - Home-based networks;
+ - Enterprise networks;
+ - Small home for business purpose (small office / home office (SOHO)) network;
+
+
+Enterprise Network:
+------------------
+
+------   Ethernet   -----------  Ethernet  /
+| PC | ------------>| SW1     |---------> /  Enterprise
+------    cable     -----------  cable    \ 
+                                          /
+---------  Wireless -----------  Ethernet \
+| phone |( )( )( )->| AP      |----------> \
+---------           -----------  cable
+
+
+TCP/IP Networking Model
+-----------------------
+Networking blueprint:
+ - protocol
+ - physical requirements
+
+Network: software & networking cards & cables.
+
+TCP/IP uses documents called Requests For Comments (RFC).
+IEEE (Institute of Electrical and Electronic Engineers) define Ethernet LANs.
+
+Model breaks the functions into a small number of categories called layers.
+Each layer includes protocols and standards that relate to that category of function.
+
+                          Internet
+Application - Transport - Network - Data Link - Physical
+-----------   ---------   -------   --------------------
+HTTP, POP3,   TCP, UDP    IP, ICMP      Ethernet 
+SMTP                                    802.11 (Wi-Fi)
+
+
+HTTP  = Hypertext Transfer Protocol
+----
+browser to get home page by address: URL = Universal Resource Locator or URI = Identifier
+
+1990s web browser and web server.
+
+HTTP Get Request
+ ----------------
+ | GET home.htm |----------->  HTTP Header
+ ----------------
+               HTTP Reply
+              -----------------
+        <---- | OK | home.htm |
+              -----------------
+
+TCP
+---
+SEQ number
+ACK
+
+Error recovery services
+
+IP
+--
+Addressing and routing
+
+IP address. Each IP address has four numbers, separated by periods.
+Dotted-decimal notation (DDN) 1.1.1.1
+
+Router forwards IP packets to the correct destination.
+
+IP: destination and source addresses.
+
+----------------------------------------------
+| Ethernet header |       IP       | Trailer |
+----------------------------------------------
+
+Terminology:
+Segment (TCP), packet (IP), frame (Link)
+
+OSI  Application = {Session, Presentation, Application}
+
+OSI uses PDU (protocol data unit):
+ - Layer3 PDU = L3PDU
+ - Layer2 PDU = L2PDU
+
+
+Chapter 2
+Fundamentals of Ethernet LANs
+=============================
+ - LAN (local-area networks) - same room/building/campus
+ - WAN (wide-area networks) - far apart
+
+LAN:
+ - Ethernet (wired LAN) - copper wires, fiber-optic
+ - Wireless (Wi-Fi)
+
+
+SOHO: for LAN needs a device called an Ethernet LAN switch, which provides many physical ports into which cables can be connected. An Ethernet uses Ethernet cables.
+Router connects the LAN to the WAN.
+
+Wireless LAN access point (AP).
+
+Router, Ethernet switch, wireless LAN AP can be separated devices or single device, called
+as "wireless router".
+ 
+                  Internet
+                     |
+                ------------
+                |  Router  |
+                -----------
+                     |
+  ------        ------------           |          |           (-)
+  | PC | -------|    ----> |         ----------------     (-) (-)
+  ------        | <----    |---------| Access Point | (-) (-) (-)
+                |    ----> |         ----------------     (-) (-)
+         -------| <----    |                                  (-)
+                ------------
+                   Switch
+
+Can be SW1 (first-floor) SW2 (second-floor) and SWD (distribution)
+
+Ethernet IEEE 802.3
+Long history over the last 40 years.
+Speeds from 10Mbps up to 400Gbps
+
+Materials inside the cable for physical transmission of bits:
+ - copper wires;
+ - glass fibers;
+UTP (unshielded Twisted pair) - copper wires and use electrical circuits to transmit data
+Fiber-optic is more expensive and allows nodes to send light over glass fibers.
+Optical cables typically allow longer cabling distances between nodes.
+
+UTP - use T
+fiber - use X
+10   Mbps  Ethernet            10Base-T  802.3    Copper, 100m  - 2 pairs
+100  Mbps  Fast    Ethernet   100Base-T  802.3u   Copper, 100m  - 2 pairs
+1000 Mbps  Gigabit Ethernet  1000Base-LX 802.3z   Fiber, 5000m  - 4 pairs
+1000 Mbps  Gigabit Ethernet  1000Base-T  802.3ab  Copper, 100m
+10   Gbps  10 Gig  Ethernet   10GBase-T  802.3an  Copper, 100m
+
+Twisting help solve some important physical transmission issues.
+Electromagnetic interference (EMI) that interferes with the electrical signals in nearby wires.
+
+RJ-45 Port  = RJ-45 Connectors.
+
+RJ-45 connector has 8 physical locations, called pin positions or pins.
+
+NIC (Network Interface Card)
+
+SFP+ = small form-factor pluggable transceiver
+GBIC = Gigabit Ethernet Interface Converter
+SFP  = small form pluggable - 1 Gbps
+SFP+ = same size as SFP, but used on 10 Gbps
+
+
+Straight Through Cable pinout
+10/100BASE-T use 2 pairs of wires in a UTP cable, one for each direction.
+
+ PC   TR 1,2    ---------------> 1,2 RC   Switch
+      RC 3,6  <---------------   3,6 TR 
+
+          Straight - through cable pinout to connect PC <---> Switch
+
+
+Crossover cable: PC - PC, Switch - Switch
+          1,2  ----------------> 3,6
+          3,6  <---------------- 1,2
+
+
+NICs, Routers, AP - transmits on Pin 1,2
+Hubs, Switches    - transmits on Pin 3,6
+
+
+Cisco switches have a feature auto-mdix that notices what wrong cable is used and automatically changes its logic to make the link work.
+
+1000BASE-T needs 4 pair.
+         1,2 -------\/------- 1,2
+         3,6 -------/\------- 3,6
+         4,5 -------\/------- 4,5
+         7,8 -------/\------- 7,8
+
+Fiber-optic cabling uses glass as the medium through which light passes, varying that light over time to encode 0s and 1s. Using fiberglass allow a manufacturer to spin a long thin string (fiber) of flexible glass.
+
+Core - cladding - buffer - strengthener - outer jacket
+
+Cladding and core work together to create the environment to allow transmission of light over the cable.
+A light source, called the optical transmitter, shines a light (from emitting diode (led)) into the core. Light can pass through the core; however, light reflects off the cladding back into the core.
+Multimode with internal reflection.
+Single-mode uses a smaller-diameter core, around one-fifth the diameter of common multimode cables. It uses laser transmitter.
+
+Multimode improves the maximun distances over UTP, and it use less expensive transmitters as compared with single-mode. 10Gbps over Fiber allow for distances up to 400m. Single-mode allows distances into the tens of kilometers, but with slightly more expensive SFP/SFP+ hardware.
+
+Port can be built-in with supporting a particular optical Ethernet standard or switch with modular ports that allow you to change the standard - SFP+.
+
+             Cable Type
+10GBASE-S      MM            400m
+10GBASE-LX4    MM            300m
+10GBASE-LR     SM            10km
+10GBASE-E      SM            30km
+
+
+UTP - low cost of cabling, port, 100m, EMI interference, risk coping from cable emissions.
+MM  - medium cost of cabling, port, 500m, no EMI
+SM  - medium cost of cabling, high cost of port, 40km, no EMI
+
+Ethernet frame: header and trailer at the end.
+
+Preamble SFD Destination Source Type  Data and Pad  FCS
+   7      1      6         6      2      46-1500     4
+
+Preamble for synchronization.
+SFD = start frame delimiter
+Type = IPv4 or IPv6
+FCS = frame check sequence
+
+Maximun transmission unit = MTU define the maximum Layer 3 packet - 1500bytes.
+
+Ethernet address, called MAC (Media Access Control) address, 6 bytes (48bit) as 12-digit hexadecimal numbers - 0000.0C12.3456
+
+Unicast - address of a NIC.
+Broadcast and multicast.
+
+OUI = Organisationally unique identifier 3-bytes.
+
+Group addresses: 
+ - broadcast: FFFF.FFFF.FFFF
+ - multicast:  
+
+EtherType = 0800 IPv4
+            86DD IPv6
+
+FCS - error detection.
+
+PCs and LAN switches - full duplex.
+LAN hubs - half duplex.
+
+
+LAN hubs is a like a switch. LAN hubs forward data using physical layer standards rather than data-link standards. A Hub repeats electrical signal out coming signal to all other ports (except the incoming port).
+To prevent collisions, the Ethernet nodes must use half-duplex logic instead of full-duplex logic. If someone else is sending, wait before sending. CSMA/CD = called carrier sense multiple access with collision detections.
+
+Ethernet shared media refers to designs that use hubs, require CSMA/CD, and therefore share the bandwidth.
+By contrast, the term Ethernet point-to-point emphasizes the fact that in a network built with switches, each (point-to-point) link works independently of the others.
+
+Chapter 3
+Fundamentals of WANs and IP Routing
+-----------------------------------
+ - leased-line WANs
+ - Ethernet WANs   (uses the same data-link protocols as Ethernet LANs, but additional features)
+
+Router connects LANs with WAN.
+
+        LAN                                   WAN               LAN
+PC1------------LAN Switch --------- Router ------/_--------- Router ---------- LAN Switch --------- PC2
+
+Crooked line between the routers is the common way to represent a leased line 
+when the drawing does not need to show any of the physical details of the line.
+
+Leased line use two pair of wires, one pair for each direction of sending data,
+which allows full-duplex operation.
+
+Telephone company = telco
+
+Leased lines come with their own set of terminology as well.
+First, the term leased line refers to the fact that the company using the leased
+line does not own the line but instead pays a monthly lease fee to use it.
+
+Link = circuit = point-to-point
+T1 = this specific type of leased line transmits data at 1.544 Mbps.
+
+Telco CO (central office).
+
+A leased line provides a L1 service = it provide to deliver bits between the
+devices connected to the leased line.
+
+Data-link layer protocols uses for leased lines between two routers:
+ - HDLC (High-Level Data Link Control)
+ - PPP (Point-to-Point)
+
+Data-link protocols perform a similar role: to control the correct delivery
+of data over a physical link of a particular type. 
+
+HDLC:
+ - 1 Preamble, SFD
+ - 1 Destination address
+ - 1 Control (N/A)
+ - 2 Type of L3
+ - 2 FCS
+
+HDLC as ISO (International Organization for Standardization)
+
+Cisco routers use a Cisco-proprietary variation of HDLC.
+
+Forwarding IP packets: Send to R1, to R2
+
+PC1 ------------> SW1 --------------> R1 -------------> R2 --> SW2 --> PC2
+    802.3 header       802.3 header       HDLC header
+
+SP (service providers)
+
+IP focuses on the job of routing data, in the form of IP packets, from the source
+host to the destination host. 
+
+Routers and host (end-user computer) work together to perform IP routing.
+Host OS has TCP/IP software, including the software that implements the network
+layer. Hosts use that software to choose where to send IP packets, often to 
+a nearby router.
+
+Default router = default gateway
+
+Routers use IP routing table. This table lists IP address groupings, called
+IP networks and IP subnets.
+
+Routing Table
+Subnet        Interface   Next Hop
+150.150.4.0   Serial0     150.150.2.7
+
+Use destination Ethernet address of router.
+
+ARP (Address Resolution protocol) dynamically learns the data-link address of
+an IP host connected to a LAN.
+
+TCP/IP groups IP address together so that IP addresses used on the same
+physical network are part of the same group. IP network and IP subnet.
+
+IP Header
+Version, Length, DS Field, Packet length, Idendification, Flags, Fragment offset,
+Time to Live, Protocol, Header Checksum, Source IP address, Destination IP address.
+ipv4 header = 20 bytes.
+
+Routing protocol OSPF (Open Shortest Path First).
+ - DNS (domain name system)
+ - ARP (Request - broacast, Reply, table IP-MAC, $ arp -a)
+ - Ping
+
+hostname
+
+ICMP (Internet Control Message Protocol)
+Ping (Packet Internet Groper) - ICMP echo request/reply
+
+
+Part II
+=======
+Implementing Ethernet LANs
+
+Chapter 4 Using the Command Line Interface
+==========================================
+Cisco uses the concept of a command-line interface (CLI) with its router products
+and most of its Catalyst LAN switch products. The CLI is a text-based interface
+in which the user, typically a network engineer, enters a text command and 
+presses Enter. Pressing Enter sends the commands to the switch, which tells the
+device to do something.
+
+Cisco 2960-XR series of switches.
+Cisco refers to a switch's physical connectors as either interfaces or ports, with
+an interface type and interface number. Interface type: Ethernet, Fast Ethernet,
+Gigabit Ethernet. Switch uses a two-digit interface number x/y or x/y/z.
+
+Cisco switches need some kind of OS. Cisco calls this OS the Internetwork OS (IOS).
+
+CLI through three popular methods:
+ - console - is a physical port (RJ-45(UTP)/USB(Mini-B) <---> Serial(DB-9)/USB);
+ - Telnet; - IP
+ - SSH (Secure Shell) - IP
+
+On PC a terminal emulator software package must be installed and configured:
+ - 9600 bits/sec
+ - No hardware flow control
+ - 8 bit
+ - No parity bits
+ - 1 stop bit
+
+
+Telnet server/client.
+
+CLI access methods in CLI called EXEC mode. Sim Lite product.
+Cisco IOS supports a more powerful EXEC mode called 
+# enable (privileged mode or privileged EXEC mode)
+# reload
+> user mode
+# enable mode
+
+Console, Telnet, SSH ----> user mode --- enable (command) ----> enable mode
+                                     <-- disable (command) ----
+
+By default, only console access only - no password. The reason is that if you
+have access to the physical console port of the switch, you already have
+pretty much complete control over the switch.
+
+# show running-config
+hostname xxxx
+enable secret love
+line console 0
+
+? - list of command
+show ?
+copy ?
+com? - list command that start with com
+command parm? - list all parameters beginning with the parameter typed so far.
+command parm<Tab> - cause IOS to spell out the rest of the word
+
+Up arrow / Ctrl+P - display the most recently used command.
+Down arrow / Ctrl+N - history 
+Left arrow / Ctrl+B
+Right arrow / Ctrl+F
+Backspace
+
+show command. Status of every feature of Cisco IOS.
+# show mac address-table dynamic
+
+debug command
+
+Configuration mode.
+
+User mode ---> enable/disable ---> Enable mode <--- configure terminal/end(Ctl-Z) ---> Configuration Mode
+
+# interface
+# interface FastEthernet 0/1
+
+Switch# configure terminal
+Switch(config)# hostname Fred
+Fred(config)# line console 0
+Fred(config-line)# password hope
+Fred(config-line)# interface FastEthernet 0/1
+Fred(config-if)# speed 100
+Fred(config-if)# exit
+Fred(config)#
+
+Fred(config)# vlan number
+
+When you config a switch, it needs to use the configuration. It also needs to be
+able to retain the configuration in case the switch loses power.
+RAM/Flash/ROM/NVRAM to store 
+
+Running Configuration - RAM;
+Flash - Cisco IOS Software;
+ROM - bootstrap program;
+NVRAM - startup configuration
+
+Configuration file - multiple configuration file:
+ - startup-config (NVRAM)
+ - running-config (RAM)
+
+# show startup-config
+# show running-config
+
+# copy running-config starup-config
+#
+# erase startup-config
+# 
+
+Chapter 5 Analyzing Ethernet LAN Switching
+-------------------------------------------
+

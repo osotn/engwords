@@ -1,0 +1,64 @@
+Chapter 5 - Pointers
+====================
+
+The correct understanding and use of pointers is crucial to successful C programming.
+ - pointer provide the means by which functions can modify their calling arguments;
+ - support dynamic allocation;
+ - pointer can improve the efficiency of certain routines.
+ - pointer provide support for dynamic structures, such as binary trees and linked lists.
+
+Pointer are one of the strongest but also one of the most dangerous features in C.
+
+A pointer is a variable that holds a memory address.
+This address is the location of another object in memory.
+Point to  means that variable contains the address of another.
+
+type * name; // pointer variables, type - base type, * and variable name.
+
+Pointer operators:  * & 
+& - returns the memory address of variable.
+* - get value by point
+var = *(&var);
+
+Pointer assignments: 
+p = expression (g), where p,g - are pointers.
+
+Pointer conversions:
+void * - pointer to any other type of pointer
+void * - a generic pointer.
+
+Pointer arithmetic:
+p++; / p += sizeof(*p);
+
+Arrays of Pointer:
+int *x[10];
+
+NULL <stdio.h>
+
+Pointer to functions:
+---------------------
+A function has a physical location in memory that can be assigned to a pointer.
+The address is the entry point of the function and it the address used when the function is called.
+
+function name = address of the function
+
+
+void check(char *a, char *b,
+           int (*cmp)(const char *, const char *));
+
+p = strcmp;
+check (a,b,p);
+
+(*p)(a,b);
+p(a,b);
+cmp(a,b);
+(*cmp)(a,b);
+
+
+int *p[10]; array of 10 int *
+int (*p)[10]; pointer on array of 10 int
+p = (int (*) [10]) malloc (40*sizeof(int));
+
+C99 - restrict qualified pointer.
+On different non-overlapping objects.
+

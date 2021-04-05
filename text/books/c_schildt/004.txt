@@ -34,7 +34,57 @@ Strings
 -------
 In C, a string is a null - terminated character array.
 A string constant is a list of characters enclosed in double quotes.
+Compiler adds the null to the end of string constant automatically.
 
+strcpy(s1, s2) - copies s2 into s1  strcpy(dst, src)
+strcat(s1, s2) - concatenates
+strlen(s1)     - return the length of s1
+strcmp(s1, s2) - return 0 if s1 and s2 are the same, less than 0 if s1 < s2; 
+strchr(s1, ch) - return a pointer to the first occurrence of ch in s1
+strstr(s1, s2) - return a pointer to the first occurrence of s2 in s1
+
+
+Two-dimensional arrays
+----------------------
+int d[10][20]; or int d[10] [20];
+
+int **pp = d;
+int *p   = d[0]; // d[19]
+
+                   [][0]                                                                       [][19]
+pp -> p = (d[0])  :  00  01  02  03  04  05  06  07  08  09  10  11  12  13  14  15  16  17  18  19
+      p = (d[1])  :  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39
+      ...
+      p = (d[9])  : 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199
+
+Arrays of strings
+-----------------
+It is not uncommon in programming to use an array of strings.
+
+char str_array[30][80];
+arrays of 30 string by 79 characters
+
+Multidimensional arrays
+-----------------------
+
+Indexing pointers
+-----------------
+char p[10]
+p == &p[0] == &(p[0]);
+
+Unsized Array Initializations
+-----------------------------
+char e1[] = "Read error\n";
+int sqrs [] [2] = { {1,2}, {2,3}};
+
+Variable-Length Arrays
+----------------------
+C89 array dimensions must be declared using constant expression.
+C99 - variable length.
+void f(int dim)
+{
+    char str[dim];
+}
 
 
 
