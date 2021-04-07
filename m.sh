@@ -1,8 +1,10 @@
 #set -x
 
-audio=sound/"${1}".mp3  
+for word in "$@"
+do
+    audio=sound/"${word}".mp3  
+    [ -f ~/Downloads/"${word}".mp3 ] && mv -f ~/Downloads/"${word}".mp3 "$audio"
+    [ -f "${audio}" ] && mplayer >/dev/null 2>&1 "${audio}"
+    sleep 1
+done
 
-[ -f ~/Downloads/"${1}".mp3 ] && mv -f ~/Downloads/"${1}".mp3 "$audio"
-
-[ -f "${audio}" ] && mplayer >/dev/null 2>&1 "${audio}"
- 
