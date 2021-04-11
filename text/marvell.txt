@@ -1,0 +1,53 @@
+2020 Marvell Product Selector Guide
+
+1. Ethernet adapters and controllers
+
+- FastLinQ Adapters
+QLE{34,84,450,410}00 Series - Speed 10,25,40,100, PCIe3.0:
+	- Server Virtualization: NPAR, SR-IOV
+	- Network Virtualization: VXLAN, NVGRE, Geneve
+	- Storage offloads: ISCSI, FCoE
+	- Low Latency Protocols: RoCE, iWARP,
+	- DPDK
+
+- LiquidIO
+ CN23xx-{210,225}SVP{T,N}
+	CN78XX-NIC - 2x{10,25,40} {GBASE-T,GbE,SFP28}
+	PCIe 3.0
+	4/8 GB RAM
+	TCP, DPI
+
+- Aqtion Controllers
+ AQC100, ...
+
+
+2. Embedded Processors
+ Octeon-TX - ARMv8 2-4 core
+ Octeon III - onMIPS 24-48 core
+ ARMADA 7k, 38k, 3700 - ARVv8 A72, ARVv7 Cortex A9
+
+3. Base Station Processors
+ Octeon Fusion - M
+ 
+4. Hardware Security Modules
+
+5. Server Processors
+ Thunder X 
+ 
+6. SATA Storage Controller/ SATA Bridge
+ Storage switching 
+
+7. Link Street - Fast Ethernet/Fast Gigabit/10G Switches
+ SOHO - 88E6020/70/71/85 - 2-8 PHYs, 2MII, 2.5G. GMII/RGMII/MII/RMII 100/100BaseT 100BaseFx
+
+8. Prestera DX Switching / DX Series Packet Processor with Integrated CPU
+ 98DX..., Evaluation Board, Number ports >10
+
+9. Alaska C Ethernet - C 88X5123
+
+10. Fast Ethernet (FE) PHY transceivers
+
+Marvell from 1995 - MRVL (NASDAQ)
+employees 5000+
+
+
