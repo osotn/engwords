@@ -500,3 +500,286 @@ Configuration file - multiple configuration file:
 Chapter 5 Analyzing Ethernet LAN Switching
 -------------------------------------------
 
+Chapter 8. Implementing Ethernet Virtual LANs - 64 pages
+---------------------------------------------
+Ethernet switches receive Ethernet frames, make decisions, and then forward
+(switch) those Ethernet frames. That core logic revolves around MAC addresses,
+the interface in which the frame arrives, and the interfaces out which the
+switch forwards the frame.
+While true, that logic omits any consideration of virtual LANs (VLANs).
+VLANs impact the switching logic for each frame because each VLAN acts as a subset
+of the switch ports in an Ethernet LAN. Switches believe each Ethernet frame to be
+received in an identifiable VLAN, forwarded based on MAC table entries for that
+VLAN, and forwarded out ports in that VLAN.
+
+LAN includes all the user devices, servers, switches, routers, and wireless access
+points in one location.
+
+LAN (narrower definition) include all devices in the same broadcast domain.
+
+A broadcast domain includes the set of all LAN-connected devices, so that when
+any the devices sends a broadcast frame, all the other devices get a copy of the
+frame. So, from one perspective, you can think of a LAN and a broadcast domain
+as being basically the same thing.
+
+Using only default settings, a switch considers all its interfaces to be in the
+same broadcast domain. With that logic, to create two different LAN broadcast
+domains, you had to buy two different Ethernet LAN switches, as show in:
+
+  +------+        +---+  +---+        +-------+
+  | Dino |--------| S |  | S |--------| Wilma |
+  +------+        | W |  | W |        +-------+
+  +------+        | 1 |  | 2 |        +-------+
+  | Fred |--------|   |  |   |--------| Betty |
+  +------+        +---+  +---+        +-------+
+ Two broadcast domains with two physical switches and No VLANs
+
+By using two VLANs, a single switch can accomplish the same goals of the design.
+To create two broadcast domains - with a single switch. With VLANs, a switch can
+configure some interfaces into one broadcast domain. These individual broadcast
+domains created by the switch are called virtual LANs (VLAN).
+For example, the single switch creates two VLANs, treating the ports in each
+VLAN as being completely separate. The switch would never forward a frame sent
+by Dino (in VLAN1) over to either Wilma or Betty (in VLAN2).
+Reasons VLANs:
+ - to reduce CPU overhead;
+ - to reduce security risk;
+
+With single switch it requires a little effort.
+With multiple switches, you have to consider additional concepts.
+Using VLANs in networks that have multiple interconnected switches, the switches
+need to use VLAN trunking on the links between the switches. 
+VLAN trunking causes the switches to use a process called VLAN tagging, by
+which the sending switch adds another header to the frame before sending it over
+the trunk. This extra trunking header includes a VLAN identifier (VLAN ID) field
+so that the sending switch can associate the frame with a particular VLAN ID, and
+the receiving switch can then know in what VLAN each frame belongs.
+
+  +------+        +----------+        +-------+
+  | Dino |--------| S   /  S |--------| Wilma |
+  +------+        | W   /  W |        +-------+
+  +------+  VLAN1 |     /    | VLAN2  +-------+
+  | Fred |--------|     /    |--------| Betty |
+  +------+        +----------+        +-------+
+
+                    VLAN 20 (without trunking)
+  +------+        +---+  +---+        +-------+
+  | Dino |--------| S |--| S |--------| Wilma |
+  +------+        | W |  | W |        +-------+
+  +------+        | 1 |  | 2 |        +-------+
+  | Fred |--------|   |--|   |--------| Betty |
+  +------+        +---+  +---+        +-------+
+                    VLAN 10 (without trunking)
+
+Dino -> SW1 --> SW2 --> Wilma
+But it simply does not scale very well. It requires one physical link between
+switches to support every VLAN. If a design needed 10 or 20 VLANs you would need
+10 or 20 links between switches, and you would use 10 or 20 switch ports
+(on each switch) for those links.
+
+VLAN trunking creates one link between switches that supports as many VLANs as
+you need. As a VLAN trunk, the switches treat the link as if it were a part of
+all the VLANs. At the same time, the trunk keeps the VLAN traffic separate, so
+frames in VLAN 10 would not go to devices in VLAN 20, and vice versa, because
+each frame is identified by VLAN number as it crosses the trunk.
+
+                    VLAN 20 (with trunking)
+  +------+    0/2 +---+       +---+        +-------+
+  | Dino |--------| S |       | S |--------| Wilma |
+  +------+        | W | 10,20 | W |        +-------+
+  +------+    0/3 | 1 |-------| 2 |        +-------+
+  | Fred |--------|   |G0/1   |   |--------| Betty |
+  +------+        +---+       +---+        +-------+
+                    VLAN 10 (with trunking)
+
+SW1 before sending the frame to SW2, adds a VLAN header to the original Ethernet
+frame, with the VLAN header listing a VLAN ID of 10 in this case for Fred. When
+SW2 receives the frame, it understands that the frame is in VLAN 10, then SW2
+removes the VLAN header, forwarding the original frame out its interfaces.
+G0/1 is trunk, it means that it supports multiple different VLANs.
+SW1 adds a trunking header to the frame, listing a VLAN ID of 10.
+0/1 ---> |Ethernet|--->G0/1 --|VLAN ID|Ethernet| --->
+
+Cisco has supported two different trunking protocols over the years:
+ - ISL (Inter Switch Link); (before 802.1Q)
+ - IEEE 802.1Q
+
+802.1Q inserts an extra 4-byte 802.1Q VLAN header into the original frame's
+Ethernet header.
+
+|Dest.Address|Source Address|Tag|Type|<--------Data------->|FCS|
+                            /   \
+             |Type|Priority|Flag|VLAV ID (12bits)|
+                    802.1Q Trunking
+
+2^12 = 4096 VLANs, but in practice it supports a maximum of 4094 (0 and 4095 are reserved).
+
+Cisco switches break the range of VLAN ID (1-4094) into two ranges:
+ - normal range   (1-1005);
+ - extended range (1005-4094).
+
+The rules for which switches can use extended range VLANs depend on the configuration
+of the VLAN Trunking Protocol (VTP).
+
+802.1Q also defines one special VLAN ID on each trunk as the native VLAN (defaulting
+to use VLAN 1). By definition, 802.1Q simply does not add an 802.1Q header to frames
+in the native VLAN. (But both switches must agree on which VLAN is the native VLAN).
+
+Layer 2 switch = LAN switches that forward data based on Layer 2 logic.
+Layer 2 switches perform their logic per VLAN.
+Layer 2 switch does not route between the VLANs.
+
+To forward packets between VLANs, the network must use a device that acts as
+a router. These switches also perform Layer 3 routing, or Layer 3 switch.
+
+Send from Dino to Wilma. From L3 perspective, Dino sends the IP packet to its
+default router (R1), and R1 routes the packet out another interface F0/2 into
+another subnet where Betty resides.
+
+  +------+        +----------+        +-------+
+  | Dino |--------| S   /  S |--------| Wilma |
+  +------+  VLAN10| W   /  W | VLAN20 +-------+
+  +------+subnet10|     /    |subnet20+-------+
+  | Fred |--------|     /    |--------| Betty |
+  +------+        +----------+        +-------+
+                   |        |
+              F0/1  \ ---  / F0/2
+                     - R -
+                      ---  
+            Layer3 switch does route between the VLANs
+
+But there are several different solutions for routing packets between VLANs.
+One option, to use a separate physical router, with a separate link per VLAN,
+because it can be the easiest of the options to understand and visualize.
+
+Cisco switches do not require any configuration to work. You can purchase Cisco
+switches, install devices with the correct cabling, turn on the switches, and
+they work. You would never need to configure the switch, and it would work fine,
+even if you interconnected switches, until you needed more than one VLAN.
+
+
+For a Cisco switch to forward frames in a particular VLAN, the switch must be
+configured to believe that the VLAN exist.
+ - nontrunking interfaces (called access interfaces or static access interfaces) assigned to the VLAN;
+ - trunks that support the VLAN.
+
+step 1:
+    (config)vlan vlan-id to create VLAN and to move the user into VLAN configuration
+
+    (optional) use the name "name" command in VLAN configuration mode to list a name or
+VLANZZZZ
+
+step 2:
+    For each access interface, follow these steps:
+        (config) interface type number
+        (config)(interface)switchport access vlan id-number  to configuration mode to
+specify the VLAN number associated with that interface.
+        (optional) use the switchport mode access command in interface configuration
+mode to make this port always operate in access mode (to not trunk).
+
+
+SW1# show vlan brief
+vlan Name  Tagged Ports  UnTagged Ports Status
+---- ----  ------------ --------------- ------
+ 1                        te1-2, te4-5     UP
+
+SW1(config)# vlan 2
+SW1(config-vlan)# name Freds-vlan
+SW1(config-vlan)# exit
+SW1(config)# interface range fastethernet 0/13 - 14
+SW1(config-if)# switchport access vlan 2
+SW1(config-if)# switchport mode access
+SW1(config-if)# end
+
+"switchport mode access" - This command tells the switch to always be an access interface and disables
+the protocol that negotiates trunking (Dynamic Trunking Protocol [DTP]) with the device on
+the other end of the link. 
+
+Example 2 (briefer alternative configuration)
+
+SW1# configure terminal
+SW1(config)# interface range Fastethernet 0/15 - 16
+SW1(config-if-range)# switchport access vlan 3
+% Access VLAN does not exist. Creating vlan 3
+SW1(config-if-range)# ^Z
+
+A switch can dynamically create a VLAN - the equivalent of the vlan vlan-id global config command.
+
+
+VTP (VLAN Trunking Protocol) is a Cisco proprietary tool on Cisco switches that
+advertises.
+To disable:
+#vtp mode transparent/off
+
+
+#switchport mode trunk - on the each side of the link.
+Cisco:
+ - ISL;
+ - 802.1Q
+ - DTP (dynammic trunking protocol)
+
+access   = always act as an access (nontrunk) port
+trunk    = 
+dynamic desirable = negotiation
+dynamic auto      = passively wait
+
+The term IP telephony refers to the branch of networking in which the telephones
+use IP packets to send and receive voice as represented by the bits in the data
+portion of the IP packet. Phones in one VLAN and the PCs in different:
+ - Data VLAN - access VLAN on the access port
+ - Voice VLAN - tagged with 802.1Q header.
+
+The voice frames flow with an 802.1Q header, so that the link supports frames in
+both VLANs on the link.
+
+#interface range fe0/1 -4
+#switchport mode access
+#switchport voice vlan 11
+#switchport access vlan 10
+
+It might seem as though this short topic about IP telephony and switch configuration
+includes a lot of small twists and turns and trivia, and it does.
+
+
+Troubleshooting 
+---------------
+#show vlan
+(config)#shutdown vlan 10
+(config)#no shutdown vlan 20 = enable
+(config-vlan)#vlan 10
+(config-vlan)#no shutdown
+
+
+Chapter 9
+---------
+Spanning Tree Protocol Concepts
+
+STP - spanning tree protocol allows Ethernet LANs to have the added benefits of
+installing redundant links in a LAN, while overcoming the known problems that
+occur when adding those extra links.
+Using redundant links in a LAN design allows the LAN to keep working even when
+some links fail or even when some entire switches fail. STP allowing the design
+to use redundancy without causing some other problems.
+
+STP - IEEE 802.1D
+RSTP - rapid spanning tree protocol
+
+Withoout STP/RSTP a LAN with redundant links would cause Ethernet frames to loop
+for an indefinite period of time:
+ - all devices in a VLAN can send frames to all other devices.
+ - frames have a short life and do not loop around the network indefinitely.
+
+STP and RSTP strike a balance, allowing frames to be delivered to each device,
+without causing the problems that occur when frames loop through the network over
+and over again.
+
+STP/RSTP prevents three common problems in Ethernet LANs:
+Just one looping frame causes what is called a broadcast storm.
+
+
+Chapter 11
+----------
+
+
+
+
