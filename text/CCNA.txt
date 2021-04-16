@@ -779,6 +779,18 @@ Just one looping frame causes what is called a broadcast storm.
 
 Chapter 11
 ----------
+Perspectives on IPv4 subnetting
+
+Subnetting Defined Through a simple example
+An IP network in other words, a Class A, B, or C network - is a simply a set of
+consecutively numbered IP addresses that follows some preset rules.
+These Class A, B, and C rules define that for a given network, all the addresses
+in the network have the same value in some of the octets of the addresses.
+Class B 172.16.0.0
+Class A 10.0.0.0
+
+Word subnet is a shortened version of the phrase subdivided network.
+
 
 
 
