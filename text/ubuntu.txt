@@ -1,0 +1,11 @@
+# Set default terminal on Ctlr+Alt+T
+# sudo update-alternatives --config x-terminal-emulator
+
+There are 8 choices for the alternative x-terminal-emulator (providing /usr/bin/x-terminal-emulator).
+
+  Selection    Path                             Priority   Status
+------------------------------------------------------------
+* 0            /usr/bin/terminator               50        auto mode
+  1            /usr/bin/gnome-terminal.wrapper   40        manual mode
+  2            /usr/bin/guake                    40        manual mode
+

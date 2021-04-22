@@ -1,3 +1,14 @@
 Eclipse is IDE = intergated development environment used in computer programming.
 It contains a base workspace and an extensible plug-in
 
+Shortcuts C/C++
+
+Ctrl+Tab        = switch between source and header files
+Ctrl+Shift+T    = open Element
+Ctrl+Shift+R    = open File/Resource
+
+F3              = Open declaration
+
+Ctrl+h          = Opens a search dialog; the "C/C++ Search" tab !!!!!!!!!!!!!
+
+Alt + <-/->     = Go to previous / go to next edited or viewed place.

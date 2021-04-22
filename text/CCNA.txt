@@ -18,9 +18,75 @@ Technical field:
  - Datacenter;
  - Wireless.
 
-
-Part I
-
+CCNA 200-301 (Wendell Odom) <-- 50 chapters
+Volume 1
+Part 1: Introduction to Networking
+    1. Introduction to TCP/IP Networking
+    2. Fundamentals of Ethernet LANs
+    3. Fundamentals of WANs and IP Routing
+Part 2: Implementing Ethernet LANs
+    4. Using the CLI
+    5. Analyzing Ethernet LAN Switching
+    6. Configuring Basic Switch Management
+    7. Configuring and Verifying Switch Interfaces
+Part 3: Implementation VLANs and STP
+    8. Implementing Ethernet Virtual LANs
+    9. STP concepts
+    10. RSTP and EtherChannel configuration
+Part 4: IPv4 Addressing
+    11. Perspectives on IPv4 Subnetting
+    12. Analyzing Classful IPv4 Networks
+    13. Analyzing Subnet Masks
+    14. Analyzing Existing Subnets
+Part 5: IPv4 Routing
+    15. Operating Cisco Routers
+    16. Configuration IPv4 Addresses and Static Routes
+    17. IP Routing in the LAN
+    18. Troubleshooting IPv4 Routing
+Part 6: OSPF
+    19. Understanding OSPF concepts
+    20. Implementation OSPF
+    21. OSPF Network types and neighbors
+Part 7: IP Version 6
+    22
+    23
+    24
+    25
+Part 8: Wireless LAN
+    26
+    27
+    28
+    29
+    
+Part II 
+Part 1: IP ACLs
+    1
+    2
+    3
+Part 2: Security Services
+    4
+    5
+    6
+    7
+    8
+Part 3: IP Services
+    9
+    10
+    11
+    12
+Part 4: Network Architecture
+    13
+    14
+    15
+Part 5: Network Automation
+    16
+    17
+    18
+    19
+Part 6: Final Review
+    20
+    
+    
 Chapter 1
 Perspectives on Networking
 --------------------------
