@@ -1,3 +1,6 @@
+# To Terminal
+cd ~/gitspace/osotn/engwords && tail -f fifo
+
 # Manage external tools
  - Ctrl   +   Alt   +  /    =  run -d 1 (current line)    # all words for the current line
  - Ctrl   +   Alt   +  .    =  run -unfm  (selected line)   # unknown words of the selected line
