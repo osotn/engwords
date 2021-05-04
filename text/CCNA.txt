@@ -87,15 +87,14 @@ Part 6: Final Review
     20
     
     
-Chapter 1
-Perspectives on Networking
---------------------------
+1. Introduction to TCP/IP Networking
 
 ------------------   --------------------
 | Use of network |   | network Engineer |
 ------------------   --------------------
 
-use Internet form home:
+Home Internet:
+
  - DSL = digital subscriber line;
  - cable TV;
  
@@ -114,10 +113,10 @@ Cable modem:  Ethernet cable inlet & cable TV (CATV) outlet (round coaxial cable
 
 Wireless LAN = Wi-Fi (instead of using an Ethernet cable).
 
- - Home-based networks;
+Network:
+ - Home based networks;
  - Enterprise networks;
  - Small home for business purpose (small office / home office (SOHO)) network;
-
 
 Enterprise Network:
 ------------------
@@ -133,14 +132,15 @@ Enterprise Network:
 
 TCP/IP Networking Model
 -----------------------
+
 Networking blueprint:
- - protocol
- - physical requirements
+ - protocol: RFC
+ - physical requirements: IEEE
 
-Network: software & networking cards & cables.
+Network = software & networking cards & cables.
 
-TCP/IP uses documents called Requests For Comments (RFC).
-IEEE (Institute of Electrical and Electronic Engineers) define Ethernet LANs.
+RFC = Requests For Comments
+IEEE = Institute of Electrical and Electronic Engineers
 
 Model breaks the functions into a small number of categories called layers.
 Each layer includes protocols and standards that relate to that category of function.
@@ -179,7 +179,7 @@ IP
 Addressing and routing
 
 IP address. Each IP address has four numbers, separated by periods.
-Dotted-decimal notation (DDN) 1.1.1.1
+Dotted decimal notation (DDN) 1.1.1.1
 
 Router forwards IP packets to the correct destination.
 
@@ -198,20 +198,75 @@ OSI uses PDU (protocol data unit):
  - Layer3 PDU = L3PDU
  - Layer2 PDU = L2PDU
 
+=====================================
++ 1. Which of the following protocols are examples of TCP/IP transport layer protocols? (Choose two answers.)
+
+a. Ethernet
+b. HTTP
+c. IP
++ d. UDP
+e. SMTP
++ f. TCP
+
++ 2. Which of the following protocols are examples of TCP/IP data link layer protocols? (Choose two answers.)
+
++ a. Ethernet
+b. HTTP
+c. IP
+d. UDP
+e. SMTP
+f. TCP
++ g. PPP
+
++ 3. The process of HTTP asking TCP to send some data and making sure that it is received correctly is an example of what?
+a. Same layer interaction
++ b. Adjacent layer interaction
+c. OSI model
+d. All of these answers are correct.
+
++ 4. The process of TCP on one computer marking a TCP segment as segment 1, and the receiving computer then acknowledging the receipt of TCP segment 1 is an example of what?
+a. Data encapsulation
++ b. Same layer interaction
+c. Adjacent layer interaction
+d. OSI model
+e. All of these answers are correct.
+
++ 5. The process of a web server adding a TCP header to the contents of a web page, followed by adding an IP header and then adding a data link header and trailer, is an example of what?
++ a. Data encapsulation
+b. Same layer interaction
+c. OSI model
+d. All of these answers are correct.
+
+- 6. Which of the following terms is used specifically to identify the entity created when encapsulating data inside data link layer headers and trailers?
+a. Data
+b. Chunk
+c. Segment
+d. Frame         <--- correct answer
++ e. Packet
+
+- 7. Which OSI encapsulation term can be used instead of the term frame?
++ a. Layer 1 PDU
+b. Layer 2 PDU    <--- correct answer
+c. Layer 3 PDU
+d. Layer 5 PDU
+e. Layer 7 PDU
+==================================================
 
 Chapter 2
 Fundamentals of Ethernet LANs
 =============================
- - LAN (local-area networks) - same room/building/campus
- - WAN (wide-area networks) - far apart
+ - LAN (local area networks) - same room/building/campus
+ - WAN (wide area networks) - far apart
 
 LAN:
- - Ethernet (wired LAN) - copper wires, fiber-optic
+ - Ethernet (wired LAN) - copper wires, fiber - optic
  - Wireless (Wi-Fi)
 
 
 SOHO: for LAN needs a device called an Ethernet LAN switch, which provides many physical ports into which cables can be connected. An Ethernet uses Ethernet cables.
+
 Router connects the LAN to the WAN.
+
 
 Wireless LAN access point (AP).
 
@@ -232,7 +287,7 @@ as "wireless router".
                 ------------
                    Switch
 
-Can be SW1 (first-floor) SW2 (second-floor) and SWD (distribution)
+Can be SW1 (first floor) SW2 (second floor) and SWD (distribution)
 
 Ethernet IEEE 802.3
 Long history over the last 40 years.
@@ -241,12 +296,14 @@ Speeds from 10Mbps up to 400Gbps
 Materials inside the cable for physical transmission of bits:
  - copper wires;
  - glass fibers;
+ 
 UTP (unshielded Twisted pair) - copper wires and use electrical circuits to transmit data
-Fiber-optic is more expensive and allows nodes to send light over glass fibers.
+Fiber optic is more expensive and allows nodes to send light over glass fibers.
 Optical cables typically allow longer cabling distances between nodes.
 
 UTP - use T
 fiber - use X
+
 10   Mbps  Ethernet            10Base-T  802.3    Copper, 100m  - 2 pairs
 100  Mbps  Fast    Ethernet   100Base-T  802.3u   Copper, 100m  - 2 pairs
 1000 Mbps  Gigabit Ethernet  1000Base-LX 802.3z   Fiber, 5000m  - 4 pairs
