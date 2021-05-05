@@ -1,20 +1,11 @@
-Caelum, Cygnus, Cetus and Lewis Functional Specifications
-
-Part 1: Overview
-1 Product Overview
-2 Features Overview
-3 Packet Walkthrough
-4 eBridge Architecture
-
-Part 2: Packet Processing Pipeline Engines
-5 Switching Core Adapter
-6 TCAM Architecture
-7 Network Interfaces and Media Access
-8 MAC-to-ME Classification
-9 Multicast Tunnel Duplication Engine
-10 Tunnel Termination and Interface
-11 Ingress and Egress Policy Engine
-12 Bridge Engine
-13 IPv4/6 Router Engine
-
+Caelum and Cetus are switching solutions for:
+    - Metro access;
+    - Mobile Backhaul;
+    - Transport platform
+    
+Cygnus, Lewis are switching solutions for the Private Cloud and Enterprise platforms:
+    - stackable switches
+    - wireless access switches
+    - interconnect for CPUs
+    - server aggregation switches
 
