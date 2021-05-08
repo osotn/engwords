@@ -314,14 +314,14 @@ Twisting help solve some important physical transmission issues.
 Electromagnetic interference (EMI) that interferes with the electrical signals in nearby wires.
 
 RJ-45 Port  = RJ-45 Connectors.
-
 RJ-45 connector has 8 physical locations, called pin positions or pins.
 
 NIC (Network Interface Card)
 
-SFP+ = small form-factor pluggable transceiver
 GBIC = Gigabit Ethernet Interface Converter
-SFP  = small form pluggable - 1 Gbps
+
+SFP  = small form - factor pluggable - 1 Gbps
+
 SFP+ = same size as SFP, but used on 10 Gbps
 
 
@@ -331,7 +331,7 @@ Straight Through Cable pinout
  PC   TR 1,2    ---------------> 1,2 RC   Switch
       RC 3,6  <---------------   3,6 TR 
 
-          Straight - through cable pinout to connect PC <---> Switch
+Straight - through cable pinout to connect PC <---> Switch
 
 
 Crossover cable: PC - PC, Switch - Switch
@@ -351,24 +351,30 @@ Cisco switches have a feature auto-mdix that notices what wrong cable is used an
          4,5 -------\/------- 4,5
          7,8 -------/\------- 7,8
 
-Fiber-optic cabling uses glass as the medium through which light passes, varying that light over time to encode 0s and 1s. Using fiberglass allow a manufacturer to spin a long thin string (fiber) of flexible glass.
+Fiber optic cabling uses glass as the medium through which light passes, varying that light over time to encode 0s and 1s. 
+
+Using fiberglass allow a manufacturer to spin a long thin string (fiber) of flexible glass.
 
 Core - cladding - buffer - strengthener - outer jacket
 
 Cladding and core work together to create the environment to allow transmission of light over the cable.
 A light source, called the optical transmitter, shines a light (from emitting diode (led)) into the core. Light can pass through the core; however, light reflects off the cladding back into the core.
-Multimode with internal reflection.
-Single-mode uses a smaller-diameter core, around one-fifth the diameter of common multimode cables. It uses laser transmitter.
 
-Multimode improves the maximun distances over UTP, and it use less expensive transmitters as compared with single-mode. 10Gbps over Fiber allow for distances up to 400m. Single-mode allows distances into the tens of kilometers, but with slightly more expensive SFP/SFP+ hardware.
+Multimode with internal reflection.
+
+Single - mode uses a smaller - diameter core, around one - fifth the diameter of common multimode cables. It uses laser transmitter.
+
+Multimode improves the maximun distances over UTP, and it use less expensive transmitters as compared with single-mode. 10Gbps over Fiber allow for distances up to 400m. 
+
+Single-mode allows distances into the tens of kilometers, but with slightly more expensive SFP/SFP+ hardware.
 
 Port can be built-in with supporting a particular optical Ethernet standard or switch with modular ports that allow you to change the standard - SFP+.
 
              Cable Type
-10GBASE-S      MM            400m
-10GBASE-LX4    MM            300m
-10GBASE-LR     SM            10km
-10GBASE-E      SM            30km
+10GBASE-S   (MM) 400m
+10GBASE-LX4 (MM) 300m
+10GBASE-LR  (SM) 10km
+10GBASE-E   (SM) 30km
 
 
 UTP - low cost of cabling, port, 100m, EMI interference, risk coping from cable emissions.
@@ -388,6 +394,9 @@ FCS = frame check sequence
 Maximun transmission unit = MTU define the maximum Layer 3 packet - 1500bytes.
 
 Ethernet address, called MAC (Media Access Control) address, 6 bytes (48bit) as 12-digit hexadecimal numbers - 0000.0C12.3456
+
+
+
 
 Unicast - address of a NIC.
 Broadcast and multicast.

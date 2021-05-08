@@ -16,7 +16,7 @@ cd ~/gitspace/osotn/engwords && tail -f fifo
  - Ctrl   +   Alt   +  ]    =  pos_big3.sh (current word)
  - Ctrl   +   Alt   +  [    =  pos_big4.sh (current word)
 
- - Ctrl   +   Alt   +  p    =  run.sh -ibwunmf | pos.sh (selected text) 
+ - Ctrl   +   Alt   +  p    =  pos.sh (selected text) 
 
  - Ctrl   +   Alt   +  0    =  echo | pos.sh # feed
 
@@ -63,9 +63,9 @@ echo | ./pos.sh
 
 Ctrl+Alt+P
 #!/bin/sh
-# pos print engwords selected
+# pos print selected text
 cd ~/gitspace/osotn/engwords
-echo $GEDIT_SELECTED_TEXT | ./run.sh -ibwunmf | ./pos.sh
+echo $GEDIT_SELECTED_TEXT | ./pos.sh
 
 Ctrl+Alt+;
 #!/bin/sh
