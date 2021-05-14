@@ -896,7 +896,7 @@ to use redundancy without causing some other problems.
 STP - IEEE 802.1D
 RSTP - rapid spanning tree protocol
 
-Withoout STP/RSTP a LAN with redundant links would cause Ethernet frames to loop
+Without STP/RSTP a LAN with redundant links would cause Ethernet frames to loop
 for an indefinite period of time:
  - all devices in a VLAN can send frames to all other devices.
  - frames have a short life and do not loop around the network indefinitely.
