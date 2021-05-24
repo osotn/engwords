@@ -69,7 +69,7 @@ fileC ----------C1----------C1--------C1
 
 Git has integrity. Everything in Git is check summed before it is stored and
 is then reffered to by that checksum. SHA-1 hash. This is a 40 character string
-composed of hexadecimal characters (0-9 abd a-f) and calculated based on the
+composed of hexadecimal characters (0-9 and a-f) and calculated based on the
 contents of a file or directory structure in Git.
 
 Main thing to remember about Git if you want the rest of your learning process

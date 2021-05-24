@@ -1,0 +1,24 @@
+SDL Game Development
+
+Discover how to leverage the power of SDL 2.0 to create awesome games in C++
+
+Chapter 1
+Getting Started with SDL
+------------------------
+
+SDL = Simple DirectMedia Layer is a cross-platform multimedia library created by
+Sam Oscar Latinga. It provides low-level access to input (via mouse, keyboard, and
+gamepads / joysticks), 3D hardware, and the 2D video frame buffer.
+SDL is written in the C programming language, yet has native support for C++.
+The library also has binding for several other languages such as Pascal, Object-C,
+Python, Ruby.
+
+
+Chapter 2
+Drawing in SDL
+--------------
+
+Graphics are very important to games and they can also be one of the main
+performance bottlenecks if not handled correctly. With SDL 2.0 we can really
+take advantage of the GPU when rendering, which gives up a real boost in terms
+of the speed rendering.

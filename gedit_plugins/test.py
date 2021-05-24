@@ -2,9 +2,11 @@
 cd ~/gitspace/osotn/engwords && tail -f fifo
 
 # Manage external tools
- - Ctrl   +   Alt   +  /    =  run -d 1 (current line)    # all words for the current line
- - Ctrl   +   Alt   +  .    =  run -unfm  (selected line)   # unknown words of the selected line
+ - Ctrl   +   Alt   +  /    =  run -d 1 (selected text)    # all words for the selected text
+ - Ctrl   +   Alt   +  .    =  run -unfm  (selected line)  # unknown words of the selected line
  - Ctrl   +   Alt   +  ,    =  run -d 500 (current word)
+ - Ctrl   +   Alt   +  R    =  run -d 4000 (selected text) # read slow selected text
+ 
 
 # the same as "Ctrl+Alt+."
  - Ctrl   +  Super  +  /    =  run -unfm  (selected line) 
@@ -28,9 +30,15 @@ cd ~/gitspace/osotn/engwords && tail -f fifo
 
 Ctrl+Alt+/
 #!/bin/sh
-# english line
+# english text fast read
 cd ~/gitspace/osotn/engwords
-echo $GEDIT_CURRENT_LINE | ./engwords -d 1 >>./fifo
+echo $GEDIT_SELECTED_TEXT | ./engwords -d 1 >>./fifo
+
+Ctrl+Alt+R
+#!/bin/sh
+# english text slow read (dictate)
+cd ~/gitspace/osotn/engwords
+echo $GEDIT_SELECTED_TEXT | ./engwords -d 4000 >>./fifo
 
 Ctrl+Super+/
 #!/bin/sh
