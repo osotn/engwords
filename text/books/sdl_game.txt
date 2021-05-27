@@ -22,3 +22,16 @@ Graphics are very important to games and they can also be one of the main
 performance bottlenecks if not handled correctly. With SDL 2.0 we can really
 take advantage of the GPU when rendering, which gives up a real boost in terms
 of the speed rendering.
+
+We can also pass null into the render copy for either rectangle.
+SDL_RenderCopy(m_pRenderer, m_pTexture, 0, 0);
+Passing null into the source rectangle parameter will make the renderer
+use the entire texture. Likewise, passing null to the destination rectangle
+parameter will use the entire renderer for display.
+
+Animating a sprite sheet
+-------------------------
+A sprite sheet is a series of animation frames all put together into one image.
+The separate frames need to have a very specific width and height so that they
+create a seamless motion.
+

@@ -1,0 +1,15 @@
+
+
+Tag Protocol Identifier (TPID)
+Tag control information (TCI) - 16bit
+
+802.1q : TCI:  3b Priority code point (PCP) + 1b Drop eligible indicator (DEI) + 
+               12b VLAN Identifier (VID)
+
+Native VLAN = by default with VLAN=1
+
+IEEE 802.1aq - Shortest Path Bridging (SPB)
+
+VID внутри OuterTag называют SP-VLAN, а поле VID внутри InnerTag называют CE-VLAN
+
+Мы выберем 802.1Q. host(config-if)# switchport trunk encapsulation dot1q

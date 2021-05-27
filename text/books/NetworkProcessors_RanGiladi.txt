@@ -1,0 +1,123 @@
+
+Chapter 1 Introduction and Motivation
+
+Part 1 Networking
+Chapter 2 Networking Fundamentals
+
+
+
+Chapter 1.
+Introduction and Motivation
+---------------------------
+Network processors (NPs) are chips - programmable devices that can process network
+packets (up to hundreds of millions of them per second), at wire - speeds of
+multi Gbps.
+Their ability to perform complex and flexible processing on each packet, as well
+as the fact that they can be programmed and reprogrammed as required, make them
+a perfect and easy solution for network systems vendors developing packet processing
+equipment.
+
+Telecommunications and data networks have become essential to everything that
+we do, to our well-being and to all of our requirements:
+ - mobile;
+ - video
+ - Internet
+ - TV
+ - automation
+ - multimedia
+ - entertainment
+ - online services
+ - shopping
+ - games
+
+There are traditionally two communication systems we use:
+ - telecommunications (telecom)
+ - data communication (datacom)
+
+Telecommunication network is based on circuits or channels of continuous bit streams,
+which grew out of its original applications to telephony services.
+The more recent networks, the data communications networks, were initially based on
+packets of data to carry information among computers.
+
+This resulted in two paradigms of network technologies:
+    - circuit switching;
+    - packet switching.
+
+The main technologies in the datacom systems are Ethernet and Internet Protocol (IP).
+
+
+Network elements are usually architected in two separated planes:
+    - the control plane: routing and management protocol (RIP, OSPF, BGP, RSVP, LDP).
+    - data forwarding plane - packet processing, address searches, forwarding, classifying, metering, NAT
+
+Typical system:
+ - pizza box;
+ - multicard chassis
+
+Forwarding plane is responsible for per-packet processing and handling, it is
+executed by high-speed devices such as ASICs or NPs.
+
+Control plane processing is usually executed by general-purpose processors, since
+the load on the control plane is significantly less than that of the data forwarding plane.
+
+
+Network processors are categorized into three groups according to their use and
+the way they have evolved: 
+ - entry level or access NPs;
+ - mid-level processors (legacy and multiservice NPs);
+ - high-end NPs that targeted for core and metro networking equipment
+
+Entery level NPs (or access NPs) process streams of up 1 to 2 Gbps packets,
+and are sometimes used for enterprise equipment:
+ - telephony systems (voice)
+ - xDSL
+ - cable modems
+
+Mid-level NPs (2-5 Gbps) contain two subgroups: legacy NPs and multiservice NPs:
+sevice cards of communication equipment, data center equipment. 
+
+High-End (10-100Gbps) are used mainly for core and metro networks.
+
+Network processors are sometimes distinguished from packet processors by being
+programmable, whereas packet processors are just configurable.
+
+Network processors perform several key functions, including:
+ - parsing the incoming frames in order to understand what they are, and where
+ to find the relevant information that is required for processing.
+ - retrieving the relevant information from the frames, which may be complicated
+ as encapsulation, variable fields length, and various levels of protocols.
+ - deep packet analysis when reqired.
+ - searching for related information in repositories: routing tables, access lists.
+ - classifying the frames
+ - modifying the frame's
+ - forwarding
+ 
+ 
+ Part 1
+ ------
+ Networks
+ 
+ Chapter 2
+ Networking Fundamentals
+ -----------------------
+Network can be found in many places and in many shapes, on many kinds of media
+and serving many purposes.
+We focus on a small but important segment of networks, where network processors
+are used in network nodes to carry the networking functions.
+
+Ethernet and IP networks.
+Ethernet technology is used primarily and traditionally for data communication in
+local area networks (LANs), and more recently in metropolitan area networks
+(MANs), or Metro networks.
+IP which is a network of networks, is used as the underlying technology for
+the Internet and most wide area networks (WANs).
+
+2.1 Introduction
+----------------
+In recent years, telecommunications, computers, networks, contents, and
+applications concepts have been combined and reshaped into new paradigms of
+infrastructure (networks and equipment), services (applications) and information
+(content).
+
+
+
