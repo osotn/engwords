@@ -3,7 +3,7 @@ all: main.c utf8_ciril_to_oem866.c utf8_to_pos.c
 	gcc -o utf8_to_pos utf8_to_pos.c
 
 unittests:  all main_test.c
-	gcc -o ut -DUNIT_TEST main.c main_test.c -Wl,--wrap=getchar -lcmocka
+	gcc -o ut -DUNIT_TEST main.c main_test.c -Wl,--wrap=getchar -fno-builtin -lcmocka
 	./ut
 
 clean:
