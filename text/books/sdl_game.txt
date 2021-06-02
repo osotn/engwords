@@ -2,6 +2,28 @@ SDL Game Development
 
 Discover how to leverage the power of SDL 2.0 to create awesome games in C++
 
+
+1. SDL_Init()
+2. SDL_CreateWindow() - size, type - view part.
+3. SDL_CreateRenderer(window) - renderer to window.
+
+4. SDL_SetRenderDrawColor()
+5. SDL_RenderClear()
+6. SDL_RenderPresent()
+
+7. IMG_Load(Image) -> SDL_Surface -> SDL_Texture   SDL_CreateTextureFromSurface()
+8. draw : SDL_RenderCopyEx(Texture, srcRec, dstRec)
+
+9. SDL_PollEvent()
+10.  SDL_Delay() , SDL_GetTicks()
+
+
+
+
+
+
+
+
 Chapter 1
 Getting Started with SDL
 ------------------------
@@ -34,4 +56,45 @@ Animating a sprite sheet
 A sprite sheet is a series of animation frames all put together into one image.
 The separate frames need to have a very specific width and height so that they
 create a seamless motion.
+If one of the sprite sheet is not correct it will make the whole animation look
+up of place or completely wrong.
+Six frames long and each frame is 128x82 pixels.
+
+SDL_GetTicks() to find out the amount of milliseconds since SDL was initialized.
+
+Flipping images
+---------------
+In the most games, players, enemies, and so on, will move in more than one direction.
+To allow the sprite to face in the direction it is moving we will have to flip
+our sprite sheet.
+SDL has another render function that allows us to pass in the way we want our
+image to be flipped or rotated - SDL_RenderCopyEx() - the fourth parameter is the angle.
+and the fifth is Flip.
+
+p.42
+Creating the texture manager
+----------------------------
+The texture manager will have functions that allow us to load and create SDL_Texture structure
+from image file, draw the texture and also hold a list of SDL_Texture*, so that we can use
+them whenever we need to.
+Using texture manager as a Singleton.
+
+p.49
+Chapter 3
+Working with Game Objects
+-------------------------
+
+All games have objects, for example, players, enemies, non-player character (NPC), traps, bullets, and doors.
+Keeping track of all these objects and how they interect with each other is a big task.
+
+p.69
+Chapter 4
+Exploring Movement and Input Handling
+
+Cartesian coordinate system.
+Flipped on the Y axis.
+
+Vector can be described as an entity with a direction and a magnitude.
+
+FPS = Frame per second
 
