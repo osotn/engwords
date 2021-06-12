@@ -20,10 +20,6 @@ Discover how to leverage the power of SDL 2.0 to create awesome games in C++
 
 
 
-
-
-
-
 Chapter 1
 Getting Started with SDL
 ------------------------
@@ -97,4 +93,29 @@ Flipped on the Y axis.
 Vector can be described as an entity with a direction and a magnitude.
 
 FPS = Frame per second
+
+Input handling
+--------------
+SDL supports a number of different types of user interface devices including
+joysticks, gamepads, mouse, and keyboard.
+
+Handling joystick/gamepad input
+ - initializing;
+ - listening for and handling axis movement
+ - dealing with joystick button input
+
+Our controller has four axes of motion, two for the left analog stick and two
+for the right.
+
+Chapter 5. Handling Game States
+-------------------------------
+
+1. Simple way for switching states
+
+enum game_states
+{
+    MENU = 0,
+    PLAY = 1,
+    GAMEOVER = 2
+};
 
