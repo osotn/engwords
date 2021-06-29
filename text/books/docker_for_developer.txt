@@ -1,0 +1,39 @@
+Docker for Developers
+Books 2020
+
+Preface
+-------
+Software engineering teams are rapidly adopting containers to package and deploy
+their software. Providing a platform - agnostic experience, containers allow you
+to run applications with a variety of operation system images and to deploy
+on-premises, in data centers, and in the cloud. In order to support container based
+applications, vendors have developed a wide variety of tools, ranging from
+Docker and Google's Kubernetes project to Lyft's Envoy service mesh and Netflix's
+Spinnaker.
+
+Docker
+Jenkins
+Kubernetes
+AWS (Amazon Web Services): ECR, EKS, Spinnaker, Prometheus, Grafana, Jaeger, Envoy
+Git Hub
+Docker Hub
+Anchore
+Datadog
+
+Section 1:
+An Introduction to Docker - containers and local development
+------------------------------------------------------------
+Chapter 1.
+Introduction to Docker
+----------------------
+Docker is a technology that allows entire applications and their environments
+to be encapsulated within individual containers.
+When multiple versions of these containers are run on single machine, they
+are sandboxed from one another as if running on their own dedicated machines.
+
+Docker is open source, which fits well with running Linux in containers, as well
+as numerous available open source components that help build complex systems.
+
+
+
+
