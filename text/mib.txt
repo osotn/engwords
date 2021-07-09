@@ -1,0 +1,6 @@
+MIB = management information base is a database used for managing the entities
+in a communication network. Most often associated with the Simple Network
+Management Protocol (SNMP).
+
+Object in the MIB are defined using a subset of Abstract Syntax Notation called
+"Structure of Management Information Version 2" SMIv2

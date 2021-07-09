@@ -632,8 +632,17 @@ Configuration file - multiple configuration file:
 Chapter 5 Analyzing Ethernet LAN Switching
 -------------------------------------------
 
+
+Part III: Implementing VLANs and STP
+
+Virtual LANs (VLANs) and Spanning Tree Protocol (STP).
+STP and the related and similar Rapid STP (RSTP) - acts to prevent frames from
+looping around a LAN. Without STP and RSTP, in LANs with redundant links, broadcasts
+and some other frames would be forwarded around the LAN, eventually clogging 
+the LAN so much as to make it unusable.
+
 Chapter 8. Implementing Ethernet Virtual LANs - 64 pages
----------------------------------------------
+--------------------------------------------------------
 Ethernet switches receive Ethernet frames, make decisions, and then forward
 (switch) those Ethernet frames. That core logic revolves around MAC addresses,
 the interface in which the frame arrives, and the interfaces out which the
@@ -649,7 +658,7 @@ points in one location.
 
 LAN (narrower definition) include all devices in the same broadcast domain.
 
-A broadcast domain includes the set of all LAN-connected devices, so that when
+A broadcast domain includes the set of all LAN - connected devices, so that when
 any the devices sends a broadcast frame, all the other devices get a copy of the
 frame. So, from one perspective, you can think of a LAN and a broadcast domain
 as being basically the same thing.
@@ -693,7 +702,6 @@ the receiving switch can then know in what VLAN each frame belongs.
   +------+  VLAN1 |     /    | VLAN2  +-------+
   | Fred |--------|     /    |--------| Betty |
   +------+        +----------+        +-------+
-
                     VLAN 20 (without trunking)
   +------+        +---+  +---+        +-------+
   | Dino |--------| S |--| S |--------| Wilma |
@@ -796,7 +804,7 @@ configured to believe that the VLAN exist.
  - trunks that support the VLAN.
 
 step 1:
-    (config)vlan vlan-id to create VLAN and to move the user into VLAN configuration
+    (config)vlan vlan-id # to create VLAN and to move the user into VLAN configuration
 
     (optional) use the name "name" command in VLAN configuration mode to list a name or
 VLANZZZZ
@@ -905,9 +913,124 @@ STP and RSTP strike a balance, allowing frames to be delivered to each device,
 without causing the problems that occur when frames loop through the network over
 and over again.
 
-STP/RSTP prevents three common problems in Ethernet LANs:
-Just one looping frame causes what is called a broadcast storm.
+STP/RSTP prevents looping frames by adding an additional check on each interface
+before a switch uses it to send or receive user traffic. If the port is in
+STP/RSTP forwarding state in that VLAN, use it as normal; if in blocking state,
+block all user traffic and do not send or receive user traffic on that
+interface in that VLAN.
 
+STP/RSTP prevents three common problems in Ethernet LANs.
+Just one looping frame causes what is called a broadcast storm.
+BUM - broadcast, unknown-destination unicast, multicast.
+Switches flood broadcasts out all interfaces in the same VLAN except the interface
+in which the frame arrived.
+It also causes MAC table instability, because frames with the same source MAC
+arrive on different ports.
+And a third problem: multiple copies of the frame arrive at the destination.
+
+STP/RSTP prevents loops by placing each switch port in either a forwarding state
+or a blocking state. Interface in the forwarding state act as normal, forwarding
+and receiving frames. Interface in a blocking state do not process any frames
+except STP/RSTP messages !!! (and some other overhead messages), do not learn
+MAC addresses of received frames, and do not process received user frames.
+But if either of the other two links fails, STP/RSTP converges.
+The term STP convergence refers to the process by which the switches collectively
+realize that something has changed in the LAN topology and determine whether they
+need to change which ports block and which ports forward.
+
+How STP Works
+-------------
+The STP/RSTP algorithm creates a spanning tree of interfaces that forward frames.
+The tree structure of forwarding interfaces creates a single path to and from
+each Ethernet link, just like you can trace a single path in a living, growing
+tree from the base of the tree to each leaf.
+STP was created before LAN switches even existed, using LAN bridges to connect LANs.
+Today, switches play the same role as bridges, implementing STP/RSTP.
+However, many STP/RSTP terms still refer to bridge.
+The process used by STP, sometimes called the spanning-tree algorithm (STA).
+STP/RSTP simply picks which interfaces should forward, and any interfaces left
+over go to a blocking state.
+    1. STP/RSTP elects a root switch. STP puts all working interfaces on the root
+       switch in forwarding state.
+    2. Each nonroot switch considers one of its ports to have the least administrative
+       cost between itself and the root switch. The cost is called that switch's root
+       cost. RP = root port in forwarding state.
+    3. Other is DP = designated port.
+
+Failed interfaces (no cable or administratively shutdown) are places into disabled state.
+RSTP using the status term discarding. 
+
+STA begins with an election of one switch to be the root switch.
+To better understand this election process, you need to understand the STP/RSTP
+messages sent between switches as well as the concept and format of the
+identifier used to uniquely identify each switch.
+The STP/RSTP bridge ID (BID) is an 8-byte value unique to each switch.
+The BID consists of a 2-byte priority field and a 6-byte system ID, with the
+system ID being based on a universal (burned-in) MAC address in each switch.
+Message called bridge protocol data unis (BPDU), also called configuration,
+called a Hello BPDU, switches can tell which switch sent which Hello BPDU.
+The root switch is the switch with the lowest numeric value for BID.
+
+Designated port (DP) in each LAN segment is the switch port that advertises
+the lowest-cost Hello onto a LAN segment.
+
+STP/RSTP works by default on Cisco switches, so all the settings needed by a switch
+have a useful default.
+
+Note that almost all the differences between STP and RSTP revolve around the
+activities of waiting for and reacting to changes in the topology.
+
+STP root switch sends a new Hello BPDU every 2 seconds by default. Each nonroot
+switch forwards the Hello on all DPs, but only after changing items listed in
+the Hello.
+
+Hello timer of 2 seconds.
+MaxAge is 20 seconds (10 times the default Hello timer of 2 seconds).
+
+STP uses the idea of roles and states.
+Roles, like root and designated port, relate to how STP analyzes the LAN topology.
+States, like forwarding and blocking, tell a switch whether to send or receive
+frames.
+When STP converges, a switch chooses new port roles, and the port roles determine
+the state (forwarding or blocking).
+
+Switches using STP can simply move immediately from forwarding to blocking state,
+but they must take extra time to transition from blocking state to forwarding state
+(to prevent temporary loops):
+    - Listening: Like the blocking state, the interface does not forward frames.
+                 The switch removes old state (unused) MAC table entries for which
+                 no frames are received from each MAC address during this period.
+                 (These stale MAC table entries could be the cause of the temporary
+                 loops).
+    - Learning:  Interfaces in this state still do not forward frames, but the
+                 switch begins to learns the MAC addresses of frames received
+                 on the interface.
+Blocking -> Listening -> Learning -> Forwarding.
+Each state 15 seconds = 30 seconds + 20 seconds MaxAge. --> 50 seconds.
+
+New protocols emerge to take advantage - RSTP, IEEE 802.1w.
+
+RSTP uses the term alternate port. The backup port concept provides a backup port
+on the local switch for a designated port.
+
+Optional STP Features:
+    - EtherChannel:
+    - PortFast: allows a switch to immediately transition from blocking to forwarding,
+                bypassing listening and learning states.
+    - BPDU Guard: only for access port and never connected to another switch.
+
+
+Chapter 10.
+RSTP and EtherChannel Configuration
+
+Cisco IOS switches today typically default to using RSTP rather than STP, with
+default settings so that RSTP works with no configuration.
+
+Most network engineers make the distribution layer switches be the root.
+
+Cisco uses the term access switch to refer to switches used to connect to end-point
+devices. The term distribution switch refers to switches that do not connect to
+endpoints but rather connect to each access switch.
 
 Chapter 11
 ----------

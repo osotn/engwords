@@ -32,3 +32,24 @@ https://youtube.com                                   Google CA
                                                   Private Key / Public Key
 
 
+Bridge vs Switch
+================
+Bridge and switches are pretty similar, both operate at the Data Link Layer (Layer 2)
+and both can filter data so that only the appropriate segment or host receives
+a transmission.
+Both filter packets based on the physical address (AKA: MAC = Media Access Control)
+of the sender/receiver although newer switches sometimes inlclude the capabilities
+of a router and can forward data based on IP address.
+Switches are considered as superior devices than Bridges.
+The major difference between a network bridge and switch are as follows:
+
+Packet forwarding in Bridges   is performed using the software
+                     Switches  is performed using HW.
+Method of switching of a bridge is store and forward.
+                         switch can be store, forward, cut through, of fragment-free.
+A bridge has only 2 ports.
+  switch can handle many ports.
+  
+Bridges divide collision domain into two parts. Bridges can create collision
+domains but not broadcast domains.
+

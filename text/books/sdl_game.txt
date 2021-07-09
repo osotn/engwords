@@ -121,4 +121,10 @@ enum game_states
 
 Chapter 6. Data-driven Design
 -----------------------------
+Object Factories
+
+An object factory is a class that is tasked with the creation of our objects.
+
+Using Distributed Factories we can make a generic object factory that will create
+any of our types.
 
