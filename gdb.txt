@@ -1,0 +1,15 @@
+GDB is not intuitive but it is very powerful
+
+# gdb ./hello
+
+(gdb) list
+(gdb) start
+
+(gdb) ctrl-x + a # Go to graphical mode!!!
+
+(gdb) next
+
+(gdb) ctrl-x + 2  # show assembly code
+
+TUI = Text User Interface
+

@@ -3,4 +3,8 @@ in a communication network. Most often associated with the Simple Network
 Management Protocol (SNMP).
 
 Object in the MIB are defined using a subset of Abstract Syntax Notation called
-"Structure of Management Information Version 2" SMIv2
+"Structure of Management Information Version 2" SMIv2 - RFC 2578
+
+Database is hierarchical (tree structured) and each entry is addressed by
+through an object identifier (OID).
+
