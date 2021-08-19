@@ -1,0 +1,107 @@
+Day 1
+Network Devices
+
+A computer network is a digital telecommunications network which allows nodes to share resources.
+
+* router
+* switch
+* firewall
+* server
+* client
+
+A client is a device that accesses a service made available by a server.
+
+A server is a device that provides functions or services for clients.
+
+Client --- The Internet --- Server
+
+Switches:
+    - Cisco Catalyst 9200
+    - Cisco Catalyst 3650
+
+Switches:
+    - have many network interfaces / ports for end hosts to connect to (usually 24+)
+    - provide connectivity to hosts within the same LAN
+    - do not provide connectivity between LANs / over the Internet
+
+Routers:
+    - ISR 1000
+    - ISR 900
+    - ISR 4000
+
+Routers:
+    - have fewer network interfaces than switches
+    - are used to provide connectivity between LANs
+    - are therefore used to send data over the Internet
+
+Firewalls
+    - ASA5500-X
+    - Firepower 2100
+
+    - monitor and control network traffic based on configure rules.
+    - can be placed 'inside' the network, or 'outside the network'.
+    - are known as "next generation firewalls" when they include more modern
+        and advanced filtering capabilities.
+
+Network firewalls:
+    - are hardware devices that filter traffic between networks
+Host based firewalls:
+    - are software applications that filter traffic entering and exiting a host
+        machine, like a PC
+
+Day 2
+Interfaces and Cables
+
+10/100/1000Base-T Ports (1-24) - Ports are Auto-MDIX
+RJ-45 = Registered Jack
+
+Ethernet is a collection of network protocols / standards.
+
+Speed is measured in bits per second (kbps, Mbps, Gbps, etc)
+
+
+Ethernet copper
+
+Ethernet         10   Mbps  =   10BASE-T  100m        T = twisted pair
+Fast Ethernet    100  Mbps  =  100BASE-T  100m
+Gigabit Ethernet 1000 Mbps  = 1000BASE-T  100m
+10 Gig Ethernet  10   Gbps  =  10GBASE-T  100m
+
+
+UTP Cables = Unshielded Twisted Pair
+
+Full-Duplex
+
+Straight through cable
+Crossover        cable
+
+Auto MDI-X (Medium dependent interface crossover)
+
+               MDI        MDI-X      Auto MDI-X
+MDI         crossover    straight       any
+MDI-X       straight     crossover      any
+Auto MDI-X     any         any          any
+
+
+MDI:    1/2 Tx, 3/6 Rx  = NIC, Router, Firewall
+MDI-X:  1/2 Rx, 3/6 Tx  = Hub, Switch
+
+SFP Transceiver (small form factor pluggable)
+
+Fiber - optic
+
+single - mode  (SM)      = longer, core diameter is narrower, expensive (laser based transmitter)
+multi    mode (MM)      = core diameter is wider than single - mode fiber, cheaper (LED - based)
+
+1    Gbps  = 1000BASE-LX  550m (MM) / 5km (SM)
+10   Gbps  =  10GBASE-SR  400m (MM)
+10   Gbps  =  10GBASE-LR  10km (SM)
+10   Gbps  =  10GBASE-ER  30km (SM)
+
+
+EMI (eletromagnetic interference)
+vulnerable to EMI
+
+Emit (leak) a faint signal outside of the cable
+
+

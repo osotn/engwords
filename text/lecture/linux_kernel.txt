@@ -1,0 +1,36 @@
+Linux kernel
+============
+
+https://www.youtube.com/watch?v=1Y3Ot5xFZDA&list=PL2TXDotVKyDBEfWSKcePqRRCp9EehqDGF
+kmalloc() vs vmalloc() kernel space memory
+------------------------------------------
+                |     |
+void *          +-----+
+kmalloc() - RAM |/////| physical memory -> Device Drivers
+                +-----+     MMU         -> DMA    +-----+
+                |     |                           |/////|
+void *                                            +-----+
+vmalloc() - long size. Virtually continues range  |     |
+    MMU, Performance on CPU,                      +-----+
+                                                  |/////|
+                                                  +-----+
+                                                  |     |
+
+atomic_t datatype - atomic variables and APIs
+--------------------------------------------
+
+atomic_t my_var;
+
+int int_var;
+
+spinlock(&...);
+int_var++;
+unspinlock(&...);
+
+int_var = atomic_read(&my_var);
+atomic_set(&my_var, 0);
+      _add()
+      _sub()
+
+
+
