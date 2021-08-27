@@ -32,5 +32,123 @@ atomic_set(&my_var, 0);
       _add()
       _sub()
 
+Interview questions:
+
+1) How to manipulate the current process states?
+
+Linux kernel provide set_task_state(task,state) by which you can manipulate
+the state of given task. By using of set_task_state you can change to state of given task.
+
+2) What are kernel thread?
+
+Kernel perform some background operation by using of some thread that is called
+kernel thread.
+Kernel thread are the special thread which doesn't have the process address space.
+
+They just run in the kernel space.
+We can reschedule kernel thread like a normal process.
+Kernel delegates several task to kernel thread like flush etc.
+
+3) How threads are implemented in Linux kernel?
+
+In Linux there is no special provision for thread. 
+In Linux thread is a process which actual share some resources with other process.
+Every thread has a unique task_struct.
+Creating thread also created by using the clone() syscall except some flags
+for sharing the data like file system, signal handler, open files also set.
+Flags are used to specify that which resources are shared between parent and child process:
+or thread. E.g clone(CLONE_VM | CLONE_FS | CLONE_FILES | CLONE_SIGHAND, 0);
+
+4) What are different states of a process in linux?
+
+In linux a process can be in one of the following state. 
+    1) TASK_RUNNING :
+        - This state specify that process is either running or in ready state
+          and waiting in run queue.
+    2) TASK _ INTERRUPTIBLE:
+        - This condition states that the task is in sleeping state and waiting
+          for some event to occur. 
+          When this condition occurs task comes in TASK_RUNNING state.
+    3) TASK _ UNINTERRUPTIBLE:
+        - This state is similar as previous state but in this state
+          process does not wait for any event to occur.
+    4)_TASK _ TRACED:
+        - The process is getting traced by another process , such as a debugger.
+
+5) What is difference between process and thread?
+
+Linux does not differentiate between process and thread.
+Linux kernel understand a thread as a process and implements process and thread
+in same way.
+In Linux thread is a process which actually share some resources with other process.
+
+6) Generally what resources are shared between threads?
+
+Threads can share lots of things.
+Some of the most shared resources are file system information, open files,
+signal handlers, Address space etc.
+
+7) What is process descriptor?
+
+In Linux kernel a process is represented by Process descriptor which is a structure
+of type task_struct.
+Kernel stores all the process by maintaining a doubly linked list in which each
+node is type of task_struct.
+In other words we can say kernel maintained a doubly linked list of process descriptors.
+
+8) What is task_struct?
+
+The task_struct is a large data structure around 1.7 Kb on a 32 bit machine.
+This structure maintain all the information about a process.
+This structure contains info like:
+    signals, files ,stack ,state and much more as we can see below picture.
+
+
+10) What was the need of thread_info structure?
+
+The task_struct is a large data structure around 1.7 Kb on a 32 bit machine
+and kernel stack is either 4KB or 8KB.
+Hence the task of storing structure of 1.7 kb is very much difficult.
+So kernel introduced concept of thread_info, which is very much slimmer
+than task_thread and just points to task_struct structure.
+
+11) Difference between fork() and vfork() ?
+
+The vfork() system calls has the same effect as fork() except that the page table
+entries of the parent process are not copied.
+Instead the child executes as a sole in the parents address space,
+and the parent is blocked until the child either call exec() or exits.
+
+12) What is process context ?
+
+Normally process runs in user space but when a program calls a syscall or triggers 
+an exception then it enter into the kernel-space at that time kernel is said to be
+executed on behalf of process and in other word kernel is in process context.
+
+13) What is zombie process?
+
+Process which is dead and completed its execution but still it had an entry
+in process table is called zombie process.
+
+14) How parent less process is handles in linux ?
+
+If a parents exist before its children then child process are re-parented
+to another process in same thread group or, if that fails , then init process.
+
+
+
+
+
+1) what is process scheduling ?
+
+Process of selecting which process to give chance to run is called Process scheduling.
+It is responsibility of processor to decide which process to run,
+when and for how long.
+For multiprogramming system scheduler is base. Scheduler has to decide which process to
+run and which process has to wait.
+Scheduler has to allot the time to each process efficiently and make the efficient
+use of Processor so that user can feel that all the processes is executing at the same time.
+
+
 
 

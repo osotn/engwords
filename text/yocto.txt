@@ -1,0 +1,8 @@
+The Yocto Project is a Linux Foundation collaborative open source project whose goal is to produce tools and processes that enable the creation of Linux distributions for embedded and IoT software that are independent of the underlying architecture of the embedded hardware.
+
+A key part of this is the OpenEmbedded build system, which enables developers to create their own Linux distribution specific to their environment. 
+
+BitBake is a make-like build tool with the special focus of distributions and packages for embedded Linux cross compilation, although it is not limited to that.
+
+BitBake recipes specify how a particular package is built. Recipes consist of the source URL (http, https, ftp, cvs, svn, git, local file system) of the package, dependencies and compile or install options. They also store the metadata for the package in standard variables.[4] During the build process, recipes are used to track dependencies, performing native or cross-compilation of the package and package it so that it is suitable for installation on the local or a target device. It is also possible to create complete images consisting of a root file system and kernel. As a first step in a cross-build setup, the framework will attempt to create a cross-compiler toolchain suited for the target platform.
+

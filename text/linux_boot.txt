@@ -1,0 +1,62 @@
+Texas instruments
+
+enthusiast
+
+Reset
+  |
+  |
+BootROM
+
+ROM code limitations:
+    - knows nothing about external RAM;
+    - knows nothing about peripheral devices;
+    - limited size and flexible enough.
+
+Bootloader
+    - resides in flash;
+    - knows external RAM, clocks, PMIC, eMMC/NAND, serial console, watchdog
+    - knows about OSes
+
+U-boot SPL
+    - UART configuration
+    - clock/PLL and pinmuxing
+    - External RAM (proper DDR timing)
+
+U-boot proper
+    - Boots Linux (ramdisk, zImage and Device Tree Blobs, bootargs)
+
+Das U-boot
+
+(single thread)
+
+-   SPL and Falcom mode
+-   U-boot shell
+-   Driver Model and device tree support
+-   EFI support
+-   Android boot
+-   U-boot and TEE on ARMv8
+
+U-Boot shell
+    own CLI interface
+    environment variables key=value
+    bootm, bootz, fdt, dm, dhcp, env, reset, tftpboot, part, gpt, ping
+    shell scripting
+
+SPL = Secondary Program Loader
+TPL = Third Program Loader
+U-Boot proper
+
+Falcon boot: boot Linux directly from SPL doc/README.falcon
+
+"Lazy" probing - U-Boot
+
+Devices organized by classes (UCLASS).
+
+Support of Live trees.
+
+EFI - API with firmware
+bootefi shell command
+
+FIT image
+
+

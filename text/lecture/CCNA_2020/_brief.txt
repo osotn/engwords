@@ -105,3 +105,66 @@ vulnerable to EMI
 Emit (leak) a faint signal outside of the cable
 
 
+Day 3. OSI Model & TCP/IP Suite
+-------------------------------
+
+Networking models categorize and provide a structure for networking protocols
+and standards.
+
+Protocol is a set of rules defining how network devices and software should work.
+
+OSI = Open Systems Interconnection' model by ISO
+
+    7. Application    - HTTP
+    6. Presentation   - 
+    5. Session
+    4. Transport
+    3. Network
+    2. Data Link
+    1. Physical Layer
+
+Encapsulation and de-encapsulation
+
+Same layer interaction
+
+Data in the application layer is in 'application format'
+It needs to be translated to a different format to be sent over
+the network.
+The presentation Layer job is to translate between application
+and network formats.
+
+Session layer controls dialogues (sessions) between communicating hosts.
+
+L4 Transport - Segment = L4 Header + Data;
+L3 Network   - Packet  = L3 Header + Segment
+L2 Data Link - Frame   = L2 Header + Packet + L2 Trailer
+
+PDUs: data, segment, packet, frame
+(protocol Data Units)
+
+A  All                                                                Acronyms
+P     People                                                 Pointless
+S           Seem                                     Students
+T               To                              Teach
+N                 Need                       Not
+D                     Data                 Do
+P                         Processing Please
+
+TCP/IP suite
+DARPA (Defense Advanced Research Projects Agency).
+
+
+OSI Model             TCP/IP Suite
+---------------------------------
+Application
+Presentation          Application
+Session
+Transport             Transport
+Network               Internet
+Data Link             Link
+Physical
+
+
+
+
+

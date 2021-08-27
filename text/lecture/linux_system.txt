@@ -1,0 +1,569 @@
+Linux system
+============
+
+Basic Linux Interview Questions and Answers
+
+Here we have few basic questions and answers asked in Linux interview. These questions are important from the interviewer’s perspective, and you should be ready for the below questions for your Linux interview preparation.
+
+1. What is Linux and also explain the basic components of Linux?
+
+Answer: Linux is the most commonly used operating system that is open source and free. For any computer, the operating system acts as the backbone, and it is most important software that is required for any computer. From network routers, television, video games console, smartwatches, smartphones, desktops, laptops to any other electronic device, Linux is everywhere.
+
+Linux operating system is consist of 3 components which are as below:
+ - Kernel: Linux is a monolithic kernel that is free and open source software that is responsible for managing hardware resources for the users.
+ - System Library: System Library plays a vital role because application programs access Kernels feature using system library.
+ - System Utility: System Utility performs specific and individual level tasks.
+
+
+2. What are the differences between UNIX and Linux Operating System?
+
+Answer: To understand the differences between UNIX and Linux Operating system, first of all, we should know that Linux is a UNIX clone, the Kernel of which is created by Linus Torvalds. There are so many differences between Linux and UNIX operating system which are as follows:
+
+Open Source Operating System:
+The most significant difference between UNIX and Linux operating system is Linux is an open source operating system. The open-source operating system that means Linux source code is available for use so that developers can modify it as per their requirement. But UNIX operating system doesn’t come under the broad category of an open-source operating system for which developers can edit it.
+
+Free of Cost:
+One of the biggest reason that it is broadly used is Linux operating system is free of cost. Linux operating system is free, but UNIX Operating system is not free. We can download it from the internet.
+
+Compatibility and Flexibility:
+If we compare the flexibility and compatibility of both operating system, you will find that Linux is more flexible than UNIX operating system and more compatible with different types of hardware as compared to UNIX operating System.
+
+3. Describe BASH.
+Answer: BASH stands for Bourne Again Shell. BASH is the UNIX shell for the GNU operating system. So, BASH is the command language interpreter that helps you to enter your input, and thus you can retrieve information. In a straightforward language, we can say that it is a program that will understand the data entered by the user and execute the command and gives output.
+
+4. What is crontab and explain its functionality and explain the format of crontab?
+Answer: Cron is a scheduler that executes the commands at a regular interval as per the specific date and time defined. We have multiple users in Linux, and all the users can have their crontab separately. The crontabs files are saved at a particular location that is /var/spool/cron/crontabs.
+
+There are six fields in the format for the crontab that is as below:
+
+<Minute><Hour><Day_of_the_Month><Month_of_the_Year><Day_of_the_Week><command/program to execute>
+
+5. What do you understand by CLI?
+Answer: CLI is an acronym for Command Line Interface. We have to provide the information to the computer so that it can perform the function accordingly. In Linux, CLI is the interface that provides the user an interface so that user can type the commands and it complete the tasks. CLI is very easy to use, but it should be typed very precisely.
+
+Try: CompTIA Linux+ LX0-103 Certification Free Test
+
+6. What is a Swap Space or Swap Partition?
+Answer: When we have insufficient RAM space in the system and we need more RAM to process our applications then Linux allows an extra allocation of RAM in the physical hard disk which is called a swap space. It is used to hold current programs that are currently running in the system.
+
+7. Describe the root account.
+Answer: The root account resembles an administrator account and permits you to take full control of the framework. Here you can make and keep up client accounts, allocating distinctive accounts for each user. It is the default account that is created every time you install Linux.
+
+8. What is LILO?
+Answer: LILO or Linux Loader is the default boot loader for Linux. It is independent of a specific file system and can boot operating system from hard disks. Various parameters such as root device can be set independently using LILO.
+
+This is one of the top linux interview questions asked in the linux interview. The interviewer may ask it as what do you know about linux loader so don’t be confuse with the question but answer it confidently.
+
+9. Explain the importance of the GNU project?
+Answer: The GNU project was begun to make a working framework which will be free for clients. The clients would have the opportunity to run, share, circulate, study, change, and enhance or roll out new improvements to the product.
+
+The point of this task was to construct a working framework that is free and furthermore “everything valuable that typically accompanies a UNIX framework so one could get along with no product that isn’t free”.
+
+Nowadays the bit Linux is exceptionally normal. Outside the piece, every other piece of the Linux framework is GNU. It was taken under variant 2 of GNU and subsequently, the name Linux was named to GNU/Linux.
+
+10. What is the maximum length for a filename allowed in Linux?
+Answer: Any filename can have a most extreme of 255 characters. This farthest point does exclude the pathname, so accordingly the whole pathname and filename could very much surpass 255 characters.
+
+The interviewer generally asks this linux interview question and confuse the candidate by further asking if the mentioned length includes pathname. So, get prepared with the complete answer and explain it before the interviewer asks you more.
+
+Advanced Linux Interview Questions and Answers
+Whenever you are going for a Linux interview, you can expect to be asked advanced level questions, so here we have explained some advanced level question for your Linux interview preparation.
+
+11. Explain Network Bonding and also explain the different types of Network bonding?
+Answer: Network Bonding as the name implies that it is the process of bonding or joining two or more than two network interfaces to create one interface. It helps in improving the network throughput, bandwidth, redundancy, load balancing as in case any of the interfaces is down; the other one will continue to work. Several types of Network Bonding are available that are based on the kind of bonding method.
+
+Below are the different bonding types in Linux:
+
+balance-rr or mode 0 – This is the default mode of network bonding that works on the round-robin policy that means from the first slave to the last, and it is used for fault tolerance and load balancing.
+active-backup or mode 1 – This type of network bonding works on the active-backup policy that means only one slave will be active and other will work just when another slave fails. This mode is also used for fault tolerance.
+balance-xor or mode 2 –This type of network bonding sets an exclusive or mode that means source MAC address is XOR’d with the destination address, and thus it provides fault tolerance and load balancing.
+broadcast or mode 3 –This mode sets a broadcast mode to provide fault tolerance, and it should be used for particular purposes. In this type of network bonding, all transmissions are sent to all slave interfaces.
+802.3ad or mode 4 –This mode will create the aggregation groups, and all the groups will share the same speed. For this, mode sets an IEEE 802.3ad dynamic link aggregation mode. It is done by particular switch support that supports IEEE 802.3ad dynamic link.
+balance-tlb or mode 5 –This mode sets a transmit load balancing mode for fault tolerance and load balancing and does not require any switch support.
+balance-alb or mode 6 –This mode sets an active load balancing to achieve fault tolerance and load balancing.
+Try: CompTIA Linux+ LX0-104 Certification Free Test
+
+12. What is the similarity and difference between cron and anacron? Which one would you prefer to use?
+Answer: Here we are going to discuss the similarity and the differences between cron and anacron. So, let’s start with the analogy:
+
+Cron and Anacron are used to schedule the tasks in cron jobs. Both of these are the daemons that are used to schedule the execution of commands or tasks as per the information provided by the user.
+
+Differences between cron and anacron:
+
+One of the main difference between cron and anacron jobs is that cron works on the system that are running continuously that means it is designed for the system that is running24*7. While anacron is used for the systems that are not running continuously.
+Other difference between the two is cron jobs can run every minute, but anacron jobs can be run only once a day.
+Any normal user can do the scheduling of cron jobs, but the scheduling of anacron jobs can be done by the superuser only.
+Cron should be used when you need to execute the job at a specific time as per the given time in cron, but anacron should be used in when there is no any restriction for the timing and can be executed at any time.
+If we think about which one is ideal for servers or desktops, then cron should be used for servers while anacron should be used for desktops or laptops.
+
+13. What is the issue behind getting an error “filesystem is full” while there is space available when you check it through “df” command? How will you rectify this problem?
+
+Answer: When all the inodes are consumed then even though you have free space, you will get the error that filesystem is full. So, to check whether there is space available, we have to use the command df –i.  Sometimes, it may happen file system or storage unit contains the substantial number of small files, and each of the files takes 128 bytes of the inode structure then inode structure fills up, and we will not be able to copy any more file to the disk. So, to rectify the problem, you need to free the space in inode storage, and you will be able to save more files.
+
+14. Where is password file located in Linux and how can you improve the security of password file?
+Answer: This is an important question that is generally asked by the interviewers. User information along with the passwords in Linux is stored in/etc/passwd that is a compatible format. But this file is used to get the user information by several tools. Here, security is at risk. So, we have to make it secured.
+
+To improve the security of the password file, instead of using a compatible format we can use shadow password format. So, in shadow password format, the password will be stored as single “x” character which is not the same file (/etc/passwd). This information is stored in another file instead with a file name /etc/shadow. So, to enhance the security, the file is made word readable and also, this file is readable only by the root user. Thus security risks are overcome to a great extent by using the shadow password format.
+
+15. What is Key-based authentication? Explain.
+Linux Sale Whizlabs
+
+Answer: There are various methods to enter into the servers. One of the ways to log in is using password-based authentication, but that is not secure. So, we need a method that is secured.
+
+One of the ways to achieve the security is to use Key-based authentication. To use this type of authentication, we have to disable the password-based authentication. So, there is a procedure to set up this authentication which is as follows:
+
+We have to get the SSH key pair using below command:
+
+$ ssh-keygen -t rsa
+It will generate the public/private rsa key pair.
+
+Enter file where you want to save this generated key (/home/username/.ssh/id_rsa):
+
+It will prompt you for the same location, i.e. ~/.ssh/id_rsa for the key pair. Press enter if you want to confirm the same location. Else, if you want to provide any other location, enter that and confirm the same.
+
+Now copy ~/.ssh/id_rsa.pub into the ~/.ssh/authorized_keys that will be located where you have to connect.
+
+Now, we have to provide the permissions to the file as per below command:
+
+$ chmod 600 ~/.ssh/authorized_keys
+
+Now try to sshthe machine you want to connect, and you will see that you are able to login to the machine without a password.
+
+If you are confirmed that key-based authentication is working fine, disable the password-based authentication.
+
+Go to the path /etc/ ssh/sshd_config
+
+set the following property as no.
+
+PasswordAuthentication no
+
+16. Mention the steps to find out the memory usage by Linux.
+Answer: You have to enter a command in the Linux shell called “Concatenate” to find out the memory usage by Linux.
+
+Syntax: cat /proc/meminfo.
+
+When you will enter this command then you will see a list of memory usage like Total Memory, Free Memory, Cache memory, and many other memory usages by Linux. Other commands used in Linux are:
+
+$ free –m // this is the simplest command where it will show the memory usage in MB.
+$ vmstat –s //this command gives a report on virtual memory statistics
+top // this command checks the usage of memory and cpu usage
+htop // similar like top command
+17. What do you mean by an ext3 file system?
+Answer: This is one of the top linux interview questions asked in the linux interview. It can be answered in the following manner. Ext3 file system is an upgraded version of ext2 and it also supports journaling. When an unclean shutdown is performed ext2 file system performs a check on the machine for errors which is a long process but it is not so in case of the ext3 file system.
+
+In case of a hardware failure, an ext3 consistency check will occur without any pause. The time of the recovery of the file system is independent of the number of files. The time is dependent on the size of the journal which only takes a second which depends on the speed of the hardware.
+
+18. What is the level of Security that Linux provides in comparison to other Operating Systems?
+Answer: If an operating system is not secure then it is not successful. In comparison to other operating systems, Linux is the most secure operating system as it consists of Pluggable Authentication Modules. A secure layer is created between the authentication process and applications. It is because of PAM only by which an admin can give access to other users to log into the system.  You can find the configuration of PAM applications in the “/etc/pam.d” or “/etc/pam.conf” directory.
+
+19. What are soft links? Describe some of the features of soft links.
+Answer: Soft Links or Symbolic Link or Symlink are special files which are used as a reference for another directory. Some features of softlinks are:
+
+They have a different INODE number with respect to source files or original files.
+If in case the original file is deleted then a soft link of that file is useless.
+We cannot update a soft link.
+Soft links are used to create links between directories.
+Soft links are independent of file system boundaries.
+20. Explain INODE in Linux.
+Answer: INODE is a structure which acts as an identity for all files and objects. Type a command in the shell “ls -i”. The numbers which are displayed at the adjacent of files and folders, these are INODE numbers which are assigned to each file that contains information about the file. The system uses this number to identify the file. Information like the size of the file, when the file was modified etc is contained in an INODE number.
+
+The questions based on INODE is the most common linux interview question you may come across in your linux interview. So, read well and get enough knowledge even if you are not familiar with it and get ready with the answer.
+
+CompTIA Linux+ LPI LX0-103 Practice Tests
+
+Admin-level Linux Interview Questions and Answers
+Here we have a comprehensive list of Linux interview questions and answers that are useful for admin level. So, here are few Linux questions that can help you with the Linux interview preparation.
+
+21. Explain the logical steps to increase the size of LVM partition?
+Answer: Some logical steps need to be followed to increase the size of LVM partition. These are as follows:
+
+Run the command as per given format:
+lvextend -L +500M /dev/<Name of the LVM Partition>
+Here, we are extending the size of LVM partition by 500MB.
+
+resize2fs /dev/<Name of the LVM Partition>
+You can check the size of partition using ‘df -h’ command
+22. Using which utility you can create a partition from the raw disk?
+Answer: To create the partition from the raw disk, you have to use fdisk utility.Below are the steps to create a partition from the raw disk:
+
+Step 1: Run the below command:
+
+fdisk  /dev/hd* (IDE) or /dev/sd* (SCSI)
+Step 2: Type n to create a new partition
+
+Step 3: Now partition has been created, and we have to write the changes to the partition table, so type w command to write the changes.
+
+23.What are the default port numbers used for SMTP, FTP,DNS, DHCP, SSH?
+
+Answer:
+
+Service      Port
+SMTP          25
+FTP             20 for data transfer and 21 for Connection established
+
+DNS            53
+DHCP         67/UDP(for DHCP server, 68/UDPfor DHCP client
+SSH            22
+
+24. How do you create a new user account and set the password for a user from a shell prompt in Linux?
+Answer: To create a new user account from a shell prompt follow the below steps:
+
+Log in as root user if you are not logged in as root using su – command.
+Enter the root user password
+The useradd command is used to create a new user in Linux. So, type command useradd and give the username you want to create as given below:
+Useradd smith
+
+To set the password of the user smith type the command: passwd smith
+It will prompt for the new password. Enter the new password for user smith.
+It will ask to retype the password. So, retype the same password and password is set for the user.
+25. Explain all the fields in the/etc/passwd file?
+Answer: /etc/passwd file contains the useful information for all the system users who log in. We have many fields in /etc/passwd file such as username, password, user ID, group ID, comment or user ID info, home directory, command /shell, etc. So, this file contains sensitive information regarding all the user accounts. There is a single line per user in this file. Colon (:) separates the fields in /etc/passwd. Below is the explanation of the fields.
+
+Username: First field is the username that contains the username which is 1 to 32 length characters.
+Password: This field does not show the actual password as the password is encrypted. Here, x character shows that password is encrypted that is located in /etc/shadow file.
+User ID (UID): All the users created in Linux is given a user ID whenever the user is created. UID 0 is fixed and reserved for the root user.
+Group ID (GID): This field specifies the name of the group to which the user belongs. The group information is also stored in a file /etc/group.
+User ID Info: Here you can add comments and you can add any extra information related to the users like full name, contact number, etc.
+Home directory: This field provides the path where the user is directed after the login. For example, /home/smith.
+Command/shell: This field provides the path of a command/shell and denotes that user has access to this shell i.e. /bin/bash.
+26. How can an administrator know whether a user account is locked or not?
+Answer: To check if the user account is locked or not just run this command in the shell:
+
+passwd –S <username>
+
+Or search for the grep username in the location /etc/shadow file and it will show a symbol ‘!’ prefix to the encrypted field in the password box.
+
+To just unlock the password type this command:
+
+passwd –u <username>
+
+If there is a double exclamation mark then run this command two times:
+
+usermod –U <username>
+
+27. What do you mean by SELinux?
+Answer: SELinux is the abbreviation for Security Enhanced Linux. The access controls for the users can be controlled using SELinux. For example, the users can be stopped from running the scripts and accessing their own home directories. SELinux has the capability to support the access control and security policies. It basically operates on three different modes:
+
+Enforcing –to enforce its policies.
+Permissive –Polices want to apply but will be locked in case of violation.
+Disabled –SELinux will stay in disabled mode.
+To check the status of SELinux, just type: #getenfore OR sestatus
+
+Already cleared CompTIA Linux+ LX0-103 Certification and preparing for LX0-104 Certification. Start your preparation with CompTIA Linux+ LX0-104 Practice Tests.
+
+28. Mention the run levels in Linux and steps to edit them.
+Answer: Run levels are identified by numbers in Linux. The run levels determine what are the services that are currently in operation. There are seven different run levels in Linux:
+
+Halt System
+Single User Mode
+User Multi-Mode excluding NFS
+Full Multi-User mode
+Unused
+Multi-User mode (Graphical user mode)
+Reboot System
+To change the edit level /etc/inittlab and edit the initdefault entry.
+
+29. How can we create a local Yum repository in the location /media with the use of mounted Linux ISO image?
+Answer: To create the local yum repository you have to create the files ending with extension .repo in the location /etc/yum.repos.d
+
+Syntax: [root@localhost yum.repos.d]# cat local.repo
+
+[local]
+
+name=RHEL6.5
+
+baseurl=file:///media
+
+enabled=1
+
+gpgcheck=1
+
+gpgkey=file:///media/RPM-GPG-KEY-redhat-release
+
+30. Mention the methods to check whether using Yum, the package is installed successfully or not.
+Answer: There are several methods to check whether the package is installed or not. To understand, just see the below steps.
+
+Method 1 –If the command is executed successfully then after running the yum command it will show ‘0’ on checking the exit status.
+
+Method 2-You can run the rpm and –qa test.
+
+Method 3–In the yum log, check if any entry is installed in the directory.
+
+Technical Linux Interview Questions and Answers
+Here we have some popular questions for a technical-level Linux interview that you can expect to be asked in the Linux interview. So, prepare with these interview questions and crack your Linux interview.
+
+31. What is the advantage of executing the running processes in the background? How can you do that?
+Answer: The most significant advantage of executing the running process in the background is that you can do any other task simultaneously while other processes are running in the background. So, more processes can be completed in the background while you are working on different processes. It can be achieved by adding a special character ‘&’ at the end of the command.
+
+32. List the differences between BASH and DOS?
+Answer: There are many differences between BASH and DOS that are as below:
+
+Out of these two commands, BASH is case sensitive while DOS is not case sensitive.
+In BASH ‘/’ acts the directory separator while in DOS ‘/’ acts as the command argument delimiter.
+In BASH ‘\’ is used as the escape character while in DOS ‘\’ acts as the directory separator.
+In BASH, there is a file convention used while in DOS, there is no any file convention used.
+33. Explain system calls used for process management?
+Answer: There are some system calls used in Linux for process management. These are as follows:
+
+Fork(): It is used to create a new process
+
+Exec(): It is used to execute a new process
+
+Wait(): It is used to make the process to wait
+
+Exit(): It is used to exit or terminate the process
+
+Getpid(): It is used to find the unique process ID
+
+Getppid(): It is used to check the parent process ID
+
+Nice(): It is used to bias the currently running process property
+34. How can multiple machines share a single internet connection in Linux?
+Answer: Linux machine can be made as a router so that multiple devices can share a single internet connection. For this, we have to use a feature called “IP Masquerade.” This functionality will help to connect multiple computers to connect to the Linux machine as well as internet. This functionality will also allow those internal computers to connect who do not have IP addresses.
+
+35. If a volume group already exists and we need to extend the volume group to some extent. How will you achieve this?
+Answer: Linux provide the facility to increase the size of a volume group even if it already exists. For this, we need to run a command.
+
+First of all, we have to create a physical volume (/dev/sda1)
+
+Size of the physical volume should be the size you want the size of the logical volume.
+
+Now, run the below command:
+
+vgextend VG1 /dev/sda1
+Here VG1 is the name of the volume group.
+
+36. Why is “finger service” always kept disabled when not in use?
+Answer: Finger Service acts as both the Web and FTP server. It is also known as Finger User Information Protocol which contains the information of the user that can be viewed by the clients. It allows a remote user to see the information about the admin such as login shell, login name and other confidential details. That is why, the finger service should be kept disabled when it’s not in use.
+
+If it is not disabled, you have to modify and comment out the file “/etc/inetd.conf”.
+
+37. How can we make a router with the help of Linux Computer?
+Answer: You may generally come across this type of questions in Linux interview. Linux machine has the ability to turn it into a router with the help of IP Masquerade. You may have seen the servers found in commercial firewalls. IP Masquerade does the same function to one-to-many Network Address Translation servers. If the internal computers do not have the IP address then in this case, IP Masquerade can connect to the other internal computers which are connected to Linux box to access the internet.
+
+Just follow these steps to enable IP Masquerade Linux:
+
+Connect your PC to LAN.
+This PC can be used as a default gateway for other systems for TCP/IP networking. You can use the same DNS on all other systems.
+Go in the Kernel and enable IP forwarding. You can also enable IP forwarding using the command: /etc/rc.d/rc.local file on rebooting the system.
+The last step is to run this command which sets up the rules to masquerade: /sbin/iptables
+38. How we can enable ACL?
+Answer: ACL is an acronym for Access Control List which is used to provide flexible permission mechanism for the file systems. We can enable ACL by following methods:
+
+Type the code in the shell: /etc/fstab with a label=/home/ext3 acl
+
+Now we have to remount this file system with the ACL partition: mount –t ext3 –o acl /dev/sda3/home
+
+39. What do you mean by Redirection?
+Answer: When the data is directed from one output to another output even when the output will serve the data as an input for another process, this is called redirection.
+
+If you’ve introduced yourself as a tech geek or you are the one having good technical experience then you may find this question in the linux interview. So, don’t miss anything and read out to be prepared to answer every question and crack the linux interview.
+
+40. What is command grouping?
+Answer: We can redirect a command from a file or to a file. It is usually done with the help of braces or parenthesis. When the command is grouped then redirection is done to the whole group.
+
+The command is executed by the current shell when we use the braces () and in case we have to execute a command by a subshell then we use parenthesis {}.
+
+Linux Kernel Interview Questions and Answers
+Here is a list of kernel-based Linux interview questions and answers that will let you understand what is Linux Kernel, its types and you can do Linux interview preparation. These are the questions that are normally asked in Linux interview.
+
+41. What do you understand about Linux Kernel and can you edit it?
+Answer: Linux Kernel is the component that manages the hardware resources for the user and that provides essential services and interact with the user commands. Linux Kernel is an open source software and free, and it is released under General Public License so we can edit it and it is legal.
+
+42. What are the different types of Kernels? Explain
+Answer: We can build kernels by many different types, but 3 of the types of kernels are most commonly used: monolithic, microkernel and hybrid.
+
+Microkernel: This type of kernel only manages CPU, memory, and IPC. This kind of kernel provides portability, small memory footprint and also security.
+
+Monolithic Kernel: Linux is a monolithic kernel. So, this type of kernel provides file management, system server calls, also manages CPU, IPC as well as device drivers. It provides easier access to the process to communicate and as there is not any queue for processor time, so processes react faster.
+
+Hybrid Kernel: In this type of kernels, programmers can select what they want to run in user mode and what in supervisor mode. So, this kernel provides more flexibility than any other kernel but it can have some latency problems.
+
+43. Explain Linux Boot Sequence.
+Answer: There are six levels of a Linux Boot Sequence. These are as follows:
+
+BIOS: Full form of BIOS is Basic Input or Output System that performs integrity checks and it will search and load and then it will execute the bootloader.
+
+MBR: MBR means Master Boot Record. MBR contains the information regarding GRUB and executes and loads this bootloader.
+
+GRUB: GRUB means Grand Unified Bootloader. In case, many kernel images are installed on your system then you can select which one you want to execute.
+
+Kernel: Root file system is mounted by Kernel and executes the /sbin/init program.
+
+Init: Init checks the file /etc/inittab and decides the run level. There are seven-run levels available from 0-6. It will identify the default init level and will load the program.
+
+Runlevel programs: As per your default settings for the run level, the system will execute the programs.
+
+44. Explain Interrupts in Linux and also explain Interrupt handlers.
+Answer: Interrupts means the processor is transferred temporarily to another program or function. When that program is completed, the processor will be given back to that program to complete the task.
+
+Interrupt handler is the function that the kernel runs for a specific interrupt. It is also called Interrupt Service Routine. Interrupts handlers are the function that matches a particular prototype and enables the kernel to pass the handler information accurately.
+
+45. What is page frame?
+Answer: A page frame is a block of RAM that is used for virtual memory. It has its page frame number. The size of a page frame may vary from system to system, and it is in the power of 2 in bytes. Also, it is the smallest length block of memory in which an operating system maps memory pages.
+
+Preparing for CompTIA Linux+ LX0-104 Certification? Here’s how to prepare for CompTIA Linux+ LX0-104 Certification.
+
+46. What are the possible methods to deploy a module inside a kernel?
+Answer: To check the modules that are already installed inside the kernel, you have to run this code: lsmod. When the module has been built, now it is the stage to load it in the kernel. You can load it by the command “Insmod” or “Modprobe”.
+
+Syntax: Insmod[filename][module-options] //module-options are command line arguments to kernel objects.
+
+Insmod always accepts only one filename at a time.
+
+Modprobe offers more features than Insmod like it can decide which module is to be loaded and is aware of the module dependencies.
+
+47. Mention the case when we use “user virtual address” instead of “kernel virtual address”?
+Answer: When we run a program in userspace then we use “user virtual address” as we do not have any access to kernel virtual memory address. Normally when we are running our program in kernel mode then we use kernel address but in case we have to run our program in kernel mode and that program needs an interaction with a userspace then we will use “user virtual address” and be careful to first translate it to user virtual address.
+
+48. Mention the ways to debug the kernel code.
+Answer: We can debug a kernel code simply with the command printks. Else we can also use KDB and kernel probes. Other methods are:
+
+UML (User Mode Linux) – It is the best method for debugging but it does not support device drivers.
+KGDB (Kernel GNU Debugger)
+kdump tools which are used to dump kernel cores.
+49. What is the device tree concept?
+Answer: The questions based onDevice tree concept is commonly askedin a linux interview. Device tree is a data structure which is used to remove the repetitive codes in different boards. They are loaded in the memory with the help of bootloader to a binary file. Here the kernel is used to settle the structure of the device tree on the binary.
+
+As much kernel is important in the linux as an operating system, the questions based on kernel are equally important in the linux interview. Device tree is an important concept in kernel so interviewer may ask this question to check your knowledge about it.
+
+50. How can we reduce the size of the kernel?
+Answer: There are codes which are unnecessary and are not executed, we can find and disable them to make the processing faster in the project. The kernel comes with an editor known as “kernel’s configuration editor” by which we can remove and disable chunks of code that are not required.
+
+There may be the codes for which the hardware is not present in the system and you have to make your system understand about what are your system’s requirements. Below are some guiding principles by which you can find the codes to be removed.
+
+Hardware Networking Drivers:Several of system-on-chips have Wi-Fi drivers, serial and other hardware that are not used, you can remove those drivers that are built on the kernel.
+File Systems:The system has the only requirement of few file systems but in the kernel you will find many file systems drivers that are not in use e.g. Devices which make use of flash file systems do not require ext2 or ext3 file system so they can be removed. Be cautious that do not remove the file systems that are essential or you may have the use of the systems in the future.
+Debugging and Profiling:All the systems which come under kernel hacking entry could be disabled if not in use.
+Command Based Linux Interview Questions and Answers
+Here are the top command-based interview questions and answers that are asked in a Linux interview. Just go through these questions at the time of last minute interview preparation, and you will be able to crack the Linux interview very easily.
+
+51. What is the difference between “rm” and “rm –r”?
+Answer: “rm” command is used to delete all the files while “rm –r” command is used to delete all the files in a directory and also in subdirectories.
+
+For Example,
+
+rm file.txt: It will delete the file with name file.txt
+
+rm –r directory: It will remove directories and subdirectories and also their contents.
+
+52. Explain the command and method to change the file permissions in Linux.
+Answer: chmod command is used to change the permissions of a file. There are three parts to consider to set the file permissions.
+
+User (or Owner)
+Group
+Other
+3 types of file permission that is given to a file.
+
+r – Reading permission
+w – Writing permission
+x – Execution permission
+For example, chmod 751 filename
+
+Then, three number 751 describes permissions given to the user, group and other in the order. Each number is the sum of the values,i.e. 4 for reading, 2 for write, 1 for execute.
+
+Here 751 is the combination of (4+2+1), (4+0+1), (0+0+1).
+
+So, chmod 751 filename will provide read, write and execute permission to the owner; read and execute permission to the group and only execute permission to the others.
+
+53. How can we edit a file without opening in Linux?
+Answer: sed command is used to edit a file without opening. sed is the acronym for StreamEditor. The “sed” command is used to modify or change the contents of a file
+
+For example, we have a text file with below content
+
+>cat file.txt
+We want to replace the content of the file and we want to replace “sed” with “vi”. So, we will use below command for this.
+
+>sed 's/sed/vi/' file.txt
+vi command is used to edit a file.
+
+So, sed is replaced with vi in the text.
+
+54. Explain grep command and its use.
+Answer: grep command in Linux is used to search a specific pattern. Grep command will help you to explore the string in a file or multiple files.
+
+The syntax for grep command:
+
+grep ‘word’ filename
+
+grep ‘word’ file1 file2 file3
+
+command|grep‘string’
+
+For example,
+
+grep “smith” passwd
+
+grep “smith” passwd shadow
+
+netstat -an | grep8083
+
+cat /etc/passwd | grep smith
+
+55. Explain file content commands along with the description.
+Answer: There are many commands present in Linux which are used to look at the contents of the file.
+
+head: to check the starting of a file.
+
+tail: to check the ending of the file. It is the reverse of head command.
+
+cat: used to view, create, concatenate the files.
+
+rrep: used to find the specific pattern or string in a file.
+
+more: used to display the text in the terminal window in pager form.
+
+less: used to view the text in the backward direction and also provides single line movement.
+
+56. Explain “cd” command in Linux.
+Answer: In Linux, when a user needs to change the current directory then “cd” command is input in the shell.
+
+Syntax: $cd
+
+The purpose that can be fulfilled by the current command are –
+
+Redirect to a new directory from the current directory.
+Change a directory using absolute path and relative path.
+The following commands are under the cd:
+
+cd ~:  Redirect to home directory.
+cd-:  Redirect to previous directory.
+cd/: Redirect to entire system directory.
+57. Mention some of the networking commands in Linux.
+Answer: If you connect a system to a network then you can easily troubleshoot the connection issues related to the system. Below are few of the networking commands used for configuration and troubleshooting.
+
+ifconfig
+traceroute
+dig
+telnet
+nslookup
+netstat
+58. Write the command to view an existing tar archive and how to extract it?
+Answer: The command for viewing tar archive that is already existing: $ tar tvf archive_name.tar
+
+The command to extract an existing tar archive: $ tar xvf archive_name.tar
+
+The command for the creation of new tar archive: $ tar cvf archive_name.tar dirname/
+
+You may be asked one or more command based interview questions in the linux interview. You should prepare yourself with as many commands as you can. There are several commands that are used for tar archive which are commonly asked in the linux interview, so don’t miss to cover this question while going for the linux interview.
+
+59. Write the steps to make a USB bootable device.
+Answer: This type of questions are most common in a Linux interview. Followings are the steps to make a USB bootable device –
+
+You have to write efidisk.img from RHEL 6 DVD images/ subdirectory
+to USB dd if=efidisk.img of=/dev/usb (name of the usb device)
+
+Now you have to disable ping to avoid network /ICMP flood
+Now set the following in/etc/sysctl.conf : net.ipv4.icmp_echo_ignore_all =1
+Then “sysctl -p”
+60. Mention the steps to create the partition form a raw disk.
+Answer: In case we want to create a new partition form a raw disk, you have to use a tool known as “fdisk utility”. The steps to create a raw disk are as follows:
+
+In case of IDE we use >>> fdisk/dev/hd and in case of SCSI we use >>> fdisk/dev/sd
+Then type n for creating a new partition.
+After the partition is created type ‘w’.
+Final Words
+The demand for Linux is increasing day by day and it opens many doors of jobs for you. The set of above mentioned 60 Linux interview questions and answers would act as a last minute interview preparation guide for you. These questions are useful for the fresher as well as the experienced candidates. So, no need to worry about cracking the Linux interview. Just prepare well for the questions that will be helpful for you.
+
+The certifications play an important role to get a better job. So, get certified now and prepare well for your Linux interview. Whizlabs offers practice material for CompTIA Linux+ (LX0-103) Certification and CompTIA Linux+ (LX0-104) Certification. Prepare with us, get certified, and crack Linux interview fast!
+
