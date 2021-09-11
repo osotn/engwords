@@ -1,0 +1,344 @@
+
+
+A computer system consists of hardware and systems software that work together
+to run application programs. All computer systems have similar hardware and
+software components that perform similar functions.
+
+1.1
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello, world\n");
+    return 0;
+}
+
+1. Our hello world program begins life as a source program (or source file) that
+the programmer creates with an editor and saves in a text file called hello.c.
+The source program is a sequence of bits, each with a value of 0 and 1, organized
+in 8-bit chunks called bytes. Each byte represents some text character in the
+program using ASCII standard.
+
+In order to run hello.c on the system, the individual C statements must be
+translated by other programs into a sequence of low-level machine - language
+instructions. These instructions are then packaged in a form called
+an executable object program and stored as a binary disk file. 
+
+linux> gcc -o hello hello.c
+
+ .c - preprocessor (cpp) - .i -- compiler -- .s -- assembler -- .o -- linker --- executable object
+
+compilation system:
+    - preprocessor;
+    - compiler;
+    - assembler;
+    - linker.
+
+.s file = low-level machine language instruction in a textual form. Assembly language
+is useful because it provides a common output language for different compilers
+for different high level languages.
+
+There are some important reasons why programmers need to understand how compilation
+system work:
+    - optimizing program performance. As a programmers, we do not need to know
+  the inner workings of the compiler in order to write efficient code. However,
+  in order to make good coding decisions in our C programs, we do need a basic
+  understanding of machine level code and how the compiler translates different
+  C statements into machine code. For example, is a switch statement always more
+  efficient than sequence of if else statements?
+    - understanding link time errors
+    - avoiding security holes - buffer overflow
+
+1.4 
+---
+linux> ./hello
+
+The shell is a command line interpreter that prints a prompt, waits for you to type
+a command line, and then performs the command. If the first word of the command
+line does not correspond to a built-in shell command, then the shell assumes that
+it is the name of an executable file that it should load and run.
+
+
+Hardware organization of a typical system.
+
+     CPU
+    +-------------------------+
+    |         Reg file  +---+ |
+    |  +----+  +----+   |   | |
+    |  | PC |  +----+<->|ALU| |
+    |  +----+  +----+   +---+ |
+    |          +----+         | System               Memory 
+    |            ||           |  bus                   bus
+    |    +---------------+    |     +-------------+          +-------------+
+    |    | Bus interface |<========>| I/O bridge  |<========>| Main memory |
+    |    +---------------+    |     +-------------+          +-------------+
+    |                         |            ||
+    +-------------------------+            ||
+                                           ||                    Expansion slots
+     <=============================================================||=||=||====>
+              ||        ||                            ||
+           +-----+  +---------+                 +-----------+
+           | USB |  | Graphics|                 |   Disk    |
+           +-----+  | adapter |                 | controller|
+            |  |    +---------+                 +-----------+
+            |  |         |                            |
+            |  |       Display                       Disk       <--- hello executable stored on disk
+          Mouse,Keyboard
+
+Buses carry bytes of information back and forth between the components.
+Word size = 32 or 64 bits.
+
+I/O = input/output devices are the system's connection to the external world.
+Each I/O device is connected to the I/O bus by either a controller or an adapter.
+Controllers are chip sets in the device itself or on the system's main printed
+circuit board (motherboard). An adapter is a card that plugs into a slot on the
+motherboard.
+
+The main memory is a temporary storage device that holds both a program and
+the data it manipulates while the processor is executing the program.
+Physically, main memory consists of a collection of dynamic random access memory
+(DRAM) chips.
+
+The central processing unit (CPU), or simply processor, is the engine that
+interprets (or executes) instructions stored in main memory.
+At its core is a word-size storage device (or register) called the program counter (PC).
+At any point in time the PC points at (contains the address of) some machine language
+instruction in main memory.
+
+The register file is a small storage device that consists of a collection of world size
+registers, each with its own unique name:
+    Load:  Copy a byte or a word from main memory into a register.
+    Store: Copy a byte or a word from a register to a location in main memory.
+    Operate: Copy the contents of two registers to the ALU, perform an arithmetic
+             operation on the two words, and store the result in a register.
+    Jump:  Extract a word from the instruction itself and copy that word into the
+           program counter (PC).
+
+In fact modern processors use for more complex mechanisms to speed up program execution.
+
+1.4.2
+Shell program is executing its instructions, waiting for us to type a command.
+As we type the characters ./hello at the keyboard, the shell program reads each
+one into a register and then stores it in memory. When we hit the enter key on
+the keyboard, the shell knows that we have finished typing the command.
+The shell then loads the executable hello file by executing a sequence of instructions
+that copies the code and data in the hello object file from disk to main memory.
+The data includes the string of characters "hello, world\n" that will eventually
+be printed out.
+    Using a technique known as direct memory access (DMA) the data travel directly
+from disk to main memory, without passing through the processor.
+    Once the code and data in the hello object file are loaded into memory, the
+processor begins executing the machine language instructions in the hello program's main.
+Copy the bytes string from memory to the register file, and from there to the
+display device, where they are displayed on the screen.
+
+1.5 Caches Matter
+The machine instructions in the hello program are originally stored on disk.
+When the program is loaded, they are copied to main memory. As the processor runs
+the program, instructions are copied from main memory into the processor.
+Physical laws, larger storage devices are slower than smaller storage devices.
+And faster devices are more expensive to build than their slower counterparts.
+Faster storage devices called cache memory (or simply caches) that serve as
+temporary staging areas for information that the processor is likely to need in
+the near future. An L1 cache on the processor chip holds tens of thousands of bytes
+and can accessed nearly as fast as the register file. A larger L2 cache with
+hundreds of thousands to millions of bytes is connected to the processor by special bus.
+L1 and L2 caches are implemented with a hardware technology known as static random
+access memory (SRAM). Newer and more powerful systems even have three levels of cache:
+L1, L2, and L3.
+
+1.6 Storage Devices Form a Hierarchy
+The register file is known as level 0 or L0.
+
+1.7 OS
+OS as a layer of software interposed between the application program and the hardware.
+OS has two primary purpose:
+    - to protect the harware from misuse by runaway applications;
+    - to provide applications with simple and uniform mechanisms for manipulating
+OS archives both goals via the fundamental abstractins:
+    - processes
+    - virtual memory
+    - files
+
+1.7.1 Processes
+When a program such hello runs on a modern system, the OS provides the illusion that
+the program is the only one running on the system. These illusions are provided
+by the notion of a process, one of the most important and successful ideas in
+computer science.
+A process is the operation system's abstraction for a running program.
+The OS performs interleaving with a mechanism known as context switching.
+Context is all the state informatin that process needs in order to run:
+    - PC value;
+    - register file
+    - contents of main memory
+
+Invoke a special function known as a system call that passes control to the OS.
+The kernel is the portion of the OS code that is always resident in memory.
+
+1.7.2 Threads
+In modern systems a process can actually consist of multiple execution units, called
+threads, each running in the context of the process and sharing the same code and
+global data.
+Multi threading also one way to make programs run faster when multiple processors
+are available.
+
+1.7.3 Virtual memory
+VM is an abstraction that provides each process with the illusion that it has
+exclusive use of the main memory. Virtual address space.
+In Linux, the topmost region of the address space is reserved for code and data
+in the OS that is common to all processes.
+
+    - program code and data. Code begins at the same fixed address for all processes.
+    - Heap. malloc/free
+    - shared libraries - such as the C standard library and the math library.
+    - stack (at the top of the user's virtual address space).
+    - kernel virtual memory. Application programs are not allowed to read or write
+        the contents of this area or to directly call functions defined in the
+        kernel code. Instead, they must invoke the kernel to perform these operations.
+
+1.7.4 Files
+A file is a sequence of bytes, nothing more and nothing less. Every I/O device,
+including disks, keyboards, displays, and even networks, is modeled as a file.
+
+1.8
+Modern systems are often linked to other systems by networks.
+I/O bus => Network adapter => network.
+
+1.9 
+1.9.1 Amdahl's Law
+Gene Admahl made a simple but insightful observation about the effectiveness of
+improving the performance of one part of a system. The main idea is that when
+we speed up one part of a system, the effect on the overall system performance
+depends on both how significant this part was and how much it speed up.
+
+1.9.2 Concurrency and parallelism
+Term concurrency to refer to the general concept of a system with multiple,
+simultaneous activities, and the term parallelism to refer to the use of
+concurrency to make a system run faster:
+
+    - Thread level concurrency (traditionally was only simulated)
+    
+    Hyperthreading called simultaneous multi threading, it allows a single CPU
+  to execute multiple flows of control. It involves having multiple copies of some
+  of the CPU hardware, such as program counters and register files, while having
+  only single copies of other parts of the hardware, such as the units that
+  perform floating point arithmetic.
+  Inter Core i7 processor can have each core executing two thereads, and so
+  a four core system can actually execute eight threads in parallel.
+
+    - Instruction level parallelism
+
+  Modern processors can execute multiple instructions at one time, a property
+  known as instruction level parellelism. Intel 8086 required 3-10 clock cycles
+  to execute a single instruction. 
+  Pipelining and superscalar processors.
+  
+    - SIMD (Single instruction, multiple data) Parallelism
+
+  add 8 pairs of single-precision floating point numbers in parallel - vector data in GCC.
+
+1.9.3
+    Abstractions is one of the most important concepts in computer science.
+    API.
+
+
+PART I
+Program Structure and Execution
+-------------------------------
+
+2 Representing and Manipulating Information
+
+Two valued signals - binary digits or bits -> digital revolution.
+base-10 (decimal) representation has been in use for over 1,000 years -> India, Arab -> Italian fibonacci.
+
+- unsigned encoding
+- two's complement encoding (signed)
+- floating point encoding
+
+Overflow
+
+2.1 Information Storage
+Most computers use blocks of 8 bits, or bytes, as the smallest addressable unit of memory.
+A machine level program views memory as a very large array of bytes, referred to as
+virtual memory. Every byte of memory is identified by a unique number, known as
+its address, and the set of all possible addresses is known as the virtual address
+space.
+C pointer is value of virtual address.
+
+gcc -std=c11
+    -ansi (= -std=c89)
+    -std=c99
+
+2.1.1 Hexadecimal Notation
+
+byte from 00000000_2 11111111_2 or 0_10 to 255_10.
+base-16 or hexadecimal (hex) 0..9, A-F - 0_16 to FF_16 (0x00..0xFF).
+
+2.1.2 Data Sizes
+32 bit limites the virtual address space to 4 gigagytes (4GB).
+Most 64-bit machines can also run programs compiled for use on 32-bit machines,
+a form of backward compatibility
+linux> gcc -m32 prog.c
+
+               32bit      64bit
+               ----------------
+char             1          1
+short            2          2
+int              4          4 - !!!
+long             4          8
+char *           4          8
+float            4          4
+double           8          8
+
+2.1.3 Addressing and byte ordering
+Bit representation x_m-1, x_m-2, ..., x_1, x_0, where x_m-1 is the most significant bit
+and x_0 is the least. Assuming m is a multiple of 8, these bits can be grouped as
+bytes, with the most significant byte having bits [x_m-1, x_m-2, ..., x_m-8], the
+least significant byte having bits [x_7, x_6, ..., x_0].
+Some machine choose to store the object in memory ordered from least significant
+byte to most, while other machines store them from most to least. It is a little endian.
+Where the most significant byte comes first is referred to as big endian.
+
+x: &x = 0x100, x = 0x01234567
+
+        0x100 0x101 0x102 0x103 0x104
+ --------------------------------------
+ XXXXXX| 01  |  34  | 45  | 67  |XXXXXX      = big endian: IBM, Oracle
+ --------------------------------------
+ 
+        0x100 0x101 0x102 0x103 0x104
+ --------------------------------------
+ XXXXXX| 67  |  45  | 34  | 01  |XXXXXX      = little endian: Intel
+ --------------------------------------
+ 
+Disassembler - tool that determines the instruction sequence represented by 
+an executable program file.
+
+typedef unsigned char *byte_pointer;
+
+Close connection between pointers and arrays
+& - address of
+
+2.1.4 Representing strings
+--------------------------
+In C is encoded by an array of characters terminated by the null.
+"12345" 
+
+0x3x = "x", where x=0..9
+
+2.1.5 Representing code
+-----------------------
+
+echo "5589e58b55088b450c" | xxd -r -p | tee a.out | objdump -D -b binary -m i386
+
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	8b 55 08             	mov    0x8(%ebp),%edx
+   6:	8b 45 0c             	mov    0xc(%ebp),%eax
+
+
+
+
+
+  

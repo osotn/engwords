@@ -1,0 +1,221 @@
+
+
+4.7   Data Link Layer switching                               358
+4.7.1 Uses of bridges
+4.7.2 Learning bridges
+4.7.3 Spanning Tree Bridges
+4.7.4 Repeaters, Hubs, Switches, Routers, and Gateways        366
+4.7.5 Virtual LANs                                            369
+
+
+p.358
+4.7 Data Link Layer switching
+
+Convenient to join the LANs together to make a larger LAN.
+With devices called bridges.
+The Ethernet switches are a modern name for bridges.
+We shall use the terms bridge and switch interchangeably.
+
+Bridge operate in the data link layer, so they examine the data link layer
+addresses to forward frames. They forward, can handle IP packets as well as
+other kinds of packets. In contrast, routers examine the address in packets and
+route based on them, so they only work with the protocols that they were designed
+to handle.
+
+4.7.1 Uses of bridges
+---------------------
+Ideally bridges should be completely transparent. 
+Surprisingly enough, it is actually possible to create bridges that are
+transparent. Two algorithms are used:
+    - backward learning algorithm to stop traffic being sent where it is not needed
+    - and a spanning tree algorithm to break loops that may be formed when switches
+      are cabled together willy - nilly.
+ 
+4.7.2 Learning Bridges
+----------------------
+All the of the stations attached to the same port on a bridge belong to the same
+collision domain, and this is different than the collision domain for other ports.
+If there is more than one station, as in classic Ethernet, a hub, or a half-duplex
+link, the CSMA/CD protocol is used to send frames.
+
+Each bridge operates in promiscuous mode, that is, it accepts every frame transmitted
+by the stations attached to each of its ports. The bridge must decide whether to
+forward or discard each frame, and, if the former, on which port to output the frame.
+This decision is made by using the destination address.
+To have a big (hash) table inside the bridge - the table. Before they use a flooding
+algorithm: every incoming frame for an unknown destination is output on all the ports
+to which the bridge is connected except the one it arrived on. As time goes on, the
+bridges learn where destinations are. Once a destination is known, frames destined
+for it are put only on the proper port; they are not flooded.
+The algorithm used by the bridge is backward learning. Bridges see every frame sent on
+any of their ports. By looking at the source addresses, they can tell which machines
+are accessible on which ports. Arrival time of the frame is noted in the entry.
+Periodically, a process in the bridge scans the hash table and purges all entries
+more than a few minutes old.
+
+Hubs wire all ports together so that a frame input on one port is simply output on all
+other ports.
+Because bridges only look at the MAC addresses to decide how to forward frames, it is
+possible to start forwarding as soon as the destination header field has come in.
+
+4.7.3 Spanning Tree Bridges
+To increase reliability, redundant links can be used between bridges.
+If one link is cut, the network will not be partitioned into two sets of computers.
+This redundancy introduces some additional problems because it creates loops in
+topology. Each bridge follows the normal rule for handling unknown destinations,
+which is to flood the frame. This cycle goes on forever.
+The solution to this difficulty is for the bridges to communicate with each other
+and overlay the actual topology with a spanning tree that reaches every bridge.
+
+To build the spanning tree, the bridges run a distributed algorithm.
+Each bridge periodically broadcasts a configuration message out all of its ports
+to its neighbors and processes the messages it receives from other bridges, as
+described next. These messages are not forwarded, since their purpose is to build
+the tree, which can be used for forwarding.
+The bridges must first choose one bridge to be the root of the spanning tree.
+Each bridge remembers the shortest path it finds to the root. The bridges then
+turn off ports that are not part of the shortest path.
+Turning off the ports prunes some links from the network to prevent loops.
+
+I think that I shall never see
+A graph more lovely than a tree.
+A tree whose crucial property
+Is loop free connectivity.
+A tree which must be sure to span
+So packets can reach every LAN
+Fist the Root must be selected
+By ID it is elected
+Least cost paths from Root are traced
+In the tree these paths are placed
+A mesh is made by folks like me
+Then bridges find a spanning tree.
+
+Spanning Tree - IEEE 802.1D
+2001 to more rapidly find a new spanning tree after a topology change.
+
+p.366
+4.7.4 Repeaters, Hubs, Switches, Routers, and Gateways
+Variety of ways to get frames and packets from one computer to another.
+Those devices operate in different layers.
+
+Physical layer: Repeater, hub
+Data link     : bridge, switch
+Network  layer: router
+Transport     : gateway
+Application   : gateway
+
+A hub has a number of input lines that it joins electrically.
+Frames arriving on any of the lines are sent out on all the others.
+If two frames arrive at the same time, they will collide, just as on a coaxial cable.
+All the lines coming into a hub must operate at the same speed.
+Hubs differ from repeaters in that they do not (usually) amplify the incoming
+signals and are designed for multiple input lines.
+
+
+A bridge connects two or more LANs. Like a hub, a modern bridge has multiple ports,
+usually enough for 4 to 48 input lines of a certain type. Each port is isolated to be
+its own collision domain; if the port a full-duplex point-to-point, the CSMA/CS
+algorithm is no needed. The bridge only outputs the frame on the port where it is
+needed and can forward multiple frames at the same time. If frames come in faster
+than they can be retransmitted, the bridge may run out of buffer space and have
+to start discarding frames.
+
+Switches are modern bridges by another name. The differences are more to do
+with marketing than technical issues, but there are a few points worth knowing.
+Bridge were developed when classic Ethernet was in use, so they tend to join
+relatively few LANs and thus have relatively few ports. The term "switch" is more
+popular nowadays. Modern installations all use point-to-point links, such as
+twisted pair cables, so individual computers plug directly into a switch and thus
+the switch will tend to have many ports. Finally, switch is also used as a general
+term. With a bridge, the functionality is clear.
+
+Routers strip off the packet located in the frame's payload field. This software
+uses the packet header to choose an output line.
+
+Transport gateways connect two computers that use different connection oriented
+transport protocol. Can copy the packets from one connection to the other, reformatting
+them as need be.
+
+Application gateways understand the format and contents of the data and can
+translate messages from one format to another.
+
+p.369
+4.7.5 Virtual LANs.
+With the advent of twisted pair and hubs in the 1990s, all changed.
+Buildings were rewired (at considerable expense) to rip out all the yellow garden
+hoses and install twisted pairs from every office to central wiring closets at
+the end of each corridor or in a central machine room.
+Today, the cables have changed and hubs have become switches, but the wiring pattern
+is still the same. This pattern makes it possible to configure LANs logically
+rather than physically. If a company wants k LANs, it could buy k switches.
+Security, load, broadcast traffic.
+Network vendors began working on a way to rewrite buildings entirely in software.
+VLAN (Virtual LAN) - IEEE 802
+VLANs are based on VLAN-aware switches.
+Often the VLANs are informally named by colors, since it is then possible to print
+color diagrams showing the physical layout of the machines.
+To make the VLANs function correctly, configuration tables have to be set up in
+the bridges. These tables tell which VLANs are accessible via which ports.
+IEEE 802.1Q Standard, after much discussion, it did the unthinkable and changed
+the Ethernet header, added VLAN tag.
+A few questions that come to mind are:
+    1. need we throw out several hundred million existing Ethernet cards?
+    2. If not, who generates the new fields?
+    3. What happens to frames that are already the maximum size?
+
+VLAN fields are only actually used by the bridges and switches and not by the user
+machines. To use VLANs, the bridges have to be VLAN aware.
+Because there can be computers (and switches) that are not VLAN aware, the
+first VLAN-aware brige to touch a frame adds VLAN fields and the last one down
+the road removes them. Tagged 802.1Q.
+
+As to the problem of frames longer than 1518 bytes, 802.1Q just raised the limit
+to 1522 bytes. Luckily, only VLAN-aware computers and switches must support
+these longer frames.
+
+  DST MAC | SRC MAC | 0x8100 (>1500 len, it is type) | Pri/CFI Vlan Id | Len
+
+As we mentioned above, when a tagged frame arrives at a VLAN aware switch, the
+switch uses the VLAN identifier as an index into a table to find out which ports
+to send it on. But where does the table come from? If it is manually constructed,
+we are back to square zero: manual configuration of bridges.
+The beauty of the transparent bridge is that it is plug and play and does not
+require any manual configuration. It would be a terrible shame to lose that
+property. Fortunately, VLAN aware bridges can also autoconfigure themselves based
+on observing the tags that come by. If a frame tagged as VLAN 4 comes in on port 3,
+apparently some machine on port 3 is on VLAN 4. The 802.1Q standard explains
+how to build the tables dynamically, mostly by referencing appropriate portions
+of the 802.1D standard.
+
+VLANs introduce something that is surprisingly similar to a connection.
+
+
+p.383
+5. The network layer
+
+The network layer is concerned with getting from the source all the way to the destination.
+Getting to the destination may require making many hops at intermediate routers
+along the way. This function clearly contrasts with that of the data link layer,
+which has the more modest goal of just moving frames from one end of a virtual wire to the other.
+Thus, the network layer is the lowest layer that deals with end to end transmission.
+To achieve its goals, the network layer must learn about the topology of the network
+and compute appropriate paths through it, even for large networks.
+Finally, when the source and destination are in different independently.
+
+
+p.384
+5.1 Network layer design issues
+-------------------------------
+5.1.1 Store and Forward Packet Switching
+----------------------------------------
+The major components of the network are the ISP's equipment.
+A host with a packet to send transmits it to the nearest router, either on its
+own LAN or over a point-to-point link to the ISP. The packet is stored there
+until it has fully arrived and the link has finished its processing by verifying
+the checksum. Then it is forwarded to the next router along the path until it
+reaches the destination host, where it is delivered.
+
+p.385
+5.1.2 Services Provided to the Transport Layer
+----------------------------------------------
+

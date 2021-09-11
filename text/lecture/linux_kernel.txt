@@ -149,6 +149,43 @@ run and which process has to wait.
 Scheduler has to allot the time to each process efficiently and make the efficient
 use of Processor so that user can feel that all the processes is executing at the same time.
 
+2) What is cooperative multitasking and pre-emptive multitasking?
+
+Cooperative multitasking:- In this method process does not stop running until it voluntarily stops. The act of process voluntarily stopping itself called yielding. Preemptive multitasking:- In this kind of multitasking scheduler decides which process to start running and which process to stop. Good thing in this multitasking is that scheduler can take the global decision. All the linux kind OS comes in preemptive scheduling flavor.
+
+3) What is yielding?
+The act of process voluntarily stopping itself called yielding.
+
+4) What is limitation of cooperative multitasking?
+• Scheduler cannot take globalize?? decision. • Any process can monopolize the system.
+
+5) I/O bound versus Processor bound process?
+
+I/O bound processes spend most of the time waiting for some input/output event to occur and take very less time of processor.Processor bound process takes most of the time executing the code . These kind of process runs continuously without waiting for any input/output event and stopped while printed by compiler.
+
+6) What is process priority?
+Process priority is a way of specifying the process importance in the system.
+
+
+7) What kind of priority is maintained in linux?
+
+Linux implements two types of process priority value. 1) Nice value:-A number from -20 to +19 with a default value of 0. Large nice value corresponds to less priority. 2) Real Time Priority:-A value from 0 to 99. Higher the real time value means higher priority.
+
+
+
+
+--------------------
+Tasks:
+
+Old: BH, Task queues
+New: softirqs, tasklet, work queues (in kernel thread, can sleep) or kernel thread.
+
+Kernel Timers -> for deferring work for a specified amount of time!
+
+Synch:
+
+
+
 
 
 
