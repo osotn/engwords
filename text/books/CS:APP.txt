@@ -337,6 +337,46 @@ echo "5589e58b55088b450c" | xxd -r -p | tee a.out | objdump -D -b binary -m i386
    3:	8b 55 08             	mov    0x8(%ebp),%edx
    6:	8b 45 0c             	mov    0xc(%ebp),%eax
 
+Instruction codings are different. Different machine types use different and
+incompatible instructions and encodings. Even identical processors running
+different operating systems have differences in their coding conventions and
+hence are not binary compatible.
+
+2.1.6 Introduction to Boolean Algebra
+------------------------------------
+George Boole (1815-1864) around 1859 as Boolean algebra.
+
+TRUE  = 1
+FALSE = 0
+
+Boolean algebra is defined over the two element set {0, 1}.
+    ~   NOT              symbol ¬ 
+    &   AND              symbol ∧
+    |    OR              symbol ∨
+    ^   EXCLUSIVE-OR     symbol ⊕
+
+Claude Shannon (1916-2001) founded the field of information theory, first mad
+the connection between Boolean algebra and digital logic.
+
+2.1.8 Logical Operations in C
+    ||       OR
+    &&      AND
+    !       NOT
+
+    a && 5/a
+    p && *p++
+
+2.1.9 Shift operations in C
+    Logical         fill the left end with k zeros
+    Arithmetic      fill the left end with k repetitions of the most significant bit.
+
+2.2 Integer Representations
+===========================
+2.2.1 Integral Data Types
+-------------------------
+C support a variety of integral data types - 
+
+
 
 
 

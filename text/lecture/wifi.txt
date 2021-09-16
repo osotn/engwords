@@ -1,0 +1,77 @@
+802.11 Wireless Networks
+========================
+
+The most obvious advantage of wireless networking is mobility.
+
+Base station = access points.
+
+Wireless. In a certain frequency band.
+Each band has an associated bandwidth, which is simply the amount of frequency
+space in the band.
+Radio spectrum controlled by licensing. FCC - US.
+
+ISM = Industrial, Scientific, and Medical.
+
+The most familiar ISM-band is the microwave oven, which operates within the 2.4 GHz
+ISM (ai-es-em) band => effective for heating water.
+802.11a device in 5GHz band.
+ISM bands are generally license 
+
+MAC = media access control - 48 bit.
+
+802 IEEE family.
+
+CSMA/CD = Carrier Sense Multiple Access network with Collision Detection.
+
+LLC = Logical Link Control.
+
+Chapter 3. 802.11 MAC Fundamentals
+
+Differences between the wireless network environment and the traditional wired
+environment create challenges for network protocol designers.
+
+On a wired Ethernet, it is reasonable to transmit a frame and assume that the
+destination receives it correctly.
+Even narrowband transmissions are subject to noise and interference, but
+unlicensed devices must assume that interference will exist and work around it.
+The designers of 802.11 considered ways to work around the radiation from
+microwave ovens and other RF sources.
+802.11 Link Layer protocols incorporates positive acknowledgments.
+Frame ----->
+      <----- Ack
+
+Wireless networks have fuzzier boundaries, sometimes to the point where each node
+may not be able to directly communicate with every other node in the wireless netowork.
+
+Collisions resulting from hidden nodes may be hard to detect in wireless networks
+because wireless transceivers are generally half duplex; they don't transmit and
+receive at the same time.
+To prevent collisions, 802.11 allows stations to use Request to Send (RTS) and
+Clear to Send (CTS) signals to clear out an area: RTS frame and CTS frame, data frame,
+final acknowledgment.
+
+RTS   --------------->
+      <-------------- CTS
+Frame --------------->
+      <-------------- ACK
+
+Uses interframe space:
+    -   SIFS (Short interframe space) for highest priority transmissions, such as RTS/CTS frames, ACK. High priority transmissions can begin once the SIFS has elapsed.
+
+Retry counters are incremented when frames are retransmitted.
+
+Frame format
+------------
+
+2: Frame Control - protocol version, type and subtype fields, bits: ToDS, MoreFrag, Rerty,
+2: Duration ID
+6: Address 1
+6: Address 2
+6: Address 3
+2: Seq-ctl
+6: Address 4
+0-2312: Frame Body
+4: FCS
+
+
+
