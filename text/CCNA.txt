@@ -1032,12 +1032,19 @@ Cisco uses the term access switch to refer to switches used to connect to end-po
 devices. The term distribution switch refers to switches that do not connect to
 endpoints but rather connect to each access switch.
 
+
+Part IV IPv4 Addressing
+
+IP addressing gives up flexibility and allows choice, but those features require
+planning, along with a much deeper understanding of the internal structure of the
+addresses.
+
 Chapter 11
 ----------
 Perspectives on IPv4 subnetting
 
 Subnetting Defined Through a simple example
-An IP network in other words, a Class A, B, or C network - is a simply a set of
+An IP network -  in other words, a Class A, B, or C network - is a simply a set of
 consecutively numbered IP addresses that follows some preset rules.
 These Class A, B, and C rules define that for a given network, all the addresses
 in the network have the same value in some of the octets of the addresses.
@@ -1046,7 +1053,85 @@ Class A 10.0.0.0
 
 Word subnet is a shortened version of the phrase subdivided network.
 
+The three subnet tasks in dequence are as follows:
+    1. analyze needs;
+    2. design subnets;
+    3. plan implementation
+
+          +-----------------+-------------+---------+
+          |     NETWORK     | SUBNET      |   HOST  |
+          +-----------------+-------------+---------+
+          
+          2^N - 2  HOSTs
+
+In fact, a design that does just that is said to be using variable length subnet
+masks (VLSM).
+
+public classful IP networks and private IP networks.
+
+Public IP Networks
+------------------
+The original design of the Internet required that any company that connected
+to the Internet had to use a registered public IP network.
+
+IANA - five Regional Internet Registries (RIR).
+Solutions: 1) IPv6, 2) subset, 3) NAT.
+
+Private IP Networks
+-------------------
+RFC 1918
+A: 10.0.0.0 -- 16 million IP addresses 255.0.0.0 2^(8*3) = 2^24 = 16 millions
+B 172.16.0.0  ... 172.31.0.0
+C 192.168.0.0 ... 192.168.255.0
+
+          +----------+----------------------+
+  A       |   N = 8  |       HOST = 24      |       10.0.0.0           2^24 - 2 = 16 millions
+          +----------+----------------------+
+          +-----------------+---------------+
+  B       |        N = 16   |    HOST = 16  |      172.(16-31).0.0     2^16 - 2 = 65534
+          +-----------------+---------------+
+          +----------------------+----------+
+  C       |            N = 24    | HOST = 8 |      198.162.(0-255).0   2^8  - 2 = 254
+          +----------------------+----------+
+
+-----------
+Subnet mask: network, subnet, host.
+-----------
+
+DDN = dotted - decimal notation IP and prefix notation
+
+Subnet broadcast - directed broadcast address - this is the last number in the subnet.
+(cannot be used as an IP address by a host).
 
 
+Network: 172.16.0.0         172.16.0.1 - 172.16.0.254
+Mask   : 255.255.255.0      172.16.0.255 - broadcast
+
+p.400
+Chapter 12. Analyzing Classful IPv4 networks
+--------------------------------------------
+5 address classes:                                          Default mask
+    - Class A: unicast                        001-126        255.  0.  0.0
+    - Class B: unicast                        128-191        255.255.  0.0
+    - Class C: unicast                        192-223        255.255.255.0
+    - Class D: multicast                      224-239
+    - Class E: reserved for future use.       240-255
+
+0.  0.0.0 - special 
+127.0.0.0 - special -> 127.0.0.1 = loopback address
+
+
+p. 414
+Chapter 13. Analyzing Subnet Mask
+---------------------------------
+prefix & host
+network & subnet
+
+Mask:
+    - binary
+    - dotted decimal notation (DDN)
+    - prefix = classless interdomain routing (CIDR)  /24 = 24 bit network, 8 host = 255.255.255.0
+                                                     /8  =                          255.0.0.0
+                                                   slash
 
 

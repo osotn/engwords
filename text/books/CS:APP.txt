@@ -243,6 +243,8 @@ concurrency to make a system run faster:
     API.
 
 
+
+
 PART I
 Program Structure and Execution
 -------------------------------
@@ -370,15 +372,108 @@ the connection between Boolean algebra and digital logic.
     Logical         fill the left end with k zeros
     Arithmetic      fill the left end with k repetitions of the most significant bit.
 
+
+
 2.2 Integer Representations
 ===========================
 2.2.1 Integral Data Types
 -------------------------
 C support a variety of integral data types - 
 
+U_max = 2*T_max + 1
+255   = 2*127   + 1
+
+C99: <stdint.h>
+int32_t, uint16_t
+
+PRId32 = "l" or "d"   - macrot
+PRIu64 = "llu" or "lu"
+
+<limits.h>
+INT_MAX, INT_MIN, UINT_MAX
+
+
+Aside: Alternative representations of signed numbers:
+There are two standard representations of signed numbers:
+
+    One's complement: This is the same as two's complement, except that the most
+                      significant bit has weight -(2^(w-1) - 1) rather than -2^(w-1).
+
+          B2O([X]) = -x[w-1]*(2^(w-1) - 1) + sum(x[i]*2^i),i=0..w-2
+
+    Sign magnitude:
+
+          B2S([X]) = (-1)^x[w-1] + sum(x[i]*2^i),i=0..w-2
+
+B2O([0000]) = 0
+B2S([0000]) = 0
+B2O([0111]) = 7
+B2S([0111]) = 7
+
+
+B2S([1000]) = 0 !           B2O([1000]) = -1*(8-1) + 0 = -7
+B2S([1001]) = -1            B2O([1001]) = -1*(8-1) + 1 = -6
+B2S([1010]) = -2            B2O([1010]) = -1*(8-1) + 2 = -5
+...
+B2S([1110]) = -6            B2O([1110]) = -1*(8-1) + 6 = -1
+B2S([1111]) = -7            B2O([1111]) = -1*(8-1) + 7 =  0 !
+
+
+Disassembler is a program that converts an executable program file back to a more
+readable ASCII form.
+
+
+2.2.4 Conversions between signed and unsigned
+
+C allows casting between different numeric data types.
+ (unsigned)x (int)u
+
+This is a general rule for how most C implementation handle conversions between
+signed and unsigned numbers with the same word size - the numeric values might
+change, but the bit patterns do not.
+
+    T = two's complement form
+    
+    T2U_16(x) = B2U( T2B(x) )    and     U2T_16(x) = B2T ( U2B(x) )
+
+    T2U_16(-12,345) = 53,191     and     U2T_16(53,191) = -12,345
+
+                       12,345 + 53,191 = 64,536 = 2^16
+
+p. 103
+2.2.5 Signed versus unsigned in C
+----------------------------------
+C supports both signed and unsigned arithmetic for all of its integer data types.
+Although the C standard does not specify a particular representation of signed
+numbers, almost all machines use two's complement. Generally, most numbers are
+signed by default.
+
+C allows conversion between unsigned and signed. Although the C standard does
+not specify precisely how this conversion should be made, most systems follow
+the rule that the underlying bit representation does not change.
+
+ tx = (int) ux;
+ uy - (unsigned) ty;
+
+ or can happen implicitly
+ 
+ tx = ux; /* cast to signed */
+ uy = ty; /* cast to unsigned */
+
+Nonintuitive behavior arises due to C handling of expressions containing
+combinations of signed and unsigned quantities. -> promotion rule
+
+C implicitly casts the signed
+argument to unsigned and performs the operations assuming the numbers are
+nonnegative.
+
+    0 == 0U         unsigned => 1
+   -1 <  0          signed   => 1
+   -1 <  0u         unsigned => 0 !!!
+   
 
 
 
 
 
-  
+
