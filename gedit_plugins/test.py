@@ -24,6 +24,9 @@ cd ~/gitspace/osotn/engwords && tail -f fifo
  - Ctrl   +   Alt   +  0    =  echo | pos.sh # feed
 
  - Ctrl   +   Alt   +  I    =  card format (current word)
+ 
+# card
+ - Ctrl   +   Alt   +  C    =  card, print window on screen
 
 
 # Scripts:
@@ -117,6 +120,11 @@ echo | ./pos.sh
 [ -f ./examples/${GEDIT_CURRENT_WORD} ] && echo "--------------------------------" | cat - ./examples/${GEDIT_CURRENT_WORD} | ./pos.sh
 echo | ./pos.sh
 echo | ./pos.sh
+
+Ctrl+Alt+C
+#!/bin/sh
+cd ~/gitspace/osotn/engwords
+.echo $GEDIT_CURRENT_WORD | ./run.sh -ibwuf | xargs ./ttf &
 
 from gi.repository import Gio, Gtk, Pango
 import os
