@@ -1,0 +1,65 @@
+Mastering STM32
+---------------
+Arduino is not a given MCU family or a silicon manufacturer. It is both a brand
+and an ecosystem. There are tens of Arduino development boards available on the
+market, even if it is common to refer to Arduino UNO board as "the Arduino".
+Arduino UNO is a development board built around the ATMega328, an 8 bit microcontroller
+designed by Atmel. Atmel is one of the leading companies, together with Microchip,
+that rule the 8-bit MCU segment.
+
+I think Python is an expressive and productive programming language, and it is
+always my first choice when I have to code something.
+I found myself slingshot into a world I had always considered obscure: electronics.
+
+ARM = reduced introduction set computing (RISC).
+
+ARM architecture is a set of specifications regarding the instruction set,
+the execution model, the memory organization and layout, the instruction cycles
+and more.
+
+Cortex-M is a family of physical cores designed to be further integrated with
+vendor-specific silicon devices to form a finished microcontroller.
+The way a core works is not only defined by its related ARM architecture, but
+also by integrated peripherals and hardware capabilities defined by the silicon
+manufacturer.
+STM32F4 is a family of MCUs based on the Cortex-M4.
+
+
+ARM Cortex is a wide set of 32 and 64 bit architectures and cores really popular
+in the embedded world. Cortex microcontrollers are divided into three main subfamilies:
+    - Cortex-A  Application (TI or Freescale)
+    - Cortex-M  eMbedded - energy efficien - ST Microelectronics
+    - Cortex-R  Real-Time
+
+Cortex-M - fixed memory address space.
+
+Thumb - 2 and memory alignment
+
+(Cortex Microcontroller Software Interface Standard)
+CMSIS-CORE   = API for the Cortex-M processor core and peripherals.
+CMSIS-Driver = 
+CMSIS-DSP
+
+
+IDE: IAR for Cortex-M and Keil - commercial. >5,000$
+
+CooCox and System Workbench for STM32 (SW4STM32) on Eclipse and GCC.
+
+OpenOCD is a tool that allows to upload the firmware on the Nucleo board.
+
+
+STM32CubeMX Tool
+
+GDB remove protocol port 3333, telnet port 4444
+OpenOCD (ST-Link Driver)
+ST-LINK
+
+
+
+
+
+
+
+
+
+

@@ -472,8 +472,82 @@ nonnegative.
    -1 <  0u         unsigned => 0 !!!
    
 
+p. 106
+2.2.6 Expanding the bit representation of a number
+---------------------------------------------------
+To convert an unsigned number to a larger data type, we can simply add leading
+zeros to the representation; this operation is known as zero extension.
+
+   u = [u(w-1), u(w-2),..., u(0)] => u' = [0,...,0, u(w-1), u(w-2),..., u(0)]
+   w' > w
+
+For converting a two complement number to a larger data type, the rule is to
+perform a sign extension, adding copies of the most significant bit to the
+representation, expressed by the following principle.
+
+   t = [t(w-1), t(w-2),..., t(0)] => t' = [t(w-1),..., t(w-1), t(w-2),..., t(0)]
+   w' > w
+
+    short    sx = -12345;
+    unsigned uy = sx;   -> first changes the size and the the type (C standard)
+                            = (unsigned)(int) sx;
+    
+    uy = 4294954951;
 
 
+p.110
+2.2.7 Truncating numbers
+------------------------
+
+Casting x to be short will truncate a 32 bit to 16 bit short.
+
+    int    x = 53191;
+    short sx = (short) x;  /* -12345 */
+    int    y = sx;         /* -12345 */
+
+Truncation of an unsigned number.
+    x' = x mod 2^k
+
+A similar property holds for truncating a two complement number, except that
+it then converts the most significant bit into a sign bit.
+
+
+p.112
+2.2.8 Advice and signed versus unsigned
+
+Implicit casting of signed and unsigned leads to some non intuitive behavior.
+Nonintuitive features often lead to program bugs.
+
+One way to avoid bugs is to never use unsigned numbers !!!
+Java supports only signed integers.
+
+
+p.113
+2.3 Integer Arithmetic
+2.3.1 Unsigned Addition
+-----------------------
+Consider two nonnegative integers x and y, such that 0 <= x, y <= 2^w - 1
+Each of these values can be represented by a w bit unsigned number.
+If we computer their sum, however, we have a possible range 0 <= x + y <= 2^(w+1) - 2
+Representing this sum could require w+1 bits.
+
+Some programming languages, such as Lisp, actually supports arbitrary size arithmetic
+to allow integers of any size. More commonly, programming languages support
+fixed - size arithmetic, and hence operations such as "addition" and "multiplication"
+differ from their counterpart operations over integers.
+
+Form of modular arithmetic, computing the sum modulo 2^w.
+                    21 mod 16 = 5
+
+ x operator+u(w) y = | x+y              , x + y < 2^w Normal
+                     | x+y - 2^w        , else        Overflow
+                     
+An arithmetic operation is said to overflow when the full integer result cannot
+fit within the word size limits of the data type.
+When executing C programs, overflows are not signaled as errors.
+
+For x and y, let s = x operator+u(w) y. Then the computation of s overflowed if
+and only if s < x (or equivalently, s < y);
 
 
 

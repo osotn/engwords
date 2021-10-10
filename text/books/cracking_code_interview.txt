@@ -1,0 +1,137 @@
+Interview at Google, Microsoft, Apple, and Amazon.
+
+And remember - interviews are hard!
+I saw some interviewers ask "easy" questions while others ask harder questions.
+But you know what? Getting the easy questions doesn't make it any easier to get
+the offer.
+Receiving an offer is not about solving questions flawlessly (very few candidates do!).
+Rather, it is about answering questions better than other candidates.
+So don't stress out when you get a tricky question - everyone else probably thought
+it was hard too. It's okay to not be flawless.
+
+There were just too many red flags!!!
+
+Feedback - Be smarter? No, I knew he was brilliant. Be a better coder? No, his
+skills were on par with some of the best I'd seen.
+
+Academic books prepare you for fancy research, and they will probably make you
+a better software engineer, but their are not sufficient for interview.
+Why? I'll give you a hint" Your interviewers haven't seen red black trees since
+were in school either.
+To crack the coding interview, you need to prepare with real interview questions.
+You must practice on real problems and learn their patterns.
+
+1
+The interview process
+=====================
+At the most of the top tech companies (and many other companies), algorithm and
+coding problems form the largest component of the interview process.
+Think of these as problem solving questions.
+The interviewer is looking to evaluate your ability to solve algorithmic problems
+you haven't seen before.
+
+You should do your best to talk out loud throughout the problem and explain your
+thought process. Your interviewer might jump in sometimes to help you; let them.
+It's normal and doesn't really mean that you're doing poorly.
+
+Your interviewer will make an assessment of your performance, usually based on
+the following:
+    - analytical skills: Did you much help solving the problem? How optimal was
+                         your solution? How log did it take you to arrive at a solution?
+    - coding skills: Translate your algorithm to reasonable code? Was it clean and
+                     well organized? Did you think about potential errors?
+                     Did you use good style?
+    - Technical knowledge / CS fundamentals
+    - Experience
+    - Culture fit / communication skills
+
+Why?
+- lots of great candidates don't do well in these sorts of interviews.
+
+False negatives are acceptable
+    This is sad. From the company perspective, it's actually acceptable that some
+    good candidates are rejected. The company is out of to build a great set of
+    employees.
+    They are far more concerned with false positives: people who do well in an
+    interview but are not in fact very good.
+
+Problem solving skill are valuable
+==================================
+    If you are able to work through several hard problems, you are probably pretty
+    good at developing optimal algorithms. You are smart.
+
+    Smart people tend to do good things.
+
+Basic data structure and algorithm knowledge is useful
+======================================================
+
+Whiteboards let you focus on what matters.
+=========================================
+
+
+II
+Behind the scenes
+=================
+Most companies conduct their interviews in very similar ways.
+
+1 - screening interview - over the phone.
+Many companies have taken advantage of online synchronized document editors, but
+others will expect you to write code on paper and read it back over the phone.
+Or event homework, to solve after you hang up the phone or just ask you to email
+them the code you wrote.
+
+You typically do one or two screening interviewers before being brought on site.
+In an on site interview round, you usually have 3 to 6 in person interviews.
+One of these is often over lunch. The lunch interview is usually not technical,
+and the interviewer may no even submit feedback. This is a good person to discuss
+your interests with and to ask about the company culture.
+
+The Microsoft - wants geeks. People who are passionate about technology.
+Amazon cares a lot about scale. Tends to ask a lot of questions about OOD.
+Google is a web-based company. Scalable system. Focus on analytical skills.
+
+
+Never let your coding skills atrophy.
+
+Anyone in a management like role needs to be able to both lead and work with
+people. If you come off as too arrogafffant or too passive, your interviewer may
+feel you aren't great as a manager.
+
+Communication: Managers need to communicate with people both above and below
+them, and potentially with customers and other much less technical people.
+
+Without a great resume, there's no interview. And without great experience,
+there's no great resume.
+
+Focus on yourself, not you team.
+
+Nugget
+S.A.R = Situation, Action, Result
+
+
+VI
+--
+Big O
+=====
+
+Big O time is the language and metric we use to describe the efficiency of
+algorithms.
+
+File transfer via electronic: O(s), where s is the size of the file.
+Time to transfer the file increases linearly with the size of the file.
+
+Airplane transfer O(1) with respect to the size of the file. The time is constant.
+
+Academics use big O, big 0 (theta), and big omega
+big O = is at least as fast as each, upper bounds on the runtime.
+
+
+Best case, worst case, and expected case.
+----------------------------------------
+
+x! > 2^x              100*99*98  = 
+
+1. Listen Carefully
+===================
+
+

@@ -20,47 +20,47 @@ Technical field:
 
 CCNA 200-301 (Wendell Odom) <-- 50 chapters
 Volume 1
-Part 1: Introduction to Networking
+Part 1: Introduction to Networking                                            +
     1. Introduction to TCP/IP Networking
     2. Fundamentals of Ethernet LANs
     3. Fundamentals of WANs and IP Routing
-Part 2: Implementing Ethernet LANs
+Part 2: Implementing Ethernet LANs                                           +/-
     4. Using the CLI
     5. Analyzing Ethernet LAN Switching
     6. Configuring Basic Switch Management
     7. Configuring and Verifying Switch Interfaces
-Part 3: Implementation VLANs and STP
-    8. Implementing Ethernet Virtual LANs
-    9. STP concepts
+Part 3: Implementation VLANs and STP                                         +/-
+    8. Implementing Ethernet Virtual LANs                                     +
+    9. STP concepts                                                           +
     10. RSTP and EtherChannel configuration
-Part 4: IPv4 Addressing
+Part 4: IPv4 Addressing                                                       +
     11. Perspectives on IPv4 Subnetting
     12. Analyzing Classful IPv4 Networks
     13. Analyzing Subnet Masks
     14. Analyzing Existing Subnets
-Part 5: IPv4 Routing
+Part 5: IPv4 Routing                                                          +
     15. Operating Cisco Routers
     16. Configuration IPv4 Addresses and Static Routes
     17. IP Routing in the LAN
     18. Troubleshooting IPv4 Routing
-Part 6: OSPF
+Part 6: OSPF                                                                  -
     19. Understanding OSPF concepts
     20. Implementation OSPF
     21. OSPF Network types and neighbors
 Part 7: IP Version 6
-    22
-    23
-    24
-    25
+    22 Fundamentals of IP Version 6
+    23 IPv6 Addressing and Subnetting
+    24 Implementing IPv6 Addressing on Routers
+    25 Implementing IPv6 Routing
 Part 8: Wireless LAN
-    26
-    27
-    28
-    29
-    
+    26 Fundamentals of Wireless Networks
+    27 Analyzing Cisco Wireless Architectures
+    28 Securing Wireless Networks
+    29 Building a Wireless LAN
+
 Part II 
 Part 1: IP ACLs
-    1
+    1 
     2
     3
 Part 2: Security Services
@@ -1133,5 +1133,235 @@ Mask:
     - prefix = classless interdomain routing (CIDR)  /24 = 24 bit network, 8 host = 255.255.255.0
                                                      /8  =                          255.0.0.0
                                                    slash
+
+p.431
+Chapter 14. Analyzing Existing Subnets
+--------------------------------------
+
+
+Part V:
+IPv4 Routing
+============
+
+p.461
+Chapter 15. Operating Cisco Routers
+-----------------------------------
+
+Ethernet LAN: Simple straight lines with one or more LAN switches.
+Ethernet WAN: Router
+
+p.482
+Chapter 16. Configuring IPv4 Address and Static Routes
+------------------------------------------------------
+Routers route IPv4 packets.
+Routers use three methods to add IPv4 routes to their IPv4 routing tables.
+Routres first learn connected routes, which are routes for subnets attached to 
+a routers interface. Routers can also use static routes, which are routes created
+through a configuration command (ip route) that tells the router what route
+created in the IPv4 routing table. And routers can use a routing protocol, in
+which routers tell each other about all their known routes, so that all routers
+can learn and build routes to all networks and subnets.
+
+IP routing - the process of forwarding IP packets - delivers packets across
+entire TCP/IP networks, from the device that originally builds the IP packet to
+the device that is supposed to receive  the packet.
+
+Step 1. If the destination is local, send directly:
+    - Find the destination host's MAC address. Use Address Resolution Protocol (ARP)
+      table entry, or use ARP messages to learn the information.
+    - Encapsulate the IP packet in a data-link frame, with the destination data link
+      address of the destination host.
+Step 2. If the destination in not local, send to the default gateway:
+    - Find the default gateway MAC address. Use the already known ARP table entry,
+      or use ARP message to learn the information.
+    - Encapsulate the IP packet in a data link frame, with the destination data link
+      address of the default gateway.
+Step 3. (router)
+    - For each received data link frame, choose whether or not to process the frame.
+      Process it if: no error in FCS, dst data-link address is router's address
+      (or multicast or broadcast)
+    - De encapsulate the packet from inside the data link frame.
+    - Make a routing decision. To do so, compare the packet destination IP address
+      to the routing table and find the route that matches the destination address.
+      This route identifies the outgoing interface of the router and possibly
+      the next hop router.
+    - Encapsulate the packet into a data-link frame appropriate for the outgoing
+      interface. When forwarding out LAN interfaces, use ARP as needed to find
+      the next device's MAC address.
+
+Default router = Gateway
+
+IPv4 Routing Table
+
+Subnet      Mask   Next Router   Out interface
+---------- ------ ------------- ---------------
+172.16.1.0  /24    172.16.4.2        S0/0/0
+
+A Cisco router automatically adds a route to its routing table for the subnet
+connected to each interface, assuming that the following two facts are true:
+    -   the interface is in a working state (up);
+    -   the interface has an IP address assigned through the ip address interface
+
+# show ip interface
+# show ip route
+D = default
+C = connected routes
+L = local connected /32 - one host
+S = static
+O = OSPF
+
+The ARP Table on a cisco router
+# show ip arp
+
+Static router
+(config)# ip route IP mask interface
+(config)# ip route IP mask IP-next-router
+
+If there overlap, then router would match both routes, but use the most specific router.
+By default, IOS considers static routes better than OSPF learned routes.
+
+
+If the router might not match the packet's destination IP address with any route.
+When that happens, the router normally just discards the packet. But routers
+can configured so that they use either a statically configurated or dynamically
+learned default route. The default route matches all packets, so that if a packet
+does not match any other more specific route in the routing table.
+    0.0.0.0 - 0.0.0.0 (/0)
+
+p.517
+Chapter 17.
+IP Routing in the LAN
+----------------------
+The preceding chapters.
+
+Because Layer 2 switches do not forward L2 frame between VLANs, a network must use
+routers to route IP packets between subnets to allow those devices in different
+VLANs/subnets to communicate.
+
+Almost all enterprise networks use VLANs, some devices (either routers or Layer 3 switches)
+need to have an IP address in each subnet and have a connected route to each of those
+subnets. Then the IP addresses on those routers or Layer 3 switches can serve as the default
+gateways in those subnets.
+
+Configure the ip address command on the physical interface, but without an encapsulation
+command; the router considers this physical interface to be using the native VLAN.
+
+Sub interface state can be enabled and disabled independently from the physical interface,
+using the no shutdown and shutdown commands in sub interface configuration mode.
+
+Show vlans - spells out which router trunk interfaces use which VLANs.
+
+A Layer 3 Switch SVIs = also called a multilayer switch - is one device, but it
+executes logic at two layers: Layer 2 LAN switching and Layer 3 IP routing.
+SVI = switched virtual interfaces.
+
+VLAN interfaces act like router interfaces, with an IP address and mask.
+The layer 2 switch has an IP routing table, with connected routes off each of these
+VLAN interfaces. = switched virtual interfaces.
+
+ip routing = enable routing
+
+interface vlan 10
+    ip address 10.1.10.1 255.255.255.0
+
+interface vlan 20
+    ip address 10.1.20.1 255.255.255.0
+
+show ip route
+
+L3 EtherChannels treat the channel as a routed port instead of switched port.
+Network engineer can choose to use a routed port instead of an SVI.
+conversely, when L3 switch needs a L3 interface connected to a subnet, and many
+physical interfaces on the switch connect to that subnet, an SVI needs to be used.
+(SVIs forwards traffic internally into the VLAN, so that then the L2 logic can
+forward the frame out any of the ports in the VLAN. Routed ports cannot).
+
+Enabling a switch interface to be a routed interface instead of switched interface
+is simple" just use the 'no switchport' on the physical interaface.
+Cisco switches capable of being a Layer 3 switch use a default of the switchport
+command to each switch physical interface.
+Switchport - with that term, Cisco tells the switch to treat the port like it is
+a port on a switch - that is, L2 portn on a switch. To make the port stop
+acting like a switch port and instead act llike a router port, use the 'no switchport'
+command on the interface.
+
+Once the port is acting as a routed port, think of it like a router interface.
+That is, configure the IP address on the physical port.
+
+interface gi0/1
+    no switchport
+    ip address 10.1.30.1 255.255.255.0
+
+So, with two options - SVI and routed ports - where should you use each?
+For any topologies with a point to point link between two devices that do
+routing, a routed interface workds well.
+
+PortChannel interaface !!!
+
+p.548
+Chapter 18. Troubleshooting IPv4 routing
+----------------------------------------
+
+Two tools:
+    - ping 
+    - traceroute
+
+The ping command tests connectivity by sending packets to an IP address, expecting
+the device at that address to send packets back.
+ICMP = Internet Control Message Protocol.
+
+The traceroute command identifies the routers in the path from source host to
+destination host. Specifically, it lists the next hop IP address of each router
+that would be in each of the individual routes.
+The traceroute command gathers information by generating packets that trigger
+error messages from routers; these messages identify the routers, letting the
+traceroute command list. That error message is the ICMP Time to live exceeded
+(TTL Exceeded) message.
+
+Cisco IOS.
+
+traceroute = Windows: tracert/pathping, Linux: traceroute
+
+
+
+Part VI. OSPF
+Chapter 19-21
+
+Part VII. IP version 6
+
+p. 669
+Chapter 22. Fundamentals of IP version 6
+
+IPv6 = 128bit address.
+
+IP version 6 (IPv6) serves as the replacement protocol for IP version 4.
+
+The fact that IPv6 uses a different size of address field, with some different
+addressing rules, means that many other protocols and functions change as well.
+
+IPv4 routing - the packet forwarding process.
+
+NAT (Network address translation) and classless interdomain routing (CIDR) helped
+extend IPv4 life. IPv6 creates a more permanent and logn lasting solution.
+
+There was an earlier effort to create a new version of IP, and it was numbered version 5.
+
+ICMPv6
+ARP replaced by neighbor discovery protocol = NDP.
+
+The migration strategy of running both IPv4 and IPv6 is called dual stack.
+
+2345:1:2:3::/64 - prefix
+
+Full (unabbreviated) ipv6 address: 2340:1111:AAAA:0001:1234:5678:9ABC:1234 = 16 bytes
+                                               eight   quartet
+
+Shortest abbreviation
+:: means two or more quartets of all 0s
+
+FE00:0:0:1::56
+
+IPv6 uses a mask concept, called the prefix length, similar to IPv4 subnet
+masks.  /64 - the legal value range is from 0 through 128, inclusive.
 
 
