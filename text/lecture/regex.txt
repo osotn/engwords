@@ -1,0 +1,73 @@
+Regex = regular expression
+
+Used for pattern matching or string matching.
+
+[abc]           = a,b or c
+[^abc]          = any character except a,b,c
+[a-z]           = a to z
+[A-Z]           = A to Z
+[a-z A-Z]       = a to z, A to Z
+[0-9]           = 0 - 9
+
+[]?             = occurs 0 or 1 times
+[]+             = occurs 1 or more times
+[]*             = occurs 0 or more times
+[]{n}           = occurs n times
+[]{n,}          = occurs n times or more time
+[]{y,z}         = occurs at least y time, but less than z time
+
+Regex metacharacters tells comp to treat following character as search character
+for + .
+
+\d = [0-9]
+\D = [^0-9]
+\w = [a-zA-Z_0-9]
+\W = [^\w]
+ 
+Mobile number: [89][0-9]{9}
+
+[A-Z][a-z]*[0-9][a-z]*
+
+[a-zA-Z0-9_\-\.]+[@][a-z]+[\.][a-z]{2,3} - email
+
+
+===
+grep 
+-i insensitive search
+-w word 
+-E extended (|)
+
+egrep -i '^(linux|unix)' 
+
+dot (.) has a special meaning in regex, i.e. match any character.
+Or \.
+
+Anchors ^ and $ = to match only at the start or end a line.
+
+[vV] [0-9]
+[[:alnum:]]
+[[:alpha:]]
+[[:blank:]]
+[[:digit:]]
+[[:lower:]]
+[[:space:]]
+[[:upper:]]
+
+[^0-9]
+
+wildcards:
+.   matches any single character
+?   the preceding item is optional and will be matched, at most, once
+*   the preceding item will be matched zero or more times
++   the preceding item will be matched one or more times.
+-   range
+^   empty string at the beginning of a line
+$   empty string at the end of a line.
+
+
+{2}
+{1,2}
+{1,}
+
+{3,}
+

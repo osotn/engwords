@@ -1327,6 +1327,7 @@ traceroute = Windows: tracert/pathping, Linux: traceroute
 Part VI. OSPF
 Chapter 19-21
 
+
 Part VII. IP version 6
 
 p. 669

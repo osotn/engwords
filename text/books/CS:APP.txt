@@ -549,5 +549,13 @@ When executing C programs, overflows are not signaled as errors.
 For x and y, let s = x operator+u(w) y. Then the computation of s overflowed if
 and only if s < x (or equivalently, s < y);
 
+For any number x such that 0 <= x < 2^w, its w-bit unsigned negation operation-u(w) is
+given by the following:
+
+    operation-u(w) = || x      , x = 0
+                     || 2^w - x, x > 0
+
+2.3.2 Two's complement addition
+===============================
 
 
