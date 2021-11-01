@@ -1,0 +1,20 @@
+IaaS - Infrastructure as a Service
+AWS, Google Compute Engine
+
+PaaS - Platform as a Service
+Google App Engine, AWS App Runner
+
+SaaS - Software as a Service
+Dropbox, GMAIL, Google Docs
+
+Public Key Cryptography = Asymmetric Cryptography:
+    - public key
+    - private key
+
+ssh-keygen -t rsa -b 4096 -m PEM -f cryptoKey:
+    - cryptoKey
+    - cryptoKey.pub
+
+
+
+
