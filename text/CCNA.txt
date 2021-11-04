@@ -1328,6 +1328,7 @@ Part VI. OSPF
 Chapter 19-21
 
 
+
 Part VII. IP version 6
 
 p. 669
@@ -1343,7 +1344,7 @@ addressing rules, means that many other protocols and functions change as well.
 IPv4 routing - the packet forwarding process.
 
 NAT (Network address translation) and classless interdomain routing (CIDR) helped
-extend IPv4 life. IPv6 creates a more permanent and logn lasting solution.
+extend IPv4 life. IPv6 creates a more permanent and long lasting solution.
 
 There was an earlier effort to create a new version of IP, and it was numbered version 5.
 
@@ -1365,4 +1366,94 @@ FE00:0:0:1::56
 IPv6 uses a mask concept, called the prefix length, similar to IPv4 subnet
 masks.  /64 - the legal value range is from 0 through 128, inclusive.
 
+IPv6 header is 40 bytes.
 
+
+p. 688
+Chapter 23. IPv6 Addressing and Subnetting
+
+In the history of IPv4 addressing, the world started out with a plan that gave
+every single host a globally unique public IPv4 address.
+But in 1990s, companies started using addresses from the private IPv4 address
+range - don't used the Internet or used NAT (Network Address Translation), sharing
+a few public globally unique IPv4 addresses for all host connections into the Internet.
+
+IPv6 allows two similar options of public and private unicast addressing,
+beginning with global unicast addresses as the public IPv6 address space.
+Similar to public IPv4 addresses, IPv6 global unicast addresses rely on
+an administrative process that assigns each company a unique IPv6 address block.
+Each company then subnets this IPv6 address block and only uses addresses from
+within that block. The result: that company uses addresses that are unique across
+the globe as well.
+The second IPv6 option uses unique local IPv6 addresses, which work more like
+the IPv4 private addresses (that do not plan to connect to the Internet or use
+IPv6 NAT).
+
+Global unicast: asks for a registered IPv6 address block.
+Unique local: 
+
+Global routing prefix - reserved block of IPv6 address that only one company can use:
+2001:DB8:1111::/48 - example
+
+IANA------ 2001:.. - ARIN (North America)
+           2ABC:.. - AfriNIC (Africa)
+           2.... |
+           3.... | reserved as global
+
+Unique Local unicast addresses act as private IPv6 addresses.
+FD as first two hex digits, 40 bit global ID (pseudo-random) / 16 bits subnet
+
+FC00::/7 - reserved (it FD00::/8 also)
+
+
+p. 706
+Chapter 23. Implementating IPv6 addressing on routers
+-----------------------------------------------------
+
+Some devices, like servers and routers, typically use static predefined IPv4 addresses.
+
+End-user devices do not mind if their address changes from time to time, and
+they typically learn an IPv4 address dynamically using DHCP.
+
+IPv6 routing needs to be enabled.
+On Cisco routers, IPv4 routing is enabled by default, but IPv6 routing is not
+enabled by default.
+    ipv6 unicast-routing # command
+A router must enable IPv6 globally and enable IPv6 on the interface.
+    show ipv6 interface brief
+
+IOS supports two different methods to configure a stable address:
+    - uses the ipv6 address command to define the entire 128-bit address;
+    - uses this same ipv6 address command, but the command configures only
+            64-bit IPv6 prefix for the interface and lets the router automatically
+            generate a unique interface ID = EUI-64
+                EUI-64 = 1st Half of MAC + FFFE + 2st half of MAC
+                        (invert 7th bit, 1st byte)
+Although this process might seem a bit convoluted, it worked.
+
+p.718
+Cisco routers support two ways for the router interface to dynamically learn 
+an IPv6 address to use:
+    - (dhcp) stateful DHCP
+    - (autoconfig) stateless Address autoconfiguration (SLAAC)
+
+Link-local addresses is a special kind of unicast IPv6 address.
+These addresses are not used for normal IPv6 packet flows that contain data for
+applications. Instead, these addresses are used by some overhead protocols and
+for routing.
+IPv6 defines rules so that packets sent to any link-local address should not be
+forwarded by any router to another subnet.
+NDP (neighbor Discovery Protocol) which replaces ARP, use link-local addresses.
+
+Routers also use link-local addresses as the next hop IP addresses in IPv6 routes.
+IPv6 hosts use a default router (default gateway) concept.
+
+Automatically generated: Every IPv6 host interface (and router interface) can
+create its own link-local addresss automatically, solving some initialization
+problems.
+IPv6 hosts and routers can calculate their own link-local address, for each
+interface, using some basic rules: FE80::/10 + EUI-64 (or randomly generated).
+
+p.724
+IPv6 Multicast Address
+----------------------
