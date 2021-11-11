@@ -48,10 +48,10 @@ Part 6: OSPF                                                                  -
     20. Implementation OSPF
     21. OSPF Network types and neighbors
 Part 7: IP Version 6
-    22 Fundamentals of IP Version 6
-    23 IPv6 Addressing and Subnetting
-    24 Implementing IPv6 Addressing on Routers
-    25 Implementing IPv6 Routing
+    22 Fundamentals of IP Version 6                                           +
+    23 IPv6 Addressing and Subnetting                                         +
+    24 Implementing IPv6 Addressing on Routers                                +
+    25 Implementing IPv6 Routing                                              .
 Part 8: Wireless LAN
     26 Fundamentals of Wireless Networks
     27 Analyzing Cisco Wireless Architectures
@@ -1449,7 +1449,7 @@ Routers also use link-local addresses as the next hop IP addresses in IPv6 route
 IPv6 hosts use a default router (default gateway) concept.
 
 Automatically generated: Every IPv6 host interface (and router interface) can
-create its own link-local addresss automatically, solving some initialization
+create its own link-local address automatically, solving some initialization
 problems.
 IPv6 hosts and routers can calculate their own link-local address, for each
 interface, using some basic rules: FE80::/10 + EUI-64 (or randomly generated).
@@ -1457,3 +1457,73 @@ interface, using some basic rules: FE80::/10 + EUI-64 (or randomly generated).
 p.724
 IPv6 Multicast Address
 ----------------------
+IPv4 broadcast means that the packet destination address is either:
+    - 255.255.255.255 (limited broadcast);
+    - subnet broadcast address (for all hosts in the local LAN).
+=> dst MAC address FF:FF:FF:FF:FF:FF
+
+IPv6, instead of using L3 and L2 broadcasts, instead uses L3 multicast addresses.
+
+List the most common reserved IPv6 multicast addresses (local-scope)
+    - FF02::1                   all-nodes;
+    - 224.0.0.1
+    
+    - FF02::2                   all-routers;
+    - 224.0.0.2
+
+p.726
+Multicast Address Scopes
+------------------------
+IPv6 RFC 4291 defines IPv6 addressing.
+The scope definition called link-local dictates that packets sent to a link-local
+unicast address should remain on the link and not be forwarded by any router.
+Per that RFC the fourth digit of the multicast address identifies the scope.
+
+FF01        Derived by device (internall for the same host);
+FF02        Link-Local (can send it onto the link, but no routers forward the packet)
+FF05        Site-Local (routers)
+FF08        Organization-Local
+FF0E        Global
+
+Link-local address:
+    FF80 - unicast address for an interface to which devices apply a link-local scope.
+           Often on EUI-64 rules.
+Link-local multicast address:
+    FF02 - reserved multicast address to which devices apply a link-local scope.
+
+Link-local scope: A reference to the scope itself, rather than an address.
+                  This scope defines that routers should not forward packets sent
+                  to an address in the scope.
+
+NDP replaces IPv4 ARP. NDP improves the MAC-discovery process by sending IPv6 multicast
+packets that can be processed by the correct host but discarded with less
+processing by the rest of the hosts in the subnet.
+The process uses the solicited - node multicast address associated with unicast IPv6 address.
+All solicited node multicast addresses begin with abbreviated FF02::1:FF + 6 hex digits of the unicast address
+into the solicited node address.
+
+Unknown (unspecified) IPv6, ::, or all 0s.
+Loopback                    ::1 (127.0.0.1)
+
+Anycast addresses:
+/128 - is one special anycast address in each subnet. It is reserved for use by
+routers as a way to send a packet to any router on the subnet.
+
+p.736
+Chapter 25. Implementing IPv6 Routing
+-------------------------------------
+A router adds IPv6 routes based on the following:
+    - configuration of IPv6 addresses on working interfaces (connected and local routes)
+    - the direct configuration of a static router (staic routes)
+    - configuration of a routing protocol, like OSPFv3.
+
+Roles for connected and local routes:
+-------------------------------------
+Routes add and remove connected routes and local routes, based on the interface
+configuration and the interface state.
+First, the router looks for any configured unicast addresses on any interfaces
+by looking for the ipv6 address command. Then, if the interface is working -
+if the interface has a 'line status is up, protocol status is up'.
+Note: Routers do not create connected or local IPv6 routes for link - local addresses.
+
+
