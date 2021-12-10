@@ -1,0 +1,176 @@
+Synchronous Ethernet, also referred as SyncE, is an ITU-T standard for computer
+networking that facilitates the transference of clock signals over Ethernet
+physical layer.
+This signal can then be made traceable to an external clock.
+
+Unlike time division multiplexing networks, the Ethernet family of computer networks
+do no carry clock synchonization information.
+
+2.15 PP Synchronous Ethernet
+
+The device allows frequency synchronous:
+    - a clock signal can be recovered from any of the ports, and at any port speeds.
+    - multiple redundant recovered clock outputs, allowing fast failover when a master fails.
+    - Synchronization Status Messages (SSM) can be trapped to the CPU without using
+      the PCL/TTI TCAM.
+
+go to Section 47.
+
+p.1318
+------
+SyncE allows various nodes in an Ethernet network to synch to the same clock freq.
+This functionality is useful in systems where TDM services, such as SONET or SDH
+are transported over an Ethernet network.
+
+The clock distribution in SyncE network is performed in a tree based topology,
+where the root of the tree is a master, that is either driven by a precise clock,
+or connected to a synchronous TDM network. In each switching device, the clock
+frequency is recovered from the incoming data to the slave port, and is used as
+the transmission clock of the other ports, allowing the clock frequency to be
+distributed to subsequent devices.
+
+47.1 Clock Data Recovery
+47.1.1 Clock Recovery Scheme
+----------------------------
+From incoming data from a designated port called the reference port.
+The reference port can be a network port connected to a PHY, or a port that
+is connected to another device without a PHY.
+The clock signal that is recovered from the reference port is used an input to
+an external sychronizer component that generates a clean recovered clock.
+The clock synchronizer is essentially a PLL that is used for cleaning jitters
+on the clock signals, and for frequency conversion if such is necessary.
+The recovered clock from the synchronizer is used as the transmission clock in
+the PHY devices, as well as in the SERDES of the switching device, allowing
+transmission of data at an accurate frequency.
+
+The clock synchronizer typically drives the SERDES clock inputs: CMN<n>_REF_CLK:
+    - REF_CLK_25
+    - PTP_REF_CLK
+
+47.1.2 Recovered Clock Outputs
+------------------------------
+The device provides multiple recovered clock outputs.
+The device supports clock recovery from any of its ports.
+
+Configuration
+=============
+    - Configure the first SERDES by clearing <SD Recovered Clock 0 Select> field
+        in the SERDES External Configuration 1 Register in one of the SERDES in the
+        port group, and setting this bit in the other SERDES.
+    -                                        <SD Recovered Clock 1 Select>
+    - To select whether the PTP_PCLK_OUT interface is used as a PClk output
+        or a recovered clock input, use <pclk_or_rcvr_clk_sel>
+    - In the reference SERDES, to configure the output clock automatic masking:
+        <Recovered Clock 0 Automatic Masking Enable>
+        <                1                         >
+
+47.1.3 Recovered Clock Frequency
+--------------------------------
+The frequency of the recovered clock output depends on the port speed of the
+reference port.
+The clock signal at the recovered clock output can be configured to be divided
+by a constant factor = 1,2,3,4,5,8,16,2.5,16.5
+
+Configuration
+=============
+        <Recovered Clock 0 Division Mode>
+        <                1              >
+
+47.1.4 SERDES Clock Inputs
+--------------------------
+Use 2 clock inputs:
+    - a clock synchronizer, which is a PLL connected to the RCVR_CLK_OUT pins;
+    - an oscillator, which drives the CMN_REF_CLK inputs.
+
+Additional oscillator is used for the reference port, while the clock synchronizer
+is used for the rest of the ports.
+
+
+47.2 Synchronization Status Messaging
+-------------------------------------
+SyncE uses SSM (Synchronization Status Messages) to signal the stratum level of a clock,
+to notify about clock failures, etc.
+SSM messages are OAM PDU messages- can be identified and trapped to the CPU in one
+of the following ways:
+    - w/o TCAM (OAM control plane).
+    - alternatively, an SSM packet can be identified by the Ingress Policy engine,
+      using the following fields:
+            - Mct MAC DA - OAM PDUs = 01-80-C2-00-00-C2
+            - slow protocol Ethertype = 0x8809
+            - OAM PDU subtype (0x03) and Code (0xFE)
+
+
+
+Ethernet Synchronization Message Channel (ESMC) is a logical communication channel.
+It transmit Synchronization Status Message (SSM) information, which is the quality
+level of the transmitting synchronous Ethernet equipment clock (EEC), by using
+ESMC protocl data unit (PDUs).
+ESMC support is based on the ITU G.8264 specification.
+
+The clock selection process supports revertive and nonrevertive mode.
+When the clock selection process has selected two clock sources - a primary and
+a secondary - and the active primary clock source degrades over a period of time
+and then improves again, this primary source again becomes the active clock sources
+only if revertive mode is enabled.
+
+
+cpss
+====
+27. Synchronous Ethernet = SynchE
+---------------------------------
+SynchE allows various nodes in an Ethernet network to synchronize to the same
+clock frequency.
+
+In each switching device the clock frequency is recovered from the incoming
+data to the slave port, and is used as the transmission clock of the other ports,
+allowing the clock frequency to be distributed to consequent devices.
+
+27.1 Clock Data Recovery
+------------------------
+A SynchE recovers the clock signal from the incoming data from a designated port
+called the reference port.
+The reference port can be:
+    - a network port connected to a PHY ===> clock recovered by the PHY device
+    - a port that is connected to another device without a PHY, e.g., throug a backplane
+      interface. ===> recovered by the switching device.
+
+The clock signal recovered from the reference port is used as an input to
+an external synchronizer component that generates a clean recovered clock.
+The clock synchronizer is essentially a PLL (phased - locked loop) that is used
+for cleaning jitters on the clock signals, and for frequency conversion,
+if necessary. The recovered clock from the synchronizer is used as the transmission
+clock in the PHY devices, as well as in the SERDES of the switching device,
+allowing transmitting data at an accurate frequency.
+
+Recovered Clock Output
+----------------------
+The device supports clock recovery from any the SERDES, allowing them to be used
+as reference ports:
+    - A SERDES from each portGroup (i.e., up to four reference SERDES).
+
+To set the reference clock, call RecoveryClkConfigSet:
+    - reference clock;
+    - port number;
+    - lane (application responsibles that port number and lane number are compatible).
+
+!!! There is an option to set the signal of the reference clock to zero in the
+output ping of the device if the link is down. To set this, call RecoveryClkAutomaticMaskingEnableSet.
+
+Recovered clock division
+------------------------
+The clock signal at the recovered clock reference output uses one of the following
+frequencies:
+    - clock frequency of the SERDES of the reference port;
+    - clock frequency of the SERDES of the reference port, divided by a factor.
+       125MHz /5 = 25 MHz!!!
+
+SERDES clock inputs:
+--------------------
+Each port in the system can be driven by one of two clock sources:
+    - external clock synchronizer;
+    - local clock source.
+By PllRefClkSelectSet()
+
+
+
+

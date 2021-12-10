@@ -51,7 +51,7 @@ Part 7: IP Version 6
     22 Fundamentals of IP Version 6                                           +
     23 IPv6 Addressing and Subnetting                                         +
     24 Implementing IPv6 Addressing on Routers                                +
-    25 Implementing IPv6 Routing                                              .
+    25 Implementing IPv6 Routing                                             +/-
 Part 8: Wireless LAN
     26 Fundamentals of Wireless Networks
     27 Analyzing Cisco Wireless Architectures
@@ -60,9 +60,9 @@ Part 8: Wireless LAN
 
 Part II 
 Part 1: IP ACLs
-    1 
-    2
-    3
+    1 Introduction to TCP/IP Transport and Applications
+    2 Basic IPv4 Access Control Lists
+    3 Advanced IPv4 Access Control Lists
 Part 2: Security Services
     4
     5
@@ -1514,16 +1514,118 @@ Chapter 25. Implementing IPv6 Routing
 -------------------------------------
 A router adds IPv6 routes based on the following:
     - configuration of IPv6 addresses on working interfaces (connected and local routes)
-    - the direct configuration of a static router (staic routes)
+    - the direct configuration of a static router (static routes)
     - configuration of a routing protocol, like OSPFv3.
 
 Roles for connected and local routes:
 -------------------------------------
-Routes add and remove connected routes and local routes, based on the interface
+Routers add and remove connected routes and local routes, based on the interface
 configuration and the interface state.
 First, the router looks for any configured unicast addresses on any interfaces
 by looking for the ipv6 address command. Then, if the interface is working -
-if the interface has a 'line status is up, protocol status is up'.
+if the interface has a ' line status is up, protocol status is up '.
 Note: Routers do not create connected or local IPv6 routes for link - local addresses.
+
+The connected and local routes themselves follow the same general logic as with IPv4.
+
+ipv6 address 2000:1:1::1/64 => added 2000::1:1:1::/64 into route table.
+
+Static IPv6 Routes:
+-------------------
+ipv6 route 2001:db8:1111:2::/64 ifIndex
+
+Static Routes using next hop IPv6 address
+-----------------------------------------
+
+Neighbor MAC Discovery
+An IPv6 LAN based host will need to learn the MAC address of other hosts in the
+same subnet.
+NDP relaces IPv4 ARP, providing messages that replace the ARP request and Reply messages.
+
+Router Discovery: Hosts learn the Ipv6 addresses of the available IPv6 routes in the same subnet.
+SLAAC: When using Stateless address auto configuration, the host uses NDP messages
+to learn the subnet (prefix) used on the link plus the prefix length.
+
+DAD: Before using an IPv6 address, hosts use NDP to perform a Duplicate Address Detection (DAD)
+
+NDP uses a pair of matched solicitation and advertisement messeges:
+    - neighbor solicitaion   (NS)   -    acts like an IPv4 ARP request
+    - neighbor advertisement (NA)   -    acts like an IPv4 ARP reply
+
+
+
+PART II
+=======
+
+Chapter 1.
+Introduction to TCP/IP Transport and Applications.
+-------------------------------------------------
+
+L4: The most important functions:
+    - error recovery;
+    - flow control.
+
+The key difference between TCP and UDP is that TCP provides a wide variety
+of services to applications, whereas UDP does not.
+
+TCP provides
+    - retransmission (error recovery) - reliability
+    - help to avoid congestion (flow control).
+
+Error recovery (reliability) = process of numbering and acknowledging
+                               data with Sequence and Acknowledgment header
+                               fields.
+Flow control using windowing = process that uses window size to protect buffer
+                               space and routing devices from being overloaded
+                               with traffic.
+Connection establishment       Process used to initialize port numbers and
+and termination                sequence and acknowledgment fields.
+
+Ordered data transfer and      Continuous stream of bytes from an upper layer
+data segmentation
+
+TCP = Transmission Control Protocol
+
+Source port, Destination port
+sequence number
+acknowledgement number
+offset, flag bits, window
+cheksum, urgent
+
+Multiplexing relies:
+    - IP address;
+    - transport protocol
+    - port number
+
+IANA = Internet Assigned Numbers Authority
+
+Ports:
+    Well known (system) ports       => 0..1023
+    User (Registered)               => 1024..49151
+    Ephemeral (dynamic)             => 49152..65535
+
+Port numbers are a vital part of the socket concept.
+Servers use well-known ports (or user ports), whereas clients use dynamic ports.
+
+WWW (World Wide Web) application exists through web browsers accessing the
+content available on web servers.
+
+DNS (Domain Name System) allows users to use names to refer to computers.
+
+SNMP (Simple Network Management Protocol) for network device management.
+
+TFTP (trivial file transfer protocol)
+
+SMTP (Simple Mail Transfer Protocol) or POP3 (Post Office Protocol)
+
+SSH         22
+Telent      23
+SMTP        25
+DNS         53
+DHCP        68/69
+TFTP        69
+SNMP       161
+Syslog     514
+
 
 

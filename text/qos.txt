@@ -1,0 +1,54 @@
+Chapter 24.
+
+Quality of Service (QoS) is implemented in the device.
+
+Traffic types:
+    incoming traffic into:
+        - data;
+        - control;
+        - mirror to analyzer.
+
+Data:
+    - from a network port => <command> FORWARD / MIRROR TO CPU;
+    - from a cascade port => DSA tag <command> FORWARD
+
+Control:
+    - TRAP by ingress pipe;
+    - MIRROR
+    - TO_CPU
+    - FROM_CPU
+
+
+24.1.3 Packet QoS Attributes:
+    Every packet classified as Data is assigned a set of QoS attributes.
+        - QoS precedence;
+        - QoS profile = 0-1023
+        - Modify DSCP/EXP
+        - Modify UP0 - user priority
+
+24.1.4 QoS Profile
+    Device supports 1K QoS profiles.
+    Every packet classified as Data is assigned the QoS profile,
+    index 0 - 1023.
+
+24.2.1 Default ePort-based QoS Marking
+
+Each physical port has an configurable "Default ePort" which, by default,
+is initialized to the physical port number.
+
+Packet is trusted, or not trusted.
+
+
+24.3 Ingress Policing
+
+Ingress policing supports physical-port-based, ePort-based, eVLAN based, or,
+flow based metering of traffic classified as Data by binding a specific flow
+with a rate limiter.
+
+The traffic Policer uses one or two rate three color rate limiters to classify
+as in profile (GREEN) of out of profile (YELLOW or RED).
+
+
+        
+        
+
