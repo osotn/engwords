@@ -149,7 +149,7 @@ def is_word_xT(word):
     return os.path.exists(p + "first_3000" + f) or os.path.exists(p + "ielts_general_4000" + f) or os.path.exists(p + "toefl_5000" + f) or os.path.exists(p + "first_10000" + f)
 
 def is_word_yT(word):
-    return os.path.exists(engwords_path + "/words/first_20000/" + word + ".txt") 
+    return os.path.exists(engwords_path + "/words/first_20000/" + word + ".txt")
 
 def get_word(sel):
     iter, end = sel

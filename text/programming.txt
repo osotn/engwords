@@ -1,0 +1,111 @@
+Bjarne Stroustrup (1950 - )
+
+David Wheeler (1927-2004):
+    "All problems in computer science cab be solved by another level of indirection
+     [, except for the problem of too many layers of indirection."
+     
+     "Compatibility means deliberately repeating other people's mistakes."
+
+The minimal C++ program is
+    int main() {}
+
+{} - curly braces express grouping in C++.
+// - double slash
+
+main() - global function name.
+
+2.2.2 Types, Variables, and Arithmetic
+
+Every name and every expression has a type that determines the operations that
+may be performed on it.
+
+Declaration is a statement that introduces a name into the program. It specifies
+a type for the name entity:
+    - a type: set of possible values and a set of operations;
+    - an object is some memory that holds a value of some type;
+    - a value is a set of bits interpreted according to type;
+    - a variable is a named object.
+
+C++ fundamental types:
+    - bool;
+    - char;         - character (typically an 8 bit), sizeof(char) = 1.
+    - int;
+    - double;
+
+    x+y,        plus
+    +x,         unary plus
+    x-y,        minus
+    -x,         unary minus
+    x*y,        multiply
+    x/y,        divide
+    x%y         remainder (modulus) for integers
+    
+    =           assignment
+    
+    x==y,       equal
+    x!=y,       not equal
+    x<y,        less than
+    x>y,        greater than
+    x<=y,       less than or equal
+    x>=y,       greater than or equal
+
+2.2.3 Constants
+    const       
+    constexpr
+
+3. A tour of C++: Abstraction Mechanisms
+
+User defined types:
+    - concrete classes;
+    - abstract classes;
+    - class hierarchies.      => object oriented programming
+
+Template is a mechanism for parameterizing types and algorithms. => generic programming.
+
+3.2 Classes
+-----------
+The central language feature of C++ is the class.
+A class is a user defined type provided to represent a concept in the code of a program.
+
+3.2.1 Concrete types
+
+just like build-in types
+
+A constructor without an argument is called a default constructor.
+
+A container is an object holding a collection of elements.
+Initializer list contructor.
+
+3.2.2 Abstract types
+
+is a type that completely insulates a user from implementation details.
+is a pure interface to specific defined later.
+virtual = may be redefined later in a class derived from this one.
+
+:public = is derived from  or is a subtype of
+
+3.3 Copy and Move
+-----------------
+
+By default objects can be copied.
+
+&& = rvalue reference is a reference to which we can bind an rvalue.
+
+4. A tour of C++: Containers and Algorithms
+-------------------------------------------
+
+string, ostream, vector, map, unique_ptr, thread, regex, complex
+
+Standard library:
+    - run time language support (allocation, type information);
+    - C standard library
+    - string and I/O streams
+    - framework of containers and algorithms
+    - numerical computation
+    - regex
+    - concurrent programming - threads, locks
+    - templates - pair, clock
+    - smart pointers;
+
+
+

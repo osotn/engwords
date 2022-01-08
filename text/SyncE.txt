@@ -173,4 +173,13 @@ By PllRefClkSelectSet()
 
 
 
+======
+
+ITU-T G.8264/Y.1364 (Recommendation)
+
+Distribution of timing information through packet networks
+
+Specify the synchronization status message (SSM) protocol and formats for use
+with synchronous
+
 
