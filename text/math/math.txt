@@ -1,0 +1,172 @@
+Discrete mathematics with Applications 2019 Susanna S.
+
+Chapter 1
+Speaking mathematically
+-----------------------
+
+The aim of this book is to introduce you to a mathematical way of thinking that
+can serve you in a wide variety of situations.
+Often when you start work on a mathematical problem, you have only a vague sense
+how to proceed.
+You may begin by:
+    - looking at examples,
+    - drawing pictures,
+    - playing around with notation,
+    - rereading the problem to focus on more of its details,
+    - and so forth.
+And the more you need to understand, the more you need language that expresses
+mathematical ideas clearly, precisely, and unambiguously.
+
+Language:
+    - variables,
+    - sets,
+    - relations
+    - functions
+
+1.1
+Variables
+
+A variables is sometimes thought of as a mathematical "John Doe" because you can
+use it as placeholder when you want to talk about something but either:
+    - you imagine that it has one or more values but you don't know what they are,
+    - you want whatever you say about it to be equally true for all elements
+      in a given set, and so you don't want to be restricted to considering only
+      a particular, concrete value for it.
+
+    2*x + 3 = x^2
+    x^2 - 2x - 3 = 0;
+    1+/- 2 = 3, -1 
+
+Variable in a computer program is similar to a mathematical variable because it
+creates a location in computer memory into which values can be placed.
+
+Universal statement says that a certain property is true for all elements in a set.
+
+Conditional statement says that if one thing is true then some other thing also
+has to be true.
+
+Existential statement says that there is at least one thing for which the property is true.
+
+Universal conditional statement:
+    For every animal a, if a is a dog, then a is a mammal.
+
+1.2
+The language of sets
+
+Use of the words set as a formal mathematical term was introduce in 1879 by George
+Cantor (1845-1918).
+Set is collection of elements.
+
+x is an element of S.
+x is not an element of S.
+
+{1,2,3,...,1000} - set roster notation - between brace
+
+... = ellipsis, read as "and so forth"
+
+The axiom of extension says that a set is completely determined by what its
+elements are.
+ 
+Set builder notation. Let S denote a set and let P(x) be a property that elements
+of S may or may not satisfy.
+
+The set of all elements x in S such that P(x) is true.
+{x E S | P(x) }
+
+If A and B are sets, then A is called a subset of B, written A included in B, if,
+and only if, every element of A is also an element of B.
+
+Let A and B be sets. A is a proper subset of B if, and only if, every element
+of A is in B but there is at least one element of B that is not in A.
+
+
+With introduction of set theory in the late nineteenth century, it began to seem
+possible to put mathematics on a firm logical foundation by developing all of its
+various branches from set theory and logic alone.
+
+Given elements a and b, the symbol (a,b) denotes the ordered pair consisting of
+a and b together with a specification that a is the first element of the pair
+and b is the second element. Two ordered pair (a,b) and (c,d) are equal if, and
+only if, a = c and b = d.
+
+Let n be a positive integer and let x1, x2, x3, ..., xn be (not necessarily distinct)
+elements. The ordered n tuple consists of x1, x2, ..., xn together with
+the ordering: first x1, then x2, and so forth up to xn.
+An ordered 2 tuple is called an ordered pair.
+
+Given set A1, A2,..., An the Cartesion product of A1, A2,..., An, denoted 
+A1 x A2 x ... x An, is the set of all ordered n tuples (a1, a2,..., an) where
+a1 include in A1, a2 include in A2
+
+Let n be a positive integer. Given a finite set A, a string of lenght n over A
+is an ordered n tuple of elements of A written without parentheses or commas.
+The element A are called the characters of the string.
+The null string over A is defined to be string with no characters.
+
+
+1.3
+The language of Relations and functions
+
+Mathematics is a language.
+
+If A and B are sets of F is a function from A to B, then given any element x in A,
+the unique element in B that is related to x by F is denoted F(x), which is read
+"F of x".
+
+Another useful way of think of a function is as a machine.
+
+1.4
+The language of graphs.
+
+
+Chapter.
+The logic of compound statements
+
+Aristotle
+
+Leibniz
+
+Logic is a science of the necessary laws of thought, without which no employment
+of the understanding and the reason takes place.
+
+An argument is a sequence of statement aimed at demonstrating the truth of
+an assertion. The assertion at the end of the sequence is called the conclusion,
+and the preceding statements are called premises.
+To have confidence in the conclusion that you draw from argument, you must be sure
+that the premises are acceptable on their own merits or follow from other statements
+that are known to be true.
+
+In logic, the form of an arguments is distinguished from its content.
+Logical analysis won't help you determine the intrinsic merit of an argument's content,
+but it will help you analyze an argument's form to determine whether the truth
+of the conclusion follows mecessarily from the truth of the premises.
+ 
+ if p or q, then r
+ if not r, then not p and not q.
+ 
+ 
+A statement (or proposition) is a sentence that is true or false but not both.
+ 
+ ~ or not, && denote and, and || denotes or.
+ 
+A tautology is a statement form that is always true regardless of the truth values
+of the individual statements substituted for its statement variables.
+p || ~p
+
+A contradiction is a statement form that is always false regardless of the truth
+values of the individual statements substituted for its statement variables.
+p && ~p
+
+======================
+
+Discrete mathematical structures
+sixth edition
+Kolman/Busby/Ross
+
+Preface
+-------
+
+
+
+
+

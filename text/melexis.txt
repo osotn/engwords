@@ -1,0 +1,31 @@
+Software is integral to delivering highly functional and safe products
+
+by Steven Servaes, Melexis
+
+When designing hardware products, software is often a differentiator that delivers
+key benefits for OEMs and end users. Software also offers the ability to upgrade
+the product during its lifetime, adding new features or adding compatibility with
+new standards and protocols.
+
+Safe critical applications
+--------------------------
+
+In the automotive arena, safety is a critical concern to component manufacturers,
+vehicle makers and consumers. Software is at least as important as hardware in
+ensuring safety of vehicle drivers, passengers and other road users.
+As a result, standards define stringent processes that software developers must
+follow to ensure the safety of automotive systems.
+
+In this article, Melexis looks how software intertwines with hardware and considers
+impact of automotive safety standards on design processes as well as giving some
+insight to the internal processes that ensure their software and products meet
+the highest standards.
+
+While many companies may, at first, appear to be solely hardware oriented, software
+plays a very significant role within the industry in two key areas; development tools
+and software that is included in their silicon based product. The embedded software
+aspect is particularly crucial as it relates to safety critical applications such
+as automotive.
+
+
+
