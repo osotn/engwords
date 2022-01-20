@@ -1,1 +1,1 @@
-grep -r "$1" ./translations
+grep -wr "$1" ./translations
