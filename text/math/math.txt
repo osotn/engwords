@@ -165,6 +165,30 @@ Kolman/Busby/Ross
 
 Preface
 -------
+Discrete mathematics is an interesting course both to teach and to study at the
+freshman and sophomore level for several reasons.
+
+
+Its content is mathematics,
+but most of its applications and more than half of its students are from computer
+science or engineering concentrations.
+
+Thus, careful motivation of topics and previews of applications are important and necessary strategies.
+
+Moreover, there are a number of substantive and diverse topics covered in the course, so a text must proceed clearly and carefully, emphasizing key ideas with suitable pedagogy.
+
+In addition, the student is generally expected to develop an important new skill: the
+ability to write a mathematical proof.
+
+This skill is excellent training for writing computer programs.
+
+This text can be used by students as an introduction to the fundamental ideas of
+discrete mathematics, and as a foundation for the development of more advanced
+mathematical concepts.
+
+1.1
+Sets and Subsets
+----------------
 
 
 
