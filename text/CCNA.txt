@@ -60,7 +60,7 @@ Part 8: Wireless LAN
 
 Part II 
 Part 1: IP ACLs
-    1 Introduction to TCP/IP Transport and Applications
+    1 Introduction to TCP/IP Transport and Applications                       +
     2 Basic IPv4 Access Control Lists
     3 Advanced IPv4 Access Control Lists
 Part 2: Security Services
@@ -1562,14 +1562,14 @@ Introduction to TCP/IP Transport and Applications.
 -------------------------------------------------
 
 L4: The most important functions:
-    - error recovery;
+    - error recovery = (next level after error detection)
     - flow control.
 
 The key difference between TCP and UDP is that TCP provides a wide variety
 of services to applications, whereas UDP does not.
 
 TCP provides
-    - retransmission (error recovery) - reliability
+    - retransmission (error recovery) - reliability 
     - help to avoid congestion (flow control).
 
 Error recovery (reliability) = process of numbering and acknowledging
@@ -1626,6 +1626,108 @@ DHCP        68/69
 TFTP        69
 SNMP       161
 Syslog     514
+
+
+Connection establishment and termination
+----------------------------------------
+TCP connection establishment occurs before any of the other TCP features can begin their work.
+To initialize Sequence and Acknowledgement fields and agreeing on the port numbers used.
+
+--> SYN,       DPORT=80       SPORT=49155
+<-- SYN, ACK   DPORT=49155    SPORT=80
+--> ACK        DPORT=80       SPORT=49155
+
+Three way handshake.
+
+SYN = synchronize the sequence numbers.
+ACK
+
+Four way termination sequence is straightforward and uses an additional flag,
+called the FIN bit = finished.
+
+---> ACK, FIN
+<--- ACK
+<--- ACK, FIN
+---> ACK
+
+Error Recovery
+    Sequence number of bytes.
+
+Flow control using windowing
+    The receiver can slide the windows size up and down - called a sliding window or dynamic window.
+    
+TCP/IP Applications:
+--------------------
+The whole goal of building an enterprise network, or connecting a small home or office network
+to the Internet, is to use applications such:
+    - web browsing;
+    - text messaging;
+    - email;
+    - file downloads,
+    - voice
+    - video
+
+Browsing uses Hypertext Transfer Protocol (HTTP)
+
+web browser = web clients
+
+server's IP = DNS
+
+Most web servers have many web pages. Clickable items on a web page, which in turn bring you to
+another web page, are called links.
+
+URI = Uniform resource identifier
+
+URI = http://www.certskills.com/blog
+     scheme    authority         path
+   (protocol)
+
+DNS server  - request/replay (enterprise DNS, root DNS)
+
+Transfer the web page is HTTP.
+
+Web pages typically consist of multiple files, called objects:
+    - text;
+    - graphical images;
+    - animated advertisements;
+    - voice;
+    - video.
+
+HTTP GET (/go/ccna) - HTTP OK
+
+
+Chapter 2.
+Basic IPv4 Access Control Lists
+-------------------------------
+
+IPv4 access control lists (ACL) give network engineers the ability to program
+a filter into a router. Each router, on each interface, for both the inbound and
+outbound direction, can enable a different ACL with different rules. Each ACL rules
+tell the router which packets to discard and which to allow through.
+
+IPv4 ACL give network engineers a way to identify different types of packets:
+    - IP
+    - TCP
+    - UDP
+    - etc headers
+
+filter (discard)
+
+Matching packets refers to how to configure the ACL commands to look at each packet,
+listing how to identify which packets should be discarded and which should be allowed through.
+
+Each IP ACL consists of one or more configuration commands, with each command listing
+details about values to look for inside a packet headers.
+ACL command uses logic like - look for these values in the packet header, and if found,
+discard the packet.
+
+When using IP ACLs to filter packets, only one of two actions can be chosen.
+The configuration commands use key keywords deny and permit.
+
+Cisco filter (ACL) that matches only source IP address of the packet (standard).
+
+
+
 
 
 
