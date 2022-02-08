@@ -118,10 +118,57 @@ Trace driven simulation is method for estimation the performance of potential
 computer architectures by simulating their behavior in response to the
 instruction and data references contained in an input trace.
 A real machine is used to execute a benchmark program and write the executed
-instuction information, such as the instruction address, instruction opcode,
+instruction information, such as the instruction address, instruction opcode,
 and data reference address, to a trace file.
 This trace is then fed into an architecture simulator for the performance study,
 such as cache performance, ILP, accuracy of branch prediction, TLB performance,
 and the utilization of FUs.
 We can find the performance bottleneck and change the architecture configurations
-to eliminate
+to eliminate the bottleneck.
+
+Execution driven simulation is another method that does not require storing traces.
+It requires the execution of the benchmark program: as the program is being
+executed, the performance study is also carried out at the same time.
+
+NUMA = nonuniform memory access
+UMA  =    uniform memory access
+
+SMP = symmetric multiprocessors
+
+
+1.4
+HDL
+Hardware Description Languages
+for the hardware design, just like C and Java are languages for software development.
+The most popular HDLs are Verilog HDL and VHDL. Other high level HDLs include
+SystemVerilog and SystemC.
+
+
+
+2.
+A Brief introduction to logic circuits and Verilog HDL
+------------------------------------------------------
+Logic circuit design is the foundation of computer design.
+
+There are two types of logic circuits:
+    -   combinational circuits;  Outs = func(Ins)
+    -   sequential    circuits;  Outs = func(Ins, Ins_Z^1, Ins_Z^2, ...)
+
+Sequential circuit is used to construct a finite state machine; it need flip plops
+to record the current state.
+
+Logic circuits consist of inputs, logic gates, and outputs.
+Gages: AND, OR, NOT.
+
+The general steps of designing a combinational circuit are as follows:
+    - write the truth table for each output;
+    - use the Karnaugh map to get a simplified expression for each output;
+    - design the circuit based on these expressions;
+    - verify the correctness of the circuit through logic simulation
+
+p.22
+2.2
+
+
+
+

@@ -1,0 +1,59 @@
+GNU Debugger (GDB)
+
+For the best debugging experience, build applications without optimization and
+with debug information.
+
+-O0  C compile option
+
+-g option  -g3 include macros
+
+ +--------+
+ |-g3 -O0 |
+ +--------+
+
+gdb -q -arg 1 2 3  --pid --core
+
+
+Debugging with GDB: The GNU source level debugger
+=================================================
+
+GDB can do four main kinds of things:
+    - start your program
+    - stop your program on specified conditions
+    - examine what has happend, when your program has stopped
+    - change things in your program, so you can experiment with correction the
+      effect of one bug and go on to learn about another
+
+1
+A sample GDB session
+--------------------
+
+    -   break
+    -   run
+    -   n   (next)
+    -   s   (step)
+    -   bt  (backtrace) 
+    -   p   (print)
+    -   l   (list) - 10 lines
+    -   c   (continue)
+
+2.
+Getting IN and Out of GDB
+-------------------------
+start   -   gdb
+quit    -   Ctrl-D
+
+Invoking
+    gdb <program>           - executable program
+    gdb <program> <core>    - executable program & core file
+    gdb <program> <process id>
+    gdb --args gcc -O2 -c foo.c
+
+Quitting
+    q (quite)
+    Ctrl-d
+
+Commands
+
+    
+
