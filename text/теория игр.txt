@@ -335,4 +335,15 @@ x = --------------- = 1/2
 построении мат моделей, заменяющих в определённых отношениях исследуемые объекты.
 
 
+What is Game Theory?
+    = the study of strategically interdependent behavior (what i do affects your
+        outcomes and what you do affects my outcomes).
+
+Prerequisites:
+    -   game theory is logically demanding but rarely requires more than high school algebra.
+    -   it will help if you have a semester worth of calculus
+
+Prisoner dilemma
+----------------
+    confess - in jail
 
