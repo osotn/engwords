@@ -1,0 +1,56 @@
+
+1.0.1 What is computer science and how can it help us?
+------------------------------------------------------
+This course is about Computer Science. 
+The simplest definition of computer science is that it is a science of computers.
+
+For the purposes of this course, I think it's actually a very good definition.
+Science is about understanding things. 
+
+Even if you're using a phone or tablet instead of a laptop, these devices are still in essence computers. 
+
+This course will help you understand computers better.
+
+But it isn't a how-to manual for a particular piece of software.
+
+2.1.1 The deep secret of computer science
+-----------------------------------------
+I'm now going to reveal to you a deep, dark secret of computer science. 
+If your computer doesn't work and you don't know why, turn it off and turn it on again.
+It sounds stupid, a bit of a joke.
+But it does work, and it's often the most reliable thing to do in a lot of situations.
+
+
+2.1.3 State
+-----------
+Let's talk about one of the most important types of abstractions, state.
+Any computer program can be in a number of different states, and can change states.
+
+What is a state? It's a temporary configuration of a computer system that affects how it responds to interaction.
+
+What does it mean in practice? Any computer has two states, it's on, or it's off.
+In each state, it will respond to interaction in different ways.
+If it's on, it does quite a lot. If it's off, it doesn't do anything.
+
+At any given time, a computer is in one of several states.
+That state affects what the computer does, the computer changes between states due to user input,
+or possibly, through its own internal decisions. 
+
+States can change because of both internal and external factors. 
+
+In the word processor the cursor has three states, absent, typing, and selection.
+Each of these will change the behavior of the program. 
+So, it's very important to know what state you're in.
+
+A common problem when working with software, is that it suddenly stops working as you expect it to,
+and it starts doing something strange, or not responding.
+That is often because the software is in some different state that you don't expect.
+It might be unresponsive, it might even freeze.
+One of the biggest problems with internet connected applications is that they can get stuck in states,
+if the internet connection fails.
+This kind of failure can be unpredictable.
+
+Understanding what states your software can be in, and what state it's in at the moment,
+can really help you understand what it is doing, and to get over confusing problems.
+
+
