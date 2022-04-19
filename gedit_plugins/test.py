@@ -79,6 +79,7 @@ Ctrl+Alt+P
 cd ~/gitspace/osotn/engwords
 echo $GEDIT_SELECTED_TEXT | ./pos.sh
 
+
 Ctrl+Alt+2
 #!/bin/sh
 # pos big print selected text

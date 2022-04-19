@@ -1,0 +1,209 @@
+
+
+*******************************************************************
+*** Running  SW  Ver. 2.2.0.45  Date Apr  1 2022  Time 12:45:14 ***
+*******************************************************************
+...
+console#show startup-config mode
+Config mode: Startup
+
+console#show startup-config 
+config-file-header
+switch334455
+v2.2.0.45 / RLINUX_810_097
+CLI v1.0
+set system            egress_acl active 
+           openflow inactive 
+
+@
+!
+bits startup tests 07ffffffff
+
+console#config
+console(config)#interface vlan 1
+console(config-if)#ip address 192.168.0.100 /24
+console(config-if)#exit
+console(config)#exit
+console#write
+Overwrite file [startup-config].... (Y/N)[N] ?Y
+19-Feb-2022 12:13:05 %COPY-I-FILECPY: Files Copy - source URL running-config destination URL flash://system/configuration/startup-config
+sync[COPYP_snmpSet] src[running-config] dst[startup-config]
+19-Feb-2022 12:13:09 %COPY-N-TRAP: The copy operation was completed successfully
+
+
+console#reload
+
+...
+*******************************************************************
+*** Running  SW  Ver. 2.2.0.45  Date Apr  1 2022  Time 12:45:14 ***
+*******************************************************************
+...
+
+console#show startup-config mode
+Config mode: Startup
+
+console#show startup-config 
+config-file-header
+switch334455
+v2.2.0.45 / RLINUX_810_097
+CLI v1.0
+set system            egress_acl active 
+           openflow inactive 
+
+@
+!
+interface vlan 1
+ ip address 192.168.0.100 255.255.255.0
+ no ip address dhcp
+!
+exit
+bits startup tests 07ffffffff
+
+console#debug-mode 
+>19-Feb-2022 12:18:22 %AAA-I-DISCONNECT: User CLI session for user admin over console , source 0.0.0.0 destination  0.0.0.0  TERMINATED. The Telnet/SSH session may still be connected.
+19-Feb-2022 12:18:24 %SYSLOG-N-LOGGING: Logging started.
+
+>debug 
+Enter DEBUG Password: *****
+DEBUG>set  config-mode factory
+DEBUG>reboot
+
+...
+
+Config mode: Factory
+*******************************************************************
+*** Running  SW  Ver. 2.2.0.45  Date Apr  1 2022  Time 12:45:14 ***
+*******************************************************************
+...
+console#show startup-config mode
+Config mode: Factory
+
+console#show startup-config
+config-file-header
+switch334455
+v2.2.0.45 / RLINUX_810_097
+CLI v1.0
+set system            egress_acl active 
+           openflow inactive 
+
+@
+!
+bits startup tests 07ffffffff
+
+console#configure 
+console(config)#ip ssh server 
+console(config)#ip telnet server 
+console(config)#interface vlan 1
+console(config-if)#ip address 192.168.0.199 /24
+console(config-if)#exit
+console(config)#exit
+console#write
+Overwrite file [startup-config].... (Y/N)[N] ?Y
+19-Feb-2022 12:26:22 %COPY-I-FILECPY: Files Copy - source URL running-config destination URL flash://system/configuration/factory-config
+sync[COPYP_snmpSet] src[running-config] dst[startup-config]
+19-Feb-2022 12:26:26 %COPY-N-TRAP: The copy operation was completed successfully
+Copy succeeded
+
+console#reload
+...
+Config mode: Factory
+*******************************************************************
+*** Running  SW  Ver. 2.2.0.45  Date Apr  1 2022  Time 12:45:14 ***
+*******************************************************************
+...
+console#show startup-config mode
+Config mode: Factory
+
+console#show startup-config 
+config-file-header
+switch334455
+v2.2.0.45 / RLINUX_810_097
+CLI v1.0
+set system            egress_acl active 
+           openflow inactive 
+
+@
+ip ssh server
+ip telnet server
+!
+interface vlan 1
+ ip address 192.168.0.199 255.255.255.0
+ no ip address dhcp
+!
+exit
+bits startup tests 07ffffffff
+
+console#debug-mode 
+>19-Feb-2022 12:30:53 %AAA-I-DISCONNECT: User CLI session for user admin over console , source 0.0.0.0 destination  0.0.0.0  TERMINATED. The Telnet/SSH session may still be connected.
+>debug
+Enter DEBUG Password: *****
+DEBUG>set config-mode startup
+DEBUG>reboot
+
+...
+
+...
+*******************************************************************
+*** Running  SW  Ver. 2.2.0.45  Date Apr  1 2022  Time 12:45:14 ***
+*******************************************************************
+...
+
+console#show startup-config mode
+Config mode: Startup
+
+console#show startup-config 
+config-file-header
+switch334455
+v2.2.0.45 / RLINUX_810_097
+CLI v1.0
+set system            egress_acl active 
+           openflow inactive 
+
+@
+!
+interface vlan 1
+ ip address 192.168.0.100 255.255.255.0
+ no ip address dhcp
+!
+exit
+bits startup tests 07ffffffff
+
+console#debug-mode 
+>19-Feb-2022 12:18:22 %AAA-I-DISCONNECT: User CLI session for user admin over console , source 0.0.0.0 destination  0.0.0.0  TERMINATED. The Telnet/SSH session may still be connected.
+19-Feb-2022 12:18:24 %SYSLOG-N-LOGGING: Logging started.
+
+>debug 
+Enter DEBUG Password: *****
+DEBUG>set  config-mode factory
+DEBUG>reboot
+
+...
+
+Config mode: Factory
+*******************************************************************
+*** Running  SW  Ver. 2.2.0.45  Date Apr  1 2022  Time 12:45:14 ***
+*******************************************************************
+...
+console#show startup-config mode
+Config mode: Factory
+
+console#copy startup-config tftp://192.168.0.50/1.cfg
+19-Feb-2022 13:35:19 %COPY-I-FILECPY: Files Copy - source URL flash://system/configuration/factory-config destination URL tftp://192.168.0.50/1.cfg
+19-Feb-2022 13:35:21 %COPY-N-TRAP: The copy operation was completed successfully
+
+Copy: 292 bytes copied in 00:00:02 [hh:mm:ss]
+
+
+console#copy tftp://192.168.0.50/1.cfg running-config 
+19-Feb-2022 13:35:52 %COPY-I-FILECPY: Files Copy - source URL tftp://192.168.0.50/1.cfg destination URL running-config
+19-Feb-2022 13:35:52 %COPY-N-TRAP: The copy operation was completed successfully
+
+292 bytes copied in 00:00:01 [hh:mm:ss]
+
+console#copy running-config startup-config 
+Overwrite file [startup-config].... (Y/N)[N] ?Y
+19-Feb-2022 13:36:14 %COPY-I-FILECPY: Files Copy - source URL running-config destination URL flash://system/configuration/factory-config
+sync[COPYP_snmpSet] src[running-config] dst[startup-config]
+19-Feb-2022 13:36:18 %COPY-N-TRAP: The copy operation was completed successfully
+
+
