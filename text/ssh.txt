@@ -1,0 +1,13 @@
+SSH - Secure Shell
+
+Is a protocol that allow two machines to communicate securely over a network.
+
+Telnet - 1960s is not secure.
+SSH    - 1995 with encryption.
+
+To establish SSH Connection:
+    -   Server (remote machine)
+    -   Client (local  machine)
+    -   authentication
+
+
