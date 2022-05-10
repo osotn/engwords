@@ -1,0 +1,222 @@
+U-boot
+------
+A boot loader is a program that does some initialization in preparation for
+loading and running the OS and its supporting infrastructure. In a sense, the
+boot is a like BIOS in a desktop PC or server.
+The principal difference is that a boot loader executes once when the system
+powers up then goes away. The BIOS hangs around to provide a provide a low level
+I/O services.
+
+Desktop Linux system have a boot loader in additional to the BIOS.
+These days it is usually GRUB - Grand Unified Bootloader, or GRUB2.
+
+On the other hand, our BBB target uses a very popular, very capable, Open source,
+cross-platform boot loader to get things started.
+
+U-boot began as a PowerPC boot loader name 8xxROM written by Magnus Damm.
+The renamed to PPCBoot, then ARMBoot.
+
+The development of u-boot is closely tied to Linux, with which it shares some
+header files. Some of the source code originated in the kernel source tree.
+
+U-boot supports an extensive command set that not only facilitates booting, but
+also manages flash memory, downloads files over network, and more.
+
+git clone git://git.denx.de/u-boot.git
+
+Current u-boot implementation support the same Kconfig configuration mechanism
+as the Linux kernel and BusyBox. 
+
+make am335x_boneblack_defconfig
+make xconfig
+
+MLO - the secondary program loader (SPL) that loads u-boot into RAM.
+
+setenv ipaddr 192.168.1.50
+setenv serverip 192.168.1.2
+tftp 80800000 u-boot.bin
+go 80800000
+
+Read from uEnv.txt
+go - transfers control to the specified memory address.
+
+Device Trees
+---
+BSP = board support package
+
+Initially loaded by the ROM or the BIOS, U-boot can work on very limited amount
+of resources as it can be split into stages:
+    -   STL (stripped down version of U-boot) is loaded first to perform basic
+            hardware configuration in order to start the full version of U-boot.
+
+It comes with a command line which users can use to boot a particular kernel,
+manipulate device trees, download files, work with environmental variables
+and much more...
+
+Requires users to specify the memory addresses to use for copying a ramdisk,
+a kernel device tree and more and for jumping the the kernel.
+
+Regardless whether the user is using a physical board or an emulator (QEMU),
+the very first step is getting U-boot up and running so that its console can
+be accessed to launch commands to load the kernel.
+
+
+git clone git://git.denx.de/u-boot.git
+cd u-boot
+git checkout v2019.07
+make qemu_arm_defconfig
+make
+
+
+Booting a computer
+------------------
+    -   First stage bootloader
+        -   resides on reset vector;
+        -   often on chip BootROM
+        -   Initializes HW and loads the next stage
+    -   User bootloader (SPL)
+        -   First user - controlled code;
+    -   Linux Kernel
+    -   User space
+
+Booting an embedded system
+--------------------------
+    -   First stage bootloader
+    -   U-boot SPL
+        -   First user controlled code
+        -   Responsible for additional HW initialization
+        -   Load U-boot or Linux Directly
+    -   U-boot
+        -   Bootloader with interactive shell
+        -   Boot monitor
+        -   Debug tool
+    -   Linux kernel
+    -   User space
+
+
+SPL = Secondary Program Loader
+    -   build from the same souse as U-boot
+    -   significant reduced size and feature set
+    -   used to init system and start U-boot or Linux
+TPL = Tertiary program Loader
+    -   build from the same sourse as U-boot
+    -   Even smaller than SPL
+    -   Almost never used
+    -   Used on severely limited system (OneNAND)
+
+There are two shell choices:
+    -   original old shell (no name)
+    -   HUSH shell (ported from busybox originally)
+    -   Similar to bourne shell
+    -   persistent environment support
+    -   scripting support
+
+=>help
+    ?
+    bdinfo  - print Board Info structure
+    bootm   - boot application image from memory
+    cmp     - memory compare
+    coninfo - print console devices and information
+    crc32   - checksum
+    dhcp
+    echo
+    go      - start application at address 'addr'
+    i2c
+    load    - load binary file from a filesystem
+    usb
+
+=> help usb
+
+Memory access commands:
+    -   mv 0x81000000 0x1234abcd
+    -   md.l (long) 0x81000000 0x8 (size)
+
+mm - memory modification command
+    -   interactive
+    -   q - to drop back to U-boot shell
+    -   -   return to previous address
+    -   Enter -  without value to skip current address
+
+mv, cp , cmp - memory
+
+
+U-boot environment - live copy in RAM
+    -   can be modified
+    -   can be made persistent
+
+=> env print
+arch=arm
+...
+=> env print arch
+=> echo "$arch"
+
+=> env set/edit foo bar
+
+=> saveenv
+
+=> run foo; <- ignore return value
+
+Special variables:
+    -   ver
+    -   stdin, stdou, stderr
+    -   loadaddr
+    -   filesize
+    -   bootargs
+    -   bootcmd (autoboot)
+    -   preboot
+    -   ipaddr, netmask, serverip, gatewayip
+    -   ethaddr, eth1addr
+
+=> setexpr foo *0x9ff4e000
+=> env print foo
+
+=> true
+=> echo $?
+
+=> if true ; then echo "hello" ; else echo "then" ; fi
+
+=> test $i -lt 5
+=> for i in a b c d ; do echo "$i" ; done
+
+=> whie true; do echo hello; done
+Ctrl-c
+
+Varius storage types:
+    - SD/MMC
+    - USB
+    - SATA
+    - NAND
+
+FS access - ls, load, ubi
+
+=> mmc rescan
+
+iminfo - print image information
+
+fdt - DT manipulation
+
+gpio
+
+
+
+
+=> mmc part
+=> ls mmc 0:1
+=> load mcc 0:1 ...
+
+=> ping
+=> tftp
+=> dhcp
+
+When nothing else, UART is available
+
+$ screen /dev/ttyUSB0 115200
+=> loady
+ctrl-a ...
+
+Kernel format:
+    -   (z)Image
+    -   uImage
+    -   fitImage
+
+
