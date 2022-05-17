@@ -1,0 +1,33 @@
+Container = an isolated environment for running an application.
+
+Virtual machine = an abstraction of a machine (physical hardware).
+
+
+                 +---------+ +-------+
+                 | Windows | | Linux |       <---- VMs
+              +--+---------+-+-------+--+
+              |        Hypervisor       |    <---- Software (VirtualBox, VMware, Hyper-v)
+           +--+-------------------------+--+
+           |           Hardware            |
+           +-------------------------------+
+
+Problems:
+    -   Each VM needs a full blown OS
+    -   Slow to start
+    -   Resource intensive
+
+Container:
+    -   allows running multiple apps in isolation;
+    -   is lightweight;
+    -   use OS of the host;
+    -   start quickly;
+    -   need less hardware resources.
+
+Client -------------------> Docker container
+             REST              process
+
+
+Image (file) -> container (process)
+
+
+
