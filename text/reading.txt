@@ -101,7 +101,8 @@ Syllable:
         [uː]    - в сочетаниях rew                  grew, drew
         [ə]    - в неударном положении             worker, mister, calendar
 
-    F   [f]
+    F   [f]                                         fox
+
     G   [g]     перед a,o,u или согласной           great, go, big, dog, bag, got, pig, glad
         [ʤ]    перед e,i,y                         age, engineer, gymnastics, cage, gym
                                                     !!! exceptions: get, begin, girl
@@ -115,7 +116,8 @@ Syllable:
                 - перед ld, nd, gh, gn              kind, mild, light, mind, find, sign, high
                 - перед согл + le                   bible
         [ɪ]     - в закрытом ударном слоге          did, is, milk, fish, it, this, ill, drink, six
-        [ɜː]    - в сочетании lr                    sir, first, girl, bird, dirty, thirsty, circus
+                - в безударном положении            mistake, ministry
+        [ɜː]    - в сочетании ir                    sir, first, girl, bird, dirty, thirsty, circus
         [iː]    - в сочетании ie в сред слова       field, brief, niece, thief, chief
                   под ударением                     !!! exceptions: friend
         [aɪə]   - в сочетании ir + гласная          fire, tired, wire, iron, tire
@@ -158,11 +160,12 @@ Syllable:
         [ʌ]     - перед m, n, th, v, ou              month, come, country, double, love, mother, brother,
                                                      cousin, front
         [ə]     - в безударном слоге                 actor, colour, decorate, factory, doctor
+        [-]     - в послеуадарном слоге перед n,l    lesson
 
     P   [p]
         [f]     - в сочетании ph                     telephone, phonetics, phrase
 
-    Q   [kw]
+    Q   [kw]                                         question
     R   [r]
 
     S   [s]     в начале слова                      send, salt, say, sand, sister,
@@ -206,12 +209,27 @@ Syllable:
                 - в безударном положении            family, city, fifty, ugly, pity
         [j]     - в начале слова и перед гласной    yet, year, yard, you, yes, yellow
         [ɜ:]    - в сочетании yr в ударном пол      myrrh
-        [aɪə]   - в сочетании ir + гласная          tyrant, tyre
+        [aɪə]   - в сочетании yr + гласная          tyrant, tyre
 
     Z   [z]
 
 
 ========================
 
+                                  A         E       I       O       U       Y
 
+    Открытый слог (или + e):     [eɪ]      [iː]     [aɪ]    [əʊ]   [juː]    [aɪ]
+                                 name      we      nice     go     tube     my
+
+    Закрытый слог                [æ]       [ɛ]      [ɪ]     [ɒ]    [ʌ]     [ɪ]
+                                 cat       get     fish     dog    bus    symbol
+
+    Безударный слог              [ə]       [ə]     [ɪ]   [əʊ/ə/-] [ə]     [ɪ]
+                                animal    worker  mistake  doctor  surprise city
+
+    Перед r + согласная/-        [ɑː]      [ɜː]     [ɜː]    [ɔː]    [ɜː]     [ɜː]
+                                 car      earth     girl   horn    burn    myrrh
+
+    Перед r + гласная            [eə]      [ɪə]    [aɪə]   [ɔː]    [jʊə]   [aɪə]
+                                 care      hear     fire   story   during  tyrant
 
