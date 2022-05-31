@@ -185,11 +185,11 @@ Syllable:
 
     U   [juː]   - в открытом ударном слоге          tube, music, produce, fume, pupil, tulip, cube, tutor
         [ʌ]     - в закрытом ударном слоге          cut, cup, bus, dust, brush, plug, under
-                                                    !!! exceptions: put, push, pull, full, bush
+                                                    !!! exceptions: put, push, pull, full, bush, truth
         [ə]     - в безударном положении            bonus, museum, surprise
         [uː]    - после букв r, l, j в открытом      rule, June, blue, true, fruit, July, rude
                  ударном слоге                      
-        [ʊ]    - после букв b, p, f в суффиксе ful  pull, put, truth, full, push, useful, bush
+        [ʊ]    - после букв b, p, f в суффиксе ful  pull, put, full, push, useful, bush
         [ɜː]    - перед r + согласная                burn, turn, nurse, purple, curtain
         [jʊə]  - перед r + гласная                  pure, cure, during
                                                      !!! exceptions: sure
@@ -214,6 +214,7 @@ Syllable:
     Z   [z]
 
 
+
 ========================
 
                                   A         E       I       O       U       Y
@@ -223,6 +224,11 @@ Syllable:
 
     Закрытый слог                [æ]       [ɛ]      [ɪ]     [ɒ]    [ʌ]     [ɪ]
                                  cat       get     fish     dog    bus    symbol
+
+
+
+
+
 
     Безударный слог              [ə]       [ə]     [ɪ]   [əʊ/ə/-] [ə]     [ɪ]
                                 animal    worker  mistake  doctor  surprise city
