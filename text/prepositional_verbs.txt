@@ -29,3 +29,10 @@ look    forward     ожидать                 = expect
 put
 ===
 put
+
+cut
+===
+cut     down        урезать                 = truncate
+                    сокращать               = reduce
+
+
