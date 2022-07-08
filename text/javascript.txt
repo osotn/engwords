@@ -1,11 +1,16 @@
 JavaScript
 ----------
 
-Python = is a high level general purpose programming language that was developed
-to emphasize code readability and allow them to work quickly and efficiently.
+Python = is a high level general purpose interpreted programming language that
+was developed to emphasize code readability and allow them to work quickly and efficiently.
 Used for:
     - web applications;             Internet, Database access
     - Game development;             GUI, 3D graphics
     - machine learning;             
     - artificial intelligence.
+
+JavaScript is a programming language that conforms to the ECMAScript specification.
+It's a high level scripting language introduced by Netscape to be run on the
+client side of the web browser. It can insert dynamic text into HTML.
+
 

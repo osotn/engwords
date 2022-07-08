@@ -21,3 +21,54 @@ Printable characters
  010 1110     056      46     0x2E          .             period (full stop/point)
  010 1111     057      47     0x2F          /             slash
 
+ 011 1010     072      58     0x3A          :             colon
+ 011 1011     073      59     0x3B          ;             semicolon
+ 011 1100     074      60     0x3C          <             less-than sign
+ 011 1101     075      61     0x3D          =             equals/equal sign
+ 011 1110     076      62     0x3E          >             more-than sign
+ 011 1111     077      63     0x3F          ?             question mark
+ 
+ 100 0000     100      64     0x40          @             at/address sign
+ 
+ 101 1011     133      91     0x5B          [             left square bracket
+ 101 1100     134      92     0x5C          \             backslash
+ 101 1101     135      93     0x5D          ]             right square bracket
+ 101 1110     136      94     0x5E          ^             caret
+ 101 1111     137      95     0x5F          _             underscore
+ 
+ 110 0000     140      96     0x60          `             backtick
+ 
+ 111 1011     173     123     0x7B          {             left curly bracket
+ 111 1100     174     124     0x7C          |             vertical bar
+ 111 1101     175     125     0x7D          }             right curly bracket
+ 111 1110     176     126     0x7E          ~             tilde
+ 
+ 
+Brackets:             round       square      curly       angle
+--------------------------------------------------------------------
+ parentheses           ()
+ brackets                           []
+ braces                                        {}
+ chevrons                                                  〈〉
+
+(en)
+`
+~
+! @ # $ % ^ & * ( ) _ +
+                    - =
+                  [ ] \
+                  { } |
+                  ; '
+                  : "
+                  , . /
+                  < > ?
+                       
+(rus)
+! " № ; % : * ( ) _ +
+                  - =
+                    \
+                    /
+                    .
+                    ,
+
+

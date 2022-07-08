@@ -11,3 +11,95 @@ To establish SSH Connection:
     -   authentication
 
 
+
+Privacy is a basic human right.
+Much of the data that travels on the Internet or local networks is
+transmitted as plain text, and may be captured and viewed by anybody
+with a little technical know how.
+
+Network security is big business as companies scramble to protect their
+information assets behind firewalls, establish virtual private networks (VPNs),
+and encrypt files and transmissions.
+
+SSH = Secure Shell
+
+SSH is a low-cost, software based solution for keeping prying eyes eyes from
+the data on a network.
+It doesn't solve every privacy and security problem, but it eliminates
+several of them effectively:
+    -   A secure, client - server protocol for encrypting and transmitting
+        data over a network;
+    -   Authentication (recognition) of users by password, host, or
+        public key, plus optional integration with other popular
+        authentication systems, including Kerberos, SecurID, PGP, ...
+    -   The ability to add security to insecure network application
+        such as Telnet, FTP and many other
+    -   Almost complete transparency to the end user
+    -   Implementations for most operating systems
+
+Chapter 1
+---------
+Introduction to SSH
+===================
+
+Data is sent by a computer to the network, SSH automatically encrypts it.
+When the data reaches its intended recipient, SSH automatically
+decrypts (unscrambles) it.
+The result is transparent encryption.
+Has a client/server architecture.
+
+SSH is a secure form of UNIX r commands: rsh = remote shell.
+ssh, scp, sloging
+
+SSH is not a shell at all.
+
+SSH is a protocol, not a product, it covers:
+    -   authentication;
+    -   encryption
+    -   integrity of data transmitted over a network
+
+SSH-1, SSH-2        - protocol (with dashes);
+SSH1, SSH2          - product  (uppercase, without dashes)
+ssh, ssh1, ssh2     - client program (lowercase)
+
+SSH has various authentication mechanisms:
+    -   keys;       <- is kept encrypted, secret passphrase
+    -   passwords.
+
+Public key files into your remote computer accounts.
+ssh-agent program
+ssh-add   program
+
+
+Port forwarding:
+
+IPSEC = Internet Protocol Security
+
+
+----
+
+1.6.6
+Secure Socket Layer (SSL) protocol => OpenSSL
+is an authentication and encryption technique providing security services
+to TCP clients by way of a Berkeley socket style API.
+= new TLS  = Transport Layer Security.
+
+CAs = certificate authorities serve.
+
+
+1.6.9
+-----
+Firewall is a hardware device or software program that prevents certain
+data from entering or exiting a network.
+
+
+Chapter 2.
+Basic Client Use
+================
+
+$ ssh -l user remote.com    <-  user@remote.com
+user password: ******
+Last login: ...
+
+
+
