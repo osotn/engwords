@@ -101,5 +101,186 @@ $ ssh -l user remote.com    <-  user@remote.com
 user password: ******
 Last login: ...
 
+On first contact, SSH establishes a secure channel between the client and the
+server so all transmissions between them are encrypted. The client then prompts
+for your password, which it supplies to the server over the secure channel.
+The server authenticates you by checking that the password is correct and permits
+the login. All subsequent client - server exchanges are protected by that secure
+channel, including the contents of the email you proceed to read using a main
+program on remote.com.
+It's important to remember that the secure channel exists only between the SSH
+client and server machines.
+
+-v = verbose
+
+Known Hosts
+-----------
+The first time an SSH client encounter a new remote machine, it does some extra
+work and prints a message like the following:
+
+$ ssh -l user remote.com
+Host key not found from the list of known hosts.
+Are you sure you want to continue connecting (yes/no)?
+
+Assuming you respond yes (the most common response), the client continues:
+Host remote.com added to the list of known hosts.
+
+This message appears only the first time you contact a particular remote host.
+The message is a security feature related to SSH concept of known hosts.
+
+Suppose an adversary wants to obtain your password. He knows you are using SSH,
+and so he can't monitor your connection by eavesdropping on the network.
+Instead, he subverts the naming service used by your local host so that the name
+of your intended remote host, remote.com, translated falsely to the IP address of
+a computer run by him. He then installs an altered SSH server on the phony remote
+host and waits. When you log in via your trusty SSH client, the altered SSH server
+records your password for the adversary later use. The bogus server can then
+disconnect with a preplanned error message. Even worse, it can fool you completely
+by using your password to log into the real remote.com and transparently pass
+information back and forth between you and the server, monitoring your entire
+session.
+This hostile strategy is called a main in the middle attack.
+The SSH known-host mechanism prevents such attacks.
+When an SSH client and server make a connection, each of them proves its identity
+to the other.
+
+It's better to have recorded the server's public host key before connecting to
+it the first time, since otherwise you are technically open a man in the middle
+attack that first time.
+
+If authentication of the server fails, various things may happen depending on
+the reason for failure and SSH configuration.
+
+By default, the escape character is the tilde (~)
+
+2.4 Authentication by cryptographic
+-----------------------------------
+SSH supports public key authentication
+
+A key is a digital identity. It's a unique string of binary data that means
+"This is me, honestly, I swear".
+
+An SSH identity uses a pair of keys, one private and one public.
+The private key is a closely guarded secret only you have.
+Your SSH clients use it to prove your identity to servers.
+The public key is, like the name says, public.
+You place it freely into your accounts on SSH server machines.
+During authentication, the SSH client and server have a little conversation
+about your private and public key. If them match (according to a cryptographic
+test), your identity is proven, and authentication successed.
+
+ssh-keygen program generates a key pair.
+ssh-keygen creates an RSA key pair and asks you for a secret passphrase to
+protect the private key.
+On SSH2 systems generates DSA key (the default) or an RSA key.
+
+
+2.5 The SSH agent
+-----------------
+An agent is a program that keeps private keys in memory and provides authentication
+services to SSH clients.
+ssh-agent
+
+2.6 Connecting without a password or passpharase
+------------------------------------------------
+To use SSH clients for interactive sessions without a password of passphrase, you
+have several options:
+    -   public key authentication with an agent
+    -   trusted host authentication
+    -   kerberos authentication
+
+Chapter 3. Inside SSH
+=====================
+
+3.1.1 Privacy (encryption)
+--------------------------
+Privacy means protecting data from disclosure.
+SSH provides privacy by encrypting data that passes over the network.
+This end to end encryption is based on random keys that are securely negotiated
+for that session and then destroyed when the session is over.
+SSH supports a variety of encryption algorithms for session data, including such
+standard ciphers:   ARCFOUR, Blowfish, DES, IDEA, and triple-DES (3DES).
+
+3.1.2 Integrity
+---------------
+Integrity means assuring that data transmitted from one end of a network connection
+arrives unaltered on the other side. The underlying transport of SSH, TCP/IP,
+does have integrity checking to detect alteration due to network problems.
+Nevertheless, these methods are ineffective against deliberate tampering and can
+be fooled by a clever attacker. Even though SSH encrypts the data stream so
+an attacker can't easily change selected parts to achieve a specific result.
+
+The SSH-2 protocol uses cryptographic integrity checking, which verifies both
+that transmitted data hasn't been altered and that it truly comes from the other
+end of the connection.
+SSH-2 uses keyed hash algorithms based on MD5 and SHA-1 for this purpose:
+well known and widely trusted algorithms. SSH -1, on the other hand, uses a
+comparatively weak method: a 32-bit cyclic redundancy check (CRC -32) on the
+unencrypted data in each packet.
+
+3.1.3 Authentication
+--------------------
+Authentication means verifying someone's identity. Suppose I claim to be Richard.
+Every SSH connection involves two authentications: the client verifies the
+identity of the SSH server (server authentication), and the server verifies the
+identity of the user requesting access (user authentication).
+
+3.1.4 Authorization
+-------------------
+Authorization means deciding what someone may or may not do.
+It occurs after authentication, since you can't grant someone privileges until
+you know who she is.
+Authorization may be controlled at a serverwide level or per account.
+
+3.1.5 Forwarding (Tunneling)
+----------------------------
+Tunneling or forwarding means encapsulating another TCP based service, such as
+Telnet or IMAP, within an SSH session. This brings the security benefits of SSH
+(privacy, integrity, authentication, authorization) to other TCP based services.
+
+3.2. A Cryptography primer
+--------------------------
+Encryption is the process of scrambling data so that it can't be read by
+unauthorized parties.
+An encryption algorithm (or cipher) is a particular method of performing of
+scrambling: - RSA, RC4, DSA and IDEA.
+The original, readable data is called the plain_text, or data in the clear,
+while the encrypted version is called the corresponding cipher_text.
+To covert plain_text to cipher_text, you apply an encryption algorithm
+parameterized by a key, a string that is typically known only to you.
+An encryption algorithm is considered secure if it is infeasible for anyone to
+read (or decrypt) the encrypted data without the key.
+An attempt to decrypt data without its key is called cryptanalysis.
+
+3.2.1 How secure Is secure?
+---------------------------
+Today's most popular and secure ciphers are vulnerable to brute force attacks:
+if you try every possible key, you will eventually succeed in decryption.
+
+3.2.2 Public and Secret key cryptography
+----------------------------------------
+Encryption algorithms are called symmetric or secret key ciphers; the same key
+is used for encrypting and decrypting:
+    -   Blowfish;
+    -   DES;
+    -   IDEA;
+    -   RC4.
+
+Such a cipher immediately introduces the key distribution problem: how do you get
+the key to your intended recipient?
+If you can meet in person every once and a while and exchange a list of keys, all
+well and good, but for dynamic communication over computer networks, this doesn't work.
+
+Public key, or asymmetric, cryptography replaces the single key with a pair of
+related keys: public and private.
+Data encrypted with public key may be decrypted with its private counterpart, and
+it is infeasible to derive the private key from the public one.
+When someone wants to send you a secret message, they encrypt it with your public
+key.
+
+Public key methods are also the basis for digital signatures: extra information
+attached to a digital document to provide evidence
+
+
 
 
