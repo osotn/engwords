@@ -9,5 +9,81 @@ in computer science.
 
 Python is a programming language that is relatively easy to use and learn, but
 it's still quite powerful.
+Code Sculptor also allows us to build interactive programs. And it runs in the
+browser.
+
+Arithmetic expressions = numbers, operators, expressions.
+
+Number:
+    -   integer (or decimal);   int()
+    -   float                   float()
+
+Operators:
+    +   plus        addition
+    -   minus       subtraction
+    *   times       multiplication
+    /   divided by  division
+    **  power       exponentiation
+
+Very powerful construct in programming is the function.
+Function is a piece of code that you define that you can execute later.
+
+def triangle_area(base, height):       # head
+    area = (1/2)*base*height           # body
+    return area
+
+
+lesson 1: - https://py3.codeskulptor.org/#user307_2wT9TDPrp9_0.py
+
+
+In Python : character indicates that an indented block of code is about to begin.
+
+If function doesn't have return value, then nothing coming back.
+Python has a value none, and none means there's nothing there.
+
+
+    //  integer divider
+    %   remainder
+
+import simplegui
+import math
+import random
+
+math.pi
+random.randrange(1,10)
+
+True / False ->     class bool      ->  not, or, and
+
+Comparison operators:
+----------------------
+    <   great then
+    >   less  then
+    <=  less or equal
+    >=  great or equal
+    ==  equal to
+    !=  not equal to
+
+if statement
+
+if expression:
+    body_if
+elif expression:
+    body_elif
+else:
+    body_else
+
+
+Scissors    cuts        paper
+Paper       covers      rock
+rock        crushes     lizard
+lizard      poisons     Spock
+Spock       smashes     scissors
+scissors    decapitates lizard
+lizard      eats        paper
+paper       disproves   Spock
+Spock       vaporizes   rock
+rock        crushes     scissors
+
+rock - Spock - paper - lizard - scissors
 
 
