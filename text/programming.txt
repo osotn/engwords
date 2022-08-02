@@ -123,4 +123,121 @@ subsystems in use on modern commodity hardware, illustrating why CPU caches were
 developed, how they work, and what programs should do to achieve optimal
 performance by utilizing them.
 
+1. Introduction
+---------------
+In the early days computers were much simpler.
+The various components of a system, such as the CPU, memory, mass storage, and
+network interfaces, were developed together and, as result, were quite balanced
+in their performances. For examples, the memory and network interfaces were
+not much faster than the CPU at providing data.
+
+This situation changed once the basic structure of computers stabilized and
+hardware developers concentrated on optimizing individual subsystems.
+Suddenly the performance of some components of the computer fell significantly
+true for mass storage and memory subsystems which, for cost reasons, improved
+more slowly relative to other components.
+
+The slowness of mass storage has mostly been dealt with using software techniques:
+    -   operation systems keep most often used data in main memory, which can be
+        accessed at a rate orders of magnitude faster than the hard disk.
+    -   Cache storage was added to the storage devices themselves, which requires
+        no changes in the operation system to increase performance.
+
+Unlike storage subsystems, removing the main memory as a bottleneck has proven
+much more difficult and almost all solutions require changes to the hardware.
+Today these changes mainly come in the following forms:
+    -   RAM hardware design;
+    -   Memory controller designs.
+    -   CPU caches
+    -   DMA (Direct memory access) for devices.
+
+
+This document is mostly for software developers. It does not go into enough
+technical details of the hardware to be useful for hardware oriented readers.
+
+
+2. Commodity Hardware Today
+---------------------------
+
+Over the years personal computers and smaller servers standardized on a chipset
+with two parts:
+    -   the Northbridge
+    -   the Southbridge
+
+            +-------+   +-------+
+            | CPU 1 |   | CPU 2 |
+            +-------+   +-------+
+                |    FSB    |
+                +-----------+
+                |           |
+            +-------------------+
+            |     Northbridge   | --- RAM
+            +-------------------+
+                      |
+            +-------------------+
+            |     Southbridge   | --- PCI-E, SATA, USB
+            +-------------------+
+
+All CPUs are connected via a common bus (FSB = Frond Side Bus) to Northbridge.
+The Northbridge contains, among other things, the memory controller, and its
+implementation determines the type of RAM chips used for the computer.
+Different types of RAM, such as DRAM, Rambus, and SDRAM, reqire different memory
+controllers.
+
+Southbridge = I/O bridge, handles communication with devices through a variety
+of different buses.
+
+    -   All data communication from one CPU to another must travel over the same
+        bus used to communicate with the Northbridge.
+    -   All communication with RAM must pass through the Northbridge.
+    -   The RAM has only a single port.
+    -   Communication between a CPU and a device attached to the Southbridge is
+        routed through the Northbridge.
+
+In the earliest days of the PC, all communication with devices on either bridge
+had to pass through the CPU, negatively impacting overall system performance.
+To work around this problem some devices became capable of direct memory access.
+DMA allows devices, with the help of the Northbridge, to store and receive data
+in RAM directly without the intervention of the CPU (and its inherent performance
+cost). Today all high performance devices attached to any of the buses can
+utilize DMA. While this greatly reduces the workload on the CPU, it also creates
+contention for the bandwidth of the Northbridge as DMA requests complete with
+RAM access from the CPUs. This problem, therefore, must be taken into account.
+
+A second bottleneck involves the bus from the Northbridge to the RAM. The exact
+details of the bus depend on the memory types deployed. On older systems there
+is only one bus to all the RAM chips, so parallel access is not possible.
+Recent RAM types require two separate buses (or channels as they are called for
+DDR2) which doubles the available bandwidth. The Northbridge interleaves memory
+access the channels.
+
+It's important for performance to schedule memory access in ways that minimize
+delays. Processors are much faster and must wait to access memory, despite the
+use of CPU caches. If multiple hyper threads, cores, or processors access memory
+at the same time, the wait times for memory access are even longer. This is also
+true for DMA operations.
+
+Using multiple external memory controllers is not the only way to increase memory
+bandwidth. The other increasingly popular way is to integrate memory controllers
+into the CPUs and attach memory to each CPU.
+
+NUMA = Non Uniform Memory Architecture
+
+Local memory attached to a processor can be accessed with usual speed. The
+situation is different when memory attached to another processor is accessed.
+In this case the interconnects between the processors have to be used.
+Each such communication has an associated cost. We talk about NUMA factors.
+
+
+2.1 RAM Types
+-------------
+
+    -   Static  (SRAM)
+    -   Dynamic (DRAM)
+
+SRAM is much more expensive to produce.
+
+SRAM >= 6 transistors. The state is stable as long as power is available.
+
+
 

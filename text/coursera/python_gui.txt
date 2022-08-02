@@ -87,3 +87,47 @@ rock        crushes     scissors
 rock - Spock - paper - lizard - scissors
 
 
+
+week 3
+Event Driven Programming
+------------------------
+
+    -   Initialize (register handlers);
+    -   Wait events and call handlers;
+
+Events:
+    -   Input
+            - buttons
+            - text boxes
+    -   Keyboard
+            - Key down
+            - Key up
+    -   Mouse
+            - click
+            - drag
+    -   Timer
+
+timer = simplegui.create_timer(ms, handler)
+timer.start()
+
+    GUI (frame) :
+        -   control area - button, text box, text
+        -   canvas
+        -   state area (feedback about input)
+
+
+frame = simplegui.create_frame(title, x, y)
+frame.add_button()
+
+frame.start()
+
+
+Program structure:
+    -   Globals (state)
+    -   Helper functions
+    -   Classes
+    -   Define event handlers
+    -   Register event handlers
+    -   Start frame & timers
+
+
