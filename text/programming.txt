@@ -239,5 +239,81 @@ SRAM is much more expensive to produce.
 
 SRAM >= 6 transistors. The state is stable as long as power is available.
 
+Dynamic RAM is much simpler than static RAM.
+It keeps its state in the Capacity C.
+Transistor M is used to guard the access to the state.
+C ~= femto farad or lower
+Resistance is tera ohms
+It only takes a short time for the capacity to dissipate.
+This problem is called leakage. And need to constantly refreshed every 64 ms.
+During the refresh no access to the memory is possible since a refresh is simply
+a memory read operation where the result is discarded.
+A second problem resulting from the tiny charge is that the information read from
+the cell is not directly usable.
+A third problem is that reading a cell causes the charge of the capacitor to be
+depleted. This means every read operation must be followed by an operation to
+recharge the capacitor. This is done automatically by feeding the output of the
+sense amplifier back into the capacitor. It does mean, though, the reading
+memory content requires additional energy and, more importantly, time.
+A fourth problem is that charging and draining a capacitor is not instantaneous.
+This means it takes some time for the capacitor to be charged and discharged.
+
+We have to live with main memory which is based on DRAM.
+
+A program selects a memory location using a virtual address.
+The processor translates this into a physical address and finally the memory
+controller selects the RAM chip corresponding to that address.
+It would be completely impractical to address memory locations individually from
+the memory controller- 4GB of RAM would require 2^32 address lines.
+Instead the address is passed encoded as a binary number using a smaller set
+of address lines. The address passed to the DRAM chip this way must be
+demultiplexed first. A demultiplexer with N address lines will have 2^N output
+lines. These output lines can be used to select the memory cell.
+Using this direct approach is no big problem for chip with small capacities.
+But if the number of cells grows this approach is not suitable anymore
+A chip with 1 Gbit  capacity would need 30 address lines and 2^30 select lines.
+A demultiplexer for 30 address line needs a whole lot of chip real estate in
+addition to the complexity of the demultiplexer.
+The DRAM cells are organized in rows and columns.
+With the array approach the design can get by with one demultiplexer and one
+multiplexer of half the size.
+
+SDRAM = Synchronous DRAM - clock from FSB:
+    -   800  MHz
+    -   1066 MHz
+    -   1333 MHz
+    -   1600 MHz
+
+CLK
+RAS strobe - Row Address
+CAS strobe - Col Address
+Data
+
+With all this preparation to get the data it would be wasteful to only transfer
+one data word.
+
+SDR = Single Data Rate
+DDR = Double Data Rate
+
+Hardware and software prefetching can be used to create more overlap in the
+timing and reduce the stall.
+
+3. CPU caches
+=============
+CPU are today much more sophisticated than they were only 25 years ago.
+The size of the SRAM used for cashes is many times smaller than the main memory.
+
+Main memory
+    -   L3 cache
+    -   L2 cache
+        -   L1d cache
+        -   L1i cache
+
+
+
+
+
+
+
 
 
