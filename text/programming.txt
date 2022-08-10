@@ -301,7 +301,7 @@ timing and reduce the stall.
 3. CPU caches
 =============
 CPU are today much more sophisticated than they were only 25 years ago.
-The size of the SRAM used for cashes is many times smaller than the main memory.
+The size of the SRAM used for caches is many times smaller than the main memory.
 
 Main memory
     -   L3 cache
@@ -309,11 +309,57 @@ Main memory
         -   L1d cache
         -   L1i cache
 
+In addition we have processors which have multiple cores and each core can have
+multiple threads. The difference between a core and a thread is that separate
+cores have separate copies of almost all the hardware resources.
 
+By default all data read or written by the CPU cores is stored in the cache.
+There are many regions which cannot be cached but this is something only the
+OS implementers have to be concerned about; it not visible to the application
+programmer. There are also instructions which allow the programmer to deliberately
+bypass certain caches.
 
+If the CPU needs a data word the caches are searched first.
+Obviously, the caches cannot contain the content of the entire main memory, but since all
+memory addresses are cacheable, each cache entry is tagged using the address of the data
+word in the main memory. This way a request to read or write to an address can search
+the caches for a matching tag. The address in this context can be either the virtual
+or physical address, varying based on the caches implementation.
 
+Since for the tag, in addition to the actual memory, additional space is required, it is
+inefficient to choose a word as the granularity of the cache. For a 32 bit word on an x86
+machine the tag itself might need 32 bits or more. Furthermore, since spatial locality
+is one of the principles on which caches are based, it would be bad to not take this into
+account. Since neighboring memory is likely to be used together it should also be loaded into
+cache together. Remember also what we learned - RAM modules are much more effective if they
+can transport many data words in a row. So the entries stored in the caches are not single
+words but, instead, lines of several contiguous words. In early caches these lines were 32 bytes
+long; nowadays the norm is 64 bytes.
 
+When memory content is needs by the processor the entire cache line is load into the L1d.
+The memory address for each cache line is computed by masking the address value according to
+the cache line size. For a 64 bytes cache line this means the low 6 bits are zeroed.
+The discarded bits are used as the offset into the cache line. The remaining bits are in some
+cases used to locate the line in the cache and as the tag.
+In practice an address value is split into three parts.
 
+T - tag
+S - Cache set
+O - offset
 
+When an instruction modifies memory the processor still has to load a cache line
+first because no instruction modifies an entire cache line at once.
+The content of the cache line before the write operation therefore has to be
+loaded. It is not possible for a cache to hold partial cache lines.
+A cache line which has been written to and which has not been written back to
+main memory is said to be dirty. Once it is written the dirty flag is cleared.
+
+To be able to load new data in a cache it is almost always first necessary to make
+room in the cache. An eviction from L1d pushes the cache line down into L2 (which uses
+the same cache line size). This of course means room has to be made in L2. This in
+turn might push the content L3 and ultimately into main memory. Each eviction is
+progressively more expensive. What is described here is the model for an exclusive
+cache as is preferred by modern AMD and VIA processors. Intel implements inclusive
+caches where each line in L1d is also present in L2. Therefore evicting
 
 

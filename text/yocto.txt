@@ -6,3 +6,214 @@ BitBake is a make-like build tool with the special focus of distributions and pa
 
 BitBake recipes specify how a particular package is built. Recipes consist of the source URL (http, https, ftp, cvs, svn, git, local file system) of the package, dependencies and compile or install options. They also store the metadata for the package in standard variables.[4] During the build process, recipes are used to track dependencies, performing native or cross-compilation of the package and package it so that it is suitable for installation on the local or a target device. It is also possible to create complete images consisting of a root file system and kernel. As a first step in a cross-build setup, the framework will attempt to create a cross-compiler toolchain suited for the target platform.
 
+Where does open source software come from?
+How does this relate to the key components of embedded development -
+    -   toolchain
+    -   bootloader
+    -   kernel
+    -   root filesystem
+
+Open source community - generates the software you are going to be using.
+CPU architects - design the CPUs - Arm/Linaro (Arm Cortex-A), Intel (x86, x86_64(
+                                   SiFive (RISC-V), IBM (PowerPC)
+SoC vendors -   Broadcom, Intel, Microchip, NXP, Qualcomm, TI
+                They take the kernel and toolchain from CPU architects and modify
+                them to support their chips. They also create reference boards
+Board vendors and OEMs:     Build specific products - BeagleBone and Raspberry Pi
+Commercial Linux vendors:   Siemens (Mentor), Wind River offer commercial Linux dist
+                            (medical, automotive, aerospace, and so on)
+
+First, ask questions of your vendors - what is their update policy.
+Secondly, you can take steps to make yourself more self sufficient.
+
+
+The four elements of embedded Linux:
+====================================
+Every project begins by obtaining, customizing, and deploying four elements:
+    -   toolchain
+    -   bootloader
+    -   kernel
+    -   root filesystem
+
+Toolchain - compiler and other tools needed to create code for your target device.
+Bootloader - the program that initializes the board and load the Linux kernel
+Kernel - this is the heart of the system, managing system resources and interfacing with HW
+Root filesystem - contains the libraries and programs that are run once the kernel has
+                  completed its initialization
+
+
+There is also a fifth element, not mentioned here.
+That is the collection of programs specific to your embedded application that make the device
+do whatever it is supposed to do, be it weigh groceries, diplay movies, control a robot, or
+fly a drone.
+
+GPL - licence you share you source code. And you can not combain GPL and proprietary code in one program.
+BSD and MIT - don't change license.
+
+Toolchain is a set of tools that compiles source code into executables that can
+run on your target device and includes a compiler, a linker, and runtime libraries.
+Initially, you need one to build the other three elements of an embedded Linux
+system: the bootloader, the kernel, and the root filesystem. It has to be able
+to compile code written in assembly, C, and C++ since there are the languages used in the
+base open source packages.
+
+Usually, toolchains for Linux are based on components from the GNU project, and
+that is still true in the majority of cases at the time of writing.
+GNU:
+    -   binutils - a set of binary utilities including the assembler and the linker.
+    -   GCC      - GNU compiler collection - for C and other
+    -   C library - API for POSIX
+
+Along with these, you will need a copy of the Linux kernel headers, which contain
+definitions and constants that are needed when accessing the kernel directly.
+
+
+Types of toolchains:
+    -   native - this toolchain runs on the same type of system as the programs it generates.
+                 This is the usual case for desktops and servers.
+    -   cross  - this toolchain runs on a different type of system than the target,
+                 allowing development to be done on a fast desktop PC and then loaded
+                 onto the embedded target for testing.
+
+Almost all embedded Linux development is done using a cross development toolchain.
+
+QEMU = Quick EMUlator to emulate the target.
+
+
+ABI = Application Binary Interface - calling convetion used for passing parameters between
+function calls.
+
+ARM - EXtended Application Binary Interface (EABI) and Old (OABI)
+EABI + Hard-float = EABIHF
+
+C library - glibc, musl libs, uClibs-ng, eglibc
+
+Toolchain - Linaro, or third-party Linux tool vendor - Mentor Graphics, MontaVista
+
+Unfortunately, building a toolchain is no easy task.
+
+Tools in the toolchain:
+    -   addr2line   -   converts program address into filenames and numbes by reading the debug symbol tables
+    -   ar          -   archive utility is used to create static libraries
+    -   as          -   assembler
+    -   elfedit     -   update ELF header of the ELF files
+    -   gcc         -   compiler C
+    -   gcov
+    -   gdb
+    -   gprof       - profiling
+    -   ld          - linker
+    -   nm          - list symbols from object files
+    -   objcopy     - copy and translate object files
+    -   objdump     - display information from object files
+    -   readelf
+    -   size
+    -   strings
+    -   strip
+
+C library:
+----------
+    -   libc -  main C library that contains well-known POSIX functions
+    -   libm -  contains math functions such as cos, exp, and log
+    -   libpthread - contains all the POSIX thread functions with names beginning
+                     with pthread_
+    -   librt - has the real-time extensions to POSIX, including shared memory and
+               asynchronous I/O
+
+Shared library
+Program interpreter
+
+Static linking is useful in a few circumstances. A small system that consists of
+only BusyBox and some script files. -static
+
+A more common way to deploy libraries is as shared objects that are linked at runtime,
+which makes more efficient use of storage and system memory.
+
+Build system:
+    -   CROSS_COMPILE
+    -   autotools
+    -   CMake
+
+Bootloaders
+===========
+The bootloader is the second element of embedded system.
+The role of the bootloader in particular how it passes control from itself
+to the kernel using data structure called a device tree, also known as
+a flattened device tree - FDT.
+
+In an embedded Linux system, the bootloader has two main jobs:
+    -   initialize the system to a basic level;
+    -   load the kernel.
+    
+When the first lines of the bootloader code are executed, following a power-on or
+a reset, the system is in a very minimal state.
+The DRAM controller is not set up, so the main memory is not accessible.
+Likewise, other interfaces are not configured, so storage that's accessed via
+NAND flash controllers, MMC controllers, and so on in unavailable.
+
+System bootstrap consists of several phases of code, each bringing more of the
+system into operation. The final act of the bootloader is to load the kernel into
+RAM and create an execution environment for it. The details of the interface
+between the bootloader and the kernel are architecture specific, but in each case,
+it has to do two things:
+    -   the bootloader has to pass a pointer to a structre containing information
+        about the hardware configuration;
+    -   It has to pass a pointer to the kernel commmand line.
+
+The kernel command line is a text string controls the behavior of Linux.
+
+In simpler times, some years ago, it was only necessary to place the bootloader in
+non-volatile memory at the reset vector of the processor.
+NOR flash memory was common at that time and, since it can be mapped directly into
+the address space, it was the ideal method of storage. 
+Reset vector at 0xfffffffc at the top end of an area of flash memory.
+The bootloader is linked so that there is a jump instruction at that location
+that points to the start of the bootloader code.
+From that point on, the bootloader code running in NOR flash memory can initialize
+the DRAM controller so that the main memory - the DRAM - becomes available and then
+copies itself into the DRAM. Once fully opeational, the bootloader can load the kernel
+from flash memory into DRAM and transfer control to it.
+
+Phase 1 - ROM code.
+-------------------
+In the absence of reliable external memory, the code that runs immediately after
+a reset or power-on has to stored on-chip in the SoC; this is known as ROM code.
+It is loaded into the chip when it is manufactured, and hence the ROM code is
+proprietary and cannot be replaced by an open source equivalent. Usually, it does
+not include code to initialize the memory controller, since DRAM configurations
+are highly device specific, and so it can only use SRAM, which does not require
+a memory controller.
+Most embedded SoC designs have a small amount of SRAM on-chip, varying in size
+of from little as 4 KB to several hundred KB. The ROM code is capable of loading
+a small chunk of code from one of several pre programmed locations into the SRAM.
+Or from file name MLO, or SPL = secondary program loader.
+At the end of the ROM code phase, the SPL is present in the SRAM and ROM code jumps
+to the beginning of that code.
+
+Phase 2 - secondary program loader
+----------------------------------
+The SPL must set up the memory controller and other essential parts of the system
+in preparation for loading the Tertiary Program Loader (TPL) into DRAM.
+If the SPL has filesystem drivers built in to it, it can read well-kwown filenames,
+such as u-boot.img, from dist partition.
+SPL usually doesn't allow for any user interaction, but it may print version
+information and progress messages, which you can see on the console.
+SPL may be open source, as is the case with TI and Atmel, but it quite common
+for it to contain proprietary code that is supplied by the manufacturer as a binary blob.
+
+Phase 3 - TPL
+-------------
+At this point, we are running a full bootloader, such as U-boot, which we will
+learn about a bit in this chapter.
+
+When the bootloader passes control to the kernel, it has to pass some basic information,
+which includes the following:
+    -   machine number
+    -   basic details of the hardware
+    -   kernel command line
+    -   optionally, the location and size of a device tree binary
+    -   optionally, the location and size of an initial RAM disk, called the
+        initial RAM file system (initramfs)
+
+A device tree is a flexible way of defining
+
+
