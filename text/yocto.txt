@@ -214,6 +214,116 @@ which includes the following:
     -   optionally, the location and size of an initial RAM disk, called the
         initial RAM file system (initramfs)
 
-A device tree is a flexible way of defining
+A device tree is a flexible way of defining the hardware components of a computer
+system. Bear in mind that a device tree is just static data, not executable code.
+Usually, the device tree is loaded by the bootloader and passed to the kernel,
+although it is possible to bundle the device tree with the kernel image itself
+to cater for bootloaders that are not capable of loading them separately.
+
+The format is derived from a Sun Microsystems bootloader known as OpenBoot,
+which was formalized as the Open Firmware specification and was adopted at
+a large scale by the many Arm Linux implementation.
+
+The device tree represents a computer system as a collection of components joined
+together in a hierarchy, such as a tree. The device tree begins with a root
+node, represented by a forward slash / which contains subsequent nodes
+representing the hardware of the system. Each node has a name and contains
+a number of properties in the form name = value.
+
+@ is required if the node has a reg property.
+
+compatible property - to find a matching device driver by comparing it with the
+strings that are exported by each device driver in a of_device_id structere.
 
 
+U-Boot or Das U-Boot started from PowerPC boards. 
+
+
+Root filesystem
+===============
+
+init = starts everything off
+shell = to give you a command prompt
+daemons = is a background program - syslogd
+shared libraries
+configuration files
+device nodes
+proc and sys
+kernel modules
+
+BusyBox started for Debian. - 80% of a program is impelemented 20% of the code.
+Combine all the tools togther into a single binary.
+
+
+Chapter 6. Selecting a Build system
+===================================
+    -   Buildroot
+    -   EmbToolkit
+    -   OpenEmbedded
+    -   OpenWrt
+    -   The Yocto Project   -   extends the OpenEmbedded core with metadata, tools
+
+
+Distributing binaries - RPM and DEB
+
+Buildroot
+----------
+It was one of the first build systems.
+
+Buildroot uses the kernel Kconfig/Kbuild mechanism.
+
+Use buildroot to create a BSP for new board.
+In the last stage of the build, Buildroot uses a tool named genimage to create
+an image for SD card that we can copy directory to the card
+board/melp/nova/genimage.cfg:
+
+image boot.vfat {
+    vfat {
+        files = {
+            "MLO",
+            "u-boot.img",
+            "zImage",
+            "uEnv.txt",
+            "nova.dtb",
+        }
+     }
+     size = 16M
+image sdcard.img {
+    hdimage {
+    }
+    
+    ...
+
+This will create a file named sdcard.img, which contains two partitions named
+u-boot and rootfd.
+
+Finally, we need to create a post-image.sh script that will genimage, and
+this create the SD card image:   post-image.sh
+
+
+
+Yocto
+=====
+Yocto is more complex beast than Buildroot. Not only can it build toolchains,
+bootloaders, kernels, and root filesystems as Buildroot can, but it can generate
+an entire Linux distribution for you with binary packages that can be installed
+at runtime.
+The build process is structured around groups of recipes, similar to Buildroot
+packages but written using a combination of Python and shell script.
+Yocto includes a task scheduler called BitBake that produces whatever you have
+configured, from the recipes.
+Poky - after the Japanese snack. 
+
+Yocto:
+    -   OE-Core;
+    -   BitBake;
+    -   Poky;
+    -   Documentation;
+    -   Toaster
+
+Installing Yocto:
+=================
+    -   git clone -b dunfell git://git.yoctoproject.org/poky.git
+    
+    -   source poky/oe-init-build-env
+    -   source poky/oe-init-build-env build-qemuarm
