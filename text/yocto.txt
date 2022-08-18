@@ -327,3 +327,5 @@ Installing Yocto:
     
     -   source poky/oe-init-build-env
     -   source poky/oe-init-build-env build-qemuarm
+
+
