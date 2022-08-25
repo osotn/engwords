@@ -112,3 +112,45 @@ Incidentally, don't call current amperage; that's strictly bush league.
 The same caution will apply to the term ohmage when we get to resistance in the
 next section.
 
+1.2.2
+This is long and interesting story. It is the heart of electronics.
+Crudely speaking, the name of the game is to make and use gadgets that have
+interesting and useful I versus V characteristic.
+    -   Resistors ( I simply proportional to V)
+    -   Capacitors ( I proportional to rate of change of V )
+    -   diodes ( I flows in only one direction)
+    -   thermistors ( temperature dependent resistor)
+    -   photoresistors ( light dependent resistor)
+    -   strain gauges (strain dependent resistor)
+
+    -   transistor - are three terminal devices, in which the current that
+                    can flow between a pair of terminals in controlled by the
+                    voltage applied to third terminal.
+
+It is an interesting fact that the current through a metallic conductor is
+proportional to the voltage across it.
+
+A resistor is made out of some conducting stuff - carbon, or a thin metal or
+carbon film, or wire of poor conductivity.
+
+        V
+ R =    -
+        I
+        
+It is characterized by its resistance.
+R is in ohms for V in volts and I in apms
+This is known as Ohm's law.
+Resistors are also characterized by how much power they can safely dissipate.
+Roughly speaking, resistors are used to convet a votage to a current, and
+vice versa.
+
+The resistance of two resistors in series: R = R1 + R2
+
+The resistance of two resistors in parallel:
+           R1xR2
+    R = ----------- - smaller resistor.
+          R1 + R2
+                              V^2
+Power in resistors: P = IV = ----
+                               R
+
