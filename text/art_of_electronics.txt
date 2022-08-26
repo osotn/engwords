@@ -154,3 +154,88 @@ The resistance of two resistors in parallel:
 Power in resistors: P = IV = ----
                                R
 
+Nearly all electronic circuits accept some sort of applied input (usually a voltage)
+and produce some sort of corresponding output (which again is often a voltage).
+
+We now come to the subject of the voltage divider, one of the most widespread
+electronic fragments. Show us any real life circuit and we'll show you half a dozen
+voltage dividers.
+Voltage dividers are often used in circuits to generate a particular voltage from
+a larger fixed voltage.
+
+A perfect voltage source is a two terminal black box that maintains a fixed voltage
+drop across its terminals, regardless of load resistance.
+This means, that it must supply a current I = V / R.
+A real voltage source can supply only finite maximum current, and in additional
+it generally behaves like a perfect voltage source with a small resistance in series.
+Obviously, the smaller this series resistance, the better.
+
+A perfect current source is a two terminal black box that maintains a constant
+current through the external circuit, regardless of load resistance or applied
+voltage. To do  this it must be capable of supplying any necessary voltage across
+its terminals. Real current sources have a limit to the voltage they can provide
+and in additional they do not provide absolutely constant output current.
+
+A battery is a real-life approximation to a voltage source.
+
+1.3 Signals
+-----------
+A later section in this chapter will deal with capacitor, devices whose properties
+depend on the way the voltages and currents in a circuit are changing.
+
+Pulses and square waves are used extensively in digital electronics, in which
+predefined voltage levels represent one of two possible states present at any
+point in the circuit. These states are called simply HIGH and LOW, and
+correspond the 1 (true) and 0 (false) states of Boolean logic.
+
+
+
+A capacitor is a devices that has two wires sticking out of it and has the property:
+        Q = C V
+Its basic form is pair of closely spaced metal plates, separated by some insulating
+meterial, as in the rolled up axial film capacitor.
+C capacitor of C Farads with V volts across its terminals has Q coulombs of stored
+charge on one plate and -Q on the other. The capacitance is proportional to the
+area and inversely proportional to the spacing. For the simple paraller plate
+capacitor, with separation d and plate area A, the capacitance C is given by:
+            C = 8.85x10^(-14)eA/d (F)
+Where e - is the dielectric constant of the insulator, and the dimensions are
+measured in centimeters. It takes a lot of area, and tiny spacing, to make the
+sort of capacitances commonly used in circuits.
+
+Inductors
+----------
+If you understand capacitors, you shouldn't have great trouble with inductors.
+ V = L dI/dt
+
+
+Chapter 2. Bipolar Transistors
+==============================
+The transistor is our most important example of an active component, a device
+that can amplify, producing an output signal with more power in it than the
+input signal. The additional power comes from an external source of power.
+
+Good understanding of transistors is very important, even if most of your
+circuits are mode from ICs, because you need to understand the input and output
+properties of the IC in order to connect it to the rest of your circuit and to
+the outside world.
+
+There are two major species of transistors - bipolar junction transistors (BJTs)
+and Field effect transistors (FETs).
+
+A bipol ar transistor is a three terminal device, in which a small current applied
+to the base controls a much larger current flowing between the collector and emitter.
+It is available in two flavors (npn and pnp), with properties that meet the following
+rule.
+    -   Polarity - the collector must be more positive than the emitter.
+    -   Junctions - the base - emitter and base - collector current applied to the
+                    base controls a much larger current flowing between the collector
+                    and emitter.
+
+Chapter 3
+Field effect Transistors
+========================
+FETs are different from the bipolar transistors that we talked about in the last
+chapter.
+Broadly speaking, however, they are similar devices, which we might call charge
+control devices
