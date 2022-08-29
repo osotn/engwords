@@ -238,4 +238,90 @@ Field effect Transistors
 FETs are different from the bipolar transistors that we talked about in the last
 chapter.
 Broadly speaking, however, they are similar devices, which we might call charge
-control devices
+control devices: in both cases we have a tree terminal device in which the
+conduction between two electrodes depends on the availability of charge carriers,
+which is controlled by a voltage applied to a third control electrode.
+
+gate, drain, source
+
+Here's how they differ: in a bipolar transistor the collector base junction is
+back biased, so no current normally flows. Forward biasing the base emitter junction
+by 0.6 V overcomes its diode, causing electrons to enter the base region, where
+they are strongly attracted to the collector. Although some base current results,
+most of these minority carriers are captured by the collector.
+The results in a collector current, controlled is proportional to the rate
+of injection of minority carriers into the base region, which is an exponential
+function of V BE. You can think of a bipolar transistor as a current amplifier.
+
+In an FET, as the name suggests, conduction in a channel by an electric field,
+produced by a voltage applied to the gate electrode. There are no forward biased
+junctions, so the gate draws no current.
+This is perhaps the most important advantage of the FET. As with BJTs, there are
+two polarities, n-channel FETs and p-channel FETs
+
+MOSFET = Metal Oxide Semiconductor Field Effect Transistor.
+
+Chapter 4
+Operational Amplifiers
+======================
+In the previous three chapters we learned about circuit design with discrete
+components, both active and passive. Our basic building blocks were transistors,
+both bipolar (BJT) and field effect (FET), along with the resistors, capacitors,
+and other that are needed to set bias, couple and block signals, create load
+impedance, and so on.
+With those tools we have gone quite far. We've learned how to design simple
+power supplies, signal amplifiers and followers, current sources, dc and different
+amplifiers, analog switches, power drivers and regulators, and even some
+rudimentary digital logic.
+But we've also learned to struggle with imperfections. Voltage amplifiers suffer
+from nonlinearity, which you can trade off against voltage gain; differential
+amplifiers have input unbalance, typically tens of millivolts, ten times more
+with discrete junction FETs in bipolar design you have to worry about input
+current, and the ever present V BE and its variation with temperature; in FET
+design you trade absense of input current for unpredictability of V GS; and so
+on.
+We've seen hints that things can be better, in particular the remarkable
+linearizing effects of negative feedback, and its ability to make overall circuit
+performance less dependent on component imperfections. It is negative feedback
+that gives the emitter degenerated amplifier its liniarity advantage over
+grounded emmiter amplifier. And in the high loop gain limit.
+Promised, but not yet delivered; the high gain amplifier blocks we need to get
+high loop again in a feedback arrangement still involve substatial design efforts.
+- the hallmark of comple circuits implementated with discrete.
+With this chapter we enter the promised land! The op-amp is, essentially, a perfect
+part: a complete integrated amplifier gain block, best thought of a dc coupled
+differential amplifier with single ended output, and with symmetry and nearly
+zero input current.
+Op-amps are designed as gain engines for negative feedback, with such high gain
+that the circuit performance is set almost entirely by the feedback circuitry.
+Op-amps are small and inexpensive, and they should be the starting point for
+nearly every analog cicuit you design. In most op-amps circuit designs we're
+in the regime where they are essentially perfect: with them we will learn to
+build nearly perfect amplifiers, current sources, integrators, filters, regulators,
+current to voltage converters, and a host of other modules.
+Op-amps are out first example of integrated circuits - many individual circuit
+elements, such as transistors and resistors, fabricated and interconnected on a
+single chip of silicon.
+
+Feedback and op-amps
+--------------------
+We first met negative feedback in chapter 2, where we saw that the process of
+coupling the output back, in such a way as to cancel some of the input signal,
+improved characteristics such as linearity, flatness of response, and
+predictability. As we saw quantiatively, the more negative feedback that is used,
+the less the resultant amplifier characteristics depend on the characteristics
+of the open loop (no feedback) amplifier, ulitmately depending only on the
+properties of the feedback network itself. Operational amplifier are tipically
+used in this high loop gain limit, with open loop voltage gain (no feedback) of
+a million or so.
+
+The operational amplifier is a very high gain dc coupled differential amplifier
+with a single ended output. You can think of the classic long tailed pair with
+its two inputs and single output as a prototype, although op-amps have much
+higher gain and lower output impedance, and they allow the output to swing
+through most or all of the supply range. Operational amplifiers are available
+in literally thousands of types, with the universal symbol 
+
+
+
+
