@@ -1,0 +1,435 @@
+Marvell>> boot                                                                  
+Unmounting UBIFS volume nand_rootfs!                                            
+UBI: mtd1 is detached from ubi0                                                 
+Creating 1 MTD partitions on "nand0":                                           
+0x000005000000-0x000040000000 : "mtd=1"                                         
+UBI: attaching mtd1 to ubi0                                                     
+UBI: physical eraseblock size:   262144 bytes (256 KiB)                         
+UBI: logical eraseblock size:    253952 bytes                                   
+UBI: smallest flash I/O unit:    4096                                           
+UBI: VID header offset:          4096 (aligned 4096)                            
+UBI: data offset:                8192                                           
+UBI: attached mtd1 to ubi0                                                      
+UBI: MTD device name:            "mtd=1"                                        
+UBI: MTD device size:            944 MiB                                        
+UBI: number of good PEBs:        3768                                           
+UBI: number of bad PEBs:         8                                              
+UBI: max. allowed volumes:       128                                            
+UBI: wear-leveling threshold:    4096                                           
+UBI: number of internal volumes: 1                                              
+UBI: number of user volumes:     1                                              
+UBI: available PEBs:             0                                              
+UBI: total number of reserved PEBs: 3768                                        
+UBI: number of PEBs reserved for bad PEB handling: 37                           
+UBI: max/mean erase counter: 4/1                                                
+UBIFS: mounted UBI device 0, volume 0, name "nand_rootfs"                       
+UBIFS: mounted read-only                                                        
+UBIFS: file system size:   943939584 bytes (921816 KiB, 900 MiB, 3717 LEBs)     
+UBIFS: journal size:       9404416 bytes (9184 KiB, 8 MiB, 38 LEBs)             
+UBIFS: media format:       w4/r0 (latest is w4/r0)                              
+UBIFS: default compressor: no compression                                       
+UBIFS: reserved for root:  0 bytes (0 KiB)                                      
+Loading file '/boot/zImage' to addr 0x02000000 with size 5514600 (0x00542568)...
+Done                                                                            
+Loading file '/boot/armada-385-amc.dtb' to addr 0x01000000 with size 15774 (0x0.
+Done                                                                            
+## Flattened Device Tree blob at 01000000                                       
+   Booting using the fdt blob at 0x01000000                                     
+   Loading Device Tree to 00ff9000, end 00fffd9d ... OK                         
+                                                                                
+   Starting Device Tree update ('fdt_skip_update' = no)                         
+                                                                                
+Limit DDR size at 3GB due to power of 2 requirement of Address decoding         
+mvBoardSatRRead: Error: Requested S@R field (13) is not relevant for this board 
+Updating device tree successful                                                 
+                                                                                
+Starting kernel ...                                                             
+                                                                                
+[    0.000000] Booting Linux on physical CPU 0x0                                
+[    0.000000] Linux version 4.4.52-devel-18.02.3  (developer@c1e3d2fabc53) (gc2
+[    0.000000] CPU: ARMv7 Processor [414fc091] revision 1 (ARMv7), cr=10c5387d  
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instructie
+[    0.000000] Machine model: Marvell Armada 38x AMC Development Board DB-88F68C
+[    0.000000] Memory policy: Data cache writealloc                             
+[    0.000000] PERCPU: Embedded 12 pages/cpu @eefd7000 s18112 r8192 d22848 u4912
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pa2
+[    0.000000] Kernel command line: root=ubi0 rw ubi.mtd=1 rootfstype=ubifs ip=)
+[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)             
+[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes) 
+[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)   
+[    0.000000] Memory: 2068824K/2097152K available (7949K kernel code, 281K rwd)
+[    0.000000] Virtual kernel memory layout:                                    
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)                
+[    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)                
+[    0.000000]     vmalloc : 0xf0800000 - 0xff800000   ( 240 MB)                
+[    0.000000]     lowmem  : 0xc0000000 - 0xf0000000   ( 768 MB)                
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)                
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)                
+[    0.000000]       .text : 0xc0008000 - 0xc09d0a18   (10019 kB)               
+[    0.000000]       .init : 0xc09d1000 - 0xc0a28000   ( 348 kB)                
+[    0.000000]       .data : 0xc0a28000 - 0xc0a6e700   ( 282 kB)                
+[    0.000000]        .bss : 0xc0a6e700 - 0xc0abb730   ( 309 kB)                
+[    0.000000] Hierarchical RCU implementation.                                 
+[    0.000000]  Build-time adjustment of leaf fanout to 32.                     
+[    0.000000]  RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=1.            
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=32, nr_cpu_ids=1     
+[    0.000000] NR_IRQS:16 nr_irqs:16 16                                         
+[    0.000000] L2C-310 enabling early BRESP for Cortex-A9                       
+[    0.000000] L2C-310 full line of zeros enabled for Cortex-A9                 
+[    0.000000] L2C-310 D prefetch enabled, offset 1 lines                       
+[    0.000000] L2C-310 dynamic clock gating enabled, standby mode enabled       
+[    0.000000] L2C-310 Coherent cache controller enabled, 16 ways, 1024 kB      
+[    0.000000] L2C-310 Coherent: CACHE_ID 0x410054c9, AUX_CTRL 0x56070001       
+[    0.000000] Switching to timer-based delay loop, resolution 40ns             
+[    0.000003] sched_clock: 32 bits at 25MHz, resolution 40ns, wraps every 8589s
+[    0.000009] clocksource: armada_370_xp_clocksource: mask: 0xffffffff max_cycs
+[    0.000177] Console: colour dummy device 80x30                               
+[    0.000188] Calibrating delay loop (skipped), value calculated using timer f)
+[    0.000194] pid_max: default: 32768 minimum: 301                             
+[    0.000245] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)      
+[    0.000249] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes) 
+[    0.000446] CPU: Testing write buffer coherency: ok                          
+[    0.000529] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000                 
+[    0.000552] Setting up static identity map for 0x8280 - 0x82d8               
+[    0.000700] mvebu-soc-id: MVEBU SoC ID=0x6820, Rev=0x4                       
+[    0.000788] mvebu-pmsu: Initializing Power Management Service Unit           
+[    0.001103] Brought up 1 CPUs                                                
+[    0.001108] SMP: Total of 1 processors activated (50.00 BogoMIPS).           
+[    0.001111] CPU: All CPU(s) started in SVC mode.                             
+[    0.001400] devtmpfs: initialized                                            
+[    0.002900] VFP support v0.3: implementor 41 architecture 3 part 30 variant 4
+[    0.003001] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, ms
+[    0.003009] futex hash table entries: 256 (order: 2, 16384 bytes)            
+[    0.003179] xor: measuring software checksum speed                           
+[    0.099921]    arm4regs  :  2798.000 MB/sec                                  
+[    0.199920]    8regs     :  1896.000 MB/sec                                  
+[    0.299920]    32regs    :  1570.000 MB/sec                                  
+[    0.299923] xor: using function: arm4regs (2798.000 MB/sec)                  
+[    0.299934] pinctrl core: initialized pinctrl subsystem                      
+[    0.300484] NET: Registered protocol family 16                               
+[    0.300937] DMA: preallocated 256 KiB pool for atomic coherent allocations   
+[    0.303622] sram soc:sa-sram0: found no memory resource                      
+[    0.303633] sram: probe of soc:sa-sram0 failed with error -22                
+[    0.303692] sram soc:sa-sram1: found no memory resource                      
+[    0.303699] sram: probe of soc:sa-sram1 failed with error -22                
+[    0.303757] No ATAGs?                                                        
+[    0.303767] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint.
+[    0.303771] hw-breakpoint: maximum watchpoint size is 4 bytes.               
+[    0.480159] raid6: int32x1  gen()   206 MB/s                                 
+[    0.649949] raid6: int32x1  xor()   252 MB/s                                 
+[    0.820027] raid6: int32x2  gen()   305 MB/s                                 
+[    0.989942] raid6: int32x2  xor()   290 MB/s                                 
+[    1.160046] raid6: int32x4  gen()   380 MB/s                                 
+[    1.329999] raid6: int32x4  xor()   295 MB/s                                 
+[    1.500080] raid6: int32x8  gen()   381 MB/s                                 
+[    1.669933] raid6: int32x8  xor()   269 MB/s                                 
+[    1.669936] raid6: using algorithm int32x8 gen() 381 MB/s                    
+[    1.669939] raid6: .... xor() 269 MB/s, rmw enabled                          
+[    1.669941] raid6: using intx1 recovery algorithm                            
+[    1.670384] vgaarb: loaded                                                   
+[    1.670492] SCSI subsystem initialized                                       
+[    1.670703] usbcore: registered new interface driver usbfs                   
+[    1.670731] usbcore: registered new interface driver hub                     
+[    1.670752] usbcore: registered new device driver usb                        
+[    1.670852] pps_core: LinuxPPS API ver. 1 registered                         
+[    1.670855] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giom>
+[    1.670865] PTP clock support registered                                     
+[    1.671238] Advanced Linux Sound Architecture Driver Initialized.            
+[    1.671476] Bluetooth: Core ver 2.21                                         
+[    1.671495] NET: Registered protocol family 31                               
+[    1.671498] Bluetooth: HCI device and connection manager initialized         
+[    1.671504] Bluetooth: HCI socket layer initialized                          
+[    1.671510] Bluetooth: L2CAP socket layer initialized                        
+[    1.671522] Bluetooth: SCO socket layer initialized                          
+[    1.672138] clocksource: Switched to clocksource armada_370_xp_clocksource   
+[    1.677779] NET: Registered protocol family 2                                
+[    1.678023] TCP established hash table entries: 8192 (order: 3, 32768 bytes) 
+[    1.678067] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)        
+[    1.678132] TCP: Hash tables configured (established 8192 bind 8192)         
+[    1.678170] UDP hash table entries: 512 (order: 2, 16384 bytes)              
+[    1.678189] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)         
+[    1.678269] NET: Registered protocol family 1                                
+[    1.678715] RPC: Registered named UNIX socket transport module.              
+[    1.678720] RPC: Registered udp transport module.                            
+[    1.678723] RPC: Registered tcp transport module.                            
+[    1.678725] RPC: Registered tcp NFSv4.1 backchannel transport module.        
+[    1.678958] hw perfevents: enabled with armv7_cortex_a9 PMU driver, 7 countee
+[    1.681007] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).         
+[    1.681415] async_tx: api initialized (async)                                
+[    1.681444] bounce: pool size: 64 pages                                      
+[    1.681473] Block layer SCSI generic (bsg) driver version 0.4 loaded (major )
+[    1.681480] io scheduler noop registered                                     
+[    1.681485] io scheduler deadline registered                                 
+[    1.681493] io scheduler cfq registered (default)                            
+[    1.682100] armada-38x-pinctrl f1018000.pinctrl: registered pinctrl driver   
+[    1.682577] irq: Cannot allocate irq_descs @ IRQ44, assuming pre-allocated   
+[    1.682721] irq: Cannot allocate irq_descs @ IRQ76, assuming pre-allocated   
+[    1.682782] Ethernet Channel Bonding Driver: v3.7.1 (April 27, 2011)         
+[    1.684650] libphy: Fixed MDIO Bus: probed                                   
+[    1.684660] libphy: mdio_driver_register: mv88e6xxx                          
+[    1.684807] libphy: orion_mdio_bus: probed                                   
+[    1.686980] mvneta f1070000.ethernet eth0: Using device tree mac address 00:e
+[    1.687211] e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k               
+[    1.687214] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.              
+[    1.687251] ixgbe: Intel(R) 10 Gigabit PCI Express Network Driver - version k
+[    1.687254] ixgbe: Copyright (c) 1999-2015 Intel Corporation.                
+[    1.687292] ixgb: Intel(R) PRO/10GbE Network Driver - version 1.0.135-k2-NAPI
+[    1.687295] ixgb: Copyright (c) 1999-2008 Intel Corporation.                 
+[    1.687379] usbcore: registered new interface driver asix                    
+[    1.687410] usbcore: registered new interface driver ax88179_178a            
+[    1.687640] mvebu-pcie soc:pcie-controller: PCI host bridge to bus 0000:00   
+[    1.687648] pci_bus 0000:00: root bus resource [io  0x1000-0xfffff]          
+[    1.687653] pci_bus 0000:00: root bus resource [mem 0xf8000000-0xffdfffff]   
+[    1.687657] pci_bus 0000:00: root bus resource [bus 00-ff]                   
+[    1.687779] PCI: bus0: Fast back to back transfers disabled                  
+[    1.687784] pci 0000:00:01.0: bridge configuration invalid ([bus 00-00]), reg
+[    1.687889] pci 0000:01:00.0: reg 0x18: can't handle BAR above 4GB (bus addr)
+[    1.688012] PCI: bus1: Fast back to back transfers disabled                  
+[    1.688052] pci 0000:00:01.0: BAR 8: assigned [mem 0xf8000000-0xfdffffff]    
+[    1.688060] pci 0000:01:00.0: BAR 2: assigned [mem 0xf8000000-0xfbffffff 64b]
+[    1.688070] pci 0000:01:00.0: BAR 4: assigned [mem 0xfc000000-0xfc7fffff 64b]
+[    1.688079] pci 0000:01:00.0: BAR 0: assigned [mem 0xfc800000-0xfc8fffff 64b]
+[    1.688088] pci 0000:00:01.0: PCI bridge to [bus 01]                         
+[    1.688093] pci 0000:00:01.0:   bridge window [mem 0xf8000000-0xfdffffff]    
+[    1.688200] mv_xor f1060800.xor: Marvell shared XOR driver                   
+[    1.722458] mv_xor f1060800.xor: Marvell XOR (Descriptor Mode): ( xor cpy in)
+[    1.723171] mv_xor f1060900.xor: Marvell shared XOR driver                   
+[    1.762416] mv_xor f1060900.xor: Marvell XOR (Descriptor Mode): ( xor cpy in)
+[    1.799224] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled         
+[    1.800502] console [ttyS0] disabled                                         
+[    1.820588] f1012000.serial: ttyS0 at MMIO 0xf1012000 (irq = 23, base_baud =A
+[    2.742642] console [ttyS0] enabled                                          
+[    2.747070] pxa3xx-nand f10d0000.flash: This platform can't do DMA on this de
+[    2.755232] nand: device found, Manufacturer ID: 0x2c, Chip ID: 0xd3         
+[    2.761611] nand: Micron MT29F8G08ABACAWP                                    
+[    2.765649] nand: 1024 MiB, SLC, erase size: 256 KiB, page size: 4096, OOB s4
+[    2.773431] pxa3xx-nand f10d0000.flash: ECC strength 16, ECC step size 1024  
+[    2.780835] Bad block table found at page 262080, version 0x01               
+[    2.787427] Bad block table found at page 262016, version 0x01               
+[    2.793706] 2 cmdlinepart partitions found on MTD device pxa3xx_nand-0       
+[    2.800260] Creating 2 MTD partitions on "pxa3xx_nand-0":                    
+[    2.805690] 0x000000000000-0x000005000000 : "boot"                           
+[    2.810990] 0x000005000000-0x000040000000 : "rootfs"                         
+[    2.817130] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver       
+[    2.823705] ehci-pci: EHCI PCI platform driver                               
+[    2.828200] ehci-orion: EHCI orion driver                                    
+[    2.832307] orion-ehci f1058000.usb: EHCI Host Controller                    
+[    2.837736] orion-ehci f1058000.usb: new USB bus registered, assigned bus nu1
+[    2.845383] orion-ehci f1058000.usb: irq 38, io mem 0xf1058000               
+[    2.862146] orion-ehci f1058000.usb: USB 2.0 started, EHCI 1.00              
+[    2.868416] hub 1-0:1.0: USB hub found                                       
+[    2.872265] hub 1-0:1.0: 1 port detected                                     
+[    2.876551] usbcore: registered new interface driver usb-storage             
+[    2.882824] mousedev: PS/2 mouse device common for all mice                  
+[    2.889079] armada38x-rtc f10a3800.rtc: rtc core: registered f10a3800.rtc as0
+[    2.896721] i2c /dev entries driver                                          
+[    2.900663] at24 0-0057: 8192 byte 24c64 EEPROM, writable, 1 bytes/write     
+[    2.917936] armada_thermal f10e4078.thermal: Overheat threshold between 92..7
+[    2.925828] orion_wdt: Initial timeout 171 sec                               
+[    2.930343] md: raid0 personality registered for level 0                     
+[    2.935694] md: raid1 personality registered for level 1                     
+[    2.941172] md: raid6 personality registered for level 6                     
+[    2.946518] md: raid5 personality registered for level 5                     
+[    2.951850] md: raid4 personality registered for level 4                     
+[    2.957325] device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-m
+[    2.965851] sdhci: Secure Digital Host Controller Interface driver           
+[    2.972055] sdhci: Copyright(c) Pierre Ossman                                
+[    2.976543] sdhci-pltfm: SDHCI platform and OF driver helper                 
+[    2.982425] usbcore: registered new interface driver usbhid                  
+[    2.988019] usbhid: USB HID core driver                                      
+[    2.993131] NET: Registered protocol family 10                               
+[    2.998184] sit: IPv6 over IPv4 tunneling driver                             
+[    3.003114] NET: Registered protocol family 17                               
+[    3.007589] bridge: automatic filtering via arp/ip/ip6tables has been deprec.
+[    3.020335] 8021q: 802.1Q VLAN Support v1.8                                  
+[    3.024625] ThumbEE CPU extension supported.                                 
+[    3.028916] Registering SWP/SWPB emulation handler                           
+[    3.034607] Btrfs loaded                                                     
+[    3.037433] ubi0: attaching mtd1                                             
+[    3.229599] random: nonblocking pool is initialized                          
+[    5.826829] ubi0: scanning is finished                                       
+[    5.836837] ubi0 warning: print_rsvd_warning: cannot reserve enough PEBs for2
+[    5.847908] ubi0: attached mtd1 (name "rootfs", size 944 MiB)                
+[    5.853693] ubi0: PEB size: 262144 bytes (256 KiB), LEB size: 253952 bytes   
+[    5.860595] ubi0: min./max. I/O unit sizes: 4096/4096, sub-page size 4096    
+[    5.867415] ubi0: VID header offset: 4096 (aligned 4096), data offset: 8192  
+[    5.874408] ubi0: good PEBs: 3768, bad PEBs: 8, corrupted PEBs: 0            
+[    5.880524] ubi0: user volume: 1, internal volumes: 1, max. volumes count: 18
+[    5.887779] ubi0: max/mean erase counter: 4/1, WL threshold: 4096, image seq0
+[    5.896168] ubi0: available PEBs: 0, total reserved PEBs: 3768, PEBs reserve7
+[    5.905693] armada38x-rtc f10a3800.rtc: setting system clock to 2068-10-26 0)
+[    5.917729] ubi0: background thread "ubi_bgt0d" started, PID 1173            
+[    5.992759] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready               
+[    8.992769] mvneta f1070000.ethernet eth0: Link is Up - 100Mbps/Full - flow f
+[    9.012126] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready          
+[    9.032242] IP-Config: Complete:                                             
+[    9.035485]      device=eth0, hwaddr=00:50:43:3e:ee:ee, ipaddr=10.0.30.140, 5
+[    9.045885]      host=10.0.30.140, domain=, nis-domain=(none)                
+[    9.051654]      bootserver=10.0.30.240, rootserver=10.0.30.240, rootpath=   
+[    9.058609] ALSA device list:                                                
+[    9.061586]   No soundcards found.                                           
+[    9.065318] md: Waiting for all devices to be available before autodetect    
+[    9.072149] md: If you don't use raid, use raid=noautodetect                 
+[    9.078169] md: Autodetecting RAID arrays.                                   
+[    9.082302] md: Scanned 0 and added 0 devices.                               
+[    9.086762] md: autorun ...                                                  
+[    9.089564] md: ... autorun DONE.                                            
+[    9.094461] UBIFS (ubi0:0): background thread "ubifs_bgt0_0" started, PID 112
+[    9.174613] UBIFS (ubi0:0): UBIFS: mounted UBI device 0, volume 0, name "nan"
+[    9.182486] UBIFS (ubi0:0): LEB size: 253952 bytes (248 KiB), min./max. I/O s
+[    9.192446] UBIFS (ubi0:0): FS size: 943939584 bytes (900 MiB, 3717 LEBs), j)
+[    9.203189] UBIFS (ubi0:0): reserved for root: 0 bytes (0 KiB)               
+[    9.209047] UBIFS (ubi0:0): media format: w4/r0 (latest is w4/r0), UUID EFBDl
+[    9.222266] VFS: Mounted root (ubifs filesystem) on device 0:13.             
+[    9.229420] devtmpfs: mounted                                                
+[    9.232526] Freeing unused kernel memory: 348K (c09d1000 - c0a28000)         
+starting pid 1183, tty '': '-/etc/init.sh'                                      
+Wed Sep 14 13:17:00 UTC 2022                                                    
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Linux MARVELL_LINUX 4.4.52-devel-18.02.3 #1 SMP Wed Sep 14 13:09:02 UTC 2022    
+                                                                                
+                                                                                
+Welcome to Embedded Linux                                                       
+           _  _                                                                 
+          | ||_|                                                                
+          | | _ ____  _   _  _  _                                               
+          | || |  _ \| | | |\ \/ /                                              
+          | || | | | | |_| |/    \                                              
+          |_||_|_| |_|\____|\_/\_/                                              
+                                                                                
+          On Marvell's ARMADAXP board                                           
+                                                                                
+For further information on the Marvell products check:                          
+http://www.marvell.com/                                                         
+                                                                                
+toolchain=mv7sft little endian                                                  
+                                                                                
+Enjoy!                                                                          
+                                                                                
+[    9.763459] pci 0000:00:01.0: enabling device (0140 -> 0142)                 
+commander: threads are running: luaCLI cmdShell                                 
+                                                                                
+                                                                                
+Failed to get config.txt.10.0.30.140 from 10.0.30.240: timeout waiting ack      
+Failed to get config.txt from 10.0.30.240: timeout waiting ack                  
+                                                                                
+Supported boards:                                                               
++---------------------------------+-----------------------------------------+   
+| Board name                      | Revision                                |   
++---------------------------------+-----------------------------------------+   
+| 19 - xCat, xCat2, xCat3         |                                         |   
+|                                 | 01 - Rev 0.1                            |   
+|                                 | 02 - Rev 0.2 - SDMA                     |   
+|                                 | 03 - Rev 0.3 - FC OFF                   |   
+|                                 | 04 - Rev 0.4 - PBR                      |   
+|                                 | 05 - Rev 0.5 - P24/25 SGMII mode, p26/27|   
+|                                 |      QX mode                            |   
+|                                 | 06 - Rev 0.6 - PBR SDMA                 |   
+|                                 | 07 - Rev 0.7 - SMI only board           |   
+|                                 | 08 - Rev 0.8 - Native MII               |   
+|                                 | 09 - Rev 0.9 - PHYMAC                   |   
+|                                 | 10 - Rev 0.10 - Legacy VPLS Enabled     |   
+|                                 | 11 - Rev 0.11 - +Linux BM kernel driver |   
++---------------------------------+-----------------------------------------+   
+| 27 - Lion2                      |                                         |   
+|                                 | 01 - Rev 0.1 - 96X10G_SR_LR             |   
+|                                 | 02 - Rev 0.2 - 32X40G_SR_LR             |   
+|                                 | 03 - Rev 0.3 - 96X10G_KR                |   
+|                                 | 04 - Rev 0.4 - 32X40G_KR4               |   
+|                                 | 05 - Rev 0.5 - CT 10G 40G loopback Port |   
+|                                 | 06 - Rev 0.6 - 56X10G 210MHz            |   
+|                                 | 07 - HooperRD:0..7-10G_KR;8...-40G_KR   |   
+|                                 | 08 - HooperRD:0..7-10G_KR;8...-40G_KR:  |   
+|                                 |      kernel driver                      |   
+|                                 | 10 - Rev 0.10- MII interface            |   
+|                                 | 11 - 96X10G_SR_LR, PFC enable TC5_6 all |   
+|                                 |      ports                              |   
+|                                 | 12 - 96X10G_SR_LR, Lion2-4 cores        |   
+|                                 | 22 - multi port group FDB lookup        |   
+|                                 | 24 - multi port group FDB lookup : 256K |   
+|                                 |      mode - auto init                   |   
+|                                 | 25 - multi port group FDB lookup : 128K |   
+|                                 |      mode - auto init                   |   
+|                                 | 26 - 360MHz 0,1,2,3x10G 4,8,9x40G       |   
++---------------------------------+-----------------------------------------+   
+| 29 - Bobcat2, Caelum, Cetus,    |                                         |   
+| Cygnus, Lewis, Aldrin, Bobcat3, | 01 - All Devices Regular init, No TM    |   
+| Aldrin2                         | 02 - Bobcat2, Caelum, Cetus - TM enabled|   
+|                                 | 03 - Bobcat2 MTL RD board 48GE          |   
+|                                 |      +4X10G/Aldrin MTL RD board 24*10G  |   
+|                                 |      +2X40G                             |   
+|                                 | 04 - Bobcat2 MTL RD board 4*10G         |   
+|                                 |      +2X40G->10G TM Enable              |   
+|                                 | 05 - All Devices Simplified Init DB     |   
+|                                 |      board                              |   
+|                                 | 06 - Bobcat2, Caelum, Cetus Simplified  |   
+|                                 |      Init DB board - TM Enabled         |   
+|                                 | 11 - Bobcat2 RD Board                   |   
+|                                 | 12 - Bobcat2 RD Board TM Enabled        |   
++---------------------------------+-----------------------------------------+   
+| 30 - Six BobCat2                |                                         |   
+|                                 | 01 - Rev 0.1                            |   
++---------------------------------+-----------------------------------------+   
+| 31 - Two Lion2 + Bobcat2        |                                         |   
+|                                 | 01 - Rev 0.1 - only Two Lion2           |   
+|                                 | 02 - Rev 0.2                            |   
+|                                 | 03 - Rev 0.3 - Two Hoopers + Bobcat2    |   
+|                                 | 04 - Rev 0.4 - One Hooper  + Bobcat2    |   
++---------------------------------+-----------------------------------------+   
+| 32 - AC3x                       |                                         |   
+|                                 | 01 - 24/48*1G + 4*10G + 2*40G           |   
+|                                 |      (3/6*PHY1690)                      |   
+|                                 | 02 - 24*2.5G  + 4*10G + 1*40G           |   
+|                                 |      (no_PHY1690)                       |   
+|                                 | 03 - 32*1G  + 16*2.5G + 1*40G           |   
+|                                 |      (4*PHY1690)                        |   
+|                                 | 04 - 24/48*1G  + 4*10G + 2*40G          |   
+|                                 |      (3/6*PHY1690) - link state polling |   
+|                                 |      task                               |   
+|                                 | 06 - TB2 (no_PHY1690)                   |   
++---------------------------------+-----------------------------------------+   
+| 33 - PX-Pipe                    |                                         |   
+|                                 | 01 - 12*10G + 100G                      |   
++---------------------------------+-----------------------------------------+   
+| 34 - PX-Pipe * 4 (RD board)     |                                         |   
+|                                 | 01 - 4 devs each 12*10G + 4*25G         |   
++---------------------------------+-----------------------------------------+   
+| 35 - Falcon                     |                                         |   
+|                                 | 01 - Rev 0.1                            |   
+|                                 | 02 - Falcon Z2                          |   
++---------------------------------+-----------------------------------------+   
+| 36 - BC3 + PIPE*2(SMI)          |                                         |   
+|                                 | 01 - BC3 with remote physical ports on  |   
+|                                 |      pipe(s)                            |   
++---------------------------------+-----------------------------------------+   
+| 37 - Hawk                       |                                         |   
+|                                 | 01 - Rev 0.1                            |   
++---------------------------------+-----------------------------------------+   
+                                                                                
+Call cpssInitSystem(index,boardRevId,multiProcessApp), where:                   
+        index           - The index of the system to be initialized.            
+        boardRevId      - The index of the board revision.                      
+        multiProcessApp - Whether appDemo run as multi process.                 
+                                                                                
+Cpss DxCh version: CPSS 4.2.2019.7                                              
+CPSS Version Stream: CPSS_4.2_2019_7_018                                        
+                                                                                
+***************************************                                         
+ Prestera commander shell server ready                                          
+***************************************                                         
+                                                                                
+LUA_CLI with examples                                                           
+Entering LuaCLI took 1964.431160 msec                                           
+                                                                                
+ LUA CLI based on LUA 5.1 from www.lua.org                                      
+ LUA CLI uses Mini-XML engine from www.minixml.org                              
+***************************************************                             
+               LUA CLI shell ready                                              
+***************************************************                             
+                                                                                
+Console#                                                                        
+Console# 
+
