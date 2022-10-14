@@ -909,8 +909,8 @@ of the field and its waves, and the particles, all into one. Now it is true that
 the frequency is low, the field aspect of the phenomenon is more evident, or more
 useful as an approximate description in terms of everyday experiences. But as the
 frequency increases, the particle aspects of the phenomenon become more evident
-with the equipment with which we usually make the measurements. In fact, al-
-though we mentioned many frequencies, no phenomenon directly involving a frequency
+with the equipment with which we usually make the measurements. In fact, although
+we mentioned many frequencies, no phenomenon directly involving a frequency
 has yet been detected above approximately 1012 cycles per second. We
 only deduce the higher frequencies from the energy of the particles, by a rule which
 assumes that the particle-wave idea of quantum mechanics is valid.
@@ -1015,10 +1015,10 @@ is equal to 1.782 X 10~27 gram. The reason this unit was chosen is historical,
 and we shall not go into it now. More massive particles are put higher up on the
 chart; we see that a neutron and a proton have almost the same mass. In vertical
 columns we have put the particles with the same electrical charge, all neutral
-objects in one column, all positively charged ones to the right of this one, and all
+objects in one column, all positively charged ones to the right of this one, anp pd all
 negatively charged objects to the left.
 
-Particles are shown with a solid line and "resonances" with a dashed one.
+Particles are shown with a solid line and " resonances " with a dashed one.
 Several particles have been omitted from the table. These include the important
 zero-mass, zero-charge particles, the photon and the graviton, which do not fall into
 the baryon-meson-lepton classification scheme, and also some of the newer
@@ -1122,5 +1122,1708 @@ and we lack a complete understanding of their interrelationship, although we
 already know that there are some very surprising relationships among them.
 We seem gradually to be groping toward an understanding of the world of subatomic
 particles, but we really do not know how far we have yet to go in this task.
+
+The Relation of Physics to Other Sciences
+3-1 Introduction
+Physics is the most fundamental and all-inclusive of the sciences, and has
+had a profound effect on all scientific development. In fact, physics is the present 
+day equivalent of what used to be called natural philosophy, from which most of
+our modern sciences arose. Students of many fields find themselves studying
+physics because of the basic role it plays in all phenomena. In this chapter we
+shall try to explain what the fundamental problems in the other sciences are,
+but of course it is impossible in so small a space really to deal with the complex,
+subtle, beautiful matters in these other fields. Lack of space also prevents our
+discussing the relation of physics to engineering, industry, society, and war, or
+even the most remarkable relationship between mathematics and physics. (Mathematics
+is not a science from our point of view, in the sense that it is not a natural
+science. The test of its validity is not experiment.) We must, incidentally, make it
+clear from the beginning that if a thing is not a science, it is not necessarily bad.
+For example, love is not a science. So, if something is said not to be a science,
+it does not mean that there is something wrong with it; it just means that it is not
+a science.
+
+3-2 Chemistry
+The science which is perhaps the most deeply affected by physics is chemistry.
+Historically, the early days of chemistry dealt almost entirely with what we now call
+inorganic chemistry, the chemistry of substances which are not associated with
+living things. Considerable analysis was required to discover the existence of the
+many elements and their relationships—how they make the various relatively
+simple compounds found in rocks, earth, etc. This early chemistry was very
+important for physics. The interaction between the two sciences was very great
+because the theory of atoms was substantiated to a large extent by experiments
+in chemistry. The theory of chemistry, i.e., of the reactions themselves, was
+summarized to a large extent in the periodic chart of Mendeleev, which brings out
+many strange relationships among the various elements, and it was the collection
+of rules as to which substance is combined with which, and how, that constituted
+inorganic chemistry. All these rules were ultimately explained in principle by
+quantum mechanics, so that theoretical chemistry is in fact physics. On the
+other hand, it must be emphasized that this explanation is in principle. We have
+already discussed the difference between knowing the rules of the game of chess,
+and being able to play. So it is that we may know the rules, but we cannot play
+very well. It turns out to be very difficult to predict precisely what will happen in
+a given chemical reaction; nevertheless, the deepest part of theoretical chemistry
+must end up in quantum mechanics.
+There is also a branch of physics and chemistry which was developed by both
+sciences together, and which is extremely important. This is the method of
+statistics applied in a situation in which there are mechanical laws, which is aptly
+called statistical mechanics. In any chemical situation a large number of atoms are
+involved, and we have seen that the atoms are all jiggling around in a very random
+and complicated way. If we could analyze each collision, and be able to follow
+in detail the motion of each molecule, we might hope to figure out what would
+happen, but the many numbers needed to keep track of all these molecules exceeds
+so enormously the capacity of any computer, and certainly the capacity of
+
+
+the mind, that it was important to develop a method for dealing with such complicated
+situations. Statistical mechanics, then, is the science of the phenomena
+of heat, or thermodynamics. Inorganic chemistry is, as a science, now reduced
+essentially to what are called physical chemistry and quantum chemistry; physical
+chemistry to study the rates at which reactions occur and what is happening in
+detail (How do the molecules hit? Which pieces fly off first?, etc.), and quantum
+chemistry to help us understand what happens in terms of the physical laws.
+The other branch of chemistry is organic chemistry, the chemistry of the
+substances which are associated with living things. For a time it was believed
+that the substances which are associated with living things were so marvelous
+that they could not be made by hand, from inorganic materials. This is not at
+all true—they are just the same as the substances made in inorganic chemistry,
+but more complicated arrangements of atoms are involved. Organic chemistry
+obviously has a very close relationship to the biology which supplies its substances,
+and to industry, and furthermore, much physical chemistry and quantum mechanics
+can be applied to organic as well as to inorganic compounds. However, the main
+problems of organic chemistry are not in these aspects, but rather in the analysis
+and synthesis of the substances which are formed in biological systems, in living
+things. This leads imperceptibly, in steps, toward biochemistry, and then into
+biology itself, or molecular biology.
+
+3-3 Biology
+Thus we come to the science of biology, which is the study of living things.
+In the early days of biology, the biologists had to deal with the purely descriptive
+problem of finding out what living things there were, and so they just had to
+count such things as the hairs of the limbs of fleas. After these matters were worked
+out with a great deal of inierest, the biologists went into the machinery inside the
+living bodies, first from a gross standpoint, naturally, because it takes some effort
+to get into the finer details.
+There was an interesting early relationship between physics and biology in
+which biology helped physics in the discovery of the conservation of energy, which
+was first demonstrated by Mayer in connection with the amount of heat taken in
+and given out by a living creature.
+If we look at the processes of biology of living animals more closely, we see
+many physical phenomena: the circulation of blood, pumps, pressure, etc. There
+are nerves: we know what is happening when we step on a sharp stone, and that
+somehow or other the information goes from the leg up. It is interesting how that
+happens. In their study of nerves, the biologists have come to the conclusion that
+nerves are very fine tubes with a complex wall which is very thin; through this
+wall the cell pumps ions, so that there are positive ions on the outside and negative
+ions on the inside, like a capacitor. Now this membrane has an interesting
+property; if it "discharges" in one place, i.e., if some of the ions were able to move
+through one place, so that the electric voltage is reduced there, that electrical
+influence makes itself felt on the ions in the neighborhood, and it affects the
+membrane in such a way that it lets the ions through at neighboring points also.
+This in turn affects it farther along, etc., and so there is a wave of " penetrability "
+of the membrane which runs down the fiber when it is "excited" at one end by
+stepping on the sharp stone. This wave is somewhat analogous to a long sequence
+of vertical dominoes; if the end one is pushed over, that one pushes the next,
+etc. Of course this will transmit only one message unless the dominoes are set
+up again; and similarly in the nerve cell, there are processes which pump the ions
+slowly out again, to get the nerve ready for the next impulse. So it is that we know
+what we are doing (or at least where we are). Of course the electrical effects
+associated with this nerve impulse can be picked up with electrical instruments,
+and because there are electrical effects, obviously the physics of electrical effects
+has had a great deal of influence on understanding the phenomenon.
+The opposite effect is that, from somewhere in the brain, a message is sent
+out along a nerve. What happens at the end of the nerve ? There the nerve branches
+
+
+an energy barrier or "hill." Consider this analogy: If we wanted to take an object
+from one place to another, at the same level but on the other side of a hill, we could
+push it over the top, but to do so requires the addition of some energy. Thus
+most chemical reactions do not occur, because there is what is called an activation
+energy in the way. In order to add an extra atom to our chemical requires
+that we get it close enough that some rearrangement can occur; then it will stick.
+But if we cannot give it enough energy to get it close enough, it will not go to completion,
+it will just go part way up the "hill" and back down again. However,
+if we could literally take the molecules in our hands and push and pull the atoms
+around in such a way as to open a hole to let the new atom in, and then let it snap
+back, we would have found another way, around the hill, which would not require
+extra energy, and the reaction would go easily. Now there actually are, in the cells,
+xery large molecules, much larger than the ones whose changes we have been describing,
+which in some complicated way hold the smaller molecules just right, so
+that the reaction can occur easily. These very large and complicated things are
+called enzymes. (They were first called ferments, because they were originally
+discovered in the fermentation of sugar. In fact, some of the first reactions in
+the cycle were discovered there.) In the presence of an enzyme the reaction will go.
+An enzyme is made of another substance called protein. Enzymes are very
+big and complicated, and each one is different, each being built to control a certain
+special reaction. The names of the enzymes are written in Fig. 3-1 at each reaction.
+(Sometimes the same enzyme may control two reactions.) We emphasize that the
+enzymes themselves are not involved in the reaction directly. They do not change;
+they merely let an atom go from one place to another. Having done so, the enzyme
+is ready to do it to the next molecule, like a machine in a factory. Of course, there
+must be a supply of certain atoms and a way of disposing of other atoms. Take
+hydrogen, for example: there are enzymes which have special units on them which
+carry the hydrogen for all chemical reactions. For example, there are three or four
+hydrogen-reducing enzymes which are used all over our cycle in different places.
+It is interesting that the machinery which liberates some hydrogen at one place
+will take that hydrogen and use it somewhere else.
+
+The most important feature of the cycle of Fig. 3-1 is the transformation
+from GDP to GTP (guanadine-di-phosphate to guanadine-tri-phosphate) because
+the one substance has much more energy in it than the other. Just as there is a
+"box" in certain enzymes for carrying hydrogen atoms around, there are special
+energy-carrying "boxes" which involve the triphosphate group. So, GTP has more
+energy than GDP and if the cycle is going one way, we are producing molecules
+which have extra energy and which can go drive some other cycle which requires
+energy, for example the contraction of muscle. The muscle will not contract
+unless there is GTP. We can take muscle fiber, put it in water, and add GTP,
+and the fibers contract, changing GTP to GDP if the right enzymes are present.
+So the real system is in the GDP-GTP transformation; in the dark the GTP
+which has been stored up during the day is used to run the whole cycle around the
+other way. An enzyme, you see, does not care in which direction the reaction goes,
+for if it did it would violate one of the laws of physics.
+Physics is of great importance in biology and other sciences for still another
+reason, that has to do with experimental techniques. In fact, if it were not for the
+great development of experimental physics, these biochemistry charts would not
+be known today. The reason is that the most useful tool of all for analyzing this
+fantastically complex system is to label the atoms which are used in the reactions.
+Thus, if we could introduce into the cycle some carbon dioxide which has a
+"green mark" on it, and then measure after three seconds where the green mark
+is, and again measure after ten seconds, etc., we could trace out the course of the
+reactions. What are the "green marks"? They are different isotopes. We recall
+that the chemical properties of atoms are determined by the number of electrons,
+not by the mass of the nucleus. But there can be, for example in carbon, six
+neutrons or seven neutrons, together with the six protons which all carbon nuclei
+have. Chemically, the two atoms C12 and C13 are the same, but they differ in
+weight and they have different nuclear properties, and so they are distinguishable.
+
+By using these isotopes of different weights, or even radioactive isotopes like C14,
+which provide a more sensitive means for tracing very small quantities, it is possible 
+to trace the reactions.
+Now, we return to the description of enzymes and proteins. All proteins are
+not enzymes, but all enzymes are proteins. There are many proteins, such as the
+proteins in muscle, the structural proteins which are, for example, in cartilage and
+hair, skin, etc., that are not themselves enzymes. However, proteins are a very
+characteristic substance of life: first of all they make up all the enzymes, and
+second, they make up much of the rest of living material. Proteins have a very
+interesting and simple structure. They are a series, or chain, of different amino
+acids. There are twenty different amino acids, and they all can combine with
+each other to form chains in which the backbone is CO-NH, etc. Proteins are
+nothing but chains of various ones of these twenty amino acids. Each of the amino
+acids probably serves some special purpose. Some, for example, have a sulphur
+atom at a certain place; when two sulphur atoms are in the same protein, they
+form a bond, that is, they tie the chain together at two points and form a loop.
+Another has extra oxygen atoms which make it an acidic substance, another has
+a basic characteristic. Some of them have big groups hanging out to one side, so
+that they take up a lot of space. One of the amino acids, called prolene, is not
+really an amino acid, but imino acid. There is a slight difference, with the result
+that when prolene is in the chain, there is a kink in the chain. If we wished to
+manufacture a particular protein, we would give these instructions: put one of
+those sulphur hooks here; next, add something to take up space; then attach something
+to put a kink in the chain. In this way, we will get a complicated-looking
+chain, hooked together and having some complex structure; this is presumably
+just the manner in which all the various enzymes are made. One of the great triumphs
+in recent times (since 1960), was at last to discover the exact spatial atomic
+arrangement of certain proteins, which involve some fifty-six or sixty amino acids
+in a row. Over a thousand atoms (more nearly two thousand, if we count the
+hydrogen atoms) have been located in a complex pattern in two proteins. The
+first was hemoglobin. One of the sad aspects of this discovery is that we cannot see
+anything from the pattern; we do not understand why it works the way it does.
+Of course, that is the next problem to be attacked.
+
+Another problem is how do the enzymes know what to be? A red-eyed fly
+makes a red-eyed fly baby, and so the information for the whole pattern of enzymes
+to make red pigment must be passed from one fly to the next. This is done by a
+substance in the nucleus of the cell, not a protein, called DNA (short for desoxyribose
+nucleic acid). This is the key substance which is passed from one cell
+to another (for instance, sperm cells consist mostly of DNA) and carries the
+information as to how to make the enzymes. DNA is the "blueprint." What does
+the blueprint look like and how does it work? First, the blueprint must be able
+to reproduce itself. Secondly, it must be able to instruct the protein. Concerning
+the reproduction, we might think that this proceeds like cell reproduction. Cells
+simply grow bigger and then divide in half. Must it be thus with DNA molecules,
+then, that they too grow bigger and divide in half? Every atom certainly does not
+grow bigger and divide in half! No, it is impossible to reproduce a molecule
+except by some more clever way.
+The structure of the substance DNA was studied for a long time, first chemically
+to find the composition, and then with x-rays to find the pattern in space.
+The result was the following remarkable discovery: The DNA molecule is a pair
+of chains, twisted upon each other. The backbone of each of these chains, which
+are analogous to the chains of proteins but chemically quite different, is a series
+of sugar and phosphate groups, as shown in Fig. 3-2. Now we see how the chain
+can contain instructions, for if we could split this chain down the middle, we would
+have a series BAADC... and every living thing could have a different series.
+Thus perhaps, in some way, the specific instructions for the manufacture of proteins
+are contained in the specific series of the DNA.
+Attached to each sugar along the line, and linking the two chains together, are
+certain pairs of cross-links. However, they are not all of the same kind; there are
+
+four kinds, called adenine, thymine, cytosine, and guanine, but let us call them
+A, B, C, and D. The interesting thing is that only certain pairs can sit opposite
+each other, for example A with B and C with D, These pairs are put on the two
+chains in such a way that they "fit together," and have a strong energy of interaction.
+However, C will not fit with A, and B will not fit with C; they will only fit
+in pairs, A against B and C against D. Therefore if one is C, the other must be
+D, etc. Whatever the letters may be in one chain, each one must have its specific
+complementary letter on the other chain.
+What then about reproduction? Suppose we split this chain in two. How
+can we make another one just like it? If, in the substances of the cells, there is a
+manufacturing department which brings up phosphate, sugar, and A, B, C, D
+units not connected in a chain, the only ones which will attach to our split chain
+will be the correct ones, the complements of BAA DC. . . , namely, ABBCD . . .
+Thus what happens is that the chain splits down the middle during cell division,
+one half ultimately to go with one cell, the other half to end up in the other cell;
+when separated, a new complementary chain is made by each half-chain.
+Next comes the question, precisely how does the order of the A, B, C, D units
+determine the arrangement of the amino acids in the protein? This is the central
+unsolved problem in biology today. The first clues, or pieces of information,
+however, are these: There are in the cell tiny particles called microsomes, and
+it is now known that that is the place where proteins are made. But the microsomes
+are not in the nucleus, where the DNA and its instructions are. Something
+seems to be the matter. However, it is also known that little molecule pieces come
+off the DNA—not as long as the big DNA molecule that carries all the information itself, but like a small section of it. This is called RNA, but that is not essential.
+It is a kind of copy of the DNA, a short copy. The RNA, which somehow carries
+a message as to what kind of protein to make goes over to the microsome; that
+is known. When it gets there, protein is synthesized at the microsome. That is
+also known. However, the details of how the amino acids come in and are arranged
+in accordance with a code that is on the RNA are, as yet, still unknown. We do
+not know how to read it. If we knew, for example, the " lineup " A, B, C, C, A,
+we could not tell you what protein is to be made.
+
+Certainly no subject or field is making more progress on so many fronts at
+the present moment, than biology, and if we were to name the most powerful
+assumption of all, which leads one on and on in an attempt to understand life,
+it is that all things are made of atoms, and that everything that living things do can
+be understood in terms of the jigglings and wigglings of atoms.
+
+1-4 Astronomy
+In this rapid-fire explanation of the whole world, we must now turn to
+astronomy. Astronomy is older than physics. In fact, it got physics started by
+showing the beautiful simplicity of the motion of the stars and planets, the understanding
+of which was the beginning of physics. But the most remarkable discovery
+in all of astronomy is that the stars are made of atoms of the same kind as those on
+the earth.* How was this done? Atoms liberate light which has definite fre-
+* How I'm rushing through this' How much each sentence in this brief story contains.
+"The stars are made of the same atoms as the earth." I usually pick one small topic like
+this to give a lecture on. Poets say science takes away from the beauty of the stars—mere
+globs of gas atoms. Nothing is "mere." I too can see the stars on a desert night, and
+feel them. But do I see less or more? The vastness of the heavens stretches my imagination
+— stuck on this carousel my little eye can catch one-million-year-old light. A vast
+pattern—of which I am a part—perhaps my stuff was belched from some forgotten
+star, as one is belching there. Or see them with the greater eye of Palomar, rushing all
+apart from some common starting point when they were perhaps all together. What
+is the pattern, or the meaning, or the why? It does not do harm to the mystery to know
+a little about it. For far more marvelous is the truth than any artists of the past imagined!
+Why do the poets of the present not speak of it? What men are poets who can speak of
+Jupiter if he were like a man, but if he is an immense spinning sphere of methane and
+ammonia must be silent ?
+
+
+quencies, something like the timbre of a musical instrument, which has definite
+pitches or frequencies of sound. When we are listening to several different tones
+we can tell them apart, but when we look with our eyes at a mixture of colors we
+cannot tell the parts from which it was made, because the eye is nowhere near as
+discerning as the ear in this connection. However, with a spectroscope we can
+analyze the frequencies of the light waves and in this way we can see the very tunes
+of the atoms that are in the different stars. As a matter of fact, two of the chemical
+elements were discovered on a star before they were discovered on the earth.
+Helium was discovered on the sun, whence its name, and technetium was dis-
+covered in certain cool stars. This, of course, permits us to make headway in
+understanding the stars, because they are made of the same kinds of atoms which
+are on the earth. Now we know a great deal about the atoms, especially con-
+cerning their behavior under conditions of high temperature but not very great
+density, so that we can analyze by statistical mechanics the behavior of the stellar
+substance. Even though we cannot reproduce the conditions on the earth, using
+the basic physical laws we often can tell precisely, or very closely, what will happen.
+So it is that physics aids astronomy. Strange as it may seem, we understand the
+distribution of matter in the interior of the sun far better than we understand the
+interior of the earth. What goes on inside a star is better understood than one might
+guess from the difficulty of having to look at a little dot of light through a telescope,
+because we can calculate what the atoms in the stars should do in most circumstances.
+One of the most impressive discoveries was the origin of the energy of the
+stars, that makes them continue to burn. One of the men who discovered this was
+out with his girl friend the night after he realized that nuclear reactions must be
+going on in the stars in order to make them shine. She said "Look at how pretty
+the stars shine!" He said "Yes, and right now I am the only man in the world
+who knows why they shine." She merely laughed at him. She was not impressed
+with being out with the only man who, at that moment, knew why stars shine.
+Well, it is sad to be alone, but that is the way it is in this world.
+
+It is the nuclear "burning" of hydrogen which supplies the energy of the sun;
+the hydrogen is converted into helium. Furthermore, ultimately, the manufacture
+of various chemical elements proceeds in the centers of the stars, from hydrogen.
+The stuff of which we are made, was "cooked" once, in a star, and spit out. How
+do we know? Because there is a clue. The proportion of the different isotopes how
+much C12, how much C13, etc., is something which is never changed by
+chemical reactions, because the chemical reactions are so much the same for the
+two. The proportions are purely the result of nuclear reactions. By looking at the
+proportions of the isotopes in the cold, dead ember which we are, we can discover
+what the furnace was like in which the stuff of which we are made was formed.
+That furnace was like the stars, and so it is very likely that our elements were
+"made" in the stars and spit out in the explosions which we call novae and supernovae.
+Astronomy is so close to physics that we shall study many astronomical
+things as we go along.
+
+3-5 Geology
+We turn now to what are called earth sciences, or geology. First, meteorology
+and the weather. Of course the instruments of meteorology are physical instruments,
+and the development of experimental physics made these instruments
+possible, as was explained before. However, the theory of meteorology has never
+been satisfactorily worked out by the physicist. "Well," you say, "there is nothing
+but air, and we know the equations of the motions of air." Yes we do. "So if
+we know the condition of air today, why can't we figure out the condition of the
+air tomorrow?" First, we do not really know what the condition is today, because
+the air is swirling and twisting everywhere. It turns out to be very sensitive, and
+even unstable. If you have ever seen water run smoothly over a dam, and then
+turn into a large number of blobs and drops as it falls, you will understand what I
+mean by unstable. You know the condition of the water before it goes over the
+
+
+spillway; it is perfectly smooth; but the moment it begins to fall, where do the
+drops begin? What determines how big the lumps are going to be and where they
+will be? That is not known, because the water is unstable. Even a smooth moving
+mass of air, in going over a mountain turns into complex whirlpools and eddies.
+In many fields we find this situation of turbulent flow that we cannot analyze today.
+Quickly we leave the subject of weather, and discuss geology!
+The question basic to geology is, what makes the earth the way it is? The
+most obvious processes are in front of your very eyes, the erosion processes of
+the rivers, the winds, etc. It is easy enough to understand these, but for every bit
+of erosion there is an equal amount of something else going on. Mountains are
+no lower today, on the average, than they were in the past. There must be mountain-forming
+processes. You will find, if you study geology, that there are
+mountain-forming processes and vulcanism, which nobody understands but which
+is half of geology. The phenomenon of volcanoes is really not understood. What
+makes an earthquake is, ultimately, not understood. It is understood that if
+something is pushing something else, it snaps and will slide—that is all right.
+But what pushes, and why? The theory is that there are currents inside the earth 
+circulating currents, due to the difference in temperature inside and outside 
+which, in their motion, push the surface slightly. Thus if there are two opposite
+circulations next to each other, the matter will collect in the region where they
+meet and make belts of mountains which are in unhappy stressed conditions, and
+so produce volcanoes and earthquakes.
+
+What about the inside of the earth? A great deal is known about the speed of
+earthquake waves through the earth and the density of distribution of the earth.
+However, physicists have been unable to get a good theory as to how dense a
+substance should be at the pressures that would be expected at the center of the
+earth. In other words, we cannot figure out the properties of matter very well in
+these circumstances. We do much less well with the earth than we do with the
+conditions of matter in the stars. The mathematics involved seems a little too
+difficult, so far, but perhaps it will not be too long before someone realizes that
+it is an important problem, and really work it out. The other aspect, of course, is
+that even if we did know the density, we cannot figure out the circulating currents.
+Nor can we really work out the properties of rocks at high pressure. We cannot
+tell how fast the rocks should "give"; that must all be worked out by experiment.
+3-6 Psychology
+Next, we consider the science of psychology. Incidentally, psychoanalysis is
+not a science: it is at best a medical process, and perhaps even more like witch 
+doctoring. It has a theory as to what causes disease—lots of different " spirits ,"
+etc. The witch doctor has a theory that a disease like malaria is caused by a spirit
+which comes into the air; it is not cured by shaking a snake over it, but quinine
+does help malaria. So, if you are sick, I would advise that you go to the witch
+doctor because he is the man in the tribe who knows the most about the disease;
+on the other hand, his knowledge is not science. Psychoanalysis has not been
+checked carefully by experiment, and there is no way to find a list of the number
+of cases in which it works, the number of cases in which it does not work, etc.
+
+The other branches of psychology, which involve things like the physiology
+of sensation — what happens in the eye, and what happens in the brain — are, if
+you wish, less interesting. But some small but real progress has been made in
+studying them. One of the most interesting technical problems may or may not
+be called psychology. The central problem of the mind, if you will, or the nervous
+system, is this: when an animal learns something, it can do something different
+than it could before, and its brain cell must have changed too, if it is made out of
+atoms. In what way is it different ? We do not know where to look, or what to
+look for, when something is memorized. We do not know what it means, or what
+change there is in the nervous system, when a fact is learned. This is a very important
+problem which has not been solved at all. Assuming, however, that there is
+some kind of memory thing, the brain is such an enormous mass of interconnecting
+
+wires and nerves that it probably cannot be analyzed in a straightforward
+manner. There is an analog of this to computing machines and computing elements,
+in that they also have a lot of lines, and they have some kind of element,
+analogous, perhaps, to the synapse, or connection of one nerve to another. This
+is a very interesting subject which we have not the time to discuss further—the
+relationship between thinking and computing machines. It must be appreciated,
+of course, that this subject will tell us very little about the real complexities of
+ordinary human behavior. All human beings are so different. It will be a long
+time before we get there. We must start much further back. If we could even figure
+out how a dog works, we would have gone pretty far. Dogs are easier to understand,
+but nobody yet knows how dogs work.
+
+
+3-7 How did it get that way?
+In order for physics to be useful to other sciences in a theoretical way, other
+than in the invention of instruments, the science in question must supply to the
+physicist a description of the object in a physicist's language. They can say "why
+does a frog jump?," and the physicist cannot answer. If they tell him what a frog
+is, that there are so many molecules, there is a nerve here, etc., that is different.
+If they will tell us, more or less, what the earth or the stars are like, then we can
+figure it out. In order for physical theory to be of any use, we must know where
+the atoms are located. In order to understand the chemistry, we must know
+exactly what atoms are present, for otherwise we cannot analyze it. That is but
+one limitation, of course.
+
+There is another kind of problem in the sister sciences which does not exist
+in physics; we might call it, for lack of a better term, the historical question.
+How did it get that way? If we understand all about biology, we will want to
+know how all the things which are on the earth got there. There is the theory of
+evolution, an important part of biology. In geology, we not only want to know
+how the mountains are forming, but how the entire earth was formed in the beginning,
+the origin of the solar system, etc. That, of course, leads us to want to
+know what kind of matter there was in the world. How did the stars evolve?
+What were the initial conditions? That is the problem of astronomical history.
+A great deal has been found out about the formation of stars, the formation of
+elements from which we were made, and even a little about the origin of the
+universe.
+There is no historical question being studied in physics at the present time.
+We do not have a question, "Here are the laws of physics, how did they get that
+way?" We do not imagine, at the moment, that the laws of physics are somehow
+changing with time, that they were different in the past than they are at present.
+Of course they may be, and the moment we find they are, the historical question
+of physics will be wrapped up with the rest of the history of the universe, and then
+the physicist will be talking about the same problems as astronomers, geologists,
+and biologists.
+
+Finally, there is a physical problem that is common to many fields, that is
+very old, and that has not been solved. It is not the problem of finding new fundamental
+particles, but something left over from a long time ago—over a hundred
+years. Nobody in physics has really been able to analyze it mathematically
+satisfactorily in spite of its importance to the sister sciences. It is the analysis of
+circulating or turbulent fluids. If we watch the evolution of a star, there comes a
+point where we can deduce that it is going to start convection, and thereafter we
+can no longer deduce what should happen. A few million years later the star
+explodes, but we cannot figure out the reason. We cannot analyze the weather.
+We do not know the patterns of motions that there should be inside the earth.
+The simplest form of the problem is to take a pipe that is very long and push water
+through it at high speed. We ask: to push a given amount of water through that
+pipe, how much pressure is needed? No one can analyze it from first principles
+and the properties of water. If the water flows very slowly, or if we use a thick
+goo like honey, then we can do it nicely. You will find that in your textbook.
+
+
+What we really cannot do is deal with actual, wet water running through a pipe.
+That is the central problem which we ought to solve some day, and we have not.
+A poet once said, "The whole universe is in a glass of wine." We will probably
+never know in what sense he meant that, for poets do not write to be understood.
+But it is true that if we look at a glass of wine closely enough we see the entire
+universe. There are the things of physics: the twisting liquid which evaporates
+depending on the wind and weather, the reflections in the glass, and our imagination
+adds the atoms. The glass is a distillation of the earth's rocks, and in its
+composition we see the secrets of the universe's age, and the evolution of stars.
+What strange array of chemicals are in the wine? How did they come to be?
+There are the ferments, the enzymes, the substrates, and the products. There in
+wine is found the great generalization: all life is fermentation. Nobody can
+discover the chemistry of wine without discovering, as did Louis Pasteur, the cause
+of much disease. How vivid is the claret, pressing its existence into the consciousness
+that watches it! If our small minds, for some convenience, divide this glass
+of wine, this universe, into parts—physics, biology, geology, astronomy, psychology,
+and so on—remember that nature does not know it! So let us put it all
+back together, not forgetting ultimately what it is for. Let it give us one more final
+pleasure: drink it and forget it all!
+
+
+Conservation of Energy
+4-1 What is energy?
+In this chapter, we begin our more detailed study of the different aspects of
+physics, having finished our description of things in general. To illustrate the ideas
+and the kind of reasoning that might be used in theoretical physics, we shall now
+examine one of the most basic laws of physics, the conservation of energy.
+There is a fact, or if you wish, a law, governing all natural phenomena that
+are known to date. There is no known exception to this law—it is exact so far as
+we know. The law is called the conservation of energy. It states that there is a
+certain quantity, which we call energy, that does not change in the manifold
+changes which nature undergoes. That is a most abstract idea, because it is a
+mathematical principle; it says that there is a numerical quantity which does not
+change when something happens. It is not a description of a mechanism, or anything
+concrete; it is just a strange fact that we can calculate some number and when
+we finish watching nature go through her tricks and calculate the number again,
+it is the same. (Something like the bishop on a red square, and after a number of
+moves—details unknown—it is still on some red square. It is a law of this nature.)
+Since it is an abstract idea, we shall illustrate the meaning of it by an analogy.
+
+Imagine a child, perhaps "Dennis the Menace," who has blocks which are
+absolutely indestructible, and cannot be divided into pieces. Each is the same as
+the other. Let us suppose that he has 28 blocks. His mother puts him with his
+28 blocks into a room at the beginning of the day. At the end of the day, being
+curious, she counts the blocks very carefully, and discovers a phenomenal law no
+matter what he does with the blocks, there are always 28 remaining! This
+continues for a number of days, until one day there are only 27 blocks, but a little
+investigating shows that there is one under the rug—she must look everywhere
+to be sure that the number of blocks has not changed. One day, however, the
+number appears to change—there are only 26 blocks. Careful investigation indicates
+that the window was open, and upon looking outside, the other two blocks
+are found. Another day, careful count indicates that there are 30 blocks! This
+causes considerable consternation, until it is realized that Bruce came to visit,
+bringing his blocks with him, and he left a few at Dennis' house. After she has
+disposed of the extra blocks, she closes the window, does not let Bruce in, and then
+everything is going along all right, until one time she counts and finds only 25
+blocks. However, there is a box in the room, a toy box, and the mother goes to
+open the toy box, but the boy says "No, do not open my toy box," and screams.
+Mother is not allowed to open the toy box. Being extremely curious, and somewhat
+ingenious, she invents a scheme! She knows that a block weighs three ounces,
+so she weighs the box at a time when she sees 28 blocks, and it weighs 16 ounces.
+The next time she wishes to check, she weighs the box again, subtracts sixteen
+ounces and divides by three. She discovers the following:
+
+number of s
+V blocks seen.
+, (weight of box) — 16 ounces
++ -— = constant. D.1)
+3 ounces
+
+There then appear to be some new deviations, but careful study indicates that the
+dirty water in the bathtub is changing its level. The child is throwing blocks into
+the water, and she cannot see them because it is so dirty, but she can find out how
+many blocks are in the water by adding another term to her formula. Since the
+original height of the water was 6 inches and each block raises the water a quarter
+
+
+of an inch, this new formula would be:
+number of  (weight of box) — 16 ounces
+ blocks seen 3 ounces
+(height of water) — 6 inches
+1/4 inch
+= constant.
+
+In the gradual increase in the complexity of her world, she finds a whole series of
+terms representing ways of calculating how many blocks are in places where she
+is not allowed to look. As a result, she finds a complex formula, a quantity which
+has to be computed, which always stays the same in her situation.
+What is the analogy of this to the conservation of energy? The most remarkable
+aspect that must be abstracted from this picture is that there are no blocks.
+Take away the first terms in D.1) and D.2) and we find ourselves calculating more
+or less abstract things. The analogy has the following points. First, when we are
+calculating the energy, sometimes some of it leaves the system and goes away,
+or sometimes some comes in. In order to verify the conservation of energy, we
+must be careful that we have not put any in or taken any out. Second, the energy
+has a large number of different forms, and there is a formula for each one. These
+are: gravitational energy, kinetic energy, heat energy, elastic energy, electrical
+energy, chemical energy, radiant energy, nuclear energy, mass energy. If we total
+up the formulas for each of these contributions, it will not change except for energy
+going in and out.
+It is important to realize that in physics today, we have no knowledge of what
+energy is. We do not have a picture that energy comes in little blobs of a definite
+amount. It is not that way. However, there are formulas for calculating some
+numerical quantity, and when we add it all together it gives —always the
+same number. It is an abstract thing in that it does not tell us the mechanism or
+the reasons for the various formulas.
+
+4-2 Gravitational potential energy
+Conservation of energy can be understood only if we have the formula for
+all of its forms. I wish to discuss the formula for gravitational energy near the
+surface of the Earth, and I wish to derive this formula in a way which has nothing
+to do with history but is simply a line of reasoning invented for this particular
+lecture to give you an illustration of the remarkable fact that a great deal about
+nature can be extracted from a few facts and close reasoning. It is an illustration
+of the kind of work theoretical physicists become involved in. It is patterned
+after a most excellent argument by Mr. Carnot on the efficiency of steam engines.
+Consider weight-lifting machines—machines which have the property that
+they lift one weight by lowering another. Let us also make a hypothesis: that
+there is no such thing as perpetual motion with these weight-lifting machines.
+(In fact, that there is no perpetual motion at all is a general statement of the law
+of conservation of energy.) We must be careful to define perpetual motion.
+First, let us do it for weight-lifting machines. If, when we have lifted and lowered
+a lot of weights and restored the machine to the original condition, we find that
+the net result is to have lifted a weight, then we have a perpetual motion machine
+because we can use that lifted weight to run something else. That is, provided the
+machine which lifted the weight is brought back to its exact original condition,
+and furthermore that it is completely self-contained—-that it has not received the
+energy to lift that weight from some external source—like Bruce's blocks.
+A very simple weight-lifting machine is shown in Fig. 4-1. This machine lifts
+weights three units "strong." We place three units on one balance pan, and one
+unit on the other. However, in order to get it actually to work, we must lift a
+little weight off the left pan. On the other hand, we could lift a one-unit weight
+* Our point here is not so much the result, D.3), which in fact you may already know,
+as the possibility of arriving at it by theoretical reasoning.
+
+by lowering the three-unit weight, if we cheat a little by lifting a little weight off
+the other pan. Of course, we realize that with any actual lifting machine, we must
+add a little extra to get it to run. This we disregard, temporarily. Ideal machines,
+although they do not exist, do not require anything extra. A machine that we
+actually use can be, in a sense, almost reversible: that is, if it will lift the weight of
+three by lowering a weight of one, then it will also lift nearly the weight of one the
+same amount by lowering the weight of three.
+We imagine that there are two classes of machines, those that are not reversible,
+which includes all real machines, and those that are reversible, which of
+course are actually not attainable no matter how careful we may be in our design
+of bearings, levers, etc. We suppose, however, that there is such a thing 
+— a reversible machine—which lowers one unit of weight (a pound or any other unit)
+by one unit of distance, and at the same time lifts a three-unit weight. Call this
+reversible machine, Machine A. Suppose this particular reversible machine lifts
+the three-unit weight a distance X. Then suppose we have another machine, Machine
+B, which is not necessarily reversible, which also lowers a unit weight a
+unit distance, but which lifts three units a distance Y. We can now prove that Y
+is not higher than X; that is, it is impossible to build a machine that will lift a
+weight any higher than it will be lifted by a reversible machine. Let us see why.
+Let us suppose that Y were higher than X. We take a one-unit weight and lower
+it one unit height with Machine B, and that lifts the three-unit weight up a distance
+Y. Then we could lower the weight from Y to X, obtaining free power, and use
+the reversible Machine A, running backwards, to lower the three-unit weight a
+distance X and lift the one-unit weight by one unit height. This will put the
+one-unit weight back where it was before, and leave both machines ready to be
+used again! We would therefore have perpetual motion if Y were higher than X,
+which we assumed was impossible. With those assumptions, we thus deduce that
+Y is not higher than X, so that of all machines that can be designed, the reversible
+machine is the best.
+
+We can also see that all reversible machines must lift to exactly the same height.
+Suppose that B were really reversible also. The argument that Y is not higher than
+X is, of course, just as good as it was before, but we can also make our argument
+the other way around, using the machines in the opposite order, and prove that
+X is not higher than Y. This, then, is a very remarkable observation because it
+permits us to analyze the height to which different machines are going to lift
+something without looking at the interior mechanism. We know at once that if
+somebody makes an enormously elaborate series of levers that lift three units a
+certain distance by lowering one unit by one unit distance, and we compare it
+with a simple lever which does the same thing and is fundamentally reversible,
+his machine will lift it no higher, but perhaps less high. If his machine is reversible,
+we also know exactly how high it will lift. To summarize: every reversible
+machine, no matter how it operates, which drops one pound one foot and lifts
+a three-pound weight always lifts it the same distance, X. This is clearly a universal
+law of great utility. The next question is, of course, what is XI
+Suppose we have a reversible machine which is going to lift this distance X,
+three for one. We set up three balls in a rack which does not move, as shown in
+Fig. 4-2. One ball is held on a stage at a distance one foot above the ground. The
+machine can lift three balls, lowering one by a distance 1. Now, we have arranged
+that the platform which holds three balls has a floor and two shelves, exactly spaced
+at distance X, and further, that the rack which holds the balls is spaced at distance
+X, (a). First we roll the balls horizontally from the rack to the shelves, (b), and
+we suppose that this takes no energy because we do not change the height. The
+reversible machine then operates: it lowers the single ball to the floor, and it lifts
+the rack a distance X, (c). Now we have ingeniously arranged the rack so that
+these balls are again even with the platforms. Thus we unload the balls onto the
+rack, (d); having unloaded the balls, we can restore the machine to its original
+condition. Now we have three balls on the upper three shelves and one at the
+bottom. But the strange thing is that, in a certain way of speaking, we have not
+lifted two of them at all because, after all, there were balls on shelves 2 and 3
+
+
+before. The resulting effect has been to lift one ball a distance 3X. Now, if 3X
+exceeds one foot, then we can lower the ball to return the machine to the initial
+condition, (f), and we can run the apparatus again. Therefore 3 X cannot exceed
+one foot, for if 3X exceeds one foot we can make perpetual motion. Likewise,
+we can prove that one foot cannot exceed 3X, by making the whole machine run
+the opposite way, since it is a reversible machine. Therefore 3Xis neither greater
+nor less than a foot, and we discover then, by argument alone, the law that
+X = -5 foot. The generalization is clear: one pound falls a certain distance in
+operating a reversible machine; then the machine can lift/; pounds this distance
+divided by p. Another way of putting the result is that three pounds times the
+height lifted, which in our problem was X, is equal to one pound times the distance
+lowered, which is one foot in this case. If we take all the weights and multiply
+them by the heights at which they are now, above the floor, let the machine operate,
+and then multiply all the weights by all the heights again, there will be no change.
+(We have to generalize the example where we moved only one weight to the case
+where when we lower one we lift several different ones—but that is easy.)
+We call the sum of the weights times the heights gravitational potential
+energy—the energy which an object has because of its relationship in space, relative
+to the earth. The formula for gravitational energy, then, so long as we are
+not too far from the earth (the force weakens as we go higher) is
+gravitational 
+I potential energy I = (weight) X (height).
+for one object 
+
+It is a very beautiful line of reasoning. The only problem is that perhaps it is not
+true. (After all, nature does not have to go along with our reasoning.) For example,
+perhaps perpetual motion is, in fact, possible. Some of the assumptions may be
+wrong, or we may have made a mistake in reasoning, so it is always necessary to
+check. It turns out experimentally, in fact, to be true.
+The general name of energy which has to do with location relative to something
+else is called potential energy. In this particular case, of course, we call it
+gravitational potential energy. If it is a question of electrical forces against which
+we are working, instead of gravitational forces, if we are "lifting" charges away
+from other charges with a lot of levers, then the energy content is called electrical
+potential energy. The general principle is that the change in the energy is the force
+times the distance that the force is pushed, and that this is a change in energy in
+general:
+
+change in .. . w  distance force N
+I ) = (force) X . ., , I.
+energy acts through 
+
+We will return to many of these other kinds of energy as we continue the course.
+The principle of the conservation of energy is very useful for deducing what
+will happen in a number of circumstances. In high school we learned a lot of laws
+about pulleys and levers used in different ways. We can now see that these "laws"
+are all the same thing, and that we did not have to memorize 75 rules to figure it out.
+A simple example is a smooth inclined plane which is, happily, a three-four-five
+triangle (Fig. 4-3). We hang a one-pound weight on the inclined plane with a
+pulley, and on the other side of the pulley, a weight W. We want to know how
+heavy IV must be to balance the one pound on the plane, flow can we figure that
+out? If we say it is just balanced, it is reversible and so can move up and down,
+and we can consider the following situation. In the initial circumstance, (a),
+the one pound weight is at the bottom and weight W is at the top. When W has
+slipped down in a reversible way, we have a one-pound weight at the top and the
+weight W the slant distance, (b), or five feet, from the plane in which it was before.
+We lifted the one-pound weight only three feet and we lowered W pounds by
+five feet. Therefore W = § of a pound. Note that we deduced this from the
+conservation of energy, and not from force components. Cleverness, however, is
+relative. It can be deduced in a way which is even more brilliant, discovered by
+
+
+Stevinus and inscribed on his tombstone. Figure 4-4 explains that it has to be
+$ of a pound, because the chain does not go around. It is evident that the lower
+part of the chain is balanced by itself, so that the pull of the five weights on one
+side must balance the pull of three weights on the other, or whatever the ratio of
+the legs. You see, by looking at this diagram, that W must be f of a pound.
+(If you get an epitaph like that on your gravestone, you are doing fine.)
+Let us now illustrate the energy principle with a more complicated problem,
+the screw jack shown in Fig. 4-5. A handle 20 inches long is used to turn the screw,
+which has 10 threads to the inch. We would like to know how much force would
+be needed at the handle to lift one ton B000 pounds). If we want to lift the ton
+one inch, say, then we must turn the handle around ten times. When it goes around
+once it goes approximately 126 inches. The handle must thus travel 1260 inches,
+and if we used various pulleys, etc., we would be lifting our one ton with an unknown
+smaller weight W applied to the end of the handle. So we find out that W
+is about 1.6 pounds. This is a result of the conservation of energy.
+Take now the somewhat more complicated example shown in Fig. 4-6. A rod
+or bar, 8 feet long, is supported at one end. In the middle of the bar is a weight
+of 60 pounds, and at a distance of two feet from the support there is a weight of
+100 pounds. How hard do we have to lift the end of the bar in order to keep
+it balanced, disregarding the weight of the bar? Suppose we put a pulley at one
+end and hang a weight on the pulley. How big would the weight W have to be
+in order for it to balance? We imagine that the weight falls any arbitrary distance — 
+to make it easy for ourselves suppose it goes down 4 inches—how high
+would the two load weights rise? The center rises 2 inches, and the point a quarter
+of the way from the fixed end lifts 1 inch. Therefore, the principle that the sum of
+the heights times the weights does not change tells us that the weight W times
+4 inches down, plus 60 pounds times 2 inches up, plus 100 pounds times 1 inch
+has to add up to nothing:
+
+- AW + B F0) + AH00) = 0, W = 551b.
+
+Thus we must have a 55-pound weight to balance the bar. In this way we can work
+out the laws of "balance"—the statics of complicated bridge arrangements, and so
+on. This approach is called the principle of virtual work, because in order to apply
+this argument we had to imagine that the structure moves a little — even though
+it is not really moving or even movable. We use the very small imagined motion
+to apply the principle of conservation of energy.
+
+4-3 Kinetic energy
+To illustrate another type of energy we consider a pendulum (Fig. 4-7).
+If we pull the mass aside and release it, it swings back and forth. In its motion,
+it loses height in going from either end to the center. Where does the potential
+energy go? Gravitational energy disappears when it is down at the bottom;
+nevertheless, it will climb up again. The gravitational energy must have gone into
+another form. Evidently it is by virtue of its motion that it is able to climb up again,
+so we have the conversion of gravitational energy into some other form when it
+reaches the bottom.
+We must get a formula for the energy of motion. Now, recalling our arguments
+about reversible machines, we can easily see that in the motion at the bottom
+must be a quantity of energy which permits it to rise a certain height, and which
+has nothing to do with the machinery by which it comes up or the path by which
+it comes up. So we have an equivalence formula something like the one we wrote
+for the child's blocks. We have another form to represent the energy. It is easy to
+say what it is. The kinetic energy at the bottom equals the weight times the height
+that it could go, corresponding to its velocity: K.E. = WH. What we need is
+the formula which tells us the height by some rule that has to do with the motion
+of objects. If we start something out with a certain velocity, say straight up, it
+will reach a certain height; we do not know what it is yet, but it depends on the
+velocity—there is a formula for that. Then to find the formula for kinetic energy
+
+for an object moving with velocity V, we must calculate the height that it could
+reach, and multiply by the weight. We shall soon find that we can write it this way:
+K.E. = WV2/2g. D.6)
+Of course, the fact that motion has energy has nothing to do with the fact that
+we are in a gravitational field. It makes no difference where the motion came from.
+This is a general formula for various velocities. Both D.3) and D.6) are approximate
+formulas, the first because it is incorrect when the heights are great, i.e.,
+when the heights are so high that gravity is weakening; the second, because of the
+relativistic correction at high speeds. However, when we do finally get the exact
+formula for the energy, then the law of conservation of energy is correct.
+4-4 Other forms of energy
+We can continue in this way to illustrate the existence of energy in other forms.
+First, consider elastic energy. If we pull down on a spring, we must do some work,
+for when we have it down, we can lift weights with it. Therefore in its stretched
+condition it has a possibility of doing some work. If we were to evaluate the sums
+of weights times heights, it would not check out—we must add something else
+to account for the fact that the spring is under tension. Elastic energy is the
+formula for a spring when it is stretched. How much energy is it? If we let go,
+the elastic energy, as the spring passes through the equilibrium point, is converted
+to kinetic energy and it goes back and forth between compressing or stretching
+the spring and kinetic energy of motion. (There is also some gravitational energy
+going in and out, but we can do this experiment "sideways" if we like.) It keeps
+going until the losses —Aha! We have cheated all the way through by putting
+on little weights to move things or saying that the machines are reversible, or that
+they go on forever, but we can see that things do stop, eventually. Where is the
+energy when the spring has finished moving up and down? This brings in another
+form of energy: heat energy.
+
+Inside a spring or a lever there are crystals which are made up of lots of atoms,
+and with great care and delicacy in the arrangement of the parts one can try to
+adjust things so that as something rolls on something else, none of the atoms do
+any jiggling at all. But one must be very careful. Ordinarily when things roll,
+there is bumping and jiggling because of the irregularities of the material, and the
+atoms start to wiggle inside. So we lose track of that energy; we find the atoms are
+wiggling inside in a random and confused manner after the motion slows down.
+There is still kinetic energy, all right, but it is not associated with visible motion.
+What a dream! How do we know there is still kinetic energy? It turns out that
+with thermometers you can find out that, in fact, the spring or the lever is warmer,
+and that there is really an increase of kinetic energy by a definite amount. We call
+this form of energy heat energy, but we know that it is not really a new form, it
+is just kinetic energy—internal motion. (One of the difficulties with all these
+experiments with matter that we do on a large scale is that we cannot really
+demonstrate the conservation of energy and we cannot really make our reversible
+machines, because every time we move a large clump of stuff, the atoms do not
+remain absolutely undisturbed, and so a certain amount of random motion goes
+into the atomic system. We cannot see it, but we can measure it with thermometers, etc.)
+There are many other forms of energy, and of course we cannot describe them
+in any more detail just now. There is electrical energy, which has to do with pushing
+and pulling by electric charges. There is radiant energy, the energy of light,
+which we know is a form of electrical energy because light can be represented as
+wigglings in the electromagnetic field. There is chemical energy, the energy which
+is released in chemical reactions. Actually, elastic energy is, to a certain extent,
+like chemical energy, because chemical energy is the energy of the attraction of
+the atoms, one for the other, and so is elastic energy. Our modern understanding
+is the following: chemical energy has two parts, kinetic energy of the electrons
+inside the atoms, so part of it is kinetic, and electrical energy of interaction of the
+
+electrons and the protons—the rest of it, therefore, is electrical. Next we come to
+nuclear energy, the energy which is involved with the arrangement of particles
+inside the nucleus, and we have formulas for that, but we do not have the fundamental
+laws. We know that it is not electrical, not gravitational, and not purely
+chemical, but we do not know what it is. It seems to be an additional form of
+energy. Finally, associated with the relativity theory, there is a modification of
+the laws of kinetic energy, or whatever you wish to call it, so that kinetic energy
+is combined with another thing called mass energy. An object has energy from its
+sheer existence. If I have a positron and an electron, standing still doing nothing
+—never mind gravity, never mind anything—and they come together and disappear,
+radiant "energy will be liberated, in a definite amount, and the amount
+can be calculated. All we need know is the mass of the object. It does not depend
+on what it is—we make two things disappear, and we get a certain amount of
+energy. The formula was first found by Einstein; it is E = me2.
+It is obvious from our discussion that the law of conservation of energy is
+enormously useful in making analyses, as we have illustrated in a few examples
+without knowing all the formulas. If we had all the formulas for all kinds of
+energy, we could analyze how many processes should work without having to go
+into the details. Therefore conservation laws are very interesting. The question
+naturally arises as to what other conservation laws there are in physics. There
+are two other conservation laws which are analogous to the conservation of
+energy. One is called the conservation of linear momentum. The other is called
+the conservation of angular momentum. We will find out more about these later.
+In the last analysis, we do not understand the conservation laws deeply. We do
+not understand the conservation of energy. We do not understand energy as a
+certain number of little blobs. You may have heard that photons come out in
+blobs and that the energy of a photon is Planck's constant times the frequency.
+That is true, but since the frequency of light can be anything, there is no law that
+says that energy has to be a certain definite amount. Unlike Dennis' blocks, there
+can be any amount of energy, at least as presently understood. So we do not understand
+this energy as counting something at the moment, but just as a mathematical
+quantity, which is an abstract and rather peculiar circumstance. In quantum
+mechanics it turns out that the conservation of energy is very closely related to
+another important property of the world, things do not depend on the absolute
+time. We can set up an experiment at a given moment and try it out, and then do
+the same experiment at a later moment, and it will behave in exactly the same
+way. Whether this is strictly true or not, we do not know. If we assume that it
+is true, and add the principles of quantum mechanics, then we can deduce the
+principle of the conservation of energy. It is a rather subtle and interesting thing,
+and it is not easy to explain. The other conservation laws are also linked together.
+The conservation of momentum is associated in quantum mechanics with the
+proposition that it makes no difference where you do the experiment, the results
+will always be the same. As independence in space has to do with the conservation
+of momentum, independence of time has to do with the conservation of
+energy, and finally, if we turn our apparatus, this too makes no difference, and so
+the invariance of the world to angular orientation is related to the conservation
+of angular momentum. Besides these, there are three other conservation laws,
+that are exact so far as we can tell today, which are much simpler to understand
+because they are in the nature of counting blocks.
+The first of the three is the conservation of charge, and that merely means
+that you count how many positive, minus how many negative electrical charges
+you have, and the number is never changed. You may get rid of a positive with
+a negative, but you do not create any net excess of positives over negatives. Two
+other laws are analogous to this one—one is called the conservation of baryons.
+There are a number of strange particles, a neutron and a proton are examples,
+which are called baryons. In any reaction whatever in nature, if we count how
+many baryons are coming into a process, the number of baryons* which come out
+* Counting antibaryons as — 1 baryon.
+
+will be exactly the same. There is another law, the conservation of leptons. We
+can say that the group of particles called leptons are: electron, mu meson, and
+neutrino. There is an antielectron which is a positron, that is, a —1 lepton.
+Counting the total number of leptons in a reaction reveals that the number in and
+out never changes, at least so far as we know at present.
+These are the six conservation laws, three of them subtle, involving space and
+time, and three of them simple, in the sense of counting something.
+With regard to the conservation of energy, we should note that available
+energy is another matter—there is a lot of jiggling around in the atoms of the
+water of the sea, because the sea has a certain temperature, but it is impossible
+to get them herded into a definite motion without taking energy from somewhere
+else. That is, although we know for a fact that energy is conserved, the energy
+available for human utility is not conserved so easily. The laws which govern
+how much energy is available are called the laws of thermodynamics and involve
+a concept called entropy for irreversible thermodynamic processes.
+Finally, we remark on the question of where we can get our supplies of energy
+today. Our supplies of energy are from the sun, rain, coal, uranium, and hydrogen.
+The sun makes the rain, and the coal also, so that all these are from the sun.
+Although energy is conserved, nature does not seem to be interested in it; she
+liberates a lot of energy from the sun, but only one part in two billion falls on the
+earth. Nature has conservation of energy, but does not really care; she spends
+a lot of it in all directions. We have already obtained energy from uranium;
+we can also get energy from hydrogen, but at present only in an explosive and
+dangerous condition. If it can be controlled in thermonuclear reactions, it turns
+out that the energy that can be obtained from 10 quarts of water per second is equal
+to all of the electrical power generated in the United States. With 150 gallons of
+running water a minute, you have enough fuel to supply all the energy which is
+used in the United States today! Therefore it is up to the physicist to figure out
+how to liberate us from the need for having energy. It can be done.
+
+Time and Distance
+5-1 Motion
+In this chapter we shall consider some aspects of the concepts of time and
+distance. It has been emphasized earlier that physics, as do all the sciences, depends
+on observation. One might also say that the development of the physical
+sciences to their present form has depended to a large extent on the emphasis
+which has been placed on the making of quantitative observations. Only with
+quantitative observations can one arrive at quantitative relationships, which are
+the heart of physics.
+Many people would like to place the beginnings of physics with the work
+done 350 years ago by Galileo, and to call him the first physicist. Until that time,
+the study of motion had been a philosophical one based on arguments that could
+be thought up in one's head. Most of the arguments had been presented by
+Aristotle and other Greek philosophers, and were taken as "proven." Galileo
+was skeptical, and did an experiment on motion which was essentially this: He
+allowed a ball to roll down an inclined trough and observed the motion. He did
+not, however, just look; he measured how far the ball went in how long a time.
+The way to measure a distance was well known long before Galileo, but there
+were no accurate ways of measuring time, particularly short times. Although he
+later devised more satisfactory clocks (though not like the ones we know), Galileo's
+first experiments on motion were done by using his pulse to count off equal intervals of time. Let us do the same.
+
+We may count off beats of a pulse as the ball rolls down the track: "one .. .
+two ... three . . . four . . . five ... six ... seven . . . eight. .." We ask a friend to
+make a small mark at the location of the ball at each count; we can then measure
+the distance the ball travelled from the point of release in one, or two, or three,
+etc., equal intervals of time. Galileo expressed the result of his observations in
+this way: if the location of the ball is marked at 1, 2, 3, 4,... units of time from
+the instant of its release, those marks are distant from the starting point in proportion 
+to the numbers 1, 4, 9, 16, ... Today we would say the distance is proportional to the square of the time:
+
+The study of motion, which is basic to all of physics, treats with the questipns:
+where? and when?
+5-1 Motion
+
+Let us consider first what we mean by time. What is time? It would be nice
+if we could find a good definition of time. Webster defines "a time" as "a period,"
+and the latter as "a time," which doesn't seem to be very useful. Perhaps we should
+say: "Time is what happens when nothing else happens." Which also doesn't
+get us very far. Maybe it is just as well if we face the fact that time is one of the
+things we probably cannot define (in the dictionary sense), and just say that it
+is what we already know it to be: it is how long we wait!
+What really matters anyway is not how we define time, but how we measure
+it. One way of measuring time is to utilize something which happens over and
+over again in a regular fashion—something which is periodic. For example, a
+day. A day seems to happen over and over again. But when you begin to think
+
+about it, you might well ask: "Are days periodic; are they regular? Are all days
+the same length?" One certainly has the impression that days in summer are longer
+than days in winter. Of course, some of the days in winter seem to get awfully
+long if one is very bored. You have certainly heard someone say, "My, but this
+has been a long day!"
+It does seem, however, that days are about the same length on the average.
+Is there any way we can test whether the days are the same length—either from
+one day to the next, or at least on the average? One way is to make a comparison
+with some other periodic phenomenon. Let us see how such a comparison might
+be made with an hour glass. With an hour glass, we can "create" a periodic
+occurrence if we have someone standing by it day and night to turn it over whenever
+the last grain of sand runs out.
+We could then count the turnings of the glass from each morning to the next.
+We would find, this time, that the number of "hours" (i.e., turnings of the glass)
+was not the same each "day." We should distrust the sun, or the glass, or both.
+After some thought, it might occur to us to count the "hours" from noon to noon.
+(Noon is here defined not as 12:00 o'clock, but that instant when the sun is at its
+highest point.) We would find, this time, that the number of "hours" each day
+is the same.
+We now have some confidence that both the "hour" and the "day" have a
+regular periodicity, i.e., mark off successive equal intervals of time, although we
+have not proved that either one is "really" periodic. Someone might question
+whether there might not be some omnipotent being who would slow down the
+flow of sand every night and speed it up during the day. Our experiment does not,
+of course, give us an answer to this sort of question. All we can say is that we find
+that a regularity of one kind fits together with a regularity of another kind. We
+can just say that we base our definition of time on the repetition of some apparently
+periodic event.
+
+5-3 Short times
+We should now notice that in the process of checking on the reproducibility
+of the day, we have received an important by-product. We have found a way of
+measuring, more accurately, fractions of a day. We have found a way of counting
+time in smaller pieces. Can we carry the process further, and learn to measure
+even smaller intervals of time?
+Galileo decided that a given pendulum always swings back and forth in equal
+intervals of time so long as the size of the swing is kept small. A test comparing
+the number of swings of a pendulum in one "hour" shows that such is indeed the
+case. We can in this way mark fractions of an hour. If we use a mechanical device
+to count the swings—and to keep them going—we have the pendulum clock of
+our grandfathers.
+Let us agree that if our pendulum oscillates 3600 times in one hour (and if
+there are 24 such hours in a day), we shall call each period of the pendulum one
+"second." We have then divided our original unit of time into approximately
+105 parts. We can apply the same principles to divide the second into smaller and
+smaller intervals. It is, you will realize, not practical to make mechanical pen-
+dulums which go arbitrarily fast, but we can now make electrical pendulums,
+called oscillators, which can provide a periodic occurrence with a very short
+period of swing. In these electronic oscillators it is an electrical current which
+swings to and fro, in a manner analogous to the swinging of the bob of the pendulum.
+We can make a series of such electronic oscillators, each with a period 10
+times shorter than the previous one. We may "calibrate" each oscillator against
+the next slower one by counting the number of swings it makes for one swing of
+the slower oscillator. When the period of oscillation of our clock is shorter than
+a fraction of a second, we cannot count the oscillations without the help of some
+device which extends our powers of observation. One such device is the electron 
+beam oscilloscope, which acts as a sort of microscope for short times. This device
+plots on a fluorescent screen a graph of electrical current (or voltage) versus time.
+
+
+By connecting the oscilloscope to two of our oscillators in sequence, so that it
+plots a graph first of the current in one of our oscillators and then of the current
+in the other, we get two graphs like those shown in Fig. 5-2. We can readily
+determine the number of periods of the faster oscillator in one period of the
+slower oscillator.
+With modern electronic techniques, oscillators have been built with periods
+as short as about 10~12 second, and they have been calibrated (by comparison
+methods such as we have described) in terms of our standard unit of time, the
+second. With (he invention and perfection of the "laser," or light amplifier, in
+(he past few years, it has become possible to make oscillators with even shorter
+periods than 10~12 second, but it has not yet been possible to calibrate them by
+the methods which have been described, although it will no doubt soon be possible.
+Times shorter than 10~12 second have been measured, but by a different technique.
+In effect, a different definition of "time" has been used. One way has been
+to observe the distance between two happenings on a moving object. If, for
+example, the headlights of a moving automobile are turned on and then off,
+we can figure out how long the lights were on if we know where they were turned
+on and off and how fast the car was moving. The time is the distance over which
+the lights were on divided by the speed.
+Within the past few years, just such a technique was used to measure the
+lifetime of the 7r°-meson. By observing in a microscope the minute tracks left in
+a photographic emulsion in which 7r°-mesons had been created one saw that a
+7r°-meson (known to be travelling at a certain speed nearly that of light) went a
+distance of about 10~7 meter, on the average, before disintegrating. It lived for
+only about 10~Ul sec. It should be emphasized that we have here used a somewhat
+different definition of "time" than before. So long as there are no inconsistencies
+in our understanding, however, we feel fairly confident that our definitions
+are sufficiently equivalent.
+
+By extending our techniques—and if necessary our definitions—still further
+we can infer the time duration of still faster physical events. We can speak of the
+period of a nuclear vibration. We can speak of the lifetime of the newly discovered
+strange resonances (particles) mentioned in Chapter 2. Their complete life occupies
+a time span of only 10A second, approximately the time it would take light
+(which moves at the fastest known speed) to cross the nucleus of hydrogen (the
+smallest known object).
+What about still smaller times? Does "time" exist on a still smaller scale?
+Does it make any sense to speak of smaller times if we cannot measure—or
+perhaps even think sensibly about—something which happens in a shorter time?
+Perhaps not. These are some of the open questions which you will be asking and
+perhaps answering in the next twenty or thirty years.
+
+5-4 Long times
+Let us now consider times longer than one day. Measurement of longer times
+is easy; we just count the days—so long as there is someone around to do the
+counting. First we find that there is another natural periodicity: the year, about
+365 days. We have also discovered that nature has sometimes provided a counter
+for the years, in the form of tree rings or river-bottom sediments. In some cases
+we can use these natural time markers to determine the time which has passed
+since some early event.
+When we cannot count the years for the measurement of long times, we must
+look for other ways to measure. One of the most successful is the use of radio 
+active material as a "clock."' In this case we do not have a periodic occurrence,
+as for the day or the pendulum, but a new kind of "regularity." We find that the
+radioactivity of a particular sample of material decreases by the same fraction
+for successive equal increases in its age. If we plot a graph of the radioactivity
+observed as a function of time (say in days), we obtain a curve like that shown in
+Fig. 5-3. We observe that if the radioactivity decreases to one-half in T days
+(called the "half-life"), then it decreases to one-quarter in another T days, and so
+
+
+TIMES
+YEARS SECONDS
+MEAN
+LIFE OF
+Age of universe
+Age of earth
+Earliest men
+Age of pyramids
+Age of U.S.
+Life of a man
+One day
+Light goes from sun to earth
+One heart beat
+Period of sound wave
+Period of radiowave
+Light travels one foot
+Period of molecular rotation
+Period of atomic vibration
+Light crosses an atom
+Period of nuclear vibration
+Light crosses a nucleus
+
+Neutron
+Muon
+ir - meson
+Tr - meson
+Strange
+particle
+
+on. In an arbitrary time interval t there are t/T "half-lives," and the fraction left
+after this time / is t l T.
+If we knew that a piece of material, say a piece of wood, had contained an
+amount A of radioactive material when it was formed, and we found out by a direct
+measurement that it now contains the amount B, we could compute the age of
+the object, t, by solving the equation
+ay'T = b/a.
+There are, fortunately, cases in which we can know the amount of radioactivity
+that was in an object when it was formed. We know, for example, that the carbon
+dioxide in the air contains a certain small fraction of the radioactive carbon
+isotope C14 (replenished continuously by the action of cosmic rays). If we measure
+the total carbon content of an object, we know that a certain fraction of that amount
+was originally the radioactive C14; we know, therefore, the starting amount A
+to use in the formula above. Carbon -14 has a half-life of 5000 years. By careful
+measurements we can measure the amount left after 20 half-lives or so and can
+therefore "date" organic objects which grew as long as 100,000 years ago.
+We would like to know, and we think we do know, the life of still older things.
+Much of our knowledge is based on the measurements of other radioactive isotopes
+which have different half-lives. If we make measurements with an isotope
+with a longer half-life, then we are able to measure longer times. Uranium, for
+example, has an isotope whose half-life is about IO9 years, so that if some material
+was formed with uranium in it IO9 years ago, only half the uranium would remain
+today. When the uranium disintegrates, it changes into lead. Consider a piece
+of rock which was formed a long time ago in some chemical process. Lead, being
+of a chemical nature different from uranium, would appear in one part of the rock
+and uranium would appear in another part of the rock. The uranium and lead
+
+would be separate. If we look at that piece of rock today, where there should only
+be uranium we will now find a certain fraction of uranium and a certain fraction
+of lead. By comparing these fractions, we can tell what percent of the uranium
+disappeared and changed into lead. By this method, the age of certain rocks has
+been determined to be several billion years. An extension of this method, not
+using particular rocks but looking at the uranium and lead in the oceans and using
+averages over the earth, has been used to determine (within the past few years)
+that the age of the earth itself is approximately 5.5 billion years.
+It is encouraging that the age of the earth is found to be the same as the age
+of the meteorites which land on the earth, as determined by the uranium method.
+It appears that the earth was formed out of rocks floating in space, and that the
+meteorites are, quite likely, some of that material left over. At some time more than
+five billion years ago, the universe started. It is now believed that at least our part
+of the universe had its beginning about ten or twelve billion years ago. We do
+not know what happened before then. In fact, we may well ask again: Does the
+question make any sense? Does an earlier time have any meaning?
+
+
+5-5 Units and standards of time
+
+We have implied that it is convenient if we start with some standard unit of
+time, say a day or a second, and refer all other times to some multiple or fraction
+of this unit. What shall we take as our basic standard of time? Shall we take the
+human pulse? If we compare pulses, we find that they seem to vary a lot. On
+comparing two clocks, one finds they do not vary so much. You might then say,
+well, let us take a clock. But whose clock? There is a story of a Swiss boy who
+wanted all of the clocks in his town to ring noon at the same time. So he went
+around trying to convince everyone of the value of this. Everyone thought it was
+a marvelous idea so long as all of the other clocks rang noon when his did! It is
+rather difficult to decide whose clock we should take as a standard. Fortunately,
+we all share one clock—the earth. For a long time the rotational period of the
+earth has been taken as the basic standard of time. As measurements have been
+made more and more precise, however, it has been found that the rotation of the
+earth is not exactly periodic, when measured in terms of the best clocks. These
+"best" clocks are those which we have reason to believe are accurate because they
+agree with each other. We now believe that, for various reasons, some days are
+longer than others, some days are shorter, and on the average the period of the
+earth becomes a little longer as the centuries pass.
+Until very recently we had found nothing much better than the earth's
+period, so all clocks have been related to the length of the day, and the second
+has been defined as 1/86400 of an average day. Recently we have been gaining
+experience with some natural oscillators which we now believe would provide a
+more constant time reference than the earth, and which are also based on a natural
+phenomenon available to everyone. These are the so-called "atomic clocks."
+Their basic internal period is that of an atomic vibration which is very insensitive
+to the temperature or any other external effects. These clocks keep time to an
+accuracy of one part in 10° or better. Within the past two years an improved
+atomic clock which operates on the vibration of the hydrogen atom has been designed 
+and built by Professor Norman Ramsey at Harvard University. He believes
+that this clock might be 100 times more accurate still. Measurements now in
+progress will show whether this is true or not.
+We may expect that since it has been possible to build clocks much more
+accurate than astronomical time, there will soon be an agreement among scientists
+to define the unit of time in terms of one of the atomic clock standards.
+
+5-6 Large distances
+Let us now turn to the question of distance. How far, or how big, are things?
+Everybody knows that the way you measure distance is to start with a stick and
+count. Or start with a thumb and count. You begin with a unit and count. How
+
+does one measure smaller things? How does one subdivide distance? In the same
+way that we subdivided time: we take a smaller unit and count the number of
+such units it takes to make up the longer unit. So we can measure smaller and
+smaller lengths.
+But we do not always mean by distance what one gets by counting off with a
+meter stick. It would be difficult to measure the horizontal distance between two
+mountain tops using only a meter stick. We have found by experience that distance
+can be measured in another fashion: by triangulation. Although this means
+that we are really using a different definition of distance, when they can both be
+used they agree with each other. Space is more or less what Euclid thought it
+was, so the two types of definitions of distance agree. Since they do agree on the
+earth it gives us some confidence in using triangulation for still larger distances.
+For example, we were able to use triangulation to measure the height of the first
+Sputnik. We found that it was roughly 5 X 105 meters high. By more careful
+measurements the distance to the moon can be measured in the same way. Two
+telescopes at different places on the earth can give us the two angles we need.
+It has been found in this way that the moon is 4 X 108 meters away.
+We cannot do the same with the sun, or at least no one has been able to yet.
+The accuracy with which one can focus on a given point on the sun and with which
+one can measure angles is not good enough to permit us to measure the distance
+to the sun. Then how can we measure the distance to the sun? We must invent
+an extension of the idea of triangulation. We measure the relative distances of
+all the planets by astronomical observations of where the planets appear to be,
+and we get a picture of the solar system with the proper relative distances of everything,
+but with no absolute distance. One absolute measurement is then required,
+which has been obtained in a number of ways. One of the ways, which was believed
+until recently to be the most accurate, was to measure the distance from the earth
+to Eros, one of the small planetoids which passes near the earth every now and then.
+By triangulation on this little object, one could get the one required scale measurement.
+Knowing the relative distances of the rest, we can then tell the distance, for
+example, from the earth to the sun, or from the earth to Pluto.
+
+Within the past year there has been a big improvement in our knowledge of
+the scale of the solar system. At the Jet Propulsion Laboratory the distance from
+the earth to Venus was measured quite accurately by a direct radar observation.
+This, of course, is a still different type of inferred distance. We say we know
+the speed at which light travels (and therefore, at which radar waves travel),
+and we assume that it is the same speed everywhere between the earth and Venus.
+We send the radio wave out, and count the time until the reflected wave comes
+back. From the time we infer a distance, assuming we know the speed. We have
+really another definition of a measurement of distance.
+How do we measure the distance to a star, which is much farther away?
+Fortunately, we can go back to our triangulation method, because the earth moving
+around the sun gives us a large baseline for measurements of objects outside the
+solar system. If we focus a telescope on a star in summer and in winter, we might
+hope to determine these two angles accurately enough to be able to measure the
+distance to a star.
+What if the stars are too far away for us to use triangulation? Astronomers
+are always inventing new ways of measuring distance. They find, for example,
+that they can estimate the size and brightness of a star by its color. The color
+and brightness of many nearby stars—whose distances are known by triangulation — 
+have been measured, and it is found that there is a smooth relationship
+between the color and the intrinsic brightness of stars (in most cases). If one now
+measures the color of a distant star, one may use the color-brightness relationship
+to determine the intrinsic brightness of the star. By measuring how bright the star
+appears to us at the earth (or perhaps we should say how dim it appears), we can
+compute how far away it is. (For a given intrinsic brightness, the apparent brightness
+decreases with the square of the distance.) A nice confirmation of the correctness
+of this method of measuring stellar distances is given by the results obtained
+for groups of stars known as globular clusters. A photograph of such a group is
+
+
+shown in Fig. 5-6. Just from looking at the photograph one is convinced that these
+stars are all together. The same result is obtained from distance measurements
+by the color-brightness method.
+A study of many globular clusters gives another important bit of information.
+It is found that there is a high concentration of such clusters in a certain
+part of the sky and that most of them are about the same distance from us. Coupling
+this information with other evidence, we conclude that this concentration of
+clusters marks the center of our galaxy. We then know the distance to the center
+of the galaxy—about 101'0 meters.
+Knowing the size of our own galaxy, we have a key to the measurement of
+still larger distances - the distances to other galaxies. Figure 5-7 is a photograph
+of a galaxy, which has much the same shape as our own. Probably it is the same
+size, too. (Other evidence supports the idea that galaxies are all about the same
+size.) If it is the same size as ours, we can tell its distance. We measure the angle
+it subtends in the sky; we know its diameter, and we compute its distance 
+triangulation again!
+
+Photographs of exceedingly distant galaxies have recently been obtained with
+the giant Palomar telescope. One is shown in Fig. 5-8. It is now believed that
+some of these galaxies are about halfway to the limit of the universe — 1020 meters
+away — the largest distance we can contemplate!
+
+5-7 Short distances
+Now let's think about smaller distances. Subdividing the meter is easy. Without
+much difficulty we can mark off one thousand equal spaces which add up to
+one meter. With somewhat more difficulty, but in a similar way (using a good
+microscope), we can mark off a thousand equal subdivisions of the millimeter to
+make a scale of microns (millionths of a meter). It is difficult to continue to smaller
+scales, because we cannot "see" objects smaller than the wavelength of visible
+light (about 5 X 10~7 meter).
+We need not stop, however, at what we can see. With an electron microscope,
+we can continue the process by making photographs on a still smaller scale, say
+down to 10~8 meter (Fig. 5-9). By indirect measurements—by a kind of triangulation
+on a microscopic scale— we can continue to measure to smaller and smaller
+scales. First, from an observation of the way light of short wavelength (x-radiation)
+is reflected from a pattern of marks of known separation, we determine the wave
+
+
+DISTANCES
+LIGHT-YEARS METERS
+Edge of universe
+To nearest neighbor galaxy
+To center of our galaxy
+To nearest star
+Radius of orbit of Pluto
+To the sun
+To the moon
+Height of a Sputnik
+Height of a TV antenna tower
+Height of a child
+A grain of salt
+A virus
+Radius of an atom
+Radius of a nucleus
+
+length of the light vibrations. Then, from the pattern of the scattering of the same
+light from a crystal, we can determine the relative location of the atoms in the
+crystal, obtaining results which agree with the atomic spacings also determined
+by chemical means. We find in this way that atoms have a diameter of about
+10-10 meter.
+There is a large "gap" in physical sizes between the typical atomic dimension
+of about meter and the nuclear dimensions 10~15 meter, 10~6 times smaller.
+For nuclear sizes, a different way of measuring size becomes convenient. We measure
+the apparent area, a, called the effective cross section. If we wish the radius,
+we can obtain it from <r = irr2, since nuclei are nearly spherical.
+Measurement of a nuclear cross section can be made by passing a beam of
+high-energy particles through a thin slab of material and observing the number
+of particles which do not get through. These high-energy particles will plow right
+through the thin cloud of electrons and will be stopped or deflected only if they
+hit the concentrated weight of a nucleus. Suppose we have a piece of material
+1 centimeter thick. There will be about 10s atomic layers. But the nuclei are so
+small that there is little chance that any nucleus will lie behind another. We might
+imagine that a highly magnified view of the situation—looking along the particle
+beam—would look like Fig. 5-10.
+The chance that a very small particle will hit a nucleus on the trip through
+is just the total area covered by the profiles of the nuclei divided by the total
+area in the picture. Suppose that we know that in an area A of our slab of material
+there are N atoms (each with one nucleus, of course). Then the total area "covered"
+by the nuclei is N<r/A. Now let the number of particles of our beam which arrive
+at the slab be ti\ and the number which come out the other side be n2- The fraction
+which do not get through is - (mi — n2)/ni, which should just equal the
+
+fraction of the area covered. We can obtain the radius of the nucleus from the
+equation*
+N Mi
+From such an experiment we find that the radii of the nuclei are from about 1 to 6
+times 10~15 meter. The length unit IO~15 meter is called the fermi, in honor of
+Enrico Fermi A901-1958).
+What do we find if we go to smaller distances? Can we measure smaller
+distances ? Such questions are not yet answerable. It has been suggested that the
+still unsolved mystery of nuclear forces may be unravelled only by some modification
+of our idea of space, or measurement, at such small distances.
+It might be thought that it would be a good idea to use some natural length
+as our unit of length—say the radius of the earth or some fraction of it. The
+meter was originally intended to be such a unit and was defined to be (tt/2) X 10~7
+times the earth's radius. It is neither convenient nor very accurate to determine
+the unit of length in this way. For a long time it has been agreed internationally
+that the meter would be defined as the distance between two scratches on a bar
+kept in a special laboratory in France. More recently, it has been realized that
+this definition is neither as precise as would be useful, nor as permanent or universal
+as one would like. It is currently being considered that a new definition be adopted,
+an agreed-upon (arbitrary) number of wavelengths of a chosen spectral line.
+Measurements of distance and of time give results which depend on the observer.
+Two observers moving with respect to each other will not measure the same
+distances and times when measuring what appear to be the same things. Distances
+and time intervals have different magnitudes, depending on the coordinate system
+(or "frame of reference") used for making the measurements. We shall study this
+subject in more detail in a later chapter.
+
+Perfectly precise measurements of distances or times are not permitted by the
+laws of nature. We have mentioned earlier that the errors in a measurement of
+the position of an object must be at least as large as
+Ax = h/Ap,
+where h is a small quantity called "Planck's constant" and Ap is the error in
+our knowledge of the momentum (mass times velocity) of the object whose position
+we are measuring. It was also mentioned that the uncertainty in position
+measurements is related to the wave nature of particles.
+The relativity of space and time implies that time measurements have also a
+minimum error, given in fact by
+At = h/AE,
+where AE is the error in our knowledge of the energy of the process whose time
+period we are measuring. If we wish to know more precisely when something
+happened we must know less about what happened, because our knowledge of
+the energy involved will be less. The time uncertainty is also related to the wave
+nature of matter.
+* This equation is right only if the area covered by the nuclei is a small fraction of the
+total, i.e., if (hi — «2)/«i is much less than 1. Otherwise we must make a correction
+for the fact that some nuclei will be partly obscured by the nuclei in front of them.
+
+
+Probability
+"The true logic of this world is in the calculus of probabilities."
+—James Clerk Maxwell
+6-1 Chance and likelihood
+"Chance" is a word which is in common use in everyday living. The radio
+reports speaking of tomorrow's weather may say: "There is a sixty percent chance
+of rain." You might say: "There is a small chance that I shall live to be one
+hundred years old." Scientists also use the word chance. A seismologist may be
+interested in the question: "What is the chance that there will be an earthquake
+of a certain size in Southern California next year?" A physicist might ask the question:
+"What is the chance that a particular geiger counter will register twenty
+counts in the next ten seconds?" A politician or statesman might be interested
+in the question: "What is the chance that there will be a nuclear war within the
+next ten years?" You may be interested in the chance that you will learn something
+from this chapter.
+By chance, we mean something like a guess. Why do we make guesses?
+We make guesses when we wish to make a judgment but have incomplete information
+or uncertain knowledge. We want to make a guess as tp what things are,
+or what things are likely to happen. Often we wish to make a guess because we
+have to make a decision. For example: Shall I take my raincoat with me tomorrow?
+For what earth movement should I design a new building? Shall I build myself
+a fallout shelter? Shall I change my stand in international negotiations? Shall
+I go to class today?
+
+Sometimes we make guesses because we wish, with our limited knowledge,
+to say as much as we can about some situation. Really, any generalization is in
+the nature of a guess. Any physical theory is a kind of guesswork. There are good
+guesses and there are bad guesses. The theory of probability is a system for making
+better guesses. The language of probability allows us to speak quantitatively
+about some situation which may be highly variable, but which does have some
+consistent average behavior.
+Let us consider the flipping of a coin. If the toss—and the coin—are "honest,"
+we have no way of knowing what to expect for the outcome of any particular toss.
+Yet we would feel that in a large number of tosses there should be about equal
+numbers of heads and tails. We say: "The probability that a toss will land heads
+is 0.5."
+We speak of probability only for observations that we contemplate being made
+in the future. By the "probability" of a particular outcome of an observation we
+mean our estimate for the most likely fraction of a number of repeated observations 
+that will yield that particular outcome. If we imagine repeating an observation
+— such as looking at a freshly tossed coin—N times, and jf we call Na our
+estimate of the most likely number of our observations that will give some specified
+result A, say the result "heads," then by P(A), the probability of observing A,
+we mean
+P{A) = NA/N. F.1)
+Our definition requires several comments. First of all, we may speak of a
+probability of something happening only if the occurrence is a possible outcome
+of some repeatable observation. It is not clear that it would make any sense to
+ask: "What is the probability that there is a ghost in that house?"
+
+
+
+
+You may object that no situation is exactly repeatable. That is right. Every
+different observation must at least be at a different time or place. All we can say
+is that the "repeated" observations should, for our intended purposes, appear
+to be equivalent. We should assume, at least, that each observation was made
+from an equivalently prepared situation, and especially with the same degree of
+ignorance at the start. (If we sneak a look at an opponent's hand in a card game,
+our estimate of our chances of winning are different than if we do not)
+We should emphasize that N and Na in Eq. F.1) are not intended to represent
+numbers based on actual observations. Na is our best estimate of what would
+occur in N imagined observations. Probability depends, therefore, on our knowledge
+and on our ability to make estimates. In effect, on our common sense! Fortunately,
+there is a certain amount of agreement in the common sense of many things, so
+that different people will make the same estimate. Probabilities need not, however,
+be "absolute" numbers. Since they depend on our ignorance, they may become
+different if our knowledge changes.
+You may have noticed another rather "subjective" aspect of our definition
+of probability. We have referred to Na as "our estimate of the most likely number
+. . ." We do not mean that we expect to observe exactly Na, but that we expect
+a number near Na, and that the number Na is more likely than any other number
+in the vicinity. If we toss a coin, say, 30 times, we should expect that the number
+of heads would not be very likely to be exactly 15, but rather only some number
+near to 15, say 12, 13, 14, 15, 16, or 17. However, if we must choose, we would
+decide that 15 heads is more likely than any other number. We would write
+P(heads) = 0.5.
+Why did we choose 15 as more likely than any other number? We must
+have argued with ourselves in the following manner: If the most likely number of
+heads is NH in a total number of tosses N, then the most likely number of tails
+Nt is (N — Nji). (We are assuming that every toss gives either heads or tails,
+and no "other" result!) But if the coin is "honest," there is no preference for heads
+or tails. Until we have some reason to think the coin (or toss) is dishonest, we must
+give equal likelihoods for heads and tails. So we must set NT = NH. It follows
+that NT = NH = N/2, or P{H) = p(T) = 0.5.
+
+We can generalize our reasoning to any situation in which there are m different
+but "equivalent" (that is, equally likely) possible results of an observation.
+If an observation can yield m different results, and we have reason to believe that
+any one of them is as likely as any other, then the probability of a particular
+outcome A is P(A) = l/m.
+If there are seven different-colored balls in an opaque box and we pick one
+out "at random" (that is, without looking), the probability of getting a ball of a
+particular color is -f. The probability that a "blind draw" from a shuffled deck
+of 52 cards will show the ten of hearts is ^. The probability of throwing a double
+one with dice is ^g-.
+In Chapter 5 we described the size of a nucleus in terms of its apparent area, or
+"cross section." When we did so we were really talking about probabilities. When we
+shoot a high-energy particle at a thin slab of material, there is some chance that it will
+pass right through and some chance that it will hit a nucleus. (Since the nucleus is so
+small that we cannot see it, we cannot aim right at a nucleus. We must "shoot blind.")
+If there arc n atoms in our slab and the nucleus of each atom has a cross-sectional area
+<7, then the total area " shadowed " by the nuclei is na. In a large number N of random
+shots, we expect that the number of hits Nc of some nucleus will be in the ratio to A? as
+the shadowed area is to the total area of the slab:
+NcjN = twjA. F.2)
+We may say, therefore, that the probability that any one projectile particle will suffer
+a collision in passing through the slab is
+Pc = - <r, F.3)
+A
+where n/A is the number of atoms per unit area in our slab.
+
+
+6-2 Fluctuations
+We would like now to use our ideas about probability to consider in some
+greater detail the question: "How many heads do I really expect to get if I toss
+a coin N times?" Before answering the question, however, let us look at what
+does happen in such an "experiment." Figure 6-1 shows the results obtained in
+the first three "runs" of such an experiment in which N = 30. The sequences of
+"heads" and "tails" are shown just as they were obtained. The first game gave
+11 heads; the second also 11; the third 16. In three trials we did not once get 15
+heads. Should we begin to suspect the coin? Or were we wrong in thinking that
+the most likely number of "heads" in such a game is 15? Ninety-seven more runs
+were made to obtain a total of 100 experiments of 30 tosses each. The results
+of the experiment are given in Table 6-1.*
+
+Looking at the numbers in Table 6-1, we see that most of the results are
+"near" 15, in that they are between 12 and 18. We can get a better feeling for the
+details of these results if we plot a graph of the distribution of the results. We
+count the number of games in which a score of k was obtained, and plot this
+number for each k. Such a graph is shown in Fig. 6-2. A score of 15 heads was
+obtained in 13 games. A score of 14 heads was also obtained 13 times. Scores of
+16 and 17 were each obtained more than 13 times. Are we to conclude that there
+is some bias toward heads? Was our "best estimate" not good enough? Should
+* After the first three games, the experiment was actually done by shaking 30 pennies
+violently in a box and then counting the number of heads that showed.
+
+we conclude now that the "most likely" score for a run of 30 tosses is really 16
+heads? But wait! In all the games taken together, there were 3000 tosses. And the
+total number of heads obtained was 1492. The fraction of tosses that gave heads
+is 0.497, very nearly, but slightly less than half. We should certainly not assume
+that the probability of throwing heads is greater than 0.5! The fact that one particular
+set of observations gave 16 heads most often, is a. fluctuation. We still expect
+that the most likely number of heads is 15.
+We may ask the question: "What is the probability that a game of 30 tosses
+will yield 15 heads—or 16, or any other number?" We have said that in a game
+of one toss, the probability of obtaining one head is 0.5, and the probability of
+obtaining no head is 0.5. In a game of two tosses there are/ow possible outcomes:
+HH, HT, TH, TT. Since each of these sequences is equally likely, we conclude
+that (a) the probability of a score of two heads is \, (b) the probability of a score
+of one head is f, (c) the probability of a zero score is \. There are two ways of
+obtaining one head, but only one of obtaining either zero or two heads.
+Consider now a game of 3 tosses. The third toss is equally likely to be heads
+or tails. There is only one way to obtain 3 heads: we must have obtained 2 heads
+on the first two tosses, and then heads on the last. There are, however, three ways
+of obtaining 2 heads. We could throw tails after having thrown two heads (one
+way) or we could throw heads after throwing only one head in the first two tosses
+(two ways). So for scores of 3-H, 2-/7, 1-/7, 0-H we have that the number of equally
+likely ways is 1, 3, 3, 1, with a total of 8 different possible sequences. The probabilities are %, f, f, ?.
+
+The argument we have been making can be summarized by a diagram like that
+in Fig. 6-3. It is clear how the diagram should be continued for games with a larger
+number of tosses. Figure 6-4 shows such a diagram for a game of 6 tosses. The
+number of "ways" to any point on the diagram is just the number of different
+"paths" (sequences of heads and tails) which can be taken from the starting point.
+The vertical position gives us the total number of heads thrown. The set of numbers
+which appears in such a diagram is known as Pascal's triangle. The numbers
+are also known as the binomial coefficients, because they also appear in the expansion
+of (a + b)n. If we call n the number of tosses and k the number of heads
+thrown, then the numbers in the diagram are usually designated by the symbol
+(?). We may remark in passing that the binomial coefficients can also be computed
+from
+\k) =
+k\(n - k)\
+F'4)
+where n\, called "^-factorial," represents the product (n)(n — \)(n — 2)... C)
+BX0-
+We are now ready to compute the probability P(k, n) of throwing k heads in
+n tosses, using our definition Eq. F.1). The total number of possible sequences
+is 2" (since there are 2 outcomes for each toss), and the number of ways of obtaining 
+k heads is (?), all equally likely, so we have
+
+
+Since P(k, n) is the fraction of games which we expect to yield k heads, then
+in 100 games we should expect to find k heads 100 • P(k, n) times. The dashed
+curve in Fig. 6-2 passes through the points computed from 100 ¦ P(k, 30). We
+see that we expect to obtain a score of 15 heads in 14 or 15 games, whereas this
+score was observed in 13 games. We expect a score of 16 in 13 or 14 games, but
+we obtained that score in 16 games. Such fluctuations are "part of the game."
+The method we have just used can be applied to the most general situation
+in which there are only two possible outcomes of a single observation. Let us
+designate the two outcomes by W (for "win") and L (for "lose"). In the general
+case, the probability of W or L in a single event need not be equal. Let p be the
+probability of obtaining the result W. Then q, the probability of L, is necessarily
+
+A - p). In a set of n trials, the probability P(k, n) that W will be obtained k
+times is
+This probability function is called the Bernoulli or, also, the binomial probability.
+6-3 The random walk
+There is another interesting problem in which the idea of probability is required.
+It is the problem of the "random walk." In its simplest version, we imagine
+a "game" in which a "player" starts at the point x = 0 and at each "move"
+is required to take a step either forward (toward +x) or backward (toward —x).
+The choice is to be made randomly, determined, for example, by the toss of a coin.
+How shall we describe the resulting motion? In its general form the problem is
+related to the motion of atoms (or other particles) in a gas—called Brownian
+motion—and also to the combination of errors in measurements. You will see
+that the random-walk problem is closely related to the coin-tossing problem we
+have already discussed.
+First, let us look at a few examples of a random walk. We may characterize
+the walker's progress by the net distance DN traveled in TV steps. We show in the
+graph of Fig. 6-5 three examples of the path of a random walker. (We have used
+for the random sequence of choices the results of the coin tosses shown in Fig.
+
+What can we say about such a motion? We might first ask: "How far does
+he get on the average?" We must expect that his average progress will be zero,
+since he is equally likely to go either forward or backward. But we have the feeling
+that as TV increases, he is more likely to have strayed farther from the starting
+point. We might, therefore, ask what is his average distance travelled in absolute
+value, that is, what is the average of \D\. It is, however, more convenient to deal
+with another measure of "progress," the square of the distance: D2 is positive
+for either positive or negative motion, and is therefore a reasonable measure of
+such random wandering.
+We can show that the expected value of D$ is just N, the number of steps
+taken. By "expected value" we mean the probable value (our best guess), which
+we can think of as the expected average behavior in many repeated sequences.
+We represent such an expected value by {D§), and may refer to it also as the "mean
+square distance." After one step, D2 is always +1, so we have certainly (D\) = 1.
+(All distances will be measured in terms of a unit of one step. We shall not continue
+to write the units of distance.)
+
+
+
+The expected value of D$ for N > 1 can be obtained from D^—i- If, after
+(N — 1) steps, we have DN^i, then after N steps we have DN = DN-1 + 1 or
+DN = DN-i — 1. For the squares,
+Av = \ or F.7)
+\r—1 — 2Av—1
+In a number of independent sequences, we expect to obtain each value one-half
+of the time, so our average expectation is just the average of the two possible
+values. The expected value of DN is then Aw-i + 1. In general, we should
+expect for A$-i its "expected value" (Av-i) (by definition!). So
+(Av) = (Av-i) + 1. F.8)
+We have already shown that {D\) = 1; it follows then that
+D% = N, F.9)
+a particularly simple result!
+If we wish a number like a distance, rather than a distance squared, to represent
+the "progress made away from the origin" in a random walk, we can use the
+"root-mean-square distance" Drms:
+ATM = ^W) = Vn. F.10)
+We have pointed out that the random walk is closely similar in its mathematics
+to the coin-tossing game we considered at the beginning of the chapter.
+If we imagine the direction of each step to be in correspondence with the appearance
+of heads or tails in a coin toss, then D is just Nh — Nt, the difference in the number 
+of heads and tails. Since NH + NT = N, the total number of steps (and tosses),
+we have D = 2Nh — N. We have derived earlier an expression for the expected
+distribution of Nh (also called k) and obtained the result of Eq. F.5). Since
+TV is just a constant, we have the corresponding distribution for A (Since for
+every head more than 7V/2 there is a tail "missing," we have the factor of 2 between
+Nh and A) The graphs of Fig. 6-2 represent the distribution of distances we might
+get in 30 random steps (where k = 15 is to be read D = 0;k = 16, A = 2; etc.).
+
+The variation of Nh from its expected value N/2 is
+v N D ,,m
+Nh =¦=-=-• F.11)
+Z 2.
+The rms deviation is
+/ n\ _
+F.12)
+(nh -~) =
+\ 2. / rms
+According to our result for Dlms, we expect that the "typical" distance in
+30 steps ought to be V30 = 5.5, or a typical k should be about 5.5/2 = 2.8
+units from 15. We see that the "width" of the curve in Fig. 6-2, measured from
+the center, is just about 3 units, in agreement with this result.
+We are now in a position to consider a question we have avoided until now.
+How shall we tell whether a coin is "honest" or "loaded"? We can give now
+at least a partial answer. For an honest coin, we expect the fraction of the times
+heads appears to be 0.5, that is,
+= 0.5. F.13)
+We also expect an actual Nh to deviate from N/2 by about y/N/2, or the fraction
+to deviate by
+N2
+The larger N is, the closer we expect the fraction Nh/N to be to one-half.
 
 
