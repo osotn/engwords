@@ -642,7 +642,7 @@ to be of two varieties: First, an enormously complicated, detailed kind of inter
 force which held the various atoms in different combinations in a complicated
 way, which determined whether salt would dissolve faster or slower when
 we raise the temperature. The other force that was known was a long-range
-interaction—a smooth and quiet attraction—which varied inversely as the square
+interaction—a smooth and quiet attraction — which varied inversely as the square
 of the distance, and was called gravitation. This law was known and was very
 simple. Why things remain in motion when they are moving, or why there is a
 law of gravitation was, of course, not known.
@@ -650,7 +650,8 @@ A description of nature is what we are concerned with here. From this point
 of view, then, a gas, and indeed all matter, is a myriad of moving particles. Thus
 many of the things we saw while standing at the seashore can immediately be
 connected. First the pressure: this comes from the collisions of the atoms with
-the walls or whatever; the drift of the atoms, if they are all moving in one directionon the average, is wind; the random internal motions are the heat. There are
+the walls or whatever; the drift of the atoms, if they are all moving in one direction 
+on the average, is wind; the random internal motions are the heat. There are
 waves of excess density, where too many particles have collected, and so as they
 rush off they push up piles of particles farther out, and so on. This wave of excess
 density is sound. It is a tremendous achievement to be able to understand so much.
@@ -972,7 +973,7 @@ mass of two or three hundred times that of an electron; and lo and behold, in
 cosmic rays there was discovered a particle of the right mass! But it later turned
 out to be the wrong particle. It was called a ^-meson, or muon.
 However, a little while later, in 1947 or 1948, another particle was found,
-the ir-meson, or pion, which satisfied Yukawa's criterion. Besides the proton and
+the ir - meson, or pion, which satisfied Yukawa's criterion. Besides the proton and
 the neutron, then, in order to get nuclear forces we must add the pion. Now,
 you say, "Oh great!, with this theory we make quantum nucleodynamics using
 the pions just like Yukawa wanted to do, and see if it works, and everything will
@@ -1015,7 +1016,7 @@ is equal to 1.782 X 10~27 gram. The reason this unit was chosen is historical,
 and we shall not go into it now. More massive particles are put higher up on the
 chart; we see that a neutron and a proton have almost the same mass. In vertical
 columns we have put the particles with the same electrical charge, all neutral
-objects in one column, all positively charged ones to the right of this one, anp pd all
+objects in one column, all positively charged ones to the right of this one, all
 negatively charged objects to the left.
 
 Particles are shown with a solid line and " resonances " with a dashed one.
@@ -1246,7 +1247,7 @@ if we could literally take the molecules in our hands and push and pull the atom
 around in such a way as to open a hole to let the new atom in, and then let it snap
 back, we would have found another way, around the hill, which would not require
 extra energy, and the reaction would go easily. Now there actually are, in the cells,
-xery large molecules, much larger than the ones whose changes we have been describing,
+very large molecules, much larger than the ones whose changes we have been describing,
 which in some complicated way hold the smaller molecules just right, so
 that the reaction can occur easily. These very large and complicated things are
 called enzymes. (They were first called ferments, because they were originally
@@ -1276,7 +1277,7 @@ which have extra energy and which can go drive some other cycle which requires
 energy, for example the contraction of muscle. The muscle will not contract
 unless there is GTP. We can take muscle fiber, put it in water, and add GTP,
 and the fibers contract, changing GTP to GDP if the right enzymes are present.
-So the real system is in the GDP-GTP transformation; in the dark the GTP
+So the real system is in the GDP - GTP transformation; in the dark the GTP
 which has been stored up during the day is used to run the whole cycle around the
 other way. An enzyme, you see, does not care in which direction the reaction goes,
 for if it did it would violate one of the laws of physics.
@@ -1382,7 +1383,7 @@ seems to be the matter. However, it is also known that little molecule pieces co
 off the DNA—not as long as the big DNA molecule that carries all the information itself, but like a small section of it. This is called RNA, but that is not essential.
 It is a kind of copy of the DNA, a short copy. The RNA, which somehow carries
 a message as to what kind of protein to make goes over to the microsome; that
-is known. When it gets there, protein is synthesized at the microsome. That is
+is known. When it gets there, protein is synthesized at the . That is
 also known. However, the details of how the amino acids come in and are arranged
 in accordance with a code that is on the RNA are, as yet, still unknown. We do
 not know how to read it. If we knew, for example, the " lineup " A, B, C, C, A,
@@ -1400,8 +1401,8 @@ astronomy. Astronomy is older than physics. In fact, it got physics started by
 showing the beautiful simplicity of the motion of the stars and planets, the understanding
 of which was the beginning of physics. But the most remarkable discovery
 in all of astronomy is that the stars are made of atoms of the same kind as those on
-the earth.* How was this done? Atoms liberate light which has definite fre-
-* How I'm rushing through this' How much each sentence in this brief story contains.
+the earth.* How was this done? Atoms liberate light which has definite frequency
+* How I'm rushing through this ' How much each sentence in this brief story contains.
 "The stars are made of the same atoms as the earth." I usually pick one small topic like
 this to give a lecture on. Poets say science takes away from the beauty of the stars—mere
 globs of gas atoms. Nothing is "mere." I too can see the stars on a desert night, and
@@ -1425,11 +1426,11 @@ discerning as the ear in this connection. However, with a spectroscope we can
 analyze the frequencies of the light waves and in this way we can see the very tunes
 of the atoms that are in the different stars. As a matter of fact, two of the chemical
 elements were discovered on a star before they were discovered on the earth.
-Helium was discovered on the sun, whence its name, and technetium was dis-
-covered in certain cool stars. This, of course, permits us to make headway in
+Helium was discovered on the sun, whence its name, and technetium was discovered
+in certain cool stars. This, of course, permits us to make headway in
 understanding the stars, because they are made of the same kinds of atoms which
-are on the earth. Now we know a great deal about the atoms, especially con-
-cerning their behavior under conditions of high temperature but not very great
+are on the earth. Now we know a great deal about the atoms, especially concerning
+their behavior under conditions of high temperature but not very great
 density, so that we can analyze by statistical mechanics the behavior of the stellar
 substance. Even though we cannot reproduce the conditions on the earth, using
 the basic physical laws we often can tell precisely, or very closely, what will happen.
@@ -2096,7 +2097,7 @@ this way: if the location of the ball is marked at 1, 2, 3, 4,... units of time 
 the instant of its release, those marks are distant from the starting point in proportion 
 to the numbers 1, 4, 9, 16, ... Today we would say the distance is proportional to the square of the time:
 
-The study of motion, which is basic to all of physics, treats with the questipns:
+The study of motion, which is basic to all of physics, treats with the questions:
 where? and when?
 5-1 Motion
 
@@ -2157,8 +2158,8 @@ Let us agree that if our pendulum oscillates 3600 times in one hour (and if
 there are 24 such hours in a day), we shall call each period of the pendulum one
 "second." We have then divided our original unit of time into approximately
 105 parts. We can apply the same principles to divide the second into smaller and
-smaller intervals. It is, you will realize, not practical to make mechanical pen-
-dulums which go arbitrarily fast, but we can now make electrical pendulums,
+smaller intervals. It is, you will realize, not practical to make mechanical pendulums
+which go arbitrarily fast, but we can now make electrical pendulums,
 called oscillators, which can provide a periodic occurrence with a very short
 period of swing. In these electronic oscillators it is an electrical current which
 swings to and fro, in a manner analogous to the swinging of the bob of the pendulum.
@@ -2825,5 +2826,491 @@ We also expect an actual Nh to deviate from N/2 by about y/N/2, or the fraction
 to deviate by
 N2
 The larger N is, the closer we expect the fraction Nh/N to be to one-half.
+
+In Fig. 6-6 we have plotted the fraction Nn / N for the coin tosses reported
+earlier in this chapter. We see the tendency for the fraction of heads to approach
+0.5 for large N. Unfortunately, for any given run or combination of runs there is
+no guarantee that the observed deviation will be even near the expected deviation.
+There is always the finite chance that a large fluctuation—a long string of heads
+or tails—will give an arbitrarily large deviation. All we can say is that if the
+deviation is near the expected l/2y/N (say within a factor of 2 or 3), we have no
+reason to suspect the honesty of the coin. If it is much larger, we may be suspicious,
+but cannot prove, that the coin is loaded (or that the tosser is clever!).
+We have also not considered how we should treat the case of a "coin" or
+some similar " chancy " object (say a stone that always lands in either of two positions)
+that we have good reason to believe should have a different probability for
+heads and tails. We have denned P(H) = (NH)/N. How shall we know what to
+expect for NH ? In some cases, the best we can do is to observe the number of
+heads obtained in large numbers of tosses. For want of anything better, we must
+set {Nh) = Nh(observed). (How could we expect anything else?) We must understand,
+however, that in such a case a different experiment, or a different observer,
+might conclude that P(H) was different. We would expect, however, that the various
+answers should agree within the deviation l/2\/N[if P{H) is near one-half]. An
+experimental physicist usually says that an "experimentally determined" probability
+has an "error," and writes
+
+There is an implication in such an expression that there is a "true" or "correct"
+probability which could be computed if we knew enough, and that the observation
+may be in "error" due to a fluctuation. There is, however, no way to make such
+thinking logically consistent. It is probably better to realize that the probability
+concept is in a sense subjective, that it is always based on uncertain knowledge,
+and that its quantitative evaluation is subject to change as we obtain more
+information.
+
+6-4 A probability distribution
+Let us return now to the random walk and consider a modification of it.
+Suppose that in addition to a random choice of the direction (+ or —) of each
+step, the length of each step also varied in some unpredictable way, the only condition
+being that on the average the step length was one unit. This case is more
+representative of something like the thermal motion of a molecule in a gas. If
+we call the length of a step S, then ? may have any value at all, but most often
+will be "near" 1. To be specific, we shall let (S2) = 1 or, equivalently, 5rms = 1.
+Our derivation for {D2) would proceed as before except that Eq. F.8) would be
+changed now to read
+We have, as before, that
+
+What would we expect now for the distribution of distances D1 What is,
+for example, the probability that D = 0 after 30 steps? The answer is zero!
+The probability is zero that D will be any particular value, since there is no chance
+at all that the sum of the backward steps (of varying lengths) would exactly equal
+the sum of forward steps. We cannot plot a graph like that of Fig. 6-2.
+We can, however, obtain a representation similar to that of Fig. 6-2, if we
+ask, not what is the probability of obtaining D exactly equal to 0, 1, or 2, but
+instead what is the probability of obtaining D near 0, 1, or 2. Let us define P(x, Ax)
+as the probability that D will lie in the interval Ax located at x (say from x to
+x + Ax). We expect that for small Ax the chance of D landing in the interval
+is proportional to Ax, the width of the interval. So we can write
+
+The function p{x) is called the probability density.
+The form of p(x) will depend on N, the number of steps taken, and also on
+the distribution of individual step lengths. We cannot demonstrate the proofs
+here, but for large N, p(x) is the same for all reasonable distributions in individual
+step lengths, and depends only on N. We plot p(x) for three values of N in Fig.
+6-7. You will notice that the " half-widths " (typical spread from x = 0) of these
+curves is y/N, as we have shown it should be.
+You may notice also that the value of p(x) near zero is inversely proportional
+to \/N. This comes about because the curves are all of a similar shape and their
+areas under the curves must all be equal. Since p(x) Ax is the probability of finding
+D in Ax when Ax is small, we can determine the chance of finding D somewhere
+inside an arbitrary interval from X \ to x2, by cutting the interval in a number of
+small increments Ax and evaluating the sum of the terms p(x) Ax for each increment.
+The probability that D lands somewhere between xx and x2, which we may
+write, is equal to the shaded area in Fig. 6-8. The smaller we
+take the increments Ax, the more correct is our result. We can write, therefore,
+
+The area under the whole curve is the probability that D lands somewhere
+(that is, has some value between x = —00 and x = +00). That probability is
+surely 1. We must have that
+
+Since the curves in Fig. 6-7 get wider in proportion to \/N, their heights must be
+proportional to \/\/~N to maintain the total area equal to 1.
+The probability density function we have been describing is one that is encountered
+most commonly. It is known as the normal or gaussian probability
+density. It has the mathematical form
+
+where <r is called the standard deviation and is given, in our case, by <r =
+or, if the rms step size is different from 1, by <r = y/NS^g.
+We remarked earlier that the motion of a molecule, or of any particle, in a gas
+is like a random walk. Suppose we open a bottle of an organic compound and let
+some of its vapor escape into the air. If there are air currents, so that the air is
+circulating, the currents will also carry the vapor with them. But even in perfectly
+still air, the vapor will gradually spread out—will diffuse—until it has penetrated
+throughout the room. We might detect it by its color or odor. The individual
+molecules of the organic vapor spread out in still air because of the molecular
+motions caused by collisions with other molecules. If we know the average "step"
+size, and the number of steps taken per second, we can find the probability that
+one, or several, molecules will be found at some distance from their starting point
+after any particular passage of time. As time passes, more steps are taken and the
+gas spreads out as in the successive curves of Fig. 6-7. In a later chapter, we shall
+find out how the step sizes and step frequencies are related to the temperature and
+pressure of a gas.
+
+Earlier, we said that the pressure of a gas is due to the molecules bouncing
+against the walls of the container. When we come later to make a more quantitative
+description, we will wish to know how fast the molecules are going when they
+bounce, since the impact they make will depend on that speed. We cannot, however,
+speak of the speed of the molecules. It is necessary to use a probability
+description. A molecule may have any speed, but some speeds are more likely
+than others. We describe what is going on by saying that the probability that any
+particular molecule will have a speed between v and v + Av is p(v) Av, where
+pip), a probability density, is a given function of the speed v. We shall see later
+how Maxwell, using common sense and the ideas of probability, was able to
+find a mathematical expression for p(v). The form* of the function p(v) is shown
+in Fig. 6-9. Velocities may have any value, but are most likely to be near the
+most probable or expected value (v).
+We often think of the curve of Fig. 6-9 in a somewhat different way. If we
+consider the molecules in a typical container (with a volume of, say, one liter),
+then there are a very large number N of molecules present (N « 1022). Since
+piy) Av is the probability that one molecule will have its velocity in Av, by our
+definition of probability we mean that the expected number {AN) to be found with
+a velocity in the interval Av is given by
+(AN) = Np(v)Av.
+F.21)
+We call Np(v) the "distribution in velocity." The area under the curve between
+two velocities Vi and v2, for example the shaded area in Fig. 6-9, represents
+[for the curve Np(v)] the expected number of molecules with velocities between
+vi and v 2. Since with a gas we are usually dealing with large numbers of molecules,
+we expect the deviations from the expected numbers to be small (like \./s/N), so
+we often neglect to say the "expected" number, and say instead: "The number of
+molecules with velocities between Vi and j/2 is the area under the curve." We
+should remember, however, that such statements are always about probable
+numbers.
+* Maxwell's expression is p{v) = \, where a is a constant related to the temperature
+and C is chosen so that the total probability is one.
+
+6-5 The uncertainty principle
+The ideas of probability are certainly useful in describing the behavior of
+the 1022 or so molecules in a sample of a gas, for it is clearly impractical even
+to attempt to write down the position or velocity of each molecule. When probability
+was first applied to such problems, it was considered to be a convenience — 
+a way of dealing with very complex situations. We now believe that the ideas of
+probability are essential to a description of atomic happenings. According to
+quantum mechanics, the mathematical theory of particles, there is always some
+uncertainty in the specification of positions and velocities. We can, at best, say
+that there is a certain probability that any particle will have a position near some
+coordinate x.
+We can give a probability density p\{x), such that/>iO) Ax is the probability
+that the particle will be found between x and x + Ax. If the particle is reasonably
+well localized, say near the function pi(x) might be given by the graph of
+Fig. 6-10(a). Similarly, we must specify the velocity of the particle by means of
+a probability density p2(v), with p2(v)Av the probability that the velocity will
+be found between v and v + Av.
+It is one of the fundamental results of quantum mechanics that the two functions
+pi(x) and p2(y) cannot be chosen independently and, in particular, cannot
+both be made arbitrarily narrow. If we call the typical "width" of the pi(x)
+curve [Ax], and that of  curve [Av] (as shown in the figure), nature demands
+that the product of the two widths be at least as big as the number h/m, where m
+is the mass of the particle and h is a fundamental physical constant called Planck's
+constant. We may write this basic relationship as
+[Ax] • [Aw] > h/m.
+F.22)
+This equation is a statement of the Heisenberg uncertainty principle that we
+mentioned earlier.
+
+Since the right-hand side of Eq. F.22) is a constant, this equation says that
+if we try to "pin down" a particle by forcing it to be at a particular place, it ends
+up by having a high speed. Or if we try to force it to go very slowly, or at a
+precise velocity, it "spreads out" so that we do not know very well just where
+it is. Particles behave in a funny way!
+The uncertainty principle describes an inherent fuzziness that must exist in
+any attempt to describe nature. Our most precise description of nature must
+be in terms of probabilities. There are some people who do not like this way of
+describing nature. They feel somehow that if they could only tell what is really
+going on with a particle, they could know its speed and position simultaneously.
+In the early days of the development of quantum mechanics, Einstein was quite
+worried about this problem. He used to shake his head and say, "But, surely God
+does not throw dice in determining how electrons should go!" He worried about
+that problem for a long time and he probably never really reconciled himself to
+the fact that this is the best description of nature that one can give. There are
+still one or two physicists who are working on the problem who have an intuitive
+conviction that it is possible somehow to describe the world in a different way
+and that all of this uncertainty about the way things are can be removed. No one
+has yet been successful.
+The necessary uncertainty in our specification of the position of a particle
+becomes most important when we wish to describe the structure of atoms. In
+the hydrogen atom, which has a nucleus of one proton with one electron outside
+of the nucleus, the uncertainty in the position of the electron is as large as the atom
+itself! We cannot, therefore, properly speak of the electron moving in some "orbit"
+around the proton. The most we can say is that there is a certain chance p(r) AV,
+of observing the electron in an element of volume AV at the distance r from the
+proton. The probability density p{r) is given by quantum mechanics. For an
+undisturbed hydrogen atom p(r) = Ae~r2la2, which is a bell-shaped function like
+that in Fig. 6-8. The number a is the "typical" radius, where the function is decreasing
+rapidly. Since there is a small probability of finding the electron at distances
+
+from the nucleus much greater than a, we may think of a as "the radius of the
+atom," about 10~10 meter.
+We can form an image of the hydrogen atom by imagining a "cloud" whose
+density is proportional to the probability density for observing the electron.
+A sample of such a cloud is shown in Fig. 6-11. Thus our best "picture" of a
+hydrogen atom is a nucleus surrounded by an "electron cloud" (although we really
+mean a "probability cloud"). The electron is there somewhere, but nature permits
+us to know only the chance of finding it at any particular place.
+In its efforts to learn as much as possible about nature, modern physics has
+found that certain things can never be "known" with certainty. Much of our
+knowledge must always remain uncertain. The most we can know is in terms of
+probabilities.
+
+
+The Theory of Gravitation
+7-1 Planetary motions
+In this chapter we shall discuss one of the most far-reaching generalizations
+of the human mind. While we are admiring the human mind, we should take some
+time off to stand in awe of a nature that could follow with such completeness and
+generality such an elegantly simple principle as the law of gravitation. What is
+this law of gravitation? It is that every object in the universe attracts every
+other object with a force which for any two bodies is proportional to the mass of
+each and varies inversely as the square of the distance between them. This statement
+can be expressed mathematically by the equation
+
+If to this we add the fact that an object responds to a force by accelerating in the
+direction of the force by an amount that is inversely proportional to the mass of
+the object, we shall have said everything required, for a sufficiently talented
+mathematician could then deduce all the consequences of these two principles.
+However, since you are not assumed to be sufficiently talented yet, we shall discuss
+the consequences in more detail, and not just leave you with only these two
+bare principles. We shall briefly relate the story of the discovery of the law of
+gravitation and discuss some of its consequences, its effects on history, the mysteries
+that such a law entails, and some refinements of the law made by Einstein;
+we shall also discuss the relationships of the law to the other laws of physics.
+All this cannot be done in one chapter, but these subjects will be treated in due
+time in subsequent chapters.
+
+The story begins with the ancients observing the motions of planets among the
+stars, and finally deducing that they went around the sun, a fact that was rediscovered
+later by Copernicus. Exactly how the planets went around the sun,
+with exactly what motion, took a little more work to discover. In the beginning of
+the fifteenth century there were great debates as to whether they really went around
+the sun or not. Tycho Brahe had an idea that was different from anything proposed
+by the ancients: his idea was that these debates about the nature of the
+motions of the planets would best be resolved if the actual positions of the planets
+in the sky were measured sufficiently accurately. If measurement showed exactly
+how the planets moved, then perhaps it would be possible to establish one or
+another viewpoint. This was a tremendous idea—that to find something out, it
+is better to perform some careful experiments than to carry on deep philosophical
+arguments. Pursuing this idea, Tycho Brahe studied the positions of the planets
+for many years in his observatory on the island of Hven, near Copenhagen. He
+made voluminous tables, which were then studied by the mathematician Kepler,
+after Tycho's death. Kepler discovered from the data some very beautiful and
+remarkable, but simple, laws regarding planetary motion.
+
+7-1 Planetary motions
+First of all, Kepler found that each planet goes around the sun in a curve
+called an ellipse, with the sun at a focus of the ellipse. An ellipse is not just an
+oval, but is a very specific and precise curve that can be obtained by using two
+tacks, one at each focus, a loop of string, and a pencil; more mathematically, it
+
+is the locus of all points the sum of whose distances from two fixed points (the foci)
+is a constant. Or, if you will, it is a foreshortened circle (Fig. 7-1).
+Kepler's second observation was that the planets do not go around the sun
+at a uniform speed, but move faster when they are nearer the sun and more
+slowly when they are farther from the sun, in precisely this way: Suppose a planet
+is observed at any two successive times, let us say a week apart, and that the radius
+vector* is drawn to the planet for each observed position. The orbital arc traversed
+by the planet during the week, and the two radius vectors, bound a certain plane
+area, the shaded area shown in Fig. 7-2. If two similar observations are made a
+week apart, at a part of the orbit farther from the sun (where the planet moves
+more slowly), the similarly bounded area is exactly the same as in the first case.
+So, in accordance with the second law, the orbital speed of each planet is such that
+the radius "sweeps out" equal areas in equal times.
+Finally, a third law was discovered by Kepler much later; this law is of a
+different category from the other two, because it deals not with only a single planet,
+but relates one planet to another. This law says that when the orbital period and
+orbit size of any two planets are compared, the periods are proportional to the
+3/2 power of the orbit size. In this statement the period is the time interval it
+takes a planet to go completely around its orbit, and the size is measured by the
+length of the greatest diameter of the elliptical orbit, technically known as the
+major axis. More simply, if the planets went in circles, as they nearly do, the
+time required to go around the circle would be proportional to the 3/2 power of
+the diameter (or radius). Thus Kepler's three laws are:
+I. Each planet moves around the sun in an ellipse, with the sun at one focus.
+II. The radius vector from the sun to the planet sweeps out equal areas in
+equal intervals of time.
+III. The squares of the periods of any two planets are proportional to the
+cubes of the semimajor axes of their respective orbits:
+
+7-3 Development of dynamics
+While Kepler was discovering these laws, Galileo was studying the laws of
+motion. The problem was, what makes the planets go around? (In those days,
+one of the theories proposed was that the planets went around because behind
+them were invisible angels, beating their wings and driving the planets forward.
+You will see that this theory is now modified! It turns out that in order to keep
+the planets going around, the invisible angels must fly in a different direction and
+they have no wings. Otherwise, it is a somewhat similar theory!) Galileo discovered
+a very remarkable fact about motion, which was essential for understanding
+these laws. That is the principle of inertia—if something is moving, with
+nothing touching it and completely undisturbed, it will go on forever, coasting at
+a uniform speed in a straight line. (Why does it keep on coasting? We do not
+know, but that is the way it is.)
+Newton modified this idea, saying that the only way to change the motion
+of a body is to use force. If the body speeds up, a force has been applied in the
+direction of motion. On the other hand, if its motion is changed to a new direction,
+a force has been applied sideways. Newton thus added the idea that a force
+is needed to change the speed or the direction of motion of a body. For example,
+if a stone is attached to a string and is whirling around in a circle, it takes a force
+to keep it in the circle. We have to pull on the string. In fact, the law is that the
+acceleration produced by the force is inversely proportional to the mass, or the
+force is proportional to the mass times the acceleration. The more massive a
+thing is, the stronger the force required to produce a given acceleration. (The
+mass can be measured by putting other stones on the end of the same string and
+making them go around the same circle at the same speed. In this way it is found
+that more or less force is required, the more massive object requiring more force.)
+* A radius vector is a line drawn from the sun to any point in a planet's orbit.
+
+The brilliant idea resulting from these considerations is that no tangential force
+is needed to keep a planet in its orbit (the angels do not have to fly tangentially)
+because the planet would coast in that direction anyway. If there were nothing
+at all to disturb it, the planet would go off in a straight line. But the actual motion
+deviates from the line on which the body would have gone if there were no force,
+the deviation being essentially at right angles to the motion, not in the direction
+of the motion. In other words, because of the principle of inertia, the force needed
+to control the motion of a planet around the sun is not a force around the sun
+but toward the sun. (If there is a force toward the sun, the sun might be the angel,
+of course!)
+
+7-4 Newton's law of gravitation
+From his better understanding of the theory of motion, Newton appreciated
+that the sun could be the seat or organization of forces that govern the motion of
+the planets. Newton proved to himself (and perhaps we shall be able to prove it
+soon) that the very fact that equal areas are swept out in equal times is a precise
+sign post of the proposition that all deviations are precisely radial—that the law of
+areas is a direct consequence of the idea that all of the forces are directed exactly
+toward the sun.
+Next, by analyzing Kepler's third law it is possible to show that the farther
+away the planet, the weaker the forces. If two planets at different distances from
+the sun are compared, the analysis shows that the forces are inversely proportional
+to the squares of the respective distances. With the combination of the
+two laws, Newton concluded that there must be a force, inversely as the square
+of the distance, directed in a line between the two objects.
+
+Being a man of considerable feeling for generalities, Newton supposed, of
+course, that this relationship applied more generally than just to the sun holding
+the planets. It was already known, for example, that the planet Jupiter had moons
+going around it as the moon of the earth goes around the earth, and Newton
+felt certain that each planet held its moons with a force. He already knew of the
+force holding us on the earth, so he proposed that this was a universal force 
+that everything pulls everything else.
+The next problem was whether the pull of the earth on its people was the
+"same" as its pull on the moon, i.e., inversely as the square of the distance. If an
+object on the surface of the earth falls 16 feet in the first second after it is released
+from rest, how far does the moon fall in the same time? We might say that the
+moon does not fall at all. But if there were no force on the moon, it would go off
+in a straight line, whereas it goes in a circle instead, so it really falls in from where
+it would have been if there were no force at all. We can calculate from the radius
+of the moon's orbit (which is about 240,000 miles) and how long it takes to go
+around the earth (approximately 29 days), how far the moon moves in its orbit
+in 1 second, and can then calculate how far it falls in one second.* This distance
+turns out to be roughly 1/20 of an inch in a second. That fits very well with the
+inverse square law, because the earth's radius is 4000 miles, and if something which
+is 4000 miles from the center of the earth falls 16 feet in a second, something
+240,000 miles, or 60 times as far away, should fall only 1/3600 of 16 feet, which also
+is roughly 1/20 of an inch. Wishing to put this theory of gravitation to a test by
+similar calculations, Newton made his calculations very carefully and found a
+discrepancy so large that he regarded the theory as contradicted by facts, and did
+not publish his results. Six years later a new measurement of the size of the earth
+showed that the astronomers had been using an incorrect distance to the moon.
+When Newton heard of this, he made the calculation again, with the corrected
+figures, and obtained beautiful agreement.
+This idea that the moon "falls" is somewhat confusing, because, as you see,
+it does not come any closer. The idea is sufficiently interesting to merit further
+* That is, how far the circle of the moon's orbit falls below the straight line tangent
+to it at the point where the moon was one second before.
+
+explanation: the moon falls in the sense that it falls away from the straight line
+that it would pursue if there were no forces. Let us take an example on the surface
+of the earth. An object released near the earth's surface will fall 16 feet in the first
+second. An object shot out horizontally will also fall 16 feet; even though it is
+moving horizontally, it still falls the same 16 feet in the same time. Figure 7-3
+shows an apparatus which demonstrates this. On the horizontal track is a ball
+which is going to be driven forward a little distance away. At the same height
+is a ball which is going to fall vertically, and there is an electrical switch arranged
+so that at the moment the first ball leaves the track, the second ball is released.
+That they come to the same depth at the same time is witnessed by the fact that
+they collide in midair. An object like a bullet, shot horizontally, might go a long
+way in one second—perhaps 2000 feet—but it will still fall 16 feet if it is aimed
+horizontally. What happens if we shoot a bullet faster and faster? Do not forget
+that the earth's surface is curved. If we shoot it fast enough, then when it falls
+16 feet it may be at just the same height above the ground as it was before. How
+can that be? It still falls, but the earth curves away, so it falls "around" the earth.
+The question is, how far does it have to go in one second so that the earth is
+16 feet below the horizon? In Fig. 7-4 we see the earth with its 4000-mile radius,
+and the tangential, straightline path that the bullet would take if there were no
+force. Now, if we use one of those wonderful theorems in geometry, which says
+that our tangent is the mean proportional between the two parts of the diameter
+cut by an equal chord, we see that the horizontal distance travelled is the mean
+proportional between the 16 feet fallen and the 8000-mile diameter of the earth.
+The square root of A6/5280) X 8000 comes out very close to 5 miles. Thus
+we see that if the bullet moves at 5 miles a second, it then will continue to fall
+toward the earth at the same rate of 16 feet each second, but will never get any
+closer because the earth keeps curving away from it. Thus it was that Mr. Gagarin
+maintained himself in space while going 25,000 miles around the earth at approximately
+5 miles per second. (He took a little longer because he was a little higher.)
+
+Any great discovery of a new law is useful only if we can take more out than
+we put in. Now, Newton used the second and third of Kepler's laws to deduce
+his law of gravitation. What did he predict? First, his analysis of the moon's
+motion was a prediction because it connected the falling of objects on the earth's
+surface with that of the moon. Second, the question is, is the orbit an ellipse?
+We shall see in a later chapter how it is possible to calculate the motion exactly,
+and indeed one can prove that it should be an ellipse,* so no extra fact is needed
+to explain Kepler's first law. Thus Newton made his first powerful prediction.
+The law of gravitation explains many phenomena not previously understood.
+For example, the pull of the moon on the earth causes the tides, hitherto mysterious.
+The moon pulls the water up under it and makes the tides—people had thought
+of that before, but they were not as clever as Newton, and so they thought there
+ought to be only one tide during the day. The reasoning was that the moon pulls
+the water up under it, making a high tide and a low tide, and since the earth spins
+underneath, that makes the tide at one station go up and down every 24 hours.
+Actually the tide goes up and down in 12 hours. Another school of thought
+claimed that the high tide should be on the other side of the earth because, so they
+argued, the moon pulls the earth away from the water! Both of these theories
+are wrong. It actually works like this: the pull of the moon for the earth and for
+the water is "balanced" at the center. But the water which is closer to the moon is
+pulled more than the average and the water which is farther away from it is pulled
+less than the average. Furthermore, the water can flow while the more rigid earth
+cannot. The true picture is a combination of these two things.
+What do we mean by "balanced"? What balances? If the moon pulls the
+whole earth toward it, why doesn't the earth fall right "up" to the moon? Because
+the earth does the same trick as the moon, it goes in a circle around a point which
+is inside the earth but not at its center. The moon does not just go around the
+' The proof is not given in this course.
+
+earth, the earth and the moon both go around a central position, each falling
+toward this common position, as shown in Fig. 7-5. This motion around the
+common center is what balances the fall of each. So the earth is not going in a
+straight line either; it travels in a circle. The water on the far side is "unbalanced"
+because the moon's attraction there is weaker than it is at the cemer of the earth,
+where it just balances the "centrifugal force." The result of this imbalance is that
+the water rises up, away from the center of the earth. On the near side, the attraction
+from the moon is stronger, and the imbalance is in the opposite direction in
+space, but again away from the center of the earth. The net result is that we get
+two tidal bulges.
+
+7-5 Universal gravitation
+What else can we understand when we understand gravity? Everyone knows
+the earth is round. Why is the earth round? That is easy; it is due to gravitation.
+The earth can be understood to be round merely because everything attracts
+everything else and so it has attracted itself together as far as it can! If we go even
+further, the earth is not exactly a sphere because it is rotating? and this brings in
+centrifugal effects which tend to oppose gravity near the equator. It turns out that
+the earth should be elliptical, and we even get the right shape for the ellipse.
+We can thus deduce that the sun, the moon, and the earth should be (nearly)
+spheres, just from the law of gravitation.
+
+What else can you do with the law of gravitation ? If we look at the moons
+of Jupiter we can understand everything about the way they move around that
+planet. Incidentally, there was once a certain difficulty with the moons of Jupiter
+that is worth remarking on. These satellites were studied very carefully by Roemer,
+who noticed that the moons sometimes seemed to be ahead of schedule, and sometimes
+behind. (One can find their schedules by waiting a very long time and finding
+out how long it takes on the average for the moons to go around.) Now they were
+ahead when Jupiter was particularly close to the earth and they were behind when
+Jupiter was farther from the earth. This would have been a very difficult thing to
+explain according to the law of gravitation—it would have been, in fact, the death
+of this wonderful theory if there were no other explanation. If a law does not work
+even in one place where it ought to, it is just wrong. But the reason for this discrepancy
+was very simple and beautiful: it takes a little while to see the moons of
+Jupiter because of the time it takes light to travel from Jupiter to the earth. When
+Jupiter is closer to the earth the time is a little less, and when it is farther from the
+earth, the time is more. This is why moons appear to be, on the average, a little
+ahead or a little behind, depending on whether they are closer to or farther from
+the earth. This phenomenon showed that light does not travel instantaneously,
+and furnished the first estimate of the speed of light. This was done in 1656.
+If all of the planets push and pull on each other, the force which controls,
+let us say, Jupiter in going around the sun is not just the force from the sun;
+there is also a pull from, say, Saturn. This force is not really strong, since the sun
+is much more massive than Saturn, but there is some pull, so the orbit of Jupiter
+should not be a perfect ellipse, and it is not; it is slightly off, and "wobbles" around
+the correct elliptical orbit. Such a motion is a little more complicated. Attempts
+were made to analyze the motions of Jupiter, Saturn, and Uranus on the basis
+of the law of gravitation. The effects of each of these planets on each other were
+calculated to see whether or not the tiny deviations and irregularities in these
+motions could be completely understood from this one law. Lo and behold, for
+Jupiter and Saturn, all was well, but Uranus was "weird." It behaved in a very
+peculiar manner. It was not travelling in an exact ellipse, but that was understandable,
+because of the attractions of Jupiter and Saturn. But even if allowance
+were made for these attractions, Uranus still was not going right, so the laws of
+gravitation were in danger of being overturned, a possibility that could not be
+ruled out. Two men, Adams and Leverrier, in England and France, independently,
 
 
