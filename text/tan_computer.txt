@@ -1,0 +1,24 @@
+Multilevel machines:
+
+Level 0: Digital logic
+Level 1: Microarchitecture level
+Level 2: Instruction set architecture level
+Level 3: OS
+Level 4: Assembly language
+Level 5: Problem - oriented language
+
+
+0: Digital logic level
+    Gates -> transistors.
+    
+    
+Processors
+==========
+CPU = Central Processing Unit
+
+3. The digital logic level
+==========================
+
+    
+    
+    
