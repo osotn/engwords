@@ -1,0 +1,131 @@
+Discrete mathematics with applications - Susanna Epp
+----------------------------------------------------
+
+Discrete maths describes processes that consist of sequence of individual steps.
+
+Variable in a computer program is similar to a mathematical variable because
+it creates a location in computer memory (either actual or virtual) into which
+values can placed.
+
+Set is a collection of elements.
+Notation  x ∈ S means that x is an element of S.
+          x ∉ S means that x isn't
+
+Set may be specified using the set-roster notation by writing all of its elements
+between braces {}.
+
+Symbol ... is called an ellipsis and is read "and fo forth".
+
+Axion of extension: says that a set is completely determined by what its elements
+are - not the order in which they might be listed or the fact that some elements
+might be listed more than once.
+
+= {1, 2, 3} - set-roster notation
+
+R - set of all real number
+Z              integer
+Q              rational, or quotients of integers
+
+N - natural numbers.
+
+Set builder notation a set and let P(x) be a property that elements of S
+may or may not satisfy.
+
+{x ∈ S | P(x)} - the set of all elements x in S such that P(x) is true.
+
+If A and B are sets, then A is called a subset of B, written A ⊆ B, if, and
+only if, every element A is also an element of B.
+
+Let A and B is sets. A is a proper subset of B if, and only if, every element of
+A is B but there is at least one of B that is not in A.
+
+Given elements a and b, the symbol (a, b) denotes the ordered pair consisting of
+a and b together with specification that a is the first element of the pair and
+b is the second. Two ordered pairs (a, b) and (c, d) are equal if, and only if,
+a = c and b = d. Symbolically:
+    (a, b) = (c, d) means that  a = c and b = d.
+
+Ordered n-tuple
+
+1.3 The language or relations and functions
+-------------------------------------------
+
+A functioin F from a set A to set B is a relation with domain A and co-domain B
+that satisfies the following two properties:
+    For every element x in A, there is an element y in B such that (x,y) ∈ F
+    For all elements x in A and y and z in B
+        if (x, y) ∈ F and (x, z) ∈ F, then y = x.
+
+If A and B are sets and F is a function from A to B, the given any element x in
+A, the unique element in B that is related to x by F is denoted F(x), which is
+read "F of x".
+
+1.4 The language of graphs
+--------------------------
+
+The dots are called virtices (plural of vertex)
+The line segments joining vertices are called edges.
+
+When an edge connects a vertex to itself, it is called a loop.
+
+A directed graph, or digraph, consists of two finite sets: a nonempty set
+V(G) of vertices and a set D(G) of directed edges, where each is associated with
+an ordered pair or vertices called its endpoints. If edge e is associated with
+the pair (v, w) of vertices, then e is said to be directed edge from v to w.
+
+
+2. The logic of compound statements
+-----------------------------------
+
+~ denotes not
+∧ denotes and - conjunction
+∨ denotes or  - disjunction
+
+Double negative property  ~(~p) ≡ p
+
+De Morgan's laws:
+
+
+order of operations specifies that ~ is performed first.
+    ~(p ∧ q) = ~p ∨ ~q
+    ~(p ∨ q) = ~p ∧ ~q
+
+A tautology is a statement form that is always true regardless of th truth value
+of the individual statement substituted for its statement variables.
+A contradiction is a statement form that is always false.
+
+2.2 Conditional statements
+--------------------------
+
+Let p and q be statements. A sentence of the form "if p then p" is denotes
+symbolically by "p -> q" ; p is called the hypothesis and q is called the
+conclusion.
+
+    p -> q ≡ ~p ∨ q
+
+Biconditional of p and q is "p if, and only if, q"
+    p <-> q
+
+2.3 Valid and invalid arguments
+-------------------------------
+
+A fallacy is an error in reasoning that results in an invalid argument.
+
+2.4 Application: Digital Logic circuits
+--------------------------------------
+
+2.5 Application: Number systems and circuits for addition
+---------------------------------------------------------
+
+3. The logic of quantified statements
+=====================================
+
+In grammar, the word pridicate refers to the part of a sentence that gives
+information about the subject.
+
+    ∀ is called the universal quantifier = for every, for any
+    ∃ is called the existential quntifier 
+    
+    
+4. Elementary number theory and methods of proof
+================================================

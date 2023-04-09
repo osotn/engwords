@@ -21,6 +21,29 @@ CPU = Central Processing Unit
 
 4. The microarchitecture level
 ==============================
+
+Microarch will contain a microprogram (in ROM), whose job is to fetch, decode,
+and execute IJVM instructions.
+
+Each instructions at the ISA level is a function to be called by a master
+program. Master program is a simple, endless loop that determines a function
+to be invoked.
+
+Microprogram has a set of varialbes, called the state of the computer.
     
-    
-    
+5. The instruction set
+   Architecture level
+ ==========================
+
+6. The Operating system
+=======================
+
+7. The assembly language level
+==============================
+
+Translator is called an assembler and the source language is called an assembly.
+
+8. Parallel computer architectures
+==================================
+
+
