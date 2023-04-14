@@ -240,3 +240,63 @@ Let S denote a set and a - an element of S.
         P(A) - power set of A is the set of all subsets of A
         
         P({x, y}) = {∅, {x}, {y}, {x, y}}
+        
+=======
+=======
+        
+Courant - What is mathematics?
+==============================
+
+What is mathematics?
+--------------------
+Mathematics as an expression of the human mind reflects:
+    - the active will;
+    - the contemplative reason;
+    - the desire for aesthetic perfection.
+
+Its basic elements are:
+    - logic;
+    - intuition;
+    - analysis;
+    - construction;
+    - generality;
+    - individuality.
+
+Math trend from applied to theoretical science appears in ancient history as well
+as in many contributions to modern mathematics by engineers and physicists.
+
+Recorded maths begins in the Orient, where, about 2000 B.C., the Babylonians
+collected a great wealth of material that we would classify today under
+elementary algebra.
+
+A science in the modern sense maths only emerges later, on Greek soil, 
+in the fifth and fourth centuries B.C.
+
+Thus Greek thinkers became conscious of the great difficulties inherent in the
+mathematical concepts:
+    - continuity;
+    - motion;
+    - infinity;
+    - in problem of measuring arbitrary quantities by given units.
+
+The revolution in maths and science began its vigorous phase in the seventeenth
+century with:
+    - analytic geometry;
+    - differential and integral calculus.
+While Greek geometry retained an important place, the Greek ideal of axiomatic
+crystallization and systematic deduction disappeared in the seventeenth and
+eighteenth centuries. Logically precise reasoning, starting from clear definitions
+and non - contradictory, evident axioms, seemed immaterial to the new pioneers of
+mathematical science.
+
+In the nineteenth century the immanent need for consolidation and the desire for
+more security in the extension of higher learning that was prompted by
+the French revolution, inevitably led back to a revision of the foundations of
+the new maths, in particular of the differential and integral calculus and
+underlying concept of limit.  Maths went back to logical purity and abstraction.
+But resulting unfortunate separation between pure mathematics and the vital
+applications, perhaps inevitable in times of critical revision, will be followed
+by an era of closer unity.
+
+
+
