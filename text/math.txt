@@ -298,5 +298,126 @@ But resulting unfortunate separation between pure mathematics and the vital
 applications, perhaps inevitable in times of critical revision, will be followed
 by an era of closer unity.
 
+What:         actually are cannot and need not be discussed in maths.
+    - points;
+    - lines;
+    - numbers
+
+For scholars and layman alike it is not philosophy but active experience in maths
+itself that alone can answer the question: What is maths?
+
+Chapter I
+The natural numbers
+Introduction
+
+Number is the basis of modern mathematics.
+
+Calculation with integers
+Laws of arithmetic
+
+The math theory of the natural numbers or positive integers is known as arithmetic.
+
+Addition and subtraction are said to be inverse operations.
+
+ a + d - d = a
+ 
+We must carefully distinguish between an integer and the symbols.
+In the decimal system the ten digit symbols 0-9 are used.
+
+The infinitude of the number system.
+Mathematical induction
+The principle of math induction
+
+Arithmetic Progression
+
+1 + 2 + 3 + ... + n = n(n+1)/2
+
+The geometrical
+
+a + aq + aq^2 + ... + aq^n = a(1 - q^(n+1)/(1 - q)
+
+
+The theory of numbers
+Introduction
+
+The prime numbers.
+The distribution of the primes
+
+Congruences
+
+The euclidean algorithm
+-----------------------
+ If a is any integer and b is any integer greater than 0, then we can always
+ find q such that:  a = bq + r
+ Where r is an integer satisfying
+
+
+Chapter II
+The number system of maths
+
+Rational numbers as a device for measuring 
+
+Arithmetic:
+    - commutative law of addition;
+    - associative law of addition;
+    - commutative law of multiplication;
+    - associative law of multiplication;
+    - distributive law.
+
+The math analysis of infinity
+
+Infinite set: 1, 2, 3, ...
+
+Complex numbers
+---------------
+Solving quadratic equations.
+
+Sets
+----
+Set of objects is one of the most fundamental in maths.
+A set is defined by any property or attribute which each object considered
+must either possess or not possess; those objects which possess the property
+form a corresponding set A
+
+The set A is said to be a subset of the B if there is no object in A that is not
+also in B.
+
+Union and intersection
+
+
+Chapter III
+Geometrical constructions. The algebra of number fields.
+
+Imposiblility proofs and algebra
+
+Chapter 5
+Topology
+--------
+
+Chapter VI
+Functions and limits
+-------------------
+The main body of modern maths centers around the concepts of function and limit.
+
+Leibniz first used the word "function".
+
+Variable within the range of domain S.
+
+The variable X with ranges over the set S means that we a free to identify the
+symbol X with any member of the set S.
+
+The graph of any function consists of all the points in the plane whose
+coordinate x it variable.
+
+Continuity
+
+
+=====
+=====
+
+Knuth
+
+Floors and ceilings
+===================
 
 
