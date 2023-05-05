@@ -1,6 +1,728 @@
-Понятие числа.
-Натуральные цисла. Целые.
------------------------------
+Whole numbers
+-------------
+
+Learning algebra is similar to learning a language.
+Algebra uses numbers and symbols to represent words and ideas.
+
+Counting = natural numbers: 1, 2, 3, 4, 5, ...
+
+... - ellipsis = and so on
+
+Including zero with counting numbers gives a new set of numbers called the whole numbers.
+
+Whole numbers = {0, counting numbers}
+
+Our number system is called a place value system because the value of a digit
+depends on its position, or place, in a number.
+    374 = 300 + 70 + 4
+
+The place values are separated into groups of three, called periods.
+The periods are ones, thousands, millions, billions, trillions, and so on.
+In a written number, commas separate the periods.
+
+    37,519,248 is written thirty-seven million, five hundred nineteen thousand,
+                          two hundred forty-eight.
+Word and is not used when naming a whole number.
+
+The process of approximating a number is called rounding.
+Rounding to a specific place value depending on how much accuracy need.
+If the number is less than 5, round down, else - round up.
+
+The operation of addition combines numbers to get a sum.
+                3 + 4
+We read this as three plus four and the result is the sum of three and four.
+
+A math statement that includes numbers and operations is called an expression.
+
+Operation   : Addition
+Notation    : +
+Expression  : 3 + 4
+Read as     : three plus four
+Result      : the sum of 3 and 4
+
+Addition is really counting.
+We use an equal sign (=) to show the sum.
+
+Adding table
+
++  0  1  2  3  4  5    6  7  8  9
+0  0  1  2  3  4  5    6  7  8  9
+1  1  2  3  4  5  6    7  8  9 10
+
+2  2  3  4  5  6  7    8  9 10 11
+3  3  4  5  6  7  8    9 10 11 12
+4  4  5  6  7  8  9   10 11 12 13
+5  5  6  7  8  9 10   11 12 13 14
+
+6  6  7  8  9 10 11   12 13 14 15
+7  7  8  9 10 11 12   13 14 15 16
+8  8  9 10 11 12 13   14 15 16 17
+9  9 10 11 12 13 14   15 16 17 18
+
+! 6 + 7 = 13
+! 6 + 8 = 14
+! 7 + 8 = 15
+
+It is important that you memorize any number facts you do not already know so that
+you can quickly and reliably use the number facts when you add larger numbers.
+
+Words        Example                Expression
+-----        -------                ----------
+plus         1 plus 2               1 + 2
+sum          the sum of 3 and 4     3 + 4
+increased by 5 increased by 6       5 + 6
+more than    8 more than 7          7 + 8
+total of     the total of 9 and 5   9 + 5
+added to     6 added to 4           4 + 6
+
+When we subtract, we take one number away from another to find the difference.
+We read 7 - 3 as seven minus three and the result is the difference of seven and three.
 
 
+Operation   : Subtraction
+Notation    : -
+Expression  : 3 - 4
+Read as     : three minus four
+Result      : the sum of 3 and 4
+
+Addition and subtraction are inverse operations.
+Addition undoes subtraction, and vice versa.
+
+Words           Example                    Expression
+-----           -------                    ----------
+minus           5 minus 1                  5 - 1
+difference      the difference of 9 and 4  9 - 4
+decreased by    7 decreased by 3           7 - 3
+less than       5 less than 8              8 - 5
+subtracted from 1 subtracted from 6        6 - 1
+
+Multiplication is a way to represent repeated addition.
+We call each number being multiplied a factor and the result the product.
+We read 3 x 8  as three times eight, and result as the product of three and eight.
+There are several symbols that represent multiplication.
+There include the symbol x as well as dot, and parentheses ().
+
+Operation   : Multiplication
+Notation  1 : x ∙ ()
+Expression  : 3x8 3∙8 3(8)
+Read as     : three times eight
+Result      : the product of 3 and 8
+
+Multiplication table
+
+x  0  1  2  3  4  5    6  7  8  9
+0  0  0  0  0  0  0    0  0  0  0
+1  0  1  2  3  4  5    6  7  8  9
+
+2  0  2  4  6  8 10   12 14 16 18
+3  0  3  6  9 12 15   18 21 24 27
+4  0  4  8 12 16 20   24 28 32 36
+5  0  5 10 15 20 25   30 35 40 45
+
+6  0  6 12 18 24 30   36 42 48 56
+7  0  7 14 21 28 35   42 49 56 63
+8  0  8 16 24 32 40   48 56 64 72
+9  0  9 18 27 36 45   56 63 72 81
+
+6 x 7 = 42 !
+6 x 8 = 48 !
+7 x 8 = 56 !
+8 x 8 = 64
+8 x 9 = 72 !
+9 x 9 = 81
+
+Words           Example                    Expression
+-----           -------                    ----------
+times           3 times 8                  3 x 8
+product         the product of 3 and 8     3 x 8
+twice           twice 4                    2 x 4
+
+Division is a way to represent repeated subtraction just as multiplication
+represented addition.
+We read this as twelve divided by four and result is the quotient of 12 and 4.
+We call the number being divided the dividend and the number dividing it the
+divisor.
+
+Operation   : Division
+Notation    : /
+Expression  : 12 / 4
+Read as     : twelve divided by four
+Result      : the quotient of 12 and 4
+
+Division is the inverse operation of multiplication.
+Division by zero is undefined.
+
+With remainder.
+1439 / 4 = 359R3 , remainder equals 3.
+
+Words           Example                    Expression
+-----           -------                    ----------
+divided by      12 divided by 4            12 / 4
+quotient of     the quotient of 12 and 4   12 / 4
+divided into    4 divided into 12          12 / 4
+
+
+In algebra, letters of the alphabet, often used for variables are x, y, a, b, and c.
+A variable is a letter that represents a number or quantity whose value may change.
+A constant is a number whose value always stays the same.
+
+The symbol = is called the equal sign.
+An inequality is used in algebra to compare two quantities that may have
+different values.
+a < b is read a is less than b
+a > b is read a is greater than b
+
+    =   is equal
+    ≠   is not equal
+    <   is less than
+    >   is greater than
+    ≤   is less than or equal to
+    ≥   is greater than or equal to
+
+Grouping symbols in algebra are much like the commas, colons, and other punctuation
+marks in written language.
+They indicate which expressions are to be kept together and separate from other
+expressions.
+
+    ()  parentheses
+    []  brackets
+    {}  braces
+
+In algebra, we have expressions and equations. An expression is like a phrase.
+An equation is like a sentence.
+
+    3 + 5 =  8      The sum of three and five is equal to eight.
+    n - 1 = 14      n minus one equals fourteen.
+    6 x 7 = 42      The product of six and seven is equal to forty-two.
+    x = 53          x is equal to fifty-three
+    y + 9 = 2y - 3  y plus nine is equal two y minus three
+
+An expression is a number, a variable, or a combination of numbers and variables
+and operation symbols.
+An equation is made up of two expressions connected by an equal sign.
+
+To simplify a numerical expression means to do all the math possible.
+
+Exponential notation is used in algebra to represent a quantity multiplied by
+itself several times. In expressions such as 2^3, the 2 is called the base and
+3 is called the exponent. The exponent tells us how many factors of the base we
+have to multiply.
+We say 2^3 is in exponential notation and 2 ∙ 2 ∙ 2 is in expanded notation.
+
+For any expression a^n, a is a factor multiplied by itself n times if n is 
+a positive integer. a^n means multiply n factors of a:
+                    a^n = a ∙ a ∙ a ∙ ... ∙ a
+                          -------------------
+                              n factors
+
+The expression a^n is read a to the n-th power.
+               a^2 is read as a squared
+               a^3 is read as a cubed
+
+Established some guidelines called the order of operations, which outlines the
+order in which parts of expression must be simplified.
+    - parentheses and other grouping symbols;
+    - exponents
+    - Multiplication and Division
+    - Addition and Subtraction
+
+    P E M D A S = Please Excuse My Dear Aunt Sally
+
+To evaluate an algebraic expression means to find the value of the expression
+when the variable is replaced by a given number.
+
+Algebraic expressions are made up of terms.
+A term is a constant or the product of a constant and one or more variables.
+The constant that multiplies the variable(s) in term is called the coefficient.
+We can simplify an expression by combining the like terms.
+
+To solve an equation is to determine the values of the variable that make the
+equation a true statement.
+Any number that makes the equation true is called a solution of the equation.
+
+A solution to an equation is a value of a variable that makes a true statement
+when substituted into the equation.
+The process of finding the solution is called solving the equation.
+
+An envelope represents the variable - since its contents are unknown - and
+each counter represents one.
+
+Addition property of equality: for any numbers a, b, and c, if a = b then
+    a + c = b + c
+
+Clue words that mean equals:
+    -   is equal to
+    -   is the same as
+    -   is
+    -   gives
+    -   was
+    -   will be
+
+A multiple of a number is the product of the number and a counting number.
+A number is a multiple of n if it is the product of a counting number and n.
+If a number m is a multiple of n, then we say that m is divisible by n.
+
+    8 x 9 = 72
+    -----   ------
+  factors   product
+
+If a x b = m, then a and b are factors of m, and m is the product of a and b.
+
+To determine all of the factors of a number is called factoring a number.
+
+Some numbers, like 72, have many factors. Other numbers, such as 7, have only
+two factors: 1 and the number.
+A number with only two factors is called a prime number.
+A number with more than two factors is called a composite number.
+
+Prime factorization of a number - rewriting the number as a product of primes.
+One way to find the prime factorization of a number is to make a factor tree.
+If factor is prime, we circle it (like a bud on a tree).
+
+LCM = Least Common Multiple
+A common multiple of two numbers is a number that is a multiple of both numbers.
+The smallest number is a multiple of two numbers is called the LCM.
+To find the LCM of two numbers is to use their prime factors.
+Now we bring down the primes in each column. The LCM is the product of these factors.
+
+A negative number is a number that is less than 0.
+
+Whole number = {Negative numbers + zero + positive numbers}
+
+The opposite of a number is the number that is the same distance from zero on
+the number line, but on the opposite side of zero.
+    -a means the opposite of the number a.
+    The notation -a is read the opposite of a.
+
+Integers are counting number, their opposites, and zero:
+    ... -3, -2, -1, 0, 1, 2, 3, ...
+
+The distance between 0 and any number on the number line is called the absolute
+value of that number.
+  |-5| = 5, |5|= 5
+  |n| ≥ 0
+
+Subtraction of signed numbers can be done by adding the opposite: a - b = a + (-b)
+
+The sign of the product of two numbers depends on their signs:
+    -   two positives       =   positive
+    -   two negatives       =   positive
+    -   positive/negative   =   negative
+    -   negative/positive   =   negative
+
+Subtraction property of equality: for any a, b, c: if a = b then a - c = b - c
+Addition property of equality   : for any a, b, c: if a = b then a + c = b + c
+Division property of equality   : for any a, b, c ≠ 0, if a = b then a/c = b/c
+
+A fraction is written a/b, where a and b are integers and b ≠ 0.
+In a fraction, a is called the numerator and b is called denominator.
+A fraction is a way to represent parts of a whole.
+
+A mixed number consists of a whole number a and a fraction b/c where c ≠ 0.
+It is written as follows: a b/c
+The fraction a/b is a proper fraction if a < b and an improper fractin if a ≥ b.
+
+Equivalent fractions are fractions that have the same value.
+Equivalent fractions property: if a, b, and c, and b ≠ 0, c ≠ 0, then
+        a/b = (ac)/(bc)
+
+A fraction is considered simplified if there are no common factors in the numerator
+and denominator. It often called reducing the fraction.
+
+Fraction Multiplication: if a, b, c, and d are numbers where b ≠ 0 and d ≠ 0, then
+        (a/b)(c/d) = (ac)/(bd)
+
+The reciprocal of the fraction a/b is b/a, where a ≠ 0 and b ≠ 0
+A number and its reciprocal have product of 1.
+
+In subtract whole number, we defined quotient as the result of division.
+The quotient of a and b is the result you get from dividing a/b.
+                 x
+Fractional bar:  -
+                 x
+
+Fraction Addition: if a, b, and c are numbers where c ≠ 0, then
+        (a/c) + (b/c) = (a+b)/c
+To add fractions with a common denominators, add the numerators and place
+the sum over the common denominator.
+
+The least common denominator (LCD) of two fractions is the least common multiple (LCM)
+of their denominators.
+
+Complex fraction is a fraction in which the numerator or denominator contains a
+fraction.
+
+0.1      =      1/10      one tenth
+0.01     =      1/100     one hundredth
+0.001    =      1/1000    one thousandth
+
+We read $5.03 as five dollars and three cents.
+We read  5.03 as five and three hundredths.
+
+To convert a fraction to a decimal, divide the numerator of the fraction by the
+denominator of the fraction.
+
+A repeating decimal is a decimal in which the last digit or group of digits
+repeats endlessly.
+    1.333... = 1.(3) - in book there is line above 3.
+
+pi - symbolized by Greek letter π (pronounced pie). The exact value of π cannot
+be calculated since the decimal never ends or repeats.
+    π ≈ 3.14
+
+The mean is often called the arithmetic average. It is computed by dividing
+the sum of the values by the number of values.
+The mean of a set of n numbers is the arithmetic average of the numbers.
+        mean = (sum of values in data set)/n
+
+The median of a set of data values is the middle value.
+    -   Half the data values are less than or equal to the median
+    -   Half the data values are greater than or equal to the median.
+
+The average is one number in a set of numbers that is somehow typical of the
+whole set of numbers. The mean and median are both often called the average.
+
+The mode of a set of numbers is the number with the highest frequency.
+
+The probability of an event tells us how likely that event is to occur.
+    Probability of an event = (num of favorable outcomes)/(total num of outcomes)
+
+A ratio compares two numbers of two quantities that are measured with the same
+unit. The ratio of a to b is written a to b, a/b.
+
+A rate compares two quantities of different units. A rate is usually written as
+a fraction.
+A unit rate is a rate with denominator of 1 unit.
+
+Rate:       68 miles/1 hour
+Write:      68 miles/hour
+Abbreviate: 68 mph
+Read:       68 miles per hour
+
+A unit price is a unit rate that gives the price of one item.
+
+If n^2 = m, then m is the square of n.
+
+A perfect square is the square of a whole number.
+
+A number whose square is m is called a square root of m.
+If n^2 = m, then n is a square root of m.
+
+Every positive number has two square roots:
+    -   one positive
+    -   one negative
+
+ √ - radical sign.
+
+√m is read as "the square root of m". If m = n^2, then √m = n for n ≥ 0
+√ - radical sign, m - radicand
+
+A percent is a ratio whose denominator is 100.
+
+The sales tax is a percent of the purchase price:
+    Sales Tax   =   Tax rate x Purchase Price
+    Total Cost  =   Purchase Price x Sales Tax
+
+A commission is a percentage of total sales as determined by the rate of commission:
+    commission = rate of commission x total sales
+
+An amount of discount is a percent off the original price:
+    amount of discount  = discount rate x original price
+            sale price  = original price - discount
+
+The mark-up is the amount added to wholesale price.
+
+The money you put in the bank is called the principal, P, and the bank pays
+you interest, I. The interest is computed as a certain percent of the principal;
+called the rate of interest, r.
+
+If an amount of money, P, the principal, is invested for a period of t years at
+an annual interest rate r, the amount of interest, I. earned is:
+                    I   =   Prt
+    I - interest, P - principal, r - rate, t - time.
+
+A proportion is an equation of the form a/b = c/d, where b ≠ 0, d ≠ 0.
+The proportion states two ratios or rates are equal.
+The proportion is read "a is to b", as c is to d.
+To determine if a proportion is true, we find the cross products of each proportion:
+        a x d = b x c
+
+A rational number is a number that can be written as ratio of two integers: p/q,
+where p and q is integers and q ≠ 0.
+
+An irrational number is a number that cannot be written as the ratio of two
+integers. Its decimal form does not stop and does not repeat.
+
+Rational + Irrational = Real numbers
+
+Commutative property of addition: if a and b are real numbers, then: a + b = b + a
+Commutative property of multiplication: if a and b are real numbers, then a x b = b x a
+Associative property of addition: if a, b, and c are real numbers, then (a + b) + c = a + (b + c)
+Associative property of multiplication: if a and b, and c are real numbers, then (ab)c = a(bc)
+Distributive property: if a, b, c are real numbers, then: a(b + c) = ab + ac
+
+Length:
+    1 foot (ft)     = 12 inches (in)
+    1 yard (yd)     =  3 feet (ft)
+    1 mile (mi)     = 5280 feet (ft)
+Volume:
+    3 teaspoons (t) = 1 tablespoon (T)
+    16 tablespoons  = 1 cup (C)
+    1 pint (pt)     = 2 cups
+    1 quart (qt)    = 2 pints
+    1 gallon (gal)  = 4 quarts
+Weight:
+    1 pound (lb)    = 16 ounces (oz)
+    1 ton           = 2000 pounds
+Time:
+    1 minute (min)  = 60 seconds (s)
+    1 hour (h)      = 60 minutes
+    1 day           = 24 hour
+    1 week (wk)     = 7 days
+    1 year (yr)     = 365 days
+
+Length:
+    1 kilometer  (hm)   = 1000 m
+    1 hectometer (km)   = 100 m
+    1 dekameter  (dam)  = 10 m
+    1 decimeter         = 0.1 m
+    1 centimeter        = 0.01 m
+    1 millimeter        = 0.001 m
+    1 meter             = 100 centimeters
+    1 meter             = 1000 millimeters
+Mass:
+    1 kilogram (kg)     = 1000 g
+    1 hectogram (hg)    = 100 g
+    1 dekagram (dag)    = 10 g
+    1 decigarm (dg)     = 0.1 g
+    1 centigram (cg)    = 0.01 g
+    1 milligram (mg)    = 0.001 g
+Volume/Capacity:
+    1 kiloliter (kl)    = 1000 l
+    1 hectoliter (hl)   = 100 l
+    1 dekaliter (dal)   = 10 l
+    1 deciliter (dl)    = 0.1 l
+    1 centiliter (cl)   = 0.01 l
+    1 milliliter (ml)   = 0.001 l
+
+Length:
+    1 in                = 2.54 cm
+    1 ft                = 0.305 m
+    1 yd                = 0.914 m
+    1 mi                = 1.61 km
+    1 m                 = 3.28 ft
+Weight:
+    1 lb                = 0,45 kg
+    1 oz                = 28 g
+    1 kg                = 2.2 lb
+Volume:
+    1 qt                = 0.95 L
+    1 fl oz             = 30 mL
+    1 L                 = 1.06 qt
+
+The most important topics in algebra is  " solving equations "
+The applications are limitless and extend to all careers and fields.
+
+A solution of an equation is a value of variable that makes a true statement 
+when substituted into the equation.
+
+The angle is formed by two rays that share a common endpoint.
+Each ray is called a side of the angle and the common endpoint is called the vertex.
+An angle is named by its vertex.
+∠A is the angle with vertex at point A.
+The measure of ∠A is written m∠A
+
+We use the symbol ∘ to represent degrees.
+We use abbreviation m to for the measure of an angle.
+So if ∠A is 27∘, we would write m∠A = 27.
+If the sum of the measure of two angles is 180∘, then they are called supplementary.
+
+If ∠A  and ∠B are complementary, then m∠A + m∠B = 90∘
+
+Triangle have three sides and three angles.
+Triangles are named by their vertices.
+The triangle is called ⊿ABC, read triagnle ABC.
+    m∠A + m∠B + m∠C = 180∘
+
+A right triangle has one 90∘ angle.
+
+In geometry, if two figures have exactly same share but different sizes, we say
+they are similar figures.
+
+The Pythagorean Theorem is a special property of right triangles that has been used
+since ancient times.
+It is named after the Greek philosopher and mathematician Pythagoras who lived
+around 500 BCE.
+The side of the triangle opposite the 90∘ angle is called the hypotenuse, and
+the other sides are called are legs.
+The sum of the squares of two legs equals the square of the hypotenuse.
+    a^2 + b^2 = c^2
+
+Area is measured is square units.
+Volume is measured in cubic units.
+
+The perimeter is a measure of the distance around a figure.
+The area is a measure of the surface covered by a figure.
+
+Rectangle has four sides and for right angels.
+The opposite sides of a rectangle are the same.
+P = 2L + 2W
+S = LW
+
+We can divide this rectangle into two congruent triangles.
+Triangle that are congruent have identical side lengths and angles,
+and so their areas are equal.
+A = (1/2)LW
+
+To find the area of the triangle, you need to know its base and height.
+The base is the length of one side of the triangle, usually the side of the
+bottom.
+The height is the length of the line that connects the base to the opposite vertex,
+and makes 90∘ angle with the base.
+
+A triangle with two sides of equal length is called an isosceles triangle.
+A triangle that has three sides of equal length is called an equilateral triangle.
+
+A trapezoid is four sided figure, a quadrilateral, with two sides that are parallel
+and two sides that are not. The parallel sides are called the bases.
+We call the length of the smaller base b, and the length of the bigger base B.
+The height h.
+
+S = (1/2)h(b + B)
+
+Circles:
+    r is the length of the radius
+    d is the length of the diameter
+    d = 2r
+    Circumference is the perimeter of a circle.
+    C = 2πr
+    S = πr^2
+
+A irregular is a figure that is not a standard geometric shape.
+
+    V (volume) = LWH
+
+A cube is a rectangular solid whose length, width, and height are equal.
+    V = s^3
+
+A sphere is the shape of a basketball, like a three dimensional circle.
+The size of sphere is determined by its radius, which is the distance from the center
+of the sphere to any points on its surface.
+    V = (4/3)πr^3
+    S = 4πr^2
+
+A cylinder is a solic figure with two parallel circles of the same size at the top
+and bottom.
+The top and bottom of a cylinder are called the bases.
+The height h of a cylinder is the distance between the two bases.
+    S = 2πr^2 + 2πrh
+    V = Bh = πr^2h
+
+In geometry, a cone is a solid figure with one circular base and a vertex.
+The height of a cone is the distance between its base and the vertex.
+    V = (1/3)πr^2h
+
+Polynomial - a monomial, of two more monomials, combined by addition or subtraction.
+Monomial - a polynomial with exactly one term.
+Binomial - a polynomial with exactly two terms.
+Trinomial - a polynomial with exactly three terms.
+
+The degree of a term is the exponent of its variable.
+The degree of a constant is 0.
+The degree of a polynomial is the highest degree of all its terms.
+
+If a is real number and m, n are counting numbers, then: a^m x a^n = a^(m + n)
+    (a^m)^n = a^(mn)
+To raise to a power, multiply the exponents.
+
+If a and b are real numbers and m is a whole number, then: (ab)^m = a^m x b^m
+To raise a product to a power, raise each factor to that power.
+
+    (a^m)/(a^n) = a^(m-n)
+
+    a^0 = 1
+
+if n is a positive integer and a ≠ 0, then a^(-n) = 1/(a^n).
+
+A number is expressed in scientific notation when it is of the form:
+    a x 10^n, where a ≥ 1 and a < 10 and n is an integer.
+
+The greatest common factor (GCF) of two or more expressions is the largest
+expression that is a factor of all the expressions.
+
+If a, b, c are real numbers, then:
+        a(b + c) = ab + ac  -  is used to multiply.
+        ab + ac  = a(b + c) -  is used to factor.
+
+Rectangular coordinate system.
+To create a rectangular coordinate system, start with a horizontal number line.
+The horizontal number line is called the x axis.
+This vertical line is called the y axis.
+The rectangular coordinate system is also called the x - y plane, the coordinate
+plane, or the Cartesian coordinate system.
+Axes divide a plane into four area, called quadrants (identified by Roman numerals,
+beginning on the upper right and proceeding counterclockwise.
+In coordinate system, every points is represented by an ordered pair (x, y).
+
+Quadrant        I           II          III         IV
+  (x,y)        +,+          -,+         -,+         -,-
+
+(a, 0) is on the x axis
+(0, b) is on the y axis
+(0, 0) in the origin.
+
+An equation of the form Ax + By = C, where A and B are not both zero, is called
+a liner equation in two variables.
+Pair of variables is a solution to the liner equation and is represented by the
+ordered pair (x, y).
+
+The graph of a liner equation Ax + By = C is a straight line.
+
+A vertical line is the graph of an equation that can be written in form x = a.
+The line passes through the x axis at (a, 0).
+
+A horizontal line is the graph of an equation that can be written in the form y = b.
+The line passes through the y axis at (0, b).
+
+Each of the points at which a line crosses the x axis and the y axis is called
+an intercept of the line.
+                           rise - measures the vertical change
+The slope of a line is m = ----
+                           run  - measures the horizontal change
+
+ + positive slope; - negative slope
+
+The slope of the line between two points (x1, y1) and (x2, y2) is:
+        m = (y2 - y1)/(x2 - x1)
+
+=====
+
+Algebra is often described as a generalized
+
+Symbols 6, 2/3, 0.27, п - to represent numbers.
+Symbols +, -, *, /      - to represent operations.
+
+Using numbers and operations we can form specific numerical expressions.
+
+In algebra, the concept of a variable provides the basis for generalizing
+arithmetic ideas.
+Symbols x, y are called variables.
+Algebraic expression is numerical expressions + variables.
+
+Operation:
+    -   Addition (sum);
+    -   Subtraction (difference);
+    -   Multiplication (product);
+    -   Division (quotient).
+
+A set is a collection of objects, and the objects are called elements or members of the set.
+The use of set braces {} to enclose the elements.
+
+A set that consists of no elements is called the null set (written ∅).
+
+Set builder notation combines the use of braces and the concept of a variable.
+{ x | x is a vowel} is read = the set of all x such as x is a vowel.
+ | = such that
+Symbol ∈ denotes set membership. e ∈ A read as = e is an element of A.
+                                 e ∉ A read as = e is not an element of A.
 
