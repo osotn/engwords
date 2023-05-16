@@ -1,0 +1,683 @@
+Geometry is the branch of mathematics that is the study of:
+    -   shapes;
+    -   lines;
+    -   angles;
+    -   space;
+    -   relationship between them.
+
+Point - indicates a location, name by A
+Line  - s straight path extending infinitely in opposite directions, name by AB or a
+Line segment - part of a line with two endpoints, by AB.
+Ray   - part of a line that starts at a point and extends infinitely in one direction, named AB
+Vertex - the point of intersection of two or more line segments, rays, or lines, named A.
+Angle - formed by two rays with the some endpoint the vertex, named ∠A or ∠BAC
+Triangle - shape with three sides and three vertices, named ⊿A
+Parallel lines - lines that are always the same distance apart. They never meet, written as l || m.
+Perpendicular lines - lines that intersect to form four right angles.
+
+A line is straight, has no width, and extends infinitely in opposite directions.
+It is one dimensional, or flat.
+Collinear (sharing line) points lie on the same line.
+
+Plane geometry deals with flat shapes such as squares and triangles.
+Flat shapes are two dimensional.
+Named by three capital letter on the plane, e.g. PSQ
+Coplanar (sharing plane) points lie on the same plane.
+
+Two lines intersect at a point.
+Two planes intersect along a line.
+A plane and a line intersect at a point.
+
+Postulate is a statement that is accepted as fact, without proof.
+A theorem is a statement that has been proven to be true using other theorems,
+definitions, or postulates.
+
+Segment addition postulate: If B is a point on line segment AC, then AB + BC = AC
+
+Two line segments are congruent if they have the same length.
+To show this the same number of tick marks are used.
+
+The midpoint of a line segments is the halfway, it divides the line segment into
+two congruent segments.
+
+Bisect means to divide into two equal parts.
+A segment bisector in a line, ray, segment, of plane that passes through a segment
+at its midpoint (bisects it).
+
+An angle ∠A is formed by two rays with a common endpoint (vertex).
+
+The space around an angle can be classified as interior or exterior.
+
+The measure of ∠A (the size of the angle) is written as m∠A.
+We use degrees (*) to measure the size of an angle. There are 360* in a circle.
+
+Right angle     : 90*
+Acute angle     : (0-90)*
+Obtuse angle    : (90-180)*
+Straight angle  : 180*
+
+Adjacent angles that lie in the same plane, have a common (the same) vertex,
+share a common side, and have no common interior points.
+
+Angle addition postulate: If point R is in the interior of ∠QPS, then
+                        m∠QPR + m∠RPS = m∠QPS
+
+Two angles are congruent if their angle measures are equal.
+
+Vertical angles are nonadjacent and opposite each other. They are formed when
+two lines intersect. They share the same vertex.
+Vertical angles are congruent.
+
+Complementary angles have sum is 90*.
+Supplementary angles have sum is 180*.
+Linear pair - that a adjacent and supplementary.
+
+An angle bisector is a ray that divides an angle into two congruent angles.
+
+Perpendicular lines, rays, or segments form right angles (90*).
+
+A perpendicular bisector is a line, ray, or line segment that divides a line
+segment into two congruent segments and forms four right angles with it.
+
+Inductive reasoning is used to form hypotheses (explanations) based on a set of
+observations. The explanation or conclusion, is called a conjecture.
+
+Observation -> conjecture
+
+A counterexample is an exception to the observation.
+It shows that a statement is false.
+
+Conditional statements are statements that have the form if then.
+Its are either true or false.
+
+To prove that a conditional statement is true, you must show that the conclusion
+occurs for all cases.
+To show that a conditional statement is false, present a counterexample that shows
+the statement is not true.
+
+If p then q
+    p - hypothesis
+    q - conclusion
+    p -> q
+
+The converse of a conditional statement if formed by switching the hypothesis and
+the conclusion.
+    if p then q, converse is if q then p.
+
+The converse of a true condition statement is not always true.
+
+In a biconditional statement is true and its converse is true.
+    p <-> q = iff if and only if
+
+Deductive reasoning uses given facts and statements to reach a conclusion logically.
+
+Law of deductive reasoning:
+    - law of detachment
+    - law of syllogism
+
+Law of detachment: if p -> q and p are true then q is true.
+Law of syllogism : if p -> q and q ->r are both true, then the statement p -> r is also true.
+
+A proof, or logical argument, can be used to show why a conjecture is true.
+
+Transitive property of congruence: if AB = CD and CD = EF then AB = EF
+
+Flowchart proof is a diagram that uses boxes and arrows to show the logical
+order of each statement leading to a conclusion.
+
+A paragraph proof (or informal proof) explains why a conjecture is true in paragraph
+form.
+
+Parallel lines are lines on the same plane that never meet (intersect). l || m
+
+Skew lines are two lines, on different planes, that never meet.
+
+Parallel planes are two planes that never intersect.
+
+A transversal is a line that intersects two or more lines.
+Interior angles are all the angles between the lines intersected by the transversal.
+Exterior angles are all the angles that are not between the lines intersected by the transversal.
+
+Alternate interior angles are interior angles on opposite sides of the transversal.
+Same side interior angles are interior angles on the same side of the transversal.
+Alternate exterior angles are exterior angles on opposite sides of the transversal.
+Corresponding angles are in the same relative position on each line on the same
+side of the transversal.
+
+Corresponding angles postulate: If two parallel lines are cut by a transversal, their
+corresponding angles are congruent.
+
+Alternate interior angles theorem: If two parallel lines are cut by a transversal,
+then their alternate interior angles a congruent.
+
+Alternate exterior angles theorem: If two parallel lines are cut by a transversal,
+then their alternate exterior angles a congruent.
+
+Same side interior angles theorem: When two parallel lines are intersected by
+a transversal then their same side interior angles are supplementary.
+            m∠1 = m∠2 = 180*
+
+Converse of corresponding angles postulate: if corresponding angles are congruent,
+then the lines are parallel.
+
+Converse of alternate interior angles theorem: If alternate interior angles are
+congruent, then the lines are parallel.
+... converse of
+    -   same side interior angles theorem
+    -   alternate exterior angles theorem
+
+A polygon is a two dimensional (flat) closed figure with at least three straight sides.
+
+A triangle is a polygon with three sides and three angles.
+
+Triangles:
+    - equilateral
+    - isosceles
+    - scalene
+
+    - acute
+    - obtuse
+    - right
+
+If a triangle is equilateral, then all angles are equal.
+If all angles of triangle are equal, then it is equilateral.
+
+In an isosceles triangle, the sides that are equal in length are called the legs.
+The third side is called the base. The angles opposite the legs are called the base angles.
+
+Isosceles triangle theorem: If two sides of a triangle are congruent, then
+the angles opposite those sides are congruent.
+... converse of isosceles triangle theorem.
+
+The angles inside a triangle are the interior angles.
+
+Triangle angle sum theorem: The sum of the measures of the three interior angles is 180*.
+
+The measurement of an exterior angle is equal to the sum of the two nonadjacent
+interior angles.
+
+Congruent polygons have the same shape and size.
+
+Side side side (sss) congruence postulate: If the three sides of one triangle are
+congruent to the three sides of another triangle, then the triangles are congruent.
+
+Side angle side (sas) congruence postulate: If two sides and the included angle of
+one triangle are congruent to two sides and the included angle of another, then
+the triangles are congruent.
+
+Included angle - the angle between two sides of a triangle.
+
+Angle side angle (ASA) congruence postulate: If two angles and the included side
+of one triangle are congruent to two angles and the included side of another triangle,
+then the triangles are congruent.
+
+Included side - the side between two angles of a triangle.
+
+Angle Angle side congruence theorem: If tow angles and a nonincluded side of one
+triangle are congruent to two angles and the corresponding nonincluded side of
+another triangle, then the triangles are congruent.
+
+Hypotenuse leg (HL) theorem: If the hypotenuse and a leg of one right triangle are
+congruent to the hypotenuse and a leg another right triangle, then the triangles
+are congruent.
+
+Perpendicular bisectors always cross a line segment at right angles, cutting it
+into two equal parts.
+
+If a point is on the perpendicular bisector of a line segment, then the point is
+equidistant to the segments endpoints. And converse of the theorem.
+
+When three or more lines intersect at one point, they a concurrent.
+Their point of intersection is called the point of concurrency.
+
+In a triangle, there are three perpendicular bisectors that all meet at one
+point, the circumcenter. It can be outside or inside the triangle.
+
+Circumcenter theorem: The circumcenter of a triangle is equidistant to the vertices.
+
+In a triangle, the angle bisectors of the three interior angles all meet at one point.
+This point is at the center of the triangle and is called incenter.
+
+Incenter theorem: The incenter is equidistant to the sides of the triangle.
+
+A median of the triangle is a line from a vertex to the midpoint of the opposite side.
+
+Every triangle has three medians which meet at a point called the centroid.
+
+Centroid theorem: The centroid is 2/3 of the distance from each vertex to the midpoint
+of the opposite side.
+
+Centroid is called the center of gravity - the point where the weight is equally balanced.
+
+The altitude of a triangle is the line segment from a vertex to the opposite side,
+and perpendicular to that side. It can be outside or inside.
+
+The point where the altitudes meet is the orthocenter. It can be outside or inside.
+
+When comparing two sides of a triangle, the angle opposite the longer side is larger
+than opposite the shorter side.
+
+When comparing two angles of a triangle, the side opposite the large angle is larger
+angle is longer than the side opposite the smaller angle.
+
+Triangle inequality theorem: The sum of the lengths of any two sides in a triangle
+is greater than the length of the third side. In other words, add the length of
+two sides. That sum will be greater than the length of the third side.
+
+A quadrilateral is a shape with four sides.
+Quadri = 4
+Lateral = sides
+
+
+Quadrilaterals:
+    - parallelogram - opposite sides are parallel and equal in length.
+    - rectangle     - A parallelogram where all four sides form right angles.
+    - rhombus       - a parallelogram where all sides are equal in length.
+    - square        - a parallelogram where all sides are equal in length and all sides forms right angles.
+    - trapezoid     - Has exactly two parallel sides. Sides do not have to be equal in length.
+
+Parallelograms have the following properties:
+    - congruent opposite sides
+    - congruent opposite angles
+    - consecutive angles that are supplementary
+    - diagonal bisect each other
+    - each diagonal divides the parallelogram into two congruent triangles
+
+It's a parallelogram if:
+    - both pairs of opposite sides are congruent
+    - both paris of opposite angles are congruent
+    - an angle it supplementary to both of its consecutive angles.
+    - has diagonals that bisect each other.
+    - has one pair of sides that is both congruent and parallel
+
+Rhombuses have diagonals that are perpendicular.
+Each diagonal in a rhombus bisects a pair of opposite angles.
+
+A parallelogram is a rhombus if has:
+    - perpendicular diagonals
+    - one diagonal that bisects a pair of opposite angles
+    - one pair of consecutive congruent sides.
+
+A rectangle is a parallelogram with four right angles.
+
+A parallelogram is a rectangle if:
+    - its diagonals are congruent
+
+A square is a parallelogram with four right angles and four congruent sides.
+A square is both a rectangle and a rhombus.
+
+Trapezoids and kites are quadrilaterals that are not parallelograms.
+
+Trapezoids is a quadrilateral with exactly one pair of parallel sides.
+The parallel sides are called bases, and the nonparallel sides are called legs.
+The angles adjacent to a base are called base angles.
+
+The midsegment of a trapezoid is a line segment that bisects both legs.
+The midsegment of a trapezoid is parallel to the bases.
+Its length is found by averaging the lengths of the two bases (adding up the
+lengths of the two bases and dividing by two).
+
+Isosceles trapezoids has congruent legs.
+It has two pairs of congruent base angles.
+A trapezoid is isosceles if and only if its diagonals are congruent.
+
+Kite is a quadrilateral with two pair of adjacent congruent sides.
+Kite is a quadrilateral if:
+    - its diagonals are perpendicular
+    - at least one pair of opposite angles are congruent
+
+Polygon in closed plane figure with at least three straight side.
+Polygons are named by the number of sides they have:    
+    - 3 triangle
+    - 4 quadrilateral
+    - 5 pentagon
+    - 6 hexagon
+    - 7 heptagon
+    - 8 octagon
+    - 9 nonagon
+    -10 decagon
+
+The interior angles of
+    - angle             add up 180*
+    - quadrilateral     add up 360*
+    - n side polygon    add up (n-2)x180*
+
+The exterior angle is the angle between the side of a polygon and a line extended
+from the next side.
+The sum of the exterior angles always stays the same, no matter how many sides the polygon has.
+And add up to 360*
+
+A regular polygon has all congruent angles and all congruent sides.
+
+Figures on a coordinate plane can be moved in any direction, which results in
+new figures and new positions.
+The action of moving a figure is called a transformation.
+
+In a transformation, the original figure is called the preimage,
+and the new figure is called the image.
+
+If the shape and the size of a figure remain the same in a transformation,
+the movement is called a rigid motion or congruence transformation.
+
+There are three types of rigid motions:
+    - reflections
+    - translations
+    - rotations
+
+A reflection is a type of transformation that flips an image over a line, so that
+the image appears backward like in a mirror.
+
+ABC -> A'B'C'  the mark ' is called prime
+Line l is the line of reflection. Figure is reflected across line l.
+
+The line of reflection is the perpendicular bisector of the line segment that
+connects the corresponding points of the image and preimage.
+
+A translation is a type of rigid motion that slides a figure a certain distance
+to the left or right, up or down, or both horizontally and vertically.
+
+Translations can be defined using a translation vector, which states how many
+units each point in the graph moves in the translation.
+
+Rotations are transformations that turn a figure around a fixed point.
+Rotations are rigid motions. The shape, size, and measures of angles of the
+figure stay the same, but the orientation changes.
+Center of rotation - the point around which a figure is turned. It can be
+outside or inside the figure.
+Angle of rotation - the number of degrees each point on the figure is turned.
+Rotation can be clockwise (turns right) or counterclockwise (turns left).
+
+Compositions of transformations combine two or more transformations to form a
+new transformation.
+
+Glide reflection is a translation followed by a reflection.
+
+If a figure is reflected across a line and the new figure in unchanged, then
+the figure has line symmetry.
+A line of symmetry divides a figure into two mirror images.
+
+Two figures are congruent if there is a sequence of rigid motions that maps one
+figure directly onto the other.
+
+Ratio is a comparison of two or more quantities. a/b
+Extended ratio compares more than two quantities. a/b/c
+
+A proportion is an equation where two rations are equal.
+a/b = c/d or ad = bc
+
+A dilation is a transformation that is not a rigid motion.
+Dilations change the size of a figure. The shape remains the same.
+
+Dilation:
+    - enlargement or magnification
+    - reduction
+
+Scale factor (r) a ratio that determines how much bigger or smaller the image is
+compared to the preimage.
+
+Dilations have a center, O, which is a fixed point.
+All the points expand or shrink from the center by a scale factor.
+
+Two figures are similar if they have the same shape but not necessarily the same size.
+
+Two polygons are similar if all corresponding angles are congruent and all
+corresponding side lengths are proportional.
+    ~ the symbol for similarity.
+
+The scale factor of two similar polygons is the ratio of the lengths of the
+corresponding sides.
+
+Angle Angle (AA) similarity postulate: If two angles of one triangle are congruent
+to two angles of another triangle, then those two triangles are similar.
+
+Side angle side (SAS) similarity theorem: If two corresponding sides of two
+triangles are proportional and the included angles of those sides are congruent,
+then the triangles are similar.
+
+Side side side (SSS) similarity theorem: If the corresponding sides of two
+triangles are proportional, then the triangles are similar.
+
+Triangle proportionality theorem: If a line is parallel to one side of a triangle
+and it intersects the other sides, then it divides the two sides proportionally.
+
+A corollary is a statement that follows from a theorem or postulate and requires
+little or no proof.
+
+Corollary to the triangle proportionality theorem: If three or more parallel lines
+intersect two transversals, then they divide the transversals proportionally.
+
+Angle bisector theorem: If AD is a bisector ∠A then c/m = b/n.
+(AD divides opposite side on m and b).
+And converse is true.
+
+Slope (m) is ratio that describes that tilt of a line: slope (m) = rise/run
+Rise is how much a line goes up or down.
+Run is how much a line moves left or right.
+
+    m = (y2 - y1)/(x2 - x1)
+
+Perpendicular lines have slopes that are the negative reciprocals of each other.
+
+A reciprocal is a fraction where the numerator and denominator are reversed.
+
+Linear equation: y = mx + b
+m - slope, b - intercept with y axis, point (0, b)
+
+A right triangle has two legs and a hypotenuse - the side opposite the right angle.
+The legs are connected at the right angle. The lengths of the legs are a and b
+and c is hypotenuse.
+
+Pythagorean theorem: In a right triangle, the sum of the squares of the lengths
+of the legs is equal to the square of the hypotenuse: a^2 + b^2 = c^2
+
+If c^2 < a^2 + b^2 - an acute triangle, otherwise an obtuse.
+
+The midpoint is the point on a line segment that is halfway between endpoints.
+                    midpoint = (a + b)/2
+
+        AB = √(x2 - x1)^2 + (y2 - y1)
+
+Trigonometry is used to find measures in triangles.
+Trigonometry is the study of the relationship between side lengths and angles in triangles.
+
+trigonon = triangle
+metron   = measure
+
+Opposite the leg that is opposite angle Q.
+Adjacent the leg that is next to angle Q.
+
+The trigonometric functions sine (sin), cosine (cos), and tangent (tan) are each
+a ratio of sides of a right triangle. They used to find unknown angle measures or
+side lengths of a right triangle.
+
+    sin(Q) = opposite/hypotenuse
+    cos(Q) = adjacent/hypotenuse
+    tan(Q) = opposite/adjacent
+
+If Q = 45*, then hypotenuse = leg x √2
+
+Law of sines: sin(A)/a = sin(B)/b = sin(C)/c,
+where ∠A, ∠B, ∠C are opposite a, b, and c.
+
+Law of cosines: c^2 = a^2 + b^2 - 2ab cos(C)
+
+A circle is the set of all points on a plane that are an equal distance from
+a point called the center.
+
+Circumference (C) - the distance around the circle (the perimeter).
+
+Chord - a line segment whose endpoints are on the circle.
+
+Diameter (d) - a chord that passes through the center of the circle.
+Radius (r) - the line segment that has one endpoint on the center and the other
+on the circle. r = (1/2)d
+
+Pi (п) - the ratio of a circle circumference to its diameter: п = С/d.
+        C = пd = 2пd
+
+Concentric circles are circles with the same center.
+
+A central angle is an angle that has its vertex on the center of a circle.
+The segments forming the central angle are radii of the circle.
+
+An arc is a part of the circumference.
+A sector is a slice of the circle.
+
+The measure of an arc is equal to the measure of its center angle.
+
+An arc that is 180* is a semicircle.
+Minor arc is smaller than semicircle.
+Major arc is larger than semicircle.
+
+Arc addition postulate: the sum of two adjacent arcs equals the total arc.
+
+Arc length is the length of an arc (the distance from endpoint to endpoint).
+Arc length is a fraction of the circumference.
+    l = (x/360) 2пr
+
+Another way to measure angles is using radians (rad).
+One radian is the measure of a center angle that has an arc length that is equal
+to the radius:  1 radian = 180/п.
+
+A chord divides a circle into major and minor arcs.
+The minor arc is called the arc of the chord.
+
+Theorems about chords: In a circle or in congruent circles, congruent chords
+have congruent arcs.
+In a circle or in congruent circles, congruent chords are equidistant from the center.
+If a diameter is perpendicular to a chord, then it bisects the chord and its arc.
+The perpendicular bisector of a chord is a diameter.
+
+An inscribed angle is formed by two intersecting chords with a vertex on the circle.
+The intercepted arc is the part of the circle that is in the interior of the inscribed angle.
+
+The measure of an inscribed angle is half the measure of its intercepted arc:
+        m∠A = (1/2)mBC
+
+If two inscribed angles have the same intercepted arc, then those angles are congruent.
+
+An angle inscribed in a semicircle is a right angle.
+
+An inscribed shape is inside another shape, just touching the sides.
+
+If a quadrilateral is inscribed in a circle, then its opposite angles are supplementary.
+
+A tangent is a line, segment, or ray that intersects a circle in exactly one point
+(called the point of tangency).
+
+A line is tangent to a circle if and only if it is perpendicular to the radius
+drawn to the point of tangency.
+
+Tangent segments from the same point outside a circle are congruent.
+
+A secant is a line that intersects a circle at two points.
+
+When two secants intersect inside a circle: The measure of the angle that is
+formed is equal to one half the sum of the intercepted arcs:
+    1 = (1/2)(x + y)
+When two secants intersect outside a circle: The measure of the angle that is
+formed to one half the different of the far arc less the near arc:
+    1 = (1/2)(x - y)
+
+Circle equation:    x^2 + y^2 = r^2
+
+For any point (x, y) on the circle works pythagorean theorem
+The circle is the shape formed by all (x, y) points where x^2 + y^2 = r^2 is true.
+
+(x - h)^2 + (y - k)^2 = r^2, if center is (h, k)
+
+Area (A) is the amount of space inside a two dimensional object.
+
+The area of a parallelogram is the length of the base times the height.
+        A = bh
+
+Area of triangles:  A = (1/2)bh
+
+Area of trapezoid: A = (1/2)h(b1 + b2)
+
+Area of rhombus: A = (1/2)d1d2, d - diagonals
+
+Areas of regular polygons:  A = (1/2) a P
+
+a - apothen (perpendicular distance from the center to a side)
+P - perimeter
+
+Area of circle:  A = п r^2
+
+Area of a sector: A = (Q/360*) п r^2
+
+A polyhedron is a 3D figure made up of polygons.
+The polygon flat surfaces are called faces.
+The line segments where the faces meet are called edges.
+The vertices (plural of vertex) are points where three or more edges meet (the corners).
+
+Prisms are a type of polyhedron made up of two polygon faces that are parallel and
+congruent, called bases. The remaining faces are called the lateral faces,
+which are parallelograms.
+
+The surface area of a polyhedron is the sum of the area of its faces.
+
+Lateral area is the total area of the lateral faces.
+
+Area of a cylinder:  A = 2 п r^2 + 2 п r h
+
+A pyramid is a polyhedron in which the base is a polygon and the lateral faces
+are triangles. The faces meet at one point called the vertex or apex.
+
+A regular pyramid has congruent lateral faces and a regular polygon for its base.
+
+The slant height (l) of a regular pyramid is the height of a triangular lateral face.
+The height of the pyramid (h) is the length of the perpendicular line drawn from
+the vertex to the base.
+
+Pyramids are named by the shape of their base (triangular, square pyramids)
+
+Area of a regular pyramid   A = B + (1/2) P l
+    B - area of base, P - perimeter of base, l - slant height.
+
+A cone is a solid with a circular base and one vertex.
+
+Area of cone    A = п r^2  + п r l, l - slant
+
+The volume (V) of a 3D figure refers to the amount of space that the solid encloses.
+
+Volume of rectangular prism     V = B h
+
+Volume of a triangular prism        V = (1/2) b h l
+
+Volume of cylinder      V = п r^2 h
+
+Oblique prisms and cylinders does not have right angles between the sides and the base.
+
+Volume of pyramid:  V = (1/3) B h
+
+Volume of cone      V = (1/3) п r^2 h
+
+A sphere is a set of points in a space that are equidistant from a center point.
+
+Hemisphere is half a sphere.
+
+Area of a sphere    A = 4 п r^2
+Volume of a sphere  V = (4/3) п r^3
+
+A solid of revolution is the solid formed when a two dimensional object is rotated
+about a line, called the axis.
+
+====================
+Analytical geomentry
+====================
+
+x, y - coordinate axes.
+x - coordinate or abscissa.
+(0, 0) - the origin.
+
+Suppose the point P(x, y) moves such that A(4, -1) and B(2, 3) form a straight line.
+        |  x  y  1  |
+    A = |  4 -1  1  | = 0
+        |  2  3  1  |
+
+If a straight line makes an angle Q with the positive direction of x axis then
+tan(Q) is called the slope of the straight line and is denoted by m:
+                 m = tan(Q)
+                 m = (y1 - y2)/(x1 - x2)
+

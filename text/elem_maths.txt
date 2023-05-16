@@ -725,4 +725,754 @@ Set builder notation combines the use of braces and the concept of a variable.
  | = such that
 Symbol ∈ denotes set membership. e ∈ A read as = e is an element of A.
                                  e ∉ A read as = e is not an element of A.
+Two sets are said to be equal if they contain exactly the same elements.
+The order in which the element are written doesn't matter.
+
+{1, 2, 3, ...}              Natural, counting, positive numbers
+{0, 1, 2, ...}              Whole numbers, nonnegative integers
+{..., -3, -2, -1}           Negative integers
+{..., -2, -1, 0}            Nonpositive integers
+{..., -2, -1, 0, 1, 2, ...} Integers
+
+A rational number is any number that can be written in the form a/b, where
+a and b are integers, and b does not equal zero. Other numbers is irrational.
+
+Number in terms of decimal representation cab be classify as
+    -   terminating     0.3
+    -   repeating       0.3333...
+    -   nonrepeating    3.141592... (non rational)
+
+The set of real number is composed of the rational and irrational numbers.
+
+A set A is a subset of a set B if and only if every element A is also an element of B.
+    A ⊆ B and read as " A is a subset of B. "
+
+{0, 1, 2, ...} ⊆ {..., -2, -1, 0, 1, 2, ...} - whole numbers is a subset of the set of integers.
+{..., -2, -1, 0, 1, 2, ...} ⊆ {x | x is a rational number}
+{x | x is a rational number} ⊆ {y | y is a real number}
+
+A equality is a statement in which two symbols, or groups of symbols, are named
+for the same number. The symbol = is used to express an equality.
+
+If a and b are real number, then a + b is a unique real number.
+If a and b are real number, then ab is a unique real number.
+
+Commutative property of:
+    -   Addition:       a + b = b + a
+    -   Multiplication  ab = ba
+Associative propert of:
+    -   Addition:       (a + b) + c = a + (b + c)
+    -   Multiplication  (ab)c = a(bc)
+
+
+Addition and multiplication are binary operations.
+
+Identity property of:
+    -   Addition        a + 0 = 0 + a = a
+    -   Multiplication  a * 1 = 1 * a = a
+
+Additive inverse property:                  a + (-a) = -a + a = 0
+Multiplication property of zero:            a*0 = 0*a = 0
+Multiplication property of negative one     a * (-1) = (-1) * a = -a
+Multiplication inverse property             a * (1/a) = (1/a) * a = 1
+Distributive property                       a(b + c) = ab + ac
+
+If n is a positive integer and b is any real number, then
+    b^n = bbb ... b
+          ---------
+          n factors of b
+b - base, n - exponent
+b^n read as b to the n-th power
+
+Algebraic expressions such as 2x, 8xy, 3xy^2, -4a^2b^3c, z are called terms.
+A term is an indicated product that may have any number of factors.
+The variables involved in a term are called literal factors.
+Numerical factor is called the numerical coefficient.
+Term that have the same literal factors are called similar terms or like terms.
+
+Algebraic equations contain one or more variables.
+Solving an equation refers to the process of finding the number (or numbers) that
+make(s) an algebraic equation a true numerical statement.
+We call such numbers the solutions or roots of the equation.
+We call the set of all solutions of an equation its solution set.
+
+Addition property of equality:          a = b <=> a + c = b + c
+Multiplication property of equality:    a = b <=> ac = bc, c ≠ 0.
+
+Formulas are rules we state in symbolic form, usually as equations.
+
+Solving an inequality is the process of finding the numbers that make an algebraic
+inequality a true numerical statement.
+
+Addition property of inequality:            a > b <=> a + c > b + c
+Multiplication property of inequality:      a > b <=> ac > bc for c > 0
+                                                  <=> ac < bc for c < 0
+
+We use the words and/or in maths to form compound statements.
+We call such and statement conjunctions.
+We call such  or statement disjunctions.
+
+The intersection of two sets A and B (written A ∧ B) is the set of all elements
+that are in both A and in B. Using set builder notation, we can write
+    A ∧ B = {x | x ∈ A and x ∈ B}
+
+The union of two sets A and B (written A ∨ B) is the set of all elements that
+are in A or in B, or in both. Using set builder notation, we can write
+    A ∨ B = {x | x ∈ A or x ∈ B}
+
+Absolute value of a:
+|a| =  a, if a ≥ 0
+    = -a, if a < 0
+
+|x| < k <=> x > -k and x < k
+
+Terms that contain variables with only whole numbers as exponents are called monomials.
+The degree of a monomial is the sum of the exponents of the literal factors.
+A polynomial is a monomial or a finite sum (or difference) of monomials.
+The degree of a polynomial is the degree of the term with the highest degree in
+the polynomial.
+
+(a ∓ b)^2 = a^2 ∓ 2ab + b^2
+
+(a + b)(a - b) = a^2 - b^2    - difference of two squares
+
+(a ∓ b)^3 = a^3 ∓ 3a^2b + 3ab^2 ∓ b^3
+
+Factoring is the reverse of multiplication.
+Factoring by grouping.
+
+The sum and difference of two cubes
+a^3 + b^3 = (a + b)(a^2 - ab + b^2)
+a^3 - b^3 = (a - b)(a^2 + ab + b^2)
+
+(px + r)(qx + s) = (pq)x^2 + (ps + rq)x + rs
+
+To sum/diff fractions - a least common denominator (LCD)
+
+Success in algebra depends on having a good understanding of the concepts and being
+able to perform the various computations.
+
+Complex fractions are fractional forms that contain rational numbers or expressions in
+the numerators and/or denominators.
+It is often necessary to simplify a complex fraction.
+
+A ratio is the comparison of two numbers by division.
+A statement of equality between two ratios is called a proportion.
+
+√ - radical sign.
+The number under the radical sign is called the radicand.
+The entire expression such as √16 is called the radical.
+
+√a 
+3_√a = x <=> x^3 = a
+b^(1/n) = n_√b
+
+i^2 = -1
+The number i is not a real number and is often called the imaginary unit, but
+the number i^2 is the real number -1.
+
+A complex number is any number that can be expressed in the form: a + bi
+    a - real part, b - imaginary
+
+A second degree equation in one variable contains the variable with an exponent of 2,
+but no higher power. Such equations are also called quadratic equations.
+
+D = b^2 - 4ac  - discriminant
+
+x = (-b ∓ √D)/(2a)
+
+Rene Descartes, a French mathematician of the 17 th century, was able to transform
+geometric problems into an algebraic setting so that he could use the tools
+of algebra to solve the problems. = analytical geometry.
+
+A solution of an equation in two variables is an ordered pair of real numbers that
+satisfies the equation.
+We can find infinitely many pairs of real numbers that satisfy the equation.
+
+The term graphing utility is used in current literature to refer to either a
+graphing calculator or computer with graphing software package.
+
+d = √((x2-x1)^2 + (y2 - y1)^2) - distance formula
+
+The slope of a line is the ratio of the vertical change to the horizontal change.
+m = (y2 - y1)/(x2 - x1), x2 ≠ x1
+
+y - y1 = m(x - x1) - point slope form of the equation of a straight line.
+
+y = mx + b  -   slope intercept form, b intercept with y axis
+
+Ax + By = C - standard form.
+
+The curve of quadratic equation is called a parabola.
+
+One of the fundamental concepts of mathematics is that of a function.
+
+A function f is a correspondence between two sets X and Y that asigns to each
+element x of set X one and only one element y of set Y.
+The element y being assigned is called the image of x.
+The set is called the domain of the function, and the set of all images is called
+the range of the function.
+
+f(x) = ax + b - linear function
+f(x) = ax^2 + bx + c - quadratic function
+The graph of any quadratic function is a parabola.
+
+Besides adding, subtraction, multiplying, and dividing, there is another
+important operation called composition.
+(f ∘ g)(x) = f(g(x)) for all x in the domain of g such that g(x) is in the domain of f.
+
+Dividend = (Divisor)/(Quotient) + Remainder
+
+f(x) = d(x)/q(x) + r(x)
+
+If the polynomial f(x) is divided by x - c, then the remainder is equal to f(c)
+A polynomial f(x) has a factor x -c if and only if f(c) = 0
+
+Polynomial equations: a(n)x^n + a(n-1)x^(n-1) + ... + a(1)x + a(0) = 0
+A polynomial equation of degree n has n solutions.
+
+Exponential function with base b: f(x) = b^x
+
+If r is any positive real number, then the unique exponent t such that b^t = r
+called the logarithm of r with base b and is denoted by log_b(r)
+
+log_b(r) = t <=> b^t = r
+
+log_b(b) = 1
+log_b(1) = 0
+b^(log_b(r)) = r
+log_b(rs) = log_b(r) + log_b(s)
+log_b(r/s) = log_b(r) - log_b(s)
+log_b(r^p) = p(log_b(r))
+
+Logarithmic function with base b is f(x) = log_b(x)
+
+log_10(x) = log(x)
+
+Logarithms with a base of e are called natural logarithms.
+log_e(x) = ln(x)
+
+log_a(r) = (log_b(r)/log_b(a))
+
+A matrix is an array of numbers arranged in horizontal rows and vertical columns
+and enclosed in brackets.
+    [ 2  3  -1 ]  row
+    [-4  7  12 ]        - two by three matrix
+            column
+
+ ( a(1)x + b(1)y + c(1)z = d(1) )
+ ( a(2)x + b(2)y + c(2)z = d(2) )
+ ( a(3)x + b(3)y + c(3)z = d(3) )
+
+ [ a(1)    b(1)    c(1)  | d(1) ]
+ [ a(2)    b(2)    c(2)  | d(2) ]
+ [ a(3)    b(3)    c(3)  | d(3) ] - augmented matrix of the system of equations.
+
+
+    [ a11 a12 ... a1n ]
+A = [ a21 a22 ... a2n ]
+    [ ............... ]
+    [ am1 am2     amn ]
+
+For 2 x 2 matrix |A| = a11a22 - a12a21 - determinant
+
+If A is a 3x3 matrix, then the cofactor (denoted by Cij) of the element aij is
+defined by Cij = (-1)^(i+j)Mij
+    |A| = a11C11 + a21C21 + a31C31
+
+ ( a1x + b1y = c1 )
+ ( a2x + b2y = c2 )
+ 
+ [ a1    b1  | c1 ]
+ [ a2    b2  | c2 ]
+ 
+     [ c1 b1 ]
+     [ c2 b2 ]     Dx
+x = ----------- = ----
+     [ a1 b1 ]     D
+     [ a2 b2 ]
+
+     [ a1 c1 ]
+     [ a2 c2 ]     Dy
+y = ----------- = ----
+     [ a1 b1 ]     D
+     [ a2 b2 ]
+
+To add two matrices, we add the elements that appear in corresponding positions.
+A + B = B + A  and (A + B) + C = A + (B + C)
+O - zero matrix
+A + O = O + A = A
+
+Additive matrix (-A) is formed by taking the additive inverse of each element of A.
+
+A + (-A) = O
+A - B = A + (-B)
+
+kA = k x every elements.
+
+Matrix multiplication refferd to as row-by-column multiplication
+ a11b11 + a12b21 ...
+ 
+(AB)C = A(BC)
+A(B + C) = AB + AC
+
+A circle is the set of all points in a plane equidistant from a given fixed point
+called the center. A line segment determined by the center and any point on the
+circle is called a radius.
+
+(x - h)^2 + (y - k)2 = r^2
+
+A parabola is the set of all points in a plane such that the distance of each
+point from a fixed point F (the focus) is equal to its distance from a fixed line d
+(the directrix) in the plane.
+
+An ellipse is the set of all points in a plane such that the sum of the distances
+of each point from two fixed points F and F' (the foci) in the plane is constant.
+
+A hyperbola is the set of all points in a plane such that difference of the distances
+of each point from two fixed points F and F' (the foci) in the plane is a positive constant.
+
+An infinite sequence is a function with a domain that is the set of positive integers.
+    f(n) = 5n + 1
+
+An arithmetic sequence (progression) is a sequence that has a common difference
+between successive terms, for example 1, 8, 15, 22, 29
+
+a(k+1) - a(k) = d - common difference
+
+a(n) = a(1) + (n - 1)d
+
+Sum formula:
+    S(n) = n(a(1) + a(n))/2
+    1 + 2 + ... + 100
+    S(1000) = 100*101/2 = 10100/2 = 5050
+
+  5
+  ∑ a(i) - summation symbol
+ i=1
+
+A geometric sequence (progression) is a sequence in which we obtain each term
+after the first by multiplying the preceding term by a common multiplier,
+which is called the common ratio of the sequence.
+    a(k+1) = ra(k)
+    a(n)   = a1r^(n-1)
+    S(n)   = (a(1)r^n - a(1))/(r - 1)
+
+Sum of the infinite geometric sequence:     S = a(1)/(1 - r)
+ S = 1 + 0.5 + 0.25 + 0.125 + ... = 2
+ 
+0.(14) = 0.14 + 0.0014 + 0.000014 + ... = 0.14/(1 - 0.01) = 14/99
+
+Principle of mathematical induction:
+    Let P(n) be a statement in terms of n, where n is a positive integer. If:
+    1. P(1) is true, and
+    2. the truth of P(k) implies the truth of P(k+1) for every positive integer k
+    then P(n) is true for every positive integer n.
+
+
+James Stewart
+Lothar Redlin
+Saleem Watson
+Precalculus Mathematics for Calculus
+
+How to Solve it:
+    1. Understand the problem
+        -  What is the unknown?
+        -  What are the given quantities?
+        -  What are the given conditions?
+    2. Think of a Plan
+    3. Carry Out of the Plan
+    4. Look back
+
+A mathematical model is an equation that describes a real world object or process.
+Modeling is the process of finding such equations.
+
+A function is a rule that describes how one quantity depends on another.
+A function f is rule that assigns to each element x in a set A exactly one element,
+called f(x), in a set B.
+Domain - x; range - y.
+
+A function with domain A is called one to one function if no two elements of A
+have the same image, that is  f(x1) ≠ f(x2), whenever x1 ≠ x2
+
+Functions defines by polynomial expressions are called polynomial functions.
+The graphs of polynomial functions can have many peaks and valleys.
+This property make them suitable models for many real world situations.
+
+a(n)x^n + a(n-1)x^(n-1) + ... + a(1)x + a(0),    a(n) ≠ 0
+
+n = 2: quadratic functions
+
+f(x) = ax^2 + bx + c => f(x) = a(x - h) + k  - Vertex (h, k)
+
+a > 0 parabola opens upward and if a < 0 downward
+
+The function has a minimum/maximum at the vertex.
+
+If P is a polynomial function, then c is called a zero of P if P(c) = 0.
+
+=> P(x) = a(x - c1)(x - c2)...(x - cn), ck - complex numbers
+   P(x) =  (x - c1)Q1(x),   Q1(x) is of degree n - 1
+
+Complex zeros come in conjugate pairs.
+
+The domain of a rational function r(x) = P(x)/Q(x) consists of all real numbers x
+except those for which the denominator is zero.
+
+a^x - exponential expression, where x is any real number.
+The exponential function with base a is defined for all real numbers x by where
+a > 0 and a ≠ 1. 
+
+e = (1 + 1/n)^n, n -> ∞ -> 2.71828...
+
+Logarithmic function:
+    log_a(x) = y; a - base.
+
+The logarithm with base 10 is called the common logarithm and is denoted by
+omitting:   log(x) = log_10(x)
+
+The logarithm with base e is called the natural logarithm and is denoted by ln:
+            ln(x)  = log_e(x)
+
+The unit circle is the circle of radius 1 centered at the origin in the xy plane.
+Its equation is:  x^2 + y^2 = 1
+
+The circumference of the unit circle is C = 2п.
+п/2 = 90digree
+
+Triangle: hyp, opp, adj
+
+(sin(t))^2 + (cos(t))^2 = 1
+
+sin(t + 2nп) = sin(t) is periodic.
+
+An angle AOB consists of two rays R1 and R2 with common vertex O.
+Angle as a rotation of the ray R1 onto R2. In this case R1 is called the
+initial side, and R2 is called the terminal side of the angle.
+If the rotation is counterclockwise, the angle is considered positive, and if
+the notation is clockwise, the angle is considered negative.
+
+If a circle of radius 1 is drawn with the vertex of an angle at its center, then
+the measure of this angle in radians (abbreviated rad) is the length of the arc
+that subtends the angle.
+        1 rad = (180/п)degree
+
+In a circle of radius r the area A of a sector with a central angle of Q radians is
+        A = 1/2(r^2Q)
+
+          opposite
+sin(x) = ----------
+         hypotenuse
+
+          adjacent
+cos(x) = ----------
+         hypotenuse
+
+sinQ = y/r
+cosQ = x/r
+
+r = √(x^2 + y^2)
+
+Areas of Triangles
+S = (1/2)bh, b - base, h - height.
+
+S = (1/2)ab*sinQ
+
+Law of cosines:
+    a^2 = b^2 + c^2 - 2ab*cosQ
+
+sin(s + t) = sin(s)cos(t) + cos(s)sin(t)
+sin(s - t) = sin(s)cos(t) - cos(s)sin(t)
+cos(s + t) = cos(s)cos(t) - sin(s)sin(t)
+cos(s - t) = cos(s)cos(t) + sin(s)sin(t)
+
+
+The polar coordinate system uses distances and directions to specify the location
+of a point in the plane. 0 - pole (origin) and a ray called the polar axis.
+Then each point P can be assigned polar coordinates P(r, Q), where
+    r is the distance from O to P
+    Q is the angle between the polar axis and the segment OP
+
+    (r, Q) and (-r, Q + п) represent the same point.
+
+    x = r cos(Q)
+    y = r sin(Q)
+    r^2 = x^2 + y^2, tan(Q) = y/x
+
+Many real world quantities are described mathematically by just one number: their
+or magnitude:
+    -   mass;
+    -   volume;
+    -   distance;
+    -   temperature.
+Such a quantity is called a scalar.
+But many other real world quantities involve both magnitude and direction.
+Such quantities are described mathematically by vectors:
+    -   force
+    -   speed
+    -   displacement
+Called directed quantities.
+
+A vector in the plane is a line segment with an assigned direction.
+We sketch a vector with an arrow to specify the direction.
+vector ->AB, point A is the initial point, B is the terminal point.
+AB is called the magnitude or length.
+Two vectors are considered equal if they have equal magnitude and the same direction.
+
+->v - vector
+c - scalar
+  ->vc - multiplication of a vector by a scalar.
+  ->v (-1) - is the vector with the same length as v but with the opposite direction.
+  ->u - ->v = ->u + (-1) -<v
+
+v is ordered pair of real numbers.
+->v = (a1, a2)
+a1 - horizontal component, and a2 - vertical component
+
+If a vector is represented in the plane with initial point P(x1, y1) and terminal
+point Q(x2, y2), then ->v = (x2-x1, y2-y1) = (a1, a2)
+        |v| = √(a1^2 + a2^2)
+
+Zero vector O = (0, 0)
+Unit vector i = (1, 0), j = (0, 1)
+
+    v = (a1, a2) = a1 i + a2 j; Vector in terms of i and j.
+    v = |v| cos(Q) i + |v| sin(Q) j
+
+If u = (a1, a2) and v = (b1, b2) are vectors, then their dot product, denoted by
+u * v, is defined by:
+            u * v = a1b1 + a2b2  - it's scalar
+            u * v = |u||v| cos(Q), Q - angle between two nonzero vectors
+
+            cos(Q)  = (u * v)/(|u||v|)
+
+            If u * v = 0 then u and v are perpendicular.
+
+The component of u along v is defined to be |u| cos(Q)
+             comp_v(u) = (u * v) / |v|
+
+The projection of u onto v, denoted by proj_v(u), is the vector parallel to v
+and whose length is the component of u along v.
+            proj_v(u) = comp_v(u) * (unit vector in direction of v)  = 
+              = ((u*v)/|v|)(v/|v|) = ((u*v)/(|v|)^2) v
+
+In three dimensional space, a third dimension is added, so any point in space
+is represented by an ordered triple (a, b, c) of real numbers.
+
+Three coordinate planes divide space into eight parts, called octans: xy-plane, ...
+
+    v = (a1, a2, a3) = a1 i + a2 j + a3 k, where ak are the components of v
+
+Given two vectors u = (a1, a2, a3) and v = (b1, b2, b3), we often need to find
+a vector w perpendicular to both u and v. If we write w = (c1, c2, c3), then
+u * w = 0 and v * w = 0, so 
+    a1c1 + a2c2 + a3c3 = 0
+    b1c1 + b2c2 + b3c3 = 0
+
+Solution is w = (a2b3 - a3b1, a3b1 - a1b3, a1b2 - a2b1) is called the cross
+product of u and v is denoted by u x v.
+
+    |u x v| = |u||v| sin(Q)
+
+The length of the cross product u x v is the area of the parallelogram determined
+by u and v.
+
+A line L in three dimensional space is determined when we know a point P0(x0, y0, z0)
+on L and the direction of L. In three dimensions the direction of a line is described
+by a vector v parallel to L. If we let r0 be the position vector of P0, then for
+all real numbers t the terminal points P of the position vectors r0 + tv trace out
+a line parallel to v and passing through P0.
+    r = r0 + tv
+for t ∈ R: r is the vector equation of a line.
+
+The direction of a plane cannot be described by a vector in the plane.
+But a vector perpendicular to a plane does completely specify the direction of the plane.
+P0(x0, y0, z0) in the plane and a vector n than is orthogonal to the plane.
+This orthogonal vector n is called a normal vector.
+    n * (r - r0) = 0 - vector equation of the plane.
+
+A system of equations is a set of equations that involve the same variables.
+A system of linear equations is a system of equations in which each equation is linear.
+A solution of a system is an assignment of values for the variables that makes each
+equation in the system true.
+To solve a system means to find all solutions of the system.
+
+A system that has no solution is said to be inconsistent.
+A system with infinitely many solutions is called dependent.
+
+A linear equation in n variables is an equation that can be put in the form.
+        a1x1 + a2x2 + ... + anxn = c
+ak - real numbers, xk - variables.
+
+A matrix is simply a rectangular array of numbers.
+Matrices are used to organize information into categories that correspond to the
+rows and columns of the matrix.
+
+To represent a linear system by a matrix, called the augmented matrix of the system:
+    { 2x  -  y = 5        [ 2  -1  | 5 ]
+    {  x  + 4y = 7        [ 1   4  | 7 ]
+
+An m x n matrix is a rectangular array of numbers with m rows and n columns.
+    [ a11 a12 ... a1n ]
+    [ a21 a22 ... a2n ]
+    [ ............... ]
+    [ am1 am2     amn ]
+
+We say that the matrix has dimension m x n. The numbers aij are the entries of
+the matrix. The subscript on the entry aij indicates that it is the i - th row
+and j - th column.
+
+Conic sections are curves that are formed when a plane cuts a cone:
+    - circle
+    - ellipses
+    - parabolas
+    - hyperbolas
+
+Parabola: y = ax^2 + bx + c is U - shaped curve.
+A parabola is the set of all points in the plane are equidistant from a fixed
+point F (called the focus) and a fixed line l (called the directrix).
+
+An ellipse is the set of all points in the plane the sum of whose distances from
+two fixed points F1 and F2 is constant. These two fixed points are the foci of
+the ellipse.    x^2/a^2 + y^2/(a^2 - c^2) = 1
+
+A hyperbola is the set of all points in the plane, the difference of whose distances
+from two fixed points F1 and F2 is constant: x^2/a^2 - y^2/b^2 = 1
+
+A sequence is an function a whose domain is the set of natural numbers.
+The terms of sequence are the function values: a(1), a(2), ... a(k)
+
+Given a sequence: a1, a2, ...  we can write the sum of the first n terms using
+summation notation, or sigma notation. This notation derives its name from the
+Greek letter ∑ (capital sigma, corresponding to our S for sum).
+
+     n    - tells us to end with k = n
+     ∑ ak - tells us to add
+    k=1   - tells ta to start with k = 1
+
+It reads as the sum of ak from k = 1 to k = n. k is the index of summation, or
+the summation variable.
+
+An arithmetic sequence is a sequence of the form: a, a + d, a + 2d, ...
+The number a is the first term, and d is common difference of the sequence.
+The nth term of an arithmetic sequence is given by:
+            an = a + (n-1)d
+
+     n
+     ∑ (a + (k - 1)d) = (n/2)(2a + (n - 1)d) = n((a + an)/2)
+    k=1
+
+A geometric sequence is generated when we start with a number a and repeatedly
+multiply by a fixed nonzero constant r.
+            an = a r^(n-1)
+            Sn = a (1 - r^n)/(1 - r)
+            n -> infinity, Sn = a/(1 - r)
+
+Mathematical induction is a special kind of proof.
+This is called the induction step.
+    - P(1) is true;
+    - for every natural k, if P(k) is true then P(k + 1) is true.
+
+An expression of the form a + b is called a binomial.
+
+    (a + b)^0                                   1
+    (a + b)^1                                1     1
+    (a + b)^2                             1     2     1
+    (a + b)^3                          1     3     3     1
+    (a + b)^4                      1      4     6     4     1
+
+Every entry is the sum of two entries diagonally above it.
+
+n! = 1 2 3 ... (n - 1) n  - n factorial
+
+Let n and r be nonnegative integers with r <= n. The binomial coefficient is denoted
+by   (n)
+     (r) = n!/r!(n - r)!
+
+     (  k  )    (k)   (k + 1)
+     (r - 1)  + (r) = (  r  )
+
+The binomial theorem:
+
+    (a + b)^n = (n) a^n + (n) a^(n-1)b + ... + (  n  ) ab^(n - 1) + (n) b^n
+                (0)       (1)                  (n - 1)              (n)
+
+We write 
+            lim  f(x) = L
+            x->a
+and say
+        the limit of f(x), as x approaches a, equals L
+if we can make the values of f(x) arbitrarily close to L (as close to L as we like)
+by taking x to be sufficiently close to a, but not equal to a.
+
+H(t) = { 0 if t < 0
+       { 1 if t >= 0
+
+H is Heaviside function
+
+lim t->0 does not exist.
+
+Definition of a one side limit, we write  lim x->a- f(x) = L
+and say that the left hand limit of f(x) as x approaches a (or right hand lim x->a+ f(x)) is
+equal to L if we can make the values of f(x) arbitrarily close to L by taking x
+to be sufficiently close to a and x less than a.
+
+lim x->a f(x) = L if and only if lim x->a- f(x) = L  and lim x->a+ f(x) = L
+
+Limit laws:
+    lim x->a [f(x) +/- g(x)] = lim x->a f(x) +/- lim x->a g(x)
+    lim x->a [cf(x)]         = c lim x->a f(x)
+    lim x->a [f(x) x// g(x)] = lim x->a f(x) x//  lim x->a g(x)
+    lim x->a [f(x)^n]        = [lim x->a f(x)]^n
+
+A tangent line is a line that just touches a curve.
+
+ slope (m) = lim x->a (f(x) - f(a))/(x - a)
+
+The derivative of a function f at a number a, denoted by f'(x), is
+
+            f'(a) = lim h->0 ((f(a + h) - f(a))/h)
+
+Let f be a function defined on some interval (a, oo). Then
+            lim x->oo f(x) = L
+means that the values of f(x) can be made arbitrarily close to L by taking x
+sufficiently large.
+
+The same for negative infinity x->-oo
+
+========
+Calculus
+========
+
+Calculus is fundamentally different from the mathematics that you have studied
+previously: calculus is less static and more dynamic. It is concerned with change
+and motion; it deals with quantities that approach other quantities.
+Limit is the main ideas of calculus.
+
+Calculus builds on what you have learned in algebra and analytic geometry but
+advances these ideas spectacularly.
+
+Functions arise whenever one quantity depends on another.
+
+A function f is a rule that assigns to each element x in a set D exactly one
+element, called f(x), in a set E.
+The set D is called the domain of the function.
+The number f(x) is the value of f at x and is read "f of x".
+The range of f is the set of all possible values of f(x) as x varies.
+
+Graph is the set of ordered pairs: {(x, f(x)) | x ∈ D}
+
+Four different ways to represent a function:
+    - verbally
+    - numerically (by a table)
+    - visually (by a graph)
+    - algebraically (by a formula)
+
+A function f is called one to one function if it never takes on the same value twice.
+
+Let f be a one to one function with domain A and range B.
+Then its inverse f-1 has domain B and range A and is defined by
+        f-1(y) = x <=> f(x) = y
+
+
 
