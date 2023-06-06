@@ -695,7 +695,26 @@ The slope of a line is m = ----
 The slope of the line between two points (x1, y1) and (x2, y2) is:
         m = (y2 - y1)/(x2 - x1)
 
-=====
+========================================
+========================================
+Jerome E. Kaufmann, Karen L. Schwitters.
+Algebra for college students, 9th Ed.
+========================================
+1.  Basic Concepts and Properties
+2.  Equations, Inequalities, and Problem Solving
+3.  Polynomials
+4.  Rational Expressions
+5.  Exponents and Radicals
+6.  Quadratic Equations and Inequalities
+7.  Linear Equations and Inequalities in Two Variables
+8.  Functions
+9.  Polynomial and Rational Functions
+10. Exponential and Logarithmic Functions
+11. System of Equations
+12. Algebra of Matrices
+13. Conic sections
+14. Sequances and Mathematical Induction
+
 
 Algebra is often described as a generalized
 
@@ -1440,9 +1459,29 @@ sufficiently large.
 
 The same for negative infinity x->-oo
 
-========
-Calculus
-========
+===========================================
+===========================================
+James Stewart, Daniel Clegg, Saleem Watson.
+Calculus. Early transcendentals, 9th Ed.
+===========================================
+===========================================
+
+1.  Functions and Models
+2.  Limits and derivative
+3.  Differentiation rules
+4.  Applications of Differentiation
+5.  Integrals
+6.  Applications of Integration
+7.  Techniques of Integration
+8.  Further applications of Integration
+9.  Differential equations
+10. Parametric equations and polar coordinates
+11. Sequences, Series, and Power Series
+12. Vector and the geometry of space
+13. Vector Functions
+14. Partial Derivatives
+15. Multiple Integrals
+16. Vector Calculus 
 
 Calculus is fundamentally different from the mathematics that you have studied
 previously: calculus is less static and more dynamic. It is concerned with change
@@ -1474,5 +1513,220 @@ Let f be a one to one function with domain A and range B.
 Then its inverse f-1 has domain B and range A and is defined by
         f-1(y) = x <=> f(x) = y
 
+The word tangent is derived from the Latin word tangens, which means "touching".
+
+Intuitive definition of a limit: Suppose f(x) is defined when x is near the number a,
+then:       lim x->a f(x) = L
+and say " the limit of f(x), as x approaches a, equals L "
+
+Theorem: If f(x) <= g(x) when x is near a (except possibly at a) and the limits of f and g
+both exist as x approaches a, then: lim x->a f(x) <= lim x->a g(x)
+
+The squeeze theorem: if f(x) <= g(x) <= h(x) when x is near a (except possibly at a) and
+                lim x->a f(x) = lim x->a h(x) = L   then
+                                lim x->a g(x) = L
+
+δ (the Greek letter delta)
+ε (the Greek letter epsilon)
+
+Precise definition of a limit: Let f be a function defined on some open interval that
+contains the number a, except possibly at a itself.
+Then we say that the limit of f(x) as x approaches a is L, and we write:
+                lim x->a f(x) = L
+if for every number ε > 0 is a number δ > 0 such that
+        if 0 < |x - a| < δ then |f(x) - L| < ε
+
+Definition: A function f is continuous at a number a if lim x-> a f(x) = f(a).
+This definition implicitly requires three things if f is continuous at a:
+    -   f(a) is defined (this is a, a is in the domain of f)
+    -   lim x->a f(x) exists
+    -   lim x->a f(x) = f(a)
+
+Physical phenomena are usually continuous.
+
+Definition: A function f is continuous from the right at a number a if and f is
+continuous from the left/right a if  lim x->a-/+ f(x) = f(a)
+
+Definition: A function f is continuous on an interval if it is continuous, at
+every number in the interval.
+
+Theorem: if f and g are continuous at a and c is constant, then the following functions
+are also continuous at a:
+    - f +/- g
+    - fg
+    - f/g
+    - cf, cg
+Proof: Each of the five parts of this theorem follows from the corresponding Limit Law.
+
+Theorem: Any polynomial is continuous everywhere; that is, it is continuous on R.
+         Any rational function is continuous wherever it is defined.
+
+The intermediate value theorem: Suppose that f is continuous on the closed interval [a, b]
+and let N be any number between f(a) and f(b), where f(a) != f(b).
+Then there exists a number c in (a, b) such that f(c) = N.
+
+Definition: The tangent line to the curve y = f(x) at the point P(a, f(a)) is the line
+through P with slope m = lim x->a ((f(x) - f(a))/(x -a))
+provided that this limit exists.
+
+Definition: The derivative of a function f at a number a, denoted by f'(a) is
+            f'(a) = lim h->0 ((f(a + h) - f(a))/h)
+if this limit exists.
+
+f'a is read " f prime of a "
+
+Other notations: f'(x) = y' = dy/dx = d/dx(f(x)) = Df(x)
+D and d/dx are called differentiation operators.
+
+Definition: A function f is differentiable at a if f'(a) exists.
+It is differentiable on an opne interval (a, b) if it is differentiable at every
+number in the interval.
+
+d^2y/dx^2 - second derivative
+
+Constant functions: f'(x) = 0
+Power functions:    d/dx(x^n) = n x^(n-1)
+Constant multiple ruel:  d/dx(c f(x)) = c d/dx(f(x))
+
+Definition of the number e: e is the number such that lim h->0 ((e^h - 1)/h) = 1
+                            d/dx(e^x) = e^x
+
+    d/dx(uv) = u dv/dx + v du/dx
+    d/dx(u/v) = (u dv/dx - u dv/dx)/(v^2)
+
+    d/dx(sin(x)) = cos(x)
+    d/dx(cos(x)) = -sin(x)
+    dy/dx = dy/du du/dx
+
+    d/dx(b^x) = b^x ln(b)
+    d/dx(log_b(x)) = 1/(x ln(b))
+
+Differential equation dy/dt = ky called the law of natural growth/decay.
+        y = C e^(kt)
+
+Theorem: The only solutions of the differential equation dy/dx = ky are the
+exponential functions y(t) = y(0)e^(kt).
+
+Method of finding approximate values of functions.
+
+y = f(a) + f'(a) (x - a) is linearization of f at a.
+
+hyperbolic functions:
+    sinh(x) = (e^x - e^(-x))/2)
+    sinh(x) = (e^x + e^(-x))/2)
+
+Let c be a number in the domain D of function f. Then f(c) is the
+    - absolute maximum value if f on if(c) >= f(x) for all x in D
+    - absolute minimum value if f on if(c) <= f(x) for all x in D
+
+Fermat theorem: If f has a local maximum or minimum at c, and if f'(c) exists,
+then f'(c) = 0.
+
+If f'(x) > 0 on interval, then f is increasing on that interval.
+if f'(x) < 0 on interval, then f is decreasing on that interval.
+
+The area A of the region S that lies under the graph of the continuous function
+f is the limit of the sum of the areas of approximating rectangles:
+    A = lim n->oo Rn = lim n->oo [f(x1)dx + f(x2)dx + ... + f(xn)dx]
+
+If f is function defined for a <= x <= b, we divide the interval [a, b] into n
+subintervals of equal width dx = (b - a)/n.
+We let x0 (=0), x1, x2, ..., xn (=b) be the endpoints of these subintervals and
+we let x1*, x2*, ..., xn* be any sample points in these subintervals, so xi* lies
+on in ith subintervals [xi-1, xi]. Then the definite integral of f from a to b is
+
+    b                     n
+    ∫ f(x) dx = lim x->oo ∑ f(xi*) ∆x
+    a                    i=1
+
+provided that this limit exists and gives the same value for all posible choices
+of sample points. If it does exist, we say that f is integral on [a, b].
+
+If f is continuous on [a, b], then integral on [a, b] = F(b) - F(a)
+where F is any antiderivative of f: F' = f
+
+Indefinite integral:
+
+    ∫ f(x) dx = F(x), F'(x) = f(x)
+
+Definite integral is a number, whereas an indefinite integral is a function.
+
+    b
+    ∫ F'(x) dx = F(b) - F(a)
+    a
+
+The most important of all the applications of calculus is to differential
+equations.
+
+Sequence can be viewed as a function whose domain is a set of natural numbers.
+
+Many of the functions that arise in mathematical physics - such as Bessel functions -
+are defined as sums of series.
+
+Infinite sequence, or just a sequence, can be thought of as a list of numbers written
+in a definite order:   a1, a2, a3, a4, ..., an
+    {an} or {an} n=1 oo
+
+The Fibonacci sequence {fn} is defined recursively by the conditions:
+    f1 = 1  f2 = 1      fn = fn-1 + fn-2 n >= 3
+
+   oo
+    ∑an  or ∑an    -    is called infinite series (or just a series)
+   n=1
+
+    ∑1/2^n = 1/2 + 1/4 + ... = 1
+
+Geometric series: ∑a r^(n-1) = a/(1 - r), r < 1
+
+Harmonic series  ∑1/n
+
+Theorem: If the series ∑an is convergent, then lim n->oo an = 0
+
+In general, it is difficult to find the exact sum of a series.
+
+    ∑1/n^2 = 2
+
+    ∑1/n^p - convergent if p > 1 and divergent if p <= 1
+
+Alternating series, whose terms alternate in sign.
+
+If the altenating series: ∑(-1)^(n-1)bn satisfies the conditions:
+    - bn+1 <= bn
+    - lim n->oo bn = 0
+then the series is convergent.
+
+Alternating Series estimation theorem: If s = ∑(-1)^(n - 1)bn
+    -    bn+1 <= bn
+    -    lim n->oo bn = 0
+then |Rn| = |S - Sn| <= bn+1
+
+A series ∑an is called absolutely convergent is the series of absolute values
+∑|an| is convergent.
+A series ∑an is called conditionally convergent if it is convergent but not
+absolutely convergent.
+             oo
+Power series ∑Cnxn = C0 + C1x + C2x^2 + ...
+            n=0
+
+If f has a power series representation (expansion) at a, that is, if
+        f(x) = ∑Cn(x - a)^n, Cn = f'n'(a)/n!
+
+        e^x = ∑x^n/n!
+
+====================================
+12.     Vector and the geometry of space
+12.1    Three Dimensional Coordinate Systems
+12.2    Vectors
+12.3    The dot product
+12.4    The cross product
+12.5    Equations of lines and planes
+12.6    Cylinders and Quadric Surfaces
+
+---------------
+12.2    Vectors
+---------------
+
+The term vector is used in mathematics and the sciences to indicate a quantity
+that has both magnitude and direction.
 
 

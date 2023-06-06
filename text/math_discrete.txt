@@ -1,0 +1,249 @@
+================================================
+================================================
+Ralph P. Grimaldi
+Discrete and Combinatorial Mathematics, 9th. Ed.
+================================================
+I.  Fundamentals of Discrete Mathematics
+1.  Fundamental Principles of Counting
+2.  Fundamental of Logic
+3.  Set Theory
+4.  Properties of the Integers: Mathematical Induction
+5.  Relations and Functions
+6.  Languages: Finite State Machines
+7.  Relations: The Second Time Around
+II. Further topics in enumeration
+8.  The principle of Inclusion and Exclusion
+9.  Generating Functions
+10. Recurrent Relations
+III.Graph theory and Applications
+11. An Introduction to Graph Theory
+12. Trees
+13. Optimization and Matching
+IV. Modern applied algebra
+14. Rings and Modular arithmetic
+15. Boolean Algebra and Switching Functions
+16. Finite Fields and Combinatorial Designs
+=================================================
+
+=================================================
+1.  Fundamental Principles of Counting
+1.1 The rules of Sum and Product
+1.2 Permutations
+1.3 Combinations: The Binomial Theorem
+1.4 Combinations with repetition
+1.5 The Catalan
+
+--------------------------------
+1.1 The rules of Sum and Product
+
+Enumeration, or counting, may strike one as an obvious process that a student
+learns when first studying arithmetic.
+
+Enumeration does not end with arithmetic. It also has applications in such areas
+as:
+    -   coding theory;
+    -   probability
+    -   statistics
+    -   analysis of algorithms
+
+----------------
+1.2 Permutations
+
+Factorial 0! = 1 n! = (n)(n - 1)...(2)(1)
+    (n + 1)! = (n + 1)(n!)
+
+    10! = 3,628,800 - it's number of seconds in six weeks: (60)(60)(24)(7)(6)
+    (2)(3)(4)(5)(6)(7)(8)(9)(10)
+
+Given a collection of n distinct objects, any (linear) arrangement of these objects
+is called a permutation of the collection.
+
+ P(n, r) = n!/(n - r)!
+
+--------------------------------------
+1.3 Combinations: The Binomial Theorem
+
+52 cards comprising four suits:
+    -   clubs
+    -   diamonds
+    -   hearts
+    -   spades
+each has 13 cards: ace, 2, 3, ..., 10, jack, queen, king.
+
+3 cards: 52!/49! = (52)(51)(50) = 132,600
+
+ C(n, r) = (n) =  P(n, r)/r! = n!/((r!)(n - r)!) with no reference to order
+           (r)
+
+ (n) + (n) + (n) + ... + (n) = 2^n
+ (0)   (1)   (2)         (n)
+ 
+ (n) - (n) + (n) - ... + ((-1)^n)(n) = 0
+ (0)   (1)   (2)                 (n)
+                      n
+    (1 + 1)^n = 2^n = ∑  (n  )
+                     k=0 (n-k)
+
+
+--------------------------------
+1.4 Combinations with repetition
+
+When repetitions are allowed, we have seen that for n distinct objects an
+arrangement of size r of these objects can be obtained in n^r ways.
+
+When we with to select, with repetition, r of n distinct objects, we find that
+we are considering of r and n - 1 and that their number is
+                C(n + r - 1, r)
+
+================================================
+2.  Fundamental of Logic
+2.1 Basic Connectives and truth table
+2.2 Logical Equivalence: The Law of Logic
+2.3 Logical Implication: Rules of Inference
+2.4 The Use of Quantifiers
+2.5 Quantifiers, Definitions, and Proofs of Theorems
+
+------------------------------------------------
+2.1 Basic Connectives and truth table
+
+Verbal or written assertions called statements (propositions).
+
+New statement can be obtained from existing ones in two ways:
+    -   Transform p in !p - negation
+    -   Compound of statement
+        --  conjunction (and)
+        --  disjunction (or)
+        --  implication (p -> q)
+        --  biconditional ( p <-> q, iff)
+
+-----------------------------------------------
+2.2 Logical Equivalence: The Law of Logic
+
+In all areas of mathematics we need to know when entities we are studying are
+equal or essentially the same.
+
+Our study of logic is often referred to as the algebra of propositions (as
+opposed to the algebra of real numbers). We will use the truth tables of the
+statements, or propositions, to develop an idea of when two such entities the
+same.
+
+Two statements s1, s2 are said to be logically equivalent, and we write s1 <=> s2,
+when the statement s1 is true (or false) if and only if the statement s2 is true
+(false).
+
+    p  -> q   <=> !p ∨ q
+    p <-> q   <=> (p -> q) ∧ (q -> p) <=> (!p ∨ q) ∧ (!q ∨ p)
+
+Let s be a statement. If s contains no logical connectives other than ∨ and ∧,
+then the dual of s, denoted s_d, is the statement obtained from s by replacing
+each occurrence of ∨ and ∧ by ∧ and ∨, respectively, and each occurrence of T and
+F by F and T, respectively.
+
+    s   = (p ∧ !q) ∨ (r ∧ T)
+    s_d = (p ∨ !q) ∧ (r ∨ F)
+
+The principle of Duality: Let s and t be statements that contain no logical
+connectives other than ∧ and ∨. If s <=> t, then s_d <=> t_d.
+
+
+-------------------------------------------------
+2.3 Logical Implication: Rules of Inference
+
+    (p1 ∧ ... ∧ pn) -> q
+    ---------------    ------------
+        premises       conclusion
+
+If p, q are arbitrary statements such that p -> q is a tautology, then we say
+that p logically implies and we write p => q to denote this situation.
+
+
+------------------------------
+2.4 The Use of Quantifiers
+
+The sentences that involve a variable, such as x, need not be statement - is not
+necessarily true or false unless.
+
+A declarative sentence is an open statement if:
+    - it contains one or more variables, and
+    - it is not a statement, but
+    - it become a statement when the variables in it are replaced by certain
+      allowable choices.
+
+    ∃ - existential quantifier, for some, for at least one, there exists such that.
+    ∀ - universal quantifier, for all, for any, for each, for all, for every.
+    ∀x p(x) => ∃x p(x).
+
+Let p(x), q(x) be open statement defined a given universe.
+The open statements p(x) and q(x) are called (logically) equivalent, and we
+write ∀x [p(x) <=> q(x)] when the biconditional p(a) <-> q(x) is true for each
+replacement a from the universe. If the implication p(a) -> q(a) is true for
+each a in the universe, then we write ∀x [p(x) => q(x)] and say that p(x)
+logically implies q(x).
+
+----------------------------------------------------
+2.5 Quantifiers, Definitions, and Proofs of Theorems
+
+============================
+3.  Set Theory
+3.1 Sets and Subsets
+3.2 Set Operations and Laws of Set Theory
+3.3 Counting and Venn Diagrams
+3.4 A First Word on Probability
+3.5 The Axioms of probability
+3.7 Discrete Random Variables
+
+Underlying the maths we study in:
+    - algebra;
+    - geometry;
+    - combinatorics
+    - probability
+and almost every other area of contemporary maths is the notion of a set.
+
+----------------------------------
+3.1 Sets and Subsets
+
+We use capital letters, such as A, B, C to represent sets and lowercase letters
+to represent element.
+
+A set can be designated by listing its elements within set braces.
+    A = {1, 2, 3, 4, 5}
+or  A = {x | x is an integer and 1 <= x <= 5}
+
+    | - such that
+   {x|...} - the set of all x such that
+
+If C, D are sets from a universe U, we say that C is a subset of D and write
+C ⊆ D, or D ⊇ C, if every element of C is an element of D.
+If, in addition, D contains an element that is not in C, then C is called
+a proper subset of D, and this is denoted by C ⊂ D or D ⊃ C.
+
+    ∀x [x ∈ C => x ∈ D], then C ⊆ D.
+
+    C ⊆ D => |C| <= |D|
+    C ⊂ D => |C| <  |D|
+
+The null set, or empty set, is the (unique) set containing no elements.
+It is denoted by ∅ or {}
+
+If A is a set from universe U, the power set of A, denoted P(A) is the collection
+(or set) of all subsets of A (including ∅ and A). |P(A)| = 2^n
+
+-------------------------------------------------
+3.2 Set Operations and Laws of Set Theory
+
+    A ∪ B  the union        of A and B {x|(x ∈ A)∨(x ∈ B)}
+    A ∩ B  the intersection of A and B {x|(x ∈ A)∧(x ∈ B)}
+    A ∆ B  the symmetric difference of A and B {x|(x ∈ (A ∪ B))∧(x ∉ (A ∩ B)}
+
+Let S, T ⊆ U. The sets S and T are called disjoint, of mutually disjoint,
+when S ∩ T = ∅
+
+If S, T ⊆ U, then S and T are disjoint if and only if S ∪ T = S ∆ T.
+
+For a set A ⊆ U, the complement of A, denoted U - A, or !A, is given by {x|x ∈ U ∧ x ∉ A}
+
+For A, B ⊆ U, the (relative) complement of A in B, denoted B - A, is given by
+{x|x ∈ B ∧ x ∉ A}.
+
+
+

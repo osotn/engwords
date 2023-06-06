@@ -1,0 +1,132 @@
+Logic
+For dummies
+===========
+
+Logic is natural - at least to humans.
+
+Logic is one of the few areas of study taught in two different college
+departments: maths and philosophy.
+
+Logic was founded by Aristotle and developed by philosophers for centuries.
+But, about 150 years ago, mathematicians found that logic was an indispensable
+tool for grounding their work as it becase more and more abstract.
+
+-----------------------------
+I.  Overview of Logic
+
+-----------------------------------------------
+1.  What is this thing called logic?
+
+We live in an illogical world.
+
+One way to understand the world is to notice the connection between cause and
+effect.
+
+The premises are the facts of the matter: The statements that you know
+(or strongly believe) to be true.
+
+Logical arguments about real world situations (in constrast to mathematical or
+scientific arguments) almost always have enthymemes (hidden in an argument).
+
+Uncovering hidden premises in real world arguments is more related to rhetoric,
+which is the study of how to make cogent and convincing arguments.
+
+Logic laws:
+    - the law of identity
+            Every individual thing is identical to inself.
+    - the law of the excluded middle
+            Every statement is either true or false.
+    - the law of non contradiction
+            Given a statemenent and its opposite one is true and the other is false.
+
+Math and logic go great together.
+
+Math is built on logic as a house is built on a foundation.
+
+-------------------------------------------------------
+2.  Logical developments from Aristotle to the Computer
+
+The ancient Greeks had a hand in discovering just about everything, and logic
+is no exception.
+Thales and Pythagoras applied logical argument to mathematics.
+Socrates and Plato applied similar types of reasoning to philosophical questions.
+Founder of classical logic was Aristotle.
+
+Aristotle assembled in single work called Organon (means Tool). He analyzed how
+a logical argument functions.
+
+Science consisted of proofs,
+proofs of syllogisms,
+syllogisms of statements,
+statements of terms.
+
+In a syllogism, the premises and conclusions fit together in such a way that,
+once you accept the premises as true, you must accept that the conclusion is
+true as well - regardless of the content of the actual argument being made.
+
+Categorical statements are simply statements that talk about whole categories of
+objects or people.
+
+Categorical statements:
+    - universal statements;
+        Tell something about an entire category.
+    - particular statements;
+        Tell about the existence of at least one example within a category.
+
+The square of oppositions - a tool Aristotle developed for studying categorical
+statements - organizes the four basic forms of categorical statements that
+appear frequently in syllogisms.
+
+                           Positive forms                 Negative forms
+
+
+    Universal  forms:      A: All cat are sleeping.       E: No cats are sleeping.
+                              No cats are not sleeping.      All cats are not 
+                              Every cat is sleeping.         There isn't
+    
+    Particular forms:      I: Some cats are sleeping.     O: Not all cats are sleeping
+                              Not all cats are not           Some cats are not
+                              At least one cat is            There is
+                              There exists
+
+Contradictory pairs in diagonal: Neither A/E or O/I.
+
+Eclid began with five axioms (called postulates) - true statements that he
+believed were simple and self evident. From these axioms, he used logic to prove
+theorems.
+
+Liberal arts in universities in 12th century:
+    logic, grammar, rhetoric, arithmetic, geometry, astronomy, and music.
+
+George Boole (1815-1864)    -   Boolean algebra.
+Set theory by Georg Cantor in the 1870s.
+A set is just a collection of things.
+
+Gottlob Frege (1848-1925) invented formal logic.
+    E & P  => E -> ~P
+
+Quantifiers: All, exist.
+
+
+------------------------------------------
+3.  Just for the sake of argument
+
+Logic is the study of argument validity; which is whether a logical argument is
+valid (good) on invalid (bad).
+An argument, in logic, is a set of one or more premises followed by a conclusion,
+which are often connected by one or more intermediate statements.
+The premises and the conclusion are always statements - sentences that give
+information and that are either true or false.
+In a valid argument, if all of the premises are true, the conclusion must also
+be true.
+
+Logic is the study of how to decide the circumstances in which a set of true
+premises leads to a conclusion that is also true.
+
+The premises and the conclusion of an argument all have one thing in common:
+They are statements. A statement is simply a sentece that gives information.
+
+In a good argument - or a valid argument, as logicians say - when all the
+premises are true, the conclusion must also be true.
+
+

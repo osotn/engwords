@@ -1,0 +1,135 @@
+Daniel J. Velleman
+How to prove it. A structured approach, 3rd ed
+
+1.  Sentential logic
+2.  Quantificational logic
+3.  Proofs
+4.  Relations
+5.  Functions
+6.  Mathematical induction
+7.  Number theory
+8.  Infinite sets
+
+====================
+1.  Sentential logic
+====================
+1.1 Deductive Reasoning and logical connectives
+1.2 Truth tables
+1.3 Variables and sets
+1.4 Operations on sets
+1.5 The conditional and biconditional connectives
+Ability to read and write proof.
+
+Conclusion from assumption (premises)
+
+    Symbol      Meaning
+    ------      -------
+          ∧                 and
+          ∨                 or
+       !           not
+
+A set is a collection of objects. The objects in the collection are called the elements.
+
+The relationship between set theory operations and logical connective s also
+becomes apparent when analyze the logical forms of statements about:
+    - intersections;
+    - unions;
+    - differences
+of set.
+
+If P then Q  - this statement is sometimes called a conditional statement, with
+P as its antecedent and Q its consequent.
+   P -> Q
+   
+P -> Q is supported to mean that if P is true then Q is also true:
+
+    P Q   P -> Q
+    ------------
+    F F     T? = T
+    F T     ?  = T
+    T F     F
+    T T     T
+
+    If x > 2 then x^2 > 4
+    x = 1   F F
+    x = 3   T T
+    x = -3  F T
+      -     T F  - no value of x will lead to this case.
+It's mean, then statement ' if x > 2 then x^2  > 4' was always true, no matter what x was!
+
+Conditional law:
+    P -> Q  = !P ∨ Q = !(P ∧ !Q)
+
+    P -> Q and P then Q
+
+          Premises      Conclusion
+    P Q   P -> Q  P         Q
+    ------------------------------
+    F F     T     F         F
+    F T     T     F         T
+    T F     F     T         F
+    T T     T     T         T
+
+
+    P -> Q  and Q ->P  don't mean the same thing.
+    Q -> P is called the converse of P -> Q
+
+Contrapositive law:
+    P -> Q is formula !Q -> !P, and it is equivalent P -> Q.
+
+    iff = necessary and sufficient condition = biconditional statement
+
+==========================
+2.  Quantificational logic
+==========================
+2.1 Quantifiers
+2.2 Equivalences involving quantifiers
+2.3 More operations on sets
+
+---------------
+2.1 Quantifiers
+
+
+Statement P(x) containing a free variable x may be true for some values of x and
+false for others.
+How many values of x make P(x) come out true:
+    -   for every value of x;
+    -   at least one value of x.
+
+Quantifiers:
+    -   ∀x P(x) - for every value of x in the universe of discourse U, for all x, P(x)
+      (upside down A = all)
+             ∀ - universal quantifier
+             ∀x P(x) says that P(x) is universally true.
+    -   ∃x P(x) to say that there is at least one value of x in universe for which P(x) is true.
+        There exists an x such that P(x)
+       (The backward E = exists)
+            ∃x is called existential quantifier.
+
+    ∀x (x > 2 -> x^2 > 4).
+
+    Statement ∀x∃y(x + y = 5) is true, but ∃y∀x(x + y = 5) is false !
+
+--------------------------------------
+2.2 Equivalences involving quantifiers
+
+Quantifier Negation laws: 
+    !∃x P(x) is equivalent to ∀x !P(x)
+    !∀x P(x) is equivalent to ∃x !P(x)
+
+      ∃x∃y <-> ∃y∃x  and  ∀x∀y <-> ∀y∀x
+
+----------------------------------
+2.3 More operations on sets
+
+Elementhood test notation {x | P(x)}.
+
+Anything at all can be an element of a set.
+Possibility to have a other sets as elements.
+F = {{1,2,3}, {4}, ∅} - families of set.
+A = {1,2,3}
+1 ∊ A but 1 ∉ F
+
+Suppose A is set. The power set of A, denoted P(A), is the set whose elements
+are all the subsets of A:       P(A) = {x | x ⊆ A}
+

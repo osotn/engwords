@@ -1,0 +1,208 @@
+============================================
+============================================
+Joseph R. Shoenfield
+Mathematical Logic.
+============================================
+1.  The nature of mathematical logic
+2.  First order theories
+3.  Theorems in first order theories
+4.  The Characterization Problem
+5.  The theory of models
+6.  Incompleteness and Undecidabileity
+7.  Recursion Theory
+8.  The natural numbers
+9.  Set theory
+
+
+====================================
+1.  The nature of mathematical logic
+1.1 Axiom systems
+1.2 Formal systems
+1.3 Syntactical variables
+
+----------------------------
+1.1 Axiom systems
+
+Logic is the study of reasoning; and mathematical logic is the study of the type
+of reasoning done by mathematicians.
+The conspicuous feature of mathematics, as opposed to other sciences, is the use
+of proofs instead of observations.
+Nevertheless, it is clearly impossible to prove all mathematical law.
+The first laws which one accepts cannot be proved, since there are no earlier
+laws from which they can be proved. Hence we have certain first laws, called
+axioms, which we accept without proof; the remaining laws, called theorems, are
+proved from the axioms.
+
+---------------------------
+1.2 Formal systems
+
+An axiom (or theorem) may be viewed in two ways.
+It may be viewed as a sentence, i.e., as the object which appears on paper when
+we write down the axiom, or as the meaning of a sentence, i.e, the fact with
+is expressed by the axiom.
+
+Proofs which deal with concrete objects in a constructive manner are said to be
+finitary. A proof is finitary if we can visualize. Of course, neither description
+is very precise; but we can apply them in many cases to decide whether or not
+a particular proof is finitary.
+
+Abstract mathematics is introduced in order to obtain finitary results in an
+easier or more elegant manner.
+
+The study of axioms and theorems as sentences is called the syntactical study
+of axiom systems; the study of the meaning of these sentences is called the
+semantical study of axiom systems.
+
+To guide us in our syntactical study, we introduce the notation of a formal
+system. The first part of a formal system is its language. We generally use
+artificial languages for our formal systems.
+To specify a language, we must first of all specify its symbols.
+Any finite sequence of symbols of a language is called an expression of that
+language. A symbol may appear several times in an expression; each such
+appearance is called an occurrence of that symbol in the expression.
+It is possible for one expression to appear within another expression.
+
+A proof by:
+    - induction on theorems;
+    - induction on objects in a collection;
+
+------------------------------------------
+1.3 Syntactical variables
+
+Variables are another important type of symbol used in analysis texts.
+Unlike a name, which has only one meaning, a variable has many meanings.
+Variable keeps the same meaning throughout any one context.
+Syntactical variable may mean any expression of the language.
+
+
+================================================
+2.  First order theories
+2.1 Functions and predicates
+2.2 Truth functions
+2.3 Variables and quantifiers
+2.4 First order languages
+2.5 Structures
+2.6 Logical axioms and rules
+
+-----------------------------------
+2.1 Functions and predicates
+
+Our first task is to describe the languages to be used in these formal systems.
+Logical and nonlogical concepts.
+
+            2 + 1 < 4
+2, 1, 4 represent particular natural numbers
++       representing an object which associates with each pair (a, b) of natural numbers
+        a third natural number, namely, the sum of a and b.
+<       representing some object which distinguishes between those pairs (a, b) of
+        natural numbers for which a is less than b and those pair (a, b) for which a
+        is not less than b.
+
+A set or class is a collection of objects.
+
+Let N be the set of natural numbers.
+Then + represents a binary function from N to N
+     < represents a binary predicate in N
+We can also think of 1,2,4 as representing 0-ary functions from N to N.
+
+    = called the equality predicate in A.
+
+----------------------------------------------
+2.2 Truth functions
+
+Symbol & to mean   and.
+
+    A & B is for know is true or false.
+
+T and F call truth values.
+
+A truth function is a function from the set of truth values to the set of truth value.
+There is a binary truth function H&, then H&(a, b) is the truth value of A & B.
+    H&(T, T) = T    H&(T, F) = H&(F, T) = H&(F, F) = F
+
+Symbol V to mean or.    A V B.
+HV(a, b) - HV is the binary truth function:
+    HV(T, T) = HV(T, F) = HV(F, T) = T   HV(F, F) = F
+
+Symbol -> to mean if...then, so A ->B means if A, then B.
+In mathematics, we regard a statement if A, then B as being incorrect only when
+A is true and B is nevertheless false.
+    H->(T, T) = H->(F, T) = H->(F, F) = T   H->(T, F) = F
+
+Symbol <-> to mean iff.
+    H->(T, T) = H->(F, F) = T   H->(F, T) = H->(T, F) = F
+
+Symbol ! to mean not.
+    H!(T) = F   H!(F) = T
+
+    H->(a, b) = HV(H!(a), b)
+
+    A & B  = !(A -> !B)
+    A <-> B = (A -> B) & (B -> A)
+
+-----------------------------------------------
+2.3 Variables and quantifiers
+
+As variables, we use the symbols x,y,z and w, adding primes to form new variables
+when they are needed.
+
+Symbol ∀ means for all individuals.
+Symbol ∃ means for some individual.
+
+-----------------------------------------
+2.4 First order languages
+
+equality symbol =
+0-ary function symbol is called a constant
+
+A function symbol or a predicate symbol other than = is called a nonlogical symbol.
+
+A designator is an expression which is either a term or a formula.
+
+We say that two expressions are compatible if one of them can be obtained by
+adding some expression to the right end of the other.
+
+Lemma 1. If u1...un => u'1...u'n are designators and u1...un and u'1...u'n are compatible,
+hen ui is u'i for i = 1,...,n.
+
+Formation Theorem: Every designator can be written in the form uv1...vn, where
+u is a symbol of index n and v1,...vn are designators, in one and only one way.
+
+Lemma 2: Every occurrence of a symbol in a designator u begins an occurrence of
+a designator in u.
+
+Occurrence Theorem: Let u be a symbol of index n, and let v1,...,vn be designators.
+Then any occurrence of a designator v in uv1,...,vn is either all uv1...vn or a part
+of one of the vi.
+
+----------------------
+2.5 Structures
+
+First order language consists of a universe and meaning of the appropriate sort
+for each nonlogical symbol.
+Let L be a first order language: Structure A for L consists:
+    -   A nonempty set consists |U|, called the universe of A
+
+An expression is variable free if it contains no variables.
+
+
+----------------------------
+2.6 Logical axioms and rules
+
+A logical axiom is a formula which is:
+    - a propositional axiom
+    - an identity axiom
+    - equality axiom
+
+============================================
+3.  Theorems in first order theories
+3.1 The tautolody theorem
+3.2 Results on quantifiers
+3.3 The deduction theorem
+3.4 The equivalence and equality theorems
+3.5 Prenex form
+
+--------------------------
+3.1 The tautolody theorem
+
+
