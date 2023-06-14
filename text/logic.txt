@@ -129,4 +129,175 @@ They are statements. A statement is simply a sentece that gives information.
 In a good argument - or a valid argument, as logicians say - when all the
 premises are true, the conclusion must also be true.
 
+Logic may have both and a bad reputation because people think it's something
+that it isn't.
+
+In sound argument, the premises are true beyond all doubt. In a cogent argument,
+the promises are true beyond a reasonable doubt.
+
+The philosopher Karl Popper took on the apparent contradiction, showing that
+induction isn't necessary for scientific discovery.
+
+The study of what makes an argument cogent or convincing is useful and
+provocative, but it's also outside the scope of this book. From a purely logical
+standpoint, once an argument is valid, no further improvement is possible.
+
+Logic is one of the three theoretical legs that math stand on. (The other two
+are set theory and number theory).
+Logic and math work so well together because they're both independent from
+reality and because they're tools that are used to help people make sense of the
+world.
+
+Science uses logic to a great advantage. Like math, science uses abstractions
+to make sense of reality and then applies logic to these abstractions.
+
+The sciences attempt to understand reality by:
+    1.   reducing reality to set of abstractions, called a model;
+    2.   working within this model to reach a conclusion;
+    3.   applying this conclusion back to reality again.
+
+Logic is insturment during the second step.
+
+The areas of science that rely most heavily on logic and math are quantifiable
+sciences, such as physics, engineering, and chemistry.
+The qualitative sciences - biology, physiology, and medicine - use logic but with
+a bit less certainty. Finally, the social sciences - such as psychology, sociology,
+and economics - are the sciences whose models bear the least direct correlation
+to reality, which means they tend to rely less on pure logic.
+
+A huge part of the success of the computer revolution rests firmly on logic.
+
+Laws exist primarily as sets of definitions: contracts, torts, felonies, intent
+to cause bodily harm, and so on. These concepts all come into being on paper and
+then applied to specific cases and interpreted in the courts. A legal definition
+provides the basis for a legal argument, which is similar to a logical argument.
+
+================================
+II. Formal Sentential Logic (SL)
+
+------------------------------
+4.  Formal affairs
+
+Sentential logic also known as propositional logic. It is one of two forms of
+classical formal logic (the other form is quantifier logic, or QL, also known as
+predicate logic).
+
+Sentential logic is a language specifically designed to express logical arguments
+with precision and clarity. Because SL is a symbolic language, it has the added
+advantage of allowing for calculation according to precisely defined rules and
+formulas.
+
+Formal logic, which was developed by mathematicians, use letters as stand ins.
+Logic uses statements rather than numbers, so it's logical to guess that
+in formal logic, letters stand for statements.
+For example:
+    Let K = Katy is feeding her fish
+    Let F = The fish are joyfully flapping their little fins.
+This letter called a statement constant.
+(By convention, capital letters are used for constants).
+Logicians tend to like the letters P and Q the most.
+P  is the first letter in the proposition (statement)
+Q  just came along for ride.
+
+Logicians use a letter for any statement, even a statement in SL.
+When letters are used in this way, they're called statement variables.
+This letter called a statement variable.
+(Small letters are used for variables: x, y, w, z).
+
+True is shortened to T and false to F.
+
+Boolean algebra, the precursor to formal logic, uses the value 1 to represent T
+and 0 to represent F.
+
+SL has five basic operators. Its are similar to the arithmetic operators.
+Logical operators really only deal with two values: the truth values, T and F.
+
+    ~   Negation        Not                ~x           tilde
+    &   Conjuction      And                x & y
+    V   Disjunction     Or                 x V y
+    ->  Conditional     If ... then        x -> y
+   <->  Biconditional   If and only if     x <-> y
+
+    ~~x == x
+
+In English, the word or has two distinct meaning:
+    - inclusive or: "this choice or that choice, or both"
+    - exclusive or: "this choice or that choice, but not both"
+
+    V-operator is always inclusive.
+
+Conditional operator.
+    if W then D
+    W -> D
+    
+    x   y   x -> y
+    -   -   ------
+    T   T      T
+    T   F      F
+    F   T      T
+    F   F      T
+
+Converse statement of x -> y is y -> x
+Inverse statement if negate both part:  ~x -> ~y
+
+ x -> is not necessarily that y -> x or/and ~x -> ~y
+
+If and only if operator <->  biconditional operator.
+
+    x   y   x <-> y
+    -   -   -------
+    T   T      T
+    T   F      F
+    F   T      F
+    F   F      T
+
+Neither ... nor      ~M and ~N
+Not     ... both     ~(M & N)
+Or      ... or both   K V O
+Or      ... but not both   (K V O) & ~(K & O)
+
+----------------------------
+5.  The value of evaluation
+
+A sub statement is any piece of a statement that can stand on its own as a
+complete statement.
+
+The scope of an operation is the smallest sub statement that includes the
+operator in question.
+
+The scope of ~ operator is always the smallest sub statement that immediately
+follows it.
+
+----------------------------------
+6.  Turning the tables
+
+Tautology is a statement that is always true, regardless of the truth values of
+its constants.
+Contradiction is a statement that is always false, regardless of the truth
+value of its constants.
+Contingent statement is a statement that is true under at least one interpretation
+and false under at least one interpretantion.
+
+P -> Q and ~P V Q are semantically equivalent.
+
+--------------------------------------------------
+7.  Taking the easy way out: Creating quick tables
+
+Quick tables use only one row to do the work of an entire truth table.
+
+--------------------------------------------------
+8.  Truth grows on trees
+
+===================================================
+III.    Proofs, syntax, and semantics in SL.
+
+Proofs are the very heart of logic.
+
+--------------------------------------------------
+9.  What have you got to prove?
+
+---------------------------------------------------------------
+10. Equal opportunities: Putting equivalence rules to work
+
+
 

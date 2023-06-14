@@ -1,0 +1,10 @@
+Most    1000: === Words: 23 unknown, 0 unsounded, 0 untranslated
+Oxfords 3000: === Words: 696 unknown, 0 unsounded, 0 untranslated
+IELTS   4000: === Words: 1413 unknown, 430 unsounded, 462 untranslated
+TOEFL   5000: === Words: 3575 unknown, 1099 unsounded, 1142 untranslated
+Google 10000: === Words: 4313 unknown, 1585 unsounded, 1851 untranslated
+Google 20000: === Words: 12706 unknown, 6481 unsounded, 7015 untranslated
+20645
+11211
+24339
+   5694   15239  233405
