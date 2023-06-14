@@ -1,5 +1,5 @@
 fn="num-`date +%Y-%m-%d-%H-%M`"
 
-./num >$fn
+./num $*  >$fn
 cat $fn
 echo saved in $fn

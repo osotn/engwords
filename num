@@ -14,6 +14,22 @@ echo -n "Google 20000: "
 ./run.sh -ufm <words/google-20000-english.txt | tail -1
 
 
-ls -l translations/ | wc -l
-ls -l words/active/ | wc -l
-ls -l sound/ | wc -l
+ls -l translations/ | wc -l | xargs echo -n # remove \n
+echo " translated"
+ls -l words/active/ | wc -l | xargs echo -n
+echo " active"
+ls -l sound/ | wc -l | xargs echo -n
+echo " sounded"
+
+if [ "$1" = "-a" ]
+then
+(
+    for f in translations/*
+    do
+        (cat ${f} 2>/dev/null; echo;) | grep -v '(' | grep -v  ') '
+    done 
+) | wc -l | xargs echo -n # remove \n 
+echo " without (*), where *=n,v,adj,..."
+fi
+
+
