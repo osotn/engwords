@@ -147,7 +147,7 @@ def is_word_untranslated(word):
 def is_word_xT(word):
     p = engwords_path + "/words/"
     f = "/" + word + ".txt"
-    return os.path.exists(p + "first_3000" + f) or os.path.exists(p + "ielts_general_4000" + f) or os.path.exists(p + "toefl_5000" + f) or os.path.exists(p + "first_10000" + f)
+    return os.path.exists(p + "oxford_3000_keys" + f) or os.path.exists(p + "ielts_general_4000" + f) or os.path.exists(p + "toefl_5000" + f) or os.path.exists(p + "first_10000" + f)
 
 def is_word_yT(word):
     return os.path.exists(engwords_path + "/words/first_20000/" + word + ".txt")
