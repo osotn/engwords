@@ -1,0 +1,48 @@
+Elementary number theory, 2nd ed.
+Underwood Dudley
+=================================
+
+1.  Integers
+2.  Unique factorization
+3.  Linear diophantine equations
+4.  Congruences
+5.  Linear Congruences
+6.  Fertam and Wilson Theorems
+7.  The divisors of an Integer
+8.  Perfect numbers
+9.  Euler theorem and function
+10. Primitive roots
+11. Quadratic congruences
+12. Quadratic Reciprocity
+13. Numbers in other bases
+14. Duodecimals
+15. Decimals
+16. Pythagorean triangles
+17  Infinite descent and Fermat conjecture
+18  Sums of two squares
+19  Sums of four squares
+20  x^2 - Ny^2 = 1
+
+
+Math exists mainly to give up power and control over the physical world, but it
+has always been so fascinating that it was studied for its own sake. Number
+theory is that sort of mathematics: it is of no use in building bridges, and
+civilization would carry on much as usual if all of its theorems were to
+disappear, nevertheless it has been studied and valued since the time of
+Pythagoras. That greatest of mathematicians Carl Friedrich Gauss called it
+The Queen of Mathematics.
+
+1.  Integers
+------------
+The subject matter of number theory is numbers, and a large part of number
+theory is devoted to studying the properties of the integers - that is, the
+numbers  ... , -2, -1, 0, 1, 2, ...
+
+    a divides b (a|b) if and only if there is an integer d such that ad = b.
+
+
+Lemma 1. If a|d and b|a, then (a + b)|d
+Proof:  From definition, dq = a and dr = b.
+                         a + b = d(q + r) then (a + b)|d
+
+
