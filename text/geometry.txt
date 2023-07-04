@@ -701,3 +701,266 @@ tan(Q) is called the slope of the straight line and is denoted by m:
                  m = tan(Q)
                  m = (y1 - y2)/(x1 - x2)
 
+
+
+============================================
+============================================
+Geometry for the practical worker, 4th ed.
+J.E. Thompson
+============================================
+
+Foreword
+--------
+The question is often asked: Why should one study geometry?
+The answer depends on the questioner.
+
+    1. Practical man:   the geometry has very wide application in the:
+                            -   arts;
+                            -   trades;
+                            -   building;
+                            -   architecture
+                            -   machine work
+                            -   surveying
+                            -   engineering
+    2. For the student - intends to go father in the study of math and enter
+                         the higher branches - it's one of necessary foundations.
+                         (arithmetic, algebra, geometry).
+                         Algebra supplies "alphabet and grammar";
+                         Geometry develops the form and methods of reasoning used in math.
+                         Algebra - calculation;
+                         Geometry - measurement.
+                         
+Part I
+Introduction to geometry
+------------------------
+
+1.  Origin and development of geometry
+--------------------------------------
+Beginnings of geometry - the Babylonians.
+The Babylonians developed a system of land measurement and their clay tablet
+records show that they had methods of finding the areas of several simple figures,
+including the circle, though their ideas of circle measurement were not quite correct.
+
+Egyptians built up a considerable body of knowledge of arithmetic, simple algebra
+and measurement.
+
+The early Greek philosophers, on the other hand, were interested in the knowledge
+of geometry purely for its own sake, ragardless of utility, and they studied,
+developed and extended it as a branch of learning, purely through intellectual
+curiosity and love of knowledge.
+The Greek scholars returned from Egypt to their own country and taught geometry
+in their private schools, and a great interest in the new knowledge grew and
+spread among the Greek philosophers. They studied the properties of the
+geometrical figures, the relations among these properties, and the proof by pure
+logic of new geometrical truths from those already known. In this way they soon
+knew far more about the subject than the Egyptians and wrote papers and books
+dealing with various parts of the subject.
+The Greek surveyors, builders, mariners, and astronomers soon began to make use
+of the practical parts of the philosophers pure science of geometry and applied
+it to surveying, architecture, sculpture, navigation and astronomy. Those things
+which the Egyptians had done by means of geometry the Greeks now did much better,
+and they also extended the use of geometry to other fields where the Egyptians
+had not made use of it.
+These applications of geometry the Greeks developed into fine arts and sciences,
+and from these sciences and geometry together came the new sciences of
+trigonometry (= measure of a triangle) and of geodesy, which has to do with the
+size and shape of the earth as a whole.
+The Romans, who finally conquered the Greeks in a military sense, took over the
+practical geometry used in building, navigation and engineering, but paid little
+attention to pure geometry as a science and contributed nothing to its development.
+
+In 640 BC Thales -> Anaximander (wrote a book) -> Pythagoras (569-500 BC) then went
+to Egypt - created school -> Aarchytas (born 400 BC) -> Plato, Aristotle ->
+-> Euclid (born 330 - 275 BC)  wrote books on a number of scientific subjects but
+the most famous of his works are those on arithmetic, algebra and geometry ->
+-> Archimedes (287 - 212 BC).
+
+to Arabia from 641 AD (Arabs conquered of Alexandria) - translate into Arabic and
+became the standard works on geometry, trigonometry, and astronomy.
+
+Hindus had a progress in arithmetic and algebra. Arabic Numerals.
+
+Arab scholars did not contribute greatly to the development of geometry and
+trigonometry but they were very active and successful in the application of these
+sciences to astronomy.
+-> University. then Legendre (1752-1833) Element of Geometry -> Plain and solid
+Geometry + conic sections.
+
+Rene Descartes (1596-1650) - analytical geometry by means of algebraic equations.
+
+calculus by Newton and Leibnitz (1666-1676) - Differential Geometry.
+
+Non Euclidean geometry
+
+2.  Some preliminary ideas and methods of geometry
+--------------------------------------------------
+    - straight
+    - curved
+    - flat
+    - square
+    - round
+    - long
+    - wide
+    - thick
+    - space
+      ...
+
+The relation between such ideas as these and their application to the description
+and measurement of objects of everyday experience and observation are matters
+of common speech and knowledges, and unless attention is called to them in some
+peculiar manner or it is required to perform some simple calculation based on them
+it is hardly realized that these relations have any special significance.
+
+Geometry is the science which deals with the properties of space and their relations.
+Space is one of the ideas or notions which is not defined.
+The most important underfined terms in geometry are point, line, and plane.
+E.g. a point is suggested by the tip of a needle, or by a distant star.
+A line is suggested by the edge of this page. A plane is suggested by the top of
+a table.
+Others terms used in geometry such as triangle, right angle, vertex, etc. may be
+defined by using our undefined terms.
+
+A similar situation exists in connection with the logic organization of geometry.
+In a logical chain of reasoning it is necessary to start with some basic principles.
+The truth of these principles cannot be demonstrated since there are no principles
+that can be used for support or proof. These starting principles are called
+postulates. By a process of reasoning there principles, or postulates, may be used
+to generate and establish new principles. These derived principles are called
+theorems.
+
+The complete object is called a solid while the flat surface without thickness
+is called a plane.
+
+Plane geometry and Solid geometry.
+
+    - broken line   -   is a line formed of successive sections, or segments, of
+                        straight lines.
+    - curved line   -   (curve) is a line no portion of which is straight.
+    - plane surface -   is such a surface that the straight line joining any two
+                        points in it lies entirely in the surface.
+    - curved surface -  is a surface no portion of which is plane.
+    - geometrical figure - is any combination of points, lines, surface and solids,
+                        formed under specified conditions.
+
+Geometry is the science of extension and position in space, or the science of
+position, form and magnitude.
+
+    - proof         - is a process of reasoning, by which the truth or falsity of
+                      any statement is logically determined and established.
+    - theorem       - is a statement to be proved.
+    - postulate     - is a statement admitted to be true without proof.
+    - construction  - is the representation of a required figure by means of points
+                      and lines.
+    - problem       - is a construction to be made so that is shall satisfy
+                      certain condition, or a measurement or calculation to be
+                      made so as to obtain a certain required result of results.
+
+    General postulates:
+        - Things which are equal to the same thing or to equal things are equal
+          to each other.
+        - If equals are added to equals the sums are equal.
+        - If equals are taken from equals the remainders are equal.
+        - If equals are added to or taken from unequals the results are unequal in
+          the sum order as as first.
+        - The doubles or any equal multiples of equals are equal; and those of
+          unequals are unequal in the same order as at first.
+        - The halves or any equal parts of equals are equal; and those of unequals
+          are unequal in the same order as at first.
+        - Equal powers and roots of equals are equal.
+        - The whole is greater than any of its parts.
+        - The whole is equal to the sum of all its parts.
+        - In any mathematical operation any thing may be substituted in the place
+          of its equal.
+
+    Geometrical postulates:
+        - Through any two point in space there can be one and only one straight line.
+        - A straight line may be produced to any length.
+        - A circle may be described with any given point as center and with any
+          given radius.
+        - Motion of a geometrical figure does not change its size or shape.
+        - All right angles are equal.
+        - One and only one parallel to given straight line can be drawn through
+          a point outside the line.
+
+II. Properties of plane figures.
+--------------------------------
+
+3.  Some properties of straight lines and angles
+------------------------------------------------
+
+Straight line defines as the shortest line joining two points.
+
+Two lines which have only one point in common are said to intersect at the point,
+and are called intersecting lines.
+
+    - Two straight lines passing through the same two points coincide and form
+      but one line.
+    - Two straight lines can intersect in only one point.
+
+    Segment is the portion of the straight line lying between A and B.
+
+    When two straight lines meet at a point or are drawn from the same point in
+    different directions, the figure which they form is called an angle.
+    Two line s are called the sides of the angle and their meeting point is called
+    the vertex of the angle.
+
+24. Perpendicular lines and right angles
+----------------------------------------
+Two intersecting straight lines form four angles which have the same vertex.
+If the four angles formed by two intersecting lines are all equal, the lines are
+said to be perpendicular to each other, and each of the four equal angles is
+called a right angle.
+At a given point in a line there can be but one perpendicular to the line.
+Proof: If there could be more than one perpendicular they would be distinct lines
+forming different angles and we should have right angles of different sizes.
+
+25. Other angles and their relations
+------------------------------------
+An angle which is greater than a right but less than two right angles is called
+an obtuse (dull) angle. An angle which is less than a right angle is called an
+acute (sharp) angle.
+Two angles whose sum is equal to a right angle are said to be complementary
+angles, and each is called the complement of the other.
+Two angles whose sum is equal to the sum of two right angles are said to be
+supplementary.
+
+If two adjacent angles are supplementary, their exterior side are in the same
+straight line; and also.
+If two adjacent angles have their exterior sides in a straight line, the angles
+are supplementary.
+
+Single angle, whose sides lie in a straight line, is called a straight angle.
+Thus a straight angle is equal to two right angles, or a right angle is equal
+to half a straight angle. Obviously all straight angles are equal.
+
+26. Extension of the meaning of angles.
+---------------------------------------
+Instead of thinking of an angle as being formed by two distinct lines, we may
+also think of it as being formed by the side AB turning about A as a pivot point,
+like the hand of a clock, until it reaches the position AC, as indicated by the
+curved arrow. In this case the line AB is said to turn through or to generate
+the angle BAC. AB is the initial position and AC the terminal position of the
+generating line.
+An angle greater than a straight angle is sometimes called a reflex angle.
+
+The whole angular magnitude about a point in a plane is four right angles, or
+two straight angles. Each of the four right angles is one fourth of the
+complete angle or circle, and is called a quadrant of the circle. It is
+customary to measure angles by rotation counter clockwise from the horizontal
+line to the right of the vertex as initial line. The quadrants are then numbered
+in order as I, II, III, IV.
+
+27. Measurement of angles
+-------------------------
+The ancient Babylonians are supposed to have divided the complete angle into 360
+parts because in their time the heavens were supposed to complete the annual
+circuit about the earth in 360 days. On this account each of the 360 parts of
+the circle is called a step, grade or degree, the last name being the one most
+used. Therefore, the unit of angle measurement is the 360th part of a circle or
+complete angle, and is called a degree.
+An instrument used to measure and draw is based on the circle and degree system
+of measurement. This is the protractor.
+
+29. Some properties of perpendicular and oblique lines.
+-------------------------------------------------------
+
