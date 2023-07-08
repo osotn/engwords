@@ -1,0 +1,133 @@
+Arithmetic for the practical man, 3rd ed.
+J.E. Thompson
+=========================================
+=========================================
+
+I.  Introduction and review
+===========================
+Part 1.  Introduction
+---------------------
+1. Historical Introduction
+--------------------------
+Counting by the aid of ten fingers.
+
+2. Signs of operation used in arithmetic
+----------------------------------------
+   +    plus
+   -    minus
+   x    multiplication
+   /    division
+
+   =    equality sign
+   ()   parentheses
+
+3. Writing very large and very small numbers
+--------------------------------------------
+    1,000,000,000  = 10^9
+    38,970,000,000 = 3.897 x 10^10
+
+    0.0000007      = 0.7 x 10^-6
+
+Chapter 2   The fundamental operations
+--------------------------------------
+6. Addition
+-----------
+Addition is the process of finding the combined amount of two or more numbers.
+
+7. Subtraction
+--------------
+Subtraction is the process of finding the difference between two numbers by
+taking the smaller of the two from the larger.
+The number which is subtracted is called the subtrahend, the other number is
+called the minuend, and their difference, the number which remains after the
+subtrahend is subtracted from the minuend, is called remainder.
+
+8.  Multiplication
+-----------------
+9.  Division
+
+Chapter 3   Calculation with decimals
+-------------------------------------
+10. Decimal Numbers
+-------------------
+A fraction is a part of quantity which is treated as a whole or a unit.
+Fraction is a number which represents a part, that is, a number which is less
+than 1.
+In writing a common fraction, two numbers are used, called the numerator and
+denominator. The denominator names the fractional part and the numerator
+indicates how many of those parts are used.
+    seven ninths = 7/9
+If the denominators are tenths, hundredths, thousandths, etc., the
+numerators may be written without the denominators and with a period placed
+before the numerators.
+    0.7 = 7/10
+    .23 = 23/100
+
+Chapter 4   Approximate results in calculation
+----------------------------------------------
+14. Approximate results
+-----------------------
+If a rejected figure in a decimal fraction is less than 5 it is disregarded; if
+it is 5 or greater the next figure to the left of it, it retained, is increased
+by 1 unit.
+
+II. Principles and methods of arithmetic
+========================================
+Chapter 5.  Factors, multiples and divisors.
+20. Definitions.
+----------------
+If a certain number is the product of two or more other numbers, each of those
+other numbers is called a factor of that number.
+    6 = 2 x 3, 2 is factor of 6
+Multiple of any number is the product obtained by multiplying that number by
+some other number.
+    42 = 6 x 7,  42 is a multiple of 6.
+
+Common multiple of several numbers is a number which is a multiple of each of
+those numbers.  81 is multiple 3,9,27
+Least common multiple (LCM) is the smaller number which is a multiple of each of
+them.
+Greatest common divisor is the largest number which is an exact divisor of each
+of them. GCD
+
+A number which has other factors besides itself and 1 is called a composite
+number. One which has no other factors except itself and 1 is called a prime
+number.
+
+A number which has 2 as a factor, that is, is exactly divisible by 2, is called
+an even number. Other numbers, not divisible by 2, are odd numbers.
+
+If the number represented by the last three figures of a given number is
+divisible by 8, the given number is divisible by 8.
+
+If the sum of the even placed figures of a number equals that of the odd placed
+figures, or if the difference of the two sums is divisible by 11, the number
+is divisible by 11.
+ 121 =  2 = (1+1)   2-2 = 0
+ 143 = 
+ 561
+
+Chapter 6 Fraction
+------------------
+1/4     = one fourth
+1/10    = one tenth
+
+If a single unit be divided into equal parts each of the parts is called
+a fractional unit.
+A fraction is one or the sum of several fractional units.
+Numerator = number of units  and Denominator = fractional unit
+if N < D then it is a proper fraction otherwise improper fraction.
+A number which is expressed by a whole number and a fraction is called a
+mixed number.
+
+n/d = nm/dm
+
+Chapter 7   Powers and roots
+----------------------------
+base^exponent = 5^2 = 5 to the second (power)
+
+5 is root of 25
+
+Chapter 8   Logarithms
+----------------------
+
