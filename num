@@ -12,6 +12,8 @@ echo -n "Google 10000: "
 ./run.sh -ufm <words/google-10000-english.txt | tail -1
 echo -n "Google 20000: "
 ./run.sh -ufm <words/google-20000-english.txt | tail -1
+echo -n "Google 30000: "
+./run.sh -ufm <words/30000.txt | tail -1
 
 
 ls -l translations/ | wc -l | xargs echo -n # remove \n
