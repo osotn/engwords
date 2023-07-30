@@ -149,7 +149,7 @@ def is_word_xT(word):
     f = "/" + word + ".txt"
     return os.path.exists(p + "oxford_3000_keys" + f) or os.path.exists(p + "ielts_general_4000" + f) or os.path.exists(p + "toefl_5000" + f) or os.path.exists(p + "first_10000" + f)
 
-def is_word_yT(word):
+def is_word_yzT(word):
     return os.path.exists(engwords_path + "/words/first_20000/" + word + ".txt") or os.path.exists(engwords_path + "/words/first_30000/" + word + ".txt")
 
 def get_word(sel):
@@ -225,7 +225,7 @@ def color_unknown_words(sel):
                     remove_all_tags(ws)
                     if (is_word_xT(word)):
                         buffer.apply_tag_by_name("untransl_unknown_word_xT", ws[0], ws[1])
-                    elif (is_word_yT(word)):
+                    elif (is_word_yzT(word)):
                         buffer.apply_tag_by_name("untransl_unknown_word_yT", ws[0], ws[1])
                     else:
                         buffer.apply_tag_by_name("untransl_unknown_word", ws[0], ws[1])
@@ -233,7 +233,7 @@ def color_unknown_words(sel):
                     remove_all_tags(ws)
                     if (is_word_xT(word)):
                         buffer.apply_tag_by_name("unknown_word_xT", ws[0], ws[1])
-                    elif (is_word_yT(word)):
+                    elif (is_word_yzT(word)):
                         buffer.apply_tag_by_name("unknown_word_yT", ws[0], ws[1])
                     else:
                         buffer.apply_tag_by_name("unknown_word", ws[0], ws[1])
@@ -242,7 +242,7 @@ def color_unknown_words(sel):
                     remove_all_tags(ws)
                     if (is_word_xT(word)):
                         buffer.apply_tag_by_name("untransl_word_xT", ws[0], ws[1])
-                    elif (is_word_yT(word)):
+                    elif (is_word_yzT(word)):
                         buffer.apply_tag_by_name("untransl_word_yT", ws[0], ws[1])
                     else:
                         buffer.apply_tag_by_name("untransl_word", ws[0], ws[1])

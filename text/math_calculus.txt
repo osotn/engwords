@@ -1,0 +1,67 @@
+Calculus
+J.E. Thompson
+=============
+
+In arithmetic we study numbers with retain always a fixed value (constant).
+The number studied in algebra may be constants or they may vary (variables),
+but in any particular problem the numbers remain constant while a calculation
+is being made.
+
+Rates - the most natural illustration of a rate is that involving motion and time.
+
+The speed or rate is simply x/t.
+
+    Rate = (x' - x)/(t' - t) = dx/dt
+
+    dx pronounces as "dee-ex" and dt as "dee-tee"
+
+The differential dx of a variable quantity x at any instant is the change in x
+which would occur in the next interval of time dt if x were to continue to change
+uniformly in the interval dt with the same rate which it has the beginning of dt.
+
+The quantities dx or ds and dt have been called the differentials of x.
+
+The finding or calculation of differentials is called differentiation and is one
+of the most important parts of the subject of calculus, that part of the subject
+which deals with differentiation and its applications being called the
+differential calculus.
+
+Constant speed k:   dx/dt = k
+        x = kt + a
+
+
+    d(x + y)/dt = dx/dt + dy/dt
+    d(x + x + ...) = dx + dx + ...
+    d(mx) = mdx
+
+Chapter II
+Functions and derivatives
+
+Function - in the solution of problems in algebra and trigonometry one of the
+important steps is the expression of one quantity in terms of another.
+The unknown quantity is found as soon as an equation or formula can be written
+which contains the unknown quantity on one side of the equation and only known
+quantities on the other.
+
+If when x is given, y is determined, y is a function of x.
+
+Functions:
+    - algebraic;
+    - transcendental:
+        - trigonometric;
+        - exponential;
+        - logarithmic;
+
+    dy = f'(x) dx
+
+13. Differential of the square of a variable
+--------------------------------------------
+    z = m x,   z^2  = m^2   x^2
+   dz = mdx, d(z^2) = m^2 d(x^2)
+
+    d(x^2) = 2x dx
+
+Chapter IV
+Use of rates and differentials in solving problems
+--------------------------------------------------
+
