@@ -16,3 +16,15 @@ echo -n "Oxfords 3000: "
 ls -l de/translations/ | wc -l
 ls -l de/words/active/ | wc -l
 ls -l de/sound/ | wc -l
+
+if [ "$1" = "-a" ]
+then
+(
+     for f in de/translations/*
+     do
+         (cat ${f} 2>/dev/null; echo;) | grep -v '(' | grep -v  ') '
+     done
+) | wc -l | xargs echo -n # remove \n 
+echo " without (*), where *=n,v,adj,..."
+fi
+
