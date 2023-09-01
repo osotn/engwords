@@ -94,5 +94,53 @@
 
     articles:
     ---------
+    ein
+    eine
+
+                dir object   indir object  possessive
+                -------      ------------  -----------
+    ich         mich         mir           mein
+    du          dich         dir           dein
+    er          ihn          ihm           sein
+    sie         sie          ihr           ihr
+    es          es           ihm           ihm
+    wir         uns          uns           unser
+    ihr         euch         euch          euer
+    sie         sie          ihnen         ihr
+    Sie         Sie          Ihnen         Ihr
+
+    mein /      meinen (m)   meinem/
+    meine       meine  (f)   meiner/
+                meine  (pl)  meinen
+
+    kein (m)    keinen       keinem
+    keine (f)   keine        keiner
+    kein (n)    kein         keinem
+    keine (pl)  keine        keiner
+
+                für           zu
+                über          mit
+                ohne          von
+
+                lieben       sagen
+                fragen       antworten
+
+
+Modals:
+    vollen
     
+
+Indefinite Articles: Ein Words
+
+            Masculine	Feminine	Neuter      Pl
+Nominative	ein	        eine	    ein
+Accusative	einen	    eine	    ein
+Dative	    einem	    einer	    einem
+Genitive	eines	    einer	    eines
+
+Nominative	der         die         das         die
+Accusative	den	        der         des         der
+Dative	    dem	        der         dem         den
+Genitive	des         die         das         die
+
 
