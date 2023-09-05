@@ -138,9 +138,9 @@ Accusative	einen	    eine	    ein
 Dative	    einem	    einer	    einem
 Genitive	eines	    einer	    eines
 
-Nominative	der         die         das         die
-Accusative	den	        der         des         der
-Dative	    dem	        der         dem         den
-Genitive	des         die         das         die
+Nominative	der         die         das         die =         subject
+Accusative	den	        der         des         der =   direct object
+Dative	    dem	        der         dem         den = indirect object
+Genitive	des         die         das         die =        ?
 
 
