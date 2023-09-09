@@ -7,6 +7,7 @@ https://tophonetics.com/ to get IPA english phonetics
 https://en.pons.com/translate/german-english to get german phonetics *TODO*
 
 Some utilities use xclip, e.g. p, pt, ... to easer using copy to photetics and sound.
+
 sudo apt install xclip
 
 *TODO*
