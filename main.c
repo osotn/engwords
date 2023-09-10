@@ -88,7 +88,7 @@ static char *lang = "";                 /* english = "" */
 static void get_opts(int argc, char *const argv[])
 {
   int option;
-  while ((option = getopt(argc, argv, "unfmgpcbiwd:s:")) != -1)
+  while ((option = getopt(argc, argv, "unfmgrpcbiwd:s:")) != -1)
     switch (option)
     {
       case 'u':
@@ -104,38 +104,34 @@ static void get_opts(int argc, char *const argv[])
         fNoSound = TRUE;
         break;
       case 'g':
-	lang="de/"; /* germany */
+        lang="de/"; /* German */
         break; 
-
+      case 'r':
+        lang="fr/"; /* French */
+        break; 
       case 'p':
         fPutChars = TRUE;
         break;
-
       case 'c':
         fNoInfo = TRUE;
         break;
-
       case 'b':
         fWithoutColor = TRUE;
         break;
-
       case 'i':
         fNoIndexes = TRUE;
         break;
-
       case 'w':
         fNoWordNum = TRUE;
         break;
-
       case 'd':
         delay_sound_word_ms = atoi(optarg);
         break;
-
       case 's':
-	how_many_sound_a_word = atoi(optarg);
-	break;
-
+        how_many_sound_a_word = atoi(optarg);
+        break;
       case '?':
+      default :
         printf("Unknown option: %c\n", option);
         break;
     }
@@ -395,25 +391,48 @@ char *get_translation(char *s)
   return translation;  
 }
 
+// German letters
 // ü = c3 bc; Ü = c3 9c
 // ö = c3 b6; Ö = c3 96
 // ä = c3 a4; Ä = c3 84
-// ß = c3 9f; ẞ = e1 ba 9e  
+// ß = c3 9f; ẞ = e1 ba 9e
+// French letters
+// À = c3 80; à = c3 a0
+// Â = c3 82; â = c3 a2
+//
 int utf8_trick_isalpha(char *pc, int *pn)
 {
   if (*(pc + 0) == (char)0xC3 &&
 	  (
-              *(pc + 1) == (char)0x9C || /* ü */
-              *(pc + 1) == (char)0xBC || /* Ü */
-              *(pc + 1) == (char)0x96 || /* ö */
-              *(pc + 1) == (char)0xB6 || /* Ö */
-              *(pc + 1) == (char)0x84 || /* ä */
-              *(pc + 1) == (char)0xA4 || /* Ä */
-              *(pc + 1) == (char)0x9F    /* ß */
+              *(pc + 1) == (char)0x9C || /* Ü */ *(pc + 1) == (char)0xBC || /* ü */
+              *(pc + 1) == (char)0x96 || /* Ö */ *(pc + 1) == (char)0xB6 || /* ö */
+              *(pc + 1) == (char)0x84 || /* Ä */ *(pc + 1) == (char)0xA4 || /* ä */
+                                                 *(pc + 1) == (char)0x9F || /* ß */
+              *(pc + 1) == (char)0x80 || /* À */ *(pc + 1) == (char)0xa0 || /* à */
+              *(pc + 1) == (char)0x82 || /* Â */ *(pc + 1) == (char)0xa2 || /* â */
+              *(pc + 1) == (char)0x86 || /* Æ */ *(pc + 1) == (char)0xa6 || /* æ */
+              *(pc + 1) == (char)0x87 || /* Ç */ *(pc + 1) == (char)0xa7 || /* ç */
+              *(pc + 1) == (char)0x88 || /* È */ *(pc + 1) == (char)0xa8 || /* è */
+              *(pc + 1) == (char)0x89 || /* É */ *(pc + 1) == (char)0xa9 || /* é */
+              *(pc + 1) == (char)0x8a || /* Ê */ *(pc + 1) == (char)0xaa || /* ê */
+              *(pc + 1) == (char)0x8b || /* Ë */ *(pc + 1) == (char)0xab || /* ë */
+              *(pc + 1) == (char)0x8e || /* Î */ *(pc + 1) == (char)0xae || /* î */
+              *(pc + 1) == (char)0x8f || /* Ï */ *(pc + 1) == (char)0xaf || /* ï*/
+              *(pc + 1) == (char)0x94 || /* Ô */ *(pc + 1) == (char)0xb4 || /* ô */
+              *(pc + 1) == (char)0x99 || /* Ù */ *(pc + 1) == (char)0xb9 || /* ù */
+              *(pc + 1) == (char)0x9b || /* Û */ *(pc + 1) == (char)0xbb    /* û */
+              /*The same as in German*/  /* Ü */                            /* ü */
 	   )) {
     *pn = 2;
-    return 1;         
-  } else if ( *(pc + 0) == (char)0xE1 && *(pc + 1) == (char)0xBA && *(pc + 2) == (char)0x9E) {
+    return 1;
+  } else   if (*(pc + 0) == (char)0xC5 &&
+      (
+              *(pc + 1) == (char)0x92 || /* Œ */ *(pc + 1) == (char)0x93 || /* œ */
+              *(pc + 1) == (char)0xb8 || /* Ÿ */ *(pc + 1) == (char)0xbf    /* ÿ */
+      )) {
+    *pn = 2;
+    return 1;
+  } else if ( *(pc + 0) == (char)0xE1 && *(pc + 1) == (char)0xBA && *(pc + 2) == (char)0x9E) /* ẞ */ {
     *pn = 3;
     return 1;
   } else {
@@ -527,7 +546,7 @@ void main(int argc, char * argv[])
       is_p = is_phonetic(p_word);
       is_t = is_translation(p_word);
       is_a = is_my_active(p_word);
-      is_f1000 = 0;//is_first_1000(p_word);
+      is_f1000 = is_first_1000(p_word);
       is_f3000 = is_oxford_3000_keys/*is_first_3000*/(p_word);
       is_f4000 = is_ielts_4000(p_word);
       is_f5000 = is_toefl_5000_keys(p_word);
