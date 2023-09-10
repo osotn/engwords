@@ -1,0 +1,86 @@
+    Cracking the coding interview
+    
+    
+    The interview process
+    =====================
+At most of the top tech companies, algorithm and coding problems form the largest
+component of the interview process. Think of these as problem - solving questions.
+!!! The interviewer is looking to evaluate your ability to solve algorithmic
+    problems you haven't seen before !!!
+
+You should do your best to talk out loud throughout the problem and explain you
+thought process
+
+    - analytical skills
+    - coding skills
+    - technical knowledge
+    - experience
+    - culture fit   -   communication skills
+    
+    II Behind the scenes
+    ====================
+    Most companies conduct their interviews in very similar ways.
+    
+Microsoft   : wants smart people. People who are passionate about technology. 
+Amazon      : to write simpe code.
+Google      :
+
+    Sanity     Check - easy problem solving or design questions.
+    Quality    Check - more challenging questions
+    Specialist Questions - specific topics
+    Proxy      Knowledge - 
+
+    1. Great resume !!!
+    2. Certifications for software engineers can be anything from a positive, to
+    a neutral, to a negative.
+    
+    What are your weaknesses?
+    =========================
+    Give a real weakness.
+    
+    Tell me about yourself
+    ======================
+    1. Current Role
+    2. College
+    3. Post College
+    4. Current Role with details
+    5. Outside of work
+    6. Wrap up
+    
+    
+    VI Big O
+    ========
+Big O time is the language and metric we use to describe the efficiency of algorithms.
+
+    Time complexity:
+        - Electronic transfer O(s) - s is seiz of the file. Time increases linearly with the size of file.
+        - Airplane transfer O(1) with size of file increases it won't take any longer.
+        - O(log N), O (N log N), O(N) O(N^2) O(2^N), O(N!)
+
+        Best case, worst case, expected case.
+        -------------------------------------
+        
+    O(Log N) - binary search for sorted array.
+    We first compare x to the midpoint of the array.
+    
+    O(n) - Without ordering property on the nodes, we might have to search through all the nodes.
+    
+    
+    What You Need to Know:
+        - core data structures, algorithms, and concepts
+        
+    Hash tables
+    -----------
+    A hash table is a data structure that maps keys to values for highly efficient lookup.
+    1. Compute key's hash code
+    2. Map the hash code to an index in the array - hash(key)
+    3. At this index, there is a linked list of keys and values
+    
+    Worst case runtime - is O(n), minimum is O(1).
+    
+    Linked list
+    -----------
+    A linked list is a data that represents a sequence of nodes  - doubly linked list
+    Unlike an array, a linked list does not privide constant time access to a particular index within the list.
+    
+    
