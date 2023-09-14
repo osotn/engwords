@@ -2,8 +2,8 @@
 
 echo -n "Most    1000: "
 ./run.sh -gufm <de/words/1000.txt | tail -1
-echo -n "Oxfords 3000: "
-./run.sh -gufm <de/words/oxford_3000_keys/oxford3000_uniq.txt | tail -1
+#echo -n "Oxfords 3000: "
+#./run.sh -gufm <de/words/oxford_3000_keys/oxford3000_uniq.txt | tail -1
 #echo -n "IELTS   4000: "
 #./run.sh -gufm <words/ielts_general_4000/ielts_general_4000.txt | tail -1
 #echo -n "TOEFL   5000: "

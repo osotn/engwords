@@ -96,21 +96,27 @@
     [k]
     
     
-    
-    
-
-
-
     parler = говорить
     
-                   +             -
-    I    je      parle      ne parle pas
-    You  tu      parles     ne parles pas
-    he   il      parle      ne parle pas
-    she  elle    parle      ne parle pas
-    we   nous    parlons    ne parlons pas
-    you  vous    parlez     ne parlez pas
-    they ils,    parlent    ne parlent pas
+                   +             -                   <+++       
+    I    je      parle      ne parle pas        j'ai    
+    You  tu      parles     ne parles pas       tu as 
+    he   il      parle      ne parle pas        il a
+    she  elle    parle      ne parle pas        elle a
+    we   nous    parlons    ne parlons pas      nous _ avons |  parlé
+    you  vous    parlez     ne parlez pas       vous _ avez
+    they ils,    parlent    ne parlent pas      ils,_ ont
+         elles                                  elles
+
+
+                   <----                  ++++>               ----->
+    I    je      n'ai pas               vais                ne vais pas
+    You  tu      n'as pas               vas                 ne vas pas
+    he   il      n'a pas                va                  ne va pas
+    she  elle    n'a pas   | parlé      va     | parler     ne va pas | parler
+    we   nous    n'avons pas            allons              n'allons pas
+    you  vous    n'avez pas             allez               n'allez pas
+    they ils,    n'ontpas               vont                ne vont pas
          elles
 
 
