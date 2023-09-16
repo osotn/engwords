@@ -88,7 +88,7 @@ static char *lang = "";                 /* english = "" */
 static void get_opts(int argc, char *const argv[])
 {
   int option;
-  while ((option = getopt(argc, argv, "unfmgrpcbiwd:s:")) != -1)
+  while ((option = getopt(argc, argv, "unfmgrepcbiwd:s:")) != -1)
     switch (option)
     {
       case 'u':
@@ -105,10 +105,13 @@ static void get_opts(int argc, char *const argv[])
         break;
       case 'g':
         lang="de/"; /* German */
-        break; 
+        break;
       case 'r':
         lang="fr/"; /* French */
-        break; 
+        break;
+      case 'e':
+        lang="es/"; /* Spainish */
+        break;
       case 'p':
         fPutChars = TRUE;
         break;
@@ -399,7 +402,12 @@ char *get_translation(char *s)
 // French letters
 // À = c3 80; à = c3 a0
 // Â = c3 82; â = c3 a2
-//
+// Spain letters
+// Ñ = c3 91; ñ = c3 b1
+// Í = c3 8d; í = c3 ad
+// Ó = c3 93; ó = c3 b3
+// Ú = c3 9a; ú = c3 ba
+// Á = c3 81; á = c3 a1
 int utf8_trick_isalpha(char *pc, int *pn)
 {
   if (*(pc + 0) == (char)0xC3 &&
@@ -420,8 +428,12 @@ int utf8_trick_isalpha(char *pc, int *pn)
               *(pc + 1) == (char)0x8f || /* Ï */ *(pc + 1) == (char)0xaf || /* ï*/
               *(pc + 1) == (char)0x94 || /* Ô */ *(pc + 1) == (char)0xb4 || /* ô */
               *(pc + 1) == (char)0x99 || /* Ù */ *(pc + 1) == (char)0xb9 || /* ù */
-              *(pc + 1) == (char)0x9b || /* Û */ *(pc + 1) == (char)0xbb    /* û */
-              /*The same as in German*/  /* Ü */                            /* ü */
+              *(pc + 1) == (char)0x9b || /* Û */ *(pc + 1) == (char)0xbb || /* û */
+              *(pc + 1) == (char)0x91 || /* Ñ */ *(pc + 1) == (char)0xb1 || /* ñ */
+              *(pc + 1) == (char)0x81 || /* Á */ *(pc + 1) == (char)0xa1 || /* á */
+              *(pc + 1) == (char)0x8d || /* Í */ *(pc + 1) == (char)0xad || /* í */
+              *(pc + 1) == (char)0x93 || /* Ó */ *(pc + 1) == (char)0xb3 || /* ó */
+              *(pc + 1) == (char)0x9a || /* Ú */ *(pc + 1) == (char)0xba    /* ú */
 	   )) {
     *pn = 2;
     return 1;
