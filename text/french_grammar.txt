@@ -126,12 +126,18 @@
 
 
 
-    I    je      me     me
-    You  tu      te     te
-    he   il      le     lui
-    she  elle    la     lui
-    we   nous    nous   nous
-    you  vous    vous   vous
-    they ils,    les    leur
-         elles
+    I    je      me     me      /   moi 
+    You  tu      te     te      /   toi
+    he   il      le     lui     /   lui
+    she  elle    la     lui     /   elle
+    we   nous    nous   nous    /   nous
+    you  vous    vous   vous    /   vous
+    they ils,    les    leur    /   eux
+         elles   les    leur    /   elles 
+
+
+Nominative      represents the main role or doer
+Accusative      name the goal or object (direct object).
+Dative          dependent upon verb or proposition (location)
+Genitive        describe something more closely
 
