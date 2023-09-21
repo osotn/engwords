@@ -1,2 +1,4 @@
 # To traslane every word of file to filename
-while read -ra line; do     for word in "${line[@]}";     do        touch "$word".txt;     done; done < 3000.txt
+dd if=10000.txt of=_10000.txt conv=lcase
+
+while read -ra line; do     for word in "${line[@]}";     do        touch "$word".txt;     done; done < 10000.txt
