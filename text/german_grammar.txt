@@ -235,5 +235,10 @@ Nominative
 Accusative      in, ins,                fühlen
 Dative          mit, im, zu
 
+Nominative      represents the main role or doer
+Accusative      name the goal or object (direct object).
+Dative          dependent upon verb or proposition (location)
+Genitive        describe something more closely
+
 
 

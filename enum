@@ -9,7 +9,7 @@ echo -n "Most    1000: "
 #echo -n "TOEFL   5000: "
 #./run.sh -gufm <words/toefl_5000.txt | tail -1
 echo -n "Google 10000: "
-./run.sh -gufm <es/words/10000.txt | tail -1
+./run.sh -eufm <es/words/10000.txt | tail -1
 
 
 
