@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo -n "Most    1000: "
-./run.sh -gufm <es/words/1000.txt | tail -1
+./run.sh -eufm <es/words/1000.txt | tail -1
 #echo -n "Oxfords 3000: "
 #./run.sh -gufm <de/words/oxford_3000_keys/oxford3000_uniq.txt | tail -1
 #echo -n "IELTS   4000: "
