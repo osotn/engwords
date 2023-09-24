@@ -395,13 +395,26 @@ char *get_translation(char *s)
 }
 
 // German letters
-// ü = c3 bc; Ü = c3 9c
-// ö = c3 b6; Ö = c3 96
-// ä = c3 a4; Ä = c3 84
-// ß = c3 9f; ẞ = e1 ba 9e
+// Ü = c3 9c; ü = c3 bc
+// Ö = c3 96; ö = c3 b6
+// Ä = c3 84; ä = c3 a4
+// ẞ = e1 ba 9e; ß = c3 9f
 // French letters
 // À = c3 80; à = c3 a0
 // Â = c3 82; â = c3 a2
+// Æ = c3 86; æ = c3 a6
+// Ç = c3 87; ç = c3 a7
+// È = c3 88; è = c3 a8
+// É = c3 89; é = c3 a9
+// Ê = c3 8a; ê = c3 aa
+// Ë = c3 8b; ë = c3 ab
+// Î = c3 8e; î = c3 ae
+// Ï = c3 8f; ï = c3 af
+// Ô = c3 94; ô = c3 b4
+// Ù = c3 99; ù = c3 b9
+// Û = c3 9b; û = c3 bb
+// Œ = c5 92; œ = c5 93
+// Ÿ = c5 b8; ÿ = c3 bf
 // Spain letters
 // Ñ = c3 91; ñ = c3 b1
 // Í = c3 8d; í = c3 ad
@@ -425,9 +438,10 @@ int utf8_trick_isalpha(char *pc, int *pn)
               *(pc + 1) == (char)0x8a || /* Ê */ *(pc + 1) == (char)0xaa || /* ê */
               *(pc + 1) == (char)0x8b || /* Ë */ *(pc + 1) == (char)0xab || /* ë */
               *(pc + 1) == (char)0x8e || /* Î */ *(pc + 1) == (char)0xae || /* î */
-              *(pc + 1) == (char)0x8f || /* Ï */ *(pc + 1) == (char)0xaf || /* ï*/
+              *(pc + 1) == (char)0x8f || /* Ï */ *(pc + 1) == (char)0xaf || /* ï */
               *(pc + 1) == (char)0x94 || /* Ô */ *(pc + 1) == (char)0xb4 || /* ô */
               *(pc + 1) == (char)0x99 || /* Ù */ *(pc + 1) == (char)0xb9 || /* ù */
+                                                 *(pc + 1) == (char)0xbf || /* ÿ */
               *(pc + 1) == (char)0x9b || /* Û */ *(pc + 1) == (char)0xbb || /* û */
               *(pc + 1) == (char)0x91 || /* Ñ */ *(pc + 1) == (char)0xb1 || /* ñ */
               *(pc + 1) == (char)0x81 || /* Á */ *(pc + 1) == (char)0xa1 || /* á */
@@ -440,7 +454,7 @@ int utf8_trick_isalpha(char *pc, int *pn)
   } else   if (*(pc + 0) == (char)0xC5 &&
       (
               *(pc + 1) == (char)0x92 || /* Œ */ *(pc + 1) == (char)0x93 || /* œ */
-              *(pc + 1) == (char)0xb8 || /* Ÿ */ *(pc + 1) == (char)0xbf    /* ÿ */
+              *(pc + 1) == (char)0xb8    /* Ÿ */
       )) {
     *pn = 2;
     return 1;
@@ -455,41 +469,47 @@ int utf8_trick_isalpha(char *pc, int *pn)
 
 int utf8_trick_tolower(char *pc, int *pn)
 {
-  char c;
-  int  i = 0;
+    char c;
+    int  i = 0;
  
-  *pn = 0;
+    *pn = 0;
 
-  while ( (c = pc[i]) != '\0') {
+    while ( (c = pc[i]) != '\0') {
   
-    if (*(pc + i + 0) == (char)0xC3 &&
-	  (
-              *(pc + i + 1) == (char)0x9C || /* ü */
-              *(pc + i + 1) == (char)0x96 || /* ö */
-              *(pc + i + 1) == (char)0x84    /* ä */
-	   )) {
-        *(pc + i + 1) |= 0x20;
-        i += 2;      
-    } else if ( *(pc + i + 0) == (char)0xE1 && *(pc + i + 1) == (char)0xBA && *(pc + i + 2) == (char)0x9E) {
-        *(pc + i + 0) = 0xC3;
-	*(pc + i + 1) = 0x9F;
- 	
-	// shift string on one char right.
-	{
-		int j=0;
-		char *p = pc + i + 2;
-		while ( (*p = *(p+1)) != '\0')
-                   p++;
-	}
+        if (*(pc + i + 0) == (char)0xC3 &&
+                (unsigned char)*(pc + i + 1) >= (unsigned char)0x80 &&
+                (unsigned char)*(pc + i + 1) <= (unsigned char)0x9F) {
+            *(pc + i + 1) |= 0x20;
+            i += 2;
+        } else if (*(pc + i + 0) == (char)0xC5) {
+            if (*(pc + i + 1) == (char)0x92) {     /* Œ -> œ */
+                *(pc + i + 1) = 0x93;
+                i += 2;
+            }
+            if (*(pc + i + 1) == (char)0xB8) {     /* Ÿ -> ÿ */
+                *(pc + i + 0) = 0xC3;
+                *(pc + i + 1) = 0xBf;
+                i += 2;
+            }
+        } else if ( *(pc + i + 0) == (char)0xE1 && *(pc + i + 1) == (char)0xBA && *(pc + i + 2) == (char)0x9E) {
+            *(pc + i + 0) = 0xC3;
+            *(pc + i + 1) = 0x9F;                   /* ẞ -> ß */
 
-	(*pn)--;
-	i += 2;  
-    } else {
-        pc[i] = tolower(pc[i]);
-	i++;
-    }
-  } 
+            // shift string on one char right.
+            {
+                int j=0;
+                char *p = pc + i + 2;
+                while ( (*p = *(p+1)) != '\0')
+                       p++;
+            }
 
+            (*pn)--;
+            i += 2;
+        } else {
+            pc[i] = tolower(pc[i]);
+            i++;
+        }
+    } /* while */
 }
 
 /* May skip the first characters of a word */
