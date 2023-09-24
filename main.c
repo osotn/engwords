@@ -474,7 +474,7 @@ int utf8_trick_tolower(char *pc, int *pn)
         *(pc + i + 0) = 0xC3;
 	*(pc + i + 1) = 0x9F;
  	
-	// shift s
+	// shift string on one char right.
 	{
 		int j=0;
 		char *p = pc + i + 2;
@@ -507,7 +507,7 @@ int transform_word(char **p_s)
 
   while ((c = (*p_s)[i]) != '\0')
   {
-    if (!utf8_trick_isalpha(*p_s + i, &n)  && c != '\'' && c != '-')
+    if (!utf8_trick_isalpha(*p_s + i, &n)  && c != '\'' && c != '-' && c != '+')
     {
       (*p_s)[i] = '\0';
       break;
