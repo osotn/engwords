@@ -148,6 +148,14 @@ static struct
 
 static int words_index = 0;
 
+int is_space(char c)
+{
+  if (c == ' ' || c == '\t' || c == '\n' || c == '\"' || c == ',' || c == '>') 
+    return 1;
+
+  return 0;
+}
+
 int get_word(char *s, int len_max, BOOLEAN b_print)
 {
   int c;
@@ -158,11 +166,18 @@ int get_word(char *s, int len_max, BOOLEAN b_print)
     if (b_print)
       putchar(c);
 
-    if (c == ' ' || c == '\t' || c == '\n' || c == '\"' || c == ',' || c == '>')
-      break;
-      
+    if (is_space(c))
+    {
+      if (len <= 0)
+        continue; /* skip firsts spaces */
+
+      break; /* end of a word */
+    }
+
     if (len < len_max)
-      s[len++] = c;
+      s[len] = c;
+
+    len++;
   }
 
   if (len > 0)
