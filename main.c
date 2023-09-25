@@ -158,21 +158,15 @@ int get_word(char *s, int len_max, BOOLEAN b_print)
     if (b_print)
       putchar(c);
 
-    if (c != ' ' && c != '\t' && c != '\n' && c != '\"' && c != ',' && c != '>')
-    {
-      if (len < len_max)
-        s[len] = c;
-
-      len++;
-      continue;
-    }
-    
-    if (len > 0)
-    {
-      s[(len < len_max) ? len : len_max] = '\0';
-      break;	
-    }
+    if (c == ' ' || c == '\t' || c == '\n' || c == '\"' || c == ',' || c == '>')
+      break;
+      
+    if (len < len_max)
+      s[len++] = c;
   }
+
+  if (len > 0)
+      s[(len < len_max) ? len : len_max] = '\0';
 
   return len;
 }
@@ -477,20 +471,19 @@ int utf8_trick_tolower(char *pc, int *pn)
     while ( (c = pc[i]) != '\0') {
   
         if (*(pc + i + 0) == (char)0xC3 &&
-                (unsigned char)*(pc + i + 1) >= (unsigned char)0x80 &&
-                (unsigned char)*(pc + i + 1) <= (unsigned char)0x9F) {
+                (((unsigned char)*(pc + i + 1) >= (unsigned char)0x80 &&
+                  (unsigned char)*(pc + i + 1) <= (unsigned char)0x96)    ||
+                 ((unsigned char)*(pc + i + 1) >= (unsigned char)0x98 &&
+                  (unsigned char)*(pc + i + 1) <= (unsigned char)0x9E))) {
             *(pc + i + 1) |= 0x20;
             i += 2;
-        } else if (*(pc + i + 0) == (char)0xC5) {
-            if (*(pc + i + 1) == (char)0x92) {     /* Œ -> œ */
-                *(pc + i + 1) = 0x93;
-                i += 2;
-            }
-            if (*(pc + i + 1) == (char)0xB8) {     /* Ÿ -> ÿ */
-                *(pc + i + 0) = 0xC3;
-                *(pc + i + 1) = 0xBf;
-                i += 2;
-            }
+        } else if ((*(pc + i + 0) == (char)0xC5) && (*(pc + i + 1) == (char)0x92)) { /* Œ -> œ */
+            *(pc + i + 1) = 0x93;
+            i += 2;
+        } else if ((*(pc + i + 0) == (char)0xC5) && (*(pc + i + 1) == (char)0xB8)) { /* Ÿ -> ÿ */
+            *(pc + i + 0) = 0xC3;
+            *(pc + i + 1) = 0xBf;
+            i += 2;
         } else if ( *(pc + i + 0) == (char)0xE1 && *(pc + i + 1) == (char)0xBA && *(pc + i + 2) == (char)0x9E) {
             *(pc + i + 0) = 0xC3;
             *(pc + i + 1) = 0x9F;                   /* ẞ -> ß */
