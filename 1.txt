@@ -1,864 +1,1000 @@
-
-
-=== Word number is 3932
-
-=== Unique word number is 857
-    0. ( 33) yT *#PT atoms [ˈætəmz] -es: (n) атом, мельчайшая частица
-    1. ( 86) 4T *#PT in [ɪn] (prep) в, на, по, при, через
-    2. ( 10) 3T *#PT motion [ˈməʊʃən] движение, перемещение, ход, показывать жестом
-    3. (  1) 3T *#PT introduction [ˌɪntrəˈdʌkʃən] (n) введение, внедрение
-    4. ( 33) 3T *#PT this [ðɪs] (pron) это, этот
-    5. (  1) xx ?#PT two-year [tuː-jɪə] (adj) двухгодовалый
-    6. (  6) 3T *#PT course [kɔːs] (n) курс, направление; (adj) курсовой
-    7. (  8) 3T *#PT physics [ˈfɪzɪks] физика
-    8. (107) xT *#PT is [ɪz] (v) быть, I: be-am/is/are-was/were-been
-    9. (  1) xT *#PT presented [ˈprɛzntid] -ed: представлять
-   10. ( 19) xT *#PT from [frɒm] (prep) от, из, с
-   11. (298) xT *#PT the [ðiː/ðɛ] (article) the definite
-   12. (  8) 3T *#PT point [pɔɪnt] (n) точка, момент, пункт, очко, дело, вопрос; (v) указывать, говорить
-   13. (152) xT *#PT of [ɒv] (prep) из, о, от, об, для
-   14. (  3) 3T *#PT view [vjuː] (n) вид, мнение, взгляд, точка зрения; (v) смотреть
-   15. ( 64) 3T *#PT that [ðæt] (conj) что, чтобы; (pron) то, тот, который
-   16. ( 24) 3T *#PT you [juː] (pron)(subject) вы, ты; (pron)(object) вам, вас, вами, тебе, тебя, тобой, you-you-your-yours-yourself/yourselves
-   17. (  1) 3T *#PT reader [ˈriːdə] читатель, считыватель
-   18. ( 52) xT *#PT are [ɑː] (v) быть, I: be-am/is/are-was/were-been
-   19. (  6) 3T *#PT going [goʊɪŋ] -ing: (v) идти, ехать, ходить, I: go-went-gone
-   20. ( 85) xT *#PT to [tuː] (prep) к, в, до, на, для
-   21. ( 24) 3T *#PT be [biː] (v) быть, I: be-am/is/are-was/were-been
-   22. (103) 3T *#PT a [æ/eɪ] (article) indefinite - a/an ; (letter) A b c d
-   23. (  2) 4T ?#PT physicist [ˈfɪzɪsɪst] (n) физик
-   24. ( 24) 3T *#PT not [nɒt] (particle) не, нет, ни
-   25. (  1) 3T *#PT necessarily [ˈnɛsɪsərɪli] (adv) обязательно, неизбежно
-   26. (  6) 3T *#PT case [keɪs] (n) случай, чехол, дело; (v) покрывать, упаковывать в ящик
-   27. ( 30) 3T *#PT but [bʌt] (conj) но, а, однако; (adv) кроме, только; (prep) кроме
-   28. ( 20) 3T *#PT what [wɒt] (conj) что; (prep) что, какой, как; (adj) какой; (adv) сколько
-   29. (  3) 3T *#PT every [ˈɛvri] каждый
-   30. (  1) 3T *#PT professor [prəˈfɛsə] (n) профессор
-   31. (  5) 3T *#PT subject [ˈsʌbʤ ɪkt->(adv/n)/səbˈʤ ɛkt->(v)] (v) подвергать, подчинять; (n) предмет
-   32. (  1) xT *#PT assumes [əˈsjuːmz] -es: (v) предполагать, принимать, допускать
-   33. ( 32) 3T *#PT if [ɪf] если
-   34. ( 22) 3T *#PT will [wɪl] будут, воля, желание, завещание, завещать, желать
-   35. ( 19) 3T *#PT have [hæv] (v) иметь, обладать, I: have/has-had-had
-   36. (  1) 3T *#PT lot [lɑt/lɔt] (adv) много, намного, гораздо, много; (n) лот, партия, масса; (v) дробить на участки
-   37. (  1) 3T *#PT study [ˈstʌdi] (n) изучение; (v) изучать
-   38. ( 13) 4T *#PT two [tuː] (num) 2
-   39. (  4) 4T *#PT hundred [ˈhʌndrəd] сотня
-   40. (  4) xT *#PT years [jɪəz] -es: (n) год
-   41. (  5) 3T *#PT most [məʊst] (n) большинство; (adv) больше всего, наиболее; (suffix) самый; (adj) наибольший
-   42. (  1) 3T *#PT rapidly [ˈræpɪdli] быстро
-   43. (  1) 4T *#PT developing [dɪˈvɛləpɪŋ] развивающийся
-   44. (  1) 3T *#PT field [fiːld] (n) поле, область, месторождение; (adj) полевой
-   45. (  6) 3T *#PT knowledge [ˈnɒlɪʤ _] знания
-   46. ( 25) 3T *#PT there [ðeə] (adv) там, туда, здесь, тут
-   47. ( 40) 3T *#PT so [səʊ] (adj) так, настолько, таким образом, столь, очень; (conj) поэтому; (prep) поэтому, так что, чтобы
-   48. (  3) 3T *#PT much [mʌʧ] (adv) много, гораздо, значительно; (n) многое
-   49. (  5) 3T *#PT fact [fækt] факт, обстоятельство
-   50. (  4) 3T *#PT might [maɪt] (n) мощь, могущество, сила, энергия; -1ed: (v) (auxiliary) можно, может быть, I: may-might
-   51. (  2) 3T *#PT think [θɪŋk] (v) думать, мыслить, I: think-thought-thought; (n) мысль
-   52. (  5) 3T *#PT cannot [ˈkænɒt] = can not, не можешь
-   53. (  5) 3T *#PT learn [lɜːn] учиться
-   54. ( 22) 3T *#PT all [ɔːl] (adj) все, весь; (n) все; (pron) все, весь, вся; (adv) совершенно, всецело, вполне
-   55. ( 60) 3T *#PT it [ɪt] (prep)(subject) это, (prep)(object) этого, it-it-its-its-itself
-   56. (  3) 4T *#PT four [fɔː] (num) 4
-   57. ( 78) 3T *#PT and [ænd] (conj) и, а, но; (n) конъюнкция
-   58. (  1) 3T *#PT truly [ˈtruːli] действительно
-   59. (  2) 4T *#PT go [goʊ] (v) идти, ехать, ходить, I: go-went-gone, (n) движение
-   60. (  1) 5T ?#PT graduate [ˈgrædjʊət] выпускник, выпускной, градуировать, окончить учебное заведение
-   61. (  1) 3T *#PT school [skuːl] (n) школа, обучение; (adj) школьный
-   62. (  2) 3T *#PT too [tu] тоже, слишком, также
-   63. (  1) 3T *#PT surprisingly [(UK)səˈpraɪzɪŋli/(US)sərˈpraɪzɪŋli/səˈpraɪzɪŋli] (adv) удивительно, неожиданно, как ни странно
-   64. (  5) 3T *#PT enough [ɪˈnʌf/əˈnʌf] достаточно, довольно, достаточное количество, достаточный
-   65. (  1) 3T ?#PT spite [spaɪt] (n) злость, озлобленность
-   66. (  2) 5T ?#PT tremendous [trɪˈmɛndəs] огромный, потрясающий
-   67. (  6) 3T *#PT amount [əˈmaʊnt] (n) количество, сумма; (v) составлять, составлять сумму
-   68. (  2) 3T *#PT work [wɜːk] (v) работать; (n) работа
-   69. ( 12) xT *#PT has [hæz] -es: (v) иметь, обладать, I: have/has-had-had
-   70. (  4) xT *#PT been [biːn] -2ed: (v) быть, I: be-am/is/are-was/were-been
-   71. (  1) xT *#PT done [dʌn] -2ed: (v) делать, выполнять, заниматься, I: do/does-did-done
-   72. ( 22) xT *#PT for [fɔː] (prep) для, на, за, в, к
-   73. (  8) 3T *#PT time [taɪm] (n) время
-   74. (  3) 3T *#PT possible [ˈpɒsəbl] возможное, возможный
-   75. (  1) 5T ?#PT condense [kənˈdɛns] (v) конденсироваться, сгущаться, сгущать, уплотняться
-   76. (  2) 3T *#PT enormous [ɪˈnɔːməs] (adj) огромный, громадный, чудовищный
-   77. (  7) 3T *#PT mass [mæs] (n) масса; (adj) массовый
-   78. (  2) xT *#PT results [rɪˈzʌlts] -es: результат, следствие, итог, следовать
-   79. (  3) 3T *#PT large [lɑːʤ ] (adj) большой
-   80. (  1) 3T *#PT extent [ɪksˈtɛnt] степень, размер, протяжение, пространство
-   81. (  7) 3T *#PT find [faɪnd] (n) находка, (v) находить, I: find-found-found
-   82. ( 11) xT *#PT laws [lɔːz] -es: закон
-   83. ( 18) 3T *#PT which [wɪʧ] какой, который
-   84. (  1) 4T *#PT summarize [ˈsʌməraɪz] суммировать, резюмировать, подводить итог
-   85. ( 13) 3T *#PT our [ˈaʊə] (pron)(possessive adj) наш, we-us-our-ours-ourselves
-   86. (  8) 3T *#PT even [ˈiːvən] даже, ровно, точно, как раз, выровнять, выравнивать
-   87. (  2) 3T *#PT hard [hɑːd] (adj) жесткий, твердый, трудный
-   88. (  1) 5T ?#PT grasp [(UK)grɑːsp/(US)græsp] (v) понять, осознать, схватывать; (n) понимание, схватывание
-   89. (  1) 3T *#PT unfair [ʌnˈfeə] -un: (adj) справедливый, честный
-   90. (  1) 3T *#PT start [stɑːt] (n) начало; (v) начинать
-   91. (  1) xT ?#PT exploring [ɪksˈplɔːrɪŋ] исследование
-   92. (  4) 3T *#PT without [wɪˈðaʊt] без
-   93. ( 12) 3T *#PT some [sʌm] некоторые, одни, другие, несколько, немного, некоторый
-   94. (  4) 3T *#PT kind [kaɪnd] (adj) любезный; (n) вид
-   95. (  2) 3T *#PT map [mæp] (n) карта; (v) наносить на карту
-   96. ( 18) 3T *#PT or [ɔː] или
-   97. (  3) 3T ?#PT outline [ˈaʊtlaɪn] контур, план, набросок, контурный, очерчивать
-   98. (  1) 3T *#PT relationship [rɪˈleɪʃənʃɪp] (n) связь, отношение, взаимоотношение
-   99. ( 26) 3T *#PT one [wʌn] (num) 1
-  100. (  4) 3T *#PT part [pɑːt] (n) часть, роль, деталь, сторона; (adv) частью, частично; (v) расставаться, разделять
-  101. (  4) 3T *#PT science [ˈsaɪəns] (n) наука
-  102. ( 14) 3T *#PT another [əˈnʌðə] (adj) другой, иной, подобный, (pron) еще один, отличный от, похожий
-  103. (  2) 3T *#PT following [ˈfɒləʊɪŋ] -ing: следовать, следить, придерживаться
-  104. (  9) xT *#PT these [ðiːz] -es: (pron) это, этот
-  105. (  1) 5T ?#PT preliminary [prɪˈlɪmɪnəri] предварительный
-  106. (  1) xT *#PT remarks [ˈrɪˈmɑːks] -es: (n) замечание, примечание
-  107. ( 12) 3T *#PT first [fɜːst] (adj) первый; -th: (num) 1
-  108. (  4) 4T *#PT three [θri] (num) 3
-  109. (  1) xT *#PT chapters [ˈʧæptəz] -es: глава
-  110. (  6) 3T *#PT therefore [ˈðeəfɔː] поэтому, следовательно, потому
-  111. (  1) 3T *#PT relation [rɪˈleɪʃən] связь, отношение, соотношение, зависимость
-  112. (  1) 3T *#PT rest [rɛst] (n) отдых, остальные, остальное, остаток, покой; (v) отдыхать, покоиться
-  113. (  3) xT *#PT sciences [ˈsaɪənsiz] -es: наука
-  114. (  1) xT *#PT relations [rɪˈleɪʃəns] -es: связь, отношение, соотношение, зависимость
-  115. ( 12) 3T *#PT each [iːʧ] каждый, любой
-  116. ( 16) 3T *#PT other [ˈʌðə] (adj) другой, остальные, иной; (pron) другой; (adv) иначе
-  117. (  1) 3T *#PT meaning [miːnɪŋ] -ing: (v)(stative) означать, значить, I: mean-meant-meant
-  118. (  1) 3T *#PT help [hɛlp] (n) помощь; (v) помогать, способствовать
-  119. (  6) 3T *#PT us [ʌs] (pron)(object) нас, we-us-our-ours-ourselves
-  120. (  1) 3T *#PT develop [dɪˈvɛləp] развивать, развиваться, разрабатывать, совершенствовать
-  121. (  1) 3T *#PT feel [fil] (v)(stative) чувствовать, почувствовать, ощущать, испытывать, I: feel-felt-felt; (n) ощущение
-  122. (  1) 3T *#PT ask [ɑːsk] (v) просить, спрашивать, требовать
-  123. (  4) 3T *#PT why [waɪ] (adv) почему, зачем, отчего; (n) причина
-  124. ( 91) 3T *#PT we [wiː] (pron)(subject) мы, we-us-our-ours-ourselves
-  125. (  4) 3T *#PT teach [tiːʧ] (v) учить, научить, преподавать, обучать, I: teach-taught-taught
-  126. ( 14) 4T *#PT by [baɪ] по
-  127. ( 10) 3T *#PT just [ʤ ʌst] (adv) только что, просто, прямо, как раз, именно
-  128. (  1) xT *#PT giving [gɪvɪŋ] -ing: (v) давать, I:give-gave-given
-  129. (  2) 3T *#PT basic [ˈbeɪsɪk] (adj) основной, базовый
-  130. ( 15) 4T *#PT on [ɒn] (prep) на
-  131. (  1) 3T *#PT page [peɪʤ ] страница
-  132. ( 12) 3T *#PT then [ðɛn] затем
-  133. (  1) xT *#PT showing [ʃəʊɪŋ] -ing: показывать, I: show-showed-shown/showned
-  134. ( 10) 3T *#PT how [haʊ] (adv) как
-  135. ( 23) 3T *#PT they [ðeɪ] (pron)(subject) они, they-them-their-theirs-themselves
-  136. (  1) xT *#PT circumstances [ˈsɜːkəmstənsɪz] -es: (n) обстоятельство, случай
-  137. ( 32) 3T *#PT as [æz] как
-  138. ( 13) 3T *#PT do [duː] (v) делать, выполнять, заниматься, I: do/does-did-done
-  139. (  1) xx ?#PT euclidean [juːˈklɪdɪən] (adj) евклидов
-  140. (  1) xT *#PT geometry [] 
-  141. (  3) 3T *#PT where [weə] (adv) где, куда; (conj) где
-  142. (  1) 3T *#PT state [steɪt] (n) состояние, государство, штат; (adj) государственный;  (v) утверждать
-  143. (  1) xx ?#PT axioms [ˈæksɪəmz] -es: аксиома
-  144. (  5) 4T *#PT make [meɪk] (v) делать, производить, I: make-made-made
-  145. (  1) xT *#PT sorts [sɔːts] -es: (v) сортировать; -es: (n) вид, сорт, род
-  146. (  1) yT ?#PT deductions [dɪˈdʌkʃəns] -es: вычет, вывод, удержание
-  147. (  1) 3T *#PT satisfied [ˈsætɪsfaɪd] -ed: (v)(stative) удовлетворять, выполнять
-  148. (  1) 3T *#PT want [wɒnt] (v)(stative) хотеть, желать, (n) желание
-  149. (  1) xT *#PT minutes [ˈmɪnɪts] -es: минут
-  150. (  4) 3T *#PT way [weɪ] (n) способ, путь, дорога, метод; (adj) далеко, значительно
-  151. (  1) xT *#PT reasons [ˈrizənz] -es: рассуждать, аргументировать, размышлять, причина, повод
-  152. (  2) 3T *#PT yet [jɛt] (adv) еще, все же, тем не менее, все еще, до сих пор; (conj) но, все же, однако
-  153. (  7) 3T *#PT know [nəʊ] (v)(stative) знать, I: know-knew-known
-  154. ( 23) 3T *#PT an [æn] (article) indefinite - a/an ; (letter) A b c d
-  155. (  1) xT *#PT expanding [ɪksˈpændɪŋ] -ing: (v) расширять
-  156. (  1) xT ?#PT frontier [ˈfrʌntɪə] рубеж
-  157. (  1) 5T ?#PT ignorance [ˈɪgnərəns] (n) невежество, незнание, неведение
-  158. (  4) 3T *#PT second [ˈsɛkənd] второй, секунда
-  159. (  5) 3T *#PT correct [kəˈrɛkt] (adj) правильный, корректный, верный; (v) исправлять, корректировать
-  160. (  2) 3T *#PT statement [ˈsteɪtmənt] (n) заявление, утверждение, оператор
-  161. (  1) xT *#PT involves [ɪnˈvɒlvz] -es: (v) включать, вовлекать, предполагать
-  162. ( 10) 3T *#PT very [ˈvɛri] (adv) очень; (adj) самый
-  163. (  2) yT *#PT unfamiliar [ʌnfəˈmɪliə] un-: (adj) привычный, близкий
-  164. (  7) xT *#PT ideas [aɪˈdɪəz] -es: идея, представление, мысль, понятие
-  165. (  2) 3T *#PT require [rɪˈkwaɪə] требовать, нуждаться
-  166. (  1) 3T ?#PT advanced [(GB)ədˈvɑːnst/(US)ədˈvænst] -ed: (v) продвигать, наступать
-  167. (  1) 3T *#PT mathematics [ˌmæθɪˈmætɪks] математика
-  168. (  3) 3T *#PT their [ðeə] (pron)(possessive adj) их, they-them-their-theirs-themselves
-  169. (  2) 3T *#PT description [dɪsˈkrɪpʃən] описание, изображение
-  170. (  2) xT *#PT needs [niːdz] -es: (n) необходимость, потребность, (v)(stative) нуждаться, требоваться
-  171. (  1) 3T *#PT considerable [kənˈsɪdərəbl] (adj) значительный, большой, немалый, (n) много
-  172. (  1) yT ?#PT preparatory [prɪˈpærətəri] (adj) подготовительный, предварительный
-  173. (  1) 3T *#PT training [treɪnɪŋ] -ing: (v) тренироваться, обучать; (n) обучение, подготовка, повышение квалификации
-  174. (  2) xT *#PT words [wɜːdz] -es: (n) слово
-  175. (  1) 3T *#PT mean [miːn] (n) среднее, среднее значение, средство, (adj) средний, (v)(stative) означать, значить, I: mean-meant-meant
-  176. (  7) 3T *#PT no [nəʊ] (particle) не, нет; (adj) никакой
-  177. ( 19) 3T *#PT can [kæn] (v) (auxiliary)(modal) может, I: can-could; (n) баллончик, жестяная банка; (v) мочь, иметь возможность, консервировать
-  178. (  9) 3T *#PT only [ˈəʊnli] (adv) всего, только, лишь, исключительно; (conj) только; (adj) единственный
-  179. (  3) 3T *#PT piece [piːs] (n) кусок, часть, штучный
-  180. (  3) 3T *#PT whole [həʊl] (adj) целый, весь
-  181. (  4) 3T *#PT nature [ˈneɪʧə] (n) природа, характер, сущность, натура
-  182. (  4) 3T *#PT always [ˈɔlˌweɪz/ˈɔlwiz] всегда, постоянно
-  183. (  2) 3T *#PT merely [ˈmɪəli] просто, только, единственно
-  184. (  5) 4T *#PT approximation [əˌprɒksɪˈmeɪʃ(ə)n] приближение
-  185. (  2) 3T *#PT complete [kəmˈpliːt] (adj) полный, законченный; (adv) полностью; (v) дополнить, завершать
-  186. (  3) 3T *#PT truth [truːθ] (n) правда, истина
-  187. (  1) 3T *#PT far [fɑː] (adv) далеко, гораздо, намного, I:far-further-(the)furthest;  (adj) дальний I:far-further-(the)furthest
-  188. (  2) 3T *#PT everything [ˈɛvrɪθɪŋ] все, все самое важное
-  189. ( 15) 3T *#PT because [bɪˈkɒz] (conj) потому что, так как, ибо
-  190. (  9) xT *#PT things [θɪŋz] -es: (n) вещь
-  191. (  2) 3T *#PT must [mʌst] должен, надо, нужно, необходимость, быть должным
-  192. (  1) 4T *#PT learned [lɜːnd] -ed: учиться
-  193. (  1) xx ?#PT unlearned [ʌnˈlɜːnd] (adj) невыученный, неграмотный, неученый
-  194. (  6) 3T *#PT again [əˈgɛn] очередной раз
-  195. ( 18) 3T *#PT more [mɔː] (adv) более, больше, еще
-  196. (  1) 3T *#PT likely [ˈlaɪkli] вероятно, вероятный
-  197. (  1) xT *#PT corrected [kəˈrɛktid] -ed: исправлять, корректировать
-  198. (  1) 3T *#PT principle [ˈprɪnsəpl] принцип, закон
-  199. (  1) 3T *#PT definition [ˌdɛfɪˈnɪʃən] (n) определение, четкость, описание
-  200. (  3) 3T *#PT almost [ˈɔːlməʊst] (adv) почти, едва не
-  201. (  1) 3T *#PT test [tɛst] (n) тест, испытание, проверка, (v) тестировать, проверять, (adj) испытательный
-  202. (  8) 3T *#PT experiment [ɪksˈpɛrɪmənt] (n) эксперимент, опыт
-  203. (  1) 5T ?#PT sole [səʊl] (adj) единственный
-  204. (  1) 3T *#PT judge [ˈʤ ʌʤ ] (v) судить, оценивать, осуждать; (n) судья, эксперт
-  205. (  2) 3T *#PT scientific [ˌsaɪənˈtɪfɪk] (adj) научный, ученый
-  206. (  1) 3T *#PT source [sɔːs] (n) источник
-  207. (  1) xT *#PT tested [tɛstid] -ed: тестировать, проверять
-  208. (  2) 3T *#PT come [kʌm] -0,2ed: (v) приходить, I: come-came-come
-  209. (  3) 3T *#PT itself [ɪtˈsɛlf] (pron)(reflexive) сам, it-it-its-its-itself
-  210. (  1) xT *#PT helps [hɛlps] -es: (n) помощь; -es: (v) помогать, способствовать
-  211. (  1) 3T *#PT produce [ˈprɒdjuːs->(n)/prəˈdjuːs->(v)] (v) производить, создавать; (n) продукция, продукт
-  212. (  1) 3T *#PT sense [sɛns] (n) смысл, чувство, ощущение, (v) чувствовать, ощущать, понимать
-  213. (  1) xT *#PT gives [gɪvz] -es: (v) давать, I:give-gave-given
-  214. (  2) xT ?#PT hints [hɪnts] -es: (n) намек
-  215. (  7) 3T *#PT also [ˈɔːlsəʊ] также
-  216. (  1) xT *#PT needed [niːdɪd] -ed: (v)(stative) нуждаться, требоваться
-  217. (  2) 3T *#PT imagination [ɪˌmæʤ ɪˈneɪʃən] (n) воображение
-  218. (  1) 3T *#PT create [kri(ː)ˈeɪt] создавать, творить, делать
-  219. (  4) 3T *#PT great [greɪt] (adj) большой, великий
-  220. (  1) xx *#PT generalizations [ˌʤ ɛnərəlaɪˈzeɪʃənz] -es: (n) обобщение, генерализация
-  221. (  4) 3T *#PT guess [gɛs] (n) предположение, догадка; (v) догадываться, угадывать
-  222. ( 23) 3T *#PT at [æt] (prep) на, в, при, у
-  223. (  2) 3T *#PT wonderful [ˈwʌndəfʊl] (adj) замечательный, чудесный, удивительный
-  224. (  7) 3T *#PT simple [ˈsɪmpl] (adj) простой
-  225. (  2) 3T *#PT strange [streɪnʤ ] (adj) странный, необыкновенный
-  226. (  1) xT *#PT patterns [ˈpætəns] -es: шаблон
-  227. (  1) 3T ?#PT beneath [bɪˈniːθ] под, ниже
-  228. (  7) 3T *#PT them [ðɛm] (pron)(object) их, им, they-them-their-theirs-themselves
-  229. (  1) 3T *#PT check [ʧɛk] проверка, чек, контроль, проверять, контролировать, контрольный
-  230. (  1) 3T *#PT whether [wɛðər] ли, который, будь то
-  231. (  4) xT *#PT made [meɪd] -1,2ed: (v) делать, производить, I: make-made-made
-  232. (  3) 4T *#PT right [raɪt] (n) право; (adj) верно, направо, прямо; (adj) правый, правильный; (v) исправлять
-  233. (  2) xx ?#PT imagining [(UK)ɪˈmæʤ ɪnɪŋ/(US)ɪˈmæʤ ənɪŋ] -ing: (v) вообразить, воображать, представлять себе, мнить
-  234. (  2) 3T *#PT process [(UK)prəʊses/(US)ˈprɑːses] (n) процесс, способ, (v) обрабатывать
-  235. (  3) 3T *#PT difficult [ˈdɪfɪkəlt] трудный, тяжелый, нелегкий
-  236. (  1) 3T *#PT division [dɪˈvɪʒən] (n) разделение, дивизион, деление, раздел, граница
-  237. (  1) 3T *#PT labor [ˈleɪbə] труд, работа, трудовой, трудиться
-  238. (  1) 5T *#PT theoretical [θɪəˈrɛtɪkəl] (adj) теоретический
-  239. (  2) xx ?#PT physicists [ˈfɪzɪsɪsts] -es: (n) физик
-  240. (  2) 3T *#PT who [huː] (pron) кто, который
-  241. (  6) 3T *#PT imagine [(UK)ɪˈmæʤ ɪn/(US)ɪˈmæʤ ən] (v) вообразить, воображать, представлять себе, мнить
-  242. (  2) xx ?#PT deduce [dɪˈdjuːs] выводить, делать вывод, устанавливать происхождение
-  243. (  3) 3T *#PT new [njuː] (adj) новый
-  244. (  1) 4T *#PT experimental [ɛksˌpɛrɪˈmɛntl] (adj) экспериментальный, опытный
-  245. (  1) 4T *#PT said [sɛd] -1,2ed: (v) сказать, I: say-said-said
-  246. (  4) 3T *#PT approximate [əˈprɒksɪmɪt] приблизительный
-  247. (  8) 3T *#PT wrong [rɒŋ] неправильно, неверный, обижать, вредить, причинять зло
-  248. (  3) xT *#PT ones [wʌnz] те
-  249. ( 18) 3T *#PT now [naʊ] (adv) сейчас
-  250. (  1) 5T *#PT trivial [ˈtrɪvɪəl] тривиальный, банальный
-  251. (  7) 3T *#PT something [ˈsʌmθɪŋ] нечто, нечто особенное, что-нибудь
-  252. ( 23) xT *#PT with [wɪð] (prep) с, вместе с, от
-  253. (  1) xT ?#PT apparatus [ˌæpəˈreɪtəs] аппарат, аппаратура, прибор
-  254. (  1) xT *#PT did [dɪd] -1ed: (v) делать, выполнять, заниматься, I: do/does-did-done
-  255. (  2) 3T *#PT notice [ˈnəʊtɪs] (n) уведомление, извещение, внимание, сообщение; (v) замечать, уведомлять
-  256. (  2) 3T *#PT easily [ˈiːzɪli] без труда
-  257. (  1) 3T *#PT fixed [fɪkst] -ed: фиксировать, исправлять, чинить, ремонтировать
-  258. (  1) xT *#PT checked [ʧɛkt] проверено
-  259. (  6) 3T *#PT back [bæk] (adv) назад, обратно; (n) защитник, спина; (adj) задний, обратный
-  260. (  2) 4T *#PT forth [fɔrθ] вперед, дальше
-  261. (  1) xx ?#PT snatching [snæʧɪŋ] -ing: урвать, схватить, похищать
-  262. (  3) 3T *#PT such [sʌʧ] такие
-  263. (  1) 3T *#PT minor [ˈmaɪnə] минор, несовершеннолетний подросток, недоросль, незначительный, несовершеннолетний, второстепенный, минорный
-  264. (  5) 4T *#PT being [ˈbiːɪŋ] (n) существо, бытие, существование, (adj) являющийся
-  265. (  2) 4T ?#PT inaccurate [ɪnˈækjʊrɪt] (adj) неточный, неправильный
-  266. (  4) 3T *#PT example [(GB)ɪgˈzɑːmpl/(US)ɪgˈzæmpəl] (n) пример, экземпляр
-  267. (  2) 3T *#PT object [ˈɒbʤ ɪkt->(n)/əbˈʤ ɛkt->(v)] объект, предмет, цель, возражать, возразить, объектный
-  268. (  1) 3T *#PT never [ˈnɛvə] (adv) никогда
-  269. (  1) xT *#PT seems [siːmz] -es: (v) казаться
-  270. (  4) 3T *#PT change [ʧeɪnʤ ] (v) менять; (n) изменение, перемена, смена
-  271. (  1) 5T *#PT spinning [ˈspɪnɪŋ] -ing: вращение, крутиться, вертеться
-  272. (  3) 3T *#PT top [tɒp] верхний, высший, верх, быть первым, превышать
-  273. (  6) 3T *#PT same [seɪm] тот же, то же самое
-  274. (  1) 3T *#PT weight [weɪt] (n) вес, масса, груз, (v) весить
-  275. (  8) 3T *#PT still [stɪl] (adv) еще, все еще, до сих пор, все же, (adj) неподвижный
-  276. (  9) 3T *#PT law [lɔː] закон, право, юридический, правовой
-  277. (  3) xT *#PT was [wɒz] -1ed: (v) быть, I: be-am/is/are-was/were-been
-  278. (  2) yT ?#PT invented [ɪnˈvɛntid] -ed: изобретать, придумывать
-  279. (  3) 3T *#PT constant [ˈkɒnstənt] константа, постоянная величина, постоянный
-  280. (  1) 3T *#PT independent [ˌɪndɪˈpɛndənt] независимый, самостоятельный
-  281. (  9) 3T *#PT speed [spiːd] (n) скорость, быстрота; (v) ускорять, спешить, торопить, I: speed-sped/speeded-sped/speeded
-  282. (  3) 3T *#PT found [faʊnd] -1,2ed: (v) находить, I: find-found-found, (v) основывать
-  283. (  1) 4T *#PT incorrect [ˌɪnkəˈrɛkt] (adj) неправильный, неверный, некорректный
-  284. ( 13) 3T *#PT increase [ˈɪnkriːs (n)/ɪnˈkriːs (v)] увеличение, рост, увеличивать
-  285. (  1) 5T *#PT velocity [vɪˈlɒsɪti] скорость, быстрота, скоростной
-  286. (  1) 5T ?#PT appreciable [əˈpriːʃəbl] (adj) заметный, ощутимый
-  287. (  6) xT *#PT increases [ˈɪnkriːsiz (n)/ɪnˈkriːsiz (v)] -es: увеличение, рост, увеличивать
-  288. (  1) xx *#PT velocities [vɪˈlɒsɪtiz] -es: скорость, быстрота
-  289. (  2) 3T *#PT near [nɪə] (prep) возле, около, у, близ; (adv) недалеко, около, поблизости, почти; (adj) близкий; (v) приближаться
-  290. (  1) 3T *#PT light [laɪt] (n) свет, освещение, огонь, источник света, освещенность; (adj) световой, легкий, светлый, слабый; (v) освещать, зажигать, I: light-lit/lighted-lit/lighted; (adv) легко
-  291. (  4) 3T *#PT true [truː] (adj) истинный, настоящий, верный; (n) истина
-  292. (  2) xT *#PT moves [muvz] -es: (n) шаг, движение, переезд; -es: (v) двигаться, перемещать, перемещаться
-  293. (  2) 3T *#PT less [lɛs] меньше, менее, в меньшей степени, меньший
-  294. ( 10) 3T *#PT than [ðæn] (conj) чем, кроме, как
-  295. (  3) xT *#PT miles [maɪlz] -es: (n) миля
-  296. (  1) 3T *#PT within [wɪˈðɪn] в, в пределах, внутри
-  297. (  1) 4T *#PT million [ˈmɪljən] (n) миллион
-  298. (  2) 4T *#PT form [fɔːm] (n) форма, (v) образовывать, создавать, формировать
-  299. (  1) 3T *#PT practice [ˈpræktɪs] практика, опыт, практиковать, заниматься
-  300. (  2) xT *#PT makes [meɪks] -es: (v) делать, производить, I: make-made-made
-  301. (  1) 3T *#PT significant [sɪgˈnɪfɪkənt] значительный, существенный
-  302. (  3) 3T *#PT difference [ˈdɪfrəns] разница, различие, разность, отличать
-  303. (  5) 4T *#PT well [wɛl] хорошо, вполне, колодец
-  304. (  1) 3T *#PT yes [jɛs] (adv) (part) да; (n) согласие
-  305. (  3) 3T *#PT ordinary [ˈɔːdnri] (adj) обычный, обыкновенный, простой
-  306. (  2) xT *#PT speeds [spiːdz] -es: скорость, быстрота, ускорять, спешить, торопить
-  307. (  3) 3T *#PT certainly [ˈsɜːtnli] -ly: (adj)->(adv) определенный
-  308. (  1) 3T *#PT forget [fəˈgɛt] забывать, I: forget-forgot-forgotten/forgot
-  309. (  1) 3T *#PT use [juːz->(v)/juːs->(n)] (v) использовать; (n) использование
-  310. (  1) 4T *#PT good [gʊd] (adj) хороший, I:good-better-(the)best; (adv)хорошо, I:good-better-(the)best
-  311. (  1) 3T *#PT high [haɪ] (adj) высокий, большой; (n) максимум; (adv) высоко
-  312. (  1) xT *#PT higher [haɪə] -er: высокий, большой, высоко
-  313. (  1) 3T *#PT finally [ˈfaɪnli] окончательно, в конце концов, в конце концов
-  314. (  5) 3T *#PT interesting [ˈɪntrɪstɪŋ] (adj) интересный
-  315. (  1) xx ?#PT philosophically [ˌfɪləˈsɒfɪkəli] (adv) философски
-  316. (  2) 3T *#PT completely [kəmˈpliːtli] -ly: (adj)->(adv) полный, законченный
-  317. (  1) 3T *#PT entire [ɪnˈtaɪə] весь, целый, полный, целое, полнота
-  318. ( 14) 3T *#PT picture [ˈpɪkʧə] (n) рисунок, картина, изображение; (v) изобразить, представлять себе
-  319. (  3) 3T *#PT world [wɜːld] (n) мир, кругозор; (adj) мировой, всемирный
-  320. (  1) xT ?#PT altered [ˈɔːltəd] -ed: (v) изменять
-  321. (  2) 3T *#PT though [ðəʊ] хотя, однако, несмотря на, если бы, однако
-  322. (  2) xT *#PT changes [ʧeɪnʤ ɪz] -es: (v) менять; -es: (n) изменение, перемена, смена
-  323. (  8) 3T *#PT little [ˈlɪtl] немного, мало
-  324. (  2) 3T *#PT bit [bɪt] бит, долото, кусочек, -1ed: укусить, кусать, травить, укус, прикус, I: bite-bit-bitten
-  325. (  1) 5T ?#PT peculiar [pɪˈkjuːliə] (adj) своеобразный
-  326. (  4) 3T *#PT thing [θɪŋ] (n) вещь
-  327. (  6) 3T *#PT about [əˈbaʊt] (prep) около, об, относительно, вокруг; (adv) около, приблизительно, относительно, вокруг
-  328. (  1) 3T *#PT philosophy [fɪˈlɒsəfi] философия
-  329. (  1) 3T *#PT behind [bɪˈhaɪnd] (prep) (adv) позади, сзади, после; (n) зад
-  330. (  2) 3T *#PT small [smɔːl] (adj) небольшой, маленький
-  331. (  1) 3T *#PT effect [ɪˈfɛkt] (n) эффект, влияние, воздействие
-  332. (  1) 3T *#PT sometimes [ˈsʌmtaɪmz] (adv) иногда, временами
-  333. (  1) xT *#PT requires [rɪˈkwaɪəz] -es: требовать, нуждаться
-  334. (  1) 5T ?#PT profound [prəˈfaʊnd] (adj) глубокий, проникновенный
-  335. (  3) 3T *#PT should [ʃʊd] должен
-  336. (  6) 3T *#PT its [ɪts]  (pron)(possessive adj) его, (pron)(possessive pron) свой, it-it-its-its-itself
-  337. (  1) 5T ?#PT conceptual [kənˈsɛptjʊəl] концептуальный, умозрительный
-  338. (  3) 3T *#PT theory [ˈθɪəri] (n) теория
-  339. (  1) 4T ?#PT relativity [ˌrɛləˈtɪvɪti] относительность, теория относительности
-  340. (  1) xx ?#PT four-dimensional [fɔː-dɪˈmɛnʃənl] (adj) четырехмерный
-  341. (  1) xx ?#PT space-time [speɪs-taɪm] (n) пространство-время
-  342. (  1) xx ?#PT constant-mass [ˈkɒnstənt-mæs] (n) постоянной массы
-  343. (  5) xT *#PT does [dʌz] -es: (v) делать, выполнять, заниматься, I: do/does-did-done
-  344. (  1) 3T *#PT involve [ɪnˈvɒlv] (v) включать, вовлекать, предполагать
-  345. (  1) 3T ?#PT exciting [ɪkˈsaɪtɪŋ] -ing: (v) возбудить, возбуждать, волновать
-  346. (  1) 3T *#PT fun [fʌn] (n) забава; (v) шутить
-  347. (  1) xT *#PT easier [ˈiːziə] -er: (adj) легко, спокойно, легкий, удобный
-  348. (  2) 3T *#PT get [gɛt] (v) получать, попасть, становиться, I: get-got-got
-  349. (  1) 3T *#PT step [stɛp] (n) шаг, ступень; (v) шагать, ступать
-  350. (  2) 3T *#PT real [rɪəl/reɪˈɑːl] реальный, настоящий, реал, действительно, очень
-  351. (  2) 3T *#PT understanding [ˌʌndəˈstændɪŋ] -es: (v)(stative) понять; I: understand-understood-understood
-  352. (  3) 3T *#PT idea [aɪˈdɪə] идея, представление, мысль, понятие
-  353. (  1) yT *#PT arises [əˈraɪzɪz] -es: (v) возникать, появляться, I: arise-arose-arisen
-  354. (  1) 3T *#PT teaching [ˈtiːʧɪŋ] обучение
-  355. (  3) 3T *#PT different [ˈdɪfrənt] (adj) другой, различный, разный
-  356. (  8) xT *#PT times [taɪmz] -es: (n) время; (prep) раз
-  357. (  7) 3T *#PT shall [ʃæl] должен
-  358. (  1) 3T *#PT resolve [rɪˈzɒlv] (n) решимость, решение, намерение, (v) разрешать, решать
-  359. (  3) xT *#PT ways [weɪz] -es: (n) способ, путь, дорога, метод
-  360. (  1) 3T *#PT stage [steɪʤ ] (n) этап, стадия, сцена, (adj) сценический, ступенчатый, (v) ставить
-  361. (  1) 3T ?#PT worth [wɜːθ] (n) ценность, стоимость, (adj) заслуживающий, стоящий
-  362. (  1) 4T *#PT learning [lɜːnɪŋ] -ing: учиться
-  363. (  1) 3T *#PT known [nəʊn] -2ed: (v)(stative) знать, I: know-knew-known
-  364. (  1) 3T *#PT accurate [ˈækjʊrɪt] (adj) точный, тщательный, меткий
-  365. (  2) xT *#PT fits [fɪts] -es: соответствовать, приспосабливать, подходить, устанавливать
-  366. (  5) 3T *#PT into [ˈɪntuː] в, на, к
-  367. (  4) 3T *#PT else [ɛls] (adv) еще, иначе; (pron) другой; (conj) иначе
-  368. (  2) 3T *#PT may [meɪ] (v) (auxiliary) может, I: may-might; (v) мочь, иметь возможность, быть вероятным; (n) дева, Май
-  369. (  1) xT *#PT changed [ʧeɪnʤ d] -ed: (v) менять
-  370. ( 12) 3T *#PT when [wɛn] (adv) когда, хотя; (conj) когда, если; (n) время
-  371. (  5) 3T *#PT let [lɛt] (v) препятствовать, позволять, I: let-let-let; (n) препятствие
-  372. (  1) 3T *#PT proceed [prəˈsiːd] (v) продолжать
-  373. (  1) 3T *#PT general [ˈʤ ɛnərəl] (adj) общий, генеральный, главный; (n) генерал
-  374. (  1) 3T *#PT today [təˈdeɪ] (adv) сегодня; (n) сегодняшний день, наши дни
-  375. (  5) 3T *#PT particular [pəˈtɪkjʊlə] особый, частный, деталь, частность, подробность
-  376. (  1) 5T ?#PT periphery [pəˈrɪfəri] (n) периферия, окружность
-  377. (  2) 3T *#PT later [ˈleɪtə] (adv) потом
-  378. (  1) 3T *#PT concentrate [ˈkɒnsəntreɪt] концентрат, сконцентрировать, концентрироваться
-  379. (  1) 3T *#PT background [ˈbækgraʊnd] фон, предпосылка
-  380. (  2) 3T *#PT big [bɪg] (adj) большой
-  381. (  6) 3T *#PT structure [ˈstrʌkʧər] (n) структура, конструкция, строение, сооружение, устройство; (v) структурировать
-  382. (  1) 4T *#PT over [ˈəʊvə] (prep) над, за, свыше, через, в течение, поверх, (adv) свыше, сверх
-  383. (  1) 3T *#PT matter [ˈmætə] (n) вопрос, дело, материя; (v) иметь значение, гноиться
-  384. (  1) xx ?#PT cataclysm [ˈkætəklɪzm] (n) катаклизм
-  385. (  3) xT *#PT were [wɜː] -1ed: (v) быть, I: be-am/is/are-was/were-been
-  386. (  1) xT *#PT destroyed [dɪsˈtrɔɪd] -ed: уничтожать, разрушать, истреблять
-  387. (  2) 3T *#PT sentence [ˈsɛntəns] приговорить, осуждать, предложение
-  388. (  1) xT *#PT passed [pæst] -ed: (v) проходить, передавать
-  389. (  1) 3T *#PT next [nɛkst] (adj) следующий, будущий;  (adv) рядом, дальше, около; (prep) рядом, около
-  390. (  1) xT *#PT generations [ˌʤ ɛnəˈreɪʃənz] -es: (n) поколение, генерация, порождение
-  391. (  1) xT *#PT creatures [ˈkriːʧəz] существa
-  392. (  8) 3T *#PT would [wʊd] -
-  393. (  2) 3T *#PT contain [kənˈteɪn] (v) содержать, вмещать
-  394. (  2) 3T *#PT information [ˌɪnfəˈmeɪʃən] (n) информация
-  395. (  1) xx ?#PT fewest [fjuːɪst] -est: (adj) немногие, немногочисленные
-  396. (  4) xT *#PT i [aɪ] (pron)(subject) я, I-me-my-mine-myself; (l) h I j k
-  397. (  1) 3T *#PT believe [bɪˈliːv] (v)(stative) полагать, верить
-  398. ( 10) 5T *#PT atomic [əˈtɒmɪk] атомный
-  399. (  2) 5T ?#PT hypothesis [haɪˈpɒθɪsɪs] (n) гипотеза, предположение
-  400. (  1) 3T *#PT whatever [ˌwʌˈtɛvər] любой, какой бы ни, что бы ни
-  401. (  3) 3T *#PT wish [wɪʃ] (v)(stative) желать, (n) желание
-  402. (  3) 3T *#PT call [kɔːl] (n) вызов, зов, соединение; (v) назвать, называть, вызывать
-  403. (  7) xT *#PT particles [ˈpɑːtɪklz] -es: частица, крупица
-  404. (  4) 3T *#PT move [muv] (n) шаг, движение, переезд; (v) двигаться, перемещать, перемещаться
-  405. (  8) 3T *#PT around [əˈraʊnd] вокруг, около, кругом, вокруг, около
-  406. (  3) yT ?#PT perpetual [pəˈpɛʧʊəl] (adj) вечный, бессрочный, бесконечный, постоянный
-  407. (  1) yT ? PT attracting [əˈtræktɪŋ] -ing: (v) привлекать, притягивать
-  408. (  3) 3T *#PT distance [ˈdɪstəns] (n) расстояние
-  409. (  5) 3T *#PT apart [əˈpɑːt] отдельно, на части, обособленно
-  410. (  1) xx ?#PT repelling [rɪˈpɛlɪŋ] -ing: (v) отталкивать, отражать
-  411. (  3) 3T *#PT upon [əˈpɒn] на
-  412. (  1) xx ?#PT squeezed [skwiːzd] выжатый
-  413. ( 22) 3T *#PT see [siː] (v) видеть, I: see-saw-seen
-  414. (  1) 3T *#PT thinking [θɪŋkɪŋ] -ing: (v) думать, мыслить, I: think-thought-thought
-  415. (  1) xT *#PT applied [əˈplaɪd] -ed: применять, обращаться, использовать, относиться
-  416. (  1) 3T *#PT illustrate [ˈɪləstreɪt] (v) иллюстрировать, пояснять, служить примером
-  417. (  1) 3T *#PT power [ˈpaʊər] (n) власть, мощность, сила, мощь, энергия, способность; (adj) силовой
-  418. (  4) 3T *#PT suppose [səˈpəʊz] (v)(stative) полагать, предполагать, допускать, (n) предположение
-  419. (  8) 3T *#PT drop [drɒp] (n) падение, капля, снижение; (v) падать, опускаться, сбрасывать
-  420. ( 44) 3T *#PT water [ˈwɔːtə] (n) воды, вода; (v) поливать, напоить, мочить
-  421. (  1) 3T *#PT quarter [ˈkwɔːtə] (n) четверть
-  422. (  1) 3T *#PT inch [ɪnʧ] (adj) дюймовый; (n) дюйм; (v) двигаться медленно
-  423. (  3) 3T *#PT side [saɪd] (n) сторона, бок, поверхность; (adj) боковой
-  424. (  6) 3T *#PT look [lʊk] (n) вид, взгляд, внешность, (v) посмотреть, выглядеть, смотреть, казаться
-  425. (  5) 3T *#PT closely [ˈkləʊsli] (adv) тесно, внимательно, близко, вплотную
-  426. (  3) 3T *#PT nothing [ˈnʌθɪŋ] (n) ничего, ничто; (pron) ничего, ничто; (adv) совсем нет, нисколько
-  427. (  3) 3T *#PT smooth [smuːð] (adj) гладкий, плавный; (adv) гладко; (v) сглаживать
-  428. (  2) 3T *#PT continuous [kənˈtɪnjʊəs] (adj) постоянный, непрерывный
-  429. (  3) 5T ?#PT magnify [ˈmægnɪfaɪ] (v) увеличивать
-  430. (  1) 3T *#PT best [ˈbɛst] -est: (adj) хороший, I:good-better-(the)best; -est: (adv)хорошо, I:good-better-(the)best
-  431. (  1) 5T *#PT optical [ˈɒptɪkəl] оптический, зрительный
-  432. (  1) 5T *#PT microscope [ˈmaɪkrəskəʊp] микроскоп
-  433. (  1) 3T *#PT available [əˈveɪləbl] доступный, имеющийся, налицо
-  434. (  2) 3T *#PT roughly [ˈrʌfli] грубо
-  435. (  2) 4T *#PT thousand [ˈθaʊzənd] тысяча
-  436. (  1) 4T *#PT forty [ˈfɔːti] сорок
-  437. (  1) xT *#PT feet [fiːt] -es: (n) нога, фут, I: foot-feet
-  438. (  2) 3T *#PT across [əˈkrɒs] (adv) через, поперек; (prep) через, поперек
-  439. (  4) 3T *#PT room [ruːm] (n) комната, номер
-  440. (  1) xT *#PT looked [lʊkt] -ed: (v) посмотреть, выглядеть, смотреть, казаться
-  441. (  2) 3T *#PT rather [ˈrɑːðə] скорее, довольно, вернее, лучше
-  442. (  1) 3T *#PT relatively [ˈrɛlətɪvli] -ly: относительный, сравнительный
-  443. (  3) 3T *#PT here [hɪə] (adv) здесь, сюда, тут
-  444. (  1) xx ?#PT football-shaped [ˈfʊtbɔːl-ʃeɪpt] (adj) в форме футбольного мяча
-  445. (  1) 3T *#PT swimming [ˈswɪmɪŋ] плавание
-  446. (  3) xx ?#PT paramecia [-] (n) парамеция
-  447. (  1) 3T *#PT stop [stɒp] (v) остановить; (n) остановка
-  448. (  1) 3T *#PT curious [ˈkjʊərɪəs] (adj) любопытный, странный, любознательный
-  449. (  1) xx ?#PT wiggling [ˈwɪglɪŋ] -ing: (v) покачиваться, извиваться, покачивать, ерзать
-  450. (  1) xx ?#PT cilia [ˈsɪlɪə] (n) реснички, ресницы
-  451. (  2) xx ?#PT twisting [twɪstɪŋ] -ing: (v) крутить
-  452. (  1) xT *#PT bodies [ˈbɒdiz] -es: (n) тело, корпус, труп
-  453. (  2) 3T *#PT further [ˈfɜːðə] -er: (adv) далеко, гораздо, намного, I:far-further-(the)furthest; -er: (adj) дальний I:far-further-(the)furthest; (v) способствовать, содействовать
-  454. (  1) 3T *#PT except [ɪkˈsɛpt] кроме, за исключением, исключая, исключать
-  455. (  3) 3T *#PT perhaps [pəˈhæps] (adj) возможно, может быть, пожалуй
-  456. (  1) 3T *#PT inside [ɪnˈsaɪd] (prep) внутри, внутрь; (n) внутренность; (adj) внутренний
-  457. (  1) 3T *#PT biology [baɪˈɒləʤ i] биология
-  458. (  1) 3T *#PT present [ˈprɛznt] (n) настоящее время, подарок; (v) представлять; (adj) настоящий
-  459. (  1) 3T *#PT pass [pæs] (n) пасс, передача, проход, пропуск; (v) проходить, передавать
-  460. (  2) 3T *#PT material [məˈtɪərɪəl] (n) материал, вещество; (adj) вещественный
-  461. (  1) xx ?#PT magnifying [ˈmægnɪfaɪɪŋ] -ing: (v) увеличивать
-  462. (  1) xT *#PT extends [ɪksˈtɛndz] -es: (v)продлить, расширять, продлевать, распространять, удлинять
-  463. (  1) 4T *#PT fifteen [ˈfɪfˈtiːn] (num) 15
-  464. (  2) xx ?#PT teeming [tiːmɪŋ] -ing: (v) кишат
-  465. (  1) xT *#PT longer [lɒnŋə] -er: долго
-  466. (  2) 3T *#PT appearance [əˈpɪərəns] внешний вид, появление
-  467. (  2) xT *#PT looks [lʊks] -es: (n) вид, взгляд, внешность, (v) посмотреть, выглядеть, смотреть, казаться
-  468. (  2) 3T *#PT like [laɪk] (v)(stative) нравится
-  469. (  1) 3T ?#PT crowd [kraʊd] (n) толпа, давка; (v) толпиться, вытеснять
-  470. (  1) 3T *#PT football [ˈfʊtbɔːl] (n) футбол
-  471. (  1) 3T *#PT game [geɪm] (n) игра, партия; (adj) игровой; (v) играть в азартные игры
-  472. (  1) xT *#PT seen [siːn] -2ed: (v) видеть, I: see-saw-seen
-  473. (  3) 3T *#PT order [ˈɔːdə] (n) заказ, порядок, орден; (v) заказывать, упорядочивать
-  474. (  1) 4T *#PT fifty [ˈfɪfti] (num) 50
-  475. (  1) 3T *#PT similar [ˈsɪmɪlə] (adj) подобный, похожий, сходный; (n) копия
-  476. (  2) xT *#PT shown [ʃəʊn] -2ed: показывать, I: show-showed-shown/showned
-  477. (  4) xT ?#PT fig [fɪg] фига, инжир, смоковница, кукиш, шиш
-  478. (  5) xx ?#PT magnified [ˈmægnɪfaɪd] -ed: (v) увеличивать
-  479. (  3) 5T *#PT billion [ˈbɪljən] (n) миллиард, биллион
-  480. (  2) xx ?#PT idealized [aɪˈdɪəlaɪzd] -ed: (v) идеализировать
-  481. (  1) 3T *#PT several [ˈsɛvrəl] несколько
-  482. (  6) 3T *#PT place [pleɪs] (n) место, местечко, (v) размещать
-  483. (  2) xT *#PT drawn [drɔːn] -2ed: (v) рисовать, привлекать, проводить, играть в ничью, I draw-drew-drawn
-  484. (  1) 3T *#PT manner [ˈmænə] (n) способ, манера, метод
-  485. (  1) 3T *#PT sharp [ʃɑːp] (adj) острый
-  486. (  1) xT *#PT edges [ɛʤ iz] -es: край, преимущество
-  487. (  1) 4T ?#PT secondly [ˈsɛkəndli] кроме того, к тому же, во-вторых
-  488. (  3) 5T *#PT simplicity [sɪmˈplɪsɪti] (n) простота, несложность
-  489. (  1) xx ?#PT sketched [skɛʧt] -ed: делать наброски
-  490. (  1) xx ?#PT schematically [skɪˈmætɪk(ə)li] (adv) схематично
-  491. (  1) xx *#PT two-dimensional [tuː-(UK)dɪˈmɛnʃənl/(US)daɪˈmenʃənl] (adj) 2-мерный
-  492. (  4) 3T *#PT arrangement [əˈreɪnʤ] mənt
-  493. (  4) 3T *#PT moving [muvɪŋ] -ing: (v) двигаться, перемещать, перемещаться
-  494. (  2) xT *#PT dimensions [(UK)dɪˈmɛnʃənz/(US)daɪˈmenʃnz] -es: (n) измерение, размерность, величина
-  495. (  1) xT *#PT kinds [kaɪndz] -es: (n) вид
-  496. (  1) xx ?#PT blobs [blɒbs] -es: (n) капля, маленький шарик; -es: (v) делать кляксы
-  497. (  1) xT *#PT circles [ˈsɜːklz] -es: круг, окружность, кружок, кольцо, цикл, кружиться
-  498. (  2) 3T *#PT represent [ˌrɛprɪˈzɛnt] (v) представлять, изображать, отражать, означать, (n) представление
-  499. (  7) 5T ?#PT oxygen [ˈɒksɪʤ ən] кислород, кислородный
-  500. (  1) 3T *#PT black [blæk] (adj) черный
-  501. (  2) 5T ?#PT hydrogen [ˈhaɪdrəʤ ən] (n) водород
-  502. (  1) 3T *#PT white [waɪt] белый, белок
-  503. (  2) xx ?#PT hydrogens [ˈhaɪdrəʤ ənz] -es: (n) водород
-  504. (  1) xT *#PT tied [taɪd] связанный
-  505. (  2) 3T *#PT group [gruːp] (n) группа, группировка, (adj) групповой, (v) группировать
-  506. (  3) 3T *#PT called [kɔːld] -ed: (v) назвать, называть, вызывать
-  507. (  8) 5T ?#PT molecule [mɒlɪkjuːl] (n) молекула
-  508. (  1) xT *#PT continually [kənˈtɪnjuəli/kənˈtɪnjuli] беспрестанно
-  509. (  9) xx ?#PT jiggling [ˈʤ ɪglɪŋ] -ing: (v) трясти, покачиваться
-  510. (  3) yT ?#PT bouncing [baʊnsɪŋ] -ing: подпрыгивать, отскакивать
-  511. (  1) 4T *#PT turning [ˈtɜːnɪŋ] поворотный, вращающийся, поворот, превращение
-  512. (  2) 5T *#PT dynamic [daɪˈnæmɪk] динамический
-  513. (  1) xT *#PT static [ˈstætɪk] (adj) статический, неподвижный
-  514. (  1) xT *#PT illustrated [ˈɪləstreɪtɪd] -ed: (v) иллюстрировать, пояснять, служить примером
-  515. (  1) 3T *#PT drawing [drɔːɪŋ] -ing: (v) рисовать, привлекать, проводить, играть в ничью, I draw-drew-drawn
-  516. (  5) xT ?#PT stuck [stʌk] -1,2ed: (v) придерживаться, держаться, I: stick-stuck-stuck
-  517. (  8) 3T *#PT together [təˈgɛðə] вместе, воедино
-  518. (  1) 3T *#PT attract [əˈtrækt] (v) привлекать, притягивать
-  519. (  1) xT *#PT pulled [pʊld] -ed: (v) тянуть, вытащить, потянуть, дергать
-  520. (  1) 3T *#PT etc [(UK)ɪtˈsɛtrə/(US)ˌɛtˈsɛtərə] так далее
-  521. (  1) xx ?#PT glued [gluːd] -ed: (v) клеить, приклеивать
-  522. (  1) 3T *#PT speak [spiːk] разговаривать, I: speak-spoke-spoken
-  523. (  1) 3T *#PT hand [hænd] (n) рука, стрелка, ладонь; (adj) ручной; (v) вручать, передавать, предоставлять
-  524. (  2) 3T ?#PT squeeze [skwiz] выжимать, сжимать, сжатие
-  525. (  1) 3T *#PT through [θruː] (prep) через, посредством, сквозь, (adj) сквозной
-  526. (  2) 3T *#PT try [traɪ] (n) попытка, испытание, (v) пытаться
-  527. (  3) 3T *#PT close [kləʊs->(n, adj, adv)/kləʊz->(n, v)] (adv) близко, почти; (v) закрывать; (n) конец, закрытие; (adj) близкий
-  528. (  1) 5T ?#PT repel [rɪˈpɛl] (v) отталкивать, отражать
-  529. (  1) xT *#PT x [ɛks] w X y z
-  530. (  2) 3T *#PT cm [-] cm = centimeter
-  531. (  2) xT *#PT radius [ˈreɪdiəs] радиус, вылет, лучевая кость
-  532. (  1) xx ?#PT angstrom [-] (n) ангстрем
-  533. (  1) 4T *#PT name [neɪm] (n) имя, название; (v) назвать
-  534. (  1) 3T *#PT say [seɪ] (v) сказать, I: say-said-said
-  535. (  1) xx ?#PT angstroms [-] -es: (n) ангстрем
-  536. (  1) 3T *#PT remember [rɪˈmɛmbə] (v)(stative) запомнить, помнить, вспоминать
-  537. (  4) 3T *#PT size [saɪz] (n) размер, (v) калибровать, классифицировать, доводить
-  538. (  3) 3T *#PT apple [ˈæpl] (n) яблоко
-  539. (  1) 3T *#PT earth [ɜːθ] (n) земля
-  540. (  1) 3T *#PT approximately [əˈprɒksɪmɪtli] приблизительно, приближенно, почти
-  541. (  1) 3T *#PT original [əˈrɪʤ ənl] оригинал, подлинник, оригинальный, первоначальный
-  542. (  1) yT *#PT tagging [tægɪŋ] -ing: ярлык, добавлять
-  543. (  1) 3T *#PT along [əˈlɒŋ] (adv) вдоль, вместе, вперед, с собой; (prep) вдоль, по
-  544. (  1) xT *#PT keeps [kiːps] -es: держать, сохранять, I: keep-kept-kept
-  545. (  3) 3T *#PT volume [ˈvɑljum] объем, том, громкость, объемный
-  546. (  1) xT *#PT fall [fɔːl] (n) падение, осень, снижение, спад; (v) падать, снижаться, I: fall-fell-fallen
-  547. (  4) 3T ?#PT attraction [əˈtrækʃ(ə)n] (n) привлекательность, притяжение
-  548. ( 25) xT *#PT molecules [mɒlɪkjuːlz] -es: (n) молекула
-  549. (  1) 3T ?#PT slope [sləʊp] наклон, склон, уклон, клониться
-  550. (  1) 3T *#PT flow [fləʊ] (n) поток, течь, течение, (v) течь, протекать
-  551. (  1) 3T *#PT disappear [ˌdɪsəˈpɪə] (v) исчезать, пропадать, скрываться
-  552. (  3) 3T *#PT fly [flaɪ] (n) муха, полет; (v) летать, I: fly-flew-flown
-  553. (  1) 5T ?#PT molecular [məʊˈlɛkjʊlə] (adj) молекулярный
-  554. (  5) 3T *#PT heat [hiːt] (n) тепло, жара; (v) нагревать
-  555. ( 12) 3T *#PT temperature [ˈtɛmprɪʧə] (n) температура; (adj) температурный
-  556. (  9) 3T *#PT between [bɪˈtwiːn] между
-  557. (  1) 3T *#PT heating [ˈhiːtɪŋ] обогрев, подогрев, отопление, нагревание
-  558. (  1) xT *#PT continues [kənˈtɪnju(ː)z] продолжать
-  559. (  3) xT *#PT comes [kʌmz] -es: (v) приходить, I: come-came-come
-  560. (  1) 3T *#PT pull [pʊl] (v) тянуть, вытащить, потянуть, дергать; (n) тяга, глоток
-  561. (  4) 3T *#PT hold [həʊld] (v) держать, I: hold-held-held
-  562. (  1) 3T *#PT become [bɪˈkʌm] (v) становиться, делаться, случаться, I: become-became-become
-  563. (  2) 3T *#PT separated [ˈsɛprɪtid (n,adj)/ˈsɛpəreɪtid] -ed: отдельный, самостоятельный, сепаратный, отделять, разделять
-  564. (  1) 3T ?#PT manufacture [ˌmænjʊˈfækʧə] производство, изготовление, производить
-  565. (  7) 3T *#PT steam [stiːm] (adj) паровой; (n) пар; (v) париться
-  566. (  6) 4T *#PT out [aʊt] вне, из, вне, за, аут, выход, наружу
-  567. (  1) 4T *#PT increasing [ɪnˈkriːsɪŋ] -ing: увеличивать
-  568. (  3) xT *#PT increased [ɪnˈkriːsd] ed: увеличивать
-  569. (  1) xT *#PT fails [feɪlz] -es: (v) терпеть неудачу, -es: (n) неудача
-  570. (  1) 3T *#PT respect [rɪsˈpɛkt] уважение, почтение, отношение, уважать, соблюдать
-  571. (  1) 4T ?#PT atmospheric [ˌætməsˈfɛrɪk] (adj) атмосферный
-  572. ( 13) 3T *#PT pressure [ˈprɛʃə] напряжение, давление
-  573. (  1) 3T *#PT few [fjuː] (adj) немногие, немногочисленные; (adv) мало, немного
-  574. (  8) 3T *#PT many [ˈmɛni] (adv) много, множество; (adj) многие
-  575. (  4) 3T *#PT figure [ˈfɪgə] рисунок, фигура, иллюстрация, изображать, придавать форму
-  576. (  1) yT ?#PT squares [skweəz] -es: (n) квадрат, сквер, (v) рассчитаться
-  577. (  1) 3T *#PT none [nʌn] (pron) никто, ни один; (adv) совсем не, нисколько
-  578. (  1) 3T *#PT accidentally [ˌæksɪˈdɛntli] -ly: (adj)->(adv) случайный, неожиданный
-  579. (  1) 3T *#PT half [(UK)hɑːf/(US)hæf] (n) половина
-  580. (  1) 3T *#PT blank [blæŋk] пустой, чистый, незаполненный, бессмысленный, сплошной, пробел, бланк, заготовка, закрывать
-  581. (  1) 3T *#PT characteristic [ˌkærɪktəˈrɪstɪk] (adj) характерный, типичный, (n) характеристика
-  582. (  2) 3T *#PT clearly [klɪəli] -ly: (adj)->(adv) ясный, чистый; (adv) очевидно, несомненно
-  583. (  2) 3T *#PT angle [ˈæŋgl] (n) уголок,  угол
-  584. (  1) 3T *#PT actual [ˈækʧʊəl] (adj) фактический, действительный, актуальный
-  585. (  2) 3T *#PT center [ˈsɛntə] центр, середина, центрировать
-  586. (  1) xT *#PT properties [ˈprɑpərtiz] -es: (n) свойство, собственность, имущество
-  587. (  6) 5T ?#PT vapor [ˈveɪpə] (n) пар, пары, испарения; (v) испаряться
-  588. (  1) 3T *#PT any [ˈɛni] любой
-  589. (  9) 3T *#PT gas [gæs] газ
-  590. (  1) 5T ?#PT bounce [baʊns] отскок, прыжок, упругость, подпрыгивать, отскакивать
-  591. (  1) 3T *#PT against [əˈgɛnst] против, вопреки, от, с, на, к по
-  592. (  1) xT *#PT walls [wɔːlz] -es: (n) стена, стенка
-  593. (  9) 4T *#PT number [ˈnʌmbə] (n) номер, количество, число, (v) нумеровать, числиться, насчитывать
-  594. (  2) 4T *#PT tennis [ˈtɛnɪs] теннис
-  595. (  2) xT *#PT balls [bɔːlz] -es: (n) мяч, шар, бал, удар; (n) яйца
-  596. (  1) xx ?#PT bombard [bɑmˈbɑrd->(v)/ˈbɑmbɑrd->(n)] (v) бомбардировать
-  597. (  3) 3T *#PT wall [wɔːl] (n) стена, стенка; (adj) настенный
-  598. (  1) yT *#PT pushes [pʊʃɪz] -es: (v) толкать, нажимать
-  599. (  7) 3T *#PT away [əˈweɪ] (adv) далеко, прочь, вон
-  600. (  2) 3T *#PT push [pʊʃ] (n) толчок, нажим, давление, (v) толкать, нажимать
-  601. (  2) 3T *#PT means [miːnz] -es: (n) среднее, среднее значение, средство, (v)(stative) означать, значить, I: mean-meant-meant
-  602. (  1) xx ?#PT exerts [ɪgˈzɜːts] -es: вызывать, влиять
-  603. (  1) xx ?#PT jittery [ˈʤ ɪtəri] (n) нервный, пугливый
-  604. (  4) 3T *#PT force [fɔːs] (n) сила, войска; (v) заставлять, принуждать
-  605. (  1) 5T ?#PT coarse [kɔːs] (adj) грубый, вульгарный
-  606. (  1) yT *#PT senses [sɛnsɪz] -es: (n) смысл, чувство, ощущение, (v) чувствовать, ощущать, понимать
-  607. (  1) 3T *#PT ourselves [aʊərˈsɛlvz/ɑrˈsɛlvz] (pron)(reflexive) себя, сами, собой, we-us-our-ours-ourselves
-  608. (  1) xT *#PT feels [filz] -es: (v) чувствовать, почувствовать, ощущать, испытывать, I: feel-felt-felt, (n) ощущение
-  609. (  3) 3T *#PT average [ˈævərɪʤ ] (adj) средний, обычный
-  610. (  1) 3T ?#PT confine [kənˈfaɪn] ограничивать, придерживаться, заточать, заключать в тюрьму, граница
-  611. (  1) 3T *#PT apply [əˈplaɪ] (v) применять, обращаться, использовать, относиться
-  612. (  2) xT *#PT shows [ʃəʊz] -es: шоу, показ, выставка, показывать
-  613. (  1) 3T *#PT standard [ˈstændəd] (n) стандарт, норма, эталон, (adj) стандартный
-  614. (  4) 5T ?#PT vessel [ˈvɛsl] (n) судно, сосуд, корабль
-  615. (  1) 4T *#PT holding [həʊldɪŋ] -ing: (v) держать, I: hold-held-held
-  616. (  2) yT *#PT gases [gæsiz] -es: газ
-  617. (  1) 3T *#PT used [juːzd] -ed: (v) использовать
-  618. (  1) xT ?#PT textbooks [ˈtɛkstbʊkz] -es: (n) учебник
-  619. (  1) 5T ?#PT cylinder [ˈsɪlɪndə] (n) цилиндр, баллон, барабан; (adj) цилиндрический
-  620. (  8) yT ?#PT piston [ˈpɪstən] (n) поршень, пистон, клапан; (adj) поршневой
-  621. (  1) xT ?#PT shapes [ʃeɪps] -es: (n) форма, вид
-  622. (  1) 3T *#PT draw [drɔː] (n) ничья, жеребьевка; (v) рисовать, привлекать, проводить, играть в ничью, I draw-drew-drawn
-  623. (  1) yT *#PT dots [dɒts] -es: точка, пятнышко, ставить точки
-  624. (  1) xT *#PT directions [dəˈrɛkʃənz/daɪˈrɛkʃɪnz/dɪˈrɛkʃɪnz] -es: направление, руководство, указание
-  625. (  1) xT *#PT hitting [hɪtɪŋ] -ing: (v) бить, поражать
-  626. (  3) 3T *#PT keep [kiːp] (v) держать, сохранять, I: keep-kept-kept
-  627. (  1) xx ?#PT patiently [ˈpeɪʃəntli] -ly: (adj)->(adv) терпеливый, терпящий
-  628. (  2) yT *#PT knocked [nɒkt] -ed: постучать, стучать, стукнуть
-  629. (  2) 3T *#PT tank [tæŋk] (n) бак, резервуар, танк, цистерна, (adj) танковый
-  630. (  1) xx ?#PT banging [bæŋɪŋ] -ing: (v) грохнуть
-  631. (  4) 3T *#PT down [daʊn] вниз, вниз по, вниз, внизу, нисходящий, опускать
-  632. (  3) 3T *#PT certain [ˈsɜːtn] (adj) определенный
-  633. (  1) 3T *#PT really [ˈrɪəli] действительно, действительно, в самом деле, уж
-  634. (  4) 3T *#PT area [ˈeərɪə] (n) площадь, зона, область, участок, сфера, поверхность
-  635. (  3) 4T *#PT proportional [prəˈpɔːʃənl] пропорциональный
-  636. (  1) 3T *#PT per [pɜː] для
-  637. (  1) 5T ?#PT cubic [ˈkjuːbɪk] кубический
-  638. (  1) 3T *#PT centimeter [ˈsɛntɪˌmiːtə] сантиметр
-  639. (  2) yT ?#PT collisions [kəˈlɪʒənz] -es: (n) столкновение, противоречие
-  640. (  1) 3T *#PT proportion [prəˈpɔːʃən] доля, часть, пропорция, пропорциональный, распределять, соразмерять
-  641. (  1) 3T *#PT put [pʊt] (v) класть, ставить, помещать, I: put-put-put; (adj) положенный; (n) толчок
-  642. (  1) 3T *#PT twice [twaɪs] (adj) дважды, вдвое
-  643. (  1) 3T *#PT double [ˈdʌbl] (adj) двойной; (adv) вдвое; (n) двойник; (v) удваивать
-  644. (  6) 5T *#PT density [ˈdɛnsɪti] плотность
-  645. (  1) yT *#PT doubled [ˈdʌbld] -ed: (v) удваивать
-  646. (  2) 3T *#PT since [sɪns] поскольку, после
-  647. (  1) 5T ?#   energetic
-  648. (  5) 3T *#PT before [bɪˈfɔː] (conj) до, прежде чем; (prep) до, перед, прежде чем, раньше
-  649. (  2) 3T *#PT consider [kənˈsɪdə] (v) рассматривать, учитывать, считать, принимать во внимание
-  650. (  2) xT *#PT forces [fɔːsiz] -es: сила, войска, заставлять, принуждать
-  651. (  1) 3T *#PT expect [ɪksˈpɛkt] (v) ожидать
-  652. (  2) 3T ?#PT slight [slaɪt] (adj) легкий, незначительный
-  653. (  4) 3T *#PT decrease [ˈdiːkriːs->(n)/diːˈkriːs->(v)] (n) уменьшение; (v) уменьшить
-  654. (  1) xT *#PT finite [ˈfaɪnaɪt] конечный, ограниченный
-  655. (  1) 3T *#PT occupy [ˈɒkjʊpaɪ] занимать, оккупировать, захватывать
-  656. (  1) 3T *#PT nevertheless [ˌnɛvəðəˈlɛs] (adv) тем не менее, однако, (conj) тем не менее, несмотря на
-  657. (  1) 3T *#PT excellent [ˈɛksələnt] отличный, превосходный, великолепный, отлично
-  658. (  2) 3T *#PT low [ləʊ] (adj) низкий, небольшой; (adv) низко
-  659. (  4) xT *#PT changing [ʧeɪnʤ ɪŋ] -ing: (v) менять
-  660. (  3) 3T *#PT happen [ˈhæpən] (v) происходить, случаться
-  661. (  7) 3T *#PT hit [hɪt] (n) хит, удар; (v) бить, поражать, I: hit-hit-hit
-  662. (  3) xT *#PT harder [hɑːdə] -er: (adj) жесткий, твердый, трудный
-  663. (  2) xT *#PT faster [(UK)fɑːstə/(US)fæstə] -er: быстро, скоро, крепко, быстрый
-  664. (  3) 3T *#PT addition [əˈdɪʃ(ə)n] (n) дополнение, добавление, сложение, прибавление
-  665. (  2) 3T *#PT often [ˈɒf(ə)n/ˈɒft(ə)n] часто, зачастую
-  666. (  1) 3T *#PT situation [ˌsɪtjʊˈeɪʃən] (n) ситуация, положение, обстановка, состояние
-  667. (  1) 4T ?#PT inward [ˈɪnwəd] внутрь, внутренне, внутренний
-  668. (  2) 3T *#PT slowly [sləʊli] -ly: медленно, медленный, замедлять
-  669. (  1) 5T *#PT compressed [kəmˈprɛst] -ed: сжимать
-  670. (  1) xT *#PT smaller [smɔːlə] -er: (adj) небольшой
-  671. (  1) 3T *#PT space [speɪs] (n) пространство, космос, пробел, место, (adj) космический, (v) оставлять промежутки
-  672. (  5) xT *#PT happens [ˈhæpənz] -es: (v) происходить, случаться
-  673. (  4) 3T *#PT atom [ˈætəm] (n) атом, мельчайшая частица
-  674. (  2) xT *#PT hits [hɪts] -es: (n) хит, удар; -es: (v) бить, поражать, I: hit-hit-hit
-  675. (  1) 4T ?#PT evidently [ˈɛvɪdəntli] (adv) очевидно, видимо, явно, видно, несомненно
-  676. (  1) xT *#PT picks [pɪks] -es: выбор, выбирать, подбирать
-  677. (  2) 4T *#PT up [ʌp] вверх
-  678. (  1) 5T *#PT collision [kəˈlɪʒən] (n) столкновение, противоречие
-  679. (  1) xx ?    ping-pong
-  680. (  1) 3T *#PT ball [bɔːl] (n) мяч, шар, бал, удар; (adj) шаровой
-  681. (  1) xx ?    forward-moving
-  682. (  1) yT ?    paddle
-  683. (  2) 4T *#PT off [ɒf] от
-  684. (  2) xT *#PT struck [strʌk] -1,2ed: (v) бить, бастовать, I: strike-struck-stricken/struck
-  685. (  1) 3T *#PT special [ˈspɛʃəl] (adj) специальный, особый, особенный
-  686. (  2) 5T *#PT standing [stændɪŋ] -ing: стоять
-  687. (  1) xx ?#   hotter
-  688. (  1) xT *#PT picked [pɪkt] -ed: (v) выбирать, подбирать
-  689. (  1) 5T *#PT compress [ˈkɒmprɛs->(n)/kəmˈprɛs->(v)] компресс, мягкая повязка, сжимать
-  690. (  2) 4T *#PT under [ˈʌndə] (prep) под, согласно, по, по, (adv) внизу
-  691. (  2) 3T *#PT slow [sləʊ] (adv) медленно, (adj) медленный, (v) замедлять
-  692. (  1) 5T ?#PT compression [kəmˈprɛʃən] сжатие, компрессия
-  693. (  1) 5T *#PT expansion [ɪksˈpænʃən] (n) расширение
-  694. (  1) 3T *#PT return [rɪˈtɜːn] возвращение, возврат
-  695. (  1) 3T *#PT direction [dəˈrɛkʃən/daɪˈrɛkʃɪn/dɪˈrɛkʃɪn] (n) направление, руководство, указание
-  696. (  1) 3T ?#PT steadily [ˈstɛdɪli] неуклонно, стабильно
-  697. (  1) yT *#PT decreasing [diːˈkriːsɪŋ] (v) уменьшить
-  698. (  2) 3T *#PT after [(GB)ˈɑːftə/ (US)ˈæftər] (adv) после, спустя, вслед; (prep) после, за, через
-  699. (  2) 3T *#PT while [waɪl] в то время как, пока, тогда как, промежуток времени, до тех пор пока
-  700. (  1) 3T *#PT able [ˈeɪbl] (adj) в состоянии, способный
-  701. (  2) xx ?#PT jiggle [ˈʤ ɪgl] (n) покачивание, тряска; (v) трясти, покачиваться
-  702. (  1) xT *#PT temperatures [ˈtɛmprɪʧəz] -es: температура, температурный
-  703. (  1) xT *#PT indicated [ˈɪndɪkeɪtɪd] -ed: (v) указывать, означать, показывать
-  704. (  1) 3T *#PT lock [lɒk] (n) замок; (v) запирать
-  705. (  2) 3T *#PT pattern [ˈpætən] (n) шаблон
-  706. ( 12) 3T *#PT ice [aɪs] лед, мороженое, ледяной, покрываться льдом, примораживать, замораживать
-  707. (  1) yT *#PT schematic [skɪˈmætɪk] (n) схема, диаграмма; (adj) схематический
-  708. (  1) 3T *#PT diagram [ˈdaɪəgræm] схема, диаграмма, график, графический, составлять диаграмму
-  709. (  1) xx ?    qualitatively
-  710. (  4) 3T *#PT definite [ˈdɛfɪnɪt] (adj) определенный, точный, ясный
-  711. (  1) 3T ?#PT appreciate [əˈpriːʃɪeɪt] (v) ценить, понимать
-  712. (  1) 3T *#PT somehow [ˈsʌmˌhaʊ] как-нибудь, как-то, почему-то
-  713. (  4) 3T *#PT end [ɛnd] (n) конец, окончание, завершение; (v) заканчиваться
-  714. (  1) xx ?    interconnections
-  715. (  2) 5T ?#PT rigid [ˈrɪʤ ɪd] жесткий, твердый
-  716. (  1) 3T *#PT scale [skeɪl] (n) масштаб, шкала; (v) весить, взвешивать
-  717. (  1) 3T *#PT location [ləʊˈkeɪʃən] (n) положение, местонахождение, нахождение
-  718. (  1) 3T ?#PT needle [ˈniːdl] игла, спица, игольчатый, язвить
-  719. (  1) xx ?    resists
-  720. (  1) xT *#PT pushing [pʊʃɪŋ] -ing: (v) толкать, нажимать
-  721. (  1) 3T *#PT aside [əˈsaɪd] (adv) в сторону, в стороне
-  722. (  1) 3T *#PT unlike [ʌnˈlaɪk] (prep) в отличие от, (adj) непохожий на
-  723. (  1) 3T *#PT broken [brəʊkn] -2ed: (v) сломить, вырваться, ломать, I: break-broke-broken; (adj) сломанный
-  724. (  2) yT ?#PT solids [ˈsɒlɪdz] -es: (n) твердое тело
-  725. (  2) yT ?#PT liquids [ˈlɪkwɪdz] -es: (n) жидкость
-  726. (  2) 3T ?#PT solid [ˈsɒlɪd] (adj) твердый, сплошной; (n) твердое тело
-  727. (  1) xT *#PT arranged [əˈreɪnʤ d] устроенный, урегулированный
-  728. (  2) 5T *#PT array [əˈreɪ] (n) массив, множество, таблица, (v) выстраивать
-  729. (  2) 5T ?    crystalline
-  730. (  1) xT *#PT random [ˈrændəm] (adj) случайный, произвольный, (n) неопределенность
-  731. (  2) 3T *#PT position [pəˈzɪʃən] (n) положение, позиция, должность, (v) помещать
-  732. (  2) 3T *#PT long [lɒŋ] (adv) долго
-  733. (  1) xT *#PT distances [ˈdɪstənsiz] -es: расстояние
-  734. (  5) 5T *#PT crystal [ˈkrɪstl] (n) кристалл
-  735. (  1) 3T *#PT determined [dɪˈtɜːmɪnd] -ed: определять, устанавливать; решительный
-  736. (  1) xT *#PT millions [ˈmɪljənz] -es: (n) миллион
-  737. (  2) 3T *#PT although [ɔːlˈðəʊ] несмотря на то что
-  738. (  2) xT *#PT contains [kənˈteɪnz] -es: содержать, вмещать
-  739. (  2) xT *#PT features [ˈfiːʧəz] -es: особенность, черта, характеристика, изображать
-  740. (  2) 5T *#PT symmetry [ˈsɪmɪtri] (n) симметрия, симметричность
-  741. (  1) xx ?    hexagonal
-  742. (  2) 3T *#PT turn [tɜ:n] (v) повернуть, свернуть, превращать, -1,2ed,  I: turn-turn-turn; (n) очередь, поворот, оборот, виток, перемена
-  743. (  1) 5T *#PT axis [ˈæksɪs/ˈæksəs] ось
-  744. (  1) xT *#PT returns [rɪˈtɜːnz] -es: возвращение, возврат
-  745. (  1) xT *#PT accounts [əˈkaʊnts] -es: счет, отчет, бухгалтерский, приходиться
-  746. (  1) xx ?    six-sided
-  747. (  1) xx ?    snowflakes
-  748. (  1) xx ?    shrinks
-  749. (  1) xx ? PT melts [mɛlts] -es: (v) таять, растопить, плавиться
-  750. (  2) xT *#PT holes [həʊlz] -es: (n) отверстие, дыра; -es: (v) просверлить
-  751. (  1) 3T *#PT organization [ˌɔrgənəˈzeɪʃən] организация
-  752. (  1) xT *#PT breaks [breɪks] -es: (n) перерыв, разрыв, пауза, (v) сломить, вырваться, ломать, I: break-broke-broken
-  753. (  1) 3T *#PT occupied [ˈɒkjʊpaɪd] (adj) занятый, оккупированный
-  754. (  1) xT *#PT substances [ˈsʌbstənsɪz] -es: (n) вещество, содержание
-  755. (  2) 3T *#PT exception [ɪkˈsɛpʃən] (n) исключение, особая ситуация
-  756. (  1) 3T *#PT type [taɪp] (n) тип, модель; (v) напечатать
-  757. (  1) 3T *#PT metal [ˈmɛtl] металл, металлический
-  758. (  1) 3T *#PT expand [ɪksˈpænd] (v) расширять
-  759. (  3) yT ?#PT melting [mɛltɪŋ] -ing: (v) таять, растопить, плавиться
-  760. (  1) 5T *#PT packed [pækd] -es: пакет, упаковка, упаковывать, паковать
-  761. (  1) 3T *#PT need [niːd] (n) необходимость, потребность, (v)(stative) нуждаться, требоваться
-  762. (  1) 3T *#PT open [ˈoʊpən] (v) открыть, открывать; (adj) открытый
-  763. (  1) xx ?#   collapses
-  764. (  2) yT ?#PT vibrating [vaɪˈbreɪtɪŋ] -ing: (v) вибрировать, дрожать
-  765. (  1) 5T ?#PT vibrate [vaɪˈbreɪt] (v) вибрировать, дрожать
-  766. (  2) xT *#PT greater [greɪtə] -er: (adj) большой, великий
-  767. (  1) yT *#PT amplitude [ˈæmplɪtjuːd] амплитуда, амплитудный
-  768. (  2) 3T *#PT until [ənˈtɪl] до
-  769. (  1) 3T *#PT shake [ʃeɪk] (v) трясти, поколебать, дрожать, I: shake-shook-shaken; (n) дрожание, встряска
-  770. (  2) 3T *#PT themselves [ðəmˈsɛlvz] (pron)(reflexive) самих себя, they-them-their-theirs-themselves
-  771. (  2) 5T ?#PT vibration [vaɪˈbreɪʃən] (n) вибрация, колебания
-  772. (  3) yT ?#PT decreases [ˈdiːkriːsɪz->(n)/diːˈkriːsɪz->(v)] -es: (n) уменьшение; -es: (v) уменьшить
-  773. (  3) 3T *#PT absolute [ˈæbsəluːt] (adj) абсолютный
-  774. (  4) 3T *#PT zero [ˈzɪərəʊ] (adj) нулевой, (n) ноль, (v) устанавливать на нуль
-  775. (  2) 3T *#PT minimum [ˈmɪnɪməm] минимум, минимальный
-  776. (  1) 3T ?#PT melt [mɛlt] (v) таять, растопить, плавиться
-  777. (  1) 3T *#PT substance [ˈsʌbstəns] (n) вещество, содержание
-  778. (  3) 5T ?#PT helium [ˈhiːliəm] (n) гелий
-  779. (  1) yT *#PT motions [ˈməʊʃənz] -es: движение, перемещение, ход, показывать жестом
-  780. (  1) yT ?#PT freezing [friːzɪŋ] -ing: (v) замораживать, I: freeze-froze-frozen
-  781. (  1) 3T *#PT freeze [friːz] (n) замораживание, мороз, холод; (v) замораживать, I: freeze-froze-frozen
-  782. (  1) 3T ?#PT unless [ənˈlɛs] если, пока не, за исключением, кроме
-  783. (  1) 5T ?#PT squash [skwɒʃ] (n) тыква, кабачок, патиссон, толкучка, пюре; (v) давить
-  784. (  1) 5T ?#PT solidify [səˈlɪdɪfaɪ] затвердевать, застывать
-  785. (  3) xT *#PT processes [(UK)prəʊsesɪz/(US)ˈprɑːsesɪz] -es: (n) процесс, способ, -es: (v) обрабатывать
-  786. (  1) 3T *#PT however [haʊˈɛvə] (adv) однако, впрочем, тем не менее; (conj) однако, впрочем, тем не менее
-  787. (  1) xT *#PT describes [dɪsˈkraɪbz] -es: (v) описывать, охарактеризовать, изображать
-  788. (  1) 5T ?#PT standpoint [ˈstændpɔɪnt] (n) точка зрения
-  789. (  1) 3T *#PT associated [əˈsəʊʃɪeɪtid] -ed: ассоциировать, общаться, связывать, связывать
-  790. ( 10) 3T *#PT surface [(GB)ˈsɜːfɪs/(US)ˈsɜrfəs] (n) поверхность, (adj) поверхностный
-  791. (  1) 3T *#PT complicated [ˈkɒmplɪkeɪtid] -ed: усложнять
-  792. (  1) 3T *#PT realistic [rɪəˈlɪstɪk] (adj) реалистичный, реалистический
-  793. (  7) 3T *#PT air [eə] (n) атмосфера, воздуха
-  794. (  2) xT *#PT forming [ˈfɔːmɪŋ] образование, формирование
-  795. (  1) 3T *#PT body [ˈbɒdi] (n) тело, корпус, труп
-  796. (  3) 3T *#PT liquid [ˈlɪkwɪd] (n) жидкость; (adj) жидкий
-  797. (  5) 3T *#PT above [əˈbʌv] (adv) выше, свыше, более, ранее; (prep) выше, над, свыше, больше
-  798. (  1) 5T ?#PT equilibrium [ˌiːkwɪˈlɪbrɪəm] равновесие, равновесный
-  799. (  1) xT *#PT described [dɪsˈkraɪbd] -ed: (v) описывать, охарактеризовать, изображать
-  800. (  3) xT ?#PT nitrogen [ˈnaɪtrəʤ ən] азот
-  801. (  1) xT *#PT consists [kənˈsɪsts] -es: состоять, заключаться в
-  802. (  1) 3T *#PT entirely [ɪnˈtaɪəli] (adv) полностью, целиком, совершенно, сплошь
-  803. (  1) xT *#PT lesser [lɛsə] -er: меньше, менее, в меньшей степени, меньший
-  804. (  1) xT *#PT amounts [əˈmaʊnts] -es: количество
-  805. (  1) 4T ?#PT carbon [ˈkɑːbən] (n) углерод, уголь
-  806. (  1) 5T ?#PT dioxide [daɪˈɒksaɪd] (n) двуокись
-  807. (  1) xx ?    argon
-  808. (  1) xT *#PT containing [kənˈteɪnɪŋ] -ing: содержать, вмещать
-  809. (  2) 4T *#PT happening [ˈhæpənɪŋ] -ing: (v) происходить, случаться
-  810. (  1) 3T *#PT usual [ˈjuːʒʊəl] обычный
-  811. (  2) xT *#PT gets [gɛts] -es: (v) получать, попасть, становиться, I: get-got-got
-  812. (  3) 3T *#PT flying [flaɪɪŋ] -ing: (v) летать, I: fly-flew-flown
-  813. (  1) 3T *#PT thus [ðʌs] (adv) таким образом, поэтому
-  814. (  1) xx *#PT disappears [ˌdɪsəˈpɪəz] -es: (v) исчезать, пропадать, скрываться
-  815. (  2) xx ?#PT evaporates [ɪˈvæpəreɪts] -es: испаряться, исчезать, умирать
-  816. (  1) 3T ?#PT amongst [əˈmʌŋst] среди, между, из, в числе
-  817. (  1) 3T *#PT dead [dɛd] (adj) мертвый, умерший, умершие
-  818. (  1) xx ?    uninteresting
-  819. (  1) 3T *#PT glass [glɑːs] (n) стекло, стакан; (adj) стеклянный
-  820. (  1) 3T *#PT cover [ˈkʌvə] -es: (n) крышка, обложка; -es: (v) охватывать, покрывать
-  821. (  1) xT *#PT sitting [sɪtɪŋ] -ing: сидеть, заседать, находиться, I: sit-sat-sat
-  822. (  1) 4T *#PT twenty [(UK)ˈtwɛnti/(US)ˈtwɛnti/ˈtwɛni] (num) 20
-  823. (  1) 5T *#PT phenomenon [fɪˈnɒmɪnən] явление, феномен
-  824. (  2) xT *#PT eyes [aɪz] -es: (n) глаз; (v) смотреть, наблюдать
-  825. (  1) 5T ?#PT crude [kruːd] (adj) сырой, грубый
-  826. (  1) 3T *#PT could [kʊd] -1ed: (v) (auxiliary) может, I:can-could
-  827. (  1) 3T *#PT own [əʊn] (adj) собственный, (v)(stative) владеть, иметь, (pron) свой
-  828. (  3) xT *#PT leaving [liːvɪŋ] -ing: отпуск, уход, оставлять, уходить
-  829. (  4) xT *#PT coming [kʌmɪŋ] -ing: (v) приходить, I: come-came-come
-  830. (  1) 3T *#PT run [rʌn] -0,2ed: (v) работать, бежать, управлять, I: run-ran-run; (n) бег, работа
-  831. (  1) 4T *#PT take [teɪk] (v) принимать, брать, считать, использовать I: take-took-taken
-  832. (  1) 3T *#PT blow [bləʊ] -es: (v) дуть, подуть, I: blow-blew-blown; -es: (n) удар
-  833. (  1) 5T ?#PT moist [mɔɪst] (adj) влажный, сырой
-  834. (  1) xT *#PT replacing [rɪˈpleɪsɪŋ] заменять
-  835. (  1) 3T *#PT dry [drai] (n) сухой; (v) сушить
-  836. (  1) xT *#PT depends [dɪˈpɛndz] -es: зависеть, полагаться, рассчитывать
-  837. (  1) 3T *#PT greatly [ˈgreɪtli] значительно, очень, весьма
-  838. (  1) xT *#PT reduced [rɪˈdjuːst] -ed: (v) уменьшить, сокращать
-  839. (  1) xT *#PT fewer [fjuːə] -er: (adv) мало, немного
-  840. (  1) 3T ?#PT hence [hɛns] (adj) следовательно, отсюда, с этих пор
-  841. (  1) 5T ?#PT evaporate [ɪˈvæpəreɪt] испаряться, исчезать, умирать
-  842. (  1) 3T *#PT fan [fæn] (n) вентилятор, поклонник, раздуть
-  843. (  2) 3T *#PT leave [liːv] (n) отпуск, уход; (v) оставлять, уходить
-  844. (  1) xT *#PT leaves [liːvz] -es: отпуск, уход, оставлять, уходить
-  845. (  1) 3T *#PT due [djuː] то, что причитается
-  846. (  1) 3T *#PT accidental [ˌæksɪˈdɛntl] (adj) случайный, неожиданный
-  847. (  1) 3T *#PT extra [ˈɛkstrə] (adj) дополнительный, лишний, экстренный
-  848. (  1) 5T ?#PT accumulation [əˌkjuːmjʊˈleɪʃ(ə)n] (n) накопление, скопление, аккумуляция
-  849. (  2) 3T *#PT energy [ˈɛnəʤ i] (n) энергия, силы, энергичность
-  850. (  1) 3T *#PT break [breɪk] (n) перерыв, разрыв, пауза, (v) сломить, вырваться, ломать, I: break-broke-broken
-  851. (  1) xT ?#PT attractions [əˈtrækʃ(ə)nz] -es: (n) привлекательность, притяжение
-  852. (  1) xT *#PT neighbors [ˈneɪbəz] -es: (n) сосед, соседка
-  853. (  1) xT *#PT those [ðəʊz] -es: (pron) то, тот
-  854. (  1) 3T *#PT left [lɛft] слева, налево, левый, левый, -1,2ed: оставлять, уходить leave-left-left
-  855. (  1) xT *#PT had [hæd] -1,2ed: (v) иметь, обладать, I: have/has-had-had
-  856. (  1) 3T ?#PT gradually [ˈgrædjʊəli] постепенно
-
-=== Words: 152 unknown, 15 unsounded, 16 untranslated
+comme
+je
+son
+que
+il
+était
+pour
+sur
+sont
+avec
+ils
+être
+à
+un
+avoir
+ce
+à partir de
+par
+chaud
+mot
+mais
+que
+certains
+est
+il
+vous
+ou
+eu
+la
+de
+à
+et
+un
+dans
+nous
+boîte
+dehors
+autre
+étaient
+qui
+faire
+leur
+temps
+si
+volonté
+comment
+dit
+un
+chaque
+dire
+ne
+ensemble
+trois
+vouloir
+air
+bien
+aussi
+jouer
+petit
+fin
+mettre
+maison
+lire
+main
+port
+grand
+épeler
+ajouter
+même
+terre
+ici
+il faut
+grand
+haut
+tel
+suivre
+acte
+pourquoi
+interroger
+hommes
+changement
+est allé
+lumière
+genre
+de
+besoin
+maison
+image
+essayer
+nous
+encore
+animal
+point
+mère
+monde
+près de
+construire
+soi
+terre
+père
+tout
+nouveau
+travail
+partie
+prendre
+obtenir
+lieu
+fabriqué
+vivre
+où
+après
+arrière
+peu
+seulement
+tour
+homme
+année
+est venu
+montrer
+tous
+bon
+moi
+donner
+notre
+sous
+nom
+très
+par
+juste
+forme
+phrase
+grand
+penser
+dire
+aider
+faible
+ligne
+différer
+tour
+la cause
+beaucoup
+signifier
+avant
+déménagement
+droit
+garçon
+vieux
+trop
+même
+elle
+tous
+là
+quand
+jusqu'à
+utiliser
+votre
+manière
+sur
+beaucoup
+puis
+les
+écrire
+voudrais
+comme
+si
+ces
+son
+long
+faire
+chose
+voir
+lui
+deux
+a
+regarder
+plus
+jour
+pourrait
+aller
+venir
+fait
+nombre
+son
+aucun
+plus
+personnes
+ma
+sur
+savoir
+eau
+que
+appel
+première
+qui
+peut
+vers le bas
+côté
+été
+maintenant
+trouver
+tête
+supporter
+propre
+page
+devrait
+pays
+trouvé
+réponse
+école
+croître
+étude
+encore
+apprendre
+usine
+couvercle
+nourriture
+soleil
+quatre
+entre
+état
+garder
+œil
+jamais
+dernier
+laisser
+pensée
+ville
+arbre
+traverser
+ferme
+dur
+début
+puissance
+histoire
+scie
+loin
+mer
+tirer
+gauche
+tard
+courir
+needs a context
+tandis que
+presse
+proche
+nuit
+réel
+vie
+peu
+nord
+livre
+porter
+a pris
+science
+manger
+chambre
+ami
+a commencé
+idée
+poisson
+montagne
+Arrêtez
+une fois
+base
+entendre
+cheval
+coupe
+sûr
+regarder
+couleur
+face
+bois
+principal
+ouvert
+paraître
+ensemble
+suivant
+blanc
+enfants
+commencer
+eu
+marcher
+exemple
+facilité
+papier
+groupe
+toujours
+musique
+ceux
+tous les deux
+marque
+souvent
+lettre
+jusqu'à ce que
+mile
+rivière
+voiture
+pieds
+soins
+deuxième
+assez
+plaine
+fille
+habituel
+jeune
+prêt
+au-dessus
+jamais
+rouge
+liste
+bien que
+sentir
+parler
+oiseau
+bientôt
+corps
+chien
+famille
+direct
+pose
+laisser
+chanson
+mesurer
+porte
+produit
+noir
+court
+chiffre
+classe
+vent
+question
+arriver
+complète
+navire
+zone
+moitié
+rock
+ordre
+feu
+sud
+problème
+pièce
+dit
+savait
+passer
+depuis
+haut
+ensemble
+roi
+rue
+pouce
+multiplier
+rien
+cours
+rester
+roue
+plein
+force
+bleu
+objet
+décider
+surface
+profond
+lune
+île
+pied
+système
+occupé
+test
+record
+bateau
+commun
+or
+possible
+plan
+place
+sec
+se demander
+rire
+mille
+il ya
+ran
+vérifier
+jeu
+forme
+assimiler
+chaud
+manquer
+apporté
+chaleur
+neige
+pneu
+apporter
+oui
+lointain
+remplir
+est
+peindre
+langue
+entre
+unité
+puissance
+ville
+fin
+certain
+voler
+tomber
+conduire
+cri
+sombre
+machine
+Note
+patienter
+plan
+figure
+étoile
+boîte
+nom
+domaine
+reste
+correct
+capable
+livre
+Terminé
+beauté
+entraînement
+résisté
+contenir
+avant
+enseigner
+semaine
+finale
+donné
+vert
+oh
+rapide
+développer
+océan
+chaud
+gratuit
+minute
+fort
+spécial
+esprit
+derrière
+clair
+queue
+produire
+fait
+espace
+entendu
+meilleur
+heure
+mieux
+vrai
+pendant
+cent
+cinq
+rappeler
+étape
+tôt
+tenir
+ouest
+sol
+intérêt
+atteindre
+rapide
+verbe
+chanter
+écouter
+six
+table
+Voyage
+moins
+matin
+dix
+simple
+plusieurs
+voyelle
+vers
+guerre
+poser
+contre
+modèle
+lent
+centre
+amour
+personne
+argent
+servir
+apparaître
+route
+carte
+pluie
+règle
+gouverner
+tirer
+froid
+avis
+voix
+énergie
+chasse
+probable
+lit
+frère
+œuf
+tour
+cellule
+croire
+peut-être
+choisir
+soudain
+compter
+carré
+raison
+longueur
+représenter
+art
+sujet
+région
+taille
+varier
+régler
+parler
+poids
+général
+glace
+question
+cercle
+paire
+inclure
+fracture
+syllabe
+feutre
+grandiose
+balle
+encore
+vague
+tomber
+cœur
+h
+présent
+lourd
+danse
+moteur
+position
+bras
+large
+voile
+matériel
+fraction
+forêt
+s'asseoir
+course
+fenêtre
+magasin
+été
+train
+sommeil
+prouver
+seul
+jambe
+exercice
+mur
+capture
+monture
+souhaiter
+ciel
+conseil
+joie
+hiver
+sat
+écrit
+sauvage
+instrument
+conservé
+verre
+herbe
+vache
+emploi
+bord
+signe
+visite
+passé
+doux
+amusement
+clair
+gaz
+temps
+mois
+million
+porter
+finition
+heureux
+espoir
+fleur
+vêtir
+étrange
+disparu
+commerce
+mélodie
+voyage
+bureau
+recevoir
+rangée
+bouche
+exact
+symbole
+mourir
+moins
+difficulté
+cri
+sauf
+écrit
+semence
+ton
+joindre
+suggérer
+propre
+pause
+dame
+cour
+augmenter
+mauvais
+coup
+huile
+sang
+toucher
+a augmenté
+cent
+mélanger
+équipe
+fil
+coût
+perdu
+brun
+porter
+jardin
+égal
+expédié
+choisir
+est tombé
+s'adapter
+débit
+juste
+banque
+recueillir
+sauver
+contrôle
+décimal
+oreille
+autre
+tout à fait
+cassé
+cas
+milieu
+tuer
+fils
+lac
+moment
+échelle
+fort
+printemps
+observer
+enfant
+droit
+consonne
+nation
+dictionnaire
+lait
+vitesse
+méthode
+organe
+payer
+âge
+section
+robe
+nuage
+surprise
+calme
+pierre
+minuscule
+montée
+frais
+conception
+pauvres
+lot
+expérience
+bas
+clé
+fer
+unique
+bâton
+plat
+vingt
+peau
+sourire
+pli
+trou
+sauter
+bébé
+huit
+village
+se rencontrent
+racine
+acheter
+augmenter
+résoudre
+métal
+si
+pousser
+sept
+paragraphe
+troisième
+doit
+en attente
+cheveux
+décrire
+cuisinier
+étage
+chaque
+résultat
+brûler
+colline
+coffre-fort
+chat
+siècle
+envisager
+type
+droit
+peu
+côte
+copie
+phrase
+silencieux
+haut
+sable
+sol
+rouleau
+température
+doigt
+industrie
+valeur
+lutte
+mensonge
+battre
+exciter
+naturel
+vue
+sens
+capital
+ne sera pas
+chaise
+danger
+fruit
+riche
+épais
+soldat
+processus
+fonctionner
+pratique
+séparé
+difficile
+médecin
+s'il vous plaît
+protéger
+midi
+récolte
+moderne
+élément
+frapper
+étudiant
+coin
+partie
+alimentation
+dont
+localiser
+anneau
+caractère
+insecte
+pris
+période
+indiquer
+radio
+rayon
+atome
+humain
+histoire
+effet
+électrique
+attendre
+os
+rail
+imaginer
+fournir
+se mettre d'accord
+ainsi
+doux
+femme
+capitaine
+deviner
+nécessaire
+net
+aile
+créer
+voisin
+lavage
+chauve-souris
+plutôt
+foule
+blé
+comparer
+poème
+chaîne
+cloche
+dépendre
+viande
+rub
+tube
+célèbre
+dollar
+courant
+peur
+vue
+mince
+triangle
+planète
+se dépêcher
+chef
+colonie
+horloge
+mine
+lien
+entrer
+majeur
+frais
+recherche
+envoyer
+jaune
+pistolet
+permettre
+impression
+mort
+place
+désert
+costume
+courant
+ascenseur
+rose
+arriver
+maître
+piste
+mère
+rivage
+division
+feuille
+substance
+favoriser
+relier
+poste
+passer
+corde
+graisse
+heureux
+original
+part
+station
+papa
+pain
+charger
+propre
+bar
+proposition
+segment
+esclave
+canard
+instant
+marché
+degré
+peupler
+poussin
+cher
+ennemi
+répondre
+boisson
+se produire
+support
+discours
+nature
+gamme
+vapeur
+mouvement
+chemin
+liquide
+enregistrer
+signifiait
+quotient
+dents
+coquille
+cou
+oxygène
+sucre
+décès
+assez
+compétence
+femmes
+saison
+solution
+aimant
+argent
+merci
+branche
+rencontre
+suffixe
+particulièrement
+figue
+peur
+énorme
+sœur
+acier
+discuter
+avant
+similaire
+guider
+expérience
+score
+pomme
+acheté
+LED
+pas
+manteau
+masse
+carte
+bande
+corde
+glissement
+gagner
+rêver
+soirée
+condition
+alimentation
+outil
+total
+de base
+odeur
+vallée
+ni
+double
+siège
+continuer
+bloc
+graphique
+chapeau
+vendre
+succès
+entreprise
+soustraire
+événement
+particulier
+accord
+baignade
+terme
+opposé
+femme
+chaussure
+épaule
+propagation
+organiser
+camp
+inventer
+coton
+né
+déterminer
+litre
+neuf
+camion
+bruit
+niveau
+chance
+recueillir
+boutique
+tronçon
+jeter
+éclat
+propriété
+colonne
+molécule
+sélectionner
+mal
+gris
+répétition
+exiger
+large
+préparer
+sel
+nez
+pluriel
+colère
+revendication
+continent
