@@ -27,10 +27,10 @@ ABC
     X   [ɛks]        [iks]    икс
     Y   [waɪ]      [ypsilon]  ипсилон 
     Z   [zɛd]       [tsɛt]    цэт
-    Ä                 [ɛ]     э
-    Ö                 [ø]     ø
-    Ü                 [y]     y
-      ẞ                          [s]     эс
+    Ä                 [ɛ]     э - умлаут
+    Ö                 [ø]     ø - умлаут
+    Ü                 [y]     y - умлаут
+      ẞ                 [s]     эсцет
 
 
 
@@ -120,7 +120,7 @@ ABC
 
     W   [v]                                         witchig
     X   [ks]                                        Xenon
-    Y   [y]                                         dynamisch
+    Y   [y]                                         dynamischbeaucoup  parfum football salade mars avril mai juin juillet août septembre octobre novembre décembre fête saut 
     Z   [ts]                                        Zusammen
     
     Ä   [ɛ]                                         kämmen

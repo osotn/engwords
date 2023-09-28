@@ -1,33 +1,47 @@
 
-    A   []
-    B   []
-    C   []
-    D   []
-    E   []
-    F   []
-    G   []
-    H   []
-    I   []
-    J   []
-    K   []
-    L   []
-    M   []
-    N   []
-    Ñ   []
-    O   []
-    P   []
-    Q   []
-    R   []
-    S   []
-    T   []
-    U   []
-    V   []
-    W   []
-    X   []
-    Y   []
-    Z   []
+    A   [a]
+    B   [be]
+    C   [ce]
+ *  Ch  [che]
+    D   [de]
+    E   [e]
+    F   [efe]
+    G   [ge]
+    H   [hache]
+    I   [i]
+    J   [jota]
+    K   [ka]
+    L   [ele]
+ *  Ll  [elle]
+    M   [eme]
+    N   [ene]
+    Ñ   [eñe]
+    O   [o]
+    P   [pe]
+    Q   [cu]
+    R   [erre]
+ *  Rr  [erre doble]
+    S   [ese]
+    T   [te]
+    U   [u]
+    V   [uve]
+    W   [uve doble]
+    X   [equis]
+    Y   [ye/griega]
+    Z   [zeta/zeda]
 
-    Áá  Íí  Óó  Úú
+  - accents
+  ---------
+    -- acute
+    Áá
+    Íí
+    Óó
+    Úú
+    -- diaresis
+    Üü
+
+
+
     
     
     I    yo             tomo
