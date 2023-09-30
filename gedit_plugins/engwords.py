@@ -13,7 +13,9 @@ class EngWordsActivatable(GObject.Object, Gedit.AppActivatable):
 
    def do_activate(self):
        #print("Plugin create app for", self.app)
-       self.app.add_accelerator("<Primary>E", "win.engwords", None)
+       self.app.add_accelerator("<Primary>E", "win.engwordsen", None)
+       self.app.add_accelerator("<Primary>R", "win.engwordsde", None)
+       self.app.add_accelerator("<Primary>Y", "win.engwordsfr", None)
 
    def do_deactivate(self):
        pass
@@ -24,17 +26,19 @@ class EngWordsWindowActivatable(GObject.Object, Gedit.WindowActivatable):
 
     window = GObject.property(type=Gedit.Window)
 
+    lang = "" # English default
+
     # Need to change.
-    engwords_path = "/home/osotn/gitspace/osotn/engwords"
+    engwords_path = "/home/osotn/gitspace/osotn/engwords/"
 
     def is_word_unknown(self, word):
-        return not os.path.exists(self.engwords_path + "/words/active/" + word)
+        return not os.path.exists(self.engwords_path + self.lang + "words/active/" + word)
 
     def is_word_untranslated(self, word):
-        return not os.path.exists(self.engwords_path + "/translations/" + word)
+        return not os.path.exists(self.engwords_path + self.lang + "translations/" + word)
 
     def is_word_xT(self, word):
-        p = self.engwords_path + "/words/"
+        p = self.engwords_path + self.lang + "words/"
         f = "/" + word + ".txt"
         return os.path.exists(p + "oxford_3000_keys" + f) or \
                os.path.exists(p + "ielts_general_4000" + f) or \
@@ -42,7 +46,7 @@ class EngWordsWindowActivatable(GObject.Object, Gedit.WindowActivatable):
                os.path.exists(p + "first_10000" + f)
 
     def is_word_yzT(self, word):
-        p = self.engwords_path + "/words/"
+        p = self.engwords_path + self.lang + "words/"
         f = "/" + word + ".txt"
         return os.path.exists(p + "first_20000" + f) or \
                os.path.exists(p + "first_30000" + f)
@@ -70,7 +74,7 @@ class EngWordsWindowActivatable(GObject.Object, Gedit.WindowActivatable):
         iter = start.copy()
         while end.compare(iter) >= 1:
             c = iter.get_char()
-            if ((not c.isalpha()) and c not in ("'", '-')) or (ord(c[0]) > 127):
+            if ((not c.isalpha()) and c not in ("'", '-')):
                 break
             iter.forward_char()
             word += c.lower()
@@ -165,13 +169,33 @@ class EngWordsWindowActivatable(GObject.Object, Gedit.WindowActivatable):
         #print(" word 2", buffer.get_text(ws[0], ws[1], True), self.transform_word(ws))
         self.color_unknown_words(sel)
 
+    def engwords_en(self):
+        self.lang = ""
+        self.engwords()
+
+    def engwords_de(self):
+        self.lang = "de/"
+        self.engwords()
+
+    def engwords_fr(self):
+        self.lang = "fr/"
+        self.engwords()
+
     def __init__(self):
         GObject.Object.__init__(self)
 
     def do_activate(self):
         #print("Plugin created for", self.window)
-        action = Gio.SimpleAction(name="engwords");
-        action.connect('activate', lambda a,p: self.engwords())
+        action = Gio.SimpleAction(name="engwordsen");
+        action.connect('activate', lambda a,p: self.engwords_en())
+        self.window.add_action(action)
+
+        action = Gio.SimpleAction(name="engwordsde");
+        action.connect('activate', lambda a,p: self.engwords_de())
+        self.window.add_action(action)
+
+        action = Gio.SimpleAction(name="engwordsfr");
+        action.connect('activate', lambda a,p: self.engwords_fr())
         self.window.add_action(action)
 
     def do_deactivate(self):
