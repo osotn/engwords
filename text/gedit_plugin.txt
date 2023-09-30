@@ -1,0 +1,21 @@
+
+You need to know about:
+    -   GTK+ ( PyGObject).
+
+Need at least two files in /usr/lib/gedit/plugins
+    - pluginnanme.plugin in .desktop format.
+    - python code
+
+    Derived from GObject.Object
+        -   Gedit.AppActivatable
+                --  do_activate
+                --  do_deactivate
+        -   Gedit.WindowActivatable
+                --  do_activate
+                --  do_deactivate
+                --  do_update_state
+        -   Gedit.ViewActivatable
+                --  do_activate
+                --  do_deactivate
+                --  do_update_state
+
