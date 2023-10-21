@@ -1,0 +1,86 @@
+Lecture 1.
+    BeagleBone Black and QEMU
+
+    QEMU (Quick Emulator). It emulates a computer's processor through dynamic
+    binary translation and provides a set of different hardware and device
+    models for the machine, enabling it to run a variety of guest OS.
+    It can interoperate with kernel based Virtual Machine (KVM) to run
+    VM at near native speed.
+    Modes:
+        - user mode emulation
+        - system emulation (include peripherals).
+        - Hypervisor support
+
+    Embedded vs regular system:
+        - cross compiling
+        - flashing
+        - serial console
+        - testing concerns
+        - working with hardware
+        - Non discoverable buses on board (device tree, platform drivers)
+
+    U-Boot -> Kernel -> Busybox
+             (zImage,   (/init ->
+               *.dtb)    /bin/busybox)
+    
+    ROM code -> SPL -> U-Boot
+              (MLO)  (u-boot.img)
+    
+    Kernel LTS (Long Term Support).
+    
+    Cross compiling:
+        - gcc
+        - binutils: ls, as, objdump, objcopy, readelf
+        - glibc + system libs
+        - Linux kernel headers
+        - gdb
+
+    Toolchain types:
+        - bare metal targeted (arm-eabi) for U-boot, kernel
+        - Linux targeted (arm-linux-gnueabinhf) for BusyBox
+
+    $ export ARCH=arm
+    $ export PATH=/toolchain/path/bin:$PATH
+    $ export CROSS_COMPILE=arm-eabi-
+
+    Kbuild system: make defconfig (.config), make, make install
+    make menuconfig
+    ./scripts/kconfig/merge_config.sh
+
+    Every driver is a module:
+        - m loadable
+        - y built-in
+        .ko - kernel module
+
+    make -j4
+    Use ccache tools: ccashe gcc
+    
+    RootFS - / , init, libs, kernel modules, configs, ...
+        - Debian
+        - Yocto/OpenEmbedded
+        - BuildRoot
+        - BusyBox
+
+    BusyBox:
+        - CONFIG_STATIC=y
+        ( busybox/*.o + libc.a )
+        - CONFIG_STATIC=n
+        ( busybox/*.o + libc.so)
+        
+        - /etc/inittab
+        - /etc/init.d/rcS script
+
+        - ? Device manager - udev, istead mdev !!! /dev
+
+        - /etc/init.d/rcS = run commands Single Unit
+        #!/bin/sh
+        mount -t sysfs none /sys
+        mount -t proc none /proc
+        moutn -t debugfs none /sys/kernel/debug
+        echo /sbin/mdev > /proc/sys/kernel/hotplug
+        mdev -s
+
+        
+
+
+

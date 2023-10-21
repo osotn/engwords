@@ -1,0 +1,13 @@
+
+    July 2003 - Oct 2004
+    Road Traffic control radar
+        Radar controls passing vehicles on the traffic lanes.
+        DSP TI TMS320C5410A, CodeComposerStudio old edition.
+        C programming, asm
+        - JTAG, Board, CCS, build process
+        - UARTs protocol
+        - Flash memory low level command - SPI
+        - FPGA firmware programming
+        - Ethernet module
+        - DSP implementation
+        
