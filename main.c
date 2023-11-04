@@ -88,7 +88,7 @@ static char *lang = "";                 /* english = "" */
 static void get_opts(int argc, char *const argv[])
 {
   int option;
-  while ((option = getopt(argc, argv, "unfmgrepcbiwd:s:")) != -1)
+  while ((option = getopt(argc, argv, "unfmgrelpcbiwd:s:")) != -1)
     switch (option)
     {
       case 'u':
@@ -112,6 +112,9 @@ static void get_opts(int argc, char *const argv[])
       case 'e':
         lang="es/"; /* Spainish */
         break;
+      case 'l':
+        lang="la/"; /* Latin */
+	break;
       case 'p':
         fPutChars = TRUE;
         break;
