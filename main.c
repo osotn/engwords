@@ -88,7 +88,7 @@ static char *lang = "";                 /* english = "" */
 static void get_opts(int argc, char *const argv[])
 {
   int option;
-  while ((option = getopt(argc, argv, "unfmgrelpcbiwd:s:")) != -1)
+  while ((option = getopt(argc, argv, "unfmgreltpcbiwd:s:")) != -1)
     switch (option)
     {
       case 'u':
@@ -114,6 +114,9 @@ static void get_opts(int argc, char *const argv[])
         break;
       case 'l':
         lang="la/"; /* Latin */
+	break;
+      case 't':
+	lang="tr/"; /* Turkish */
 	break;
       case 'p':
         fPutChars = TRUE;
@@ -433,6 +436,10 @@ char *get_translation(char *s)
 // Ó = c3 93; ó = c3 b3
 // Ú = c3 9a; ú = c3 ba
 // Á = c3 81; á = c3 a1
+// Turkish
+// Ğ = c4 9e; ğ = c4 9f
+// Ş = c5 9e; ş = c5 9f
+// İ = c4 b0; ı = c4 b1
 int utf8_trick_isalpha(char *pc, int *pn)
 {
   if (*(pc + 0) == (char)0xC3 &&
@@ -463,10 +470,18 @@ int utf8_trick_isalpha(char *pc, int *pn)
 	   )) {
     *pn = 2;
     return 1;
+  } else   if (*(pc + 0) == (char)0xC4 &&
+     (
+              *(pc + 1) == (char)0x9e || /* Ğ */ *(pc + 1) == (char)0x9f || /* ğ */
+              *(pc + 1) == (char)0xb0 || /* İ */ *(pc + 1) == (char)0xb1    /* ı */
+      )) {
+    *pn = 2;
+    return 1; 
   } else   if (*(pc + 0) == (char)0xC5 &&
       (
               *(pc + 1) == (char)0x92 || /* Œ */ *(pc + 1) == (char)0x93 || /* œ */
-              *(pc + 1) == (char)0xb8    /* Ÿ */
+              *(pc + 1) == (char)0xb8 || /* Ÿ */
+	      *(pc + 1) == (char)0x9e || /* Ş */ *(pc + 1) == (char)0x9f    /* ş */
       )) {
     *pn = 2;
     return 1;
@@ -495,9 +510,18 @@ int utf8_trick_tolower(char *pc, int *pn)
                   (unsigned char)*(pc + i + 1) <= (unsigned char)0x9E))) {
             *(pc + i + 1) |= 0x20;
             i += 2;
+	} else if ((*(pc + i + 0) == (char)0xC4) && (*(pc + i + 1) == (char)0x9E)) { /* Ğ -> ğ */
+	    *(pc + i + 1) = 0x9F;
+	    i += 2;
+	} else if ((*(pc + i + 0) == (char)0xc4) && (*(pc + i + 1) == (char)0xB0)) { /* İ -> ı */
+	    *(pc + i + 1) = 0xB1;
+	    i += 2;
         } else if ((*(pc + i + 0) == (char)0xC5) && (*(pc + i + 1) == (char)0x92)) { /* Œ -> œ */
             *(pc + i + 1) = 0x93;
             i += 2;
+	} else if ((*(pc + i + 0) == (char)0xC5) && (*(pc + i + 1) == (char)0x9E)) { /* Ş -> ş */
+	    *(pc + i + 1) = 0x9F;
+	    i += 2;
         } else if ((*(pc + i + 0) == (char)0xC5) && (*(pc + i + 1) == (char)0xB8)) { /* Ÿ -> ÿ */
             *(pc + i + 0) = 0xC3;
             *(pc + i + 1) = 0xBf;
