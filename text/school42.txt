@@ -1,0 +1,65 @@
+Shell video lecture
+-------------------
+Each command is validated by pressing Enter
+"Man" brings up the user for the function in the command line
+Separate the parameter with a space then press Enter
+
+$> man man
+
+$> man -f man <-- To get all the manuals that have "man" in their title
+
+Shortcuts:
+    - Ctrl-A for to go at the beginning of the line
+    - Ctrl-E to get to the end of line
+    - Ctrl-C cancels your line to start over
+    - Ctrl-L to clear the screen
+
+UNIX filesystem lets us store files on our disk, our workspace
+    - pwd
+    - mkdir
+    - rmdir
+    - ls
+    - cd command
+    - hidden files in Unix start with a period (.)
+    - . file and .. file - when system create two files
+    
+Files has own right:
+    - access
+    - writing
+    - execution
+There are three triplets:
+    - for user itself
+    - for his group
+    - for rest of the world
+To change the rights, we use the chmod command (a for all) chmod a+x
+    - u - user
+    - g - group
+    - o - other chmod o+r; chmod o-wx
+
+Echo command
+
+Cat command:
+    - cat - <-- input 
+    - cat -e  <-- non printable characters and hard returns
+Touch command - modify the last data of access and modification of a file
+
+Create and use variables in our shell:
+    - var=value
+    - echo $var
+    - export var
+    - which cmd; type cmd
+    - env - external variables
+    - export var
+    - unset var
+
+Utilities:
+    - wc filename
+    - more filename
+    - head -n 2 / -c 5
+    - tail -n 4
+    - grep text filename
+    - grep -v -i
+
+
+    
+
