@@ -9,10 +9,16 @@ type xclip 1>/dev/null 2>&1 && echo -n $1 | xclip -sel clip
 echo -n $2 >de/phonetics/$1
 echo -n $3 >de/translations/$1
 
-audio=de/sound/$1.mp3  
+audio="${1}".mp3
 
-[ -f ~/Downloads/$1.mp3 ] && mv -f ~/Downloads/$1.mp3 $audio
+# Replace spaces on "+" for mp3 name
+if  echo ${audio} | grep -q "+"; then
+    old_audio="`echo ${audio} | tr "+" " "`"
+    [ -f  ~/Downloads/"${old_audio}" ] && mv -f ~/Downloads/"${old_audio}"  ~/Downloads/"${audio}"
+fi
 
-[ -f $audio ] && mplayer >/dev/null 2>&1 $audio
+[ -f ~/Downloads/"${audio}" ] && mv -f ~/Downloads/"${audio}" de/sound/"${audio}"
+
+[ -f de/sound/"${audio}" ] && mplayer >/dev/null 2>&1 de/sound/"${audio}"
 [ ! -z $4 ] && touch de/words/active/$1
- 
+

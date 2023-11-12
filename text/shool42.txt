@@ -1,0 +1,8 @@
+
+    man strncpy
+    -----------
+#include <string.h>
+
+If the length of src is less than n, strncpy() writes additional null bytes
+to dest to ensure that a total of n bytes are written.
+
