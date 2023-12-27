@@ -1,0 +1,69 @@
+week 0a - expressions
+---------------------
+introduction -14 min               -> 10:45 Rice rocks
+CodeSkulptor - 11 min
+
+    CodeSkulptor
+        Python
+        Interactive
+        Browser
+        Store/Share files cloud
+
+arithmetic expression - 13 min
+
+    print(3, 4, 5, 1.0)
+    print( int(3.1), int(-3.1))
+
+    Python 2 support 4 build-in numerical types: int, long, float and complex
+        int: python2 hardware long, python3 unlimited
+        long: python2 unlimited; not use it in python3 = int
+        float - 52+11+1
+        complex - a + bj, a,b are float
+
+        type(3)
+        int(5.1), float(5)
+
+week 0b - variables and assignments
+-----------------------------------
+
+
+week 1a - Functions
+    - functions
+    - more operations - %
+
+week 1b - Logic and condition
+    - Logic and Comparisons
+        bool type: True, False
+        bool operation: not, or, and
+        comparisons: >, <, ==, >=, <=, !=
+    - condition
+    - programming tips
+Mini-project #1 - rock - paper - scissor - lizard - Spock
+
+    Scissors cuts paper
+    Paper covers rock
+    Rock crushes lizard
+    Lizard poisons Spock
+    Spock smashes scissors
+    Scissors decapitates lizard
+    Lizard eat paper
+    Paper disproves Spock
+    Spock vaporizes rock
+    Rock crushes scissors
+    
+0 - rock ; 1 - Spock ; 2 - paper ; 3 - lizard ; 4 - scissors
+
+ 4 x-> 0 x-> 1 x-> 2 x-> 3 x-> 4
+
+ C - P = 0 - Player and Computer tie
+ C - P = 1 - Computer wins
+ C - P = 4 - Player wins
+ C - P = 2 - Computer wins
+ C - P = 3 - Player wins
+
+rock > lizard   Spock > scissors    paper > rock        lizard > Spock      scissors > paper    
+rock > scissors Spock > rock        paper > Spock       lizard > paper      scissors > lizard
+rock < paper    Spock < paper       paper < scissors    lizard < rock       scissors < Spock
+rock < Spock    Spock < lizard      paper < lizard      lizard < scissors   scissors < rock
+
+

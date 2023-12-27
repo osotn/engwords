@@ -74,7 +74,7 @@ class EngWordsWindowActivatable(GObject.Object, Gedit.WindowActivatable):
         iter = start.copy()
         while end.compare(iter) >= 1:
             c = iter.get_char()
-            if ((not c.isalpha()) and c not in ("'", '-')):
+            if ((not c.isalpha()) and c not in ("'", '-', '+')):
                 break
             iter.forward_char()
             word += c.lower()
