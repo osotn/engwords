@@ -205,7 +205,23 @@ Patterns
 
 
 
-    
+Parts of speech:
+    - noun
+    - pronoun
+    - verb
+    - adjective
+    - adverb
+    - proposition
+    - conjunction
+    - interjection
+
+Parts of sentence:
+    - verb
+    - subject
+    - complement
+    - description
+
+
 
 
 

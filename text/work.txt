@@ -1,0 +1,2 @@
+minicom -D /dev/tty
+Ctrl+A+X quite, Ctrl+A+T setting

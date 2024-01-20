@@ -1,0 +1,487 @@
+Starting in 1978, Intel introduced the 16-bit 8086 as a follow-on to the 8 bit 8080 processor.
+
+8086        1978y.  16-bit, 1 megaByte addr,    6-byte instruction queue,   6 MHz
+8088                16-bit, but 8-bit external bus version, 4-byte instruction queue, IBM PC
+80186       on-chip advanced features
+80188                       but 8-bit external bus version
+80286       IBM AT machines
+80386       1987y.  32-bit with multitasking support
+80486       1989y.  25/33/50 MHz
+80586       1993y.  Pentium, 5th generation
+Pentium Pro
+Pentium II
+Pentium III
+Pentium 4
+Pentium Atom
+
+The Central Processing Unit
+---------------------------
+A computer performs arithmetic and logic functions on data, and provides flow of control.
+
+The fetch / execute cycle
+-------------------------
+First the instruction is fetched from memory, then the instruction is executed,
+which can involve the fetching and writing of data items, as well as mathematical
+and logical operations on the data.
+Instructions are executed in steps called machine cycles.
+Each machine cycle might take several machine clock times to complete.
+If the architecture is pipeline, then each machine cycle consists of a stage in the pipeline.
+Machine cycles are sequenced by a state machine in the cpu logic.
+
+A register called the PC (program counter) holds a pointer to the location in memory
+of the next instruction to be executed. At initialization (boot), the program counter
+is loaded with the location of the first instruction to be executed. After that, the
+program counter is simply incremented, unless there is a change in the flow of control,
+such as a branch or jump. In this case, the target address of the branch or jump is put
+into the program counter.
+
+1st step: is to fetch the instruction from memory. It goes into a special holding location
+called the IR (instruction register). At this point the instruction is decoded, meaning
+a control unit figures out, from the bit pattern, what the instruction is to do.
+This control unit implements the ISA, the instruction set architecture.
+The instruction decode complete, the machine knows what resources are required for instruction
+execution. eg. two data reads from memory. The data items might be in registers, or memory.
+Pipeline stages: fetch, instruction decode, operand(s) read, ALU operation, operand write.
+If we have a long string of math operations, at some point, each stage in the pipeline is
+busy, and an instruction is completed at each clock cycle. But, if a particular instruction
+requires the result of a previous instruction as an input, the scheme falls apart, and
+the pipeline stalls. This is called a dependency, and can be addressed by the compiler
+optimizing the code by re ordering. When a change in the flow of control occurs (branch, jump,
+interrupt), the pipeline has to be flushed out and refilled.
+
+The optimization might be in a different data type, floating point, or vector data as
+opposed do integers, or in the types of operations required.
+
+FPU (floating point unit) that operands on floating.
+
+80x86
+-----
+The early members of the x86 family were just cpu.
+Other functions such as interrupt or video handling were relegated to support chips.
+As technology advances permitted, some of these functions were included on the
+cpu chip, or combined into one large chip.
+
+8259 chip an interrupt controller, providing prioritization and 8 levels of interrupt.
+8237 chip is DMA controller.
+8284 chip a Clock Generator chip + for video display.
+8255 chip triple 8 bit parallel port.
+8253 chip a programmable timer.
+
+Later, defined 3 chips: CPU, North bridge, South bridge + memory.
+
+Intel x86 and analogies from AMD - ISA-86.
+
+8088 - 8_bit external bus version of the 8086. Each memory work took two accesses.
+
+80386  32_bit real address, and 32_bit registers. It had a 46-bit virtual address,
+        with an on-chip memory management unit (MMU) to translate virtual address to real
+        address. Hardware support for multitasking. Protected mode.
+        Had three modes of operation:
+            - real mode
+            - virtual x86 added MMU
+            - protected mode
+        Instruction set: load, store, add, subtract, multiply, divide, compare, square root, ..
+80486  included Floating point functionality inboard + 8 kbyte on-chip data and instruction cache.
+
+Pentium - cache
+IA-64 - 64 bits
+IA-32 - 32 bits.
+
+Input / Output - IO provides a user interface, and link between systems.
+Basic IO methods:
+    - polled
+    - interrupt
+    - DMA
+
+Polled IO the computer periodically checks to see if data is available.
+Interrupt - when a new piece of information arrives, a control signal called
+an interrupt occurs.
++ software interrupt commands to call OS (synchronous).
+Exceptions are interrupt caused in response to a condition encountered during
+execution of an instruction (synchronous).
+External (asynchronous).
+DMA is the fastest way. DMA also makes use of interruptions.
+DMA on the Intel chips requires an external DMA controller. There are 4 channels.
+
+UART = Universal Asynchronous Receiver Transmitter - 8251 chip.
+RS-232 -/+ 12 volts.
+
+80x86 has IO instructions - 64k input and 64k output. 16_bit IO address is used:
+    IN  10, AX  ; from port 10 to AX reg
+    IN  DX, AX  ; get input from the port specified in DX and put in AX
+    OUT BX, 10  ; output register BX contents to Port 10
+    OUT BX, DX  ; output register BX contents to Port specified in DX.
+
+Memory
+------
+There is a small amount of memory on the CPU chip itself.
+Memory is RAM, i.e. volatile.
+Computer memory is organized in a hierarchy.
+Volatile:
+    - static RAM
+    - dynamic RAM
+Static RAM is faster, less dense, and consumes more power than dynamic.
+Dynamic is more dense, but requires refresh.
+
+Cache is a temporary memory buffer for data. It is placed between the processor
+and the main memory. The cache is smaller, but faster than the main memory.
+Several levels - L1, L2, L3.
+We may have different caches for instructions and data, or a unified cache for both.
+Code in usually accessed in linear fashion, but data items are not.
+On a read access, if the desired item is present in a cache, we get a cache hit,
+and the item is read. If the item is not in cache, we get a cache miss, and the
+item must be fetched from memory.
+
+Fully associative cache, any memory location can be stored anywhere in the cache.
+In a direct-mapped cache, each memory location maps onto exactly one cache entry.
+
+TLB - Translation Lookaside buffer is a cache used to expedite the translation of
+virtual to physical memory address. It holds pairs of virtual and translated
+(physical addresses).
+
+Virtual memory is an abstractioin. We pretend we have more memory than is available
+in the system.
+There are two basic schemes:
+    - segmented - more flexible in terms of size.
+    - paged - fixed sized blocks of memory.
+
+Was handled by a separate MMU chip, now incorporated into CPU.
+
+x86 ISA: memory model, registers (data) and instructions (operations on data).
+
+8086:
+    - 16 regs
+    - 4 reg general purpose
+    - 4 pointer/index
+    - 4 segment
+    - flags
+    - PC
+    - 1 megabytes address
+    - 135 instractioni (multiply and divide) + BCD data
+    - separate I/O space 64k/64k 8_bits
+
+    - status flags:
+        - carry flag - CF for carry or borrow
+        - parity flag - PF, set if even
+        - Aux Carry - for BCD (4 bits)
+        - Zero flag - ZF, set if zero
+        - Trap flag - set, interrupt occurs after each instruction !!! - debug
+        - Interrutp enable 
+        - Direction flag- string moves
+        - Overflow flag - if signed result cannot be represented
+
+Assembly language
+-----------------
+An assembly is a program that takes textual input, and produces binary code storage
+allocation for processor.
+Includes:
+    - data structures; integers, bcd, bytes, double, floating
+    - instructions;
+    - directives
+
+An assembler is a program that produces binary code from symbolic representations.
+The assembler program usually works in two passes through the source code.
+On the first pass, the symbols table is built. On the second pass. the binary instructions
+are generated.
+
+The linking process involves translating the relative addresses from the assembly
+or compilation process to absolute address in the target memory. Defines external
+labels. 
+
+Optimization:
+    - space
+    - time
+
+BIOS - hardware abstraction layer.
+
+Registers:
+    - 4 general purpose regs
+        AX = AH, AL     32_bit  EAX
+        BX = BH, BL     32_bit  EBX
+        CX = CH, CL     32_bit  ECX
+        DX = DH, DL     32_bit  EDX
+    - SP stack pointer
+    - BP base pointer
+    - SI, DI - source and destination index
+    - segment - CS Code Segment, DS data segment, ES extra data segment, SS stack segment
+    - FS and GS add data type segment
+
+Instruction:    MOV src, dest
+    - Move operation requires two operands.
+Conversions of signed values
+    CBW 8bit to 16 AL to AX
+    CWD 16 to 32
+    CDQ 32 to 64
+    
+
+8080 Intel
+==========
+2 us cycle, 72 basic instruction
+Address to 65536 bytes.
+256 input + 256 output ports
+
+CPU:
+    - registers
+    - ALU
+    - Control circuitry
+
+Regs:
+    - accumulator - usually stores one of the operands to be manipulated by the ALU.
+                    Both src and dst (result) register.
+                    Often a CPU will include a number of additional general purpose
+                    registers that can be used to store operands or intermediate data.
+                    The availability of general purpose registers eliminates the need
+                    to shuffle intermediate results back and forth between memory
+                    and the accumulator.
+    - program counter
+                  - the instructions that make up a program are stored in the system memory.
+                    The number which identifies a memory location is called its Address.
+                    Counter which contains the address of the next program instruction.
+
+Every computer has a Word Length that is characteristic of that machine.
+ = determined by the size of its internal storage elements and busses.
+Each operation that the processor can perform is identified by a unique byte of
+data known as an Instruction Code or Operation Code.
+8 bits = 256 alternative actions.
+
+The processor fetches an instruction in two distinct operations.
+    - the processor transmits the address in its Program Counter to the memory
+    - the memory returns the addressed byte to the processor,
+      CPU stores this Instruction Register, and uses it to direct activities during
+      the remainder of the instruction.
+
+The mechanism by which the processor translates an instruction code into specific
+processing actions requires more elaboration than we can here afford.
+Decoded and used to selectively activate one of a number of output lines, up to 256.
+This translation of code into action is performed by the Instruction Decoder.
+
+ALU:
+    - accumulator;
+    - Adder is capable of combining the contents of two registers in accordance with
+      the logic of binary arithmetic: add, subtract, multiply, divide + boolean logic.
+    - Flag bits: Carry, Zero, Sign, Parity.
+
+Control Circuitry:
+    - Using clock inputs, the CC maintains the proper sequence of events required
+      for any processing task.
+
+Instruction is referred to s variable length.
+
+CPU may use a register or register pair to hold address of a memory location that
+is to be accessed for data.
+
+The processor fetches an instruction, performs the operations required,
+fetches the next instruction, and so on.
+The combined fetch and execution of a single instruction is referred to as
+an Instruction Cycle.
+
+Instruction fetch: CPU read signal and the contents of the program counter are sent
+to memory, which responds by returning the next instruction word.
+The first byte of the instruction is placed in the instruction register.
+If the instruction consists of more than one byte, additional states are required
+to fetch each byte of the instruction. When the entire instruction is present in
+the CPU, the program counter is incremented and instruction is decoded.
+The instruction may call for a memory read or write, an input or output.
+
+Memory read: an instruction fetch is merely a special memory read operation that
+brings the instruction to the CPU instruction register.
+
+Memory write: CPU write signal, sends the address, and sends the data data word.
+
+Interrupts: it's processors efficiency.
+
+Hold: The hold provision enables DMA.
+
+6 timing and contrl outputs:
+    - SYNC
+    - DBIN
+    - WAIT
+    - nWR
+    - HDLA
+    - nINTE
+4 inputs:
+    - READY
+    - HOLD
+    - INT
+    - RESET
+
+Regesters:
+    - PC
+    - SP
+    - 8 bit: B,C D,E and H,L
+
+ALU:
+    - 8 bit accumulator
+    - 8 bit temporary accumulator (ACT)
+    - 8 bit temporary reg (TMP)
+
+Every instruction cycle consists of 1, 2, 3, 4, 5 machine cycles.
+
+1. Fetch - 4 states: fetches instruction by PC. PC++, decoding
+2. A memory read - 3 states: in Z register.
+3. A memory read - 3 states: in W
+4. A memory write - 3 states: from L
+5. A memory write - 3 states: from H
+
+Instruction set:
+    - data transfer group - move data between registers or between memory and registers
+    - arithmetic group - add, subtract, increment,
+    - logical group
+    - branch group
+    - stack, I/O
+
+Addressing mode:
+    - direct - bytes 2 or 3 contain exact address of the data item (lsb)
+    - register - specifies reg or reg pair in which the data is located
+    - register indirect - reg pair which contains the memory
+    - immediate - contains data
+
+Branch instruction:
+    - direct - next instruction
+    - register indirect
+
+Symbols:
+    - accumulator = A
+    - addr = 16 bit
+    - data = 8 bit
+    - data 16 = 16 bit
+    - byte 2
+    - byte 3
+    - port - 8 bit
+    - r, r1, r2 - one of the regs: A, B, C, D, E, H, L
+    - ddd, sss - dest and src one of regs
+        - 111   A
+        - 000   B
+        - 001   C
+        - 010   D
+        - 011   E
+        - 100   H
+        - 101   L
+   - rp = reg pair  B = B,C D = D,E H = H,L SP
+        - 00    BC
+        - 01    DE
+        - 10    HL
+        - 11    SP
+   - rh - first (hig-order) reg of pair
+   - rl - second (low-order) reg of pair
+   - PC
+   - SP
+   - rm bit m of reg r (7-0)
+   - Z = zero, S = sign, P = parity, CY - carry, AC = auxiliary carry
+
+- Data transfer group
+    - MOV r1, r2 (move register)    (r1) <--- (r2)
+            0   1   D   D   D   S   S   S
+            cycles: 1, states: 5
+            addressing: register
+            flags: none
+    - MOV r, M  (move from memory)  (r) <--- ((H)(L) memory location)
+            0   1   D   D   D   1   1   0
+            C: 2, S: 7, A: reg. indirect, F: none
+    - MOV M, r (move to memory)     ((H)(L)) <--- (r)
+            0   1   1   1   0   S   S   S
+            C: 2, S: 7, A: reg. indirect, F: none
+    - MVI r, data   (move immediate)    (r) <--- (byte 2)
+            0   0   D   D   D   1   1   0
+            C: 2, S: 7, A: immediate, F: none
+    - MVI M, data   (move to memory immediate)  ((H)(L)) <--- (byte 2)
+            0   0   1   1   0   1   1   0
+            C: 3, S: 10, A: immediate/reg indirect, F: none
+    - LXI rp, data 16 (load register pair immediate) (rh) <-- (byte 3) (rl) <-- (byte 2)
+            0   0   R   P   0   0   0   1
+            C: 3,   A: immediate, F: none
+    - LDA addr  (load accumulator direct)   (A) <--- ((Byte3)(byte2))
+            0   0   1   1   1   0   1   0
+            C: 4,   A: direct; F: none
+    - STA addr  (store accumulator direct)  ((byte3)(byte2)) <-- A
+            0   0   1   1   0   0   1   0
+            C: 4,   A: direct.  F: none
+    - LHLD addr (load H and L direct)   (L) <-- ((byte3)(byte2)) H <--((byte3)(byte2) + 1)
+            0   0   1   0   1   0   1   0
+            C: 5    A: direct   F: none
+    - SHLD addr (store H and L direct)  ((byte3)(byte2)) <--- (L) ((byte3)(byte2) + 1) <--- H
+            0   0   1   0   0   0   1   0
+            c: 5    A: direct   F: none
+    - LDAX rp   (load accumulator indirect)     (A) <--- ((rp))
+            0   0   R   P   1   0   1   0
+            C: 2    A: reg indirect F: none
+    - STAX rp   (store accumulator indirect)    ((rp)) <--- (A)
+            0   0   R   P   0   0   1   0
+            C: 2    A: reg indirect F: none
+    - XCHG      (exchange H,L with D,E)  (H) <-> (D)  (L) <->(E)
+            1   1   1   0   1   0   1   1 
+            C: 1    A: reg  F: none
+
+- arithmetic
+    - ADD r (add register)  (A) <-- (A) + (r)
+            1   0   0   0   0   S   S   S
+            C: 1    A: reg  F: all
+    - ADD M (add memory) (A) <-- (A) + ((H)(L))
+            1   0   0   0   0   1   1   0
+            C: 2    A: reg. indirect    F: all
+    - ADI data (add immediate)  (A) <-- (A) + (byte 2)
+            1   1   0   0   0   1   1   0
+            C: 2    A: immediate    F: all
+    - ADC r (add reg with carry)    (A) <-- (r) + (CY)
+            1   0   0   0   1   S   S   S
+            C: 1    A: reg  F: all
+    - ADC M (add memory with carry) (A) <-- (A) + ((H)(L)) + (CY)
+            1   0   0   0   1   1   1   0
+            C: 2    A: reg indirect F: all
+    - ACI data (add immediate with carry)   (A) <-- (A) + (byte 2) + (CY)
+            1   1   0   0   1   1   1   0
+            C: 2    A: immediate    F: all
+    - SUB r (subtract reg) (A) <-- (A) - r
+            1   0   0   1   0   S   S   S
+            C: 1    A: reg  F: all
+    - SUM M (subtact memory) (A) <-- (A) - ((H)(L))
+            1   0   0   1   0   1   1   0
+            C: 2    A: reg indirect F: all
+    - SUI data (subtract immediate) (A) <-- (A) - (byte 2)
+            1   1   0   1   0   1   1   0
+            C: 2    A: immediate    F: all
+    - SBB r (subtract reg with borrow)  (A) <-- (A) - (r) - (CY)
+            1   0   0   1   1   S   S   S
+            C: 1    A: reg  F: all
+    - SBB M (subtract memory wiht borrow)   (A) <- (A) - ((H)(L)) - (CY)
+            1   0   0   1   1   1   1   0
+            C: 2    A: reg indirect  F: all
+    - SBI data (subtract immediate with borrow) (A) <-- (A) - (byte 2) - (CY)
+            1   1   0   1   1   1   1   0
+            C: 2    A: immediate    F: all
+    - INR r (increment reg) (r) <-- (r) + 1
+            0   0   D   D   D   1   0   0
+            C: 1    A: reg  F: Z,S,P,AC
+    - INR M (increment memory)  ((H)(L)) <-- (((H)(L)) + 1
+            0   0   1   1   0   1   0   0
+            C: 3    A: reg indirect F: Z,S,P,AC
+    - DCR r (decrement register)    (r) <-- (r) - 1
+            0   0   D   D   D   1   0   1
+            C: 1    A: reg  F: Z,S,P,AC
+    - DCR M (decrement memory)  ((H)(L)) <-- ((H)(L)) - 1
+            0   0   1   1   0   1   0   1
+            C: 3    A: reg indirect: F: Z,S,P,AC
+    - INX rp    (increment reg pair)    (rh)(rl) <-- (rh)(rl) + 1
+            0   0   R   P   0   0   1   1
+            C: 1    A: reg  F: none
+    - DCX rp    (decrement reg pair)    (rh)(rl) <-- (rh)(rl) - 1
+            0   0   R   P   1   0   1   1
+            C: 1    A: reg  F: none
+    - DAD rp (add register pair to H and L) (H)(L) <-- (H)(L) + (rh)(rl)
+            0   0   R   P   1   0   0   1
+            C: 3    A: reg  F: CY
+    - DAA (decimal adjust accumulator)
+            The 8 bit number in the accumulator is ajusted to form two four-bit
+            BCD digits
+            0   0   1   0   0   1   1   1
+            C: 1            F: all
+- logical group
+    - ANA r (And reg)   (A) <-- (A) and (r)
+            1   0   1   0   0   S   S   S
+            C: 1    A: reg  F: all
+    - ANA M (And mem)   (A) <-- ((H)(L)) and (A)
+            1   0   1   0   0   1   1   0
+            C: 2    A: reg indirect F: all
+            
+
+
