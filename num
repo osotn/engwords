@@ -34,4 +34,13 @@ then
 echo " without (*), where *=n,v,adj,..."
 fi
 
-
+if [ "$1" = "-a" ]
+then
+(
+    for f in translations/*
+    do
+        (cat ${f} 2>/dev/null; echo;) | grep '{'
+    done
+) | wc -l | xargs echo -n # remove \n 
+echo " with {tag}"
+fi
