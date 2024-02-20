@@ -1,0 +1,73 @@
+Overloading.
+Just adding, changing, or omitting a single character often
+gives you a program that is still valid but does something
+entirely different.
+Worse than that, many symbols are "overloaded" - given different meaning
+when used in different contexts.
+
+    static      inside function: retains its value between calls
+                at the function, level: visible only in this file
+    extern      function definition: has global scope (is redundant)
+                variable: defined elsewhere
+    void        return type of a function: doesn't return a value
+                in pointer declaration, the type of a generic pointer
+                in parameter list: takes no parameters
+    *           operator: multiplication
+                pointer: indirection
+                Declaration: a pointer
+    &           operator: bitwise AND
+                address-of operator
+    <=          less than or equal to operator
+    <<=         compound shift left assignment operator
+    <           less than operator
+    <           left dilimiter in #include
+    ()          enclose formal parameters in fucntion
+                make a function call
+                expression precedence
+                covert (cast) a value to a different tyep
+                define macro with argument
+                call macro with argument
+                enclose the operand the size in typename
+
+
+Some of the operators have the wrong precedence
+-----------------------------------------------
+    *p.f        => expect (*p).f but  . higher than *
+    int *ap[]   => [] is higher than * - array of int *
+    int *fp()   => () is higher than * - function returning int*
+    (v&m != 0)  => != is higher than & -
+    (c=get()!=5 => == is higher than = (assignment)
+    m<<4 + l    => +  is higher than <<
+    i=1,2       => =  is higher , 
+
+Precedence:
+    
+ lr 1.  ++  --          suffix/postfix increment and decrement
+        ()              function call
+        []              array subscripting
+        .               structure and union member access
+        ->              structure and union member access via pointer
+        (type){list}    compound literal (C99)
+ rl 2.  ++ --           prefix inclrement and decrement
+        + -             unary plus/minus
+        ! ~             logical NOT and bitwise NOT
+        (type)          cast
+        *               indirection (reference)
+        &               address of
+        sizeof          sizeof(int) sizeof a
+ lr 3.  * / %
+    4.  + -
+    5.  << >>
+    6.  < <= > >=
+    7.  == !=
+    8.  &               bitwise AND
+    9.  ^               bitwise XOR
+   10.  |               bitwise OR
+   11.  &&              logical AND
+   12.  ||              logical OR
+   13.  ?:              ternary condition
+rl 14.  =               simple assignemt
+        += -= *= /= %= <<== >>= &= ^= |=
+lr 15.  ,
+        
+

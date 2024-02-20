@@ -52,6 +52,8 @@ Lesson 2.3: ON OPERATORS AND MOTIONS
 		     
 Lesson 2.4: USING A COUNT FOR A MOTION
     ** Typing a number before a motion repeats it that many times. **
+    Type 2w to move the cursor two words forward.
+    0 - to move to the start of the line.
 
 Lesson 2.5: USING A COUNT TO DELETE MORE
     ** Typing a number with an operator repeats it that many times. **
@@ -62,7 +64,7 @@ Lesson 2.6: OPERATING ON LINES
 
 Lesson 2.7: THE UNDO COMMAND
     ** Press  u	to undo the last commands,   U  to fix a whole line. **
-   Type CTRL-R a few times
+   Type CTRL-R a few timesx
        to redo the commands (undo the undo's).
 
 Lesson 3.1: THE PUT COMMAND
@@ -74,6 +76,7 @@ Lesson 3.2: THE REPLACE COMMAND
 Lesson 3.3: THE CHANGE OPERATOR
     ** To change until the end of a word, type  ce . **
    Notice that  ce  deletes the word and places you in Insert mode.
+                cc  does the same for the whole line.
 		       
 Lesson 3.4: MORE CHANGES USING c
     ** The change operator is used with the same motions as delete. **

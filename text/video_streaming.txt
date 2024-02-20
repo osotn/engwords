@@ -1,0 +1,137 @@
+500 years from the Gutenberg introduced the printing press.
+100 years of moving image - cinematography 1890s by Lumiere brothers and Edison.
+50 years - television - bringing moving images into the home.
+Multimedia CD-ROM
+
+Streaming media and webcasting often are used synonymously.
+Webcasting embraces both streaming and file download.
+Streamed media is delivered direct from the source to the player in real time.
+
+A normal unicast stream over IP uses a one to one connection between the server and the client
+(the media player).
+
+The development of streaming has benefited from a very wide range of disciplines.
+We can thank the neurophysiologists for the research in understanding the psychoacoustics of
+human hearing that has been so vital to the design of audio compression algorithms.
+Similar work has led to advances in video compression.
+The information technology engineers constantly are improving content delivery within the
+framework of the existing Web infrastructure.
+
+L7 - application, presentation, session, transport (TCP/IP), network (IP), Link (ARP), physicals
+
+UDP - ignore data errors.
+
+E-mail			SMTP		TCP
+Remote terminal 	Telnet		TCP
+Web			HTTP		TCP
+File transfer		FTP		TCP
+Remote file server 	NFS		UDP
+Streaming media		RTSP		UDP
+Voice-over IP		-		UDP
+Network management      SNMP		UDP
+Routing protocol	RIP		UDP
+Name Translation 	DNS		UDP
+
+Real time protocols: RSVP, RTCP (RT Control P), RTSP (RT Streaming P), RTP, SDP (session desc P).
+
+Intimately linked to real-time delivery is the quality of service (QoS).
+To ensure the reliable delivery of packets, the network bandwidth would have to be reserved for the stream.
+
+RTP = transport protocol. Includes extra data fields not present in TCP, it provides a time stamp
+and sequence number to facilitate the data trasport timing:
+	- sequence number	16bit to detect packet loss
+	- Timestamp		jitter calculation
+	- Source identifier: SSRC
+Run on UDP:
+
+RTCP is used in conjunction with RTP. It gives feedback to each participant in an RTP session
+that can be used to control the session.
+
+SDP = session description protocol - media desc format
+
+RTSP - application level protocol for the control of real time multimedia data.
+Extensible framework rather than a protocol. It allows interactive, VCR like control of the playback:
+Play, Pause, so on. Similar to HTTP, but has state of a session.
+
+RTSP support the use of RTP as underlying data delivery protocol: choice - UDP, multicast UDP, TCP.
+
+WWW = World Wide Web
+Universal adoption of the web browser as the user interface.
+Original Web was text based.
+
+Terminal <========> Mainframe
+
+Client app <======> Database server
+
+Web client <======> Multi layer model: Web server, application server, database server
+
+The web browser is becoming the de facto thin client.
+So, although a stand alone media player can request files directly from the content server and
+play stand alone, the players most often are embedded in the web client.
+
+WWW is the generic name for all the web pages that can be accessed via the Internet.
+At the heart lies the Hyper Text Markup Language (HTML). Hypertext is electronic text that has
+cross links within the document and between documents.
+
+HTML is a language developed to describe how text, graphics, and other information are formatted
+into documents, and how those documents are organized and linked together.
+Only text - images and media files are referenced by linked.
+
+XML - extensible Markup language - for generic data exchange between applications.
+
+HTTP = Hyper Text Transport Protocol for delivery of HTML files.
+It is used for application level communication between the browser and the web server:
+	- requests			- responsed
+The headers indicate the purpose of a request - URI = URL / URN
+HTTP uses RTSP, SMTP, FTP = over TCP/IP.
+
+A basic web browser will render HTML files into a screen image.
+Text is sent as straight ASCII like format; the font properties are sent separately as tags and
+rendered by the browser to give the appropriate display. Text formatting codes give positional
+information for the text, and enable the author to use other devices like tables and forms.
+
+The source files for bit-mapped images are potentially very large, which leads to long download
+times - unpopular with users.
+
+GIF = graphic interchange format = raster graphic into compact file.
+PNG = portable network graphics
+JPEG = joint photographic experts group.
+
+Animating pages: is a halfway house to streaming. = Macromedia Flash
+GIF, Flash, DHTML
+
+Video Formats
+=============video 2 cameras stream cpu board
+Capture or ingest
+Frame rates - 25 or 30 frames per second.
+
+Video compression
+================
+- lossy (1:20)  and - loseless (1:3)
+
+
+
+======
+
+Raspberry Pi (with multiple  camera module)
+
+MIPI CSI, USB, Ethernet
+
+ESP32 CAM
+
+Processor boards: for MIPI:
+    - NVIDIA Jetson Nano/TX2
+    - NXP i.MX Mini/Nano
+    - Qualcomm QCS610
+
+v4l = device drivers and API for support realtime video capture
+FFmpeg - tools, start rtsp server from v4l2 via rtsp -> livestream
+
+v4l2rtspserver or ffmpeg or vlc server or GStreamer gst-rtsp-server
+
+Задержки -  1) RTSP over UDP
+            2) уменьшить network caching setting player
+
+
+ffmpeg (static text, srt) / GStreamer (GstBaseTextOverlay - textoverlay) / OpenCV
+

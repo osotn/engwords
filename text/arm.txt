@@ -1,0 +1,15 @@
+ARM
+===
+An executable computer program is, ultimately, just a series of numbers that have very little or no meaning to a human being - stream of numbers - that is called the instruction stream.
+
+A simplified model of a computer system consists of:
+	- memory
+	- input/output devices
+	- CPU
+That connected together by a system bus.
+
+Modern computers execute instructions sequentially.
+The next instruction to be executed is at the memory address immediately following the current instruction.
+
+One of the registers in CPU - PC = program counter.
+

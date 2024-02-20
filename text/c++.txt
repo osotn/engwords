@@ -1,0 +1,13 @@
+Lipman C++11
+
+int main()
+{
+    return 0;
+}
+
+std::endl - manipulator
+:: scope operator
+
+
+
+

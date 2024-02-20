@@ -990,3 +990,47 @@ If the sides of two acute or two obtuse angles are parallel each to each, the
 angles are equal.
 
 
+
+Elementary geometry
+===================
+All math reasoning is founded on certain simple principles, the truth of which
+is so evident that they are accepted without proof. These are called axioms.
+
+Point has position, but is said to have no magnitude.
+Line has length, but is said to have no breadth.
+Surface has length and breadth, but no thickness.
+Solid has length, breadth, and thickness.
+
+A solid is bounded by surfaces.
+A surfaces is bounded by lines
+A line is bounded by points
+
+A line may be straight or curved.
+
+Axiom: There can be only one straight line joining two given point.
+       Two straight lines cannot enclose a space.
+
+A plane is a flat surface, the test of flatness being that if any two points
+are taken in the surface, the straight line between them lies wholly in that surface.
+
+When two straight lines meet at a point, they are said to form an angle.
+( lines = arms, point = vertex )
+
+Axioms: if O is a point in a straight line AB, then a line OC, which turns about O
+from the position OA to the position OB, must pass through one position, and only
+one, in which it is perpendicular to AB.
+        All right angles are equal.
+
+Angle < 90 degrees = acute
+Angle > 90 degrees = obtuse
+Angle = 180 degrees = straight
+
+To bisect means to divide into two equal parts.
+
+Axioms: 1. If a point O moves from A to B along the straight line AB, it must pass
+        through one position in which it divides AB into two equal parts.
+        2. If a line OP, revolving about O, turns from OA to OB, it must pass
+        through one position in which it divides the angle AOB into two equal
+        parts.
+
+

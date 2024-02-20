@@ -81,6 +81,309 @@ Lecture 1.
         mdev -s
 
         
+Top 60 Linux interview questions:
+=================================
 
+Bash - Bourne Again Shell, by Steve Bourne - bash, sh - original.
+LILO - boot loader for Linux.
+
+Memory allocation:
+    kmalloc(), kcalloc(), kfree()
+
+Spinlock:
+    synchronization primitives used in the kernel to protect shared resources
+    from concurrent access by multiple threads.
+    A spinlock is a type of lock is held by a thread until it is released.
+    When thread attempts to acquire a spinlock that is already held by
+    another thread, it spins in a loop, repeatedly checking the lock status
+    until it becomes available.
+    Critical section is expected to be very short, and the overhead of a semaphore
+    or a mutex would be too high.
+
+Kernel threads
+    Kernel threads are threads that run in kernel space rather than user space
+    Access to kernel resources. By  kernel_thread() in kernel space.
+
+System calls
+    a way for user level programs to request services from the kernel.
+    They are used to interact with the kernel and access various system
+    resources such as files, processes, and devices.
+    Handled by the kernel system call interface
+
+Debug Linux kernel module/driver
+    1. printk()
+    2. kernel debugger KGDB
+    3. strace, ltrace
+    4. kernel probes to monitor kernel events
+    5. JTAG
+
+Procfs and sysfs
+    virtual filesystems - to access to various system information - 
+    running processor
+
+Slab allocator
+    Memory management subsystem to allocate and manage kernel object, such as
+    file desc, network buffers. Memory in fixed size objects called slabs.
+
+IPC
+    Pipes - data
+    Message queues
+    Shared memory
+    Semaphores
+
+
+GL Linux kernel lectures:
+=========================
+1.
+    Overall instructions on how to:
+        - obtain
+        - build
+        - flash upstream software
+    on BBB board.
+
+Beagle Bone Black - it's open hardware
+
+ccache tool is used to speed up the compilation time of bit C projects.
+
+Toolchains:
+    - is a bunch of tools for cross compiling programs for the architecture different
+    than host architecture. Consists:
+        - C compiler, linker, tools (gcc, ld, as, cpp).
+        - libc
+        - GDB
+        - tools for binaries (readelf, objdump, etc)
+
+Two kinds of toolchains: (arm-eabi- and arm-linux-gnueabihf-)
+    - Baremetal (EABI) - for building programs being run without OS
+    - Linux toolchain - for building user space programs being run under Linux OS
+
+Baremetal toolchain:
+    from linaro org arm-eabi
+    and put to /opt/
+Linux toolchains:
+    + libc (glibc) relies on syscall kernel interface.
+    from linaro org arm-linux-gnueabihf
+
+Install: make, git, libncurses5-dev libssl-dev bc bison flex
+
+U-boot
+======
+clone from git.denx.de
+git checkout v2019.01
+git revert --no-edit d30ba2315ae3
+
+export PATH=/opt/gcc-linaro-...-eabi/bin:$PATH
+export CROSS_COMPILE='ccache arm-eabi-'
+export ARCH=arm
+
+make am335x_boneblack_defconfig
+make -j4
+
+Output: MLO (first stage bootloader) + u-boot.img (second stage bootloader)
+
+Kernel
+======
+kernel.ofg
+git clone kernel.org
+git checkout linux-4.19.y
+
+export PATH=/opt/gcc-linaro-...-eabi/bin:$PATH
+export CROSS_COMPILE='ccache arm-eabi-'
+export ARCH=arm
+
+makeconfig multi_v7_defconfig
+make -j4 zImage modules am335x-boneblack.dtb
+
+-> Image / dtb.
+
+BusyBox
+=======
+git clone git.busybox.net
+git checkout 1_29_stable
+
+export PATH=/opt/gcc-linaro-...-linux-gnueabihf/bin:$PATH
+export CROSS_COMPILE='ccache arm-linux-gnueabihf'
+export ARCH=arm
+
+make defconfig
+make -j4
+make install 
+
+_install/etc/init.d/rcS - script mount, mdev -s
+
+/boot <-- kernel image, dtb, system.map .config
+
+/lib/modules/$(uname -r)
+export INSTALL_MOD_PATH=~/repos/busybox/_install
+export ARCH=arm
+make modules_install
+
+Add dynamically linked - libc.so libm.so ld-linux.so
+
+/etc <-- mdev 
+
+
+========
+QEMU boot
+ = is a software emulator for various machines, like ARM boards (virtual machine).
+ qemu-system-arm
+
+CPIO archive
+cd _install
+find . | cpio -o -H -newc | gzip > ../rootfs.cpio.gz
+
+qemu-system-arm -kernel _install/boot/zImage -initrd rootfs.cpio.gz -machine virt -nographic -m 512
+               --apend "root=/dev/ram0 rw console ..."
+
+
+Formatting SD card: 
+
+
+=====
+
+C magic in Linux Kernel world:
+    zero overhead / low overheard
+    
+    size_t  offsetof(type, member)
+    type *containter_of(ptr, type, member)
+
+    #define offsetof(type, member) ((size_t)&((type*)0)->member)
+    
+    #define container_of(ptr, type, member) ({                \
+        const typeof( ((type *)0)->member ) * __mptr = (ptr): \
+        (type *)( (char *)__mptr - offsetof(type, member) );})
+
+Linked list:
+------------
+doubly linked circular lists
+In common cases they use stub head to hold reference to the whole list, not just pointer.
+
+struct list_head;
+
+Hash tables
+-----------
+
+Binary search Trees (BST)
+-------------------------
+
+
+Timers, delays, Deferred work
+-----------------------------
+RTC based on HW clock - when system is off.
+System timers (low resolutions): system ticks (100,250,1000 Hz) - support system time - <timer.c>
+High resolution timer <hrtimer.c> - higher than 1 ms
+
+u64 get_jiffies_64()
+
+struct timespace, struct timeval
+
+HZ - second !
+
+get_cycles() architecture independent function
+
+ndelay(), udelay(), mdelay()
+
+Timer - timer, hrtimer
+
+Tasklets and work queues
+------------------------
+Top and bottom half processing:
+    Top half =>     interrupt context
+    bottom half=>   kernel context
+    driver =>       kernel context
+
+Interrupt -> save context -> interrupt handler -> ISR -> resotre context - 
+
+Three types of bottom halves:
+    - softirgs      =>  interrupt context => None serialization
+    - tasklets      =>  interrupt context => Against the same tasklet
+    - work queues   =>  process context   => None
+
+Soft irqs
+---------
+Each processor has its own thread that is called ksoftirqd/n for every n processor
+Softirq statical open_softirq function
+ - executed with all interrupts enabled and a given softirq can run simultaneously on
+   multiple CPUs;
+ - The executed once all interrupt handlers have completed - in interrupt context (no sleeping)
+ - numbers is fixed in system
+
+Tasklets
+--------
+ - with all interrupts enabled, but guaranteed to execute on a single CPU at a time;
+ - can be declared statically by macros or dynamicaly with tasklet_init() function.
+   in Tasklet of Hi softirq
+
+Work queues
+-----------
+ - general mechanism for deferring work - not only in handling interrupts
+ - in thread - can be sleeping
+
+Kernel threads:
+--------------
+
+Kthread worker - ?
+------------------
+
+
+
+lecture 7 - Interrupt Handling
+=============================
+Interrupt is simply a signal that the hardware can send when it wants the processor's attention.
+Linux handles interrupts in much the same way that it handles signals in user space.
+For the most part, a driver need only register a handler for its device's interrupts, and handle
+them properly when they arrive.
+
+The kernel keeps a registry of interrupt lines, similar to the registry of I/O ports.
+int request_irq(unsigned int irq, Irqreturn_t (*handler)(int, void*), flag, *dev_name, *dev_id)
+void free_irq()
+
+Threaded interrupt handlers - !!! has quick_check_handler() - to check if need interrupt.
+
+Platform device driver
+======================
+
+struct platform_device { }
+
+struct platform_driver  dummy_driver { .driver = { .name = DRV_NAME,}, .probe = dummy_probe, .remove = dummy_remove}
+
+platform_get_resource () by name, irq, mem_region
+
+Access I/O ioread8(), ...
+
+Device Tree -  dts -> | dtc compiler | -> dtb
+Bootloader <-- reads and gives it to linux kernel
+
+Character devices
+=================
+Devices are accessed through names in the filesystem, those names are called special files or device
+file or simply nodes of the filesystem tree (stored in /dev).
+Linux kernel represents character and block devices as pairs of numbers <major>:<minor>
+
+/dev/<name> in user space  ===> <major>:<minor> in kernel -> device driver <minor>
+
+Operations: llseek, read, write, read_iter, write_iter, iterate, poll, unlocked_ioctl, compact_ioctl, mmap, open,...
+
+
+Memory management in Linux
+=========================
+
+Virtual memory organization:  top kernel space, bottom current process space.
+CPU -> MMU -> Physical address space (I/O memory, Flash, RAM).
+
+1 GB = (0xc0000000+) - kernel space; 3 GB - user memory
+
+mm_struct: .start_stack, .mmap_base, .brk (heap), .start_data, .start_code.
+
+4 GB virtual address space is divided into pages - 4kB - 2 MB or 1 GB on 64bit
+MMU uses TLB or page table to translate a virtual address into a physical memory address
+	page <==> frame
+
+Each process has a pointer (mm_struct->pgd) to its own Page Global Directory.
+
+Access => via Kernel : VFS, Network, syscalls => slab allocator, zoned buddy allocator => MMU (page cache)
+
+DMA and Device Drivers
+======================
 
 

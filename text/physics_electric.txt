@@ -1,0 +1,82 @@
+8.02x - MIT Physics II: Electricity and Magnetism
+
+Physics is beautiful.
+Electricity and magnetism is all around us.
+
+Light itself is an electromagnetic phenomenon as radio waves are.
+
+Nucleus: p+ and n.
+Mass of proton and neutron = 1.7 10^-27 kg
+
+atom: nucleus and electron
+
+nucleus = 10^-12 cm
+atom    = 10^-8 cm
+
+Electric fluid.
+
+Conductor - metals
+
+Friction.
+
+     r
+q1 <--> q2
+
+v_r1,2 - vector to q2 from q1
+v_F1,2 - force
+v_F2,1
+
+Coulomb
+
+v_F1,2 = q1 q2 K v_r1,2 / r^2,  K= 9 10^9, K = 1/(4pi eps_0)
+                                eps_0 = 
+
+1 Coulomb (C), mC
+
+
+q_p+ = q_e = 1,6 10^-19 C
+
+Gravity = m1 m2 * G / r^2
+
+Electro field
+Q+     q
+
+v_F = q Q K v_r / r^2
+
+v_E = v_F/q = Q K v_r / r^2
+
+
+
+Electric Flux
+-------------
+
+Electrostatic Potential Energy - U
+Electric Potential V
+
+
+------------------------------
+Feynman Volume 2
+
+Electrical force is about a billion billion billion times stronger than gravitation.
+Gravity is only attraction, but electrical forces can be either repel or attract.
+
+It mixture positive protons and negative electrons.
+
+F (electric force) = q ( E (electric field ) + v B (magnetic field))
+
+Flux of velocity through the surface   =  it just equal to the component of the
+velocity perpendicular to the surface times the area of the surface.
+
+But electric field is not the velocity of anything.
+Electric flux.
+
+The flux of E through any closed surface = the net charge inside / constant epsilon
+
+Many physicists used to say that direct action with nothing in between was inconcievable.
+
+
+
+
+
+
+

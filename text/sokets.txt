@@ -1,0 +1,43 @@
+TCP = Transfer/Transmission Control Protocol
+IP = Internet Protocol
+
+WWW = World Wide Web
+
+The Internet consists of the following groups of networks:
+	- Backbones: large NAP = Network access points, IXP = Internet Exchange Points;
+	- Regional
+	- Commercial
+	- Local
+
+Multiple networks interconnected by routers.
+
+=======
+IoT - Internet of Things
+
+OSI:
+	7. Application
+	6. Presentation
+	5. Session
+	4. Transport
+	3. Network
+	2. Data Link
+	1. Physical
+
+Physical - voltage level, pins, radio frequency
+Data Link - protocol for directly communication between to nodes - framing, error detection (and correction), flow control
+Network - transmi data sequence (packets).
+Transport - reliably deliver between hosts, splitting up data, recombining, ensuring data arrives
+Session - adding methods to establish, checkpoint, suspend, resume, and terminate dialogs
+Presentation - data structure and presentation for an application are defined - data encoding, serialization, encryption and handled
+Application - user interfaces
+
+L7 - Web browser, HTTP used to transmit web pages.
+
+Chunks of data are oftern referred to by different names depending on the OSI layer they are on. L2 - frame, L3 - packet, L4 - segment / datagram
+
+TCI/IP model - Network Access, Internet, Host-to-host, process/application.
+
+IP in two versions: IPv4 and IPv6.
+
+
+

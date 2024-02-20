@@ -1,2 +1,36 @@
+
+Larch Networds:
+===============
+Networking, C, embedded Linux user/kernel, U-boot
+ROS operation system - CPSS - Marvell, Prestera PP (old & new).
+
+
 minicom -D /dev/tty
 Ctrl+A+X quite, Ctrl+A+T setting
+
+
+
+Cambium - GL
+============
+WiFi, Linux Kernel - Qualcomm SoC
+
+Siklu
+=====
+WiGig 60GHz
+DPDK - Qualcomm, Marvell Armada
+buildRoot
+
+Jungo - Cisco
+=============
+OpenRG - industrial residential gateway
+
+Mock-ups: ARM mc
+
+
+Melexis
+=======
+Automotive, MISRA/LDRA -  LIN/SENT ..
+
+DSP / FPGA
+==========
+
