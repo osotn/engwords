@@ -1,0 +1,83 @@
+Two choice:
+	- use the functions written by the vendor to access the peripherals.
+	- access the peripheral special function registers directly using C language
+
+Widely available compilers:
+	- Keil
+	- IAR
+
+Ultra-low-power STM32L0,1,4 - 32..80MHz
+Mainstream STM32F0,1,3 - 48..72MHz
+High-performance STM32F2,4,7 , H7 0 120..400MHz
+
+ST_LINK part = mini USB 
+
+
+
+Development toolchain.
+STM = STMicroelectronics
+
+STM is a company that designs and manufacturers MCUs.
+Nucleo - 32/64/144 - number of pins in MCU chip.
+
+Processor is the ARM Cortex M-4 32-bit processor.
+Cortex M4:
+	- full featured ARMv7-M 
+	- FPU
+	- Low power 32 bit processor
+	- MPU
+	- NVIC (nested vector interrupt controller)
+	- trace, breakpoint, JTAG
+Has Harvard architecture.
+
+ST LINK - SWD
+
+NVIC - implemented both in hardware and software.
+An interrupt is a disruption in the normal flow of a program initited by an external or temporal event.
+
+ISR stands for interrupt service routine.
+Save PC and some number of register (depends on MCU model).
+Vector interrupt list.
+
+NVIC:
+	- preemption and interrupt nesting: can be preempted by an exception having a higher priority
+	- tail chaining: 
+
+Keil, IAR
+
+In 1971 TI TMS1000 is the first microcontroller, had RAM, ROM and 8-bit processor and on-board clock.
+Intel 8048.
+
+Intel 8051 - EEPROM
+
+Toolchain - to create and debug software run on a MCU.
+Consists:
+	- editor;
+	- cross-compiler;
+	- support libraries;
+	- linker/loader
+	- debugger
+Most of the toolchain are often integrated into single application called IDE.
+
+
+1. Arduino IDE
+2. Keil
+3. IAR
+4. STMCube32MX
+
+ST-LINK - software is the next part of the toolchain.
+The USB ST-LINK driver.
+OpenOCD - on chip debugger
+
+STM32CubeMX - is free from STM.
+CubeMX is a fairly complex utility because it is intended to encompass nearly all the MCUs
+and development boards that STM offers and automatically generating C code that
+developers can easily use in their programs:
+	- select STM family
+	- specific IP
+	- ST HAL
+	- external libraries
+
+
+ARM Cortex Microcontroller Software Interface Standard (CMSIS):
+	ARM - IP to all the Cortex based MCUs, has created an interface standard that allows for efficient cross vendor software development. 

@@ -39,5 +39,85 @@ TCI/IP model - Network Access, Internet, Host-to-host, process/application.
 
 IP in two versions: IPv4 and IPv6.
 
+Address:
+========
+All Internet Protocol traffic routes to an address. IPv4 addresses are 32 bits long.
+	0.0.0.0
+	127.0.0.1
+	10.0.0.0
+	192.168.0.1
+	255.255.255.255
 
+127.0.0.1 - loopback to myself
+Private ranges: 10.0.0.0 ... 10.255.255.255
+		172.16.0.0 ... 172.31.255.255
+		192.168.0.0 ... 192.168.255.255
+
+Using CIDR = Classless Inter Domain Routing
+	10.0.0.0/8
+CIDR notation works by specifying the number of bits that are fixed.
+
+IPv6 are 128 bits long - 2001:0db8:0000:0000:0000:ff00:0042:8329
+	::1 - loopback
+	fec0::/10 - site-local
+	fe80::/10 - link-local addresses
+
+
+Domain names:
+============
+DNS - Domain Name System
+
+Multicast, broadcast, and anycast
+---------------------------------
+When a packe is routed from one sender to one receiver, it uses unicast addressing.
+Broadcast addressing allows a single sender to address a packet to all recipients.
+Multicast is a one to many connunication.
+Anycast addressed packets are used to deliver a message to one recipient whtn you don't care who that recipient is.
+
+Socket
+------
+A socket is one end point of a communication link between systems.
+It's an abstraction in which your application can send and receive data
+over the network, in much the same way that your application can read
+and write to a file using a file handle.
+Open socket 5 tuple consisting:
+	- local IP address
+	- local port
+	- remote IP address
+	- remote port
+	- protocol (UDP or TCP)
+
+There are a few different socket application programming interfaces (APIs)
+The first were Berkeley sockets, which were released in 1983 with 4.3 BSD Unix.
+It was adopted as a POSIX standard with little modification.
+Windows API is called Winsock.
+
+Historically, sockets were used for inter process communication (IPC) as well as varius network protocols.
+
+Two basic types:
+	- connection oriented (TCP)
+	- connectionless (UDP)
+
+
+Socket functions:
+	- socket()	creates and initializes a new socket
+	- bind()	associates a socket with local IP and port
+	- listen()	on server to cause a TCP socket to listen for new connection
+	- connect()	on client to set the remote address and port + connection
+	- accept()	on server to create a new socket for an incoming connection
+	- send(), recv(), sendto(), recvfrom() - to/from if without a bound remote address
+	- close()
+	- shutdown()	close one side of TCP
+	- select()	wait for an event
+	- getnameinfo() getaddrinfo()
+	- setsockopt()
+	- fcntl()
+	- read(), write() only Berkeley, also poll(), dup()
+
+Client:	getaddinfo() -> socket() -> connect() -> send() / recv() -> close()
+Server: getaddinfo() -> socket() -> bind() -> listen() -> accept() -> send() / recv() -> close()
+
+UDP: without connect() / listen() / accept()
+
+int socket()
 

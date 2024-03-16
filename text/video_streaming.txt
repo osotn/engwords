@@ -101,7 +101,7 @@ Animating pages: is a halfway house to streaming. = Macromedia Flash
 GIF, Flash, DHTML
 
 Video Formats
-=============video 2 cameras stream cpu board
+=============
 Capture or ingest
 Frame rates - 25 or 30 frames per second.
 
@@ -109,29 +109,29 @@ Video compression
 ================
 - lossy (1:20)  and - loseless (1:3)
 
+JPEG
+The compression of a single image in the spatial domain is called intraframe - within the frame.
+Video editing systems have used an extension to JPEG called motion JPEG, where the video
+sequince is compressed as a sequence of individual frames.
+
+A sequence of video images has a little change from one picture to the next, except at scene
+changes. This redundancy can be exploited by transmitting only the difference between
+successive pictures. - interframe (additional 3:1)
+
+Visual perception:
+
+====================
+CSI interface (15 pins) = camera serial interface
+ - or Ethernet, USB, HDMI
+
+v4l2 (video4linux) + ffmpeq from /dev/video0 + rtsp stream
+GStreamer + VLC 
+
+Raspberry Pi with multi camera adapter, Jetson Nano, 
 
 
-======
+Delay - 1) as transport for rtsp using UDP instead TCP
+	2) VLC отключить кеширование сетевых потоков в настройках
+===================
 
-Raspberry Pi (with multiple  camera module)
-
-MIPI CSI, USB, Ethernet
-
-ESP32 CAM
-
-Processor boards: for MIPI:
-    - NVIDIA Jetson Nano/TX2
-    - NXP i.MX Mini/Nano
-    - Qualcomm QCS610
-
-v4l = device drivers and API for support realtime video capture
-FFmpeg - tools, start rtsp server from v4l2 via rtsp -> livestream
-
-v4l2rtspserver or ffmpeg or vlc server or GStreamer gst-rtsp-server
-
-Задержки -  1) RTSP over UDP
-            2) уменьшить network caching setting player
-
-
-ffmpeg (static text, srt) / GStreamer (GstBaseTextOverlay - textoverlay) / OpenCV
 

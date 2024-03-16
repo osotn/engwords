@@ -48,7 +48,7 @@ Precedence:
         .               structure and union member access
         ->              structure and union member access via pointer
         (type){list}    compound literal (C99)
- rl 2.  ++ --           prefix inclrement and decrement
+ rl 2.  ++ --           prefix increment and decrement
         + -             unary plus/minus
         ! ~             logical NOT and bitwise NOT
         (type)          cast
@@ -66,8 +66,406 @@ Precedence:
    11.  &&              logical AND
    12.  ||              logical OR
    13.  ?:              ternary condition
-rl 14.  =               simple assignemt
+rl 14.  =               simple assignment
         += -= *= /= %= <<== >>= &= ^= |=
 lr 15.  ,
-        
 
+
+Order of evaluation:
+====================
+Maximal munch principle x=y/*z => /* comment or /(*..) = x=y/(*z)
+a+++b = a+ ++b  or a++ + b
+Should always put parentheses around an expression that mixes.
+
+
+Declaration
+-----------
+    int &p; ??? p is address of an integer NO!! in C++ reference on p
+    
+    volatile/const keywords.
+    
+    char (j*)[20]; // j is a pointer to an array of 20 char
+    
+    int * const p; // pointer read-only
+    const int  *p; // object pointer on read-only
+
+Structs
+-------
+struct {stuff ...}
+struct {stuff ...} name
+struct <optional structure tag> {stuff ...} name;
+
+struct date_tag {short dd,mm,yy;} xmas;
+struct date_tag ymas;
+
+Enums = enumerated value
+enum optional_tag {staff ...} variable;
+
+typedef
+-------
+New name for a type rather than reverving space for a variable.
+
+
+C array and pointers
+--------------------
+Arrays are not pointers !!!
+Distinction between the declarations:
+    extern int *x;  - pointer to int
+    extern int y[]; - array of int of unspecified size (incompleted type);
+
+All objects in C must have exactly one definition, and they have multiple
+external declarations.
+
+A definition is the special kind of declaration that creates an objects;
+Declaration indicates a name that allows you to refer to an object
+created here or elsewhere.
+
+The first distinction we must note is between address y and contents of address y. Address (l-value) and contents of address (r-value)
+
+    x = y; // x - address, y - contents of the address
+              l-value      r-value
+
+l-value = left hand side = locator value
+r-value = right hand side
+
+l-value is address, known in compile time.
+r-value is value, unknown in compile time.
+
+r-value => from address and put in register.
+Address of each of symbol is known at compiletime.
+Current value of a pointer must be retrieved at runtime before it can be
+derefenced.
+
+
+    char *p = "12345";
+    char a[] = "12345";
+a[3] both get '4' but do it in different look-ups.
+
+   But with 'extern' it will be other case
+        char a[] = "12345";         a=0x100 |123455
+        
+        extern char *a;
+        a[3] =>  address of a=0x100, get *p = 0x0102 + 3 => garbage
+
+Pointer - holds the address of data
+Array   - holds data
+
+Both arrays and pointers can be initialized with a literal string in their definition.
+Although these cases look the same, different things are happening.
+
+A pointer definition does not allocate space for what's pointed at, only, for the
+pointer, except when assigned a literal string.
+	char *p = "breadfruit"; // correct
+	float *pip = 3.1415; // ! incorrect
+
+string literal "breadfruit" is defined as read-only.
+
+Array can also be initialized with a string literal:
+	char a[] = "gooseberry";
+It contrast to a pointer, an array intitialized by a literal string is writable.
+
+Libraries, Linking, and Loading.
+===============================
+The compiler creates an output file containing relocatable objects.
+These objects are the data and machine instructions corresponding to the source
+programs.
+
+the preprocessor -> the syntactic & the semantic analysis (frond end) -> code generator (back end) -> optimizer -> assembler -> linker-loader
+
+Code generator is written as a stand alone program, it can probably be shared by other languages.
+
+An object file isn't directly executable, it needs to be fed into a linker first.
+
+Static libraries are known as archives = ar -> .a
+Dynamically linked library is created by the link editor - ld. -> .so (shared object)
+
+a.out -> linker output file!!!
+	- magic label 0x011954
+
+Can be in ELF (extensible Linker format), COFF (common object file format).
+All these different formats have the concept of segments in common.
+
+"size" utility - show size of text, data, bss segments in the file.
+
+"nm" "dump" utilities
+
+BSS = Block started by symbol, Better Save Space
+
+auto and static keywords
+------------------------
+automatic variable is allocated on the stack.
+Pointers that have lost their validity in this way are known as dangling pointers.
+static - will ensure that space for the variable is allocated in the data segment
+instead of on the stack.
+
+The storage class specifier auto is never need.
+It is mostly meaningful to compiler writer making an entry in a symbol table.
+
+setjmp() / longjmp()
+--------------------
+setjmp() save a copy of the PC and current pointer to SP.
+then longjmp() restore this value.
+
+C goto can't jump out of current function.
+setjmp() - like as a "come from" statement than a "go to".
+
+The only reliable way to ensure that a local variable retains the value
+that it had at the time of the longjmp is to declare it volatile.
+
+setjmp/longimp - is most useful for error recovery.
+
+Stack
+-----
+On UNIX, the stack grows automatically as a process needs more space.
+
+C Tools
+-------
+cb, indent	- C program beautifier
+cflow		- print the caller/callee
+cscope		- an interactive ASCII based C program browser
+ctags		- creates a tags file for use in vi editor. A tags file speeds up examing program source by maintaining a table of where most objects are located.
+
+dis		- object code disaasembler
+dump
+ldd
+strings
+sum
+ctrace
+
+
+Assembler code in C source
+--------------------------
+For most machine specific things in the depths of the OS kernel.
+like setting specific registers on changing from supervisor mode to user mode.
+
+	banana() { asm("nop"); }
+or
+	__asm {
+		mov ah,2
+		mov dl, 43h
+		int 21h
+		}
+
+Memory architecture
+-------------------
+Modern Intel processors can trace thier heritage all the way back to earliest Intel chips.
+From 4004 4bit, 8008 8 bit, 8085 8-bit, 8086 16-bit, ... 80386 32-bit .. P6 64-bit
+
+8086 = 20 bit address bus = 16 bits + 16<<4 = producing 20 bit address
+	offset - first 16 bits, and segment - second 16 bits.
+
+80386 with two addressing mode:
+	- 32 bit protected mode
+	- virtual 8086 mode
+
+A segment on UNIX is a section of related stuff in a binary.
+A segment in Intel x86 memory model is the result of a design in which - as a 64kBytes region of memory.
+
+C compiler needs to make sure that pointers are compared in canonical form on a PC,
+otherwise two pointers that have different bit patterns but designate the same address
+may wrongly compare unequal.
+The "far" keyword in Microsoft C indicates that the pointer stores the contents of the
+segment register and the offset. The "near" keyword means the pointer just holds
+a 16-bit offset, and it will use the value already in the data or stack segment register.
+
+The real challenge in computer architecture today is not memory capacity, but memory speed.
+The "huge" a 32-bit pointer< and the restriction about all being in one segment is lifted.
+
+char __huge * banana; // __huge to pointer !!
+char  const * banana; //  const to char
+
+Virtual memory
+--------------
+if	is there	can see		= real
+	isn't		can		= virtual
+	is		can't		= transparent
+	isn't		can't		= erased
+
+Moving unused parts out to disk used to be done manually by the programmer.
+	CPU registers => cache memory => main memory => disk => tape
+
+Virtual memory is organized into "pages".
+A page is the unit that OS moves around and protects, typically a few Kbtyes in size.
+
+When a memory image travels between disk and physical memory we say it is being paged in or out.
+The process can be "swapped out".
+A process can only operate on pages that are in memory.
+When a process makes a reference to a page that isn't in memory,
+the MMU generates a page fault.
+Kernel responds to the event and decides whether the reference is valid or invalid.
+If invalid, the kernel signals "segmentation violation".
+If valid, the kernle retrieves the page from the disk.
+Once the page gets back into memory, the process becomes unblocked and can start running again.
+
+SunOS uses an udentical underlying data structure - vnode (virtual node) to manipulate each.
+HAT = hardware address translation
+
+Cache Memory
+-----------
+Cache memory is a further extension of the multi level store concept.
+It is a small, expensive, but extremely fast memory buffer that sits somewhere between the CPU and the physical memory.
+It can be on the CPU side of the MMU, or after. In Sun SPARC it virtual addresses.
+Also it can be after MMU - and be physical addresses that allows easy cache sharing with multiprocessor CPU's.
+
+The cache contains a list of addresses and their contents.
+When the processor wants to retrieve data from a particular address, the request goes first to the cache.
+
+The cache on SPARC 64K of write through data, and a line is 32 bytes.
+
+Cache and virtual memory are both invisible to the applications progremmer.
+	Line	= is the unit of access to a cache. Each line has two parts: a data section, and a tag (address).
+	Block   = The data content of a line is referred to as a block. A block holds the bytes moved
+		  between a line and main memory. Typical block size is 32 bytes.
+	Cache   = consists of a big (64K to 1M) collection of lines.
+
+The data segment and Heap
+------------------------
+The stack segment grows dynamically on demand, so the data segment contains an object that can do this,
+namely, the heap.
+The heap area is for dynamically allocated storage, that is, storage obtained through malloc (memory allocate).
+
+Everything is the heap is anonymous - you cannot access it directly by name, only indirectly through a pointer.
+The malloc (and calloc, realloc, ...) library call is the only way to obtain storage from the heap.
+The calloc() = malloc() + clears the memory to zero before giving you the pointer.
+
+Malloced memory is always aligned appropriately for the largest size of atomic access on a machine, and
+a malloc request may be rounded up in size to some convenient power of two.
+
+malloc() and free() - get memory from heap and give it back to heap
+brk() and sbrk() - adjust the size of the data segment to an absolute value/by an increment.
+
+mmap() munmap() - get and return memory from/to kernel.
+
+Memory leaks
+------------
+Two common types of heap problems:
+	- memory corruption:	freeing or overwritting something that is still in use
+	- not freeing something that is no longer in use
+
+Use alloca() - get memory from stack, will be destroyed after out of block.
+
+Fault
+-----
+OS communicates to faulting process by sending it a signal.
+A signal is an event notification or a software generated interrupt, much used in UNIX.
+Signal handling functions are a part of ANSI C now, and they apply equally to PCs as
+well as UNIX.
+Ctrl-Break  = INT 1B by signal() function to catch.
+Ctrl-C (SIGINT) - <signal.c>
+
+.
+
+Fault
+-----
+OS communicates to faulting process by sending it a signal.
+A signal is an event notification or a software generated interrupt, much used in UNIX.
+Signal handling functions are a part of ANSI C now, and they apply equally to PCs as
+well as UNIX.
+Ctrl-Break  = INT 1B by signal() function to catch.
+Ctrl-C (SIGINT) - <signal.c>
+.
+
+Fault
+-----
+OS communicates to faulting process by sending it a signal.
+A signal is an event notification or a software generated interrupt, much used in UNIX.
+Signal handling functions are a part of ANSI C now, and they apply equally to PCs as
+well as UNIX.
+Ctrl-Break  = INT 1B by signal() function to catch.
+Ctrl-C (SIGINT) - <signal.c>
+.
+
+Fault
+-----
+OS communicates to faulting process by sending it a signal.
+A signal is an event notification or a software generated interrupt, much used in UNIX.
+Signal handling functions are a part of ANSI C now, and they apply equally to PCs as
+well as UNIX.
+Ctrl-Break  = INT 1B by signal() function to catch.
+Ctrl-C (SIGINT) - <signal.c>
+
+
+... = ellipsis
+int printf(const char *format, ...);
+printf(" %d ", sizeof 'A'); // 4 - char to int
+
+K&R function declaration and K&R function definition
+f();          f() int a; int b; {
+
+In K&R function declaration arguments promoted types are passed
+In ANSI C - actual types are passed
+
+
+Finite State Machine in C
+-------------------------
+FSM is a mathematical concept that can be very useful when embodied in a program.
+	void (*state[MAX_STATE])(); // array of pointers to functions.
+
+Cast
+----
+(float) 3
+
+C multidimensional of array is unique:
+arrays of arrays;
+	a[2][3][];
+
+	a[10][20]; //  *( *(a+i) + j)
+
+Array is a Pointer
+-----------------
+Declarations:
+	- declaration of an external array
+	- definition of an array (allocate space, provide an initial value)
+	- declaration of a function parameter - your choice to use an array or pointer - the same
+- Use in expression - your choice to use array or pointer
+
+Lexical elements
+----------------
+1. character set:
+	- 26 latin capital and small letters.
+	- 10 digits
+	- space, horizontal tab, vertical tab, form feed control characters
+	- 29 graphic characters:
+		!	exlcamation makr
+		#	number sign
+		%	persent sign
+		^	circumflex accent
+		&	ampersand
+		*	asterisk
+		(	left parenthesis
+		_	underscore
+		)	right parenthesis
+		- 	hyphen minus
+		+	plus
+		=	equal
+		~	tilde
+		[	left square bracket
+		]	right
+		'	apostrophe
+		|	vertical line
+		\	reverse solidus
+		;	semicolon
+		:	colon
+		"	quotation mark
+		{	left curly bracket
+		}	right curly bracket
+		, 	comma
+		.	full stop
+		<	less than
+		>	greater than
+		/	solidus
+		?	question
+
+Additional: backspae, carriage return, $ (dollar sign), @ commercial at, ` grave accent
+Others may appear only in comments.
+
+Whitespace characters:	blank (space), end of line, vertical tab, horizontal tab.
+These characters are ignored except insofar.
+
+Even tokens may be split across lines:
+	if (a == b) x = 1; el\
+	se x = 2;
+
+
+
+	- 

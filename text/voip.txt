@@ -1,0 +1,303 @@
+1. VOIP basics
+2. Taking VOIP to your network
+3. Making the move to VOIP
+4. The part of tens
+
+VOIP is the name of a new communications technology that changes the meaning of the phrase
+telephone call. Stands for voice over Internet Protocol, voice transmitted over a
+computer network.
+
+IPT = IP telephony - uses IP.
+POTS = plain old telephone service, use circuit switched.
+PSTN = public switched telephone network.
+
+All IP phones have NIC (network Interface card).
+MAC = media access control - address of NIC.
+
+The first difference between the VOIP implementation of TCP/IP and the traditional
+data implementation is in the application layer.
+In VOIP call, the application layer utilizes the following three protocols:
+	- NTP	Network time protocol
+	- RTP	RT protocol. Provide end to end network transport functions.
+	- RTCP  RT control protocol. Monitors voice signal delivery and provide control.
+
+VOIP uses UDP.
+
+
+WiFi and VOIP
+-------------
+802.11 IEEE
+802.11a - 54Mbps
+802.11b - 11Mbps
+802.11g - 54Mbps
+
+802.16 - WiMax - 70Mbps - 30 miles
+
+Technology
+----------
+SIP = session initial protocol
+RTP =
+
+
+
+VOIP refers to the process of transporting voice communications over Internet Protocol like the Internet.
+IP Telephony is more general - transport of real time text over IP networks.
+
+TTY - Telecommunications Device for the Deaf (TDD).
+TTY - keyboard, display + modem.
+
+PSTN = public switched telephone networks. Use analog communication between our individual telephones
+and the local switch.
+
+All human speech sounds are formed by forcing air from the lungs through the vocal tract.
+The vocal folds comprise two membranes located in the larynx.
+These membranes allow the area of the trachea tp be varied.
+When air passes through the vocal tract, it introduces short term variations
+(1 ms in duration) into the speech signal.
+The frequencies produced for formants are controlled by the varying shape
+of the vocal tract and the movement of the tongue.
+
+An important component found in many speech codecs is a short term filter that will attempt
+to mimic the human.
+
+During voiced speech, the vocal folds are normally closed.
+Voiced sounds show a high degree of periodicity at the pitch period is typically 2..20 ms.
+For normal speakers, this pitch can be anywhere in the range 50..400 Hz.
+
+During unvoiced speech, the vocal folds are normally open so air can pass freely
+into the rest of the vocal tract. The vocal folds do not vibrate in this process.
+
+Plosive sounds result when a complete closure is made in the vocal tract and
+air pressure that is built up behind this closure is released suddenly.
+
+A speech signal is continuous in time.
+It must be converted into a signal that is discrete in time.
+Sampling is a process that converts a continuous time signal into a discrete time.
+Quantization is defined as a process in which the continuous range of
+values of an analog signal are sampled and divided into nonoverlapping
+subranges.
+
+Waveform coders / decoders (codecs) attempt to produce a reconstructed signal whose
+waveform is a close as possible to the original without using any knowledge of how
+the signal to be coded was generated.
+Some codecs - 16kbps
+
+PCM = pulse code modulation. Band limited 4..8 kHz, 12 bits per sample => 96kbps.
+
+G.711u
+
+A-law coding
+A set to a const value 87.56
+u-law coding
+
+
+G.711 PCM - ITU.
+
+
+Vocoding = voice operated recorder. = analyzer and artificial voice.
+
+G723.1 standard, H.324 family of standards.
+
+Bell Telephone => AT&T
+
+Traditional Handsets
+
+
+Hybrid coding
+-------------
+Waveform coders - down to about 16kbps
+Vocoders can 2.4kbps, but cannot provide natural intelligible speed.
+Abs (Analysis by synthesis) codecs.
+MPE (multi pulse excited).
+RPE (regular pulse excited).
+CELP (code excited linear predictive).
+
+AbS Coding
+----------
+AbS codecs splits the input speech to be coded into frames, typically about 20 ms long.
+For each frame, parameters are determined for a synthesis filter, and then the excitation
+to this filter is determined.
+This is done by finding the excitation signal that, when passed into the given synthesis
+filter, minimizes the error between the input speech and the reconstructed speech.
+Thus the name analysis by synthesis: the encoder analyzes the input speech by
+synthesizing many different approximations to it.
+Finally, for each frame, the encoder transmits information representing the synthesis
+filter parameters and the excitation to the decoder, and at the decoder, the
+given excitation is passed through the synthesis filter to give the reconstucted signal.
+Linear filter about 10 order.
+The synthesis filter may also include a pitch filter to model the long term periodicities
+present in voiced speech.
+
+RCE (regular pulse excited) codec.
+---
+Like the MPE codec, RPE codec uses several nonzero pulses to give the excitation signal.
+
+CELP (code excited liner predictive coding)
+----
+Combination of traditional Linear predictive (LP) modeling of the resonant qualities of the
+vocal tract coupled with complex excitation modeling.
+
+G723.1 Recommendation
+---------------------
+Rates 5.3 .. 6.3 kbps.
+
+G.728 Low delay CELP recommendation
+-----
+
+
+GSM Codec
+---------
+The Global System for Mobile communications (GSM) is a digital mobile radio system is used
+extensively throughout Europe and in many other parts of the world.
+13kbps
+frame 20ms - 8 short term predictor coefficients
+each frame split to 5ms, for each subframe the encoder finds a delay and gain for the codes long term prediction.
+
+2.6 Digital Speech Interpolation
+--------------------------------
+In digital speech transmission, periods of inactivity or constant signal level are used
+to increase the transmission efficiency by insertion of additional signals.
+13kbps
+frame 20ms - 8 short term predictor coefficients
+each frame split to 5ms, for each subframe the encoder finds a delay and gain for the codes long term prediction.
+
+2.6 Digital Speech Interpolation
+--------------------------------
+In digital speech transmission, periods of inactivity or constant signal level are used
+to increase the transmission efficiency by insertion of additional signals.
+13kbps
+frame 20ms - 8 short term predictor coefficients
+each frame split to 5ms, for each subframe the encoder finds a delay and gain for the codes long term prediction.
+
+2.6 Digital Speech Interpolation
+--------------------------------
+In digital speech transmission, periods of inactivity or constant signal level are used
+to increase the transmission efficiency by insertion of additional signals.
+13kbps
+frame 20ms - 8 short term predictor coefficients
+each frame split to 5ms, for each subframe the encoder finds a delay and gain for the codes long term prediction.
+
+2.6 Digital Speech Interpolation
+--------------------------------
+In digital speech transmission, periods of inactivity or constant signal level are used
+to increase the transmission efficiency by insertion of additional signals.
+13kbps
+frame 20ms - 8 short term predictor coefficients
+each frame split to 5ms, for each subframe the encoder finds a delay and gain for the codes long term prediction.
+
+2.6 Digital Speech Interpolation
+--------------------------------
+In digital speech transmission, periods of inactivity or constant signal level are used
+to increase the transmission efficiency by insertion of additional signals.
+13kbps
+frame 20ms - 8 short term predictor coefficients
+each frame split to 5ms, for each subframe the encoder finds a delay and gain for the codes long term prediction.
+
+2.6 Digital Speech Interpolation
+--------------------------------
+In digital speech transmission, periods of inactivity or constant signal level are used
+to increase the transmission efficiency by insertion of additional signals.
+13kbps
+frame 20ms - 8 short term predictor coefficients
+each frame split to 5ms, for each subframe the encoder finds a delay and gain for the codes long term prediction.
+
+2.6 Digital Speech Interpolation
+--------------------------------
+In digital speech transmission, periods of inactivity or constant signal level are used
+to increase the transmission efficiency by insertion of additional signals.
+13kbps
+frame 20ms - 8 short term predictor coefficients
+each frame split to 5ms, for each subframe the encoder finds a delay and gain for the codes long term prediction.
+
+2.6 Digital Speech Interpolation
+--------------------------------
+In digital speech transmission, periods of inactivity or constant signal level are used
+to increase the transmission efficiency by insertion of additional signals.
+13kbps
+frame 20ms - 8 short term predictor coefficients
+each frame split to 5ms, for each subframe the encoder finds a delay and gain for the codes long term prediction.
+
+2.6 Digital Speech Interpolation
+--------------------------------
+In digital speech transmission, periods of inactivity or constant signal level are used
+to increase the transmission efficiency by insertion of additional signals.
+13kbps
+frame 20ms - 8 short term predictor coefficients
+each frame split to 5ms, for each subframe the encoder finds a delay and gain for the codes long term prediction.
+
+2.6 Digital Speech Interpolation
+--------------------------------
+In digital speech transmission, periods of inactivity or constant signal level are used
+to increase the transmission efficiency by insertion of additional signals.
+13kbps
+frame 20ms - 8 short term predictor coefficients
+each frame split to 5ms, for each subframe the encoder finds a delay and gain for the codes long term prediction.
+
+2.6 Digital Speech Interpolation
+--------------------------------
+In digital speech transmission, periods of inactivity or constant signal level are used
+to increase the transmission efficiency by insertion of additional signals.
+13kbps
+frame 20ms - 8 short term predictor coefficients
+each frame split to 5ms, for each subframe the encoder finds a delay and gain for the codes long term prediction.
+
+2.6 Digital Speech Interpolation
+--------------------------------
+In digital speech transmission, periods of inactivity or constant signal level are used
+to increase the transmission efficiency by insertion of additional signals.
+13kbps
+frame 20ms - 8 short term predictor coefficients
+each frame split to 5ms, for each subframe the encoder finds a delay and gain for the codes long term prediction.
+
+2.6 Digital Speech Interpolation
+--------------------------------
+In digital speech transmission, periods of inactivity or constant signal level are used
+to increase the transmission efficiency by insertion of additional signals.
+Human speech is effectively only half duplex.
+Another property of a typical dialogue is the presence of intermittent silence - 50%
+
+DSI (digital speech interpolation) - compression ration 4:1 by active and inactive channel.
+
+3. Telephony
+============
+Human speech is best described as an acoustic, analog waveform signal.
+In an analog telephone, speech is represented as an electric signal with frequency and amplitude.
+Frequency - pitch of human speech.
+Amplitude - volume of human speech.
+
+The traditional telephone handset contains:
+	- a receiver;		- earpiece 
+	- a transmitter;	- mouthpiece
+	- hybrid.
+
+Four wires make up the handset.
+The hydrid device makes this four-wire to two-wire conversion.
+
+The switch hook is located directly below the handset.
+When you lift the handset out of the cradle, the switch hook closes, and
+an electrical current flows through the phone.
+Phone is said to be off-hook - to operate the telephone device.
+
+Side tone is essentially an intentional feedback signal that is an output of a phone's hybrid device.
+
+Dialer is a device one uses to enter a phone number for the party to be called.
+The phone number is, in essence, a digital address.
+For a push-button phone, the caller would press buttons that each generate a unique tone pair
+(dual-tone multi frequency).
+
+VoIP is the term commonly used to refer to support of voice transmissions encapsulated and transmitted
+within the IP packets of a network.
+
+VoIP can offer users advantage as long distance toll bypass, interactive e-commerce, online support and much more.
+
+IP is a connectionless packet-switching protocol.
+IP is called a network layer.
+TCP - reliable transport service on top the routing delivery service provided by IP.
+TCP - sequential packet delivery and error recovery (duplicate).
+UDP - IP+
+RTP - real time protocol use UDP, end to end delivery of real time traffic such as interactive voice and video.
+RTP include stamping, packet sequening, monitoried delivery of voice packet.
+
+IP phone uses RJ-45
+
+

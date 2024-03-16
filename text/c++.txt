@@ -8,6 +8,36 @@ int main()
 std::endl - manipulator
 :: scope operator
 
+The type of an object determines what opertors can be performed on it.
+C++ is a statically typed language.
+
+A reference defines an alternative name for an object.
+&d - refers to
+A reference is not an object. Instead, a reference is just another name for an already existing object.
+
+A pointer is a compound type that "points to" another type.
+Like references are used for indirect access to other objects.
+Unlike references, a pointer is an object in its own right.
+
+constexpr = const expression is an expression whose value cannot change and
+that can be evaluated at compile time.
+
+type alias = typedef
+
+Decltype - returns the type of its operand.
+
+std::vector is a collection of objects, all of which have the same type.
+Every object in the collection has an associated index, which gives access to that object.
+- container because it contains other objects.
+- class template
+
+iterators - all of the library containers have iterators,
+Like pointers, iterators give us indirect access to an object.
+Unlike pointers, we do not use the address of operator to obtain an iterator.
+Instead, types that have iterators have members that return iterators.
+These types have members named begin and end.
+end - one past the end.
+If the container is empty - begin == end
 
 
 

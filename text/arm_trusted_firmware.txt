@@ -1,0 +1,78 @@
+Introduction to Trusted Firmware - A
+
+Arm Trusted Firmware provides a reference implementation of secure world software
+for Armv-8A and Armv8-M. It provides SoC developeres and OEMs with a reference
+trusted code base complying with relevant Arm specifications.
+The code on this website is the preferred implementation of Arm specifications,
+allowing quick and easy porting to modern chips and platforms.
+This forms the foundations of a Trusted Execution Environment (TEE) on application processors,
+or the Secure Processing Environment (SPE) of microcontrillers.
+
+Trusted firmware - A (for Armv-7A, Armv-8A) and Trusted firmware - M (for ARmv-8M).
+Include a secure monitor - executing at Exception Level 3 (EL3).
+
+ARM interface standards:
+	- PSCI:	power state coordination interface;
+	- TBBR: Trusted board boot requirement;
+	- Secure Monitor code.
+
+ARMv6 Non Secure
+	usr:	app
+	svc:	os
+        == ARM SoC==
+We have an open system running in supervisor mode it runs on the ARM CPU and it runs some
+applications.
+
+ARMv7:  - Non-Secure-            - Secure-
+	usr: 	app              usr:	app
+	svc:	os (Windows,Linux,Android,QNX)
+	hyp:	hypervisor (Hyper-V, Xen, KVM, VMware)
+                                 svc:   Trusted OS
+                                 mon:   Secure firmware, Secure Monitor
+	== ARM SoC==
+
+ARMv8:  AArch32                         	AArch64
+	-Non-Secure-            - Secure -      -Non-secure-		-Secure-
+        usr:	app		usr:	app	EL0:	app	        EL0:	app
+        svc:	os		     -		EL1: 	os		EL1:	TrustedOS, Secure Firmware
+        hyp:    hypersisor           -          EL2:    hypervisor      EL2:     -
+                                svc: TrustedOS                          EL3:    Secure Firmware,
+                                mon: Secure F/w                                 Secure Monitor
+                                     Secure Mon	                                ROM firmware
+
+AArch64 - EL1 (operationg system) processor state must saved and restored by the Secure Monitor software.
+	- Separation of the Trusted OS at Secure-EL1 from the Secure Monitor at EL3.
+
+Standardize:
+	- a single kernel image has to work on all platform
+	- SMC Calling Convention - to enable standard and vendor specific firmware services to coexist
+	- PSCI - a firmware interface for CPU power control
+
+
+Diff of Cortex-A and Contex-M
+-----------------------------
+Cortex-A:
+	- Application processor cores
+	- performance intensive
+	- much higher power consumption
+	- large instruction set
+	- meant to run an OS
+Cortex-M:
+	- microcontroller cores
+	- embedded applications
+	- low power consumption
+	- subset of instructions from Cortex-A
+	- Meant to run firmware (basically)
+
+ARM Cortex-A9
+-------------
+Cores 1..4: ARMv7 32b CPU, NEON Data engine, FPU, I-Cache/D-Cache
+
+ARM Cortex-M23
+-------------- TrustZone for ARMv8-M
+Nested Vectored interrup controller - NVIC, Wake-up Interrupt controller
+CPU ARMv8-M Baseline
+Memory protection Unit
+Peripheral
+
+
