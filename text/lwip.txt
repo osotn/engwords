@@ -1,0 +1,27 @@
+book - design and implementation of the lwIP TCP/IP stack
+---
+
+is implementation of the TCP/IP protocol stack.
+
+In order to make lwIP portable, OS specific function calls and data structures are not
+used directly in the code.
+Sychronization provided is semaphores.
+The message passing is done via mailboxes - post and fetch.
+Post - not block process.
+
+pbuf is lwIP - packet.
+
+ip_input() - incoming IP packets.
+ip_output()
+
+ip_route()
+
+forwarding packets - packet be forwarded if no same IP.
+ip_forward()
+
+use IPC: shared memory, message passing, semaphores
+
+netbuf - network buffer
+netconn - network connection
+
+
