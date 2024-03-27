@@ -8,6 +8,140 @@ Level 4: Assembly language
 Level 5: Problem - oriented language
 
 
+A digital computer is a machine that can do work for people by carrying out
+intstuctions given to it. A sequence of instractions describing how to
+perform a certain task is called a program.
+The electronic circuits of each computer can recognize and directly execute
+a limited set of simple instructions into which all its programs must be
+converted before they can be executed.
+
+Together, a computer primitive instructions from a language in which people
+can communicate with the computer.
+Such a language is called a machine language.
+The people designing a new computer must decide what instructions to include
+in its machine language.
+
+Because most machine languages are so simple, it is difficult and tedious for
+people to use them.
+
+There is a gap between what is convenient for people and what is convenient for computers.
+The problem can be attacked in two ways: both involve designing a new set of intstructions
+that is more convenient for people to use than the set of built in machine instructions.
+Taken together, these new instructions also form a language, which we will call L1,
+just as the built in machine instructions form a language, which we will call L0.
+
+One method of executing a program written in L1 is first to replace each instuction
+in it by an equivalent sequence of instructions in L0.
+The resulting program consists entirely of L0 instructions.
+The computer then executes the new L0 program instead of the old L1 program.
+This technique is called translation.
+
+The other technique is to write a program in L0 that taken programs in L1 as input data
+and carries them out by examining each instruction in turn and executing the equivalent
+sequence of L0 instructions directly.
+This technique does not require first generating a new program in L0.
+It is called interpretation and the program that carries it out is called an interpreter.
+
+Translation and interpretation are similar.
+The difference is that, in translation, the entire L1 program is first converted to
+an L0 program, the L1 program is thrown away, and then the new L0 program is loaded into
+the computer memory and executed.
+During execution, the newly generated L0 program is running and in control of the computer.
+
+In interpretation, after each L1 instruction is examined and decoded, it is carried out
+immediately. No translated program is generated. Here, the interpreter is in control of the
+computer. To it, the L1 program is just data.
+
+Both methods, and increasingly, a combination of the two, are widely used.
+Rather than thinking in terms of translation or interpretation, it is often simpler
+to imagine the existence of a hypothetical computer or virtual machine whose machine language is L1.
+Let us call this virtual machine M1.
+People can write programs for virtual machines, just as though they really existed.
+
+To make translation or interpretation practical, the languages L0 and L1 must not be "too" different.
+The obvious approach is to invent still another set of instructions that is more people oriented and
+less machine oriented than L1.
+This third set also forms a language, which we will call L2 (and with virtual machine M2).
+
+L0:	digital logic			-	Hardware
+L1:	microarchitecture level		-	direct execution
+L2:	instruction set architecture    - 	OS
+L3:	OS machine level		-       assembler
+L4:	Assembly language level		- 	compiler
+L5:	Problem oriented language level -	C/C++
+
+Digital logic - gates, register
+Microarchitecture level - collection registes and ALU - data path
+ISA (instruction set architecture) level - manual for each of computers.
+Interpreters and translators are written by people called systems programmers.
+L5 - C, C++, Java, Perl, Python, PHP.
+
+Hardware and software are logically equivalent.
+
+0th gen	- Mechanical Computers (1642-1945)
+1st gen - Vacuum Tubes (1945-1955)
+2nd gen - Transistors (1955-1965)
+3rd gen - Integrated circuit (1965-1980)
+4th gen - very large scale integration (1980-?)
+
+With 1992 PC started to be 64 bits Alpha.
+
+5th gen - low power and invisible computers
+
+Moore law - 60% increase in transistor count per year.
+
+Microcontrollers
+----------------
+The embedded computers, sometimes called microcontrollers, manage the device and handle the user interface.
+
+In this book three popular ISAs:
+	- x86
+	- ARM
+	- AVR
+
+x86
+---
+In 1968 Robert Noyce, inventor of the silicon IC; Gordon Moore, of Moore law fame,
+Arthur Rock, a San Franciso venture capitalist, formed the Intel Corporation
+to make memory chip.
+1970 - Intel 4004 for calculators
+1972 - Intel 8008
+1974 - Intel 8080 - CPU on a chip
+1978 - Intel 8086/8088 Used in IBM
+1982 - Intel 80286 - Memory protection present
+1985 - Intel 80386 - 32 bit CPU
+1989 - Intel 80486 - built in 8 kB cache memory
+1993 - Pentium - two pipelines, MMX
+1995 - Pentium Pro - two levels of cache
+1997 - Pentium II - + MMX
+1999 - Pentium III - SSE for 3D
+2000 - Pentium 5 - Hyperthreading
+2006 - Core Duo - dual cores
+2006 - Core - 64 bit quad core
+2011 - Core i7 - integrated graphics processor
+
+MMX - Multi Media eXtension - speed up computations required to process audio and video.
+SSE - streaming SIMD Extensions, added for enhanced 3D graphics.
+
+Hyperthreading - allowed programs to split their work into two threads of control which
+run in parallel, speeding up execution.
+
+Celeron - from 1999 Intel introduced a new product, which was basically a low price,
+low performance version of the Pentium. 
+Xeon, was a version for upper end of the market, had a larger cache, a faster bus.
+
+In 2003 Intel introduce the Pentium M (as in Mobile), for notebook.
+This chip was part of the Centrino architecture, whose goals were lower power consumption
+for longer battery lifetime; smaller, lighter, built-in wireless WiFi.
+
+All the Intel chips are backward compatible with their predecessors as far back
+as the 8086. In other words, a Pentium 4 or Core can run old 8086 programs without modification.
+
+ARM
+---
+
+ 
+
 0: Digital logic level
     Gates -> transistors.
     

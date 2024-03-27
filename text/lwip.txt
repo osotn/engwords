@@ -25,3 +25,18 @@ netbuf - network buffer
 netconn - network connection
 
 
+8. IP processing
+----------------
+Can send, receive and forward packets.
+But cannot send and receive fragmented IP packets.
+
+For incoming IP packets, processing begins when the ip_input() function is called by
+a network device driver.
+An outgoing packet is handled by the function ip_output(), which use the fucntion
+ip_route() to find the appropriate network interface to transmit the packet on.
+Then to ip_output_if().
+IP address, the gw field.
+
+ip_forward().
+
+

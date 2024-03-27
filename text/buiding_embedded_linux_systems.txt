@@ -1,0 +1,248 @@
+Linux refers only to an OS kernel originally written by Linux Torvalds.
+Kernel has a variety of fundamental abstractions:
+	- virtual memory, task (process), sockets, files, ...
+
+Target Linux system:
+	- determine system components;
+	- configure and build the kernel;
+	- build the root filesystem;
+	- set up boot software and configuration.
+
+Linux workstation:
+	- Debian
+	- Fedora - from Red Hat Linux.
+	- OpenSusE - SusE, after Novell
+	- RHEL = Red Hat Enterprise Linux - commercial distribution from Red Hat
+	- SuSE Linux Enterprise Server (SLES) - commercial
+	- Ubuntu - derivative of Debian.
+	- Yellow Dog Linx - Red Hat Linux for PowerPC from IBM
+
+Unix Workstation
+----------------
+Traditional Unix workstation.
+	- Solaris, OpenSolaris
+	- BSD, OpenBSD, FreeBSD
+
+Types of host - target development setups
+-----------------------------------------
+	- the linked setup;
+	- removable setup;
+	- standalone setup;
+
+Linked setup - target and host are permanently linked together using a physical cable.
+This link is typically a serial cable or an Ethernet link.
+Host contains the cross platform development environment, the target contains an appropriate
+bootloader, a functional kernel, and a minimal root filesystem.
+Alternatively, the target can use remote componets to facilitate development.
+The kernel could, for instance, be available via TFTP, root FS could also be NFS-mounted.
+
+Removable storage setup - no direct physical links between the host and the target.
+Host contains the cross platform development environment.
+The target contains only a minimal bootloader.
+The rest of the components are stored on a removable storage media, such as CompactFlash IDE device,
+MMC Card, or removable storage device.
+
+Standalone setup - self contained development system. Don't need any cross platform development environment.
+
+Debug setups:
+	- serial line;                  - low speed, only one serial port
+	- networking interface;         - network link- kdump (network diagnostics tool).
+	- special debugging hardware    - JTAG
+
+Three main software components in system startup:
+	- the bootloader;
+	- the kernel;
+	- the init process.
+
+The bootloader is the first software to run upon startup and is highly dependent on the target's hardware.
+The bootloader performs low level hardware initialization and then jumps to the kernel's startup code - start_kernel().
+
+The init program in user space. Init is on the root filesystem.
+
+
+Types of boot configurations
+----------------------------
+A network boot configuration - types of network services to the target.
+Not all bootloaders, can boot kernels from disk devices.
+ROM (or flash) is responsible for bootstrapping the system.
+
+Three different setups used to bootstrap an embedded Linux system:
+	- the solid state storage media setup;
+	- the disk setup;
+	- the network setup;
+
+Solid state storage media
+-------------------------
+Storage device holds the initial bootloader, its configuration parameters, the kernel, and the root filesystem.
+Kernel may also be on the root filesystem (if bootloader can read the root filesystem).
+
+Boot storage media are initially programmed using a device programmer - in mass produced devices - or the 
+CPU integrated - JTAG or BDM.
+MTD - memory technology device.
+
+Disk
+----
+For workstations and servers.
+The initial bootloader (sometimes only 512 byte - boot sector) loads a largere and more
+powerful secondary bootloader from the disk or fetches the kernel itself directly from the disk.
+Hard disk or a device mimicking a hard disk, such as Compact Flash.
+
+Network
+-------
+Root filesystem or both the kernel and the root filesystem are loaded via a network link.
+Only bootloader resides on a local storage media, other load (kernel) or use NFS.
+BOOTP/DHCP - to not config IP addresses.
+
+
+Chapter 3
+Hardware support
+----------------
+Linux runs on a large number of machine architectures, arch subdirectory, 8 for embedded Linux systems:
+	- ARM
+	- AVR32
+	- Intel x86
+	- M32R
+	- MIPS
+	- Motorola 6800
+	- PowerPC
+	- Super-H
+
+uCLinux for non MMU - based on Blackfin from Analog Devices and Microblaze from Xilinx.
+
+ARM
+---
+RISC Machine
+ARM Holdings does not manufacture its own processors.
+It designs complete CPU cores for its customers based on the ARM core.
+all ARM processors share the same ARM instruction set.
+	- ARMv4T (Thumb instruction set)
+	- ARMv5TE (Xscale)
+	- ARMv6 (TI-OMAP based devices from Nokia na Apple)
+	- ARMv7
+Thumb - to ses less memory for instruction storage.
+With DSP - E
+Java bytecode support - J
+
+ARM CPUs are manufactured - Marvell, Toshiba, Samsung, ...
+
+AVR32 - from 2006 by Atmel. 
+
+Intel x86 - with 386 .. 486, Pentium, Xeon, Core, ... AMD
+
+M32R - Renesas (old Hitachi)
+
+MIPS
+
+PowerPC - IBM, Apple, Motorula (Freescale)
+
+NXP (Philips).
+
+MTDs:
+-----
+Memory technology devices: ROM, NOR/NAND flash.
+Some flash can be directly memory mapped (NOR flash and ROM devices),
+use special out of band mechanisms to handle rewriting and other actions.
+
+NAND flash, there is no direct memory mapping, and kernel must use bounce buffers
+(copy data from the flash into RAM) before it is able to access the data
+contained within the flash.
+
+
+Chapter 4
+Development Tools
+-----------------
+Need:
+	- compilers;
+	- linkers;
+	- interpreters;
+	- IDE
+	- other
+
+Cross platform development tools.
+
+There are two ways to acquire the tools for embedded development:
+	- download the source code freely and build them;
+	- get binary version compiled by another company - Monta Vista DevRocket and Wind River WorkBench.
+
+Eclipse IDE + plug ins, uses Java GUI that intergrates well with the rest.
+
+Toolchain:
+	- linker
+	- assembeler
+	- archiver
+	- C compiler
+	- C library and headers
+	- extra code libraries
+	- debugger
+	- profiler
+	- memory checker
+	- IDE - frontend
+
+Binary utilites: ld linker, gas assembler, gcc compiler, ar achiver, glibc, gdb, Vargrind memory checker
+
+To building a GNU Toolchain:
+	- build - the build system on which your toolchain
+	- host  - host system on which host
+	- target
+
+cpu-manufacturer-kernel-os
+cpu - el to little endian
+manufacturer - or unknown
+kernel - can ommited
+
+example: i386-pc-linux-gnu
+
+Need also Linux kernel headers.
+Because the C library, is a wrapper that presents a more palatable API.
+ABI or the Linux kernel rarely changes (headers).
+
+make INSTALL_HDR_PATH=headers/ headers_install
+
+Binutils:
+	- as
+	- ld
+	- gasp
+	- ar
+	- nmu - lists the symbols in an object file
+	- objcopy - copies and translates object file
+	- objdump  - about object files
+	- ranlib
+	- readelf - about ELf format object file
+	- size	
+	- strings
+	- strip - strips symbols from object files
+	- addr2line
+
+The standard C library - glibc. ISO C99, POSIX
+
+futex - fast user space mutex - NPTL = New POSIX Threading Library for threads.
+
+Build overview:
+	- linux headers
+	- binary utilities
+	- the bootstrap compiler
+	- the C library
+	- the full compiler
+
+Bootstrap compiler is built with support for C only (without C library).
+
+Process:
+	- unpack
+	- configure
+	- build
+	- install
+
+Using:
+	CROSS_COMPILE =${TARGET}-
+	AS = $(CROSS_COMPILE)as
+
+Buildroot
+=========
+The same configuration build system as Linux kernel.
+
+Terminal emulators
+------------------
+Use a terminal emulation program on the host and communicate through an RS-232 serial port with target.
+
+
+

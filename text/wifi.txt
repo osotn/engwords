@@ -1,0 +1,88 @@
+Wi-Fi - 802.11
+
+is a wireless LAN = WLAN technology.
+AP = access point - 10..30 meters indoors.
+Wi-Fi Alliance (WFA)
+
+802.11n	- Wi-Fi 4
+802.11ac  Wi-Fi 5
+802.11ax  Wi-Fi 6
+
+Wi-Fi in unlicensed spectrum.
+2.4 GHz ISM band, 5 GHz U-NII band.
+
+MAC and PHY
+PHY - converts data bits received from the MAC layer into a radio frequency (RF) waveform for transmission
+and performs the reverse process.
+
+BSS = basic service set
+Ad hoc or peer-to-peer or independent BSS = IBSS
+wireless distribution system = WDS
+Mesh BSS (MBSS)
+
+Infrastructure or BSS is the commonly used network architecture in which all devices
+connect and communicate through a single device called the access point = AP.
+The AP administers network service to all device connected to it, commonly
+reffered to as clients or stations (STAs).
+The AP is connected via a backhaul link to the internet and often has an integrated router capability.
+
+MAC Frame Format
+----------------
+MAC header, MAC frame, FCS = frame check sequence.
+MPDU = MAC protocol data unit
+
+Frame control = 16bytes:
+	protocol version = 2b
+	type		   2b
+        subtype
+	To DS
+	From DS
+	More Fragment
+	Retry
+	Power management
+	More data
+	protected frame
+	order
+Duration
+Address 1 = RA (receiver address)
+Address 2 = TA (transmitter address_
+Address 3 = BSS identifier, SA
+ADdress 4 = BSS --------- , DA
+
+DCF = Distributed coordination function
+CSMA-CD = carrier sense multiple access collision detection.
+
+Frame Type:
+	DAta(10)	0000 Data		Carry data without QoS
+			0100 Null		No data
+			1000 QoS data
+			1100 QoS null
+	Management(00)  1000 Beacon		AP capabilty ad, STA synch, power management
+			0100 Probe req          Active scanning of nearby APs
+			0101 Probe res		Inform STA with AP's capability
+			0000 Association req
+			0001 Association req
+			...
+			1011 Authentication
+	Control(01)	1101 ACK
+
+AP discovery process
+--------------------
+STA must first discover APs, in its vicinity along with each AP's channel. 
+STA performs this discovery by scanning all the allowed channels - 2.4GHz = 11 channels
+STA listens on each channel for beacon frames (sent periodically by APs).
+A network identified by its SSID. Interval = 100 TUs, 1 time unit = 1025 us: 100TU ~= 10ms!!!
+STA goes to each channel, broadcasts a management frame called probe request frame with SSID.
+
+Sometimes, one physical AP can be configured to function as multiple virtual APs.
+
+STA completes scanning all channels, it decides which AP to connect based on several
+factors such as user configuration, receive signal strenght indicator = RSSI.
+Once STA determines the best API to connect to, it sends an authentication req.
+The AP sends ACK for auth req and res.
+
+Fragmentation and aggregation - PPDU = AMPDU subframe = MPDU = AMSDU subframe
+PPDU = 2304 bytes, 4,484 ms
+
+2.2 PHY Layer overview
+----------------------

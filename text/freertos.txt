@@ -1,0 +1,112 @@
+ARM Cortex-M3 edition.
+
+FreeRTOS is real time kernel (or scheduler) on top of Cortex-M3.
+Most Cortex-M3 have only one core, and only a single thread can executing at any one time.
+The kernel decides which thread should be executing by examining the priority
+assigned to each thread by the application designer.
+Each thread is called Task.
+Idle task is created automatically when the kernel is started.
+It executes whenever there are no application tasks wishing to execute.
+The idle task can be used to measure spare processing capacity, to perform
+background checks.
+
+Include:
+	- pre-emptive or co-operative operation
+	- very flexible task priority assignment
+	- queues
+	- binary semaphores
+	- counting semaphores
+	- recursive semaphores
+	- mutexes
+	- tick hook functioin
+	- idle hook function
+	- stack overflow checking
+	- trace hook macros
+	- lilcensing
+
+Two separate FreeRTOS ports:
+	- FreeRTOS-MPU - tasks can execute in either User Mode or Privieleged mode.
+	- FreeRTOS (original) - not all Cortex-M3 include MPU hardware
+
+FreeRTOS - 6k Flash, n*100 bytes RAM.
+
+Task Management
+---------------
+Task is C functions:
+	void aTaskFunction(void *pvParameters);
+Not be allowed to return, only delete.
+
+void aTaskFunction(void *pvParameters)
+{
+	for (;;)
+	{
+	}
+
+	vTaskDelete(NULL);
+}
+
+Not Running <---> Running
+
+Creating Tasks:
+	portBASE_TYPE	xTaskCreate(pdTASK_CODE		pvTaskCode,    // pointer pointer
+			            const signed char *const pcName,   // name, for debuggging
+				    unsigned short      usStackDepth,  // in 32 bits wide, 100 = 400 bytes
+                                    void              *pvParameters,   // 
+                                    unsigned portBASE_TYPE uxPriority, // Priority - 0=lowest, to configMAX_PRIORITIES-1 
+                                    xTaskHandle       *pxCreatedTask); // NULL ?
+Result: pdTrue or errors
+
+In main() - vTaskStartScheduler()
+
+
+Ready vTaskSuspend() - Suspeneded -> vTaskResume()
+      blocking       - blocked
+
+To delay:
+	vTaskDelay(portTickType xTickToDelay); // in tick interrupt = portTICK_RATE_MS = ms into ticks.
+	vTaskDelay(250 / portTICK_RATE_MS);
+
+portTickType xLastWakeTike = xTaskGetTickCount();
+
+Idle hook - vApplicationIdleHook()
+
+
+Queue Management
+----------------
+Autonomous task will have to communicate with each other.
+Queue is the underlying primitve used by all FreeRTOS communication and synchronization mechanisms.
+
+Queue normally are used FIFO buffers where data is written to the end (tail) of the queue and
+removed from the front (head).
+
+Create queue - 
+xQueueHandle	xQueueCreate(unsigned portBASE_TYPE uxQueueLenght,
+			     unsigned portBase_TYPE uxItemSize);
+
+xQueueSendToBack() = xQueueSend()
+xQueueSendToTop()
+
+portBASE_TYPE	xQueueSendToFront(xQueueHandle	xQueue,	       //
+				  const void   *pvItemToQueue, // pointer to data.
+				  portTickType xTicksWait);    // 0 - return immediately
+Result: pdPASS, or errors: full,
+
+xQueueRecieve() - get
+xQueuePeek() - get without removed
+
+result: pdPASS or empty.
+
+Get items numbers uxQueueMessagesWaiting()
+
+3. Interrupt Management
+-----------------------
+A binary semaphore can be used to unblock a task each time a particular interrupt occurs,
+effectively synchronizing the task with the interrupt.
+The interrupt processing is said to have been deffered to a handler task.
+Task 'take' (P()) - xSemaphoreTake()  and ISR 'give' (V()) - xSemaphoreGiveFromISR().
+It can be considered as a queue with a lenght of one.
+Only one item.
+
+vSemaphoreCreateBinary()
+
+
