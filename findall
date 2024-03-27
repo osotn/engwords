@@ -1,0 +1,15 @@
+#!/bin/sh
+
+tabs="\t\t\t"
+
+for f in translations/*
+do
+    (
+        if [ "$1" = "-w" ]
+	then
+	    echo -n ${f} ${tabs} | sed "s/.*\///"  # remove translation/ part
+	fi
+	cat ${f} 2>/dev/null; 
+	echo;
+    ) 
+done 
