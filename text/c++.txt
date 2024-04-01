@@ -39,5 +39,28 @@ These types have members named begin and end.
 end - one past the end.
 If the container is empty - begin == end
 
+Iterators support only a few operations:
+	- ==, !=
+	- *iter - return element
+	- iter->mem
+	- ++/--
+
+Arrays is data structure that is similar to the library vector type, but offers a different trade-off
+between performance and flexibility.
+
+precedence and associativity
 
 
+
+
+Chapter 7. Classes
+------------------
+Data abstraction = separating the implementation of an object from the operations that that object can perform.
+	interface and implementation
+
+The fundamental ideas behind classes are data abstraction and encapsulation.
+	Interface of a class consists of the operations that users of the class can execute.
+	The implementation includes the class' data members, the bodies of the functioins
+	that constitue the interface, and any functions needed to define the class that are not intended for general use.
+
+Encapsulation enforces the 

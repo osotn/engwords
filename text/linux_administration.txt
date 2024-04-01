@@ -1,0 +1,33 @@
+Setting up the environment:
+	- linux distributions
+	- installing Ubuntu in a VM
+
+A Linux distribution is an OS made from a software collection that is based upon the Linux kernel
+and, often, a package management system. It includes:
+	- the Linux Kernel
+	- the GNU shell utilites
+	- the graphical desktop environment and more
+
+
+The Linux Kernel archieves - www.kernel.org
+
+	- Red Hat
+	- CentOS
+	- Ubuntu
+	- OpenWrt
+	- Linux Mint
+	- MX Linux
+	- Kali Linux
+
+Virtual Box - Oracle VM.
+
+LTS Ubuntu - 5 years, 22.04 - Focal Fossa
+
+sudo apt update
+sudo apt full-upgrade
+clear
+
+cd
+ls
+
+
