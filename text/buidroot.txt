@@ -1,0 +1,10 @@
+Last stable release 2017.05
+
+wget buildroot
+tar
+ls configs/...  defconfig
+make xxx_defcong -> .config
+make menuconfig
+make xconfig
+make savedefconfig
+make 

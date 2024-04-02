@@ -1,0 +1,104 @@
+CCTV = Closed-circuit televion, also known video surveillance.
+Use of video cameras to transmit a signal to specific place, on a limited set of monitors.
+It differs from broadcast television in that the signal is not openly transmitted,
+though it may employ P2P, P2MP (point-to-multipoint), or mesh wired or wireless links.
+
+2.
+Light and television
+--------------------
+Light is one of the basic and greatest natural phenomena, vital not only for life on this planet,
+but also very important for the technical advancement and inqenuity of the human mind in the
+visual communication areas: photography, cinematography, television, and multimedia.
+The main source light for our planet is our closest star - the sun.
+
+Light is the single biggest stumbling block of science.
+It behaves as though it is a wave - through the effects of refraction - but is also appears as
+thoough it has particle nature - throught the well known phot effect discovered by Hertz.
+It a phenomenon of a dual nature.
+
+Maxwell asserted that light was a form of high frequency electromagnetic wave.
+Speed of light = 300,000 km/s
+Photo effect, where light can eject electrons from a metal whose surface is exposed to light.
+The energy with which the electrons were ejected was independent of the light intensity,
+which was in turn contradictory to the wave theory.
+Quantum energy of photons, which represent minimum packets of energy carried by the light
+itself.
+
+The human eye is sensitive to this radiation and it picks up the various frequencies as colors.
+Wavelengths.
+The visible light occupies only a very little window in the range. Between 380 to 750 nm.
+400 nm = violet, and 700 nm = red.
+Maximum sensitivity in green color, around 555 nm.
+
+Body het is nothing more than infrared radiation.
+
+Retina is photosensitive area, which is composed of millions of cells, called cones and rods.
+These cells can be considered a part of our nervous system.
+The cones are sensitive to the medium and bright intensity of light and colors.
+The rod cells are sensitive to lower light (night vision), and they do not distinguish colors.
+There are approximately 10 million cones in each eye, and the number of rods is over 100 million.
+30 degree is considered a standard angle of vision.
+
+SLR = single lens reflex
+
+Two eyes produce images that when mixed in our brain, give a stereoscopic #D impression of the
+volume of space.
+
+
+Primary sources (the sun, street lights, tungsten lights, monitor CRTs, LEDs)
+Secondary sources (all objects that do not generate light but reflect it)
+
+Luminous intensity (I) is the illuminating power of a primary light source, radiated in all directions.
+The unit - candella (cd).
+One candela is approximately the amount of light energy by an ordinary candle.
+
+Luminous flux (F) is the luminous intensity but in a certain solid angle.
+Unit - lumens (lm).
+One lument is produced by luminous intensity of 1 cd in one radian of a solid angle.
+
+1 watt of light power with 555 nm (green color) produces approximately 680 lm.
+
+Illumination (E) is the most commonly used term in CCTV for secondary sources of light.
+The illumination of a surface is the amount of luminous flux on a unit area.
+
+lux (lx) - square meter x candelas
+
+E = Flux / Area [lx]
+F = I x w [lm]
+
+Sunny = 100,000 lux
+Sunny with some clouds = 10,000 .. 100,000 lux
+overcast sky = 100 .. 10,000
+home/office lighting = 100 - 1000
+Street light (night) = 1 - 10
+Candle = 1  --- 1 sq m on 1 m
+Full moon = 0,1
+Young moon = 0,01
+clear night without moon = 0,001
+dark cloudy night = 0,0001
+
+Luminance (L) describes the brightness of the surface or source of light.
+
+Illuminometer (lux-meter) is an instrument designed to measure the illumination
+of objects of interest.
+
+SLR = Single Lens Reflex camera
+DSLR = Digital SLR
+
+3.
+Optics in CCTV
+--------------
+Concept refraction and reflection
+
+When a light lay traveling through air or a vacuum enters a denser medium, like glass or water,
+it reduces its speed by a factor n (always bigger than 1) known as the index of refraction.
+Speed of light in air is 300,000 km/s - almost the same as in vacuum.
+Glass - n=1,5 - 200,000 km/s
+
+Lenses as optical elements - convex i(positive focal lenght) and concave (negative focal length).
+
+4.
+General about TV systems
+------------------------
+Motion picture revolution.
+

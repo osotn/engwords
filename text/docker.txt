@@ -31,3 +31,29 @@ Image (file) -> container (process)
 
 
 
+        +-----------+
+        + Container + <-- app, libs, envs
+        +-----------+-------------------+
+        +             Docker            +
+        +-------------------------------+
+        +              OS               +
+        +-------------------------------+
+        +            Hardware           +
+	+-------------------------------+
+
+Linux:    only Docker
+Windows:  Linux Virt OS + Docker
+
+Dockerfile <-- libs, settings, ...
+Dockerfile --> Docker image --> Docker hub (or private repositories)
+
+Local Docker regestry:
+	docker pull image_name
+	docker run image_name
+
+Download and intall Docker - docker
+
+docker ps # all running containters
+
+
+
