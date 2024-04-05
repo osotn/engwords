@@ -66,7 +66,28 @@ Frame Type:
 			1011 Authentication
 	Control(01)	1101 ACK
 
-AP discovery process
+2.1.2 MAC Frame Format and Types
+--------------------------------
+The MAC layer sends the data to be transmitted in a particular frame format to the PHY layer.
+{MAC header, MAC frame body, FCS}.
+MAC frame is MPDU - protocol data unit, MAC frame body = MSDU - MAC service data unit
+
+Types of MAC frames:
+	- data frames;
+	- management frames;
+	- control frame.
+
+Management frames have a structured payload composed of some fixed length fields
+and one or more variable length fields called information elements (IEs).
+
+2.1.3 Medium Access Rules
+-------------------------
+The rules of WiFi medium access are described by the distributed coordination function (DCF)
+protocol that is built upon the carrier sense multiple access collision detection (CSMA-CD) protocol
+used in Ethernet (IEEE 802.3).
+The  transceiver in WiFI is half duplex, while it is full duplex in the case of Ethernet.
+
+2.1.4 AP discovery process
 --------------------
 STA must first discover APs, in its vicinity along with each AP's channel. 
 STA performs this discovery by scanning all the allowed channels - 2.4GHz = 11 channels
@@ -84,5 +105,79 @@ The AP sends ACK for auth req and res.
 Fragmentation and aggregation - PPDU = AMPDU subframe = MPDU = AMSDU subframe
 PPDU = 2304 bytes, 4,484 ms
 
+
+2.1.8 Fragmentation and Aggregation
+-----------------------------------
+MSDU can either be fragmented or aggregated.
+
+Fragmentation - MAC header and FCS are then added to each fragmentd MSDU.
+The more fragment subfield in frame control field of MAC header is set to 1
+for all fragmented MSDUs except the last one and the fragment number is
+indicated in the sequence control field of MAC header.
+
+Aggregation - new generation of WiFi, the PHY data rate increases, resulting in 
+reduction of the PHY payload airtime, while the duration of the PHY header
+either becomes longer for backward compatibility or remains the same.
+
+PHY header | PSDU = AMPDU
+            AMPDU subframe 1 | ...
+            |MPDU|
+            |AMSDU|
+	    |AMSDU frame 1|...
+               |MSDU|
+
+AMSDU is an aggregation of multiple MSDUs.
+AMSDU subframe = containing DA, SA, MSDU
+FCS files is present only at MPDU level, the receiver cannot acknowledge individual MSDUs
+and the entire MPDU has to be retransmitted in the event of FCS failure.
+
+AMPDU is an aggregation of multiple MPDUs which becomes the payload for the PHY layer known as physical layer.
+
+MSDU = 2304 bytes
+MPDU = MAC header + 3839 (AMSDU)
+AMPDU = 8K to 1 M (VHT) or 64 (HT)
+PPDU = 5.484 ms !!!
+
+
+
+
 2.2 PHY Layer overview
 ----------------------
+The PHY layer has a transmitter and receiver module.
+The transmitter module maps the PSDU from MAC layer to RF waveform
+that is transmitted using an antennas as an electromagnetic wave.
+
+PHY layer transmitter creates a PPDU by appending the PLCP header
+and PLCP preamble to the PSDU.
+
+802.11b is 2.4GHz band = 1, 2, 5.5, 11 Mbps.
+There is no error correction coe is 22 MHz.
+PLCP header is 48 bits = Signal 8b, Service 8b, Length 16b, CRC 16b.
+PLCP preamble = 144 us (long) or 72 us (shot).
+
+802.11a based on OFDM technology.
+20 MHz, 64 BPSK = binary phase shift keing 
+PLCP preamble = 8us 
+
+802.11g OFDM 
+
+802.11n - 2 and 5 GHz, spatial multiplexing based on MIMO OFDM.
+Error correction code = LDPC
+20 us PLCP preamble
+
+802.11ac - only 5 GHz for 256 QAM
+Transmit beamforming
+MU (multi user beamformer).
+
+
+Chapter 3.
+WiFi 6
+802.11ax focused on increasing peak data rates, muliple clients. BPSK to 1024 QAM
+
+
+Chapter 4
+WiFi Security
+-------------
+Security protocol called wired equivalent WEP - old.
+WPA
+
