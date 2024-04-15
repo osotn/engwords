@@ -3,6 +3,8 @@ cat 			(n) {A1} {animals} кошка, кот; (v) блевать
 cats 			-es: (n) {A1} {animals} кошка, кот; -es: (v) блевать
 crocodile 			(n) {B1} {animals} крокодил
 deer 			(n) {B2} {animals} олень, I: deer-deer (plural)
+dog 			(n) {animals {pets}} собака, пес, кобель, псина; (v) преследовать
+dogs 			-es: (n) {animals {pets}} собака, пес, кобель, псина; (v) преследовать
 hare 			(n) {C1} {animals} заяц
 herd 			(n) {C1} {animals} стадо; (v) {C2} {farming} пасти, примкнуть
 herds 			-es: (n) {C1} {animals} стадо; -es: (v) {C2} {farming} пасти, примкнуть

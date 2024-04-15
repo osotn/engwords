@@ -1,0 +1,25 @@
+SDIO = 
+
+Secure Digital = SD
+on MultiMediaCards (MMCs)
+
+Integrated WiFi - several companies produce SD cards with build in WiFi transveivers supporting static security.
+The card lets any digital camera with an SD slot transmit captured images over a wireless network, or store
+the images on the card's memory until it in in range of a wireless network.
+
+These devices can use the SD slot to support:
+	- GPS receives;
+	- modem
+	- barcode readers
+	- FM radio
+	- TV tuners
+	- RFID readers
+	- digital cameras
+	- WiFi, Bluetooth, Ethernet and IrDA
+
+It is now more common for I/O devices to connect using the USB interface.
+
+BL-M8822CS1 module - SDIO3.0 on Realteak RTL8822CS !
+
+Host interface is SDIO 1.1/2.0/3.0
+

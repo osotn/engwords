@@ -1,0 +1,19 @@
+Linux wireless network.
+=======================
+
+Data application
+	system call
+	socket layer
+	network protocols
+	net_def
+	ethernet driver
+
+Management, wap_supplicatn, hostapd, iw
+	nl80211, cfg80211
+	mac80211
+	WiFi driver
+
+Wireless subsytem contains two major blocks:
+	cfg80211 - provides configuration 
+	mac80211
+

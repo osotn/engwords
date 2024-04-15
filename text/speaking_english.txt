@@ -361,3 +361,16 @@
     private         public
     teacher         student
     urban           rural
+    safe            dangerous
+    true            false
+    whole           part
+    best            worst
+    yes             no
+    begin           end
+    conceal         reveal
+    employer        employee
+    fresh           stale
+    landlord        tenant
+    melt            freeze
+    negative        positive
+    optimistic      pessimistic
