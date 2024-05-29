@@ -181,3 +181,383 @@ WiFi Security
 Security protocol called wired equivalent WEP - old.
 WPA
 
+
+==================
+The most successful wireless networking technology this far has been 802.11.
+
+The most obvious advantage of wireless networking is mobility.
+
+Like all networks, wireless networks transmit data over a network medium.
+The medium is a form of electromagnetic radiation.
+Radio waves can penetrate most office obstructions and offer a wider
+coverage range.
+
+Wireless devices are contrained to operate in a certain frequency band.
+Each bandwidth, which is simpy the amount of frequency space in the band.
+
+S-Band 2.4-2.5GHz
+C-Band 4-8GHz
+C-Band Radar (weather) - 5.25-5,925Ghz
+X-Band 8-12GHz
+
+ISM: Industrial, Scientific, and Medical
+	Microwave oven - 2.4Ghz
+ISM bands are generally license free.
+
+
+Wi-Fi = Wireless Fidelity
+
+1997:	802.11 standard 2G (included IR, two spread spectrum radio layers:
+				- frequency hopping (FH);
+				- direcct sequence (DS).
+		- 1M, 2M
+1999:   802.11a standard 5G ( + OFDM (orthogonal frequency division multiplexing))
+		- up to 54M
+	802.11b standard 2.4G
+		- + 5.5M 11M
+	802.11g standard 2.4G
+		- up to 54M
+
+MAC address 48bits - the same as for Ethernet.
+
+802 networks have both:
+	- a MACi (medium)	- how to access the medium and send data
+	- a PHY (physical)	- transmission and reception.
+
+802.3 CSMA/CD - Carrier Sense Multiple Access with Collision Detection
+802.2 LLC - Local Link Control
+802.1d - Bridging
+802.1q - VLAN (virtual LAN).
+
+802.11 can use the 802.2/LLC encapsulation.
+
+802.11 specification includes the 802.11 MAC and two physical layers:
+	- frequency hopping spread spectrum (FHSS)
+	- Direct sequence spread spectrum (DSSS)
+802.11a + OFDM
+
+PHY:
+	- PLCP (Physical Convergence Producere) - MAC frame to medium
+	- PMD (physical medium Dependet) - to transmit those frames.
+
+
+4 components of 802.11:
+	- DS (distribution system)
+	- AP (Access point)
+	- Wireless medium
+	- STA (station)
+
+When several AP are connected to form a large coverage area, they must communicate with each other to track the movements
+of mobile stations. To forward frames to their destination: bridging + distribution system medium.
+
+AP perform wireless to wired bridging function.
+
+
+2.2.1 Types of Networks
+-----------------------
+The basic building block of an 802.11 network - BSS = basic service set (group of stations).
+When a station is in the basic area, it can communicate with other members of the BSS.
+
+IBSS = independent BSS. Stations in an IBSS communicate directly with each other and thus must
+be within communication range. Referred to as ad hoc BSS or ad hoc networks.
+
+Infrastructure BSS use of an access point.
+Access points are used for all communications in infrastructure networks. If one mobile station
+in an infrastructure BSS needs to communicate with a second mobile station, the communication
+must be take two hops.
+In an infracstructure network, stations must associate with an access point to obtain network
+service. Association is the process by which mobile station joins an 802.11 network.
+(it equivalent to plugging in the network cable on an Ethernet).
+Mobile stations always initiate the association process, and AP may choose to grant or deny
+access based on the contents of an association request.
+A mobile station can be associated only one access point.
+
+Mobility can cause one of three types of transition:
+	- no transition:	stations do not move out of their current access point
+	- BSS transition: 	stations continuously monitor the signal strength and quality from all APs
+	- ESS transiton: 	movement from one ESS to a second distinct
+
+
+Chapter 3. The 802.11 MAC
+=========================
+As with many other things in life, the more you know, the better off are you.
+
+The standard successfuly adapts Ethernet style networking to radio links.
+Like Ethernet, 802.11 uses a carrier sense multiple access (CSMA) scheme to control access to the transmission medium.
+Collisions waster valuable transmission capacity, so rather than the collision detection (CD) employed by Ethernet,
+802.11 uses collision avoidance (CA). Aslo uses a distributed access scheme with no centralized controller.
+
+3.1 Challenges for the MAC
+--------------------------
+3.1.1 RF Link Quality
+On a wired Ethernet, it is reasonable to transmit a frame and assume that the destination receives it correctly.
+802.11 incorporates positive acknowledgments. All transmitted frames must be acknowledged.
+
+Collisions resulting from hidden nodes may be hard to detect in wireless networks because wireless
+tranceivers are generally half duplex. To prevent collisions 802.11 allows stations to use Request to Send (RTS)
+and Clear to Send (CTS) signals to clear out an area.
+There is the RTS threshold (for frames larger than the threshold).
+
+3.2 MAC Access Mode and Timing
+------------------------------
+Ethernet like CSMA/CA access is provided by the distributed coordination function (DCF).
+Point coordination function (PCF), which is build on top of the DCF.
+To avoid collisions, stations use a random backof after each frame, with the first transmitter seizing the channel.
+
+3.4 Fragmentaion and reassembly
+-------------------------------
+3.5 Frame format
+----------------
+Preamble is part of the physical layer, and encapsulation details such as type and length are present in the
+header on the data carried in the 802.11 frame.
+
+Each frame start with two byte Frame Control subfield.
+	- protocol version
+	- type=00 Management frames
+		- 0000 - association request
+		- 0001 - association response
+		- 0010 - reassociation request
+		- 0011 - reassociation response
+		- 0100 - probe request
+		- 0101 - probe response
+		- 1000 - beacon
+		- 1001 - Announcement traffic indication message (ATIM)
+		- 1010 - Disassociaton
+		- 1011 - Authentication
+		- 1100 - Deauthentication
+	- type=01 Control frames
+		- 1010 - Power Save (PS) Poll
+		- 1011 - RTS
+		- 1100 - CTS
+		- 1101 - ACK
+		- 1110 - Contention Free (CF) End
+		- 1111 - CF-End+CF-Ack
+	- type=10
+		- 0000 - Data
+		- 0001 - Data+CF-Ack
+		- 0010 - Data+CF-Poll
+		- 0011 - Data+CF-Ack+CF-Poll
+		- 0100 - Null data
+		- 0101 - CF-Ack
+		- 0110 - CF-Poll
+		- 0111 - DAta+CF-Ack+CF-Poll
+ ToDS and FromDS bits
+	whether a frame is destined for the distribution system.
+
+Destination address - final recipient
+Source address - 
+Receiver address
+Transmitter address (for bridging)
+
+Basic Service Set Id (BSSID) - stations may be assigned to a BSS.
+
+Sequence control: 4 bits - fragment number, 12 bits - sequence number.
+
+Frame body - data field. Up to 2.304 bytes.
+LLC headers use 8 bytes for a maximum network protocol payload of 2.296 bytes.
+
+As with Ethernet, 802.11 frame closes with a frame check sequence (FCS).
+
+To retrieve buffered frames, newly awakened staion use PS-Poll frames.
+
+Once the staion receives a Beacon frame indicationg that no more traffic is buffered.
+
+Chapter 4. 802.11 Framing in Detail
+-----------------------------------
+4.1 Data frames
+---------------
+Frame Control
+Duration
+
+BSSID is assigned 48 bit binary identifier that distinguishes it from other BSS.
+The major advantage of the BSSID is filtering.
+BSSID ia the MAC address of the wireless interface in the access point creating the BSS.
+
+Authentication Algorithm number field
+	0 - open system authenticatioin
+	1 - shared key authentication
+
+Management Frame Information Elements
+	- SSID: Service set identity - 0 - 32 bytes.
+	- supported rates
+	- ...
+Probe Request - to scan an area for existing 802.11 networks.
+	- SSID
+	- rates supported by the mobile station
+Probe Response
+Association Request
+	- Capability information
+
+Chapter 5. Wired Equivalent Privacy (WEP)
+=========================================
+To protect data, WEP requires the use of the RC4 cipher, which is a symmetric (secret-key) stream cipher.
+Keystream. Keystream is then combined with the message to produce the ciphertext.
+To recover the original message, the receiver processes the ciphertext with an inendtical keystream.
+
+5.2 WEP Cryptographic Operations
+--------------------------------
+
+Chapter 6. Security, Tak2 802.1x
+================================
+The Extensible Authentication Protocol = EAP
+MD-5 Challenge is used to implement the EAP analog of the CHAP protocol.
+Type code 13: TLS
+
+
+Chapter 7. Management Operations
+================================
+MLME = Mac Layer Management Entity
+PLME = physical layer management entity
+SME = system management entity
+
+7.2 Scanning
+------------
+Before using any network, you must first find it.
+The process of idenfifying existing networks in the area is called scanning.
+
+Scans must either transmit a Probe Request or listen on a channel for the existence of a network.
+
+Passive scanning save battery power because it does not require transmitting.
+List and waits for Beacon frames.
+
+In active scanning a station takes a more assertive role.
+On each channel, Probe Request frames are used to solicit responses from a network with a given name.
+Attemps to find the network.
+
+Scan report is generated at the conclusioin of a scan.
+The report list all the BSSs that the scan discovered and their parameters.
+
+The basic rate set is the list of data rates that must be supported by any station wishing to join the network.
+Stations must be able to receive data at all the rates listed in the set.
+
+7.5 Power conservation
+----------------------
+When the transceiver is off, it is said to be sleeping, dozing, or in power saving (ps) mode.
+When the transceiver is on, is said to be awake, active, or simply on.
+
+Chapter 9. Physical Layer Overview
+=================================
+The physical layer is divided into two sublayers:
+	- Physical Layer Convergence Procesure (PLCP)
+	- Physical Medium Dependent (PMD)
+
+9.2 The Radio Link
+------------------
+Frequency hopping (FH) - Orthogonal Frequency Division Multiplexing OFDM
+Direct sequence (DS)   - High Rate Direct Sequence (HR/DS)
+
+FH/FHSS - Frequency hopping - systems jump from one frequency to another in a random pattern
+DS/DSSS - Direct sequence systesm spread the power out over a wider frequency band using mathematical coding functions.
+OFDM    - divides an available channel into several subchannels and encoded a portion of the signal across each subchannel in parallel.
+
+LNA = low-noise amplifier.
+
+
+Frame aggregation
+=================
+Can improve the performance of wireless networks by reducing the overhead with transmitting small packets.
+In a single transmission.
+Packets can be send with single PHY and MAC header.
+There two kind of frame aggregation:
+	- MAC Service Data Unit (MSDU): a-MSDU - with a single PHY header
+	- MAC Protocol Data Unit (MPDU): MPDU has MAC header and trailer: a-MPDU
+
+MSDU = max 2304 bytes
+
+MPDU: [MAC header {MSDU}{MSDU}{MSDU}] = max 7935
+
+(PLCP header [MAC header {MSDU}{MSDU}{MSDU}]) =>
+
+(PLCP header [|Mac header{MSDU}|Mac header{MSDU}|Mac header{MSDU}|]) = max 65,535 bytes = PPDU
+
+
+a-MSDU aggregation has less overhead than MPDU aggregation. Only one Mac header.
+a-MPDU aggregation - each data packet has a MAC header (30B), MSDU subframe header 14B. Each data packet has its own FCS. Individual data packet sent in a-MPDU can be ask with a block ACK.
+
+
+
+
+802.11n BOOK
+============
+============
+
+802.11b used CCK (complementary code keying). - 2/11M
+802.11a used OFDM up to 54M.
+
+802.11n the  big idea is MIMO. To transmit data, 802.11n can send multiple simultaneus data streams.
+
+SISO - transmitter used one antenna, and receiver used one antenna.
+
+Each data stream is sometimes called a spatial stream.
+
+Space Time Block Coding (STBC) that requires two radio chains to transmit a single spatial stream.
+
+Chapter 3. Channels, Framing and Coding
+=======================================
+DFS (dynamic frequency selection) band after the required procedures to detect radar and avoid interfering with
+the allocated use of the band.
+
+MCS (modulation and Coding Set) number is a value that describes the number of spatial streams, modulation (BPSK, QPSK, 16 QAM, 64 QAM),
+and error correction code used for a transmission.
+LDPC =  (Low Density Parity Check).
+
+Chapter 4. Advanced PHY features for performance.
+------------------------------------------------
+
+Beamforming
+----------
+Prior to 802.11n most AP were equipped by default with omnidirectional antennas. = all directions.
+Beamforming is 802.11 answer to this conundrum. It enables an antenna array to focus the energy in
+the direction of a client device.
+A transmitter, also called the beamformer, "focuses" or "steers" the energy so that the transmission tends to
+go more in one direction, towards the receiver, also called a beamformee.
+(The terms beamformer and beamformee are useful in the context of explicit channel measurement protocols that
+require frame exchanges).
+
+Types of beamforming:
+Beamforming refers to increase SNR at the receiver.
+Beamforming comes in two major flavors, and both are compared in table.
+Explicit beamforming is easy to understand. Before transmitting, a device actively measures the channel,
+and uses the measurement to compute the steering matrix directly.
+Active channel measurement is accomplished by transmitting a sounding frame to the beamformee, which replies
+with a frame that indicates how the sounding frame was received. Using this beamformer can compute the steering
+matrix. The downside to explicit beamforming is that it requiers active support on both ends of the radio link.
+To receive beamformed transmissions, a device must be able to send channel measuremets back to the beamformer.
+Only 802.11n has defined the channel measurement sequences, which means that older a/g devices will be unable to
+receive explicit beamformed frames.
+Almost all 802.11n AP that support beamforming do so based on implicit beamforming.
+Devices estimate the beamforming matrix from received frames. Doesn't provide quite as high a level comprehensive
+measurements.
+
+STBC (space time block code) can be used when the number of radio chains exceeds the number of spatial streams.
+STBC transmits the same data stream twice across two spatial streams so that a reciever that misses a data
+block from one spatial stream has a second shot at decoding the data on the second spatial stream.
+
+LDPC (low density parity check) - error correction - increases SNR ration 1.5..3 dB.
+
+802.11ac book
+=============
+=============
+Chapter 4
+Beamforming in 802.11ac
+
+Traditionally, AP have been equipped with omnidirectional antennas, which are so named because they send
+energy in all directions.
+Focus energy toward a receiver, a process called beamforming.
+At short ranges, the signal power is high enought that the SNR support the maximum data rate.
+May be either explicit or implicit, depending on whether spacial channel measurement frames are used.
+802.11ac requires the use of channel measument frames and is only explicit.
+Any device that shapes its transmitted frames is called a beamformer, and a receiver of such frames is
+called a beamformee.
+In a single exchange it is possible to have only one initiator and one responder, but a station may be
+both a beamformer and a beamformee.
+For example, AP initiates a frame exchange to the laptop.
+It begins by exchanging frames to measure the channel.
+The result of the channel measurement is a derivation of the steering matrix, which is a mathematical
+desciption of how to direct transmitted energy toward the receiver. After completing the channel
+measurement, AP is capable of acting as a beamformer and sending spatially focused frames to the laptop.
+Laptop will also act as a beamformer for the transmission of acknowledgements.
+
+SU Beamforming.
+ 
+ 

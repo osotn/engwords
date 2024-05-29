@@ -374,3 +374,9 @@
     melt            freeze
     negative        positive
     optimistic      pessimistic
+    pass            fail
+    impolite        polite
+    possible        impossible
+    
+    
+    
