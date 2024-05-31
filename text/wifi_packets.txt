@@ -1,0 +1,209 @@
+
+PLCP (Physical Layer Convergence Procedure)
+
+802.11b
+=======
+    +--------------------------+--------------------------------+
+    |            PLCP          |           Data                 |
+    +---------------+----------+---------+---------+------+-----+
+    | Preamble      | Header   | Service | Payload | Tail | Pad |
+    +---------------+----------+---------+---------+------+-----+
+      192/96 usec
+
+rates:
+    DSSS 1M (1bits = 11 chips) = DBPSK
+    DSSS 2M (2bits = 11 chips) = DQPSK (2 bits per symbol)
+    CCK2.5M (4bits = 8 chips)  =  QPSK (4 bits per symbol)
+    CCK11M  (8bits = 8 chips)  =  QPSK (8 bits per symbol)
+
+Preamble: always DSSS1 (DBPSK)
+    long = 144 bits = 1584 chips = (128 scrambled 1's + 2x8 SFD (start of field delimiter = 8 bits) marker bits)
+    short = 72 bits =  792 chips = (56 scrambled 0's +  2x8 SFD).
+
+Header: 48 bits ( long: DSSS1 (DBPSK) = 528 chips or short: DSSS2 (DQPSK) = 264 chips)
+    SIGNAL (8 bits): rate
+    SERVICE (8 bits)
+    LENGTH (16 bits) data payload in us
+    CRC (16 bits) header content
+    
+
+802.11a/g
+=========
+    +--------------------------+--------------------------------+
+    |            PLCP          |           Data                 |
+    +---------+------+------ --+---------+---------+------+-----+
+    |  STF    | LTF  |  SIGNAL | Service | Payload | Tail | Pad |
+    +---------+------+---------+---------+---------+------+-----+
+      8 us       8 us   4 us
+
+rates: OFDM (52 subcarrier: 48 for data, 4 pilot(only BPSK) ) 20MHz/64 = 0.3125MHz (3.2us) + GI 0.8us = 4us
+    OFDM 6M     BPSK   (1bits/1symbols)  1/2 coding rate
+    OFDM 9M     BPSK   (1bits/1symbols)  3/4 coding rate
+    OFDM 12M    QPSK   (2bits/1symbols)  1/2
+    OFDM 18M    QPSK   (2bits/1symbols)  3/4
+    OFDM 24M    16-QAM (4bits/1symbols)  1/2
+    OFDM 36M    16-QAM (4bits/1symbols)  3/4
+    OFDM 48M    64-QAM (8bits/1symbols)  1/2
+    OFDM 54M    64-QAM (8bits/1symbols)  3/4
+
+STF: short training Field = 1/4 from 52 subcarrier: repeat every 16 chips = 8 usec (160 chips)
+LTF: long training filed = 52 subcarrier = 8 usec (160 chips)
+SIGNAL: BPSK 24 bits = 4 us
+    RATE (4 bits): FEC + modulation - 8 combinations
+    RESERVED (1bit)
+    LENGTH (12 bits): bytes in Payload
+    PARITY (1 bit) RATE+LENGTH
+    TAIL (7 bits) FEC decoding
+
+
+802.11n
+=========
+
+802.11g/n mixed (Non-HT)
+    +----------------------------------------------------------------+--------------------------------+
+    |                               PLCP                             |           Data                 |
+    +----------------------------------------------------------------+--------------------------------+
+    |      Legacy a/g       |                 HT                     |                                |
+    +-------+-------+-------+--------+--------+---------+--+---------+---------+---------+------+-----+
+    | L-STF | L-LTF | L-SIG | HT-SIG | HT-STF | HT-LTF1 |..| HT-LTFn | Service | Payload | Tail | Pad |
+    +-------+-------+-------+--------+--------+---------+--+---------+---------+---------+------+-----+
+      8 us    8 us     4 us    8 us     4 us     4 us      0..4n us
+
+802.11n only (GreenField) (HT)
+
+    +-----------------------------------------------------------+----------------------+
+    |                        PLCP                               |           Data       |
+    +-------+---------+--------+---------+--+---------+---------+---------+------+-----+
+    |HT-STF | HT-LTF1 | HT-SIG | HT-LTF1 |..| HT-LTFn | Service | Payload | Tail | Pad |
+    +-------+---------+--------+---------+--+---------+---------+---------+------+-----+
+      8 us      8 us     8 us     4 us     4 us      0..4n us
+
+rates: (56 OFDM subcarrier: 54 for data, 4 pilot(only BPSK) ) 20MHz/64 = 0.3125MHz (3.2us)
+       GI: long 800ns, short 400ns: 3.6us or 4 us.
+
+                               20MHz         40MHz
+                             LGI    SGI   LGI    SGI
+    MCS0   1SS   BPSK  1/2    6.5   7.2   13.5   15
+    MCS1   1SS   QPSK  1/2   13    14.4   27     30
+    MCS2   1SS   QPSK  3/4   19.5  21.7   40.5   45
+    MCS3   1SS 16-QAM  1/2   26    28.9   54     60
+    MCS4   1SS 16-QAM  3/2   39    43.3   81     90
+    MCS5   1SS 64-QAM  2/3   52    57.9  108    120
+    MCS6   1SS 64-QAM  3/4   58.5  65    121.5  135
+    MCS7   1SS 64-QAM  5/6   65    72.2  135    150
+ 
+    MCS8   2SS   BPSK  1/2   13    14.4   27     30
+    MCS9   2SS   QPSK  1/2   26    28.8   54     60
+    MCS19  2SS   QPSK  3/4   39    43.3   81     90
+    MCS11  2SS 16-QAM  1/2   52    57.8  108    120
+    MCS12  2SS 16-QAM  3/2   78    86.7  162    180
+    MCS13  2SS 64-QAM  2/3  104    115.6 216    240    
+    MCS14  2SS 64-QAM  3/4  117    130   243    270
+    MCS15  2SS 64-QAM  5/6  130    144.4 270    300
+    
+    MCS16..23 3SS, MCS24..31 4SS, MCS32..127 - reserved.
+
+
+L-SIG: rate: always 6M, length bytes = (duration*6)/8
+
+HT-SIG: BPSK 48 bits = 8 us
+    MCS (7 bits): 
+    40M (1bit)
+    LENGTH (16 bits): bytes in Payload
+    Smoothing (1b)
+    Not Sounding (1b)
+    Reserved (1b)
+    Aggregation (1b)
+    STBC (2bit)
+    FEC coding (1b) - BCC or LDPC !!!
+    ShortGI (1b)
+    SS-1 (2b)
+    CRC (8b)
+    Tail (6b)
+
+
+Probe Response
+--------------
+Radiotap Header (len=56)
+ 
+     1  2    4        8       12       16               24 25 26   28   30   32
+  +--+--+----+--------------------------+----------------+--+--+----+----+----+
+  |v |  | len|        |        |        |  timestamp     |  |R |freq|    | dBm|
+  +--+--+----+--------------------------+----------------+--+--+----+----+----+
+      34               42   44   46 47 48  49 50
+  +----+----------------+----+----+--+--+--+--+
+  |    |                |    |    |  |  |  |  |
+  +----+----------------+----+----+--+--+--+--+
+
+    Header version: 0
+    Header pad:     0
+    Header length: 56
+    Present flags:
+        - word 1:
+            TSFT:+, Flags:+, Rate:+, Channels:+, FHSS:-, dBm Antenna Signal:+,
+            dBm Antenna Noise:-, Lock quality:-, Tx attenuation:-, dB Tx Attenuation:-
+            dBm Tx Power:-, Antenna:-, dB antenna signal:-, dB antenna noise:-,
+            Rx flags:+, Tx flags:-, data retries:-, Channels+:-, MSC information:-,
+            A-MPDU status:-, VHT information:-, frame timestamp:+, HE information:-,
+            HE-MU information:-, 0 Length PSDU:-, L-SIG:-, TLVs:-, Radiotap NS next:+
+            Vendor NS next:-, Ext:+
+        - word 2
+        - word 3
+    MAC timestamp
+    Flags:
+        CFP:-, Preamble:long; WEP:-, Fragmentation:-, FCS at end:+, Data Pad:-,
+        Bad FCS:-, Short GI:-
+    Rate:
+    Channel frequency:
+    Channel flags:
+        CCK:-, OFDM:+, 2GHz:-, 5GHz:+
+    Antenna signal: -51dBm
+    Rx flags:
+    Timestamp inform
+        timestamp
+        accuracy
+        Antenna signal:
+        Antenna 0
+        Antenna signal
+        Antenna 1
+Radio information:
+    PHY type: 802.11a (OFDM)
+    Data rate: 6,0
+    Channel
+    Freq
+    Signal: dBm
+    TSF timestamp
+    Duration: 692us  (IFS: -568us)
+IEEE 802.11 Probe Response:
+
+     1  2    4           10           16           22       26
+  +--+--+----+------------+------------+------------+--------+    +--------+
+  |FC|  |    |    RA/DA   |    TA/SA   |    BSSID   |  seq   |    |  FCS   |
+  +--+--+----+------------+------------+------------+--------+    +--------+
+
+    Frame control:
+        Version: 0
+        Type: Management
+        Subtype: 5 (probe response)
+        Flags
+        Duration: 60us
+    RA/DA
+    TA/SA
+    sequence
+    FCS
+
+IEEE 802.11 Wireless Management
+    Fixed parameters (12 bytes)
+        timestamp
+        Beacon Interval: 0.1 sec
+        Capabilities
+    Tagged parameters (460 bytes)
+        SSID
+        Current channel
+        Country, Power Limits
+        ...
+        HT cap
+
+
+
+
