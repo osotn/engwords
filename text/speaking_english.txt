@@ -377,6 +377,7 @@
     pass            fail
     impolite        polite
     possible        impossible
-    
+    satisfied       dissatisfied
+    vacant          occupied
     
     
