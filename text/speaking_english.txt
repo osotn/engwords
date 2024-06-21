@@ -379,5 +379,8 @@
     possible        impossible
     satisfied       dissatisfied
     vacant          occupied
+    invisible       visible
+    relevant        irrelevant
+    fake            real
     
     
