@@ -1,0 +1,154 @@
+I. Hardware
+
+- how computer systems work
+- how break complex problems into manageable modules
+- how to build large-scale hardware and software
+
+Program is nothing more than a encounter sequence of plain characters,
+stored deceptively in a text file.
+
+ -> compilation -> machine language -> hardware architecture -> registers, memory, adders -> gates
+
+high-level language -> os
+ -> compile -> vm code
+ -> machine language -> cpu -> ALU, RAM -> gates
+
+Boolean operators: And, Or, Not, Xor
+Boolean values: True, False (1, 0)
+
+Gate is a physical device that implementes a simple Boolean function.
+
+
+XOR
+
+	a | b | out
+        -----------
+        0 | 0 | 0
+        0 | 1 | 1
+        1 | 0 | 1
+        1 | 1 | 0
+
+out = !a & b | a & !b
+
+Half-adder
+
+       a | b | c | s
+       -------------
+       0 | 0 | 0 | 0
+       0 | 1 | 0 | 1
+       1 | 0 | 0 | 1
+       1 | 1 | 1 | 0
+
+c = a & b;  s = xor(a,b)
+
+Full add
+
+s1, c1  = hadd(a,b)
+s2, c2 =  hadd(c, s1)
+c = c1 | c2
+
+Multiplexer
+
+        a | b | sel | out
+        -----------------
+        0 | 0 |  0  | a=0
+        0 | 1 |  0  | a=0
+        1 | 0 |  0  | a=1
+        1 | 1 |  0  | a=1
+        0 | 0 |  1  | b=0
+        0 | 1 |  1  | b=1
+        1 | 0 |  1  | b=0
+        1 | 1 |  1  | b=1
+
+ out = a&!b&!sel | a&b&!sel | !a&b&sel | a&b&sel = a&!sel  | b&sel
+
+Demultiplexer:
+
+	sel | a  b
+         0  | in in
+         1  | 0  in
+
+         in | sel | a | b
+          0 |  0  | 0 | 0
+          1 |  0  | 1 | 0
+          0 |  1  | 0 | 0
+          1 |  1  | 0 | 1
+
+ a = in & !sel
+ b = in & sel
+
+ALU
+---
+
+zx x=0
+nx x = !x
+zy y=0
+ny y=!y
+f x+y x&y
+no out=!out
+
+	zx | nx | zy | ny | f | no | out
+         1 |  0 |  1 |  0 | 1 |  0 |  0           out = 0 + 0
+         1 |  1 |  1 |  1 | 1 |  1 |  1           out = !(-1 + -1) = !(-2) = 1
+         1 |  1 |  1 |  0 | 1 |  0 |  -1          out = -1 + 0 = -1
+         0 |  0 |  1 |  1 | 0 |  0 |  x           out = x & -1 = x
+         1 |  1 |  0 |  0 | 0 |  0 |  y           out =  -1 & y = y
+         0 |  0 |  1 |  1 | 0 |  1 |  !x           
+         1 |  1 |  0 |  0 | 0 |  1 |  !y
+         0 |  0 |  1 |  1 | 1 |  1 |  -x
+         1 |  1 |  0 |  0 | 1 |  1 |  -y
+         0 |  1 |  1 |  1 | 1 |  1 |  x+1
+         1 |  1 |  0 |  1 | 1 |  1 |  y+1
+         0 |  0 |  1 |  1 | 1 |  0 |  x-1
+         1 |  1 |  0 |  0 | 1 |  1 |  y-1
+         0 |  0 |  0 |  0 | 1 |  0 |  x+y
+         0 |  1 |  0 |  0 | 1 |  1 |  x-y
+         0 |  0 |  0 |  1 | 1 |  1 |  y-x
+         0 |  0 |  0 |  1 | 1 |  1 |  x&y
+         0 |  1 |  0 |  1 | 0 |  1 |  x|y
+	
+Memory
+-----
+Such chips as ALU are called combinational: they respond to different combinations of their inputs
+without delay, except fot the time it takes their inner chip parts to complete the computation.
+
+Sequential chips.
+Unlike combinational chips, which are oblivious to time, the outputs of sequential chips depend not
+only on the inputs in the current time but also on inputs and outputs that have been processed previously.
+
+Before we start talking about memory, we must first figure out how to use logic to model the
+progression of time. This can be done usinga clock that generates an ongoing train of binary signals
+that we call tick and tock. The time between the beginning of a tick and the end of the subsequent tock
+is called a cycle.
+
+
+Computer programs use variables, arrays, and objects - abstractions that persist data over time.
+
+
+4. Machine language
+-------------------
+If you wish to understand a system, or build one, start by studing the function that the system
+is supposed to serve.
+
+Machine language is the most profound interface in the computer enterprise - the fine line
+where hardware meets software.
+
+CPU, or processor, is a device capable of performing a fixed set of primitive operations.
+
+Machine language programs can be written in two alternative, but equivalent, ways: binary and symbolic.
+Symbolic machine languages are called assembly languages, and the programs that translate them into
+binary code are called assemblers.
+
+Using symbolic address (LOOP) <- label 
+
+Data memory (RAM) is wr.
+Instruction memory (ROM) is ro.
+
+D - data register 16 bit.
+A - address register, 16 bit.
+M - memory register.
+
+@17 - store 17 to A
+@17, D=A - store 17 to A, D <= A
+
+@17 - 1) A <= 17, M=Ram[17], PC= 
