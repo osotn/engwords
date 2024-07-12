@@ -136,8 +136,26 @@ where hardware meets software.
 CPU, or processor, is a device capable of performing a fixed set of primitive operations.
 
 Machine language programs can be written in two alternative, but equivalent, ways: binary and symbolic.
+Why not use symbolic instructions for writing programs, and then use another program - a translator - for
+translating the symbolic instructions into executable binary code.
 Symbolic machine languages are called assembly languages, and the programs that translate them into
 binary code are called assemblers.
+
+Arithmetic and logical operations:
+	load R1, 17  // R1 <- 17
+	load R2, 4   // R2 <- 4
+	add  R1, R1, R2 // R1 <- R1 + R4
+
+	and  R1, R1, R2 // bit-wize And	
+
+Flow control:
+While computer programs execute by default sequentially, one instruction after another,
+they also include occasional jumps to locations other than the next intruction.
+	goto instructions
+
+Symbols: The code version that uses symbolic references is much easier to write, debug.
+
+The data memory (RAM) is a read/write device.
 
 Using symbolic address (LOOP) <- label 
 
@@ -152,3 +170,174 @@ M - memory register.
 @17, D=A - store 17 to A, D <= A
 
 @17 - 1) A <= 17, M=Ram[17], PC= 
+
+
+6
+Assembler
+
+One complication arises from allowing assembly programs to use symbolic references to memory addresses.
+The assembler is expected to manage these symbols and resolve them to physical addresses.
+This task is normally done using a symbol table - a commonly used data structure.
+
+3 type of symbols:
+1. labels - locations in the code
+2. variables 
+3. predefined symbols
+
+Assembly program is a sequence of:
+	assembly instruction;  A or C instructions
+	label declaration;  (xxx)
+	comment  //
+
+instruction:
+	A:	@xxx, xxx is a decimal 0..32767, or symbol
+	C:	[dest=]comp[;jump] => dest=comp dest=comp;jump comp comp;jump
+
+Predefined symbols: R0..R15 = 0..15; SP, LCL, ARG, THIS, THAT = 0..4, SCREEN 16384, KBD 24576
+
+Label symbols: (xxx)
+Varibale symbols xxx, from 16
+
+Symbols: letters, digits, _ . $ :  but not begin with a digit
+Leading space characters and empty lines are ignored
+All the assembly mnemonics must be written in uppercase.
+The remaining symbols - labes and variables - are case sentitive.
+The recommended convention - labels - uppercase and variables lowercase.
+
+Is to develop a two pass assembler that reads the code twice.
+In the first pass 0 builds a symbol table, adds all the label symbols to the tables, and generates no code.
+
+Parse module for parsing the input into instruction and instructions into filds,
+a Code module for translatin the fields (symbolic mnemonics) into binary codes.
+
+hasMoreLines - boolean
+advance - skips over white space and comments
+instructionType - A_instruction C_INSTRUCTION L_INSTRACTION 
+symbol - string if A_instruction or L_instruction
+dest -  dest if C_instruction   3bits
+comp                            7bits
+jump                            3bits
+
+init - create a new empty symbol table
+addEntry - add <symbol, address>
+contains - boolean does the symbol in table
+getAddress int - return address of the symbol
+
+
+Software
+========
+Compiler will gereate interim VM code, designed to run on an abstract virtual machine.
+The VM code will then be compiled further by a separate translator into the Hack machine language.
+
+
+Jack hello world
+----------------
+class Main {
+	function void main() {
+		do Output.printString("Hello World");
+		return;
+	}
+}
+
+
+Jack class is a collection of one or more:
+	- subroutines;
+		- constructor
+		- method
+		- function
+
+	Contructor creates new objects
+	Methods operates on the current object
+	Functions operates on no particular object.
+
+Only three primitive data types: int, boolean, char.
+
+A high-level is a symbolic abstraction that means nothing to the underlying hardware.
+Before executing a program, the high-level code must be translated into machine language.
+This translation process is called compilation, and the program that carries it out is
+called a compiler.
+
+Java and C# deal with challenge by employing an elegant two tier compilation model.
+First, the source program is translated into an interim, abstract VM code (bytecode).
+Next, using a completely separate and independent process, the VM code can be
+translated further into the machine language of any target hardware platform.
+
+*.jack -> *.vm -> *.asm -> *.hack
+
+7.
+Virtual machine I: Processing
+-----------------------------
+
+VM is similar to the JVM (Java Virtual Machine) and bytecode.
+The VM language consists of arithmetic logical commands, memory access commands called
+push and pop, branching commands, and function call and return commands.
+
+Stack is a fundamental and elegant data structure that comes to play in
+numerous computer systems, algorithms, and applications.
+
+A stack is a sequential storage space that grows and shrinks as needed.
+The push operation adds a value to the top of the stack.
+The pop operation removes the stack top value.
+
+d = (2-x) + (y+9)
+push 2
+push x
+sub
+push y
+push 9
+add
+add
+pop d
+
+2  -5  -5  -5  16 =>
+7      12  21 
+        9 
+
+argument 	- function argument
+local		- function local variable
+static 		- static variable
+constatn	- constant
+this		- 
+that		-
+pointer		-
+temp
+
+Arithmetic logical commands:
+	- add, sub, neg			x+y	x-y 	-y
+	- eq, gt, lt			x == y	x > y	x < y
+	- and, or, not
+
+push x	=> RAM[SP] = x; SP++
+pop x   => SP--; x = RAM[SP]
+
+Stack in 256 RAM address
+
+RAM:
+0-15	=> R0..R15
+16-255  => static variables
+256-2047 => stack
+
+SP = RAM[0] - SP
+LCL  = 1 - Base address of local segment
+ARG  = 2 - base address of the argument segment
+THIS = 3 - base addres of the this segment
+THAT = 4 - base address of the that segment
+TEMP - 5..12 holds the temp segment
+
+Pointer - segment contains exactly two values
+
+VM translate:
+	- main
+	- parser
+	- code writer
+
+command Type: C_ARITHMETIC, C_PUSH, C_POP, C_LABEL, C_GOTO, C_IF, C_RETURN, C_CALL
+
+
+Functions is the bread and butter of modular programming.
+Calling function (the caller) passes agrements to the called fucntion (the callee).
+
+label label: the current location in the fucntion code.
+The scope of the label is the function in which it is defined.
+goto label: effects an unconditional goto operation
+if-goto label - a conditional goto operation	
