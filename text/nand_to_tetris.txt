@@ -341,3 +341,252 @@ label label: the current location in the fucntion code.
 The scope of the label is the function in which it is defined.
 goto label: effects an unconditional goto operation
 if-goto label - a conditional goto operation	
+
+
+
+
+call <function_nam> <n_args>
+
+	@SP
+	D=M
+	@(n_args + 5)
+	D = D-A
+	@(argument)
+	M = D
+
+	@SP
+	D = M
+	@(local)
+	M = D
+
+	@(address)
+	0;JMP
+	(return_label)	
+
+
+Function <functioin_name> <n_vars>  - function has n_vars local variables.
+
+call <function_name> <n_args> - n arguments before call
+
+return 
+
+
+Many files
+One file is amy Jack program must be name main.jack
+and one function in this file must be named main.
+ => Main.vm  Main.main -> application entry point.
+
+The first function is Sys.init -> part of OS
+
+Caller:
+	- push onto the stack n_args
+	- invoke callee fileName.functionName nArgs
+	- disappeared stack args
+	- get return value from stack
+	- can be changed only static and temp
+
+Calle:
+	- argument segment has been initialized with the argument values passed by the caller
+	- local variables allocated and initialized to zeroes
+	- static segment t0 static of VM file
+        - before return, need to push return value.
+
+ 
+call f nArgs:
+		push returnAddress	- (generate a label and pushes it to the stack)
+		push LCL		-
+		push ARG
+		push THIS
+		push THAT
+		ARG = SP - 5 - nArgs
+		LCL = SP
+		goto f
+		(return address)
+
+function f nVars:
+		(f)
+		repeat n
+			push 0
+
+return:
+		local frame = LCL
+		local retAddr = *(frame-5)
+		*ARG = pop()
+		SP = ARG+1
+		THAT = *(frame-1)
+		THIS = *(frame-2)
+		ARG = (frame-3)
+		LCL = *(frame-4)
+	        goto retAddr
+
+
+function Main.main			(Main.main)
+					...
+	call Point.new			goto Point.new
+					(Main.main$ret0)
+	...
+function Point.new			(Point.new)
+	...
+	return				goto Main.main$ret0
+
+SP	= 256
+LCL	= address of the virtual segment local
+ARG					 argument
+THIS					 this
+THAT					 that
+
+xxx.i  xxx - file: static i
+
+functionName$label	label in functionName
+
+functionName
+
+functionName$ret.i
+
+R13-R15
+
+Bootstrap code:
+	SP = 256
+	call Sys.init
+
+TEMP RAM[5-12]  temp segment
+R13-R15 - for VM transmlator
+
+
+push segment index
+			[SP] = segment[index], segment: argument, local, static, constant, this, that, pointer, temp
+ 			sp++
+pop segment index	sp--; segment[index] = [SP]
+
+add, sub, neg
+eq, gt, lt
+and, or, not
+
+
+push static x
+    // *(*SP) = *(static.x)
+    /// D = *(static.x)
+    @static.x
+    D = M
+    /// *(*SP) = D
+    @SP
+    A = M
+    M = D
+    // SP++
+    @SP
+    M = M+1
+
+push constant a
+    // D = a
+    @a
+    D = A
+    // *(*SP) = D
+    // SP++
+
+push {local|argument|this|that|temp} n
+    // *(*SP) = *(*(reg) + n)
+    /// D = *(*(reg) + n)
+    @n                  //
+    D = A               // if n > 1
+    @reg
+    // @LCL <= local
+    // @ARG <= argument
+    // @THIS <= this
+    // @THAT <= that
+    // @(R5 +  0..7)
+    A = D+M // if n == 0 then A = M; if n == 1 then A = M+1
+    D = M
+    /// *SP = D, SP++
+    ***
+    
+
+pop static x
+    // *(static.x) = *(*(SP - 1)); SP--
+    /// D = *(SP-1); SP = SP-1
+    @SP
+    AM = M-1
+    D = M
+    /// *(static.x) = D
+    @static.x
+    M = D
+
+pop {local|argument|this|that|temp} n
+    // *(*(reg) + n) = *(*(SP - 1)); SP--
+    ////  R13 = *(reg) + n
+    @n          //
+    D = A       // if n > 0
+    @reg
+      // @LCL <= local
+      // @ARG <= argument
+      // @THIS <= this
+      // @THAT <= that
+      // @R5   <= 0..7
+    D = D+M    // D = M, D = M+1
+    @R13
+    M = D
+    ////  D = *(SP-1); SP = SP-1
+    ***
+    ////  *(R13) = D
+    @R13
+    A = M
+    M = D
+
+    D=D+M    
+    D = A      //   if n == 1  D = A+1
+    @n         // if n > 0
+    D = D + A  //
+    @R13
+    A = M
+    
+
+{add|sub|and|or} 
+    // *(*SP-2) = *(*SP-1) + *(*SP-2); SP--
+    /// D = *(SP-1); SP = SP-1
+    ***
+    A = A-1
+    M=D+M   // D-M D&M D|M
+
+
+{neg|not} 
+    @SP
+    A = M-1
+    M=-M // M=!M
+
+ eq, gt, lt
+    // 
+    /// D = *(SP-1); SP = SP-1
+    ***
+    A = A-1
+    D = M-D
+    @cmd_TRUE_x
+    D;Jxx
+    @SP
+    A = M-1
+    M = 0
+    @cmd_END_x
+    0;JMP
+    (cmd_TRUE_x)
+    @SP
+    A = M-1
+    M=-1
+    (cmd_END_x)
+
+(label)
+    (filename$label)
+
+goto
+    @funcname$label
+    0;JMP
+
+if-goto
+    @SP
+    AM = M-1
+    D = M
+    @funcname$label
+    D;JNE
+
+
+
+    
+    
+
