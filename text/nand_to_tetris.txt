@@ -410,14 +410,53 @@ function f nVars:
 
 return:
 		local frame = LCL
+		    @LCL
+		    D=M
+		    @R14
+		    M=D
 		local retAddr = *(frame-5)
+		    @5
+		    D=A
+		    @R14
+		    A=M-D
+		    @R15
+		    M=D
 		*ARG = pop()
+		    ***
 		SP = ARG+1
-		THAT = *(frame-1)
-		THIS = *(frame-2)
-		ARG = (frame-3)
-		LCL = *(frame-4)
-	        goto retAddr
+		    @ARG
+		    D=M+1
+		    @SP
+		    M=D
+		THAT = *(--frame)
+		    @R14
+		    AM=M-1
+		    D=M
+		    @THAT
+		    M=D
+		THIS = *(--frame)
+		    @R14
+		    AM=M-1
+		    D=M
+		    @THIS
+		    M=D
+		ARG = *(--frame)
+		    @R14
+		    AM=M-1
+		    D=M
+		    @ARG
+		    M=D
+		LCL = *(--frame)
+		    @R14
+		    AM=M-1
+		    D=M
+		    @LCL
+		    M=D
+		goto retAddr
+		    @R15
+		    A=M
+		    0;JMP
+	        
 
 
 function Main.main			(Main.main)
