@@ -393,15 +393,57 @@ Calle:
 
  
 call f nArgs:
-		push returnAddress	- (generate a label and pushes it to the stack)
-		push LCL		-
-		push ARG
+
+        //push returnAddress	- (generate a label and pushes it to the stack)
+        @functionName&ret.%retNumber
+        D=A
+        ///WRITE_D_TO_STACK_AND_UPDATE_SP_CODE
+        // 
+		// push LCL
+		"@LCL\n"
+         "D=M\n"
+            << WRITE_D_TO_STACK_AND_UPDATE_SP_CODE <<
+		// push ARG
+		"@ARG\n"
+         "D=M\n"
+            << WRITE_D_TO_STACK_AND_UPDATE_SP_CODE <<
 		push THIS
+		            "@THIS\n"
+            "D=M\n"
+            << WRITE_D_TO_STACK_AND_UPDATE_SP_CODE <<
 		push THAT
+		            "@THAT\n"
+            "D=M\n"
+            << WRITE_D_TO_STACK_AND_UPDATE_SP_CODE <<
 		ARG = SP - 5 - nArgs
+		     "@" << numArgs + 5 << "\n"
+            "D=A\n"
+            "@SP\n"
+            "D=M-D\n"
+            "@ARG\n"
+            "M=D\n"
+            "@SP\n"
+            "D=M\n"
 		LCL = SP
+		    "@LCL\n"
+            "M=D\n"
 		goto f
+		    << "@" << name << "\n"
+            "0;JMP\n"
 		(return address)
+            << "(" << currentFunctionName_ << "$ret." << currentReturnSymbolId_ << ")\n";
+       
+
+
+
+
+
+
+
+            
+
+
+
 
 function f nVars:
 		(f)
@@ -419,9 +461,10 @@ return:
 		    D=A
 		    @R14
 		    A=M-D
+		    D=M
 		    @R15
 		    M=D
-		*ARG = pop()
+		*ARG = pop() // pop argument 0
 		    ***
 		SP = ARG+1
 		    @ARG
@@ -583,7 +626,7 @@ pop {local|argument|this|that|temp} n
     /// D = *(SP-1); SP = SP-1
     ***
     A = A-1
-    M=D+M   // D-M D&M D|M
+    M=D+M   // M-D D&M D|M
 
 
 {neg|not} 
@@ -626,6 +669,113 @@ if-goto
 
 
 
-    
-    
+High level
+==========
+The assembly and VM languages presented so far in this book are low-level,
+meaning that they are intended for controlling machine, not for developing applications.
+
+A Jack program is a sequence of tokens, separated by an arbitrary amount of white space and comments.
+Tokens:
+	- symbols
+	- reserved words (keywords)
+	- constants
+	- identifiers
+
+Comments: // /**/
+Symbols: () [] {} , ; = . + - * / & | ~ < >
+
+Reserved words: class, constructor, method, function, int, boolean, char, void, var, static, field, let, do, if, else, while, return, true, false, null, this
+
+Constant: Integer 0..32767
+		  -0..32767
+	  String "" (except new line and ") <= String.newLine()  String.doubleQuote()
+
+Identifiers: A-Z a-z 0-9 _ starting with letter or _
+
+One class must be name Main and this class must have a function named main.
+Start with Main.main
+
+Fucntions are class level static methods
+Methods are designed to operate on the current object.
+Constructors create and return new objects of the class type.
+
+Data types:
+	Primitive: int, char or boolean
+
+Compiler is a program that translates programs from a source language into a target language.
+The translation process, known as compilation, is conceptually based on the two distinct tasks.
+
+Syntax analysis
+Code generation
+
+Syntax analysis is usually divided into two substages:
+	- tokenizing;
+	- parsing
+
+
+1. Syntax analyzer => XML code
+	- tokenizer
+	- parser
+2. Code generator => vm code
+
+
+Tokens:
+	- keywords
+	- symbols
+	- integer constant
+	- string constant 
+	- identifier
+
+...
+if (x < 0) {				=> <keyword>if</keyword><symbol>(</symbol><identifier>x</identifier><symbol>)</symbol><symbol>{</symbol>
+	// handles the sign
+	let sign = "negative";          => <keyword>let</keyword><idenfifier>sign</identifier>...
+}
+...
+
+keywords:
+	class, constructor, function, method, field, static, var, int, char, boolean, void, true, false, null, this, let, do, if, else, while, return
+symbol:
+	{ } ( ) [ ] . , : + - * / & | < < = ~
+integer:
+	0 .. 32767
+string " ... " without new line and "
+
+Grammar:
+	statements: statement*
+	statement: let_statement | if_statement | while_statement
+	let_statement: 'let' var_name '=' expresseion ';'
+	if_statement: 'if' '(' expression ')' '{' statements '}'
+	while_statement: 'while' '(' expression ')' '{' statements '}'
+	expression: term (op term)?
+	term: var_name | constant
+	var_name: a string not begining with a digit
+	constant: a non-negative integer
+	op: '+' | '-' | '=' | '>' | '<'
+
+meta-language is a language that describe a language.
+Consists of three building blocks:
+	- terminals
+	- nonterminals
+	- qualifiers
+
+Terminals are tokens
+Nonterminals are name of other rules
+Qualifiers are | * ? ( )
+
+<whileStatement>
+	<keyword> while </keyword>
+	<symbol> ( </symbol>
+	<expression>
+		<term> <varName> count </varName> </term>
+		<op> <symbol> < </symbol> </op>
+		<term> <constant> 100 </constant> </term>
+	</expression>
+	<symbol> ) </symbol>
+	...
+
+Parser accepts as input a stream of tokens and attemps to produce as output the parse tree
+associated of tokens and attemps to produce as output the parse tree associated with the
+given input.
+
 
