@@ -654,7 +654,7 @@ pop {local|argument|this|that|temp} n
     (cmd_END_x)
 
 (label)
-    (filename$label)
+    (function$label)
 
 goto
     @funcname$label
@@ -778,4 +778,16 @@ Parser accepts as input a stream of tokens and attemps to produce as output the 
 associated of tokens and attemps to produce as output the parse tree associated with the
 given input.
 
+11. Compiler II: Code Generation
+--------------------------------
+
+High level programmers work with abstract building blocks:
+	- variables;
+	- expressions;
+	- statement;
+	- subroutines;
+	- objects;
+	- array.
+
+Symbol table.
 
