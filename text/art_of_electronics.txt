@@ -7,7 +7,7 @@ The latter half century brought solid state electronics - first as discrete
 transistors, then as magnificent arrays of them within ICs (integrated circuits)
  - in a flood of stunning advances that shows no sign of abating. Compact and
  inexpensive consumer products now routinely contain many millions of transistors
- in VLSI (very large scale integration) chips, combined with elegant optoelectornics
+ in VLSI (very large scale integration) chips, combined with elegant opto electronics
  (displays, lasers, and so on); they can process sounds, images, and data, and
  (for example) permit wireless networking and shirt pocket access to the pooled
  capabilities of the Internet. Perhaps as noteworthy is the pleasant trend toward
@@ -34,7 +34,7 @@ Equivalently, it is the energy released when a unit charge moves downhill from
 the higher potential to the lower. Voltage is also called potential difference
 or electromotive force (EMF). The unit of measure is the volt, with voltages
 usually expressed in volts (V), kilovolts (1 kV), millivolts ( 1 mV) or
-microvolts ( 1 uV). A joule (J) of work is done im moving a coulomb (C) of charge
+microvolts ( 1 uV). A joule (J) of work is done in moving a coulomb (C) of charge
 through a potensial difference of 1 V. (The coulomb is the unit of electric charge,
 and it equals the charge of approximately 6x10^18 electrons). For reasons that
 will become later, the opportunities to talk about nanovolts (nV) and megavolt (MV).
@@ -85,10 +85,10 @@ Here are some simple rules about voltage and current:
 
     2.  Things hooked in parallel have the same voltage across them.
         Restated, the sum of the voltage drops from A to B via one path through
-        a circuit equals the sum by any other route, and is simply the votage
+        a circuit equals the sum by any other route, and is simply the voltage
         between A and B. Another way to say it is that the sum of the voltage
         drops around any closed circuit is zero.
-        This is Kirchhoff's votage law (KVL).
+        This is Kirchhoff's voltage law (KVL).
 
     3.  The power (energy per unit time) consumed by a circuit device is P = V I
         This is simply (energy/charge) x (charge/time).
@@ -141,7 +141,7 @@ It is characterized by its resistance.
 R is in ohms for V in volts and I in apms
 This is known as Ohm's law.
 Resistors are also characterized by how much power they can safely dissipate.
-Roughly speaking, resistors are used to convet a votage to a current, and
+Roughly speaking, resistors are used to convert a voltage to a current, and
 vice versa.
 
 The resistance of two resistors in series: R = R1 + R2
@@ -176,7 +176,7 @@ voltage. To do  this it must be capable of supplying any necessary voltage acros
 its terminals. Real current sources have a limit to the voltage they can provide
 and in additional they do not provide absolutely constant output current.
 
-A battery is a real-life approximation to a voltage source.
+A battery is a real life approximation to a voltage source.
 
 1.3 Signals
 -----------
