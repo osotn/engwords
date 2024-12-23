@@ -3029,17 +3029,30 @@ People
               3T *#  holiday [ˈhɒlədeɪ] (n) {A1} {holidays} {A2} {education} {religion and festivals} день отдыха
   684. (  1) 3T *#PT schedule [(UK)ˈʃɛdjuːl/(US)skɛʤ uəl/skɛʤ əl] (n) {A2} {working life} {transport by bus and train} {education} {tv, radio and news} расписание, график; (v) {B2} {working life} {business} планировать, назначать
               3T ?#  timetable [ˈtaɪmˌteɪb(ə)l] (n) {A2} {transport by bus and train} {education} расписание, график; (v) включать в расписание
+  834. (  1) 3T *#PT uniform [ˈjuːnɪfɔːm] (n) {A2} {law and justice} {education} {clothes and fashion} униформа, форма; (adj) единый, равномерный, однородный
+              3T *#  vacation [vəˈkeɪʃən] (n) {A1} {holidays} отпуск, {A2} {education} каникулы; (v) отдыхать; (adj) отпускной
 
+{education {subjects and courses}}
+..................................
 {A1} {education {subjects and courses}}
    50. (  1) 3T *#PT art [ɑːt] (n) {A1} {art} {education} {hobbies} искусство
   184. (  1) 3T *#PT course [kɔːs] (n) {A1} {education} курс, {B2} {geography} направление, {B1} {sports: ball and racket sports} пласт, {B1} {cooking and eating} блюдо; (adj) курсовой; (v) течь
-             4T *#  english [ˈɪŋglɪʃ] (adj) английский; (n) {A1} {language} {education} английский язык, англичанин
+              4T *#  english [ˈɪŋglɪʃ] (adj) английский; (n) {A1} {language} {education} английский язык, англичанин
   334. (  1) 3T *#PT geography [ʤ ɪˈɒgrəfi] ((n) {A1} {education} {geography} география
   378. (  1) 3T *#PT history [ˈhɪstəri] (n) {A1} {history} {education} {B2} {phone, email and the internet} история
   512. (  1) 3T *#PT music [ˈmjuːzɪk] (n) {A1} {education} {music} {shopping} {hobbies} музыка
   673. (  1) 3T *#PT science [ˈsaɪəns] (n) {A1} {scientific research} {education} наука
   749. (  1) 3T *#PT subject [ˈsʌbʤ ɪkt->(adv,n)/səbˈʤ ɛkt->(v)] (v) подвергать, подчинять; (n) {A1} {language} {education} {C1} {scintific research} предмет; (adj) {B2} подлежащий, подданный
 
+{A2} {education {subjects and courses}}
+   99. (  1) 3T *#PT biology [baɪˈɒləʤ i] (n) {A2} {education} {scientific research} {biology} биология
+  146. (  1) 3T *#PT chemistry [ˈkɛmɪstri] (n) {A2} {education} {scientific research} {C1} {physics and chemistry} химия
+  247. (  1) 3T *#PT drama [ˈdrɑːmə] (n) {A2} {film and theatre} {tv, radio and news} {hobbies} {education} драма, драматургия
+  486. (  1) 3T *#PT mathematics [ˌmæθɪˈmætɪks] (n) {A2} {education} {maths and measurement} математика
+  573. (  1) 3T *#PT physics [ˈfɪzɪks] (n) {A2} {education} {physics and chemistry} {scientific research} физика
+
+{education {teaching and learning}}
+...................................
 {A1} {education {teaching and learning}}
   267. (  2) 3T *#PT exercise [ˈɛksəsaɪz] (n) {A1} {sports: other sports} {health and fitness} {education} упражнение, {B2} {success} осуществление, тренировка, занятие; (v) {A1} {sports: other sports} {health and fitness} {B2} {success} осуществлять, проявлять, тренироваться, выполнять
   438. (  1) 3T *#PT learn [lɜːn] (v) {A1} {education} учиться
@@ -3047,31 +3060,85 @@ People
   747. (  2) 3T *#PT study [ˈstʌdi] (n) {A1} {education} {B1} {scientific research} изучение, {B1} {houses and homes} рабочий кабинет; (v) {A1} {education} {{B1} scientific research} изучать
   767. (  1) 3T *#PT teach [tiːʧ] (v) {A1} {education} учить, научить, преподавать, обучать, I: teach-taught-taught
 
+{A2} {education {teaching and learning}}
+              5T ?#  comprehension [ˌkɒmprɪˈhɛnʃən] (n) {A2} {education} понимание, осмысление, постижение, охват
+  258. (  1) 3T *#PT education [ˌɛdju(ː)ˈkeɪʃən] (n) {A2} {education} образование
+  279. (  1) 3T *#PT essay [ˈɛseɪ->(n)/ɛˈseɪ->(v)] (n) {A2} {education} эссе, очерк, опыт; (v) пытаться, испытывать
+  438. (  1) 3T *#PT knowledge [ˈnɒlɪʤ ] (n) {A2} {education} знания
+  453. (  1) 4T *#PT learning [lɜːnɪŋ] -ing: (v) {A1} {education} учиться; (n) {A2} {education} обучение, учеба
+  455. (  2) 3T *#PT lecture [ˈlɛkʧə] (n) {A2} {education} лекция; (v) {A2} {education} читать лекцию
+              xx ?#  reading+list [ˈriːdɪŋ lɪst] (n) {A2} {education} список чтения
+  654. (  2) 3T *#PT research [rɪˈsɜːʧ] (v) {A2} {education} {scientific research} исследовать; (n) {A2} {education} {scientific research} исследование, изучение; (adj) исследовательский
+  790. (  1) 3T *#PT task [tɑːsk] (n) {A2} {working life} {education} задача, задание
+  792. (  1) 3T *#PT teaching [tiːʧɪŋ] -ing: (v) {A1} {education} учить, научить, преподавать, обучать, I: teach-taught-taught; (n) {A2} {education} преподавание, обучение
+  821. (  1) 3T *#PT train [treɪn] (n) {A1} {transport by bus and train} поезд; (v) {A2} {education} {jobs} {sports: other sports} {health and fitness} тренироваться, обучать
+  823. (  1) 3T *#PT training [treɪnɪŋ] -ing: (v) {A2} {education} {jobs} {sports: other sports} {health and fitness} тренироваться, обучать; (n) {A2} {education} {jobs} {sports: other sports} обучение, подготовка, повышение квалификации
+
+{education {types of school}}
+.............................
 {A1} {education {types of school}}
              xx ?#  high+school [haɪ skuːl] (n) {A1} {education} средняя школа (in US it's a school for people between 14 and 18), гимназия, высшая школа
 
+{A2} {education {types of school}}
+
+{education {universities and colleges}}
+.......................................
 {A1} {education {universities and colleges}}
   167. (  1) 3T *#PT college [ˈkɒlɪʤ ] (n) {A1} {education} колледж
   839. (  1) 3T *#PT university [ˌjuːnɪˈvɜːsɪti] (n) {A1} {education} университет; (adj) университетский
 
+{A2} {education {universities and colleges}}
+  219. (  1) 3T *#PT department [dɪˈpɑːtmənt] (n) {A2} {education} {business} {working life} {politics} {shopping} отделение, департамент, факультет
+
+{education {university people}}
+...............................
 {A1} {education {university people}}
   746. (  1) 3T *#PT student [ˈstjuːdənt] (n) {A1} {education} студент, ученик
 
+{A2} {education {university people}}
+  604. (  1) 3T *#PT professor [prəˈfɛsə] (n) {A2} {education} {jobs} профессор
 
-{A1} {family and relationships}
--------------------------------
+{family and relationships}
+--------------------------
+{family and relationships {family background}}
+..............................................
 {A1} {family and relationships {family background}}
+{A2} {family and relationships {family background}}
+   77. (  1) 3T *#PT background [ˈbækgraʊnd] (n) {A2} {family and relationship} {people in society} {art} фон, предпосылка
+  389. (  1) 3T *#PT home [hoʊm] (adv) {A1} дома, домой; (n) {A1} {houses and homes} {A2} {buildings} {family and relationship} дом; (adj) {A2} {B2} {spors: ball and racket sports} домашний; (v) возвращаться домой, жить
+
+{family and relationships {friends}}
+....................................
 {A1} {family and relationships {friends}}
   323. (  1) 3T *#PT friend [frɛnd] (n) {A1} {family and relationships} {A2} {phones, email and the internet} друг; (v) {B2} {phones, email and the internet} = add someone to a list of contacts
   520. (  1) 3T *#PT neighbour [ˈneɪbə] (n) {A1} {family and relationships} сосед; (adj) соседний
   579. (  1) 3T *#PT party [ˈpɑːti] (n) {A1} {family and relationships} группа, {B1} {politics} партия, {C1} {discussion and agreement} {opinion and argument} {law and justice} участник, вечеринка
 
+{A2} {family and relationships {friends}}
+              xx ?#  school+friend [skuːl frɛnd] (n) {A2} {family and relationships} школьный друг
+
+{family and relationships {names}}
+..................................
 {A1} {family and relationships {names}}
   515. (  2) 4T *#PT name [neɪm] (n) {A1} {family and relationships} {B2} {opinion and argument} имя, название; (v) {A1} назвать
 
+{A2} {family and relationships {names}}
+              xx ?#  family+name [ˈfæm(ə)li neɪm] (n) {A2} {family and relationships} фамилия
+              xx ?#  first+name [fɜːst neɪm] (n) {A2} {family and relationships} имя
+              xx ?#  last+name [lɑːst neɪm] (n) {A2} {family and relationships} фамилия
+              xx ?#  second+name [ˈsɛk(ə)nd neɪm] (n) {A2} {family and relationships} фамилия
+              3T *#  surname [ˈsɜːneɪm] (n) {A2} {family and relationships} фамилия
+
+{family and relationships {ralationships ending}}
+.................................................
 {A1} {family and relationships {ralationships ending}}
   439. (  1) 3T *#PT leave [liːv] (n) {B2} {permission and obligation} {working life} отпуск, уход; (v) {A1} {family and relationships} оставлять, уходить, I: leave-left-left
 
+{A2} {family and relationships {ralationships ending}}
+  241. (  1) 3T *#PT divorced [dɪˈvɔːst] -ed: (v) {B2} {family and relationships} {law and justice} разводиться; (adj) {A2} {family and relationships} разведенный
+
+{family and relationships {relatives}}
+......................................
 {A1} {family and relationships {relatives}}
    56. (  1) 3T *#PT aunt [ɑːnt] (n) {A1} {family and relationships} тетя
   113. (  1) 3T *#PT brother [ˈbrʌðə] (n) {A1} {family and relationships} {C1} {religion and festivals} брат
@@ -3100,33 +3167,90 @@ People
   836. (  1) 3T *#PT uncle [ˈʌŋkl] (n) {A1} {family and relationships} дядя, дядька
   882. (  1) 3T *#PT wife [waɪf] (n) {A1} {family and relationships} жена, I: wife-wives
 
+{A2} {family and relationships {relatives}}
+              xT *#  daddy [ˈdædi] (n) {A2} {family and relationships} папа, папочка
+              xT ?#  granny [ˈgræni] (n) {A2} {family and relationships} бабушка, бабуля
+              yT ?#  momma [ˈmɒmə] (n) {A2} {family and relationships} мамочка, мама
+              yT ?#  mommy [ˈmɒmi] (n) {A2} {family and relationships} мама, мамочка
+              yT ?#  mummy [ˈmʌmi] (n) {C2} {history} мумия, {A2} {family and relationships} мама
+              3T *#  nephew [ˈnɛvju(ː)] (n) {A2} {family and relationships} племянник
+              3T *#  niece [niːs] (n) {A2} {family and relationships} племянница
+  828. (  2) 3T ?#PT twin [twɪn] (n) {A2} {holidays} {family and relationships} близнец; (adj) {A2} двойной
+
+{family and relationships {romance}}
+....................................
 {A1} {family and relationships {romance}}
   108. (  1) 3T *#PT boyfriend [ˈbɔɪˌfrɛnd] (n) {A1} {family and relationships} парень
   337. (  1) 3T *#PT girlfriend [ˈgɜːlˌfrɛnd] (n) {A1} {family and relationships} подруга, любимая девушка
   461. (  2) 3T *#PT love [lʌv] (n) {family and relationships} {feelings} любовь; (v)(stative) {A1} {feelings} {preference and decisions} любить
   809. (  1) 3T *#PT together [təˈgɛðə] (adv) {A1} {family and relationships} {B2} {discussion and agreement} вместе, воедино; (adj) собранный, тесно связанный
 
-{A1} {feelings}
----------------
+{A2} {family and relationships {romance}}
+  126. (  2) 3T *#PT care [keə] (v) {A2} {family and relationships} {feelings} заботиться; (n) {A2} {life stages} {healthcare} уход, {B1} забота
+  192. (  1) 3T *#PT couple [ˈkʌpl] (n) {A2} {family and relationships} пара, {A2} два; (v) соединяться
+              3T *#  date [deɪt] (n) {A1} {time} {history} дата, срок, {A2} {family and relationships} свидание; (v) {B2} датировать, {B2} {family and relationships} назначать свидание
+              1T *#  partner [ˈpɑːtnə] (n) {A1} {A2} {family and relationships} {life stages} {B1} {jobs} {business} партнер, напарник, супруг
+
+{feelings}
+----------
+{feelings {anger}}
+..................
 {A1} {feelings {anger}}
    36. (  1) 3T *#PT angry [ˈæŋgri] (adj) {A1} {feelings} сердитый, гневный, разгневанный
 
+{A2} {feelings {anger}}
+   56. (  1) 3T *#PT argue [ˈɑːgjuː] (v) {A2} {opinion and argument} {feelings} {B1} {discussing and agreement} спорить, аргументировать, доказывать
+   57. (  1) 3T *#PT argument [ˈɑːgjʊmənt] (n) {A2} {opinion and argument} {feelings} {B1} {language} аргумент, довод, спор, параметр, аргументация, доказательство
+  174. (  1) 3T *#PT complain [kəmˈpleɪn] (v) {A2} {feelings} жаловаться
+  194. (  1) 3T *#PT crazy [ˈkreɪzi] (adj) {A2} {feelings} сумасшедший; (n) сумасшедший, псих
+              1T *#  red [rɛd] (adj) {A1} {colours and shapes} {appearance} {A2} {feelings} {C1} {politics} красный, рыжий; (n) {A1} {colours and shapes} {C1} {politics} красный цвет
+
+{feelings {boredom}}
+....................
 {A1} {feelings {boredom}}
   101. (  1) 3T *#PT bored [bɔːd] {A1} {feelings} -ed: (v) {C1} {feelings} надоедать, сверлить
 
+{A2} {feelings {boredom}}
+
+{feelings {disappointment}}
+...........................
 {A1} {feelings {disappointment}}
   723. (  2) 3T *#PT sorry [ˈsɒri] (adj) {A1} {feeling} сожалеющий; (excl) {A1} извините
 
+{A2} {feelings {disappointment}}
+
+{feelings {disgust}}
+....................
 {A1} {feelings {disgust}}
+{A2} {feelings {disgust}}
+
+{feelings {embarrassment}}
+..........................
 {A1} {feelings {embarrassment}}
+{A2} {feelings {embarrassment}}
+
+{feelings {excitement}}
+.......................
 {A1} {feelings {excitement}}
+{A2} {feelings {excitement}}
+
+{feelings {fear}}
+.................
 {A1} {feelings {fear}}
    18. (  1) 3T *#PT afraid [əˈfreɪd] (adj) {A1} {feelings} {danger} боящийся, испуганный
 
+{A2} {feelings {fear}}
+
+{feelings {fellings in general}}
+................................
 {A1} {feelings {fellings in general}}
   287. (  1) 3T *#PT feel [fil] (v)(stative) {A1} {feelings} {A2} {opinion and argument} чувствовать, почувствовать, ощущать, испытывать, I: feel-felt-felt; (n) {B2} ощущение
   288. (  1) 3T *#PT feeling [filɪŋ] {A1} {feelings} {A2} {opinion and argument} -ing: (v)(stative) {A1} {feelings} {A2} {opinion and argument} чувствовать, почувствовать, ощущать, испытывать, I: feel-felt-felt
 
+{A2} {feelings {fellings in general}}
+
+{feelings {happiness}}
+......................
 {A1} {feelings {happiness}}
   329. (  1) 3T *#PT fun [fʌn] (n) {A1} {feelings} {games and toys} забава; (v) шутит; (adj) {A2} забавный
   358. (  1) 3T *#PT happy [ˈhæpi] (adj) {A1} {feelings} {C1} {success} счастливый
@@ -3134,62 +3258,174 @@ People
   437. (  2) 3T *#PT laugh [(UK)lɑːf/(US)læf] (v)(intransitive) {A1} {feelings} смеяться; (n) {A1} {feelings} смех
   550. (  3) 3T *#PT ok [ˈəʊˈkeɪ] (abbr)(excl) {A1} {permission and obligation} {discussion and agreement} {opinion and argument} All Correct; (adv)(adj) {A1} {feelings} хорошо
 
+{A2} {feelings {happiness}}
+              1T *#  enjoy [ɪnˈʤ ɔɪ] (v)(stative) {A1} {A2} {feelings} наслаждаться
+              xx ?#  feel+good [fiːl ɡʊd] (idiom) {A2} {feelings} чувствовать себя хорошо
+  390. (  1) 3T *#PT hope [həʊp] (n) {A2} {feelings} надежда, упование, чаяние; (v) {A1} {feelings} надеяться
+  582. (  1) 3T ?#PT pleased [pliːzd] -ed: (v) {A1} радовать, {C1} {preferences and decisions} нравиться; (adj) {A2} {feelings} довольный
+  729. (  2) 3T *#PT smile [smaɪl] (n) {A2} {feelings} {appearance} улыбка; (v) {A2} {feelings} {appearance} улыбаться
+
+{feelings {hate}}
+.................
 {A1} {feelings {hate}}
   361. (  1) 3T *#PT hate [heɪt] (n) {B1} {preference and decisions} {feelings} ненависть; (v) (stative) {A1} {preferences and decisions} {feelings} ненавидеть
 
+{A2} {feelings {hate}}
+
+{feelings {hunger}}
+...................
 {A1} {feelings {hunger}}
   393. (  1) 3T *#PT hungry [ˈhʌŋgri] (adj) {A1} {feelings} голодный
 
+{A2} {feelings {hunger}}
+
+{feelings {loneliness}}
+.......................
 {A1} {feelings {loneliness}}
+{A2} {feelings {loneliness}}
+
+{feelings {love}}
+.................
 {A1} {feelings {love}}
   461. (  2) 3T *#PT love [lʌv] (n) {family and relationships} {feelings} любовь; (v)(stative) {A1} {feelings} {preference and decisions} любить
 
+{A2} {feelings {love}}
+  126. (  2) 3T *#PT care [keə] (v) {A2} {family and relationships} {feelings} заботиться; (n) {A2} {life stages} {healthcare} уход, {B1} забота
+
+{feelings {nervous}}
+....................
 {A1} {feelings {nervous}}
+{A2} {feelings {nervous}}
+  681. (  1) 3T *#PT scared [skeəd] -ed: (v) {B2} пугать, отпугивать; (adj) {A2} {feelings} испуганный
+
+{feelings {showing interest}}
+.............................
 {A1} {feelings {showing interest}}
   405. (  2) 3T *#PT interest [ˈɪntrɪst] (v) {A1} заинтересовать, интересовать; (n) {A1} {feelings} {hobbies} интерес, заинтересованность, {B1} {money} процент, доля
 
+{A2} {feelings {showing interest}}
+
+{feelings {surprise}}
+.....................
 {A1} {feelings {surprise}}
+{A2} {feelings {surprise}}
+  780. (  2) 3T *#PT surprise [(UK)səˈpraɪz/(US)sərˈpraɪz/səˈpraɪz] (n) {A2} сюрприз, {A2} {feelings} удивление, неожиданность; (v) {A2} {feelings} удивлять; (adj) неожиданный
+  781. (  1) 3T *#PT surprised [(UK)səˈpraɪzd/(US)sərˈpraɪzd/səˈpraɪzd] -ed: (v) {A2} {feelings} удивлять; (adj) {A2} {feelings} удивленный
+  782. (  1) 3T *#PT surprising [(UK)səˈpraɪzɪŋ/(US)sərˈpraɪzɪŋ/səˈpraɪzɪŋ] -ing: (v) {A2} {feelings} удивлять; (adj) {A2} {feelings} удивительный, неожиданный
+
+{feelings {thirst}}
+...................
 {A1} {feelings {thirst}}
   794. (  1) 3T ?#PT thirsty [ˈθɜːsti] (adj) {A1} {feelings} {drinks} томимый жаждой
 
+{A2} {feelings {thirst}}
+
+{feelings {tiredness}}
+......................
 {A1} {feelings {tiredness}}
   804. (  1) 3T *#PT tired [ˈtaɪəd] {A1} {feeling} -ed: (v) {C2} {feelings} утомлять, надоедать
 
+{A2} {feelings {tiredness}}
+
+{feelings {unhappiness}}
+........................
 {A1} {feelings {unhappiness}}
-{A1} {feelings {worry}}
   665. (  1) 3T *#PT sad [sæd] (adj) {A1} {feelings} грустный
   776. (  1) 3T *#PT terrible [ˈtɛrəbl] (adj) {A1} {health problems} {feelings} страшный, ужасный
 
-{A1} {life stages}
-------------------
+{A2} {feelings {unhappiness}}
+  202. (  1) 3T *#PT cry [kraɪ] (n) {B2} крик, вопль, плач; (v) {A2} {feelings} плакать, {B1} кричать
+  549. (  1) 3T *#PT pain [peɪn] (n) {A2} {health problems} боль, {A2} {feelings} страдание
+  673. (  1) 3T *#PT sadly [ˈsædli] (adv) {A2} {feelings} грустно, уныло
+  833. (  1) 3T *#PT unhappy [ʌnˈhæpi] {A2} {feelings} un-: (adj) {A1} {feelings} {C1} {success} счастливый
+
+{feelings {worry}}
+..................
+{A1} {feelings {worry}}
+{A2} {feelings {worry}}
+  521. (  1) 3T *#PT nervous [ˈnɜːvəs] (adj) {A2} {feelings} {B1} {personal qualities} нервный, слабонервный
+  767. (  2) 3T *#PT stress [strɛs] (n) {A2} {feelings} стресс, {B2} {physics and chemistry} напряжение, усилие, {A2} {language} ударение, акцент; (v) {A2} {language} {B2} {feelings} подчеркивать
+  873. (  1) 3T *#PT worried [ˈwʌrid] -ed: (v) {A2} {feelings} беспокоиться; (adj) {A2} {feelings} тревожный, озабоченный
+  874. (  1) 3T *#PT worry [ˈwʌri] (v) {A2} {feelings} беспокоиться; (n) {B1} беспокойство
+
+{life stages}
+-------------
+{life stages {adults}}
+......................
 {A1} {life stages {adults}}
    16. (  1) 3T *#PT adult [ˈædʌlt] (adj) {A2} для взрослых, взрослый, совершеннолетний, зрелый; (n) {A1} {life stages} взрослый человек, совершеннолетний человек
   348. (  2) 3T *#PT grey [greɪ] (adj) {A1} {colours and shapes} {weather} {appearance} {life stages} серый; (n) {A1} {colours and shapes} серый цвет; (v) {B2} {life stages} = become gray with age, especially of hair
   467. (  1) 3T *#PT man [mæn] (n) {A1} {life stages} {people in society} человек, мужчина, I: man-men
   890. (  1) 3T *#PT woman [ˈwʊmən] (n) {A1} {life stages} {people in society} женщина, I: woman-women
 
+{A2} {life stages {adults}}
+
+{life stages {babies}}
+......................
 {A1} {life stages {babies}}
    59. (  1) 3T *#PT baby [ˈbeɪbi] (n) {A1} {life stages} ребенок
 
+{A2} {life stages {babies}}
+
+{life stages {birth}}
+.....................
 {A1} {life stages {birth}}
   103. (  1) 3T *#PT born [bɔːn] (adj) {A1} {life stages} родившийся, рожденный
 
+{A2} {life stages {birth}}
+  100. (  1) 3T *#PT birth [bɜːθ] (n) {A2} {life stages} рождение, роды, происхождение
+
+{life stages {death}}
+.....................
 {A1} {life stages {death}}
   213. (  1) 3T *#PT die [daɪ] (v) {A1} {life stages} умереть, умирать; (n) штамп, матриц
 
+{A2} {life stages {death}}
+  210. (  1) 3T *#PT dead [dɛd] (adj) {A2} {life stages} мертвый, умерший, умершие
+  213. (  1) 3T *#PT death [dɛθ] (n) {A2} {life stages} смерть
+
+{life stages {marriage}}
+........................
 {A1} {life stages {marriage}}
   472. (  1) 3T *#PT married [ˈmærid] (adj) {A1} {life stage} женатый, замужем, брачный; -ed: (v) {A2} {religion and festivals} {life stages} {life stages} жениться, выйти замуж, выходить замуж
 
-{A1} {life stages {old agge}}
+{A2} {life stages {marriage}}
+  484. (  1) 3T *#PT marry [ˈmæri] (adv) замуж; (v) {A2} {religion and festivals} {life stages} жениться, выйти замуж, выходить замуж
+              1T *#  partner [ˈpɑːtnə] (n) {A1} {A2} {family and relationships} {life stages} {B1} {jobs} {business} партнер, напарник, супруг
+  661. (  2) 3T *#PT ring [rɪŋ] (n) {A2} {clothes and fashion} {life stage} кольцо, {C1} {sports: other sports} ринг, {B1} {plants and tree} круг, {B1} звон; (v) {A2} {phones, email and the internet} звонить, звенеть, звучать, I: ring-rang-rung
+  857. (  1) 3T *#PT wedding [ˈwɛdɪŋ] (n) {A2} {religion and festivals} {life stages} свадьба; -ing: (v) женить
+              xx ?#  wedding+cake [ˈwɛdɪŋ keɪk] (n) {A2} {life stages} свадебный торт
+              xx ?#  wedding+dress [ˈwɛdɪŋ drɛs] (n) {A2} {life stage} свадебное платье
+              xx ?#  wedding+party [ˈwɛdɪŋ ˈpɑːti] (n) {A2} {life stage} свадебная вечеринка
+              xx ?#  wedding+ring [ˈwɛdɪŋ rɪŋ] (n) {A2} {life stage} обручальное кольцо
+
+{life stages {old age}}
+.......................
+{A1} {life stages {old age}}
   551. (  1) 3T *#PT old [əʊld] (adj) {A1} {life stages} старый, бывший; (n) старики, лет
 
-{A1} {life stages {pregancy}}
-{A1} {life stages {raising childre}}
+{A2} {life stages {old age}}
+
+{life stages {pregancy}}
+........................
+{A1} {life stages {pregnancy}}
+{A2} {life stages {pregnancy}}
+              xx ?#  be+expecting+a+child [biː ɪkˈspɛktɪŋ ə ʧaɪld] (idiom) {A2} {life stage} = to be pregnant
+              xx ?#  be+expecting+a+baby [biː ɪkˈspɛktɪŋ ə beɪbi] (idiom) {A2} {life stage} = to be pregnant
+
+{life stages {raising children}}
+................................
+{A1} {life stages {raising children}}
   276. (  2) 3T *#PT family [ˈfæmɪli] (n) {A1} {family and relationships} {life stages} семья, {A2} {animals} семейство; (adj) {A1} семейный, фамильный
   284. (  1) 3T *#PT father [ˈfɑːðə] (n) {A1} {family and relationships} {life stages} отец
   503. (  1) 3T *#PT mother [ˈmʌðə] (n) {A1} {family and relationships} {life stages} мать
   575. (  1) 3T *#PT parent [ˈpeərənt] (adj) родительский, исходный; (n) {A1} {life stages} {family and relationships} родитель; (v) {C1} {life stages} {family and relationships} = be or act as a parent to (a child)
 
+{A2} {life stages {raising children}}
+  126. (  2) 3T *#PT care [keə] (v) {A2} {family and relationships} {feelings} заботиться; (n) {A2} {life stages} {healthcare} уход, {B1} забота
+
+{life stages {youth}}
+.....................
 {A1} {life stages {youth}}
   107. (  1) 3T *#PT boy [bɔɪ] (n) {A1} {life stages} мальчик
   151. (  1) 3T *#PT child [ʧaɪld] (n) {A1} {life stages} ребенок, I: child-children
@@ -3198,220 +3434,770 @@ People
   770. (  1) 4T *#PT teenager [ˈtiːnˌeɪʤ ə] (n) {A1} {life stages} подросток
   907. (  1) 3T *#PT young [jʌŋ] (adj) {A1} {life stages} {B1} {family and relationships} молодой
 
-{A1} {personal qualities}
--------------------------
+{A2} {life stages {youth}}
+  432. (  1) 3T *#PT kid [kɪd] (n) {A2} {life stages} малыш, дитя; (v) обманывать; (adj) {C1} {family and relationships} младший, молодой
+  794. (  1) xT ?#PT teenage [ˈtiːnˌeɪʤ ] (adj) {A2} {life stages} юношеский, в возрасте от 13 до 19 лет
+              xx ?#  young+adult [jʌŋ ˈædʌlt] (n) {A2} {life stages} = a person in their teenage year or early twenties
+
+{personal qualities}
+--------------------
+{personal qualities {annoying}}
+...............................
 {A1} {personal qualities {annoying}}
+{A2} {personal qualities {annoying}}
+
+{personal qualities {brave}}
+............................
 {A1} {personal qualities {brave}}
+{A2} {personal qualities {brave}}
+  377. (  1) 3T *#PT hero [ˈhɪərəʊ] (n) {A2} {personal qualities} {film and theatre} {literature and writing} герой
+              4T ?#  heroine [ˈhɛrəʊɪn] (n) {A2} {personal qualities} {film and theatre} {literature and writing} героиня, главное действующее лицо
+
+{personal qualities {clever}}
+.............................
 {A1} {personal qualities {clever}}
+{A2} {personal qualities {clever}}
+               3T ?#  brilliant [ˈbrɪljənt] (adj) {A2} {personal qualities} {success} блестящий, выдающийся; (n) бриллиант
+  155. (  1) 3T *#PT clever [ˈklɛvə] (adj) {A2} {personal qualities} умный
+  416. (  1) 3T *#PT intelligent [ɪnˈtɛlɪʤ ənt] (adj) {A2} {personal qualities} умный, разумный, смышленый, понимающий
+
+{personal qualities {confident}}
+................................
 {A1} {personal qualities {confident}}
   756. (  1) 3T *#PT sure [ʃʊə] (adj) верный, {A1} {personal qualities} {B1} {doubt, guessing and certainty} уверенный; (adv) {A2} конечно, непременно
 
+{A2} {personal qualities {confident}}
+
+{personal qualities {cowardly}}
+...............................
 {A1} {personal qualities {cowardly}}
+{A2} {personal qualities {cowardly}}
+
+{personal qualities {dishonest}}
+................................
 {A1} {personal qualities {dishonest}}
+{A2} {personal qualities {dishonest}}
+
+{personal qualities {energetic}}
+................................
 {A1} {personal qualities {energetic}}
+{A2} {personal qualities {energetic}}
+
+{personal qualities {friendly}}
+-------------------------------
 {A1} {personal qualities {friendly}}
   324. (  1) 3T *#PT friendly [ˈfrɛndli] (adj) {A1} {personal qualities} {B1} {sports: ball and racket sports} дружественный; (adv) дружественно
 
-{A1} {personal qualities {honest}}
-{A1} {personal qualities {immoral}}
-   61. (  1) 3T *#PT bad [bæd] (adj) {A1} {weather} {personal qualities} {A2} {health problems} {B1} {feelings} плохой, дурной, нехороший, I:bad-worse-(the)worst; (adv) плохо, нехорошо, I:bad-worse-(the)worst; (n) неудачаbad [bæd] (adj) плохой, дурной, нехороший, I:bad-worse-(the)worst; (adv) плохо, нехорошо, I:bad-worse-(the)worst; (n) неудача
+{A2} {personal qualities {friendly}}
 
+{personal qualities {honest}}
+-----------------------------
+{A1} {personal qualities {honest}}
+{A2} {personal qualities {honest}}
+
+{personal qualities {immoral}}
+------------------------------
+{A1} {personal qualities {immoral}}
+   61. (  1) 3T *#PT bad [bæd] (adj) {A1} {weather} {personal qualities} {A2} {health problems} {B1} {feelings} плохой, дурной, нехороший, I:bad-worse-(the)worst; (adv) плохо, нехорошо, I:bad-worse-(the)worst; (n) неудача
+
+{A2} {personal qualities {immoral}}
+
+{personal qualities {kind}}
+...........................
 {A1} {personal qualities {kind}}
   526. (  1) 3T *#PT nice [naɪs] (adj) {A1} {personal qualities} хороший, приятный, красивый, славный, милый
 
+{A2} {personal qualities {kind}}
+  376. (  1) 3T *#PT helpful [ˈhɛlpfʊl] (adj) {A2} {personal qualities} {shopping} полезный
+              3T *#  lovely [ˈlʌvli] (adj) {A2} {appearance} прекрасный; (n) красотка
+  584. (  1) 3T *#PT polite [pəˈlaɪt] (adj) {A2} {personal qualities} вежливый, любезны
+
+{personal qualities {lazy}}
+...........................
 {A1} {personal qualities {lazy}}
+{A2} {personal qualities {lazy}}
+  450. (  1) 3T *#PT lazy [ˈleɪzi] (adj) {A2} {personal qualities} ленивый
+
+{personal qualities {moral}}
+............................
 {A1} {personal qualities {moral}}
   341. (  1) 4T *#PT good [gʊd] (adj) {A1} {weather} {personal qualities} {health and fitness} хороший, I:good-better-(the)best; (adv) хорошо, I:good-better-(the)best; (n) {A2} благо, добро
 
+{A2} {personal qualities {moral}}
+
+{personal qualities {proud}}
+............................
 {A1} {personal qualities {proud}}
+{A2} {personal qualities {proud}}
+
+{personal qualities {selfish}}
+..............................
 {A1} {personal qualities {selfish}}
+{A2} {personal qualities {selfish}}
+
+{personal qualities {shy}}
+..........................
 {A1} {personal qualities {shy}}
+{A2} {personal qualities {shy}}
+
+{personal qualities {skills and qualities}}
+...........................................
 {A1} {personal qualities {skills and qualities}}
   707. (  1) 3T *#PT skill [skɪl] (n) {A1} {personal qualities} мастерство, умение
 
+{A2} {personal qualities {skills and qualities}}
+  127. (  1) 3T *#PT careful [ˈkeəfʊl] (adj) {A2} {personal qualities} осторожный, внимательный, заботливый
+  195. (  1) 4T *#PT creative [kri(ː)ˈeɪtɪv] (adj) {A2} {personal qualities} {working life} {jobs} творческий
+              xx ?#  hard-working [ˈhɑːdˌwɜːkɪŋ] (adj) {A2} {personal qualities} трудолюбивый, прилежный
+
+{personal qualities {unpleasant}}
+.................................
 {A1} {personal qualities {unpleasant}}
   217. (  1) 3T *#PT difficult [ˈdɪfɪkəlt] (adj) {A1} {difficulty and failure} {personal qualities} трудный, тяжелый, нелегкий
 
+{A2} {personal qualities {unpleasant}}
+  669. (  1) 3T *#PT rude [ruːd] (adj) {A2} {personal qualities} грубый, невежливый, невоспитанный
+
 Politics and society
 =====================
-{A1} {crime and punishment}
----------------------------
+{crime and punishment}
+----------------------
+{crime and punishment {committing crime}}
+.........................................
 {A1} {crime and punishment {committing crime}}
+{A2} {crime and punishment {committing crime}}
+   65. (  2) 3T *#PT attack [əˈtæk] (n) {A2} {crime and punishment} {war and conflict} {B1} {health problems} атака; (v) {A2} {crime and punishment} {war and conflict} {B2} {sports: ball and racket sports} атаковать
+  197. (  1) 3T *#PT crime [kraɪm] (n) {A2} {crime and punishment} преступление, преступность
+  433. (  1) 3T *#PT kill [kɪl] (v) {A2} {crime and punishment} убивать
+  758. (  1) 3T *#PT steal [stiːl] (v) {A2} {crime and punishment} воровать, красть, I: steal-stole-stolen; (n) кража
+
+{crime and punishment {criminals}}
+..................................
 {A1} {crime and punishment {criminals}}
+{A2} {crime and punishment {criminals}}
+  198. (  1) 3T *#PT criminal [ˈkrɪmənəl] (adj) {B1} {crime and punishment} {law and justice} {personal qualities} уголовный, преступный, криминальный; (n) {A2} {crime and punishment} преступник
+  800. (  1) 3T ?#PT thief [θiːf] (n) {A2} {crime and punishment} вор, воровка, нагар, I: thief-thieves
+
+{crime and punishment {prison}}
+...............................
 {A1} {crime and punishment {prison}}
+{A2} {crime and punishment {prison}}
+
+{crime and punishment {punishment}}
+...................................
 {A1} {crime and punishment {punishment}}
+{A2} {crime and punishment {punishment}}
+  599. (  1) 3T *#PT prison [ˈprɪzn] (n) {A2} {buildings} {crime and punishment} тюрьма; (adj) тюремный
+
+{crime and punishment {solving crime}}
 {A1} {crime and punishment {solving crime}}
    98. (  1) 3T *#PT body [ˈbɒdi] (n) {A1} {body} тело, {B2} {transport by car or lorry} корпус, {A1} {crime and punishment} труп
 
-{A1} {crime and punishment {type of crime}}
+{A2} {crime and punishment {solving crime}}
+  134. (  1) 3T *#PT catch [kæʧ] (v) {A2} {sports: ball and racket sports} {transport by bus train} {transport by air} {crime and punishment} {B1} {health problems} поймать, ловить, догнать, I: catch-caught-caught;  (n) {B2} улов, выгода
+  224. (  1) 5T *#PT detective [dɪˈtɛktɪv] (n) {A2} {jobs} {law and justice} {crime and punishment} детектив, сыщик; (adj) детективный
+  282. (  1) 3T ?#PT evidence [ˈɛvɪdəns] (n) {A2} {scientific research} {A2} {opinion and argument} данные, {A2} {crime and punishment} {law and justice} свидетельство, доказательство, признаки, очевидность, улика; (v) свидетельствовать, доказывать
+  395. (  1) 3T *#PT identify [aɪˈdɛntɪfaɪ] (v) {A2} {crime and punishment} идентифицировать, отождествлять, распознавать, опознавать
+  621. (  1) 3T *#PT question [ˈkwɛsʧən] (n) {A1} вопрос; (v) {A2} {crime and punishment} {working life} сомневаться, допрашивать, спрашивать
+              1T *#  report [rɪˈpɔːt] (n) {A1} {literature and writing} {tv, radio and news} {B1} {education} доклад, отчет, сообщение; (v) {A2} {tv, radio and news} {crime and punishment} сообщить, докладывать
+  683. (  1) 3T *#PT scene [siːn] (n) {A2} {crime and punishment} {film and theatre} {art} сцена, картина, эпизод, место действия
+  740. (  1) 3T *#PT solve [sɒlv] (v) {A2} {crime and punishment} {maths and measurement} решать, разрешать, растворять, объяснять
 
-{A1} {law and justice}
-----------------------
+{crime and punishment {type of crime}}
+......................................
+{A1} {crime and punishment {type of crime}}
+{A2} {crime and punishment {type of crime}}
+   65. (  2) 3T *#PT attack [əˈtæk] (n) {A2} {crime and punishment} {war and conflict} {B1} {health problems} атака; (v) {A2} {crime and punishment} {war and conflict} {B2} {sports: ball and racket sports} атаковать
+  699. (  1) 3T *#PT serious [ˈsɪərɪəs] (adj) {A2} {health problems} {crime and punishment} серьезный, важный
+
+{law and justice}
+-----------------
+{law and justice {justice}}
+...........................
 {A1} {law and justice {justice}}
+{A2} {law and justice {justice}}
+  282. (  1) 3T ?#PT evidence [ˈɛvɪdəns] (n) {A2} {scientific research} {A2} {opinion and argument} данные, {A2} {crime and punishment} {law and justice} свидетельство, доказательство, признаки, очевидность, улика; (v) свидетельствовать, доказывать
+
+{law and justice {legal documents}}
+...................................
 {A1} {law and justice {legal documents}}
   580. (  1) 3T *#PT passport [ˈpɑːspɔːt] (n) {A1} {transport by air} {law and justice} {holidays} паспорт; (adj) паспортный
 
+{A2} {law and justice {legal documents}}
+  242. (  1) 3T *#PT document [ˈdɑkjəmɛnt] (n) {law and justice} {computers} документ; (v) {B2} документировать
+  712. (  2) 3T *#PT sign [saɪn] (n) {A2} знак, признак, {B1} {maths and measurement} символ, подпись; (v) {A2} {discussion and agreement} {law and justice} подписывать, ставить знак
+
+{law and justice {legal processes}}
+...................................
 {A1} {law and justice {legal processes}}
+{A2} {law and justice {legal processes}}
+  601. (  1) 3T *#PT process [(UK)prəʊses/(US)ˈprɑːses] (n) {A2} {law and justice} процесс, способ; (v) {B2} {computers} обрабатывать
+
+{law and justice {people in law}}
+.................................
 {A1} {law and justice {people in law}}
+{A2} {law and justice {people in law}}
+  449. (  1) 3T *#PT lawyer [ˈlɔːjə] (n) {A2} {law and justice} {jobs} юрист
+
+{law and justice {the law}}
+...........................
 {A1} {law and justice {the law}}
+{A2} {law and justice {the law}}
+              1T *#  law [lɔː] (n) {A2} {permission and obligation} {law and justice} {politics} закон, {B1} {education} {law and justice} право, {B2} {scientific research} принцип; (adj) юридический, правовой
+
+{law and justice {the police}}
+..............................
 {A1} {law and justice {the police}}
   608. (  1) 3T *#PT police [pəˈlis] (n) {A1} {law and justice} полиция, полицейский, поддержание чистоты, уборка; (v) {C1} {law and justice} охранять, контролировать, приводить в порядок
   609. (  1) 4T *#PT policeman [pəˈlismən] (n) {A1} {law and justice} {jobs} полицейский, полисмен
               xx ?#  policewoman [pəˈliːsˌwʊmən] (n) {A1} {law and justice} {jobs} женщина-полицейский
 
-{A1} {people in society}
-------------------------
+{A2} {law and justice {the police}}
+  224. (  1) 5T *#PT detective [dɪˈtɛktɪv] (n) {A2} {jobs} {law and justice} {crime and punishment} детектив, сыщик; (adj) детективный
+  534. (  1) 3T *#PT officer [ˈɒfɪsə] (n) {A2} {war and conflict} {law and justice} {jobs} офицер, должностное лицо, чиновник, полицейский
+              xx ?#  police+officer [pəˈliːs ˈɒfɪsə] (n) {A2} {law and justice} {jobs} полицейский
+              xx ?#  police+station [pəˈliːs ˈsteɪʃ(ə)n] (n) {A2} {law and justice} {buildings} полицейский участок
+              1T *#  station [ˈsteɪʃən] (n) {A1} {transport by bus and train} {buildings} {A2} {tv, radio and news} станция, {C1} {war and conflict} пункт, {A2} {law and justice} место; (v) {B1} {war and conflict} размещать
+  834. (  1) 3T *#PT uniform [ˈjuːnɪfɔːm] (n) {A2} {law and justice} {education} {clothes and fashion} униформа, форма; (adj) единый, равномерный, однородный
+
+{people in society}
+-------------------
+{people in society {belonging to society}}
 {A1} {people in society {belonging to society}}
   349. (  1) 3T *#PT group [gruːp] (n) {A1} {people in society} {music} {B1} {business} группа, группировка; (adj) групповой; (v) группировать
 
+{A2} {people in society {belonging to society}}
+  171. (  1) 3T *#PT community [kəˈmjuːnɪti] (n) {A2} {people in society} сообщество, община, общество, общность; (adj) общественный
+  540. (  1) 3T *#PT organization [ˌɔrgənəˈzeɪʃən] (n) {A2} {people in society} организация
+  613. (  2) 3T *#PT public [ˈpʌblɪk] (n) {A2} {people in society} общественность, публика; (adj) {A2} {people in society} общественный, публичный
+  735. (  1) 3T *#PT society [səˈsaɪəti] (n) {A2} {people in society} общество, общественность
+
+{people in society {gender and sexuality}}
 {A1} {people in society {gender and sexuality}}
   467. (  1) 3T *#PT man [mæn] (n) {A1} {life stages} {people in society} человек, мужчина, I: man-men
   890. (  1) 3T *#PT woman [ˈwʊmən] (n) {A1} {life stages} {people in society} женщина, I: woman-women
 
+{A2} {people in society {gender and sexuality}}
+  310. (  2) 3T *#PT female [ˈfiːmeɪl] (n) {A2} {biology} самка, женщина; (adj) {A2} {people in society} {biology} женский
+  479. (  2) 3T *#PT male [meɪl] (n) {A2} {biology} мужчина, самец; (adj) {A2} {people in society} {biology} мужской
+
+{people in society {race}}
+..........................
 {A1} {people in society {race}}
    93. (  2) 3T *#PT black [blæk] (n) {A1} {colours and shapes} черный цвет, {B2} {people in society} чернь; (adj) {A1} {colours and shapes} {people in society} черный, темный; (v) чернить
   879. (  2) 3T *#PT white [waɪt] (adj) {A1} {colours and shapes} {people in society} белый; (n) {A1} {colours and shapes} {B2} {people in society} белый цвет, {B1} {food} белок
 
+{A2} {people in society {race}}
+              4T *#  african [ˈæfrɪkən] ((adj) {A2} {people in society} африканский; (n) {A2} {people in society} африканец, африканка
+              4T *#  asian [ˈeɪʃ(ə)n] (adj) {A2} {people in society} азиатский; (n) {A2} {people in society} азиат, азиатка
+   77. (  1) 3T *#PT background [ˈbækgraʊnd] (n) {A2} {family and relationship} {people in society} {art} фон, предпосылка, происхождение
+              1T *#  color [ˈkʌlə] (n) {US} {A1} {colours and shapes} {A2} {people in society} цвет, (UK) = colour; (v) {B1} {colours and shapes} окрашивать; (adj) цветовой
+              3T *#  colour [ˈkʌlə] (n) {A1} {colours and shapes} {A2} {people in society} цвет; (v) {B1} {colours and shapes} окрашивать; (adj) цветовой
+              4T *#  european [ˌjʊərəˈpi(ː)ən] (adj) {A2} {people in society} европейский; (n) {A2} {people in society} европеец
+
+{people in society {rank and status}}
+.....................................
 {A1} {people in society {rank and status}}
   611. (  1) 3T *#PT poor [(UK)pʊə/(US)pur] (adj) {A1} {money} {people in society} {social issues} бедные, {B1} {health problems} плохой
   656. (  1) 3T *#PT rich [rɪʧ] (n) {A1} {money} {people in society} богатые, богатство; (adj) богатый
 
-{A1} {politics}
----------------
+{A2} {people in society {rank and status}}
+  111. (  1) 3T *#PT boss [bɒs] (n) {A2} {people in society} {working life} {jobs} {business} босс, шеф; (v) {C1} {personal qualities} распоряжаться
+              1T *#  head [hɛd] (n) {A1} {body} голова, {A2} {jobs} {people in society} {B2} {education} начальник; (adj) головной; (v) {B1} {people in society} возглавлять, направляться
+  434. (  1) 3T *#PT king [kɪŋ] (n) {A2} {history} {people in society} {politics} царь, король
+  452. (  1) 3T *#PT leader [ˈliːdə] (n) {A2} {people in society} {politics} {business} {B1} {sports: other sports} лидер, руководитель
+  595. (  1) 3T *#PT president [ˈprɛzɪdənt] (n) {A2} {people in society} {politics} президент, председатель
+  620. (  1) 3T *#PT queen [kwiːn] (n) {A2} {history} {people in society} {politics} королева, царица, дама; (v) быть королевой
+
+{politics}
+----------
+{politics {elections}}
 {A1} {politics {elections}}
   653. (  1) 3T *#PT result [rɪˈzʌlt] (n) {A1} {change, cause and effect} {sports: ball and reacket sports} {politics} {education} {scientific research} {A2} {success} {B1} {business} результат, следствие, итог; (v) {B1} {changes, cause and effect} следовать
 
-{A1} {politics {government}}
-{A1} {politics {international relations}}
-{A1} {politics {parliament}}
-{A1} {politics {political views and systems}}
-{A1} {politics {politicians}}
+{A2} {politics {elections}}
 
-{A1} {religion and festivals}
------------------------------
+{politics {government}}
+.......................
+{A1} {politics {government}}
+{A2} {politics {government}}
+  219. (  1) 3T *#PT department [dɪˈpɑːtmənt] (n) {A2} {education} {business} {working life} {politics} {shopping} отделение, департамент, факультет
+  357. (  1) 3T *#PT government [ˈgʌvnmənt] (n) {A2} {politics} правительство
+  448. (  1) 3T *#PT law [lɔː] (n) {A2} {permission and obligation} {law and justice} {politics} закон, {B1} {education} {law and justice} право, {B2} {scientific research} принцип; (adj) юридический, правовой
+  452. (  1) 3T *#PT leader [ˈliːdə] (n) {A2} {people in society} {politics} {business} {B1} {sports: other sports} лидер, руководитель
+              1T *#  office [ˈɒfɪs] (n) {A1} {working life} {houses and homes} офис, {A1} {transport by bus and train} бюро, служба, должность, пост, {A2} {politics} управление
+  756. (  1) 3T *#PT state [steɪt] (n) {B2} состояние, {A2} {politics} государство, штат; (adj) {B1} {politics} государственный; (v) {B1} утверждать
+
+{politics {international relations}}
+....................................
+{A1} {politics {international relations}}
+{A2} {politics {international relations}}
+  332. (  1) 3T *#PT foreign [ˈfɒrɪn] (adj) {A2} {holidays} {politics} иностранный, внешний, зарубежный, чужой
+  405. (  1) 3T *#PT independent [ˌɪndɪˈpɛndənt] (adj) {A2} {politics} {B1} {personal qualities} независимый, самостоятельный
+  417. (  1) 3T *#PT international [ˌɪntə(ː)ˈnæʃənl] (adj) {A2} {transport by air} {politics} международный
+  646. (  1) 3T *#PT relationship [rɪˈleɪʃənʃɪp] (n) {A2} {politics} {B1} {family and relationships} связь, отношение, взаимоотношение
+
+{politics {parliament}}
+.......................
+{A1} {politics {parliament}}
+{A2} {politics {parliament}}
+
+{politics {political views and systems}}
+........................................
+{A1} {politics {political views and systems}}
+{A2} {politics {political views and systems}}
+  434. (  1) 3T *#PT king [kɪŋ] (n) {A2} {history} {people in society} {politics} царь, король
+  592. (  1) 3T *#PT power [ˈpaʊə] (n) {A2} {politics} власть, {C2} {maths and measurement} мощность, {A2} {the environment} сила, мощь, энергия, способность; (adj) силовой; (v) снабжать силовым двигателем
+  620. (  1) 3T *#PT queen [kwiːn] (n) {A2} {history} {people in society} {politics} королева, царица, дама; (v) быть королевой
+  746. (  1) 3T *#PT speech [spiːʧ] (n) {A2} {politics} речь, слова, {B1} {film and theatre} выступление, {B1} язык; (adj) речевой
+  777. (  2) 3T *#PT support [səˈpɔːt] (n) {A2} {success} {B2} {healthcare} {C1} {music} поддержка, помощь; (v) {A2} {success} {politics} {B1} {money} {B2} {opinion and argument} {buildings} {C1} {music} поддерживать
+
+{politics {politicians}}
+........................
+{A1} {politics {politicians}}
+{A2} {politics {politicians}}
+  595. (  1) 3T *#PT president [ˈprɛzɪdənt] (n) {A2} {people in society} {politics} президент, председатель
+
+{religion and festivals}
+------------------------
+{religion and festivals {beliefs}}
+..................................
 {A1} {religion and festivals {beliefs}}
    82. (  1) 3T *#PT believe [bɪˈliːv] (v)(stative) {A1} {doubt, guessing and certainty} {opinion and argument} {religion and festivals} полагать, верить
 
+{A2} {religion and festivals {beliefs}}
+
+{religion and festivals {divine beings}}
+........................................
 {A1} {religion and festivals {divine beings}}
+{A2} {religion and festivals {divine beings}}
+  353. (  1) 3T *#PT god [(UK)gɒd/(US)gɑd] (n) {A2} {religion and festivals} бог, божество
+
+{religion and festivals {holidays and celebrations}}
+....................................................
 {A1} {religion and festivals {holidays and celebrations}}
    92. (  1) 3T *#PT birthday [ˈbɜːθdeɪ] (n) {A1} {religion and festivals} день рождения
               xx ?#  new+year [njuː jɪə] (n) {A1} {religion and festivals} новый год
 
+{A2} {religion and festivals {holidays and celebrations}}
+  136. (  1) 3T *#PT celebrate [ˈsɛlɪbreɪt] (v) {A2} {religion and festivals} праздновать, отпраздновать
+  819. (  1) 3T *#PT tradition [trəˈdɪʃən] (n) {A2} {religion and festivals} традиция, предание, привычка
+
+{religion and festivals {religious ceremonies}}
+...............................................
 {A1} {religion and festivals {religious ceremonies}}
+{A2} {religion and festivals {religious ceremonies}}
+ 484. (  1) 3T *#PT marry [ˈmæri] (adv) замуж; (v) {A2} {religion and festivals} {life stages} жениться, выйти замуж, выходить замуж
+ 857. (  1) 3T *#PT wedding [ˈwɛdɪŋ] (n) {A2} {religion and festivals} {life stages} свадьба; -ing: (v) женить
+
+{religion and festivals {religious holidays and festivals}}
+...........................................................
 {A1} {religion and festivals {religious holidays and festivals}}
-              4T *#  christmas [ˈkrɪsməs] (n) {A1} {cooking and eating} {religion and festivals} рождество
+             4T *#  christmas [ˈkrɪsməs] (n) {A1} {cooking and eating} {religion and festivals} рождество
 
+{A2} {religion and festivals {religious holidays and festivals}}
+             3T *#  festival [ˈfɛstəvəl] (n) {A1} {music} {A2} {religion and festivals} фестиваль, празднество; (adj) праздничный
+             3T *#  holiday [ˈhɒlədeɪ] (n) {A1} {holidays} {A2} {education} {religion and festivals} день отдыха
+
+{religion and festivals {religious items}}
+..........................................
 {A1} {religion and festivals {religious items}}
-{A1} {religion and festivals {religious people}}
-{A1} {religion and festivals {religious places}}
-{A1} {religion and festivals {religious practices}}
-{A1} {religion and festivals {religious texts}}
+{A2} {religion and festivals {religious items}}
+  816. (  1) 3T *#PT tower [ˈtaʊə] (n) {A2} {buildings} {religion and festivals} башня, {B2} {tv, radio and news} вышка, опора; (v) возвышаться; (adj) башенный
 
-{A1} {social issues}
---------------------
+{religion and festivals {religious people}}
+...........................................
+{A1} {religion and festivals {religious peoples}}
+{A2} {religion and festivals {religious peoples}}
+
+{religion and festivals {religious places}}
+...........................................
+{A1} {religion and festivals {religious places}}
+{A2} {religion and festivals {religious places}}
+  149. (  1) 3T *#PT church [ʧɜːʧ] (n) {A2} {religion and festivals} {buildings} церковь, храм
+
+{religion and festivals {religious practices}}
+..............................................
+{A1} {religion and festivals {religious practices}}
+{A2} {religion and festivals {religious practices}}
+
+{religion and festivals {religious texts}}
+..........................................
+{A1} {religion and festivals {religious texts}}
+{A2} {religion and festivals {religious texts}}
+
+{social issues}
+---------------
+{social issues {drugs}}
+.......................
 {A1} {social issues {drugs}}
+{A2} {social issues {drugs}}
+  150. (  1) 3T *#PT cigarette [ˌsɪgəˈrɛt] (n) {A2} {social issues} сигарета
+              3T *#  drink [drɪŋk] (n) {A1} {drinks} {A2} {social issues} напиток; (v) {A1} {drinks} {A2} {social issues} пить, I: drink-drank-drunk
+  253. (  1) 3T *#PT drug [drʌg] (n) {A2} {healthcare} лекарство, {A2} {social issues} наркотик; (adj) лекарственный
+  730. (  2) 3T *#PT smoke [sməʊk] (n) {A2} {the environment} дым, {B1} {social issues} курение; (v) {A2} {social issues} курить, дымить, коптить
+  731. (  1) 3T *#PT smoking [ˈsməʊkɪŋ] -ing: (v) {A2} {social issues} курить, дымить, коптить; (n) {A2} {social issues} курение; (adj) курительный
+
+{social issues {helping others}}
+................................
 {A1} {social issues {helping others}}
   338. (  1) xT *#PT give [gɪv] (v) {A1} {money} {social issues} {health problems} давать, I:give-gave-given
   370. (  2) 3T *#PT help [hɛlp] (n) {A1} {social issues} {danger} {A2} {suggestions and advice} помощь; (v) {A1} {social issues} помогать, способствовать
 
+{A2} {social issues {helping others}}
+  142. (  1) 3T ?#PT charity [ˈʧærɪti] (n) {A2} {social issues} благотворительность
+
+{social issues {migration}}
+...........................
 {A1} {social issues {migration}}
+{A2} {social issues {migration}}
+  123. (  2) 3T *#PT camp [kæmp] (n) {A2} {social issue} {B2} {war and conflict} лагерь; (v) {A2} {holidays} располагаться лагерем
+
+{social issues {poverty and famine}}
+....................................
 {A1} {social issues {poverty and famine}}
   611. (  1) 3T *#PT poor [(UK)pʊə/(US)pur] (adj) {A1} {money} {people in society} {social issues} бедные, {B1} {health problems} плохой
   626. (  1) 3T *#PT problem [ˈprɒbləm] (n) {A1} {difficulty and failure} {social issues} проблема, {B2} {maths and measurement} задача, вопрос; (adj) проблемный
 
+{A2} {social issues {poverty and famine}}
+
+{social issues {protest}}
+.........................
 {A1} {social issues {protest}}
+{A2} {social issues {protest}}
+
+{social issues {social justice}}
+................................
 {A1} {social issues {social justice}}
-{A1} {social issues {}}
+{A2} {social issues {social justice}}
+
+{social issues {unemployment}}
+..................
+{A1} {social issues {unemployment}}
   418. (  1) 3T *#PT job [ʤ ɑb] (n) {A1} {working life} {jobs} {social issues} {C1} {crime and punishment} работа
 
-{A1} {war and conflict}
------------------------
+{A2} {social issues {unemployment}}
+
+{war and conflict}
+------------------
+{war and conflict {peacekeeping}}
+.................................
 {A1} {war and conflict {peacekeeping}}
+{A2} {war and conflict {peacekeeping}}
+  561. (  1) 3T *#PT peace [pis] (n) {A2} {war and conflict} мир, покой; (adj) мирный
+
+{war and conflict {terrorism}}
+..............................
 {A1} {war and conflict {terrorism}}
+{A2} {war and conflict {terrorism}}
+
+{war and conflict {the air force}}
+..................................
 {A1} {war and conflict {the air force}}
+{A2} {war and conflict {the air force}}
+
+{war and conflict {the armed forces}}
+.....................................
 {A1} {war and conflict {the armed forces}}
+{A2} {war and conflict {the armed forces}}
+
+{war and conflict {the army}}
+.............................
 {A1} {war and conflict {the army}}
+{A2} {war and conflict {the army}}
+   58. (  1) 3T *#PT army [ˈɑːmi] (n) {A2} {war and conflict} армия, войско; (adj) армейский
+  738. (  1) 3T ?#PT soldier [ˈsəʊlʤ ə] (n) {A2} {war and conflict} {jobs} солдат, воин
+
+{war and conflict {the navy}}
+.............................
 {A1} {war and conflict {the navy}}
+{A2} {war and conflict {the navy}}
+
+{war and conflict {war}}
+........................
 {A1} {war and conflict {war}}
   197. (  1) 3T *#PT dangerous [ˈdeɪnʤ rəs] (adj) {A1} {danger} {war and conflict} {working life} опасный
 
+{A2} {war and conflict {war}}
+   65. (  2) 3T *#PT attack [əˈtæk] (n) {A2} {crime and punishment} {war and conflict} {B1} {health problems} атака; (v) {A2} {crime and punishment} {war and conflict} {B2} {sports: ball and racket sports} атаковать
+  207. (  1) 3T *#PT danger [ˈdeɪnʤ ə] (n) {A2} {danger} {war and conflict} опасность, угроза
+  534. (  1) 3T *#PT officer [ˈɒfɪsə] (n) {A2} {war and conflict} {law and justice} {jobs} офицер, должностное лицо, чиновник, полицейский
+  851. (  1) 3T *#PT war [wɔː] (n) {A2} {war and conflict} война
+
+{war and conflict {weapons}}
+............................
 {A1} {war and conflict {weapons}}
+{A2} {war and conflict {weapons}}
+  363. (  1) 3T *#PT gun [gʌn] (n) {A2} {war and conflict} пистолет, оружие
 
 Science and technology
-=======================
-{A1} {biology}
---------------
+======================
+{biology}
+---------
+{biology {biology}}
+...................
 {A1} {biology {biology}}
-{A1} {biology {genetics}}
+{A2} {biology {biology}}
+   89. (  1) 3T *#PT behaviour [bɪˈheɪvjə] (n) {A2} {animals} {biology} поведение
+   99. (  1) 3T *#PT biology [baɪˈɒləʤ i] (n) {A2} {education} {scientific research} {biology} биология
+  310. (  2) 3T *#PT female [ˈfiːmeɪl] (n) {A2} {biology} самка, женщина; (adj) {A2} {people in society} {biology} женский
+  479. (  2) 3T *#PT male [meɪl] (n) {A2} {biology} мужчина, самец; (adj) {A2} {people in society} {biology} мужской
+              3T *#  virus [ˈvaɪərəs] (n) {A2} {health problems} {biology} {computers} вирус, зараза; (adj) вирусный
 
-{A1} {computers}
-----------------
+{biology {genetics}}
+....................
+{A1} {biology {genetics}}
+{A2} {biology {genetics}}
+
+{computers}
+-----------
+{computers {computer hardware}}
+...............................
 {A1} {computers {computer hardware}}
   174. (  1) 3T *#PT computer [kəmˈpjuːtə] (n) {A1} {computers} компьютер; (adj) компьютерный
   235. (  1) 3T *#PT dvd [diː-viː-diː] (abbr) {A1} {film and theatre} {computers} Digital Video Disk
   505. (  1) 3T *#PT mouse [maʊs->(n)/maʊz->(v)] (n) {A1} {animals} {computers} мышь, подбитый глаз, I: mouse-mice; (v) выслеживать
 
+{A2} {computers {computer hardware}}
+  444. (  1) xT ?#PT laptop [ˈlæpˌtɒp] (n) {A2} {computers} портативный компьютер, ноутбук
+  494. (  1) 3T *#PT memory [ˈmɛməri] (n) {A2} {computers} память
+              xx ?#  mobile+device [ˈməʊbaɪl dɪˈvaɪs] (n) {A2} {computers} мобильное устройство
+  522. (  1) 3T *#PT network [ˈnɛtwɜːk] (n) {A2} {business} {computers} {tv, radio and news} сеть; (v) {B2} {computers} {C1} {business} создавать сеть, передавать по радиосети
+              xx ?#  personal+computer [ˈpɜːs(ə)n(ə)l kəmˈpjuːtə] (n) {A2} {computer} персональный компьютер
+  598. (  1) 3T *#PT printer [(UK)ˈprɪntə/(US)ˈprɪntər/ˈprɪnər] (n) {A2} {computers} принтер
+  686. (  1) 3T *#PT screen [skriːn] (n) {A2} {tv, radio and news} {computers} {film and theatre} экран; (v) {B2} {tv, radio and news} {film and theatre} экранировать, {C1} {healthcare} проводить отбор новобранцев
+  787. (  1) 3T ?#PT tablet [ˈtæblɪt] (n) {A2} {computers} {B1} {healthcare} таблетка, дощечка, блокнот
+
+{computers {computer problems}}
+...............................
 {A1} {computers {computer problems}}
+{A2} {computers {computer problems}}
+              3T *#  virus [ˈvaɪərəs] (n) {A2} {health problems} {biology} {computers} вирус, зараза; (adj) вирусный
+
+{computers {computer programming}}
+..................................
 {A1} {computers {computer programming}}
   432. (  1) 3T *#PT language [ˈlæŋgwɪʤ ] (n) {A1} {language} {computers} язык; (adj) языковой
 
+{A2} {computers {computer programming}}
+  209. (  1) 3T *#PT data [ˈdeɪtə] (n) {A2} {scientific research} {computers} данные, информация
+  229. (  1) xT *#PT digital [ˈdɪʤ ɪtl] (adj) {A2} {computers} {tv, radio and news} цифровой; (n) клавиша
+  606. (  1) 3T *#PT program [ˈprəʊgræm] (n) {A2} {computers} программа, план; (v) {B1} {computers} программировать; (adj) программный
+
+{computers {computer software}}
+...............................
 {A1} {computers {computer software}}
+{A2} {computers {computer software}}
+   50. (  1) xT *#PT app [æp] (abbr) {A2} {computers} application
+  245. (  2) xT *#PT download [ˌdaʊnˈləʊd] (v) {A2} {computers} {shopping} скачать, загрузить; (n) {A2} {computers} скачивание, загрузка
+              1T *#  program [ˈprəʊgræm] (n) {A2} {computers} программа, план; (v) {B1} {computers} программировать; (adj) программный
+              xT *#  upload [ʌpˈləʊd] (v) {A2} {computers} загружать; (n) {A2} {computers} загрузка
+
+{computers {using a computer}}
+..............................
 {A1} {computers {using a computer}}
   484. (  1) 3T *#PT menu [ˈmɛnjuː] (n) {A1} {cooking and eating} {computers} меню
   557. (  2) 3T *#PT open [ˈoʊpən] (v) {A1} {computers} открыть, открывать; (adj) открытый
   850. (  1) 3T *#PT video [ˈvɪdɪəʊ] (n) {A1} {computers} {tv, radio and news} видео; (adj) телевизионный
 
-{A1} {engineering}
-------------------
+{A2} {computers {using a computer}}
+  122. (  1) 3T *#PT button [ˈbʌtn] (n) {A2} {engineering} {computers} кнопка, {A2} {clothes and fashion} пуговица; (adj) кнопочный; (v) пришивать пуговицы
+  178. (  1) 3T *#PT connect [kəˈnɛkt] (v) {A2} {engineering} {phones, emails and the internet} {computers} соединять, связать, соединяться, связывать
+  242. (  1) 3T *#PT document [ˈdɑkjəmɛnt] (n) {law and justice} {computers} документ; (v) {B2} документировать
+  245. (  2) xT *#PT download [ˌdaʊnˈləʊd] (v) {A2} {computers} {shopping} скачать, загрузить; (n) {A2} {computers} скачивание, загрузка
+  538. (  1) 3T *#PT option [ˈɒpʃən] (n) {A2} {preferences and decisions} вариант, опция, опцион, {A2} {computers} выбор
+              3T *#  print [prɪnt] (v) {A2} {computers} {literature and writing} печать; (n) {C1} {art} шрифт, печатание, гравюра
+  680. (  1) 3T *#PT save [seɪv] (v) {A2} {computer} сохранять, {A2} {money} экономить, {B2} спасать; (prep) кроме, за исключением; (conj) кроме
+  687. (  2) 3T *#PT search [sɜrʧ] (n) {A2} {computer} поиск, поиски; (v) {A2} искать, поискать
+              xT *#  upload [ʌpˈləʊd] (v) {A2} {computers} загружать; (n) {A2} {computers} загрузка
+  841. (  1) 3T *#PT user [ˈjuːzə] (n) {A2} {computers} пользователь, потребитель
+
+{engineering}
+-------------
+{engineering {branches of engineering}}
+.......................................
 {A1} {engineering {branches of engineering}}
+{A2} {engineering {branches of engineering}}
+
+{engineering {electronics}}
+...........................
 {A1} {engineering {electronics}}
+{A2} {engineering {electronics}}
+              3T *#  connect [kəˈnɛkt] (v) {A2} {engineering} {phones, emails and the internet} {computers} соединять, связать, соединяться, связывать
+  261. (  1) 3T *#PT electric [ɪˈlɛktrɪk] (adj) {A2} {physics and chemistry} {engineering} электрический; (n) {C1} {transport by car or lorry} электрик
+  262. (  1) 3T *#PT electrical [ɪˈlɛktrɪkəl] (adj) {A2} {physics and chemistry} {engineering} {shopping} электрический
+  263. (  1) 3T *#PT electricity [ɪlɛkˈtrɪsɪti] (n) {A2} {environment} {physics and chemistry} {engineering} электричество
+  264. (  1) 3T *#PT electronic [ɪlɛkˈtrɒnɪk] (adj) {A2} {engineering} электронный
+
+{engineering {how machines work}}
+.................................
 {A1} {engineering {how machines work}}
   110. (  2) 3T *#PT break [breɪk] (n) {A1} {working life} перерыв, разрыв, {B1} {tv, radio and news} пауза; (v) {A1} сломить, вырваться, {A1} {engineering} ломать, I: break-broke-broken
 
+{A2} {engineering {how machines work}}
+  122. (  1) 3T *#PT button [ˈbʌtn] (n) {A2} {engineering} {computers} кнопка, {A2} {clothes and fashion} пуговица; (adj) кнопочный; (v) пришивать пуговицы
+  272. (  1) 3T *#PT engineer [ˌɛnʤ ɪˈnɪə] (n) {A2} {jobs} {engineering} {B1} {transport by water} {transport by air} инженер; (v) проектировать
+              xx ?#  turn+off [tɜːn ɒf] (phrasal verb) {A2} {engineering} {B2} {transport by car or lorry} выключать
+              xx ?#  turn+on [tɜːn ɒn] (phrasal verb) {A2} {engineering} включать
+
+{engineering {machines and devices}}
+....................................
 {A1} {engineering {machines and devices}}
   160. (  1) 3T *#PT clock [klɒk] (n) {A1} {engineering} часы; (v) показать время
   463. (  1) 3T *#PT machine [məˈʃiːn] (n) {A1} {engineering} машина, автомат, аппарат, механизм; (adj) машинный
 
-{A1} {maths and measurement}
-----------------------------
+{A2} {engineering {machines and devices}}
+  226. (  1) 3T *#PT device [dɪˈvaɪs] (n) {A2} {engineering} устройство, прибор, средство
+
+{maths and measurement}
+-----------------------
+{maths and measurement {mathematical terminology}}
+..................................................
 {A1} {maths and measurement {mathematical terminology}}
+{A2} {maths and measurement {mathematical terminology}}
+  486. (  1) 3T *#PT mathematics [ˌmæθɪˈmætɪks] (n) {A2} {education} {maths and measurement} математика
+  487. (  1) 3T *#PT maths [mæθs] (n) {A2} {maths and measurement} математика
+  739. (  1) 3T *#PT solution [səˈluːʃən] (n) {A2} {maths and measurement} решение, раствор, разрешение
+  740. (  1) 3T *#PT solve [sɒlv] (v) {A2} {crime and punishment} {maths and measurement} решать, разрешать, растворять, объяснять
+  785. (  1) 3T *#PT symbol [ˈsɪmbəl] (n) {A2} {maths and measurement} {scientific research} символ, знак, обозначение
+
+{maths and measurement {measurement}}
+.....................................
 {A1} {maths and measurement {measurement}}
   427. (  1) 3T *#PT kilometre [ˈkɪləʊˌmiːtə] (n) {A1} {maths and measurement} километр
   486. (  1) 3T *#PT metre [ˈmiːtə] (n) (UK) {A1} {maths and measurement} метр, (US) = meter; (v) измерять
   488. (  1) 3T *#PT mile [maɪl] (n) {A1} {maths and measurement} миля
 
+{A2} {maths and measurement {measurement}}
+              3T *#  centimetre [ˈsɛntɪˌmiːtə] (n) {A2} {maths and measurement} сантиметр
+  217. (  1) 3T *#PT degree [dɪˈgriː] (n) {A2} {maths and measurement} степень, уровень, градус, {A2} {education} ученая степень
+              1T *#  foot [fʊt] (n) {A1} {body} нога, {A2} {maths and measurement} фут, I: foot-feet
+              xT *#  g [ʤ iː] (letter) f G h i; (abbr) {A2} {maths and measurement} gram(s); (n) {B1} {music} = the fifth note
+  375. (  1) 3T *#PT height [haɪt] (n) {A2} {maths and measurement} высота, {A2} {appearance} рост
+              xT *#  kg [-] (abbr) {A2} {maths and measurement} kilogram(s)
+              3T *#  kilo [ˈkiːləʊ] (n) {A2} {cooking and eating} {maths and measurement} килограмм, кило; (combining form) = used in units of measurement as 1000 or 2^10
+              3T *#  kilogram [ˈkɪləʊgræm] (n) {A2} {cooking and eating} {maths and measurement} килограмм
+              xT *#  km [keɪ-ɛm] (abbr) {A2} {maths and measurement} kilometer
+              xT *#  m [ɛm] (letter) l M n o; (abbr) {A2} {maths and measurementt} meter
+              3T *#  ruler [ˈruːlə] (n) {B1} {politics} правитель, {A2} {maths and measurement} {education} линейка
+  720. (  1) 3T *#PT size [saɪz] (n) {A2} {maths and measurement} {clothes and fashion} размер; (v) калибровать, классифицировать, доводить
+  858. (  1) 3T *#PT weight [weɪt] (n) {A2} {maths and measurement} {health and fitness} {appearance} вес, масса, груз; (v) весить
+
+{maths and measurement {numbers}}
+.................................
 {A1} {maths and measurement {numbers}}
    13. (  1) 3T *#PT add [æd] (v) {A1} {maths and measurement} добавлять
   244. ( 36) 4T *#PT number [ˈnʌmbə] (n) {A1} {maths and measurement} {phones, email and the internet} номер, количество, {B2} {language} число; (v) {A2} нумеровать, числиться, насчитывать
 
-{A1} {maths and measurement {types of mathematics}}
+{A2} {maths and measurement {numbers}}
+   72. (  2) 3T *#PT average [ˈævərɪʤ ] (adj) {A2} {maths and measurement} средний, обычный; (n) {A2} {maths and measurement} среднее число; (v) {B1} равняться в среднем
+   96. (  1) 5T *#PT billion [ˈbɪljən] (num) {A2} {maths and measurement} {money} 1,000,000,000; (n) миллиард, биллион
+  191. (  1) 3T *#PT count [kaʊnt] (v) {A2} {maths and measurement} считать; (n) {B2} {maths and measurement} подсчет, граф
+  243. (  4) 3T *#PT double [ˈdʌbl] (adj)(determiner)(pron) {A2} {math and measurement} двойной; (adv) {B1} вдвое; (n) {B1} {film and theatre} {holidays} двойник; (v) {A2} {maths and measurement} удваивать
+  314. (  1) 3T *#PT figure [ˈfɪgə] (n) {A2} {maths and measurement} рисунок, {B1} {appearance} фигура, иллюстрация, цифра; (v) {B2} изображать, придавать форму
+              4T *#  hundredth [ˈhʌndrədθ] {A2} {maths and measurement} -th: (num) {A1} 100
+              xx ?#  thousandth [ˈθaʊzəndθ] {A2} {maths and measurement} -th: (num) {A1} {maths and measurement} 1000
 
-{A1} {physics and chemistry}
-----------------------------
+{maths and measurement {types of mathematics}}
+..............................................
+{A1} {maths and measurement {types of mathematics}}
+{A2} {maths and measurement {types of mathematics}}
+
+{physics and chemistry}
+-----------------------
+{physics and chemistry {chemistry and chemicals}}
+.................................................
 {A1} {physics and chemistry {chemistry and chemicals}}
+{A2} {physics and chemistry {chemistry and chemicals}}
+  354. (  2) 3T *#PT gold [goʊld] (n)(u) {A2} {physics and chemistry} {clothes and fashion} {sports: other sports} {colours and shapes} золото; (adj) {A2} {clothes and fashion} золотой
+  570. (  1) 3T ?#PT petrol [ˈpɛtrəl] (n) {A2} {the environment} {transport by car or lorry} {physics and chemistry} бензин; (adj) бензиновый
+  713. (  2) 3T *#PT silver [ˈsɪlvə] (n)(u)(c) {A2} {physics and chemistry} {colours and shapes} {clothes and fashion} {B2} {sports: other sports} серебро; (adj) {A2} {colours and shapes} серебряный, серебристый; (v) серебриться
+
+{physics and chemistry {energy and physical forces}}
+....................................................
 {A1} {physics and chemistry {energy and physical forces}}
   448. (  2) 3T *#PT light [laɪt] (n) {A1} {physics and chemistry} свет, {A1} {houses and homes} освещение, огонь, источник света, освещенность; (adj) световой, {B1} {working life} {B2} {literature and writing} {B1} {cooking and eating} легкий, {A1} {colours and shapes} светлый, {A2} {physics and chemistry} слабый; (v) {A2} освещать, зажигать, I: light-lit/lighted-lit/lighted; (adv) легко
   753. (  1) 3T *#PT sun [sʌn] (n) {A1} {space} {weather} {physics and chemistry} солнце; (abbr) Sunday
 
+{A2} {physics and chemistry {energy and physical forces}}
+  261. (  1) 3T *#PT electric [ɪˈlɛktrɪk] (adj) {A2} {physics and chemistry} {engineering} электрический; (n) {C1} {transport by car or lorry} электрик
+  262. (  1) 3T *#PT electrical [ɪˈlɛktrɪkəl] (adj) {A2} {physics and chemistry} {engineering} {shopping} электрический
+  263. (  1) 3T *#PT electricity [ɪlɛkˈtrɪsɪti] (n) {A2} {environment} {physics and chemistry} {engineering} электричество
+  373. (  2) 3T *#PT heat [hiːt] (n) {A2} {physics and chemistry} тепло, {A2} {weather} жара; (v) {A2} {cooking and eating} нагревать
+  573. (  1) 3T *#PT physics [ˈfɪzɪks] (n) {A2} {education} {physics and chemistry} {scientific research} физика
+
+{physics and chemistry {materials and properties}}
+..................................................
 {A1} {physics and chemistry {materials and properties}}
+{A2} {physics and chemistry {materials and properties}}
+  462. (  1) 3T *#PT light [laɪt] (n) {A1} {physics and chemistry} свет, {A1} {houses and homes} освещение, огонь, источник света, освещенность; (adj) световой, {B1} {working life} {B2} {literature and writing} {B1} {cooking and eating} легкий, {A1} {colours and shapes} светлый, {A2} {physics and chemistry} слабый; (v) {A2} освещать, зажигать, I: light-lit/lighted-lit/lighted; (adv) легко
+  485. (  1) 3T *#PT material [məˈtɪərɪəl] (n) {A2} {physics and chemistry} {B2} {clothes and fashion} материал, вещество; (adj) {B2} вещественный
+  496. (  1) 3T *#PT metal [ˈmɛtl] (n) {A2} {physics and chemistry} металл; (adj) металлический
+  578. (  2) 3T *#PT plastic [ˈplæstɪk] (n) {A2} {physics and chemistry} {the environment} пластик, пластмасса; (adj) {A2} {physics and chemistry} пластиковый
+  761. (  1) 3T *#PT stone [stəʊn] (n) {A2} {physics and chemistry} {buildings} {B2} {clothes and fashion} камень
+  870. (  1) 3T *#PT wood [wʊd] (n) {physics and chemistry} дерево, дрова, {A2} {geography} лес; (adj) деревянный
+
+{physics and chemistry {molecular and matter}}
+..............................................
 {A1} {physics and chemistry {molecular and matter}}
+{A2} {physics and chemistry {molecular and matter}}
+  348. (  1) 3T *#PT gas [gæs] (n) {A2} {physics and chemistry} {the environment} газ
 
+{scientific research}
+---------------------
+{scientific research {branches of science}
+..........................................
+{A1} {scientific research {branches of science}
+{A2} {scientific research {branches of science}
+   99. (  1) 3T *#PT biology [baɪˈɒləʤ i] (n) {A2} {education} {scientific research} {biology} биология
+  146. (  1) 3T *#PT chemistry [ˈkɛmɪstri] (n) {A2} {education} {scientific research} {C1} {physics and chemistry} химия
+  493. (  1) 3T *#PT medicine [ˈmɛdsɪn] (n) {A2} {healthcare} {scientific research} медицина, лекарство
+  573. (  1) 3T *#PT physics [ˈfɪzɪks] (n) {A2} {education} {physics and chemistry} {scientific research} физика
+  793. (  1) 3T *#PT technology [tɛkˈnɒləʤ i] (n) {A2} {scientific research} технология, {A2} {shopping} техника
 
-
-{A1} {scientific research}
----------------------------
-{A1} {scientific research {branches of science}}
+{scientific research {data}}
+............................
 {A1} {scientific research {data}}
   273. (  1) 3T *#PT fact [fækt] (n) {A1} {scientific research} факт, обстоятельство
 
+{A2} {scientific research {data}}
+  209. (  1) 3T *#PT data [ˈdeɪtə] (n) {A2} {scientific research} {computers} данные, информация
+  282. (  1) 3T ?#PT evidence [ˈɛvɪdəns] (n) {A2} {scientific research} {A2} {opinion and argument} данные, {A2} {crime and punishment} {law and justice} свидетельство, доказательство, признаки, очевидность, улика; (v) свидетельствовать, доказывать
+  785. (  1) 3T *#PT symbol [ˈsɪmbəl] (n) {A2} {maths and measurement} {scientific research} символ, знак, обозначение
+
+{scientific research {experiments}}
+...................................
 {A1} {scientific research {experiments}}
   653. (  1) 3T *#PT result [rɪˈzʌlt] (n) {A1} {change, cause and effect} {sports: ball and reacket sports} {politics} {education} {scientific research} {A2} {success} {B1} {business} результат, следствие, итог; (v) {B1} {changes, cause and effect} следовать
 
+{A2} {scientific research {experiments}}
+  439. (  1) 3T *#PT lab [læb] (abbr) {A2} {buildings} {scientific research} laboratory
+  497. (  1) 3T *#PT method [ˈmɛθəd] (n) {A2} {scientific research} метод, способ, методика, прием
+              1T *#  test [tɛst] (n) {A1} {education} {A2} {healthcare} {scientific research} тест, испытание, проверка; (v) {A1} {education} {A2} {healthcare} {scientific research} тестировать, проверять; (adj) испытательный
+
+{scientific research {results}}
+...............................
 {A1} {scientific research {results}}
+{A2} {scientific research {results}}
+  236. (  1) 3T *#PT discover [dɪsˈkʌvə] (v) {A2} {scientific research} открывать, обнаруживать, находить
+  237. (  1) 3T *#PT discovery [dɪsˈkʌvəri] (n) {A2} {scientific research} открытие, обнаружение
+
+{scientific research {scientific equipment}}
+............................................
 {A1} {scientific research {scientific equipment}}
+{A2} {scientific research {scientific equipment}}
+  276. (  1) 3T *#PT equipment [ɪˈkwɪpmənt] (n) {A2} {scientific research} {houses and homes} оборудование, аппаратура, оснащение
+
+{scientific research {study}}
+.............................
 {A1} {scientific research {study}}
   673. (  1) 3T *#PT science [ˈsaɪəns] (n) {A1} {scientific research} {education} наука
   674. (  1) 3T *#PT scientist [ˈsaɪəntɪst] (n) {A1} {scientific research} {jobs} ученый
+
+{A2} {scientific research {study}}
+  225. (  1) 3T *#PT develop [dɪˈvɛləp] (v) {B1} {change, cause and effect} {A2} {scientific research} {B1} {health problems} развивать, развиваться, разрабатывать, совершенствовать
+  654. (  2) 3T *#PT research [rɪˈsɜːʧ] (v) {A2} {education} {scientific research} исследовать; (n) {A2} {education} {scientific research} исследование, изучение; (adj) исследовательский
+               3T ?#  survey [ˈsɜːveɪ->(n)/sɜːˈveɪ->(v)] (n) {A2} {opinion and argument} {scientific research} обзор, обследование, исследование, {C1] {houses and homes} осмотр; (v) {C1} {geography} {houses and homes} обследовать
 
 Sport
 ======
