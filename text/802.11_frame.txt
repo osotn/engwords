@@ -1,0 +1,105 @@
+
+    2     2        6          6             6         2
+  +----+----+------------+------------+------------+----+
+  |    |    |            |            |            |    | 
+  +----+----+------------+------------+------------+----+
+  Frame Dur/   Addr1         Addr2        Addr3      Seq
+  ctrl   ID
+   
+
+
+   Frame control = 2 bytes
+
+   0..1 2..3    4..7  8  9  10
+  +----+----+--------+--+--+--+
+  |ver |type| subtype|
+  +----+----+--------+
+
+   0..1 - Protocol version = 0
+   2..3 - Type  00 - management, 01 - control, 
+   4..7 - SubType = D-Action.
+
+
+   d000             FrameCtrl - type=0, subtype=d
+   hhhh             Duration
+   ssssssssssss     Addr1
+   dddddddddddd     Addr2
+   Bssid            Addr3
+   Seq              Seq
+
+
+d0 00 
+3a 01               Duration
+98 0c 33 33 4c de   Addr1 - Source
+76 83 c2 3d be 67   Addr2 - Destination
+76 83 c2 3d be 67   Addr3 - Transmit
+70 8f               seq 
+
+ Action:
+   2
+ +--+
+ |  | Category = A = WNM
+ +--+
+
+0a                  Category = A (WNM)
+
+ Action / WNM / Request:
+   1 - Action code: 7 Request
+ +--+
+ |  | 1 - token
+ +--+--+
+    |  | 1 - Flag: 1 - prefered list, ...  (btm_request_mode)
+    +--+--+
+       |  | 2   - dissaccociation timer
+       +--+----+
+          |    | 1 - validity interval
+          +----+--+
+               |  |
+               +--+
+
+07 
+01  Token
+01  Flag - Prefered List
+00 00
+64
+
+                   BSS Prefered List
+                     1    1
+                   +----+----+
+                   |    |    |
+                   +----+----+
+                    type  len
+                   Elem
+                   ID
+                   
+Element ID : 52 - Neighbor Report
+len:  (exlude type, len)
+                                    6         4      1   1  1
+                              +------------+--------+--+--+--+------
+                              |   BSSID    | info   |  |ch|  |Subelem
+                              +------------+--------+--+--+--+------
+                                            BSSID   oper  PHY
+                                            info   class 
+
+
+52
+xx  len
+
+
+
+
+
+>>> from scapy.all import *
+>>> my_addr = "76:83:c2:3d:be:67"
+>>> dst_addr = "98:0c:33:33:4c:de"
+>>> new_bssid = "76:83:c2:3d:be:6f"
+>>> 
+>>> sub = SubelemTLV(type=3, value=255)
+>>> nr = NeighborReport(BSSID=new_bssid, type=52, op_class=81, len=16, channel=4, phy_type=7, subelems=sub)
+>>> deauth = RadioTap() / Dot11(addr1=dst_addr, addr2=my_addr, addr3=my_addr) / Dot11Action() / Dot11WNM() / Dot11BSSTMRequest(token=4, mode=1, validity_interval=100, neighbor_report=nr)
+>>> sendp(deauth, iface="wlp2s0mon")
+
+
+
+
+

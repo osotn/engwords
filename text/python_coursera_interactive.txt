@@ -1,0 +1,41 @@
+0.a - expressions
+=================
+0.a.1 - arithmetic expressions
+..............................
+# Two corresponding data types int() and float()
+
+# we can convert between data types using int() and float()
+# note that int() takes the "whole" part of a decimal number and doesn't round
+# float() applied to integers is boring
+
+
+# floating point number have around 15 decimal digits of accuracy
+# pi is 3.1415926535897932384626433832795028841971...
+# square root of two is 1.4142135623730950488016887242096980785696...
+
+
+# arithmetic operators
+# 1. +		plus		addition
+# 2. -		minus		subtraction
+# 3. *		times		multiplication
+# 4. /		divided by 	division
+# 5. **    power		exponentiation
+
+print 1 + 2, 3 - 4, 5 * 6, 2 ** 5
+
+
+# expressions - number or a binary operator applied to two expressions
+# minus is also a unary operator and can be applied to a single expression
+
+print 1 + 2 * 3, 4.0 - 5.0 / 6.0, 7 * 8 + 9 * 10
+
+# expressions are entered as sequence of numbers and operations
+# how are the number and operators grouped to form expressions?
+# operator precedence - "please excuse my dear aunt sallie" = (), **, *, /, +,-
+
+0.b - variables and assignments
+===============================
+0.b.1 - variables
+
+
+

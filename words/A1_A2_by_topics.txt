@@ -94,6 +94,7 @@ general
   227. (  2) 3T *#PT down [daʊn] (adv) {A1} вниз, внизу; (prop) {A1} вниз по, вниз; (n) {C2} {birds} пух, спуск; (adj) {B2} {feelings} {C1} {computers} нисходящий; (v) опускать
   314. (  1) xT *#PT for [fɔː] (prep) {A1} для, на, за, в, к
   325. (  1) xT *#PT from [frɒm] (prep) {A1} от, из, с
+             1T *#   in [ɪn] (prep) {A1} {time} в, {A1} на, по, при, через; (adv) {A1} = into an object, an area or a subtance, {A1} = within an object, {A2} = (of people) at home or at a place of work, {A2} {sports: ball and racket sports} = inside the line; (adj) {C1} {clothes and fashion} = popular and fashionable
   410. (  1) 3T *#PT into [ˈɪntuː] (prep) {A1} {C1} {maths and measurement} в, на, к
   517. (  3) 3T *#PT near [nɪə] (prep) {A1} возле, {B1} {time} около, у, близ; (adv) {A1} недалеко, около, поблизости, почти; (adj) {A1} {B2} {family and relationships} близкий; (v) приближаться
   525. (  3) 3T *#PT next [nɛkst] (adj) {A1} следующий, будущий; (adv) {A1} рядом, дальше, около; (prep) рядом, около; (n) {B2} = the next person or thing
@@ -200,6 +201,7 @@ general
   372. (  1) 3T *#PT here [hɪə] (adv)(excl) {A1} здесь, сюда, тут
   375. (  1) 3T *#PT high [haɪ] (adj) {A1} высокий, большой; (n) {B2} максимум; (adv) {A2} высоко
   390. (  1) 3T *#PT how [haʊ] (adv) {A1} как
+             1T *#   in [ɪn] (prep) {A1} {time} в, {A1} на, по, при, через; (adv) {A1} = into an object, an area or a subtance, {A1} = within an object, {A2} = (of people) at home or at a place of work, {A2} {sports: ball and racket sports} = inside the line; (adj) {C1} {clothes and fashion} = popular and fashionable
   436. (  1) 3T *#PT later [ˈleɪtə] (adv) {A1} позже, потом; (adj) {A2} {time} последний, поздний
   440. (  3) 3T *#PT left [lɛft] (adv) {A1} слева, налево; (adj) {A1} левый; (n) {A1} {B1} {politics} левый; -1,2ed: (v) {A1} {family and relationships} оставлять, уходить, I: leave-left-left
   457. (  2) 3T *#PT long [lɒŋ] (adj) {A1} {appearance} длинный; (adv) {A1} долго
@@ -904,7 +906,6 @@ Appearance
               xx ?#  fashion+designer [ˈfæʃ(ə)n dɪˈzaɪnə] (n) {A2} {clothes and fashion} {jobs} модельер
               1T *#  model [ˈmɑdəl] (n) {A1} {A2} {clothes and fashion} {jobs} модель, образец; (v) {B2} {scientific research} {clothes and fashion} {C1} {art} моделировать; (adj) образцовый
 
-
 {clothes and fashion {wearing clothes}}
 .......................................
 {A1} {clothes and fashion {wearing clothes}}
@@ -916,7 +917,7 @@ Appearance
   647. (  1) 3T *#PT remove [rɪˈmuːv] (n) удаление; (v) {A2} удалять, {A2} {clothes and fashion} снимать, убирать
 
 {colours and shapes}
--------------------------
+--------------------
 {A1} {colours and shapes {colours}}
    93. (  2) 3T *#PT black [blæk] (n) {A1} {colours and shapes} черный цвет, {B2} {people in society} чернь; (adj) {A1} {colours and shapes} {people in society} черный, темный; (v) чернить
    95. (  1) 3T ?#PT blonde [blɒnd] ((adj) {A1} {appearance} {colours and shapes} светлый, белокурый; (n) блондинка
@@ -964,31 +965,31 @@ Communication
 {A1} {language {grammar}}
    19. (137) 4T *#PT adjective [ˈæʤ ɪktɪv] (n) {A1} {language} прилагательное; (adj) зависимый
     4. ( 90) 4T *#PT adverb [ˈædvɜːb] "(n) {A1} {language} наречие"
-             4T *#  countable [ˈkaʊntəbl] (adj) {A1} {language} исчисляемый
-             xx ?#  count+noun [kaʊnt naʊn] (n) {A1} {languages} исчисляемое существительное
+              4T *#  countable [ˈkaʊntəbl] (adj) {A1} {language} исчисляемый
+              xx ?#  count+noun [kaʊnt naʊn] (n) {A1} {languages} исчисляемое существительное
   316. (  2) 4T *#PT form [fɔːm] (v) {A1} {language} {B2} {colours and shapes} образовывать, создавать, {C1} {health and fitness} {education} формировать
   331. (  1) 3T *#PT future [ˈfjuːʧə] (n) {A1} {language} будущее, будущность; (adj) {A2} будущий
-             3T *#  grammar [ˈgræmər] (n) {A1} {language} грамматика, учебник грамматики
+              3T *#  grammar [ˈgræmər] (n) {A1} {language} грамматика, учебник грамматики
   806. (  1) 3T ?#PT infinitive [ɪnˈfɪnɪtɪv] (n) {A1} {language} инфинитив, неопределенная форма глагола; (adj) неопределенный
   519. (  1) 3T *#PT negative [ˈnɛgətɪv] (adj) {A1} {language} {B1} {opinion and argument} {B2} {maths and measurement} отрицательный
     9. (495) 4T *#PT noun [naʊn] (n) {A1} {language} существительное, имя существительное
   581. (  3) 3T *#PT past [pɑːst] (n) {A1} {history} {language} прошлое, прошедшее; (adv) мимо, {A2} после; (prep) мимо, за, {A1} {time} после; (adj) {A1} {history} {language} прошлый, прошедший
-          xx ?#  phrasal+verb [ˈfreɪz(ə)l vɜːb] (n) {A1} {language} фразовый глагол
+              xx ?#  phrasal+verb [ˈfreɪz(ə)l vɜːb] (n) {A1} {language} фразовый глагол
   594. (  1) 3T *#PT phrase [freɪz] (n) {A1} {language} фраза, выражение; (v) выражать, фразировать
-          4T *#  plural [ˈplʊərəl] (n) {A1} {language} множественное число; (adj) {A1} {language} множественный, {C1} {people in society} многочисленный
+              4T *#  plural [ˈplʊərəl] (n) {A1} {language} множественное число; (adj) {A1} {language} множественный, {C1} {people in society} многочисленный
   613. (  1) 3T *#PT positive [ˈpɒzətɪv] (adj) {A1} {language} {A2} {opinion and argument} {B1} {success} {personal qualities} {B2} {doubt, guessing and certainty} {maths and measurement} положительный; (n) {B2} {scientific research} позитив
     5.  ()   4T *#PT preposition [ˌprɛpəˈzɪʃən] (n) {A1} {language} предлог; (adj) предложный
   622. (  2) 3T *#PT present [ˈprɛznt] (n) {A1} {language} настоящее время, подарок; (v) {A2} {B2} {tv, radio and news} представлять; (adj) {A1} {time} настоящий
-             xx ?#  present+tense [ˈprɛz(ə)nt/prɪˈzɛnt tɛns] (n) {A1} {language} настоящее время
+              xx ?#  present+tense [ˈprɛz(ə)nt/prɪˈzɛnt tɛns] (n) {A1} {language} настоящее время
    30. ( 49) 4T *#PT pronoun [ˈprəʊnaʊn] (n) {A1} {language} местоимение
   681. (  1) 3T *#PT sentence [ˈsɛntəns] (v) {B2} {crime and punishment} {law and justice} приговорить, осуждать; (n) {A1} {language} предложение, {B2} {crime and punishment} {law and justice} приговор
-             yT *#  singular [ˈsɪŋgjʊlə] (n) {A1} {language} единственное число
+              yT *#  singular [ˈsɪŋgjʊlə] (n) {A1} {language} единственное число
   730. (  1) 3T ?#PT spell [spɛl] (n) {C1} {time} период, заклинание, чары; (v) означать, {A1} {language} читать по складам, I: spell-spelled/spelt-spelled/spelt
   731. (  1) 3T *#PT spelling [ˈspɛlɪŋ] -ing: (v) означать, {A1} {language} читать по складам, I: spell-spelled/spelt-spelled/spelt; (n) {A1} {language} написание, правописание, орфография
   749. (  1) 3T *#PT subject [ˈsʌbʤ ɪkt->(adv,n)/səbˈʤ ɛkt->(v)] (v) подвергать, подчинять; (n) {A1} {language} {education} {C1} {scintific research} предмет; (adj) {B2} подлежащий, подданный
-             5T ?#  tense [tɛns] (n) {A1} {language} время; (adj) {C1} {feelings} напряженный; (v) натягиваться
-             xx *#  uncountable [ʌnˈkaʊntəbl] {A1} {language} un-: (adj) {A1} {language} исчисляемый
-             xx ?#  uncount+noun [ˌʌnˈkaʊnt+naʊn] (n) {A1} {languages} неисчисляемое существительное
+              5T ?#  tense [tɛns] (n) {A1} {language} время; (adj) {C1} {feelings} напряженный; (v) натягиваться
+              xx *#  uncountable [ʌnˈkaʊntəbl] {A1} {language} un-: (adj) {A1} {language} исчисляемый
+              xx ?#  uncount+noun [ˌʌnˈkaʊnt+naʊn] (n) {A1} {languages} неисчисляемое существительное
    14. (173) 4T *#PT verb [vɜːb] (n) {A1} {language} глагол
   892. (  1) 3T *#PT word [wɜːd] (n) {A1} {language} слово, речь; (v) вести, сформулировать
 
@@ -4200,10 +4201,17 @@ Science and technology
                3T ?#  survey [ˈsɜːveɪ->(n)/sɜːˈveɪ->(v)] (n) {A2} {opinion and argument} {scientific research} обзор, обследование, исследование, {C1] {houses and homes} осмотр; (v) {C1} {geography} {houses and homes} обследовать
 
 Sport
-======
-{A1} {sports: ball and racket sports}
--------------------------------------
+=====
+{sports: ball and racket sports}
+--------------------------------
+{sports: ball and racket sports {american football}}
+....................................................
 {A1} {sports: ball and racket sports {american football}}
+{A2} {sports: ball and racket sports {american football}}
+              xx ?#  american+football [əˈmɛrɪkən ˈfʊtbɔːl] (n) {A2} {sports: ball and racket sports} американский футбол
+
+{sports: ball and racket sports {ball sports in general}}
+.........................................................
 {A1} {sports: ball and racket sports {ball sports in general}}
    63. (  1) 3T *#PT ball [bɔːl] (n) {A1} {sports: ball and racket sports} {games and toys} мяч, шар, бал, удар; (adj) шаровой
   163. (  1) 3T *#PT club [klʌb] (n) {A1} {sports: ball and racket sports} {A2} {buildings} клуб
@@ -4215,81 +4223,251 @@ Sport
   733. (  1) 3T *#PT sport [spɔːt] (n) {A1} {sports: other sports} {sports: ball and racket sports} спорт; (v) щеголять, заниматься спортом
   769. (  1) 3T *#PT team [tiːm] (n) {A1} {games and toys} {sports: ball and racket sports} команда, бригада
 
+{A2} {sports: ball and racket sports {ball sports in general}}
+  134. (  1) 3T *#PT catch [kæʧ] (v) {A2} {sports: ball and racket sports} {transport by bus train} {transport by air} {crime and punishment} {B1} {health problems} поймать, ловить, догнать, I: catch-caught-caught;  (n) {B2} улов, выгода
+              1T *#  cup [kʌp] (n) {A1} {A2} {sports: ball and racket sports} чашка, кубок, чаша, чашечка
+              1T *#  end [ɛnd] (n) {A1} {literature and writing} конец, {A2} {spors: ball and racket sports} окончание, завершение; (v) {A1} заканчиваться
+  302. (  1) 3T *#PT fan [fæn] (n) {C1} {houses and homes} вентилятор, {A2} {sports: ball and racket sports} поклонник; (v) раздуть, раздувать
+  352. (  1) 3T *#PT goal [gəʊl] (n) {A2} {success} цель, {A2} {sports: ball and racket sports} гол, задача
+              1T *#  point [pɔɪnt] (n) {A1} {opinion and argument} {B1} {language} {maths and measurement} точка, {B1} момент, {A2} {sports: ball and racket sports} пункт, очко, дело, вопрос; (v) {B1} указывать, {C1} {opinion and argument} говорить
+  685. (  2) 3T ?#PT score [skɔː] (n) {A2} {games and toys} {sports: ball and racket sports} {education} {C1} {music} {film and theatre} {maths and measurement} счет, количество очков; (v) {A2} {games and toys} {sports: ball and racket sports} выигрывать, {B1} {education} засчитывать
+  711. (  1) 3T *#PT side [saɪd] (n) {A2} {sports: ball and racket sports} {B2} {opinion and argument} сторона, бок, поверхность; (adj) боковой; (v) примкнуть к, стать на чью-л. сторону
+  805. (  1) 3T *#PT throw [θrəʊ] (n) бросок, ход; (v) {A2} {sports: ball and rocket sports} бросать, кинуть, I: throw-threw-thrown
+
+{sports: ball and racket sports {baseball}}
+...........................................
 {A1} {sports: ball and racket sports {baseball}}
+{A2} {sports: ball and racket sports {baseball}}
+   80. (  1) xT *#PT baseball [ˈbeɪsbɔːl] (n) {A2} {sports: ball and racket sports} бейсбол
+              3T *#  park [pɑːk] (n) {A1} {A2} {sports: ball and racket sports} парк, {C1} {transport by car or lorry} место стоянки автомобилей; (v) {A1} {transport by car or lorry} парковать
+
+{sports: ball and racket sports {basketball}}
+.............................................
 {A1} {sports: ball and racket sports {basketball}}
+{A2} {sports: ball and racket sports {basketball}}
+              4T *#  basketball [ˈbɑːskɪtˌbɔːl] (n) {A2} {sports: ball and racket sports} баскетбол
+
+{sports: ball and racket sports {cricket}}
+..........................................
 {A1} {sports: ball and racket sports {cricket}}
+{A2} {sports: ball and racket sports {cricket}}
+              xT ?#  cricket [ˈkrɪkɪt] (n) {A2} {sports: ball and racket sports} крикет, {C2} {insects, worms, etc.} сверчок
+              1T *#  in [ɪn] (prep) {A1} в, на, по, при, {A1} {time} через; (adv) {A1} = into an object, an area or a subtance, {A1} = within an object, {A2} = (of people) at home or at a place of work, {A2} {sports: ball and racket sports} = inside the line; (adj) {C1} {clothes and fashion} = popular and fashionable
+              1T *#  out [aʊt] (prep) {A1} вне, из, вне, за; (n) аут, выход; (adv) {A2} {sports: ball and racket sports} вне, наружу; (adj) наружный, внешний; (v) изгнать
+
+{sports: ball and racket sports {football}}
+...........................................
 {A1} {sports: ball and racket sports {football}}
               xx ?#  association+football [əˌsəʊsiˈeɪʃ(ə)n ˈfʊtbɔːl] (n) {A1} {sports: ball and racket sports} ассоциация футбола
   313. (  1) 3T *#PT football [ˈfʊtbɔːl] (n) {A1} {sports: ball and racket sports} футбол
   653. (  1) 3T *#PT result [rɪˈzʌlt] (n) {A1} {change, cause and effect} {sports: ball and reacket sports} {politics} {education} {scientific research} {A2} {success} {B1} {business} результат, следствие, итог; (v) {B1} {changes, cause and effect} следовать
 
+{A2} {sports: ball and racket sports {football}}
+  312. (  1) 3T *#PT field [fiːld] (n) {A2} {farming} {sports: ball and racket sports} {B2} {physics and chemistry} поле, область, месторождение; (adj) полевой
+              xx ?#  football+boot [ˈfʊtbɔːl buːt] (n) {A2} {clothes and fashion} {sports: ball and racket sports} футбольный бутсы
+              3T *#  kick [kɪk] (n) {B1} удар, пинок, удар ногой, толчок, удовольствие; (v) {B1} {A2} {sports: ball and racket sports} пинать
+  733. (  1) 4T ?#PT soccer [ˈsɒkə] (adj) футбольный; (n) {A2} {sports: ball and racket sports} футбол
+
+{sports: ball and racket sports {golf}}
+.......................................
 {A1} {sports: ball and racket sports {golf}}
+{A2} {sports: ball and racket sports {golf}}
+  355. (  1) 4T *#PT golf [gɒlf] (n) {A2} {sports: ball and racket sports} гольф; (v) играть в гольф
+
+{sports: ball and racket sports {ohter ball sports}}
+....................................................
 {A1} {sports: ball and racket sports {ohter ball sports}}
+{A2} {sports: ball and racket sports {ohter ball sports}}
+  386. (  1) xT ?#PT hockey [ˈhɒki] (n) {A2} {sports: ball and racket sports} хоккей
+              3T ?#  stick [stɪk] (n) {A2} {sports: ball and racket sports} палка, палочка, {B1} {C1} {transport by air} ручка, трость; (v) {B1} {physics and chemistry} придерживаться,  держаться, наклеивать, I: stick-stuck-stuck
+              xx ?#  table+tennis [ˈteɪb(ə)lˈtɛnɪs] (n) {A2} {games and toys} {sports: ball and racket sports} настольный теннис
+              4T ?#  volleyball [ˈvɒlɪˌbɔːl] (n) {A2} {sports: ball and racket sports} волейбол
+
+{sports: ball and racket sports {rugby}}
+........................................
 {A1} {sports: ball and racket sports {rugby}}
+{A2} {sports: ball and racket sports {rugby}}1T *#  game [geɪm] (n) {A1} {games and toys} {A2} {sports: ball and the racket sports} игра, {A1} {shopping} партия; (adj) игровой; (v) играть в азартные игры
+
+{sports: ball and racket sports {tennis}}
+.........................................
 {A1} {sports: ball and racket sports {tennis}}
   775. (  1) 4T *#PT tennis [ˈtɛnɪs] (n) {A1} {sports: ball and racket sports} теннис
 
-{A1} {sports: other sports}
----------------------------
+{A2} {sports: ball and racket sports {tennis}}
+             1T *#  game [geɪm] (n) {A1} {games and toys} {A2} {sports: ball and the racket sports} игра, {A1} {shopping} партия; (adj) игровой; (v) играть в азартные игры
+             3T *#  net [nɛt] (n) {B1} сети, сеть, {A2} {sports: ball and racket sports} сетка
+
+{sports: other sports}
+----------------------
+{sports: other sports {athletics}}
+..................................
 {A1} {sports: other sports {athletics}}
+{A2} {sports: other sports {athletics}}
+  623. (  2) 3T *#PT race [reɪs] (n) раса, {A2} {sports: other sports} {B2} {success} гонки, {B1} {people in society} род; (v) {A2} {success} {sports: other sports} мчаться
+  671. (  1) 3T *#PT runner [ˈrʌnə] (n) {A2} {sports: other sports} бегун
+  672. (  1) 3T *#PT running [rʌnɪŋ] {A2} {sports: other sports} -ing: (v) {A1} {health and fitness} {B1} {transport by bus and train} {B2} {engineering} {computers} работать, бежать, {B1} {business} управлять, I: run-ran-run
+
+{sports: other sports {combat sports}}
+......................................
 {A1} {sports: other sports {combat sports}}
+{A2} {sports: other sports {combat sports}}
+  313. (  2) 3T *#PT fight [faɪt] (n) бой, {A2} {sports: other sports} {B1} {opinion and argument} {success} борьба; (v) {A2} {B1} {opinion and argument} {success} {A2} {sports: other sports} сражаться, воевать, драться I: fight-fought-fought
+
+{sports: other sports {cycling}}
+................................
 {A1} {sports: other sports {cycling}}
    87. (  1) 3T *#PT bicycle [ˈbaɪsɪkl] (n) {A1} {transport by car or lorry} {sports: other sports} велосипед; (v) {B1} {sports: other sports} ездить на велосипеде
    89. (  1) 3T ?#PT bike [baɪk] (n) {A1} {sports: other sports} {transport by car or lorry} велосипед; (v) {B1} {sports: other sports} {transport by car or lorry} ездить на велосипеде
 
+{A2} {sports: other sports {cycling}}
+  205. (  2) 3T *#PT cycle [ˈsaɪkl] (n) {B1} {money} {biology} {B2} {engineering} цикл, круг, круговорот, {A2} {transport by car or lorry} {sports: other sports} велосипед, такт процессора; (v) {A2} {sports: other sports} ездить на велосипеде
+              3T ?#  cycling [ˈsaɪklɪŋ] -ing: (v) {A2} {sports: other sports} ездить на велосипеде; (n) {A2} {sports: other sports} езда на велосипеде
+  660. (  1) 3T *#PT ride [raɪd] (v) {A1} {sports: other sports} {transport by car or lorry} ездить, ехать, кататься, I: ride-rode-ridden; (n) {A2} {sports: other sports} поездка, езда
+
+{sports: other sports {equine sports}}
+......................................
 {A1} {sports: other sports {equine sports}}
   384. (  1) 3T *#PT horse [hɔːs] (n) {A1} {animals} {sports: other sports} лошадь; (adj) конный
   657. (  1) 3T *#PT ride [raɪd] (v) {A1} {sports: other sports} {transport by car or lorry} ездить, ехать, кататься, I: ride-rode-ridden; (n) {A2} {sports: other sports} поездка, езда
 
+{A2} {sports: other sports {equine sports}}
+  431. (  2) 3T *#PT jump [ʤ ʌmp] (n) {A2} {sports: other sports} прыжок, скачок, переход; (v) {A2} {sports: other sports} {B1} {feelings} {B2} {change, cause and effect} прыгать
+
+{sports: other sports {extreme sports}}
+.......................................
 {A1} {sports: other sports {extreme sports}}
+{A2} {sports: other sports {extreme sports}}
+
+{sports: other sports {other sports}}
+.....................................
 {A1} {sports: other sports {other sports}}
   353. (  1) xT *#PT gym [ʤ ɪm] (n) {A1} {education} {health and fitness} {sports: other sports} гимнастика, гимнастический зал
 
+{A2} {sports: other sports {other sports}}
+              3T ?#  climb [ˈklaɪm] (v) {A1} {A2} {sports: other sports} {hobbies} взобраться
+              3T ?#  climbing [ˈklaɪmɪŋ] -ing: (v) {A1} {A2} {sports: other sports} {hobbies} взобраться; (n) {A2} {sports: other sports} {hobbies} восхождение
+              3T ?#  motorbike [ˈməʊtəˌbaɪk] (n) {A2} {transport by car or lorry} {sports: other sports} мотоцикл, мопед
+
+{sports: other sports {pool and snooker}}
+.........................................
 {A1} {sports: other sports {pool and snooker}}
+{A2} {sports: other sports {pool and snooker}}
+
+{sports: other sports {sports in general}}
+..........................................
 {A1} {sports: other sports {sports in general}}
   267. (  2) 3T *#PT exercise [ˈɛksəsaɪz] (n) {A1} {sports: other sports} {health and fitness} {education} упражнение, {B2} {success} осуществление, тренировка, занятие; (v) {A1} {sports: other sports} {health and fitness} {B2} {success} осуществлять, проявлять, тренироваться, выполнять
   300. (  1) 3T *#PT finish [ˈfɪnɪʃ] (n) {A2} {C1} {art} конец; (v) {A1} {sports: other sports} заканчивать
   733. (  1) 3T *#PT sport [spɔːt] (n) {A1} {sports: other sports} {sports: ball and racket sports} спорт; (v) щеголять, заниматься спортом
 
-{A1} {sports: other sports {winter sports}}
+{A2} {sports: other sports {sports in general}}
+   64. (  1) 5T *#PT athlete [ˈæθliːt] (n) {A2} {sports: other sports} {B1} {health and fitness} легкоатлет, спортсмен
+  161. (  1) 3T ?#PT coach [kəʊʧ] (n)(n) {A2} {sports: other sports} {education} тренер, {A2} {transport by car or lorry} автобус, {transport by bus and train} вагон, пассажирский вагон; (v) {B1} {sports: other sports} {education} тренировать
+  172. (  1) 3T ?#PT compete [kəmˈpiːt] (v) {A2} {sports: other sports} {B1} {success} {business} конкурировать, соревноваться
+  173. (  1) 3T ?#PT competition [ˌkɒmpɪˈtɪʃən] (n) {A2} {sports: other sports} {B1} {business} соискание, конкурс, конкуренция, соревнование
+              1T *#  final [ˈfaɪnl] (adj) {A1} окончательный, конечный; (n) {A2} {sports: other sports} выпускные экзамены
+  354. (  2) 3T *#PT gold [goʊld] (n)(u) {A2} {physics and chemistry} {clothes and fashion} {sports: other sports} {colours and shapes} золото; (adj) {A2} {clothes and fashion} золотой
+              1T *#  race [reɪs] (n) раса, {A2} {sports: other sports} {B2} {success} гонки, {B1} {people in society} род; (v) {A2} {success} {sports: other sports} мчаться
+  638. (  2) 3T *#PT record [ˈrɛkɔːd->(n)/rɪˈkɔːd->(v)] (n) {B1} {music} запись, {A2} {success} {sports: other sports} рекорд, отчет, учет, регистрация, {C1} {law and justice} {crime and punishment} протокол; (v) {A2} {tv, radio and news} {music} записывать, регистрировать; (adj) рекордный
+  821. (  1) 3T *#PT train [treɪn] (n) {A1} {transport by bus and train} поезд; (v) {A2} {education} {jobs} {sports: other sports} {health and fitness} тренироваться, обучать
+  823. (  1) 3T *#PT training [treɪnɪŋ] -ing: (v) {A2} {education} {jobs} {sports: other sports} {health and fitness} тренироваться, обучать; (n) {A2} {education} {jobs} {sports: other sports} обучение, подготовка, повышение квалификации
 
-{A1} {sports: water sports}
----------------------------
+{sports: other sports {winter sports}}
+......................................
+{A1} {sports: other sports {winter sports}}
+{A2} {sports: other sports {winter sports}}
+              xT ?#  hockey [ˈhɒki] (n) {A2} {sports: ball and racket sports} {sports: other sports} хоккей
+              xx ?#  ice+hockey [aɪs hɒki] (n) {A2} {sports: other sports} хоккей с шайбой, хоккей на льду
+  721. (  3) 4T ?#PT ski [ski] (v) {A2} {sports: other sports} ходить на лыжах; (n) {A2} {sports: other sports} лыжа; (adj) {A2} {sports: other sports} = connected with the sport of skiing
+  722. (  1) 4T ?#PT skiing [skiɪŋ] -ing: (v) {A2} {sports: other sports} ходить на лыжах; (n) {A2} {sports: other sports} лыжный спорт; (adj) лыжный
+              xx ?#  winter+sports [ˈwɪntə spɔːts] (n) {A2} {sports: other sports} зимние виды спорта
+
+{sports: water sports}
+----------------------
+{sports: water sports {boating}}
+................................
 {A1} {sports: water sports {boating}}
    97. (  1) 3T *#PT boat [bəʊt] (n) {A1} {sports: water sports} {transport by water} лодкa
 
+{A2} {sports: water sports {boating}}
+  675. (  1) 3T *#PT sail [seɪl] (n) {B1} {sports: other sports} {transport by water} паруса, плавание; (v) {A2} {sports: other sports} {transport by water} плыть, плавать
+  676. (  1) 3T *#PT sailing [seɪlɪŋ] {A2} -ing: (v) {A2} {sports: other sports} {transport by water} плыть, плавать
+
+{sports: water sports {diving}}
+...............................
 {A1} {sports: water sports {diving}}
+{A2} {sports: water sports {diving}}
+              xT *#  diving [daɪvɪŋ] -ing: (v) {B2} {sports: water sports} {hobbies} {transport by air} {birds} нырять, {C1} {sports: ball and racket sports} {money} погружаться; (n) {A2} {sports: water sports} подводное плавание
+
+{sports: water sports {swimming}}
 {A1} {sports: water sports {swimming}}
   758. (  1) 3T *#PT swim [swɪm] swim [swɪm] (v) {A1} {sports: water sports} {fish and shellfish} плавать, плыть, I: swim-swam-swum; (n) {B1} плавание
   759. (  1) 3T *#PT swimming [swɪmɪŋ] {A1} {sports: water sports} -ing: (v) {A1} {sports: water sports} {fish and shellfish} плавать, плыть, I: swim-swam-swum
-             xx ?#  swimming+pool [ˈswɪmɪŋ puːl] (n) {sports: water sports} {gardens} {buildings} бассейн
+              xx ?#  swimming+pool [ˈswɪmɪŋ puːl] (n) {sports: water sports} {gardens} {buildings} бассейн
 
+{A2} {sports: water sports {swimming}}
+              zT ?#  swimmer [ˈswɪmə] (n) {A2} {sports: water sports} пловец, поплавок
+
+{sports: water sports {water sports}}
+.....................................
 {A1} {sports: water sports {water sports}}
-             xx ?#  water+sports [ˈwɔːtə spɔːts] (n) {A1} {sports: water sports} водные виды спорта
+              xx ?#  water+sports [ˈwɔːtə spɔːts] (n) {A1} {sports: water sports} водные виды спорта
+
+{A2} {sports: water sports {water sports}}
 
 The natural world
 =================
-{A1} {farming}
---------------
+{farming}
+---------
+{farming {animal farming}}
+..........................
 {A1} {farming {animal farming}}
+{A2} {farming {animal farming}}
+  304. (  1) 3T *#PT farming [fɑːmɪŋ] -ing: (v) {A2} обрабатывать землю; (n) {A2} {farming} фермерство
+  309. (  1) 3T *#PT feed [fiːd] (v) {A2} {animals} {farming} кормить, питаться, I: feed-fed-fed; (n) подача, питание, {B2} {life stage} кормление
+
+{farming {farm people}}
+.......................
 {A1} {farming {farm people}}
   281. (  1) 3T *#PT farmer [ˈfɑːmə] (n) {A1} {jobs} {farming} фермер
+
+{A2} {farming {farm people}}
   
+{farming {growing crops}}
+.........................
 {A1} {farming {growing crops}}
   327. (  1) 3T *#PT fruit [fruːt] (n) {A1} {food} {farming} фрукт
   350. (  1) 3T *#PT grow [grəʊ] (v) {A1} {change, cause and effect} {money} расти, {A1} {farming} {gardens} выращивать, {C1} {change, cause and effect} увеличиваться I: grow-grew-grown
   655. (  1) 3T *#PT rice [raɪs] (n) {A1} {food} {farming} рис; (adj) рисовый
   848. (  1) 3T ?#PT vegetable [ˈvɛʤ təb(ə)l] (n) {A1} {food} {farming} овощ; (adj) овощной
 
+{A2} {farming {growing crops}}
+  577. (  1) 3T *#PT plant [(UK)plɑːnt/(US)plænt] (n) {A1} {plants and trees} растение, {B1} {business} завод; (v) {A2} {farming} {gardens} сажать, насаждать, садить
+  602. (  1) 3T *#PT produce [ˈprɒdjuːs->(n)/prəˈdjuːs->(v)] (v) {A2} {farming} {B1} {change, cause and effect} производить, {A2} {B2} {music} {film and theatre} создавать; (n) {B2} {farming} продукция, продукт
+
+{farming {on the farm}}
+.......................
 {A1} {farming {on the farm}}
   280. (  1) 3T *#PT farm [fɑːm] (n) {A1} {farming} {B1} {houses and homes} {buildings} ферма, хозяйство; (v) {A2} обрабатывать землю
 
-{A1} {geography}
-----------------
+{A2} {farming {on the farm}}
+  312. (  1) 3T *#PT field [fiːld] (n) {A2} {farming} {sports: ball and racket sports} {B2} {physics and chemistry} поле, область, месторождение; (adj) полевой
+
+{geography}
+-----------
+{geography {coastlines and the sea}}
+....................................
 {A1} {geography {coastlines and the sea}}
    71. (  1) 3T *#PT beach [biːʧ] (n) {A1} {holidays} {geography} берег моря, пляж
   675. (  1) 3T *#PT sea [siː] (n) {A1} {transport by water} {holidays} {geography} море
 
+{A2} {geography {coastlines and the sea}}
+  162. (  1) 3T *#PT coast [kəʊst] (n) {A2} {geography} побережье, морской берег, снежная горка, спуск под уклон, спуск с горы на санках; (v) плавать вдоль побережья, кататься с горы, спускаться под уклон
+  532. (  1) 3T *#PT ocean [ˈəʊʃən] (n) {A2} {geography} океан
+              xx ?#  sea+level [siː ˈlɛv(ə)l] (n) {A2} {geography} уровень моря
+
+{geography {countries and continents}}
+......................................
 {A1} {geography {countries and continents}}
               4T *#  africa [ˈæfrəkə/ˈæfrɪkə/ˈæfərkə] (n) {A1} {geography} Африка
               4T *#  asia [ˈeɪʒə] (n) {A1} {geography} Азия
@@ -4299,6 +4477,11 @@ The natural world
               xx ?#  north+america [nɔːθ əˈmɛrɪkə] (n) {A1} {geography} Северная Америка
               xx ?#  south+america [saʊθ əˈmɛrɪkə] (n) {A1} {geography} Южная Америка
 
+{A2} {geography {countries and continents}}
+  183. (  1) 3T *#PT continent [ˈkɒntɪnənt] (n) {A2} {geography} континент, материк, колонии; (adj) сдержанный
+
+{geography {describing geographic regions}}
+...........................................
 {A1} {geography {describing geographic regions}}
   166. (  2) 3T *#PT cold [kəʊld] (n) {B1} {weather} холод, {A1} {health problems} простуда; (adj) {A1} {weather} {geography} холодный, равнодушный; (adv) достоверно, точно
   239. (  3) 3T *#PT east [ist] (n) {A1} {geography} Восток; (adv) {A1} к востоку, на восток; (adj) {A1} {weather} {geography} восточный
@@ -4308,86 +4491,236 @@ The natural world
   726. (  3) 3T *#PT south [saʊθ] (n) {A1} {geography} юг; (adv) {A1} на юг, к югу; (adj) {A1} {geography} {weather} южный
   874. (  3) 3T *#PT west [wɛst] (n) {A1} {geography} запад; (adv) на запад, к западу; (adj) {A1} {geography} {weather} западный
 
+{A2} {geography {describing geographic regions}}
+  254. (  2) 3T *#PT dry [drai] (adj) {A2} {cooking and eating} {geography} сухой; (v) {A2} сушить
+  326. (  1) 3T *#PT flat [flæt] (adj) {A2} {colours and shapes} {geography} плоский, ровный; (n) {A1} {houses and homes} {buildings} квартира
+              xx ?#  north-east [nɔːθ-iːst] (adj) {A2} {geography} северо-восточный; (adv) к северо-востоку; (n) {A2} {geography} северо-восток
+              xx ?#  north-west [ˌnɔːθˈwɛst/nɔːˈwɛst] (adj) {A2} {geography} северо-западный; (adv) к северо-западу; (n) {A2} {geography} северо-запад
+              xx ?#  south-east [ˈsaʊθˈiːst] (adj) {A2} {geography} юго-восточный; (adv) к юго-востоку; (n) {A2} {geography} юго-восток
+              xx ?#  south-west [ˌsaʊθˈwɛst/ˌsaʊˈwɛst] (adj) {A2} {geography} юго-западный; (adv) к юго-западу; (n) {A2} {geography} юго-запад
+
+{geography {mountains and valleys}}
+...................................
 {A1} {geography {mountains and valleys}}
   504. (  1) 3T *#PT mountain [ˈmaʊntɪn] (n) {A1} {geography} гора
 
+{A2} {geography {mountains and valleys}}
+  382. (  1) 3T *#PT hill [hɪl] (n) {A2} {geography} холм, возвышенность, гора
+  663. (  1) 3T *#PT rock [rɒk] (n) {A2} камень, {A2} {geography} скала, {A2} {music} = rock music; (v) {C1} качать, качаться; (adj) горный, каменный
+  843. (  1) 3T *#PT valley [ˈvæli] (n) {A2} {geography} долина, впадина
+
+{geography {other geographic features}}
+.......................................
 {A1} {geography {other geographic features}}
    46. (  1) 3T *#PT area [ˈeərɪə] (n) {A1} {geography} {B2} {maths and measurement} площадь, {C1} {sports: ball and racket sports} зона, область, участок, сфера, поверхность
   412. (  1) 3T *#PT island [ˈaɪlənd] (n) {A1} {geography} остров, островок
   818. (  1) 3T *#PT town [taʊn] (n) {A1} {geography} город
   851. (  1) 3T *#PT village [ˈvɪləʤ /ˈvɪlɪʤ ] -es: (n) {A1} {geography} деревня
 
+{A2} {geography {other geographic features}}
+  112. (  2) 3T *#PT bottom [ˈbɒtəm] (n) {A2} {geography} дно, {B1} {transport by water} основание, низ, {B1} {body} зад; (adj) {A2} нижний
+  221. (  1) 3T *#PT desert [ˈdɛzət->(adj,n)/dɪˈzɜːt->(n,v)] (n) {A2} {geography} пустыня; (adj) пустынный; (v) {B2} {war and conflict} дезертировать, {B2} покидать
+  333. (  1) 3T *#PT forest [ˈfɒrɪst] (n) {A2} {geography} лес, заповедник; (adj) лесной; (v) засаживать лесом
+  360. (  1) 3T *#PT ground [graʊnd] (n) {A2} {geography} земля; (v) {C1} {transport by water} {C2} {engineering} заземлять; 1,2ed: (v) молоть, перемалывать, I: grind-ground-ground
+              yT ?#  rainforest [ˈreɪnˌfɒrɪst] (n) {A2} {geography} тропический лес
+  644. (  1) 3T *#PT region [ˈriʤ ən] (n) {A2} {geography} область, регион, край, район, участок
+  870. (  1) 3T *#PT wood [wʊd] (n) {A2} {physics and chemistry} дерево, дрова, {A2} {geography} лес; (adj) деревянный
+
+{geography {rivers and lakes}}
+..............................
 {A1} {geography {rivers and lakes}}
   659. (  1) 3T *#PT river [ˈrɪvə] (n) {A1} {geography} река, поток; (adj) речной
 
-{A1} {plants and trees}
------------------------
+{A2} {geography {rivers and lakes}}
+  115. (  1) 3T *#PT bridge [brɪʤ ] (n) {A2} {buildings} {geography} мост; (v) шунтировать, наводить мост
+  441. (  1) 3T *#PT lake [leɪk] (n) {A2} {geography} озеро
+              3T *#  pool [puːl] (n) {A1} {holidays} {A2} {geography} бассейн, {C1} {games and toys} {sports: other sports} пул, общий фонд; (v) объединять в общий фонд
+
+{plants and trees}
+------------------
+{plants and trees {plants}}
+...........................
 {A1} {plants and trees {plants}}
   308. (  1) 3T *#PT flower [ˈflaʊə] (n) {A1} {plants and trees} цветок; (v) {B2} {plants and trees} {C2} {success} цвести
   603. (  1) 3T *#PT plant [(UK)plɑːnt/(US)plænt] (n) {A1} {plants and trees} растение, {B1} {business} завод; (v) {A2} {farming} {gardens} сажать, насаждать, садить
 
+{A2} {plants and trees {plants}}
+  358. (  1) 3T *#PT grass [ɡrɑːs] (n) {A2} {plants and trees} {gardens} трава, газон; (adj) подножный; (v) выгонять в поле, пастись
+              5T ?#  mushroom [ˈmʌʃrʊm] (n) {A2} {food} {plants and trees} гриб; (adj) грибной; (v) собирать грибы
+  866. (  1) 3T *#PT wild [waɪld] (adj) {A2} {animals} {plants and trees} дикий
+
+{A1} {plants and trees {trees}}
 {A1} {plants and trees {trees}}
   822. (  1) 3T *#PT tree [triː] (n) {A1} {plants and trees} дерево
 
-{A1} {the environment}
-----------------------
+{A2} {plants and trees {trees}}
+
+{the environment}
+-----------------
+{the environment {climate change}}
+..................................
 {A1} {the environment {climate change}}
+{A2} {the environment {climate change}}
+  156. (  1) 3T *#PT climate [ˈklaɪmɪt] (n) {A2} {the environment} климат, атмосфера
+              xx ?#  climate+change [ˈklaɪmət ʧeɪnʤ ] (n) {A2} {the environment} изменение климата
+
+{the environment {conservation}}
+................................
 {A1} {the environment {conservation}}
   516. (  1) 3T *#PT natural [ˈnæʧrəl] (adj) {A1} {the environment} естественный, природный, натуральный
 
+{A2} {the environment {conservation}}
+  275. (  1) 3T *#PT environment [ɪnˈvaɪərənmənt] (n) {A2} {the environment} среда, окружающая среда, {C2} {computers} окружение
+  515. (  1) 3T *#PT nature [ˈneɪʧə] (n) {A2} {the environment} природа, {B1} характер, {B2} сущность, натура
+  610. (  1) 3T *#PT protect [prəˈtɛkt] (v) {A2} {the environment} защищать, охранять
+
+{the environment {natural disasters}}
+.....................................
 {A1} {the environment {natural disasters}}
+{A2} {the environment {natural disasters}}
+              xx ?#  natural+disaster [ˈnæʧ(ə)r(ə)l dɪˈzɑːstə] (n) {A2} {the environment} стихийное бедствие
+  763. (  1) 3T *#PT storm [stɔːm] (v) {C2} {feelings} {war and conflict} штурмовать; (n) {A2} {weather} {the environment} буря, шторм
+
+{the environment {the power industry}}
+......................................
 {A1} {the environment {the power industry}}
+{A2} {the environment {the power industry}}
+  263. (  1) 3T *#PT electricity [ɪlɛkˈtrɪsɪti] (n) {A2} {environment} {physics and chemistry} {engineering} электричество
+  270. (  1) 3T *#PT energy [ˈɛnəʤ i] (n) {A2} {health and fitness} {the environment} {C1} {physics and chemistry} энергия, силы, энергичность
+  348. (  1) 3T *#PT gas [gæs] (n) {A2} {physics and chemistry} {the environment} газ
+  535. (  1) 3T *#PT oil [ɔɪl] (n) {A2} {the environment} {transport by car or lorry} {food} {apperance} {C1} {art} масло, нефть; (adj) нефтяной, масляный
+              3T ?#  petrol [ˈpɛtrəl] (n) {A2} {the environment} {transport by car or lorry} {physics and chemistry} бензин; (adj) бензиновый
+  592. (  1) 3T *#PT power [ˈpaʊə] (n) {A2} {politics} власть, {C2} {maths and measurement} мощность, {A2} {the environment} сила, мощь, энергия, способность; (adj) силовой; (v) снабжать силовым двигателем
+
+{the environment {waste and pollution}}
+.......................................
 {A1} {the environment {waste and pollution}}
    26. (  1) 3T *#PT air [eə] (n) {A1} {the environment} {weather} атмосфера, воздуха; (adj) воздушный; (v) проветривать, просушивать, {C2} {opinion and argument} обнародовать
   158. (  2) 3T *#PT clean [klin] (adj) {A1} {the environment} чистый; (v) {A1} {houses and homes} чистить
 
+{A2} {the environment {waste and pollution}}
+              xx ?#  air+quality [eə ˈkwɒləti] (n) {A2} {the environment} качество воздуха
+              3T *#  garbage [ˈgɑːbɪʤ ] (n) {A2} {the environment} мусор, отбросы
+              3T *#  plastic [ˈplæstɪk] (n) {A2} {physics and chemistry} {the environment} пластик, пластмасса; (adj) {A2} {physics and chemistry} пластиковый
+  640. (  1) 5T ?#PT recycle [ˌriːˈsaɪkl] (v) {A2} {the environment} перерабатывать, рециркулировать
+              xT ?#  recycling [ˌriːˈsaɪklɪŋ] -ing: (v) {A2} {the environment} перерабатывать, рециркулировать; (n) {A2} {the environment} рециклинг, повторное использование
+  668. (  1) 3T ?#PT rubbish [ˈrʌbɪʃ] (n) {A2} {the environment} мусор, хлам, чушь, вздор
+              3T *#  smoke [sməʊk] (n) {A2} {the environment} дым, {B1} {social issues} курение; (v) {A2} {social issues} курить, дымить, коптить
+              5T *#  trash [træʃ] (n) {A2} {the environment} мусор, ерунда; (v) очищать от мусора
 
-{A1} {weather}
---------------
+{weather}
+---------
+{weather {describing weather}}
+..............................
 {A1} {weather {describing weather}}
    61. (  1) 3T *#PT bad [bæd] (adj) {A1} {weather} {personal qualities} {A2} {health problems} {B1} {feelings} плохой, дурной, нехороший, I:bad-worse-(the)worst; (adv) плохо, нехорошо, I:bad-worse-(the)worst; (n) неудачаbad [bæd] (adj) плохой, дурной, нехороший, I:bad-worse-(the)worst; (adv) плохо, нехорошо, I:bad-worse-(the)worst; (n) неудача
   145. (  2) 3T *#PT change [ʧeɪnʤ ] (v) {A1} {change, cause and effect} {weather} {money} {A2} {transport by bus and train} {transport by air} менять; (n) {A1} {change, cause and effect} {weather} изменение, перемена, смена, {B1} {shopping} {money} мелочь, сдача
   341. (  1) 4T *#PT good [gʊd] (adj) {A1} {weather} {personal qualities} {health and fitness} хороший, I:good-better-(the)best; (adv) хорошо, I:good-better-(the)best; (n) {A2} благо, добро
   867. (  1) 3T *#PT weather [ˈwɛðər] (n) {A1} {weather} {tv, radio and news} погода; (adj) погодный
 
+{A2} {weather {describing weather}}
+   75. (  1) 3T ?#PT awful [ˈɔːfʊl] (adj) {A2} {weather} ужасный; (adv) очень
+
+{weather {rain}}
+................
 {A1} {weather {rain}}
   639. (  2) 3T *#PT rain [reɪn] (n) {A1} {weather} дождь; (v) {A1} {weather} литься
   835. (  1) 3T *#PT umbrella [ʌmˈbrɛlə] (n) {A1} {weather} зонтик
 
+{A2} {weather {rain}}
+              4T *#  rainy [ˈreɪni] (adj) {A2} {weather} дождливый
+  860. (  1) 3T *#PT wet [wɛt] (adj) {A2} {weather} мокрый, влажный, сырой; (v) смачивать, мочить, увлажнять
+
+{weather {sky}}
+...............
 {A1} {weather {sky}}
   198. (  1) 3T *#PT dark [dɑːk] (adj) {A1} {weather} {colours and shapes} темный, {A1} {appearance} черный, мрачный; (n) {A2} темнота, тьма
   753. (  1) 3T *#PT sun [sʌn] (n) {A1} {space} {weather} {physics and chemistry} солнце; (abbr) Sunday
               4T *#  sunny [ˈsʌni] (adv) солнечно; (adj) {A1} {weather} солнечный, {C1} {feelings} радостный
 
+{A2} {weather {sky}}
+  153. (  1) 3T *#PT clear [klɪə] (adv) ясно; (adj) {A2} {weather} ясный, чистый; (v) {B1} очищать, {B2} {weather} проясняться, убирать, очищаться
+  160. (  1) 3T *#PT cloud [klaʊd] (n) {A2} {weather} облако, туча
+              3T *#  grey [greɪ] (adj) {A1} {colours and shapes} {appearance} {life stages} {A2} {weather} серый; (n) {A1} {colours and shapes} серый цвет; (v) {B2} {life stages} = become gray with age, especially of hair
+              3T *#  gray [greɪ] (adj) (US) {A1} {colours and shapes} {A2} {wheather} серый, седой, (UK) = grey
+  724. (  1) 3T *#PT sky [skaɪ] (n) {A2} {weather} небо, небеса
+
+{weather {snow and ice}}
+........................
 {A1} {weather {snow and ice}}
   396. (  2) 3T *#PT ice [aɪs] (n) {A1} {weather} {drinks} лед; (adj) мороженое, ледяной; (adj) покрываться льдом, примораживать, замораживать; (v) {C1} {cooking and eating} замораживать
   713. (  2) 3T *#PT snow [snəʊ] (n) {A1} {weather} снег, снегопад; (adj) снежный; (v) {A1} {weather} заносить снегом
 
+{A2} {weather {snow and ice}}
+  301. (  1) xT *#PT fall [fɔːl] (n) {A2} {weather} падение, {A2} {time} осень, {A2} {change, cause and effect} снижение, {C1} {difficulty and failure} спад; (v) {A1} {A2} {change, cause and effect} {money} падать, снижаться, I: fall-fell-fallen
+              4T ?#  snowy [ˈsnəʊi] (adj) {A2} {weather} снежный
+
+{weather {temperature}}
+.......................
 {A1} {weather {temperature}}
   166. (  2) 3T *#PT cold [kəʊld] (n) {B1} {weather} холод, {A1} {health problems} простуда; (adj) {A1} {weather} {geography} холодный, равнодушный; (adv) достоверно, точно
   179. (  1) 3T *#PT cool [kuːl] (adv) {B2} прохладно, свежо; (adj) {A1} {weather} {B2} {feelings} прохладный, {A1} {opinion and argument} клевый, {C1} {personal qualiies} спокойный; (v) охлаждать, хладнокровие; (n) хладнокровие, {B1} {weather} прохлада
   386. (  1) 3T *#PT hot [hɒt] (adj) (adj) {A1} {weather} {geography} жаркий, {B1} {cooking and eating} {C1} {feelings} горячий; (adv) жарко
   860. (  1) 3T *#PT warm [wɔːm] (adj) {A1} {weather} {B1} {personal qualities} теплый, горячий; (v) {B1} {cooking and eating} {weather} нагреваться, согревать
 
+{A2} {weather {temperature}}
+  373. (  2) 3T *#PT heat [hiːt] (n) {A2} {physics and chemistry} тепло, {A2} {weather} жара; (v) {A2} {cooking and eating} нагревать
+  795. (  1) 3T *#PT temperature [ˈtɛmprɪʧə] (n) {A2} {weather} {health problems} температура; (adj) температурный
+
+{weather {the atmosphere}}
+..........................
 {A1} {weather {the atmosphere}}
    26. (  1) 3T *#PT air [eə] (n) {A1} {the environment} {weather} атмосфера, воздуха; (adj) воздушный; (v) проветривать, просушивать, {C2} {opinion and argument} обнародовать
 
+{A2} {weather {the atmosphere}}
+
+{weather {wind}}
+................
 {A1} {weather {wind}}
   239. (  3) 3T *#PT east [ist] (n) {A1} {geography} Восток; (adv) {A1} к востоку, на восток; (adj) {A1} {weather} {geography} восточный
   534. (  3) 3T *#PT north [nɔːθ] (n) {A1} {geography} север; (adj) {A1} {weather} {geography} северный; (adv) {A1} на север, к северу
   726. (  3) 3T *#PT south [saʊθ] (n) {A1} {geography} юг; (adv) {A1} на юг, к югу; (adj) {A1} {geography} {weather} южный
   874. (  3) 3T *#PT west [wɛst] (n) {A1} {geography} запад; (adv) на запад, к западу; (adj) {A1} {geography} {weather} западный
 
+{A2} {weather {wind}}
+  105. (  1) 3T *#PT blow [bləʊ] (v) {A2} {weather} дуть, подуть, I: blow-blew-blown; (n) {B2} удар
+  763. (  1) 3T *#PT storm [stɔːm] (v) {C2} {feelings} {war and conflict} штурмовать; (n) {A2} {weather} {the environment} буря, шторм
+  867. (  1) 3T *#PT wind [wɪnd->(n)/waɪnd->(v)] (n) {A2} {weather} ветер; (adj) ветровой; (v) наматывать
+              4T *#  windy [ˈwɪndi] (adj) {A2} {weather} ветреный
+
 Time and space
 ==============
-{A1} {history}
---------------
+{history}
+---------
+{history {events in history}}
+.............................
 {A1} {history {events in history}}
   378. (  1) 3T *#PT history [ˈhɪstəri] (n) {A1} {history} {education} {B2} {phone, email and the internet} история
 
+{A2} {history {events in history}}
+  420. (  1) 3T ?#PT invention [ɪnˈvɛnʃən] (n) {A2} {history} изобретение, выдумка
+
+{history {historical records}}
+..............................
 {A1} {history {historical records}}
+{A2} {history {historical records}}
+
+{history {objects in history}}
+..............................
 {A1} {history {objects in history}}
+{A2} {history {objects in history}}
+  133. (  1) 3T ?#PT castle [(UK)ˈkɑːsl/(US)ˈkæsəl] (n) {A2} {history} {buildings} замок, дворец
+  551. (  1) 3T *#PT palace [ˈpælɪs] (n) {A2} {history} {buildings} {houses and homes} дворец, дворцовый
+
+{history {people in history}}
+.............................
 {A1} {history {people in history}}
+{A2} {history {people in history}}
+  434. (  1) 3T *#PT king [kɪŋ] (n) {A2} {history} {people in society} {politics} царь, король
+  620. (  1) 3T *#PT queen [kwiːn] (n) {A2} {history} {people in society} {politics} королева, царица, дама; (v) быть королевой
+
+{history {periods in history}}
+..............................
 {A1} {history {periods in history}}
   143. (  1) 3T *#PT century [ˈsɛnʧʊri] (n) {A1} {time} {history} век, столетие
   199. (  1) 3T *#PT date [deɪt] (n) {A1} {time} {history} дата, срок, {A2} {family and relationships} свидание; (v) {B2} датировать, {B2} {family and relationships} назначать свидание
@@ -4395,25 +4728,61 @@ Time and space
   581. (  3) 3T *#PT past [pɑːst] (n) {A1} {history} {language} прошлое, прошедшее; (adv) мимо, {A2} после; (prep) мимо, за, {A1} {time} после; (adj) {A1} {history} {language} прошлый, прошедший
   588. (  1) 3T *#PT period [ˈpɪərɪəd] (n) {A1} {time} {history} {B2} {education} период, {B1} {language} точка
 
-{A1} {history {studying history}}
+{A2} {history {periods in history}}
+   42. (  1) 3T *#PT ancient [ˈeɪnʃ(ə)nt] (adj) {A2} {history} {buildings} древний, старинный, старый, античный; (n) старец
+              4T *#  roman [ˈrəʊmən] (adj) {A2} {history} римский, романский, латинский; (n) римлянин
+              1T *#  time [taɪm] (n) {A1} {time} {A2} {history} время, раз, срок; (v) {B2} приурочить, показывать время, удачно выбирать время, отбивать такт; (adj) повременный
 
-{A1} {space}
-------------
+{history {studying history}}
+............................
+{A1} {history {studying history}}
+{A2} {history {studying history}}
+
+{space}
+-------
+{space {space travel}}
+......................
 {A1} {space {space travel}}
+{A2} {space {space travel}}
+  443. (  1) 3T *#PT land [lænd] (adj) земельный, наземный, сухопутный; (n) {A1} земля; (v) {A2} {transport by air} {space} {transport by water} приземляться
+              xx ?#  take+off [teɪk ɒf] (phrasal verb) {A2} {space} {transport by air} {C1} {success} взлететь
+
+{space {the earth and the atmosphere}}
+......................................
 {A1} {space {the earth and the atmosphere}}
+{A2} {space {the earth and the atmosphere}}
+  256. (  1) 3T *#PT earth [ɜːθ] (n) {A2} {space} {B1} {farming} земля
+
+{space {the sun and the moon}}
+..............................
 {A1} {space {the sun and the moon}}
   753. (  1) 3T *#PT sun [sʌn] (n) {A1} {space} {weather} {physics and chemistry} солнце; (abbr) Sunday
 
+{A2} {space {the sun and the moon}}
+  506. (  1) 3T *#PT moon [muːn] (n) {A2} {space} луна, месяц; (v) действовать как во сне
+  662. (  1) 3T *#PT rise [raɪz] (n) {B1} {change, cause and effect} {money} {B2} {success} рост, повышение, подъем; (v) {A2} {change, cause and effect} {money} {space} {B2} [success} подниматься, повышаться, I: rise-rose-risen
+
+{space {the universe}}
+......................
 {A1} {space {the universe}}
              xx ?#  outer+space [ˈaʊtə speɪs] (n) {A1} {space} космическое пространство
   727. (  1) 3T *#PT space [speɪs] (n) {A1} {space} пространство, космос, пробел, место; (adj) космический; (v) оставлять промежутки
   736. (  1) 3T *#PT star [stɑː] (n) {A1} {space} {tv, radio and news} {film and theatre} {A2} {colours and shapes} {holidays} звезда
 
-{A1} {time}
------------
+{A2} {space {the universe}}
+  576. (  1) 3T *#PT planet [ˈplænɪt] (n) {A2} {space} планета
+
+{time}
+------
+{time {dates}}
+..............
 {A1} {time {dates}}
    199. (  1) 3T *#PT date [deɪt] (n) {A1} {time} {history} дата, срок, {A2} {family and relationships} свидание; (v) {B2} датировать, {B2} {family and relationships} назначать свидание
 
+{A2} {time {dates}}
+
+{time {days}}
+.............
 {A1} {time {days}}
   201. (  1) 3T *#PT day [deɪ] (n) {A1} {time} день
   322. (  1) 3T *#PT friday [(UK)ˈfraɪdeɪ/(US)ˈfraɪˌdeɪ/ˈfraɪdi] (n) {A1} {time} пятница
@@ -4428,6 +4797,10 @@ Time and space
   869. (  1) 3T *#PT wednesday [(UK)ˈwɛnzdeɪ/(US)ˈwɛnzˌdeɪ/ˈwɛnzdi] (n) {A1} {time} среда
   905. (  2) 3T *#PT yesterday [ˈjɛstədeɪ] (adv) {A1} {time} вчера; (n) {A1} {time} вчерашний день
 
+{A2} {time {days}}
+
+{time {months}}
+...............
 {A1} {time {months}}
    45. (  1) 3T *#PT april [ˈeɪprəl] (n) {A1} {time} апрель; (adj) апрельский
    55. (  1) 3T *#PT august [(UK)ˈɔːgəst/(US)ˈɔgəst/ˈɑgəst] (n) {A1} {time} август; (adj) величественный
@@ -4443,7 +4816,11 @@ Time and space
   544. (  1) 3T *#PT october [ɒkˈtəʊbə] (n) {A1} {time} октябрь
   682. (  1) 3T *#PT september [sɛpˈtɛmbə] (n) {A1} {time} сентябрь
 
-{A1} {time {time epressions}}
+{A2} {time {months}}
+
+{time {time expressions}}
+.........................
+{A1} {time {time expressions}}
    20. (  1) 3T *#PT after [(GB)ˈɑːftə/ (US)ˈæftər] (adv) после, спустя, вслед; (prep) {A1} {time} после, за, через
    24. (  1) 3T *#PT ago [əˈgəʊ] (adv) {A1} {time} тому назад
              xx ?#  at+the+same+time [æt ðiː seɪm taɪm] (idiom) {A1} {time} = at one time (together)
@@ -4459,6 +4836,21 @@ Time and space
   719. (  1) 3T *#PT sometimes [ˈsʌmtaɪmz] (adv) {A1} {time} иногда, временами
   846. (  1) 4T *#PT usually [ˈjuːʒʊəli/ˈjuːʒəli] (adj) {A1} {time} обычно, обыкновенно
 
+{A2} {time {time expressions}}
+              xx ?#  all+the+time [ɔːl ðiː taɪm] (idiom) {A2} {time} все время
+   87. (  2) 3T *#PT before [bɪˈfɔː] (conj) {A2} {time} до, прежде чем; (prep) {A1} {time} до, перед, прежде чем, раньше; (adv) {A2} {time} прежде чем, раньше
+  399. (  1) 3T *#PT immediately [ɪˈmiːdiətli] {A2} {time} -ly: (adj)->(adv) {B1} {time} немедленный, непосредственный
+              xx ?#  in+the+end [ɪn ðiː ɛnd] (idiom) {A2} {time} в конце концов, в заключение
+              xx ?#  on+time [ɒn taɪm] (idiom) {A2} {time} вовремя, в срок
+  632. (  1) 3T *#PT recent [ˈriːsnt] (adj) {A2} {time} недавний, последний, свежий, новый
+  633. (  1) 3T *#PT recently [ˈriːsntli] {A2} {time} -ly: (adj)->(adv) {A2} {time} недавний, последний, свежий, новый
+              3T *#  regular [ˈrɛgjʊlə] (adj) {A2} {language} {time} регулярный, обычный, правильный
+              1T *#  since [sɪns] (prep) {A2} {time} с, после, со времени; (adv) {B1} поскольку, с тех пор; (conj) {A2} {time} поскольку, так как
+  773. (  1) 3T *#PT suddenly [ˈsʌdnli] (adv) {A2} {time} вдруг, внезапно, скоропостижно
+  878. (  1) 3T *#PT yet [jɛt] (adv) {A2} еще, все же, тем не менее, все еще, {A2} {time} до сих пор; (conj) {B2} но, все же, однако
+
+{time {time periods}}
+.....................
 {A1} {time {time periods}}
   143. (  1) 3T *#PT century [ˈsɛnʧʊri] (n) {A1} {time} {history} век, столетие
   388. (  1) 3T *#PT hour [ˈaʊə] (n) {A1} {time} час
@@ -4476,7 +4868,17 @@ Time and space
   871. (  1) 3T *#PT weekend [ˈwiːkˈɛnd] (n) {A1} {time} выходные
   902. (  1) 3T *#PT year [jɪə] (n) {A1} {time} {education} год
 
+{A2} {time {time periods}}
+  446. (  1) 3T *#PT later [ˈleɪtə] (adv) {A1} позже, потом; (adj) {A2} {time} последний, поздний
+              1T *#  through [θruː] (prep) {A1} через, посредством, сквозь; (adv) {A1} благодаря, {A2} {time} {transport by bus and train} сквозной; (adj) {B2} {transport by bus and train} {transport by car or lorry} сквозной, беспересадочный
+
+{time {time zones}}
+...................
 {A1} {time {time zones}}
+{A2} {time {time zones}}
+
+{time {times of day}}
+.....................
 {A1} {time {times of day}}
    21. (  1) 3T *#PT afternoon [ˈɑːftəˈnuːn] (n) {A1} {time} полдень; (adj) после полудня
   256. (  1) 3T *#PT evening [ˈivnɪŋ] (n) {A1} {time} вечер
@@ -4485,22 +4887,42 @@ Time and space
   501. (  1) 3T *#PT morning [ˈmɔːnɪŋ] (n) {A1} {time} утро, начало; (adj) утренний; (excl) = good morning
   527. (  1) 3T *#PT night [naɪt] (n) {A1} {time} ночь; (adj) ночной
   542. (  1) xx *#PT o'clock [əˈklɒk] (n) час; (adv) {A1} {time} по часам, на часах
-  
+
+{A2] {time {times of day}}
+              zT *#  lunchtime [ˈlʌnʧˌtaɪm] (n) {A2} {time} {cooking and eating} обед
+
+{time {time of year}}
+.....................
 {A1} {time {time of year}}
    57. (  1) 3T *#PT autumn [ˈɔːtəm] (n) {A1} {time} осень
   734. (  1) 3T ?#PT spring [sprɪŋ] (n) {A1} {time} весна, пружина, {B2} {geography} источник, родник; (v) {B2} возникать: I: spring-sprang-sprung
   752. (  1) 3T *#PT summer [ˈsʌmə] (n) {time} лето
   887. (  1) 3T *#PT winter [ˈwɪntə] (n) {A1} {time} зима
 
+{A2} {time {time of year}}
+  688. (  1) 3T *#PT season [ˈsiːzn] (n) {A2} {time} время года, {B2} {film and theatre} {clothes and fashion} сезон; (adj) сезонный; (v) приправлять
+
 Travel
 ======
-{A1} {holidays}
----------------
+{holidays}
+----------
+{holidays {camping}}
+....................
 {A1} {holidays {camping}}
-{A1} {holidays {holiday accomodation}}
+{A2} {holidays {camping}}
+  123. (  2) 3T *#PT camp [kæmp] (n) {A2} {social issue} {B2} {war and conflict} лагерь; (v) {A2} {holidays} располагаться лагерем
+  124. (  1) 3T *#PT camping [ˈkæmpɪŋ] -ing: (v) {A2} {holidays} располагаться лагерем; (n) {A2} {holidays} кемпинг
+
+{holidays {holiday accommodation}}
+..................................
+{A1} {holidays {holiday accommodation}}
              3T *#  apartment [əˈpɑːtmənt] (n) {A1} {houses and homes} {holidays} квартира, апартамент
   387. (  1) 3T *#PT hotel [hoʊˈtɛl] (n) {A1} {buildings} {holidays} отель, гостиница
 
+{A2} {holidays {holiday accommodation}}
+
+{holidays {holidays in general}}
+................................
 {A1} {holidays {holidays in general}}
   420. (  1) 3T *#PT journey [ˈʤ ɜːni] (n) {A1} {holidays} путешествие, поездка
   580. (  1) 3T *#PT passport [ˈpɑːspɔːt] (n) {A1} {transport by air} {law and justice} {holidays} паспорт; (adj) паспортный
@@ -4509,30 +4931,94 @@ Travel
   823. (  1) 3T *#PT trip [trɪp] (n) {A1} {holidays} поездка, путешествие, экскурсия, подножка, спотыкание; (v) {B2} спотыкаться
   853. (  1) 3T *#PT visitor [ˈvɪzɪtə] (n) {A1} {holidays}  посетитель, гость
 
+{A2} {holidays {holidays in general}}
+  332. (  1) 3T *#PT foreign [ˈfɒrɪn] (adj) {A2} {holidays} {politics} иностранный, внешний, зарубежный, чужой
+              3T ?#  luggage [ˈlʌgɪʤ ] (n) {A2} {holidays} {shopping} багаж; (adj) багажный
+  548. (  1) 3T *#PT pack [pæk] (n) пакет, упаковка, {B2} {animals} стая; (v) упаковывать, {A2} {holidays} паковать
+              5T *#  postcard [ˈpəʊstkɑːd] (n) {A2} {holidays} открытка, почтовая карточка
+              yT ?#  sightseeing [ˈsaɪtsiːɪŋ] -ing: (v) {C1} {holidays} осмотривать достопримечательности; (n) {A2} {holidays} осмотр достопримечательностей
+              5T ?#  souvenir [ˈsuːvənɪə] (n) {A2} {holidays} сувенир, подарок на память
+              3T ?#  suitcase [ˈsjuːtkeɪs] (n) {A2} {holidays} чемодан
+  825. (  1) 3T ?#PT traveller [ˈtræv(ə)lə] (n) {A2} {holidays} путешественник
+
+{holidays {staying in a hotel}}
+...............................
 {A1} {holidays {staying in a hotel}}
   209. (  1) 3T *#PT desk [dɛsk] (n) {working life} {education} {houses and homes} {holidays} письменный стол
   661. (  1) 3T *#PT room [ruːm] (n) {A1} {houses and homes} {holidays} комната, номер
   740. (  1) 3T *#PT stay [steɪ] (v) {A1} {holidays} остаться; (n) {A2} {holidays} пребывание
 
+{A2} {holidays {staying in a hotel}}
+              xx ?#  card+key [kɑːd kiː] (n) {A2} {holidays} ключ-карта
+              xx ?#  check+in [ʧɛk ɪn] (phrasal verb) {A2} {holidays} регистрироваться, проверять
+              xx ?#  double+room [ˈdʌb(ə) ruːm] (n) {A2} {holidays} двухместный номер
+              1T *#  floor [flɔː] (n) {A2} {holidays} {houses and homes} {building} этаж, {A1} {houses and homes} {buildings} пол
+  361. (  1) 3T *#PT guest [gɛst] (n) {A2} {holidays} {B1} {tv, radio and news} гость; (v) гостить
+              xx ?#  key+card [kiː kɑːd] (n) {A2} {holidays} ключ-карта
+  634. (  1) 3T *#PT reception [rɪˈsɛpʃən] (n) {A2} {holidays} {working life} = the area inside the entrance of a hotel where guests go first, получение, {B1} {life stages} прием, {C1} {tv, radio and news} восприятие
+              5T ?#  receptionist [rɪˈsɛpʃənɪst] (n) {A2} {holidays} {jobs} регистратор, портье, секретарь в приемной
+  717. (  2) 3T *#PT single [ˈsɪŋgl] (adj) {A2} {transport by bus and train} {transport by air} одинокий, единый, незамужняя, холостой; (n) {A2} {transpor by bus and train} {holidays} {B2} {music} {sports: ball and racket sports} один; (v) определять, выбирать
+  757. (  1) 3T *#PT stay [steɪ] (v) {A1} {holidays} остаться; (n) {A2} {holidays} пребывание
+  828. (  2) 3T ?#PT twin [twɪn] (n) {A2} {holidays} {family and relationships} близнец; (adj) {A2} двойной
+
+{holidays {the tourist industry}}
+.................................
 {A1} {holidays {the tourist industry}}
   817. (  1) 3T *#PT tourist [ˈtʊərɪst] (adj) туристический; (n) {A1} {holidays} турист
 
+{A2} {holidays {the tourist industry}}
+  109. (  1) 3T *#PT book [bʊk] (n) {A1} {literature and writing} {education} {shopping} {C1} {business} книга; (adj) книжный; (v) {A2} {holidays} {transport by air} {cooking and eating} заказывать, зарегистрировать
+  362. (  2) 3T *#PT guide [gaɪd] (n) руководство, {A2} {holidays} {B2} {suggestions and advice} гид, путеводитель; (v) направлять, вести
+  754. (  1) 3T *#PT star [stɑː] (n) {A1} {space} {tv, radio and news} {film and theatre} {A2} {colours and shapes} {holidays} звезда
+  813. (  1) xT ?#PT tourism [ˈtʊərɪzəm] (n) {A2} {holidays} {business} туризм
+
+{holidays {types of holiday/vacation}}
+......................................
 {A1} {holidays {types of holiday/vacation}}
    71. (  1) 3T *#PT beach [biːʧ] (n) {A1} {holidays} {geography} берег моря, пляж
   380. (  1) 3T *#PT holiday [ˈhɒlədeɪ] (n) {A1} {holidays} день отдыха
   847. (  1) 3T *#PT vacation [vəˈkeɪʃən] (n) {A1} {holidays} отпуск, {A2} {education} каникулы; (v) отдыхать; (adj) отпускной
 
-{A1} {transport by air}
------------------------
+{A2} {holidays {types of holiday/vacation}}
+    5. (  1) 3T ?#PT abroad [əˈbrɔːd] (adv) {A2} {holiday} за границей, повсюду
+   19. (  1) 3T *#PT adventure [ədˈvɛnʧə] (n) {A2} {holidays} приключение, авантюра, {A2} {danger} риск; (adj) приключенческий; (v) рисковать, отваживаться
+              xT ?#  hiking [haɪkɪŋ] -ing: (v) {A2} {hobbies} путешествовать, ходить пешком; (n) {A2} {hobbies} {holidays} пеший туризм
+  812. (  1) 3T *#PT tour [tʊə] (n) {A2} {holidays} {music} тур, путешествие, экскурсия, гастроли, поездка; (v) {B1} {holidays} {music} гастролировать; (adj) гастрольный 
+              3T *#  walking [(UK)wɔ:kɪŋ/(US)wɑkɪŋ/wɔ:kɪŋ] {A2} {holidays} {hobbies} {health and fitness} -ing: (v) {A1} {health and fitness} {A2} {animals} ходить, идти, гулять
+
+{transport by air}
+------------------
+{transport by air {aircraft}}
+.............................
 {A1} {transport by air {aircraft}}
    27. (  1) 3T *#PT airport [ˈeəpɔːt] (n) {A1} {transport by air} аэропорт
   602. (  1) 3T *#PT plane [pleɪn] (n) {A1} {transport by air} самолет, {C2} {maths and measurement} плоскость; (adj) плоский
 
+{A2} {transport by air {aircraft}}
+
+{transport by air {airports}}
+.............................
 {A1} {transport by air {airports}}
    27. (  1) 3T *#PT airport [ˈeəpɔːt] (n) {A1} {transport by air} аэропорт
 
+{A2} {transport by air {airports}}
+  349. (  1) 3T *#PT gate [geɪt] (n) {A2} {gardens} {transport by air} ворота, затвор, калитка
+
+{transport by air {parts of a plane}}
+.....................................
 {A1} {transport by air {parts of a plane}}
+{A2} {transport by air {parts of a plane}}
+  689. (  1) 3T *#PT seat [siːt] (n) {A2} сиденье, {A2} {transport by bus and train} {transport by air} {B2} {politics} место, местонахождение; (v) {B2} сидеть, вмещать
+
+{transport by air {people in air travel}}
+.........................................s
 {A1} {transport by air {people in air travel}}
+{A2} {transport by air {people in air travel}}
+  556. (  1) 3T *#PT passenger [ˈpæsɪnʤ ə] (n) [A2} {transport by bus and train} {transport by water} {transport by car or lorry} {transport by air} пассажир
+  575. (  1) 3T *#PT pilot [ˈpaɪlət] (n) {A2} {transport by air} {jobs} {C1} {transport by water} пилот
+
+{transport by air {plane travel}}
+.................................
 {A1} {transport by air {plane travel}}
   306. (  1) 3T *#PT flight [flaɪt] (n) {A1} {transport by air} полет; (v) совершать перелет
   309. (  1) 3T *#PT fly [flaɪ] (n) {A2} {insects, worms, etc.} муха, полет; (v) {A1} {birds} {insects, worms, etc.} {transport by air} летать, I: fly-flew-flown
@@ -4540,12 +5026,38 @@ Travel
   697. (  1) 3T *#PT sick [sɪk] (n) больные, болезнь, приступ тошноты; (adj) {A1} {health problems} {transport by air} больной; (v) натравливать
   802. (  1) 3T *#PT ticket [ˈtɪkɪt] (n) {A1} {transport by bus and train} {transport by air} билет
 
-{A1} {transport by bus and train}
----------------------------------
+{A2} {transport by air {plane travel}}
+   29. (  1) 4T ?#PT airline [ˈeəlaɪn] (n) {A2} {transport by air} авиакомпания
+              3T *#  baggage [ˈbægɪʤ ] (n) {A2} {transport by air} багаж, обоз; (adj) багажный
+  109. (  1) 3T *#PT book [bʊk] (n) {A1} {literature and writing} {education} {shopping} {C1} {business} книга; (adj) книжный; (v) {A2} {holidays} {transport by air} {cooking and eating} заказывать, зарегистрировать
+  134. (  1) 3T *#PT catch [kæʧ] (v) {A2} {sports: ball and racket sports} {transport by bus train} {transport by air} {crime and punishment} {B1} {health problems} поймать, ловить, догнать, I: catch-caught-caught;  (n) {B2} улов, выгода
+              1T *#  change [ʧeɪnʤ ] (v) {A1} {change, cause and effect} {we              xx ?#  return+ticket [rɪˈtɜːn ˈtɪkɪt] (n) {A2} {transport by air} {transport by bus and train} обратный билет, билет в оба концаather} {money} {A2} {transport by bus and train} {transport by air} менять; (n) {A1} {change, cause and effect} {weather} изменение, перемена, смена, {B1} {shopping} {money} мелочь, сдача
+              xx ?#  check+in [ʧɛk ɪn] (phrasal verb) {A2} {holidays} {transport by air} регистрироваться, проверять
+              xx ?#  flight+number [flaɪt ˈnʌmbə] (n) {A2} {transport by air} номер рейса
+  417. (  1) 3T *#PT international [ˌɪntə(ː)ˈnæʃənl] (adj) {A2} {transport by air} {politics} международный
+  443. (  1) 3T *#PT land [lænd] (adj) земельный, наземный, сухопутный; (n) {A1} земля; (v) {A2} {transport by air} {space} {transport by water} приземляться
+              xx ?#  return+ticket [rɪˈtɜːn ˈtɪkɪt] (n) {A2} {transport by air} {transport by bus and train} обратный билет, билет в оба конца
+  717. (  2) 3T *#PT single [ˈsɪŋgl] (adj) {A2} {transport by bus and train} {transport by air} одинокий, единый, незамужняя, холостой; (n) {A2} {transpor by bus and train} {holidays} {B2} {music} {sports: ball and racket sports} один; (v) определять, выбирать
+              xx ?#  take+off [teɪk ɒf] (phrasal verb) {A2} {space} {transport by air} {C1} {success} взлететь
+
+{transport by bus and train}
+----------------------------
+{transport by bus and train {railway tracks and stations}}
+..........................................................
 {A1} {transport by bus and train {railway tracks and stations}}
   547. (  1) 3T *#PT office [ˈɒfɪs] (n) {A1} {working life} {houses and homes} офис, {A1} {transport by bus and train} бюро, служба, должность, пост, {A2} {politics} управление
   739. (  1) 3T *#PT station [ˈsteɪʃən] (n) {A1} {transport by bus and train} {buildings} {A2} {tv, radio and news} станция, {C1} {war and conflict} пункт, {A2} {law and justice} место; (v) {B1} {war and conflict} размещать
 
+{A2} {transport by bus and train {railway tracks and stations}}
+              1T *#  line [laɪn] (n) {A1} {sports: ball and racket sports} {colours and shapes} {A2} {phones, emails and the internet} {transport by bus and train} линия, прямая, {A1} {literature and writing} строка, {B1} {film and theatre} ряд; (v) {B2} наносить линии
+  580. (  1) 3T *#PT platform [ˈplætfɔːm] (n) {A2} {transport by bus and train} {C2} {computers} {politics} {opinion and argument} {B2} {clothes and fashion} платформа; (v) планировать
+  624. (  1) 3T *#PT railway [ˈreɪlˌweɪ] (adj) железнодорожный; (n) {A2} {transport by bus and train} железная дорога
+  818. (  1) 3T *#PT track [træk] (n) {A2} {transport by bus and train} {B1} {sports: other sports} {transport by car or lorry} {hobbies} {B2} {music} трек, след, дорожка, трасса; (v) {B2} следить
+  830. (  2) 3T *#PT underground [ˈʌndəgraʊnd] (n) {A2} {transport by bus and train} метро; (adj) {A2} подземный; (adv) {A2} под землей
+              xx ?#  waiting+room [ˈweɪtɪŋ ruːm] (n) {A2} {transport by bus and train} зал ожидания, приемная
+
+{transport by bus and train {train and bus travel}}
+...................................................
 {A1} {transport by bus and train {train and bus travel}}
   117. (  1) 3T *#PT bus [bʌs] (n) {A1} {transport by car or lorry} {transport by bus and train} автобус, {C2} {computers} шина; (adj) автобусный
               xx ?#  bus+station [bʌs ˈsteɪʃ(ə)n] (n) {A1} {transport by bus and train} автовокзал, автобусная станция
@@ -4556,12 +5068,38 @@ Travel
   762. (  1) 4T *#PT take [teɪk] (v) {A1} принимать, {A2} {education} {B1} {war and conflict} брать, {B2} {opinion and argument} считать, {A1} {transport by bus and train} использовать I: take-took-taken
   802. (  1) 3T *#PT ticket [ˈtɪkɪt] (n) {A1} {transport by bus and train} {transport by air} билет
 
+{A2} {transport by bus and train {train and bus travel}}
+              1T *#  book [bʊk] (n) {A1} {literature and writing} {education} {shopping} {C1} {business} книга; (adj) книжный; (v) {A2} {holidays} {transport by air} {cooking and eating} {transport by bus and train} заказывать, зарегистрировать
+              1T *#  catch [kæʧ] (v) {A2} {sports: ball and racket sports} {transport by bus and train} {transport by air} {crime and punishment} {B1} {health problems} поймать, ловить, догнать, I: catch-caught-caught;  (n) {B2} улов, выгода
+              1T *#  change [ʧeɪnʤ ] (v) {A1} {change, cause and effect} {weather} {money} {A2} {transport by bus and train} {transport by air} менять; (n) {A1} {change, cause and effect} {weather} изменение, перемена, смена, {B1} {shopping} {money} мелочь, сдача
+  161. (  1) 3T ?#PT coach [kəʊʧ] (n)(n) {A2} {sports: other sports} {education} тренер, {A2} {transport by car or lorry} автобус, {A2} {transport by bus and train} вагон, пассажирский вагон; (v) {B1} {sports: other sports} {education} тренировать
+  556. (  1) 3T *#PT passenger [ˈpæsɪnʤ ə] (n) [A2} {transport by bus and train} {transport by water} {transport by car or lorry} {transport by air} пассажир
+              xx ?#  public+transport [ˈpʌblɪk ˈtrænspɔːt] (n) {A2} {transport by bus and train} общественный транспорт
+              xx ?#  return+ticket [rɪˈtɜːn ˈtɪkɪt] (n) {A2} {transport by air} {transport by bus and train} обратный билет, билет в оба конца
+  667. (  1) 3T *#PT route [(UK)ruːt->(n)/raʊt->(v)/(US)rut->(n,v)/raʊt->(n,v)] (n) {A2} {transport by bus and train} маршрут, путь, дорога, направление, курс; (v) направлять, устанавливать маршрут
+  684. (  1) 3T *#PT schedule [(UK)ˈʃɛdjuːl/(US)skɛʤ uəl/skɛʤ əl] (n) {A2} {working life} {transport by bus and train} {education} {tv, radio and news} расписание, график; (v) {B2} {working life} {business} планировать, назначать
+  717. (  2) 3T *#PT single [ˈsɪŋgl] (adj) {A2} {transport by bus and train} {transport by air} одинокий, единый, незамужняя, холостой; (n) {A2} {transpor by bus and train} {holidays} {B2} {music} {sports: ball and racket sports} один; (v) определять, выбирать
+              1T *#  through [θruː] (prep) {A1} через, посредством, сквозь; (adv) {A1} благодаря, {A2} {time} {transport by bus and train} сквозной; (adj) {B2} {transport by bus and train} {transport by car or lorry} сквозной, беспересадочный
+              3T ?#  timetable [ˈtaɪmˌteɪb(ə)l] (n) {A2} {transport by bus and train} {education} расписание, график; (v) включать в расписание
+
+{transport by bus and train {trains}}
+.....................................s
 {A1} {transport by bus and train {trains}}
   820. (  1) 3T *#PT train [treɪn] (n) {A1} {transport by bus and train} поезд; (v) {A2} {education} {jobs} {sports: other sports} {health and fitness} тренироваться, обучать
 
-{A1} {transport by car or lorry}
---------------------------------
+{A2} {transport by bus and train {trains}}
+  689. (  1) 3T *#PT seat [siːt] (n) {A2} сиденье, {A2} {transport by bus and train} {transport by air} {B2} {politics} место, местонахождение; (v) {B2} сидеть, вмещать
+              4T *#  subway [ˈsʌbweɪ] (n) {A2} {transport by bus and train} метро, метрополитен, {C1} {transport by car or lorry} подземка
+
+{transport by car or lorry}
+---------------------------
+{transport by car or lorry {controlling traffic}}
+.................................................
 {A1} {transport by car or lorry {controlling traffic}}
+{A2} {transport by car or lorry {controlling traffic}}
+
+{transport by car or lorry {driving}}
+.....................................
 {A1} {transport by car or lorry {driving}}
   233. (  1) 3T *#PT driver [ˈdraɪvə] (n) {A1} {transport by car or lorry} {jobs} водитель, {C2} {computers} драйвер
   576. (  2) 3T *#PT park [pɑːk] (n) {A1} {A2} {sports: ball and racket sports} парк, {C1} {transport by car or lorry} место стоянки автомобилей; (v) {A1} {transport by car or lorry} парковать
@@ -4570,19 +5108,65 @@ Travel
   819. (  1) 3T *#PT traffic [ˈtræfɪk] (n) движение, {A1} {transport by car or lorry} транспорт, перевозки; (v) {B2} {crime and punishment} торговать
   828. (  2) 3T *#PT turn [tɜ:n] (v) {A1} {transport by car or lorry} повернуть, свернуть, превращать, I: turn-turn-turn; (n) {A1} {games and toys} очередь, {A2} {transport by car or lorry} поворот, оборот, виток, перемена; (abbr) Traversal Using Relay NAT
 
+{A2} {transport by car or lorry {driving}}
+  250. (  1) 3T *#PT drive [draɪv] (v)(intransitive) {A1} {transport by car or lorry} ездить, управлять, (v) {A2} {transport by car or lorry} вести (кого-то), I: drive-drove-driven; (n) {A2} {transport by car or lorry} езда, {B2} {transport by car or lorry} {buildings} дорога, {C1} {success} {personal qualities} стимул, побуждение, привод, {C2} {computers} дисковод
+  553. (  1) 4T ?#PT parking [pɑːkɪŋ] (n) {A2} {transport by car or lorry} стоянка, автостоянка; -ing: (v) {A1} {transport by car or lorry} парковать
+              xx ?#  road+map [rəʊd mæp] (n) {A2} {transport by car or lorry} дорожная карта, карта дорог
+              1T *#  turn [tɜ:n] (v) {A1} {transport by car or lorry} повернуть, свернуть, превращать, I: turn-turn-turn; (n) {A1} {games and toys} очередь, {A2} {transport by car or lorry} поворот, оборот, виток, перемена; (abbr) Traversal Using Relay NAT
+
+{transport by car or lorry {motiring problems and accidents}}
+.............................................................
 {A1} {transport by car or lorry {motiring problems and accidents}}
+{A2} {transport by car or lorry {motiring problems and accidents}}
+    9. (  1) 3T *#PT accident [ˈæksɪdənt] (n) {A2} {health problems} несчастный случай, {A2} {transport by car or lorry} авария
+
+{transport by car or lorry {on the road}}
+.........................................
 {A1} {transport by car or lorry {on the road}}
               xx ?#  car+park [kɑː pɑːk] (n) {A1} {transport by car or lorry} автостоянка
   660. (  1) 3T *#PT road [rəʊd] (adj) дорожный; (n) {A1} {transport by car or lorry} дорога, путь
 
+{A2} {transport by car or lorry {on the road}}
+  189. (  1) 3T *#PT corner [ˈkɔːnə] (n) {A2} {houses and homes} {B2} {sports: ball and racket sports} угол, уголок, {A2} {transport by car or lorry} край; (adj) угольный; (v) загонять в угол
+
+{transport by car or lorry {parts of a car}}
+............................................
 {A1} {transport by car or lorry {parts of a car}}
+{A2} {transport by car or lorry {parts of a car}}
+  271. (  1) 3T *#PT engine [ˈɛnʤ ɪn] (n) {A2} {transport by bus and train} {transport by car or lorry} двигатель, мотор, машина
+              1T *#  gas [gæs] (n) {A2} {physics and chemistry} {the environment} {transport by car or lorry} газ
+  535. (  1) 3T *#PT oil [ɔɪl] (n) {A2} {the environment} {transport by car or lorry} {food} {apperance} {C1} {art} масло, нефть; (adj) нефтяной, масляный
+              3T ?#  petrol [ˈpɛtrəl] (n) {A2} {the environment} {transport by car or lorry} {physics and chemistry} бензин; (adj) бензиновый
+  665. (  1) 3T *#PT roof [ruːf] (n) {A2} {houses and homes} {transport by car or lorry} {buildings} крыша, потолок
+  861. (  1) 3T *#PT wheel [wiːl] (n) {A2} {transport by car or lorry} {B1} {transport by water} колесо; (v) поворачивать, катить
+
+{transport by car or lorry {people in motoring}}
+................................................
 {A1} {transport by car or lorry {people in motoring}}
   233. (  1) 3T *#PT driver [ˈdraɪvə] (n) {A1} {transport by car or lorry} {jobs} водитель, {C2} {computers} драйвер
 
+{A2} {transport by car or lorry {people in motoring}}
+  414. (  1) 4T *#PT instructor [ɪnˈstrʌktə] (n) {A2} {education} {transport by car or lorry} {jobs} инструктор, преподаватель
+              4T *#  learner [ˈlɜːnə] (n) {A1} {education} {A2} {transport by car or lorry} ученик, учащийся; (adj) учащийся
+  556. (  1) 3T *#PT passenger [ˈpæsɪnʤ ə] (n) [A2} {transport by bus and train} {transport by water} {transport by car or lorry} {transport by air} пассажир
+
+{transport by car or lorry {the car industry}}
+..............................................
 {A1} {transport by car or lorry {the car industry}}
+{A2} {transport by car or lorry {the car industry}}
+  648. (  1) 3T *#PT repair [rɪˈpeə] (n) {B1} {transport by car or lorry} ремонт, восстановление, починка; (v) {A2} {transport by car or lorry} ремонтировать
+
+{transport by car or lorry {types a road}}
+..........................................
 {A1} {transport by car or lorry {types a road}}
   744. (  1) 3T *#PT street [striːt{A1} {transport by car or lorry {}}] (n) {A1} {transport by car or lorry} {buildings} улица; (adj) уличный
 
+{A2} {transport by car or lorry {types a road}}
+              1T *#  inside [ɪnˈsaɪd] (prep) {A2} внутри, внутрь; (n) {A2} внутренность, {B2} {transport by car or lorry} внутренняя часть; (adj) {A2} {transport by car or lorry} внутренний
+              4T ?#  motorway [ˈməʊtəˌweɪ] (adj) автомагистраль; (n) {A2} {transport by car or lorry} автострада
+
+{transport by car or lorry {types of vehicle}}
+..............................................
 {A1} {transport by car or lorry {types of vehicle}}
    87. (  1) 3T *#PT bicycle [ˈbaɪsɪkl] (n) {A1} {transport by car or lorry} {sports: other sports} велосипед; (v) {B1} {sports: other sports} ездить на велосипеде
    89. (  1) 3T ?#PT bike [baɪk] (n) {A1} {sports: other sports} {transport by car or lorry} велосипед; (v) {B1} {sports: other sports} {transport by car or lorry} ездить на велосипеде
@@ -4590,30 +5174,86 @@ Travel
   134. (  1) 3T *#PT car [kɑː] (n) {A1} {transport by car or lorry} автомобиль, {C1} {transport by bus and train} вагон
   765. (  1) 3T *#PT taxi [ˈtæksi] (n) {A1} {transport by car or lorry} такси; (v) рулить, ехать на такси
 
-{A1} {transport by water}
--------------------------
+{A2} {transport by car or lorry {types of vehicle}}
+              1T ?#  coach [kəʊʧ] (n) {A2} {sports: other sports} {education} тренер, {A2} {transport by car or lorry} автобус, {A2} {transport by bus and train} вагон, пассажирский вагон; (v) {B1} {sports: other sports} {education} тренировать
+  205. (  2) 3T *#PT cycle [ˈsaɪkl] (n) {B1} {money} {biology} {B2} {engineering} цикл, круг, круговорот, {A2} {transport by car or lorry} {sports: other sports} велосипед, такт процессора; (v) {A2} {sports: other sports} ездить на велосипеде
+              3T ?#  motorbike [ˈməʊtəˌbaɪk] (n) {A2} {transport by car or lorry} {sports: other sports} мотоцикл, мопед
+              xx ?#  motor+car [ˈməʊtə kɑː] (n) {A2} {transport by car or lorry} автомобиль, легковой автомобиль, моторный вагон
+  508. (  1) 3T *#PT motorcycle [ˈməʊtəˈsaɪkl] (n) {A2} {transport by car or lorry} мотоцикл
+  827. (  1) 3T ?#PT truck [trʌk] (n) {A2} {transport by car or lorry} грузовик, {B1} {transport by bus and train} тележка, грузовой автомобиль; (v) {C1} {transport by car or lorry} перевозить автотранспортом
+  844. (  1) 3T ?#PT van [væn] (n) {A2} {transport by car or lorry} {C1} {transport by bus and train} фургон
+  846. (  1) 3T ?#PT vehicle [ˈviːɪkl] (n) {A2} {transport by car or lorry} транспортное средство
+
+{transport by water}
+--------------------
+{transport by water {parts of boats}}
+.....................................
 {A1} {transport by water {parts of boats}}
   638. (  1) 3T *#PT radio [ˈreɪdɪəʊ] (n) {A1} {music} {tv, radio and news} {transport by water} радио, радиоприемник
 
+{A2} {transport by water {parts of boats}}
+
+{transport by water {people in sea travel}}
+...........................................
 {A1} {transport by water {people in sea travel}}
+{A2} {transport by water {people in sea travel}}
+  556. (  1) 3T *#PT passenger [ˈpæsɪnʤ ə] (n) [A2} {transport by bus and train} {transport by water} {transport by car or lorry} {transport by air} пассажир
+
+{transport by water {travelling by boat}}
+.........................................
 {A1} {transport by water {travelling by boat}}
   675. (  1) 3T *#PT sea [siː] (n) {A1} {transport by water} {holidays} {geography} море
   863. (  1) 3T *#PT water [ˈwɔːtə] (n) {A1} {drink} {transport by water} воды, вода; (v) {B1} {farming} {gardens} поливать, напоить, мочить
 
+{A2} {transport by water {travelling by boat}}
+  443. (  1) 3T *#PT land [lænd] (adj) земельный, наземный, сухопутный; (n) {A1} земля; (v) {A2} {transport by air} {space} {transport by water} приземляться
+  675. (  1) 3T *#PT sail [seɪl] (n) {B1} {sports: other sports} {transport by water} паруса, плавание; (v) {A2} {sports: other sports} {transport by water} плыть, плавать
+  676. (  1) 3T *#PT sailing [seɪlɪŋ] {A2} -ing: (v) {A2} {sports: other sports} {transport by water} плыть, плавать
+
+{transport by water {types of boat}}
+....................................
 {A1} {transport by water {types of boat}}
    97. (  1) 3T *#PT boat [bəʊt] (n) {A1} {sports: water sports} {transport by water} лодкa
 
+{A2} {transport by water {types of boat}}
+  707. (  1) 3T *#PT ship [ʃɪp] (n) {A2} {transport by water} корабль; (v) {B2} {business} грузить товары
+
 Work and business
-==================
-{A1} {business}
----------------
+=================
+{business}
+----------
+{business {business deals}}
+...........................
 {A1} {business {business deals}}
   482. (  1) 3T *#PT meeting [miːtɪŋ] (n) {A1} {working life} {business} встреча; -ing: (v) {A1} {working life} встречаться, соответствовать, I: meet-met-met
 
+{A2} {business {business deals}}
+    7. (  1) 3T *#PT accept [(UK)əkˈsɛpt/(US)ækˈsɛpt/əkˈsɛpt] (v) {A2} {business} {B1} {discussion and agreement} {social issues} принимать
+  533. (  2) 3T *#PT offer [ˈɒfə] (n) {A2} {houses and homes} {business} {shopping} предложение; (v) {A2} {business] предлагать
+
+{business {business people}}
+............................
 {A1} {business {business people}}
   191. (  1) 3T *#PT customer [ˈkʌstəmə] (n) {A1} {shopping} {business} клиент, заказчик, покупатель
 
+{A2} {business {business people}}
+  111. (  1) 3T *#PT boss [bɒs] (n) {A2} {people in society} {working life} {jobs} {business} босс, шеф; (v) {C1} {personal qualities} распоряжаться
+  121. (  1) 3T *#PT businessman [ˈbɪznɪsmən] (n) {A2} {jobs} {business} бизнесмен, коммерсант, I: businessman-businessmen
+              xx ?#  business+person [ˈbɪznɪs ˈpɜːs(ə)n] (n) {A2} {business} {jobs} деловой человек
+              3T *#  businesswoman [ˈbɪznɪswʊmən] (n) {A2} {jobs} {business} деловая женщина, I: businesswoman-businesswen
+  232. (  1) 3T *#PT director [dɪˈrɛktə] (n) {A2} {jobs} {business} {film and theatre} директор
+              1T *#  leader [ˈliːdə] (n) {A2} {people in society} {politics} {business} {B1} {sports: other sports} лидер, руководитель
+  481. (  1) 3T *#PT manager [ˈmænəʤ ə/ˈmænɪʤ ə] (n) {A2} {jobs} {business} {shopping} {B2} {film and theatre} менеджер, руководитель, директор, управляющий
+              xx ?#  office+worker [ˈɒfɪs ˈwɜːkə] (n) {A2} {business} офисный работник
+  693. (  1) 3T ?#PT secretary [ˈsɛkrətri] (n) {A2} {jobs} {business} секретарь, {B2} {politics} министр
+
+{business {manufacturing}}
+..........................
 {A1} {business {manufacturing}}
+{A2} {business {manufacturing}}
+  298. (  1) 3T *#PT factory [ˈfæktəri](n) {A2} {buildings} {business} фабрика, завод; (adj) заводской
+  407. (  1) 3T *#PT industry [ˈɪndəstri] (n) {A2} {business} {working life} промышленность, индустрия
+
 {A1} {business {marketing}}
   181. (  2) 3T *#PT cost [kɒst] (n) {A1} {money} стоимость; (v) {A1} {shopping} {business} {B1} {difficulty and failure} стоить, I: cost-cost-cost
   627. (  1) 3T *#PT product [ˈprɒdʌkt] (n) {A1} {business} {shopping} {B2} {physics and chemistry} {change, cause and effect} продукт, изделие, произведение
