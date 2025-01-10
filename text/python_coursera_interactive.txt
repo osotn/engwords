@@ -37,5 +37,286 @@ print 1 + 2 * 3, 4.0 - 5.0 / 6.0, 7 * 8 + 9 * 10
 ===============================
 0.b.1 - variables
 
+# variables - placeholders for important values
+# used to avoid recomputing values and to
+# give values names that help reader understand code
+
+# valid variable names - consists of letters, numbers, underscore (_)
+# starts with letter or underscore
+# case sensitive (capitalization matters)
+
+# legal names - ninja, Ninja, n_i_n_j_a
+# illegal names - 1337, 1337ninja
+
+# Python convention - multiple words joined by _
+# legal names - elite_ninja, leet_ninja, ninja_1337
+# illegal name 1337_ninja
+
+# assign to variable name using single equal sign =
+# (remember that double equals == is used to test equality)
+
+# convert from Fahrenheit to Celsuis
+# c = 5 / 9 * (f - 32)
+
+
+week 1a - functions
+===================
+1.a.1 - functions
+.................
+
+#So far, we've just been typing code into Code Sculptor and we typed statements one after another and they get executed immediately when we run our program. This is fine  for simple programs. But a very powerful construct in programming is the function. What a function is, is a piece of code that you define that you can execute later. And so you only execute the code inside a function when you call that function. And I can call the function more than once. So this. Becomes a very powerful programming construct. I define a block of code once and then I can use it many times.
+
+
+Program: -> file
+--------
+1_intruction
+2_intruction
+3_intruction
+4_intruction
+
+
+Program: -> file
+--------
+1_function:
+    1_instr
+    2_instr
+
+1_intruction
+2_intruction
+
+2_function
+    1_inst
+
+3_intruction:  func2() 
+4_intruction   func2()
+
+
+
+1.a.2 - More operations
+.......................
+# Remainder - modular arithmetic
+
+# systematically restrict computation to a range
+# long division - divide by a number, we get a quotient plus a remainder
+# quotient is integer division //, the remainder is % (Docs)
+
+# problem - get the ones digit of a number
+num = 49
+tens = num // 10
+ones = num % 10
+print tens, ones
+print 10 * tens + ones, num
+
+# application - 24 hour clock
+# http://en.wikipedia.org/wiki/24-hour_clock
+
+hour = 20
+shift = 8
+print (hour + shift) % 24
+
+
+# application - screen wraparound
+# Spaceship from week seven
+
+width = 800
+position = 797
+move = 5
+position = (position + move) % width
+print position
+
+# Data conversion operations
+
+
+# Python modules - extra functions implemented outside basic Python
+
+import simplegui	# access to drawing operations for interactive applications
+import math	 		# access to standard math functions, e.g; trig
+import random   	# functions to generate random numbers
+
+
+# look in Docs for useful functions
+print math.pi
+
+
+week 1b - logic and conditionals
+================================
+1.b.1 - logic and comparisons
+.............................
+bool  type: True, False
+
+not, and, or
+
+comparison: > < >= <= == !=
+
+1.b.2 - conditionals
+....................
+
+if {conditional expression}:
+    statements
+[elif]  {}:
+    statements
+[else:]
+    statements
+
+
+week 2 - event-driven programmig
+================================
+
+Events - Handlers
+------
+    Input: Button, TetBox
+    Keyboard: up / down
+    Mouse: click, drag
+    Timer
+
+
+def handler():
+    pass
+timer = simplegui.create_timer(ms, handler)
+
+
+.start - ожидание
+
+Event Queue - WAIT - handler
+
+def handler():
+    pass
+frame.add_button("Name", handler)
+
+
+def enter(in):
+    pass
+frame.add_input("Name", enter, width)
+
+
+week 3 - Canvas, drawing, timers
+================================
+
+3a - drawing canvas
+-------------------
+Canvas and drawing
+..................
+
+simplegui.create_frame("Title", width, height)
+
+  [0,0]  width --------------->
+   +--------------------------+
+ h |                          |
+ e |                          |
+ i |                          |
+ g +--------------------------+
+ h
+ t
+ 
+def draw(canvas):
+    canvas.draw_text("String", [x,y], height, "Red")
+ 
+frame.set_draw_handler(draw)
+
+
+String processing
+..................
+combining: s1+s2
+characters, slices:  s1[0] s1[-1] s[0:7] s[0:]
+converting:  str()
+
+Interactive Drawing
+...................
+
+3b - Timers
+-----------
+3b.1 - Timers
+.............
+
+
+Week 4 - Lists, Keyboard input, the basics of modeling motion
+=============================================================
+4a - basics of Lists
+--------------------
+4a-1 lists
+..........
+
+[] - empty list
+[1,2,3] - list of int 1, 2, 3
+len(list) - length
+Update: list[1] = 'new'
+
+4a-2 - keyboard input
+.....................
+
+def keydown(key):
+    ch = chr(key)
+
+def keyup(key):
+    ch = chr(key)
+
+
+frame.set_keydown_handler(keydown)
+frame.set_keyup_handler(keyup)
+
+
+canvas.draw_circle([х,y], radius, line_size, "Red", "White")
+
+key == simplegui.KEY_MAP["left"]      # "right", "up", "down"
+
+4a-3 Motion
+...........
+velocity = 25km/h
+time: 0 - 0
+      1 - 25
+      2 - 50
+      3 - 75
+
+ S = v * t
+
+v = [0, 3]
+p_х = х_0 + t * v_х
+p_y = y_0 + t * v_y
+
+
+или же
+p_х = х_0
+p_y = y_0
+=== on tick ===
+p_х += v_х
+p_y += v_y   => p[0] += v[0]; p[1] += v[1]
+
+Reflection - update the velocity vector v
+v[0] = -v[0]
+v[1] = -v[1]
+
+Collision with wall:
+     Point:                   Circle:
+    left: p[0] <= 0            p[0] <= r
+    right: p[0] >= width       p[0] >= width - r
+
+
+4b - Keyboard Control
+---------------------
+
+4b-1 - Velocity control
+.......................
+
+key-control of position: p[i] += 1
+key-control of velocity: v[i] += 1   cosmos
+
+
+4-project
+.........
+Ping-pong layout
+
+Paddles on left and right side
+
+ +=+
+ | | - gutter
+ | |
+ +++
+ +++ - paddle
+ | |
+ | |
+ +=+
+
+
+
 
 
