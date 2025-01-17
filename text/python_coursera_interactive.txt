@@ -17,7 +17,7 @@
 # arithmetic operators
 # 1. +		plus		addition
 # 2. -		minus		subtraction
-# 3. *		times		multiplication
+# 3. *		times		multiplications
 # 4. /		divided by 	division
 # 5. **    power		exponentiation
 
@@ -309,14 +309,61 @@ Paddles on left and right side
 
  +=+
  | | - gutter
- | |
+ | |s
  +++
  +++ - paddle
  | |
  | |
  +=+
 
+Week 5 - Mouse input, list methods, dictionaries
+================================================
+week 5a - mouse input and more lists
+------------------------------------
+5a-1 introduction
+5a-2 mouse input
+
+frame.set_mouseclick_handler(mouseclick)
+
+def mouseclick(pos):
+    global ball_pos, ball_color
+    if distance(ball_pos, pos) < radius:
+        ball_color = "Green"
+    else:
+        ball_pos = list(pos)
+        ball_color = "Red"
+
+5a-3 List methods
+.................
+
+list = [1,2,3]
+list[0]
+len(len)
+list.index(1) = 0
+
+append  => list.append(4)
+pop     => list.pop() <-- remove last
+           list.pop(2) <-- remove 2ns
+
+remove  => list.remove(value) = list.pop(list.index(value))
+
+if l in list:
+
+for l in list:
+
+5a-4 List Examples
+..................
+
+5a-5 Iteration
+..............
 
 
+week 5b - dictionaries and images
+---------------------------------
+5b-1 dictionaries
+.................
 
+{key:value, key:value, key:value}
 
+  map.items() => key, value
+  

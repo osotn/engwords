@@ -70,8 +70,8 @@ general
   684. (  1) 4T *#PT seventeen [ˈsɛvnˈtiːn] (num) {A1} 17
   685. (  1) 4T *#PT seventy [ˈsɛvnti] (num) {A1} 70
   704. (  1) 4T *#PT six [sɪks] (num) {A1} 6
-  705. (  1) 4T *#PT sixteen [ˈsɪksˈtiːn] (num) 16
-  706. (  1) 4T *#PT sixty [ˈsɪksti] (num) 60
+  705. (  1) 4T *#PT sixteen [ˈsɪksˈtiːn] (num) {A1} 16
+  706. (  1) 4T *#PT sixty [ˈsɪksti] (num) {A1} 60
   774. (  1) 4T *#PT ten [tɛn] (num) {A1} 10
   793. (  1) 4T *#PT third [θɜːd] {A1} -th: (num) {A1} 3; (adv) в третьих
   795. (  1) 4T *#PT thirteen [ˈθɜːˈtiːn] (num) {A1} 13
@@ -119,6 +119,11 @@ general
    40. (  1) 3T *#PT among [əˈmʌŋ] (prep) {A2} среди, между, из, в числе
   286. (  1) 3T *#PT except [ɪkˈsɛpt] (prep) {A2} кроме, за исключением, исключая; (conj) {B1} если не; (v) исключать, возражать
   402. (  1) 3T *#PT including [ɪnˈkluːdɪŋ] -ing: (v) {A1} включать; (prep) {A2} в том числе, вместе; (adj) включающий, заключающий
+  536. (  1) 3T *#PT onto [ˈɒntʊ] (prep) {A2} на, в (moving)
+  544. (  3) 3T *#PT outside [ˌaʊtˈsaɪd] (adv) {A1} вне, снаружи, наружу; (prep) {A2} вне, за пределами; (adj) {A2} внешний, наружный; (n) {A2} внешность, {B2} {transport by car or lorry} наружная сторона, внешний мир
+  563. (  4) 3T *#PT per [pɜː] (prep) {A2} в, за, на, по, согласно, с
+  666. (  3) 3T *#PT round [raʊnd] (n) {B2} {sports: other sports} раунд, {B2} {healthcare} тур, круг; (adj) {A2} {colours and shapes} круглый; (adv)(prep) {A2} вокруг, кругом; (v) округлять
+  747. (  1) 3T *#PT speed [spiːd] (n) {A2} скорость, быстрота; (v) {B2} ускорять, {B2} {crime and punishment} спешить, торопить, I: speed-sped/speeded-sped/speeded
 
 (conj)
 ......
@@ -175,6 +180,7 @@ general
   454. (  3) 3T *#PT least [liːst] (adv) {A2} наименее, меньше всего, как минимум; (pron)(determiner) {A2} наименьший; (n) минимальное количество
   458. (  3) 3T *#PT less [lɛs] (adv) {A2} меньше, менее, в меньшей степени; (adj)(determiner)(pron) {A2} меньший; (n) меньшее количество; (prep) без; (suffix) без-, не-
   520. (  2) 3T *#PT neither [(UK)ˈnaɪðə/(US)ˈniðər/ˈnaɪðə] (pron)(determiner) {A2} ни один, никто, никакой; (adv) {B1} также не, тоже не
+  525. (  1) 3T *#PT none [nʌn] (pron) {A2} никто, ни один; (adv) совсем не, нисколько
 
 (pron)(any/every/some/no)
 .........................
@@ -225,6 +231,8 @@ general
   425. (  1) 3T *#PT itself [ɪtˈsɛlf] (pron)(reflexive) {A2} сам, it-it-its-its-itself
   501. (  1) 3T *#PT mine [maɪn] (v) добывать; (pron)(possessive pron) {A2} мои, мой, моя, I-me-my-mine-myself; (n) {B1} {B2} {var and conflict} шахта
   512. (  1) 3T *#PT myself [ˌmaɪˈsɛlf] (pron)(reflexive) {A2} себе, себя, сам, собой, I-me-my-mine-myself
+  530. (  1) 3T ?#PT nowhere [ˈnəʊweə] (adv) {A2} нигде, никуда, некуда, негде
+  543. (  1) 3T *#PT ourselves [aʊərˈsɛlvz/ɑrˈsɛlvz] (pron)(reflexive) {A2} себя, сами, собой, we-us-our-ours-ourselves
 
 {A1} (adv)
    22. (  1) 3T *#PT again [əˈgɛn] (adv) {A1} {C1} {opinion and argument} очередной раз, снова, опять
@@ -320,6 +328,15 @@ general
   507. (  1) 3T *#PT mostly [ˈməʊstli] {A2} (adv) главным образом, по большей части, обычно
   513. (  1) 3T *#PT narrow [ˈnærəʊ] (adj) низкий, небольшой, {A2} узкий; (adv) низко; (v) {B2} уменьшать, суживаться, уменьшаться
   516. (  1) 3T *#PT nearly [ˈnɪəli] -ly: (adj)->(adv) {A1} {B2} {family and relationships} близкий; (adv) {A2} почти, около, приблизительно, близко
+  527. (  1) 3T *#PT normally [ˈnɔːməli] {A2} -ly: (adj)->(adv) {A2} обычный; (adv) {A2} обычно, нормально
+  557. (  1) 3T *#PT past [pɑːst] (n) {A1} {history} {language} прошлое, прошедшее; (adv) мимо, {A2} после; (prep) мимо, за, {A1} {time} после; (adj) {A1} {history} {language} прошлый, прошедший
+  622. (  1) 3T *#PT quietly [ˈkwaɪətli] -ly: (adj)->(adv) {A1} тихий, спокойный, бесшумный, скрытый, мирный; (adv) {A2} тихо, спокойно, безмятежно
+  627. (  1) 3T *#PT rather [ˈrɑːðə] (adv) {A2} скорее, довольно, вернее, лучше
+  666. (  3) 3T *#PT round [raʊnd] (n) {B2} {sports: other sports} раунд, {B2} {healthcare} тур, круг; (adj) {A2} {colours and shapes} круглый; (adv)(prep) {A2} вокруг, кругом; (v) округлять
+  690. (  1) 3T *#PT second [ˈsɛkənd] {A1} -th: (num) {A1} 2; (n) {A1} {time} секунда; (adv) {A2} вторым номером; (v) быть секундантом, поддерживать
+  691. (  1) 4T ?#PT secondly [ˈsɛkəndli] (adv) {A2} кроме того, к тому же, во-вторых
+  726. (  1) 3T *#PT slowly [sləʊli] -ly: (adj)->(adv) {A1} медленный; (adv) {A2} медленно
+  741. (  2) 3T *#PT somewhere [ˈsʌmweə] (adv)(pron) {A2} где-то, где-нибудь
 
 (n)
 ---  
@@ -443,6 +460,38 @@ general
   500. (  2) 3T *#PT mind [maɪnd] (n) {A2} ум, разум, мнение, внимание; (v)(stative) {A2} {B1} {danger} иметь в виду
   509. (  1) 3T *#PT movement [ˈmuːvmənt] (n) {A2} {B1} {social issues} {politics} движение, перемещение
   523. (  1) 3T *#PT noise [nɔɪz] (n) {A2} шум, звук; (v) шуметь
+  528. (  2) 3T *#PT notice [ˈnəʊtɪs] (n) {A2} уведомление, извещение, внимание, сообщение; (v) {A2} замечать, уведомлять
+  544. (  3) 3T *#PT outside [ˌaʊtˈsaɪd] (adv) {A1} вне, снаружи, наружу; (prep) {A2} вне, за пределами; (adj) {A2} внешний, наружный; (n) {A2} внешность, {B2} {transport by car or lorry} наружная сторона, внешний мир
+  547. (  1) 3T *#PT owner [ˈoʊnər] (n) {A2} владелец, хозяин, собственник
+  559. (  1) 3T *#PT pattern [ˈpætən] (n) {A2} {B1} {clothes and fashion} {houses and homes} шаблон, {C1} {clothes and fashion} узор; (v) копировать, делать по образцу; (adj) образцовый, примерный
+  568. (  1) 3T *#PT personality [ˌpɜːsəˈnælɪti] (n) {A2} личность, индивидуальность
+  587. (  1) 3T *#PT population [ˌpɒpjʊˈleɪʃən] (n) {A2} население, жители, численность населения
+  588. (  1) 3T *#PT position [pəˈzɪʃən] (n) {A2} положение, позиция, {B2} {working life} должность; (v) {B2} помещать
+  589. (  1) 3T ?#PT possession [pəˈzɛʃən] (n) {A2} владение
+  600. (  1) 3T ?#PT prize [praɪz] (n) {A2} премия, приз; (adj) призовой; (v) оценивать
+  608. (  2) 3T *#PT promise [ˈprɒmɪs] (n) {A2} {B2} {success} обещание; (v) {A2} обещать
+  616. (  1) 3T *#PT purpose [ˈpɜːpəs] (n) {A2} цель, назначение; (v) иметь целью, намереваться
+  618. (  1) 3T *#PT quality [ˈkwɒlɪti] (n) {A2} {B1} {personal qualities} качество
+  619. (  1) 3T *#PT quantity [ˈkwɒntɪti] (n) {A2} количество
+  626. (  1) 3T *#PT rate [reɪt] (n) {A2} скорость, {B1} {money} {shopping} ставка, темп; (v) {B2} оценивать
+  650. (  2) 3T *#PT reply [rɪˈplaɪ] (v) {A2} отвечать; (n) {A2} ответ
+  653. (  1) 3T *#PT request [rɪˈkwɛst] (n) {A2} запрос, просьба; (v) {B1} запрашивать
+  657. (  1) 3T *#PT response [rɪsˈpɒns] (n) {A2} ответ, реакция, отклик
+  658. (  2) 3T *#PT rest [rɛst] (n) {A2} {healthcare} отдых, {A2} остальные, остальное, остаток, покой; (v) {A2} {healthcare} {C1} {sports: ball and racket sports} отдыхать, покоиться
+  670. (  1) 3T *#PT run [rʌn] -0,2ed: (v) {A1} {health and fitness} {B1} {transport by bus and train} {B2} {engineering} {computers} работать, бежать, {B1} {business} управлять, I: run-ran-run; (n) {A2} бег, работа
+  689. (  1) 3T *#PT seat [siːt] (n) {A2} сиденье, {A2} {transport by bus and train} {transport by air} {B2} {politics} место, местонахождение; (v) {B2} сидеть, вмещать
+  692. (  2) 3T *#PT secret [ˈsikrət/ˈsikrɪt] (n) {A2} {B1} {success} секрет, тайна; (adj) {A2} секретный, тайный
+  696. (  1) 3T *#PT sense [sɛns] (n) {A2} смысл, чувство, ощущение; (v) {B2} чувствовать, ощущать, понимать
+  706. (  1) 3T ?#PT sheet [ʃiːt] (n) {A2} {B1} {physics and chemistry} лист, листок, слой, таблица, простыня; (adj) листовой
+  709. (  2) 3T ?#PT shout [ʃaʊt] (n) {A2} крик, возглас; (v) {A2} кричать, накричать
+  712. (  2) 3T *#PT sign [saɪn] (n) {A2} знак, признак, {B1} {maths and measurement} символ, подпись; (v) {A2} {discussion and agreement} {law and justice} подписывать, ставить знак
+  716. (  1) 3T *#PT singing [sɪŋɪŋ] -ing: (v) {A1} {music} петь, воспевать, I: sing-sang-sung; (n) {A2} пение
+  718. (  1) 3T *#PT sir [sɜː] (n) {A2} сэр, сударь, господин
+  725. (  1) 3T *#PT sleep [slip] (v) {A1} спать, засыпать, I: sleep-slept-slept; (n) {A2} сон
+  728. (  2) 3T *#PT smell [ˈsmɛl] (n) {A2} запах; (v) {A2} пахнуть
+  742. (  1) 3T *#PT sort [sɔːt] (v) {B1} сортировать; (n) {A2} вид, сорт, род
+  743. (  1) 3T *#PT source [sɔːs] (n) {A2} {B1} {tv, radio and news} {geography} источник; (v) = obtain from a particular source
+  744. (  1) 3T *#PT speaker [ˈspiːkə] (n) {A2} спикер, оратор, громкоговоритель, диктор
 
 (v)
 ---
@@ -574,6 +623,38 @@ general
   483. (  2) 3T *#PT mark [mɑːk] (n) Марк, {A1} {B1} {education} оценка, знак, отметка, марка, отпечаток, балл; (v) {A2} отмечать, маркировать, {B1} {education} помечать
   488. (  2) 3T *#PT matter [ˈmætə] (n) {A2} вопрос, дело, {B2} {physics and chemistry} материя; (v) {A2} иметь значение, гноиться
   500. (  2) 3T *#PT mind [maɪnd] (n) {A2} ум, разум, мнение, внимание; (v)(stative) {A2} {B1} {danger} иметь в виду
+  528. (  2) 3T *#PT notice [ˈnəʊtɪs] (n) {A2} уведомление, извещение, внимание, сообщение; (v) {A2} замечать, уведомлять
+  541. (  1) 3T *#PT organize [ˈɔːgənaɪz] (v) {A2} организовать, устраивать, организоваться
+  546. (  1) 3T *#PT own [əʊn] (v)(stative) {A2} владеть, иметь; (pron)(adj) {A1} свой, собственный
+  571. (  1) 3T ?#PT photograph [ˈfəʊtəgrɑːf] (n) {A1} фотография; (v) {A2} сфотографировать
+  581. (  1) 3T *#PT please [pliːz] (adv)(excl) {A1} пожалуйста; (v) {A2} радовать, {C1} {preferences and decisions} нравиться
+  594. (  1) 3T *#PT present [ˈprɛznt] (n) {A1} {language} настоящее время, подарок; (v) {A2} {B2} {tv, radio and news} представлять; (adj) {A1} {time} настоящий
+  596. (  1) 3T *#PT prevent [prɪˈvɛnt] (v) {A2} предотвращать, препятствовать, предупреждать, не допускать, мешать
+  602. (  1) 3T *#PT produce [ˈprɒdjuːs->(n)/prəˈdjuːs->(v)] (v) {A2} {farming} {B1} {change, cause and effect} производить, {A2} {B2} {music} {film and theatre} создавать; (n) {B2} {farming} продукция, продукт
+  608. (  2) 3T *#PT promise [ˈprɒmɪs] (n) {A2} {B2} {success} обещание; (v) {A2} обещать
+  609. (  1) 3T *#PT pronounce [prəˈnaʊns] (v) {A2} произносить, выговорить
+  611. (  1) 3T *#PT provide [prəˈvaɪd] (v) {A2} предоставлять, обеспечивать, предусматривать
+  615. (  1) 3T *#PT pull [pʊl] (v) {A2} тянуть, вытащить, {B1] {health problems} потянуть, дергать; (n) {B1} {physics and chemistry} тяга, усилие, глоток
+  617. (  1) 3T *#PT push [pʊʃ] (n) {B1} толчок, нажим, давление; (v) {A2} толкать, {B2} {discussion and agreement} {C1} {feelings} нажимать
+  625. (  1) 3T *#PT raise [reɪz] (n) {B1} {money}  повышение, увеличение, подъем; (v) {A2} поднимать, {B1} {changee, cause and effect} {money} {social issues} повышать, {B2} {life stages} воспитывать
+  628. (  1) 3T *#PT reach [riʧ] (n) {B2} охват; (v) {A2} достигать, связаться, {C1} {phones, email and the internet} доходить
+  630. (  1) 3T *#PT realize [ˈrɪəlaɪz] (v) {A2} {B2} {success} реализовать, понимать, осознавать
+  631. (  1) 3T *#PT receive [rɪˈsiːv] (v) {A2} получать, {C1} {tv, radio and news} принимать, воспринимать
+  636. (  1) 3T *#PT recognize [ˈrɛkəgnaɪz] (v) {A2} распознавать, {C1} {success} признавать, узнавать, осознавать, опознавать
+  642. (  1) 3T *#PT refer [rɪˈfɜː] (v) {A2} сослаться, ссылаться, относиться
+  643. (  1) 3T *#PT refuse [ˌriːˈfjuːz->(v)/ˈrɛfjuːs->(n/adj)] (n) мусор, отходы, отбросы; (v) {A2} отказываться, отказывать
+  647. (  1) 3T *#PT remove [rɪˈmuːv] (n) удаление; (v) {A2} удалять, {A2} {clothes and fashion} снимать, убирать
+  649. (  1) 3T *#PT replace [rɪˈpleɪs] (v) {A2} заменять, замещать
+  650. (  2) 3T *#PT reply [rɪˈplaɪ] (v) {A2} отвечать; (n) {A2} ответ
+  656. (  1) 3T *#PT respond [rɪsˈpɒnd] (v) {A2} реагировать, отвечать;  (n) отклик
+  687. (  2) 3T *#PT search [sɜrʧ] (n) {A2} {computer} поиск, поиски; (v) {A2} искать, поискать
+  694. (  1) 3T *#PT seem [siːm] (v)(stative) {A2} казаться
+  703. (  1) 3T *#PT shake [ʃeɪk] (v) {A2} трясти, {A2} {opinion and argument} = to take somebody's hand, поколебать, {B2} {feelings} дрожать, I: shake-shook-shaken; (n) {C1} {health problem} дрожание, встряска
+  704. (  1) 3T *#PT shall [ʃæl] (auxiliary)(v)(modal) {A2} (old-fashioned) = used with I and we for taking about or predict the futre, {A2} {suggestions and advice} должен, I: shall-should
+  705. (  1) 3T *#PT shape [ʃeɪp] (n) {A2} {colours and shapes} форма, вид; (v) {B2} {physics and chemistry} формировать
+  709. (  2) 3T ?#PT shout [ʃaʊt] (n) {A2} крик, возглас; (v) {A2} кричать, накричать
+  710. (  2) 3T ?#PT shut [ʃʌt] (v) {A2} закрывать, закрываться, I: shut-shut-shut; (adj) {A2} закрытый
+  728. (  2) 3T *#PT smell [ˈsmɛl] (n) {A2} запах; (v) {A2} пахнуть
 
 (adj)
 -----
@@ -674,6 +755,22 @@ general
   514. (  1) 3T *#PT national [ˈnæʃənl] (adj) {A2} национальный, государственный, народный; (n) {B2} соотечественник, гражданин
   517. (  1) 3T *#PT necessary [ˈnɛsɪsəri] (adj) {A2} {B2} {permission and obligation} необходимое, необходимый
   524. (  1) 3T *#PT noisy [ˈnɔɪzi] (adj) {A2} шумный
+  526. (  1) 3T *#PT normal [ˈnɔːməl] (adj) {A2} обычный; (n) {B1} нормаль, нормальное состояние
+  539. (  1) 3T *#PT ordinary [ˈɔːdnri] (adj) {A2} обычный, обыкновенный, простой
+  542. (  1) 3T *#PT original [əˈrɪʤ ənl] (n) {B1} оригинал, подлинник; (adj) {A2} {B1} {literature and writing} оригинальный, первоначальный
+  544. (  3) 3T *#PT outside [ˌaʊtˈsaɪd] (adv) {A1} вне, снаружи, наружу; (prep) {A2} вне, за пределами; (adj) {A2} внешний, наружный; (n) {A2} внешность, {B2} {transport by car or lorry} наружная сторона, внешний мир
+  554. (  1) 3T *#PT particular [pəˈtɪkjʊlə] (adj) {A2} особый, частный; (n) деталь, частность, подробность
+  586. (  2) 3T *#PT pop [pɒp] (v) {C1} хлопнуть, возникнуть; (adj) {A2} эстрадный; (n) {A2} {music} = pop music, папа, хлоп; (adv) внезапно; (abbr) = population
+  603. (  1) 3T *#PT professional [prəˈfɛʃənl] (n) {B2} профессионал; (adj) {A2} {B1} {jobs} {working life} {personal qualities} профессиональный
+  674. (  1) 3T *#PT safe [seɪf] (n) {C1} {money} {shopping} сейф; (adj) {A2} безопасный
+  682. (  1) xT ?#PT scary [ˈskeəri] (adj) {A2} жуткий, пугливый; (adv) страшно
+  692. (  2) 3T *#PT secret [ˈsikrət/ˈsikrɪt] (n) {A2} {B1} {success} секрет, тайна; (adj) {A2} секретный, тайный
+  697. (  1) 3T *#PT separate [ˈsɛpəreɪt] (v) {B1} {family and relationships} отделять, разделять; (adj) {A2} отдельный
+  710. (  2) 3T ?#PT shut [ʃʌt] (v) {A2} закрывать, закрываться, I: shut-shut-shut; (adj) {A2} закрытый
+  714. (  1) 3T *#PT simple [ˈsɪmpl] (adj) {A2} простой
+  734. (  1) 3T *#PT social [ˈsəʊʃəl] (adj) {A2} {B1} {social issues} {people in society} социальный, общественный; (n) {C1} {phones, email and the internet} собрание, встреча
+  737. (  1) 3T *#PT soft [sɒft] (adj) {A2} мягкий, тихий, нежный
+  745. (  1) 3T *#PT specific [specific] (adj) {A2} конкретный, определенный, специфический
 
 ===========================
 
@@ -4825,6 +4922,7 @@ The natural world
               xx ?#  air+quality [eə ˈkwɒləti] (n) {A2} {the environment} качество воздуха
               3T *#  garbage [ˈgɑːbɪʤ ] (n) {A2} {the environment} мусор, отбросы
               3T *#  plastic [ˈplæstɪk] (n) {A2} {physics and chemistry} {the environment} пластик, пластмасса; (adj) {A2} {physics and chemistry} пластиковый
+  585. (  1) 3T *#PT pollution [pəˈluːʃən] (n) {A2} {the environment} загрязнение
   640. (  1) 5T ?#PT recycle [ˌriːˈsaɪkl] (v) {A2} {the environment} перерабатывать, рециркулировать
               xT ?#  recycling [ˌriːˈsaɪklɪŋ] -ing: (v) {A2} {the environment} перерабатывать, рециркулировать; (n) {A2} {the environment} рециклинг, повторное использование
   668. (  1) 3T ?#PT rubbish [ˈrʌbɪʃ] (n) {A2} {the environment} мусор, хлам, чушь, вздор
