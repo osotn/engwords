@@ -366,4 +366,14 @@ week 5b - dictionaries and images
 {key:value, key:value, key:value}
 
   map.items() => key, value
-  
+
+print(m)
+print(m.items())
+print(m.keys())
+print(m.values())
+
+5b-2 images
+.................
+image = simplegui.load_image(URL)
+canvas.draw_image(im, src_center, src_si`ss`e, dst_center, dst_si`ss`e)
+
