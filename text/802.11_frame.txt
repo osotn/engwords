@@ -16,9 +16,24 @@
   +----+----+--------+
 
    0..1 - Protocol version = 0
-   2..3 - Type  00 - management, 01 - control, 
+   2..3 - Type  00 - management, 01 - control, 10 - data
    4..7 - SubType = D-Action.
 
+    00 - management:                           01 - Control
+        0000 - Association request                 0100 - Beamforming Report Poll
+        0010 - Reassociation request               0101 - NDP Announcement
+   (4)  0100 - Probe request                       0110 - Control Frame Extension
+        0110 - Timing advertisement                0111 - Control wrapper
+    (8) 1000 - Beacon                              1000 - Block ACK Req
+        1010 - Disassociation                      1001 - Block ACK
+        1100 - Deauthentication                    1010 - PS-Poll
+        1011 - Authentication                      1011 - RTS
+        1110 - Action                              1100 - CTS
+        0001 - Association response                1101 - ACK
+        0011 - Reassociation response              1110 - CF-End
+    (5) 0101 - Probe response                      1111 - CF-End-Ack
+        0111 - rsvd
+        
 
    d000             FrameCtrl - type=0, subtype=d
    hhhh             Duration

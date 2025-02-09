@@ -377,3 +377,37 @@ print(m.values())
 image = simplegui.load_image(URL)
 canvas.draw_image(im, src_center, src_si`ss`e, dst_center, dst_si`ss`e)
 
+
+week-6 classes and OOP
+======================
+week 6a classes
+---------------
+OOP 1
+.....
+String, List, 
+
+l.append() <-- method()
+Возможность создавать свои типы.
+
+class Name:
+    def __init__(self, ...
+        self.n1
+
+
+
+name = Name(...)
+
+OOP 2
+.....
+
+Working with objects
+....................
+
+
+Blackjack
+.........
+
+classes:
+    - card
+    - hand (diler)
+    - desk (колода)

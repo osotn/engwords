@@ -1184,6 +1184,9 @@ Appearance
   177. (  1) 3T *#PT cut [kʌt] (n) {B1} {health problems} порез, {B1} {money} снижение, {B1} {appearance} стрижка, {C1} {clothes and fashion} покрой; (v) {A1} {health problems} резать, {B1} {money} отрезать, {B2} {computers} удалять, I: cut-cut-cut
               xx ?#  fair-haired [feə heəd] (adj) {B1} {appearance} светловолосый, любимый
               xx ?#  grey-haired [ɡreɪ heəd] (adj) {B1} {appearance} седой, седоволосый
+              zT ?#  hairstyles [ˈheəˌstaɪlz] -es: (n) {B1} {appearance} прическа
+  652. (  1) 3T ?#PT shiny [ˈʃaɪni] (adj) {B1} {appearance} блестящий, солнечный, яркий
+              3T *#  thick [θɪk] (adj) {A2} {B1} {appearance} толстый, {B1} {cooking and eating} густой
 
 {appearance {facial expressions}}
 ......................................
@@ -1191,22 +1194,33 @@ Appearance
 {A2} {appearance {facial expressions}}
   729. (  2) 3T *#PT smile [smaɪl] (n) {A2} {feelings} {appearance} улыбка; (v) {A2} {feelings} {appearance} улыбаться
 
+{B1} {appearance {facial expressions}}
+              3T *#  expression [ɪksˈprɛʃən] (n) {A2} {language} {B1} {opinion and argument} выражение, оборот речи, {B1} {appearance} выразительность
+
 {appearance {facial hair}}
 ..........................
 {A1} {appearance {facial hair}}
 {A2} {appearance {facial hair}}
               3T *#  beard [bɪəd] (n) {A2} {appearance} борода
 
+{B1} {appearance {facial hair}}
+              xx ?#  moustache [məsˈtɑːʃ] (n) {B1} {apperance} усыxx ?#  moustache [məsˈtɑːʃ] (n) {B1} {apperance} усы
+
 {appearance {posture and movement}}
 ...................................
 {A1} {appearance {posture and movement}}
-{A2} {appearance {posture and movement}}
+{A2} {appearance {posture and movement}
+{B1} {appearance {posture and movement}}
 
 {appearance {skin}}
 ...................
 {A1} {appearance {skin}}
 {A2} {appearance {skin}}
   723. (  1) 3T *#PT skin [skɪn] (n) {A2} {body} {appearance} кожа, {A2} {food} шкура, оболочка; (v) ободрать
+
+{B1} {appearance {skin}}
+  489. (  1) 3T ?#PT pale [peɪl] (adj) {B1} {appearance} {health problems} {colours and shapes} бледный; (v) бледнеть
+  679. (  1) 3T ?#PT spot [spɒt] (n) {B1} {health problems} {appearance} пятно, прыщик, {C1} {weather} капля, {B2} {tv, radio and news} место; (v) {B2} определить
 
 {appearance {styling hair}}
 ...........................
@@ -1215,6 +1229,13 @@ Appearance
   119. (  2) 3T ?#PT brush [brʌʃ] (n) {A2} {houses and homes} {art} кисть, щетка; (v) касаться, чистить щеткой, {A2} {appearance} причесывать
               xx ?#  hairbrush [ˈheəbrʌʃ] (n) {A2} {appearance} расческа
               3T *#  hairdresser [ˈheəˌdrɛsə] (n) {A2} {apperance} {jobs} парикмахер
+
+{B1} {appearance {styling hair}}
+              4T ?#  haircut [ˈheəkʌt] (n) {B1} {appearance} стрижка
+              zT ?#  hairdryer [ˈheədraɪə] (n) {B1} {appearance} фен
+              3T ?#  scissors [ˈsɪzəz] (n) {B1} {appearance} ножницы
+              4T *#  shampoo [ʃæmˈpuː] (n) {B1} {appearance} шампунь; (v) {B1} {appearance} мыть голову
+              3T *#  shave [ʃeɪv] (v) {B1} {appearance} побриться, брить, бриться; (n) бритье
 
 {body}
 ------
@@ -1227,6 +1248,9 @@ Appearance
 
 {A2} {body {face}}
 
+{B1} {body {face}}
+  412. (  1) 3T *#PT lip [lɪp] (n) {B1} {body} губа; (adj) губной
+
 {body {hands and feet}}
 .......................
 {A1} {body {hands and feet}}
@@ -1237,6 +1261,9 @@ Appearance
    43. (  1) 3T *#PT ankle [ˈæŋkl] (n) {A2} {body} щиколотка, лодыжка
   318. (  1) 3T *#PT finger [ˈfɪŋgə] (n) {A2} {body} палец, перст
 
+{B1} {body {hands and feet}}
+  449. (  1) 3T ?#PT nail [neɪl] (n) {B1} гвоздь, {B1} {body} ноготь, коготь; (v) прибивать
+  735. (  1) 3T *#PT toe [təʊ] (n) {B1} {body} палец, носок, палец на ноге
 
 {body {inside the body}}
 ........................
@@ -1247,6 +1274,11 @@ Appearance
   114. (  1) 3T *#PT brain [breɪn] (n) {A2} {body} мозг
   372. (  1) 3T *#PT heart [hɑːt] (n) {A2} {body} {B1} {feelings} сердце
 
+{B1} {body {inside the body}}
+   84. (  1) 3T ?#PT breath [brɛθ] (n)(u) {B1} {body} дыхание, (n)(c) {B1} {body} вздох
+   85. (  1) 3T *#PT breathe [briːð] (v) {B1} {body} дышать, вдыхать, вздохнуть
+   86. (  1) 3T *#PT breathing [briːðɪŋ] -ing: (v) {B1} {body} дышать, вдыхать, вздохнуть; (n)(u) {B1} {body} дыхание
+
 {body {mouth and teeth}}
 ........................
 {A1} {body {mouth and teeth}}
@@ -1254,6 +1286,9 @@ Appearance
   815. (  1) 3T *#PT tooth [tuːθ] (n) {A1} {body} зуб, зубец, I: tooth-teeth; (v) зацеплять
 
 {A2} {body {mouth and teeth}}
+{B1} {body {mouth and teeth}}
+              xx ?#  false+teeth [fɔːls tiːθ] (n) {B1} {body} вставные зубы
+  736. (  1) 3T *#PT tongue [tʌŋ] (n) {B1} {body} язык, язычок
 
 {body {parts of body}}
 ......................
@@ -1275,10 +1310,19 @@ Appearance
   723. (  1) 3T *#PT skin [skɪn] (n) {A2} {body} {appearance} кожа, {A2} {food} шкура, оболочка; (v) ободрать
   760. (  1) 3T *#PT stomach [ˈstʌmək] (n) {A2} {body} желудок
 
+{B1} {body {parts of body}}
+              3T *#  bottom [ˈbɒtəm] (n) {A2} {geography} дно, {B1} {transport by water} основание, низ, {B1} {body} зад; (adj) {A2} нижний
+  114. (  1) 3T *#PT chest [ʧɛst] (n) {B1} {body} грудь, сундук, грудная клетка, {C1} {houses and homes} ящик; (adj) грудной
+              3T *#  physically [ˈfɪzɪkəli] -ly: (adj)->(adv) {A2} {body} {working life} {B2} {physics and chemistry} физический, телесный; (adv) {B1} {body} физически
+  728. (  1) 3T *#PT throat [θrəʊt] (n) {B1} {body} горло
+
 {body {skeleton and muscles}}
 .............................
 {A1} {body {skeleton and muscles}}
 {A2} {body {skeleton and muscles}}
+{B1} {body {skeleton and muscles}}
+              5T ?#  backbone [ˈbækbəʊn] (n) {B1} {body} позвоночник, основа
+  446. (  1) 3T *#PT muscle [ˈmʌsl] (n) {B1} {body} мышца, мускул, сила
 
 {clothes and fashion}
 --------------------------
@@ -1297,6 +1341,9 @@ Appearance
               5T ?#  sunglasses [ˈsʌnˌglɑːsɪz] (n) {A2} {clothes and fashion} темные очки
               3T *#  wallet [ˈwɒlɪt] (n) {money} {clothes and fashion} кошелек
 
+{B1} {clothes and fashion {accessories}}
+  321. (  1) 3T *#PT glove [glʌv] (n) {B1} {clothes and fashion} перчатка
+
 {clothes and fashion {describing clothes}}
 ..........................................
 {A1} {clothes and fashion {describing clothes}}
@@ -1305,6 +1352,22 @@ Appearance
   324. (  2) 3T *#PT fit [fɪt] (v)(stative) {A2} {clothes and fashion} {B2} {opinion and argument} соответствовать, приспосабливать, подходить, устанавливать, I: fit-fit/fitted-fit/fitted; (adj) {A2} {health and fitness} в хорошей форме, приспособленный; (n) {C1} {health problems} припадок; (adv) впору
   335. (  1) 3T *#PT formal [ˈfɔːməl] (adj) {A2} {clothes and fashion} {B2} {buildings} формальный, официальный
   408. (  1) 3T *#PT informal [l] {A2} {clothes and fashion} un-: (adj) {A2} {clothes and fashion} {B2} {buildings} официальный, формальный
+
+{B1} {clothes and fashion {describing clothes}}
+              4T ?#  baggy [ˈbægi] (adj) {B1} {clothes and fashion} мешковатый
+  123. (  1) 3T ?#PT cloth [klɒθ] (n) {B1} {clothes and fashion} ткань, полотно; (adj) суконный; (v) сгущаться
+  162. (  1) 3T *#PT cotton [ˈkɒtn] 3T *#  cotton [ˈkɒtn] (n) {B1} {farming} {clothes and fashion} хлопок, хлопчатник; (adj) ватный
+              yT ?#  denim [ˈdɛnɪm] (n) {B1} {clothes and fashion} деним, джинсовая ткань, джинсы, грубая хлопчатобумажная ткань
+  308. (  1) 3T ?#PT fur [fɜː] (n) {B1} {animals} {clothes and fashion} мех, шерсть; (adj) меховой
+              1T *#  material [məˈtɪərɪəl] (n) {A2} {physics and chemistry} {B1} {clothes and fashion} материал, вещество; (adj) {B2} вещественный
+              1T *#  pattern [ˈpætən] (n) {A2} {B1} {clothes and fashion} {houses and homes} шаблон, {C1} {clothes and fashion} узор; (v) копировать, делать по образцу; (adj) образцовый, примерный
+  667. (  1) 3T *#PT smart [smɑːt] (adj) {B1} {clothes and fashion} {personal qualities} умный, элегантный
+              xx ?#  smartly [ˈsmɑːtli] (adv) {B1} {clothes and fashion} ловко
+              3T ?#  stripe [straɪp] (n) {B1} {clothes and fashion} полоса, нашивка, тип
+  730. (  1) 3T ?#PT tight [taɪt] (adj) {B1} {clothes and fashion} плотный; (adv) плотно
+              xx ?#  trouser [ˈtraʊzə] (adj) {B1} {clothes and fashion} = used to describe part a pair of trousers or set of clothes that include trousers
+  756. (  1) 3T *#PT uncomfortable [ʌnˈkʌmf(ə)təbl] {B1} {clothes and fashion} {B2} {feelings} un-: (adj) {A2} {clothes and fashion} {B1} {personal qualities} комфортный, удобный
+  801. (  1) 3T *#PT wool [wʊl] (n) {B1} {animals} {clothes and fashion} шерсть; (adj) шерстяной
 
 {clothes and fashion {footwear}}
 ................................
@@ -1318,12 +1381,20 @@ Appearance
   822. (  1) 4T ?#PT trainer [ˈtreɪnə] (n) {A2} {clothes and fashion} кроссовки, {B1} {sports: other sports} тренер, тренажер, дрессировщик, инструктор
               xx ?#  training+shoe [ˈtreɪnɪŋ ʃuː] (n) {A2} {clothes and fashion} тренировочная обувь
 
+{B1} {clothes and fashion {footwear}}
+  404. (  1) 3T *#PT leather [ˈlɛðə] (n) {B1} {clothes and fashion} кожа; (adj) кожаный
+              xx ?#  sports+shoe [spɔːts ʃuː] (n) {B1} {clothes an fashion} спортивная обувь
+              xx ?#  tennis+shoe [ˈtɛnɪs ʃuː] (n) {B1} {clothes and fashion} теннисная туфля
+
 {clothes and fashion {hats}}
 ............................
 {A1} {clothes and fashion {hats}}
   360. (  1) 3T *#PT hat [hæt] (n) {A1} {clothes and fashon} шляпа, шапка
 
 {A2} {clothes and fashion {hats}}
+{B1} {clothes and fashion {hats}}
+   95. (  1) 3T *#PT cap [ˈkæp] (n) {B1} {clothes and fashion} кепка, колпачок, крышка
+              xx ?#  sun+hat [sʌn hæt] (n) {B1} {clothes and fashions} шляпа от солнца
 
 {clothes and fashion {items of clothing}}
 .........................................
@@ -1352,6 +1423,21 @@ Appearance
   810. (  2) 3T *#PT top [tɒp] (adj) {A2} верхний, высший; (n) {A2} верх; {A2} {clothes and fashion} = a piece of clothing worn on the upper part of the body; (v) {C1} {success} быть первым, превышать
   834. (  1) 3T *#PT uniform [ˈjuːnɪfɔːm] (n) {A2} {law and justice} {education} {clothes and fashion} униформа, форма; (adj) единый, равномерный, однородный
 
+{B1} {clothes and fashion {items of clothing}}
+              4T ?#  blouse [blaʊz] (n) {B1} {clothes and fashion} блуза, блузка, кофточка, кофта
+              xT ?#  bra [brɑː] (n) {B1} {clothes and fashion} бюстгальтер
+  160. (  1) 5T ?#PT costume [ˈkɒstjuːm] (n) {B1} {history} {clothes and fashion} {film and theatre} костюм, одежда; (adj) костюмированный; (v) одевать
+              xx ?#  jogging+suit [ˈʤ ɒɡɪŋ suːt/sjuːt] (n) {B1} {clothes and fashion} спортивный костюм
+              xT ?#  panties [ˈpæntɪz] (n)(pl) {B1} {clothes and fashion} трусики, детские штанишки
+              xx ?#  pyjamas [pəˈʤ ɑːməz] (n) {B1} {clothes and fashion} пижама
+              4T ?#  raincoat [ˈreɪnkəʊt] (n) {B1} {clothes and fashion} дождевик
+              yT ?#  sweatshirt [ˈswɛtʃɜːt] (n) {B1} {clothes and fashion} толстовка, спортивный свитер
+              xx ?#  swimming+costume [ˈswɪmɪŋ ˈkɒstjuːm] (n) {B1} {clothes and fashion} {sports: water sports} купальный костюм
+              xx ?#  tee+shirt [tiː ʃɜːt] (n) {B1} {clothes and fashion} футболка
+              yT ?#  tights [taɪts] (n)(pl) {B1} {clothes and fashion} колготки, трико
+              xx ?#  underpants [ˈʌndəpænts] (n)(pl) {B1} {clothes and fashion} трусы, кальсоны = a piece of men's underwear worn under their trousers
+  757. (  1) 3T ?#PT underwear [ˈʌndəweə] (n)(u) {B1} {clothes and fashion} нижнее белье
+
 {clothes and fashion {jewellery}}
 .................................
 {A1} {clothes and fashion {jewellery}}
@@ -1360,6 +1446,9 @@ Appearance
   428. (  1) 3T ?#PT jewellery [ˈʤ uːəlri] (n)(u) {A2} {clothes and fashion} {shopping} ювелирные изделия, драгоценности; (adj) ювелирный
   661. (  2) 3T *#PT ring [rɪŋ] (n) {A2} {clothes and fashion} {life stage} кольцо, {C1} {sports: other sports} ринг, {B1} {plants and tree} круг, {B1} звон; (v) {A2} {phones, email and the internet} звонить, звенеть, звучать, I: ring-rang-rung
   713. (  2) 3T *#PT silver [ˈsɪlvə] (n)(u)(c) {A2} {physics and chemistry} {colours and shapes} {clothes and fashion} {B2} {sports: other sports} серебро; (adj) {A2} {colours and shapes} серебряный, серебристый; (v) серебриться
+
+{B1} {clothes and fashion {jewellery}}
+              4T ?#  necklace [ˈnɛklɪs] (n) {B1} {clothes and fashion} ожерелье, колье
 
 {clothes and fashion {parts of clothing}}
 ..............................................
@@ -1373,6 +1462,9 @@ Appearance
   583. (  1) 3T *#PT pocket [ˈpɒkɪt] (n) {A2} {clothes and fashion} карман
   708. (  1) 3T *#PT shoulder [ˈʃəʊldə] (n) {A2} {body} плечо, {A2} {clothes and fashion} вешалка; {B1} {food} лопатка
 
+{B1} {clothes and fashion {parts of clothing}}
+  277. (  1) 3T ?#PT fasten [ˈfɑːsn] (v) {B1} {clothes and fashion} скрепить, закреплять, затвердевать, скреплять, устремлять, сжимать
+
 {clothes and fashion {the fashion world}}
 .........................................
 {A1} {clothes and fashion {the fashion world}}
@@ -1384,6 +1476,16 @@ Appearance
               xx ?#  fashion+designer [ˈfæʃ(ə)n dɪˈzaɪnə] (n) {A2} {clothes and fashion} {jobs} модельер
               1T *#  model [ˈmɑdəl] (n) {A1} {A2} {clothes and fashion} {jobs} модель, образец; (v) {B2} {scientific research} {clothes and fashion} {C1} {art} моделировать; (adj) образцовый
 
+{B1} {clothes and fashion {the fashion world}}
+              4T *#  designer [dɪˈzaɪnə] (n) {A2} {clothes and fashion} {jobs} дизайнер; (adj) {B1} {clothes and fashion} = made by a famous designer
+  276. (  1) 3T *#PT fashionable [ˈfæʃnəbl] (adj) {B1} {clothes and fashion} модный, фешенебельный; (n) светский человек
+  395. (  2) 3T *#PT label [ˈleɪbl] (n) {B1} {clothes an fashion} ярлык, этикетка, метка; (v) {B1} метить, помечать
+              1T *#  model [ˈmɑdəl] (n) {A1} {A2} {clothes and fashion} {jobs} модель, образец; (v) {B1} {clothes and fashion} {B2} {scientific research} {clothes and fashion} {C1} {art} моделировать; (adj) образцовый
+  503. (  1) 3T *#PT photographer [fəˈtɒgrəfə] (n) {B1} {clothes and fashion} {tv, radio and news} {jobs} фотограф
+              xx ?#  supermodel [ˈsuːpəˌmɒd(ə)l] (n) {B1} {clothes and fashion} {jobs} супермодель
+              yT ?#  trendy [ˈtrɛndi] (adj) {B1} {clothes and fashion} модный; (n) модник
+              xx ?#  unfashionable [ʌnˈfæʃnəbl] {B1} {clothes and fashion} un-: (adj) {B1} {clothes and fashion} модный, фешенебельный
+
 {clothes and fashion {wearing clothes}}
 .......................................
 {A1} {clothes and fashion {wearing clothes}}
@@ -1391,8 +1493,13 @@ Appearance
   866. (  1) 3T *#PT wear [weə] (n) износ, {B2} {clothes and fashion} одежда; (v) {A1} {clothes and fashion} носить, одевать, изнашиваться, I: wear-wore-worn
 
 {A2} {clothes and fashion {wearing clothes}}
-             xx ?#   put+on [pʊt ɒn] (phrasal verb) {A2} {clothes and fashion} надевать, ставить
+              xx ?#  put+on [pʊt ɒn] (phrasal verb) {A2} {clothes and fashion} надевать, ставить
   647. (  1) 3T *#PT remove [rɪˈmuːv] (n) удаление; (v) {A2} удалять, {A2} {clothes and fashion} снимать, убирать
+
+{B1} {clothes and fashion {wearing clothes}}
+              xx ?#  have+on [hæv ɒn] (phrasal verb) {B1} {clothes and fashion} быть одетым в
+              xx ?#  undress [ʌnˈdrɛs] (v) {B1} {clothes and fashion} раздеваться
+              xx ?#  unfasten [ʌnˈfɑːsən] (v) {B1} {clothes and fashion} расстегнуть, отстегивать
 
 {colours and shapes}
 --------------------
@@ -1420,6 +1527,14 @@ Appearance
   354. (  2) 3T *#PT gold [goʊld] (n)(u) {A2} {physics and chemistry} {clothes and fashion} {sports: other sports} {colours and shapes} золото; (adj) {A2} {clothes and fashion} золотой
   713. (  2) 3T *#PT silver [ˈsɪlvə] (n)(u)(c) {A2} {physics and chemistry} {colours and shapes} {clothes and fashion} {B2} {sports: other sports} серебро; (adj) {A2} {colours and shapes} серебряный, серебристый; (v) серебриться
 
+{B1} {colours and shapes {colours}}
+              1T *#  color [ˈkʌlə] (n) {US} {A1} {colours and shapes} {A2} {people in society} цвет, (UK) = colour; (v) {B1} {colours and shapes} окрашивать; (adj) цветовой
+              3T *#  colored [ˈkʌləd] -ed: (v) {B1} {colours and shapes} окрашивать; (adj) {B1} {colour and shapes} цветной, раскрашенный
+              3T *#  colour [ˈkʌlə] (n) {A1} {colours and shapes} {A2} {people in society} цвет; (v) {B1} {colours and shapes} окрашивать; (adj) цветовой
+  129. (  1) 3T *#PT coloured [ˈkʌləd] -ed: (v) {B1} {colours and shapes} окрашивать; (adj) {B1} {colour and shapes} цветной, раскрашенный
+  168. (  1) 3T *#PT cream [kriːm] (n) крем, {A1} {food} сливки, {B1} {colours and shapes} кремовый цвет; {B1} {colours and shapes} (adj) кремовый
+  489. (  1) 3T ?#PT pale [peɪl] (adj) {B1} {appearance} {health problems} {colours and shapes} бледный; (v) бледнеть
+
 {colours and shapes {shapes}}
 ..............................
 {A1} {colours and shapes {shapes}}
@@ -1433,6 +1548,10 @@ Appearance
   750. (  2) 3T *#PT square [skweə] (adj) {A2} {colours and shapes} {B2} {maths and measurement} квадратный, прямоугольный; (n) {A2} {colours and shapes} квадрат, {A2} {buildings} сквер; (v) рассчитаться; (adv) прямо
   754. (  1) 3T *#PT star [stɑː] (n) {A1} {space} {tv, radio and news} {film and theatre} {A2} {colours and shapes} {holidays} звезда
   764. (  2) 3T *#PT straight [streɪt] (adj) {A2} {colours and shapes} {appearance} прямой; (adv) {A2} прямо; (n) гетеросексуал
+
+{B1} {colours and shapes {shapes}}
+  196. (  1) 3T *#PT diamond [ˈdaɪəmənd] (n) {B1} {clothes and fashion} {colours and shapes} алмаз, бриллиант; (adj) алмазный
+  707. (  1) 3T *#PT surface [(GB)ˈsɜːfɪs/(US)ˈsɜrfəs] (n) {B1} {colours and shapes} {transport by car or lorry} поверхность
 
 Communication
 =============
@@ -1487,6 +1606,45 @@ Communication
 645. (  1) 3T *#PT regular [ˈrɛgjʊlə] (adj) {A2} {language} регулярный, обычный, правильный
               xx ?#  superlative [sju(ː)ˈpɜːlətɪv] (adj) {A2} {language} превосходный; (n) {A2} {language} превосходная степень
 
+{B1} {language {grammar}}
+              5T *#  abbreviation [əˌbriːvɪˈeɪʃ(ə)n] (n) {B1} {language} аббревиатура
+              3T *#  active [ˈæktɪv] (adj) {A2} {B1} {language} {C1} {personal qualities} активный, действующий
+              4T ?#  adverbial [ədˈvɜːbiəl] (adj) {B1} {language} наречный, адвербиальный, обстоятельственный
+              1T *#  article [ˈɑːtɪkl] (n) {A1} {tv, radio and news} {C2} {law and justice} статья, {B2} {shopping} изделие, {B1} {language} артикль
+              5T ?#  auxiliary [ɔːgˈzɪljəri/ɔːkˈzɪljəri] (n)(adj) {B1} {language} вспомогательный, дополнительный
+  117. (  1) 5T ?#PT clause [klɔːz] (n) {B2} {law an justice} пункт, оговорка, {B1} {language} условие, клаузула
+  255. (  9) xT ?#PT conjunction [kənˈʤ ʌŋkʃən] (n) {B1} {language} союз, соединение, конъюнкция
+  155. (  1) 3T *#PT continuous [kənˈtɪnjʊəs] (adj) {B1} {time} {language} постоянный, непрерывный
+              5T ?#  contraction [kənˈtrækʃən] (n) {B1} {language} сокращение, сжатие, уменьшение
+              xT *#  defining [dɪˈfaɪnɪŋ] -ing: (v) {B1} определять; (n) определение; (adj) {B1} {language} определяющий
+              xx ?#  definite+article [ˈdɛfɪnət ˈɑːtɪk(ə)l] (n) {B1} {language} определенный артикль
+  791. (  1) xx ?#PT determiner [dɪˈtɜːmɪnə] (n) {B1} {language} определяющее слово, детерминант
+              xx ?#  direct+object [daɪˈrɛkt ˈɒbʤ ɪkt] (n) {B1} {language} прямое дополнение
+              xx ?#  direct+speech [daɪˈrɛkt spiːʧ] (n) {B1} {language} {literature and writing} прямая речь
+              xx ?#  gerund [ˈʤ ɛrənd] (n) {B1} {language} герундий
+              4T ?#  grammatical [ɡrəˈmætɪkəl] (adj) {B1} {language} грамматический
+              5T ?#  imperative [ɪmˈpɛrətɪv] (n) {B1} {language} императив, повелительное наклонение; (adj) {B1} {language} императивный, обязывающий
+              xx ?#  indefinite+article [ɪnˈdɛfɪnət+ˈɑːtɪk(ə)l] (n) {B1} language = 'a' or 'an'
+              xx ?#  indirect+object [ˌɪndaɪˈrɛkt ˈɒbʤ ɪkt] (n) {B1} {language} косвенное дополнение
+              xx ?#  indirect+speech [ˌɪndaɪˈrɛkt spiːʧ] (n) {B1} {language} {literature and writing} косвенная речь
+              xx ?#  interrogative [ˌɪntəˈrɒɡətɪv] (adj) {B1} {language} вопросительный; (n) {C1} {language} вопросительное слово, дознание
+              xx ?#  main+clause [meɪn klɔːz] (n) {B1} {language} главное предложение
+              3T *#  object [ˈɒbʤ ɪkt->(n)/əbˈʤ ɛkt->(v)] (n) {A1} объект, {B1} {language} предмет, цель; (v) {B2} {opinion and argument} возражать, возразить; (adj) объектный
+              xx ?#  part+of+speech [pɑːt ɒv spiːʧ] (n) {B1} {language} часть речи
+              5T *#  passive [ˈpæsɪv] (adj) {C1} {B1} {language} пассивный; (n) {B1} {language} страдательный залог, пассивная форма
+              xx ?#  past+perfect [pɑːst ˈpɜːfɛkt] (n) {B1} {language} прошедшее совершенное
+              4T *#  prefix [ˈpriːfɪks->(n,v)/priːˈfɪks(v)] (n) {B1} {lanuguage} префикс, приставка; (v) прибавлять префикс
+              xx ?#  prepositional [ˌprɛpəˈzɪʃənl] (adj) {B1} {language} предложный; (n) предложный падеж
+              5T *#  progressive [prəʊˈgrɛsɪv] (adj) {B2} {C1} {B1} {language} прогрессивный, передовой
+              xx ?#  proper+noun [ˈprɒpə naʊn] (n) {B1} {language} имя собственное
+              xx ?#  reflexive [rɪˈflɛksɪv] (adj) {B1} {language} возвратный, рефлексивный; (n) возвратный глагол, возвратное местоимение
+  588. (  2) 3T *#PT relative [ˈrɛlətɪv] (adj) {B1} {language} относительный, сравнительный; (n) {B1} {family and relationships} родственник
+              xx ?#  reported+speech [rɪˈpɔːtɪd spiːʧ] (n) {B1} {language} косвенная речь, переданная речь
+              xT *#  saying [seɪɪŋ] -ing: (v) {A1} {B1} {opinion and argument} {B2} {suggestions and advice} сказать, I: say-said-said; (n) {B1} {language} поговорка
+              3T *#  suffix [ˈsʌfɪks] (n) {B1} {language} суффикс, окончание
+              xx ?#  tag+question [tæɡ ˈkwɛsʧən] (n) {B1} {language} = a phrase such as isn't it that you add to the end
+              xx ?#  transitive [ˈtrænsɪtɪv] (adj) {B1} {language} переходный; (n) переходный глагол
+
 {language {language skills}}
 .................................
 {A1} {language {language skills}}
@@ -1494,6 +1652,8 @@ Communication
               3T *#  pronunciation [prəˌnʌnsɪˈeɪʃən] (n) {A1} {language} произношение
 
 {A2} {language {language skills}}
+{B1} {language {language skills}}
+              xx ?#  native+speaker [ˈneɪtɪv ˈspiːkə] (n) {B1} {language} носитель языка
 
 {language {languages}}
 ......................
@@ -1505,6 +1665,9 @@ Communication
 {A2} {language {languages}}
               4T *#  russian [ˈrʌʃ(ə)n] (n) {A2} {language} русский, российский
 
+{B1} {language {languages}}
+              xT ?#  welsh [wɛlʃ] (adj) валлийский, уэльский; (n) {B1} {language} валлийцы, валлийский язык, уэльсцы
+
 {language {features of language}}
 .................................
 {A1} {language {features of language}}
@@ -1514,6 +1677,9 @@ Communication
 {A2} {language {features of language}}
               xx ?#  collocation [ˌkɒləʊˈkeɪʃ(ə)n] (n) {A2} {language} словосочетание
   294. (  1) 3T *#PT expression [ɪksˈprɛʃən] (n) {A2} {language} {B1} {opinion and argument} выражение, оборот речи, {B1} {appearance} выразительность
+
+{B1} {language {features of language}}
+              xT *#  saying [seɪɪŋ] -ing: (v) {A1} {B1} {opinion and argument} {B2} {suggestions and advice} сказать, I: say-said-said; (n) {B1} {language} поговорка
 
 {language {phonetics}}
 ......................
@@ -1527,6 +1693,9 @@ Communication
              5T ?#  syllable [ˈsɪləbl] (n) {A2} {language} слог
              5T *#  vowel [vaʊəl] (adj) гласный; (n) {A2} {language} гласный звук
 
+{B1} {language {phonetics}} 
+             4T ?#  intonation [ˌɪntəʊˈneɪʃ(ə)n] (n) {B1} {language} интонация, произнесение нараспев
+
 {language {punctuation}}
 ........................
 {A1} {language {punctuation}}
@@ -1534,7 +1703,10 @@ Communication
              yT *#  comma [ˈkɒmə] (n) {A2} {language} запятая
              4T *#  punctuation [ˌpʌŋktjʊˈeɪʃən] (n) {A2} {language} пунктуация
              xx ?#  punctuation+mark [ˌpʌŋkʧuˈeɪʃ(ə)n mɑːk] (n) {A2} {language} знак препинания
+
+{B1} {language {punctuation}}
              xx ?#  question+mark [ˈkwɛsʧən mɑːk] (n) {A2} {language} вопросительный знак
+ 572. (  2) 3T *#PT quote [kwəʊt] (n) {B1} {B2} {language} цитата, кавычки; (v) {B1} {literature and writing} {language} цитировать, {C1} {money} котировать
 
 {phones, email and the internet}
 -------------------------------------
@@ -1550,9 +1722,22 @@ Communication
   504. (  2) 3T *#PT mobile [ˈməʊbaɪl] (adj) {A2} {phones, email and the internet} подвижной, изменчивый, мобильный; (n) {A2} {phones, email and the internet} мобильник
   727. (  1) yT *#PT smartphone [ˈsmɑːtfəʊn] (n) {A2} {phones, email and the internet} смартфон
 
+{B1} {phones, email and the internet {communication devices}}
+              xx ?#  answering+machine [ˈɑːnsərɪŋ məˈʃiːn] (n) {B1} {phone, email and the internet} автоответчик
+              xx ?#  answerphone [ˈɑːnsəˌfəʊn] (n) {B1} {phone, email and the internet} автоответчик
+  134. (  1) 3T *#PT communication [kəˌmjuːnɪˈkeɪʃən] (n) {B1} {language} {phones, email and the internet} связь, коммуникация, сообщение, общение, передача
+              xx ?#  phone+box [fəʊn bɒks] (n) {B1} {phones, email and the internet} телефонная будка
+              xx ?#  telephone+box [ˈtɛlɪfəʊn bɒks] (n) {B1} {phones, email and the internet} телефонная будка
+
 {A1} {phones, email and the internet {email}}
    54. (  1) 3T *#PT at [æt] (prep) {A1} на, в, при, у, {A1} {phones, email and the internet} symbol @
   250. (  2) 3T *#PT email [iˈmeɪl] (n) {A1} {phones, email and the internet} электронная почта, е-мейл; (v) {A1} = send an email to
+
+{A2} {phones, email and the internet {email}}
+              3T *#  mail [meɪl] (n) {A2} почта, {A2} {phones, email and the internet} = message sent/received on a computer; (adj) почтовый; (v) {A2} посылать по почте, {A2} {phones, email and the internet} = to send a message by email
+
+{B1} {phones, email and the internet {email}}
+   51. (  1) 3T *#PT attach [əˈtæʧ] (v) {B1} {phones, email and the internet} прикреплять, присоединять
 
 {phones, email and the internet {making calls}}
 {A1} {phones, email and the internet {making calls}}
