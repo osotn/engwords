@@ -1,0 +1,67 @@
+2. Variables and simple Data types
+----------------------------------
+How to use variables to represent data in your programs.
+
+Every variable is connected to a value, which is the information associated
+with that variable.
+Adding variable, when it processes the first line, it associate the
+variable with the type of value.
+
+Variable name should be short but descriptive.
+
+Variables are often described as boxes you can store values in.
+But it isn't an accurate way to describe how variables are represented
+internally in Python.
+It's much better to think of variables as   labels   that you can assign to
+values. Or variable references.
+
+Data:
+    - strings
+
+Strings is a series of characters. "" ''
+
+str.uppper().lower().title()
+s = f"{s1} {s2}" # f-string = format string
+
+whitespace refers to any nonprinting characters.
+"\t\n"
+
+Stripping whitespaces
+s.rstrip() - rigth side stripping
+s.lstrip()
+s.strip()
+s.removeprefix('pref')
+
+# comment
+
+3. List
+-------
+A list is a collection of items in a particular order.
+l = [1, 2, 3]
+Access by index l[0] l[-1]
+Modifying l[0] = 4
+Appending l.append(5)
+Inserting l.insert(index, elem)
+Removing  del l[0] - del statement, l.pop() - removing the last = del l[-1] or l.pop(index) or l.remove(elem) by elem
+Sorting: l.sort(), l.sort(reverse=True), l2 = sorted(l), l.reverse()
+Len: len(l)
+
+4. Working with List
+--------------------
+for elem in l:
+    print(elem)
+
+range() - function make it easy to generate a series of numbers.
+range(1,5)
+list(range(1,5))
+
+statistics: min(l) max(l) sum(l)
+
+squares = [value**2 for value in range(1,11)]
+
+
+
+
+
+
+
