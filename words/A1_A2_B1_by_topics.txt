@@ -2791,7 +2791,13 @@ Food and drinks
               4T ?#  strawberry [ˈstrɔːbəri] (n) {A2} {food} клубника, земляника; (adj) клубничный
 
 {B1} {food {fruit and nuts}}
-
+              4T *#  grape [greɪp] (n) {B1} {food} виноград
+              4T *#  olive [ˈɒlɪv] (adj) {C1} {colours and shapes} оливковый; (n) {B1} {food} {B2} {plants and trees} {C1} {colours and shapes} оливки, оливка, маслина
+              4T ?#  peanut [ˈpiːnʌt] (n) {B1} {food} арахис; (adj) арахисовый
+              xx ?#  peanut+butter [ˈpiːnʌt ˈbʌtə] (n) {B1} {food} арахисовое масло
+              4T ?#  pear [peə] (n) {B1} {food} груша
+              5T *#  pineapple [ˈpaɪˌnæpəl] (n) {B1} {food} ананас
+              xx ?#  plant-based [plɑːnt-beɪst] (adj) {B1} {food} на растительной основе
 
 {food {herbs and spices}}
 .........................
@@ -2799,7 +2805,9 @@ Food and drinks
   667. (  1) 3T *#PT salt [sɔːlt] (n) {A1} {food} {C1} {physics and chemistry} соль; (adj) морской; (v) солить
 
 {A2} {food {herbs and spices}}
-
+{B1} {food {herbs and spices}}
+              xx ?#  black+pepper [blæk ˈpɛpə] (n) {B1} {food} черный перец
+              4T ?#  mint [mɪnt] (n) {B1} {plants and trees} {food} мята, монетный двор; (adj) мятный; (v) чеканить
 
 {food {meat, fish and seafood}}
 ...............................
@@ -2819,11 +2827,24 @@ Food and drinks
               4T ?#  rabbit [ˈræbɪt] (n) {A2} {animals} {food} кролик, заяц
               4T ?#  sausage [ˈsɒsɪʤ ] (n) {A2} {food} колбаса, сосиска; (adj) колбасный
 
+{B1} {food {meat, fish and seafood}}
+              xT ?#  bacon [ˈbeɪkən] (n) {B1} {food} бекон
+              xx ?#  red+meat [rɛd miːt] (n) {B1} {food} красное мясо
+              xx ?#  sausage+meat [ˈsɒsɪʤ  miːt] (n) {B1} {food} колбасный фарш
+              xT *#  seafood [siːfuːd] (n) {B1} {food} морепродукты
+              1T *#  shoulder [ˈʃəʊldə] (n) {A2} {body} плечо, {A2} {clothes and fashion} вешалка; {B1} {food} лопатка
+              5T *#  steak [steɪk] (n) {B1} {food} стейк, бифштекс
+              4T ?#  turkey [ˈtɜːki] (n) {B1} {food} {birds} индейка, индюк, Турция
+              xx ?#  white+meat [waɪt miːt] (n) {B1} {food} белое мясо
+  798. (  1) 3T ?#PT wing [wɪŋ] (n) {B1} {birds} {food} {transport by air} крыло; (v) лететь
+
 {food {sauces}}
 ...............
 {A1} {food {sauces}}
 {A2} {food {sauces}}
   679. (  1) 3T ?#PT sauce [sɔːs] (n) {A2} {food} соус, приправа
+
+{B1} {food {sauces}}
 
 {food {savoury dishes}}
 {A1} {food {savoury dishes}}
@@ -2835,6 +2856,11 @@ Food and drinks
               xx ?#  fish+and+chips [fɪʃ ænd ʧɪps] (n) {A2} {food} рыба с жареным картофелем
               xx ?#  hot+dog [hɒt+dɒɡ] (n) {A2} {food} хот-дог, бутерброд с горячей сосиской
               4T *#  pie [paɪ] (n) {A2} {food} пирог; (v) смешивать
+
+{B1} {food {savoury dishes}}
+              yT ?#  burger [ˈbɜːgə] (n) {B1} {food} бутерброд, булочка; (adj) разрезанная вдоль
+              xx ?#  cheeseburger [ˈʧiːzˌbɜːɡə] (n) {B1} {food} чизбургер
+              yT ?#  curry [ˈkʌri] (n) {B1} {food} карри, блюдо приправленное карри
 
 {food {sweets and desserts}}
 {A1} {food {sweets and desserts}}
@@ -2850,7 +2876,10 @@ Food and drinks
               5T ?#  dessert [dɪˈzɜːt] (n) {A2} {food} {cooking and eating} десерт, сладкое; (adj) десертный
   426. (  1) 3T *#PT jam [ʤ æm] (n) {A2} {food} варенье, джем, повидло, {B2} {transport by car or lorry} заедание; (v) заклинить, застревать
               3T *#  sweet [swiːt] (adj) {A2} {cooking and eating} сладкий, {C1} {personal qualities} милый, нежный, приятный; (n)(c) {A2} {food} сладкое
-              
+
+{B1} {food {sweets and desserts}}
+              xx ?#  fruit+salad [fruːt ˈsæləd] (n) {B1} {food} фруктовый салат
+              4T ?#  honey [ˈhʌni] (n) {B1} {food} мед, милая, милый; (adj) милая, милый; (v) льстить
 
 {food {vegetables}}
 {A1} {food {vegetables}}
@@ -2865,6 +2894,13 @@ Food and drinks
    83. (  1) 5T ?#PT bean [biːn] (n) {A2} {food} фасоль, боб; (adj) фасолевый; (v) дать по башке
               5T ?#  mushroom [ˈmʌʃrʊm] (n) {A2} {food} {plants and trees} гриб; (adj) грибной; (v) собирать грибы
               4T ?#  pea [piː] (n) {A2} {food} горох
+
+{B1} {food {vegetables}}
+              4T ?#  cabbage [ˈkæbɪʤ ] (n) {B1} {food} капуста; (adj) капустный; (v) завиваться кочаном
+              4T ?#  garlic [ˈgɑːlɪk] (n) {B1} {food} чеснок
+              1T *#  green [griːn] (adj) {A1} {colours and shapes} {B1} {politics} {the environment} зеленый; (n) {A1} {colours and shapes} {B2} {politics} зеленый цвет, {B1} {food} зелень; (v) {C2} {the environment} зеленеть, делаться зеленым
+              xx ?#  green+bean [ɡriːn biːn] (n) {B1} {food} зеленая фасоль
+              5T ?#  lettuce [ˈlɛtɪs] (n) {B1} {food} латук, салат-латук
 
 Functions
 =========
@@ -2881,6 +2917,14 @@ Functions
               yT *#  alright [ɔːlˈraɪt] (adj) {A2} в порядке, подходящий; (adv)(excl) {A2} {permission and obligation} {discussion and agreement} конечно, приемлемо, как нужно
   712. (  2) 3T *#PT sign [saɪn] (n) {A2} знак, признак, {B1} {maths and measurement} символ, подпись; (v) {A2} {discussion and agreement} {law and justice} подписывать, ставить знак
 
+{B1} {discussion and agreement {agreement}}
+              1T *#  accept [(UK)əkˈsɛpt/(US)ækˈsɛpt/əkˈsɛpt] (v) {A2} {business} {B1} {discussion and agreement} {social issues} принимать
+   22. (  1) 3T *#PT agreement [əˈgriːmənt] (n) {B1} {discussion and agreement} {war and conflict} {law and justice} {business} соглашение, договор, {B2} {language} согласие
+  133. (  1) 3T *#PT commit [kəˈmɪt] (v) {B1} {crime and punishment} {discussion and agreement} {C1} {preference and decisions} совершать, фиксировать, поручать
+              1T *#  condition [kənˈdɪʃən] (n) {A2} {shopping} {health problems} состояние, {B1} {discussion and agreement} {permission and obligation} условие, обстановка; (v) обусловливать, кондиционировать
+  180. (  1) 3T *#PT deal [diːl] (n) {B1} {discussion and agrement} {business} сделка, дело, {B1} {war and conflict} соглашение; (v) {A2} {games and toys} сдавать карты, {B2} {crime and punishment} иметь дело, общаться, бороться, I: deal-dealt-dealt
+             3T *#PT united [juːˈnaɪtɪd] -ed: (v) {B2} объединять, объединяться; (adj) {A2} объединенный, {B1} {discussion and agreement} дружный
+
 {discussion and agreement {discussion}}
 {A1} {discussion and agreement {discussion}}
   220. (  1) 3T *#PT discuss [dɪsˈkʌs] (v) {A1} {discussion and agreement} {A2} {opinion and argument} обсуждать
@@ -2888,29 +2932,40 @@ Functions
 {A2} {discussion and agreement {discussion}}
               1T *#  discussion [dɪˈskʌʃən] (n) {A2} {discussion and agreement} {opinion and argument} обсуждение, дискуссия
 
+{B1} {discussion and agreement {discussion}}
+
 {discussion and agreement {ending an agreement}}
 ................................................
 {A1} {discussion and agreement {ending an agreement}}
 {A2} {discussion and agreement {ending an agreement}}
+{B1} {discussion and agreement {ending an agreement}}
 
 {discussion and agreement {mediation}}
 ......................................
 {A1} {discussion and agreement {mediation}}
 {A2} {discussion and agreement {mediation}}
+{B1} {discussion and agreement {mediation}}
 
 {discussion and agreement {persuation}}
 .......................................
 {A1} {discussion and agreement {persuation}}
 {A2} {discussion and agreement {persuation}}
+{B1} {discussion and agreement {persuation}}
+              1T *#  argue [ˈɑːgjuː] (v) {A2} {opinion and argument} {feelings} {B1} {discussing and agreement} спорить, аргументировать, доказывать
+  158. (  1) 3T ?#PT convince [kənˈvɪns] (v) {B1} {discussing and agreement} убеждать, уверять
+  238. (  1) 3T ?#PT encourage [ɪnˈkʌrɪʤ ] (v) {B1} {discussing and agreement} поощрять, поддерживать
+  502. (  1) 3T ?#PT persuade [pəˈsweɪd] (v) {B1} {discussion and agreement} убеждать, уговаривать
+  539. (  1) 3T *#PT pressure [ˈprɛʃə] (n) {B1} {business} {discussion and agreement} {B2} {physics and chemistry} напряжение, давление; (v) {C1} {discussion and agreement} давить
+  706. (  1) 3T *#PT surely [ʃʊəli] -ly: (adj)->(adv) верный, {A1} {personal qualities} {B1} {doubt, guessing and certainty} уверенный; (adv) {B1} {doubt, guessing and certainty} {discussion and agreement} конечно, несомненно
 
 {discussion and agreement {working together}}
 .............................................
 {A1} {discussion and agreement {working together}}
 {A2} {discussion and agreement {working together}}
+{B1} {discussion and agreement {working together}}
 
 {doubt, guessing and certainty}
 ------------------------------------
-{doubt, guessing and phrasal+verb [ˈfreɪz(ə)l vɜːb] (n) {A1} {phrasal verb} фразовый глаголcertainty {certainty}}
 {A1} {doubt, guessing and certainty {certainty}}
    82. (  1) 3T *#PT believe [bɪˈliːv] (v)(stative) {A1} {doubt, guessing and certainty} {opinion and argument} {religion and festivals} полагать, верить
   430. (  1) 3T *#PT know [nəʊ] (v)(stative) {A1} {doubt, guessing and certainty} знать, I: know-knew-known
@@ -2925,6 +2980,15 @@ Functions
               xx ?#  depend+upon [dɪˈpɛnd əˈpɒn] (phrasal verb} {A2} {doubt, guessing and certainty} зависит от, рассчитывать
               xx ?#  make+sure [meɪk ʃɔː/ʃʊə] (phrasal verb) {A2} {doubt, guessing and certainty
 
+{B1} {doubt, guessing and certainty {certainty}}
+              1T *#  can [kæn] (v) (auxiliary)(modal) {A1} {A2} {permission and obligation} {suggestion and advice} {B1} {doubt, guessing and certainly} может, I: can-could; (n) {A2} баллончик, жестяная банка; (v) мочь, иметь возможность, консервировать
+  143. (  1) 3T ?#PT confident [ˈkɒnfɪdənt] (adj) {B1} {doubt, guessing and certainty} {personal qualities} самоуверенный, уверенный
+              3T ?#  confidently [ˈkɒnfɪdəntli] -ly: (adj)->(adv) {B1} {doubt, guessing and certainty} {personal qualities} самоуверенный, уверенный; (adv) {B1} {doubt, guessing and certainty} уверенно
+  185. (  1) 3T *#PT definite [ˈdɛfɪnɪt] (adj) {B1} {doubt, guessing and certainty} определенный, точный, ясный
+              1T *#  sure [ʃʊə] (adj) верный, {A1} {personal qualities} {B1} {doubt, guessing and certainty} уверенный; (adv) {A2} конечно, непременно
+  706. (  1) 3T *#PT surely [ʃʊəli] -ly: (adj)->(adv) верный, {A1} {personal qualities} {B1} {doubt, guessing and certainty} уверенный; (adv) {B1} {doubt, guessing and certainty} {discussion and agreement} конечно, несомненно
+  749. (  1) 3T *#PT truth [truːθ] (n) {B1} {doubt, guessing and certainty} правда, истина
+
 {doubt, guessing and certainty {doubt}}
 .......................................
 {A1} {doubt, guessing and certainty {doubt}}
@@ -2934,6 +2998,18 @@ Functions
   400. (  1) 3T *#PT impossible [ɪmˈpɒsəbl] (n) невозможное; {A2} {doubt, guessing and certainty} -un: (adv) {A1} {doubt, guessing and certainty} возможное, возможный
               xx ?#  that+depends [ðæt dɪˈpɛndz] (idiom) {A2} {doubt, guessing and certainty} это зависит
 
+{B1} {doubt, guessing and certainty {doubt}}
+  210. (  2) 3T *#PT doubt [daʊt] (v)(stative) {B1} {doubt, guessing and certainty} сомневаться, подозревать; (n) {B1} {doubt, guessing and certainty} сомнение
+              xx ?#  not+necessarily [nɒt ˌnɛsəˈsɛrəli] (idiom) {B1} {doubt, guessing and certainty} не обязательно
+              xx ?#  or+somebody [ɔː ˈsʌmbədi] (idiom) {B1} {doubt, guessing and certainty} = used when your are not exactly sure about a person
+              xx ?#  or+something [ɔː ˈsʌmθɪŋ] (idiom) {B1} {doubt, guessing and certainty} = used when your are not exactly sure about a thing
+              xx ?#  or+somewhere [ɔː ˈsʌmweə] (idiom) {B1} {doubt, guessing and certainty} = used when your are not exactly sure about a place
+  526. (  1) 3T *#PT possibly [ˈpɒsəbli] {B1} {doubt, guessing and certainty} -ly: (adj)->(adv) {A1} {doubt, guessing and certainty} возможное, возможный; (n) возможное
+              3T *#  uncertain [ʌnˈsɜːtn] {B1} {doubt, guessing and certainty} -un: (adj) {A2} {doubt, guessing and certainty} определенный
+              yT *#  unclear [ʌnˈklɪə] {B1} {doubt, guessing and certainty} un-: (adj) {A2} {weather} ясный
+  764. (  1) 3T *#PT unlikely [ʌnˈlaɪkli] un-: (adv) вероятно; {B1} {doubt, guessing and certainty} un-: (adj) {A2} {doubt, guessing and certainty} вероятный
+              yT *#  unsure [ʌnˈʃʊə] {B1} {doubt, guessing and certainty} un-: (adj) {A1} {personal qualities} {B1} {doubt, guessing and certainty} уверенный
+
 {doubt, guessing and certainty {guessing}}
 ..........................................
 {A1} {doubt, guessing and certainty {guessing}}
@@ -2941,6 +3017,10 @@ Functions
 
 {A2} {doubt, guessing and certainty {guessing}}
   593. (  1) 3T *#PT predict [prɪˈdɪkt] (v) {A2} {doubt, guessing and certainty} предсказывать
+
+{B1} {doubt, guessing and certainty {guessing}}
+  386. (  2) 3T *#PT judge [ˈʤ ʌʤ ] (v) {B1} {opinion and argument} судить, {B1} {doubt, guessing and certainty} оценивать, {B2} {law and justice} осуждать; (n) {B1} {preference and decisions} {law and justice} {jobs} судья, {B1} {opinion and argument} эксперт
+  535. (  1) 5T *#PT prediction [prɪˈdɪkʃən] (n) {B1} {doubt, guessing and certainty} прогноз, предсказание
 
 {doubt, guessing and certainty {possibility}}
 .............................................
@@ -2953,12 +3033,22 @@ Functions
   566. (  1) 3T *#PT perhaps [pəˈhæps] (adv) {A2} {doubt, guessing and certainty} {opinion and argument} {suggestion and advice} возможно, может быть, пожалуй
   590. (  1) 3T *#PT possibility [ˌpɑsəˈbɪləti] (n) {A2} {doubt, guessing and certainty} возможность, вероятность, перспектива
 
+{B1} {doubt, guessing and certainty {possibility}}
+              1T *#  could [kʊd] {A1} -1ed: (auxiliary)(modal) {A1} {permission and obligation} {suggestion and advice} {B1} {doubt, guessing and certainly} может, I:can-could
+
 {doubt, guessing and certainty {probability}}
 {A1} {doubt, guessing and certainty {probability}}
   625. (  1) 3T *#PT probably [ˈprɒbəbli] {A1} {doubt, guessing and certainty} -ly: (adj)->(adv) {B2} {doubt, guessing and certainty} вероятный, возможный
 
 {A2} {doubt, guessing and certainty {probability}}
   463. (  1) 3T *#PT likely [ˈlaɪkli] (adv) вероятно; (adj) {A2} {doubt, guessing and certainty} вероятный
+
+{B1} {doubt, guessing and certainty {probability}}
+              xx ?#  as+likely+as+not [æz ˈlaɪkli æz nɒt] (idiom) {B1} {doubt, guessing and certainty} весьма вероятно
+  260. (  1) 3T *#PT expected [ɪksˈpɛktɪd] -ed: (v) {A2} {B2} {doubt, guessing and certainty} ожидать; (adj) {B1} {doubt, guessing and certainty} ожидаемый, предполагаемый
+              1T *#  imagine [(UK)ɪˈmæʤ ɪn/(US)ɪˈmæʤ ən] (v) {A1} {B1} {doubt, guessing and certainty} вообразить, воображать, представлять себе, мнить
+              1T *#  look [lʊk] (n) вид, взгляд, внешность; (v) {A1} посмотреть, выглядеть, смотреть, {B1} {doubt, guessing and certainty} казаться
+  796. (  1) 3T *#PT will [wɪl] (auxiliary)(v)(modal) {A1} {B1} {doubt, guessing and certainty} будут, I: will-would; (n) воля, желание, {B2} {money} {law and justice} завещание; (v) завещать, желать
 
 {opinion and argument}
 ---------------------------
@@ -2982,6 +3072,16 @@ Functions
               1T *#  true [truː] (adj) {A1} {doubt, guessing and certainty} {A2} {opinion and argument} истинный, настоящий, верный; (n) истина
               1T *#  yes [jɛs] (exclanation) {A1} {opinion and argument} да; (n) {A2} {opinion and argument} согласие
 
+{B1} {opinion and argument {expressing agreement}}
+              3T *#  absolutely [ˈæbsəluːtli] {B1} {opinion and argument} -ly: (adj)->(adv) {B2} абсолютный
+              1T *#  exactly [ɪgˈzæktli] {A2} {B1} {opinion and argument} -ly: (adj)->(adv) {A2} точный
+              xx ?#  if+you+like [ɪf juː laɪk] (idiom) {B1} {opinion and argument} = used to politely agree to something or to suggest something
+              xx ?#  in+favour+of+somebody [ɪn ˈfeɪvə ɒv ˈsʌmbədi] (idiom) {B1} {opinion and argument} = if you are in favour of somebody, you support and agree with them
+              xx ?#  in+favour+of+something [ɪn ˈfeɪvə ɒv ˈsʌmθɪŋ] (idiom) {B1} {opinion and argument} = if you are in favour of something, you support and agree with it
+  410. (  1) 3T *#PT like [laɪk] (v)(stative) {A1} {preference and decisions} {B1} {opinion and argument} {phones, email and the internet} нравится; (prop) {A1} {opinion and argument} подобно, вроде, словно; (adj) подобный; (n) {B1} {preferences and decisions} нечто подобное; (conj) как будто
+  462. (  2) 3T *#PT nor [nɔːr] (conj) {B1} {opinion and argument} ни, и ... не, также ... не
+              4T *#  positively [ˈpɒzətɪvli] -ly: (adj)->(adv) {A1} {language} {A2} {opinion and argument} {B1} {success} {personal qualities} {B2} {doubt, guessing and certainty} {maths and measurement} положительный; (adv) {B1} {opinion and argument} положительно, решительно, несомненно
+
 {opinion and argument {expressing an opinion}}
 ..............................................
 {A1} {opinion and argument {expressing an opinion}}
@@ -3004,6 +3104,17 @@ Functions
   775. (  1) 3T *#PT suggestion [səˈʤ ɛsʧən] (n) {A2} {opinion and argument} предлагать
   847. (  1) 3T *#PT view [vjuː] (n) {A2} вид, {A2} {opinion and argument} мнение, взгляд, точка зрения; (v) {B1} рассматривать, {B1} {tv, radio and news} смотреть
 
+{B1} {opinion and argument {expressing an opinion}}
+   17. (  1) 3T *#PT advise [ədˈvaɪz] (v) {B1} {suggestion and advice} {opinion and arguement} советовать
+  131. (  1) 3T *#PT comment [ˈkɒmɛnt] (n) {A2} {opinion and argument} комментарий, отзыв, замечание, примечание; (v) {B1} {opinion and argument} комментировать
+              3T *#  expression [ɪksˈprɛʃən] (n) {A2} {language} {B1} {opinion and argument} выражение, оборот речи, {B1} {appearance} выразительность
+  386. (  2) 3T *#PT judge [ˈʤ ʌʤ ] (v) {B1} {opinion and argument} судить, {B1} {doubt, guessing and certainty} оценивать, {B2} {law and justice} осуждать; (n) {B1} {preference and decisions} {law and justice} {jobs} судья, {B1} {opinion and argument} эксперт
+  501. (  1) 3T *#PT personally [ˈpɜːsnli] -ly: (adj)->(adv) {A1} личный, персональный; (adv) {B1} {opinion and argument} лично, персонально, сам, что касается меня его и т.п.
+              xx ?#  point+out [pɔɪnt aʊt] (phrasal verb) {B1} {opinion and argument} указать, показывать, обращать внимание
+              xT ?#  reviewer [riˈvjuər] (n) {B1} {literature and writing} {opinion and argument} рецензент
+              1T *#  say [seɪ] (v) {A1} {B1} {opinion and argument} {B2} {suggestions and advice} сказать, I: say-said-said; (n) {C1} {preferences and decisions} {opinion and argument} слово, мнение
+  724. (  1) 3T *#PT theory [ˈθɪəri] (n) {B1} {scientific research} {opinion and argument} теория
+
 {opinion and argument {expressing disagreement}}
 ................................................
 {A1} {opinion and argument {expressing disagreement}}
@@ -3016,6 +3127,10 @@ Functions
    26. (  1) 3T *#PT against [əˈgɛnst] (prep) {A2} {opinion and argument} против, вопреки, от, с, на, к, по
    27. (  1) xT *#PT ah [ɑː] (excl) {A2} {opinion and argument} ах
    56. (  1) 3T *#PT argue [ˈɑːgjuː] (v) {A2} {opinion and argument} {feelings} {B1} {discussing and agreement} спорить, аргументировать, доказывать
+
+{B1} {opinion and argument {expressing disagreement}}
+              3T *#  negative [ˈnɛgətɪv] (adj) {A1} {language} {B1} {opinion and argument} {B2} {maths and measurement} отрицательный
+  559. (  2) 3T *#PT protest [ˈproʊˌtɛst->(n)/prəˈtɛst->(v)] (n) {B1} {opinion and argument} {social issues} протест; (v) {B1} {opinion and argument} {social issues} протестовать
 
 {opinion and argument {forming an opinion}}
 ...........................................
@@ -3035,6 +3150,20 @@ Functions
   783. (  1) 3T ?#PT survey [ˈsɜːveɪ->(n)/sɜːˈveɪ->(v)] (n) {A2} {opinion and argument} {scientific research} обзор, обследование, исследование, {C1] {houses and homes} осмотр; (v) {C1} {geography} {houses and homes} обследовать
   802. (  1) 3T *#PT thinking [θɪŋkɪŋ] {A2} {opinion and argument} -ing: (v) {A1} {opinion and argument} думать, мыслить, I: think-thought-thought
 
+{B1} {opinion and argument {forming an opinion}}
+   52. (  1) 3T ?#4T attitude [ˈætəˌtud] (n) {B1} {opinion and argument} {personal qualities} отношение, позиция
+              3T *#  badly [bædli] {A2} {B1} {opinion and argument} -ly: (adj)->(adv) {A2} {health problems} {B1} {feelings} плохой, дурной, нехороший, I:bad-worse-(the)worst
+   70. (  1) 3T *#PT belief [bɪˈliːf] (n) {B1} {religion and festivals} {opinion and argument} вера, убеждение, мнение, верование
+  253. (  1) 3T *#PT examine [ɪgˈzæmɪn] (v) {B1} {opinion and argument} {healthcare} исследовать, рассматривать, проверять
+              1T *#  if [ɪf] (conj) {A1} если, ли, {B1} {opinion and argument} если бы; (n) условие, предположение, неуверенность
+  362. (  1) 3T ?#PT impression [ɪmˈprɛʃən] (n) {B1} {opinion and argument} впечатление, представление, отпечаток
+  386. (  2) 3T *#PT judge [ˈʤ ʌʤ ] (v) {B1} {opinion and argument} судить, {B1} {doubt, guessing and certainty} оценивать, {B2} {law and justice} осуждать; (n) {B1} {preference and decisions} {law and justice} {jobs} судья, {B1} {opinion and argument} эксперт
+              xx ?#  point+of+view [pɔɪnt ɒv vjuː] (n) {B1} {opinion and argument} точка зрения
+  607. (  2) 3T *#PT respect [rɪsˈpɛkt] (n) {B1} {success} уважение; (v) {B1} {success} {opinion and argument} уважать, {B1} {law and justice} соблюдать
+  613. (  1) 3T *#PT revise [rɪˈvaɪz] (v) {B1} {opinion and argument} {education} пересматривать, исправлять; (n) сверка, проверка
+              1T *#  see [siː] (v) {A1} {B1} {opinion and argument} видеть, I: see-saw-seen
+  693. (  1) 3T *#PT strongly [ˈstrɒŋli] {B1} {opinion and argument} -ly: (adj) {A1} {health and fitness} {B1} {personal qualities} {B2} {weather} {success} сильные, {B1} {cooking and eating} крепкий
+
 {opinion and argument {having a disagreement}}
 ..............................................
 {A1} {opinion and argument {having a disagreement}}
@@ -3043,6 +3172,9 @@ Functions
 {A2} {opinion and argument {having a disagreement}}
    57. (  1) 3T *#PT argument [ˈɑːgjʊmənt] (n) {A2} {opinion and argument} {feelings} {B1} {language} аргумент, довод, спор, параметр, аргументация, доказательство
   233. (  1) 3T *#PT disagree [ˌdɪsəˈgriː] (v)(stative) {A2} {opinion and argument} не соглашаться, противоречить
+
+{B1} {opinion and argument {having a disagreement}}
+  383. (  1) 3T *#PT issue [ˈɪʃuː->(n,v)/ˈɪsjuː->(n)] (n) выпуск, проблема, результат, {B1} {opinion and argument} {social issues} вопрос; (v) {B2} {C1} {law and justice} выдавать, издавать
 
 {opinion and argument {making an argument}}
 ...........................................
@@ -3053,11 +3185,16 @@ Functions
    48. (  1) 3T *#PT anyway [ˈɛnɪweɪ] (adv) {A2} {opinion and argument} в любом случае, так или иначе, во всяком случае
   282. (  1) 3T ?#PT evidence [ˈɛvɪdəns] (n) {A2} {scientific research} {A2} {opinion and argument} данные, {A2} {crime and punishment} {law and justice} свидетельство, доказательство, признаки, очевидность, улика; (v) свидетельствовать, доказывать
 
+{B1} {opinion and argument {making an argument}}
+  794. (  1) 3T *#PT while [waɪl] (conj) {A2} {B1} {opinion and argument} в то время как, пока, тогда как; (n) {B1} {time} промежуток времени; (prep) до тех пор пока; (v) проводить время
+
 {opinion and argument {matching}}
 .................................
 {A1} {opinion and argument {matching}}
 {A2} {opinion and argument {matching}}
               3T *#  match [mæʧ] (n) {A1} {sports: ball and racket sports} матч, состязание, спичка, {C1} {opinion and argument} пара, брак; (v) {A1} {A2} {opinion and argument} соответствовать, совпадать, {B2} {clothes and fashion} {colours and shapes} сочетать
+
+{B1} {opinion and argument {matching}}
 
 {opinion and argument {not matching}}
 .....................................
@@ -3066,6 +3203,7 @@ Functions
   216. (  1) 3T *#PT different [ˈdɪfrənt] (adj) {A1} {opinion and arguments} другой, различный, разный
 
 {A2} {opinion and argument {not matching}}
+{B1} {opinion and argument {not matching}}
 
 {permission and obligation}
 --------------------------------
@@ -3081,6 +3219,9 @@ Functions
   125. (  1) 3T *#PT can [kæn] (v) (auxiliary)(modal) {A1} {A2} {permission and obligation} {suggestion and advice} {B1} {doubt, guessing and certainly} может, I: can-could; (n) {A2} баллончик, жестяная банка; (v) мочь, иметь возможность, консервировать
               3T *#  permission [pəˈmɪʃən] (n) {A2} {permission and obligation} разрешение, позволение
 
+{B1} {permission and obligation {allowed}}
+  405. (  1) 3T *#PT legal [ˈliːgəl] (adj) {B1} {law and justice} {permission and obligation} правовой, юридический, законный, легальный
+              3T *#  legally [ˈliːgəli] -ly: (adj)->(adv) {B1} {law and justice} {permission and obligation} правовой, юридический, законный, легальный; (adv) {B1} {law and justice} {permission and obligation} легально, законно
 
 {permission and obligation {must}}
 ..................................
@@ -3090,12 +3231,19 @@ Functions
 {A2} {permission and obligation {must}}
   519. (  1) 3T *#PT need [niːd] (n) {A2} {permission and obligation} необходимость, потребность; (v)(stative) {A1} нуждаться, требоваться; (v)(modal) {B2} иметь потребность
 
+{B1} {permission and obligation {must}}
+              1T *#  order [ˈɔːdə] (n) {A2} {cooking and eating} {B1} {business} {shopping} заказ, {A1} {B1} {law and justice} порядок, орден, {B1} {war and conflict} приказ; (v) {A1} {cooking and eating} {A2} {shopping} заказывать, {B1} {permission and obligation} {war and conflict} приказывать, упорядочивать
+
 {permission and obligation {not allowed}}
 .........................................
 {A1} {permission and obligation {not allowed}}
              1T *#  no [nəʊ] (excl) {A1} не, нет; (adj) {A1} {permission and obligation} никакой
 
 {A2} {permission and obligation {not allowed}}
+{B1} {permission and obligation {not allowed}}
+   62. (  2) 3T ?#PT ban [bæn] (n) {B1} {permission and obligation} запрет, запрещение; (v) {B1} {permission and obligation} запрещать
+  355. (  1) 3T *#PT illegal [ɪˈliːgəl] (adj) {B1} {crime and punishment} {law and justice} {permission and obligation} незаконный, нелегальный
+              3T *#  illegally [ɪˈliːgəli] {B1} {permission and obligation} {crime and punishment} {law and justice} -ly: (adj)->(adv) {B1} {crime and punishment} {law and justice} {permission and obligation} незаконный, нелегальный
 
 {permission and obligation {rules}}
 ...................................
