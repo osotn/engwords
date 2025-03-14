@@ -4,7 +4,7 @@ general
 (article)
 ---------
 {A1} (article)
-   0. (1076) 3T *#PT a [æ/eɪ] (article) {A1} indefinite - a/an; (letter) A b c d
+   0. (1076) sudo airodump-ng wlp2s0mon --channel 33T *#PT a [æ/eɪ] (article) {A1} indefinite - a/an; (letter) A b c d
               3T *#  an [æn] (article) {A1} indefinite - a/an
   783. (  1) xT *#PT the [ðiː/ðɛ] (article) {A1} the definite
 
@@ -3244,6 +3244,8 @@ Functions
    62. (  2) 3T ?#PT ban [bæn] (n) {B1} {permission and obligation} запрет, запрещение; (v) {B1} {permission and obligation} запрещать
   355. (  1) 3T *#PT illegal [ɪˈliːgəl] (adj) {B1} {crime and punishment} {law and justice} {permission and obligation} незаконный, нелегальный
               3T *#  illegally [ɪˈliːgəli] {B1} {permission and obligation} {crime and punishment} {law and justice} -ly: (adj)->(adv) {B1} {crime and punishment} {law and justice} {permission and obligation} незаконный, нелегальный
+              xx ?#  non-smoking [nɒn-ˈsməʊkɪŋ] (adj) {B1} {permission and obligation} для некурящих, некурящий
+              xx ?#  no-smoking [nəʊ-ˈsməʊkɪŋ] (adj) {B1} {permission and obligation} для некурящих, некурящий
 
 {permission and obligation {rules}}
 ...................................
@@ -3253,6 +3255,11 @@ Functions
 
 {A2} {permission and obligation {rules}}
   448. (  1) 3T *#PT law [lɔː] (n) {A2} {permission and obligation} {law and justice} {politics} закон, {B1} {education} {law and justice} право, {B2} {scientific research} принцип; (adj) юридический, правовой
+
+{B1} {permission and obligation {rules}}
+              xx ?#  be+supposed+to+do [biː səˈpəʊzd tuː duː] (idiom) {B1} {permission and obligation} = to be expected or required to do something according to a rule, a custom, an arrangement etc.
+              xx ?#  be+supposed+to+be [biː səˈpəʊzd tuː biː] (idiom) {B1} {permission and obligation} = to be expected or required to be something according to a rule, a custom, an arrangement etc.
+              1T *#  condition [kənˈdɪʃən] (n) {A2} {shopping} {health problems} состояние, {B1} {discussion and agreement} {permission and obligation} условие, обстановка; (v) обусловливать, кондиционировать
 
 {preferences and decisions}
 --------------------------------
@@ -3271,12 +3278,24 @@ Functions
   538. (  1) 3T *#PT option [ˈɒpʃən] (n) {A2} {preferences and decisions} вариант, опция, опцион, {A2} {computers} выбор
   574. (  1) 3T *#PT pick [pɪk] (n) выбор; (v) {A2} {preferences and decisions} выбирать, {B1} {farming} подбиратьe
 
+{B1} {preferences and decisions {decide}}
+   57. (  1) 3T ?#PT award [əˈwɔːd] (n) {A2} {C1} {money} премия, {C1} {preferences and decisioins} {education} награда; (v) {B1} {preferences and decisions} присуждать
+  193. (  1) 3T *#PT determined [dɪˈtɜːmɪnd] -ed: (v) {B1} {scientific research} определять, устанавливать; (adj) {B1} {preference and decisions} решительный
+  386. (  2) 3T *#PT judge [ˈʤ ʌʤ ] (v) {B1} {opinion and argument} судить, {B1} {doubt, guessing and certainty} оценивать, {B2} {law and justice} осуждать; (n) {B1} {preference and decisions} {law and justice} {jobs} судья, {B1} {opinion and argument} эксперт
+  780. (  2) 3T *#PT vote [vəʊt] (n) голос, {B2} {politics} голоса, {B1} {politics} {preference and decisions} голосование; (v) {B1} {politics} {C1} {suggestion and advice} голосовать
+  793. (  1) 3T *#PT whether [ˈwɛðə] (conj) {B1} {preference and decisions} ли; (pron) который
+
 {preferences and decisions {dislike}}
 .....................................
 {A1} {preferences and decisions {dislike}}
   361. (  1) 3T *#PT hate [heɪt] (n) {B1} {preference and decisions} {feelings} ненависть; (v) (stative) {A1} {preferences and decisions} {feelings} ненавидеть
 
 {A2} {preferences and decisions {dislike}}
+
+{B1} {preferences and decisions {dislike}}
+  205. (  2) 3T *#PT dislike [dɪsˈlaɪk] (n) {B1} {preferences and decisions} неприязнь, нелюбовь, антипатия; (v) {B1} {preferences and decisions} не любить
+  239. (  1) 3T *#PT enemy [ˈɛnɪmi] (n) {B1} {preference and decisions} {B2} {difficulty and failure} враг, {B1} {war and conflict} противник; (adj) вражеский
+  335. (  1) 3T *#PT hate [heɪt] (n) {B1} {preference and decisions} {feelings} ненависть; (v) (stative) {A1} {preferences and decisions} {feelings} ненавидеть
 
 {preferences and decisions {like}}
 ..................................
@@ -3285,6 +3304,11 @@ Functions
   461. (  2) 3T *#PT love [lʌv] (n) {family and relationships} {feelings} любовь; (v)(stative) {A1} {feelings} {preference and decisions} любить
 
 {A2} {preferences and decisions {like}}
+{B1} {preferences and decisions {like}}
+  387. (  1) 3T ?#PT keen [kiːn] (adj) {B1} {feelings} {personal qualities} {preference and decisions} острый, проницательный, тонкий
+              1T *#  like [laɪk] (v)(stative) {A1} {preference and decisions} {B1} {opinion and argument} {phones, email and the internet} нравится; (prop) {A1} {opinion and argument} подобно, вроде, словно; (adj) подобный; (n) {B1} {preferences and decisions} нечто подобное; (conj) как будто
+  424. (  1) 3T *#PT mad [mæd] (adj) {B1} {feelings} {preferences and decisions} безумный, сумасшедший, бешеный; (v) сходить с ума
+  494. (  1) 5T ?#PT passion [ˈpæʃən] (n) {B1} {preferences and decisions} {feelings} {family and relationships} страсть, увлечение, энтузиазм
 
 {preferences and decisions {prefer}}
 ....................................
@@ -3292,6 +3316,7 @@ Functions
   620. (  1) 3T *#PT prefer [priˈfɜː] (v)(stative) {A1} {preference and decisions} предпочитать; (adj) предпочтительный
 
 {A2} {preferences and decisions {prefer}}
+{B1} {preferences and decisions {prefer}}
 
 {suggestions and advice}
 -----------------------------
@@ -3309,6 +3334,17 @@ Functions
               1T *#  should [ʃʊd] (auxiliary)(v)(modal) {A1} {A2} {suggestions and advice} {B2} {doubt, guessing and certainty} {opinion and argument} должен, I: shall-should
   808. (  1) 3T ?#PT tip [tɪp] (n) {B1} {money} {cooking and eating} чаевые, наконечник, кончик, {A2} {suggestions and advice} совет
 
+{B1} {suggestions and advice {advice}}
+              xx ?#  advice+column [ədˈvaɪs ˈkɒləm] (n) {B1} {tv, radio and news} {suggestion and advice} колонка советов
+   17. (  1) 3T *#PT advise [ədˈvaɪz] (v) {B1} {suggestion and advice} {opinion and arguement} советовать
+              4T *#  adviser [ədˈvaɪzə] (n) {B1} {suggestions and advice} {jobs} {money} советник, консультант
+              xx ?#  if+i+were+you [ɪf aɪ wɜː juː] (idiom) {B1} {suggestions and advice} если бы я был тобой, = used to give somebody advice
+              3T *#  opinion [əˈpɪnjən] (n) {A1} {opinion and argument} {B1} {suggestions and advice} мнение
+              xx ?#  ought+to [ɔːt tuː] (modal verb) {B1} {suggestions and advice} должен, = used to say what you advise or recommend, {B2} {doubt, guessing and certainty} = used to say what has probably happened or is probably true
+  580. (  1) 5T *#PT recommendation [ˌrɛkəmɛnˈdeɪʃən] (n) {B1} {suggestion and advice} рекомендация
+  624. (  1) 3T *#PT rule [ˈruːl] (n) {A1} {permission and obligation} {games and toys} правило, {B1} {suggestions and advice} норма, {B2} {politics} власть, правление, линейка; (v) {B1} {politics} {C1} {preference and decisions} {law and justice} управлять
+  782. (  1) 3T *#PT warn [wɔːn] (v) {B1} {suggestions and advice} предупреждать, предостерегать, упреждать
+
 {suggestions and advice {suggestions}}
 {A1} {suggestions and advice {suggestions}}
    17. (  1) 3T *#PT advice [ædˈvaɪs/ədˈvaɪs] (n) {A1} {suggestions and advice} {opinion and argument} совет, консультация
@@ -3322,6 +3358,9 @@ Functions
   774. (  1) 3T *#PT suggest [səˈʤ ɛst] (v) {A2} {opinion and argument} {suggestion and advice} предлагать
               xx ?#  why+not [waɪ nɒt] (idiom) {A2} {suggestions and advice} почему нет
 
+{B1} {suggestions and advice {suggestions}}
+              1T *#  must [mʌst] (v)(auxiliary)(modal) {A1} {permission and obligation} {B1} {suggestions and advice} должен, надо, нужно; (n) необходимость; (v) быть должным
+
 Health
 =======
 {disability}
@@ -3330,11 +3369,16 @@ Health
 .....................................
 {A1} {disability {living with disability}}
 {A2} {disability {living with disability}}
+{B1} {disability {living with disability}}
+    5. (  2) 3T *#PT access [ˈæksɛs] (n) {B1} доступ; (v) {B1} {computers} обращаться, иметь доступ
+              xx ?#  guide+dog [ɡaɪd dɒɡ] (n) {B1} {animals} {disability} собака-поводырь
+              yT ?#  wheelchair [ˈwiːlʧeə] (n) {B1} {healthcare} {disability} инвалидная коляска
 
 {disability {types of disability}}
 ..................................
 {A1} {disability {types of disability}}
 {A2} {disability {types of disability}}
+{B1} {disability {types of disability}}
 
 {health and fitness}
 --------------------
@@ -3346,6 +3390,19 @@ Health
   664. (  1) 3T *#PT run [rʌn] -0,2ed: (v) {A1} {health and fitness} {B1} {transport by bus and train} {B2} {engineering} {computers} работать, бежать, {B1} {business} управлять, I: run-ran-run; (n) {A2} бег, работа
   857. (  2) 3T *#PT walk [(UK)wɔ:k/(US)wɑk/wɔ:k] (v) {A1} {health and fitness} {A2} {animals} ходить, идти, гулять; (n) {A1} ходьба
 
+{A2} {health and fitness {exercise}}
+              5T ?#  jog [ʤ ɒɡ] (n) {A2} {health and fitness} пробежка, трусца; (v) {A2} {health and fitness} {hobbies} бегать трусцой
+              5T ?#  jogging [ʤ ɒɡɪŋ] {A2} {health and fitness} {hobbies} -ing: (v) {A2} {health and fitness} {hobbies} бегать трусцой
+  821. (  1) 3T *#PT train [treɪn] (n) {A1} {transport by bus and train} поезд; (v) {A2} {education} {jobs} {sports: other sports} {health and fitness} тренироваться, обучать
+              3T *#  walking [(UK)wɔ:kɪŋ/(US)wɑkɪŋ/wɔ:kɪŋ] {A2} {holidays} {hobbies} {health and fitness} -ing: (v) {A1} {health and fitness} {A2} {animals} ходить, идти, гулять
+              xx ?#  work+out [wɜːk aʊt] (phrasal verb) {A2} {health and fitness} тренировка
+
+{B1} {health and fitness {exercise}}
+              5T *#  athlete [ˈæθliːt] (n) {A2} {sports: other sports} {B1} {health and fitness} легкоатлет, спортсмен
+              xx ?#  exercise+bike [ˈɛksəsaɪz baɪk] (n) {B1} {health and fitness} велотренажер
+              xx ?#  jogger [ˈʤ ɒɡə] (n) {B1} {health and fitness} {hobbies} бегун
+              xT *#  pe [piː-iː] (n) {B1} {education} {health and fitness} физическое воспитание = physical education, = sport and exercise that is taught in schools
+
 {A1} {health and fitness {good health}}
   267. (  2) 3T *#PT exercise [ˈɛksəsaɪz] (n) {A1} {sports: other sports} {health and fitness} {education} упражнение, {B2} {success} осуществление, тренировка, занятие; (v) {A1} {sports: other sports} {health and fitness} {B2} {success} осуществлять, проявлять, тренироваться, выполнять
   299. (  1) 3T *#PT fine [faɪn] (n) {C1} {crime and punishment} {money} штраф; (v) {C1} {crime and punishment} оштрафовать; (adv) хорошо, отлично; (adj) {A1} прекрасный, мелкий, {A1} {health and fitness} тонкий
@@ -3355,14 +3412,14 @@ Health
   745. (  1) 3T *#PT strong [strɒŋ] (adj) {A1} {health and fitness} {B1} {personal qualities} {B2} {weather} {success} сильные, {B1} {cooking and eating} крепкий
   873. (  3) 4T *#PT well [wɛl] (excl) {A1} {opinion and argument} = used to agree to something, rather unwillingly; (adv) {C1} {doubt, guessing and certainty} хорошо, вполне; (n) {C1} колодец; (adj) {A1} {health and fitness} здоровый
 
-{A2} {health and fitness {exercise}}
-              5T ?#  jog [ʤ ɒɡ] (n) {A2} {health and fitness} пробежка, трусца; (v) {A2} {health and fitness} {hobbies} бегать трусцой
-              5T ?#  jogging [ʤ ɒɡɪŋ] {A2} {health and fitness} {hobbies} -ing: (v) {A2} {health and fitness} {hobbies} бегать трусцой
-  821. (  1) 3T *#PT train [treɪn] (n) {A1} {transport by bus and train} поезд; (v) {A2} {education} {jobs} {sports: other sports} {health and fitness} тренироваться, обучать
-              3T *#  walking [(UK)wɔ:kɪŋ/(US)wɑkɪŋ/wɔ:kɪŋ] {A2} {holidays} {hobbies} {health and fitness} -ing: (v) {A1} {health and fitness} {A2} {animals} ходить, идти, гулять
-              xx ?#  work+out [wɜːk aʊt] (phrasal verb) {A2} {health and fitness} тренировка
+{A2} {health and fitness {good health}}
+  270. (  1) 3T *#PT energy [ˈɛnəʤ i] (n) {A2} {health and fitness} {the environment} {C1} {physics and chemistry} энергия, силы, энергичность
+  324. (  2) 3T *#PT fit [fɪt] (v)(stative) {A2} {clothes and fashion} {B2} {opinion and argument} соответствовать, приспосабливать, подходить, устанавливать, I: fit-fit/fitted-fit/fitted; (adj) {A2} {health and fitness} в хорошей форме, приспособленный; (n) {C1} {health problems} припадок; (adv) впору
+  858. (  1) 3T *#PT weight [weɪt] (n) {A2} {maths and measurement} {health and fitness} {appearance} вес, масса, груз; (v) весить
 
-{A1} {health problems}
+{B1} {health and fitness {good health}}
+
+{health problems}
 ----------------------
 {health problems {addiction}}
 .............................
