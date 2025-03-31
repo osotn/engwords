@@ -1,0 +1,19 @@
+RTSP
+====
+Application level network protocol designed for multiplexing and packetizing
+multimedia transport stream.
+
+RTSP servers use the RTP
+
+
+ffplay rtsp://user:password@localhost:8554/video0 -rtsp_transport {tcp | udp}
+
+ffmpeg -f v4l2 -input_format mjpeg -video_size 640x640  -i /dev/video0  -f rtsp -rtsp_transport tcp rtsp://localhost:8554/video0
+
+./mediamtx
+[RTSP] listener opened on :8554 (TCP), :8000 (UDP/RTP), :8001 (UDP/RTCP)
+
+
+
+
+
