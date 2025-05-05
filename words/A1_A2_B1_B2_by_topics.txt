@@ -1232,6 +1232,11 @@ Animals
               yT ?#  crocodile [ˈkrɒkədaɪl] (n) {B1} {animals} крокодил
   519. (  1) 3T ?#PT poisonous [ˈpɔɪznəs] (adj) {B1} {the environment} {animals} {insects, worms, etc} ядовитый
 
+{B2} {animals {reptiles and amphibians}
+              5T ?#  dinosaur [ˈdaɪnəʊsɔː] (n) {B2} {animals} динозавр
+              5T ?#  reptile [ˈrɛptaɪl] (n) {B2} {animals} рептилия, пресмыкающееся; (adj) пресмыкающийся
+              xx ?#  sea+turtle [siː ˈtɜːt(ə)l] (n) {B2} {animals} морская черепаха
+              4T ?#  tortoise [ˈtɔːtəs] (n) {B2} {animals} черепаха
 
 {animals {animal behaviour}}
 ............................
@@ -1240,12 +1245,16 @@ Animals
    89. (  1) 3T *#PT behaviour [bɪˈheɪvjə] (n) {A2} {animals} {biology} поведение
 
 {B1} {animals {animal behaviour}}
+{B2} {animals {animal behaviour}}
+  800. (  2) 3T ?#PT mate [meɪt] (n) мат, помощник, приятель, товарищ, друг, {B2} {family and relationships} {birds} {animals} супруг, супруга; (v) {B2} {animals} {birds} спариваться
 
 {animals {animal homes}}
 ........................
 {A1} {animals {animal homes}}
 {A2} {animals {animal homes}}
 {B1} {animals {animal homes}}
+{B2} {animals {animal homes}}
+              4T *#  cage [keɪʤ ] (n) {B2} {birds} {animals} клетка
 
 {animals {animals in general}}
 ..............................
@@ -1258,6 +1267,16 @@ Animals
 {B1} {animals {animals in general}}
               5T ?#  endangered [ɪnˈdeɪnʤ əd] -ed: (v) подвергать опасности; (adj) {B1} {animals} находящихся под угрозой исчезновения
 
+{B2} {animals {animals in general}}
+  294. (  1) 3T *#PT creature [ˈkriːʧə] (n) {B2} {insects, worms, etc.} {animals} существо
+              xx ?#  die+out [daɪ aʊt] (phrasal verb) {B2} {animals} вымирать
+  400. (  1) 3T ?#PT domestic [dəʊˈmɛstɪk] (adj) {B2} {transport by air} {politics} внутренний, {animals} домашний; (n) прислуга
+              5T ?#  extinct [ɪksˈtɪŋkt] (adj) {B2} {animals} потухший, вымерший
+              5T ?#  extinction [ɪksˈtɪŋkʃən] (n) {B2} {animals} вымирание
+  609. (  1) 5T ?#PT habitat [ˈhæbɪtæt] (n) {B2} {the environment} {animals} среда обитания
+              5T ?#  mammal [ˈmæməl] (n) {B2} {animals} млекопитающее
+ 1417. (  1) 5T ?#PT wildlife [ˈwaɪldlaɪf] (n) {B2} {animals} дикая природа, живая природа
+
 {animals {dogs}}
 ................
 {A1} {animals {dogs}}
@@ -1266,6 +1285,11 @@ Animals
               xx ?#  guide+dog [ɡaɪd dɒɡ] (n) {B1} {animals} {disability} собака-поводырь
               xx ?#  police+dog [pəˈliːs dɒɡ] (n) {B1} {animals} {law and justice} полицейская собака
               xx ?#  sheepdog [ˈʃiːpdɒɡ] (n) {B1} {animals} овчарка
+
+{B2} {animals {dogs}}
+              xx ?#  guard+dog [ɡɑːd dɒɡ] (n) {B2} {animals} сторожевая собака
+              xx ?#  hearing+dog [ˈhɪərɪŋ dɒɡ] (n) {B2} {animals} {disability} = a dog trained to help a person who cannot hear well
+              xT *#  puppy [ˈpʌpi] (n) {B2} {animals} щенок
 
 {animals {farm animals}}
 ........................
@@ -1282,6 +1306,8 @@ Animals
               xT *#  bull [bʊl] (n) {B1} {animals} бык
               5T *#  goat [gəʊt] (n) {B1} {animals} козел, коза
 
+{B2} {animals {farm animals}}
+
 {animals {groups of animals}}
 .............................
 {A1} {animals {groups of animals}}
@@ -1289,6 +1315,9 @@ Animals
               1T *#  family [ˈfæmɪli] (n) {A1} {family and relationships} {life stages} семья, {A2} {animals} семейство; (adj) {A1} семейный, фамильный
 
 {B1} {animals {groups of animals}}
+{B2} {animals {groups of animals}}
+              3T *#  pack [pæk] (n) {B1} пакет, упаковка, {B2} {animals} стая, {C1} {sports: other sports} группа; (v) упаковывать, {A2} {holidays} паковать
+              5T *#  species [ˈspiːʃiːz] (n) {B2} {animals} {biology} вид, разновидность, порода, род
 
 {animals {pars of animals}}
 ...........................
@@ -1301,6 +1330,10 @@ Animals
   649. (  1) 3T *#PT shell [ʃɛl] (n) {B1} {fish and shellfish} {animals} оболочка, панцирь, {C2} {war and conflict} снаряд
   712. (  1) 3T *#PT tail [teɪl] (n) {B1} {animals} {birds} {fish and shellfish} хвост; (adj) хвостовой; (v) выслеживать
   801. (  1) 3T *#PT wool [wʊl] (n) {B1} {animals} {clothes and fashion} шерсть; (adj) шерстяной
+
+{B2} {animals {pars of animals}}
+              3T *#  coat [kəʊt] (n) {A1} {clothes and fashion} {B2} {animals} пальто, слой, оболочка; (v) покрывать
+              5T ?#  venom [ˈvɛnəm] (n) {B2} {animals} {insects, worms, etc.} яд, злоба
 
 {animals {pets}}
 ................
@@ -1318,6 +1351,10 @@ Animals
               xx ?#  guinea+pig [ˈɡɪni pɪɡ] (n) {B1} {animals} морская свинка, {C1} {scientific research} подопытный кролик, мичман
               zT ?#  hamster [ˈhæmstə] (n) {B1} {animals} хомяк
 
+{B2} {animals {pets}}
+              yT ?#  kitten [ˈkɪtn] (n) {B2} {animals} котенок; (v) котиться
+              xx ?#  pet+sitter [pɛt ˈsɪtə] (n) {B2} {animals} няня для домашних животных
+
 {animals {wild mammals}}
 ........................
 {A1} {animals {wild mammals}}
@@ -1331,11 +1368,25 @@ Animals
               4T *#  tiger [ˈtaɪgə] (n) {A2} {animals} тигр
               4T *#  whale [weɪl] (n) {A2} {animals} кит; (v) бить, пороть
 
-{A2} {animals {wild mammals}}
+{B1} {animals {wild mammals}}
               xx ?#  big+cat [bɪɡ kæt] (n) {B1} {animals} большая кошка = any large wild animal of the cat family (lions, tigers and leopards)
               5T *#  dolphin [ˈdɒlfɪn] (n) {B1} {animals} дельфин
               4T *#  fox [fɒks] (n) {B1} {animals} лиса, хитрец; (v) хитрить
               4T *#  wolf [wʊlf] (n) {B1} {animals} волк; (v) {C2} {feelings} пожирать с жадностью
+
+{B2} {animals {wild mammals}}
+              yT *#  ape [eɪp] (n) {B2} {animals} обезьяна; (v) подражать
+              zT ?#  cheetah [ˈʧiːtə] (n) {B2} {animals} гепард
+              4T *#  deer [dɪə] (n) {B2} {animals} олень, I: deer-deer (plural)
+              zT ?#  giraffe [ʤ ɪˈrɑːf] (n) {B2} {animals} жираф
+              yT ?#  kangaroo [ˌkæŋɡəˈruː] (n) {B2} {animals} кенгуру
+              5T ?#  leopard [ˈlɛpəd] (n) {B2} {animals} леопард, барс
+              xx ?#  polar+bear [ˈpəʊlə beə] (n) {B2} {animals} белый медведь
+ 1042. (  1) xT ?#PT rat [ræt] (n) {B2} {animals} крыса, предатель; (adj) крысиный
+              zT ?#  reindeer [ˈreɪndɪə] (n) {B2} {animals} северный олень
+              3T *#  seal [siːl] (n) {C1} печать, {B2} {animals} тюлень; (v) {C1} {discussion and agreement} запечатывать
+              5T ?#  squirrel [ˈskwɪr(ə)l] (n) {B2} {animals} белка; (v) запасаться
+              4T ?#  zebra [ˈzɛbrə/ˈziːbrə] (n) {B2} {animals} зебра
 
 {animals {working animals}}
 ................................
@@ -1343,6 +1394,9 @@ Animals
 {A2} {animals {working animals}}
 {B1} {animals {working animals}}
               4T *#  camel [ˈkæməl] (n) {B1} {animals} верблюд
+
+{B2} {animals {working animals}}
+              4T *#  donkey [ˈdɒŋki] (n) {B2} {animals} осел
 
 {birds}
 ------------
@@ -1353,12 +1407,20 @@ Animals
 
 {A2} {birds {bird behaviour}}
 {B1} {birds {bird behaviour}}
+{B2} {birds {bird behaviour}}
+              1T *#  call [kɔːl] (n) {A1} {phones, email and the internet} вызов, {B2} {birds} зов, соединение; (v) {A1} {phones, email and the internet} {B1} {working life} вызов, {B2} {birds} назвать, называть, вызывать
+  393. (  2) 5T ?#PT dive [daɪv] (n) {B2} {sports: water sports} {transport by air} погружение, пикирование; (v) {B2} {sports: water sports} {hobbies} {transport by air} {birds} нырять, {C1} {sports: ball and racket sports} {money} погружаться
+              1T *#  lay [leɪ] (v) {B1} положить, {B2} {birds} {fish and shellfish} {insects, worms, etc.} класть яйца (regular verb); -1ed: (v) {A1} лежать, находиться, I: lie-lay-lay
+  800. (  2) 3T ?#PT mate [meɪt] (n) мат, помощник, приятель, товарищ, друг, {B2} {family and relationships} {birds} {animals} супруг, супруга; (v) {B2} {animals} {birds} спариваться
+              5T *#  migrate [maɪˈgreɪt] (v) {B2} {birds} {C1} {social issues} мигрировать, переселяться
 
 {birds {bird homes}}
 ....................
 {A1} {birds {bird homes}}
 {A2} {birds {bird homes}}
 {B1} {birds {bird homes}}
+{B2} {birds {bird homes}}
+              4T *#  cage [keɪʤ ] (n) {B2} {birds} {animals} клетка
 
 {birds {birds}}
 ...............
@@ -1375,6 +1437,15 @@ Animals
               xx ?#  seabird [siːbɜːd] (n) {B1} {animals} морская птица = a bird that lives close to the sea
               4T ?#  turkey [ˈtɜːki] (n) {B1} {food} {birds} индейка, индюк, Турция
 
+{B2} {birds {birds}}
+              xx ?#  blackbird [ˈblækbɜːd] (n) {B2} {birds} черный дрозд
+              4T ?#  eagle [ˈiːgl] (n) {B2} {birds} орел
+              xx ?#  golden+eagle [ˈɡəʊld(ə)n+ˈiːɡ(ə)l] (n) {B2} {birds} беркут
+              4T ?#  goose [ɡuːs] (n) {B2} {birds} гусь, {C1} {food} гусятина, простушка, простак; (v) освистыват
+              yT *#  owl [aʊl] (n) {B2} {birds} сова, филин
+              4T ?#  parrot [ˈpærət] (n) {B2} {birds} попугай
+              4T ?#  pigeon [ˈpɪʤ ɪn] (n) {B2} {birds} голубь; (adj) голубиный
+
 {birds {parts of birds}}
 ........................
 {A1} {birds {parts of birds}}
@@ -1385,6 +1456,11 @@ Animals
 {B1} {birds {parts of birds}}
   712. (  1) 3T *#PT tail [teɪl] (n) {B1} {animals} {birds} {fish and shellfish} хвост; (adj) хвостовой; (v) выслеживать
   798. (  1) 3T ?#PT wing [wɪŋ] (n) {B1} {birds} {food} {transport by air} крыло; (v) лететь
+
+{B2} {birds {parts of birds}}
+              3T ?#  beak [biːk] (n) {B2} {birds} клюв
+  149. (  1) 3T *#PT breast [brɛst] (n) {B2} {body} {birds} {food} грудь, молочная железа; (v) восставать
+  514. (  1) 3T ?#PT feather [ˈfɛðə] (n) {B2} {birds} перо; (v) оперять
 
 {fish and shellfish}
 -------------------------
@@ -1402,11 +1478,22 @@ Animals
               xT ?#  salmon [ˈsæmən] (n) {B1} {fish and shellfish} лосось, семга; (adj) лососевый, оранжево-розовый
               xx ?#  sea+fish [siː fɪʃ] (n) {B1} {fish and shellfish} морская рыба
 
+{B2} {fish and shellfish {fish}}
+              xT ?#  coral [ˈkɒrəl] (n) {B2} {fish and shellfish} {clothes and fashion} коралл; (adj) коралловый
+              yT ?#  freshwater [ˈfrɛʃˌwɔːtə] (adj) {B2} {fish and shellfish} {geography} пресноводный
+              zT ?#  goldfish [ˈɡəʊldfɪʃ] (n) {B2} {fish and shellfish} золотая рыбка, серебряный карась
+              xx ?#  goldfish+bowl [ˈɡəʊldfɪʃ bəʊl] (n) {B2} {fish and shellfish} чаша для золотых рыбок, = a glass bowl for keeping fish in as pets
+              1T *#  lay [leɪ] (v) {B1} положить, {B2} {birds} {fish and shellfish} {insects, worms, etc.} класть яйца (regular verb); -1ed: (v) {A1} лежать, находиться, I: lie-lay-lay
+              yT ?#  saltwater [ˈsɔːltˌwɔːtə] (adj) {B2} {fish and shellfish} {geography} соленая вода, морской
+              4T ?#  tuna [ˈtuːnə] (n) {B2} {fish and shellfish} тунец
+
 {fish and shellfish {other sea creatures}}
 ..........................................
 {A1} {fish and shellfish {other sea creatures}}
 {A2} {fish and shellfish {other sea creatures}}
 {B1} {fish and shellfish {other sea creatures}}
+{B2} {fish and shellfish {other sea creatures}}
+              5T ?#  jellyfish [ˈʤ ɛlɪfɪʃ] (n) {B2} {fish and shellfish} медуза
 
 {fish and shellfish {parts of fish}}
 ....................................
@@ -1418,11 +1505,19 @@ Animals
   649. (  1) 3T *#PT shell [ʃɛl] (n) {B1} {fish and shellfish} {animals} оболочка, панцирь, {C2} {war and conflict} снаряд
   712. (  1) 3T *#PT tail [teɪl] (n) {B1} {animals} {birds} {fish and shellfish} хвост; (adj) хвостовой; (v) выслеживать
 
+{B2} {fish and shellfish {parts of fish}}
+
 {fish and shellfish {shellfish}}
 ................................
 {A1} {fish and shellfish {shellfish}}
 {A2} {fish and shellfish {shellfish}}
 {B1} {fish and shellfish {shellfish}}
+{B2} {fish and shellfish {shellfish}}
+              5T ?#  crab [kræb] (n) {B2} {fish and shellfish} {food} краб, помеха, неудобство; (adj) раздражительный; (v) царапать
+              5T ?#  oyster [ˈɔɪstə] (n) {B2} {fish and shellfish} устрица
+              xx ?#  prawn [prɔːn] (n) {B2} {fish and shellfish} пильчатая креветка
+              5T ?#  shellfish [ˈʃɛlfɪʃ] (n) {B2} {fish and shellfish} моллюск, ракообразное
+              4T ?#  shrimp [ʃrɪmp] (n) {B2} {fish and shellfish} креветка
 
 {insects, worms, etc.}
 ---------------------------
@@ -1437,6 +1532,10 @@ Animals
 {B1} {insects, worms, etc. {insect behaviour}}
   519. (  1) 3T ?#PT poisonous [ˈpɔɪznəs] (adj) {B1} {the environment} {animals} {insects, worms, etc} ядовитый
 
+{B2} {insects, worms, etc. {insect behaviour}}
+              1T *#  lay [leɪ] (v) {B1} положить, {B2} {birds} {fish and shellfish} {insects, worms, etc.} класть яйца (regular verb); -1ed: (v) {A1} лежать, находиться, I: lie-lay-lay
+              3T ?#  sting [stɪŋ] (n) {B2} {health problems} укус, {B2} {insect, worms, etc.} жало, укол; (v) {B2} {health problems} {insect, worms, etc.} ужалить
+
 {insects, worms, etc. {insect forms}}
 .....................................
 {A1} {insects, worms, etc. {insect forms}}
@@ -1444,6 +1543,7 @@ Animals
 
 {A2} {insects, worms, etc. {insect forms}}
 {B1} {insects, worms, etc. {insect forms}}
+{B2} {insects, worms, etc. {insect forms}}
 
 {insects, worms, etc. {insect homes}}
 .....................................
@@ -1452,6 +1552,7 @@ Animals
   856. (  1) 3T *#PT web [wɛb] (n) {A2} сеть, {A2} {insects, worms, etc.} паутина, перемычка; (v) опутывать паутиной, вовлекать
 
 {B1} {insects, worms, etc. {insect homes}}
+{B2} {insects, worms, etc. {insect homes}}
 
 {insects, worms, etc. {insects}}
 ................................
@@ -1466,17 +1567,28 @@ Animals
               5T *#  butterfly [ˈbʌtəflaɪ] (n) {B1} {insecs, worms, etc} бабочка, мотылек, баттерфляй, внутренняя дрожь
               4T ?#  mosquito [məsˈkiːtəʊ] (n) {B1} {insecs, worms, etc} комар, москит
 
+{B2} {insects, worms, etc. {insects}}
+  158. (  1) xT *#PT bug [bʌg] (n) {B2} {insects, worms, etc.} жук, клоп, {B2} {health problems} вирус, {C1} {crime and punishment} аппарат для подслушивания, {B2} {computers} ошибка; (v) {C1} {crime and punishment} подслушивать, раздражать
+              4T ?#  wasp [wɒsp] (n) {B2} {insects, worms, etc.} оса
+
 {insects, worms, etc. {other invertebrates}}
 ............................................
 {A1} {insects, worms, etc. {other invertebrates}}
 {A2} {insects, worms, etc. {other invertebrates}}
 {B1} {insects, worms, etc. {other invertebrates}}
+{B2} {insects, worms, etc. {other invertebrates}}
+  294. (  1) 3T *#PT creature [ˈkriːʧə] (n) {B2} {insects, worms, etc.} {animals} существо
+              4T ?#  snail [sneɪl] (n) {B2} {insects, worms, etc.} {gargens} улитка
 
 {insects, worms, etc. {parts of insects}}
 .........................................
 {A1} {insects, worms, etc. {parts of insects}}
 {A2} {insects, worms, etc. {parts of insects}}
 {B1} {insects, worms, etc. {parts of insects}}
+{B2} {insects, worms, etc. {parts of insects}}
+              3T ?#  sting [stɪŋ] (n) {B2} {health problems} укус, {B2} {insect, worms, etc.} жало, укол; (v) {B2} {health problems} {insect, worms, etc.} ужалить
+              5T ?#  venom [ˈvɛnəm] (n) {B2} {animals} {insects, worms, etc.} яд, злоба
+
 
 {insects, worms, etc. {spiders, etc.}}
 ......................................
@@ -1485,12 +1597,15 @@ Animals
   748. (  1) 3T *#PT spider [ˈspaɪdər] (n) {A2} {insects, worms, etc.} паук
 
 {B1} {insects, worms, etc. {spiders, etc.}}
+{B2} {insects, worms, etc. {spiders, etc.}}
 
 {insects, worms, etc. {worms}}
 ..............................
 {A1} {insects, worms, etc. {worms}}
 {A2} {insects, worms, etc. {worms}}
 {B1} {insects, worms, etc. {worms}}
+{B2} {insects, worms, etc. {worms}}
+ 1428. (  1) 4T ?#PT worm [wɜːm] (n) {B2} {insects, worm, etc.} {C2} {computers} червь, глист, говнюк
 
 Appearance
 ==========
@@ -1515,6 +1630,15 @@ Appearance
               xx *#  unattractive [ʌnəˈtræktɪv] {B1} {appearance} un-: (adj) {A2} {appearance} привлекательный
               xx ?#  well+dressed [wɛl drɛst] (adj) {B1} {apperance} хорошо одетый
 
+{B2} {appearance {attractiveness}}
+              3T *#  beauty [ˈbjuːti] (n) {B1} {B2} {appearance} красота, красавица, прелесть, краса
+  315. (  1) xT *#PT cute [kjuːt] (adj) {B2} {appearance} милый, привлекательный
+              5T ?#  glamorous [ˈɡlæm(ə)rəs] (adj) {B2} {appearance} {clothes and fashion} гламурный, очаровательный, обаятельный
+              yT ?#  makeover [ˈmeɪkˌəʊvə] (n) {B2} {appearance} преображение
+  959. (  1) 3T *#PT plain [pleɪn] (adj) {B2} {houses and homes} {clothes and fashion} {apperance} {C1} {personal qualities} простой, гладкий; (n) {C1} {geography} равнина
+ 1159. (  1) xT *#PT sexy [ˈsɛksi] (adj) {B2} {appearance} {C1} сексуальный, эротический, чувственный
+ 1254. (  1) 5T ?#PT stunning [stʌnɪŋ] -ing: (v) {C1} {feelings} оглушать, ошеломлять; (n) шок; (adj) {B2} {appearance} {C1} ошеломляющий, великолепный
+
 {appearance {beauty products}}
 ..............................
 {A1} {appearance {beauty products}}
@@ -1527,6 +1651,14 @@ Appearance
               zT ?#  shaver [ˈʃeɪvə] (n) {B1} {appearance} бритва
               4T ?#  toothpaste [ˈtuːθpeɪst] (n) {B1} {apperance} зубная паста
 
+{B2} {appearance {beauty products}}
+              xx ?#  electric+razor [ɪˈlɛktrɪk ˈreɪzə] (n) {B2} {appearance} электробритва
+              xT ?#  gel [ʤ ɛl] (n) {B2} {appearance} гель
+              xx ?#  hand+cream [hænd kriːm] (n) {B2} {appearance} крем для рук
+              4T ?#  lipstick [ˈlɪpstɪk] (n) {B2} {appearance} помада, губная помада
+  787. (  1) 3T ?#PT make-up [ˈmeɪkʌp] (n) {B2} {film and theatre} {appearance} макияж, косметика, состав, грим, верстка
+              yT ?#  razor [ˈreɪzə] (n) {B2} {appearance} бритва; (v) брить
+ 
 {appearance {body shape}}
 .........................
 {A1} {appearance {body shape}}
@@ -1542,6 +1674,13 @@ Appearance
 
 {B1} {appearance {body shape}}
               1T *#  figure [ˈfɪgə] (n) {A2} {maths and measurement} рисунок, {B1} {appearance} фигура, иллюстрация, цифра; (v) {B2} изображать, придавать форму
+
+{B2} {appearance {body shape}}
+              yT ?#  obese [əʊˈbiːs] (adj) {B2} {health problems} {appearance} тучный, страдающий ожирением, жирный
+  873. (  1) xT ?#PT obesity [(UK)əʊˈbiːsɪti/(US)oʊˈbisəti/əˈbisəti] (n) {B2} {health problems} {appearance} ожирение, тучность
+              yT ?#  overweight [ˈəʊvəweɪt->(n)/ˌəʊvəˈweɪt->(adj,v)] (n) избыточный вес, перевес; (v) перегружать; (adj) {B2} {health problems} {appearance} весящий больше нормы, тяжелее обычного
+              yT *#  skinny [ˈskɪni] (adj) {B2} {appearance} тощий, обтягивающий, исхудалый
+              xx ?#  underweight [ˌʌndəˈweɪt] (adj) {B2} {health problems} {appearance} с недовесом
 
 {appearance {describing hair}}
 ..............................
@@ -1566,6 +1705,10 @@ Appearance
   652. (  1) 3T ?#PT shiny [ˈʃaɪni] (adj) {B1} {appearance} блестящий, солнечный, яркий
               3T *#  thick [θɪk] (adj) {A2} {B1} {appearance} толстый, {B1} {cooking and eating} густой
 
+{B2} {appearance {describing hair}}
+              5T ?#  bald [bɔːld] (adj) {B2} {appearance} лысый, плешивый, голый
+              yT ?#  ginger [ˈʤ ɪnʤ ə] (n) {C1} {food} {colours and shapes} имбирь; (adj) {B2} {appearance} {colours and shapes} рыжий; (v) подстегнуть
+
 {appearance {facial expressions}}
 ......................................
 {A1} {appearance {facial expressions}}
@@ -1575,6 +1718,8 @@ Appearance
 {B1} {appearance {facial expressions}}
               3T *#  expression [ɪksˈprɛʃən] (n) {A2} {language} {B1} {opinion and argument} выражение, оборот речи, {B1} {appearance} выразительность
 
+{B2} {appearance {facial expressions}}
+
 {appearance {facial hair}}
 ..........................
 {A1} {appearance {facial hair}}
@@ -1582,13 +1727,17 @@ Appearance
               3T *#  beard [bɪəd] (n) {A2} {appearance} борода
 
 {B1} {appearance {facial hair}}
-              xx ?#  moustache [məsˈtɑːʃ] (n) {B1} {apperance} усыxx ?#  moustache [məsˈtɑːʃ] (n) {B1} {apperance} усы
+              xx ?#  moustache [məsˈtɑːʃ] (n) {B1} {apperance} усы
+
+{B2} {appearance {facial hair}}
+              4T ?#  eyebrow [ˈaɪbraʊ] (n) {B2} {appearance} {body} бровь
 
 {appearance {posture and movement}}
 ...................................
 {A1} {appearance {posture and movement}}
-{A2} {appearance {posture and movement}
+{A2} {appearance {posture and movement}}
 {B1} {appearance {posture and movement}}
+{B2} {appearance {posture and movement}}
 
 {appearance {skin}}
 ...................
@@ -1599,6 +1748,11 @@ Appearance
 {B1} {appearance {skin}}
   489. (  1) 3T ?#PT pale [peɪl] (adj) {B1} {appearance} {health problems} {colours and shapes} бледный; (v) бледнеть
   679. (  1) 3T ?#PT spot [spɒt] (n) {B1} {health problems} {appearance} пятно, прыщик, {C1} {weather} капля, {B2} {tv, radio and news} место; (v) {B2} определить
+
+{B2} {appearance {skin}}
+              xT ?#  hairy [ˈheəri] (adj) {B2\} {appearance} волосатый
+              xx ?#  sunburned [ˈsʌnbɜːnt] (adj) {B2} {appearance} {health problems} загорелый
+              xT ?#  tattoo [təˈtuː] (n) {B2} {appearance} тату, татуировка; (v) татуировать
 
 {appearance {styling hair}}
 ...........................
@@ -1615,6 +1769,12 @@ Appearance
               4T *#  shampoo [ʃæmˈpuː] (n) {B1} {appearance} шампунь; (v) {B1} {appearance} мыть голову
               3T *#  shave [ʃeɪv] (v) {B1} {appearance} побриться, брить, бриться; (n) бритье
 
+{B2} {appearance {styling hair}}
+              5T ?#  barber [ˈbɑːbə] (n) {C1} {appearance} {jobs} парикмахер, цирюльник, {B2} {appearance} {shopping} парикмахерская; (v) стричься
+              4T ?#  comb [kəʊm] (n) {B2} {appearance} гребень, расческа; (v) {B2} {appearance} расчесывать
+              5T ?#  dye [daɪ] (n) {B2} {appearance} {colours and shapes} краситель, краска, цвет; (v) {B2} {appearance} {colours and shapes} красить
+              xT ?#  salon [ˈsælɒn] (n) {B2} {shopping} {appearance} салон, гостиная, приемная
+
 {body}
 ------
 {body {face}}
@@ -1628,6 +1788,12 @@ Appearance
 
 {B1} {body {face}}
   412. (  1) 3T *#PT lip [lɪp] (n) {B1} {body} губа; (adj) губной
+
+{B2} {body {face}}
+  192. (  1) 3T *#PT cheek [ʧiːk] (n) {B2} {body} щека, {C1} {personal qualities} наглость; (v) нахальничать
+              3T ?#  chin [ʧɪn] (n) {B2} {body} подбородок
+              4T ?#  eyebrow [ˈaɪbraʊ] (n) {B2} {appearance} {body} бровь
+              4T ?#  forehead [ˈfɒrɪd/ˈfɔːhɛd] (n) {B2} {body} лоб, дерзость
 
 {body {hands and feet}}
 .......................
@@ -1643,6 +1809,16 @@ Appearance
   449. (  1) 3T ?#PT nail [neɪl] (n) {B1} гвоздь, {B1} {body} ноготь, коготь; (v) прибивать
   735. (  1) 3T *#PT toe [təʊ] (n) {B1} {body} палец, носок, палец на ноге
 
+{B2} {body {hands and feet}}
+              xx ?#  big+toe [bɪɡ təʊ] (n) {B2} {body} большой палец ноги
+              xx ?#  fingernail [ˈfɪŋgəneɪl] (n) {B2} {body} ноготь
+  619. (  1) 3T ?#PT heel [hiːl] (n) {B2} {body} пятка, {B2} {clothes and fashion} каблук, крен; (v) крениться
+              xx ?#  little+finger [ˈlɪt(ə)l ˈfɪŋɡə] (n) {B2} {body} мизинец
+              xx ?#  middle+finger [ˈmɪd(ə)l ˈfɪŋɡə] (n) {B2} {body} средний палец
+  923. (  1) xT ?#PT palm [pɑːm] (n) {B2} {body} ладонь, {B2} {plants and trees} пальма; (v) гладить, трогать ладонью
+ 1314. (  1) 3T ?#PT thumb [θʌm] (n) {B2} {body} большой палец руки
+              xx ?#  toenail [ˈtəʊneɪl] (n) {B2} {body} ноготь на пальце ноги
+
 {body {inside the body}}
 ........................
 {A1} {body {inside the body}}
@@ -1657,6 +1833,13 @@ Appearance
    85. (  1) 3T *#PT breathe [briːð] (v) {B1} {body} дышать, вдыхать, вздохнуть
    86. (  1) 3T *#PT breathing [briːðɪŋ] -ing: (v) {B1} {body} дышать, вдыхать, вздохнуть; (n)(u) {B1} {body} дыхание
 
+{B2} {body {inside the body}}
+  179. (  1) 3T *#PT cell [sɛl] (n) {B2} {biology} {body} {crime and punishment} клетка, ячейка, элемент
+  732. (  2) 3T *#PT joint [ʤ ɔɪnt] (n) {C1} соединение, {B2} {body} сустав, шарнир; (adj) {B2} {discussion and agreement} совместный, объединенный; (v) соединять
+  781. (  1) 3T ?#PT lung [lʌŋ] (n) {B2} {body} легкое
+  860. (  1) 3T *#PT nerve [nɜːv] (n) {B2} {body} {biology} нерв, {B2} {feelings} нервы, наглость, мужество
+  903. (  1) 3T *#PT organ [ˈɔːgən] (n) {B2} {body} {music} орган, пенис
+
 {body {mouth and teeth}}
 ........................
 {A1} {body {mouth and teeth}}
@@ -1667,6 +1850,9 @@ Appearance
 {B1} {body {mouth and teeth}}
               xx ?#  false+teeth [fɔːls tiːθ] (n) {B1} {body} вставные зубы
   736. (  1) 3T *#PT tongue [tʌŋ] (n) {B1} {body} язык, язычок
+
+{B2} {body {mouth and teeth}}
+ 1112. (  1) 3T *#PT root [ruːt] (n) {B2} {plants and trees} {food} {body} корень, {B2} {change} {couse and effect} причина, источник; (adj) коренной, основной; (v) укореняться, пускать корни
 
 {body {parts of body}}
 ......................
@@ -1694,6 +1880,13 @@ Appearance
               3T *#  physically [ˈfɪzɪkəli] -ly: (adj)->(adv) {A2} {body} {working life} {B2} {physics and chemistry} физический, телесный; (adv) {B1} {body} физически
   728. (  1) 3T *#PT throat [θrəʊt] (n) {B1} {body} горло
 
+{B2} {body {parts of body}}
+  149. (  1) 3T *#PT breast [brɛst] (n) {B2} {body} {birds} {food} грудь, молочная железа; (v) восставать
+  425. (  1) 3T ?#PT elbow [ˈɛlbəʊ] (n) {B2} {body} локоть, колено, угольник; (v) толкаться локтями
+  629. (  1) 3T ?#PT hip [hɪp] (n) {B2} {body} бедро; (adj) тазобедренный, модный
+              3T ?#  waist [weɪst] (n) шкафут, {B2} {body} талия
+ 1434. (  1) 3T ?#PT wrist [rɪst] (n) {B2} {body} запястье; (adj) наручный
+
 {body {skeleton and muscles}}
 .............................
 {A1} {body {skeleton and muscles}}
@@ -1701,6 +1894,10 @@ Appearance
 {B1} {body {skeleton and muscles}}
               5T ?#  backbone [ˈbækbəʊn] (n) {B1} {body} позвоночник, основа
   446. (  1) 3T *#PT muscle [ˈmʌsl] (n) {B1} {body} мышца, мускул, сила
+
+{B2} {body {skeleton and muscles}}
+              5T *#  skeleton [ˈskɛlɪtn] (n) {B2} {body} скелет, каркас
+ 1187. (  1) 5T *#PT skull [skʌl] (n) {B2} {body} череп, {B2} башка
 
 {clothes and fashion}
 --------------------------
@@ -1721,6 +1918,9 @@ Appearance
 
 {B1} {clothes and fashion {accessories}}
   321. (  1) 3T *#PT glove [glʌv] (n) {B1} {clothes and fashion} перчатка
+
+{B2} {clothes and fashion {accessories}}
+  110. (  1) xT ?#PT badge [bæʤ ] (n) {B2} {clothes and fashion} значок, знак
 
 {clothes and fashion {describing clothes}}
 ..........................................
@@ -1747,6 +1947,27 @@ Appearance
   756. (  1) 3T *#PT uncomfortable [ʌnˈkʌmf(ə)təbl] {B1} {clothes and fashion} {B2} {feelings} un-: (adj) {A2} {clothes and fashion} {B1} {personal qualities} комфортный, удобный
   801. (  1) 3T *#PT wool [wʊl] (n) {B1} {animals} {clothes and fashion} шерсть; (adj) шерстяной
 
+{B2} {clothes and fashion {describing clothes}}
+  176. (  1) 5T *#PT casual [ˈkæʒjʊəl] (adj) {B2} {clothes and fashion} повседневная, случайный, {C1} небрежный, {C1} {jobs} нерегулярный; (n) случайный посетитель
+  429. (  1) 3T *#PT elegant [ˈɛlɪgənt] (adj) {B2} {clothes and fashion} элегантный, изящный, изысканный
+  502. (  1) 5T ?#PT fabric [ˈfæbrɪk] (n) {B2} {clothes and fashion} {shopping} ткань, {B2} {physics and chemistry} материал, {C1} структура, материя; (adj) тканый
+              3T *#  fit [fɪt] (v)(stative) {A2} {clothes and fashion} {B2} {opinion and argument} соответствовать, приспосабливать, подходить, устанавливать, I: fit-fit/fitted-fit/fitted; (adj) {A2} {health and fitness} в хорошей форме, приспособленный; (n) {C1} {health problems} припадок; (adv) впору
+              5T ?#  glamorous [ˈɡlæm(ə)rəs] (adj) {B2} {appearance} {clothes and fashion} гламурный, очаровательный, обаятельный
+              xx ?#  glamorously [ˈɡlæm(ə)rəsli] -ly: (adj)->(adv) {B2} {appearance} {clothes and fashion} гламурный, очаровательный, обаятельный; (adv) {B2} {clothes and fashion} гламурно, обаятельно
+              5T ?#  lace [leɪs] (n) {B2} {clothes and fashion} кружево, шнурок; (adj) кружевной
+  775. (  1) 3T *#PT loose [luːs] (adj) {B2} {clothes and fashion} {C2} {personal qualities} свободный; (adv) свободно
+              3T *#  match [mæʧ] (n) {A1} {sports: ball and racket sports} матч, состязание, спичка, {C1} {opinion and argument} пара, брак; (v) {A1} {A2} {opinion and argument} соответствовать, совпадать, {B2} {clothes and fashion} {colours and shapes} сочетать
+  959. (  1) 3T *#PT plain [pleɪn] (adj) {B2} {houses and homes} {clothes and fashion} {apperance} {C1} {personal qualities} простой, гладкий; (n) {C1} {geography} равнина
+              3T *#  silk [sɪlk] (n) {B2} {clothes and fashion} шелк; (adj) шелковый
+              zT ?#  sporty [ˈspɔːti] (adj) {B2} {clothes and fashion} {C1} {transport by car or lorry} спортивный
+              3T ?#  striped [straɪpt] -ed: (v) {C1} {clothes and fashion} {houses and homes} {buildings} раздеваться, обнажать; (adj) {B2} {clothes and fashion} полосатый, в полоску
+              xx ?#  stripy [ˈstraɪpi] (adj) {B2} {clothes and fashion} полосатый
+              xT ?#  stylish [ˈstaɪlɪʃ] (adj) {B2} {clothes and fashion} стильный
+              xx ?#  stylishly [ˈstaɪlɪʃli] -ly: (adj)->(adv) {B2} {clothes and fashion} стильный; (adv) {B2} {clothes and fashion} стильно
+              5T ?#  waterproof [ˈwɔːtəpruːf] (adj) {B2} {clothes and fashion} водонепроницаемый, водозащитный; (n) {B2} {clothes and fashion} непромокаемый плащ
+              4T *#  woollen [ˈwʊlən] (adj) {B2} {clothes and fashion} шерстяной
+              5T ?#  woolly [wʊli] -ly: (adj)->(adv) шерстяной: (adv) {B2} {clothes and fashion} шерстистый, мохнатый, неясный
+
 {clothes and fashion {footwear}}
 ................................
 {A1} {clothes and fashion {footwear}}
@@ -1764,6 +1985,15 @@ Appearance
               xx ?#  sports+shoe [spɔːts ʃuː] (n) {B1} {clothes an fashion} спортивная обувь
               xx ?#  tennis+shoe [ˈtɛnɪs ʃuː] (n) {B1} {clothes and fashion} теннисная туфля
 
+{B2} {clothes and fashion {footwear}}
+              xx ?#  athletic+shoe [æθˈlɛtɪk ʃuː] (n) {B2} {clothes and fashion} спортивная обувь
+  619. (  1) 3T ?#PT heel [hiːl] (n) {B2} {body} пятка, {B2} {clothes and fashion} каблук, крен; (v) крениться
+              3T *#  platform [ˈplætfɔːm] (n) {A2} {transport by bus and train} {C2} {computers} {politics} {opinion and argument} {B2} {clothes and fashion} платформа; (v) планировать
+              xx ?#  running+shoe [ˈrʌnɪŋ ʃuː] (n) {B2} {clothes and fashion} кроссовки для бега
+              yT ?#  sandal [ˈsændl] (n) {B2} {clothes and fashion} сандал; (v) надевать сандалии
+              4T ?#  skate [skeɪt] (v) {B1} {sports: other sports} кататься на коньках; (n) {B2} {clothes and fashion} конек
+              5T ?#  slipper [ˈslɪpə] (n) {B2} {clothes and fashion} тапочка, тапок
+
 {clothes and fashion {hats}}
 ............................
 {A1} {clothes and fashion {hats}}
@@ -1773,6 +2003,9 @@ Appearance
 {B1} {clothes and fashion {hats}}
    95. (  1) 3T *#PT cap [ˈkæp] (n) {B1} {clothes and fashion} кепка, колпачок, крышка
               xx ?#  sun+hat [sʌn hæt] (n) {B1} {clothes and fashions} шляпа от солнца
+
+{B2} {clothes and fashion {hats}}
+  621. (  1) xT ?#PT helmet [ˈhɛlmɪt] (n) {B2} {clothes and fashion} {transport by car or lorry} {sports: ball and racket sports} каска, шлем, шапка
 
 {clothes and fashion {items of clothing}}
 .........................................
@@ -1816,6 +2049,27 @@ Appearance
               xx ?#  underpants [ˈʌndəpænts] (n)(pl) {B1} {clothes and fashion} трусы, кальсоны = a piece of men's underwear worn under their trousers
   757. (  1) 3T ?#PT underwear [ˈʌndəweə] (n)(u) {B1} {clothes and fashion} нижнее белье
 
+{B2} {clothes and fashion {items of clothing}}
+              yT ?#  apron [ˈeɪprən] (n) {B2} {clothes and fashion} фартук, передник, порог
+              xx ?#  bathrobe [ˈbɑːθrəʊb] (n) {B2} {clothes and fashion} халат, купальный халат
+              xT ?#  bikini [bɪˈkiːni] (n) {B2} {clothes and fashion} бикини, = a piece of clothing in two pieces worn for swimming and lying in the sun
+              zT ?#  cardigan [ˈkɑrdɪgən] (n) {B2} {clothes and fashion} джемпер, вязаный жакет или жилет
+              5T ?#  disguise [dɪsˈɡaɪz] (n) {B2} {clothes and fashion} маскировка, переодевание, сокрытие; (v) скрывать, маскировать
+              xx ?#  fancy+dress [ˈfænsi drɛs] (n) {B2} {clothes and fashion} {religion and festivals} маскарадный костюм
+              xT *#  jersey [ˈʤ ɜːzi] (n) Джерси, {B2} {clothes and fashion} свитер, фуфайка
+              xx ?#  knickers [ˈnɪkəz] (n) {B2} {clothes and fashion} панталоны, дамские панталоны, женское трико до колен
+              xx ?#  leggings [ˈlɛɡɪŋz] (n) {B2} {clothes and fashion} леггинсы, лосины, рейтузы
+              xx ?#  little+black+dress [ˈlɪt(ə)l blæk drɛs] (n) {B2} {clothes and fashion} a short or medium-length black dress that is suitable for almost any social ocassion
+              xx ?#  miniskirt [ˈmɪnɪskɜːt] (n) {B2} {clothes and fashion} мини-юбка
+  909. (  1) 5T ?#PT outfit [ˈaʊtfɪt] (n) снаряжение, оборудование, {B2} {clothes and fashion} одежда; (v) оборудовать
+              xx ?#  pyjama [pəˈʤ ɑːmə] (n) {B2} {clothes and fashion} пижама
+              yT ?#  robe [rəʊb] (n) {B2} {religion and festivals} {clothes and fashion} халат, мантия; (v) облачаться
+              xx ?#  sari [ˈsɑːri] (n) {B2} {clothes and fashion} сари
+              xx ?#  tracksuit [ˈtræksuːt] (n) {B2} {clothes and fashion} спортивный костюм
+              4T ?#  vest [vɛst] (adj) огромный, обширный; (n) {B2} {clothes and fashion} жилет, простор; (v) наделять, переходить
+              xx ?#  waistcoat [ˈweɪskəʊt] (n) {B2} {clothes and fashion} жилет
+              5T ?#  waterproof [ˈwɔːtəpruːf] (adj) {B2} {clothes and fashion} водонепроницаемый, водозащитный; (n) {B2} {clothes and fashion} непромокаемый плащ
+
 {clothes and fashion {jewellery}}
 .................................
 {A1} {clothes and fashion {jewellery}}
@@ -1827,6 +2081,13 @@ Appearance
 
 {B1} {clothes and fashion {jewellery}}
               4T ?#  necklace [ˈnɛklɪs] (n) {B1} {clothes and fashion} ожерелье, колье
+
+{B2} {clothes and fashion {jewellery}}
+              xx ?#  body+piercing [ˈbɒdi ˈpɪəsɪŋ] (n) {B2} {clothes and fashion} пирсинг тела
+              xT ?#  coral [ˈkɒrəl] (n) {B2} {fish and shellfish} {clothes and fashion} коралл; (adj) коралловый
+              yT ?#  piercing [pɪrsɪŋ] -ing: (v) проколоть, прокалывать, проткнуть; (n) {B2} {clothes and fashion} пирсинг; (adj) пронзительный, острый
+              xx ?#  precious+stone [ˈprɛʃəs stəʊn] (n) {B2} {clothes and fashion} драгоценный камень
+              3T *#  stone [stəʊn] (n) {A2} {physics and chemistry} {buildings} {B2} {clothes and fashion} камень
 
 {clothes and fashion {parts of clothing}}
 ..............................................
@@ -1842,6 +2103,12 @@ Appearance
 
 {B1} {clothes and fashion {parts of clothing}}
   277. (  1) 3T ?#PT fasten [ˈfɑːsn] (v) {B1} {clothes and fashion} скрепить, закреплять, затвердевать, скреплять, устремлять, сжимать
+
+{B2} {clothes and fashion {parts of clothing}}
+              4T *#  collar [ˈkɒlə] (n) {B2} {clothes and fashion} воротник, ошейник, шиворот, втулка
+              4T ?#  lining [ˈlaɪnɪŋ] (n) {B2} {clothes and fashion} подкладка, выравнивание, содержимое
+              3T ?#  sleeve [sliv] (n) {B2} {clothes and fashion} рукав, втулка
+              4T ?#  zip [zɪp] (v) промелькнуть; (n) энергия, {B2} {clothes and fashion} застежка-молния, почтовый индекс
 
 {clothes and fashion {the fashion world}}
 .........................................
@@ -1864,6 +2131,14 @@ Appearance
               yT ?#  trendy [ˈtrɛndi] (adj) {B1} {clothes and fashion} модный; (n) модник
               xx ?#  unfashionable [ʌnˈfæʃnəbl] {B1} {clothes and fashion} un-: (adj) {B1} {clothes and fashion} модный, фешенебельный
 
+{B2} {clothes and fashion {the fashion world}}
+              1T *#  collection [kəˈlɛkʃən] (n) {B1} {art} {B2} {social issues} {clothes and fashion} коллекция, {B1} сбор, собрание, денежный сбор; (adj) коллекционный
+              xx ?#  fashion-conscious [ˈfæʃ(ə)n ˈkɒnʃəs] (adj) {B2} {clothes and fashion} следящий за модой
+              1T *#  season [ˈsiːzn] (n) {A2} {time} время года, {B2} {film and theatre} {clothes and fashion} сезон; (adj) сезонный; (v) приправлять
+              5T ?#  tailor [ˈteɪlə] (n) {B2} {clothes and fashion} {jobs} портной; (v) шить
+              yT ?#  wardrobe [ˈwɔːdrəʊb] (n) {B1} {houses and homes} {B2} {clothes and fashion} {C2} {film and theatre} гардероб
+              1T *#  wear [weə] (n) износ, {B2} {clothes and fashion} одежда; (v) {A1} {clothes and fashion} носить, одевать, изнашиваться, I: wear-wore-worn
+
 {clothes and fashion {wearing clothes}}
 .......................................
 {A1} {clothes and fashion {wearing clothes}}
@@ -1878,6 +2153,11 @@ Appearance
               xx ?#  have+on [hæv ɒn] (phrasal verb) {B1} {clothes and fashion} быть одетым в
               xx ?#  undress [ʌnˈdrɛs] (v) {B1} {clothes and fashion} раздеваться
               xx ?#  unfasten [ʌnˈfɑːsən] (v) {B1} {clothes and fashion} расстегнуть, отстегивать
+
+{B2} {clothes and fashion {wearing clothes}}
+              xx ?#  be+dressed+up [biː drɛst ʌp] (phrasal verb) {B2} {clothes and fashion} быть одетым
+              xx ?#  dressed+up [drɛst ʌp] (phrasal verb) {B2} {clothes and fashion} одетый
+              xx ?#  wear+out [weə aʊt] (phrasal verb) {B2} {clothes and fashion} изнашиваться, состарить, затрахать
 
 {colours and shapes}
 --------------------
@@ -1913,6 +2193,33 @@ Appearance
   168. (  1) 3T *#PT cream [kriːm] (n) крем, {A1} {food} сливки, {B1} {colours and shapes} кремовый цвет; {B1} {colours and shapes} (adj) кремовый
   489. (  1) 3T ?#PT pale [peɪl] (adj) {B1} {appearance} {health problems} {colours and shapes} бледный; (v) бледнеть
 
+{B2} {colours and shapes {colours}}
+              xx ?#  blackness [ˈblæknəs] (n) {B2} {colours and shapes} чернота, мрачность
+              xx ?#  blood-red [blʌd-rɛd] (adj) {B2} {colours and shapes} кроваво-красный
+              xx ?#  blueness [ˈbluːnəs] (n) {B2} {colours and shapes} синева
+              4T ?#  brightness [ˈbraɪtnɪs] (n) {B2} {colours and shapes} яркость
+              3T *#  chocolate [ˈʧɒkəlɪt] (n) {A1} {food} {B2} {colours and shapes} шоколад; (adj) шоколадный
+              3T *#  coffee [ˈkɒfi] (n) {A1} {drinks} {B2} {colour and shapes} кофе
+              4T *#  colorful [ˈkʌləf(ə)l] (adj) {B2} {colours and shapes} красочный, яркий
+  216. (  1) zT ?#PT colourful [ˈkʌləf(ə)l] (adj) {B2} {colours and shapes} красочный, яркий
+  318. (  1) 4T *#PT darkness [ˈdɑːknɪs] (n) {B2} {colours and shapes} темнота, мрак
+              1T *#  deep [diːp] (adv) {B1} глубоко, вглубь; (adj) {A2} глубокий, {B2} {colours and shapes} темный, насыщенный; (n) глубина
+              5T ?#  dye [daɪ] (n) {B2} {appearance} {colours and shapes} краситель, краска, цвет; (v) {B2} {appearance} {colours and shapes} красить
+              yT ?#  ginger [ˈʤ ɪnʤ ə] (n) {C1} {food} {colours and shapes} имбирь; (adj) {B2} {appearance} {colours and shapes} рыжий; (v) подстегнуть
+  592. (  1) 4T *#PT golden [ˈgəʊldən] (adj) {B2} золотой, {B2} {colours and shapes} золотистый
+              xx ?#  greenness [ˈɡriːnnəs] (n) {B2} {colours and shapes} зелень, незрелость
+              xx ?#  greyness [ˈɡreɪnəs] (n) {B2} {colours and shapes} серость, сумрачность
+              3T *#  lemon [ˈlɛmən] (n) {A2} {food} лимон, {B2} {colours and shapes} лимонного цвета; (adj) {B2} {colours and shapes} лимонный
+              xx ?#  light-coloured [laɪt-ˈkʌləd] (adj) {B2} {colours and shapes} светлый, светлого цвета
+              xx ?#  lightness [ˈlaɪtnəs] (n) {B2} {colours and shapes} = the quality of being pale in colour, легкость, легкомыслие
+              3T *#  match [mæʧ] (n) {A1} {sports: ball and racket sports} матч, состязание, спичка, {C1} {opinion and argument} пара, брак; (v) {A1} {A2} {opinion and argument} соответствовать, совпадать, {B2} {clothes and fashion} {colours and shapes} сочетать
+              xx ?#  paleness [ˈpeɪlnəs] (n) {B2} {colours and shapes} бледность
+              xx ?#  redness [ˈrɛdnəs] (n) {B2} {colours and shapes} покраснение, краснота
+ 1160. (  1) 3T ?#PT shade [ʃeɪd] (n) {B2} {colours and shapes} оттенок, {B2} тень, штора; (v) {C1} {art} затенять
+              5T ?#  vivid [ˈvɪvɪd] (adj) {B2} {literature and writing} {art} {colours and shapes} яркий, живой
+              xx ?#  whiteness [ˈwaɪtnəs] (n) {B2} {colours and shapes} белизна, бледность, чистота
+              xx ?#  yellowness [ˈjɛləʊnəs] (n) {B2} {colours and shapes} желтизна
+
 {colours and shapes {shapes}}
 ..............................
 {A1} {colours and shapes {shapes}}
@@ -1930,6 +2237,15 @@ Appearance
 {B1} {colours and shapes {shapes}}
   196. (  1) 3T *#PT diamond [ˈdaɪəmənd] (n) {B1} {clothes and fashion} {colours and shapes} алмаз, бриллиант; (adj) алмазный
   707. (  1) 3T *#PT surface [(GB)ˈsɜːfɪs/(US)ˈsɜrfəs] (n) {B1} {colours and shapes} {transport by car or lorry} поверхность
+
+{B2} {colours and shapes {shapes}}
+   60. (  1) 3T *#PT angle [ˈæŋgl] (n) {B2} {colours and shapes} {maths and measurement} уголок, угол, {B2} точка зрения
+  313. (  2) 3T *#PT curve [kɜːv] (n) {B2} {colours and shapes} {transport by car or lorry} кривая, изгиб, характеристика; (v) {B2} {colours and shapes} изгибаться
+  314. (  1) 3T ?#PT curved [kɜːvd] -ed: (v) {B2} {colours and shapes} изгибаться; (adj) {B2} {colours and shapes} изогнутый, искривленный
+              1T *#  form [fɔːm] (v) {A1} {language} {B2} {colours and shapes} образовывать, создавать, {C1} {health and fitness} {education} формировать
+              3T *#  horizontal [ˌhɔrəˈzɑntəl] (adj) {B2} {colours and shapes} {maths and measurement} горизонтальный; (n) горизонталь
+  927. (  2) 3T *#PT parallel [ˈpɛrəˌlɛl] (adv) параллельно; (adj) {B2} {colours and shapes} {maths and measurement} параллельный, {B2} аналогичный; (n) {B2} параллель
+              5T ?#  pyramid [ˈpɪrəmɪd] (n) {B2} {history} {buildings} {colours and shapes} пирамида
 
 Communication
 =============
