@@ -4977,12 +4977,23 @@ Health
 {B2} {disability {living with disability}}
               xx ?#  american+sign+language [əˌmerɪkən ˈsaɪn læŋɡwɪdʒ] (n) {B2} {disability} американский язык жестов
               xx ?#  british+sign+language [ˈbrɪtɪʃ ˈsaɪn læŋɡwɪdʒ] (n) {B2} {disability} британский язык жестов
+              xx ?#  hearing+dog [ˈhɪərɪŋ dɒɡ] (n) {B2} {animals} {disability} = a dog trained to help a person who cannot hear well
+              xx ?#  sign+language [saɪn ˈlæŋɡwɪʤ ] (n) {B2} {disability} язык жестов
 
 {disability {types of disability}}
 ..................................
 {A1} {disability {types of disability}}
 {A2} {disability {types of disability}}
 {B1} {disability {types of disability}}
+{B2} {disability {types of disability}}
+  140. (  1) 3T *#PT blind [blaɪnd] (adj) {B2} {disability} слепой; (n) {C1} {houses and homes} жалюзи, штора; (v) ослеплять, слепить
+              yT ?#  blindness [ˈblaɪndnɪs] (n) {B2} {disability} слепота
+              3T *#  deaf [dɛf] (adj) {B2} {disability} глухой
+              zT ?#  deafness [ˈdɛfnəs] (n) {B2} {disability} глухота
+  371. (  1) xT ?#PT disability [ˌdɪsəˈbɪləti] (n) {B2} {disability} инвалидность, неспособность, бессилие
+  372. (  1) 3T *#PT disabled [dɪsˈeɪbld] -ed: (v) запрещать, калечить, лишать права; (n) {B2} {disability} инвалид, нетрудоспособный
+              xx ?#  learning+difficulty [ˈlɜːnɪŋ ˈdɪfɪk(ə)lti] (n) {B2} {education} {disability} трудности в обучении
+              xx ?#  special+needs [ˈspɛʃ(ə)l niːdz] (n) {B2} {disability} особые потребности
 
 {health and fitness}
 --------------------
@@ -5009,6 +5020,13 @@ Health
               xx ?#  physical+education [ˈfɪzɪk(ə)l ˌɛʤ ʊˈkeɪʃ(ə)n] (n) {B1} {health and fitness} {education} физическая культура
               4T ?#  walker [ˈwɔːkə] (n) {B1} {health and fitness} ходок, скороход, {C1} {disability} ходунки
 
+{B2} {health and fitness {exercise}}
+              zT ?#  aerobics [eəˈrəʊbɪks] (n) {B2} {sports: other sports} {health and fitness} аэробика, ритмическая гимнастика
+              4T ?#  athletic [æθˈlɛtɪk] (adj) {B2} {health and fitness} {B1} {sports: other sports} спортивный
+              xx ?#  fitness+centre [ˈfɪtnəs ˈsɛntə] (n) {B2} {health and fitness} фитнес-центр
+ 1246. (  2) 3T ?#PT stretch [strɛʧ] (v) {B2} простираться, {B2} {physics and chemistry} растягивать, {B2} {health and fitness} растягиваться; (n) {B2} протяжение
+              3T ?#  sweat [swɛt] (n) пот, тяжелый труд; (v) {B2} {health and fitness} потеть
+
 {A1} {health and fitness {good health}}
   267. (  2) 3T *#PT exercise [ˈɛksəsaɪz] (n) {A1} {sports: other sports} {health and fitness} {education} упражнение, {B2} {success} осуществление, тренировка, занятие; (v) {A1} {sports: other sports} {health and fitness} {B2} {success} осуществлять, проявлять, тренироваться, выполнять
   299. (  1) 3T *#PT fine [faɪn] (n) {C1} {crime and punishment} {money} штраф; (v) {C1} {crime and punishment} оштрафовать; (adv) хорошо, отлично; (adj) {A1} прекрасный, мелкий, {A1} {health and fitness} тонкий
@@ -5028,6 +5046,15 @@ Health
               xx ?#  heart+rate [hɑːt reɪt] (n) {health and fitness} частота сердечных сокращений
   691. (  1) 3T *#PT strength [strɛŋθ] (n) {B1} {health and fitness} сила, {B2} {personal qualities} прочность
 
+{B2} {health and fitness {good health}}
+              xx ?#  fitness+test [ˈfɪtnəs tɛst] (n) {B2} {health and fitness} фитнес-тест
+              yT ?#  heartbeat [ˈhɑːtbiːt] (n) {B2} {health and fitness} биение сердца, волнение
+  660. (  1) 5T ?#PT immune [ɪˈmjuːn] (adj) {B2} {health and fitness} иммунный, {C1} свободный, невосприимчивый
+              xx ?#  non-disabled [nɒn-dɪˈseɪb(ə)ld] (adj) {B2} {health and fitness} неинвалидный
+              zT *#  rested [rɛstɪd] -ed: (v) {A2} {healthcare} {C1} {sports: ball and racket sports} отдыхать, покоиться; (adj) {B2} {health and fitness} отдохнувший
+              xx ?#  self-care [sɛlf-keə] (n) {B2} {health and fitness} самостоятельное лечение
+ 1245. (  1) 5T ?#PT strengthen [ˈstrɛŋθən] (v) {B2} {health and fitness} укреплять, {B2} усиливать
+
 {health problems}
 ----------------------
 {health problems {addiction}}
@@ -5036,6 +5063,11 @@ Health
 {A2} {health problems {addiction}}
 {B1} {health problems {addiction}}
    28. (  1) 3T *#PT alcoholic [ˌælkəˈhɒlɪk] (n) {C1} {social issues} {health problems} алкоголик; (adj) {B1} {drinks} {social issues} {health problems} алкогольный
+
+{B2} {health problems {addiction}}
+              yT ?#  addicted [əˈdɪktɪd] -ed: (v) увлекаться; (adj) {B2} {health problems} {social issues} {feelings} с зависимостью, склонный
+   28. (  1) xT ?#PT addiction [əˈdɪkʃ(ə)n] (n) наркомания, склонность, пагубная привычка, {B2} {social issues} {health problems} зависимость
+  351. (  1) 5T *#PT dependent [dɪˈpɛndənt] (adj) {B2} {health problems} {social issues} зависимый, зависящий; (n) иждивенец
 
 {health problems {being ill}}
 .............................
@@ -5083,6 +5115,22 @@ Health
               xx ?#  unwell [ʌnˈwɛl] {B1} {health and fitness} -un: (adj) {A1} {health and fitness} здоровый
   769. (  2) 3T *#PT upset [ʌpˈsɛt] (n) {B1} {health and fitness} расстройство, огорчение; (v) {B1} {feelings} {health and fitness} расстраивать, огорчать, I: upset-upset-upset; (adj) {B1} {feelings} {health and fitness} расстроенный
 
+{B2} {health problems {being ill}}
+  213. (  2) 3T *#PT collapse [kəˈlæps] (n) {B2} {difficulty and failure} {change, cause and effect} {money} крах, коллапс, обвал, падение, {C1} {health problems} разрушение; (v) {B2} {buildings} {change, cause and effect} {money} рухнуть, {B2} {difficulty and failure} рушиться, {B2} {health problems} сильно ослабеть
+  297. (  1) 3T *#PT crisis [ˈkraɪsɪs] (n) {B2} {difficulty and failure} {health problems} кризис, перелом, I: crisis-crises; (adj) кризисный
+  521. (  1) 3T *#PT fever [ˈfiːvə] (n) {B2} {health problems} лихорадка, жар
+              5T *#  germ [ʤ ɜːm] (n) зародыш, {B2} {biolody} {health problems} микроб, зачаток
+  681. (  1) 3T *#PT infection [ɪnˈfɛkʃən] (n) {B2} {health problems} инфекция, {B2} {health problems} заражение, зараза
+ 1157. (  1) 3T ?#PT severe [sɪˈvɪə] (adj) {B2} суровый, {B2} {health problems} тяжелый
+ 1158. (  1) 3T ?#PT severely [sɪˈvɪəli] -ly: (adj)->(adv) {B2} суровый, {B2} {health problems} тяжелый; (adv) {B2} {health problems} сильно, {B2} жестоко
+              5T ?#  sickness [ˈsɪknɪs] (n) {B2} {health problems} болезнь, {C2} {feelings} тошнота, заболевание
+              4T ?#  sneeze [sniːz] (v) {B2} {health problems} чихать; (n) {B2} {health problems} чиханье
+ 1260. (  1) 3T *#PT suffering [ˈsʌfəɪŋ] -ing: (v) {B1} {health problems} страдать, терпеть, испытывать; (n) {B2} {health problems} {C1} страдание
+              xx ?#  sunburned [ˈsʌnbɜːnt] (adj) {B2} {appearance} {health problems} загорелый
+ 1331. (  2) 3T *#PT transfer [ˈtrænsfə(ː)->(n)/trænsˈfɜː->(v)] (n) {B2} {transport by bus and train} трансфер, перевод, {C1} {sports: ball and racket sports} передача, перенос, {B2} перемещение; (v) {B2} {health problems} {C1} {sports: ball and racket sports} передавать, {B2} {money} переводить, {B2} переносить
+ 1357. (  1) 3T *#PT unconscious [ʌnˈkɒnʃəs] (adj) {B2} {health problems} бессознательный, {B2} непроизвольный; (n) подсознание
+              4T ?#  unfit [ʌnˈfɪt] un-: (adj) приспособленный; (adj) {B2} {health problems} негодный, неподходящий; (v) делать непригодным
+
 {health problems {injuries}}
 ............................
 {A1} {health problems {injuries}}
@@ -5098,6 +5146,18 @@ Health
 {B1} {health problems {injuries}}
   775. (  1) 3T ?#PT victim [ˈvɪktɪm] (n) {B1} {health problems} {crime and punishment} {social issues} жертва, потерпевший
 
+{B2} {health problems {injuries}}
+              5T *#  bang [bæŋ] (n) взрыв, удар; (v) {B2} {health problems} ударять, грохнуть; (adv) прямо
+              xx ?#  black+eye [blæk aɪ] (n) {B2} {health problems} синяк под глазом, подбитый глаз, плохая репутация
+              xx ?#  bruise [bruz] (n) {B2} {health problems} синяк, ушиб; (n) {B2} {health problems} ставить синяки, ушибать, помять
+              5T ?#  bump [bʌmp] (n) {B2} {health problems} {C1} {transport by car or lorry} удар, шишка, выпуклость; (v) {B2} {health problems} ударяться
+  161. (  1) 3T *#PT burn [bɜːn] (n) {B2} {health problems} ожог; (v) {A2} сжигать, гореть, I: burn-burned/burnt-burned/burnt
+  612. (  2) 3T *#PT harm [hɑːm] (n) {B2} вред; (v) {B2} {health problems} вредить
+ 1136. (  2) 3T ?#PT scratch [skræʧ] (v) {B2} {health problems} {C1} поцарапать, {B2} почесать; (n) {B2} {health problems} царапина, каракули
+              xx ?#  sprain [spreɪn] (n) {B2} {health problems} растяжение связок; (v) {B2} {health problems}
+              3T ?#  sting [stɪŋ] (n) {B2} {health problems} укус, {B2} {insect, worms, etc.} жало, укол; (v) {B2} {health problems} {insect, worms, etc.} ужалить
+ 1432. (  2) 3T *#PT wound [wuːnd] (n) {B2} {war and conflict} {health problems} ранение, рана, {B2} оскорбление; (v) {B2} {war and conflict} {health problems} ранить, {B2} оскорбить; -1,2ed: (v) наматывать, I:wind-wound-wound/winded
+
 {health problems {poor health}}
 ...............................
 {A1} {health problems {poor health}}
@@ -5109,12 +5169,25 @@ Health
 {B1} {health problems {poor health}}
               1T *#  poor [(UK)pʊə/(US)pur] (adj) {A1} {money} {people in society} {social issues} бедные, {B1} {health problems} плохой
 
+{B2} {health problems {poor health}}
+              yT ?#  allergic [əˈlɜːʤ ɪk] (adj) {B2} {health problems} аллергический, не выносящий
+              xT *#  allergy [ˈæləʤ i] (n) {B2} {health problems} аллергия
+              yT ?#  obese [əʊˈbiːs] (adj) {B2} {health problems} {appearance} тучный, страдающий ожирением, жирный
+  873. (  1) xT ?#PT obesity [(UK)əʊˈbiːsɪti/(US)oʊˈbisəti/əˈbisəti] (n) {B2} {health problems} {appearance} ожирение, тучность
+              yT ?#  overweight [ˈəʊvəweɪt->(n)/ˌəʊvəˈweɪt->(adj,v)] (n) избыточный вес, перевес; (v) перегружать; (adj) {B2} {health problems} {appearance} весящий больше нормы, тяжелее обычного
+              xx ?#  underweight [ˌʌndəˈweɪt] (adj) {B2} {health problems} {appearance} с недовесом
+
 {health problems {recovering from illness}}
 {A1} {health problems {recovering from illness}}
 {A2} {health problems {recovering from illness}}
    94. (  1) 3T *#PT better [ˈbɛtə] {A1} {A2} {health problems} -er: (adj) {A1} {weather} {personal qualities} {health and fitness} хороший, I:good-better-(the)best; -er: (adv) хорошо, I:good-better-(the)best
 
 {B1} {health problems {recovering from illness}}
+{B2} {health problems {recovering from illness}}
+              xx ?#  get+over [ɡɛt ˈəʊvə] (phrasal verb) {B2} {health problems} преодолевать, оправиться, забыть
+  615. (  1) 3T ?#PT heal [hiːl] (v) {B2} {health problems} исцелять, излечивать, заживать
+ 1056. (  1) 3T *#PT recover [rɪˈkʌvə] (v) {B2} {health problems} {change, cause and effect} восстанавливать
+ 1057. (  1) 4T *#PT recovery [rɪˈkʌvəri] (n) {B2} {health problems} {C1} {change, cause and effect} {money} восстановление, выздоровление, извлечение
 
 {health problems {types of illness}}
 ....................................
@@ -5127,6 +5200,11 @@ Health
 
 {B1} {health problems {types of illness}}
               xx ?#  sore+throat [sɔː θrəʊt] (n) {B1} {health problems} больное горло
+
+{B2} {health problems {types of illness}}
+   46. (  1) 4T ?#PT aids [eɪdz] (abbr) {B2} {health problems} Acquired Immune Deficiency Syndrome; -es: (n) {B2} {social issues} помощь, {B2} {the environment} {money} поддержка; -es: (v) {B2} способствовать, помогать
+  158. (  1) xT *#PT bug [bʌg] (n) {B2} {insects, worms, etc.} жук, клоп, {B2} {health problems} вирус, {C1} {crime and punishment} аппарат для подслушивания, {B2} {computers} ошибка; (v) {C1} {crime and punishment} подслушивать, раздражать
+  169. (  1) 3T ?#PT cancer [ˈkænsə] (n) {B2} {health problems} рак, бедствие
 
 {healthcare}
 -----------------
