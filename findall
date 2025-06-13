@@ -1,15 +1,20 @@
 #!/bin/sh
 
-tabs="\t\t\t"
+for f in translations/*; do
+    if [ "$1" = "-w" ]; then
+        WORD="`echo -n ${f} | sed "s/.*\///"`"  # remove translation/ part
+        echo -n "$WORD"
+        CHAR_NUM=`echo -n -e "$WORD" | wc -c`
+        let TAB_NUM=CHAR_NUM/8
 
-for f in translations/*
-do
-    (
-        if [ "$1" = "-w" ]
-	then
-	    echo -n ${f} ${tabs} | sed "s/.*\///"  # remove translation/ part
-	fi
-	cat ${f} 2>/dev/null; 
-	echo;
-    ) 
+        while true; do
+            if [[ "$TAB_NUM" -gt 3 ]]; then
+	        break
+            fi
+            let TAB_NUM=TAB_NUM+1
+            echo -n -e "\t"
+        done
+	echo -n " "
+    fi
+    echo "`cat ${f} 2>/dev/null`" 
 done 

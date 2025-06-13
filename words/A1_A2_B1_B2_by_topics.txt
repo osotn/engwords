@@ -5205,6 +5205,20 @@ Health
    46. (  1) 4T ?#PT aids [eɪdz] (abbr) {B2} {health problems} Acquired Immune Deficiency Syndrome; -es: (n) {B2} {social issues} помощь, {B2} {the environment} {money} поддержка; -es: (v) {B2} способствовать, помогать
   158. (  1) xT *#PT bug [bʌg] (n) {B2} {insects, worms, etc.} жук, клоп, {B2} {health problems} вирус, {C1} {crime and punishment} аппарат для подслушивания, {B2} {computers} ошибка; (v) {C1} {crime and punishment} подслушивать, раздражать
   169. (  1) 3T ?#PT cancer [ˈkænsə] (n) {B2} {health problems} рак, бедствие
+              xx ?#  common+cold [ˈkɒmən kəʊld] (n) {B2} {health problems} простуда
+              xx ?#  coronavirus [kəˈrəʊnəˌvaɪərəs] (n) {B2} {health problems} корона вирус
+              xx ?#  covid [ˈkəʊvɪd] (n) {B2} {health problems} COVID-19
+              xT ?#  diabetes [ˌdaɪəˈbiːtiːz] (n) {B2} {health problems} диабет
+  383. (  1) xT *#PT disorder [dɪsˈɔːdə] (n) {B2} {health problems} расстройство, {C1} беспорядок, беспорядки; (v) расстраивать
+              xx ?#  food+poisoning [fuːd ˈpɔɪz(ə)nɪŋ] (n) {B2} {health problems} пищевое отравление
+  583. (  1) 5T *#PT genetic [ʤ ɪˈnɛtɪk] (adj) {B2} {health problems} {biology} генетический
+              xx ?#  heart+attack [hɑːt əˈtæk] (n) {B2} {health problems} сердечный приступ
+              xx ?#  heat+stress [hiːt strɛs] (n) {B2} {health problems} тепловой стресс
+              xx ?#  life-limiting [laɪf-ˈlɪmɪtɪŋ] (adj) {B2} {health problems} ограничивающий жизнь
+              4T ?#  malaria [məˈleərɪə] (n) {B2} {health problems} малярия
+              yT ?#  pandemic [pænˈdɛmɪk] (n) {B2} {health problems} пандемия; (adj) {B2} {health problems} пандемический
+              xx ?#  seasickness [ˈsiːˌsɪknəs] (n) {B2} {health problems} {transport by water} морская болезнь
+ 1169. (  2) 3T *#PT shock [ʃɒk] (n) {B2} шок, {B2} {engineering} {health problems} удар, {B2} {the environment} потрясение; (v) {B2} {feelings} шокировать, {B2} потрясать
 
 {healthcare}
 -----------------
@@ -5213,24 +5227,54 @@ Health
 {A1} {healthcare {complementary medicine}}
 {A2} {healthcare {complementary medicine}}
 {B1} {healthcare {complementary medicine}}
+{B2} {healthcare {complementary medicine}}
+              5T ?#  acupuncture [ˈækjəpʌŋkʧə] (n) {B2} {healthcare} иглоукалывание, акупунктура, иглотерапия
+              xx ?#  alternative+medicine [ɒlˈtɜːnətɪv ˈmɛds(ə)n] (n) {B2} {healthcare} альтернативная медицина
+              4T ?#  massage [ˈmæsɑːʒ] (n) массаж; (v) {healthcare} массировать, делать массаж
+              xx ?#  traditional+medicine [ɒlˈtɜːnətɪv ˈmɛds(ə)n] (n) {B2} {healthcare} традиционная медицина
 
-{healthcare {healtcare}}
+{healthcare {healthcare}}
 ........................
-{A1} {healthcare {healtcare}}
-{A2} {healthcare {healtcare}}
+{A1} {healthcare {healthcare}}
+{A2} {healthcare {healthcare}}
   126. (  2) 3T *#PT care [keə] (v) {A2} {family and relationships} {feelings} заботиться; (n) {A2} {life stages} {healthcare} уход, {B1} забота
   253. (  1) 3T *#PT drug [drʌg] (n) {A2} {healthcare} лекарство, {A2} {social issues} наркотик; (adj) лекарственный
   492. (  1) 3T *#PT medical [ˈmɛdɪkəl] (adj) {A2} {healthcare} {jobs} медицинский, врачебный; (n) {B2} {healthcare} студент-медик
   493. (  1) 3T *#PT medicine [ˈmɛdsɪn] (n) {A2} {healthcare} {scientific research} медицина, лекарство
   658. (  2) 3T *#PT rest [rɛst] (n) {A2} {healthcare} отдых, {A2} остальные, остальное, остаток, покой; (v) {A2} {healthcare} {C1} {sports: ball and racket sports} отдыхать, покоиться
 
-{B1} {healthcare {healtcare}}
+{B1} {healthcare {healthcare}}
    43. (  1) 3T ?#PT appointment [əˈpɔɪntmənt] (n) {B1} {healthcare} {working life} назначение, прием, встреча
               xx ?#  care+for [keə fɔː] (phrasal verb) {B1} {healthcare} заботиться о, любить, интересоваться
   549. (  1) 3T *#PT private [ˈpraɪvɪt] 1T *#  private [ˈpraɪvɪt] (adj) {B1} {healthcare} {buildings} частный, {B1} личный; (n) {C2} {war and conflict} рядовой
               3T ?#  tablet [ˈtæblɪt] (n) {A2} {computers} {B1} {healthcare} таблетка, дощечка, блокнот
   745. (  1) 3T ?#PT treat [triːt] 1T ?#  treat [triːt] (n) удовольствие; (v) {B1} {healthcare} лечить, относиться
   746. (  1) 3T *#PT treatment [ˈtriːtmənt] (n) {B1} {healthcare} лечение, обработка, обращение, уход
+
+{B2} {healthcare {healthcare}}
+   35. (  1) 5T *#PT administration [ədˌmɪnɪsˈtreɪʃ(ə)n] (n) {B2} {business} администрация, администрирование, управление, правительство, {B2} {healthcare} назначение (лекарств)
+              5T ?#  antibiotic [ˌæntibaɪˈɒtɪk] (n) {B2} {social issues} {healthcare} антибиотик; (adj) антибиотический
+              yT ?#  aspirin [ˈæspərɪn] (n) {B2} {healthcare} аспирин
+              xx ?#  bed+rest [bɛd rɛst] (n) {B2} {healthcare} постельный режим
+              xx ?#  carer [ˈkeərə] (n) {B2} {healthcare} {jobs} опекун
+  262. (  1) 3T *#PT consult [kənˈsʌlt] (v) {B2} {suggestions and advice} {healthcare} {preferences and decisions} консультироваться, советоваться
+  274. (  1) 3T ?#PT conventional [kənˈvɛnʃənl] (adj) {B2} обычный, {B2} {healthcare} традиционный, условный
+              1T *#  course [kɔːs] (n) {A1} {education} {B2} {healthcare} курс, {B2} {geography} направление, {B1} {sports: ball and racket sports} пласт, {B1} {cooking and eating} блюдо; (adj) курсовой; (v) течь
+  309. (  2) 3T ?#PT cure [kjʊə] (n) {B2} {healthcare} лечение, кюре, лекарство, излечение, исцеление; (v) {B2} {healthcare} {success} лечить, исцелять
+              xx ?#  family+medicine [ˈfæm(ə)li ˈmɛds(ə)n] (n) {B2} {healthcare} семейная медицина
+              xx ?#  first+aid [fɜːst eɪd] (n) {B2} {healthcare} первая помощь
+              3T ?#  heal [hiːl] (v) {B2} {health problems} исцелять, излечивать, заживать
+  616. (  1) xT ?#PT healthcare [ˈhɛlθkeə] (n) {B2} {healthcare} здравоохранение
+  727. (  1) 5T *#PT isolate [ˈaɪsəˌleɪt] (v) {B2} {healthcare} изолировать, выделять, {C1} отделять
+  810. (  1) xT ?#PT medication [ˌmɛdɪˈkeɪʃ(ə)n] (n) лечение, {B2} {healthcare} медикамент
+              xx ?#  painkiller [ˈpeɪnˌkɪlə] (n) {B2} {healthcare} болеутоляющее
+              zT ?#  painless "ˈpeɪnləs" "(adj) {B2} {healthcare} безболезненный"
+              xT ?#  pharmacy [ˈfɑːməsi] (n) {B2} {shopping} {healthcare} аптека
+  955. (  1) 3T *#PT pill [pɪl] (n) {B2} {healthcare} пилюля, таблетка; (v) грабить
+              1T *#  practice [ˈpræktɪs] (n) {A1} {music} {B2} {healthcare} {jobs} практика, опыт; (v) {A1} практиковать, заниматься
+              xx ?#  side+effect [saɪd ɪˈfɛkt] (n) {B2} {healthcare} {C1} {change, cause and effect} побочный эффект, побочное явление
+              xx ?#  sleeping+pill [ˈsliːpɪŋ pɪl] (n) {B2} {healthcare} снотворное
+ 1308. (  1) xT *#PT therapy [ˈθɛrəpi] (n) {B2} {healthcare} {jobs} {mental health} терапия, лечение
 
 {healthcare {hospitals}}
 ........................
@@ -5241,6 +5285,14 @@ Health
   558. (  1) 3T *#PT patient [ˈpeɪʃənt] (adj) {B2} {personal qualities} терпеливый, терпящий; (n) {A2} {healthcare} пациент, больной
 
 {B1} {healthcare {hospitals}}
+{B2} {healthcare {hospitals}}
+              xx ?#  accident+and+emergency [ˈæksɪd(ə)nt ænd ɪˈmɜːʤ (ə)nsi] (n) {B2} {healthcare} = the part of a hospital where people who need immediate treatment are taken
+   54. (  1) 3T *#PT ambulance [ˈæmbjʊləns] (n) {B2} {healthcare} {transport by car or lorry} скорая помощь; (adj) скорая
+  208. (  1) 5T *#PT clinic [ˈklɪnɪk] (n) {B2} {healthcare} {buildings} клиника, медпункт, лечебница; (adj) клинический
+              xx ?#  emergency+room [ɪˈmɜːʤ (ə)nsi ruːm] (n) {B2} {healthcare} приемный покой
+              xT ?#  maternity [məˈtɜːnəti] (n) {B2} {healthcare} материнство
+ 1115. (  1) 3T *#PT round [raʊnd] (n) {B2} {sports: other sports} раунд, {B2} {healthcare} обход, тур, круг; (adj) {A2} {colours and shapes} круглый; (adv)(prep) {A2} вокруг, кругом; (v) округлять
+              1T *#  unit [ˈjunət/ˈjunɪt] (n) {A2} блок, единица, {B2} {healthcare} подразделение, элемент, единица измерения; (adj) единичный
 
 {healthcare {medical equipment}}
 ................................
@@ -5251,6 +5303,13 @@ Health
   715. (  1) 3T *#PT tape [teɪp] (n) {B1} лента (a long, narrow piece of material with a sticky substance on one side), {B1} магнитофонная лента, {B1} {music} магнитофонная запись; (v) записывать на пленку, связывать шнуром или тесьмой, измерять рулеткой, {B1} {healthcare} = to tie a bandage around an injury or a wound
               yT ?#  wheelchair [ˈwiːlʧeə] (n) {B1} {healthcare} {disability} инвалидная коляска
 
+{B2} {healthcare {medical equipment}}
+              3T ?#  bandage [ˈbændɪʤ ] (n) B2} {healthcare} повязка, бинт, бандаж, перевязочный материал; (v) B2} {healthcare} перевязывать
+  175. (  2) 3T *#PT cast [kɑːst] (v) {B2} бросать, отбрасывать, отливать, {C1} {film and theatre} проводить кастинг, I: cast-cast-cast; (n) литье, бросок, приведение типов, тип, образчик, {B2} {film and theatre} состав исполнителей, {B2} {healthcare} гипсовая повязка
+  831. (  2) 3T *#PT monitor [ˈmɒnɪtə] (n) {B2} {tv, radio and news} {computers} {healthcare} монитор; (v) {B2} контролировать
+              5T ?#  plaster [ˈplɑːstə] (n) {C2} {buildings} штукатурка, гипс, {B2} {healthcare} пластырь
+              1T *#  support [səˈpɔːt] (n) {A2} {success} {B2} {healthcare} {C1} {music} поддержка, помощь; (v) {A2} {success} {politics} {B1} {money} {B2} {opinion and argument} {buildings} {C1} {music} поддерживать
+
 {healthcare {medical examinations}}
 ...................................
 {A1} {healthcare {medical examinations}}
@@ -5260,6 +5319,14 @@ Health
 {B1} {healthcare {medical examinations}}
               xx ?#  blood+test [blʌd tɛst] (n) {B1} {healthcare} анализ крови
   253. (  1) 3T *#PT examine [ɪgˈzæmɪn] (v) {B1} {opinion and argument} {healthcare} исследовать, рассматривать, проверять
+
+{B2} {healthcare {medical examinations}}
+              xx ?#  check-up [ˈʧɛkˈʌp] (n) {B2} {doubt, guessing and certainty} {healthcare} = an examination of somebody/something especially a medical one to take sure that you are healthy
+  474. (  1) 3T *#PT examination [ɪgˌzæmɪˈneɪʃən] (n) экспертиза, {B2} {education} экзамен, {B2} {opinion and argument} исследование, {B2} {healthcare} осмотр, проверка
+              1T *#  medical [ˈmɛdɪkəl] (adj) {A2} {healthcare} {jobs} медицинский, врачебный; (n) {B2} {healthcare} студент-медик
+ 1122. (  1) 3T *#PT sample [(UK)ˈsɑːmpl/(US)ˈsæmpəl] (n) {B1} образец, пример, {B2} {healthcare} {shopping} {scientific research} выборка; (v) пробовать
+              5T *#  scan [skæn] (n) {B2} {healthcare} {life stages} сканирование, просмотр, развертка; (v) {B1} {B2} {computers} {healthcare} сканировать
+              xx ?#  x-ray [ˈɛksˈreɪ] (n) {B2} {physics and chemistry} {healthcare} рентгеновский снимок; (v) {B2} {healthcare} = to photograph and examine bones and organs inside the body using X-rays
 
 {healthcare {medical staff}}
 ............................
@@ -5275,6 +5342,17 @@ Health
               xT *#  dr [-] (abbr) {B1} {healthcare} {education} doctor
               xx ?#  family+doctor [ˈfæm(ə)li ˈdɒktə] (n) {B1} {healthcare} семейный врач
 
+{B2} {healthcare {medical staff}}
+              5T ?#  attendant [əˈtɛndənt] (n) {B1} {jobs} {B2} {healthcare} обслуживающее лицо, сопровождающее лицо, служитель, слуга
+  263. (  1) 5T ?#PT consultant [kənˈsʌlt(ə)nt] (n) {B2} {suggestions and advice} {jobs} {business} {healthcare} консультант
+              xx ?#  health+professional [hɛlθ prəˈfɛʃ(ə)n(ə)l] (n) {B2} {healthcare} специалист в области здравоохранения
+              xx ?#  junior+doctor [ˈʤ uːniə ˈdɒktə] (n) {B2} {healthcare} младший врач
+              xx ?#  nutritionist [njuːˈtrɪʃ(ə)nɪst] (n) {B2} {healthcare} диетолог
+              yT ?#  pharmacist [ˈfɑːməsɪst] (n) {B2} {jobs} {healthcare} {C1} {shopping} фармацевт, провизор
+ 1202. (  2) 3T *#PT specialist [ˈspɛʃəlɪst] n) {B2} {jobs} {healthcare} специалист; (adj) {B2} = having or involving expert knowledge of a particular area of work/study/medicine
+ 1265. (  1) 5T *#PT surgeon [ˈsɜːʤ ən] (n) {B2} {healthcare} {jobs} хирург
+ 1307. (  1) xT *#PT therapist [ˈθɛrəpɪst] (n) {B2} {healthcare} терапевт, (psychotherapist) {B2} {mental health} = a person who is trained to treat somebody who has problems with their mental health by talking with them
+
 {healthcare {operations}}
 .........................
 {A1} {healthcare {operations}}
@@ -5284,6 +5362,15 @@ Health
   476. (  1) 3T *#PT operation [ˌɒpəˈreɪʃən] (n) {B1} {healthcare} операция, работа, эксплуатация, действие
   584. (  1) 3T *#PT reject [rɪˈʤ ɛkt] (v) {B1} {business} {health problems} {healthcare} отклонять, отвергать, отбрасывать
 
+{B2} {healthcare {operations}}
+              yT ?#  implant [ɪmˈplɑːnt/ˈɪmplɑːnt] (n) {B2} {healthcare} имплантат; (v) {B2} {healthcare} внедрять
+  895. (  1) 3T *#PT operate [ˈɒpəreɪt] (v) {B2} работать, управлять, действовать, эксплуатировать, {B2} {healthcare} оперировать
+              xx ?#  operating+table [ˈɒp(ə)reɪtɪŋ ˈteɪb(ə)l] (n) {B2} {healthcare} операционный стол
+              xx ?#  operating+theatre [ˈɒp(ə)reɪtɪŋ ˈθɪətə] (n) {B2} {healthcare} операционная
+  996. (  1) 3T *#PT procedure [prəˈsiːʤ ə] (n) {B2} {scientific research} {healthcare} процедура, операция
+ 1266. (  1) 5T *#PT surgery [ˈsɜːʤ əri] B2} {healthcare} операция, {B2} хирургия
+              5T ?#  transplant [trænsˈplɑːnt] (v) {B2} {healthcare} {gardens} пересадить, переселять; (n) {B2} {healthcare} трансплантация
+
 {mental health}
 --------------------
 {mental health {mental health problems}}
@@ -5292,7 +5379,12 @@ Health
 {A2} {mental health {mental health problems}}
 {B1} {mental health {mental health problems}}
   435. (  1) 3T *#PT mental [ˈmɛntl] (adj) {B1} {mental health} умственный, психический
-             3T *#  mentally [ˈmɛntli] {B1} {mental health} -ly: (adj)->(adv) {B1} {mental health} умственный, психический
+              3T *#  mentally [ˈmɛntli] {B1} {mental health} -ly: (adj)->(adv) {B1} {mental health} умственный, психический
+
+{B2} {mental health {mental health problems}}
+              xx ?#  mental+health [ˈmɛnt(ə)l hɛlθ] (n) {B2} {mental health} психическое здоровье
+ 1307. (  1) xT *#PT therapist [ˈθɛrəpɪst] (n) {B2} {healthcare} терапевт, (psychotherapist) {B2} {mental health} = a person who is trained to treat somebody who has problems with their mental health by talking with them
+ 1308. (  1) xT *#PT therapy [ˈθɛrəpi] (n) {B2} {healthcare} {jobs} {mental health} терапия, лечение
 
 {mental health {mental health care}}
 ....................................
@@ -5300,6 +5392,13 @@ Health
 {A2} {mental health {mental health care}}
 {B1} {mental health {mental health care}}
   570. (  1) 3T *#PT quit [kwɪt] (v) {B1} {mental health} {social issues} уволиться, бросать, {B1} {computers} покидать
+
+{B2} {mental health {mental health care}}
+   66. (  1) 3T ?#PT anxiety [æŋˈzaɪəti] (n) {B2} {feelings} {mental health} {C1} тревога
+  353. (  1) 3T ?#PT depressed [dɪˈprɛst] -ed: (v) {C2} {engineering} подавлять, нажимать, ослаблять; (adj) {B2} {feelings} {mental health} {C1} {money} унылый, угнетенный, вогнутый
+  355. (  1) 5T ?#PT depression [dɪˈprɛʃ(ə)n] (n) {B2} {mental health} {feelings} {C1} {money} {social issues} депрессия, снижение
+              xx ?#  eating+disorder [ˈiːtɪŋ dɪˈsɔːdə] (n) {B2} {mental health} {cooking and eating} расстройство пищевого поведения
+              xx ?#  health+anxiety [hɛlθ æŋˈzaɪəti] (n) {B2} {mental health} беспокойство о здоровье
 
 Home and buildings
 ===================
@@ -5321,6 +5420,12 @@ Home and buildings
               3T ?#  elevator [ˈɛlɪveɪtə] (n) {B1} {buildings} лифт, элеватор
   244. (  1) 3T ?#PT entrance [ˈɛntrəns->(n)/ɪnˈtrɑːns->(v)] (n) {B1} {houses and homes} {buildings} вход, въезд; (adj) входной, вступительный; (v) восхищать, восторгать
 
+{B2} {buildings {architectural features}}
+              3T *#  column [ˈkɒləm] (n) {A2} столбец, {A2} {literature and writing} колонка, {B2} {buildings} {C1} {colours and shapes} колонна
+              zT ?#  doorstep [ˈdɔːstɛp] (n) {B2} {houses and homes} {buildings} порог, ступенька крыльца
+              4T ?#  doorway [ˈdɔːweɪ] (n) {houses and homes} {buildings} дверной проем
+  483. (  1) 3T *#PT exit [ˈɛksɪt] (n) {B2} {buildings} выход, {B2} {transport by car or lorry} выезд, {C1} {film and theatre} уход; (adj) выходной; (v) {C1} {computres} выходить
+
 {buildings {architectural styles}}
 ..................................
 {A1} {buildings {architectural styles}}
@@ -5330,6 +5435,9 @@ Home and buildings
   820. (  1) 3T *#PT traditional [trəˈdɪʃənl] (adj) {A1} {A2} {buildings} традиционный
 
 {B1} {buildings {architectural styles}}
+{B2} {buildings {architectural styles}}
+              xT *#  classical [ˈklæsɪkəl] (adj) {A2} {music} {B2} {history} {buildings} {C1} {art} классический
+  265. (  1) 3T ?#PT contemporary [kənˈtɛmpəˌrɛri] (adj) {B2} {history} {buildings} современный, одновременный; (n) современник
 
 {buildings {building location}}
 ...............................
@@ -5349,6 +5457,18 @@ Home and buildings
               xx ?#  next+door [nɛkst dɔː] (adv) {B1} {buildings} по соседству, рядом; (n) соседний дом
   549. (  1) 3T *#PT private [ˈpraɪvɪt] 1T *#  private [ˈpraɪvɪt] (adj) {B1} {healthcare} {buildings} частный, {B1} личный; (n) {C2} {war and conflict} рядовой
 
+{B2} {buildings {building location}}
+  391. (  1) 3T *#PT district [ˈdɪstrɪkt] (n) {B2} {geography} {buildings} район, округ; (adj) районный
+  405. (  3) 5T ?#PT downtown [ˈdaʊntaʊn] (adj) {B2} {shopping} {business} {buildings} в деловой части города, в деловом центре; (adj) {B2} {shopping} {buildings} = in the center of a city; (n) {B2} {shopping} {buildings} центр города, деловая часть города
+              1T *#  drive [draɪv] (v)(intransitive) {A1} {transport by car or lorry} ездить, управлять, (v) {A2} {transport by car or lorry} вести (кого-то), I: drive-drove-driven; (n) {A2} {transport by car or lorry} езда, {B2} {transport by car or lorry} {buildings} дорога, {C1} {success} {personal qualities} стимул, побуждение, привод, {C2} {computers} дисковод
+              yT ?#  driveway [ˈdraɪvweɪ] (n) {B2} {transport by car or lorry} {buildings} дорога, проезд
+  728. (  1) 5T *#PT isolated [ˈaɪsəˌleɪtid] -ed: (v) {B2} {healthcare} изолировать, выделять, {C1} отделять; (adj) {B2} {buildings} изолированный, {C1} отдельный
+              3T ?#  rough [rʌf] (adj) {B1} грубый, {B2} {buildings} черновой, {B2} приблизительный, бурный
+ 1120. (  1) 3T ?#PT rural [ˈrʊərəl] (adj) {B2} {geography} {buildings} сельский
+              5T ?#  slum [slʌm] (n) {B2} {social issues} {buildings} трущобы; (v) посещать трущобы
+ 1259. (  1) 5T ?#PT suburb [ˈsʌbərb] (n) {B2} {geography} {buildings} предместья, пригород, окрестности
+ 1371. (  1) 3T ?#PT urban [ˈɜːbən] (adj) {B2} {geography} {buildings} городской
+
 {buildings {construction}}
 ..........................
 {A1} {buildings {construction}}
@@ -5367,6 +5487,21 @@ Home and buildings
    76. (  2) 3T *#PT block [blɒk] (n) {B1} {physics and chemistry} {buildings} {transport by car or lorry} блок, колодка, блокировка; (v) {B1} {transport by car or lorry} блокировать
   297. (  2) 3T *#PT frame [freɪm] (n) {B1} {art} рамка, {C1} {film and theatre} кадр, {B1} {buildings} каркас; (adj) рамочный; (v) {B1} {art} обрамлять, сооружать, составлять
               1T *#  plan [plæn] (n) {A1} {business} {B1} {buildings} план, проект; (v) {A1} планировать
+
+{B2} {buildings {construction}}
+  150. (  1) 3T *#PT brick [brɪk] (n) {B2} {buildings} {physics and chemistry} кирпич
+  213. (  2) 3T *#PT collapse [kəˈlæps] (n) {B2} {difficulty and failure} {change, cause and effect} {money} крах, коллапс, обвал, падение, {C1} {health problems} разрушение; (v) {B2} {buildings} {change, cause and effect} {money} рухнуть, {B2} {difficulty and failure} рушиться, {B2} {health problems} сильно ослабеть
+  241. (  2) 3T *#PT concrete [ˈkɒnkriːt/kənˈkriːt] (n) {B2} {physics and chemistry} бетон; (adj) {C1} {doubt, guessing and certainty} конкретный, {B2} {buildings} {physics and chemistry} бетонный; (v) {C1} {buildings} бетонировать
+  260. (  1) 3T *#PT construct [kənˈstrʌkt] (n) конструкция; (v) {B2} {buildings} строить, {B2} конструировать, создавать
+  261. (  1) 3T *#PT construction [kənˈstrʌkʃən] (n) {B2} {buildings} строительство, конструкция, построение
+  275. (  1) 3T *#PT convert [ˈkɒnvɜːt->(n)/kənˈvɜːt->(v)] (v) {B2} {buildings} превращать, {B2} {religion and festivals} {C1} {opinion and argument} конвертировать; (n) {C1} {opinion and argument} {religion and festival} новообращенный; (adj) новообращенный
+              1T *#  development [dɪˈvɛləpmənt] (n) {B1} {change, cause and effect} {money} {scientific research} {B2} {buildings} развитие, разработка, создание
+              zT ?#  digger [ˈdɪɡə] (n) {B2} {buildings} экскаватор, копатель
+              xx ?#  knock+down [nɒk daʊn] (phrasal verb) {B2} {buildings} = to destroy a building by breaking its walls, ломать, разрушать, сбивать с ног
+  742. (  1) 4T ?#PT ladder [ˈlædə] (n) {B2} {houses and homes} {buildings} лестница, трап; (v) спускаться
+  757. (  1) 3T *#PT level [(UK)ˈlɛvl/(US)ˈlɛvəl] (n) {A2} {houses and homes} {B1} {games and toys} уровень; (v) {B2} {buildings} нивелировать, выравнивать; (adj) {B1} {buildings} ровный
+ 1050. (  1) yT ?#PT rebuild [ˌriːˈbɪld] (v) восстанавливать, {B2} отстроить заново, {B2} {buildings} перестраивать, I: rebuild-rebult-rebuilt
+              1T *#  support [səˈpɔːt] (n) {A2} {success} {B2} {healthcare} {C1} {music} поддержка, помощь; (v) {A2} {success} {politics} {B1} {money} {B2} {opinion and argument} {buildings} {C1} {music} поддерживать
 
 {buildings {describing buildings}}
 ..................................
@@ -5388,6 +5523,15 @@ Home and buildings
   423. (  2) 5T ?#PT luxury [ˈlʌkʃəri] (n) {B1} люкс, роскошь; (adj) {B1} {buildings] роскошный
   484. (  1) 3T ?#PT outdoor [ˈaʊtdɔː] (adv) на открытом воздухе; (adj) {B1} {houses and homes} {buildings} внешний, наружный
 
+{B2} {buildings {describing buildings}}
+              3T ?#  abandoned [əˈbændənd] -ed: (v) {B2} {difficulty and failure} отказываться от, оставлять, покидать, предаваться; (adj) {B2} {buildings} заброшенный, покинутый
+  498. (  1) 5T *#PT external [ɛksˈtɜːnl] (adj) {B2} {buildings} внешний, {B2} наружный; (n) внешняя поверхность
+              3T *#  formal [ˈfɔːməl] (adj) {A2} {clothes and fashion} формальный, официальный, {B2} {buildings} симметричный
+  600. (  1) 3T *#PT grand [grænd] (adj) {B2} {buildings} {success} большой, великий, грандиозный, главный, великолепный; (n) рояль, тысяча долларов
+  784. (  1) 3T *#PT maintain [meɪnˈteɪn] (v) {B2} {buildings} {opinion and argument} поддерживать, {B2} сохранять
+              xx ?#  open-plan [ˈəʊp(ə)n-plæn] (adj) {B2} {houses and homes} {buildings} с открытой планировкой
+              5T ?#  spacious [ˈspeɪʃəs] (adj) {B2} {buildings} просторный, вместительный, широкий
+
 {buildings {historic buildings}}
 ................................
 {A1} {buildings {historic buildings}}
@@ -5395,6 +5539,15 @@ Home and buildings
   133. (  1) 3T ?#PT castle [(UK)ˈkɑːsl/(US)ˈkæsəl] (n) {A2} {history} {buildings} замок, дворец
 
 {B1} {buildings {historic buildings}}
+{B2} {buildings {historic buildings}}
+              yT ?#  landmark [ˈlændmɑːk] (n) {C1} ориентир, {C1} веха, поворотный пункт, {B2} {buildings} достопримечательность
+              xx ?#  mediaeval [ˌmɛdiˈiːv(ə)l] (adj) {B2} {history} {buildings} средневековый
+  834. (  1) 5T ?#PT monument [ˈmɒnjʊmənt] (n) {B2} {history} {buildings} памятник
+  983. (  1) 3T ?#PT preserve [prɪˈzɜːv] (v) {B2} {buildings} сохранять, {B2} охранять от браконьеров, охранять
+              5T ?#  pyramid [ˈpɪrəmɪd] (n) {B2} {history} {buildings} {colours and shapes} пирамида
+ 1092. (  1) 3T *#PT restore [rɪsˈtɔː] (v) {B2} {builidngs} {art} восстанавливать, реставрировать
+ 1119. (  2) 3T *#PT ruin [rʊɪn] (n) {B2} {history} {buildings} руины, разорение, {B2} гибель, крушение; (v) {B2} разрушать, портить
+              4T ?#  tomb [tuːm] (n) {B2} {buildings} могила, гробница
 
 {buildings {parts of a building}}
 .................................
@@ -5405,6 +5558,11 @@ Home and buildings
   461. (  2) 3T *#PT lift [lɪft] (n) {A2} {buildings} лифт, подъем, {B1} {transport by car or lorry} подъемник; (v) {A2} поднимать; (adj) подъемный
 
 {B1} {buildings {parts of a building}}
+{B2} {buildings {parts of a building}}
+  118. (  1) 5T *#PT basement [ˈbeɪsmənt] (n) {B2} {houses and homes} {buildings} подвал, фундамент
+              yT ?#  cellar [ˈsɛlə] (n) {B2} {houses and homes} {buildings} погреб, подвал
+  283. (  1) 4T ?#PT corridor [ˈkɒrɪdɔː] (n) {B2} {buildings} {education} {transport by bus and train} {C1} {transport by car or lorry} коридор
+  934. (  1) 3T ?#PT passage [ˈpæsɪʤ ] (n) {B2} {houses and homes} {buildings} проход, {B2} {music} {literature and writing} отрывок, эпизод, {C1} {transport by water} прохождение
 
 {buildings {public buildings}}
 ..............................
@@ -5437,6 +5595,14 @@ Home and buildings
   681. (  1) xT ?#PT stadium [ˈsteɪdiəm] (n) {B1} {buildings} {sports: ball and racket sports} стадион
               xx ?#  town+hall [taʊn hɔːl] (n) {B1} {buildings} {politics} ратуша
 
+{B2} {buildings {public buildings}}
+              5T ?#  courthouse [ˈkɔːthaʊs] (n) {B2} {buildings} здание суда
+              xx ?#  fire+station [faɪə ˈsteɪʃ(ə)n] (n) {B2} {buildings} пожарная станция
+              xx ?#  leisure+centre [ˈlɛʒə ˈsɛntə] (n) {B2} {buildings} {games and toys} центр досуга
+              xx ?#  opera+house [ˈɒp(ə)rə haʊs] (n) {B2} {buildings} {music} оперный театр
+              xx ?#  schoolhouse [ˈskuːlhaʊs] (n) {B2} {buildings} здание школы
+ 1296. (  1) 5T *#PT terminal [ˈtɜːmɪnl] (n) {B2} {transport by air} {C1} {computers} терминал, клемма, {B2} {transport by water} {transport by bus and train} {buildings} вокзал; (adj) {C1} {health problems} концевой, терминальный, конечный
+
 {buildings {religious buildings}}
 .................................
 {A1} {buildings {religious buildings}}
@@ -5445,6 +5611,12 @@ Home and buildings
 
 {B1} {buildings {religious buildings}}
               5T ?#  cathedral [kəˈθiːdrəl] (n) {B1} {religion and festivals} {buildings} собор, кафедральный собор; (adj) кафедральный, соборный
+
+{B2} {buildings {religious buildings}}
+              yT ?#  abbey [ˈæbi] (n) {B2} {history} {buildings} {religion and festivals} аббатство, монастырь
+              yT ?#  aisle [aɪl] (n) {B2} {buildings} {film and theatre} {transport by air} {transport by bus and train} {shopping} проход
+  838. (  1) 4T ?#PT mosque [mɒsk] (n) {B2} {religion and festivals} {buildings} мечеть
+ 1290. (  1) 5T ?#PT temple [ˈtɛmpl] (n) {B2} {religions and festivals} {buildings} храм, {C1} {body} висок
 
 {buildings {types of building}}
 ...............................
@@ -5473,6 +5645,16 @@ Home and buildings
               xx ?#  power+station [ˈpaʊə ˈsteɪʃ(ə)n] (n) {B1} {buildings} {the environment} электростанция
               5T ?#  skyscraper [ˈskaɪˌskreɪpə] (n) {B1} {buildings} небоскреб
 
+{B2} {buildings {types of building}}
+  208. (  1) 5T *#PT clinic [ˈklɪnɪk] (n) {B2} {healthcare} {buildings} клиника, медпункт, лечебница; (adj) клинический
+  228. (  1) 3T *#PT complex [ˈkɒmplɛks] (n) {B2} {buildings} комплекс, совокупность; (adj) {B1} сложный, комплексный, составной
+  605. (  1) xT ?#PT greenhouse [ˈgriːnhaʊs] (n) {B2} {buildings} {gardens} {farmings} теплица
+              xx ?#  hall+of+residence [hɔːl ɒv ˈrɛzɪd(ə)ns] (n) {B2} {education} {buildings} общежитие
+              4T ?#  hut [hʌt] (n) {B2} {houses and homes} {buildings} хижина, хата, барак
+              1T *#  property [ˈprɑpərti] (n) {B1} {C1} {physics and chemistry} свойство, {B2} {buildings} собственность, имущество; (adj) имущественный
+ 1166. (  2) 3T ?#PT shelter [ˈʃɛltə] (n) {B2} убежище, {B2} {houses and homes} {social issues} приют, {B2} {buildings} укрытие, кров; (v) {B2} приютить
+              4T ?#  villa [ˈvɪlə] (n) {B2} {buildings} {holidays} {houses and homes} вилла
+
 {gardens}
 ---------
 {gardens {gardening}}
@@ -5491,6 +5673,12 @@ Home and buildings
   670. (  1) 3T ?#PT soil [sɔɪl] (n) {farming} {gardens} почва, грунт, земля
   785. (  1) 3T *#PT water [ˈwɔːtə] (n) {A1} {drink} {transport by water} воды, вода; (v) {B1} {farming} {gardens} поливать, напоить, мочить
 
+{B2} {gardens {gardening}}
+              xx ?#  cut+down [kʌt daʊn] (phrasal verb) = to kill somebody, {B2} {gardens} = to make something fall down by cutting it at the base
+  370. (  1) 3T *#PT dig [dɪg] (v) {B2} {gardens} копать, рыть, I: dig-dug-dug
+              3T *#  fork [fɔːk] (n) {A2} {cooking and eating} вилка, {B2} {gardens} вилы, {C1} {geography} {transport by car or lorry} развилка, ответвление; (v) {C1} {transport by car or lorry} разветвляться
+              4T ?#  snail [sneɪl] (n) {B2} {insects, worms, etc.} {gardens} улитка
+
 {gardens {in the garden}}
 .........................
 {A1} {gardens {in the garden}}
@@ -5506,6 +5694,17 @@ Home and buildings
   281. (  1) 3T ?#PT fence [fɛns] (n) {B1} {gardens} {farming} забор, ограда, ограждение; (v) {C2} {sports: other sports} фехтовать, ограждать
   495. (  1) 3T *#PT path [pɑːθ] (n) путь, контур, траектория, {B1} {gardens} дорожка, тропа
   809. (  1) 3T *#PT yard [jɑːd] (n) {B1} {gardens} двор, сад, {B1} {maths and measurement} ярд; (v) загонять
+
+{B2} {gardens {in the garden}}
+              yT ?#  backyard [ˌbækˈjɑːd] (n) {B2} {gardens} задний двор
+              xx ?#  flowerpot [ˈflaʊəpɒt] (n) {B2} {gardens} цветочный горшок
+              xT ?#  fountain [ˈfaʊntɪn] (n) {B2} {gardens} фонтан, источник
+              xx ?#  garbage+can [ˈɡɑːbɪʤ  kæn] (n) {B2} {gardens} мусорный бак, мусорный ящик, помойное ведро
+  605. (  1) xT ?#PT greenhouse [ˈgriːnhaʊs] (n) {B2} {buildings} {gardens} {farmings} теплица
+              yT ?#  hedge [hɛʤ ] (n) {B2} {gardens} живая изгородь, изгородь, преграда; (adj) тайный; (v) ограничивать, окружать
+              xx ?#  plant+pot [plɑːnt pɒt] (n) {B2} {gardens} горшок для растений
+              xx ?#  roof+garden [ruːf ˈɡɑːd(ə)n] (n) {B2} {gardens} сад на крыше
+              xx ?#  tree+house [triː haʊs] (n) {B2} {gardens} дом на дереве
 
 {houses and homes}
 ------------------
@@ -5527,6 +5726,16 @@ Home and buildings
   443. (  1) 3T *#PT move [muv] (n) {B1} {games and toys} шаг, движение, {B1} {houses and homes} переезд; (v) {A1} {A2} {houses and homes} двигаться, перемещать, перемещаться
               xx ?#  for+sale [fɔː seɪl] (idiom) {houses and homes} для продажи
 
+{B2} {houses and homes {buying a home}}
+  267. (  2) 3T ?#PT contract [ˈkɑnˌtrækt->(n)/kənˈtrækt->(v)] (n) {B2} {discussion and agreement} {working life} {law and justice} {houses and homes} {business} контракт, договор; (v) {B2} {physics and chemistry} сокращаться
+  352. (  1) 3T *#PT deposit [dɪˈpɒzɪt] (n) {B2} {houses and homes} {C1} {money} депозит, залог, месторождение, вклад, взнос; (v) {C1} {money} {houses and homes} депонировать, осаждаться
+              xx ?#  estate+agent [ɪˈsteɪt ˈeɪʤ (ə)nt] (n) {B2} {shopping} {jobs} {houses and homes} агент по недвижимости
+              xx ?#  home+loan [həʊm ləʊn] (n) {B2} {money} {houses and homes} ипотечный кредит
+  771. (  1) 3T ?#PT loan [ləʊn] (n) {B2} {houses and homes} {money} {education} заем, ссуда, заимствование; (v) {B2} {houses and homes} давать взаймы; (adj) ссудный
+  837. (  1) xT ?#PT mortgage [ˈmɔrgəʤ /ˈmɔrgɪʤ ] (v) {B2} {money} {houses and homes} закладывать; (n) {B2} {money} {houses and homes} ипотека, заклад, закладная
+              yT ?#  paperwork [ˈpeɪpəwɜːk] (n) {B2} {business} {houses and homes} проверка документации, бумажная работа
+ 1025. (  2) 3T ?#PT purchase [ˈpɜːʧəs] (n) {B2} {shopping} {houses and homes} покупка, приобретение; (v) {B2} {shopping} покупать, приобретать
+
 {houses and homes {furniture}}
 ..............................
 {A1} {houses and homes {furniture}}
@@ -5547,6 +5756,14 @@ Home and buildings
               4T ?#  rug [rʌg] (n) {B1} {houses and homes} ковер, коврик
   648. (  1) 3T ?#PT shelf [ʃɛlf] (n) {B1} {houses and homes} {shopping} полка, shelf-shelves
               yT ?#  wardrobe [ˈwɔːdrəʊb] (n) {B1} {houses and homes} {B2} {clothes and fashion} {C2} {film and theatre} гардероб
+
+{B2} {houses and homes {furniture}}
+              zT ?#  bookcase [ˈbʊkˌkeɪs] (n) {B2} {houses and homes} книжный шкаф
+              4T ?#  bookshelf [ˈbʊkʃɛlf] (n) {B2} {houses and homes} книжная полка
+              xx ?#  chest+of+drawers [ʧɛst ɒv drɔːz] (n) {B2} {houses and homes} комод
+              yT ?#  couch [kaʊʧ] (n) {B2} {houses and homes} диван
+              3T ?#  drawer [ˈdrɔːə] (n) {B2} {houses and homes} выдвижной ящик, рисовальщик
+              1T *#  unit [ˈjunət/ˈjunɪt] (n) {A2} блок, единица, {B2} {healthcare} подразделение, элемент, единица измерения, {B2} {houses and homes} секция; (adj) единичный
 
 {houses and homes {house equipment}}
 ....................................
@@ -5579,6 +5796,17 @@ Home and buildings
   663. (  1) 3T ?#PT sink [sɪŋk] (v) {B1} {war and conflict} {C1} {change, cause and effect} потопить, тонуть, I: sink-sank-sunk; (n) {B1} {houses and homes} раковина, слив, сток
               xx ?#  solar+panel [ˈsəʊlə ˈpæn(ə)l] (n) {B1} {houses and homes} {the environment} солнечная панель
 
+{B2} {houses and homes {house equipment}}
+              xx ?#  air-conditioned [ˈeəkənˌdɪʃ(ə)nd] (adj) {B2} {transport by car or lorry} {houses and homes} с кондиционером
+              xx *#  air+conditioning [eə kənˈdɪʃ(ə)nɪŋ] (n) {B2} {transport by car or lorry} {houses and homes} кондиционер
+              xx ?#  central+heating [ˈsɛntrəl ˈhiːtɪŋ] (n) {B2} {houses and homes} центральное отопление
+              4T ?#  dustbin [ˈdʌstbɪn] (n) {B2} {houses and homes} мусорный ящик
+  742. (  1) 4T ?#PT ladder [ˈlædə] (n) {B2} {houses and homes} {buildings} лестница, трап; (v) спускаться
+              xx ?#  remote+control [rɪˈməʊt kənˈtrəʊl] (n) {B2} {tv, radio and news} {houses and homes} дистанционное управление, дистанционное телеуправление
+              xx ?#  smoke+alarm [sməʊk əˈlɑːm] (n) {B2} {houses and homes} дымовая пожарная сигнализация
+              3T ?#  stove [stəʊv] (n) {B2} {cooking and eating} плита, печь, {B2} {houses and homes} печка
+              xx ?#  washbasin [ˈwɒʃˌbeɪs(ə)n] (n) {B2} {houses and homes} умывальник, умывальная раковина
+
 {houses and homes {housework}}
 ..............................
 {A1} {houses and homes {housework}}
@@ -5596,6 +5824,12 @@ Home and buildings
               xx ?#  washing-up [ˈwɒʃɪŋˈʌp] (n) {B1} {cooking and eating} {houses and homes} мытье посуды, грязная посуда
               xx ?#  wash+up [wɒʃ ʌp] (phrasal verb) {B1} {houses and homes} мыть посуду, умываться
 
+{B2} {houses and homes {housework}}
+              xx ?#  ironing+board [ˈaɪənɪŋ bɔːd] (n) {B2} {houses and homes} гладильная доска
+ 1277. (  1) 3T ?#PT sweep [swip] (v) {B2} {houses and homes} подметать, мести, I: sweep-swept-swept; (n) размах, охват
+              5T *#  vacuum [ˈvækjʊəm] (n) {C1} {physics and chemistry} вакуум; (v) {B2} {houses and homes} пылесосить
+              xx ?#  vacuum+cleaner [ˈvækjuːm ˈkliːnə] (n) {B2} {houses and homes} пылесос
+
 {houses and homes {interior decor}}
 ...................................
 {A1} {houses and homes {interior decor}}
@@ -5605,6 +5839,13 @@ Home and buildings
 {A2} {houses and homes {interior decor}}
 {B1} {houses and homes {interior decor}}
               4T *#  vase [vɑːz] (n) {B1} {house and homes} ваза
+
+{B2} {houses and homes {interior decor}}
+              yT ?#  comforter [ˈkʌmfətə] (n) {B2} {houses and homes} одеяло, утешитель
+  330. (  1) 3T ?#PT decoration [ˌdɛkəˈreɪʃən] (n) {B2} {religion and festivals} {houses and homes} украшение, декор
+              xT ?#  diy [diː-aɪ-waɪ] (abbr) Do-It-Yourself; (n) {B2} {houses and homes} поделки
+              zT ?#  duvet [ˈduːveɪ] (n) {B2} {houses and homes} одеяло
+  959. (  1) 3T *#PT plain [pleɪn] (adj) {B2} {houses and homes} {clothes and fashion} {apperance} {C1} {personal qualities} простой, гладкий; (n) {C1} {geography} равнина
 
 {houses and homes {parts of a house}}
 ...................................
@@ -5637,12 +5878,27 @@ Home and buildings
   484. (  1) 3T ?#PT outdoor [ˈaʊtdɔː] (adv) на открытом воздухе; (adj) {B1} {houses and homes} {buildings} внешний, наружный
   485. (  1) 3T ?#PT outdoors [ˈaʊtdɔːz] (adv) {B1} {houses and homes} на открытом воздухе; (adj) наружный; (n) улица, двор
 
+{B2} {houses and homes {parts of a house}}
+              xx ?#  doorbell [ˈdɔːbɛl] (n) {B2} {houses and homes} дверной звонок
+              zT ?#  doorstep [ˈdɔːstɛp] (n) {B2} {houses and homes} {buildings} порог, ступенька крыльца
+              4T ?#  doorway [ˈdɔːweɪ] (n) {houses and homes} {buildings} дверной проем
+              3T *#  entry [ˈɛntri] (n) {B1} запись, {B2} {houses and homes} вход, {B1} {literature and writing} вступление, статья, вторжение; (adj) входной, въездной
+              xx ?#  open-plan [ˈəʊp(ə)n-plæn] (adj) {B2} {houses and homes} {buildings} с открытой планировкой
+              zT ?#  rooftop [ˈruːftɒp] (n) {B2} {houses and homes} крыша, плоская крыша
+ 1239. (  1) 3T *#PT step [stɛp] (n) {A2} шаг, {B2} {houses and homes} ступень; (v) шагать, ступать
+
 {houses and homes {renting a home}}
 ...................................
 {A1} {houses and homes {renting a home}}
 {A2} {houses and homes {renting a home}}
 {B1} {houses and homes {renting a home}}
   598. (  2) 3T *#PT rent [rɛnt] (n) прокат, {B1} {houses and homes} {money} арендная плата; (v) {B1} {houses and homes} {money} арендовать
+
+{B2} {houses and homes {renting a home}}
+              5T ?#  communal [ˈkɒmjən(ə)l] (adj) {B2} {houses and homes} общественный, коммунальный
+              4T ?#  landlady [ˈlændˌleɪdi] (n) {C1} {jobs} хозяйка гостиницы, помещица, {B2} {houses and homes} владелица дома
+              xx ?#  room-mate [ˈruːmmeɪt] (n) {B2} {education} {houses and homes} сосед по комнате
+              xx ?#  security+deposit [sɪˈkjʊərəti dɪˈpɒzɪt] (n) {B2} {houses and homes} залоговый депозит
 
 {houses and homes {rooms in a house}}
 .....................................
@@ -5664,6 +5920,19 @@ Home and buildings
 {B1} {houses and homes {rooms in a house}}
               1T *#  study [ˈstʌdi] (n) {A1} {education} {B1} {scientific research} изучение, {B1} {houses and homes} рабочий кабинет; (v) {A1} {education} {{B1} scientific research} изучать
 
+{B2} {houses and homes {rooms in a house}}
+              yT ?#  attic [ˈætɪk] (n) {B2} {houses and homes} чердак, мансарда
+  118. (  1) 5T *#PT basement [ˈbeɪsmənt] (n) {B2} {houses and homes} {buildings} подвал, фундамент
+              yT ?#  cellar [ˈsɛlə] (n) {B2} {houses and homes} {buildings} погреб, подвал
+              3T ?#  closet [ˈklɒzɪt] (n) {B2} {houses and homes} чулан, стенной шкаф, уборная; (adj) кабинетный
+              xx ?#  family+room [ˈfæm(ə)li ruːm] (n) {B1} {holidays} {B2} {houses and homes} семейная комната
+              xx ?#  front+room [frʌnt ruːm] (n) {B2} {houses and homes} передняя комната
+              xx ?#  home+office [həʊm ˈɒfɪs] (n) {B2} {houses and homes} домашний офис
+              xT ?#  lounge [laʊnʤ ] (n) {B2} {transport by air} {holidays} {houses and homes} гостиная, холл или комната для отдыха, шезлонг, кресло; (v) {C2} {personal qualities} бездельничать, сидеть развалясь
+  934. (  1) 3T ?#PT passage [ˈpæsɪʤ ] (n) {B2} {houses and homes} {buildings} проход, {B2} {music} {literature and writing} отрывок, эпизод, {C1} {transport by water} прохождение
+              xx ?#  playroom [ˈpleɪruːm] (n) {B2} {houses and homes} {life stages} игровая комната, детская
+              xx ?#  storeroom [ˈstɔːruːm] (n) {B2} {houses and homes} кладовая, цейхгауз, подсобка
+
 {houses and homes {types of house}}
 ...................................
 {A1} {houses and homes {types of house}}
@@ -5678,6 +5947,18 @@ Home and buildings
 {B1} {houses and homes {types of house}}
               3T *#  farm [fɑːm] (n) {A1} {farming} {B1} {houses and homes} {buildings} ферма, хозяйство; (v) {A2} обрабатывать землю
 
+{B2} {houses and homes {types of house}}
+              xx ?#  country+house [ˈkʌntri haʊs] (n) {B2} {houses and homes} загородный дом, дача
+              yT ?#  detached [dɪˈtæʧt] (adj) {B2} {houses and homes} отдельный
+  462. (  1) 3T ?#PT estate [(UK)ɪsˈteɪt/(US)ɪˈsteɪt] (n) имущество, {B2} имение, поместье, {B2} {houses and homes} недвижимость
+              xx ?#  houseboat [ˈhaʊsbəʊt] (n) {B2} {houses and homes} {transport by water} плавучий дом, лодка, приспособленная для жилья
+  643. (  1) 3T ?#PT housing [haʊzɪŋ] -ing: (v) {B2} вмещать; (n) {B2} {houses and homes} корпус, жилье, жилище; (adj) {B2} жилищный
+              xx ?#  housing+estate [ˈhaʊzɪŋ ɪˈsteɪt] (n) {B2} {houses and homes} жилой комплекс, жилой массив
+              4T ?#  hut [hʌt] (n) {B2} {houses and homes} {buildings} хижина, хата, барак
+              xx ?#  semi-detached [ˌsɛmɪdɪˈtæʧt] (adj) {B2} {houses and homes} полуотдельно стоящий
+ 1166. (  2) 3T ?#PT shelter [ˈʃɛltə] (n) {B2} убежище, {B2} {houses and homes} {social issues} приют, {B2} {buildings} укрытие, кров; (v) {B2} приютить
+              4T ?#  villa [ˈvɪlə] (n) {B2} {buildings} {holidays} {houses and homes} вилла
+
 Leisure
 ========
 {games and toys}
@@ -5689,8 +5970,12 @@ Leisure
 {A2} {games and toys {ball games}}
               xx ?#  ball+game [bɔːl ɡeɪm] (n) {A2} {games and toys} игра в мяч; {B2} {sports: ball and racket sports} (US) = baseball
               xx ?#  table+tennis [ˈteɪb(ə)lˈtɛnɪs] (n) {A2} {games and toys} {sports: ball and racket sports} настольный теннис
+              xx ?#  ping-pong [ˈpɪŋpɒŋ] (n) {B2} {sports: ball and racket sports} {games and toys} настольный теннис, пинг-понг
 
 {B1} {games and toys {ball games}}
+{B2} {games and toys {ball games}}
+              4T ?#  bowling [bəʊlɪŋ] -ing: (v) метать мяч, катиться; (n) {B2} {games and toys} боулинг, игра в кегли
+              xx ?#  handball [ˈhændbɔːl] (n) {B2} {games and toys} гандбол, ручной мяч
 
 {games and toys {board games}}
 ..............................
@@ -5708,6 +5993,10 @@ Leisure
   322. (  1) 4T *#PT go [goʊ] (v) {A1} {A2} {success} идти, ехать, ходить, I: go-went-gone; (n) {B1} {games and toys} ход, движение
   443. (  1) 3T *#PT move [muv] (n) {B1} {games and toys} шаг, движение, {B1} {houses and homes} переезд; (v) {A1} {A2} {houses and homes} двигаться, перемещать, перемещаться
 
+{B2} {games and toys {board games}}
+              1T *#  piece [piːs] (n) {A1} кусок, {A1} {music} {B2} {tv, radio and news} часть, {B2} {games and toys} деталь; (adj) штучный
+ 1030. (  1) 5T *#PT puzzle [ˈpʌzəl] (n) {B2} {games and toys} головоломка, загадка; (v) озадачивать
+
 {games and toys {card games}}
 .............................
 {A1} {games and toys {card games}}
@@ -5717,6 +6006,8 @@ Leisure
   211. (  1) 3T *#PT deal [diːl] (n) {B1} {discussion and agrement} {business} сделка, дело, {B1} {war and conflict} соглашение; (v) {A2} {games and toys} сдавать карты, {B2} {crime and punishment} иметь дело, общаться, бороться, I: deal-dealt-dealt
 
 {B1} {games and toys {card games}}
+{B2} {games and toys {card games}}
+              xx ?#  playing+card [ˈpleɪɪŋ kɑːd] (n) {B2} {games and toys} игральная карта
 
 {games and toys {children's games}}
 ...................................
@@ -5724,6 +6015,10 @@ Leisure
 {A2} {games and toys {children's games}}
 {B1} {games and toys {children's games}}
               4T ?#  playground [ˈpleɪgraʊnd] (n) {B1} {games and toys} детская площадка
+
+{B2} {games and toys {children's games}}
+              xx ?#  guessing+game [ˈɡɛsɪŋ ɡeɪm] (n) {B2} {doubt, guessing and certainty} {games and toys} игра в угадайку, = a game in which you have to guess the answers to questions
+              xx ?#  playtime [ˈpleɪtaɪm] (n) {B2} {games and toys} {education} время игры, время игр и развлечений, время начала спектакля
 
 {games and toys {computer games}}
 .................................
@@ -5734,6 +6029,13 @@ Leisure
 {A2} {games and toys {computer games}}
 {B1} {games and toys {computer games}}
   408. (  1) 3T *#PT level [(UK)ˈlɛvl/(US)ˈlɛvəl] (n) {A2} {houses and homes} {B1} {games and toys} уровень; (v) {B2} {buildings} нивелировать, выравнивать; (adj) {B1} {buildings} ровный
+
+{B2} {games and toys {computer games}}
+              xx ?#  adventure+game [ədˈvɛnʧə ɡeɪm] (n) {B2} {games and toys} приключенческая игра
+              xT ?#  avatar [ˌævəˈtɑː] (n) {B2} {games and toys} {C2} {religion and festivals} аватар, воплощение
+              xT *#  console [ˈkɒnsəʊl->(n)/kənˈsəʊl->(v)] (n) {B2} {games and toys} консоль, {C2} {engineering} {computers} пульт; (v) утешить
+              xx ?#  games+console [ɡeɪmz kənˈsəʊl] (n) {B2} {games and toys} игровая консоль
+              1T *#  world [wɜːld] (n) {A1} {B2} {games and toys} мир, кругозор; (adj) мировой, всемирный
 
 {games and toys {games in general}}
 ...................................
@@ -5757,11 +6059,17 @@ Leisure
               1T *#  play [pleɪ] (n) {A1} {film and theatre} {tv, radio and news} {B1} {games and toys} {sports: ball and racket sports} игра, пьеса, спектакль; (v) {A1} {games and toys} {sports: ball and racket sports} {music} играть
               3T *#  winning [wɪnɪŋ] -ing: (v) {A1} {success} {games and toys} {B1} {money} выигрывать, I: win-won-won; (n) победа, выигрыш; (adj) {B1} {games and toys} выигрывающий
 
+{B2} {games and toys {games in general}}
+              xx ?#  leisure+centre [ˈlɛʒə ˈsɛntə] (n) {B2} {buildings} {games and toys} центр досуга
+  897. (  1) 3T ?#PT opponent [əˈpoʊnənt] (n) {B2} {opinion and argument} {games and toys} оппонент, {B2} противник; (adj) противоположный
+              yT ?#  scoreboard [ˈskɔːbɔːd] (n) {B2} {sports: other sports} {games and toys} табло
+
 {games and toys {indoor games}}
 ...............................
 {A1} {games and toys {indoor games}}
 {A2} {games and toys {indoor games}}
 {B1} {games and toys {indoor games}}
+{B2} {games and toys {indoor games}}
 
 {games and toys {toys}}
 .......................
@@ -5773,6 +6081,10 @@ Leisure
               5T ?#  doll [dɑl] (n) {B1} {games and toys} кукла
               xx ?#  doll's+house [dɒlz haʊs] (n) {B1} {games and toys} кукольный дом
               yT ?#  skateboard [ˈskeɪtbɔːd] (n) {B1} {games and toys} скейтборд; (v) = ride on a skateboard
+
+{B2} {games and toys {toys}}
+  113. (  1) 5T ?#PT balloon [bəˈluːn] (n) {B2} {games and toys} воздушный шар, {B2} {transport by air} баллон; (v) подниматься на воздушном шаре, раздуваться, надувать
+              4T ?#  kite [kaɪt] (n) {C2} {birds} коршун, {B2} {games and toys} воздушный змей
 
 {A1} {hobbies}
 --------------
@@ -5818,20 +6130,37 @@ Leisure
               xx ?#  stamp+collecting [stæmp kəˈlɛktɪŋ] (n) {B1} {hobbies} коллекционирование марок
               3T *#  track [træk] (n) {A2} {transport by bus and train} {B1} {sports: other sports} {transport by car or lorry} {hobbies} {B2} {music} трек, след, дорожка, трасса; (v) {B2} следить
 
-{hobbies {cratfs and skills}}
+{B2} {hobbies {activities and interests}}
+              zT ?#  clubbing [klʌbɪŋ] -ing: (v) собираться вместе; (n) {B2} {hobbies} клубная жизнь
+  214. (  1) xT *#PT collector [kəˈlɛktə] (n) коллектор, сборщик, токоприемник, {B2} {art} {hobbies} коллекционер
+              yT ?#  compass [ˈkʌmpəs] (n) {B2} {hobbies} компас, циркуль; (adj) компасный; (v) замышлять, окружать, схватывать
+  393. (  2) 5T ?#PT dive [daɪv] (n) {B2} {sports: water sports} {transport by air} погружение, пикирование; (v) {B2} {sports: water sports} {hobbies} {transport by air} {birds} нырять, {C1} {sports: ball and racket sports} {money} погружаться
+              4T *#  fisherman [ˈfɪʃəmən] (n) {B2} {jobs} {hobbies} рыбак, рыболов, рыболовное судно, I:fisherman-fishermen
+              xx ?#  hillwalking [ˈhɪlwɔːkɪŋ] (n) {B2} {holidays} {hobbies} прогулки по холмам
+              xx ?#  mountain+bike [ˈmaʊntɪn baɪk] (n) {B2} {transport by car or lorry} {sports: other sports} {hobbies} горный велосипед
+              xx ?#  mountain+biking [ˈmaʊntɪn baɪkɪŋ] (n) {B2} {sports: other sports} {hobbies} = the sport or activity of riding a mountain bike
+              yT ?#  paddle [ˈpædl] (n) {C1} {transport by water} {sports: water sports} весло, затвор; (v) {C1} {transport by water} плескаться, {B2} {hobbies} ковылять, медленно грести
+ 1085. (  2) 3T *#PT reserve [rɪˈzɜːv] (n) {B2} {money} резерв, {B2} {the environment} {hobbies} заповедник, запас, {C1} {opinion and argument} сдержанность; (v) {B2} {cooking and eating} бронировать, резервировать
+ 1201. (  1) 3T *#PT spare [speə] (adj) запасной, {B2} {hobbies} свободный, лишний, резервный; (v) {C1} жалеть, экономить; (n) запасная часть
+ 1399. (  1) 3T ?#PT wander [ˈwɒndə] (v) {B2} {hobbies} блуждать, {C1} бродить, {B2} скитаться; (n) странствие
+
+{hobbies {crafts and skills}}
 .............................
-{A1} {hobbies {cratfs and skills}}
+{A1} {hobbies {crafts and skills}}
    50. (  1) 3T *#PT art [ɑːt] (n) {A1} {art} {education} {hobbies} искусство
   178. (  1) 3T *#PT cooking [kʊkɪŋ] {A1} {cooking and eating} {hobbies} -ing: (v) {A1} {cooking and eating} готовить, варить
   571. (  1) 3T *#PT painting [peɪntɪŋ] {A1} {hobbies} {art} -ing: (v) {A1} {houses and homes} {art} покрасить, красить, изображать
 
-{A2} {hobbies {cratfs and skills}}
+{A2} {hobbies {crafts and skills}}
   248. (  1) 3T *#PT drawing [drɔːɪŋ] -ing: (v) {A1} {art} рисовать, привлекать, {C1} {money} проводить, {C1} {sports: ball and racket sports} играть в ничью, I draw-drew-drawn; (n) чертеж, {A2} {art} {hobbies} рисунок, графика
 
-{B1} {hobbies {cratfs and skills}}
+{B1} {hobbies {crafts and skills}}
               zT ?#  cookery [ˈkʊk(ə)ri] (n) {B1} {cooking and eating} {hobbies} кулинария, стряпня
   504. (  1) 3T ?#PT photography [fəˈtɒgrəfi] (n) фотография, {B1} {hobbies} фотосъемка
   633. (  1) 5T ?#PT sculpture [ˈskʌlpʧə] (n) {B1} {art} {hobbies} скульптура
+
+{B2} {hobbies {crafts and skills}}
+  290. (  1) 3T ?#PT craft [(UK)krɑːft/(US)kræft] 3T ?#  craft [(UK)krɑːft/(US)kræft] (n) {B2} {shopping} {hobbies} ремесло, самолет, судно, {B2} мастерство, умение; (v) {C1} {hobbies} = to make something using special skills especially with your hand
 
 {A1} {shopping}
 ---------------
@@ -5857,6 +6186,14 @@ Leisure
 {B1} {shopping {department in store}}
               yT ?#  gadget [ˈgæʤ ɪt] (n) {B1} {engineering} {houses and homes} {shopping} безделушка, новое устройство, ерунда
 
+{B2} {shopping {department in store}}
+              5T ?#  appliance [əˈplaɪəns] (n) {B2} {engineering} {shopping} прибор, устройство, приспособление, применение
+              xT ?#  cosmetic [kɒzˈmɛtɪk] (adj) косметический; (n) {B2} {shopping} косметика
+  290. (  1) 3T ?#PT craft [(UK)krɑːft/(US)kræft] (n) {B2} {shopping} {hobbies} ремесло, самолет, судно, {B2} мастерство, умение; (v) {C1} {hobbies} = to make something using special skills especially with your hand
+  502. (  1) 5T ?#PT fabric [ˈfæbrɪk] (n) {B2} {clothes and fashion} {shopping} ткань, {B2} {physics and chemistry} материал, {C1} структура, материя; (adj) тканый
+  606. (  1) 3T ?#PT grocery [ˈgrəʊsəri] (n) {B2} бакалейная лавка, {B2} {shopping} бакалея; (adj) продуктовый
+              5T *#  perfume [ˈpɜːfjuːm->(n)/pəˈfjuːm->(v)] (n) {B2} {shopping} духи; (v) подушить
+
 {shopping {online shopping}}
 ............................
 {A1} {shopping {online shopping}}
@@ -5876,6 +6213,10 @@ Leisure
               1T *#  order [ˈɔːdə] (n) {A2} {cooking and eating} {B1} {business} {shopping} заказ, {A1} {B1} {law and justice} порядок, орден, {B1} {war and conflict} приказ; (v) {A1} {cooking and eating} {A2} {shopping} заказывать, {B1} {permission and obligation} {war and conflict} приказывать, упорядочивать
               3T *#  packaging [ˈpækɪʤ ɪŋ] -ing: (v) {B2} упаковывать, оформлять; (n) {B1} {shopping} упаковка
               4T ?#  seller [ˈsɛlə] (n) {B1} {shopping} продавец, торговец, продаваемый товар
+
+{B2} {shopping {online shopping}}
+  134. (  2) 3T ?#PT bid [bɪd] (n) {B2} {art} {shopping} {business} заявка, предложение цены; (v) {B2} {art} {shopping} {business} предлагать цену
+  343. (  1) 3T ?#PT delivery [dɪˈlɪvəri] (n) {B2} {shopping} доставка, сдача, поставка, {B2} выдача; (adj) нагнетательный
 
 {shopping {paying for shopping}}
 ................................
@@ -5912,9 +6253,18 @@ Leisure
   737. (  2) 3T *#PT total [ˈtəʊtl] (adj) {B1} полный, суммарный, совокупный; (n) {B1} {shopping} {maths and measurement} итог, сумма, общее количество; (v) {C1} {maths and measurement} составлять, подсчитывать
   772. (  1) 3T *#PT value [ˈvæljuː] (n) значение, {B1} {money} {shopping} стоимость, {C1} {maths and measurement} величина; (v) ценить, {B2} {money} оценивать
 
-{shopping {spopping in store}}
+{B2} {shopping {paying for shopping}}
+   16. (  1) 3T *#PT account [əˈkaʊnt] (n) {B1} {money} {B2} {phones, email and the internet} {shopping} счет, отчет, бухгалтерский; (v) {B2} {opinion and argument} приходиться
+  325. (  1) 3T ?#PT debt [dɛt] (n) {B2} {money} {shopping} долг
+              xx ?#  profit+margin [ˈprɒfɪt ˈmɑːʤ ɪn] (n) {B2} {business} {shopping} норма прибыли, размер прибыли
+ 1025. (  2) 3T ?#PT purchase [ˈpɜːʧəs] (n) {B2} {shopping} {houses and homes} покупка, приобретение; (v) {B2} {shopping} покупать, приобретать
+ 1060. (  1) 3T ?#PT reduction [rɪˈdʌkʃən] (n) {B2} {change, cause and effect} {shopping} {money} сокращение, уменьшение, восстановление
+              xT ?#  refund [ˈriːfʌnd] (n) {B2} {money} {shopping} возврат; (v) {B2} {money} возвращать деньги
+ 1095. (  1) 5T ?#PT retail [ˈriːteɪl] (n) {B2} {business} {shopping} розничная торговля, в розницу, розничный; (v) {C1} {shopping} продавать в розницу; (adv) {C1} {shopping} в розницу
+
+{shopping {shopping in store}}
 ..............................
-{A1} {shopping {spopping in store}}
+{A1} {shopping {shopping in store}}
    62. (  1) 3T *#PT bag [bæg] (n) {A1} {shopping} {clothes and fashion} сумка
   122. (  1) 3T *#PT buy [baɪ] (v) {A1} {shopping} {money} {houses and homes} купить, покупать, приобретать, I: buy-bought-bought
   142. (  1) 3T *#PT centre [ˈsɛntə] (n) {shopping} {buildings} {B2} {politics} центр, середина; (v) {B1} центрировать
@@ -5929,7 +6279,7 @@ Leisure
               xx ?#  town+centre [taʊn ˈsɛntə] (n) {A1} {shopping} центр города
   885. (  1) 3T *#PT window [ˈwɪndəʊ] (n) {A1} {houses and homes} {buildings} {B1} {computes} окно, {A1} {shopping} витрина; (adj) оконный
 
-{A2} {shopping {spopping in store}}
+{A2} {shopping {shopping in store}}
    63. (  2) 3T *#PT assistant [əˈsɪstənt] (n) {A2} {education} {jobs} {shopping} ассистент, помощник
   376. (  1) 3T *#PT helpful [ˈhɛlpfʊl] (adj) {A2} {personal qualities} {shopping} полезный
   481. (  1) 3T *#PT manager [ˈmænəʤ ə/ˈmænɪʤ ə] (n) {A2} {jobs} {business} {shopping} {B2} {film and theatre} менеджер, руководитель, директор, управляющий
@@ -5939,7 +6289,7 @@ Leisure
               xx ?#  shopping+bag [ˈʃɒpɪŋ bæɡ] (n) {A2} {shopping} сумка для покупок
               xx ?#  store+window [stɔː ˈwɪndəʊ] (n) {A2} {shopping} витрина магазина
 
-{B1} {shopping {spopping in store}}
+{B1} {shopping {shopping in store}}
               xx ?#  city+centre [ˈsɪti ˈsɛntə] (n) {B1} {buildings} {shopping} центр города
   204. (  1) 3T ?#PT discount [ˈdɪskaʊnt] (n) {B1} {shopping} {money} {business} скидка
               xx ?#  high+street [haɪ striːt] (n) {B1} {shopping} главная улица
@@ -5953,6 +6303,34 @@ Leisure
               xx ?#  shopping+mall [ˈʃɒpɪŋ mɔːl] (n) {B1} {buildings} {shoppings} торговый центр
   741. (  2) 3T *#PT trade [treɪd] (n) {B1} {money} {shopping} {politics} сделка, торговля, профессия, ремесло; (v) {B1} {money} торговать; (adj) торговый
               zT *#  unhelpful [ʌnˈhɛlpfʊl] {B1} {shopping} un-: (adj) {A2} {personal qualities} {shopping} полезный
+
+{B2} {shopping {shopping in store}}
+              yT ?#  aisle [aɪl] (n) {B2} {buildings} {film and theatre} {transport by air} {transport by bus and train} {shopping} проход
+              1T *#  article [ˈɑːtɪkl] (n) {A1} {tv, radio and news} {C2} {law and justice} статья, {B2} {shopping} изделие, {B1} {language} артикль
+  116. (  1) 3T ?#PT bargain [ˈbɑːgɪn] (v) {C1} {discussion and agreement} {shopping} торговаться; (n) {B2} {shopping} {money} {discussion and agreement} сделка
+  120. (  1) 4T *#PT basket [ˈbɑːskɪt] (n) {B2} {shopping} {sports ball and racket sports} корзина
+              xx ?#  be+sold+out [biː səʊld aʊt] (phrasal verb) {B2} {shopping} быть распроданным
+              yT ?#  cashier [kæˈʃɪə->(n)/kəˈʃɪə->(v)] (n) {B2} {jobs} {shopping} кассир; (v) {C1} {war and conflict} увольнять со службы
+              5T ?#  checkout [ˈʧəkˈaʊt] (n) {B2} {money} {shopping} контроль, отладка, испытание, {B2} {holidays} выписка; (v) проверять, выписываться
+  206. (  1) 3T *#PT clerk [klɑːk] (n) {B2} {jobs} {shopping} {holidays} клерк, продавец, чиновник, секретарь, писарь, делопроизводитель; (v) служить чиновником
+  285. (  1) 3T *#PT counter [ˈkaʊntə] (n) счетчик, {B2} {shopping} прилавок, {B2} {cooking and eating} стойка; (v) {C1} противостоять, {C1} противоречить; (adj) встречный
+  378. (  1) 3T ?#PT discount [ˈdɪskaʊnt] (n) {B1} {shopping} {money} {business} скидка
+  384. (  2) 3T *#PT display [dɪsˈpleɪ] (n) дисплей, {C1} {computers} отображение, {B2} {shopping} показ, {B2} проявление; (v) {B2} отображать
+  405. (  3) 5T ?#PT downtown [ˈdaʊntaʊn] (adj) {B2} {shopping} {business} {buildings} в деловой части города, в деловом центре; (adj) {B2} {shopping} {buildings} = in the center of a city; (n) {B2} {shopping} {buildings} центр города, деловая часть города
+ 1038. (  1) 3T *#PT range [reɪnʤ ] (n) {B1} {B2} {shopping} диапазон, {C1} {geography} ряд; (v) {B2} колеблиться
+              4T ?#  salesman [ˈseɪlzmən] (n) {B2} {jobs} {shopping} продавец, коммивояжер, комиссионер, I:*man-*men
+              xx ?#  saleswoman [ˈseɪlzˌwʊmən] (n) {B2} {jobs} {shopping} продавщица, I:*woman-women
+ 1122. (  1) 3T *#PT sample [(UK)ˈsɑːmpl/(US)ˈsæmpəl] (n) {B1} образец, пример, {B2} {healthcare} {shopping} {scientific research} выборка; (v) пробовать
+ 1127. (  1) 3T *#PT saving [seɪvɪŋ] -ing: (v) {A2} {computer} сохранять, {A2} {money} экономить, {B2} {B1} {sports: ball and racket sports} спасать; (n) {B2} {shopping} {money} экономия, сбережения, спасение
+              xx ?#  self-service [ˌself-ˈsɜːvɪs] (adj) {B2} {shopping} {cooking and eating} (shop/restaurant/etc.) = is one on which customers serve themselves and the pay for the goods ; (n) {B2} {cooking and eating} самообслуживание
+              xx ?#  sell+out [sɛl aʊt] (phrasal verb) {B2} {shopping} распродать, распродавать, предавать
+              xx ?#  shoplift [ˈʃɒpˌlɪft] (v) {B2} {shopping} {crime and punishment} воровать товары; (n) магазинная кража
+              xx ?#  shoplifter [ˈʃɒpˌlɪftə] (n) {B2} {shopping} {crime and punishment} магазинный вор
+              xx ?#  shoplifting [ˈʃɒpˌlɪftɪŋ] -ing: (v) {B2} {shopping} {crime and punishment} воровать товары; (n) {B2} {shopping} {crime and punishment} кража в магазине
+              xx ?#  special+offer [ˈspɛʃ(ə)l ˈɒfə] (n) {B2} {shopping} специальное предложение
+ 1243. (  1) 3T *#PT stock [stɒk] (n) {B2} {shopping} {C2} {money} акции, запас, фонд; (adj) фондовый; (v) {B2} {shoppings} хранить на складе
+              4T ?#  trolley [ˈtrɒli] (n) {B2} {shopping} {sports: ball and racket sports} тележка, вагонетка, троллей, трамвай, дрезина
+              xx ?#  try+on [traɪ ɒn] (phrasal verb) {B2} {shopping} попробовать, примерять
 
 {shopping {type of store}}
 ..........................
@@ -5970,6 +6348,29 @@ Leisure
 
 {B1} {shopping {type of store}}
               xx ?#  department+store [dɪˈpɑːtmənt stɔː] (n) {B1} {shopping} универмаг, универсальный магазин, промтоварный
+
+{B2} {shopping {type of store}}
+              5T ?#  antique [ænˈtiːk] (adj) античный, антикварный, старинный; (n) {B2} {shopping} антикварная вещь, памятник древности
+              4T ?#  bakery [ˈbeɪkəri] (n) {B2} {shopping} пекарня, булочная, хлебопекарня
+              xx ?#  bakeshop [ˈbeɪkʃɒp] (n) {B2} {shopping} пекарня, хлебопекарня
+              5T ?#  barber [ˈbɑːbə] (n) {C1} {appearance} {jobs} парикмахер, цирюльник, {B2} {appearance} {shopping} парикмахерская; (v) стричься
+              yT ?#  butcher [ˈbʊʧə] (n) {B2} {shopping} {jobs} мясник, палач, безжалостно убивать; (v} {C2} {farming} безжалостно убивать
+              xT *#  cleaner [ˈkliːnə] (n) {A2} {jobs} уборщик, чистильщик, {B2} {shopping} очиститель
+              xx ?#  convenience+store [kənˈviːniəns stɔː] (n) {B2} {shopping} магазин товаров повседневного спроса
+              xx ?#  corner+shop [ˈkɔːnə ʃɒp] (n) {B2} {shopping} = a small shop that sells food/newspaper/etc. especially one near people's houses
+              3T *#  drugstore [ˈdrʌgstɔː] (n) {B2} {shopping} аптека, аптекарский магазин
+              xx ?#  estate+agent [ɪˈsteɪt ˈeɪʤ (ə)nt] (n) {B2} {shopping} {jobs} {houses and homes} агент по недвижимости
+              xx ?#  farmers'+market [ˈfɑːməz ˈmɑːkɪt] (n) {B2} {shopping} фермерский рынок
+              xx ?#  farm+shop [fɑːm ʃɒp] (n) {B2} {shopping} фермерский магазин
+              4T ?#  greengrocer [ˈgriːnˌgrəʊsə] (n) {B2} {jobs} {shopping} зеленщик, продавец фруктов
+              xx ?#  health+food [hɛlθ fuːd] (n) {B2} {shopping} {cooking and eating} здоровая пища
+              xx ?#  jeweller's [ˈʤ uː(ə)ləz] 's: (n) {C1} {jobs} ювелир; (adj) {B2} {shopping} ювелирный
+              xx ?#  newsagent [ˈnjuːzˌeɪʤ (ə)nt] (n) {B2} {shopping} газетный киоск, газетный киоскер
+              xT ?#  pharmacy [ˈfɑːməsi] (n) {B2} {shopping} {healthcare} аптека
+              xT ?#  salon [ˈsælɒn] (n) {B2} {shopping} {appearance} салон, гостиная, приемная
+ 1228. (  1) yT ?#PT stall [stɔːl] (n) {B2} {shopping} киоск, ларек, кабинка, прилавок, {C2} {farming} стойло; (v) глохнуть, обманывать
+ 1230. (  1) 3T *#PT stand [stænd] (n) {B2} {opinion and argument} позиция, {B2} {shopping} стенд, подставка; (v) {A1} стоять, {B2} {politics} баллотироваться, I: stand-stood-stood
+              xx ?#  travel+agency [ˈtræv(ə)l ˈeɪʤ (ə)nsi] (n) {B2} {shopping} {holidays} туристическое агентство
 
 Notions
 ========
@@ -6005,6 +6406,13 @@ Notions
   577. (  1) 3T *#PT reaction [ri(ː)ˈækʃən] (n) {B1} {change, cause and effect} {health problems} {physics and chemistry} реакция, реагирование; (adj) реактивный
   610. (  1) 3T *#PT result [rɪˈzʌlt] (n) {A1} {change, cause and effect} {sports: ball and reacket sports} {politics} {education} {scientific research} {A2} {success} {B1} {business} результат, следствие, итог; (v) {B1} {changes, cause and effect} следовать
   725. (  1) 3T *#PT therefore [ˈðeəfɔː] (adv) {B1} {change, cause and effect} поэтому, следовательно, потому
+
+{B2} {change, cause and effect {cause and effect}}
+              xx ?#  account+for [əˈkaʊnt fɔː] (phrasal verb) {B2} {change, cause and effect} = to be the explanation or cause of something, = {B2} to give an explanation of something
+   78. (  1) 3T *#PT arise [əˈraɪz] (v) {B2} {change, cause and effect} возникать, {B2} появляться, I:arise-arose-arisen
+  249. (  1) 5T ?#PT consequently [ˈkɒnsɪkwəntli] -ly: (adj)->(adv) последующий, последовательный, {C1} {change, cause and effect} являющийся результатом; (adv) {B2} {change, cause and effect} следовательно, поэтому, в результате
+  268. (  1) 3T *#PT contribute [kənˈtrɪbju(ː)t] (v) {B2} {change, cause and effect} способствовать, {B2} делать вклад, {B2} {tv, radio and news} = to write things for a newspaper, book, website, etc. or a radio or television programme/speak during a meeting or conversation, especially to give your opinion
+  269. (  1) 3T *#PT contribution [ˌkɒntrɪˈbjuːʃən] (n) {B2} {change, cause and effect} вклад, {B2} взнос
 
 {change, cause and effect {change}}
 ...................................
