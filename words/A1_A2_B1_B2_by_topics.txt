@@ -4,7 +4,7 @@ general
 (article)
 ---------
 {A1} (article)
-   0. (1076) sudo airodump-ng wlp2s0mon --channel 33T *#PT a [æ/eɪ] (article) {A1} indefinite - a/an; (letter) A b c d
+   0. (1076)  3T *#PT a [æ/eɪ] (article) {A1} indefinite - a/an; (letter) A b c d
               3T *#  an [æn] (article) {A1} indefinite - a/an
   783. (  1) xT *#PT the [ðiː/ðɛ] (article) {A1} the definite
 
@@ -6593,6 +6593,8 @@ Notions
   115. (  1) 5T ?#PT barely [ˈbeəli] -ly: (adj)->(adv) {C1} голый, пустой, неизолированный; (adv) {B2} {difficulty and failure} {C1} едва, только, лишь
   122. (  1) 3T *#PT battle [ˈbætl] (adj) боевой; (n) {B1} {history} {war and conflict} {opinion and argument} {success} {difficulty and failure} битва, бой, сражение, борьба; (v) {B2} {success} {difficulty and failure} сражаться
               1T *#  big [bɪg] (adj) {A1} {B2} {difficulty and failure} {C1} {success} большой
+  297. (  1) 3T *#PT crisis [ˈkraɪsɪs] (n) {B2} {difficulty and failure} {health problems} кризис, перелом, I:crisis-crises; (adj) кризисный
+ 1252. (  2) 3T ?#PT struggle [ˈstrʌgl] (n) {B2} {difficulty and failure} {opinion and argument} борьба; (v) {B2} {difficulty and failure} {opinion and argument} бороться
 
 {difficulty and failure {likely to fail}}
 .........................................
@@ -6600,6 +6602,11 @@ Notions
 {A2} {difficulty and failure {likely to fail}}
 {B1} {difficulty and failure {likely to fail}}
               xx ?#  unambitious [ʌnæmˈbɪʃəs] {B1} {difficulty and failure} un-: (adj) {B1} {success} {personal qualities} {B2} {difficulty and failure} честолюбивый, самолюбивый, стремящийся
+
+{B2} {difficulty and failure {likely to fail}}
+              5T ?#  ambitious [æmˈbɪʃəs] (adj) {B1} {success} {personal qualities} {B2} {difficulty and failure} честолюбивый, самолюбивый, стремящийся
+  361. (  1) 3T ?#PT desperate [ˈdɛspərɪt] (adj) {B2} {feelings} отчаянный, {B2} {difficulty and failure} {danger} безнадежный
+ 1252. (  2) 3T ?#PT struggle [ˈstrʌgl] (n) {B2} {difficulty and failure} {opinion and argument} борьба; (v) {B2} {difficulty and failure} {opinion and argument} бороться
 
 {difficulty and failure {resulting in failure}}
 ...............................................
@@ -6617,6 +6624,14 @@ Notions
               3T *#  unsuccessful [ʌnsəkˈsɛsfʊl] {B1} {difficulty and failure} un-: (adj) {A2} {success} успешный, удачный
               xx *#  unsuccessfully [ʌnsəkˈsɛsfʊli] -ly: (adj)->(adv) {B1} {difficulty and failure} un-: (adj) {A2} {success} успешный, удачный; (adv) {B1} {difficulty and failure} безуспешно
 
+{B2} {difficulty and failure {resulting in failure}}
+              3T *#  attempted [əˈtɛmptɪd] -ed: (v) {B2} пытаться, пробовать; (adj) {B2} {difficulty and failure} {crime and punishment} = that somebody has tried to do but without success
+  213. (  2) 3T *#PT collapse [kəˈlæps] (n) {B2} {difficulty and failure} {change, cause and effect} {money} крах, коллапс, обвал, падение, {C1} {health problems} разрушение; (v) {B2} {buildings} {change, cause and effect} {money} рухнуть, {B2} {difficulty and failure} рушиться, {B2} {health problems} сильно ослабеть
+  505. (  1) xT *#PT failed [feɪld] -ed: (v) {A2} {difficulty and failure} {education} {B2} {business} {C1} {feelings} терпеть неудачу; (adj) {B2} {difficulty and failure} неуспешный, неудачный
+              4T ?#  hopeless [ˈhəʊplɪs] (adj) {B2} {difficulty and failure} безнадежный
+              xx ?#  hopelessly [ˈhəʊplɪsli] -ly: (adj)->(adv) {B2} {difficulty and failure} безнадежный; (adv) {B2} {difficulty and failure} безнадежно
+              3T *#  lost [lɒst] -1,2ed: (v) {A1} {difficulty and failure} {money} терять, {A1} {games and toys} терять, проигрывать, упускать, I:lose-lost-lost; (adj) {A2} потерянный, погибший, {B2} {difficulty and failure} = unable to deal successfully with a particular situation, {B2} = unable to understand something because it is too complicated
+
 {difficulty and failure {unsuccessful people/things}}
 .....................................................
 {A1} {difficulty and failure {unsuccessful people/things}}
@@ -6626,6 +6641,13 @@ Notions
   235. (  1) 3T ?#PT disaster [dɪˈzɑːstə] (n) {A2} {difficulty and failure} стихийное бедствие
 
 {B1} {difficulty and failure {unsuccessful people/things}}
+{B2} {difficulty and failure {unsuccessful people/things}}
+  101. (  2) 3T *#PT attempt [əˈtɛmpt] (n) {B2} {difficulty and failure} попытка, {B2} покушение; (v) {B2} пытаться, пробовать
+  213. (  2) 3T *#PT collapse [kəˈlæps] (n) {B2} {difficulty and failure} {change, cause and effect} {money} крах, коллапс, обвал, падение, {C1} {health problems} разрушение; (v) {B2} {buildings} {change, cause and effect} {money} рухнуть, {B2} {difficulty and failure} рушиться, {B2} {health problems} сильно ослабеть
+  333. (  2) 3T ?#PT defeat [dɪˈfiːt] (n) {B2} {difficulty and failure} {war and conflict} {sports: other sports} поражение, крушение; (v) {B2} {war and conflict} {sports: other sports} побеждать, {B2} {difficulty and failure} уничтожать
+  506. (  1) 3T ?#PT failure [ˈfeɪljə] (n) недостаточность, {B2} отказ, {B2} {difficulty and failure} {business} провал, неудача, сбой, авария, повреждение
+              yT *#  loser [ˈluːzə] (n) {B1} {games and toys} проигравший, {B2} {difficulty and failure} неудачник, лузер
+              1T *#  loss [lɒs] (n) {B1} потеря, {B2} {money} {business} убыток, {B2} {difficulty and failure} утрата
 
 {success}
 ---------
@@ -6667,6 +6689,30 @@ Notions
               3T *#  secret [ˈsikrət/ˈsikrɪt] (n) {A2} {B1} {success} секрет, тайна; (adj) {A2} секретный, тайный
   697. (  1) 3T *#PT successfully [səkˈsɛsfʊli] -ly: (adj)->(adv) {A2} {success} успешный, удачный; (adv) {B1} {success} успешно
 
+{B2} {success {achieving success}}
+   15. (  1) 5T ?#PT accomplish [əˈkɒmplɪʃ] (v) {B2} {success} выполнять, совершать
+   27. (  1) 3T *#PT adapt [əˈdæpt] (v) {B2} {success} приспосабливать, {B2} {literature and writing} {film and theatre} {tv, radio and news} адаптировать
+   37. (  3) 3T ?#PT advance [(UK)ədˈvɑːns/(US)ədˈvæns] (n) {B2} {success} продвижение, {B2} {war and conflict} наступление, аванс; (adj) {B2} авансовый, предварительный; (v) {C1} {success} продвигать, наступать
+  122. (  1) 3T *#PT battle [ˈbætl] (adj) боевой; (n) {B1} {history} {war and conflict} {opinion and argument} {success} {difficulty and failure} битва, бой, сражение, борьба; (v) {B2} {success} {difficulty and failure} сражаться
+  146. (  2) 5T ?#PT boost [buːst] (v) {B2} {success} {change, cause and effect} форсировать, повышать; (n) {B2} {success} {change, cause and effect} поддержка
+  279. (  1) 3T ?#PT cope [kəʊp] (v) {B2} {success} справляться, ладить
+  309. (  2) 3T ?#PT cure [kjʊə] (n) {B2} {healthcare} лечение, кюре, лекарство, излечение, исцеление; (v) {B2} {healthcare} {success} лечить, исцелять
+  461. (  1) 3T *#PT establish [ɪˈstæblɪʃ] (v) {B2} {success} устанавливать, создавать
+  566. (  1) yT ?#PT fulfil [fʊlˈfɪl] (v) {B2} {success} {feelings} {business} выполнять, {B2} исполнять
+  632. (  1) 3T *#PT hold [həʊld] (v) {A2} {B1} {working life} {B2} {success} {crime and punishment} {phone, email and the internet} держать, занимать, удерживать, {B2} {opinion and argument} считать; I: hold-held-held; (n) владение, {B2} {sports: other sports} захват, удерживание, {C1} {transport by water} {transport by air} трюм
+  850. (  1) 3T *#PT narrow [ˈnærəʊ] (adj) низкий, {B2} ограниченный, небольшой, {B2} {success} = only just achieved or avoided, {A2} узкий; (adv) низко; (v) {B2} уменьшать, суживаться, уменьшаться
+ 1002. (  1) 3T *#PT progress [ˈprəʊgrəs->(n)/prəʊˈgrɛs->(v)] (n) {A2} {success} прогресс, ход, успехи; (v) {B2} {success} прогрессировать
+ 1007. (  1) 3T ?#PT promotion [prəˈməʊʃən] (n) {B2} {jobs} {success} {C1} {business} {shopping} продвижение, содействие, поощрение
+ 1028. (  1) 3T ?#PT pursue [pəˈsjuː] (v) {B2} {success} преследовать, продолжать, заниматься, {B2} {law and justice} {crime and punishment} вести следствие
+              1T *#  realize [ˈrɪəlaɪz] (v) {A2} {B2} {success} реализовать, понимать, осознавать
+              1T *#  rise [raɪz] (n) {B1} {change, cause and effect} {money} {B2} {success} рост, повышение, подъем; (v) {A2} {change, cause and effect} {money} {space} {B2} [success} подниматься, повышаться, I: rise-rose-risen
+ 1142. (  2) 3T *#PT secure [sɪˈkjʊə] (adj) {B2} {success} {feelings} {personal qualities} безопасный; (v) {B2} {success} обезопасить, гарантировать
+              5T *#  securely [sɪˈkjʊəli] -ly: (adj)->(adv) {B2} {success} {feelings} {personal qualities} безопасный; (adv) {B2} {success} надежно, безопасно
+              1T *#  start [stɑːt] (n) {A2} {B2} {success} начало; (v) {A1} начинать
+ 1250. (  1) 3T ?#PT stroke [stroʊk] (n) {B2} {sports: ball and racket sports} {C1} {health problems} удар, {B2} {success} {C1} {transport by water} ход; (v) {C1} {animals} погладить, поглаживать
+              1T *#  strong [strɒŋ] (adj) {A1} {health and fitness} {B1} {personal qualities} {weather} {B2} {success} сильные, {B1} {cooking and eating} крепкий
+ 1385. (  1) 3T *#PT victory [ˈvɪktəri] (n) {B2} {success} {war and conflict} {sports: other sports} победа
+
 {success {acknowledging success}}
 .................................
 {A1} {success {acknowledging success}}
@@ -6675,6 +6721,11 @@ Notions
 
 {B1} {success {acknowledging success}}
   607. (  2) 3T *#PT respect [rɪsˈpɛkt] (n) {B1} {success} уважение; (v) {B1} {success} {opinion and argument} уважать, {B1} {law and justice} соблюдать
+
+{B2} {success {acknowledging success}}
+  181. (  1) 3T ?#PT certificate [sərˈtɪfɪkət/səˈtɪfɪkeɪt] (n) {B2} {life stages} {success} {education} сертификат; (v) {B2} {success} сертифицировать, выдавать свидетельство
+ 1124. (  1) 3T *#PT satisfaction [ˌsætɪsˈfækʃən] (n) {B2} {success} удовлетворение
+ 1125. (  1) 3T *#PT satisfied [ˈsætɪsfaɪd] -ed: (v)(stative) {B2} {feelings} удовлетворять, выполнять; (adj) {B2} {success} {feelings} удовлетворенный, довольный
 
 {success {ambition}}
 ....................
@@ -6691,12 +6742,31 @@ Notions
               1T *#  positive [ˈpɒzətɪv] (adj) {A1} {language} {A2} {opinion and argument} {B1} {success} {personal qualities} {B2} {doubt, guessing and certainty} {maths and measurement} положительный; (n) {B2} {scientific research} позитив
               xx ?#  work+on [wɜːk ɒn] (phrasal verb) {B1} {success} {C2} {discussion and agreement} работа над, влиять, обрабатывать, продолжать работать
 
+{B2} {success {ambition}}
+   43. (  1) 3T *#PT aggressive [əˈgrɛsɪv] (adj) {B2} {feelings} {success} агрессивный
+              zT ?#  aggressively [əˈgrɛsɪvli] -ly: (adj)->(adv) {B2} {feelings} {success} агрессивный; (adv) {B2} {success} агрессивно
+  417. (  1) 5T *#PT dynamic [daɪˈnæmɪk] (adj) {B2} {success} {personal qualities} {C1} динамический
+              3T *#  exercise [ˈɛksəsaɪz] (n) {A1} {sports: other sports} {health and fitness} {education} упражнение, {B2} {success} осуществление, тренировка, занятие; (v) {A1} {sports: other sports} {health and fitness} {B2} {success} осуществлять, проявлять, тренироваться, выполнять
+  600. (  1) 3T *#PT grand [grænd] (adj) {B2} {buildings} {success} большой, великий, грандиозный, главный, великолепный; (n) рояль, тысяча долларов
+  713. (  1) 3T *#PT intended [ɪnˈtɛndɪd] -ed: (v) {B1} намереваться; (adj) {B2} {success} = that you are trying to achieve or reach, {B2} = planned or designed for somebody/something
+  876. (  2) 3T ?#PT objective [əbˈʤ ɛktɪv] (n) {B2} {success} цель, задача, объект; (adj) {B2} {opinion and argument} объективный, целевой
+              1T *#  race [reɪs] (n) раса, {A2} {sports: other sports} {B2} {success} гонки, {B1} {people in society} род; (v) {A2} {success} {sports: other sports} мчаться
+ 1143. (  1) 3T *#PT seek [siːk] (v) {B2} искать, {B2} {success} добиваться, стремиться
+
 {success {predicting success}}
 ..............................
 {A1} {success {predicting success}}
 {A2} {success {predicting success}}
 {B1} {success {predicting success}}
               1T *#  future [ˈfjuːʧə] (n) {A1} {language} {B1} {success} {C2} {money} будущее, будущность; (adj) {A2} будущий
+
+{B2} {success {predicting success}}
+              5T *#  optimist ['ɒptɪmɪst] (n) {B2} {success} оптимист
+  901. (  1) 5T *#PT optimistic [ˌɒptɪˈmɪstɪk] (adj) {B2} {success} {personal qualities} оптимистический
+              xx ?#  optimistically [ˌɒptɪˈmɪstɪk(ə)li] (adv) {B2} {success} оптимистично
+              3T *#  promise [ˈprɒmɪs] (n) {A2} {B2} {success} обещание; (v) {A2} обещать
+ 1006. (  1) 5T *#PT promising [ˈprɒmɪsɪŋ] -ing: (v) {A2} обещать; (adj) {B2} {success} многообещающий, подающий надежды
+ 1013. (  1) 3T ?#PT prospect [ˈprɒspɛkt] (n) {B2} {success} перспектива, {B2} разведка, панорама, вид
 
 {success {successful people}}
 .............................
@@ -6705,12 +6775,15 @@ Notions
   868. (  1) 3T *#PT winner [ˈwɪnə] (n) {A2} {games and toys} {success} победитель
 
 {B1} {success {successful people}}
+{B2} {success {successful people}}
 
 {success {successful things}}
 .............................
 {A1} {success {successful things}}
 {A2} {success {successful things}}
 {B1} {success {successful things}}
+{B2} {success {successful things}}
+  653. (  1) 3T *#PT ideal [aɪˈdɪəl] (n) {B2} {success} {politics} идеал, верх совершенства; (adj) {A2} идеальный
 
 People
 =======
@@ -6726,6 +6799,19 @@ People
    42. (  1) 3T *#PT application [ˌæplɪˈkeɪʃ(ə)n] (n) {B1} {working life} {education} {C1} {computers} приложение, применение, {C1} {permission and obligation} заявка, заявление
   507. (  1) 3T *#PT place [pleɪs] (n) {A1} {B1} {education} место, местечко; (v) {B1} размещать
 
+{B2} {education {access to education}}
+              1T *#  drop [drɒp] (n) {B2} {money} падение, {B1} капля, снижение; (v) {A2} {B1} {change, cause and effect} падать, опускаться, {B2} {educations} сбрасывать, {B2} {transport by car or lorry} высаживать
+              xx ?#  drop+out [drɒp aʊt] (phrasal verb) {B2} {education} = to leave school/college/etc. without finishing your studies, выбывать, = to no longer take part in or be part of something
+              3T ?#  entrance [ˈɛntrəns->(n)/ɪnˈtrɑːns->(v)] (n) {B1} {houses and homes} {buildings} вход, въезд, {B2} {education} вступление, доступ, поступление; (adj) входной, вступительный; (v) восхищать, восторгать
+  478. (  1) 3T *#PT exclude [ɪksˈkluːd] (v) {B2} {education} исключать, {B2} не допускать
+  516. (  1) 3T ?#PT fee [fi] (n) вознаграждение, {B2} {money} {education} плата, гонорар; (v) нанимать
+  573. (  1) 5T ?#PT funding [fʌndɪŋ] -ing: (v) {B2} {social issues} {money} {business} финансировать; (n) {B2} {business} {social issues} {education} финансирование, субсидирование
+  601. (  2) 3T *#PT grant [grɑːnt] (n) {B2} {money} {education} грант, субсидия; (v) {B2} {law and justice} предоставлять, даровать
+  771. (  1) 3T ?#PT loan [ləʊn] (n) {B2} {houses and homes} {money} {education} заем, ссуда, заимствование; (v) {B2} {houses and homes} давать взаймы; (adj) ссудный
+              xx ?#  personal+statement [ˈpɜːs(ə)n(ə)l ˈsteɪtmənt] (n) {B2} {education} личное заявление
+ 1135. (  1) 5T ?#PT scholarship [ˈskɒləʃɪp] (n) {B2} {money} {education} стипендия, {C1} {education} ученость
+ 1220. (  2) xT *#PT sponsor [ˈspɒnsə] (n) {B2} {tv, radio and news} {business} {social issues} спонсор; (v) {B2} {business} финансировать, {B2} {social issues} {education} поддерживать
+
 {education {degrees}}
 .....................
 {A1} {education {degrees}}
@@ -6735,6 +6821,11 @@ People
 {B1} {education {degrees}}
   325. (  2) 5T *#PT graduate [ˈgrædjʊət] (n) {B1} {education} выпускник; (adj) выпускной; (v) градуировать, {B1} {education} окончить учебное заведение
               4T ?#  graduation [ˌgrædjʊˈeɪʃən] (n) градация, градуировка, {B1} {education} окончание учебного заведения
+
+{B2} {education {degrees}}
+  798. (  2) 3T *#PT master [ˈmæstər] (n) {B2} {education} {C1} {art} мастер, магистр, хозяин; (adj) главный; (v) {B2} {language} овладевать, усвоить
+              xT *#  phd [piː-eɪʧ-diː] (abbr) {B2} {education} PhD = Doctor of Philosophy, кандидат наук
+ 1309. (  1) 5T ?#PT thesis [ˈθiːsɪs/ˈθɛsɪs] (n) {B2} {education} {C1} {opinion and argument} {scientific research} тезис, диссертация
 
 {education {exams and assessment}}
 ..................................
@@ -6766,6 +6857,15 @@ People
               1T ?#  score [skɔː] (n) {A2} {games and toys} {sports: ball and racket sports} {education} {C1} {music} {film and theatre} {maths and measurement} счет, количество очков; (v) {A2} {games and toys} {sports: ball and racket sports} выигрывать, {B1} {education} засчитывать
   807. (  1) 3T *#PT written [ˈrɪtn] -2ed: (v) {A1} {literature and writing} {music} писать, I: write-wrote-written; (adj) {B1} {education} в письменной форме
 
+{B2} {education {exams and assessment}}
+   88. (  1) 5T ?#PT assess [əˈsɛs] (v) {B2} {opinion and argument} {education} оценивать
+   89. (  1) 5T ?#PT assessment [əˈsɛsmənt] (n) {B2} {opinion and argument} {education} оценка, суждение, обложение
+  181. (  1) 3T ?#PT certificate [sərˈtɪfɪkət/səˈtɪfɪkeɪt] (n) {B2} {life stages} {success} {education} сертификат; (v) {B2} {success} сертифицировать, выдавать свидетельство
+              yT ?#  coursework [ˈkɔːswɜːk] (n) {B2} {education} курсовая работа
+  474. (  1) 3T *#PT examination [ɪgˌzæmɪˈneɪʃən] (n) экспертиза, {B2} {education} экзамен, {B2} {opinion and argument} исследование, {B2} {healthcare} осмотр, проверка
+  598. (  1) 3T ?#PT grade [greɪd] (n) {B1} {education} оценка, сорт, ранг, степень, уровень; (v) {B2} {education} ставить оценку, сортировать
+ 1100. (  1) 3T *#PT revision [rɪˈvɪʒən] (n) {B2} {education} пересмотр, {B2} ревизия, доработка
+
 {education {in school}}
 .......................
 {A1} {education {in school}}
@@ -6787,6 +6887,17 @@ People
               4T ?#  playground [ˈpleɪgraʊnd] (n) {B1} {games and toys} {life stages} {education} детская площадка
               zT ?#  whiteboard [ˈwaɪtbɔːd] (n) {B1} {education} белая доска
 
+{B2} {education {in school}}
+              5T *#  calculator [ˈkælkjʊleɪtə] (n) {B2} {maths and measurement} {education} калькулятор
+  283. (  1) 4T ?#PT corridor [ˈkɒrɪdɔː] (n) {B2} {buildings} {education} {transport by bus and train} {C1} {transport by car or lorry} коридор
+              xx ?#  free+period [friː ˈpɪəriəd] (n) {B2} {education} = a period of time in a school day when a student or teacher does not have a class, бесплатный период
+              yT ?#  locker [ˈlɒkə] (n) {B2} {education} запирающийся шкафчик, ящик, шкаф
+  866. (  1) 4T *#PT notebook [ˈnəʊtbʊk] (n) {B2} {education} блокнот, записная книжка, {C2} {computers} (notebook computer) = a small computre that can work with a battery and be easily carried
+              xx ?#  playing+field [ˈpleɪɪŋ fiːld] (n) {B2} {education} {sports: ball and racket sports} игровое поле, площадка
+ 1118. (  2) 3T ?#PT rubber [ˈrʌbə] (adj) {B2} резиновый, прорезиненный; (n) {B2} каучук, резина, {B2} {education} резинка
+              yT ?#  workbook [ˈwɜːkbʊk] (n) {B2} {education} рабочая тетрадь, сборник упражнений, конспект
+              yT ?#  worksheet [ˈwɜːkˌʃiːt] (n) {B2} {education} рабочий лист, анкета
+
 {education {people in schools}}
 ...............................
 {A1} {education {people in schools}}
@@ -6806,6 +6917,13 @@ People
               xx ?#  school-leaver [skuːl-ˈliːvə] (n) {B1} {education} выпускник школы, выпускник, ученик бросивший школу
               xx ?#  teaching+assistant [ˈtiːʧɪŋ əˈsɪst(ə)nt] (n) {B1} {education} помощник преподавателя
               5T ?#  tutor [ˈtjuːtə] (n) {B1} {education} {jobs} наставник
+
+{B2} {education {people in schools}}
+              1T *#  head [hɛd] (n) {A1} {body} голова, {A2} {jobs} {people in society} {B2} {education} начальник; (adj) головной; (v) {B1} {people in society} возглавлять, направляться
+  794. (  1) 3T *#PT marker [ˈmɑːkə] (n) {B2} {education} маркер, метка, указатель
+ 1024. (  1) 3T *#PT pupil [ˈpjuːpl] (n) {B2} {education} ученик, {B2} {body} зрачок, {B2} подопечный
+              xx ?#  teacher+trainer [ˈtiːʧə ˈtreɪnə] (n) {B2} {education} учитель-тренер
+              4T *#  trainee [treɪˈniː] (n) {B2} {education} {jobs} стажер, практикант
 
 {education {school life}}
 .........................
@@ -6833,6 +6951,18 @@ People
               5T *#  semester [sɪˈmɛstə] (n) {B1} {time} {education} семестр
               xx ?#  sports+day [spɔːts deɪ] (n) {B1} {education} спортивный день
               1T *#  term [tɜːm] (n) {A2} {B1} {time} {B2} {crime and punishment} {C1} {discussion and agreement} срок, термин, член, выражение, {B1} {education} семестр, элемент; (v) {B2} называть, выражать
+
+{B2} {education {school life}}
+  377. (  1) 3T *#PT discipline [ˈdɪsɪplɪn] (n) {B2} {working life} {education} дисциплина, дисциплинированность, наказание; (v) {B2} {education} {C2} {life stages} дисциплинировать, наказывать
+              xx ?#  exercise+book [ˈɛksəsaɪz bʊk] (n) {B2} {education} тетрадь для упражнений, тетрадь
+              xx ?#  multiple-choice [ˈmʌltɪp(ə)l-ʧɔɪs] (adj) {B2} {education} предоставляющий возможность выбора
+              1T *#  period [ˈpɪərɪəd] (n) {A1} {time} {history} {B2} {education} период, {B1} {language} точка
+              xx ?#  playtime [ˈpleɪtaɪm] (n) {B2} {games and toys} {education} время игры, время игр и развлечений, время начала спектакля
+              xx ?#  prize-giving [praɪz-ˈɡɪvɪŋ] (n) {B2} {education} вручение призов, церемония вручения наград
+              yT ?#  prom [prɒm] (n) {B2} {education} выпускной вечер, студенческий бал
+ 1065. (  2) 3T *#PT register [ˈrɛʤ ɪstə] (n) {B2} {education} {C2} {music} регистр, реестр, запись; (v) {B2} регистрировать
+              xx ?#  term+time [tɜːm taɪm] (n) {B2} {time} {education} время семестра
+ 1305. (  1) 4T *#PT textbook [ˈtɛkstbʊk] (n) {B2} {education} учебник
 
 {education {subjects and courses}}
 ..................................
@@ -6862,7 +6992,25 @@ People
               xT *#  pe [piː-iː] (n) {B1} {education} {health and fitness} физическое воспитание = physical education, = sport and exercise that is taught in schools
               xx ?#  physical+education [ˈfɪzɪk(ə)l ˌɛʤ ʊˈkeɪʃ(ə)n] (n) {B1} {health and fitness} {education} физическая культура
   523. (  1) 3T *#PT politics [ˈpɒlɪtɪks] (n) {B1} {politics} {education} политика
-               3T ?#  programme [ˈprəʊgræm] (n) {A1} {tv, radio and news} {B1} {education} программа; (adj) программный
+              3T ?#  programme [ˈprəʊgræm] (n) {A1} {tv, radio and news} {B1} {education} программа; (adj) программный
+
+{B2} {education {subjects and courses}}
+  236. (  1) 5T ?#PT compulsory [kəmˈpʌlsəri] (adj) {B2} {permission and obligation} {B2} {education} обязательный, принудительный, вынужденный
+  312. (  1) 5T ?#PT curriculum [kəˈrɪkjʊləm] (n) {B2} {education} учебный план, курс обучения
+  418. (  1) 5T *#PT economics [ˌikəˈnɑmɪks] (n) {B2} {money} {education} {C1} экономика
+              xx ?#  gender+studies [ˈʤ ɛndə ˈstʌdiz] (n) {B2} {education} гендерные исследования, = the study of gender as a subject at university/college/etc.
+              xT *#  geology [ʤ ɪˈɒləʤ i] (n) {B2} {education} {scientific research} геология
+              xT *#  ict [aɪ-siː-ˈtiː] (n) {B2} {education} ICT = Information and communications technology, = the study of the use of computer/the internet/video/other technology as a subject at school
+              xx ?#  media+studies [ˈmiːdiə ˈstʌdiz] (n) {B2} {education} медиа-исследования, = the study of newspapers/television/radio/the internet/etc. as a subject at school/etc.
+              xT *#  module [ˈmɒdjuːl] (n) {B2} {education} {C2} {computers} модуль
+              5T *#  optional [ˈɒpʃənl] (adj) {B2} {education} необязательный, факультативный
+              xx ?#  performing+arts [pəˈfɔːmɪŋ ɑːts] (n) {B2} {film and theatre} {music} {education} исполнительское искусство
+  951. (  1) 3T *#PT philosophy [fɪˈlɒsəfi] (n) {B2} {education} философия
+ 1019. (  1) 5T *#PT psychology [saɪˈkɒləʤ i] (n) {B2} {education} психология
+              xx ?#  social+science [ˈsəʊʃ(ə)l ˈsaɪəns] (n) {B2} {education} социальные науки, социология
+              xx ?#  social+studies [ˈsəʊʃ(ə)l ˈstʌdiz] (n) {B2} {education} социальные исследования, = the study of people in society
+              xT ?#  sociology [ˌsəʊsɪˈɒləʤ i] (n) {B2} {education} {people in society} социология
+              xx ?#  summer+school [ˈsʌmə skuːl] (n) {B2} {education} летняя школа, серия лекций в университете, = courses that are held in the summer at a university or college in US/a school
 
 {education {teaching and learning}}
 ...................................
@@ -6898,6 +7046,12 @@ People
               1T *#  report [rɪˈpɔːt] (n) {A1} {literature and writing} {tv, radio and news} {B1} {education} доклад, отчет, сообщение; (v) {A2} {tv, radio and news} {crime and punishment} сообщить, докладывать
   641. (  2) 4T *#PT set [sɛt] (n) {B1} набор, комплект, {B2} {maths and measurement} множество, {B2} {film and theatre} декорации; (adj) установленный; (v) {B1} {education} {film and theatre} устанавливать, I: set-set-set
 
+{B2} {education {teaching and learning}}
+              xx ?#  academic+freedom [ˌækəˈdɛmɪk ˈfriːdəm] (n) {B2} {education} = the ability of people who teach or do research at a university/college to freely express their ideas
+              xx ?#  further+education [ˈfɜːðə ˌɛʤ ʊˈkeɪʃ(ə)n] (n) {B2} {education} дальнейшее образование
+              xx ?#  learning+difficulty [ˈlɜːnɪŋ ˈdɪfɪk(ə)lti] (n) {B2} {education} {disability} трудности в обучении
+              xx ?#  remote+learning [rɪˈməʊt ˈlɜːnɪŋ] (n) {B2} {phones, email and the internet} {education} дистанционное обучение
+
 {education {types of school}}
 .............................
 {A1} {education {types of school}}
@@ -6909,6 +7063,22 @@ People
               xx ?#  primary+school [ˈpraɪm(ə)ri skuːl] (n) {B1} {education} Начальная школа, общая начальная школа
               xx ?#  private+school [ˈpraɪvət skuːl] (n) {B1} {education} частная школа
               xx ?#  secondary+school [ˈsɛk(ə)ndri skuːl] (n) {B1} {education} средняя школа, училище
+              xx ?#  secondary+education [ˈsɛk(ə)ndri ˌɛʤ ʊˈkeɪʃ(ə)n] (n) {B2} {education} среднее образование
+ 1148. (  1) 4T *#PT seminar [ˈsɛmɪnɑː] (n) {B2} {education} {C1} семинар
+              xx ?#  teacher+training [ˈtiːʧə ˈtreɪnɪŋ] (n) {B2} {education} подготовка учителей
+              5T ?#  tutor [ˈtjuːtə] (n) {B1} {education} {jobs} наставник, {B2} {education} = a teacher whose job is to pay special attention to the studies or health of student of a group of students; (v) {B2} {education} обучать, давать частные уроки
+              5T *#  tutorial [tju(ː)ˈtɜːrɪəl] (n) {B2} {education} учебник, {C2} {computers} руководство
+
+{B2} {education {types of school}}
+              xx ?#  boarding+school [ˈbɔːdɪŋ skuːl] (n) {B2} {education} школа-интернат, пансион, закрытое учебное заведение
+              xx ?#  elementary+school [ˌɛlɪˈmɛnt(ə)ri skuːl] (n) {B2} {education} начальная школа, общеобразовательная школа
+              xx ?#  grade+school [ɡreɪd skuːl] (n) {B2} {education} начальная школа
+              xx ?#  junior+high+school [ˈʤ uːniə haɪ skuːl] (n) {B2} {education} неполная средняя школа
+              xx ?#  junior+school [ˈʤ uːniə skuːl] (n) {B2} {education} младшая школа
+              4T ?#  kindergarten [ˈkɪndəˌɡɑːtn] (n) {B2} {education} детский сад, детсад; (adj) детсадовский
+  826. (  1) 3T *#PT mixed [mɪkst] -ed: (v) {B1} {cooking and eating} {B2} {music} смешивать; (adj) {B2} смешанный, {B2} {family and relationships} {people in society} разнородный, {B2} {education} для людей обоего пола
+              xx ?#  senior+high+school [ˈsiːniə haɪ skuːl] (n) {B2} {education} старшая школа
+              xx ?#  state+school [steɪt skuːl] (n) {B2} {education} государственная школа
 
 {education {universities and colleges}}
 .......................................
@@ -6925,9 +7095,14 @@ People
               xx ?#  higher+education [ˈhaɪə ˌɛʤ ʊˈkeɪʃ(ə)n] (n) {B1} {education} высшее образование
               xx ?#  medical+school [ˈmɛdɪk(ə)l skuːl] (n) {B1} {education} медицинская школа, высшее медицинское учебное заведение
 
+{B2} {education {universities and colleges}}
+              xx ?#  art+school [ɑːt skuːl] (n) {B2} {education} художественная школа
+              yT ?#  dorm [dɔːm] (n) {B2} {education} общежитие, спальня, общая спальня
+              xx ?#  gap+year [ɡæp jɪə] (n) {B2} {education} год перерыва
+
 {education {university people}}
 ...............................
-{A1} {education {university people}}
+{A1} {education {university people}}xx ?#  art+school [ɑːt skuːl] (n) {B2} {education} художественная школа
   746. (  1) 3T *#PT student [ˈstjuːdənt] (n) {A1} {education} студент, ученик
 
 {A2} {education {university people}}
@@ -6940,6 +7115,8 @@ People
               5T *#  graduate [ˈgrædjʊət] (n) {B1} {education} выпускник; (adj) выпускной; (v) градуировать, {B1} {education} окончить учебное заведение
               4T ?#  lecturer [ˈlɛkʧərə] (n) {B1} {education} {jobs} преподаватель, лектор, доцент
               1T *#  president [ˈprɛzɪdənt] (n) {A2} {people in society} {politics} {B1} {education} {people in society} {jobs} президент, председатель
+
+{B2} {education {university people}}
 
 {family and relationships}
 --------------------------
