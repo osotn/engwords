@@ -7099,6 +7099,13 @@ People
               xx ?#  art+school [ɑːt skuːl] (n) {B2} {education} художественная школа
               yT ?#  dorm [dɔːm] (n) {B2} {education} общежитие, спальня, общая спальня
               xx ?#  gap+year [ɡæp jɪə] (n) {B2} {education} год перерыва
+              xx ?#  grad+school [ɡræd skuːl] (n) {B2} {education} аспирантура
+              xx ?#  graduate+school [ɡrædjʊət skuːl] (n) {B2} {education} аспирантура
+              xx ?#  hall+of+residence [hɔːl ɒv ˈrɛzɪd(ə)ns] (n) {B2} {education} {buildings} общежитие
+  709. (  1) 3T *#PT institution [ˌɪnstɪˈtjuːʃən] (n) {B2} {education} заведение, учреждение, институт
+              xx ?#  lecture+hall [ˈlɛkʧə hɔːl] (n) {B2} {education} лекционный зал, аудитория
+              xx ?#  lecture+theatre [ˈlɛkʧə ˈθɪətə] (n) {B2} {education} лекционный зал
+              xx ?#  state+university [steɪt ˌjuːnɪˈvɜːsəti] (n) {B2} {education} = a university that is managed by a state of the US, государственный университет
 
 {education {university people}}
 ...............................
@@ -7117,6 +7124,11 @@ People
               1T *#  president [ˈprɛzɪdənt] (n) {A2} {people in society} {politics} {B1} {education} {people in society} {jobs} президент, председатель
 
 {B2} {education {university people}}
+    7. (  1) 3T *#PT academic [ˌækəˈdɛmɪk] (adj) {B1} {education} {jobs} {personal qualities} академический, учебный, ученый; (n) {B2} {education} ученый
+   72. (  1) 5T ?#PT applicant [ˈæplɪkənt] (n) {B2} {education} кандидат, претендент
+              5T *#  postgraduate [ˌpəʊstˈɡræʤ uət] (n) {B2} {education} аспирант; (adj) аспирантский
+              xx ?#  room-mate [ˈruːmmeɪt] (n) {B2} {education} {houses and homes} сосед по комнате
+              xT *#  visiting [ˈvɪzɪtɪŋ] -ing: (v) {A1} {phones, email and the internet} посетить; (adj) {B2} {education} посещающий
 
 {family and relationships}
 --------------------------
@@ -7133,6 +7145,15 @@ People
               xx ?#  only+child [ˈəʊnli ʧaɪld] (n) {B1} {family and relationships} единственный ребенок
   586. (  1) 3T *#PT related [rɪˈleɪtɪd] -ed: (v) {B1} относиться, связывать; (adj) {B1} {family and relationships} связанный, родственный
               xx ?#  single-parent+family [ˈsɪŋɡ(ə)l-ˈpeər(ə)nt ˈfæm(ə)li] (n) {B1} {life stages} {family and relationships} семья с одним родителем
+
+{B2} {family and relationships {family background}}
+   36. (  1) 3T *#PT adopt [əˈdɒpt] (v) принимать, {B2} {life stages} {law and justice} {family and relationships} усыновлять, {B2} заимствовать
+   58. (  1) 5T *#PT ancestor [ˈænsɪstə] (n) {B2} {family and relationships} {history} {C1} предок
+  688. (  1) 5T ?#PT inherit [ɪnˈhɛrɪt] (v) {B2} {money} {family and relationships} {C1} наследовать, унаследовать
+  826. (  1) 3T *#PT mixed [mɪkst] -ed: (v) {B1} {cooking and eating} {B2} {music} смешивать; (adj) {B2} смешанный, {B2} {family and relationships} {people in society} разнородный, {B2} {education} для людей обоего пола
+              1T *#  near [nɪə] (prep) {A1} возле, {B1} {time} около, у, близ; (adv) {A1} недалеко, около, поблизости, почти; (adj) {A1} {B2} {family and relationships} близкий; (v) приближаться
+              xx ?#  one-parent+family [wʌn-ˈpeər(ə)nt ˈfæm(ə)li] (n) {B2} {life stages} {family and relationships} семья с одним родителем
+ 1325. (  1) 3T *#PT trace [treɪs] (n) {C1} след, отпечаток, черта, тропа; (v) {B2} {crime and punishment} {phone, email and the internet} {family and relationships} {C1} прослеживать, следить
 
 {family and relationships {friends}}
 ....................................
@@ -7151,6 +7172,15 @@ People
               xx ?#  get+on+with [ɡɛt ɒn wɪð] (phrasal verb) {B1} {family and relationships} {personal qualities} продолжай с, ужиться, уживаться
               5T ?#  sociable [ˈsəʊʃəbl] (adj) {family and relationships} {personal qualities} общительный, коммуникабельный, дружеский; (n) встреча, вечеринка
 
+{B2} {family and relationships {friends}}
+              5T ?#  acquaintance [əˈkweɪntəns] (n) {B2} {family and relationships} знакомство, знакомый, ознакомление
+              3T *#  band [bænd] (n) диапазон, {A1} {music} {B2} {family and relationships} группа
+  144. (  1) 5T ?#PT bond [bɒnd] (n) {B2} {family and relationships} связь, {C1} {law and justice} узы, {C2} {physics and chemistry} соединение; (v) {C1} {physics and chemistry} связывать, {C1} {family and relationships} скреплять; (adj) крепостной
+  578. (  1) xT *#PT gang [gæŋ] (n) {B2} банда, шайка, {B2} {family and relationships} группа
+  800. (  2) 3T ?#PT mate [meɪt] (n) мат, помощник, приятель, товарищ, друг, {B2} {family and relationships} {birds} {animals} супруг, супруга; (v) {B2} {animals} {birds} спариваться
+              xx ?#  socialize [ˈsəʊʃəlaɪz] (v) {B2} {family and relationships} общаться, социализировать
+              3T *#  tie [taɪ] (n) {A2} {clothes and fashion} галстук, {B2} {family and relationships} связь, {C1} {sports: ball and racket sports} ничья; (v) {A2} связать, завязать, tie-tied-tied
+
 {family and relationships {names}}
 ..................................
 {A1} {family and relationships {names}}
@@ -7167,6 +7197,8 @@ People
               xx ?#  middle+name [ˈmɪd(ə)l neɪm] (n) {B1} {personal qualities} второе имя
               4T ?#  nickname [ˈnɪkneɪm] (n) {B1} {family and relationships} прозвище, кличка; (v) прозвать, давать прозвище
 
+{B2} {family and relationships {names}}
+
 {family and relationships {ralationships ending}}
 .................................................
 {A1} {family and relationships {ralationships ending}}
@@ -7178,6 +7210,9 @@ People
 {B1} {family and relationships {ralationships ending}}
               xx ?#  break+up [breɪk ʌp] (phrasal verb) {B1} {family and relationships} расставаться, разойтись, разойтись
   638. (  1) 3T *#PT separate [ˈsɛpəreɪt] (v) {B1} {family and relationships} отделять, разделять; (adj) {A2} отдельный
+
+{B2} {family and relationships {ralationships ending}}
+  398. (  2) 3T *#PT divorce [dɪˈvɔːs->(n/v)/dɪˌvɔːˈsiː->(n)] (n) {B2} {family and relationships} {law and justice} развод, расторжение брака, отделение; (v) {B2} {family and relationships} {law and justice} разводиться; (adj) бракоразводный
 
 {family and relationships {relatives}}
 ......................................
@@ -7232,6 +7267,29 @@ People
               xx *#  son-in-law [ˈsʌnɪnlɔː] (n) {B1} {family and relationships} зять
   810. (  1) 3T *#PT young [jʌŋ] (adj) {A1} {life stages} {B1} {family and relationships} молодой
 
+{B2} {family and relationships {relatives}}
+              xx ?#  by+marriage [baɪ ˈmærɪʤ ] (idiom) {B2} {family and relationships} по браку, = when somebody is related to you by marriage - they are merried to somebody in your family or you are married to somebody in their family
+              zT *#  eldest [ˈɛldɪst] (adj) {B2} {family and relationships} самый старший, старейший, старый
+              yT ?#  gran [ɡræn] (n) гран, {B2} {family and relationships} бабушка
+              xx ?#  grandkid [ˈɡrænkɪd] (n) {B2} {family and relationships} внук
+  654. (  1) 5T *#PT identical [(UK)aɪˈdɛntɪkəl/(US)aɪˈdɛntɪkəl/aɪˈdɛnɪkəl] (adj) {B2} {family and relationships} идентичный, одинаковый, тождественный
+              xx ?#  identical+twin [aɪˈdɛntɪk(ə)l twɪn] (n) {B2} {family and relationships} однояйцевый близнец
+              xx ?#  in-laws [ˈɪnlɔːz] (n) {B2} {family and relationships} родственники со стороны жены или мужа
+              yT ?#  papa [pəˈpɑː] (n) {B2} {family and relationships} папа
+              yT *#  sibling [ˈsɪblɪŋ] (n) {B2} {family and relationships} родной брат, родная сестра
+              1T *#  step [stɛp] (n) {A2} шаг, {B2} {houses and homes} ступень; (v) шагать, ступать; (combining form) {B2} {family and relationships} = related as a result of one parent marrying again
+              xx ?#  stepbrother [ˈstɛpˌbrʌðə] (n) {B2} {family and relationships} сводный брат
+              xx ?#  stepchild [ˈstɛpʧaɪld] (n) {B2} {family and relationships} пасынок или падчерица, I:*child-*children
+              xx ?#  stepdad [ˈstɛpdæd] (n) {B2} {family and relationships} отчим
+              xx ?#  stepdaughter [ˈstɛpˌdɔːtə] (n) {B2} {family and relationships} падчерица
+              xx ?#  stepfamily [ˈstɛpfæmɪli] (n) {B2} {family and relationships} сводная семья
+              xx ?#  stepfather [ˈstɛpˌfɑːðə] (n) {B2} {family and relationships} отчим
+              xx ?#  stepmother [ˈstɛpˌmʌðə] (n) {B2} {family and relationships} мачеха; (v) третировать
+              xx ?#  stepmum [ˈstɛpˌmʌm] (n) {B2} {family and relationships} мачеха
+              xx ?#  step-parent [stɛp-ˈpeər(ə)nt] (n) {B2} {family and relationships} отчим
+              xx ?#  stepsister [ˈstɛpˌsɪstə] (n) {B2} {family and relationships} сводная сестра
+              xx ?#  stepson [ˈstɛpsʌn] (n) {B2} {family and relationships} пасынок
+
 {family and relationships {romance}}
 ....................................
 {A1} {family and relationships {romance}}
@@ -7253,6 +7311,17 @@ People
               3T *#  lover [ˈlʌvə] (n) {B1} {family and relationships} любовник, возлюбленный
               5T ?#  passion [ˈpæʃən] (n) {B1} {preferences and decisions} {feelings} {family and relationships} страсть, увлечение, энтузиазм
   618. (  1) 3T *#PT romantic [rəʊˈmæntɪk] (adj) {B1} {family and relationships} романтический, романтичный; (n) романтик
+
+{B2} {family and relationships {romance}}
+   38. (  1) 3T ?#PT affair [əˈfeə] (n) {B2} {politics} дело, {B2} {family and relationships} роман, связь, любовная история, {B2} занятия, дуэль
+  320. (  1) 3T *#PT date [deɪt] (n) {A1} {time} {history} дата, срок, {A2} {family and relationships} свидание; (v) {B2} датировать, {B2} {family and relationships} назначать свидание
+              xx ?#  date+night [deɪt naɪt] (n) {B2} {family and relationships} = an occasion when an established couple especially one with children go for a night out together
+              4T *#  dating [deɪtɪŋ] -ing: (v) {B2} датировать, {B2} {family and relationships} назначать свидание; (n) {B2} {family and relationships} = the activity of having a romantic relationship with somebody or meeting people who you might in future have a romantic relationship with
+  433. (  1) 5T ?#PT embrace [ɪmˈbreɪs] (n) объятие; (v) {B2} {family and relationships} обнимать, {B2} = to accept an idea/proposal/set of beliefs/etc. especially when it is done with enthusiasm
+              yT ?#  hug [hʌg] (n) {B2} {family and relationships} ообъятие; (v) {B2} {family and relationships} ообнимать
+              xx ?#  love+affair [lʌv əˈfeə] (n) {B2} {family and relationships} любовная интрига, роман, любовное похождение
+  935. (  1) 5T ?#PT passionate [ˈpæʃənɪt] (adj) {B2} {family and relationships} {feelings} {personal qualities} страстный, пылкий, влюбленный
+ 1111. (  1) 4T ?#PT romance [rəʊˈmæns] (n) романс, романтика, {C1} {literature and writing} роман, рыцарский роман, {B2} {family and relationships} любовная история; (adj) романский
 
 {feelings}
 ----------
@@ -7277,6 +7346,15 @@ People
   424. (  1) 3T *#PT mad [mæd] (adj) {B1} {feelings} {preferences and decisions} безумный, сумасшедший, бешеный; (v) сходить с ума
               1T *#  trouble [ˈtrʌbl] (n) {A2} {difficulty and failure} беда, {B1} {feelings} беспокойство, {B1} {health problems} неприятность; (v) {B2} беспокоить
 
+{B2} {feelings {anger}}
+   43. (  1) 3T *#PT aggressive [əˈgrɛsɪv] (adj) {B2} {feelings} {success} агрессивный
+   59. (  1) 3T *#PT anger [ˈæŋgə] (n) {B2} {feelings} гнев, злость, ярость; (v) {B2} {feelings} злить, раздражать
+  270. (  1) 5T ?#PT controversial [ˌkɒntrəˈvɜːʃəl] (adj) {B2} {opinion and argument} {feelings} спорный, дискуссионный
+  574. (  1) 5T ?#PT furious [ˈfjʊərɪəs] (adj) {B2} {feelings} {C1} яростный, бешеный
+              3T ?#  irritated [ˈɪrɪteɪtɪd] -ed: (v) {C1} {feelings} раздражать, {C2} {health problems} нервировать, вызывать раздражение; (adj) {B2} {feelings} раздраженный
+              3T *#  mood [muːd] (n) {B2} {feelings} настроение, {B1} {C2} {language} наклонение
+              5T *#  temper [ˈtɛmpə] (n) {B2} {feelings} вспыльчивость, раздражительность, характер
+
 {feelings {boredom}}
 ....................
 {A1} {feelings {boredom}}
@@ -7285,6 +7363,11 @@ People
 {A2} {feelings {boredom}}
 {B1} {feelings {boredom}}
               3T *#  routine [ruːˈtiːn] (n) {A1} {B1} {feelings} {B2} {film and theatre} рутина, распорядок; (adj) {B2} {feelings} рутинный, обычный, текущи
+
+{B2} {feelings {boredom}}
+              5T ?#  boredom [ˈbɔːdəm] (n) {B2} {feelings} скука
+              3T *#  cool [kuːl] (adv) {B2} прохладно, свежо; (adj) {A1} {weather} {B2} {feelings} прохладный, {A1} {opinion and argument} клевый, {C1} {personal qualiies} спокойный; (v) охлаждать, хладнокровие; (n) хладнокровие, {B1} {weather} прохлада
+  414. (  1) 3T ?#PT dull [dʌl] (adj) {C1} {colours and shapes} {weather} тусклый, тупой, {B2} {feelings} унылый
 
 {feelings {disappointment}}
 ...........................
