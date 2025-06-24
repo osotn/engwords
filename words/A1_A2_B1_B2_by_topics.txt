@@ -7368,6 +7368,9 @@ People
               5T ?#  boredom [ˈbɔːdəm] (n) {B2} {feelings} скука
               3T *#  cool [kuːl] (adv) {B2} прохладно, свежо; (adj) {A1} {weather} {B2} {feelings} прохладный, {A1} {opinion and argument} клевый, {C1} {personal qualiies} спокойный; (v) охлаждать, хладнокровие; (n) хладнокровие, {B1} {weather} прохлада
   414. (  1) 3T ?#PT dull [dʌl] (adj) {C1} {colours and shapes} {weather} тусклый, тупой, {B2} {feelings} унылый
+              4T ?#  repetitive [rɪˈpɛtɪtɪv] (adj) {B2} {feelings} повторяющийся
+ 1116. (  1) 3T *#PT routine [ruːˈtiːn] (n) {A1} {B1} {feelings} {B2} {film and theatre} рутина, распорядок; (adj) {B2} {feelings} рутинный, обычный, текущий
+              4T ?#  uninterested [ʌnˈɪntrɪstɪd] un- & -ed: (v) {A1} заинтересовать, интересовать; un-: (adj) {A1} пристрастный, заинтересованный; (adj) {B2} {feelings} незаинтересованный, безразличный
 
 {feelings {disappointment}}
 ...........................
@@ -7379,12 +7382,22 @@ People
   202. (  1) 3T *#PT disappointed [ˌdɪsəˈpɔɪntɪd] -ed: (v) {B2} {feelings} разочаровывать; (adj) {B1} {feelings} расстроенный, разочарованный, огорченный
   203. (  1) 3T ?#PT disappointing [ˌdɪsəˈpɔɪntɪŋ] -ing: (v) {B2} {feelings} разочаровывать; (n) вызывающий разочарование; (adj) {B1} {difficulty and failure} {feelings} разочаровывающий, печальный
 
+{B2} {feelings {disappointment}}
+  374. (  1) 3T ?#PT disappoint [ˌdɪsəˈpɔɪnt] (v) {B2} {feelings} разочаровывать
+  375. (  1) 3T ?#PT disappointment [ˌdɪsəˈpɔɪntmənt] (n) {B2} {feelings} разочарование, досада
+ 1067. (  2) 3T ?#PT regret [rɪˈgrɛt] (v) {B2} сожалеть; (n) {B2} {feelings} сожаление, извинения, раскаяние
+
 {feelings {disgust}}
 ....................
 {A1} {feelings {disgust}}
 {A2} {feelings {disgust}}
 {B1} {feelings {disgust}}
   348. (  1) 3T *#PT horror [ˈhɒrə] (n) {B1} {feelings} {film and theatre}  ужас, отвращение
+
+{B1} {feelings {disgust}}
+              3T ?#  disgusting [dɪsˈgʌstɪŋ] -ing: (v) {C2} {feelings} внушать отвращение; (adj) {B2} {feelings} отвратительный
+              4T ?#  horrify [ˈhɒrɪfaɪ] (v) {B2} {feelings} шокировать, ужасать, страшить
+
 
 {feelings {embarrassment}}
 ..........................
@@ -7397,12 +7410,24 @@ People
               xx ?#  red-faced [rɛd-feɪst] (adj) {B1} {feelings} краснолицый = with a red face, especially because you are embarrassed or angry
   654. (  1) 3T *#PT shy [ʃaɪ] (adj) {B1} {personal qualities} {feelings} застенчивый, робкий
 
+{B2} {feelings {embarrassment}}
+   85. (  1) 3T *#PT ashamed [əˈʃeɪmd] (adv) совестно; (adj) {B2} {feelings} пристыженный
+  107. (  1) 3T ?#PT awkward [ˈɔːkwəd] (adj) {B2} {feelings} {C1} {apperance} неудобный, неловкий
+  243. (  1) 5T ?#PT confess [kənˈfɛs] (v) исповедовать, {B2} {crime and punishment} признаваться, {B2} {feelings} покаяться
+  887. (  1) 3T ?#PT offend [əˈfɛnd] (v) {B2} {feelings} {crime and punishment} обижать
+ 1163. (  1) 3T *#PT shame [ʃeɪm] (n) {B2} {feelings} стыд, позор, срам, {B2} бесславие
+              yT ?#  tease [tiːz] (v) {B2} {feelings} дразнить; (n) поддразнивание, задира
+
 {feelings {excitement}}
 .......................
 {A1} {feelings {excitement}}
 {A2} {feelings {excitement}}
 {B1} {feelings {excitement}}
   257. (  1) 3T ?#PT excitement [ɪkˈsaɪtmənt] (n) {B1} {feeling} волнение, возбуждение, азарт
+
+{B2} {feelings {excitement}}
+              5T ?#  breathtaking [ˈbrɛθˌteɪkɪŋ] (adj) {B2} {feelings} захватывающий дух, потрясающий, поразительный
+              yT ?#  thrill [θrɪl] (n) {B2} {feelings} трепет, возбуждение; (v) {B2} {feelings} трепетать, дрожать
 
 {feelings {fear}}
 .................
@@ -7414,6 +7439,15 @@ People
   279. (  1) 3T *#PT fear [fɪə] (n) {A2} страх, боязнь; (v) {B1} {feelings} бояться, опасаться
               zT ?#  phobia [ˈfəʊbiə] (n) {B1} {feelings} фобия, боязнь, страх, невроз страха
 
+{B2} {feelings {fear}}
+              5T ?#  dreadful [ˈdrɛdfʊl] (adj) {B2} {feelings} страшный, ужасный; (n) роман ужасов
+  925. (  1) 5T *#PT panic [ˈpænɪk] (n) {B2} паника; (v) {B2} {feelings} пугать
+ 1130. (  2) 3T ?#PT scare [skeə] (v) {B2} пугать, отпугивать; (n) {B2} {feelings} паника, внезапный испуг
+ 1137. (  2) 3T ?#PT scream [skriːm] (n) {B2} вопль, визг; (v) {B2} {feelings} вскрикнуть, {B2} орать, вопить
+ 1299. (  1) 5T ?#PT terrify [ˈtɛrəˌfaɪ] (v) {B2} {feeling} ужасать, вселять ужас
+              5T ?#  terrifying [ˈtɛrəˌfaɪɪŋ] -ing: (v) {B2} {feeling} ужасать, вселять ужас; {B2} {feelings} ужасающий
+ 1301. (  1) xT *#PT terror [ˈtɛrər] (n) {C1} {crime and punishment} террор, {B2} {feelings} ужас, страх
+
 {feelings {fellings in general}}
 ................................
 {A1} {feelings {fellings in general}}
@@ -7423,6 +7457,9 @@ People
 {A2} {feelings {fellings in general}}
 {B1} {feelings {fellings in general}}
   235. (  1) 3T *#PT emotion [ɪˈməʊʃən] (n) {B1} {feelings} эмоция, чувство, возбуждение
+
+{B2} {feelings {fellings in general}}
+  436. (  1) 3T *#PT emotional [ɪˈməʊʃənl] (adj) {B2} {feelings} эмоциональный
 
 {feelings {happiness}}
 ......................
@@ -7449,6 +7486,23 @@ People
   510. (  1) 3T *#PT pleasure [ˈplɛʒə] (n) {B1} {feelings} удовольствие, наслаждение; (v) доставлять удовольствие, удовлетворять
   560. (  1) 3T *#PT proud [praʊd] (adj) {B1} {personal qualities} {feelings} {B2} {personal qualities} гордый
 
+{B2} {feelings {happiness}}
+              4T ?#  amusement [əˈmjuːzmənt] (n) {B2} {feelings} развлечение, веселье, забава
+  342. (  1) 3T ?#PT delighted [dɪˈlaɪtɪd] -ed: (v) {B2} наслаждаться, восхищать; (adj) {B2} {feelings} восхищенный, радостный, очарованный
+              3T *#  enjoyment [ɪnˈʤ ɔɪmənt] (n) {B2} {feelings} наслаждение, удовольствие, обладание
+              xx ?#  feel-good [fiːl-ɡʊd] (adj) {B2} {feelings} чувствовать себя хорошо
+  566. (  1) yT ?#PT fulfil [fʊlˈfɪl] (v) {B2} {success} {feelings} {business} выполнять, {B2} исполнять
+  618. (  1) 3T *#PT heaven [ˈhɛvən] (n) небо, {B2} {religion and festivals} небеса, {B2} {feelings} = a place or situation in which you are very happy
+              3T *#  honor [ˈɒnə] (n) {B2} {feelings} {personal qualities} честь, слава, почет, {B2} почести; (v) {B2} почтить, чтить, соблюдать, уважать
+  637. (  2) 3T *#PT honour [ˈɒnə] (n) {B2} {feelings} {personal qualities} честь, слава, почет, {B2} почести; (v) {B2} почтить, чтить, соблюдать, уважать
+  734. (  1) 3T *#PT joy [ʤ ɔɪ] (n) {B2} {feelings} {C2} {success} радость, утеха, удовольствие
+ 1073. (  1) 3T ?#PT relief [rɪˈliːf] (n) {B2} {feelings} облегчение, {B2} {the environment} {social issues} помощь, {C2} {buildings} рельеф
+ 1075. (  1) 5T ?#PT relieved [rɪˈliːvd] -ed: (v) {C1} освобождать, {B2} облегчать; (adj) {B2} {feelings} = feeling happy because something unpleasant has stopped or has not happened
+ 1125. (  1) 3T *#PT satisfied [ˈsætɪsfaɪd] -ed: (v)(stative) {B2} {feelings} удовлетворять, выполнять; (adj) {B2} {success} {feelings} удовлетворенный, довольный
+ 1126. (  1) 3T *#PT satisfy [ˈsætɪsfaɪ] (v)(stative) {B2} {feelings} удовлетворять, выполнять
+ 1142. (  2) 3T *#PT secure [sɪˈkjʊə] (adj) {B2} {success} {feelings} {personal qualities} безопасный; (v) {B2} {success} обезопасить, гарантировать
+              1T *#  security [sɪˈkjʊərɪti] (n) {B1} {law and justice} {transport by air} {B2} {feelings} {C2} {money} безопасность, охрана, обеспечение, защита
+
 {feelings {hate}}
 .................
 {A1} {feelings {hate}}
@@ -7458,6 +7512,8 @@ People
 {B1} {feelings {hate}}
   335. (  1) 3T *#PT hate [heɪt] (n) {B1} {preference and decisions} {feelings} ненависть; (v) (stative) {A1} {preferences and decisions} {feelings} ненавидеть
 
+{B2} {feelings {hate}}
+
 {feelings {hunger}}
 ...................
 {A1} {feelings {hunger}}
@@ -7465,6 +7521,9 @@ People
 
 {A2} {feelings {hunger}}
 {B1} {feelings {hunger}}
+{B2} {feelings {hunger}}
+              5T ?#  greedy [ˈgriːdi] (adj) {B2} {personal qualities} {feelings} {money} жадный, алчный
+  646. (  1) 5T *#PT hunger [ˈhʌŋgə] (n) {B2} {social issues} {feelings} {C1} голод, жажда
 
 {feelings {loneliness}}
 .......................
@@ -7472,6 +7531,8 @@ People
 {A2} {feelings {loneliness}}
 {B1} {feelings {loneliness}}
              1T *#  alone [əˈləʊn] (adv) только, в одиночестве, наедине; (adj) {A2} один, {B1} {feeling} одинокий; (pron) сам
+
+{B2} {feelings {loneliness}}
 
 {feelings {love}}
 .................
@@ -7487,6 +7548,11 @@ People
               1T *#  heart [hɑːt] (n) {A2} {body} {B1} {feelings} сердце
   494. (  1) 5T ?#PT passion [ˈpæʃən] (n) {B1} {preferences and decisions} {feelings} {family and relationships} страсть, увлечение, энтузиазм
 
+{B2} {feelings {love}}
+              zT ?#  adore [əˈdɔː] (v) {B2} {feelings} {preferences and decisions} обожать, поклоняться
+  360. (  2) 3T *#PT desire [dɪˈzaɪə] (n) {B2} {feelings} желание, пожелание, страсть; (v) {B2} желать, хотеть
+  935. (  1) 5T ?#PT passionate [ˈpæʃənɪt] (adj) {B2} {family and relationships} {feelings} {personal qualities} страстный, пылкий, влюбленный
+
 {feelings {nervous}}
 ....................
 {A1} {feelings {nervous}}
@@ -7496,6 +7562,14 @@ People
 {B1} {feelings {nervous}}
   302. (  1) 3T *#PT frightened [ˈfraɪtnt] -ed: (v) {B1} пугать; (adj) {B1} {feelings} испуганный, напуганный
 
+{B2} {feelings {nervous}}
+              3T ?#  excited [ɪkˈsaɪtɪd] {A1} {B2} {feelings} -ed: (v) {C1} {feelings} возбудить, возбуждать, волновать; (adj) {A1} {B2} {feelings} взволнованный, возбужденный
+              4T *#  fearful [ˈfɪəfʊl] (adj) {B2} {feelings} страшный, испуганный
+  860. (  1) 3T *#PT nerve [nɜːv] (n) {B2} {body} {biology} нерв, {B2} {feelings} нервы, наглость, мужество
+              xx ?#  pessimism [ˈpɛsɪmɪz(ə)m] (n) {B2} {difficulty and failure} {feelings} пессимизм
+              4T ?#  pessimist [ˈpɛsɪmɪst] (n) {B2} {feelings} пессимист
+              3T *#  uncomfortable [ʌnˈkʌmf(ə)təbl] un-: (adj) {A2} {clothes and fashion} {B1} {personal qualities} комфортный, удобный; (adj) {B1} {clothes and fashion} {B2} {feelings} неудобно
+
 {feelings {showing interest}}
 .............................
 {A1} {feelings {showing interest}}
@@ -7504,6 +7578,14 @@ People
 {A2} {feelings {showing interest}}
 {B1} {feelings {showing interest}}
   387. (  1) 3T ?#PT keen [kiːn] (adj) {B1} {feelings} {personal qualities} {preference and decisions} острый, проницательный, тонкий
+
+{B2} {feelings {showing interest}}
+              yT ?#  addicted [əˈdɪktɪd] -ed: (v) увлекаться; (adj) {B2} {health problems} {social issues} {feelings} с зависимостью, склонный
+   76. (  1) 3T *#PT approval [əˈpruːvəl] (n) {B2} {opinion and argument} {feeliings} утверждение, одобрение, согласие, рассмотрение
+  173. (  2) 3T *#PT capture [ˈkæpʧə] (n) {B2} {crime and punishment} захват, поимка, пленение; (v) {B2} {feelings} увлечь, {B2} {art} захватить, {B2} поймать
+  310. (  1) 3T *#PT curious [ˈkjʊərɪəs] (adj) {B2} {feelings} любопытный, {B2} странный, любознательный
+  449. (  1) 3T *#PT enthusiasm [ɪnˈθjuːzɪæzm] (n) {B2} {feelings} энтузиазм, восторг, увлечение
+              zT ?#  fascinated [ˈfæsɪneɪtɪd] -ed: (v) очаровывать, пленять; (adj) {B2} {feelings} очарованный
 
 {feelings {surprise}}
 .....................
@@ -7520,6 +7602,13 @@ People
   800. (  2) 3T *#PT wonder [ˈwʌndə] (n) {B1} чудо, {B1} {feelings} удивление; (v) {B1} удивляться
               3T *#  wonderful [ˈwʌndəfʊl] (adj) {A1} замечательный, чудесный, {B1} {feelings} удивительный
 
+{B2} {feelings {surprise}}
+              5T ?#  amazement [əˈmeɪzmənt] (n) {B2} {feelings} изумление
+              5T ?#  astonish [əsˈtɒnɪʃ] (v) {B2} {feelings} удивлять, изумлять
+              5T ?#  astonished [əsˈtɒnɪʃt] -ed: (v) {B2} {feelings} удивлять, изумлять; (adj) {B2} {feelings} изумленный
+              1T *#  shake [ʃeɪk] (v) {A2} {B1} трясти, {A2} {opinion and argument} = to take somebody's hand, поколебать, {B1} {B2} {feelings} дрожать, I: shake-shook-shaken; (n) {B1} {C1} {health problem} дрожание, встряска
+ 1169. (  2) 3T *#PT shock [ʃɒk] (n) {B2} шок, {B2} {engineering} {health problems} удар, {B2} {the environment} потрясение; (v) {B2} {feelings} шокировать, {B2} потрясать
+
 {feelings {thirst}}
 ...................
 {A1} {feelings {thirst}}
@@ -7527,6 +7616,8 @@ People
 
 {A2} {feelings {thirst}}
 {B1} {feelings {thirst}}
+{B2} {feelings {thirst}}
+              zT ?#  thirst [θɜːst] (n) {B2} {feelings} {drinks} жажда, тяга; (v) жаждать, хотеть пить
 
 {feelings {tiredness}}
 ......................
@@ -7537,6 +7628,9 @@ People
 {B1} {feelings {tiredness}}
               5T ?#  exhausted [ɪgˈzɑstɪd] -ed: (v) извести, затрахать, истощать; (adj) {B1} {feelings} измученный, уставший
               xx ?#  tiredness [ˈtaɪədnəs] (n) {B1} {feelings} усталость, утомление
+
+{B2} {feelings {tiredness}}
+              5T ?#  exhausting [ɪgˈzɑstɪɪŋ] -ing: (v) извести, затрахать, истощать; (adj) {B2} {feelings} изнурительный, утомительный
 
 {feelings {unhappiness}}
 ........................
@@ -7559,6 +7653,23 @@ People
               3T *#  unhappiness [ʌnˈhæpɪnɪs] un-: (n) {B1} {feelings} счастье; (n) {B1} {feelings} несчастье
   769. (  2) 3T *#PT upset [ʌpˈsɛt] (n) {B1} {health and fitness} расстройство, огорчение; (v) {B1} {feelings} {health and fitness} расстраивать, огорчать, I: upset-upset-upset; (adj) {B1} {feelings} {health and fitness} расстроенный
 
+{B2} {feelings {unhappiness}}
+  137. (  1) 3T *#PT bitter [ˈbɪtə] (adj) {B2} {cooking and eating} горький, {B2} {feelings} жестокий, резкий; (n) горечь
+  353. (  1) 3T ?#PT depressed [dɪˈprɛst] -ed: (v) {C2} {engineering} подавлять, нажимать, ослаблять; (adj) {B2} {feelings} {mental health} {C1} {money} унылый, угнетенный, вогнутый
+  354. (  1) 3T *#PT depressing [dɪˈprɛsɪŋ] -ing: (v) {C2} {engineering} подавлять, нажимать, ослаблять; (adj) {B2} {feelings} удручающий, гнетущий
+  355. (  1) 5T ?#PT depression [dɪˈprɛʃ(ə)n] (n) {B2} {mental health} {feelings} {C1} {money} {social issues} депрессия, снижение
+  361. (  1) 3T ?#PT desperate [ˈdɛspərɪt] (adj) {B2} {feelings} отчаянный, {B2} {difficulty and failure} {danger} безнадежный
+              1T *#  down [daʊn] (adv) {A1} вниз, внизу; (prop) {A1} вниз по, вниз; (n) {C2} {birds} пух, спуск; (adj) {B2} {feelings} {C1} {computers} нисходящий; (v) опускать
+              3T *#  empty [ˈɛmpti] (adj) {A2} {B2} {feelings} пустой; (v) {B1} опорожнять
+              5T ?#  homesick [ˈhəʊmsɪk] (adj) {B2} {feelings} тоскующий по родине
+  649. (  1) 3T *#PT hurt [hɜːt] (v) {A2} {health problems} повредить, {B1} задевать, {B2} {feelings} ныть, I: hurt-hurt-hurt; (adj) {A2} {health problems} пострадавший, раненый; (n) {B2} обида, вред, боль
+              5T ?#  jealousy [ˈʤ ɛləsi] (n) {B2} {feelings} ревность
+  823. (  1) 5T ?#PT miserable [ˈmɪzərəbl] (adj) {B2} {feelings} {weather} несчастный, жалкий, {C1} {personal qualities} убогий
+              yT ?#  moody [ˈmuːdi] (adj) {B2} {feelings} капризный, угрюмый, в дурном настроении
+  957. (  1) 3T *#PT pity [ˈpɪti] (n) {B2} {C1} {feelings} жалость, сострадание, сожаление; (v) {B2} {feelings} жалеть, соболезновать
+ 1329. (  1) 4T *#PT tragic [ˈtræʤ ɪk] (adj) {B2} {feelings} {C1} {literature and writing} трагический, печальный
+              3T ?#  upsetting [ʌpˈsɛtɪŋ] -ing: (v) {B1} {feelings} {health and fitness} расстраивает, огорчать, I: upset-upset-upset; (adj) {B2} {feelings} обсадной
+
 {feelings {worry}}
 ..................
 {A1} {feelings {worry}}
@@ -7572,6 +7683,13 @@ People
               3T ?#  stressed [strɛst] -ed: (v) {A2} {language} {B2} {feelings} подчеркивать; (adj) {B1} {feelings} напряженный, {A2} {language} = pronounced with emphasis
   803. (  1) 3T *#PT worry [ˈwʌri] (v) {A2} {feelings} беспокоиться; (n) {B1} беспокойство
 
+{B2} {feelings {worry}}
+   48. (  1) 3T *#PT alarm [əˈlɑːm] (n) {B1} {danger} {houses and homes} сигнал тревоги, {B2} {danger} {feelings} тревога; (adj) сигнальный; (v) {B2} {feelings} встревожить
+              3T *#  alarmed [əˈlɑːmd] -ed: (v) {B2} {feelings} встревожить; (adj) {B2} {danger} {feelings} встревоженный
+   66. (  1) 3T ?#PT anxiety [æŋˈzaɪəti] (n) {B2} {feelings} {mental health} {C1} тревога
+   67. (  1) 3T ?#PT anxious [ˈæŋkʃəs] (adj) {B2} {feelings} озабоченный, {B2} тревожный
+              3T *#  stress [strɛs] (n) {A2} {feelings} стресс, {B2} {physics and chemistry} напряжение, усилие, {A2} {language} ударение, акцент; (v) {A2} {language} {B2} {feelings} подчеркивать
+
 {life stages}
 -------------
 {life stages {adults}}
@@ -7584,6 +7702,12 @@ People
 
 {A2} {life stages {adults}}
 {B1} {life stages {adults}}
+{B2} {life stages {adults}}
+              zT ?#  adulthood [ˈædʌlthʊd] (n) {B2} {life stages} взрослая жизнь, зрелый возраст, зрелость, совершеннолетие
+              3T *#  grey [greɪ] (adj) {A1} {colours and shapes} {appearance} {life stages} {A2} {weather} серый; (n) {A1} {colours and shapes} серый цвет; (v) {B2} {life stages} = become gray with age, especially of hair
+              xx *#  grown-up [ˈɡrəʊnʌp] (adj) {B2} {life stages} зрослый, возмужалый; (n) {B2} {life stages} взрослый, взрослый человек
+              xx ?#  middle+age [ˈmɪd(ə)l eɪʤ ] (n) {B2} {life stages} зрелые годы
+              xx *#  middle-aged [ˌmɪd(ə)lˈeɪʤ d] (adj) {B2} {life stages} среднего возраста, средних лет
 
 {life stages {babies}}
 ......................
@@ -7592,6 +7716,9 @@ People
 
 {A2} {life stages {babies}}
 {B1} {life stages {babies}}
+{B2} {life stages {babies}}
+              3T *#  bottle [ˈbɒtl] (n) {A1} {cooking and eating} {B2} {life stages} бутылка; (v) поймать
+  517. (  1) 3T *#PT feed [fiːd] (v) {A2} {animals} {farming} кормить, питаться, I: feed-fed-fed; (n) подача, питание, {B2} {life stage} кормление
 
 {life stages {birth}}
 .....................
@@ -7602,6 +7729,8 @@ People
   100. (  1) 3T *#PT birth [bɜːθ] (n) {A2} {life stages} рождение, роды, происхождение
 
 {B1} {life stages {birth}}
+{B2} {life stages {birth}}
+              yT *#  childbirth [ˈʧaɪldˌbɜrθ] (n) {B2} {life stages} роды, рождаемость
 
 {life stages {death}}
 .....................
@@ -7614,6 +7743,8 @@ People
 
 {B1} {life stages {death}}
    89. (  1) 3T *#PT bury [ˈbɛri] (v) {B1} {religion and festivals} {life stages} похоронить, закапывать
+
+{B2} {life stages {death}}
 
 {life stages {marriage}}
 ........................
@@ -7641,6 +7772,18 @@ People
               zT ?#  unmarried [ʌnˈmærid] un-: (adj) {A1} {life stage} женатый, замужем, брачный; un- & -ed: (v) {A2} {religion and festivals} {life stages} жениться, выйти замуж, выходить замуж; (adj) {B1} {life stages} неженатый, незамужняя, холостой
               xx ?#  wedding+reception [ˈwɛdɪŋ rɪˈsɛpʃ(ə)n] (n) {B1} {life stages} свадебный прием
 
+{B2} {life stages {marriage}}
+   62. (  1) 3T ?#PT anniversary [ˌænɪˈvɜːsəri] (n) {B2} {life stages} {religion and festivals} годовщина, юбилей; (adj) юбилейный
+              xx ?#  arranged+marriage [əˈreɪnʤ d ˈmærɪʤ ] (n) {B2} {life stages} брак по договоренности
+              4T *#  bridegroom [ˈbraɪdgrʊm] (n) {B2} {life stages} жених
+              zT ?#  bridesmaid [ˈbraɪdzmeɪd] (n) {B2} {life stages} подружка невесты
+  181. (  1) 3T ?#PT certificate [sərˈtɪfɪkət/səˈtɪfɪkeɪt] (n) {B2} {life stages} {success} {education} сертификат; (v) {B2} {success} сертифицировать, выдавать свидетельство
+              yT *#  groom [grʊm] (n) {B2} {life stages} жених, {C2} {jobs} конюх; (v) ухаживать
+              4T ?#  honeymoon [ˈhʌnɪmuːn] (n) {B2} {holidays} {life stages} медовый месяц; (v) проводить медовый месяц
+ 1011. (  1) 3T *#PT proposal [prəˈpəʊzəl] (n) {B2} {life stages} предложение, {B2} {suggestions and advice} {business} заявка
+ 1012. (  1) 3T *#PT propose [prəˈpoʊz] (v) {B2} {suggestions and advice} {life stages} предлагать, {C1} {suggestions and advice} выдвинуть, намереваться
+              xx ?#  wedding+anniversary [ˈwɛdɪŋ ˌænɪˈvɜːs(ə)ri] (n) {B2} {life stages} годовщина свадьбы
+
 {life stages {old age}}
 .......................
 {A1} {life stages {old age}}
@@ -7652,6 +7795,14 @@ People
   611. (  1) 3T ?#PT retire [rɪˈtaɪə] (v) {B1} {life stages} {jobs} уходить, удаляться, уходить в отставку
   612. (  1) 3T ?#PT retired [rɪˈtaɪəd] -ed: (v) {B1} {life stages} {jobs} уходить, удаляться, уходить в отставку; (adj) {B1} {jobs} ушедший на пенсию, отставной, в отставке, удалившийся
 
+{B2} {life stages {old age}}
+  426. (  1) 3T ?#PT elderly [ˈɛldəli] (adj) {B2} {life stages} пожилой, немолодой, почтенный, {C1} {life stages} престарелые
+  942. (  1) 3T ?#PT pension [ˈpɛnʃən->(v)/pɑːnˈsjəʊn->(n)] (n) пансионат, {B2} {money} {life stages} {working life} пенсия, {B2} {holidays} пансион; (v) назначать пенсию, субсидировать
+ 1097. (  1) 3T ?#PT retirement [rɪˈtaɪəmənt] (n) {C1} отставка, {B2} {life stages} {jobs} уход на пенсию
+              xx ?#  retirement+home [rɪˈtaɪəmənt həʊm] (n) {B2} {life stages} дом престарелых
+ 1421. (  1) xT *#PT wisdom [ˈwɪzdəm] (n) {B2} {life stages} {personal qualities} мудрость
+ 1422. (  1) 3T *#PT wise [waɪz] (adj) {B2} {life stages} {personal qualities} мудрый, благоразумный; (n) образ, способ
+
 {life stages {pregancy}}
 ........................
 {A1} {life stages {pregnancy}}
@@ -7660,6 +7811,9 @@ People
               xx ?#  be+expecting+a+baby [biː ɪkˈspɛktɪŋ ə beɪbi] (idiom) {A2} {life stage} = to be pregnant
 
 {B1} {life stages {pregnancy}}
+{B2} {life stages {pregnancy}}
+  980. (  1) 3T *#PT pregnant [ˈprɛgnənt] (adj) {B2} {life stages} беременная
+              5T *#  scan [skæn] (n) {B2} {healthcare} {life stages} сканирование, просмотр, развертка; (v) {B1} {B2} {computers} {healthcare} сканировать
 
 {life stages {raising children}}
 ................................
@@ -7675,6 +7829,20 @@ People
 {B1} {life stages {raising children}}
               4T ?#  playground [ˈpleɪgraʊnd] (n) {B1} {games and toys} {life stages} {education} детская площадка
               xx ?#  single-parent+family [ˈsɪŋɡ(ə)l-ˈpeər(ə)nt ˈfæm(ə)li] (n) {B1} {life stages} {family and relationships} семья с одним родителем
+
+{B2} {life stages {raising children}}
+   36. (  1) 3T *#PT adopt [əˈdɒpt] (v) принимать, {B2} {life stages} {law and justice} {family and relationships} усыновлять, {B2} заимствовать
+              xx ?#  babysit [ˈbeɪbɪsɪt] (v) {B2} {life stages} {jobs} присматривать за ребенком, быть приходящей няней
+              zT *#  babysitter [ˈbeɪbɪˌsɪtə] (n) {B2} {life stages} няня, приходящая няня
+              zT ?#  babysitting [ˈbeɪbɪsɪtɪŋ] -ing: (v) {B2} {life stages} {jobs} присматривать за ребенком, быть приходящей няней; (n) {B2} {life stages} = the job or activity of taking care of babies or children for a short time while their parents are out
+              xx ?#  bring+up [brɪŋ ʌp] (phrasal verb) {B2} {life stages} воспитывать, растить
+              yT ?#  childcare [ˈʧaɪldˌkeə] (n) {B2} {life stages} уход за детьми
+              xx ?#  one-parent+family [wʌn-ˈpeər(ə)nt ˈfæm(ə)li] (n) {B2} {life stages} {family and relationships} семья с одним родителем
+              xx ?#  playroom [ˈpleɪruːm] (n) {B2} {houses and homes} {life stages} игровая комната, детская
+              1T *#  raise [reɪz] (n) {B1} {money} повышение, увеличение, подъем; (v) {A2} поднимать, {B1} {changee, cause and effect} {money} {social issues} повышать, {B2} {life stages} воспитывать
+              xx ?#  role+model [rəʊl ˈmɒd(ə)l] (n) {B2} {life stages} образец для подражания
+              xx ?#  single+parent [ˈsɪŋɡ(ə)l ˈpeər(ə)nt] (n) {B2} {life stages} = a person who takes care of their child or children without a husband, wife or partner
+              xx ?#  upbringing [ˈʌpˌbrɪŋɪŋ] (n) {B2} {life stages} воспитание
 
 {life stages {youth}}
 .....................
@@ -7696,6 +7864,13 @@ People
               xx ?#  school+day [skuːl deɪ] (n) {A2} {education} {B1} {life stages} школьный день
   811. (  1) 3T ?#PT youth [juːθ] (n) {B1} {life stages} {B2} {life stages} юность, молодежь, молодость; (adj) молодежный
 
+{B2} {life stages {youth}}
+              5T ?#  adolescent [ˌædəʊˈlɛsnt] (n) {C1} {life stages} подросток, юноша, девушка; (adj) {B2} {life stages} подростковый, юношеский
+              4T *#  childish [ˈʧaɪldɪʃ] (adj) {B2} {life stages} детский, ребяческий
+              4T ?#  immature [ˌɪməˈtjʊə] -un: (adj) {C1} {life stages} {personal qualities} зрелый; (adj) {B2} {life stages} незрелый, молодо
+              3T *#  innocent [ˈɪnəsənt] (adj) {B1} {law and justice} {B2} {crime and punishment} {life stages} невинный
+ 1289. (  1) 4T ?#PT teens [tiːnz] -es: (n) подросток, тинейджер; (n) {B2} {life stages} подростковый возрас, возраст от 13 до 19 лет
+
 {personal qualities}
 --------------------
 {personal qualities {annoying}}
@@ -7705,6 +7880,12 @@ People
 {B1} {personal qualities {annoying}}
    39. (  1) 3T ?#PT annoying [əˈnɔɪɪŋ] -ing: (v) {B1} {feelings} раздражать, досаждать, надоедать, докучать, наскучивать; (adj) {B1} {feelings} {personal qualities} раздражающий; (n) раздражение
               3T *#  loud [laʊd] (adj) {A2} {B1} {personal qualities} громкий; (adv) {A2} громко
+
+{B2} {personal qualities {annoying}}
+               xx ?#  nosey [ˈnəʊzi] (adj) {B2} {personal qualities} любопытный
+               xx ?#  nosy [ˈnəʊzi] (adj) {B2} {personal qualities} любопытный
+               1T *#  pain [peɪn] (n) {A2} {health problems} боль, {A2} {feelings} страдание, {B2} {personal qualities} = a person or thing that is very annoying
+               5T ?#  stubborn [ˈstʌbən] (adj) {B2} {opinion and argument} {personal qualities} упрямый, упорный
 
 {personal qualities {brave}}
 ............................
@@ -7718,6 +7899,14 @@ People
               1T *#  character [ˈkærɪktə] (n) {B1} {personal qualities} характер, {A2} {film and theater} {literature and writing} персонаж, {C1} {language} символ
               1T *#  strong [strɒŋ] (adj) {A1} {health and fitness} {B1} {personal qualities} {B2} {weather} {success} сильные, {B1} {cooking and eating} крепкий
 
+{B2} {personal qualities {brave}}
+  142. (  1) 5T ?#PT bold [bəʊld] (adj) {B2} {personal qualities} смелый, дерзкий, храбрый, наглый, подчеркнутый, {B2} жирный
+  287. (  1) 3T ?#PT courage [(BR)ˈkʌrɪʤ /(US)ˈkɜrəʤ ,ˈkɜrɪʤ ] (n) {B2} {personal qualites} мужество, храбрость, смелость, отвага
+  317. (  1) 3T ?#PT dare [deə] (v) {B2} {personal qualities} дерзать, сметь; (n) {C1} {danger} вызов, подзадоривание
+              5T ?#  daring [deəɪŋ] -ing: (v) {B2} {personal qualities} дерзать, сметь; (adj) {B2} {danger} {personal qualities} смелость
+              3T *#  spirit [ˈspɪrɪt] (n) {B2} {personal qualities} дух, {B2} {drinks} спирт, {B1} {B2} {religion and festivals} душа, настроение; (adj) спиртовой
+              3T *#  strength [strɛŋθ] (n) {B1} {health and fitness} сила, {B2} {personal qualities} прочность
+
 {personal qualities {clever}}
 .............................
 {A1} {personal qualities {clever}}
@@ -7729,6 +7918,9 @@ People
 {B1} {personal qualities {clever}}
     3. (  1) 3T *#PT academic [ˌækəˈdɛmɪk] (adj) {B1} {education} {jobs} {personal qualities} академический, учебный, ученый
   667. (  1) 3T *#PT smart [smɑːt] (adj) {B1} {clothes and fashion} {personal qualities} умный, элегантный
+
+{B2} {personal qualities {clever}}
+              3T *#  bright [braɪt] (adj) {A2} {colours and shapes} яркий, {B2} {personal qualities} светлый, {B2} {success} ясный; (adv) ярко, яркость
 
 {personal qualities {confident}}
 ................................
