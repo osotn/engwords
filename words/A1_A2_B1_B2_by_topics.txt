@@ -8039,6 +8039,8 @@ People
 {B2} {personal qualities {immoral}}
               zT ?#  badness [ˈbædnəs] (n) {B2} {personal qualities} плохость, негодность
   471. (  2) 3T *#PT evil [ˈivəl] (n) {B2} зло, бедствие; (adj) {B2} {personal qualities} злой
+              3T ?#  immoral [ɪˈmɒrəl] un-: (adj) {B2} {personal qualities} моральный, нравственный; (adj) {B2} {personal qualities} безнравственный, аморальный
+              4T ?#  villain [ˈvɪlən] (n) {B2} {film and theatre} {literature and writing} {personal qualities} злодей, негодяй, хитрец
 
 {personal qualities {kind}}
 ...........................
@@ -8058,6 +8060,13 @@ People
               3T ?#  kindness [ˈkaɪndnɪs] (n) {B1} {personal qualities} доброта
               3T *#  understanding [ˌʌndəˈstændɪŋ] -ing: (v)(stative) {A1} понять; I: understand-understood-understood; (n) {A2} {B2} {discussion and agreement} понимание; (adj) {B1} {personal qualities} разумный, понимающий
 
+{B2} {personal qualities {kind}}
+              xT ?#  caring [keəɪŋ] -ing: (v) {A2} {family and relationships} {feelings} заботиться; (adj) {B2} {personal qualities} заботливый
+  218. (  2) 3T *#PT comfort [ˈkʌmfət] (n) {B2} комфорт, удобства; (v) {B2} {personal qualities} утешить
+ 1151. (  1) 3T *#PT sensitive [ˈsɛnsɪtɪv] (n) {B2} {personal qualities} чувствительный
+ 1279. (  1) 3T ?#PT sympathetic [ˌsɪmpəˈθɛtɪk] (adj) {B2} {personal qualities} {C1} {opinion and argument} сочувственный, симпатический; (n) симпатический нерв
+ 1280. (  1) 3T *#PT sympathy [ˈsɪmpəθi] (n) {B2} {personal qualities} сочувствие, симпатия, сострадание
+
 {personal qualities {lazy}}
 ...........................
 {A1} {personal qualities {lazy}}
@@ -8065,6 +8074,7 @@ People
   450. (  1) 3T *#PT lazy [ˈleɪzi] (adj) {A2} {personal qualities} ленивый
 
 {B1} {personal qualities {lazy}}
+{B2} {personal qualities {lazy}}
 
 {personal qualities {moral}}
 ............................
@@ -8075,6 +8085,15 @@ People
 {B1} {personal qualities {moral}}
   217. (  1) 3T *#PT duty [ˈdjuːti] (n) {B1} {personal qualities} долг, {B2} {jobs} обязанность, {C1} {money} пошлина, сбор; (adj) дежурный
 
+{B2} {personal qualities {moral}}
+  464. (  1) zT ?#PT ethic [ˈɛθɪk] (n) {B2} {personal qualities} этика
+  465. (  1) xT ?#PT ethical [ˈɛθɪkəl] (adj) {B2} {personal qualities} этический
+  634. (  1) 3T *#PT holy [ˈhəʊli] (adj) {B2} {personal qualities} {religion and festivals} святой
+              3T *#  honor [ˈɒnə] (n) {B2} {feelings} {personal qualities} честь, слава, почет, {B2} почести; (v) {B2} почтить, чтить, соблюдать, уважать
+  637. (  2) 3T *#PT honour [ˈɒnə] (n) {B2} {feelings} {personal qualities} честь, слава, почет, {B2} почести; (v) {B2} почтить, чтить, соблюдать, уважать
+  835. (  2) 3T *#PT moral [ˈmɒrəl] (n) {B2} мораль, нравственность; (adj) {B2} {personal qualities} моральный, нравственный
+  989. (  1) 3T *#PT principle [ˈprɪnsəpl] (n) {B2} {personal qualities} {scientific research} принцип, закон
+
 {personal qualities {proud}}
 ............................
 {A1} {personal qualities {proud}}
@@ -8083,12 +8102,20 @@ People
               3T ?#  jealous [ˈʤ ɛləs] (adj) {B1} {feelings} {personal qualities} ревнивый, завистливый
   560. (  1) 3T *#PT proud [praʊd] (adj) {B1} {personal qualities} {feelings} {B2} {personal qualities} гордый
 
+{B2} {personal qualities {proud}}
+              zT ?#  arrogant [ˈɛrəgənt] (adj) {B2} {personal qualities} высокомерный
+  985. (  1) 3T *#PT pride [praɪd] (n) {B2} {personal qualities} гордость, гордыня; (v) гордиться
+              xx ?#  show+off [ʃəʊ ɒf] (phrasal verb) {B2} {personal qualities} = to try to impress others by talking about abilities/possessions/etc., выпендриваться, показывать в выгодном свете
+
 {personal qualities {selfish}}
 ..............................
 {A1} {personal qualities {selfish}}
 {A2} {personal qualities {selfish}}
 {B1} {personal qualities {selfish}}
               4T *#  selfish [ˈsɛlfɪʃ] (adj) {B1} {personal qualities} эгоистичный
+
+{B2} {personal qualities {selfish}}
+              5T ?#  greedy [ˈgriːdi] (adj) {B2} {personal qualities} {feelings} {money} жадный, алчный
 
 {personal qualities {shy}}
 ..........................
@@ -8097,6 +8124,9 @@ People
 {B1} {personal qualities {shy}}
               3T *#  nervous [ˈnɜːvəs] (adj) {A2} {feelings} {B1} {personal qualities} нервный, слабонервный
   654. (  1) 3T *#PT shy [ʃaɪ] (adj) {B1} {personal qualities} {feelings} застенчивый, робкий
+
+{B2} {personal qualities {shy}}
+              xx ?#  introvert [ˈɪntrəʊˌvɜːt->(n)/ˌɪntrəʊˈvɜːt->(v)] (n) {B2} {personal qualities} интроверт; (v) втягивать внутрь
 
 {personal qualities {skills and qualities}}
 ...........................................
@@ -8119,6 +8149,24 @@ People
   637. (  1) 3T ?#PT sensible [ˈsɛnsəbəl] (adj) {B1} {personal qualities} разумный, здравомыслящий
   714. (  1) 5T *#PT talented [ˈtæləntɪd] (adj) {B1} {personal qualities} талантливый
 
+{B2} {personal qualities {skills and qualities}}
+   83. (  1) 3T *#PT artistic [ɑːˈtɪstɪk] "(adj) {B2} {art} художественный, {B2} {personal qualities} артистический
+  423. (  1) 3T *#PT efficient [ɪˈfɪʃənt] (adj) {B2} {personal qualities} эффективный
+              5T ?#  excel [ɪkˈsɛl] (v) {B2} {personal qualities} превосходить
+              xx ?#  good+sense [ɡʊd sɛns] (n) {B2} {personal qualities} здравый смысл
+              5T ?#  imaginative [ɪˈmæʤ ɪnətɪv] (adj) образный, {B2} {personal qualities} творческий
+  750. (  1) 5T *#PT leadership [ˈliːdəʃɪp] (n) {B2} {people in society} {politics} руководство, {B2} {personal qualities} {people in society} лидерство
+  840. (  1) 5T *#PT motivate [ˈməʊtɪveɪt] (v) {B2} мотивировать, стимулировать, {B2} {personal qualities} побуждать
+              3T *#  musical [ˈmjuːzɪkəl] (adj) {A2} {music} {B2} {personal qualities} музыкальный; (n) {B1} {film and theatre} {music} мюзикл, музыкальный фильм
+  937. (  1) 3T ?#PT patience [ˈpeɪʃəns] (n) {B2} {personal qualities} терпение, пасьянс, настойчивость
+  938. (  1) 3T *#PT patient [ˈpeɪʃənt] (adj) {B2} {personal qualities} терпеливый, терпящий; (n) {A2} {healthcare} пациент, больной
+              xx ?#  people+skills [ˈpiːp(ə)l skɪlz] (n) {B2} {personal qualities} навыки общения с людьми
+  970. (  2) 3T *#PT potential [pəʊˈtɛnʃəl] (n) {B2} потенциал, {B2} {personal qualities} возможность, напряжение; (adj) {B2} потенциальный, возможный
+              3T *#  practical [ˈpræktɪkəl] (adj) {B1} {success} {B2} {personal qualities} практический, практичный; (n) {C1} {education} = a lesson or an exam in science or technology in which students have to do or make things, not just read or write about them
+              3T *#  responsible [rɪsˈpɒnsəbl] (adj) {B1} {B2} {change, cause and effect} {personal qualities} ответственный
+ 1186. (  1) 3T *#PT skilled [skɪld] (adj) {B2} {personal qualities} {jobs} квалифицированный, опытный, умелый, искусный
+              xx ?#  skill+set [skɪl sɛt] (n) {B2} {personal qualities} набор навыков
+
 {personal qualities {unpleasant}}
 .................................
 {A1} {personal qualities {unpleasant}}
@@ -8131,6 +8179,12 @@ People
   170. (  1) 3T *#PT cruel [krʊəl] (adj) {B1} {personal qualities} жестокий, безжалостный
   347. (  1) xT *#PT horrible [ˈhɒrəbl] (adj) {B1} {weather} {personal qualities} ужасный, страшный; (n) нечто ужасное, ужастик
               3T *#  unfriendly [ʌnˈfrɛndli] {B1} {personal qualities} un-: (adj) {A1} {personal qualities} {B1} {sports: ball and racket sports} дружественный; un-: (adv) дружественно
+
+{B2} {personal qualities {unpleasant}}
+  851. (  1) xT ?#PT nasty [ˈnɑːsti] (adj) {B2} {personal qualities} неприятный, {B2} {danger} противный, {B2} отвратительный
+  889. (  1) 3T ?#PT offensive [əˈfɛnsɪv] (n) {C2} {war and conflict} наступление; (adj) {B2} {personal qualities} наступательный, оскорбительный
+ 1247. (  1) 3T *#PT strict [strɪkt] (adj) {B2} {permission and obligation} {personal qualities} строгий, {B2} {permission and obligation} точный, {B2} неукоснительный
+              xx ?#  unfriendliness [ʌnˈfrɛndlɪnəs] (n) {B2} {personal qualities} недружелюбие
 
 Politics and society
 =====================
@@ -8158,6 +8212,20 @@ Politics and society
   775. (  1) 3T ?#PT victim [ˈvɪktɪm] (n) {B1} {health problems} {crime and punishment} {social issues} жертва, потерпевший
   787. (  1) 3T *#PT weapon [ˈwɛpən] (n) {B1} {war and conflict} {crime and punishment} оружие
 
+{B2} {crime and punishment {committing crime}}
+              xx ?#  break+in [breɪk ɪn] (phrasal verb) {B2} {crime and punishment} = to enter a building by force, вламываться
+              xx ?#  break+into [breɪk ɪntuː] (phrasal verb) {B2} {crime and punishment} = to enter a building by force/to oepn a car/etc., взломать, вламываться
+              1T *#  deal [diːl] (n) {B1} {discussion and agreement} {business} сделка, дело, {B1} {war and conflict} соглашение; (v) {A2} {games and toys} сдавать карты, {B2} {crime and punishment} иметь дело, общаться, бороться, I: deal-dealt-dealt
+              5T ?#  deceive [dɪˈsiːv] (v) {B2} {personal qualities} {crime and punishment} обманывать, вводить в заблуждение
+  508. (  1) 5T *#PT fake [feɪk] (n) {B1} {art} {personal qualities} подделка; (v) {B2} {crime and punishment} фальсифицировать; (adj) {B2} {crime and punishment} {personal qualities} фальшивый
+              xT *#  hack [hæk] (v) рубить, кромсать, {B2} {computers} {crime and punishment} взломать
+              3T *#  innocent [ˈɪnəsənt] (adj) {B1} {law and justice} {B2} {crime and punishment} {life stages} невинный
+  887. (  1) 3T ?#PT offend [əˈfɛnd] (v) {B2} {feelings} {crime and punishment} обижать
+ 1108. (  1) 3T ?#PT rob [rɒb] (v) {B2} {crime and punishment} грабить, разбойничать, отнимать; (n) грабитель
+ 1172. (  1) 3T *#PT shooting [ʃuːtɪŋ] -ing: (v) {B1} {war and conflict} {crime and punishment} стрелять, расстрелять, {B2} {film and theatre} снять, застрелить, {B2} {sports: ball and racket sports} отстреливать, I: shoot-shot-shot; (n) {B2} {war and conflict} {crime and punishment} стрельба, охота, {B2} {film and theatre} киносъемка
+              xx ?#  shoplift [ˈʃɒpˌlɪft] (v) {B2} {shopping} {crime and punishment} воровать товары; (n) магазинная кража
+ 1210. (  1) 3T *#PT speed [spiːd] (n) {A2} скорость, быстрота; (v) {B2} ускорять, {B2} {crime and punishment} спешить, торопить, I: speed-sped/speeded-sped/speeded
+
 {crime and punishment {criminals}}
 ..................................
 {A1} {crime and punishment {criminals}}
@@ -8174,12 +8242,33 @@ Politics and society
   548. (  1) 3T *#PT prisoner [ˈprɪznə] (n) {B1} {crime and punishment} заключенный
               4T ?#  robber [ˈrɒbə] (n) {B1} {crime and punishment} разбойник, грабитель
 
+{B2} {crime and punishment {criminals}}
+   49. (  1) 5T ?#PT alien [ˈeɪliən] (n) {B2} {social issues} {crime and punishment} иностранец, чужак, чужой, {B2} {space} инопланетянин; (adj) {C1} {space} инородный, {C1} иностранный
+  323. (  1) 4T ?#PT dealer [ˈdiːlə] (n) {B2} {business} {transport by car or lorry} {jobs} {C1} {games and toys} дилер, торговец, посредник, {B2} {crime and punishment} = a person who sells illegal drugs
+              xx ?#  drug+dealer [drʌɡ ˈdiːlə] (n) {B2} {crime and punishment} наркоторговец
+              xx ?#  gunman [ˈgʌnmən] (n) {B2} {crime and punishment} убийца, бандит, преступник, боевик
+              xx ?#  gunwoman [ˈɡʌnwʊmən] (n) {B2} {crime and punishment} женщина-стрелок
+              xx ?#  identity+thief [aɪˈdɛntəti θiːf] (n) {B2} {crime and punishment} вор личных данных
+  888. (  1) yT ?#PT offender [əˈfɛndə] (n) {B2} {crime and punishment} преступник, {C1} правонарушитель
+              4T ?#  pickpocket [ˈpɪkˌpɒkɪt] (n) {B2} {crime and punishment} карманник, вор-карманник
+              xx ?#  shoplifter [ˈʃɒpˌlɪftə] (n) {B2} {shopping} {crime and punishment} магазинный вор
+ 1272. (  2) 3T ?#PT suspect [ˈsʌspɛkt->(n,adj)/səsˈpɛkt->(v)] (v) {B2} {doubt, guessing and certainty} {crime and punishment} подозревать, полагать; (adj) подозреваемый; (n) {B2} {crime and punishment} подозреваемый человек
+ 1303. (  1) 4T ?#PT terrorist [ˈtɛrərɪst] (n) {B2} {war and conflict} {crime and punishment} террорист; (adj) террористический
+              xx ?#  vandal [ˈvænd(ə)l] (n) {B2} {crime and punishment} вандал
+              xx ?#  war+criminal [wɔː ˈkrɪmɪn(ə)l] (n) {B2} {war and conflict} {crime and punishment} военный преступник
+
 {crime and punishment {prison}}
 ...............................
 {A1} {crime and punishment {prison}}
 {A2} {crime and punishment {prison}}
 {B1} {crime and punishment {prison}}
   329. (  2) 3T *#PT guard [gɑːd] (n) {B1} {war and conflict} {crime and punishment} {jobs} {B2} {danger} стража, охрана; (v) {B1} {danger} {war and conflict} охранять
+
+{B2} {crime and punishment {prison}}
+  179. (  1) 3T *#PT cell [sɛl] (n) {B2} {biology} {body} {crime and punishment} клетка, ячейка, элемент
+  730. (  2) xT ?#PT jail [ʤ eɪl] (n) {B2} {crime and punishment} тюрьма, тюремное заключение; (v) {B2} {crime and punishment} сажать в тюрьму
+              xx ?#  prisoner+of+war [ˈprɪz(ə)nə ɒv wɔː] (n) {B2} {war and conflict} {crime and punishment} военнопленный
+              xx ?#  community+service [kəˈmjuːnəti ˈsɜːvɪs] (n) {B2} {social issues} {crime and punishment} общественные работы
 
 {crime and punishment {punishment}}
 ...................................
@@ -8191,6 +8280,17 @@ Politics and society
   332. (  1) 3T *#PT hang [hæŋ] (v) {B1} висеть, {B1} crime and punishment} вешать, I: hang-hung-hung; (n) вид, смысл
   563. (  1) 3T *#PT punish [ˈpʌnɪʃ] (v) {B1} crime and punishment} наказать, карать
   564. (  1) 3T *#PT punishment [ˈpʌnɪʃmənt] (n) {B1} crime and punishment} наказание, кара, взыскание
+
+{B2} {crime and punishment {punishment}}
+              xx ?#  community+service [kəˈmjuːnəti ˈsɜːvɪs] (n) {B2} {social issues} {crime and punishment} общественные работы
+              xx ?#  death+sentence [dɛθ ˈsɛntəns] (n) {B2} {crime and punishment} смертный приговор
+  730. (  2) xT ?#PT jail [ʤ eɪl] (n) {B2} {crime and punishment} тюрьма, тюремное заключение; (v) {B2} {crime and punishment} сажать в тюрьму
+              xx ?#  labour+camp [ˈleɪbə kæmp] (n) {B2} {crime and punishment} трудовой лагерь
+              1T *#  life [laɪf] (n) {A1} жизнь, {B1} продолжительность жизни, {B2} {crime and punishment} пожизненное заключение, I: life-lives
+              xx ?#  life+sentence [laɪf ˈsɛntəns] (n) {B2} {crime and punishment} пожизненное заключение
+  941. (  1) 5T ?#PT penalty [ˈpɛnlti] (n) {C1} {sports: ball and racket sports} пенальти, {B2} {crime and punishment} {money} {C1} штраф, наказание, взыскание
+ 1152. (  1) 3T *#PT sentence [ˈsɛntəns] (v) {B2} {crime and punishment} {law and justice} приговорить, осуждать; (n) {A1} {language} предложение, {B2} {crime and punishment} {law and justice} приговор
+ 1295. (  1) 3T *#PT term [tɜːm] (n) {A2} {B1} {time} {B2} {crime and punishment} {C1} {discussion and agreement} срок, термин, член, выражение, {B1} {education} семестр, элемент; (v) {B2} называть, выражать
 
 {crime and punishment {solving crime}}
 {A1} {crime and punishment {solving crime}}
@@ -8215,6 +8315,25 @@ Politics and society
   380. (  1) 3T *#PT investigate [ɪnˈvɛstɪgeɪt] (v) {B1} {crime and punishment} расследовать, исследовать, изучать
   448. (  1) 3T *#PT mystery [ˈmɪstəri] (n) {B1} {literature and writing} {crime and punishment} тайна, таинство; (adj) таинственный
 
+{B2} {crime and punishment {solving crime}}
+   71. (  2) 3T ?#PT appeal [əˈpil] (n) {B2} {law and justice} {social issues} {money} обращение, призыв, {B2} {preferences and decisions} {law and justice} обжалование, {B2} привлекательность; (v) {crime and punishment} {social issues} {C1} {discussion and agreement} обращаться, {B2} {preferences and decisions} {law and justice} привлекать, {B2} нравиться
+  173. (  2) 3T *#PT capture [ˈkæpʧə] (n) {B2} {crime and punishment} захват, поимка, пленение; (v) {B2} {feelings} увлечь, {B2} {art} захватить, {B2} поймать
+  191. (  2) 3T ?#PT chase [ʧeɪs] (v) {B2} {crime and punishment} преследовать, гнаться, {B2} выгонять, {C1} = to try to obtain or archieve something, {C1} = to try to persude somebody to have a sexual relationship with you; (n) {B2} {crime and punishment} погоня
+  243. (  1) 5T ?#PT confess [kənˈfɛs] (v) исповедовать, {B2} {crime and punishment} признаваться, {B2} {feelings} покаяться
+              xx ?#  crime+lab [kraɪm læb] (n) {B2} {crime and punishment} криминалистическая лаборатория
+  481. (  2) 3T ?#PT exhibit [ɪgˈzɪbɪt] (n) {B2} {history} {art} {crime and punishment} экспонат, {B2} показ; (v) {B2} {art} выставлять, {C1} проявлять качества
+              5T ?#  eyewitness [ˈaɪˈwɪtnəs] (n) {B2} {crime and punishment} очевидец
+  632. (  1) 3T *#PT hold [həʊld] (v) {A2} {B1} {working life} {B2} {success} {crime and punishment} {phone, email and the internet} держать, занимать, удерживать, {B2} {opinion and argument} считать; I: hold-held-held; (n) владение, {B2} {sports: other sports} захват, удерживание, {C1} {transport by water} {transport by air} трюм
+  685. (  1) 3T *#PT inform [ɪnˈfɔːm] (v) {B2} {crime and punishment} сообщить, информировать, сообщать, уведомлять
+  724. (  1) 3T *#PT investigation [ɪnˌvɛstɪˈgeɪʃən] (n) {B2} {crime and punishment} расследование, {B2} исследование, следствие
+              xx ?#  missing+person [ˈmɪsɪŋ ˈpɜːs(ə)n] (n) {B2} {crime and punishment} пропавший без вести человек
+              xx ?#  private+detective [ˈpraɪvət dɪˈtɛktɪv] (n) {B2} {crime and punishment} частный детектив
+ 1028. (  1) 3T ?#PT pursue [pəˈsjuː] (v) {B2} {success} преследовать, продолжать, заниматься, {B2} {law and justice} {crime and punishment} вести следствие
+              yT ?#  questioning [ˈkwɛsʧənɪŋ] -ing: (v) {A2} {crime and punishment} {working life} сомневаться, допрашивать, спрашивать; (n) {B2} {crime and punishment} допрос
+ 1272. (  2) 3T ?#PT suspect [ˈsʌspɛkt->(n,adj)/səsˈpɛkt->(v)] (v) {B2} {doubt, guessing and certainty} {crime and punishment} подозревать, полагать; (adj) подозреваемый; (n) {B2} {crime and punishment} подозреваемый человек
+ 1325. (  1) 3T *#PT trace [treɪs] (n) {C1} след, отпечаток, черта, тропа; (v) {B2} {crime and punishment} {phone, email and the internet} {family and relationships} {C1} прослеживать, следить
+ 1424. (  2) 3T *#PT witness [ˈwɪtnɪs] (n) {B2} {crime and punishment} {law and justice} свидетель, свидетельство, очевидец; (v) {B2} {crime and punishment} свидетельствовать
+
 {crime and punishment {type of crime}}
 ......................................
 {A1} {crime and punishment {type of crime}}
@@ -8228,6 +8347,26 @@ Politics and society
               3T *#  murder [ˈmɜːdə] (n) {B1} {crime and punishment} убийство; (v) {B1} {crime and punishment} убивать
   778. (  1) 3T ?#PT violent [ˈvaɪələnt] (adj) {B1} {crime and punishment} насильственный, сильный, яростный
               1T *#  wrong [rɒŋ] (adv) {B1} неправильно; (adj) {A1} {B1} {personal qualities} неверный; (v) обижать, вредить, причинять зло; (n) {B1} {crime and punishment} зло, несправедливость
+
+{B2} {crime and punishment {type of crime}}
+              3T *#  attempted [əˈtɛmptɪd] -ed: (v) {B2} пытаться, пробовать; (adj) {B2} {difficulty and failure} {crime and punishment} = that somebody has tried to do but without success
+  143. (  1) yT ?#PT bombing [bɒmɪŋ] -ing: (v) {B1} {war and conflict} {crime and punishment} бомбить, раскритиковать в пух и прах; (n) {B2} {crime and punishment} бомбежка, бомбардировка
+  257. (  1) 5T ?#PT conspiracy [kənˈspɪrəsi] (n) {B2} {crime and punishment} {war and conflict} заговор, конспирация
+              xx ?#  drink-driving [drɪŋk-ˈdraɪvɪŋ] (n) {B2} {crime and punishment} {transport by car or lorry} вождение в нетрезвом виде
+              xx ?#  drunk+driving [drʌŋk ˈdraɪvɪŋ] (n) {B2} {crime and punishment} {transport by car or lorry} вождение в нетрезвом виде
+  508. (  1) 5T *#PT fake [feɪk] (n) {B1} {art} {personal qualities} подделка; (v) {B2} {crime and punishment} фальсифицировать; (adj) {B2} {crime and punishment} {personal qualities} фальшивый
+  559. (  1) xT ?#PT fraud [frɔːd] (n) {B2} {crime and punishment} мошенничество, обман, {B2} мошенник, обманщик
+              xx ?#  identity+theft [aɪˈdɛntəti θɛft] (n) {B2} {crime and punishment} кража личных данных
+  886. (  1) 3T ?#PT offence [əˈfɛns] (n) {B2} {crime and punishment} преступление, правонарушение, оскорбление
+ 1109. (  1) 4T ?#PT robbery [ˈrɒbəri] (n) {B2} {crime and punishment} ограбление, грабеж, разбой, кража
+              xx ?#  shoplifting [ˈʃɒpˌlɪftɪŋ] -ing: (v) {B2} {shopping} {crime and punishment} воровать товары; (n) {B2} {shopping} {crime and punishment} кража в магазине
+              yT *#  speeding [spiːdɪŋ] -ing: (v) {B2} ускорять, {B2} {crime and punishment} спешить, торопить, I: speed-sped/speeded-sped/speeded; (n) {B2} {crime and punishment} {transport by car or lorry} превышение скорости
+ 1302. (  1) 4T ?#PT terrorism [ˈtɛr(ə)rɪz(ə)m] (n) {B2} {crime and punishment} {war and conflict} терроризм
+ 1306. (  1) 5T ?#PT theft [θɛft] (n) {B2} {crime and punishment} кража, воровство
+              3T *#  traffic [ˈtræfɪk] (n) движение, {A1} {transport by car or lorry} транспорт, перевозки; (v) {B2} {crime and punishment} торговать
+              zT ?#  vandalism [ˈvændəlɪzəm] (n) {B2} {crime and punishment} вандализм
+ 1387. (  1) 3T *#PT violence [ˈvaɪələns] (n) {B2} {crime and punishment} {war and conflict} насилие, жестокость
+              xx ?#  war+crime [wɔː kraɪm] (n) {B2} {war and conflict} {crime and punishment} военное преступление
 
 {law and justice}
 -----------------
@@ -8245,6 +8384,22 @@ Politics and society
   375. (  1) 3T *#PT innocent [ˈɪnəsənt] (adj) {B1} {law and justice} {B2} {crime and punishment} {life stages} невинный
               1T *#  right [raɪt] (n) {A1} право, {B1} {social issues} {law and justice} порядок; (adv) {B1} верно, {A1} направо, прямо; (adj) {A1} {opinion and argument} правый, правильный; (v) исправлять
 
+{B2} {law and justice {justice}}
+   71. (  2) 3T ?#PT appeal [əˈpil] (n) {B2} {law and justice} {social issues} {money} обращение, призыв, {B2} {preferences and decisions} {law and justice} обжалование, {B2} привлекательность; (v) {crime and punishment} {social issues} {C1} {discussion and agreement} обращаться, {B2} {preferences and decisions} {law and justice} привлекать, {B2} нравиться
+              1T *#  charge [ʧɑːʤ ] (n) {C1} {physics and chemistry} заряд, обязанности, {B1} {money} цена, {B2} {law and justice} обвинение, ответственность; (v) {B1} {shopping} {money} назначать цену, {B1} {physics and chemistry} заряжать, {B2} {law and justice} обвинять
+              xx ?#  criminal+law [ˈkrɪmɪn(ə)l lɔː] (n) {B2} {law and justice} уголовное право
+  334. (  1) 3T ?#PT defence [dɪˈfɛns] (n) {B2} {war and conflict} {sports: ball and racket sports} {C1} {opinion and argument} {law and justice} защита, оборона, {B2} {law and justice} = the lawyer of lawyers whose job is to prove in court that a person did not commit a crime
+  335. (  1) 3T ?#PT defend [dɪˈfɛnd] (v) {B2} {war and conflict} защищать, {B2} {opinion and argument} отстаивать, {C1} {sports: ball and racket sports} {B2} {law and justice} защищаться
+              1T *#  defense [dɪˈfɛns] (n) {B2} {war and conflict} {sports: ball and racket sports} {C1} {opinion and argument} {law and justice} защита, оборона, {B2} {law and justice} = the lawyer of lawyers whose job is to prove in court that a person did not commit a crime
+              xx ?#  family+court [fæməli ˈkɔːt] (n) {B2} {law and justice} = a court that deals with cases that affect families, for example when people get divorced
+              3T *#  judge [ˈʤ ʌʤ ] (v) {B1} {opinion and argument} судить, {B1} {doubt, guessing and certainty} оценивать, {B2} {law and justice} осуждать; (n) {B1} {preference and decisions} {law and justice} {jobs} судья, {B1} {opinion and argument} эксперт
+  735. (  1) 3T *#PT judgement [ˈʤ ʌʤ mənt] (n) {B2} {preferences and decisions} суждение, усмотрение, приговор, {B2} {opinion and argument} мнение, {B2} {law and justice} {preferences and decisions} решение суда, кара
+  738. (  1) 3T *#PT justice [ˈʤ ʌstɪs] (n) {B2} {social issues} справедливость, {B2} {law and justice} правосудие, судья
+ 1152. (  1) 3T *#PT sentence [ˈsɛntəns] (v) {B2} {crime and punishment} {law and justice} приговорить, осуждать; (n) {A1} {language} предложение, {B2} {crime and punishment} {law and justice} приговор
+ 1338. (  1) 3T *#PT trial [ˈtraɪəl] (adj) пробный, испытательный; (n) {B2} {law and justice} суд, {B2} {scientific research} испытание
+ 1349. (  1) 3T *#PT try [traɪ] (n) {B2} попытка, испытание; (v) {A1} пытаться; {B2} {law and justice} судить
+ 1424. (  2) 3T *#PT witness [ˈwɪtnɪs] (n) {B2} {crime and punishment} {law and justice} свидетель, свидетельство, очевидец; (v) {B2} {crime and punishment} свидетельствовать
+
 {law and justice {legal documents}}
 ...................................
 {A1} {law and justice {legal documents}}
@@ -8258,6 +8413,17 @@ Politics and society
    22. (  1) 3T *#PT agreement [əˈgriːmənt] (n) {B1} {discussion and agreement} {war and conflict} {law and justice} {business} соглашение, договор, {B2} {language} согласие
               1T *#  statement [ˈsteɪtmənt] (n) {A1} {opinion and argument} {B1} {opinion and argument} {law and justice} заявление, утверждение, оператор, {B2} {money} официальный отчет
 
+{B2} {law and justice {legal documents}}
+              xx ?#  birth+certificate [bɜːθ səˈtɪfɪkət] (n) {B2} {law and justice} свидетельство о рождении
+              5T ?#  clause [klɔːz] (n) {B2} {law an justice} пункт, оговорка, {B1} {language} условие, клаузула
+  267. (  2) 3T ?#PT contract [ˈkɑnˌtrækt->(n)/kənˈtrækt->(v)] (n) {B2} {discussion and agreement} {working life} {law and justice} {houses and homes} {business} контракт, договор; (v) {B2} {physics and chemistry} сокращаться
+              xx ?#  death+certificate [dɛθ səˈtɪfɪkət] (n) {B2} {law and justice} свидетельство о смерти
+  409. (  2) 3T *#PT draft [drɑːft] (n) {B2} {law and justice} {phones, email and the internet} {business} проект, черновик; (v) {B2} {literature and writing} {law and justice} {business} {phones, email and the internet} выделять, призывать
+              xx ?#  id+card [ɪd/ˈaɪˈdi kɑːd] (n) {B2} {law and justice} (identity) удостоверение личности
+              xx ?#  identity+card [aɪˈdɛntəti kɑːd] (n) {B2} {law and justice} удостоверение личности
+              xx ?#  marriage+certificate [ˈmærɪʤ  səˈtɪfɪkət] (n) {B2} {law and justice} свидетельство о браке
+              1T *#  will [wɪl] (auxiliary)(v)(modal) {A1} {B1} {doubt, guessing and certainty} будут, I: will-would; (n) воля, желание, {B2} {money} {law and justice} завещание; (v) завещать, желать
+
 {law and justice {legal processes}}
 ...................................
 {A1} {law and justice {legal processes}}
@@ -8269,6 +8435,15 @@ Politics and society
   431. (  1) 3T *#PT marriage [ˈmærɪʤ ] (n) {B1} {life stages} {law and justice} {religion and festivals} брак
   602. (  1) 3T *#PT represent [ˌrɛprɪˈzɛnt] (v) {B1} {law and justice} {people in society} представлять, {B1} {art} изображать, {C2} {opinion and argument} отражать, означать; (n) представление
 
+{B2} {law and justice {legal processes}}
+              1T *#  action [ˈækʃ(ə)n] (n) {A1} {B2} {history} {war and conflict} {film and theatre} действие, {B2} {law and justice} акция, деятельность
+   36. (  1) 3T *#PT adopt [əˈdɒpt] (v) принимать, {B2} {life stages} {law and justice} {family and relationships} усыновлять, {B2} заимствовать
+  185. (  1) 3T *#PT challenge [ˈʧælɪnʤ ] (v) {B2} {law and justice} {suggestions and advice} оспаривать, бросать вызов; (n) {B1} {B2} {suggestions and advice} вызов, проблема, сложная задача
+              1T ?#  claim [kleɪm] (v) {B1} требовать, {C1} {success} претендовать, {B1} {opinion and argument} {law and justice} утверждать, заявлять; (n) {B1} {opinion and argument} {B2} {law and justice} иск, требование, претензия
+  398. (  2) 3T *#PT divorce [dɪˈvɔːs->(n/v)/dɪˌvɔːˈsiː->(n)] (n) {B2} {family and relationships} {law and justice} развод, расторжение брака, отделение; (v) {B2} {family and relationships} {law and justice} разводиться; (adj) бракоразводный
+  601. (  2) 3T *#PT grant [grɑːnt] (n) {B2} {money} {education} грант, субсидия; (v) {B2} {law and justice} предоставлять, даровать
+ 1028. (  1) 3T ?#PT pursue [pəˈsjuː] (v) {B2} {success} преследовать, продолжать, заниматься, {B2} {law and justice} {crime and punishment} вести следствие
+
 {law and justice {people in law}}
 .................................
 {A1} {law and justice {people in law}}
@@ -8277,6 +8452,10 @@ Politics and society
 
 {B1} {law and justice {people in law}}
   386. (  2) 3T *#PT judge [ˈʤ ʌʤ ] (v) {B1} {opinion and argument} судить, {B1} {doubt, guessing and certainty} оценивать, {B2} {law and justice} осуждать; (n) {B1} {preference and decisions} {law and justice} {jobs} судья, {B1} {opinion and argument} эксперт
+
+{B2} {law and justice {people in law}}
+              1T *#  authority [ɔːˈθɒrɪti] (n) {B1} власти, власть, авторитет, {B2} {law and justice} полномочие
+  737. (  1) 5T *#PT jury [ˈʤ ʊəri] (n) {B2} {law and justice} жюри, {C1} присяжные
 
 {law and justice {the law}}
 ...........................
@@ -8292,6 +8471,15 @@ Politics and society
               3T *#  legally [ˈliːgəli] -ly: (adj)->(adv) {B1} {law and justice} {permission and obligation} правовой, юридический, законный, легальный; (adv) {B1} {law and justice} {permission and obligation} легально, законно
               1T *#  order [ˈɔːdə] (n) {A2} {cooking and eating} {B1} {business} {shopping} заказ, {A1} {B1} {law and justice} порядок, орден, {B1} {war and conflict} приказ; (v) {A1} {cooking and eating} {A2} {shopping} заказывать, {B1} {permission and obligation} {war and conflict} приказывать, упорядочивать
   607. (  2) 3T *#PT respect [rɪsˈpɛkt] (n) {B1} {success} уважение; (v) {B1} {success} {opinion and argument} уважать, {B1} {law and justice} соблюдать
+
+{B2} {law and justice {the law}}
+  135. (  1) 3T *#PT bill [bɪl] (n) {B2} {law and justice} {politics} законопроект, {A1} {shopping} {cooking and eating} счет, банкнот; (v) {B2} нежничать
+              xx ?#  international+law [ˌɪntəˈnæʃ(ə)n(ə)l lɔː] (n) {B2} {law and justice} {politics} международное право
+              xx ?#  law+and+order [lɔː ænd ˈɔːdə] (idiom) {B2} {law and justice} правопорядок
+ 1004. (  1) 5T ?#PT prohibit [prəˈhɪbɪt] (v) {B2} {permission and obligation} {law and justice} запрещать, препятствовать, мешать
+              4T ?#  prohibition [ˌprəʊɪˈbɪʃən] (n) {B2} {permission and obligation} {law and justice} запрет, запрещение, воспрещение
+ 1069. (  1) 3T *#PT regulation [ˌrɛgjʊˈleɪʃən] (n) {B2} {permission and obligation} {law and justice} {C1} {money} регулирование
+ 1376. (  1) 3T *#PT valid [ˈvælɪd] (adj) {B2} {law and justice} действительный, действующий, {B2} годный
 
 {law and justice {the police}}
 ..............................
@@ -8314,6 +8502,12 @@ Politics and society
               xx ?#  police+force [pəˈliːs fɔːs] (n) {B1} {law and justice} полиция
   635. (  1) 3T *#PT security [sɪˈkjʊərɪti] (n) {B1} {law and justice} {transport by air} {B2} {feelings} {C2} {money} безопасность, охрана, обеспечение, защита
 
+{B2} {law and justice {the police}}
+              xx ?#  emergency+services [ɪˈmɜːʤ (ə)nsi ˈsɜːvɪsɪz] (n) {B2} {law and justice} {the environment} аварийно-спасательные службы
+  701. (  1) 5T ?#PT inspector [ɪnˈspɛktə] (n) {B2} {law and justice} {C1} {education} {jobs} инспектор, контролер
+              xx ?#  lockdown [ˈlɒkdaʊn] (n) {B2} {law and justice} карантин
+ 1058. (  2) 5T ?#PT recruit [rɪˈkruːt] (v) {B2} {law and justice} {war and conflict} {working life} вербовать, комплектовать; (n) {B2} {law and justice} {war and conflict} новобранец, {B2} новичок
+
 {people in society}
 -------------------
 {people in society {belonging to society}}
@@ -8332,6 +8526,15 @@ Politics and society
   602. (  1) 3T *#PT represent [ˌrɛprɪˈzɛnt] (v) {B1} {law and justice} {people in society} представлять, {B1} {art} изображать, {C2} {opinion and argument} отражать, означать; (n) представление
               1T *#  social [ˈsəʊʃəl] (adj) {A2} {B1} {social issues} {people in society} социальный, общественный; (n) {C1} {phones, email and the internet} собрание, встреча
 
+{B2} {people in society {belonging to society}}
+  200. (  1) 3T *#PT citizen [ˈsɪtɪzn] (n) {B2} {people in society} гражданин
+  224. (  1) 3T *#PT committee [kəˈmɪti] (n) {B2} {working life} {people in society} комитет, комиссия
+  591. (  1) xT ?#PT globe [ˈgləʊb] (n) {B2} {people in society} земной шар, глобус
+ 1081. (  2) 3T ?#PT representative [ˌrɛprɪˈzɛntətɪv] (n) {B2} {people in society} {politics} {business} {jobs} представитель, делегат; (adj) {B2} характерный, показательный, {C1} {politics} представительный
+              4T *#  sociologist [ˌsəʊsɪˈɒləʤ ɪst] (n) {B2} {people in society} социолог
+              xT ?#  sociology [ˌsəʊsɪˈɒləʤ i] (n) {B2} {education} {people in society} социология
+ 1339. (  1) 5T *#PT tribe [traɪb] (n) {B2} {people in society} племя, триба, клан, множество
+
 {people in society {gender and sexuality}}
 {A1} {people in society {gender and sexuality}}
   467. (  1) 3T *#PT man [mæn] (n) {A1} {life stages} {people in society} человек, мужчина, I: man-men
@@ -8342,6 +8545,9 @@ Politics and society
   479. (  2) 3T *#PT male [meɪl] (n) {A2} {biology} мужчина, самец; (adj) {A2} {people in society} {biology} мужской
 
 {B1} {people in society {gender and sexuality}}
+{B2} {people in society {gender and sexuality}}
+  579. (  1) 4T *#PT gay [geɪ] (adj) {B2} {people in society} гейский; (n) {C1} {people in society} гей
+  580. (  1) xT ?#PT gender [ˈʤ ɛndə] (n) {B2} {people in society} пол, {C1} {language} род
 
 {people in society {race}}
 ..........................
@@ -8366,6 +8572,19 @@ Politics and society
               1T *#  race [reɪs] (n) раса, {A2} {sports: other sports} {B2} {success} гонки, {B1} {people in society} род; (v) {A2} {success} {sports: other sports} мчаться
               xx ?#  woman+of+colour [ˈwʊmən ɒv ˈkʌlə] (n) {B1} {people in society} цветная женщина
 
+{B2} {people in society {race}}
+              xT *#  arab [ˈærəb] (adj) {B2} {people in society} арабский; (n) {B2} {people in society} араб
+              xx ?#  asian+american [-] (n) {B2} {people in society} = a person from America whose family come from Asia especially East Asia; (adj) {B2} {people in society} азиатско-американский
+              1T *#  black [blæk] (n) {A1} {colours and shapes} черный цвет, {B2} {people in society} чернь; (adj) {A1} {colours and shapes} {people in society} черный, темный; (v) чернить
+  395. (  1) 5T ?#PT diversity [daɪˈvɜːsɪti] (n) {B2} {people in society} {the environment} разнообразие, многообразие, {B2} разнородность
+  466. (  1) 5T ?#PT ethnic [ˈɛθnɪk] (adj) {B2} {people in society} этнический, {B2} языческий; (n) язычник
+              xx ?#  ethnic+group [ˈɛθnɪk ɡruːp] (n) {B2} {people in society} этническая группа
+  822. (  1) 3T ?#PT minority [maɪˈnɒrɪti] (n) {B2} {people in society} меньшинство, несовершеннолетие, меньшая часть
+  826. (  1) 3T *#PT mixed [mɪkst] -ed: (v) {B1} {cooking and eating} {B2} {music} смешивать; (adj) {B2} смешанный, {B2} {family and relationships} {people in society} разнородный, {B2} {education} для людей обоего пола
+ 1033. (  1) yT *#PT racism [ˈreɪsɪzm] (n) {B2} {social issues} {people in society} расизм
+ 1034. (  2) yT *#PT racist [ˈreɪsɪst] (n) {B2} {social issues} расист; (adj) {B2} {social issues} {people in society} расистский
+              1T *#  white [waɪt] (adj) {A1} {colours and shapes} {people in society} белый; (n) {A1} {colours and shapes} {B2} {people in society} белый цвет, {B1} {food} белок
+
 {people in society {rank and status}}
 .....................................
 {A1} {people in society {rank and status}}
@@ -8389,6 +8608,21 @@ Politics and society
   546. (  1) 3T *#PT princess [prɪnˈsɛs] 3T *#  princess [prɪnˈsɛs] (n) {B1} {people in society} принцесса
               xx ?#  upper+class [ˈʌpə klɑːs] (n) {B1} {people in society} высший класс, аристократия; (adj) {B1} {people in society} принадлежащий к высшему классу
               xx ?#  working+class [ˈwɜːkɪŋ klɑːs] (n) {B1} {people in society} рабочий класс; (adj) {B1} {people in society} принадлежащий к рабочему классу
+
+{B2} {people in society {rank and status}}
+              3T *#  captain [ˈkæptɪn] (n) {B1} {transport by water} {transport by air} {war and conflict} {people in society} {sports: ball and racket sports} капитан; (v) {B2} {people in society} руководить
+  194. (  2) 3T ?#PT chief [ʧiːf] (adj) {B2} главный; (n) {people in society} {jobs} начальник
+              1T *#  class [klɑːs] (n) {A1} {B1} {transport by bus and train} {transport by air} сорт, {B1} {people in society} {C1} {animals} тип, {A1} {education} класс; (adj) классовый; (v) {B2} {people in society} классифицировать
+              4T ?#  duke [duk] (n) {B2} {people in society} герцог
+              4T *#  emperor [ˈɛmpərə] (n) {B2} {history} {people in society} император
+  635. (  1) 4T ?#PT homeless [ˈhəʊmlɪs] (adj) {B2} {social issues} {people in society} бездомный; (n) бездомный
+              4T *#  knight [naɪt] (n) {B2} {history} {people in society} рыцарь
+              3T *#  lady [ˈleɪdi] (n) {A2} {B2} {people in society} леди, дама, девушка, госпожа, барыня
+  750. (  1) 5T *#PT leadership [ˈliːdəʃɪp] (n) {B2} {people in society} {politics} руководство, {B2} {personal qualities} {people in society} лидерство
+  776. (  1) 3T *#PT lord [lɔːd] (n) {B2] {people in society} господин, {B2} лорд, владыка
+              xx ?#  lower+classes [ˈləʊə ˈklɑːsɪz] (n) {B2] {people in society} = the groups of people who are considered to have the lowest social status and who have less money/power than other people in society, низшие классы
+              xx ?#  middle+class [ˈmɪd(ə)l klɑːs] (n) {B2] {people in society} = the social class whose members are neither very rich not very poor and that includes professional and business people
+              xx ?#  middle-class [ˈmɪd(ə)l klɑːs] (adj) {B2] {people in society} = connected with the middle social class
 
 {politics}
 ----------
