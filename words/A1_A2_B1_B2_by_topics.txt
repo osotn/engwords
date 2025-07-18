@@ -9734,6 +9734,12 @@ Science and technology
    22. (  1) 3T ?#PT acid [ˈæsɪd] (n) {B2} {physics and chemistry} кислота; (adj) {C1} {physics and chemistry} кислотный, едкий
    25. (  1) 5T *#PT activate [ˈæktɪveɪt] (v) {B2} {engineering} {physics and chemistry} активировать, активизировать, включать
               xT ?#  calcium [ˈkælsɪəm] (n) {B2} {physics and chemistry} кальций
+  174. (  1) 4T ?#PT carbon [ˈkɑːbən] (n) {B2} {physics and chemistry} углерод, уголь, графит; (adj) угольный
+  233. (  1) 5T *#PT compound [ˈkɒmpaʊnd->(adj)/kəmˈpaʊnd->(v)] (n) {B2} {physics and chemistry} {language} соединение, смесь; (v) соединять, смешивать; (adj) {B2} {language} сложный, составной
+              3T *#  element [ˈɛlɪmənt] (n) {B1} {B2} {physics and chemistry} элемент, стихия, звено
+  919. (  1) 5T ?#PT oxygen [ˈɒksɪʤ ən] (n) {B2} {physics and chemistry} кислород; (adj) кислородный
+              1T *#  product [ˈprɒdʌkt] (n) {A1} {business} {shopping} {B2} {physics and chemistry} {change, cause and effect} продукт, изделие, произведение
+              3T *#  react [ri(ː)ˈækt] (v) {A2} {change, cause and effect} {B2} {physics and chemistry} реагировать, {B1} {health problems} воздействовать
 
 {physics and chemistry {energy and physical forces}}
 ....................................................
@@ -9759,6 +9765,23 @@ Science and technology
   582. (  1) 3T ?#PT reflect [rɪˈflɛkt] (v) {B1} {physics and chemistry} отражать, размышлять
   786. (  1) 3T *#PT wave [weɪv] (n) {A2} {B1} {physics and chemistry} волна; (adj) волновой; (v) {B1} махать
 
+{B2} {physics and chemistry {energy and physical forces}}
+    5. (  1) 3T *#PT absorb [(UK)əbˈsɔːb/(US)əbˈzɔrb] (v) {B2} {physics and chemistry} абсорбировать, впитывать
+              zT ?#  celsius [ˈsɛlsiəs] (adj) {B2} {weather} {maths and measurement} = of or using a scale of temperature in which water freezes at 0 and boils at 100 degree, по Цельсию; (n) {B2} {physics and chemistry} = a scale of temperature in which water freezes at 0 and boils at 100 degree, Цельсия
+              xT ?#  charger [ˈʧɑːʤ ə] (adj) заряжающий; (n) {B2} {physics and chemistry} зарядное устройство, обвинитель
+  435. (  1) 5T ?#PT emission [ɪˈmɪʃən] (n) {B2} {the environment} эмиссия, выпуск, {B2} {physics and chemistry} распространение
+              1T *#  field [fiːld] (n) {A2} {farming} {sports: ball and racket sports} {B2} {physics and chemistry} поле, область, месторождение; (adj) полевой
+              4T ?#  hydroelectric [ˌhaɪdrəʊɪˈlɛktrɪk] (adj) {the environment} {physics and chemistry} гидроэлектрический; (n) гидроэлектростанция
+  812. (  1) 3T ?#PT melt [mɛlt] (v) {B2} {weather} {physics and chemistry} таять, растопить, плавиться
+  839. (  1) 3T *#PT motion [ˈməʊʃən] (n) {B2} {physics and chemistry} движение, перемещение, ход; (v) показывать жестом
+              xx ?#  nuclear+physics [ˈnjuːklɪə ˈfɪzɪks] (n) {B2} {physics and chemistry} ядерная физика
+              1T *#  physical [ˈfɪzɪkəl] (adj) {A2} {body} {working life} {B2} {physics and chemistry} физический, телесный; (n) медосмотр
+              1T *#  pressure [ˈprɛʃə] (n) {B1} {business} {discussion and agreement} {B2} {physics and chemistry} напряжение, давление; (v) {C1} {discussion and agreement} давить
+ 1035. (  1) 5T ?#PT radiation [ˌreɪdɪˈeɪʃən] (n) {B2} {physics and chemistry} излучение, радиация, облучение
+ 1195. (  1) 5T *#PT solar [ˈsəʊlə] (adj) {B2} {space} {physics and chemistry} {the environment} солнечный
+              3T *#  stress [strɛs] (n) {A2} {feelings} стресс, {B2} {physics and chemistry} напряжение, усилие, {A2} {language} ударение, акцент; (v) {A2} {language} {B2} {feelings} подчеркивать
+              xx ?#  x-ray [ˈɛksˈreɪ] (n) {B2} {physics and chemistry} {healthcare} рентгеновский снимок; (v) {B2} {healthcare} = to photograph and examine bones and organs inside the body using X-rays
+
 {physics and chemistry {materials and properties}}
 ..................................................
 {A1} {physics and chemistry {materials and properties}}
@@ -9781,6 +9804,22 @@ Science and technology
   687. (  2) 3T ?#PT stick [stɪk] (n) {A2} {sports: ball and racket sports} палка, палочка, {B1} {C1} {transport by air} ручка, трость; (v) {B1} {physics and chemistry} придерживаться, держаться, наклеивать, I: stick-stuck-stuc
   696. (  1) 3T *#PT substance [ˈsʌbstəns] (n) {B1} {physics and chemistry} вещество, содержание
 
+{B2} {physics and chemistry {materials and properties}}
+  150. (  1) 3T *#PT brick [brɪk] (n) {B2} {buildings} {physics and chemistry} кирпич
+  241. (  2) 3T *#PT concrete [ˈkɒnkriːt/kənˈkriːt] (n) {B2} {physics and chemistry} бетон; (adj) {C1} {doubt, guessing and certainty} конкретный, {B2} {buildings} {physics and chemistry} бетонный; (v) {C1} {buildings} бетонировать
+  267. (  2) 3T ?#PT contract [ˈkɑnˌtrækt->(n)/kənˈtrækt->(v)] (n) {B2} {discussion and agreement} {working life} {law and justice} {houses and homes} {business} контракт, договор; (v) {B2} {physics and chemistry} сокращаться
+  289. (  2) 3T ?#PT crack [kræk] (n) {B2} трещина, щель, треск; (v) {B2} {physics and chemistry} трескаться; (adj) первоклассный
+  502. (  1) 5T ?#PT fabric [ˈfæbrɪk] (n) {B2} {clothes and fashion} {shopping} ткань, {B2} {physics and chemistry} материал, {C1} структура, материя; (adj) тканый
+  534. (  1) 5T *#PT flexible [ˈflɛksəbl] (adj) {B2} гибкий, свободный, {B2} {physics and chemistry} податливый
+              1T *#  heavy [ˈhɛvi] (adj) {A2} {appearance} {B2} {physics and chemistry} {transport by car or lorry} {C1} {literature and writing} тяжелый, сильный; (adv) тяжело
+  818. (  1) 3T *#PT mineral [ˈmɪnərəl] (n) {B2} {physics and chemistry} {cooking and eating} минерал; (adj) минеральный
+ 1009. (  1) 3T *#PT proof [pruːf] (n) {B2} {scientific research} {opinion and argument} {C1} {maths and measurement} доказательство; (adj) {B2} {physics and chemistry} непроницаемый; (v) делать непроницаемым
+ 1164. (  1) 3T *#PT shape [ʃeɪp] (n) {A2} {colours and shapes} форма, вид; (v) {B2} {physics and chemistry} формировать
+              3T *#  solution [səˈluːʃən] (n) {A2} {maths and measurement} решение, {B2} {physics and chemistry} раствор, разрешение
+ 1237. (  1) 3T ?#PT steel [stiːl] (n) {B2} {physics and chemistry} сталь; (adj) стальной
+ 1246. (  2) 3T ?#PT stretch [strɛʧ] (v) {B2} простираться, {B2} {physics and chemistry} растягивать, {B2} {health and fitness} растягиваться; (n) {B2} протяжение
+              3T ?#  tin [tɪn] (n) {B2} {physics and chemistry} олово, {B1} {cooking and eating} банка, белая жесть, жестянка; (adj) жестяной, оловянный; (v) лудить, консервировать
+
 {physics and chemistry {molecular and matter}}
 ..............................................
 {A1} {physics and chemistry {molecular and matter}}
@@ -9790,20 +9829,34 @@ Science and technology
 {B1} {physics and chemistry {molecular and matter}}
   413. (  2) 3T *#PT liquid [ˈlɪkwɪd] (n) {B1} {cooking and eating} {physics and chemistry} жидкость; (adj) {B1} жидкий, {C1} {money} ликвидный
 
+{B2} {physics and chemistry {molecular and matter}}
+              3T *#  atom [ˈætəm] (n) {B2} {physics and chemistry} атом, мельчайшая частица
+              1T *#  matter [ˈmætə] (n) {A2} вопрос, дело, {B2} {physics and chemistry} материя; (v) {A2} иметь значение, гноиться
+              5T ?#  molecule [mɒlɪkjuːl] (n) {B2} {physics and chemistry} молекула
+
 {scientific research}
 ---------------------
 {scientific research {branches of science}
 ..........................................
-{A1} {scientific research {branches of science}
-{A2} {scientific research {branches of science}
+{A1} {scientific research {branches of science}}
+{A2} {scientific research {branches of science}}
    99. (  1) 3T *#PT biology [baɪˈɒləʤ i] (n) {A2} {education} {scientific research} {biology} биология
   146. (  1) 3T *#PT chemistry [ˈkɛmɪstri] (n) {A2} {education} {scientific research} {C1} {physics and chemistry} химия
   493. (  1) 3T *#PT medicine [ˈmɛdsɪn] (n) {A2} {healthcare} {scientific research} медицина, лекарство
   573. (  1) 3T *#PT physics [ˈfɪzɪks] (n) {A2} {education} {physics and chemistry} {scientific research} физика
   793. (  1) 3T *#PT technology [tɛkˈnɒləʤ i] (n) {A2} {scientific research} технология, {A2} {shopping} техника
 
-{B1} {scientific research {branches of science}
+{B1} {scientific research {branches of science}}
   241. (  1) 3T *#PT engineering [ˌɛnʤ ɪˈnɪəɪŋ] {B1} {engineering} {jobs} {scientific research} {education} -ing: (v) проектировать
+
+{B2} {scientific research {branches of science}}
+              5T ?#  archaeology [ˌɑːkɪˈɒləʤ i] (n) {B2} {history} {scientific research} археология
+              yT ?#  biochemistry [ˌbaɪəʊˈkɛmɪstri] (n) {B2} {scientific research} {biology} биохимия
+              xx ?#  earth+science [ɜːθ ˈsaɪəns] (n) {B2} {scientific research} науки о Земле
+              xx ?#  geologist [ʤ ɪˈɒləʤ ɪst] (n) {B2} {scientific research} геолог
+              xT *#  geology [ʤ ɪˈɒləʤ i] (n) {B2} {education} {scientific research} геология
+ 1017. (  1) 4T *#PT psychological [ˌsaɪkəˈlɒʤ ɪkəl] (adj) {B2} {scientific research} психологический
+ 1018. (  1) 4T *#PT psychologist [saɪˈkɒləʤ ɪst] (n) {B2} {jobs} {scientific research} психолог
 
 {scientific research {data}}
 ............................
@@ -9819,6 +9872,10 @@ Science and technology
   685. (  1) yT ?#PT statistic [stəˈtɪstɪk] (adj) статистический; (n) {B1} {maths and measurement} {scientific research} статистик, статистический результат
               xT ?#  stats [stæts] (n) (informal) {B1} {maths and measurement} {scientific research} = statistics
 
+{B2} {scientific research {data}}
+ 1009. (  1) 3T *#PT proof [pruːf] (n) {B2} {scientific research} {opinion and argument} {C1} {maths and measurement} доказательство; (adj) {B2} {physics and chemistry} непроницаемый; (v) делать непроницаемым
+ 1122. (  1) 3T *#PT sample [(UK)ˈsɑːmpl/(US)ˈsæmpəl] (n) {B1} образец, пример, {B2} {healthcare} {shopping} {scientific research} выборка; (v) пробовать
+
 {scientific research {experiments}}
 ...................................
 {A1} {scientific research {experiments}}
@@ -9832,6 +9889,12 @@ Science and technology
 {B1} {scientific research {experiments}}
   264. (  1) 3T *#PT experiment [ɪksˈpɛrɪmənt] (n) {A2} эксперимент, опыт; (v) {B1} {scientific research} экспериментировать, производить опыты
   396. (  1) 3T *#PT laboratory [ləˈbɒrətəri] (n) {B1} {education} {scientific research} лаборатория
+
+{B2} {scientific research {experiments}}
+  242. (  2) 3T *#PT conduct [ˈkɒndʌkt->(n)/kənˈdʌkt->(v)] (n) {B2} поведение, ведение; (v) {B2} {scientific research} проводить, вести, {B2} {music} = to direct a group of people who are singing or playing music, {C1} {engineering} проводить
+  996. (  1) 3T *#PT procedure [prəˈsiːʤ ə] (n) {B2} {scientific research} {healthcare} процедура, операция
+              xx ?#  thought+experiment [θɔːt ɪkˈspɛrɪmənt] (n) {B2} {scientific research} мысленный эксперимент
+ 1338. (  1) 3T *#PT trial [ˈtraɪəl] (adj) пробный, испытательный; (n) {B2} {law and justice} суд, {B2} {scientific research} испытание
 
 {scientific research {results}}
 ...............................
@@ -9847,6 +9910,12 @@ Science and technology
   192. (  1) 3T *#PT determine [dɪˈtɜːmɪn] (v) {B1} {scientific research} определять, устанавливать
   561. (  1) 3T *#PT prove [pruːv] (v) {B1} {scientific research} {opinion and argument} доказывать, I: prove-proved-proven/proved
 
+{B2} {scientific research {results}}
+  366. (  1) 5T *#PT detect [dɪˈtɛkt] (v) {B2} {scientific research} обнаруживать, находить, расследовать
+  525. (  1) 4T *#PT finding [faɪndɪŋ] -ing: (n) находка; (v) {A1} {A2} {opinion and argument} {C1} {law and justice} {preference and decisions} находить, I: find-found-found; (n) {scientific research} открытие
+              3T *#  negative [ˈnɛgətɪv] (adj) {A1} {language} {B1} {opinion and argument} {B2} {maths and measurement} отрицательный; (n) {B2} {scientific research} отрицательный ответ, {B2} отказ
+  968. (  1) 3T *#PT positive [ˈpɒzətɪv] (adj) {A1} {language} {A2} {opinion and argument} {B1} {success} {personal qualities} {B2} {doubt, guessing and certainty} {maths and measurement} положительный; (n) {B2} {scientific research} позитив
+
 {scientific research {scientific equipment}}
 ............................................
 {A1} {scientific research {scientific equipment}}
@@ -9854,6 +9923,10 @@ Science and technology
   276. (  1) 3T *#PT equipment [ɪˈkwɪpmənt] (n) {A2} {scientific research} {houses and homes} оборудование, аппаратура, оснащение
 
 {B1} {scientific research {scientific equipment}}
+{B2} {scientific research {scientific equipment}}
+              3T *#  instrument [ˈɪnstrʊmənt] (n) {A2} {music} {B2} {scientific research} {engineering} инструмент, прибор
+              5T *#  microscope [ˈmaɪkrəskəʊp] (n) {B2} {scientific research} микроскоп
+              5T ?#  telescope [ˈtɛlɪskəʊp] (n) {B2} {space} {scientific research} телескоп; (v) сжимать
 
 {scientific research {study}}
 .............................
@@ -9876,6 +9949,15 @@ Science and technology
               1T *#  study [ˈstʌdi] (n) {A1} {education} {B1} {scientific research} изучение, {B1} {houses and homes} рабочий кабинет; (v) {A1} {education} {{B1} scientific research} изучать
   724. (  1) 3T *#PT theory [ˈθɪəri] (n) {B1} {scientific research} {opinion and argument} теория
 
+{B2} {scientific research {study}}
+  205. (  1) 5T *#PT classify [ˈklæsɪfaɪ] (v) {B2} {scientific research} классифицировать, засекретить, сортировать по
+  467. (  1) 5T *#PT evaluate [ɪˈvæljʊeɪt] (v) {B2} {opinion and argument} {scientific research} оценивать, иметь значение
+  468. (  1) 4T *#PT evaluation [ɪˌvæljʊˈeɪʃən] (n) {B2} {opinion and argument} {scientific research} оценка, определение качества
+  650. (  1) 5T ?#PT hypothesis [haɪˈpɒθɪsɪs] (n) {B2} {scientific research} гипотеза, {C1} {doubt, guessing and certainty} предположение
+              1T *#  law [lɔː] (n) {A2} {permission and obligation} {law and justice} {politics} закон, {B1} {education} {law and justice} право, {B2} {scientific research} принцип; (adj) юридический, правовой
+  828. (  1) 3T *#PT model [ˈmɑdəl] (n) {A1} {A2} {clothes and fashion} {jobs} модель, образец; (v) {B1} {clothes and fashion} {B2} {scientific research} {clothes and fashion} {C1} {art} моделировать; (adj) образцовый
+  989. (  1) 3T *#PT principle [ˈprɪnsəpl] (n) {B2} {personal qualities} {scientific research} принцип, закон
+
 Sport
 =====
 {sports: ball and racket sports}
@@ -9887,6 +9969,8 @@ Sport
               xx ?#  american+football [əˈmɛrɪkən ˈfʊtbɔːl] (n) {A2} {sports: ball and racket sports} американский футбол
 
 {B1} {sports: ball and racket sports {american football}}
+{B2} {sports: ball and racket sports {american football}}
+  621. (  1) xT ?#PT helmet [ˈhɛlmɪt] (n) {B2} {clothes and fashion} {transport by car or lorry} {sports: ball and racket sports} каска, шлем, шапка
 
 {sports: ball and racket sports {ball sports in general}}
 .........................................................
@@ -9925,6 +10009,25 @@ Sport
               1T *#  save [seɪv] (v) {A2} {computer} сохранять, {A2} {money} экономить, {B2} {B1} {sports: ball and racket sports} спасать; (prep) кроме, за исключением; (conj) кроме; (n) {B1} {sports: ball and racket sports} отбивать нападение
   681. (  1) xT ?#PT stadium [ˈsteɪdiəm] (n) {B1} {buildings} {sports: ball and racket sports} стадион
 
+{B2} {sports: ball and racket sports {ball sports in general}}
+              1T *#  attack [əˈtæk] (n) {A2} {crime and punishment} {war and conflict} {B1} {health problems} атака; (v) {A2} {crime and punishment} {war and conflict} {B2} {sports: ball and racket sports} атаковать
+              yT ?#  attacker [əˈtækə] (n) {B1} {crime and punishment} {B2} {spots: ball and racket sports} атакующий, нападающий
+              1T *#  away [əˈweɪ] (adv) {A1} далеко, {B2} {sports: ball and racket sports} прочь, вон
+  334. (  1) 3T ?#PT defence [dɪˈfɛns] (n) {B2} {war and conflict} {sports: ball and racket sports} {C1} {opinion and argument} {law and justice} защита, оборона, {B2} {law and justice} = the lawyer of lawyers whose job is to prove in court that a person did not commit a crime
+  336. (  1) yT ?#PT defender [dɪˈfɛndə] (n) {B2} {sports: ball and racket sports} защитник
+              1T *#  defense [dɪˈfɛns] (n) {B2} {war and conflict} {sports: ball and racket sports} {C1} {opinion and argument} {law and justice} защита, оборона, {B2} {law and justice} = the lawyer of lawyers whose job is to prove in court that a person did not commit a crime
+              xx ?#  go+out [ɡəʊ aʊt] (phrasal verb) {A1} = to leave your house to go to a social event, выходить в свет, = to be sent, {B2} {tv, radio and news} = when a radio or television programme goes out, it is broadcast, выходить в эфир, {B2} {sports: ball and racket sports} (of something) = to fail to reach the next stage of a competition/etc.
+              1T *#  home [hoʊm] (adv) {A1} дома, домой; (n) {A1} {houses and homes} {A2} {buildings} {family and relationship} дом; (adj) {A2} {B2} {spors: ball and racket sports} домашний; (v) возвращаться домой, жить
+  752. (  1) 3T ?#PT league [liːg] (n) {B2} {sports: ball and racket sports} лига, {B2} {politics} союз; (v) образовать союз
+  956. (  1) 3T ?#PT pitch [pɪʧ] (n) смола, питч, {C1} {language} {music} высота, подача, {B2} {sports: ball and racket sports} поле
+ 1061. (  1) yT ?#PT referee [ˌrɛfəˈriː] (n) {B2} {spors: ball and racket sports} рефери, {C1} {working life} судья; (v) судить
+              yT ?#  replay [ˌriːˈpleɪ] (n) {B2} {spors: ball and racket sports} {C1} {tv, radio and news} переигровка; (v) переигрывать, отвечать
+              1T *#  shoot [ʃuːt] (v) {B1} {war and conflict} {crime and punishment} стрелять, расстрелять, {B2} {film and theatre} снять, застрелить, {B2} {sports: ball and racket sports} отстреливать, I: shoot-shot-shot; (n) {C1} {plants and trees} побег, охота
+ 1177. (  1) 3T *#PT shot [ʃɒt] (n) {B2} выстрел, {B2} {sports: ball and racket sports} {film and theatre} попытка, {C1} {healthcare} глоток спиртного; -1,2ed: (v) {B1} {war and conflict} {crime and punishment} стрелять, расстрелять, {B2} {film and theatre} снять, застрелить, {B2} {sports: ball and racket sports} отстреливать, I: shoot-shot-shot
+ 1250. (  1) 3T ?#PT stroke [stroʊk] (n) {B2} {sports: ball and racket sports} {C1} {health problems} удар, {B2} {success} {C1} {transport by water} ход; (v) {C1} {animals} погладить, поглаживать
+              1T *#  take [teɪk] (v) {A1} принимать, {A2} {education} {B1} {war and conflict} брать, {B2} {opinion and argument} считать, {A1} {transport by bus and train} использовать, {B2} {sports: ball and racket sports} = to kick or throw the ball from a fixed or agreed position, I: take-took-taken
+ 1324. (  1) 5T ?#PT tournament [ˈtʊənəmənt] (n) {B2} {sports: ball and racket sports} турнир, средневековый турнир
+
 {sports: ball and racket sports {baseball}}
 ...........................................
 {A1} {sports: ball and racket sports {baseball}}
@@ -9933,6 +10036,10 @@ Sport
               3T *#  park [pɑːk] (n) {A1} {A2} {sports: ball and racket sports} парк, {C1} {transport by car or lorry} место стоянки автомобилей; (v) {A1} {transport by car or lorry} парковать
 
 {B1} {sports: ball and racket sports {baseball}}
+{B2} {sports: ball and racket sports {baseball}}
+              zT ?#  ballpark [ˈbɔːlpɑːk] (n) {B2} {sports: ball and racket sports} стадион, бейсбольный стадион
+              yT ?#  catcher [ˈkæʧə] (n) {B2} {sports: ball and racket sports} ловец, уловитель
+
 
 {sports: ball and racket sports {basketball}}
 .............................................
@@ -9941,6 +10048,8 @@ Sport
               4T *#  basketball [ˈbɑːskɪtˌbɔːl] (n) {A2} {sports: ball and racket sports} баскетбол
 
 {B1} {sports: ball and racket sports {basketball}}
+{B2} {sports: ball and racket sports {basketball}}
+  120. (  1) 4T *#PT basket [ˈbɑːskɪt] (n) {B2} {shopping} {sports ball and racket sports} корзина
 
 {sports: ball and racket sports {cricket}}
 ..........................................
@@ -9952,6 +10061,10 @@ Sport
 
 {B1} {sports: ball and racket sports {cricket}}
               xx ?#  cricketer [ˈkrɪkɪtə] (n) {B1} {sports: ball and racket sports} игрок в крикет
+
+{B2} {sports: ball and racket sports {cricket}}
+  121. (  1) 4T *#PT bat [bæt] (n) {C1} {animals} летучая мышь, {B2} {sports: ball and racket sports} бита, ракетка, удар; (v) {C1} бить палкой
+              xT *#  pad [pæd] (n) {C1} блокнот, подушка, {B2} {sports: ball and racket sports} подкладка, мягкая прокладка; (v) дополнять, заполнять
 
 {sports: ball and racket sports {football}}
 ...........................................
@@ -9970,6 +10083,9 @@ Sport
               xx ?#  footballer [ˈfʊtbɔːlə] (n) {B1} {sports: ball and racket sports} футболист
               xx ?#  footballing [ˈfʊtbɔːlɪŋ] (n) {B1} {sports: ball and racket sports} футбол
 
+{B2} {sports: ball and racket sports {football}}
+              3T *#  corner [ˈkɔːnə] (n) {A2} {houses and homes} {B2} {sports: ball and racket sports} угол, уголок, {A2} {transport by car or lorry} край; (adj) угольный; (v) загонять в угол
+
 {sports: ball and racket sports {golf}}
 .......................................
 {A1} {sports: ball and racket sports {golf}}
@@ -9981,6 +10097,9 @@ Sport
               zT ?#  golfer [ˈgɒlfə] (n) {B1} {sports: ball and racket sports} игрок в гольф
               3T *#  hole [həʊl] (n) {A2} {B1} {sports: ball and racket sports} отверстие, дыра; (v) просверлить
 
+{B2} {sports: ball and racket sports {golf}}
+              4T ?#  trolley [ˈtrɒli] (n) {B2} {shopping} {sports: ball and racket sports} тележка, вагонетка, троллей, трамвай, дрезина
+
 {sports: ball and racket sports {ohter ball sports}}
 ....................................................
 {A1} {sports: ball and racket sports {ohter ball sports}}
@@ -9991,6 +10110,9 @@ Sport
               4T ?#  volleyball [ˈvɒlɪˌbɔːl] (n) {A2} {sports: ball and racket sports} волейбол
 
 {B1} {sports: ball and racket sports {ohter ball sports}}
+{B2} {sports: ball and racket sports {ohter ball sports}}
+              xx ?#  ping-pong [ˈpɪŋpɒŋ] (n) {B2} {sports: ball and racket sports} {games and toys} настольный теннис, пинг-понг
+              5T ?#  squash [skwɒʃ] (n) тыква, кабачок, патиссон, толкучка, {C2} {drink} пюре, {B2} {sports: ball and racket sports} сквош; (v) давить
 
 {sports: ball and racket sports {rugby}}
 ........................................
@@ -10000,6 +10122,8 @@ Sport
 
 {B1} {sports: ball and racket sports {rugby}}
               xT ?#  rugby [ˈrʌɡbi] (n) {B1} {sports: ball and racket sports} регби
+
+{B2} {sports: ball and racket sports {rugby}}
 
 {sports: ball and racket sports {tennis}}
 .........................................
@@ -10014,6 +10138,10 @@ Sport
   165. (  1) 3T *#PT court [kɔːt] (n) {B1} {sports: ball and racket sports} корт, {B1} {law and justice} {buildings} суд, двор; (v) {C2} {family and relationships} ухаживать
               zT ?#  racket [ˈrækɪt] (n) {B1} {sports: ball and racket sports} ракетка, рэкет, вымогательство
               xx ?#  tennis+racket [ˈtɛnɪs ˈrækɪt] (n) {B1} {sports: ball and racket sports} теннисная ракетка
+
+{B2} {sports: ball and racket sports {tennis}}
+              zT ?#  racquet [ˈrækɪt] (n) {B2} {sports: ball and racket sports} ракетка
+              3T *#  string [strɪŋ] (n) {A1} строка, {B2} {sports: ball and racket sports} {C1} {music} струна, ряд, {B1} нитка, веревка; (adj) {C1} {music} струнный
 
 {sports: other sports}
 ----------------------
@@ -10033,6 +10161,10 @@ Sport
               3T *#  track [træk] (n) {A2} {transport by bus and train} {B1} {sports: other sports} {transport by car or lorry} {hobbies} {B2} {music} трек, след, дорожка, трасса; (v) {B2} следить
               xx ?#  water+jump [ˈwɔːtə ʤ ʌmp] (n) {B1} {sports: other sports} прыжок в воду
 
+{B2} {sports: other sports {athletics}}
+  792. (  1) xT *#PT marathon [ˈmərəθən] (n) {B2} {sports: other sports} марафон
+  920. (  2) 3T ?#PT pace [peɪs] (n) {B2} {sports: other sports} темп, скорость, {C1} {maths and measurement} шаг, походка; (v) {B2} {C1} {sports: other sports} расхаживать, шагать; (prep) {C2} {opinion and argument} = used before a person's name to polite disagree with what they have said
+
 {sports: other sports {combat sports}}
 ......................................
 {A1} {sports: other sports {combat sports}}
@@ -10041,6 +10173,13 @@ Sport
 
 {B1} {sports: other sports {combat sports}}
               yT ?#  karate [kəˈrɑːti] (n) {B1} {sports: other sports} каратэ
+
+{B2} {sports: other sports {combat sports}}
+              1T *#  box [bɒks] (n) {A1} коробка, ящик, бокс; (v) {B2} {sports: other sports} боксировать
+              4T ?#  boxer [ˈbɒksə] (n) {B2} {sports: other sports} {C2} {animals} боксер
+              4T ?#  boxing [bɒksɪŋ] {B2} {sports: other sports} -ing: (v) {B2} {sports: other sports} боксировать
+  632. (  1) 3T *#PT hold [həʊld] (v) {A2} {B1} {working life} {B2} {success} {crime and punishment} {phone, email and the internet} держать, занимать, удерживать, {B2} {opinion and argument} считать; I: hold-held-held; (n) владение, {B2} {sports: other sports} захват, удерживание, {C1} {transport by water} {transport by air} трюм
+              zT ?#  judo [ˈdʒuːdəʊ] (n) {B2} {sports: other sports} дзюдо
 
 {sports: other sports {cycling}}
 ................................
@@ -10060,6 +10199,11 @@ Sport
               3T ?#  tire [ˈtaɪə] (v) {C2} {feelings} утомлять, надоедать; (n) {B1} {transport by car or lorry} {sports: other sports} шина, бандаж, покрышка
               3T ?#  tyre [ˈtaɪə] (v) утомлять, уставать; (n) {B1} {transport by car or lorry} {sports: other sports} шина, покрышка
 
+{B2} {sports: other sports {cycling}}
+              yT ?#  biker [ˈbaɪkə] (n) {B2} {sports: other sports} {C1} {transport by car or lorry} байкер
+              yT ?#  biking [baɪkɪŋ] -ing: (v) {B1} {sports: other sports} {transport by car or lorry} ездить на велосипеде; (n) {B2} {sports: other sports} езда на велосипеде/мотоцикле
+
+
 {sports: other sports {equine sports}}
 ......................................
 {A1} {sports: other sports {equine sports}}
@@ -10078,12 +10222,18 @@ Sport
               3T *#  rider [ˈraɪdə] (n) {B1} {sports: other sports} всадник, наездник, {B1} {transport by car or lorry} ездок
               3T *#  riding [raɪdɪŋ] -ing: (v) {A1} {sports: other sports} {transport by car or lorry} ездить, ехать, кататься, I: ride-rode-ridden; (adj) для верховой езды, верховой; (n) {B1} {hobbies} {sports: other sports} верховая езда
 
+{B2} {sports: other sports {equine sports}}
+  881. (  1) 5T ?#PT obstacle [ˈɒbstəkl] (n) {B2} {difficulty and failure} препятствие, {C1} помеха, {B2} {sports: other sports} препона
+
 {sports: other sports {extreme sports}}
 .......................................
 {A1} {sports: other sports {extreme sports}}
 {A2} {sports: other sports {extreme sports}}
 {B1} {sports: other sports {extreme sports}}
               xx ?#  extreme+sport [ɪkˈstriːm spɔːt] (n) {B1} {sports: other sports} экстремальный вид спорта
+
+{B2} {sports: other sports {extreme sports}}
+              5T ?#  parachute [ˈpɛrəˌʃut] (n) {B2} {sports: other sports} парашют; (adj) парашютный; (v) {B2} {sports: other sports} парашютировать
 
 {sports: other sports {other sports}}
 .....................................
@@ -10103,11 +10253,18 @@ Sport
               xx ?#  rock+climbing [rɒk ˈklaɪmɪŋ] (n) {B1} {sports: other sports} скалолазание
               yT ?#  skateboarding [ˈskeɪtbɔːdɪŋ] -ing: (v) = ride on a skateboard; (n) {B1} {hobbies} {sports: other sports} = sport or activity of riding horses
 
+{B2} {sports: other sports {other sports}}
+              zT ?#  aerobics [eəˈrəʊbɪks] (n) {B2} {sports: other sports} {health and fitness} аэробика, ритмическая гимнастика
+   81. (  1) 3T *#PT arrow [ˈærəʊ] (n) {B2} {history} {sports: other sports} {war and conflict} стрела, стрелка-указатель; (v) пронзать
+              4T ?#  bowling [bəʊlɪŋ] -ing: (v) метать мяч, катиться; (n) {B2} {games and toys} {sports: other sports} боулинг, {C1} {sports: ball and racket sports} игра в кегли
+              3T *#  hunting [hʌntɪŋ] -ing: (v) {B1} {sports: other sports} охотиться; (n) {B2} {sports: other sports} охота, {B2} травля; (adj) охотничий
+
 {sports: other sports {pool and snooker}}
 .........................................
 {A1} {sports: other sports {pool and snooker}}
 {A2} {sports: other sports {pool and snooker}}
 {B1} {sports: other sports {pool and snooker}}
+{B2} {sports: other sports {pool and snooker}}
 
 {sports: other sports {sports in general}}
 ..........................................
@@ -10146,6 +10303,17 @@ Sport
               xx ?#  sportswoman [ˈspɔːtsˌwʊmən] (n) {B1} {sports: other sports} {jobs} спортсменка
               4T ?#  trainer [ˈtreɪnə] (n) {A2} {clothes and fashion} кроссовки, {B1} {sports: other sports} тренер, тренажер, дрессировщик, инструктор
 
+{B2} {sports: other sports {sports in general}}
+  187. (  1) 5T ?#PT championship [ˈʧæmpiənʃɪp] (n) {B2} {sports: other sports} чемпионат, первенство, звание чемпиона
+  333. (  2) 3T ?#PT defeat [dɪˈfiːt] (n) {B2} {difficulty and failure} {war and conflict} {sports: other sports} поражение, крушение; (v) {B2} {war and conflict} {sports: other sports} побеждать, {B2} {difficulty and failure} уничтожать
+  736. (  1) 3T *#PT junior [ˈʤ uːnjə] (adj) {B2} {jobs} {sports: other sports} {C1} {education} {family and relationships} младший, юношеский; (n) {C1} {education} младший, юниор
+  809. (  1) xT *#PT medal [ˈmɛdl] (n) {B2} {war and conflict} {sports: other sports} медаль, орден; (v) {C1} {sports: other sports} = to win a medal in a competition
+              yT ?#  scoreboard [ˈskɔːbɔːd] (n) {B2} {sports: other sports} {games and toys} табло
+ 1149. (  1) 3T *#PT senior [ˈsiːnjə] (adj) {B2} {people in society} {jobs} {sports: other sports} {life stages} {family and relationships} {education} старший, выпускной, последний; (n) {C1} {sport: other sports} {education} старшеклассник, {C1} {life stages} пожилой человек
+              3T *#  silver [ˈsɪlvə] (n)(u)(c) {A2} {physics and chemistry} {colours and shapes} {clothes and fashion} {B2} {sports: other sports} серебро; (adj) {A2} {colours and shapes} серебряный, серебристый; (v) серебриться
+ 1207. (  1) 5T ?#PT spectator [spɛkˈteɪtə] (n) {B2} {sports: other sports} зритель, наблюдатель, очевидец
+ 1385. (  1) 3T *#PT victory [ˈvɪktəri] (n) {B2} {success} {war and conflict} {sports: other sports} победа
+
 {sports: other sports {winter sports}}
 ......................................
 {A1} {sports: other sports {winter sports}}
@@ -10165,6 +10333,10 @@ Sport
               zT ?#  skier [ˈskiːə] (n) {B1} {sports: other sports} лыжник
               yT ?#  snowboarding [ˈsnəʊˌbɔːdɪŋ] -ing: (v) кататься на сноуборде; (n) {B1} {sports: other sports} сноубординг
 
+{B2} {sports: other sports {winter sports}}
+ 1193. (  2) 3T ?#PT slope [sləʊp] (n) {B2} наклон, {B2} {sports: other sports} {geography} склон, уклон; (v) {B2} клониться
+              xT ?#  snowboard [ˈsnəʊˌbɔːd] (n) {B2} {sports: other sports} сноуборд; (v) кататься на сноуборде
+
 {sports: water sports}
 ----------------------
 {sports: water sports {boating}}
@@ -10180,6 +10352,17 @@ Sport
   626. (  1) 3T *#PT sail [seɪl] (n) {B1} {sports: other sports} {transport by water} паруса, плавание; (v) {A2} {sports: other sports} {transport by water} плыть, плавать
   627. (  1) 3T *#PT sailor [ˈseɪlə] (n) {B1} {war and conflict} {transport by water} {jobs} {sports: water sports} моряк, матрос; (adj) матросский
 
+{B2} {sports: water sports {boating}}
+              xT ?#  boating [ˈbəʊtɪŋ] (n) {B2} {transport by water} {sports: water sports} катание на лодке, гребля, лодочный спорт
+              4T ?#  canoe [kəˈnuː] (n) {B2} {transport by water} {sports: water sports} каноэ, челнок, байдарка; (v) {B2} {transport by water} плыть в челноке/на байдарке
+              yT ?#  canoeing [kəˈnuːɪŋ] -ing: (v) {B2} {transport by water} плыть в челноке/на байдарке; (n) {B2} {sports: water sports} гребля на каноэ, гребля
+              5T ?#  raft [rɑːft] (n) {B2} {transport by water} плот, множество, {B2} {transport by water} {sports: water sports} = a small boat made of rubber or plastic that is filled with air, рафт; (v) сплавлять, составлять плот, гнать плот
+              yT ?#  rafting [rɑːftɪŋ] -ing: (v) сплавлять, составлять плот, гнать плот; (n) {B2} {sports: water sports} рафтинг, лесосплав
+              3T *#  row [roʊ] (n) {B1} ряд, ссора; (v) {B2} {sports: water sports} {transport by water} грести
+              xx ?#  rowboat [ˈrəʊbəʊt] (n) {B2} {sports: water sports} {transport by water} гребная шлюпка; (v) переплыть на лодке
+              yT ?#  rowing [roʊɪŋ] -ing: (v) {B2} {sports: water sports} {transport by water} грести; (n) {B2} {transport by water} {sports: water sports} гребля, выговор, нагоняй
+              xT ?#  yacht [jɒt] (n) {B2} {sports: water sports} {transport by water} яхта; (adj) яхтенный; (v) ходить на яхте
+
 {sports: water sports {diving}}
 ...............................
 {A1} {sports: water sports {diving}}
@@ -10191,6 +10374,10 @@ Sport
               xx ?#  deep-water [diːp-ˈwɔːtə] (adj) {B1} {sports: water sports} глубоководный
               5T ?#  diver [ˈdaɪvə] (n) {B1} {sports: water sports} {jobs} водолаз, ныряльщик
               xx ?#  diving+board [ˈdaɪvɪŋ bɔːd] (n) {B1} {sports: water sports} трамплин для прыжков в воду
+
+{B2} {sports: water sports {diving}}
+  393. (  2) 5T ?#PT dive [daɪv] (n) {B2} {sports: water sports} {transport by air} погружение, пикирование; (v) {B2} {sports: water sports} {hobbies} {transport by air} {birds} нырять, {C1} {sports: ball and racket sports} {money} погружаться
+ 1284. (  1) 3T *#PT tank [tæŋk] (n) {B2} {the environment} {transport by car or lorry} {sports: water sports} бак, резервуар, {B2} {war and conflict} танк, {B2} цистерна; (adj) танковый
 
 {sports: water sports {swimming}}
 {A1} {sports: water sports {swimming}}
@@ -10208,6 +10395,8 @@ Sport
               yT ?#  swimsuit [ˈswɪmsuːt] (n) {B1} {clothes and fashion} {sports: water sports} купальник
               zT ?#  trunks [trʌŋks] -es: (n) {C1} {plants and trees} ствол, {C2} {transport by car or lorry} багажник, {C1} {animals} {C2} {body} туловище; (adj) магистральны; (n) {B1} {clothes and fashion} {sports: water sports} плавки
 
+{B2} {sports: water sports {swimming}}
+
 {sports: water sports {water sports}}
 .....................................
 {A1} {sports: water sports {water sports}}
@@ -10219,6 +10408,8 @@ Sport
               xx ?#  surfboard [ˈsɜːfˌbɔːd] (n) {B1} {sports: water sports} доска для серфинга
               yT ?#  surfer [ˈsɜːfə] (n) {B1} {sports: water sports} {B2} {phones, email and the internet} серфер
               xT ?#  surfing [sɜːfɪŋ] -ing: (v) {B1} {sports: water sports} {phones, email and the internet} заниматься серфингом, = to use the internet; (n) {B1} {sports: water sports} {B2} {phones, email and the internet} {tv, radio and news} серфинг
+
+{B2} {sports: water sports {water sports}}
 
 The natural world
 =================
@@ -10234,6 +10425,10 @@ The natural world
 {B1} {farming {animal farming}}
               xx ?#  fish+farm [fɪʃ fɑːm] (n) {B1} {farming} рыбная ферма, рыбоводческое хозяйство
 
+{B2} {farming {animal farming}}
+              1T *#  keep [kiːp] (v) {A1} {B2} {farming} держать, сохранять, I: keep-kept-kept
+              3T *#  milk [mɪlk] (n) {A1} {drinks} молоко, латекс; (v) {B2} {farming} доить; (adj) молочный
+
 {farming {farm people}}
 .......................
 {A1} {farming {farm people}}
@@ -10242,7 +10437,11 @@ The natural world
 {A2} {farming {farm people}}
 {B1} {farming {farm people}}
   550. (  1) 3T *#PT producer [prəˈdjuːsə] (n) {B1} {farming} производитель, {B1} {film and theatre} {jobs} {tv, radio and news} продюсер, режиссер
-  
+
+{B2} {farming {farm people}}
+              5T *#  cowboy [ˈkaʊbɔɪ] (n) {B2} {job} {farming} ковбой, пастух
+              yT *#  vet [vɛt] (n) {B2} {job} {farming} ветеринар, ветеран; (v) проверять, исследовать
+
 {farming {growing crops}}
 .........................
 {A1} {farming {growing crops}}
@@ -10266,6 +10465,19 @@ The natural world
   670. (  1) 3T ?#PT soil [sɔɪl] (n) {B1} {farming} {gardens} почва, грунт, земля
   785. (  1) 3T *#PT water [ˈwɔːtə] (n) {A1} {drink} {transport by water} воды, вода; (v) {B1} {farming} {gardens} поливать, напоить, мочить
 
+{B2} {farming {growing crops}}
+   44. (  1) 5T *#PT agriculture [ˈægrɪkʌlʧə] (n) {B2} {farming} земледелие
+              yT ?#  cereal [ˈsɪərɪəl] (n) {B2} {farming} {food} хлебный злак, каша
+  304. (  1) 3T ?#PT crop [krɒp] (n) {B2} {farming} урожай, культура; (v) обрезать, подстригать
+              xx ?#  genetically+modified [dʒəˌnetɪkli ˈmɒdɪfaɪd] (adj) {B2} {biology} {farming} генетически модифицированный (GM)
+              3T *#  gm [ˌdʒiː ˈem] (abbr) gramm, {B2} {biology} {farming} Genetically Modified
+  605. (  1) xT ?#PT greenhouse [ˈgriːnhaʊs] (n) {B2} {buildings} {gardens} {farmings} теплица
+  904. (  1) 5T ?#PT organic [ɔːˈgænɪk] (adj) {B2} {farming} {cooking and eating} (of food/farming methods/etc.) = produced or practised without using artificial chemicals, органический, {C1} {biology} = produced by or from living things
+              5T ?#  pesticide [ˈpɛstɪsaɪd] (n) {B2} {farming} пестицид, ядохимикаты
+              1T *#  produce [ˈprɒdjuːs->(n)/prəˈdjuːs->(v)] (v) {A2} {farming} {B1} {change, cause and effect} производить, {A2} {B2} {music} {film and theatre} создавать; (n) {B2} {farming} продукция, продукт
+              4T *#  straw [strɔː] (n) {B2} {farming} солома; (adj) соломенный
+ 1408. (  1) 4T *#PT wheat [wiːt] (n) {B2} {farming} {food} пшеница
+
 {farming {on the farm}}
 .......................
 {A1} {farming {on the farm}}
@@ -10278,6 +10490,9 @@ The natural world
               xx ?#  city+farm [ˈsɪti fɑːm] (n) {B1} {farming} городская ферма
   281. (  1) 3T ?#PT fence [fɛns] (n) {B1} {gardens} {farming} забор, ограда, ограждение; (v) {C2} {sports: other sports} фехтовать, ограждать
               5T ?#  ranch [rɑːnʧ] (n) {B1} {farming} ранчо, ферма, одноэтажный дом
+
+{B2} {farming {on the farm}}
+              xx ?#  cornfield [ˈkɔːnfiːld] (n) {B2} {farming} нива, кукурузное поле, поле
 
 {geography}
 -----------
@@ -10297,6 +10512,15 @@ The natural world
   524. (  1) 3T *#PT port [pɔːt] (n) {B1} {transport by water} {geography} {C2} {computer} порт, отверстие, проход; (v) держать в строевой стойке, класть руля налево, = to copy software from one system or machine to another
               4T ?#  seaside [ˈsiːsaɪd] (adj) {B1} {geography} {holidays} приморский; (n) {B1} {geography} {holidays} морское побережье
 
+{B2} {geography {coastlines and the sea}}
+  207. (  1) 4T ?#PT cliff [klɪf] (n) {B2} {geography} утес, отвесная скала
+              yT ?#  dune [djuːn] (n) {B2} {geography} = a small hill of sand formed by the wind near the sea or in a desert, дюна
+              5T ?#  reef [riːf] (n) {B2} {geography} риф, подводная скала; (v) брать рифы
+              yT ?#  saltwater [ˈsɔːltˌwɔːtə] (adj) {B2} {fish and shellfish} {geography} соленая вода, морской
+              5T ?#  seabed [ˈsiːbɛd] (n) {B2} {geography} морское дно
+              5T ?#  seashore [ˈsiːʃɔː] (n) {B2} {geography} морское побережье
+ 1173. (  1) 4T *#PT shore [ʃɔː] (n) {B2} {geography} берег моря
+
 {geography {countries and continents}}
 ......................................
 {A1} {geography {countries and continents}}
@@ -10313,6 +10537,8 @@ The natural world
 
 {B1} {geography {countries and continents}}
               xT ?#  antarctica [ˌænˈtɑːktɪkə] (n) {B1} {geography} Антарктида
+
+{B2} {geography {countries and continents}}
 
 {geography {describing geographic regions}}
 ...........................................
@@ -10346,6 +10572,17 @@ The natural world
               xx ?#  south-western [ˈsaʊθˈwɛstən] (adj) {B1} {geography} юго-западный
   789. (  1) 3T *#PT western [ˈwɛstən] (adj) {B1} {geography} западный, ковбойский; (n) {B1} {film and theatre} вестерн
 
+{B2} {geography {describing geographic regions}}
+              5T ?#  erosion [ɪˈrəʊʒən] (n) {B2} {geography} эрозия, размывание, разрушение, размыв
+              4T ?#  highland [ˈhaɪlənd] (n) {B2} {geography} нагорье, горная местность; (adj) {B2} {geography} горный
+  791. (  1) 3T *#PT map [mæp] (n) {A1} {geography} карта; (v) {B2} {geography} наносить на карту
+              4T ?#  mountainous [ˈmaʊntɪnəs] (adj) {B2} {geography} гористый
+ 1120. (  1) 3T ?#PT rural [ˈrʊərəl] (adj) {B2} {geography} {buildings} сельский
+              5T *#  sandy [ˈsændi] (adj) {B2} {holidays} {geography} песчаный, песочный
+ 1345. (  1) 3T *#PT tropical [ˈtrɒpɪkəl] (adj) {B2} {geography} тропический
+ 1371. (  1) 3T ?#PT urban [ˈɜːbən] (adj) {B2} {geography} {buildings} городской
+              5T ?#  volcanic [vɒlˈkænɪk] (adj) {B2} {the environment} {geography} вулканический
+
 {geography {mountains and valleys}}
 ...................................
 {A1} {geography {mountains and valleys}}
@@ -10358,6 +10595,21 @@ The natural world
 
 {B1} {geography {mountains and valleys}}
               5T ?#  volcano [vɒlˈkeɪnəʊ] (n) {B1} {geography} {the environment} вулкан
+
+{B2} {geography {mountains and valleys}}
+              5T ?#  avalanche [ˈæv(ə)lɑːnʧ] (n) {B2} {weather} {the environment} {geography} лавина, обвал
+              5T ?#  canyon [ˈkænjən] (n) {B2} {geography} каньон, ущелье
+  178. (  1) 4T *#PT cave [keɪv] ((n) {B2} {geography} пещера
+  545. (  1) 5T *#PT formation [fɔːˈmeɪʃən] (n) {B2} {geography} образование, формирование, создание, формация
+              xT *#  geology [ʤ ɪˈɒləʤ i] (n) {B2} {education} {scientific research} {geography} геология
+              5T ?#  glacier [ˈglæsiə] (n) {B2} {geography} ледник
+              4T ?#  highland [ˈhaɪlənd] (n) {B2} {geography} нагорье, горная местность; (adj) {B2} {geography} горный
+              4T ?#  hillside [ˈhɪlˌsaɪd] (n) {B2} {geography} склон холма, склон горы
+              zT ?#  hilltop [ˈhɪltɒp] (n) {B2} {geography} вершина холма
+  843. (  1) 3T *#PT mount [maʊnt] (v) {B2} монтировать, {B2} {change, cause and effect} устанавливать; (n) {B2} {geography} гора
+              xx ?#  mountaintop [ˈmaʊntəntɒp] (n) {B2} {geography} горная вершина; (adj) {B2} {geography} = at the top of a mountain
+ 1193. (  2) 3T ?#PT slope [sləʊp] (n) {B2} наклон, {B2} {sports: other sports} {geography} склон, уклон; (v) {B2} клониться
+ 1238. (  1) 3T ?#PT steep [stip] (adj) {B2} {geography} крутой, {B2} отвесный
 
 {geography {other geographic features}}
 .......................................
@@ -10386,6 +10638,16 @@ The natural world
               5T ?#  scenery [ˈsiːnəri] (n) {B1} {film and theatre} декорации, пейзаж, {B1} {geography} краевид
               yT ?#  woodland [ˈwʊdlənd] (n) {B1} {geography} лесистая местность
 
+{B2} {geography {other geographic features}}
+              1T *#  bed [bɛd] (n) {A1} {houses and homes} кровать, {B2} {geography} дно
+  391. (  1) 3T *#PT district [ˈdɪstrɪkt] (n) {B2} {geography} {buildings} район, округ; (adj) районный
+              zT ?#  equator [ɪˈkweɪtə] (n) {B2} {geography} экватор
+              5T ?#  hemisphere [ˈhɛmɪsfɪə] (n) {B2} {geography} {C2} {body} полушарие, {C2} {colours and shapes} гемисфера, сфера
+  744. (  1) 3T *#PT landscape [ˈlænskeɪp] (n) {B2} {geography} {C1} {art} пейзаж, {C2} {computers} ландшафт; (adj) ландшафтный, пейзажный, горизонтальный
+              yT ?#  outback [ˈaʊtbæk] (n)  {B2} {geography} глубинка, малонаселенный район
+ 1259. (  1) 5T ?#PT suburb [ˈsʌbərb] (n) {B2} {geography} {buildings} предместья, пригород, окрестности
+ 1437. (  1) 3T *#PT zone [zəʊn] (n) {B2} {geography} зона, пояс; (v) разделять на зоны
+
 {geography {rivers and lakes}}
 ..............................
 {A1} {geography {rivers and lakes}}
@@ -10399,6 +10661,21 @@ The natural world
 {B1} {geography {rivers and lakes}}
   444. (  1) 3T ?#PT mud [mʌd] (n) {B1} {geography} грязь, ил
               4T *#  waterfall [wɔːtəfɔːl] (n) {B1} {geography} водопад
+
+{B2} {geography {rivers and lakes}}
+  167. (  1) xT ?#PT canal [kəˈnæl] (n) {B2} {holidays} {transport by water} {geography} {C2} {body} канал
+              3T *#  channel [ˈʧænl] (n) {B1} {tv, radio and news} {B2} {transport by water} {geography} {C1} {computers} {feelings} {geography} канал
+              1T *#  course [kɔːs] (n) {A1} {education} {B2} {healthcare} курс, {B2} {geography} направление, {B1} {sports: ball and racket sports} пласт, {B1} {cooking and eating} блюдо; (adj) курсовой; (v) течь
+  311. (  1) 3T *#PT current [ˈkʌrənt] (n) {B2} {transport by water} {geography} {engineering} ток, поток, течение; (adv) {B1} текущий, теперешний
+              yT ?#  freshwater [ˈfrɛʃˌwɔːtə] (adj) {B2} {fish and shellfish} {geography} пресноводный
+              yT ?#  lakeside [ˈleɪkˌsaɪd] (n) {B2} {geography} на берегу озера, приозерный
+              yT ?#  loch [lɒx/lɒk] (n) {B2} {geography} озеро, узкий морской залив
+              1T *#  mouth [maʊθ] (n) {A1} {body} рот, {B2} {geography} устье реки
+              xT ?#  riverside [ˈrɪvəsaɪd] (n) {B2} {geography} берег реки, прибрежный
+              1T *#  source [sɔːs] (n) {A2} {B1} {tv, radio and news} {B2} {geography} источник; (v) = obtain from a particular source
+ 1225. (  1) 3T ?#PT spring [sprɪŋ] (n) {A1} {time} весна, пружина, {B2} {geography} источник, родник; (v) {B2} возникать: I: spring-sprang-sprung
+ 1244. (  1) 3T *#PT stream [strim] (n) {B2} {geography} поток, течь, ручей; (v) вытекать
+              zT ?#  waterway [ˈwɔːtəweɪ] (n) {B2} {geography} водный путь, фарватер
 
 {plants and trees}
 ------------------
@@ -10418,6 +10695,16 @@ The natural world
               4T ?#  mint [mɪnt] (n) {B1} {plants and trees} {food} мята, монетный двор; (adj) мятный; (v) чеканить
   636. (  1) 3T *#PT seed [siːd] (n) {B1} {farming} {gardens} {plants and trees} семена, зерно, потомство; (v) сеять, засевать
 
+{B2} {plants and trees {plants}}
+  160. (  1) 3T *#PT bunch [bʌnʧ] (n) {B2} {plants and trees} пучок, гроздь, связка, группа; (v) сбиваться в кучу
+  162. (  1) 3T *#PT bush [bʊʃ] (n) {B2} {plants and trees} куст, втулкa, гильза; (v) густо разрастаться
+              3T *#  flower [ˈflaʊə] (n) {A1} {plants and trees} цветок; (v) {B2} {plants and trees} {C2} {success} цвести
+  923. (  1) xT ?#PT palm [pɑːm] (n) {B2} {body} ладонь, {B2} {plants and trees} пальма; (v) гладить, трогать ладонью
+              5T ?#  pollen [ˈpɒlɪn] (n) {B2} {plants and trees} пыльца
+ 1112. (  1) 3T *#PT root [ruːt] (n) {B2} {plants and trees} {food} {body} корень, {B2} {change, cause and effect} причина, источник; (adj) коренной, основной; (v) укореняться, пускать корни
+ 1113. (  1) 4T *#PT rose [rəʊz] (n) {B2} {plants and trees} роза; (adj) {C1} {colours and shapes} розовый; -1ed: (v) {A2} {change, cause and effect} {money} {space} {B2} {success} подниматься, повышаться, I: rise-rose-risen
+              5T ?#  sunflower [ˈsʌnˌflaʊə] (n) {B2} {plants and trees} {farming} подсолнечник, подсолнух
+
 {plants and trees {trees}}
 ..........................
 {A1} {plants and trees {trees}}
@@ -10427,6 +10714,10 @@ The natural world
 {B1} {plants and trees {trees}}
    81. (  1) 3T *#PT branch [brɑːnʧ] (n) {B1} {plants and trees} ветка, филиал, отрасль, {C1} {transport by bus and train} {geography} {family and relationships} ответвление; (v) {C1} {geography} разветвляться, расширяться
               3T *#  ring [rɪŋ] (n) {A2} {clothes and fashion} {life stage} кольцо, {C1} {sports: other sports} ринг, {B1} {plants and tree} круг, {B1} звон; (v) {A2} {phones, email and the internet} звонить, звенеть, звучать, I: ring-rang-rung
+
+{B2} {plants and trees {trees}}
+              4T *#  cherry [ˈʧɛri] (n) {B2} {food} {plants and trees} вишня, черешня; (adj) {C2} {colours and shapes} вишневый
+              4T *#  olive [ˈɒlɪv] (adj) {C1} {colours and shapes} оливковый; (n) {B1} {food} {B2} {plants and trees} {C1} {colours and shapes} оливки, оливка, маслина
 
 {the environment}
 -----------------
@@ -10441,6 +10732,9 @@ The natural world
               xx ?#  climate+emergency [ˈklaɪmət ɪˈmɜːʤ (ə)nsi] (n) {B1} {the environment} чрезвычайная ситуация с климатом
               xx ?#  global+heating [ˈɡləʊb(ə)l ˈhiːtɪŋ] (n) {B1} {the environment} глобальное потепление
               xx ?#  global+warming [ˈɡləʊb(ə)l ˈwɔːmɪŋ] (n) {B1} {the environment} глобальное потепление
+
+{B2} {the environment {climate change}}
+              4T ?#  carbon [ˈkɑːbən] (n) {B2} {physics and chemistry} углерод, {B2} {the environment} уголь, графит; (adj) угольный
 
 {the environment {conservation}}
 ................................
@@ -10458,6 +10752,16 @@ The natural world
               xx ?#  national+park [ˈnæʃ(ə)n(ə)l pɑːk] (n) {B1} {hobbies} {environment} национальный парк, заповедник
   606. (  1) 3T *#PT resource [rɪˈsɔːs] (n) {B1} {the environment} ресурс, средство, возможность
 
+{B1} {the environment {conservation}}
+  250. (  1) 5T *#PT conservation [ˌkɒnsə(ː)ˈveɪʃən] (n) {B2} {the environment} {C1] {buildings} сохранение, консервирование
+  395. (  1) 5T ?#PT diversity [daɪˈvɜːsɪti] (n) {B2} {people in society} {the environment} разнообразие, многообразие, {B2} разнородность
+              xT ?#  ecology [ɪˈkɒləʤ i] (n) {B2} {the environment} экология
+              5T *#  ecosystem [ˈiːkəʊˌsɪstəm] (n) {B2} {the environment} экосистема
+  609. (  1) 5T ?#PT habitat [ˈhæbɪtæt] (n) {B2} {the environment} {animals} среда обитания
+ 1014. (  1) 3T *#PT protection [prəˈtɛkʃən] (n) {B2} {the environment} защита, {B2} охрана
+ 1085. (  2) 3T *#PT reserve [rɪˈzɜːv] (n) {B2} {money} резерв, {B2} {the environment} {hobbies} заповедник, запас, {C1} {opinion and argument} сдержанность; (v) {B2} {cooking and eating} бронировать, резервировать
+ 1274. (  1) xT ?#PT sustainable [səsˈteɪnəbl] (adj) {B2} {the environment} поддерживаемый, {C1} устойчивый
+
 {the environment {natural disasters}}
 .....................................
 {A1} {the environment {natural disasters}}
@@ -10474,6 +10778,15 @@ The natural world
               5T ?#  tornado [tɔːˈneɪdəʊ] (n) {B1} {the environment} {weather} торнадо, смерч, ураган
               5T ?#  volcano [vɒlˈkeɪnəʊ] (n) {B1} {geography} {the environment} вулкан
               xx ?#  windstorm [ˈwɪndstɔːm] (n) {B1} {the environment} буря, метель
+
+{B2} {the environment {natural disasters}}
+   45. (  2) 3T ?#PT aid [eɪd] (n) {B2} {social issues} помощь, {B2} {the environment} {money} поддержка; (v) {B2} способствовать, помогать
+              5T ?#  avalanche [ˈæv(ə)lɑːnʧ] (n) {B2} {weather} {the environment} {geography} лавина, обвал
+              5T ?#  blizzard [ˈblɪzəd] (n) {B2} {weather} {the environment} метель, пурга, снежная буря
+  413. (  1) 5T ?#PT drought [draʊt] (n) {B2} {weather} {the environment} засуха, сухость
+  459. (  1) 5T ?#PT erupt [ɪˈrʌpt] (v) {B2} {the environment} {C1} извергаться
+              5T ?#  eruption [ɪˈrʌpʃ(ə)n] (n) {B2} {the environment} извержение
+              yT *#  flooding [flʌdɪŋ] -ing: (v) {B1} {weather} {geography} затоплять, заливать; (n) {B2} {the environment} наводнение
 
 {the environment {the power industry}}
 ......................................
