@@ -1,4 +1,113 @@
-Internet Protocol
------------------
+6th Tanenbaum
+Computer networks
+=================
+
+18th century:   industrial revolution
+19th            Steam engine
+20th            information gathering/processing/distribution => Internet
+
+Computer networks = a collection of interconnected, autonomous computing devices.
+
+Client-server model, where a client explicitly requests information from a server
+that hosts that information.
+
+Client machine    --- request -->    Server machine
+ (process)        <-- response --      process
+
+
+peer-to-peer model
+
+Instant messaging
+
+Electronic commerce:
+B2C = business to consumer
+B2B = business to business
+G2C = government to consumer
+P2P = peer to peer
+
+Entertainment
+
+Internet of Things (IoT)
+
+802.11 hotspot
+
+RFID = scan the barcodes
+
+Smartphone => SMS (text messaging, texting).
+
+GPS: geo-tagging
+
+NFC = payment
+
+
+1.2.3
+Content Provider Networks
+-------------------------
+Many Internet services are now served from "the cloud", or data-center network.
+Modern data center networks have hundreds of thousands of millions of servers in
+a single location, usually in a very dense configuration of rows of racks in
+buildings that can be more than a kilometer long.
+
+1.2.4
+Transit Network
+---------------
+ISP
+backbone networks
+
+1.2.5
+Enterprise Networks
+-------------------
+VPN, email, VoIP
+
+1.3 Network technology
+----------------------
+PAN (personal area networks) => Bluetooth
+LAN (local area networks) => AP, wireless router, base station
+
+wireless, copper, coaxial cable, optical fiber.
+IEEE 802.11 - Wi-Fi
+IEEE 802.3    Ethernet
+
+Waves can travel through walls (2.4 GHz, less 5 GHz).
+
+MAN (metropolitan LAN) covers a city.
+IEEE 802.16 WiMAX
+LTE (Long Term Evolution) and 5G
+
+WAN (Wide LAN)
+
+Internetworks
+-------------
+The device that makes a connection between two or more networks and provides the
+necessary translation => gateway.
+
+
+
+The ARPANET
+-----------
+The story begins in the late 1950s.
+At the height of the Cold War, the U.S. DoD wanted a command-and-control network
+that could survive a nuclear war.
+
+Digital packet switching technology.
+
+ARPA = Advanced Research Projects Agency.
+
+TCP/IP, sockets Berkeley UNIX
+
+
+Network protocol
+================
+Central concept in network protocol design is layering.
+
+Reliability = the ability to recover from errors, faults or failures.
+Resource allocation = sharing access to a common, limited resource.
+Evolvability 
+
+
+
+
+
+
 
 
