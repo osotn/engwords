@@ -57,11 +57,13 @@ general
 
 {B1} (phrasal verb)
               xx ?#  go+ahead [ɡəʊ əˈhɛd] (phrasal verb) {B1} вперед, продолжать, идти напролом
-              xx ?#  take+up [teɪk ʌp] (phrasal verb) {B1} браться за, заняться, прерывать
               xx ?#  run+out [rʌn aʊt] (phrasal verb) {B1} {B2} {discussion and agreement} закончиться
+              xx ?#  take+up [teɪk ʌp] (phrasal verb) {B1} браться за, заняться, прерывать
 
 {B2} (phrasal verb)
+              xx ?#  come+across [kʌm əˈkrɔs] (phrasal verb) {B2} наткнуться, повстречаться
               xx ?#  go+off [ɡəʊ ɒf] (phrasal verb) {B2} уходить, {B2} выстрелить, сбежать, портиться
+              xx ?#  go+through [ɡoʊ θru] (phrasal verb) {B2} испытывать, пройти через, подвергаться, обыскивать
 
 (num)
 -----
@@ -530,6 +532,11 @@ general
   971. (  1) 3T *#PT potentially [pəʊˈtɛnʃəli] -ly: (adj) {B2} потенциальный, возможный; (adv) {B2} потенциально, возможно
   977. (  1) 3T *#PT precisely [prɪˈsaɪsli] -ly: (adj)->(adv) {B2} точный, четкий; (v) уточнять; (adv) {B2} {opinion and argument} именно, {B2} точно, в точности, совершенно верно
   986. (  1) 3T *#PT primarily [ˈpraɪmərɪli] -ly: (adj) {B1} {education} первичный, {B2} основной; (adv) {B2} в первую очередь, прежде всего, главным образом, первоначально
+ 1027. (  1) 3T *#PT purely [ˈpjʊəli] -ly: (adj) {B2} чистый; (adv) {B2} чисто, исключительно, полностью
+ 1041. (  1) 3T *#PT rapidly [ˈræpɪdli] -ly: (adj) {B2} быстрый; (adv) {B2} быстро
+ 1049. (  1) 3T *#PT reasonably [ˈriːznəbli] -ly: (adj) {B2} разумный, резонный, обоснованный; (adv) {B2} разумно, достаточно, довольно, умеренно
+ 1071. (  1) 3T *#PT relatively [ˈrɛlətɪvli] -ly: (adj) {B1} {language} относительный, сравнительный; (adv) {B2} относительно, сравнительно, соответственно
+ 1079. (  1) 3T *#PT remarkably [rɪˈmɑːkəbli] -ly: (adj) {B2} замечательный, удивительный, выдающийся; (adv) {B2} удивительно, необыкновенно
  1114. (  1) 3T *#PT roughly [rʌfli] -ly: (adj)->(adv) {B1} грубый, {B2} {buildings} черновой, {B2} приблизительный, бурный; (adv) {B2} грубо, начерно
  1158. (  1) 3T ?#PT severely [sɪˈvɪəli] -ly: (adj)->(adv) {B2} суровый, {B2} {health problems} тяжелый; (adv) {B2} {health problems} сильно, {B2} жестоко 
  1176. (  1) 3T *#PT shortly [ˈʃɔːtli] -ly: (adj) {A1} {appearance} короткий, {B2} {money} = not having enought of something; (adv) {B2} вскоре, незадолго, {B2} коротко
@@ -611,11 +618,6 @@ general
   857. (  2) 3T *#PT walk [(UK)wɔ:k/(US)wɑk/wɔ:k] (v) {A1} {health and fitness} {A2} {animals} ходить, идти, гулять; (n) {A1} ходьба
   864. (  1) 3T *#PT way [weɪ] (n) {A1} способ, путь, {B1} дорога, метод; (adj) {B2} далеко, значительно
   895. (  1) 3T *#PT world [wɜːld] (n) {A1} {B2} {games and toys} мир, кругозор; (adj) мировой, всемирный
- 1027. (  1) 3T *#PT purely [ˈpjʊəli] -ly: (adj) {B2} чистый; (adv) {B2} чисто, исключительно, полностью
- 1041. (  1) 3T *#PT rapidly [ˈræpɪdli] -ly: (adj) {B2} быстрый; (adv) {B2} быстро
- 1049. (  1) 3T *#PT reasonably [ˈriːznəbli] -ly: (adj) {B2} разумный, резонный, обоснованный; (adv) {B2} разумно, достаточно, довольно, умеренно
- 1071. (  1) 3T *#PT relatively [ˈrɛlətɪvli] -ly: (adj) {B1} {language} относительный, сравнительный; (adv) {B2} относительно, сравнительно, соответственно
- 1079. (  1) 3T *#PT remarkably [rɪˈmɑːkəbli] -ly: (adj) {B2} замечательный, удивительный, выдающийся; (adv) {B2} удивительно, необыкновенно
 
 {A2} (n)
     0. (  1) 3T *#PT ability [əˈbɪlɪti] (n) {A2} способность, возможность
@@ -2495,7 +2497,7 @@ Appearance
               4T ?#  lipstick [ˈlɪpstɪk] (n) {B2} {appearance} помада, губная помада
   787. (  1) 3T ?#PT make-up [ˈmeɪkʌp] (n) {B2} {film and theatre} {appearance} макияж, косметика, состав, грим, верстка
               yT ?#  razor [ˈreɪzə] (n) {B2} {appearance} бритва; (v) брить
- 
+
 {appearance {body shape}}
 .........................
 {A1} {appearance {body shape}}
@@ -3383,7 +3385,7 @@ Communication
               yT *#  voicemail [ˈvɔɪsmeɪl] (n) {B1} {phones, email and the internet} голосовая почта
               xx ?#  voice+message [vɔɪs ˈmɛsɪʤ ] (n) {B1} {phones, email and the internet} голосовое сообщение
 
-{B1} {phones, email and the internet {phone services}}
+{B2} {phones, email and the internet {phone services}}
               xx ?#  alarm+call [əˈlɑːm kɔːl] (n) {B2} (phones, email and the internet) звонок будильника
               yT ?#  helpline [ˈhɛlplaɪn] (n) {B2} {suggestions and advice} {phones, email and the internet} горячая линия, телефон доверия
   896. (  1) 4T *#PT operator [ˈɒpəreɪtə] (n) {B2} {jobs} {business} {holidays} {phones, email and the internet} {C2} {maths and measurement} оператор; (adj) рабочий
@@ -4449,6 +4451,27 @@ Culture
               1T *#  season [ˈsiːzn] (n) {A2} {time} время года, {B2} {film and theatre} {clothes and fashion} сезон, {B2} {tv, radio and news} = a set of televisioin or radio programmes that have the same characters or deal with the same subject; (adj) сезонный; (v) {C2} {cooking and eating} приправлять
               xx ?#  sitcom [ˈsɪtkɒm] (n) {B2} {tv, radio and news} = a regular comdedy programme on tv that shows the same characters in different funny situations, ситком
               yT ?#  videotape [ˈvɪdiəʊteɪp] (n) {B2} {tv, radio and news} видеокассета; (v) записывать на видеокассету
+
+{tv, radio and news {the press}}
+{A1} {tv, radio and news {the press}}
+  464. (  1) 3T *#PT magazine [ˌmægəˈziːn] (n) {A1} {literature and writing} {TV, radio and news} журнал, магазин, кассета, склад боеприпасов; (adj) журнальный
+  524. (  1) 3T *#PT newspaper [ˈnjuːzˌpeɪpə] (n) {A1} {tv, radio and news} газета; (adj) газетный
+
+{A2} {tv, radio and news {the press}}
+  167. (  1) 3T *#PT comedy [ˈkɒmɪdi] (n) {A2} {film and theatre} {tv, radio and news} комедия
+  247. (  1) 3T *#PT drama [ˈdrɑːmə] (n) {A2} {film and theatre} {tv, radio and news} {hobbies} {education} драма, драматургия
+  315. (  1) 3T *#PT film [fɪlm] (n) {A1} {film and theatre} {tv, radio and news} фильм, кино, пленка; (adj) кино-; (v) {A2} {film and theatre} {tv, radio and news} экранизировать
+              xx ?#  quiz+show [kwɪz ʃəʊ] (n) {A2} {tv, radio and news} викторина шоу
+              1T *#  series [ˈsɪəriːz] (n) {A2} {tv, radio and news} серия, ряд, цикл
+
+{B1} {tv, radio and news {the press}}
+              xx ?#  evening+paper [ˈiːvnɪŋ ˈpeɪpə] (n) {B1} {the press} вечерняя газета
+              4T ?#  headline [ˈhɛdlaɪn] (n) {B1} {tv, radio and news} заголовок; (v) озаглавливать
+  385. (  1) 5T *#PT journal [ˈʤ ɜːnl] (n) {B1} {literature and writing} {tv, radio and news} {scientific research} журнал, дневник
+  538. (  2) 3T *#PT press [prɛs] (n) {B1} {tv, radio and news} пресс, печать; (v) {B1} {engineering} {C1} {discussion and agreement} {cooking and eating} жать, надавливать
+
+{B2} {tv, radio and news {the press}}
+  421. (  1) 3T *#PT edition [ɪˈdɪʃən] (n) {B2} {literature and writing} {tv, radio and news} издание, выпуск, выпуск, вариант
 
 {tv, radio and news {watching tv/listening to the radio}}
 .........................................................
@@ -6795,12 +6818,12 @@ Leisure
 {A2} {games and toys {ball games}}
               xx ?#  ball+game [bɔːl ɡeɪm] (n) {A2} {games and toys} игра в мяч; {B2} {sports: ball and racket sports} (US) = baseball
               xx ?#  table+tennis [ˈteɪb(ə)lˈtɛnɪs] (n) {A2} {games and toys} {sports: ball and racket sports} настольный теннис
-              xx ?#  ping-pong [ˈpɪŋpɒŋ] (n) {B2} {sports: ball and racket sports} {games and toys} настольный теннис, пинг-понг
 
 {B1} {games and toys {ball games}}
 {B2} {games and toys {ball games}}
               4T ?#  bowling [bəʊlɪŋ] -ing: (v) метать мяч, катиться; (n) {B2} {games and toys} боулинг, игра в кегли
               xx ?#  handball [ˈhændbɔːl] (n) {B2} {games and toys} гандбол, ручной мяч
+              xx ?#  ping-pong [ˈpɪŋpɒŋ] (n) {B2} {sports: ball and racket sports} {games and toys} настольный теннис, пинг-понг
 
 {games and toys {board games}}
 ..............................
@@ -7934,7 +7957,7 @@ People
 
 {education {university people}}
 ...............................
-{A1} {education {university people}}xx ?#  art+school [ɑːt skuːl] (n) {B2} {education} художественная школа
+{A1} {education {university people}}
   746. (  1) 3T *#PT student [ˈstjuːdənt] (n) {A1} {education} студент, ученик
 
 {A2} {education {university people}}
@@ -8219,7 +8242,7 @@ People
 {B1} {feelings {disgust}}
   348. (  1) 3T *#PT horror [ˈhɒrə] (n) {B1} {feelings} {film and theatre}  ужас, отвращение
 
-{B1} {feelings {disgust}}
+{B2} {feelings {disgust}}
               3T ?#  disgusting [dɪsˈgʌstɪŋ] -ing: (v) {C2} {feelings} внушать отвращение; (adj) {B2} {feelings} отвратительный
               4T ?#  horrify [ˈhɒrɪfaɪ] (v) {B2} {feelings} шокировать, ужасать, страшить
 
@@ -11577,7 +11600,7 @@ The natural world
               xx ?#  national+park [ˈnæʃ(ə)n(ə)l pɑːk] (n) {B1} {hobbies} {environment} национальный парк, заповедник
   606. (  1) 3T *#PT resource [rɪˈsɔːs] (n) {B1} {the environment} ресурс, средство, возможность
 
-{B1} {the environment {conservation}}
+{B2} {the environment {conservation}}
   250. (  1) 5T *#PT conservation [ˌkɒnsə(ː)ˈveɪʃən] (n) {B2} {the environment} {C1] {buildings} сохранение, консервирование
   395. (  1) 5T ?#PT diversity [daɪˈvɜːsɪti] (n) {B2} {people in society} {the environment} разнообразие, многообразие, {B2} разнородность
               xT ?#  ecology [ɪˈkɒləʤ i] (n) {B2} {the environment} экология

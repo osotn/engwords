@@ -4,7 +4,7 @@ general
 (article)
 ---------
 {A1} (article)
-   0. (1076)  3T *#PT a [æ/eɪ] (article) {A1} indefinite - a/an; (letter) A b c d
+   0. (1076) 3T *#PT a [æ/eɪ] (article) {A1} indefinite - a/an; (letter) A b c d
               3T *#  an [æn] (article) {A1} indefinite - a/an
   783. (  1) xT *#PT the [ðiː/ðɛ] (article) {A1} the definite
 
@@ -47,9 +47,19 @@ general
 (phrasal verb)
 --------------
 {A1} (phrasal verb)
+              xx ?#  go+out [ɡəʊ aʊt] (phrasal verb) {A1} = to leave your house to go to a social event, выходить в свет, = to be sent, {B2} {tv, radio and news} = when a radio or television programme goes out, it is broadcast, выходить в эфир, {B2} {sports: ball and racket sports} (of something) = to fail to reach the next stage of a competition/etc.
+              xx ?#  find+out [faɪnd aʊt] (phrasal verb) {A1} = to get some information about something/somebody by asking/reading/etc., выяснить, = to discover that somebody has done something wrong, разоблачать
+
 {A2} (phrasal verb)
+              xx ?#  check+out [ʧɛk aʊt] (phrasal verb) проверять, {A2} выехать из гостиницы, получать по чеку, освобождать номер в гостинице, уходить в отставку, сдавать под расписку
+              xx ?#  look+after [lʊk ˈɑːftə] (phrasal verb) {A2} присматривать за, заботиться, ухаживать, следить
+              xx ?#  get+back [ɡɛt bæk] (phrasal verb) {A2} = to return, especially to your home, возвращаться
+
 {B1} (phrasal verb)
               xx ?#  go+ahead [ɡəʊ əˈhɛd] (phrasal verb) {B1} вперед, продолжать, идти напролом
+              xx ?#  run+out [rʌn aʊt] (phrasal verb) {B1} {B2} {discussion and agreement} закончиться
+              xx ?#  take+up [teɪk ʌp] (phrasal verb) {B1} браться за, заняться, прерывать
+
 
 (num)
 -----
@@ -1331,7 +1341,7 @@ Animals
               4T *#  tiger [ˈtaɪgə] (n) {A2} {animals} тигр
               4T *#  whale [weɪl] (n) {A2} {animals} кит; (v) бить, пороть
 
-{A2} {animals {wild mammals}}
+{B1} {animals {wild mammals}}
               xx ?#  big+cat [bɪɡ kæt] (n) {B1} {animals} большая кошка = any large wild animal of the cat family (lions, tigers and leopards)
               5T *#  dolphin [ˈdɒlfɪn] (n) {B1} {animals} дельфин
               4T *#  fox [fɒks] (n) {B1} {animals} лиса, хитрец; (v) хитрить
@@ -1587,7 +1597,7 @@ Appearance
 {appearance {posture and movement}}
 ...................................
 {A1} {appearance {posture and movement}}
-{A2} {appearance {posture and movement}
+{A2} {appearance {posture and movement}}
 {B1} {appearance {posture and movement}}
 
 {appearance {skin}}
@@ -2081,9 +2091,9 @@ Communication
              yT *#  comma [ˈkɒmə] (n) {A2} {language} запятая
              4T *#  punctuation [ˌpʌŋktjʊˈeɪʃən] (n) {A2} {language} пунктуация
              xx ?#  punctuation+mark [ˌpʌŋkʧuˈeɪʃ(ə)n mɑːk] (n) {A2} {language} знак препинания
+             xx ?#  question+mark [ˈkwɛsʧən mɑːk] (n) {A2} {language} вопросительный знак
 
 {B1} {language {punctuation}}
-             xx ?#  question+mark [ˈkwɛsʧən mɑːk] (n) {A2} {language} вопросительный знак
  572. (  2) 3T *#PT quote [kwəʊt] (n) {B1} {B2} {language} цитата, кавычки; (v) {B1} {literature and writing} {language} цитировать, {C1} {money} котировать
 
 {phones, email and the internet}
@@ -2131,28 +2141,28 @@ Communication
   661. (  2) 3T *#PT ring [rɪŋ] (n) {A2} {clothes and fashion} {life stage} кольцо, {C1} {sports: other sports} ринг, {B1} {plants and tree} круг, {B1} звон; (v) {A2} {phones, email and the internet} звонить, звенеть, звучать, I: ring-rang-rung
 
 {A2} {phones, email and the internet {making calls}}
-             3T *#  mail [meɪl] (n) {A2} почта, {A2} {phones, email and the internet} = message sent/received on a computer; (adj) почтовый; (v) {A2} посылать по почте, = to send a message by email
-             xx ?#  be+on+the+phone [biː ɒn ðiː fəʊn] (idiom) {A2} {phones, email and the internet} быть на телефоне
+              3T *#  mail [meɪl] (n) {A2} почта, {A2} {phones, email and the internet} = message sent/received on a computer; (adj) почтовый; (v) {A2} посылать по почте, = to send a message by email
+              xx ?#  be+on+the+phone [biː ɒn ðiː fəʊn] (idiom) {A2} {phones, email and the internet} быть на телефоне
 
 {B1} {phones, email and the internet {making calls}}
-             xx ?#  call+back [kɔːl bæk] (phrasal verb) {B1} {phones, email and the internet} перезвонить
-             xx ?#  call+up [kɔːl ʌp] (phrasal verb) {B1} {phones, email and the internet} позвонить, вызывать
+              xx ?#  call+back [kɔːl bæk] (phrasal verb) {B1} {phones, email and the internet} перезвонить
+              xx ?#  call+up [kɔːl ʌp] (phrasal verb) {B1} {phones, email and the internet} позвонить, вызывать
   152. (  2) 3T *#PT contact [ˈkɒntækt] (n) {B1} контакт, связь; (v) {B1} {phones, email and the internet} связаться; (adj) контактный
 
 {phones, email and the internet {phone services}}
 .................................................
 {A1} {phones, email and the internet {phone services}}
   485. (  1) 3T *#PT message [ˈmɛsɪʤ ] (n) {A1} {phones, email and the internet} сообщение, письмо, {B1} {literature and writing} послание; (v) {B1} {phones, email and the internet} передавать сигналами
-             xx ?#  phone+number [fəʊn ˈnʌmbə] (n) {A1} {phones, email and the internet} номер телефона
+              xx ?#  phone+number [fəʊn ˈnʌmbə] (n) {A1} {phones, email and the internet} номер телефона
   771. (  2) 3T *#PT telephone [ˈtɛlɪfəʊn] (n) {A1} {phones, email and the internet} {houses and homes} телефон; (adj) телефонный; (v) {A1} {phones, email and the internet} говорить по телефону
-             xx ?#  telephone+number [ˈtɛlɪfəʊn ˈnʌmbə] (n) {A1} {phones, email and the internet} номер телефона
+              xx ?#  telephone+number [ˈtɛlɪfəʊn ˈnʌmbə] (n) {A1} {phones, email and the internet} номер телефона
 
 {A2} {phones, email and the internet {phone services}}
 {B1} {phones, email and the internet {phone services}}
-             xx ?#  local+call [ˈləʊk(ə)l kɔːl] (n) {B1} {phones, email and the internet} местный звонок
-             xx ?#  telephone+banking [ˈtɛlɪfəʊn ˈbæŋkɪŋ] (n) {B1} {phones, email and the internet} телефонный банкинг
-             yT *#  voicemail [ˈvɔɪsmeɪl] (n) {B1} {phones, email and the internet} голосовая почта
-             xx ?#  voice+message [vɔɪs ˈmɛsɪʤ ] (n) {B1} {phones, email and the internet} голосовое сообщение
+              xx ?#  local+call [ˈləʊk(ə)l kɔːl] (n) {B1} {phones, email and the internet} местный звонок
+              xx ?#  telephone+banking [ˈtɛlɪfəʊn ˈbæŋkɪŋ] (n) {B1} {phones, email and the internet} телефонный банкинг
+              yT *#  voicemail [ˈvɔɪsmeɪl] (n) {B1} {phones, email and the internet} голосовая почта
+              xx ?#  voice+message [vɔɪs ˈmɛsɪʤ ] (n) {B1} {phones, email and the internet} голосовое сообщение
 
 {phones, email and the internet {social media}}
 ...............................................
@@ -2409,7 +2419,7 @@ Culture
   154. (  1) 3T *#PT cinema [ˈsɪnəmə] (n) {A1} {film and theatre} {buildings} кино, кинотеатр
   235. (  1) 3T *#PT dvd [diː-viː-diː] (abbr) {A1} {film and theatre} {computers} Digital Video Disk
   508. (  1) 3T *#PT movie [ˈmuːvi] (n) {A1} {film and theatre} кино
-             xx ?#  movie+theater [ˈmuːvi ˈθɪətə] (n) {A1} {film and theatre} {buildings} кинотеатр
+              xx ?#  movie+theater [ˈmuːvi ˈθɪətə] (n) {A1} {film and theatre} {buildings} кинотеатр
 
 {A2} {film and theatre {showing films}}
   686. (  1) 3T *#PT screen [skriːn] (n) {A2} {tv, radio and news} {computers} {film and theatre} экран; (v) {B2} {tv, radio and news} {film and theatre} экранировать, {C1} {healthcare} проводить отбор новобранцев
@@ -3324,11 +3334,11 @@ Functions
 {A2} {discussion and agreement {mediation}}
 {B1} {discussion and agreement {mediation}}
 
-{discussion and agreement {persuation}}
+{discussion and agreement {persuasion}}
 .......................................
-{A1} {discussion and agreement {persuation}}
-{A2} {discussion and agreement {persuation}}
-{B1} {discussion and agreement {persuation}}
+{A1} {discussion and agreement {persuasion}}
+{A2} {discussion and agreement {persuasion}}
+{B1} {discussion and agreement {persuasion}}
               1T *#  argue [ˈɑːgjuː] (v) {A2} {opinion and argument} {feelings} {B1} {discussing and agreement} спорить, аргументировать, доказывать
   158. (  1) 3T ?#PT convince [kənˈvɪns] (v) {B1} {discussing and agreement} убеждать, уверять
   238. (  1) 3T ?#PT encourage [ɪnˈkʌrɪʤ ] (v) {B1} {discussing and agreement} поощрять, поддерживать
@@ -3910,17 +3920,17 @@ Health
 {A2} {healthcare {complementary medicine}}
 {B1} {healthcare {complementary medicine}}
 
-{healthcare {healtcare}}
+{healthcare {healthcare}}
 ........................
-{A1} {healthcare {healtcare}}
-{A2} {healthcare {healtcare}}
+{A1} {healthcare {healthcare}}
+{A2} {healthcare {healthcare}}
   126. (  2) 3T *#PT care [keə] (v) {A2} {family and relationships} {feelings} заботиться; (n) {A2} {life stages} {healthcare} уход, {B1} забота
   253. (  1) 3T *#PT drug [drʌg] (n) {A2} {healthcare} лекарство, {A2} {social issues} наркотик; (adj) лекарственный
   492. (  1) 3T *#PT medical [ˈmɛdɪkəl] (adj) {A2} {healthcare} {jobs} медицинский, врачебный; (n) {B2} {healthcare} студент-медик
   493. (  1) 3T *#PT medicine [ˈmɛdsɪn] (n) {A2} {healthcare} {scientific research} медицина, лекарство
   658. (  2) 3T *#PT rest [rɛst] (n) {A2} {healthcare} отдых, {A2} остальные, остальное, остаток, покой; (v) {A2} {healthcare} {C1} {sports: ball and racket sports} отдыхать, покоиться
 
-{B1} {healthcare {healtcare}}
+{B1} {healthcare {healthcare}}
    43. (  1) 3T ?#PT appointment [əˈpɔɪntmənt] (n) {B1} {healthcare} {working life} назначение, прием, встреча
               xx ?#  care+for [keə fɔː] (phrasal verb) {B1} {healthcare} заботиться о, любить, интересоваться
   549. (  1) 3T *#PT private [ˈpraɪvɪt] 1T *#  private [ˈpraɪvɪt] (adj) {B1} {healthcare} {buildings} частный, {B1} личный; (n) {C2} {war and conflict} рядовой
@@ -3988,7 +3998,7 @@ Health
 {A2} {mental health {mental health problems}}
 {B1} {mental health {mental health problems}}
   435. (  1) 3T *#PT mental [ˈmɛntl] (adj) {B1} {mental health} умственный, психический
-             3T *#  mentally [ˈmɛntli] {B1} {mental health} -ly: (adj)->(adv) {B1} {mental health} умственный, психический
+              3T *#  mentally [ˈmɛntli] {B1} {mental health} -ly: (adj)->(adv) {B1} {mental health} умственный, психический
 
 {mental health {mental health care}}
 ....................................
@@ -4514,17 +4524,17 @@ Leisure
               xx ?#  stamp+collecting [stæmp kəˈlɛktɪŋ] (n) {B1} {hobbies} коллекционирование марок
               3T *#  track [træk] (n) {A2} {transport by bus and train} {B1} {sports: other sports} {transport by car or lorry} {hobbies} {B2} {music} трек, след, дорожка, трасса; (v) {B2} следить
 
-{hobbies {cratfs and skills}}
+{hobbies {crafts and skills}}
 .............................
-{A1} {hobbies {cratfs and skills}}
+{A1} {hobbies {crafts and skills}}
    50. (  1) 3T *#PT art [ɑːt] (n) {A1} {art} {education} {hobbies} искусство
   178. (  1) 3T *#PT cooking [kʊkɪŋ] {A1} {cooking and eating} {hobbies} -ing: (v) {A1} {cooking and eating} готовить, варить
   571. (  1) 3T *#PT painting [peɪntɪŋ] {A1} {hobbies} {art} -ing: (v) {A1} {houses and homes} {art} покрасить, красить, изображать
 
-{A2} {hobbies {cratfs and skills}}
+{A2} {hobbies {crafts and skills}}
   248. (  1) 3T *#PT drawing [drɔːɪŋ] -ing: (v) {A1} {art} рисовать, привлекать, {C1} {money} проводить, {C1} {sports: ball and racket sports} играть в ничью, I draw-drew-drawn; (n) чертеж, {A2} {art} {hobbies} рисунок, графика
 
-{B1} {hobbies {cratfs and skills}}
+{B1} {hobbies {crafts and skills}}
               zT ?#  cookery [ˈkʊk(ə)ri] (n) {B1} {cooking and eating} {hobbies} кулинария, стряпня
   504. (  1) 3T ?#PT photography [fəˈtɒgrəfi] (n) фотография, {B1} {hobbies} фотосъемка
   633. (  1) 5T ?#PT sculpture [ˈskʌlpʧə] (n) {B1} {art} {hobbies} скульптура
@@ -4608,9 +4618,9 @@ Leisure
   737. (  2) 3T *#PT total [ˈtəʊtl] (adj) {B1} полный, суммарный, совокупный; (n) {B1} {shopping} {maths and measurement} итог, сумма, общее количество; (v) {C1} {maths and measurement} составлять, подсчитывать
   772. (  1) 3T *#PT value [ˈvæljuː] (n) значение, {B1} {money} {shopping} стоимость, {C1} {maths and measurement} величина; (v) ценить, {B2} {money} оценивать
 
-{shopping {spopping in store}}
+{shopping {shopping in store}}
 ..............................
-{A1} {shopping {spopping in store}}
+{A1} {shopping {shopping in store}}
    62. (  1) 3T *#PT bag [bæg] (n) {A1} {shopping} {clothes and fashion} сумка
   122. (  1) 3T *#PT buy [baɪ] (v) {A1} {shopping} {money} {houses and homes} купить, покупать, приобретать, I: buy-bought-bought
   142. (  1) 3T *#PT centre [ˈsɛntə] (n) {shopping} {buildings} {B2} {politics} центр, середина; (v) {B1} центрировать
@@ -4625,7 +4635,7 @@ Leisure
               xx ?#  town+centre [taʊn ˈsɛntə] (n) {A1} {shopping} центр города
   885. (  1) 3T *#PT window [ˈwɪndəʊ] (n) {A1} {houses and homes} {buildings} {B1} {computes} окно, {A1} {shopping} витрина; (adj) оконный
 
-{A2} {shopping {spopping in store}}
+{A2} {shopping {shopping in store}}
    63. (  2) 3T *#PT assistant [əˈsɪstənt] (n) {A2} {education} {jobs} {shopping} ассистент, помощник
   376. (  1) 3T *#PT helpful [ˈhɛlpfʊl] (adj) {A2} {personal qualities} {shopping} полезный
   481. (  1) 3T *#PT manager [ˈmænəʤ ə/ˈmænɪʤ ə] (n) {A2} {jobs} {business} {shopping} {B2} {film and theatre} менеджер, руководитель, директор, управляющий
@@ -4635,7 +4645,7 @@ Leisure
               xx ?#  shopping+bag [ˈʃɒpɪŋ bæɡ] (n) {A2} {shopping} сумка для покупок
               xx ?#  store+window [stɔː ˈwɪndəʊ] (n) {A2} {shopping} витрина магазина
 
-{B1} {shopping {spopping in store}}
+{B1} {shopping {shopping in store}}
               xx ?#  city+centre [ˈsɪti ˈsɛntə] (n) {B1} {buildings} {shopping} центр города
   204. (  1) 3T ?#PT discount [ˈdɪskaʊnt] (n) {B1} {shopping} {money} {business} скидка
               xx ?#  high+street [haɪ striːt] (n) {B1} {shopping} главная улица
@@ -5073,7 +5083,7 @@ People
               xT *#  pe [piː-iː] (n) {B1} {education} {health and fitness} физическое воспитание = physical education, = sport and exercise that is taught in schools
               xx ?#  physical+education [ˈfɪzɪk(ə)l ˌɛʤ ʊˈkeɪʃ(ə)n] (n) {B1} {health and fitness} {education} физическая культура
   523. (  1) 3T *#PT politics [ˈpɒlɪtɪks] (n) {B1} {politics} {education} политика
-               3T ?#  programme [ˈprəʊgræm] (n) {A1} {tv, radio and news} {B1} {education} программа; (adj) программный
+              3T ?#  programme [ˈprəʊgræm] (n) {A1} {tv, radio and news} {B1} {education} программа; (adj) программный
 
 {education {teaching and learning}}
 ...................................
@@ -6802,15 +6812,15 @@ Science and technology
 ---------------------
 {scientific research {branches of science}
 ..........................................
-{A1} {scientific research {branches of science}
-{A2} {scientific research {branches of science}
+{A1} {scientific research {branches of science}}
+{A2} {scientific research {branches of science}}
    99. (  1) 3T *#PT biology [baɪˈɒləʤ i] (n) {A2} {education} {scientific research} {biology} биология
   146. (  1) 3T *#PT chemistry [ˈkɛmɪstri] (n) {A2} {education} {scientific research} {C1} {physics and chemistry} химия
   493. (  1) 3T *#PT medicine [ˈmɛdsɪn] (n) {A2} {healthcare} {scientific research} медицина, лекарство
   573. (  1) 3T *#PT physics [ˈfɪzɪks] (n) {A2} {education} {physics and chemistry} {scientific research} физика
   793. (  1) 3T *#PT technology [tɛkˈnɒləʤ i] (n) {A2} {scientific research} технология, {A2} {shopping} техника
 
-{B1} {scientific research {branches of science}
+{B1} {scientific research {branches of science}}
   241. (  1) 3T *#PT engineering [ˌɛnʤ ɪˈnɪəɪŋ] {B1} {engineering} {jobs} {scientific research} {education} -ing: (v) проектировать
 
 {scientific research {data}}
@@ -7250,7 +7260,7 @@ The natural world
 {A2} {farming {farm people}}
 {B1} {farming {farm people}}
   550. (  1) 3T *#PT producer [prəˈdjuːsə] (n) {B1} {farming} производитель, {B1} {film and theatre} {jobs} {tv, radio and news} продюсер, режиссер
-  
+
 {farming {growing crops}}
 .........................
 {A1} {farming {growing crops}}
@@ -7556,7 +7566,7 @@ The natural world
               4T *#  rainy [ˈreɪni] (adj) {A2} {weather} дождливый
   860. (  1) 3T *#PT wet [wɛt] (adj) {A2} {weather} мокрый, влажный, сырой; (v) смачивать, мочить, увлажнять
 
-{A2} {weather {rain}}
+{B1} {weather {rain}}
   289. (  2) 3T *#PT flood [flʌd] (n) {B1} {weather} {the environment} поток, наводнение; (v) {B1} {weather} {geography} затоплять, заливать
   528. (  1) 3T ?#PT pour [pɔː] (v) {B1} полить, {B1} {drinks} наливать, вливаться, {B1} {weather} лить; (n) ливень
               4T ?#  rainfall [ˈreɪnfɔːl] (n) {B1} {weather} количество осадков, ливень
@@ -8108,7 +8118,7 @@ Travel
   798. (  1) 3T ?#PT wing [wɪŋ] (n) {B1} {birds} {food} {transport by air} крыло; (v) лететь
 
 {transport by air {people in air travel}}
-.........................................s
+.........................................
 {A1} {transport by air {people in air travel}}
 {A2} {transport by air {people in air travel}}
   556. (  1) 3T *#PT passenger [ˈpæsɪnʤ ə] (n) [A2} {transport by bus and train} {transport by water} {transport by car or lorry} {transport by air} пассажир

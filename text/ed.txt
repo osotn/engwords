@@ -1,0 +1,46 @@
+ed is a line editor for Unix OS.
+ed influences on ex which in turn spawned vi.
+
+The non-interactive Unix command grep was inspired by a common special use of ed,
+where the command g/re/p performs a global regular expression search and prints the
+line containing matches.
+
+The Unix stream editor, sed implemented many of the scripting features fo ed.
+
+ed - text editor
+ed [ - ] [ -x ] [ name ]
+
+The copy of the text being edited resides in a temporary file called the buffer.
+
+Input mode = is accepting text, all input is merely collected.
+Input mode is left by typing a period '.' alone at the beginning of a line.
+
+A regular expression specifies a set of strings of characters.
+        1. Any character, except a special character, matches itself.
+           Special characters are the regular expression delimiter plush \[. and
+           sometimes ^*S.
+        2. A . matches any character.
+        3. A \ followed by any character except a digit or () matches that character.
+        4. A nonempty string s bracketed [s] (or [^s]) matches any character in (or not in) s.
+           Substring a-b for inclusive range.
+        5. A regular expression of form 1-4 followd by * matches a sequence of 0 or more matches
+           of the regular expression.
+
+Address:
+        . = current line
+        $ = last line of the buffer
+        n = nth line of the buffer
+        -5 +5 from the current line.
+
+(.)a
+<text>
+.
+The append command reads the given text and appends it after the addressed line.
+
+
+===========
+https://pubs.opengroup.org/onlinepubs/9699919799/utilities/ed.html  - POSIX standard
+
+ed - edit text
+
+ed [-p ]

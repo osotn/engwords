@@ -102,12 +102,236 @@ Central concept in network protocol design is layering.
 
 Reliability = the ability to recover from errors, faults or failures.
 Resource allocation = sharing access to a common, limited resource.
-Evolvability 
+Evolvability = allowing for incremental deployment of protocol improvements over time
+Security = defending the network against various types of attacks
+
+Reliability is the design issue of making a network that operates correctly even
+though it is comprised of components that are themselves unreliable.
+There is a chance that some of these bits of a packet travelling damaged (inverted).
+due to fluke electrical noise, random wireless signals, hardware flaws, software bugs,
+and so on.
+One mechanism for finding errors in received information uses codes for error detection.
+More powerful codes allows for error correction (recovered).
+Another reliability issues is finding a working path through a network.
+Often, there are multiple paths between a source and destination, and in a large network,
+there may be some links or routers that are broken. This topic is called routing.
+
+Resource allocation.
+Cities can have traffic jams, a shortage of telephone numbers, and it is easy to get lost.
+Designs that continue to work well when the network gets large are said to be scalable.
+This design is called statistical multiplexing, meaning sharing based on the statistics of
+demand.
+How to keep a fast sender from swamping a slow receiver with data. Feedback from the receiver
+to the sender is often used. This subject is called flow control. This overloading of the
+network is called congestion. One strategy is for each computer to reduce its demand for
+resources (e.g., bandwidth).
+For uses such as carrying live video, the timeliness of delivery matters a great deal.
+Real-time delivery at the same time that they provide service to applications that want
+high throughput. Quality of service (QoS) is the name given to mechanisms that
+reconcile these competing demands.
+
+Evolvability
+............
+We have recently seen the key structuring mechanism used to support change by dividing
+the overall problem and hiding implementation details: protocol layering.
+Since there are many computers on the network, every layer needs a mechanism for
+identifying the senders and receivers that are involved in a particular message.
+This is called addressing and naming.
+
+Security
+........
+Confidentiality
+Authentication prevent someone from impersonating someone else.
+Integrity prevent surreptitious changes to messages.
+
+=> these designs are based on cryptography.
 
 
+1.5.2
+Protocol Layering
+.................
+Most networks are organized as a stack of layers of levels, each on built up one below it.
+The purpose of each layer is to offer certain services to the higher layer while
+shielding those layers from the details of how the offered services are actually implemented.
+Information hiding, abstract data types, data encapsulation and OOP.
+Protocol is an agreement between the communicating parties on how communication is to proceed.
+Peer to peer.
+Layers, protocol and interface.
+Ln -- protocol -- Ln
+Ln - interface - Ln-1
+
+Below layer 1 is the physical medium through which actual communication occurs.
+Interface defines which primitive operations and services the low layer makes
+available to the upper one.
+
+A set of layers and protocols is called a network architecture.
+A list of the protocols used by a certain system, one protocol per layer, is called protocol stack.
+
+1.5.3
+Connections and reliability
+...........................
+ - connection oriented
+ - connectionless
+They may also offer various levels of reliability
+
+Connection oriented service is modeled after the telephone system.
+Establish a connection.
+Release connection.
+Negotiation about the parameters to be used, such as maximum messages size, QoS and other issues.
+One side makes a proposal and the other side can accept it, reject it, or make counterproprosal.
+
+Connectionless service is modeled after the postal system.
+Each message (letter) carries the full destination address, and each one is routed through the intermediate
+nodes inside the system independent of all the seqsequent messages.
+Packet is a message at the network layer.
+Unreliable connectionless service is often called datagram service.
+
+Reliability.
+...........
+A reliable service is implemented by having the receiver acknowledge the receipt of each
+message so the sender is sure that it arrived.
+The acknowledgement process introduces overhead and delays.
+
+Message sequences and byte streams.
+
+Ethernet does not provide reliable communication.
+In some applications, the transmit delays introduced by acknowledgements are unacceptable.
+One such application is digitized voice traffic (VoIP).
+
+Still another service is the request - reply service. Client - server model.
+
+1.5.4
+Service Primitives
+..................
+A service is formally specified by a set of primitives (operations) available to
+user processes to access the service.
+
+Berkeley sockets:
+        request - reply interaction in a client - server environment.
+
+Datagrams:
+        Server: executes LISTEN prepare to accept incoming connections
+        Client:          CONNECT
+        Server:          ACCEPT
+                 Request - reply
+                         DISCONNECT
+RECEIVE - SEND
+
+1.5.5
+The relationship of Services to Protocols
+.........................................
+Services and protocols are distinct concepts.
+Services is a set of primitives that a layer provides to the layer above it.
+A protocol is a set of rules governing the formal and meaning of the packets.
+
+1.6
+Reference Models
+...............
+Two prevailing models are:
+        TCP/IP
+        OSI
+
+1.6.1 OSI
+.........
+ISO = International Standard Organization, 1995
+
+L7      Application             APDU
+L6      Presentation            PPDU
+L5      Session                 SPDU
+L4      Transport               TPDU
+L3      Network                 Packet
+L2      Data Link               Frame
+L1      Physical                Bit
+
+1.6.2
+.....
+TCP/IP
+
+ARPANET => TCP/IP, 1974
+
+Link            Layer = choice packet switching network based on a connectionless layer.        L2      Ethernet, 802.11, DSL, SONET
+Internet        Layer =                                                                         L3      IP (Internet Protocol) + ICMP (control message)
+Transport       Layer =                                                                         L4      TCP (Transmission Control) + UDP (user datagram)
+Application     Layer =                                                                         L7      HTTP, SMTP, RTP, DNS
+
+Application include any session and presentation function that they require.
 
 
+2.
+THE PHYSICAL LAYER
+==================
+It defines
+        electrical
+        timing
+        other interfaces by which bits are send as signals over channels.
 
+Performance: throughput, latency, error rate
 
+Transmission media:
+        guided or wired (copper, coaxial cable, fiber optics)
+        wireless (terrestrial radio)
+        satellite
 
+2.1
+Guided transmission media
+.........................
+The purpose of the physical layer is to transport bits from one machine to another.
+Transmissions are guided along a path with a physical cable or wire.
+
+Bandwidth is a measure of the carrying capacity of a medium. In Hz.
+
+2.1.2
+Twisted Pairs
+.............
+Consists of two insulated copper wires, typically about 1 mm thick.
+A signal is usually carried as the difference in voltage between the two wires
+in the pair.
+
+=> telephone system
+
+Twisted pairs can run several kilometers without apmlification.
+Transmitted either analog or digital information.
+
+The bandwidth depends on the thickness of the wire and the distance traveled,
+but hundreds of mbps can be achieved for a few kilometers.
+Low cost.
+
+Category 5e cabling: 4 twisted pairs
+
+100 mbps Ethernet uses two pairs, one pair for each direction.
+1 gbps uses all four pairs in both directions simultaneously.
+Full duplex links. Half duplex links.
+
+<= Cat 6: UTP (unshielded twisted pair) - only wires and insulators.
+   Cat 7: shielding on the individual pairs.
+
+2.1.3
+Coaxial Cable
+............
+coax
+It has better shielding and greater bandwidth than unshielded twisted pairs.
+It can span longer distances at higher speed.
+        50 Ohm cable for digital transmission
+        75 Ohm cable for analog transmission and television
+
+Consists:
+        stiff copper wire as the core
+        surrounded by an insulating material
+        
+Copper core => Insulating material => Braided outer conductor => protective plastic covering
+
+Up to 6 GHz
+
+2.1.4
+Power Lines
+...........
+Electrical power lines.
+
+2.1.5
+Fiber Optics
+............
+Fiber optics are used for long haul transmission in the network backbones, high speed LAN
+
+The light source, the transmission medium and the detector
+Transmission medium is an ultra thin fiber of glass.
 
