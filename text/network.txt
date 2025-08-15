@@ -334,4 +334,25 @@ Fiber optics are used for long haul transmission in the network backbones, high 
 
 The light source, the transmission medium and the detector
 Transmission medium is an ultra thin fiber of glass.
+This transmission system would leak light and be uselss in practice were it
+not for an interesting principle of physics.
+When a light ray passes from one medium to another - for example, from fused silica (glass)
+to air - the ray is refracted (bent) at the silica - air boundary.
+For angles of incidence above a certain critical value, the light is refracted back into
+the silica; none of it escapes into the air and can propagate for many kilometers with
+virtually no loss.
+
+50 microns for multimode fiber
+single mode fiber - light can propagate only in a straight line.
+
+Single mode fibers are more expensive but are widely used for longer distances,
+for 50 times = at 100 Gbps for 100 km without amplification.
+
+Multimode fiber can be used for transmissions of up to about 15 km and can
+allow the use of relatively less expensive fiber optic equipment.
+
+Optical fibers are made of glass, is made from sand, an inexpensive raw
+material available in unlimited amounts.
+
+Three wavelength: 0.85 1.3 1.55 microns. Has 25,000 to 30,000 GHz wide.
 

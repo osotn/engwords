@@ -3629,7 +3629,12 @@ Communication
 
 {C1} {language {language skills}}
    89. (  1) 5T ?#PT articulate [ɑːˈtɪkjʊlɪt->(adj)/ɑːˈtɪkjʊleɪt->(v,pp)] (v) {C1} {language} артикулировать, выговорить; (adj) {C1} {personal qualities} {language} членораздельный
-             5T ?#  coherent [kəʊˈhɪərənt] (adj) {C1} {language} последовательный, связный
+              5T ?#  coherent [kəʊˈhɪərənt] (adj) {C1} {language} последовательный, связный
+              5T ?#  incomprehensible [ɪnˌkɒmprɪˈhensəbl] (adj) {C1} {language} непонятный, непостижимый
+  663. (  1) 5T *#PT intermediate [ˌɪntəˈmiːdiət] (adj) {C1} {language} промежуточный, {C1} средний; (n) {B2} {language} = a person who is learning something and who has more a basic knowledge of it but is not yet advanced
+  833. (  1) 5T ?#PT oral [ˈɔːrəl] (adj) {C1} {language} устный, {C1} {body} ротовой, оральный; (n) {C1} {language} {education} устный экзамен
+              3T *#  perfect [pəˈfɛkt] (adj) {A1} идеальный, {A2} {language} совершенный; (v) {C1} {language} совершенствовать, усовершенствовать, заканчивать; (n) {A2} {language} перфект
+ 1272. (  1) 5T ?#PT verbal [ˈvɜːbəl] (adj) {C1} {language} = spoken, not written, словесный, {C1} = relating to words, вербальный; (n) оскорбление
 
 {language {languages}}
 ......................
@@ -3647,6 +3652,13 @@ Communication
 {B2} {language {languages}}
               4T ?#  danish [ˈdeɪnɪʃ] (adj) датский; (n) {B2} {language} датский язык
               xT *#  turkish [ˈtɜːkɪʃ] (adj) турецкий; (n) {B2} {language} турецкий язык
+
+{C1} {language {languages}}
+              zT ?#  bengali [bɛŋˈɡɑli] (n) {C1} {language} бенгальский
+              yT ?#  maori [ˈmaʊri] (n) {C1} {language} маори, язык маори
+              zT ?#  swahili [swəˈhiːli] (n) {C1} {language} суахили
+              xT ?#  tamil [ˈtæmɪl] (adj) тамильский; (n) {C1} {language} тамил, тамильский язык
+              zT ?#  urdu [ˈʊəduː/ˈɜːduː] (n) {C1} {language} урду
 
 {language {features of language}}
 .................................
@@ -3669,6 +3681,20 @@ Communication
               4T ?#  slang [slæŋ] (n) {B2} {language} сленг, жаргон; (v) говорить на жаргоне
               xx ?#  spoken+word [ˈspəʊk(ə)n wɜːd] (n) {B2} {language} устное слово
 
+{C1} {language {features of language}}
+   71. (  1) 5T *#PT analogy [əˈnæləʤ i] (n) {c1} {language} аналогия, сходство
+              1T *#  character [ˈkærɪktə] (n) {B1} {personal qualities} характер, {A2} {film and theater} {literature and writing} персонаж, {C1} {language} символ
+              5T ?#  dialect [ˈdaɪəlɛkt] (n) {C1} {language} диалект, говор, наречие
+              xx ?#  ellipsis [ɪˈlɪpsɪs] (n) {C1} {language} эллипсис, многоточие
+              4T ?#  fable [ˈfeɪbəl] (n) {C1} {literature and writing} {language} басня, сказка, миф, выдумка
+              5T *#  idiom [ˈɪdɪəm] (n) {C1} {language} идиома, язык, говор
+              zT ?#  inversion [ɪnˈvɜːʃn] (n) {C1} {language} инверсия
+  672. (  1) 5T ?#PT ironic [aɪˈrɒnɪk] (adj) {C1} {language} иронический, {C1} ироничный
+  674. (  1) 5T ?#PT irony [ˈaɪərəni] (n) {C1} {language} ирония; (adj) железный
+              yT *#  jargon [ˈʤ ɑːgən] (n) {C1} {language} жаргон, непонятный язык, тарабарщина
+              yT ?#  paradox [ˈpærədɒks] (n) {C1} {doubt, guessing and certainty} {language} парадокс
+              zT ?#  rhetorical [rɪˈtɒrɪkl] (adj) {C1} {language} риторический, высокопарный
+
 {language {phonetics}}
 ......................
 {A1} {language {phonetics}} 
@@ -3677,35 +3703,54 @@ Communication
 {A2} {language {phonetics}} 
               5T ?#  consonant [ˈkɒnsənənt] (n) {A2} {language} согласный
   767. (  2) 3T *#PT stress [strɛs] (n) {A2} {feelings} стресс, {B2} {physics and chemistry} напряжение, усилие, {A2} {language} ударение, акцент; (v) {A2} {language} {B2} {feelings} подчеркивать
-             3T ?#  stressed [strɛst] -ed: (v) {A2} {language} {B2} {feelings} подчеркивать; (adj) {B1} {feelings} напряженный, {A2} {language} = pronounced with emphasis
-             5T ?#  syllable [ˈsɪləbl] (n) {A2} {language} слог
-             5T *#  vowel [vaʊəl] (adj) гласный; (n) {A2} {language} гласный звук
+              3T ?#  stressed [strɛst] -ed: (v) {A2} {language} {B2} {feelings} подчеркивать; (adj) {B1} {feelings} напряженный, {A2} {language} = pronounced with emphasis
+              5T ?#  syllable [ˈsɪləbl] (n) {A2} {language} слог
+              5T *#  vowel [vaʊəl] (adj) гласный; (n) {A2} {language} гласный звук
 
 {B1} {language {phonetics}} 
-             4T ?#  intonation [ˌɪntəʊˈneɪʃ(ə)n] (n) {B1} {language} интонация, произнесение нараспев
+              4T ?#  intonation [ˌɪntəʊˈneɪʃ(ə)n] (n) {B1} {language} интонация, произнесение нараспев
 
 {B2} {language {phonetics}}
-             xx ?#  schwa [ʃwɑː] (n) {B2} {language} нейтральный гласный звук = [ə]
-             xx ?#  shwa [ʃwɑː] (n) {B2} {language} нейтральный гласный звук = [ə], = schwa
+              xx ?#  schwa [ʃwɑː] (n) {B2} {language} нейтральный гласный звук = [ə]
+              xx ?#  shwa [ʃwɑː] (n) {B2} {language} нейтральный гласный звук = [ə], = schwa
+
+{C1} {language {phonetics}}
+  201. (  1) 5T ?#PT cluster [ˈklʌstə] 5T ?#  cluster [ˈklʌstə] (n) {C1} скопление, рой, концентрация, {C1} {language} = a group of consonants that come together in a word or phase for example /str/; (v) расти пучками, собираться группами
+              xx ?#  diphthong [ˈdɪfθɒŋ] (n) {C1} {language} дифтонг; (adj) двугласный
+              1T *#  hard [hɑːd] (adj) {A1} {difficulty and failure} {working life} жесткий, твердый, трудный, {C1} {language} used to describe a letter c or g when pronounced as in /cat/ or /go/ rather than as in /city/ or /giant/; (adv) {A1} {difficulty and failure} тяжело, сильно, крепко, упорно
+              5T *#  phonetics [fəʊˈnɛtɪks] (n) {C1} {language} фонетика
+              3T ?#  pitch [pɪʧ] (n) смола, питч, {C1} {language} {music} высота, подача, {B2} {sports: ball and racket sports} поле
+              3T *#  soft [sɒft] (adj) {A2} мягкий, тихий, {B1} нежный, {C1} {colours and shapes} = not too bright in a way that is pleasant and relaxing to the eyes, {C1} {drinks} = not alcoholic, {C1} {language} = not sounding hard for example /c/ in /city/ and /g/ in general
+              3T *#  tone [təʊn] (n) {B2} {music} тон, {B2} тонус, {C2} {colours and shapes} оттенок, {C1} {language} = the pitch of a syllable in speaking; (v) {C2} {colours and shapes} гармонировать
+              xx ?#  unvoiced [ʌnˈvɔɪst] un- & -ed: (v) {C1} {opinion and argument} выражать, {C1} {language} произносить звонко; un-: (adj) {C1} {language} звонкий; (adj) {C1} {language} глухой
+              1T *#  voice [vɔɪs] (n) {A2} {music} {C1} {opinion and argument} голос, глас, {B2} {language} залог; (adj) голосовой; (v) {C1} {opinion and argument} выражать, {C1} {language} произносить звонко
+              zT *#  voiced [vɔɪst] -ed: (v) {C1} {opinion and argument} выражать, {C1} {language} произносить звонко; (adj) {C1} {language} звонкий
+              4T *#  voiceless [ˈvɔɪsləs] (adj) {C1} {language} глухой, безмолвный, безголосый, безгласный
 
 {language {punctuation}}
 ........................
 {A1} {language {punctuation}}
 {A2} {language {punctuation}}
-             yT *#  comma [ˈkɒmə] (n) {A2} {language} запятая
-             4T *#  punctuation [ˌpʌŋktjʊˈeɪʃən] (n) {A2} {language} пунктуация
-             xx ?#  punctuation+mark [ˌpʌŋkʧuˈeɪʃ(ə)n mɑːk] (n) {A2} {language} знак препинания
+              yT *#  comma [ˈkɒmə] (n) {A2} {language} запятая
+              4T *#  punctuation [ˌpʌŋktjʊˈeɪʃən] (n) {A2} {language} пунктуация
+              xx ?#  punctuation+mark [ˌpʌŋkʧuˈeɪʃ(ə)n mɑːk] (n) {A2} {language} знак препинания
 
 {B1} {language {punctuation}}
-             xx ?#  question+mark [ˈkwɛsʧən mɑːk] (n) {A2} {language} вопросительный знак
- 572. (  2) 3T *#PT quote [kwəʊt] (n) {B1} {B2} {language} цитата, кавычки; (v) {B1} {literature and writing} {language} цитировать, {C1} {money} котировать
+              xx ?#  question+mark [ˈkwɛsʧən mɑːk] (n) {A2} {language} вопросительный знак
+  572. (  2) 3T *#PT quote [kwəʊt] (n) {B1} {B2} {language} цитата, кавычки; (v) {B1} {literature and writing} {language} цитировать, {C1} {money} котировать
 
 {B2} {language {punctuation}}
-             xx ?#  bullet+point [ˈbʊlɪt pɔɪnt] (n) {B2} {language} = an item in a list in a document, that is printed with a square, diamond or circle in front of it in order to show that it is important, точка маркировки
-             xT ?#  dash [dæʃ] (n) {B2} {language} тире, рывок, черта; (v) ринуться, мчаться
- 404. (  1) 3T *#PT dot [dɒt] (n) {B2} {language} точка, пятнышко; (v) ставить точки
-             xx ?#  hyphen [ˈhaɪfən] (n) {B2} {language} дефис
-             3T *#  quote [kwəʊt] (n) {B1} {B2} {language} цитата, кавычки; (v) {B1} {literature and writing} {language} цитировать, {C1} {money} котировать
+              xx ?#  bullet+point [ˈbʊlɪt pɔɪnt] (n) {B2} {language} = an item in a list in a document, that is printed with a square, diamond or circle in front of it in order to show that it is important, точка маркировки
+              xT ?#  dash [dæʃ] (n) {B2} {language} тире, рывок, черта; (v) ринуться, мчаться
+  404. (  1) 3T *#PT dot [dɒt] (n) {B2} {language} точка, пятнышко; (v) ставить точки
+              xx ?#  hyphen [ˈhaɪfən] (n) {B2} {language} дефис
+              3T *#  quote [kwəʊt] (n) {B1} {B2} {language} цитата, кавычки; (v) {B1} {literature and writing} {language} цитировать, {C1} {money} котировать
+
+{C1} {language {punctuation}}
+              4T *#  bracket [ˈbrækɪt] (n) {C1} {language} {maths and measurement} скобка; (v) заключать в скобки
+              xT *#  colon [ˈkəʊlən/kɒˈlɒn] (n) {C1} {language} двоеточие; {C2} {body} толстая кишка
+              xx *#  semicolon [ˌsɛmɪˈkəʊlən] (n) {C1} {language} точка с запятой
+ 1085. (  1) 5T *#PT slash [slæʃ] (v) {C1} хлестать, сокращать, порезать; (n) {C1} {computers} {language} косая черта, сокращение
 
 {phones, email and the internet}
 -------------------------------------
@@ -3734,6 +3779,18 @@ Communication
               xx ?#  landline [ˈlændlaɪn] (n) {B2} {phones, email and the internet} стационарный телефон
  1052. (  1) 4T *#PT receiver [rɪˈsiːvə] (n) {B2} {phones, email and the internet} {tv, radio and news} приемник
 
+{C1} {phones, email and the internet {communication devices}}
+   51. (  3) 5T *#PT alert [əˈlɜːt] (n) {C1} {danger} {war and conflict} {computers} {phones, email and internet} тревога; (adj) {C1} {danger} бдительный; (v) {C1} {danger} {war and conflict} объявлять тревогу
+              3T ?#  cellular [ˈsɛljʊlə] (adj) клеточный, ячеистый, {C1} {phones, email and internet} сотовый
+              3T *#  extension [ɪksˈtɛnʃən] (n) {B2} {C1} {houses and homes} {buildings} {phones, email and the internet} расширение, продление, продолжение, удлинение, распространение
+              xT *#  fax [fæks] (n) {C1} {phones, email and the internet} факс; (v) {C1} {phones, email and the internet} передавать по факсу
+              zT ?#  intercom [ˈɪntəkɒm] (n) {C1} {transport by air} {phones, email and the internet} домофон, внутренняя телефонная связь
+              yT ?#  keypad [ˈkiːpæd] (n) {C1} {phones, email and the internet} клавиатура
+              4T *#  notification [ˌnəʊtɪfɪˈkeɪʃən] (n) {C1} {computers} {phones, email and the internet} уведомление, оповещение, предупреждение
+              5T ?#  telegraph [ˈtɛlɪgrɑːf] (n) {C1} {phones, email and the internet} телеграф; (adj) телеграфный; (v) {C1} {phones, email and the internet} телеграфировать
+
+{phones, email and the internet {email}}
+........................................
 {A1} {phones, email and the internet {email}}
    54. (  1) 3T *#PT at [æt] (prep) {A1} на, в, при, у, {A1} {phones, email and the internet} symbol @
   250. (  2) 3T *#PT email [iˈmeɪl] (n) {A1} {phones, email and the internet} электронная почта, е-мейл; (v) {A1} = send an email to
@@ -3754,7 +3811,13 @@ Communication
               xT ?#  spam [spæm] (n) {C1} {business} {phones, email and the internet} спам; (v) {B2} {phones, email and the internet} = to send the same message to large numbers of internet users who have not requested the information
               xx ?#  subject+line [ˈsʌbʤ ɪkt laɪn] (n) {B2} {phones, email and the internet} тема письма
 
+{C1} {phones, email and the internet {email}}
+              1T *#  forward [ˈfɔːwəd] (adv) {A2} вперед, дальше; (v) {C1} {phones, email and the internet} пересылать, препровождать; (adj) {B2} передовой; (n) передовой
+ 1100. (  1) xT ?#PT spam [spæm] (n) {C1} {business} {phones, email and the internet} спам; (v) {B2} {phones, email and the internet} = to send the same message to large numbers of internet users who have not requested the information
+              zT ?#  spammer [ˈspæmə(r)] (n) {C1} {phones, email and the internet} спамер
+
 {phones, email and the internet {making calls}}
+...............................................
 {A1} {phones, email and the internet {making calls}}
   128. (  2) 3T *#PT call [kɔːl] (n) {A1} {phones, email and the internet} вызов, {B2} {birds} зов, соединение; (v) {A1} {phones, email and the internet} {B1} {working life} вызов, {B2} {birds} назвать, называть, вызывать
   244. ( 36) 4T *#PT number [ˈnʌmbə] (n) {A1} {maths and measurement} {phones, email and the internet} номер, количество, {B2} {language} число; (v) {A2} нумеровать, числиться, насчитывать
@@ -3783,6 +3846,10 @@ Communication
               xx ?#  ring+back [rɪŋ bæk] (phrasal verb) {B2} {phone, email and the internet} перезвонить
               xx ?#  ring+in [rɪŋ ɪn] (phrasal verb) {B2} {phone, email and the internet} {tv, radio and news} = to phone a television or radio show, or the place where you work
 
+{C1} {phones, email and the internet {making calls}}
+              4T *#  dial [ˈdaɪəl] (n) {C1} {transport by car or lorry} {engineering} диск, циферблат; (v) {C1} {phones, email and the internet} набирать номер, набирать
+              1T *#  reach [riʧ] (n) {B2} охват; (v) {A2} достигать, связаться, {C1} {phones, email and the internet} доходить
+
 {phones, email and the internet {phone services}}
 .................................................
 {A1} {phones, email and the internet {phone services}}
@@ -3804,6 +3871,13 @@ Communication
   896. (  1) 4T *#PT operator [ˈɒpəreɪtə] (n) {B2} {jobs} {business} {holidays} {phones, email and the internet} {C2} {maths and measurement} оператор; (adj) рабочий
               xT *#  skype [skaɪp] (n) {B2} {phones, email and the internet} скайп; (v) {B2} {phones, email and the internet} = to speak (with somebody) using Skype
  1325. (  1) 3T *#PT trace [treɪs] (n) {C1} след, отпечаток, черта, тропа; (v) {B2} {crime and punishment} {phone, email and the internet} {family and relationships} {C1} прослеживать, следить
+
+{C1} {phones, email and the internet {phone services}}
+  385. (  1) 4T *#PT directory [dɪˈrɛktəri] (n) {C1} {phones, email and the internet} {C2} {computers} каталог, справочник, директория
+              5T *#  disconnect [ˌdɪskəˈnɛkt] (v) {C1} {engineering} {phones, email and the internet} отключать, разъединять
+              xT *#  fax [fæks] (n) {C1} {phones, email and the internet} факс; (v) {C1} {phones, email and the internet} передавать по факсу
+              zT ?#  teleconference [ˈtelikɒnfrəns] (n) {C1} {phones, email and the internet} телеконференция; (v) {C1} {phones, email and the internet} = to attend a conference or discussion at which members are in different places and speak to each other using phone and video connections
+              xx ?#  teleconferencing [ˈtelikɒnfrənsɪŋ] -ing: (v) {C1} {phones, email and the internet} = to attend a conference or discussion at which members are in different places and speak to each other using phone and video connections; (n) {C1} {phones, email and the internet} телеконференции
 
 {phones, email and the internet {social media}}
 ...............................................
@@ -3844,6 +3918,10 @@ Communication
               xx ?#  web+chat [wɛb ʧæt] (n) {B2} {phones, email and the internet} веб-чат
               xx ?#  youtuber [ˈjuːʧuːbə] (n) {B2} {phones, email and the internet} ютубер
 
+{C1} {phones, email and the internet {social media}}
+              1T *#  social [ˈsəʊʃəl] (adj) {A2} {B1} {social issues} {people in society} социальный, общественный; (n) {C1} {phones, email and the internet} собрание, встреча
+              xT ?#  weblog [ˈweblɒɡ] (n) {C1} {phones, email and the internet} веблог
+
 {phones, email and the internet {text messages}}
 ................................................
 {A1} {phones, email and the internet {text messages}}
@@ -3860,6 +3938,9 @@ Communication
 
 {B2} {phones, email and the internet {text messages}}
               xx ?#  picture+messaging [ˈpɪkʧə ˈmɛsɪʤ ɪŋ] (n) {B2} {phones, email and the internet} обмен сообщениями с изображениями
+
+{C1} {phones, email and the internet {text messages}}
+              xT ?#  lol [lɒl] (exclamation) {C1} {phones, email and the internet} Laugh Out Loud
 
 {phones, email and the internet {using the internet}}
 .....................................................
@@ -3896,7 +3977,15 @@ Communication
               yT ?#  surfer [ˈsɜːfə] (n) {B1} {sports: water sports} {B2} {phones, email and the internet} серфер
               xT ?#  surfing [sɜːfɪŋ] -ing: (v) {B1} {sports: water sports} {phones, email and the internet} заниматься серфингом, = to use the internet; (n) {B1} {sports: water sports} {B2} {phones, email and the internet} {tv, radio and news} серфинг
 
+{C1} {phones, email and the internet {using the internet}}
+              xT ?#  bookmark [ˈbʊkˌmɑːk] (n) {C1} {phones, email and the internet} закладка; (v) {C1} {phones, email and the internet} = to record of the address of a file/page on the Internet
+  154. (  1) xT ?#PT broadband [ˈbrɔːdˌbænd] (adj) {C1} {phones, email and the internet} широкополосный
+              xT *#  browse [braʊz] (v) {C1} {shopping} {phones, email and the internet} просматривать, пролистать
+  155. (  1) xT *#PT browser [ˈbraʊzə] (n) {C1} {phones, email and the internet} программа просмотра, браузер
+              5T *#  navigate [ˈnævɪgeɪt] (v) {B2} {transport by water} {transport by air} {transport by car or lorry} управлять, {C1} {phones, email and the internet} проводить, управлять кораблем
+
 {phones, email and the internet {websites}}
+...........................................
 {A1} {phones, email and the internet {websites}}
    15. (  1) 3T *#PT address [əˈdrɛs] (n) {A1} {phones, email and the internet} адрес, обращение, выступление; (v) {B2} обращаться
               1T *#  page [peɪʤ ] (n) {A1} {literature and writing} {phone, email and the internet} страница
@@ -3923,11 +4012,19 @@ Communication
               xx ?#  podcaster [ˈpɒdkɑːstə] (n) {B2} {phones, email and the internet} подкастер
               yT ?#  podcasting [ˈpɒdkɑːstɪŋ] (n) {B1} {phones, email and the internet} подкастинг, = the activity of making an audio or video vecording and putting it on the internet
 
+{C1} {phones, email and the internet {websites}}
+              3T *#  cookie [ˈkʊki] (n) {A2} {food} печенье, {C1} {phones, email and internet} = a computer file with information in it that is sent to the central server each time a particular person uses a network or the Internet
+  411. (  1) 5T *#PT domain [dəʊˈmeɪn] (n) {C1} {phones, email and the internet} {C2} {maths and measurement} область, сфера, владения
+              xT *#  html [eɪʧ-tiː-ɛm-ɛl] (abbr) {C1} {phones, email and the internet} Hypertext Markup Language
+              1T *#  live [lɪv->(v)/laɪv->(adj)] (v) {A1} жить; (adv) {B1} в прямом эфире; (adj) {B1} {tv, radio and news} реальный, живой, {B1} {music} = given or made when people are watching, not recorded; {C1} {engineering} под напряжением, {C1} {healthcare} жизненный = a live vaccine contains viruses or bacteria that are living, {C1} {phones, email and the internet} живой = functioning correctly, so that is connected to another document or page on the internet
+ 1207. (  1) 3T *#PT thread [θrɛd] (n) нить, волокно, {C1} {phones, email and the internet} поток; (adj) нитевидный; (v) продевать нитку, виться
+
 Culture
 =======
 {art}
 ----------
 {art {art equipment}}
+.....................
 {A1} {art {art equipment}}
 {A2} {art {art equipment}}
   119. (  2) 3T ?#PT brush [brʌʃ] (n) {A2} {houses and homes} {art} кисть, щетка; (v) касаться, чистить щеткой, {A2} {appearance} причесывать
@@ -3943,7 +4040,13 @@ Culture
   692. (  1) 3T *#PT ink [ɪŋk] (n) {B2} {art} чернила, тушь
               xx ?#  oil+paint [ɔɪl peɪnt] (n) {B2} {art} масляная краска
 
+{C1} {art {art equipment}}
+  167. (  1) 5T *#PT canvas [ˈkænvəs] (n) {C1} {art} холст, {C1} полотно; (adj) брезентовый
+              1T *#  oil [ɔɪl] (n) {A2} {the environment} {transport by car or lorry} {food} {apperance} {C1} {art} масло, нефть; (adj) нефтяной, масляный
+              5T ?#  palette [ˈpælət] (n) {C1} {art} палитра
+
 {art {artwork and techniques}}
+..............................
 {A1} {art {artwork and techniques}}
    50. (  1) 3T *#PT art [ɑːt] (n) {A1} {art} {education} {hobbies} искусство
   229. (  1) 3T *#PT draw [drɔː] (n) {C1} {sports: ball and racket sports} ничья, жеребьевка; (v) {A1} {art} рисовать, привлекать, {C1} {money} проводить, {C1} {sports: ball and racket sports} играть в ничью, I draw-drew-drawn
@@ -3973,7 +4076,27 @@ Culture
  1092. (  1) 3T *#PT restore [rɪsˈtɔː] (v) {B2} {builidngs} {art} восстанавливать, реставрировать
               xx ?#  self-portrait [ˌsɛlfˈpɔːtrət] (n) {B2} {art} автопортрет
 
+{C1} {art {artwork and techniques}}
+              5T *#  bronze [brɒnz] (n) {C1} {physics andd chemistry} {art} {sports: other sports} бронза; (adj) {C1} {colours and shapes} бронзовый
+  173. (  1) 5T ?#PT carve [kɑːv] (v) {C1} {art} {buildings} вырезать, {C1} {cooking and eating} разделывать, резать, делить, {C1} высекать
+              5T ?#  carving [kɑːvɪŋ] -ing: (v) {C1} {art} {buildings} вырезать, {C1} {cooking and eating} разделывать, резать, делить, {C1} высекать; (n) {C1} {art} резьба, резка
+              xT ?#  ceramic [sɪˈræmɪk] (n) {C1} {art} {C2} {hobbies} керамика; (adj) = made of clay that has been made permanently hard by heat, керамический
+              3T *#  contrast [ˈkɒntrɑːst->(n)/kənˈtrɑːst->(v)] (n) {B1} {C1} {colours and shapes} {art} контраст, контрастность, противоположность, сопоставление; (v) {B1} контрастировать, противопоставлять
+              3T *#  landscape [ˈlænskeɪp] (n) {B2} {geography} {C1} {art} пейзаж, {C2} {computers} ландшафт; (adj) ландшафтный, пейзажный, горизонтальный
+              1T *#  model [ˈmɑdəl] (n) {A1} {A2} {clothes and fashion} {jobs} модель, образец; (v) {B1} {clothes and fashion} {B2} {scientific research} {clothes and fashion} {C1} {art} моделировать; (adj) образцовый
+              zT ?#  mould [məʊld] (n) плесень; (v) {C1} {art} {C2} {opinion and argument} формировать
+              5T ?#  mural [ˈmjʊərəl] (adj) {C2} {art} стенной, интрамуральный; (n) {C1} {houses and homes} {art} фреска, стенная роспись
+              3T ?#  pose [poʊz] (n) {C1} {art} поза; (v) {C1} {art} позировать, {B2} излагать
+              5T *#  pottery [ˈpɒtəri] (n) {C1} {art} {hobbies} керамика, гончарные изделия, гончарное дело
+              3T *#  print [prɪnt] (v) {A2} {computers} {literature and writing} печатать; (n) {B2} шрифт, печатание, {C1} {art} гравюра, печать
+ 1016. (  1) 5T ?#PT restoration [ˌrɛstəˈreɪʃən] (n) {C1} {art} реставрация, {C1} восстановление
+              5T ?#  sculpt [skʌlpt] (v) {C1} {art} лепить, ваять; (n) скульптура
+              3T ?#  shade [ʃeɪd] (n) {B2} {colours and shapes} оттенок, {B2} тень, штора; (v) {C1} {art} затенять
+              yT ?#  silhouette [ˌsɪluˈet] (n) {C1} {art} силуэт; (v) вырисовываться на фоне
+ 1081. (  1) 5T ?#PT sketch [skɛʧ] (n) {C1} {art} эскиз, {B2} {literature and writing} набросок, {C1} {film and theatre} {tv, radio and news} скетч, зарисовка; (v) {C1} {art} делать наброски
+
 {art {describing art}}
+......................
 {A1} {art {describing art}}
   208. (  2) 3T *#PT design [dɪˈzaɪn] (n) {A1} {art} дизайн, {A1} {buildings} конструкция, проектирование
 
@@ -3997,16 +4120,37 @@ Culture
               xx ?#  subject+matter [ˈsʌbʤ ɪkt ˈmætə] (n) {B2} {art} {literature and writing} предмет, = the ideas or information contained in a book, speech, painting, etc.
               5T ?#  vivid [ˈvɪvɪd] (adj) {B2} {literature and writing} {art} {colours and shapes} яркий, живой
 
+{C1} {art {describing art}}
+              xT *#  classical [ˈklæsɪkəl] (adj) {A2} {music} {B2} {history} {buildings} {C1} {art} классический
+              3T ?#  decorative [ˈdɛkərətɪv] (adj) {C1} {art} декоративный
+  354. (  1) 5T ?#PT depict [dɪˈpɪkt] (v) {C1} {art} {literature and writing} изображать
+              yT ?#  depth [dɛpθ] (n) {B2} {maths and measurement} {C1} {art} глубина, высота, толщина, {B2} интенсивность
+              1T *#  finish [ˈfɪnɪʃ] (n) {A2} {C1} {art} конец; (v) {A1} {sports: other sports} заканчивать
+  576. (  1) 5T ?#PT harmony [ˈhɑːməni] (n) {C1} {opinion and argument} {social issues} {music} {art} гармония, согласие, стройность
+  639. (  1) 5T ?#PT inspiration [ˌɪnspəˈreɪʃən] (n) {C1} {literature and writing} {art} {success} вдохновение, {C1} воодушевление
+ 1005. (  1) 5T ?#PT reproduction [ˌriːprəˈdʌkʃən] (n) {C1} {art} воспроизведение, {C1} {biology} размножение
+              zT ?#  shading [ʃeɪdɪŋ] -ing: (v) {C1} {art} затенять; (n) {C1} {art} затенение, слабый оттенок
+              xx ?#  stylistic [staɪˈlɪstɪk] (adj) {C1} {art} {literature and writing} стилистический
+              zT ?#  surreal [səˈrɪəl] (adj) {C1] {art} сюрреалистичный
+              yT *#  symbolic [sɪmˈbɒlɪk] (adj) {C1} {art} {literature and writing} символический
+              4T ?#  viewpoint [ˈvjuːpɔɪnt] (n) {B2} {C1} {art} точка зрения
+
 {art {styles of art}}
 .....................
 {A1} {art {styles of art}}
 {A2} {art {styles of art}}
 {B1} {art {styles of art}}
-             yT ?#  graffiti [ɡrəˈfiːti] (n) {B1} {art} граффити, нацарапанный рисунок, рисунок на стенах домов, надпись на стенах домов
+              yT ?#  graffiti [ɡrəˈfiːti] (n) {B1} {art} граффити, нацарапанный рисунок, рисунок на стенах домов, надпись на стенах домов
 
 {B2} {art {styles of art}}
+{C1} {art {styles of art}}
+              zT ?#  modernism [ˈmɒdənɪzəm] (n) {C1} {art} {buildings} модернизм, новейшие течения
+              4T *#  realism [ˈrɪəlɪzm] (n) {C1} {art} реализм
+              5T ?#  renaissance [rəˈneɪsəns] (n) {C1} {history} {art} возрождение
+              4T ?#  romanticism [rəʊˈmæntɪsɪz(ə)m] (n) {C1} {art} романтизм, {C2} {family and relationships} романтичность
 
 {art {the art world}}
+.....................
 {A1} {art {the art world}}
    51. (  1) 3T *#PT artist [ˈɑːtɪst] (n) {A1} {art} {jobs} художник, {B2} {music} артист
 
@@ -4029,7 +4173,7 @@ Culture
               xx ?#  pavement+artist [ˈpeɪvmənt ˈɑːtɪst] (n) {B2} {art} = an artist who draws pictures in chalk on the pavement, hoping to get money from people who pass
 
 {film and theatre}
------------------------
+------------------
 {{film and theatre {elements of a play or film}}
 ................................................
 {A1} {film and theatre {elements of a play or film}}

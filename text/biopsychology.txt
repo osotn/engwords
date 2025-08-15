@@ -227,5 +227,47 @@ and the outside of a cell.
 
 V = -70mV => resting potential.
 Potential inside the resting neuron is about 70 mV less than outside the neuron.
+In its resting state, with the -70 mV charge build up across its membrane, a neuron
+is said to be polarized.
 
+The salts in neural tissue separate into positively and negatively charged
+particles called ions.
+There are many different kinds of ions in neurons, but this discussion focused on
+only two of them:
+        sodium ions (Na+)
+        potassium ions (K+)
+
+In resting neurons, there are more Na+ ions outside the cell than inside and more
+K+ ions inside than outside.
+Ion channels, each type of ion channel is specialized for the passage of
+particular ions (e.g., Na+ or K+).
+There is substantial pressure on Na+ ions to enter the resting neurons.
+        1) electrostatic: from resting membrane potential
+        2) Random motion for Na+ ions to move down.
+Sodium - potassium pumps.
+Several other classes of transporters = mechanisms in the membrane of a cell that
+actively transport ions or molecules across the membrane.
+
+When neurons fire, they release from their terminal buttons chemicals calls
+neurotransmitters, which diffuse across the synaptic clefts and interact with
+specialized receptor molecules on the receptive membranes of the next neurons in
+the circuit. When neurotransmitter molecules bind to postsynaptic receptors,
+they typically have one or two effects.
+they may depolarize the receptive membrane: from -70 mV to -67 mV or
+they may heperpolarize it, from -70 mV to -72 mV.
+Most effects do not travel more than a couple of millimeters from their site of
+generation.
+
+In some ways, the firing of a neuron is like the firing of a gun.
+
+Voltage activated ion channels
+
+Mammalian motor neurons (synapse on skeletal muscles) are large and myelinated, some can conduct at speeds
+of 100 meters per second. In contrast, small, unmyelinated axons conduct action potentials at about 1 meter
+per second.
+Maximum velocity of conduction in cats - 100 m per sec, 
+                               in humans - 60 m per sec.
+
+Neurotransmitters
+.................
 
