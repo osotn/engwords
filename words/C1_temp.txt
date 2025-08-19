@@ -47,7 +47,7 @@
    28. (  1) xT ?#PT activation [ˌæktɪˈveɪʃ(ə)n] (n) {C1} {engineering} {physics and chemistry} активация
    29. (  1) yT ?#PT activist [ˈæktɪvɪst] (n) {C1} {politics} активист, сторонник активных мер
    30. (  1) 5T ?#PT acute [əˈkjuːt] (adj) острый, проницательный
-   31. (  1) 5T *#PT adaptation [ˌædæpˈteɪʃ(ə)n] (n) приспособление, адаптация
+   31. (  1) 5T *#PT adaptation [ˌædæpˈteɪʃ(ə)n] (n) {C1} приспособление, {C1} {film and theatre} адаптация -1
    32. (  1) 5T ?#PT adhere [ədˈhɪə] (v) {C1} придерживаться, прилипать
    33. (  1) 5T ?#PT adjacent [əˈʤ eɪsənt] (adj) {C1} {buildings} соседний, смежный, примыкающий
    34. (  1) 5T ?#PT adjustment [əˈʤ ʌstmənt] (n) {C1} регулировка, регулирование, установка
@@ -150,7 +150,7 @@
   132. (  1) yT ?#PT beneficiary [ˌbɛnɪˈfɪʃəri] (n) бенефициар, глава церковного прихода, феодальный вассал, тот,_кто пользуется благодеяниями
   133. (  1) 5T ?#PT betray [bɪˈtreɪ] (v) предавать, изменять, выдавать
   134. (  1) xT *#PT bind [baɪnd] (v) {C1} связывать, привязывать, I: bind-bound-bound
-  135. (  1) 5T *#PT biography [baɪˈɒgrəfi] (n) биография, жизнеописание
+
   136. (  1) 4T ?#PT bishop [ˈbɪʃəp] (n) епископ, слон
   137. (  1) 5T ?#PT bizarre [bɪˈzɑː] (adj) {C1} странный, причудливый, эксцентричный
   138. (  1) 3T ?#PT blade [bleɪd] (n) {C1} лезвие, {C2} {plants and trees} травинка, {C1} {transport by air} {engineering} крыло, былинка
@@ -227,11 +227,11 @@
   209. (  1) 5T ?#PT collective [kɒˈlɛktɪv] (n) коллектив, колхоз; (adj) коллективный
   210. (  1) 5T *#PT collision [kəˈlɪʒən] (n) {C1} {transport by car or lorry} столкновение, {C2} {opinion and argument} противоречие
   211. (  1) 5T ?#PT colonial [kəˈləʊniəl] (adj) колониальный; (n) житель колоний, солдат американской армии
-  212. (  1) 4T ?#PT columnist [ˈkɒləmnɪst] (n) обозреватель, журналист
+  212. (  1) 4T ?#PT columnist [ˈkɒləmnɪst] (n) {C1} {literature and writing} {tv, radio and news} обозреватель, журналист -1
   213. (  2) xT ?#PT combat [ˈkɑmbæt/kəmˈbæt] (adj) боевой; (n) бой, сражение; (v) бороться
   214. (  1) yT ?#PT commence [kəˈmɛns] начинать, начинаться
   215. (  1) 5T *#PT commentary [ˈkɒməntəri] (n) комментарий, дикторский текст
-  216. (  1) 5T ?#PT commentator [ˈkɒmənteɪtə] (n) {C1} {sports: other sports} {tv, radio and news} {literature and writing} комментатор
+  216. (  1) 5T ?#PT commentator [ˈkɒmənteɪtə] (n) {C1} {sports: other sports} {tv, radio and news} {literature and writing} комментатор -1
   217. (  1) 5T *#PT commerce [ˈkɒmə(ː)s] (n) {C1} {business} {politics} коммерция, торговля, общение
   218. (  1) 5T ?#PT commissioner [kəˈmɪʃnə] (n) комиссар, уполномоченный, специальный уполномоченный
   219. (  1) 5T ?#PT commodity [kəˈmɒdɪti] (n) товар, продукт
@@ -312,7 +312,7 @@
   294. (  1) xT *#PT correlation [ˌkɒrɪˈleɪʃən] корреляция, соотношение, взаимосвязь
   295. (  1) 5T *#PT correspond [ˌkɒrɪsˈpɒnd] (v) соответствовать, переписываться
   296. (  1) 5T *#PT correspondence [ˌkɒrɪsˈpɒndəns] (n) соответствие, переписка, корреспонденция
-  297. (  1) yT *#PT correspondent [ˌkɒrɪsˈpɒndənt] корреспондент, корреспондентский
+  297. (  1) yT *#PT correspondent [ˌkɒrɪsˈpɒndənt] (n) {C1} {literature and writing} {tv, radio and news} корреспондент; (adj) корреспондентский -1
   298. (  1) 5T *#PT corresponding [ˌkɒrɪsˈpɒndɪŋ] -ing: (v) соответствовать, переписываться
   299. (  1) yT ?#PT corrupt [kəˈrʌpt] (v) развращать, искажать; (adj) продажный
   300. (  1) 5T *#PT corruption [kəˈrʌpʃən] (n) {C1} {crime and punishment} {personal qualilties} коррупция, {C1} развращение, {C2} {computers} искажение, порча
@@ -340,7 +340,7 @@
   322. (  1) 5T ?#PT cultivate [ˈkʌltɪveɪt] (v) культивировать, развивать, возделывать, выращивать, обрабатывать
   323. (  1) 5T *#PT curiosity [ˌkjʊərɪˈɒsɪti] (n) {C1} любопытство; (adj) антикварный
   324. (  1) xT ?#PT custody [ˈkʌstədi] (n) хранение, опека, попечение, арест
-  325. (  1) 4T *#PT cutting [kʌtɪŋ] {C1} {TV, radio and news} {plants and trees} -ing: (v) {A1} {health problems} резать, {B1} {money} отрезать, {B2} {computers} удалять, I: cut-cut-cut
+  325. (  1) 4T *#PT cutting [kʌtɪŋ] -ing: (v) {A1} {health problems} резать, {B1} {money} отрезать, {B2} {computers} удалять, {C1} {film and theatre} выполнять монтаж, I:cut-cut-cut; (n) {C1} {tv, radio and news} {plants and trees} резка, газетная вырезка
   326. (  1) zT ?#PT cynical [ˈsɪnɪk(ə)l] (adj) циничный, бесстыдный
   327. (  1) xT ?#PT dam [dæm] (n) плотина, дамба, запруда
   328. (  1) yT ?#PT damaging [ˈdæmɪʤ ɪŋ] -ing: (v) {B1} {war and conflict} повредить
@@ -369,7 +369,7 @@
   351. (  1) 5T ?#PT dense [dɛns] (adj) {C1} плотный
   352. (  1) 5T *#PT density [ˈdɛnsɪti] (n) плотность
   353. (  1) 5T *#PT dependence [dɪˈpɛndəns] (n) {C1} {health problems} {social issues} зависимость
-  354. (  1) 5T ?#PT depict [dɪˈpɪkt] (v) {C1} {art} {literature and writing} изображать -1
+ -1
   355. (  1) yT ?#PT deploy [dɪˈplɔɪ] (v) {C1} {war and conflict} развертывание, развертывать, применять, развертываться, дислоцировать, приводить в действие
   356. (  1) xT ?#PT deployment [dɪˈplɔɪmənt] (n) {C1} развертывание, размещение
   357. (  1) 3T *#PT deposit [dɪˈpɒzɪt] (n) {B2} {houses and homes} {C1} {money} депозит, залог, месторождение, вклад, взнос; (v) {C1} {money} {houses and homes} депонировать, осаждаться
@@ -429,13 +429,13 @@
 
   412. (  1) yT ?#PT dominance [ˈdɒmɪnəns] (n) {C1} господство, преобладание
   413. (  1) 5T *#PT donor [ˈdəʊnə] донор, донорский
-  414. (  1) xT ?#PT dose [dəʊs] (n) доза, прием; (v) дозировать, прибавлять
+  414. (  1) xT ?#PT dose [dəʊs] (n) {C1} {healthcare} доза, {C1} прием; (v) дозировать, прибавлять
   415. (  1) 5T ?#PT drain [dreɪn] (n) {C1} {buildings} дренаж, отток; (v) {C1} осушать, дренировать
   416. (  1) 5T ?#PT drift [drɪft] (n) {C1} {transport by water} {weather} дрейф, снос; (v) {C1} дрейфовать, плыть по течению
   417. (  1) 3T *#PT driving [draɪvɪŋ] -ing: (v)(intransitive) {A1} ездить, управлять, (v) {A2} вести (кого-то), I: drive-drove-driven; (n) {A2} вождение; (adj) {C1} сильный
   418. (  1) zT ?#PT drown [draʊn] (v) тонуть, топить, заливать
   419. (  1) xT ?#PT dual [ˈdju(ː)əl] (adj) {C1} двойной, двойственный
-  420. (  1) yT ?#PT dub [dʌb] (v) дублировать, ровнять, ударять
+  420. (  1) yT ?#PT dub [dʌb] (v) {C1} {film and theatre} {tv, radio and news} дублировать, {C1} ровнять, ударять; (n) {C2} {film and theatre} {tv, radio and news} {music} дубляж -1
   421. (  1) 5T ?#PT dumb [dʌm] (adj) {C1} глупый, тупой
   422. (  1) xT ?#PT duo [ˈdjuːəʊ] (n) дуэт, актерская пара
   423. (  1) 5T *#PT dynamic [daɪˈnæmɪk] (adj) {B2} {success} {personal qualities} {C1} динамический
@@ -504,7 +504,7 @@
   486. (  1) 5T *#PT execution [ˌɛksəˈkjuʃən] (n) выполнение, исполнение, казнь
   487. (  1) 5T ?#PT exert [ɪgˈzɜːt] (v) {C1} вызывать, влиять
   488. (  1) yT ?#PT exile [ˈɛksaɪl] (n) изгнание, {C1} {crime and punishment} {politics} ссылка, изгнанник; (adj) ссыльный; (v) {C1} {crime and punishment} ссылать
-  489. (  1) 3T *#PT exit [ˈɛksɪt] (n) {B2} {buildings} выход, {B2} {transport by car or lorry} выезд, {C1} {film and theatre} уход; (adj) выходной; (v) {C1} {computres} выходить
+  489. (  1) 3T *#PT exit [ˈɛksɪt] (n) {B2} {buildings} выход, {B2} {transport by car or lorry} выезд, {C1} {film and theatre} уход; (adj) выходной; (v) {C1} {computres} выходить -1
   490. (  1) 5T ?#PT expenditure [ɪksˈpɛndɪʧə] расход, трата
   491. (  1) 4T *#PT experimental [ɛksˌpɛrɪˈmɛntl] (adj) экспериментальный, опытный
   492. (  1) 5T ?#PT expire [ɪksˈpaɪə] (v) истекать, терять силу
@@ -540,7 +540,7 @@
   522. (  1) 5T *#PT flexibility [ˌflɛksɪˈbɪlɪti] (n) {C1} гибкость, уступчивость
   523. (  1) 5T ?#PT flourish [ˈflʌrɪʃ] (v) процветать, расцветать, преуспевать; (n) туш, загогулина, процветание
   524. (  1) 4T ?#PT fluid [ˈflu(ː)ɪd] (n) {C1} жидкость; (adj) жидкий
-  525. (  1) xT ?#PT footage [ˈfʊtɪʤ ] (n) метраж, длина в футах, кадры
+
   526. (  1) 4T ?#PT foreigner [ˈfɒrɪnə] (n) иностранец
   527. (  1) 5T ?#PT forge [fɔrʤ ] (adj) кузнечный; (n) кузница; (v) выковать
   528. (  1) 3T *#PT formula [ˈfɔːmjʊlə] (n) формула, рецепт
@@ -577,7 +577,7 @@
   559. (  1) yT ?#PT grief [griːf] (n) горе
 
   561. (  1) 5T ?#PT grind [graɪnd] (v) молоть, перемалывать, I: grind-ground-ground; (n) размалывание
-  562. (  2) 5T ?#PT grip [grɪp] (n) ручка, захват, контроль; (v) захватывать
+  562. (  2) 5T ?#PT grip [grɪp] (n) ручка, {C1} {sports: ball and racket sports} захват, {C1} контроль; (v) {C1} захватывать
   563. (  1) 5T *#PT gross [grəʊs] (adj) {C1} грубый, крупный, толстый, ужасный
   564. (  1) zT ?#PT guerrilla [ɡəˈrɪlə] (n) {C1} {war and conflict} партизан; (adj) партизанский
   565. (  1) 4T ?#PT guidance [ˈgaɪdəns] (n) {C1} {suggestion and advice} руководство, управление
@@ -619,7 +619,7 @@
   601. (  1) 5T *#PT ideology [ˌaɪdɪˈɒləʤ i] (n) идеология, мировоззрение
   602. (  1) yT *#PT idiot [ˈɪdiət] (n) {C1} идиот, слабоумный
   603. (  1) 5T ?#PT ignorance [ˈɪgnərəns] (n) невежество, незнание, неведение
-  604. (  1) 5T ?#PT imagery [ˈɪmɪʤ əri] (n) образы, образность, скульптура
+
   605. (  1) 5T ?#PT immense [ɪˈmɛns] (adj) {C1} огромный
   606. (  1) yT ?#PT imminent [ˈɪmɪnənt] (adj) неизбежный, угрожающий
   607. (  1) 4T *#PT implementation [ˌɪmplɪmɛnˈteɪʃən] (n) реализация, осуществление, выполнение
@@ -644,7 +644,7 @@
   626. (  1) 5T ?#PT inflict [ɪnˈflɪkt] (v) причинять, налагать, навязывать
   627. (  1) 5T *#PT influential [ˌɪnflʊˈɛnʃəl] (adj) {C1} влиятельный, важный
   628. (  1) 5T ?#PT inherent [ɪnˈhɪərənt] (adj) присущий, неотъемлемый, свойственный
-  629. (  1) 5T ?#PT inhibit [ɪnˈhɪbɪt] (v) подавлять, препятствовать, тормозить, сдерживать
+  629. (  1) 5T ?#PT inhibit [ɪnˈhɪbɪt] (v) {C1} подавлять, препятствовать, тормозить, сдерживать
   630. (  1) 5T ?#PT initiate [ɪˈnɪʃɪɪt/ɪˈnɪʃɪeɪt] (adj) посвященный; (v) начинать; (n) лицо, принятое в общество
   631. (  1) 5T ?#PT inject [ɪnˈʤ ɛkt] (v) вводить, впрыскивать, вставлять; (n) впрыскивание
   632. (  1) 4T ?#PT injection [ɪnˈʤ ɛkʃ(ə)n] (n) инъекция, впрыск, укол, введение
@@ -879,7 +879,7 @@
   860. (  1) 5T ?#PT patent [ˈpeɪtənt->(adj/n/v)/ˈpætənt->(n)] (n) патент, изобретение; (v) патентовать; (adj) патентный
   861. (  1) 5T ? PT pathway [ˈpɑːθweɪ] (n) путь, тропа, дорожка
   862. (  2) 5T ?#PT patrol [pəˈtrəʊl] (n) патруль, патрулирование; (v) патрулировать; (adj) патрульный
-  863. (  1) 5T ?#PT patron [ˈpeɪtrən] (n) покровитель
+
   864. (  1) 3T ?#PT peak [piːk] (n) {C1} {success} {money} пик, {C1} {geography} вершина, максимум; (adj) {C1} {money} пиковый, максимальный
   865. (  1) 4T ?#PT peasant [ˈpɛzənt] (n) крестьянин; (adj) крестьянский
   866. (  1) 5T ?#PT peculiar [pɪˈkjuːliə] (adj) своеобразный
@@ -904,7 +904,7 @@
   885. (  1) 4T ?#PT pond [pɒnd] (n) пруд, водоем, бассейн
   886. (  1) 3T *#PT pop [pɒp] (v) {C1} хлопнуть, возникнуть; (adj) {A2} эстрадный; (n) {A2} {music} = pop music, папа, хлоп; (adv) внезапно; (abbr) = population
   887. (  1) xT *#PT portfolio [pɔːtˈfəʊliəʊ] (n) {C1} {money} портфолио, портфель
-  888. (  1) 5T ?#PT portray [pɔːˈtreɪ] (v) {C1} {film and theatre} изображать, {C1} рисовать портрет
+  888. (  1) 5T ?#PT portray [pɔːˈtreɪ] (v) {C1} {film and theatre} изображать, {C1} рисовать портрет -1
   889. (  1) xx ?    post-war
   890. (  1) 5T *#PT postpone [pəʊstˈpəʊn] (v) откладывать, откладывать
   891. (  1) xT ?#PT practitioner [prækˈtɪʃnə] (n) практикующий (врач, юрист)
@@ -1097,7 +1097,7 @@
  1078. (  1) 4T *#PT simultaneously [ˌsɪməlˈteɪniəsli] -ly: (adj)->(adv) одновременный, симультанный
  1079. (  1) 4T *#PT sin [sɪn] (n) грех, порок; (v) грешить
  1080. (  1) xT *#PT situated [ˈsɪtjʊˌeɪtɪd] -ed: (v) размещать, располагать
- 1081. (  1) 5T ?#PT sketch [skɛʧ] (n) {C1} {art} эскиз, {B2} {literature and writing} набросок, {C1} {film and theatre} {tv, radio and news} скетч, зарисовка; (v) {C1} {art} делать наброски -1
+ 1081. (  1) 5T ?#PT sketch [skɛʧ] (n) {C1} {art} эскиз, {B2} {literature and writing} набросок, {C1} {film and theatre} {tv, radio and news} скетч, зарисовка; (v) {C1} {art} делать наброски -2
  1082. (  1) 5T *#PT skip [skɪp] (n) пропуск, скип; (v) {C1} {education} пропускать, скакать, перескакивать
  1083. (  1) yT ?#PT slam [ˈslæm] (v) хлопать, захлопнуть, прихлопнуть; (n) шлем, хлопанье, тюряга
  1084. (  1) yT ?#PT slap [slæp] (n) пощечина, шлепок; (v) шлепать; (adv) прямо
@@ -1129,7 +1129,7 @@
  1110. (  1) 5T *#PT sphere [sfɪə] (n) {C1} {colours and shapes} сфера, шар, {C1} сфера деятельности -1
  1111. (  2) 3T *#PT spin [spɪn] (n) {C1} вращение, спин, штопор, быстрая езда; (v) {C1} крутиться, I: spin-spun-spun
  1112. (  1) 5T ?#PT spine [spaɪn] (n) позвоночник, спинной хребет, хребет
- 1113. (  1) 5T ?#PT spotlight [ˈspɒtlaɪt] прожектор, центр внимания, освещать
+ 1113. (  1) 5T ?#PT spotlight [ˈspɒtlaɪt] (n) {C1} {film and theatre} прожектор, {C1} центр внимания; (v) освещать -1
  1114. (  1) xT ?#PT spouse [spaʊz] (n) супруга, супруг
  1115. (  2) 4T *#PT spy [spaɪ] (v) {C1} {war and conflict} шпионить; (n) {C1} {war and conflict} {jobs} шпион, диверсант
  1116. (  1) xT ?#PT squad [skwɒd] (n) отряд, команда, отделение; (v) сводить в команды
@@ -1196,7 +1196,7 @@
  1177. (  1) 5T ?#PT sustain [səsˈteɪn] (v) поддерживать, выдерживать, подкреплять
  1178. (  2) 3T ?#PT swing [swɪŋ] (n) качели; (v) качаться, I: swing-swung-swung
  1179. (  1) 4T *#PT sword [sɔːd] (n) меч
- 1180. (  1) yT *#PT symbolic [sɪmˈbɒlɪk] (adj) символический
+-1
  1181. (  1) xT *#PT syndrome [ˈsɪndrəʊm] (n) синдром
  1182. (  1) 5T ?#PT synthesis [ˈsɪnθɪsɪs] (n) {C1} {biology} синтез, {C1} {physics and chemistry} соединение
  1183. (  1) 5T *#PT systematic [ˌsɪstɪˈmætɪk] (adj) систематический, планомерный
@@ -1216,7 +1216,7 @@
  1197. (  1) xT ?#PT testimony [ˈtɛstɪməni] (n) свидетельство, доказательство
  1198. (  1) 5T ?#PT texture [ˈtɛksʧə] (n) {C1} {cooking and eating} текстура, фактура
  1199. (  1) zT ?#PT thankfully [ˈθæŋkfʊli] благодарно, с благодарностью, с облегчением
- 1200. (  1) yT ?#PT theatrical [θɪˈætrɪkəl] (adj) театральный, сценический; (n) спектакль, профессиональный актер
+
  1201. (  1) xT ?#PT theology [θɪˈɒləʤ i] (n) богословие, теология
  1202. (  1) 5T *#PT theoretical [θɪəˈrɛtɪkəl] (adj) теоретический
  1203. (  1) 4T *#PT thereafter [ðeərˈɑːftə] (adv) впоследствии, после этого
@@ -1243,7 +1243,7 @@
  1224. (  1) 3T *#PT trace [treɪs] (n) {C1} след, отпечаток, черта, тропа; (v) {B2} {crime and punishment} {phone, email and the internet} {family and relationships} {C1} прослеживать, следить
  1225. (  1) 4T ?#PT trademark [ˈtreɪdˌmɑːk] (n) {C1} товарный знак, клеймо, фабричная марка
  1226. (  2) 5T ?#PT trail [treɪl] (n) след, тропа, тропинка; (v) тащить, плестись
- 1227. (  1) xT ?#PT trailer [ˈtreɪlə] (n) трейлер, прицеп
+ 1227. (  1) xT ?#PT trailer [ˈtreɪlə] (n) {C1} {tv, radio and news} {film and theatre} трейлер, {C1} {transport by car or lorry} прицеп -1
  1228. (  1) 5T *#PT transaction [trænˈzækʃən] (n) сделка, трансакция, дело
  1229. (  1) 5T ?#PT transcript [ˈtrænskrɪpt] (n) расшифровка, копия
  1230. (  1) 5T *#PT transformation [ˌtrænsfəˈmeɪʃən] (n) преобразование, трансформация, превращение
@@ -1266,7 +1266,7 @@
  1247. (  1) 5T ?#PT tuition [tjuˈɪʃən] обучение, плата за обучение
  1248. (  1) yT ?#PT turnout [ˈtɜːnˈaʊt] забастовка, выпуск, выход, собрание
  1249. (  1) yT ?    turnover
- 1250. (  2) 3T ?#PT twist [twɪst] (n) поворот, кручение, скручивание; (v) крутить
+ 1250. (  2) 3T ?#PT twist [twɪst] (n) {C1} {literature and writing} {film and theatre} {transport by car or lorry} поворот, {C1} кручение, скручивание; (v) {C1} {physics and chemistry} {health problems} крутить -2
  1251. (  1) 5T ?#PT undergraduate [ˌʌndərˈgræʤ əwət] (n) студент; (adj) базовый
  1252. (  1) 5T ?#PT underlying [ˌʌndəˈlaɪɪŋ] -ing: (v) {C1} {change, cause and effect} лежать в основе, лежать под чем-л. I: underlie-underlay-underlay
  1253. (  1) 5T ?#PT undermine [ˈʌndərˌmaɪn] (v) подрывать
@@ -1291,7 +1291,7 @@
  1272. (  1) 5T ?#PT verbal [ˈvɜːbəl] (adj) {C1} {language} = spoken, not written, словесный, {C1} = relating to words, вербальный; (n) оскорбление -1
  1273. (  1) 5T ?#PT verdict [ˈvɜːdɪkt] (n) вердикт, мнение, суждение
  1274. (  1) 5T *#PT verify [ˈvɛrɪfaɪ] (v) проверять, подтверждать, удостоверять
- 1275. (  1) 5T *#PT verse [vɜːs] (n) стих, строфа; (v) писать стихи
+ 1275. (  1) 5T *#PT verse [vɜːs] (n) {C1} {literature and writing} стих, {C1} {music} строфа; (v) писать стихи -1
  1276. (  1) xT *#PT versus [ˈvɜːsəs] (prep) {C1} {sports: other sports} {preferences and decisions} против, в сравнении с
  1277. (  1) 5T ?#PT vessel [ˈvɛsl] (n) судно, {C1} сосуд, {C1} {transport by water} корабль
  1278. (  1) 5T ?#PT veteran [ˈvɛtərən] (n) ветеран; (adj) опытный, заслуженный
@@ -1311,7 +1311,7 @@
  1292. (  1) 5T ?#PT warehouse [ˈweəhaʊs->(n)/ˈweəhaʊz->(v)] (adj) складской; (n) {C1} {buildings} {business} товарный склад, амбар; (v) хранить на складе
  1293. (  1) yT ?#PT warfare [ˈwɔːfeə] (n) война
  1294. (  2) 5T ?#PT warrant [ˈwɒrənt] (n) ордер, предписание; (v) гарантировать
- 1295. (  1) 5T ?#PT warrior [ˈwɒrɪə] (n) воин, боец, воитель
+ 1295. (  1) 5T ?#PT warrior [ˈwɒrɪə] (n) {C1} воин, {C2} {social issues} боец, воитель
  1296. (  1) zT ?#PT weaken [ˈwiːkən] (v) ослаблять
  1297. (  1) 5T ?#PT weave [wiːv] (v) ткать, плести; (n) узор
  1298. (  1) 5T ?#PT weed [wiːd] (n) сорняк, сорная трава, марихуана; (v) полоть, пропалывать
@@ -1321,7 +1321,7 @@
  1302. (  1) yT ?#PT whatsoever [ˌwɒtsəʊˈɛvə] (pron) что бы ни; (adj) любой, какой бы ни
  1303. (  1) yT ?#PT whereby [weəˈbaɪ] (conj) посредством чего, каким образом, как; (adv) чем
  1304. (  1) 3T *#PT whilst [waɪlst] (conj) в то время как, пока, тогда как
- 1305. (  1) 5T *#PT whip [wɪp] (n) кнут, хлыст, нагайка; (v) взбить, хлестать
+ 1305. (  1) 5T *#PT whip [wɪp] (n) кнут, {C2} {politics} хлыст, нагайка; (v) {C1} {cooking and eating} взбить, {C1} хлестать
  1306. (  1) 4T ?#PT wholly [həʊli] -ly: (adj)->(adv) целый, весь
  1307. (  1) 4T ?#PT widen [ˈwaɪdən] (v) расширять
  1308. (  1) 4T *#PT widow [ˈwɪdəʊ] (n) вдова; (v) лишать
@@ -1374,7 +1374,7 @@
               yT ?#  goggles [ˈɡɒɡlz] (n) {C1} {sports: other sports} {sports: water sports} {clothes and fashion} очки, очки защитные -1
               xT *#  l [ɛl] (letter) k L M n; (abbr) {C1} {maths and measurement} {clothes and fashion} (L) = large (size) -1
               5T ?#  linen [ˈlɪnɪn] (n) {C1} {shopping} белье, полотно, {C1} {clothes and fashion} льняное полотно -1
-              xT *#  m [ɛm] (letter) l M n o; (abbr) {A2} {maths and measurement} meter, male, married, {C1} {maths and measurement} {clothes and fashion} (M) = medium -1
+              xT *#  m [ɛm] (letter) l M n o; (abbr) {A2} {maths and measurement} meter, male, married, {C1} {maths and measurement} {clothes and fashion} (M) = medium, {C1} {film and theatre} (Mature) = classified as not recommended for children under the age of 15 -2
               xT ?#  nylon [ˈnaɪlɒn] (n) {C1} {physics and chemistry} {clothes and fashion} нейлон; (adj) нейлоновый -1
               zT ?#  patterned [ˈpætənd] -es: (v) копировать, делать по образцу; (adj) {C1} {houses and homes} {clothes and fashion} узорчатый, узорный -1
               xT *#  s [ɛs] (letter) r S t u; (abbr) second, {C1} {maths and measurement} {clothes and fashion} (S) = small (size); (suffix) -s -1
@@ -1395,7 +1395,7 @@
               xx *#  ordinal [ˈɔːdɪnl] (adj) порядковый; (n) {C1} {maths and measurement} {language} порядковое числительное -1
               3T *#  polish [ˈpɑlɪʃ->(n,v)/ˈpoʊlɪʃ->(adj)] (v) {C1} {houses and homes} полировать, шлифовать; (n) {C1} {houses and homes} полировка, лак, лоск, польский язык; (adj) польский -1
               4T ?#  sodium [ˈsəʊdiəm] (n) {C1} {physics and chemistry} натрий
-              4T ?#  fable [ˈfeɪbəl] (n) {C1} {literature and writing} {language} басня, сказка, миф, выдумка -1
+ -1
               1T *#  voice [vɔɪs] (n) {A2} {music} {C1} {opinion and argument} голос, глас, {B2} {language} залог; (adj) голосовой; (v) {C1} {opinion and argument} выражать, {C1} {language} произносить звонко -1
               zT *#  voiced [vɔɪst] -ed: (v) {C1} {opinion and argument} выражать, {C1} {language} произносить звонко; (adj) {C1} {language} звонкий -1
               yT ?#  paradox [ˈpærədɒks] (n) {C1} {doubt, guessing and certainty} {language} парадокс -1
@@ -1415,10 +1415,26 @@
               5T ?#  wreck [rɛk] (n) {C1} {transport by water} {transport by car or lorry} крушение, авария, развалина, гибель; (v) разрушать
               xT ?#  sheriff [ˈʃɛrɪf] (n) {C1} {law and justice} {jobs} шериф
               xx ?#  inquisitive [ɪnˈkwɪzətɪv] (adj) {C1} {feelings} любознательный, пытливый
-              xx ?#  stylistic [staɪˈlɪstɪk] (adj) {C1} {art} {literature and writing} стилистический -1
-              yT *#  symbolic [sɪmˈbɒlɪk] (adj) {C1} {art} {literature and writing} символический -1
+ -1
               zT ?#  modernism [ˈmɒdənɪzəm] (n) {C1} {art} {buildings} модернизм, новейшие течения -1
               5T ?#  renaissance [rəˈneɪsəns] (n) {C1} {history} {art} возрождение -1
+              5T ?#  curator [kjʊəˈreɪtə(r)] (n) {C1} {art} {jobs} куратор, хранитель музея -1
+              5T ?#  sculptor [ˈskʌlptə] (n) {C1} {art} {jobs} скульптор, ваятель -1
+              yT ?#  climax [ˈklaɪmæks] (n) {C1} {film and theatre} {music} кульминация, высшая точка, = the highest point of sexual pleasure -1
+              5T ?#  ailment [ˈeɪlmənt] (n) {C1} {health problems} недуг, болезнь, недомогание
+              5T ?#  dart [dɑːt] (n) {C1} {sports: other sports} {games and toys} дартс, дротик, дротики, стрел
+              xT ?#  pod [pɒd] (n) {C1} {plants and trees} стручок, кокон, подвеска, марихуана; (v) покрываться стручками
+              xT ?#  soundtrack [ˈsaʊndtræk] (n) {C1} {film and theatre} {music} саундтрек, звуковая дорожка, {B2} {music} = some of the music and sometimes some speech from a film or musical that is released on CD/Internet/etc. for people to buy -1
+-1
+              xT ?#  federation [ˌfɛdəˈreɪʃ(ə)n] (n) {C1} {politics} федерация, объединение, союз, организация
+              4T *#  berry [ˈbɛri] (n) {C1} {food} ягода; (adj) ягодный
+              4T ?#  brandy [ˈbrændi] (n) {C1} {drinks} бренди, коньяк
+              1T *#  lead [liːd/lɛd] (n) {C1} {physics and chemistry} свинец, {B1} {sports: other sports} руководство, {C1} {film and theatre} исполнитель главной роли; (v) {A2} {change, cause and effect} вести, приводить, I:lead-led-led -1
+              5T ?#  promoter [prəˈməʊtə] (n) {C1} {film and theatre} {jobs} промоутер, покровитель -1
+              xT ?#  hd [ˌeɪtʃ ˈdiː] (abbr) {C1} {tv, radio and news} {film and theatre} High Definition, = a system that gives tv/film/video images in extremely high quality -1
+              yT ?#  blockbuster [ˈblɒkbʌstə(r)] (n) {C1} {success} {film and theatre} = something very successful especially a very successful book or film, блокбастер, супербоевик, огромная книга -1
+              3T *#  feature [ˈfiːʧə] (n) {A2} особенность, {B1} черта, характеристика, {C1} {tv, radio and news} = a special article or programme about somebody/something, {C1} {film and theatre} = the main film in a cinema programme; (v) {B1} изображать; напоминать чертами лица -1
+ -1
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
 

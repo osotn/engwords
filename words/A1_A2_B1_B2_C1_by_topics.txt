@@ -4148,6 +4148,7 @@ Culture
               4T *#  realism [ˈrɪəlɪzm] (n) {C1} {art} реализм
               5T ?#  renaissance [rəˈneɪsəns] (n) {C1} {history} {art} возрождение
               4T ?#  romanticism [rəʊˈmæntɪsɪz(ə)m] (n) {C1} {art} романтизм, {C2} {family and relationships} романтичность
+              5T ?#  symbolism [ˈsɪmb(ə)lɪz(ə)m] (n) {C1} {art} символизм, символика
 
 {art {the art world}}
 .....................
@@ -4171,6 +4172,13 @@ Culture
   214. (  1) xT *#PT collector [kəˈlɛktə] (n) коллектор, сборщик, токоприемник, {B2} {art} {hobbies} коллекционер
   481. (  2) 3T ?#PT exhibit [ɪgˈzɪbɪt] (n) {B2} {history} {art} {crime and punishment} экспонат, {B2} показ; (v) {B2} {art} выставлять, {C1} проявлять качества
               xx ?#  pavement+artist [ˈpeɪvmənt ˈɑːtɪst] (n) {B2} {art} = an artist who draws pictures in chalk on the pavement, hoping to get money from people who pass
+
+{C1} {art {the art world}}
+              5T ?#  curator [kjʊəˈreɪtə(r)] (n) {C1} {art} {jobs} куратор, хранитель музея
+              3T *#  master [ˈmæstər] (n) {B2} {education} {C1} {art} мастер, магистр, хозяин; (adj) главный; (v) {B2} {language} овладевать, усвоить
+  863. (  1) 5T ?#PT patron [ˈpeɪtrən] (n) {C1} {art} {C2} {social issues} покровитель
+              5T ?#  sculptor [ˈskʌlptə] (n) {C1} {art} {jobs} скульптор, ваятель
+              zT ?#  sitter [ˈsɪtə] (n) {C1} {art} натурщик, приходящая няня; (adj) сидящий с детьми
 
 {film and theatre}
 ------------------
@@ -4205,16 +4213,29 @@ Culture
  1294. (  1) 3T *#PT tension [ˈtɛnʃən] (n) {B2} {social issues} напряжение, {B2} неловкость, {C1} натяжение, напряжение, упругость, давление, {B2} {film and theatre} {literature and writing} драматизм
               4T ?#  villain [ˈvɪlən] (n) {B2} {film and theatre} {literature and writing} {B2} {personal qualities} злодей, негодяй, хитрец
 
+{C1} {film and theatre {elements of a play or film}}
+              1T *#  act [ækt] (v) {A2} действовать, поступать, {A2} {film and theatre} играть; (n) {B1} {law and justice} {politics} {B2} {music} {C1} {film and theatre} акт, закон
+              yT ?#  climax [ˈklaɪmæks] (n) {C1} {film and theatre} {music} кульминация, высшая точка, = the highest point of sexual pleasure
+  489. (  1) 3T *#PT exit [ˈɛksɪt] (n) {B2} {buildings} выход, {B2} {transport by car or lorry} выезд, {C1} {film and theatre} уход; (adj) выходной; (v) {C1} {computres} выходить
+              4T ?#  narrate [nəˈreɪt] (v) {C1} {film and theatre} рассказывать, повествовать
+              1T ?#  score [skɔː] (n) {A2} {games and toys} {sports: ball and racket sports} {education} {C1} {music} {film and theatre} {maths and measurement} счет, количество очков, зарубка; (v) {A2} {games and toys} {sports: ball and racket sports} выигрывать, {B1} {education} засчитывать, овладеть женщиной
+ 1250. (  2) 3T ?#PT twist [twɪst] (n) {C1} {literature and writing} {film and theatre} {transport by car or lorry} поворот, {C1} кручение, скручивание; (v) {C1} {physics and chemistry} {health problems} крутить
+
 {film and theatre {film-making equipment}}
 ..........................................
 {A1} {film and theatre {film-making equipment}}
   129. (  1) 3T *#PT camera [ˈkæmərə] (n) {A1} {film and theatre} {tv, radio and news} камера
+
 {A2} {film and theatre {film-making equipment}}
 {B1} {film and theatre {film-making equipment}}
 
 {B2} {film and theatre {film-making equipment}}
               xx ?#  director's+chair [daɪˈrɛktəz ʧeə] (n) {B2} {film and theatre} кресло директора
   787. (  1) 3T ?#PT make-up [ˈmeɪkʌp] (n) {B2} {film and theatre} {appearance} макияж, косметика, состав, грим, верстка
+
+{C1} {film and theatre {film-making equipment}}
+              5T ?#  reel [riːl] (n) {C1} {films and theatre} {C2} {phones, email and the internet} катушка, барабан, шатание; (v) наматывать
+ 1113. (  1) 5T ?#PT spotlight [ˈspɒtlaɪt] (n) {C1} {film and theatre} прожектор, {C1} центр внимания; (v) освещать
 
 {film and theatre {film review and promotion}}
 ..............................................
@@ -4228,6 +4249,9 @@ Culture
 {B2} {film and theatre {film review and promotion}}
   299. (  1) 4T *#PT critic [krɪtɪk] (n) {B2} {opinion and argument} {literature and writing} {jobs} {film and theatre} критик, рецензент; (adj) критический
               5T ?#  masterpiece [ˈmɑːstəpiːs] (n) {B2} {literature} {film and theatre} {art} шедевр
+
+{C1} {film and theatre {film review and promotion}}
+ 1227. (  1) xT ?#PT trailer [ˈtreɪlə] (n) {C1} {tv, radio and news} {film and theatre} трейлер, {C1} {transport by car or lorry} прицеп
 
 {film and theatre {in the theatre}}
 ...................................
@@ -4246,6 +4270,9 @@ Culture
   145. (  1) 4T *#PT booking [bʊkɪŋ] -ing: (v) {A2} {holidays} {transport by air} {cooking and eating} {transport by bus and train} заказывать, зарегистрировать; (n) {B2} {transport by bus and train} {holidays} {film and theatre} заказ, продажа билетов
               xx ?#  performing+arts [pəˈfɔːmɪŋ ɑːts] (n) {B2} {film and theatre} {music} {education} исполнительское искусство
               xx ?#  wind+machine [wɪnd məˈʃiːn] (n) {B2} {film and theatre} ветряная машина
+
+{C1} {film and theatre {in the theatre}}
+              5T ?#  backdrop [ˈbækdrɒp] (n) {C1} {film and theatre} фон
 
 {film and theatre {making films}}
 .................................
@@ -4272,6 +4299,18 @@ Culture
  1177. (  1) 3T *#PT shot [ʃɒt] (n) {B2} выстрел, {B2} {sports: ball and racket sports} {film and theatre} попытка, {C1} {healthcare} глоток спиртного; -1,2ed: (v) {B1} {war and conflict} {crime and punishment} стрелять, расстрелять, {B2} {film and theatre} снять, застрелить, {B2} {sports: ball and racket sports} отстреливать, I: shoot-shot-shot
               xx ?#  sound+effect [saʊnd ɪˈfɛkt] (n) {B2} {film and theatre} {computers} звуковой эффект
               5T ?#  stunt [stʌnt] (n) {B2} {film and theatre} трюк; (v) показывать фокусы, останавливать рост
+
+{C1} {film and theatre {making films}}
+              5T ?#  animate [ˈænɪmɪt->(adj)/ˈænɪmeɪt->(v)] (adj) живой, оживленный; (v) {C1} {film and theatre} оживить, оживлять, вдохновлять
+              3T *#  cast [kɑːst] (v) {B2} бросать, отбрасывать, отливать, {C1} {film and theatre} проводить кастинг, I: cast-cast-cast; (n) литье, бросок, приведение типов, тип, образчик, {B2} {film and theatre} состав исполнителей, {B2} {healthcare} гипсовая повязка
+              1T *#  cut [kʌt] (n) {B1} {health problems} порез, {B1} {money} снижение, {B1} {appearance} стрижка, {C1} {clothes and fashion} покрой, {C1} {film and theatre} монтаж; (v) {A1} {health problems} резать, {B1} {money} отрезать, {B2} {computers} удалять, {C1} {film and theatre} выполнять монтаж, I:cut-cut-cut
+              1T *#  direction [dəˈrɛkʃən/daɪˈrɛkʃɪn/dɪˈrɛkʃɪn] (n) {A2} направление, {C1} {film and theatre} руководство, указание
+  420. (  1) yT ?#PT dub [dʌb] (v) {C1} {film and theatre} {tv, radio and news} дублировать, {C1} ровнять, ударять; (n) {C2} {film and theatre} {tv, radio and news} {music} дубляж
+  525. (  1) xT ?#PT footage [ˈfʊtɪʤ ] (n) {C1} {film and theatre} {C2} {maths and measurement} метраж, длина в футах, кадры
+              3T *#  frame [freɪm] (n) {B1} {art} рамка, {C1} {film and theatre} кадр, {B1} {buildings} каркас; (adj) рамочный; (v) {B1} {art} обрамлять, сооружать, составлять
+              yT ?#  screenplay [ˈskriːnpleɪ] (n) {C1} {film and theatre} сценарий
+              xT ?#  soundtrack [ˈsaʊndtræk] (n) {C1} {film and theatre} {music} саундтрек, звуковая дорожка, {B2} {music} = some of the music and sometimes some speech from a film or musical that is released on CD/Internet/etc. for people to buy
+              1T *#  take [teɪk] (v) {A1} принимать, {A2} {education} {B1} {war and conflict} брать, {B2} {opinion and argument} считать, {A1} {transport by bus and train} использовать, {B2} {sports: ball and racket sports} = to kick or throw the ball from a fixed or agreed position, {C1} {clothes and fashion} = to wear a particular size in shoes or clothes, I:take-took-taken; (n) {C1} {film and theatre} = a scene or part that is filmed t one time without stopping the camera
 
 {film and theatre {people in film theatre}}
 ...........................................
@@ -4303,6 +4342,17 @@ Culture
               zT ?#  screenwriter [ˈskriːnˌraɪtə] (n) {B2} {literature and writing} {film and theatre} сценарист, кинодраматург
               xx ?#  voice+actor [vɔɪs ˈæktə] (n) {B2} {film and theatre} {jobs} = a person who privides voices for films, television shows, video games, etc., актер озвучивания
 
+{C1} {film and theatre {people in film theatre}}
+              4T *#  dramatist [ˈdrɑmətɪst] (n) {C1} {literature and writing} {film and theatre} драматург
+              yT ?#  dresser [ˈdrɛsə] (n) {C1} {film and theatre} костюмер, {C2} {houses and homes} туалетный столик
+              3T *#  extra [ˈɛkstrə] (adj) {A1} дополнительный, лишний, экстренный; (adv) {B1} дополнительно, особо; (n) {B1} {C1} {film and theare} статист, высший сорт, приплата
+              xx ?#  filmgoer [ˈfɪlmɡəʊə(r)] (n) {C1} {film and theatre} кинозритель
+              1T *#  lead [liːd/lɛd] (n) {C1} {physics and chemistry} свинец, {B1} {sports: other sports} руководство, {C1} {film and theatre} исполнитель главной роли; (v) {A2} {change, cause and effect} вести, приводить, I:lead-led-led
+              xT *#  m [ɛm] (letter) l M n o; (abbr) {A2} {maths and measurement} meter, male, married, {C1} {maths and measurement} {clothes and fashion} (M) = medium, {C1} {film and theatre} (Mature) = classified as not recommended for children under the age of 15
+              5T ?#  playwright [ˈpleɪraɪt] (n) {C1} {literature and writing} {film and theatre} драматург
+              5T ?#  promoter [prəˈməʊtə] (n) {C1} {film and theatre} {jobs} промоутер, покровитель
+              xx *#  stuntman [ˈstʌntmən] (n) {C1} {film and theatre} каскадер, I:*man-*men
+
 {film and theatre {producing a play}}
 .....................................
 {A1} {film and theatre {producing a play}}
@@ -4325,6 +4375,14 @@ Culture
               5T ?#  rehearse [rɪˈhɜːs] (v) {B2} {film and theatre} репетировать, повторять
               xx ?#  show+business [ʃəʊ ˈbɪznɪs] (n) {B2} {film and theatre} шоу-бизнес, театральное дело, индустрия развлечений
  1227. (  1) 3T *#PT stage [steɪʤ ] (n) {A2} этап, стадия, {B1} {film and theatre} сцена; (adj) сценический, ступенчатый; (v) {B2} {film and theatre} ставить
+
+{C1} {film and theatre {producing a play}}
+              5T *#  casting [kɑːstɪŋ] -ing: (v) {B2} бросать, отбрасывать, отливать, {C1} {film and theatre} проводить кастинг, I: cast-cast-cast; (n) {C1} {film and theatre} кастинг
+              5T ?#  dramatize [ˈdræmətaɪz] (v) {C1} {film and theatre} драматизировать, сгущать краски, преувеличивать, инсценировать
+              3T *#  interpretation [ɪnˌtɜːprɪˈteɪʃən] (n) {C1} {music} {film and theatre} интерпретация, толкование, {B2} перевод, объяснение
+  888. (  1) 5T ?#PT portray [pɔːˈtreɪ] (v) {C1} {film and theatre} изображать, {C1} рисовать портрет
+              xx *#  put+on [pʊt ɒn] (phrasal verb) {A2} {clothes and fashion} надевать, {C1} {film and theatre} ставить
+ 1200. (  1) yT ?#PT theatrical [θɪˈætrɪkəl] (adj) {C1} {film and theatre} театральный, сценический; (n) спектакль, профессиональный актер
 
 {film and theatre {showing films}}
 ..................................
@@ -4353,6 +4411,13 @@ Culture
               1T *#  season [ˈsiːzn] (n) {A2} {time} время года, {B2} {film and theatre} {clothes and fashion} сезон; (adj) сезонный; (v) приправлять
               yT *#  subtitle [ˈsʌbˌtaɪtl] (n) {B2} {film and theatre} {literature and writing} подзаголовок, субтитр
 
+{C1} {film and theatre {showing films}}
+              xT ?#  hd [ˌeɪtʃ ˈdiː] (abbr) {C1} {tv, radio and news} {film and theatre} High Definition, = a system that gives tv/film/video images in extremely high quality
+              zT ?#  multiplex [ˈmʌltiˌplɛks] (n) {C1} {film and theatre} = a large cinema with sevela separate room with screens, мультиплекс; (adj) сложный, многократный
+              xT ?#  premiere [ˈprɛmɪeə] (n) {C1} {film and theatre} премьера, прима; (adj) первый, ведущий; (v) давать премьеру
+              5T ?#  projector [prəˈʤ ɛktə] (n) {C1} {film and theatre} проектор, гранатомет
+              xT *#  showing [ʃəʊɪŋ] -ing: (v) {A1} {B1} {tv, radio and news} показывать, I:show-showed-shown/showned; (n) {C1} {film and theatre} показ, представление
+
 {film and theatre {types a film}}
 .................................
 {A1} {film and theatre {types a film}}
@@ -4380,6 +4445,15 @@ Culture
               xx ?#  sci-fi [saɪ-faɪ] (n) {B2} {literature and writing} {film and theatre} научная фантастика; (adj) научно-фантастический
               3T *#  silent [ˈsaɪlənt] (adj) {B1} тихий, молчаливый, {B2} {film and theatre} немой
 
+{C1} {film and theatre {types a film}}
+   31. (  1) 5T *#PT adaptation [ˌædæpˈteɪʃ(ə)n] (n) {C1} приспособление, {C1} {film and theatre} адаптация
+              yT ?#  blockbuster [ˈblɒkbʌstə(r)] (n) {C1} {success} {film and theatre} = something very successful especially a very successful book or film, блокбастер, супербоевик, огромная книга
+              yT ?#  bollywood [ˈbɒliwʊd] (n) {C1} {film and theatre} Болливуд
+              5T ?#  epic [ˈɛpɪk] (adj) эпический; (n) {C2} {literature and writing} {C1} {film and theatre} эпическая поэма
+              3T *#  feature [ˈfiːʧə] (n) {A2} особенность, {B1} черта, характеристика, {C1} {tv, radio and news} = a special article or programme about somebody/something, {C1} {film and theatre} = the main film in a cinema programme; (v) {B1} изображать; напоминать чертами лица
+              yT ?#  remake [ˌriːˈmeɪk] (v) переделывать; (n) {C1} {film and theatre} переделка
+              yT ?#  sequel [ˈsiːkwəl] (n) {C1} {literature and writing} {film and theatre} продолжение, последующее событие
+
 {film and theatre {types of play}}
 ..................................
 {A2} {film and theatre {types of play}}
@@ -4395,6 +4469,10 @@ Culture
   112. (  1) 5T ?#PT ballet [ˈbæleɪ] (n) {B2} {film and theatre} балет; (adj) балетный
   411. (  1) 3T *#PT dramatic [drəˈmætɪk] (adj) {B2} {film and theatre} драматический
  1328. (  1) 5T *#PT tragedy [ˈtræʤ ɪdi] (n) {B2} {literature and writing} {film and theatre} трагедия, {B2} трагизм
+
+{C1} {film and theatre {types of play}}
+              xT ?#  broadway [ˈbrɔːdˌweɪ] (n) {C1} {film and theatre} Бродвей
+ 1081. (  1) 5T ?#PT sketch [skɛʧ] (n) {C1} {art} эскиз, {B2} {literature and writing} набросок, {C1} {film and theatre} {tv, radio and news} скетч, зарисовка; (v) {C1} {art} делать наброски
 
 {literature and writing}
 -----------------------------
@@ -4412,6 +4490,8 @@ Culture
 {B2} {literature and writing {characters in story}}
               5T ?#  narrator [nəˈreɪtə] (n) {B2} {tv, radio and news} {literature and writing} рассказчик
               4T ?#  villain [ˈvɪlən] (n) {B2} {film and theatre} {literature and writing} {personal qualities} злодей, негодяй, хитрец
+
+{C1} {literature and writing {characters in story}}
 
 {literature and writing {describing a story}}
 .............................................
@@ -4436,6 +4516,18 @@ Culture
               xx ?#  subject+matter [ˈsʌbʤ ɪkt ˈmætə] (n) {B2} {art} {literature and writing} предмет, = the ideas or information contained in a book, speech, painting, etc.
  1294. (  1) 3T *#PT tension [ˈtɛnʃən] (n) {B2} {social issues} напряжение, {B2} неловкость, {C1} натяжение, напряжение, упругость, давление, {B2} {film and theatre} {literature and writing} драматизм
               5T ?#  vivid [ˈvɪvɪd] (adj) {B2} {literature and writing} {art} {colours and shapes} яркий, живой
+
+{C1} {literature and writing {describing a story}}
+              5T ?#  autobiographical [ˌɔːtəˌbaɪəˈɡræfɪkl] (adj) {C1} {literature and writing} автобиографический
+              5T ?#  concise [kənˈsaɪs] (adj) {C1} {literature and writing} краткий, сжатый, четкий
+  354. (  1) 5T ?#PT depict [dɪˈpɪkt] (v) {C1} {art} {literature and writing} изображать
+              zT ?#  gripping [grɪpɪŋ] -ing: (v) {C1} захватывать; (adj) {C1} {literature and writing} захватывающий
+              1T *#  heavy [ˈhɛvi] (adj) {A2} {appearance} {B2} {physics and chemistry} {transport by car or lorry} {C1} {literature and writing} тяжелый, сильный; (adv) тяжело
+  604. (  1) 5T ?#PT imagery [ˈɪmɪʤ əri] (n) образы, {C1] {literature and writing} образность, скульптура
+              yT ?#  readable [ˈriːdəbl] (adj) {C1} {literature and writing} удобочитаемый, четкий, хорошо написанный
+              xx ?#  stylistic [staɪˈlɪstɪk] (adj) {C1} {art} {literature and writing} стилистический
+ 1180. (  1) yT *#PT symbolic [sɪmˈbɒlɪk] (adj) {C1} {art} {literature and writing} символический
+              4T *#  tragic [ˈtræʤ ɪk] (adj) {B2} {feelings} {C1} {literature and writing} трагический, печальный
 
 {literature and writing {elements of a story}}
 ..............................................
@@ -4463,6 +4555,12 @@ Culture
   934. (  1) 3T ?#PT passage [ˈpæsɪʤ ] (n) {B2} {houses and homes} {buildings} проход, {B2} {music} {literature and writing} отрывок, эпизод, {C1} {transport by water} прохождение
               zT ?#  storyline [ˈstɔːrɪlaɪn] (n) {B2} {film and theatre} {literature and writing} сюжетная линия
 
+{C1} {literature and writing {elements of a story}}
+              xT ?#  characterization [kærɪktəraɪˈzeɪʃ(ə)n] (n) {C1} {literature and writing} характеристика
+              xx ?#  first+person [fɜːst ˈpɜːs(ə)n] (n) {B2} {language} первое лицо, {C1} {literature and writing} = a way of writing a novel as if one of the characters is telling the story using the word
+              4T ?#  narration [nəˈreɪʃ(ə)n] (n) {C1} {literature and writing} повествование, рассказ, пересказ
+ 1250. (  2) 3T ?#PT twist [twɪst] (n) {C1} {literature and writing} {film and theatre} {transport by car or lorry} поворот, {C1} кручение, скручивание; (v) {C1} {physics and chemistry} {health problems} крутить
+
 {literature and writing {parts of a book}}
 ..........................................
 {A1} {literature and writing {parts of a book}}
@@ -4481,6 +4579,12 @@ Culture
   676. (  1) 3T *#PT index [ˈɪndɛks] (n) {B2} {literature and writing} {C1} {money} индекс, {C2} {computers} указатель; (v) составлять указатель
   793. (  1) 5T *#PT margin [ˈmɑːʤ ɪn] (n) {B2} {literature and writing} {C1} {business} запас, край, поле, грань, полоса
               yT *#  subtitle [ˈsʌbˌtaɪtl] (n) {B2} {film and theatre} {literature and writing} подзаголовок, субтитр
+
+{C1} {literature and writing {parts of a book}}
+              xT *#  appendix [əˈpɛndɪks] (n) {C1} {literature and writing} приложение, {C2} {body} аппендицит, I:appendix-appendixes/appendices
+              5T ?#  footnote [ˈfʊtnəʊt] (n) {C1} {literature and writing} сноска, примечание, подстрочное примечание
+              3T *#  jacket [ˈʤ ækət/ˈʤ ækɪt] (n) {A1} {clothes and fashion} куртка, жакет, {C1} {literature and writing} рубашка
+              3T *#  leaf [liːf] (n) {B1} {plants and trees} {C1} {literature and writing} лист, I: leaf-leaves; (adj) листовой
 
 {literature and writing {people in publishing}}
 ...............................................
@@ -4509,6 +4613,14 @@ Culture
               xx ?#  scriptwriter [ˈskrɪptˌraɪtə] (n) {B2} {literature and writing} {tv, radio and news} сценарист, автор текста, автор беседы по радио, автор лекции по радио
               zT *#  storyteller [ˈstɔːrɪˌtɛlə] (n) {B2} {literature and writing} рассказчик, сказочник, автор рассказов, лгун
 
+{C1} {literature and writing {people in publishing}}
+              5T ?#  biographer [baɪˈɒɡrəfə(r)] (n) {C1} {literature and writing} биограф
+  212. (  1) 4T ?#PT columnist [ˈkɒləmnɪst] (n) {C1} {literature and writing} {tv, radio and news} обозреватель, журналист
+  216. (  1) 5T ?#PT commentator [ˈkɒmənteɪtə] (n) {C1} {sports: other sports} {tv, radio and news} {literature and writing} комментатор
+  297. (  1) yT *#PT correspondent [ˌkɒrɪsˈpɒndənt] (n) {C1} {literature and writing} {tv, radio and news} корреспондент; (adj) корреспондентский
+              4T *#  dramatist [ˈdrɑmətɪst] (n) {C1} {literature and writing} {film and theatre} драматург
+              5T ?#  playwright [ˈpleɪraɪt] (n) {C1} {literature and writing} {film and theatre} драматург
+
 {literature and writing {poetry}}
 .................................
 {A1} {literature and writing {poetry}}
@@ -4518,6 +4630,10 @@ Culture
 
 {B2} {literature and writing {poetry}}
               4T ?#  rhyme [raɪm] (n) {B2} {literature and writing} рифма, поэзия; (v) {B2} {literature and writing} рифмовать
+
+{C1} {literature and writing {poetry}}
+              yT *#  poetic [pəʊˈɛtɪk] (adj) {C1} {literature and writing} поэтичный
+ 1275. (  1) 5T *#PT verse [vɜːs] (n) {C1} {literature and writing} стих, {C1} {music} строфа; (v) писать стихи
 
 {literature and writing {types of story}}
 .........................................
@@ -4542,6 +4658,11 @@ Culture
               xx ?#  sci-fi [saɪ-faɪ] (n) {B2} {literature and writing} {film and theatre} научная фантастика; (adj) научно-фантастический
  1283. (  1) 4T *#PT tale [teɪl] (n) {B2} {literature and writing} рассказ, повесть
  1328. (  1) 5T *#PT tragedy [ˈtræʤ ɪdi] (n) {B2} {literature and writing} {film and theatre} трагедия, {B2} трагизм
+
+{C1} {literature and writing {types of story}}
+              4T ?#  fable [ˈfeɪbəl] (n) {C1} {literature and writing} {language} басня, сказка, миф, выдумка
+              4T ?#  romance [rəʊˈmæns] (n) романс, романтика, {C1} {literature and writing} роман, рыцарский роман, {B2} {family and relationships} любовная история; (adj) романский
+              yT ?#  sequel [ˈsiːkwəl] (n) {C1} {literature and writing} {film and theatre} продолжение, последующее событие
 
 {literature and writing {types of text}}
 ........................................
@@ -4581,6 +4702,9 @@ Culture
               xx ?#  set+text [sɛt tɛkst] (n) {B2} {literature and writing} = a book that students must study for a particular exam
               5T ?#  sketch [skɛʧ] (n) {C1} {art} эскиз, {B2} {literature and writing} набросок, {C1} {film and theatre} {tv, radio and news} скетч, зарисовка; (v) {C1} {art} делать наброски
  1395. (  1) 3T *#PT volume [ˈvɑljum] (n) {B2} {maths and measurement} объем, {B2} {literature and writing} том, {B2} {tv, radio and news} {music} громкость; (adj) объемный
+
+{C1} {literature and writing {types of text}}
+  135. (  1) 5T *#PT biography [baɪˈɒgrəfi] (n) {C1} {literature and writing} биография, жизнеописание
 
 {literature and writing {writing and publishing}}
 .................................................
