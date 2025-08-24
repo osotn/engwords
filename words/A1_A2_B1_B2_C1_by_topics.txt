@@ -4705,6 +4705,12 @@ Culture
 
 {C1} {literature and writing {types of text}}
   135. (  1) 5T *#PT biography [baɪˈɒgrəfi] (n) {C1} {literature and writing} биография, жизнеописание
+              yT ?#  hardback [ˈhɑːdbæk] (n) {C1} {literature and writing} твердый переплет, книга в твердой обложке
+              xT ?#  hardcover [ˈhɑːdˌkʌvə] (n) {C1} {literature and writing} книга в твердой обложке
+              5T ?#  pamphlet [ˈpæmflɪt] (n) {C1} {literature and writing} брошюра, памфлет, технический проспект
+              xT ?#  paperback [ˈpeɪpəbæk] (n) {C1} {literature and writing} мягкая обложка, книга в мягкой обложке
+              5T *#  prose [prəʊz] (n) {C1} {literature and writing} проза
+              5T ?#  trilogy [ˈtrɪləʤ i] (n) {C1} {literature and writing} трилогия
 
 {literature and writing {writing and publishing}}
 .................................................
@@ -4735,6 +4741,13 @@ Culture
  1020. (  1) 3T *#PT publication [ˌpʌblɪˈkeɪʃən] (n) {B2} {literature and writing} публикация, {B2} издание
  1022. (  1) 3T *#PT publishing [ˈpʌblɪʃɪŋ] -ing: (v) {A2} {literature and writing} {tv, radio and news} {phones, email and the internet} публиковать, издавать; (n) {B2} {literature and writing} издательское дело
 
+{C1} {literature and writing {writing and publishing}}
+              5T *#  compose [kəmˈpəʊz] (v) {B2} {music} {C1} {literature and writing} сочинять, составить, составлять, {C1} создавать
+  375. (  1) 5T *#PT dictate [ˈdɪkˌteɪt->(n)/dɪkˈteɪt->(v)] (v) {C1} диктовать, {C1} {literature and writing} продиктовать; (n) диктат, {C2} {permission and obligation} веление
+  639. (  1) 5T ?#PT inspiration [ˌɪnspəˈreɪʃən] (n) {C1} {literature and writing} {art} {success} вдохновение, {C1} воодушевление
+              5T ?#  proofread [ˈpruːfriːd] (v) {C1} {literature and writing} вычитать, читать корректуру
+              xT *#  script [skrɪpt] (n) {B1} {film and theatre} {C2} {computers} сценарий, почерк, расписка; (v) {C1} {literature and writing} писать сценарий
+
 {music}
 ------------
 {music {describing music}}
@@ -4753,6 +4766,17 @@ Culture
               1T *#  note [nəʊt] (n) {A1} внимание, примечание, записка, {B2} {music} нота, {B1} {money} {shopping} банкнот, замечание, заметка, запись; (v) {B1} отмечать, делать заметки, записывать
  1103. (  1) 3T ?#PT rhythm [ˈrɪðəm] (n) {B2} {music} ритм, ритмичность
  1321. (  1) 3T *#PT tone [təʊn] (n) {B2} {music} тон, {B2} тонус, {C2} {colours and shapes} оттенок; (v) {C2} {colours and shapes} гармонировать
+
+{C1} {music {describing music}}
+              xT ?#  acoustic [əˈkuːstɪk] (adj) {C1} {music} акустический, звуковой; (n) акустик
+              yT ?#  climax [ˈklaɪmæks] (n) {C1} {film and theatre} {music} кульминация, высшая точка, = the highest point of sexual pleasure
+  576. (  1) 5T ?#PT harmony [ˈhɑːməni] (n) {C1} {opinion and argument} {social issues} {music} {art} гармония, согласие, стройность
+  643. (  1) 5T ?#PT instrumental [ˌɪnstrʊˈmɛntl] (adj) {C1} {music} инструментальный, {C1} творительный; (n) творительный падеж, {C2} {music} = a piece of music in which only musical intruments are used
+              1T *#  major [ˈmeɪʤ ə] (n) {C1} {war and confict} майор, {C1} {education} профилирующая дисциплина; (adj) {A2} крупный, большой, главный, {C1} {music} более важный, мажорный
+  756. (  1) 5T ?#PT melody [ˈmɛlədi] (n) {C1} {music} мелодия, мелодичность
+              3T *#  minor [ˈmaɪnə] (n) {C1} {education} минор, {C2} {life stages} несовершеннолетний подросток, недоросль; (adj) {B2} незначительный, несовершеннолетний, второстепенный, {C1} {music} минорный
+              3T ?#  pitch [pɪʧ] (n) смола, питч, {C1} {language} {music} высота, подача, {B2} {sports: ball and racket sports} поле
+ 1275. (  1) 5T *#PT verse [vɜːs] (n) {C1} {literature and writing} стих, {C1} {music} строфа; (v) писать стихи
 
 {music {listening to music}}
 ............................
@@ -4782,6 +4806,13 @@ Culture
  1326. (  1) 3T *#PT track [træk] (n) {A2} {transport by bus and train} {B1} {sports: other sports} {transport by car or lorry} {hobbies} {B2} {music} трек, след, дорожка, трасса; (v) {B2} следить
  1395. (  1) 3T *#PT volume [ˈvɑljum] (n) {B2} {maths and measurement} объем, {B2} {literature and writing} том, {B2} {tv, radio and news} {music} громкость; (adj) объемный
 
+{C1} {music {listening to music}}
+              yT ?#  jukebox [ˈdʒuːkbɒks] (n) {C1} {music} музыкальный автомат, проигрыватель-автомат
+              4T ?#  loudspeaker [ˌlaʊdˈspiːkə] (n) {C1} {music} громкоговоритель
+              xT ?#  playlist [ˈpleɪˌlɪst] (n) {C1} {music} {tv, radio and news} плейлист
+              3T *#  stream [strim] (n) {B2} {geography} поток, течь, ручей; (v) вытекать, {C1} {music} транслировать
+              xT ?#  vinyl [ˈvaɪnl] (n) {C1} {music} винил
+
 {music {live music}}
 ....................
 {A1} {music {live music}}
@@ -4804,6 +4835,17 @@ Culture
               4T *#  microphone [ˈmaɪkrəfəʊn] (n) {B2} {music} микрофон
               xx ?#  opera+house [ˈɒp(ə)rə haʊs] (n) {B2} {buildings} {music} оперный театр
               xx ?#  sound+system [saʊnd ˈsɪstəm] (n) {B2} {music} звуковая система
+
+{C1} {music {live music}}
+              4T *#  amplifier [ˈæmplɪfaɪə] (n) {C1} {engineering} {music} усилитель
+              5T ?#  amplify [(UK)ˈæmplɪfaɪ/(US)ˈæmpləˌfaɪ] (v) {C1} {music} усиливать, увеличивать, расширять
+              5T ?#  improvise [ˈɪmprəvaɪz] (v) {C1} {music} импровизировать
+  715. (  1) xx ?#PT line-up [ˈlaɪn ʌp] (n) {C1} строй, расстановка, расположение, состав команды, {C1} {music} = a set of items/events/etc. arranged to follow another
+              xT ?#  mic [maɪk] (abbr) {C1} {music} microphone
+              xT *#  mike [maɪk] (abbr) {C1} {music} microphone
+              5T ?#  recital [rɪˈsaɪtl] (n) {C1} {music} сольный концерт, рассказ
+              1T *#  set [sɛt] (n) {B1} набор, комплект, {B2} {maths and measurement} множество, {B2} {film and theatre} декорации, {C1} {music} = a series of songs or pieces of music that a musician or group performs at a concert; (adj) установленный; (v) {B1} {education} {film and theatre} устанавливать, I:set-set-set
+              1T *#  support [səˈpɔːt] (n) {A2} {success} {B2} {healthcare} {C1} {music} поддержка, помощь; (v) {A2} {success} {politics} {B1} {money} {B2} {opinion and argument} {buildings} {C1} {music} поддерживать
 
 {music {musical instruments}}
 .............................
@@ -4830,6 +4872,21 @@ Culture
               yT ?#  saxophone [ˈsæksəfəʊn] (n) {B2} {music} саксофон
               xx ?#  steel+drum [stiːl drʌm] (n) {B2} {music} стальной барабан
               zT ?#  trombone [trɒmˈbəʊn] (n) {B2} {music} тромбон
+
+{C1} {music {musical instruments}}
+  149. (  2) 5T ?#PT bow [baʊ] (n) {C1} {history} {war and conflict} {sports: other sports} лук, {C1} {clothes and fashion} бант, {C1} {music} смычок, {C1} поклон, радуга, дуга; (v) {C1} кланяться
+              4T ?#  brass [brɑːs] (n) латунь, {C1} {music} духовые медные инструменты
+              yT ?#  cello [ˈʧɛləʊ] (n) {C1} {music} виолончель
+              yT ?#  clarinet [ˌklærəˈnet] (n) {C1} {music} кларнет
+              4T ?#  flute [fluːt] (n) {C1} {music} флейта; (v) свистеть
+              yT ?#  harp [hɑːp] (n) {C1} {music} арфа
+              yT ?#  pedal [ˈpɛdl] (n) {C1} {transport by car or lorry} педаль, {C1} {music} ножной рычаг; (adj) педальный, ножной; (v) {C1} {sports: other sports} ехать на велосипеде, нажимать педали
+              5T ?#  percussion [pəˈkʌʃ(ə)n] (n) перкуссия, удар, {C1} {music} ударные инструменты; (adj) ударный
+              4T ?#  recorder [rɪˈkɔːdə] (n) регистратор, магнитофон, {C1} {music} продольная флейта
+              yT ?#  sax [sæks] (n) {C1} {music} (saxophone) саксофон
+              3T *#  string [strɪŋ] (n) {A1} строка, {B2} {sports: ball and racket sports} {C1} {music} струна, ряд, {B1} нитка, веревка; (adj) {C1} {music} струнный
+              1T *#  wind [wɪnd->(n)/waɪnd->(v)] (n) {A2} {weather} ветер, {C1} {music} духовые инструменты; (adj) ветровой; (v) наматывать, {B2} {transport by car or lorry} заводить, I:wind-wound-wound/winded
+              zT ?#  woodwind [ˈwʊdwɪnd] (n) {C1} {music} деревянные духовые инструменты
 
 {music {people in the music world}}
 ...................................
@@ -4860,6 +4917,12 @@ Culture
               5T ?#  trumpeter [ˈtrʌmpɪtə] (n) {B2} {music} трубач
               xx ?#  violinist [ˈvaɪəlɪnɪst] (n) {B2} {music} скрипач
 
+{C1} {music {people in the music world}}
+  422. (  1) xT ?#PT duo [ˈdjuːəʊ] (n) {C1} {music} дуэт, актерская пара
+              xx ?#  fangirl [ˈfænɡɜːl] (n) {C1} {music} фанатка
+              5T ?#  soloist [ˈsəʊləʊɪst] (n) {C1} {music} солист, запевала, летчик, летающий самостоятельно
+              1T *#  support [səˈpɔːt] (n) {A2} {success} {B2} {healthcare} {C1} {music} поддержка, помощь; (v) {A2} {success} {politics} {B1} {money} {B2} {opinion and argument} {buildings} {C1} {music} поддерживать
+
 {music {pieces of music}}
 .........................
 {A1} {music {pieces of music}}
@@ -4878,6 +4941,16 @@ Culture
   934. (  1) 3T ?#PT passage [ˈpæsɪʤ ] (n) {B2} {houses and homes} {buildings} проход, {B2} {music} {literature and writing} отрывок, эпизод, {C1} {transport by water} прохождение
               5T ?#  symphony [ˈsɪmfəni] (n) {B2} {music} симфония
  1351. (  1) 3T ?#PT tune [tjuːn] (v) {B2} {tv, radio and news} настроить, настраивать; (n) {B2} {music} мелодия, мотив
+
+{C1} {music {pieces of music}}
+              5T ?#  anthem [ˈænθəm] (n) {C1} {music} гимн
+              yT ?#  ballad [ˈbæləd] (n) {C1} {music} баллада
+              xT ?#  carol [ˈkærəl] (n) Кэрол, {C1} {religion and festivals} {music} гимн, хорал; (v) воспевать
+              5T ?#  concerto [kənˈʧɜːtəʊ] (n) {C1} {music} концерт
+              1T *#  movement [ˈmuːvmənt] (n) {A2} {B1} {social issues} {politics} движение, перемещение, {C1} {music} = any of the main parts that a long piece of music is divided into
+              xT ?#  samba [ˈsæmbə] (n) {C1} {music} самба
+ 1097. (  2) 5T ?#PT solo [ˈsəʊləʊ] (n) {C1} {music} соло, сольный номер, I:solo-solos; (adj) {C1} сольный, самостоятельный
+              yT ?#  tango [ˈtæŋɡəʊ] (n) {C1} {music} танго, I:tango-tangos; (v) танцевать танго
 
 {music {producing music}}
 .........................
@@ -4903,6 +4976,12 @@ Culture
               yT ?#  rehearsal [rɪˈhɜːsəl] (n) {B2} {film and theatre} {music} репетиция
               3T *#  release [(UK)rɪˈliːs/(US)riˈlis] (n) {B1} {B2} {film and theatre} {music} высвобождение, освобождение, версия; (v) {B1} {B2} {film and theatre} {music} выпускать, освобождать
 
+{C1} {music {producing music}}
+              yT ?#  hum [hʌm] (n) гул, жужжание, гудение; (v) {C1} {music} жужжать, гудеть, мурлыкать
+              3T *#  interpretation [ɪnˌtɜːprɪˈteɪʃən] (n) {C1} {music} {film and theatre} интерпретация, толкование, {B2} перевод, объяснение
+              zT ?#  pluck [plʌk] (v) {C1} {music} срывать, {C2} {cooking and eating} ощипывать; (n) {C2} {personal qualities} смелость, потроха
+              3T ?#  whistle [ˈwɪsl] (n) {C1} {sports: ball and racket sports} {B2} {transport by bus and train} свисток, свист; (v) {C1} {music} свистеть
+
 {music {reading music}}
 .......................
 {A1} {music {reading music}}
@@ -4916,6 +4995,14 @@ Culture
               xT *#  g [ʤ iː] (letter) f G h i; (abbr) {A2} {maths and measurement} gram(s); (n) {B1} {music} G = the 5th note in the scale of C major
 
 {B2} {music {reading music}}
+{C1} {music {reading music}}
+              1T *#  bar [bɑr] (n) {A2} {drinks} бар, полоса, стойка, {C1} {music} = one of the short sections of equal length that a piece of music is divided into; (v) {B2} запирать, преграждать
+  121. (  1) xT ?#PT bass [beɪs->(n,adj)/bæs->(n)] (n) {C1} {music} бас, {C2} {fish and shellfish} окунь; (adj) басовый, низкий
+              3T *#  flat [flæt] (adj) {A2} {colours and shapes} {geography} плоский, ровный, {C1} {music} = used after the name of a note to mean a note a semitone lower; (n) {A1}  {houses and homes} {buildings} квартира, {C1} {transport by car or lorry} спущенная шина, {C1} {clothes and fashion} туфли без каблуков
+              1T *#  key [kiː] (n) {A1} {B1} {computers} {C1} {music} ключ; (adj) {A1} ключевой, основной; (v) {B1} {computers} настраивать, запирать на ключ
+              3T *#  scale [skeɪl] (n) {B2} {maths and measurement} масштаб, шкала, {C1} {music} гамма, {C1} {animals} {fish and shellfish} чешуя; {B2} {cooking and eating} чаша весов; (v) весить, взвешивать
+              1T ?#  score [skɔː] (n) {A2} {games and toys} {sports: ball and racket sports} {education} {C1} {music} {film and theatre} {maths and measurement} счет, количество очков, зарубка; (v) {A2} {games and toys} {sports: ball and racket sports} выигрывать, {B1} {education} засчитывать, овладеть женщиной
+              3T *#  sharp [ʃɑːp] (adj) {B1} {B2} {personal qualities} острый, {C1} {music} = used after the name of a note to mean a note a semitone higher
 
 {music {styles of music}}
 .........................
@@ -4950,6 +5037,9 @@ Culture
               3T *#  soul [səʊl] (n) {B2} {religion and festivals} душа, {B2} дух, человек, {B2} {music} = a type of music that expresses strong emotions made popular by African American musicians
               xx ?#  soul+music [səʊl ˈmjuːzɪk] {B2} {music} = a type of music that expresses strong emotions made popular by African American musicians
               xx ?#  world+music [wɜːld ˈmjuːzɪk] (n) {B2} {music} мировая музыка
+
+{C1} {music {styles of music}}
+              5T ?#  gospel [ˈɡɒspəl] (n) {C2} {religion and festivals} евангелие, {C1} {music} проповедь, убеждения
 
 {tv, radio and news}
 -------------------------
@@ -4997,6 +5087,24 @@ Culture
               3T *#  tower [ˈtaʊə] (n) {A2} {buildings} {religion and festivals} башня, {B2} {tv, radio and news} вышка, опора; (v) возвышаться; (adj) башенный
  1334. (  1) 5T *#PT transmit [trænzˈmɪt] (v) {B2} {tv, radio and news} передавать, отправлять
 
+{C1} {tv, radio and news {broadcasting}}
+              1T *#  air [eə] (n) {A1} {the environment} {weather} атмосфера, воздуха; (adj) воздушный; (v) проветривать, просушивать, {C1] {tv, radio and news} = to broadcast a programme on the radio/tv, {C2} {opinion and argument} обнародовать
+              xT *#  antenna [ænˈtɛnə] (n) {C1} {insects, worms, etc} {engineering} {tv, radio and news} {houses and homes} антенна
+  215. (  1) 5T *#PT commentary [ˈkɒməntəri] (n) {C1} {sports: other sports} {tv, radio and news} комментарий, {C1} дикторский текст
+  420. (  1) yT ?#PT dub [dʌb] (v) {C1} {film and theatre} {tv, radio and news} дублировать, {C1} ровнять, ударять; (n) {C2} {film and theatre} {tv, radio and news} {music} дубляж
+              xT ?#  fm [ˌef ˈem] (abbr) {C1} {tv, radio and news} Frequency Modulation
+              4T *#  frequency [ˈfriːkwənsi] (n) {B2} {C1} {physics and chemistry} {tv, radio and news} частота, частотность; (adj) {B2} {time} частотный
+              4T ?#  jingle [ˈʤ ɪŋɡl] (n) {C1} {tv, radio and news} звон; (v) звенеть
+              1T *#  network [ˈnɛtwɜːk] (n) {A2} {business} {computers} {tv, radio and news} сеть, {B1} {tv, radio and news} сетевое вещание, радиотрансляционная сеть; (v) {B2} {computers} {C1} {business} создавать сеть, {C1} {tv, radio and news} передавать по радиосети
+              yT ?#  newsroom [ˈnjuːzruːm/ˈnjuːzrʊm] (n) {C1} {rv, radio and news} редакция, отдел новостей
+              xT ?#  playlist [ˈpleɪˌlɪst] (n) {C1} {music} {tv, radio and news} плейлист
+              xT *#  programming [ˈprəʊgræmɪŋ] -ing: (v) {B1} {computers} программировать; (n) {B2} {computers} программирование, {C1} {tv, radio and news} = the planning of which tv/radio programmes to broadcast
+              1T *#  receive [rɪˈsiːv] (v) {A2} получать, {C1} {tv, radio and news} принимать, воспринимать
+              xx ?#  televise [ˈtɛlɪvaɪz] (v) {C1} {tv, radio and news} показывать по телевидению
+ 1232. (  1) xT *#PT transmission [trænzˈmɪʃən] (n) коробка передач, {C1} {tv, radio and news} передача
+              5T *#  transmitter [trænzˈmɪtə] (n) {C1} {engineering} {tv, radio and news} передатчик, радиопередатчик, отправитель
+              4T ?#  wavelength [ˈweɪvlɛŋθ] (n) {C1} {physics and chemistry} {tv, radio and news} длина волны
+
 {tv, radio and news {celebrity news}}
 .....................................
 {A1} {tv, radio and news {celebrity news}}
@@ -5008,6 +5116,9 @@ Culture
 
 {B1} {tv, radio and news {celebrity news}}
 {B2} {tv, radio and news {celebrity news}}
+{C1} {tv, radio and news {celebrity news}}
+  453. (  1) xT ?#PT endorsement [ɛnˈdɔrsmənt] (n) {C1} {business} {tv, radio and news} поддержка, подтверждение
+              xT ?#  vip [ˌviː aɪ ˈpiː] (n) {C1} {tv, radio and news} = Very Important Person
 
 {tv, radio and news {journalism}}
 .................................
@@ -5047,6 +5158,10 @@ Culture
               xx *#  press+conference [prɛs ˈkɒnf(ə)r(ə)ns] (n) {B2} {tv, radio and news} пресс-конференция
  1080. (  1) xT *#PT reporting [rɪˈpɔːtɪŋ] -ing: (v) {A2} {tv, radio and news} {crime and punishment} сообщить, докладывать; (n) {B2} {tv, radio and news} = the presenting of and writing about news on television/radio/newspapers, отчетность, явочный
 
+{C1} {tv, radio and news {journalism}}
+              4T ?#  censorship [ˈsɛnsəʃɪp] (n) {C1} {tv, radio and news} цензура
+  718. (  1) xT *#PT listing [lɪstɪŋ] -ing: (v) {A1} перечислять; (n) {C1} составление списка, {C1} {tv, radio and news} листинг
+
 {tv, radio and news {media people}}
 ...................................
 {A1} {tv, radio and news {media people}}
@@ -5078,6 +5193,16 @@ Culture
               xx ?#  scriptwriter [ˈskrɪptˌraɪtə] (n) {B2} {literature and writing} {tv, radio and news} сценарист, автор текста, автор беседы по радио, автор лекции по радио
  1220. (  2) xT *#PT sponsor [ˈspɒnsə] (n) {B2} {tv, radio and news} {business} {social issues} спонсор; (v) {B2} {business} финансировать, {B2} {social issues} {education} поддерживать
 
+{C1} {tv, radio and news {media people}}
+   72. (  1) xT ?#PT anchor [ˈæŋkə] (n) {C1} {transport by water} якорь, {C1} {tv, radio and news} = a person who presents a live radio/tv programme and introduces reports by other people, {C1} символ надежды
+              zT ?#  censor [ˈsensə(r)] (n) {C1} {tv, radio and news} цензор, цензура, надзиратель
+  212. (  1) 4T ?#PT columnist [ˈkɒləmnɪst] (n) {C1} {literature and writing} {tv, radio and news} обозреватель, журналист
+  216. (  1) 5T ?#PT commentator [ˈkɒmənteɪtə] (n) {C1} {sports: other sports} {tv, radio and news} {literature and writing} комментатор
+  280. (  1) xT ?#PT contributor [kənˈtrɪbjətə] (n) {C1} {tv, radio and news} {change, cause and effect} участник, жертвователь
+  297. (  1) yT *#PT correspondent [ˌkɒrɪsˈpɒndənt] (n) {C1} {literature and writing} {tv, radio and news} корреспондент; (adj) корреспондентский
+              zT ?#  readership [ˈriːdəʃɪp] (n) {C1} {tv, radio and news} читатели, читательская аудитория, {C2} {education} = the position of a reader at a university
+ 1142. (  1) xT *#PT subscriber [səbˈskraɪbə] (n) {C1} {tv, radio and news} абонент, подписчик, {C1} жертвователь
+
 {tv, radio and news {the press}}
 {A1} {tv, radio and news {the press}}
   464. (  1) 3T *#PT magazine [ˌmægəˈziːn] (n) {A1} {literature and writing} {TV, radio and news} журнал, магазин, кассета, склад боеприпасов; (adj) журнальный
@@ -5099,7 +5224,15 @@ Culture
 {B2} {tv, radio and news {the press}}
   421. (  1) 3T *#PT edition [ɪˈdɪʃən] (n) {B2} {literature and writing} {tv, radio and news} издание, выпуск, выпуск, вариант
 
+{C1} {tv, radio and news {the press}}
+  191. (  1) 5T *#PT circulation [ˌsɜːkjʊˈleɪʃən] (n) {C1} {body} {health and fitness} {tv, radio and news} циркуляция
+  325. (  1) 4T *#PT cutting [kʌtɪŋ] -ing: (v) {A1} {health problems} резать, {B1} {money} отрезать, {B2} {computers} удалять, {C1} {film and theatre} выполнять монтаж, I:cut-cut-cut; (n) {C1} {tv, radio and news} {plants and trees} резка, газетная вырезка
+              3T *#  daily [ˈdeɪli] (adj) {A2} {time} ежедневный, суточный; (adv} {B1} {time} ежедневно; (n) {C1} {tv, radio and news} ежедневная газета, приходящая работница
+              zT ?#  tabloid [ˈtæblɔɪd] (n) {C1} {tv, radio and news} таблоид, бульварная газета, краткий обзор; (adj) {C1} {tv, radio and news} бульварный
+              3T *#  weekly [ˈwiːkli] (adv) {B2} {time} раз в неделю, еженедельно; (adj) еженедельный; (n) {C1} {tv, radio and news} еженедельный
+
 {tv, radio and news {tv and radio shows}}
+.........................................
 {A1} {tv, radio and news {tv and radio shows}}
   296. (  1) 3T *#PT film [fɪlm] (n) {A1} {film and theatre} {tv, radio and news} фильм, кино, пленка; (adj) кино-; (v) {A2} {film and theatre} {tv, radio and news} экранизировать
   604. (  2) 3T *#PT play [pleɪ] (n) {A1} {film and theatre} {tv, radio and news} {B1} {games and toys} {sports: ball and racket sports} игра, пьеса, спектакль;
@@ -5133,26 +5266,14 @@ Culture
               xx ?#  sitcom [ˈsɪtkɒm] (n) {B2} {tv, radio and news} = a regular comdedy programme on tv that shows the same characters in different funny situations, ситком
               yT ?#  videotape [ˈvɪdiəʊteɪp] (n) {B2} {tv, radio and news} видеокассета; (v) записывать на видеокассету
 
-{tv, radio and news {the press}}
-{A1} {tv, radio and news {the press}}
-  464. (  1) 3T *#PT magazine [ˌmægəˈziːn] (n) {A1} {literature and writing} {TV, radio and news} журнал, магазин, кассета, склад боеприпасов; (adj) журнальный
-  524. (  1) 3T *#PT newspaper [ˈnjuːzˌpeɪpə] (n) {A1} {tv, radio and news} газета; (adj) газетный
-
-{A2} {tv, radio and news {the press}}
-  167. (  1) 3T *#PT comedy [ˈkɒmɪdi] (n) {A2} {film and theatre} {tv, radio and news} комедия
-  247. (  1) 3T *#PT drama [ˈdrɑːmə] (n) {A2} {film and theatre} {tv, radio and news} {hobbies} {education} драма, драматургия
-  315. (  1) 3T *#PT film [fɪlm] (n) {A1} {film and theatre} {tv, radio and news} фильм, кино, пленка; (adj) кино-; (v) {A2} {film and theatre} {tv, radio and news} экранизировать
-              xx ?#  quiz+show [kwɪz ʃəʊ] (n) {A2} {tv, radio and news} викторина шоу
-              1T *#  series [ˈsɪəriːz] (n) {A2} {tv, radio and news} серия, ряд, цикл
-
-{B1} {tv, radio and news {the press}}
-              xx ?#  evening+paper [ˈiːvnɪŋ ˈpeɪpə] (n) {B1} {the press} вечерняя газета
-              4T ?#  headline [ˈhɛdlaɪn] (n) {B1} {tv, radio and news} заголовок; (v) озаглавливать
-  385. (  1) 5T *#PT journal [ˈʤ ɜːnl] (n) {B1} {literature and writing} {tv, radio and news} {scientific research} журнал, дневник
-  538. (  2) 3T *#PT press [prɛs] (n) {B1} {tv, radio and news} пресс, печать; (v) {B1} {engineering} {C1} {discussion and agreement} {cooking and eating} жать, надавливать
-
-{B2} {tv, radio and news {the press}}
-  421. (  1) 3T *#PT edition [ɪˈdɪʃən] (n) {B2} {literature and writing} {tv, radio and news} издание, выпуск, выпуск, вариант
+{C1} {tv, radio and news {tv and radio shows}}
+              xT ?#  bulletin [ˈbʊlətɪn] (n) {C1} {tv, radio and news} бюллетень, сводка
+              3T *#  feature [ˈfiːʧə] (n) {A2} особенность, {B1} черта, характеристика, {C1} {tv, radio and news} = a special article or programme about somebody/something, {C1} {film and theatre} = the main film in a cinema programme; (v) {B1} изображать; напоминать чертами лица
+  974. (  1) 5T ?#PT reconstruction [ˌriːkənsˈtrʌkʃən] (n) {C1} реконструкция, {C1} {buildings} перестройка, {C1} {tv, radio and news} = an act of acting out events that are known to have happened in order to try and get more information or better understanding about what happened especially a crime
+              yT ?#  replay [ˌriːˈpleɪ] (n) {B2} {spors: ball and racket sports} {C1} {tv, radio and news} переигровка; (v) переигрывать, отвечать
+ 1063. (  1) xT *#PT serial [ˈsɪərɪəl] (adj) {C1} последовательный; (n) {C1} {tv, radio and news} многосерийный телефильм, продолжающееся издание
+ 1081. (  1) 5T ?#PT sketch [skɛʧ] (n) {C1} {art} эскиз, {B2} {literature and writing} набросок, {C1} {film and theatre} {tv, radio and news} скетч, зарисовка; (v) {C1} {art} делать наброски
+ 1227. (  1) xT ?#PT trailer [ˈtreɪlə] (n) {C1} {tv, radio and news} {film and theatre} трейлер, {C1} {transport by car or lorry} прицеп
 
 {tv, radio and news {watching tv/listening to the radio}}
 .........................................................
@@ -5195,6 +5316,11 @@ Culture
  1351. (  1) 3T ?#PT tune [tjuːn] (v) {B2} {tv, radio and news} настроить, настраивать; (n) {B2} {music} мелодия, мотив
  1395. (  1) 3T *#PT volume [ˈvɑljum] (n) {B2} {maths and measurement} объем, {B2} {literature and writing} том, {B2} {tv, radio and news} {music} громкость; (adj) объемный
 
+{C1} {tv, radio and news {watching tv/listening to the radio}}
+              xT ?#  hd [ˌeɪtʃ ˈdiː] (abbr) {C1} {tv, radio and news} {film and theatre} High Definition, = a system that gives tv/film/video images in extremely high quality
+              3T *#  reception [rɪˈsɛpʃən] (n) {A2} {holidays} {working life} = the area inside the entrance of a hotel where guests go first, получение, {B1} {life stages} прием, встреча, вечеринка, {C1} {tv, radio and news} восприятие
+              xT ?#  widescreen [ˈwaɪdskriːn] (n) {C1} {tv, radio and news} широкоэкранный (фильм)
+
 Food and drinks
 ===============
 {cooking and eating}
@@ -5222,6 +5348,15 @@ Food and drinks
               4T ?#  mug [mʌg] (n) {B2} {cooking and eating} кружка, рожа, морда, харя; (v) гримасничать, {C1} {crime and punishment} грабить
               xx ?#  steak+knife [steɪk naɪf] (n) {B2} {cooking and eating} нож для стейка
               yT ?#  teaspoon [ˈtiːˌspuːn] (n) {B2} {cooking and eating} {C1} {maths and measurement} чайная ложка
+
+{C1} {cooking and eating {at the dining table}}
+              4T ?#  cutlery [ˈkʌtləri] (n) {C1} {shopping} {cooking and eating} ножевые изделия, столовые приборы
+              4T ?#  napkin [ˈnæpkɪn] (n) {C1} {cooking and eating} салфетка
+              5T ?#  pitcher [ˈpɪʧə] (n) {C1} {cooking and eating} кувшин
+              5T ?#  saucer [ˈsɔːsə] (n) {C1} {cooking and eating} блюдце, поддонник
+              xx ?#  serviette [ˌsɜːviˈet] (n) {C1} {cooking and eating} салфетка
+              xx ?#  tablecloth [ˈteɪb(ə)lˌklɒθ] (n) {C1} {cooking and eating} скатерть
+              zT ?#  tablespoon [ˈteɪblspuːn] (n) {C1} {cooking and eating} {maths and measurement} столовая ложка
 
 {cooking and eating {diet}}
 ...........................
@@ -5256,6 +5391,19 @@ Food and drinks
  1015. (  1) 5T ?#PT protein [ˈprəʊtiːn] (n) {B2} {cooking and eating} {biology} белок, протеин
  1394. (  1) 4T *#PT vitamin [(UK)ˈvɪtəmɪn/(US)'vaɪtəmən] (n) {B2} {cooking and eating} витамин
 
+{C1} {cooking and eating {diet}}
+   77. (  1) 5T *#PT appetite [ˈæpɪtaɪt] (n) {C1} {cooking and eating} аппетит
+              xT ?#  cholesterol [kəˈlɛstəˌrɒl] (n) {C1} {cooking and eating} {biology} холестерин
+              5T ?#  digest [ˈdaɪʤ ɛst->(n)/dɪˈʤ ɛst->(v)] (n) дайджест, сборник; (v) {C1} {cooking and eating} {biology} переваривать, усваивать
+              5T ?#  digestion [dɪˈʤ ɛsʧən] (n) (v) {C1} {cooking and eating} {biology} пищеварение, усвоение
+              xx ?#  fattening [ˈfætnɪŋ] -ing: (v) {C2} {farming} откармливать, жиреть, нагуливать, толстеть; (adj) {C1} {cooking and eating} ведущий к ожирению
+  509. (  1) xT *#PT fibre [faɪbə] (n) {C1} {cooking and eating} {physics and chemistry} {body} волокно, нить, фибра, = fiber
+              4T *#  filling [fɪlɪŋ] -ing: (v) {A1} заполнять; (n) {C2} {body} пломба, заливка, начинка; (adj) {C1} {cooking and eating} (of food) = making your stomach feel full, автозаправочный
+              5T ?#  nutritional [nju(ː)ˈtrɪʃən(ə)l] (adj) {C1} {cooking and eating} диетологический, диетный, питательный
+              xx ?#  nutritionally [nju(ː)ˈtrɪʃən(ə)li] -ly: (adj)->(adv) {C1} {cooking and eating} диетологический, диетный, питательный; (adv) {C1} {cooking and eating} питательно
+  983. (  1) 5T *#PT regime [reɪˈʒiːm] 5T *#  regime [reɪˈʒiːm] (n) {C1} {politics} {cooking and eating} режим, строй
+              yT ?#  vegan [ˈviːɡən] (n) {C1} {cooking and eating} веган; (adj) веганский
+
 {cooking and eating {eating out}}
 .................................
 {A1} {cooking and eating {eating out}}
@@ -5281,6 +5429,11 @@ Food and drinks
               xx *#  eat-in [ˈiːt ɪn] (adj) {B2} {cooking and eating} (of a restaurant meal) = that you can eat in the restaurant
  1085. (  2) 3T *#PT reserve [rɪˈzɜːv] (n) {B2} {money} резерв, {B2} {the environment} {hobbies} заповедник, запас, {C1} {opinion and argument} сдержанность; (v) {B2} {cooking and eating} бронировать, резервировать
               xx ?#  self-service [ˌself-ˈsɜːvɪs] (adj) {B2} {shopping} {cooking and eating} (shop/restaurant/etc.) = is one on which customers serve themselves and the pay for the goods ; (n) {B2} {cooking and eating} самообслуживание
+
+{C1} {cooking and eating {eating out}}
+              yT ?#  speciality [ˌspeʃiˈæləti] (UK) (n) {C1} {cooking and eating} = a type of food or product that a restaurant or place is famous because it is so good, специальность, особенность, подробности
+              4T ?#  specialty [ˈspeʃəlti] (US) (n) {C1} {cooking and eating} = a type of food or product that a restaurant or place is famous because it is so good, специальность, особенность, подробности, = (UK) specialty
+              5T ?#  tariff [ˈtærɪf] (n) {C1} {money} {holidays} {cooking and eating} тариф, такса, расценка; (adj) тарифный; (v) тарифицировать, установить расценку
 
 {cooking and eating {kitchen equipment}}
 ........................................
@@ -5312,6 +5465,15 @@ Food and drinks
               3T ?#  stove [stəʊv] (n) {B2} {cooking and eating} плита, печь, {B2} {houses and homes} печка
               yT *#  toaster [ˈtəʊstə] (n) {B2} {cooking and eating} тостер
               xx ?#  wooden+spoon [ˈwʊd(ə)n spuːn] (n) {B2} {cooking and eating} деревянная ложка, последнее место
+
+{C1} {cooking and eating {kitchen equipment}}
+              yT ?#  blender [ˈblendə(r)] (n) {C1} {cooking and eating} блендер, смеситель, миксер
+              xx ?#  corkscrew [ˈkɔːkskruː] (n) {C1} {drinks} {cooking and eating} штопор
+              xT *#  grill [grɪl] (n) {C1} {cooking and eating} гриль, решетка; (v) {B2} {cooking and eating} жарить
+              yT ?#  grinder [ˈɡraɪndə(r)] (n) {C1} {cooking and eating} дробилка, мельница, шлифовальная машина
+              4T ?#  opener [ˈəʊpnə] (n) {C1} {cooking and eating} консервный нож, открывашка
+              5T ?#  tray [treɪ] (n) {C1} {cooking and eating} лоток, поднос, поддон
+              5T ?#  utensil [juːˈtɛns(ə)l] (n) {C1} {cooking and eating} посуда, утварь, принадлежность
 
 {cooking and eating {meals}}
 ............................
@@ -5349,6 +5511,13 @@ Food and drinks
               5T ?#  roast [rəʊst] (v) {B1} {cooking and eating} жарить, жариться, пожарить, высмеивать; (n) {B2} {food} {cooking and eating} жаркое, обжиг, жареное мясо; (adj) жареный
               4T *#  supper [ˈsʌpə] (n) {B2} {cooking and eating} ужин; (v) ужинать
               3T *#  sweet [swiːt] (adj) {A2} {cooking and eating} сладкий, {C1} {personal qualities} милый, нежный, приятный; (n)(c) {A2} {food} {B2} {food} {cooking and eating} сладкое
+
+{C1} {cooking and eating {meals}}
+              zT ?#  appetizer [ˈæpɪtaɪzə] (n) {C1} {cooking and eating} закуска
+              5T ?#  banquet [ˈbæŋkwɪt] (n) {C1} {cooking and eating} банкет, пир; (v) давать банкет
+              yT ?#  brunch [brʌnʧ] (n) {C1} {cooking and eating} бранч, поздний завтрак
+              yT ?#  buffet [ˈbʌfɪt/ˈbʊfeɪ] (n) {C1} {cooking and eating} буфет, горка; (v) ударять
+              yT *#  feast [fiːst] (n) {C2} {religion and festivals} праздник, {C1} {cooking and eating} пир, банкет
 
 {cooking and eating {preparing food}}
 .....................................
@@ -5401,6 +5570,25 @@ Food and drinks
  1224. (  1) 3T *#PT spread [sprɛd] (n) {B2} распространение, размах, протяженность; (v) {B1} {health problems} распространяться, {B2} {cooking and eating} намазывать I: spread-spread-spread
               zT ?#  topping [tɒpɪŋ] -ing: (v) {C1} {success} быть первым, превышать; (n) {B2} {cooking and eating} начинка, верхушка
 
+{C1} {cooking and eating {preparing food}}
+              yT ?#  batter [ˈbætə] (v) {C2} {crime and punishment} колотить; (n) {C1} {cooking and eating} жидкое тесто, {C1} {sports: ball and racket sports} отбивающий мяч
+  141. (  2) 5T ?#PT blend [blɛnd] (n) {C1} смесь, смешение; (v) {C1} {cooking and eating} смешивать, {C1} гармонировать
+  173. (  1) 5T ?#PT carve [kɑːv] (v) {C1} {art} {buildings} вырезать, {C1} {cooking and eating} разделывать, резать, делить, {C1} высекать
+              5T ?#  defrost [diːˈfrɒst] (v) {C1} {cooking and eating} размораживать, таять
+              xx ?#  grate [greɪt] (n) решетка, камин; (v) {C1} {cooking and eating} тереть, растирать
+  561. (  1) 5T ?#PT grind [graɪnd] (v) {C1} {cooking and eating} молоть, перемалывать, I:grind-ground-ground; (n) размалывание
+              3T *#  ice [aɪs] (n) {A1} {weather} {drinks} лед; (adj) мороженое, ледяной; (adj) покрываться льдом, примораживать, замораживать; (v) {C1} {cooking and eating} замораживать; (abbr) Interactive Connectivity Establishment
+              zT ?#  mash [mæʃ] (n) пюре, месиво; (v) {C1} {cooking and eating} разминать, раздавливать
+              5T ?#  ounce [aʊns] (n) {C1} {cooking and eating} {maths and measurement} унция, капля
+              3T *#  press [prɛs] (n) {B1} {tv, radio and news} пресс, печать; (v) {B1} {engineering} {C1} {discussion and agreement} {cooking and eating} жать, надавливать
+              zT ?#  simmer [ˈsɪmə(r)] (v) {C1} {cooking and eating} закипать, кипеть на медленном огне, тушить; (n) закипание
+ 1117. (  1) 3T ?#PT squeeze [skwiz] (v) {C1} {cooking and eating} выжимать, {C1} сжимать
+              3T *#  steam [stiːm] (adj) паровой; (n) {B2} пар; (v) {C1} {cooking and eating} париться
+              4T ?#  stew [stu] (v) {C1} {cooking and eating} тушить, вариться; (n) {C1} {food} тушеное мясо
+ 1129. (  1) 3T ?#PT stir [stɜː] (n) переполох, движение, ажиотаж; (v) {C1} {cooking and eating} размешивать, {C1} мешать
+              xx ?#  tinned [tɪnd] -ed: (v) {C2} лудить, консервировать; (adj) {C1} {cooking and eating} консервированный, луженый
+ 1305. (  1) 5T *#PT whip [wɪp] (n) кнут, {C2} {politics} хлыст, нагайка; (v) {C1} {cooking and eating} взбить, {C1} хлестать
+
 {cooking and eating {restaurant people}}
 ........................................
 {A1} {cooking and eating {restaurant people}}
@@ -5415,6 +5603,10 @@ Food and drinks
 
 {B2} {cooking and eating {restaurant people}}
               xT *#  server [ˈsɜːvə] (n) {C1} {computers} сервер, поднос, {B2} {cooking and eating} = a person who serves food in a restaurant
+
+{C1} {cooking and eating {restaurant people}}
+              yT ?#  diner [ˈdaɪnə] (n) {C1} {cooking and eating} обедающий
+              3T *#  regular [ˈrɛgjʊlə] (adj) {A2} {language} {time} регулярный, обычный, правильный; (n) {C1} {cooking and eating} постоянный сотрудник, регулярные войска, монах
 
 {cooking and eating {taste and texture of food}}
 ................................................
@@ -5441,6 +5633,24 @@ Food and drinks
               3T ?#  sour [ˈsaʊə] (adj) {B2} {cooking and eating} кислый, прокисший; (v) закисать
  1323. (  1) 3T ?#PT tough [tʌf] (adj) {B2} жесткий, {B2} {permission and obligation} {personal qualites} {cooking and eating} тяжелый, трудный
 
+{C1} {cooking and eating {taste and texture of food}}
+              xx ?#  appetizing [ˈæpɪtaɪzɪŋ] (adj) {C1} {cooking and eating} аппетитный, вкусный
+              5T ?#  bland [blænd] (adj) мягкий, вежливый, ласковый, {C1} {cooking and eating} безвкусный, льстивый
+              zT ?#  chunky [ˈtʃʌŋki] (adj) {C1} {cooking and eating} (of food) = containing thick pieces, короткий и толстый, коренастый
+              4T ?#  creamy [ˈkriːmi] (adj) {C1} {cooking and eating} сливочный, {C1} {colours and shapes} кремовый, жирный
+              3T ?#  crisp [krɪsp] (adj) четкий, свежий, {C1} {cooking and eating} хрустящий; (n) {A2} {food} хрустящий картофель; (v) хрустеть
+              zT ?#  greasy [ˈgriːzi] (adj) {C1} {appearance} {cooking and eating} жирный, сальный
+              zT ?#  oily [ɔɪli] (adj) {C1} {cooking and eating} маслянистый
+              5T ?#  ripe [raɪp] (adj) {C1} {farming} зрелый, созревший, {C1} {cooking and eating} готовый
+              zT ?#  savory [ˈseɪvəri] (US) (n) чабер; (v) {C1} {cooking and eating} вкусный, пикантный, острый
+              xx ?#  savoury [ˈseɪvəri] (UK) (n) {C1} {food} чабер; (v) {C1} {cooking and eating} вкусный, пикантный, острый
+              zT ?#  stale [steɪl] (adj) {C1} {cooking and eating} черствый, несвежий, залежалый, устаревать
+              5T ?#  tasteless [ˈteɪstlɪs] (adj) {C1} {cooking and eating} безвкусный
+ 1190. (  1) 5T ?#PT tender [ˈtɛndər] (n) тендер, предложение; (adj) {C1} {personal qualities} {cooking and eating} нежный, ласковый, {C1} {health problems} болезненный; (v) предлагать
+ 1198. (  1) 5T ?#PT texture [ˈtɛksʧə] (n) {C1} {cooking and eating} текстура, фактура
+              4T ?#  watery [ˈwɔːtəri] (adj) {C1} {cooking and eating} водянистый, водяной, жидкий
+              yT ?#  yummy [ˈjʌmi] (n) Джамми, вкусняшка; (adj) {C1} {cooking and eating} вкусный
+
 {cooking and eating {types of restaurant}}
 ..........................................
 {A1} {cooking and eating {types of restaurant}}
@@ -5456,6 +5666,9 @@ Food and drinks
               zT ?#  pizzeria [ˌpiːtsəˈriːə] (n) {B2} {cooking and eating} пиццерия
               xx ?#  street+food [striːt fuːd] (n) {B2} {cooking and eating} уличная еда
               xx ?#  takeaway [ˈteɪkəweɪ] (n) {B2} {cooking and eating} уеда на вынос; (adj) навынос
+
+{C1} {cooking and eating {types of restaurant}}
+              yT ?#  bistro [ˈbiːstrəʊ] (n) {C1} {cooking and eating} бистро, закусочная, I:bistro-bistros
 
 {drinks}
 -------------
@@ -5476,6 +5689,12 @@ Food and drinks
               3T *#  spirit [ˈspɪrɪt] (n) {B2} {personal qualities} дух, {B2} {drinks} спирт, {B1} {B2} {religion and festivals} душа, настроение; (adj) спиртовой
               4T ?#  whisky [ˈwɪski] (n) {B2} {drinks} виски
 
+{C1} {drinks {alcoholic drinks}}
+              4T ?#  brandy [ˈbrændi] (n) {C1} {drinks} бренди, коньяк
+  204. (  1) 4T *#PT cocktail [ˈkɒkteɪl] (n) {C1} {drinks} {food} коктейль, {C1} = a mixture of different substances or elements
+              yT ?#  gin [ʤ ɪn] (n) {C1} {drinks} джин
+              yT *#  vodka [ˈvɒdkə] (n) {C1} {drinks} водка
+
 {drinks {drinking}}
 ...................
 {A1} {drinks {drinking}}
@@ -5489,6 +5708,9 @@ Food and drinks
 {B1} {drinks {drinking}}
 {B2} {drinks {drinking}}
               zT ?#  thirst [θɜːst] (n) {B2} {feelings} {drinks} жажда, тяга; (v) жаждать, хотеть пить
+
+{C1} {drinks {drinking}}
+              xT *#  sip [sɪp] (n) глоток; (v) {C1} {drinks} потягивать, прихлебывать
 
 {drinks {non-alcoholic drinks}}
 ...............................
@@ -5518,6 +5740,9 @@ Food and drinks
               xx ?#  mineral+water [ˈmɪn(ə)r(ə)l ˈwɔːtə] (n) {B2} {drinks} минеральная вода
               xx ?#  skimmed+milk [skɪmd mɪlk] (n) {B2} {drinks} обезжиренное молоко
               xx ?#  soft+drink [sɒft drɪŋk] (n) {B2} {drinks} безалкогольный напиток
+
+{C1} {drinks {non-alcoholic drinks}}
+              5T ?#  beverage [ˈbɛvərɪʤ ] (n) {C1} {drinks} напиток
 
 {drinks {preparing drinks}}
 ...........................
