@@ -15,7 +15,7 @@
 #define MAX_WORD_NUM  100000
 #define MAX_WORD_SIZE 100
 #define MAX_PHONETIC_SIZE 100
-#define MAX_TRANSLATION_SIZE 500
+#define MAX_TRANSLATION_SIZE 2048
 #define NUM_US_IN_MS 1000
 #define PLAYER_NAME "mplayer"
 #define PLAYER_OUTPUT ">/dev/null 2>&1"
