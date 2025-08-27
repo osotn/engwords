@@ -15,6 +15,10 @@ for f in translations/*; do
             echo -n -e "\t"
         done
 	echo -n " "
+
+        if [ "$2" = "-p" ]; then
+            echo -n -e "[""`cat phonetics/$WORD 2>/dev/null`""]\t"
+        fi
     fi
     echo "`cat ${f} 2>/dev/null`" 
 done 
