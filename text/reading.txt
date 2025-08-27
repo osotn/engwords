@@ -1,4 +1,7 @@
-ABC
+ABC = 26 
+
+    A E I O U (Y)         = 6
+    B C ... (Y) ... Z     = 21
 
     A   [eɪ]
     B   [biː]
@@ -16,7 +19,7 @@ ABC
     N   [ɛn]
     O   [əʊ]
     P   [piː]
-    Q   [kjuː]
+  x Q   [kjuː]
     R   [ɑː]
     S   [ɛs]
     T   [tiː]
@@ -24,7 +27,7 @@ ABC
     V   [viː]
     W   [ˈdʌblju(ː)]
     X   [ɛks]
-    Y   [waɪ]
+  x Y   [waɪ]
     Z   [zɛd]
 
 Все английские слова можно разделить на слоги (syllable)
@@ -127,9 +130,12 @@ Syllable:
                                                     pig, glad
         [ʤ]    перед e,i,y                         age, engineer, gymnastics,
                                                     cage, gym
-                                                    !!! exceptions: get, begin,
-                                                    girl
-        [-]     в сочетании gh                      high, night, daughter, 
+                                                    !!! exceptions: get, begin, girl
+        [ʒ]     words from French -e                genre, beige, rouge
+        [ŋ]     - ing                               going, doing, calling
+        [-]     в сочетании (gh)                    high, night, daughter
+                            (g)n                    gnome, design, resign, foreign
+                            (g)m                    phlegm, diaphragm
 
     H   [h]
 
@@ -149,7 +155,10 @@ Syllable:
                   под ударением                     !!! exceptions: friend
         [aɪə]   - в сочетании ir + гласная          fire, tired, wire, iron, tire
 
-    J   [ʤ]
+    J   [ʤ]                                        job, just
+        [ʒ]      words from French                  deja vu
+        [j]                                         fjord, hallelujah
+        [h]      Spanish loanwords                  San Jose
 
     K   [k]
         [n]     - в сочетании kn                    know, knife, knock, knit, 
@@ -212,15 +221,25 @@ Syllable:
 
     S   [s]     в начале слова                      send, salt, say, sand, sister,
                 в средине перед глухими             desk, less, sister, mist
-                в конце после глухих                facts, books
-        [z]     после гласных                       days, is, toys, bees
+                ss в средине                        message, possible, lesson
+                в конце после глухих (plurals, -s)  facts, books
+                в конце (один закр. слог)           bus, gas, this, yes
+                -se (n, adj)                        close, house, use
+        [z]     после гласных (plurals, -s)         days, toys, bees
                 между гласными                      cause, 
-                после звонких                       beds, bells
+                после звонких (plurals, -s)         beds, bells
+                в конце (один откр. слог)           as, does, is, his, was
+                -se (v)                             close, house, use
         [ʃ]     в сочетании sh                      she, bush, short, dish, fish,
-                                                    sheep, shook
+                перед u                             sure, sugar
+                в конце -sion -sial                 dimension, extension, controversial
+                в средине sc                        conscience, fascism
+        [ʒ]     некоторые в конце -sion             vision, decision, collision, conclusion
+                asia                                (eur)asia, caucasian
+        [-]      некоторые после i                   aisle, debris, island, chassis
 
     T   [t]
-        [ʧ]     в сочетании tch                     catch, kitchen, watch, switch,
+        [-]     в сочетанииt)ch                     catch, kitchen, watch, switch,
                                                     stretch
         [ð]     в сочетании th                      these, that, there, mother,
                                                     they, with, them, then
@@ -248,8 +267,8 @@ Syllable:
     W   [w]
         [w]     - в сочетании wh                    what, why, when, while, white,
                                                     where
-        [h]     - в сочетании wh + o                who, whom, whose, whole, wholly
-        [r]     - в сочетании wr                    write, wrong, wrist, wrap,
+        [-]     - в сочетании (w)h + o              who, whom, whose, whole, wholly
+                - в сочетании wr                    write, wrong, wrist, wrap,
                                                     wrest, wrap
 
     X   [ks]    в конце слов                        box, fix, fox, six

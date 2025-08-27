@@ -1,75 +1,108 @@
-[b , v , g , d , z , l , m , n , r]   -   [z] [d]
-[k , p , s , t , f , tʃ , ʃ , θ , h]    -  [s] [t]
-
-
-Consonants:
+Consonants: = 24
 ===========
 
-    voiced
+[b, d, g] [v, ð, z] [ʤ, ʒ]  [m n ŋ l r w j]
+[p, t, k] [f, θ, s] [tʃ, ʃ]                   [h]
+
+    voiced = 15
     ---------- 
-        - plosives
-    [b]                 bag, bubble, build, robe
-    [d]                 door, day, drive, down, feed
-    [g]                 girl, green, grass, flag
-        - fricatives
-    [v]                 vest, village, view, cave
-    [ð]                 there, those, brothers, others
-    [z]                 zoo, crazy, lazy, zigzag, nose.
-    [ʒ]                 television, delusion, casual
-        -  affricates
-    [ʤ]                joy, juggle, juice, stage
-        -  nasals
-    [m]                 room, mother, mad,
-    [n]                 now, nobody, knew, turn
-    [ŋ]                 king, thing, song, swimming
-        -  approximants (turbulent air flow)
-    [l]                 law, lots, leap, long, pill, cold, chill, melt
-    [r]                 road, roses, river, ring, ride
-    [w]                 wall, walk, wine, world
-    [j]                 yellow, usual, tune, yesterday, yard
+        - plosives = 3
+    [b]                 b       bag, bubble, build, robe
+    [d]                 d       door, day, drive, down, feed
+    [g]                 g       girl, green, grass, flag
+        - fricatives = 4
+    [v]                 v       vest, village, view, cave
+  x [ð]                 th      there, those, brothers, others
+    [z]                 1) z    zoo, crazy, lazy, zigzag, nose.
+                        2) s    days, bees, cause, bells
+  * [ʒ]               * 1) s    television, delusion, casual
+                     ** 2) g    genre, beige, rouge
+                     ** 3) j    deja vu
+        -  affricates = 1
+    [ʤ]                1) j    joy, juggle, juice, stage
+                        2) g    gym, cage
+        -  nasals = 3
+    [m]                 m       room, mother, mad,
+    [n]                 n       now, nobody, knew, turn
+  * [ŋ]                 n{g/k}  king, thing, song, swimming
+                                ink, thank, monkey, sink, bank
+        -  approximants (turbulent air flow) = 4
+    [l]                 l       law, lots, leap, long, pill, cold, chill, melt
+    [r]                 r       road, roses, river, ring, ride
+    [w]                 w       wall, walk, wine, world
+    [j]                 1) y    yellow, yesterday, yard
+                        2) u    usual, tune
+                      * 3) j    fjord, hallelujah
 
-
-    voiceless
+    voiceless = 9
     ---------- 
-        - plosives
-    [p]                 pin, cap, purpose, pause
-    [t]                 time, train, tow, late
-    [k]                 cash, quick, cricket, sock
-        - fricatives
-    [f]                 full, friday, fish, knife
-    [θ]                 thought, think, bath
-    [s]                 sit, race, still, lesson
-    [ʃ]                 shirt, rush, shop, cash
-    [h]                 high, help, hello
-        - affricate
-    [ʧ]                 choose, cheese, church, watch
+        - plosives = 3
+    [p]                 p       pin, cap, purpose, pause
+    [t]                 t       time, train, tow, late
+    [k]                 1) c    come, cold, cat, clean, close
+                        2) k    Kate, thank
+                        3) q    question 
+        - fricatives = 5
+    [f]                 1) f    full, friday, fish, knife
+                        2) ph   phone
+  x [θ]                 th      thought, think, bath
+    [s]                 1) s    sit, still, lesson
+                        2) c    ice, face, cite, fancy, space
+  x [ʃ]                 sh      shirt, rush, shop, cash
+    [h]                 1) h    high, help, hello
+                      * 2) j    Jose
+        - affricate = 1
+  x [ʧ]                 ch      choose, cheese, church, watch
 
 
-
-Vowels
+Vowels = 20
 ======
-    -   short
-    [ɛ]                 went, intend, send, letter
-    [æ]                 cat, hand, nap, flat, have
-    [ʌ]                 fun, love, money, one, London, come
-    [ʊ]                 put, look, should, cook, book
+    -   short = 6
+    [æ]                 a               cat, hand, nap, flat, have
+    [ɛ]                 e               went, intend, send, letter
+    [ɪ]                 1) i            pig
+                        2) y            symbol
+    [ɒ]                 1) o            not, stop, hot, shop, dog
+                        2) {w,qu}a      was, quarrel
+    [ʌ]                 1) o            love, money, one, London, come
+                        2) u            fun
+    [ʊ]                 1) (o)u         put, should
+                        2)  oo          look, should, cook, book
 
-    -   long
-    [iː]                 need, beat, team
-    [ɜː]                 nurse, heard, third, turn
-    [ɔː]                 talk, law, bored, yawn, jaw
-    [uː]                 few, boot, lose, gloomy, fruit, chew
-    [ɑː]                 fast, cart, hard, bath
+    -   long = 5
+    [ɑː]                 a{r,th,..}     fast, cart, hard, bath
+    [iː]                 (i)e(e,a,i)    niece, need, beat, team
+    [uː]                 1) u           cute, fruit
+                         2) o(o)        boot, lose, gloomy
+                         3) ew          knew, newspaper, few, chew
+    [ɔː]                 1) or          bored
+                         2) a{l,w}      talk, law, , yawn, jaw
+    [ɜː]                 1) er          her, term, heard, serve
+                         2) ir          sir, first, girl, bird, dirty
+                         3) w+or        world, word, work, worst
+                         4) ur          burn, turn, nurse, purple
+                                  
 
-    -   diphthong
-    [ɪə]                 near, ear, clear, tear, beer, fear
-    [eə]                 hair, there, care, stairs, pear
-    [eɪ]                 face, space, rain, case, eight
-    [ɔɪ]                 joy, employ, toy, coil, oyster
-    [aɪ]                 my, sight, pride, kind, flight
-    [əʊ]                no, don't, stones, alone, hole
-    [aʊ]                mouth, house, brown, cow, out
+    -   diphthong = 8
+    [eɪ]                 1) a           face, rain, case
+                         2) e{a,i,y}    eight
+    [eə]                 a(i)r          hair, care, stairs,
+    [ɪə]                 e(a,e)r        near, ear, clear, tear, beer, fear
+    [aɪ]                 1) i           sight, pride, kind, flight
+                         2) y           my 
+    [əʊ]                o               no, don't, stones, alone, hole
+    [ɔɪ]                 o{i,y}         joy, employ, toy, coil, oyster
+    [aʊ]                o{u,w}          mouth, house, brown, cow, out
+    [ʊə] > [jʊə]       ur              pure
 
-    -   reduced
-    [ə]                 alive, again, mother
+    -   reduced = 1
+    [ə]                 1) a            alive, again
+                        2) e(r)         mother
+                        3) o(r)
+                        4) u(r)         bonus, museum, surprise
+
+
+    [aɪə] = [aɪ]+[ə]    1) ir           wire
+                        2) yr           tyre
+    [jʊə] = [j]+[ʊə]    ur             pure
 

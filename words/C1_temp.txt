@@ -177,7 +177,7 @@
   159. (  1) xT *#PT buffer [ˈbʌfə] (n) буфер, амортизатор; (adj) буферный
   160. (  1) 5T ?#PT bulk [bʌlk] (n) {C1} масса, объем, основная масса; (v) казаться, ссыпать в кучу, ссыпать
   161. (  1) 4T ?#PT burden [ˈbɜːdn] (n) {C1} {difficulty and failure} бремя, нагрузка, груз; (v) {C1} {difficulty and failure} обременять, отягощать, нагружать
-  162. (  1) yT ?#PT bureaucracy [bjʊəˈrɒkrəsi] (n) бюрократия, бюрократизм
+  162. (  1) yT ?#PT bureaucracy [bjʊəˈrɒkrəsi] (n) {C1} {politics} бюрократия, бюрократизм
   163. (  1) yT ?#PT burial [ˈbɛrɪəl] (n) захоронение, похороны
   164. (  1) 3T ?#PT burst [bɜːst] (n) взрыв, вспышка; (v) разрывать, I: burst-burst-burst
   165. (  1) 3T ?#PT cabinet [ˈkæbɪnɪt] (n) кабинет, шкаф, корпус
@@ -271,7 +271,7 @@
   253. (  1) yT ?#PT congregation [ˌkɒŋɡrɪˈɡeɪʃ(ə)n] (n) собрание, конгрегация, прихожане
   254. (  1) 5T ?#PT congressional [kəŋˈɡrɛʃ(ə)n(ə)l] (n) Конгресс; (adj) относящийся к конгрессу
   255. (  1) 5T ?#PT conquer [ˈkɒŋkə] (v) {C1} {history} {war and conflict} покорять, {C1} завоевывать, {C1} {success} побеждать
-  256. (  1) 5T ?#PT conscience [ˈkɒnʃəns] (n) совесть, сознание
+  256. (  1) 5T ?#PT conscience [ˈkɒnʃəns] (n) {C1} совесть, {C1} {personal qualities} сознание
   257. (  1) 5T ?#PT consciousness [ˈkɒnʃəsnɪs] (n) сознание
   258. (  1) 5T ?#PT consecutive [kənˈsɛkjʊtɪv] (adj) {C1} последовательный, следственный
   259. (  1) xT ?#PT consensus [kənˈsɛnsəs] (n) консенсус, согласие, единодушие
@@ -375,7 +375,7 @@
   357. (  1) 3T *#PT deposit [dɪˈpɒzɪt] (n) {B2} {houses and homes} {C1} {money} депозит, залог, месторождение, вклад, взнос; (v) {C1} {money} {houses and homes} депонировать, осаждаться
   358. (  1) 5T ?#PT deprive [dɪˈpraɪv] (v) {C1} лишать, отнимать
   359. (  1) xT ?#PT deputy [ˈdɛpjʊti] (n) заместитель, депутат, представитель
-  360. (  1) 5T ?#PT descend [dɪˈsɛnd] (v) спускаться, сходить, опускаться
+  360. (  1) 5T ?#PT descend [dɪˈsɛnd] (v) {C1} спускаться, сходить, опускаться
   361. (  1) 5T ?#PT descent [dɪˈsɛnt] (n) спуск, {C1} {history} {family and relationships} происхождение, {C1} {transport by air} нисхождение
   362. (  1) 5T ?#PT designate [ˈdɛzɪgneɪt] (v) обозначать, определять, указывать, называть, назначать на должность
   363. (  1) 5T *#PT desirable [dɪˈzaɪəbl] (adj) желанный
@@ -442,8 +442,8 @@
   424. (  1) 5T ?#PT eager [ˈiːgə] (adj) {C1} {feelings} нетерпеливый, стремящийся, сильно желающий
   425. (  1) 4T ?#PT earnings [ɜːnɪŋz] (n) прибыль, доход, заработок, выручка
   426. (  2) 3T *#PT ease [iːz] (n) простота, легкость
-  427. (  2) xT *#PT echo [] Google 20000: 
-  428. (  1) 5T ?#PT ecological [ˌɛkəˈlɒʤ ɪkəl] (adj) экологический
+  427. (  2) xT *#PT echo [ˈekəʊ] (v) {C1} отражаться, {C1} {opinion and argument} поддакивать; (n) {C1} эхо, {C2} {opinion and argument} подражание
+  428. (  1) 5T ?#PT ecological [ˌɛkəˈlɒʤ ɪkəl] (adj) {C1} {the environment} экологический
   429. (  1) yT ?#PT educator [ˈɛdju(ː)keɪtə] (n) педагог, воспитатель
   430. (  1) 5T ?#PT effectiveness [ɪˈfɛktɪvnəs] эффективность, действенность
   431. (  1) 5T ?#PT efficiency [ɪˈfɪʃənsi] (n) эффективность
@@ -563,7 +563,7 @@
   545. (  2) yT ?#PT gaze [geɪz] (n) взор; (v) посмотреть, пристально глядеть
   546. (  1) 3T ?#PT gear [gɪə] (n) механизм, шестерня, зубчатое колесо, передача; (v) запрягать, приспосабливать, сцепляться
   547. (  1) xT *#PT generic [ʤ ɪˈnɛrɪk] (adj) общий, родовой; (n) непатентованное средство
-  548. (  1) yT ?#PT genocide [ˈʤ ɛnəʊsaɪd] (n) геноцид
+  548. (  1) yT ?#PT genocide [ˈʤ ɛnəʊsaɪd] (n) {C1} {crime and punishment} геноцид
   549. (  2) 4T ?#PT glance [glɑːns] (n) взгляд, беглый взгляд; (v) {C1} взглянуть, глянуть
   550. (  1) 5T ?#PT glimpse [glɪmps] (n) проблеск, намек; (v) мелькать
   551. (  1) yT *#PT glorious [ˈglɔːrɪəs] славный
@@ -759,7 +759,7 @@
   741. (  1) 4T *#PT manipulation [məˌnɪpjʊˈleɪʃən] (n) манипуляция, манипулирование, обращение, операции
   742. (  1) yT ?#PT manuscript [ˈmænjʊskrɪpt] (n) рукопись; (adj) рукописный
   743. (  2) 3T ?#PT march [mɑːʧ] (n) {A1} {time} март, {C1} {social issues} марш; (v) {C1} {social issues} маршировать
-  744. (  1) yT ?#PT marginal [ˈmɑːʤ ɪnəl] (adj) маргинальный, предельный, незначительный
+  744. (  1) yT ?#PT marginal [ˈmɑːʤ ɪnəl] (adj) {C1} {C2} {politics} {farming} маргинальный, предельный, незначительный
   745. (  1) 5T *#PT marine [məˈriːn] (adj) морской; (n) морпех, марина, морской флот
   746. (  1) 4T ?#PT marketplace [ˈmɑːkɪtpleɪs] (n) рыночная площадь, рынок
   747. (  1) 5T *#PT mask [mæsk] (n) маска, (v) маскировать, скрывать
@@ -882,9 +882,9 @@
 
   864. (  1) 3T ?#PT peak [piːk] (n) {C1} {success} {money} пик, {C1} {geography} вершина, максимум; (adj) {C1} {money} пиковый, максимальный
   865. (  1) 4T ?#PT peasant [ˈpɛzənt] (n) крестьянин; (adj) крестьянский
-  866. (  1) 5T ?#PT peculiar [pɪˈkjuːliə] (adj) своеобразный
+  866. (  1) 5T ?#PT peculiar [pɪˈkjuːliə] (adj) {C1} {C2} {health problems} своеобразный
   867. (  1) 5T ?#PT persist [pəˈsɪst] (v) {C1} сохраняться, упорствовать, сопротивляться
-  868. (  1) 5T ?#PT persistent [pəˈsɪstənt] (adj) {C1} постоянный, настойчивый, стойкий, устойчивый
+  868. (  1) 5T ?#PT persisptent [pəˈsɪstənt] (adj) {C1} постоянный, настойчивый, стойкий, устойчивый
   869. (  1) 5T ?#PT personnel [ˌpɜːsəˈnɛl] (n) персонал, кадры, личный состав
   870. (  1) 5T ?#PT petition [pɪˈtɪʃ(ə)n] (n) ходатайство, петиция, прошение; (v) ходатайствовать, просить
   871. (  1) 4T *#PT philosopher [fɪˈlɒsəfə] (n) философ
@@ -971,7 +971,7 @@
   952. (  1) xT ?#PT query [ˈkwɪəri] (n) запрос, вопрос
   953. (  1) 5T ?#PT quest [kwɛst] (v) поиски, искать
   954. (  1) 5T *#PT quota [ˈkwəʊtə] квота, доля, часть
-  955. (  1) 5T *#PT radar [ˈreɪdə] (n) радиолокатор
+  955. (  1) 5T *#PT radar [ˈreɪdə] (n) {C1} {transport by water} {transport by air} радиолокатор
   956. (  1) 5T *#PT radical [ˈrædɪkəl] (n) радикал; (adj) радикальный, коренной
   957. (  1) 5T ?#PT rage [reɪʤ ] (v) {C2} {feelings} свирепствовать, беситься; (n) {C1} {feelings} ярость, гнев
   958. (  2) 5T ?#PT raid [reɪd] (n) рейд, набег, налет
@@ -1002,7 +1002,7 @@
   983. (  1) 5T *#PT regime [reɪˈʒiːm] 5T *#  regime [reɪˈʒiːm] (n) {C1} {politics} {cooking and eating} режим, строй -1
   984. (  1) yT ?    regulator
   985. (  1) 5T ?    regulatory
-  986. (  1) xT ?#PT rehabilitation [ˌriːəˌbɪlɪˈteɪʃən] (n) реабилитация, восстановление, реконструкция, ремонт
+  986. (  1) xT ?#PT rehabilitation [ˌriːəˌbɪlɪˈteɪʃən] (n) {C1} реабилитация, восстановление, реконструкция, ремонт
   987. (  2) 5T ?#PT reign [reɪn] (v) царствовать, царить; (n) царствование, власть
   988. (  1) 5T ?#PT rejection [rɪˈʤ ɛkʃən] (n) отказ, отклонение
   989. (  1) 5T ?#PT relevance [ˈrɛlɪvəns] (n) релевантность, уместность, актуальность
@@ -1054,7 +1054,7 @@
  1035. (  1) 5T *#PT rotate [rəʊˈteɪt] (v) вращаться, чередовать, вертеться
  1036. (  1) 5T *#PT rotation [rəʊˈteɪʃən] (n) вращение, поворот
  1037. (  1) 4T *#PT ruling [ˈruːlɪŋ] -ing: (v) {B1} {politics} {C1} {preference and decisions} {law and justice} управлять; (adj) господствующий
- 1038. (  1) 3T ?#PT rumour [ˈruːmə] (n) слух, молва, толки; (v) распространять слухи
+ 1038. (  1) 3T ?#PT rumour [ˈruːmə] (n) {C1} слух, молва, толки; (v) распространять слухи
  1039. (  1) 3T ?#PT sack [sæk] (n) мешок; (v) {C1} {social issues} {working life} увольнять
  1040. (  1) 5T ?#PT sacred [ˈseɪkrɪd] (adj) священный, святой
  1041. (  2) xT ?#PT sacrifice [ˈsækrɪfaɪs] (n) жертва, жертвоприношение; (v) жертвовать, приносить жертву
@@ -1383,7 +1383,7 @@
  -1
  -1
               3T ?#  dull [dʌl] (adj) {C1} {colours and shapes} {weather} тусклый, тупой, {B2} {feelings} унылый -1
-              yT ?#  ginger [ˈʤ ɪnʤ ə] (n) {C1} {food} имбирь, {C1} {colours and shapes} = a light orange-brown colour; (adj) {B2} {appearance} {colours and shapes} рыжий; (v) подстегнуть -1
+ -1
               3T ?#  solid [ˈsɒlɪd] (adj) {B1} твердый, {C1} {colours and shapes} сплошной; (n) {B1} {physics and chemistry} {C1} {colour and shapes} {maths and measurement} твердое тело -1
               4T ?#  violet [ˈvaɪəlɪt] (adj) {C1} {colours and shapes} фиолетовый; (n) {C1} {plants and trees} фиалка, {C1} {colours and shapes} = a colour between blue and purple, лиловый -1
               xT ?#  arch [ɑːʧ] (n) {C1} {buildings} {colours and shapes} арка, свод, дуга; (adj) арочный; (combining form) arch- = main/most importnat or most extreme -1
@@ -1427,8 +1427,6 @@
               xT ?#  soundtrack [ˈsaʊndtræk] (n) {C1} {film and theatre} {music} саундтрек, звуковая дорожка, {B2} {music} = some of the music and sometimes some speech from a film or musical that is released on CD/Internet/etc. for people to buy -1
 -1
               xT ?#  federation [ˌfɛdəˈreɪʃ(ə)n] (n) {C1} {politics} федерация, объединение, союз, организация
-              4T *#  berry [ˈbɛri] (n) {C1} {food} ягода; (adj) ягодный
-
               1T *#  lead [liːd/lɛd] (n) {C1} {physics and chemistry} свинец, {B1} {sports: other sports} руководство, {C1} {film and theatre} исполнитель главной роли; (v) {A2} {change, cause and effect} вести, приводить, I:lead-led-led -1
               5T ?#  promoter [prəˈməʊtə] (n) {C1} {film and theatre} {jobs} промоутер, покровитель -1
  -1
@@ -1458,7 +1456,7 @@
               5T ?#  incomprehensible [ɪnˌkɒmprɪˈhensəbl] un-: (adj) {C2} понятный, постижимый; (adj) {C1} {language} непонятный, непостижимый
               3T ?#  infectious [ɪnˈfɛkʃəs] (adj) {C1} {health problems} инфекционный, заразный, заразительный
               5T ?#  tariff [ˈtærɪf] (n) {C1} {money} {holidays} {cooking and eating} тариф, такса, расценка; (adj) тарифный; (v) тарифицировать, установить расценку -1
-              xx ?#  corkscrew [ˈkɔːkskruː] (n) {C1} {drinks} {cooking and eating} штопор -1
+ -1
               yT ?#  batter [ˈbætə] (v) {C2} {crime and punishment} колотить; (n) {C1} {cooking and eating} жидкое тесто, {C1} {sports: ball and racket sports} отбивающий мяч -1
               5T ?#  frost [frɒst] (n) {C1} {weather} мороз, иней; (v) подмораживать, покрывать глазурью
               5T ?#  ounce [aʊns] (n) {C1} {cooking and eating} {maths and measurement} унция, капля -1
@@ -1474,6 +1472,22 @@
               yT ?#  jumbo [ˈʤ ʌmbəʊ] (adj) гигантский, огромный; (n) {C1} {transport by air}  = a large plane that can carry several hundred passengers, неуклюжее животное, I:jumbo-jumboes
               xx ?#  wrestle [ˈrɛsl] (v) {C1} {sports: other sports} бороться; (n) борьба, упорная борьба
               5T ?#  wrestling [ˈrɛslɪŋ] -ing: (v) {C1} {sports: other sports} бороться; (n) {C1} {sports: other sports} борьба
+              zT ?#  underdog [ˈʌndədɒɡ] (n) {C1} {difficulty and failure} {sports: other sports} аутсайдер
+              3T ?#  warmth [wɔːmθ] (n) {C1} {weather} тепло, теплота, сердечность
+              5T ?#  parasite [ˈpærəsaɪt] (n) {C1} {health problems} {bioligy} паразит, тунеядец; (v) паразитировать
+              5T ?#  gulf [gʌlf] (n) {C1} {geography} пропасть, бездна, морской залив
+              4T *#  keeper [ˈkiːpə] (n) {C1} {sports: ball and racket sports} хранитель
+              5T ?#  peninsula [pɪˈnɪnsjʊlə] (n) {C1} {geography} полуостров
+              yT ?#  nuisance [ˈnjuːsns] (n) {C1} {personal qualities} неприятность
+              yT ?#  dynamite [ˈdaɪnəmaɪt] (n) {C1} {physics and chemistry} динамит, героин, наркотик
+              xT ?#  genome [ˈʤ iːnəʊm] (n) {C1} {biology} геном
+              xT *#  imperial [ɪmˈpɪərɪəl] (adj) {C1} {history} имперский, императорский; (n) империал
+              3T *#  soft [sɒft] (adj) {A2} мягкий, тихий, {B1} нежный, {C1} {colours and shapes} = not too bright in a way that is pleasant and relaxing to the eyes, {C1} {drinks} = not alcoholic, {C1} {language} = not sounding hard for example /c/ in /city/ and /g/ in general -1
+              yT ?#  brewery [ˈbruːəri] (n) {C1} {drinks} {business} пивоварня -1
+              3T ?#  pint [paɪnt] (n) {C1} {drinks} {maths and measurement} пинта, кружка, {C1} {drinks} кружка пива -1
+              yT ?#  barley [ˈbɑːli] (n) {C1} {farming} {food} ячмень; (adj) ячменный -1
+              5T ?#  maize [meɪz] (n) {C1} {farming} {food} кукуруза, маис -1
+              4T *#  lime [laɪm] (n) {C2} {farming} известь, {C1} {food} {plants and trees} лайм, липа, лимон, окись кальция; (adj) известковый, липовый -1
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
 

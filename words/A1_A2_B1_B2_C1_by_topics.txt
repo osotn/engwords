@@ -5743,6 +5743,9 @@ Food and drinks
 
 {C1} {drinks {non-alcoholic drinks}}
               5T ?#  beverage [ˈbɛvərɪʤ ] (n) {C1} {drinks} напиток
+              xx ?#  decaffeinated [dɪˈkæfɪˌneɪtɪd] (adj) {C1} {drinks} без кофеина
+              3T *#  soft [sɒft] (adj) {A2} мягкий, тихий, {B1} нежный, {C1} {colours and shapes} = not too bright in a way that is pleasant and relaxing to the eyes, {C1} {drinks} = not alcoholic, {C1} {language} = not sounding hard for example /c/ in /city/ and /g/ in general
+              1T *#  still [stɪl] (adv) {A1} еще, все еще, до сих пор, все же; (adj) {B1} неподвижный, {C1} {drinks} не игристый
 
 {drinks {preparing drinks}}
 ...........................
@@ -5758,6 +5761,12 @@ Food and drinks
 {B2} {drinks {preparing drinks}}
               xx ?#  ice+cube [aɪs kjuːb] (n) {B2} {drinks} кубик льда
               xx ?#  on+ice [ɒn+aɪs] (idiom) {B2} {drinks} со льдом
+
+{C1} {drinks {preparing drinks}}
+              yT ?#  brew [bruː] (n) варево, напиток, варка; (v) {C1} {drinks} заваривать
+              yT ?#  brewery [ˈbruːəri] (n) {C1} {drinks} {business} пивоварня
+              xx ?#  corkscrew [ˈkɔːkskruː] (n) {C1} {drinks} {cooking and eating} штопор
+              3T ?#  pint [paɪnt] (n) {C1} {drinks} {maths and measurement} пинта, кружка, {C1} {drinks} кружка пива
 
 {food}
 -----------
@@ -5798,6 +5807,13 @@ Food and drinks
               yT ?#  pastry [ˈpeɪstri] (n) печенье, тесто, {B2} {food} кондитерские изделия
  1408. (  1) 4T *#PT wheat [wiːt] (n) {B2} {farming} {food} пшеница
 
+{C1} {food {carbohydrates}}
+              yT ?#  barley [ˈbɑːli] (n) {C1} {farming} {food} ячмень; (adj) ячменный
+              4T ?#  dough [doʊ] (n) {C1} {food} тесто, паста
+              5T ?#  maize [meɪz] (n) {C1} {farming} {food} кукуруза, маис
+              5T ?#  popcorn [ˈpɒpkɔːn] (n) {C1} {food} попкорн
+              4T ?#  porridge [ˈpɒrɪʤ ] (n) {C1} {food} каша, овсяная каша
+
 {food {dairy and fats}}
 .......................
 {A1} {food {dairy and fats}}
@@ -5822,6 +5838,9 @@ Food and drinks
               xx ?#  greek+yogurt [ɡriːk ˈjɒɡət] (n) {B2} {food} греческий йогурт, = a type of yogurt that has had some of the liquid removed to make it thick
               zT ?#  margarine [ˌmɑːʤ əˈriːn] (n) {B2} {food} маргарин
               xx ?#  sour+cream [saʊə kriːm] (n) {B2} {food} сметана
+
+{B2} {food {dairy and fats}}
+              5T ?#  yolk [jəʊk] (n) {C1} {food} желток, яичный желток
 
 {food {fruit and nuts}}
 .......................
@@ -5854,6 +5873,18 @@ Food and drinks
               yT *#  raspberry [ˈrɑːzbəri] (n) {B2} {food} малина
               zT *#  watermelon [ˈwɔːtəˌmɛlən] (n) {B2} {food} арбуз
 
+{C1} {food {fruit and nuts}}
+              yT ?#  almond [ˈɑːmənd] (n) {C1} {food} миндаль; (adj) миндальный
+              zT *#  apricot [ˈeɪprɪkɒt] (n) {C1} {food} абрикос
+              zT *#  avocado [ˌævəʊˈkɑːdəʊ] (n) {C1} {food} авокадо
+              4T *#  berry [ˈbɛri] (n) {C1} {food} ягода; (adj) ягодный
+              xT ?#  blackberry [ˈblækbəri] (n) {C1} {food} ежевика, черная смородина
+              yT ?#  citrus [ˈsɪtrəs] (n) {C1} {food} цитрусовые, цитрус; (adj) цитрусовый
+              yT ?#  coconut [ˈkəʊkənʌt] (n) {C1} {food} кокос
+              zT ?#  grapefruit [ˈgreɪpˌfruːt] (n) {C1} {food} грейпфрут
+              4T *#  lime [laɪm] (n) {C2} {farming} известь, {C1} {food} {plants and trees} лайм, липа, лимон, окись кальция; (adj) известковый, липовый
+              yT ?#  plum [plʌm] (n) {C1} {food} слива; (adj) сливовый
+
 {food {herbs and spices}}
 .........................
 {A1} {food {herbs and spices}}
@@ -5867,6 +5898,11 @@ Food and drinks
 {B2} {food {herbs and spices}}
   623. (  1) xT ?#PT herb [hɜːb] (n) {B2} {food} трава, растение, Херб
  1211. (  1) 3T ?#PT spice [spaɪs] (n) {B2} {food} специи, пряность, пикантность; (v) приправлять
+
+{C1} {food {herbs and spices}}
+              yT ?#  basil [ˈbæzl] (n) Бэзил, {C1} {food} базилик
+              yT ?#  ginger [ˈʤ ɪnʤ ə] (n) {C1} {food} имбирь, {C1} {colours and shapes} = a light orange-brown colour; (adj) {B2} {appearance} {colours and shapes} рыжий; (v) подстегнуть
+              xT ?#  vanilla [vəˈnɪlə] (n) {C1} {plants and trees} {food} ваниль; (adj) ванильный
 
 {food {meat, fish and seafood}}
 ...............................
@@ -5902,6 +5938,9 @@ Food and drinks
   149. (  1) 3T *#PT breast [brɛst] (n) {B2} {body} {birds} {food} грудь, молочная железа; (v) восставать
               5T ?#  crab [kræb] (n) {B2} {fish and shellfish} {food} краб, помеха, неудобство; (adj) раздражительный; (v) царапать
               5T ?#  roast [rəʊst] (v) {B1} {cooking and eating} жарить, жариться, пожарить, высмеивать; (n) {B2} {food} {cooking and eating} жаркое, обжиг, жареное мясо; (adj) жареный
+
+{C1} {food {meat, fish and seafood}}
+              1T *#  cut [kʌt] (n) {B1} {health problems} порез, {B1} {money} снижение, {B1} {appearance} стрижка, {C1} {clothes and fashion} покрой, {C1} {film and theatre} монтаж, {C1} {film and theatre} выполнять монтаж, {C1} {money} = a share in something especially money, {C1} {food} = a piece of meat cut from an animal; (v) {A1} {health problems} резать, {B1} {money} отрезать, {B2} {computers} удалять, {C1} {film and theatre} выполнять монтаж, I:cut-cut-cut
 
 {food {sauces}}
 ...............
