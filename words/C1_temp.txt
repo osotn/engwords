@@ -119,7 +119,7 @@
   100. (  1) xT ?#PT asylum [əˈsaɪləm] (n) убежище, приют, психиатрическая больница
   101. (  1) xx ?#PT atrocity [əˈtrɒsəti] (n) {C1} {war and conflict} зверство, злодеяние, жестокость
   102. (  1) 5T ?#PT attain [əˈteɪn] (v) достигать, добиваться
-  103. (  1) 5T ?#PT attendance [əˈtɛndəns] (n) посещаемость, посещение
+  103. (  1) 5T ?#PT attendance [əˈtɛndəns] (n) {C1} {working life} {education} посещаемость, {C1} посещение
   104. (  1) 3T ?#PT attorney [əˈtɜːni] (n) {C1} {jobs} {law and justice} адвокат, прокурор, поверенный, {C1} {business} юрист
   105. (  2) 5T *#PT attribute [ˈætrɪbjuːt->(n)/əˈtrɪbjuːt->(v)] (n) атрибут, признак; (v) приписывать
   106. (  1) 5T ?#PT audit [ˈɔdɪt] (n) {C1} {money} {business} ревизия; (v) {C1} {money} {business} ревизовать
@@ -262,7 +262,7 @@
 
   244. (  1) 5T ?#PT condemn [kənˈdɛm] (v) осуждать, обречь
   245. (  1) 5T ?#PT confer [kənˈfɜː] (v) {C1} {education} присваивать, даровать, присуждать, {C1} {opinion and argument} обсуждать -1
-  246. (  1) 5T ?#PT confession [kənˈfɛʃ(ə)n] (n) признание, исповедь
+  246. (  1) 5T ?#PT confession [kənˈfɛʃ(ə)n] (n) {C1} {crime and punishment} признание, {C1} {feelings} исповедь
   247. (  1) 5T *#PT configuration [kənˌfɪgjʊˈreɪʃən] (n) {C1} {C2} {computer} конфигурация, форма, очертание
   248. (  1) 3T ?#PT confine [kənˈfaɪn] (v) ограничивать, придерживаться, заточать, заключать в тюрьму; (n) граница
   249. (  1) 5T ?#PT confirmation [ˌkɒnfəˈmeɪʃən] подтверждение, утверждение
@@ -1573,6 +1573,7 @@
               xx ?#  mayonnaise [ˌmeɪəˈneɪz] (n) {C1} {food} майонез
               4T ?#  misty [ˈmɪsti] (adj) {C1} {weather} туманный
               zT ?#  gloom [gluːm] (n) мрак, {C1} {feelings} уныние; (v) хмуриться
+              yT ?#  cot [kɒt] (n) {C1} {life stages} детская кроватка, {C2} {holidays} раскладушка
 
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
