@@ -729,7 +729,7 @@
   709. (  1) 4T ?#PT liberation [ˌlɪbəˈreɪʃən] (n) {C1} освобождение
   710. (  1) 5T *#PT liberty [ˈlɪbəti] (n) свобода, вольности, вольность, воля
   711. (  1) 3T *#PT license [ˈlaɪsəns] (n) {B2} лицензия, разрешение; (v) {C1} выдавать лицензию, разрешать
-  712. (  1) yT ?    lifelong
+  712. (  1) yT *#PT lifelong [ˈlaɪflɒŋ] (adj) {C1} пожизненный
   713. (  1) xT ?#PT likelihood [ˈlaɪklɪhʊd] (n) вероятность
 
   715. (  1) xx ?#PT line-up [ˈlaɪn ʌp] (n) {C1} строй, расстановка, расположение, состав команды, {C1} {music} = a set of items/events/etc. arranged to follow another -1
@@ -1058,7 +1058,7 @@
  1037. (  1) 4T *#PT ruling [ˈruːlɪŋ] -ing: (v) {B1} {politics} {C1} {preferences and decisions} {law and justice} управлять; (adj) господствующий; (n) {C1} {preferences and decisions} {law and justice} {politics} решение, постановление, управление, судебное решение -1
  1038. (  1) 3T ?#PT rumour [ˈruːmə] (n) {C1} слух, молва, толки; (v) распространять слухи
  1039. (  1) 3T ?#PT sack [sæk] (n) мешок; (v) {C1} {social issues} {working life} увольнять
- 1040. (  1) 5T ?#PT sacred [ˈseɪkrɪd] (adj) священный, святой
+ 1040. (  1) 5T ?#PT sacred [ˈseɪkrɪd] (adj) {C1} священный, {C1} {religion and festivals} святой
  1041. (  2) xT ?#PT sacrifice [ˈsækrɪfaɪs] (n) жертва, жертвоприношение; (v) жертвовать, приносить жертву
  1042. (  1) 4T *#PT saint [seɪnt] (adj) святой; (n) {C1} {religion and festivals} {personal qualities} святой, праведник
  1043. (  1) 5T ?#PT sake [seɪk] (adj) ради
