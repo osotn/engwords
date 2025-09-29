@@ -388,7 +388,7 @@
   368. (  1) yT ?#PT detention [dɪˈtɛnʃ(ə)n] (n) {C1} {crime and punishment} {education} задержание, арест, оставление после уроков
   369. (  1) 5T ?#PT deteriorate [dɪˈtɪərɪəreɪt] (v) ухудшаться, портиться, дегенерировать
   370. (  1) 5T ?#PT devastate [ˈdɛvəsteɪt] (v) {C1} {feelings} опустошать, разорять
-  371. (  1) 4T *#PT devil [ˈdɛvl] (n) дьявол
+  371. (  1) 4T *#PT devil [ˈdɛvl] (n) {C1} дьявол
   372. (  1) 5T ?#PT devise [dɪˈvaɪz] (v) разрабатывать, {C1} изобретать, придумывать, завещать
 
 
@@ -780,8 +780,8 @@
 
   761. (  1) 5T *#PT merchant [ˈmɜːʧənt] (n) купец, лавочник; (adj) купеческий, торговый
   762. (  1) xT *#PT mercy [ˈmɜːsi] (n) милость, {C1} {personal qualities} милосердие, сострадание
-  763. (  1) 3T ?#PT mere [mɪə] (adj) простой, явный; (n) озеро, пруд
-  764. (  1) 3T ?#PT merely [ˈmɪəli] (adv) просто, только, единственно
+  763. (  1) 3T ?#PT mere [mɪə] (adj) {C1} простой, явный; (n) озеро, пруд
+  764. (  1) 3T ?#PT merely [ˈmɪəli] -ly: (adj) {C1} простой, явный; (adv) {C1} просто, только, единственно
   765. (  1) 5T *#PT merge [mɜrʤ ] (v) {C1} {business} сливаться, {C1} сливать; (n) слияние
   766. (  1) 5T ?#PT merger [ˈmɜːʤ ə] слияние, объединение, поглощение
   767. (  1) 5T ?#PT merit [ˈmɛrɪt] (n) {C1} заслуга, достоинство; (v) заслужить
@@ -808,7 +808,7 @@
   788. (  1) xT ?#PT momentum [məʊˈmɛntəm] (n) импульс, момент, инерция, количество движения
   789. (  1) 4T ?#PT monk [mʌŋk] (n) монах
   790. (  1) 5T ?#PT monopoly [məˈnɒpəli] (n) {C1} {money} {games and toys} монополия
-  791. (  1) yT ?    morality
+  791. (  1) yT ?#PT morality [məˈræləti] (n) {C1} {personal qualities} мораль, нравоучение
   792. (  1) 5T *#PT motive [ˈməʊtɪv] (n) мотив, повод, побуждение; (v) побуждать
   793. (  1) 4T ?#PT motorist [ˈməʊtərɪst] (n) автомобилист, автолюбитель
   794. (  1) 5T *#PT municipal [mju(ː)ˈnɪsɪpəl] муниципальный, городской
@@ -1101,7 +1101,7 @@
  1080. (  1) xT *#PT situated [ˈsɪtjʊˌeɪtɪd] -ed: (v) размещать, располагать
  -2
  1082. (  1) 5T *#PT skip [skɪp] (n) пропуск, скип; (v) {C1} {education} пропускать, скакать, перескакивать
- 1083. (  1) yT ?#PT slam [ˈslæm] (v) хлопать, захлопнуть, прихлопнуть; (n) шлем, хлопанье, тюряга
+ 1083. (  1) yT ?#PT slam [ˈslæm] (v) {C1} хлопать, захлопнуть, прихлопнуть; (n) шлем, хлопанье, тюряга
  1084. (  1) yT ?#PT slap [slæp] (n) пощечина, шлепок; (v) {C1} шлепать; (adv) прямо
  1085. (  1) 5T *#PT slash [slæʃ] (v) {C1} хлестать, сокращать, порезать; (n) {C1} {computers} {language} косая черта, сокращение -1
  1086. (  1) 4T ?#PT slavery [ˈsleɪvəri] (n) {C1} рабство, рабовладение, неволя
@@ -1574,6 +1574,12 @@
               4T ?#  misty [ˈmɪsti] (adj) {C1} {weather} туманный
               zT ?#  gloom [gluːm] (n) мрак, {C1} {feelings} уныние; (v) хмуриться
               yT ?#  cot [kɒt] (n) {C1} {life stages} детская кроватка, {C2} {holidays} раскладушка
+              4T *#  jesus [ˈʤ iːzəs] (n) {C1} {religion and festivals} Иисус
+              yT ?#  compartment [kəmˈpɑːtmənt] (n) {C1} {transport by bus and train} отсек, отделение, купе
+              5T ?#  mansion [ˈmænʃən] (n) {C1} {houses and homes} {buildings} особняк
+              xT ?#  manor [ˈmænə] (n) {C1} {houses and homes} {buildings} поместье, феодальное поместье
+              xT ?#  motel [məʊˈtel] (n) {C1} {buildings} {holidays} мотель
+              5T *#  nickel [ˈnɪkl] (n) {C1} {money} монета в пять центов, {C2} {physics and chemistry} никель; (adj) никелевый
 
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
