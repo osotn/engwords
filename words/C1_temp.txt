@@ -181,7 +181,7 @@
   162. (  1) yT ?#PT bureaucracy [bjʊəˈrɒkrəsi] (n) {C1} {politics} бюрократия, бюрократизм
   163. (  1) yT ?#PT burial [ˈbɛrɪəl] (n) захоронение, похороны
   164. (  1) 3T ?#PT burst [bɜːst] (n) взрыв, вспышка; (v) разрывать, I: burst-burst-burst
-  165. (  1) 3T ?#PT cabinet [ˈkæbɪnɪt] (n) кабинет, шкаф, корпус
+  165. (  1) 3T ?#PT cabinet [ˈkæbɪnɪt] (n) {C1} {politics} кабинет, {C1} {houses and homes} шкаф, корпус
   166. (  1) 3T *#PT calculation [ˌkælkjʊˈleɪʃən] (n) {C1} {maths and measurement} {opinion and argument} расчет, вычисление, калькуляция -1
   167. (  1) 5T *#PT canvas [ˈkænvəs] (n) {C1} {art} холст, {C1} полотно; (adj) брезентовый -1
   168. (  1) 5T *#PT capability [ˌkeɪpəˈbɪlɪti] (n) возможности, {C1} способность, умение
@@ -591,7 +591,7 @@
   571. (  1) 5T ?#PT handful [ˈhændfʊl] (n) {C1} горсть
   572. (  1) 4T *#PT handling [ˈhændlɪŋ] -ing: (v) {B2} обращаться, управлять
   573. (  1) 5T ?#PT handy [ˈhændi] (adj) {C1} удобный, {C1} {buildings} портативный -1
-  574. (  1) xT ?#PT harassment [ˈhærəsmənt] (n) беспокойство, раздражение, забота, домогательство
+  574. (  1) xT ?#PT harassment [ˈhærəsmənt] (n) {C1} беспокойство, раздражение, забота, домогательство
   575. (  1) 5T *#PT hardware [ˈhɑːdweə] (n) {C1} {computers} аппаратные средства, аппаратура
   576. (  1) 5T ?#PT harmony [ˈhɑːməni] (n) {C1} {opinion and argument} {social issues} {music} {art} гармония, согласие, стройность -2
   577. (  1) 5T ?#PT harsh [hɑːʃ] (adj) резкий, суровый, жесткий, грубый, строгий
@@ -1173,7 +1173,7 @@
  1152. (  1) 5T ?#PT successive [səkˈsɛsɪv] (adj) последующий, последовательный
  1153. (  1) yT ?#PT successor [səkˈsɛsə] (n) преемник, наследник
  1154. (  1) 3T *#PT suck [sʌk] (v) сосать, высасывать; (n) всасывание
- 1155. (  1) 5T ?#PT sue [sjuː] (v) предъявлять иск, возбуждать дело
+ 1155. (  1) 5T ?#PT sue [sjuː] (v) {C1} {law and justice} предъявлять иск, возбуждать дело
  1156. (  1) 4T *#PT suicide [ˈsjʊɪsaɪd] (n) {C1} {crime and punishment} самоубийство, самоубийца; (v) покончить с собой
  1157. (  1) 5T ?#PT suite [(GB)swiːt/(US)swit] (n) набор, апартаменты, комплект
  1158. (  1) 5T ?#PT summit [ˈsʌmɪt] (n) вершина
@@ -1580,6 +1580,11 @@
               xT ?#  manor [ˈmænə] (n) {C1} {houses and homes} {buildings} поместье, феодальное поместье
               xT ?#  motel [məʊˈtel] (n) {C1} {buildings} {holidays} мотель
               5T *#  nickel [ˈnɪkl] (n) {C1} {money} монета в пять центов, {C2} {physics and chemistry} никель; (adj) никелевый
+              xT ?#  florist [ˈflɒrɪst] (n) {C1} {jobs} {shopping} флорист, цветочник, торговец цветами
+              5T ?#  precaution [prɪˈkɔːʃ(ə)n] (n) {C1} {danger} предосторожность, предусмотрительность
+              yT ?#  diaper [ˈdaɪpə(r)] (n) {C1} {life stages} подгузник, пеленка; (v) пеленать
+              zT ?#  breezy [ˈbriːzi] (n) {C1} {weather} свежий, прохладный
+              xT ?#  hose [həʊz] (n) {C1} {gardens} шланг, рукав; (v) поливать из шланга
 
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
