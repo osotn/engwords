@@ -152,7 +152,7 @@
   133. (  1) 5T ?#PT betray [bɪˈtreɪ] (v) предавать, изменять, выдавать
   134. (  1) xT *#PT bind [baɪnd] (v) {C1} связывать, привязывать, I: bind-bound-bound
 
-  136. (  1) 4T ?#PT bishop [ˈbɪʃəp] (n) епископ, слон
+  136. (  1) 4T ?#PT bishop [ˈbɪʃəp] (n) {C1} {religion and festivals} {jobs} епископ, {C2} {games and toys} слон
   137. (  1) 5T ?#PT bizarre [bɪˈzɑː] (adj) {C1} странный, причудливый, эксцентричный
   138. (  1) 3T ?#PT blade [bleɪd] (n) {C1} лезвие, {C2} {plants and trees} травинка, {C1} {transport by air} {engineering} крыло, былинка
   139. (  2) 5T ?#PT blast [blɑːst] (n) {C1} {war and conflict} взрыв, {C1} звук, взрывная волна; (v) {C1} {war and conflict} взрывать
@@ -1030,7 +1030,7 @@
  1009. (  1) 5T ?#PT residence [ˈrɛzɪdəns] (n) резиденция, проживание, пребывание, местожительство
  1010. (  1) 5T ?#PT residential [ˌrɛzɪˈdɛnʃəl] (adj) жилой
  1011. (  1) 5T ?#PT residue [ˈrɛzɪdjuː] (n) остаток, осадок
- 1012. (  1) yT ?#PT resignation [ˌrɛzɪɡˈneɪʃ(ə)n] (n) отставка, заявление об отставке
+ 1012. (  1) yT ?#PT resignation [ˌrɛzɪɡˈneɪʃ(ə)n] (n) {C1} {working life} отставка, заявление об отставке
 
  1014. (  1) 5T *#PT respective [rɪsˈpɛktɪv] (adj) {C1} соответственный
  1015. (  1) 5T *#PT respectively [rɪsˈpɛktɪvli] -ly: (adj)->(adv) {C1} соответственный; (adv) {C1} соответственно, в указанном порядке
