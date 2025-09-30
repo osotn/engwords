@@ -99,7 +99,7 @@
    80. (  1) 3T ?#PT appoint [əˈpɔɪnt] (v) {C1} {working life} назначать
    81. (  1) 5T ?#PT appreciation [əˌpriːʃɪˈeɪʃ(ə)n] (n) {C1} {change, cause and effect} признательность, оценка, понимание
    82. (  1) 5T ?#PT arbitrary [ˈɑːbɪtrəri] (adj) произвольный, случайный
-   83. (  1) 5T *#PT architectural [ˌɑːkɪˈtɛkʧərəl] (adj) архитектурный
+
    84. (  1) xT *#PT archive [ˈɑːkaɪv] архив, архивировать
    85. (  1) 5T ?#PT arena [əˈriːnə] (n) {C1} {sports: other sports} {politics} арена
    86. (  1) yT ?#PT arguably [ˈɑːɡjuːəb(ə)li] -ly: (adj)->(adv) {C1} {opinion and argument} {doubt, guessing and certainty} спорный, доказуемый; (adv) {C1} {opinion and argument} возможно -1
@@ -111,7 +111,7 @@
    92. (  1) yT ?#PT aspire [əsˈpaɪə] (v) стремиться
    93. (  1) yT ?#PT assassination [əˌsæsəˈneɪʃən] (n) убийство, политическое убийство
    94. (  2) 5T ?#PT assault [əˈsɔːlt] (n) нападение, штурм, атака, насилие, изнасилование, высадка десанта с боем; (adj) штурмовой; (v) штурмовать
-   95. (  1) 5T ?#PT assemble [əˈsɛmbl] (v) {C1} {business} {buildings} собираться, собирать
+   95. (  1) 5T ?#PT assemble [əˈsɛmbl] (v) {C1} {business} {buildings} собираться, собирать -1
    96. (  1) 5T *#PT assembly [əˈsɛmbli] (adj) монтажный, сборочный; (n) {C1} сборка, монтаж, {C1} {education} {business} собрание, {C1} {politics} ассамблея, агрегат
 
    98. (  1) 4T *#PT assertion [əˈsɜːʃ(ə)n] (n) {C1} {opinion and argument} утверждение, {C1} заявление -1
@@ -141,7 +141,7 @@
   122. (  1) 4T *#PT bat [bæt] (n) {C1} {animals} летучая мышь, {B2} {sports: ball and racket sports} бита, ракетка, удар; (v) {C1} бить палкой -1
   123. (  1) xT *#PT battlefield [ˈbætəlˌfild] (n) поле боя
   124. (  1) 3T ?#PT bay [beɪ] (n) залив, бухта; (adj) гнедой; (v) лаять, преследовать
-  125. (  1) 5T *#PT beam [biːm] (n) {C1} луч, {buildings} балка; (v) {C2} {feelings} {apperance} {tv, radio and news} излучать, сиять
+  125. (  1) 5T *#PT beam [biːm] (n) {C1} луч, {buildings} балка; (v) {C2} {feelings} {apperance} {tv, radio and news} излучать, сиять -1
 
   127. (  1) 3T ?#PT behalf [bɪˈhɑːf] (n) от имени
   128. (  1) yT ?#PT beloved [bɪˈlʌvɪd/bɪˈlʌvd] (adj) возлюбленный; (n) любимая
@@ -487,11 +487,11 @@
   467. (  1) 5T ?#PT epidemic [ˌɛpɪˈdɛmɪk] (n) {C1} {health problems} эпидемия, {C1} вспышка болезни; (adj) эпидемический -1
   468. (  1) 5T *#PT equality [i(ː)ˈkwɒlɪti] (n) равенство, равноправие
   469. (  1) xT *#PT equation [ɪˈkweɪʃən] (n) уравнение
-  470. (  1) 5T *#PT erect [ɪˈrɛkt] (v) возвести, соорудить; (adj) прямо; (adj) прямой, торчащий, стоячий
+  470. (  1) 5T *#PT erect [ɪˈrɛkt] (v) {C1} возвести, {C1] {buildings} соорудить; (adj) прямо; (adj) {C2} {appearance} прямой, торчащий, стоячий -1
   471. (  1) 5T ?#PT escalate [ˈɛskəleɪt] (v) обостряться, расширять
   472. (  1) xT ?#PT essence [ˈɛsəns] (n) сущность, существо
   473. (  1) xT ?#PT establishment [ɪsˈtæblɪʃmənt] (n) {C1} установление, учреждение, заведение, основание
-  474. (  1) 5T ?#PT eternal [i(ː)ˈtɜːnl] (adj) вечный
+  474. (  1) 5T ?#PT eternal [i(ː)ˈtɜːnl] (adj) {C1} вечный
   475. (  1) xx ?#PT evacuate [ɪˈvækjueɪt] (v) эвакуировать
   476. (  1) 5T ?#PT evoke [ɪˈvəʊk] вызывать, вызывать чувства
   477. (  1) 5T *#PT evolutionary [ˌiːvəˈluːʃnəri] (adj) {C1} {biology} эволюционный
@@ -963,7 +963,7 @@
   942. (  1) 4T ?#PT protective [prəˈtɛktɪv] (adj) защитный
 
   944. (  1) 4T *#PT province [ˈprɒvɪns] (n) провинция, область, губерния
-  945. (  1) xT ?#PT provincial [prəˈvɪnʃəl] (adj) провинциальный, местный, (n) провинциал
+  945. (  1) xT ?#PT provincial [prəˈvɪnʃəl] (adj) {C1} {buildings} провинциальный, {C1} местный; (n) провинциал -1
   946. (  1) 5T ?#PT provision [prəˈvɪʒən] (n) положение, обеспечение, снабжение; (v) снабжать продовольствием
   947. (  1) 5T ?#PT provoke [prəˈvəʊk] (v) {C1} {change, cause and effect} {opinion and argument} {feelings} провоцировать, вызывать, раздражать -1
 
@@ -992,7 +992,7 @@
   971. (  1) 5T ?#PT rebel [ˈrɛbl->(n)/rɪˈbɛl->(v)] (v) бунтовать, восставать; (n) бунтарь, мятежник
   972. (  1) 5T ?#PT rebellion [rɪˈbɛljən] (n) {C1} {war and conflict} восстание, бунт, {C1} мятеж
   973. (  1) 5T *#PT recipient [rɪˈsɪpɪənt] (n) {C1} получатель
-  974. (  1) 5T ?#PT reconstruction [ˌriːkənsˈtrʌkʃən] (n) {C1} реконструкция, {C1} {buildings} перестройка, {C1} {tv, radio and news} = an act of acting out events that are known to have happened in order to try and get more information or better understanding about what happened especially a crime -1
+  974. (  1) 5T ?#PT reconstruction [ˌriːkənsˈtrʌkʃən] (n) {C1} реконструкция, {C1} {buildings} перестройка, {C1} {tv, radio and news} = an act of acting out events that are known to have happened in order to try and get more information or better understanding about what happened especially a crime -2
   975. (  1) 5T ?    recount
   976. (  1) yT ?#PT referendum [ˌrɛfəˈrɛndəm] (n) референдум
   977. (  1) 5T ?#PT reflection [rɪˈflɛkʃən] (n) {C1} отражение, рефлексия, размышление, отблеск
@@ -1028,7 +1028,7 @@
  1007. (  1) 5T ?#PT resemble [rɪˈzɛmbl] (v) походить на, иметь сходство
  1008. (  1) 5T ?#PT reside [rɪˈzaɪd] (v) проживать, находиться, жить
  1009. (  1) 5T ?#PT residence [ˈrɛzɪdəns] (n) резиденция, проживание, пребывание, местожительство
- 1010. (  1) 5T ?#PT residential [ˌrɛzɪˈdɛnʃəl] (adj) жилой
+ 1010. (  1) 5T ?#PT residential [ˌrɛzɪˈdɛnʃəl] (adj) {C1} {houses and homes} {buildings} {education} жилой -1
  1011. (  1) 5T ?#PT residue [ˈrɛzɪdjuː] (n) остаток, осадок
  1012. (  1) yT ?#PT resignation [ˌrɛzɪɡˈneɪʃ(ə)n] (n) {C1} {working life} отставка, заявление об отставке
 
@@ -1119,7 +1119,7 @@
  1098. (  1) 3T *#PT sound [saʊnd] (n) {A1} {film and theatre} звук; (adj) {C1} звуковой; (v)(stative) {A1} звучать, казаться
  1099. (  1) 5T ?#PT sovereignty [ˈsɒvrənti] (n) суверенитет, верховная власть
  1100. (  1) xT ?#PT spam [spæm] (n) {C1} {business} {phones, email and the internet} спам; (v) {B2} {phones, email and the internet} = to send the same message to large numbers of internet users who have not requested the information -1
- 1101. (  2) 5T ?#PT span [spæn] (v) {C1} охватывать, {C1} {buildings} перекрывать; (n) {C1} диапазон, интервал
+ 1101. (  2) 5T ?#PT span [spæn] (v) {C1} охватывать, {C1} {buildings} перекрывать; (n) {C1} диапазон, интервал -1
  1102. (  1) 3T *#PT spare [speə] (adj) запасной, {B2} {hobbies} свободный, лишний, резервный; (v) {C1} жалеть, экономить; (n) запасная часть
  1103. (  1) 5T ?#PT spark [spɑːk] (n) вспышка, искра; (v) {C1} искриться, искрить, побуждать, вспыхивать
  1104. (  1) 5T *#PT specialized [ˈspɛʃəlaɪzd] -ed: (v) {B2} специализироваться, сужать, приспосабливать
@@ -1154,7 +1154,7 @@
  1133. (  1) 5T ?#PT strand [strænd] (n) {C1} {appearance} прядь, нитка; (v) {C1} {transport by water} сесть на мель -1
  1134. (  1) xT *#PT strategic [strəˈtiːʤ ɪk] (adj) стратегический, оперативный
  1135. (  1) 3T ?#PT striking [straɪkɪŋ] -ing: (v) {B2} {war and conflict} бить, {B2} {working life} {social issues} бастовать, I:strike-struck-stricken/struck; (adj) {C1} {appearance} поразительный, {C1} ударный -1
- 1136. (  2) 3T *#PT strip [strɪp] (n) {C1} полоса; (v) {C1} {clothes and fashion} {houses and homes} {buildings} раздеваться, обнажать -1
+ 1136. (  2) 3T *#PT strip [strɪp] (n) {C1} полоса; (v) {C1} {clothes and fashion} {houses and homes} {buildings} раздеваться, обнажать -2
  1137. (  1) 5T ?#PT strive [straɪv] (v) {C1} {success} бороться, стараться, прилагать усилия, I:strive-strove-striven
  1138. (  1) xT *#PT structural [ˈstrʌkʧərəl] (adj) {C1} структурный
  1139. (  1) 5T ?#PT stumble [ˈstʌmbl] (v) {C1} {language} спотыкаться; (n) задержка, {C2} {difficulty and failure} запинка
@@ -1168,7 +1168,7 @@
  1147. (  2) 3T *#PT substitute [ˈsʌbstɪtjuːt] (n) {C1} замена, {C1} {sports: ball and racket sports} = a player who replaces another player in a sport game; (v) {C1} заменять
  1148. (  1) 4T *#PT substitution [ˌsʌbstɪˈtjuːʃən] (n) замена
  1149. (  1) 5T ?#PT subtle [ˈsʌtl] (adj) {C1} {colours and shapes} тонкий, {C1} утонченный, нежный -1
- 1150. (  1) 4T ?#PT suburban [səˈbɜːbən] (adj) пригородный, загородный; (n) житель пригорода
+
  1151. (  1) yT ?#PT succession [səkˈsɛʃən] (n) последовательность, преемственность
  1152. (  1) 5T ?#PT successive [səkˈsɛsɪv] (adj) последующий, последовательный
  1153. (  1) yT ?#PT successor [səkˈsɛsə] (n) преемник, наследник
@@ -1231,7 +1231,7 @@
  1210. (  1) 5T ?#PT thrive [θraɪv] (v) {C1} {success} {health and fitness} процветать, преуспевать -1
  1211. (  1) 5T ?#PT tide [taɪd] (n) {C1} волна, {C1} {transport by water} {geography} поток, {C1} {opinion and argument} течение -1
  1212. (  1) zT ?#PT tighten [ˈtaɪtn] (v) затянуть, сжимать
- 1213. (  1) 5T ?#PT timber [ˈtɪmbə] (adj) лесной; (n) лесоматериалы, строевой лес
+ 1213. (  1) 5T ?#PT timber [ˈtɪmbə] (adj) лесной; (n) {C1} {plants and trees} лесоматериалы, {C1} {buildings} строевой лес -1
  1214. (  1) xT ?    timely
  1215. (  1) 4T ?#PT tobacco [təˈbækəʊ] (n) {C1} {social issues} табак; (adj) табачный
  1216. (  1) 5T ?#PT tolerance [ˈtɒlərəns] (n) {C1} {discussion and agreement} {personal qualities} {social issues} толерантность, терпимость, допустимое отклонение -1
@@ -1493,7 +1493,7 @@
               3T ?#  bargain [ˈbɑːgɪn] (v) {C1} {discussion and agreement} {shopping} торговаться; (n) {B2} {shopping} {money} {discussion and agreement} сделка -1
               xx ?#  bribe [braɪb] (n) {C1} {discussion and agreement} {crime and punishment} {money} взятка, подкуп; (v) {C1} {discussion and agreement} {crime and punishment} {money} подкупать -1
               xT ?#  collaborative [kəˈlæb(ə)rətɪv] (adj) {C1} {discussion and agreement} {working life} совместный -1
-              3T *#  concrete [ˈkɒnkriːt/kənˈkriːt] (n) {B2} {physics and chemistry} бетон; (adj) {C1} {doubt, guessing and certainty} конкретный, {B2} {buildings} {physics and chemistry} бетонный; (v) {C1} {buildings} бетонировать -1
+ -1
               zT ?#  sociological [ˌsəʊsiəˈlɒdʒɪkl] (adj) {C1} {education} {people in society} социологический
  -1
  -1
@@ -1541,7 +1541,6 @@
               yT ?#  overdose [ˈəʊvədəʊs->(n)/ˌəʊvəˈdəʊs->(v)] (n) {C1} {social issues} передозировка; (v) {C1} {social issues} {health problems} передозировать -1
               xT ?#  tumor [ˈtjuːmə] (n) {C1} {health problems} опухоль
               5T ?#  counselor [ˈkaʊns(ə)lə] (n) {C1} {suggestions and advice} {jobs} советник, консультант
-              5T ?#  renovate [ˈrɛnəˌveɪt] (v) {C1} {buildings} обновлять, ремонтировать
               zT ?#  exhaustion [ɪgˈzɔːsʧən] (n) {C1} {feelings} истощение, изнеможение
               zT ?#  insecurity [ˌɪnsɪˈkjʊərəti] (n) {C1} {feelings} неуверенность, небезопасность
               5T ?#  discomfort [dɪsˈkʌmfət] (n) {C1} {health problems} дискомфорт, беспокойство; (v) {C1} {feelings} беспокоить, причинять неудобство -1
@@ -1585,7 +1584,11 @@
               yT ?#  diaper [ˈdaɪpə(r)] (n) {C1} {life stages} подгузник, пеленка; (v) пеленать
               zT ?#  breezy [ˈbriːzi] (n) {C1} {weather} свежий, прохладный
               xT ?#  hose [həʊz] (n) {C1} {gardens} шланг, рукав; (v) поливать из шланга
-
+              xT ?#  cement [sɪˈmɛnt] (n) {C1} {physics and chemistry} {buildings} цемент, клей; (v) {C2} {discussion and agreement} цементировать -1
+              4T ?#  crane [kreɪn] (n) {C1} {engineering} {buildings} кран, {C2} {birds} журавль; (v) вытягивать шею -1
+              yT ?#  insulated [ˈɪnsjʊleɪtɪd] -ed: (v) изолировать, обособлять, разобщать; (adj) {C1} {physics and chemistry} {buildings} изолированный, разобщенный -1
+              5T ?#  reinforce [ˌriɪnˈfɔrs] (v) {C1} {physics and chemistry} {buildings} укреплять, {B2} усиливать -1
+              xT ?#  tile [taɪl] (n) {C1} {houses and homes} {buildings} плитка, черепица, кафель -1
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
 

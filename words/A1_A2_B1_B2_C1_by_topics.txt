@@ -7815,6 +7815,10 @@ Home and buildings
               5T ?#  metropolitan [ˌmɛtrəˈpɒlɪtən] (n) митрополит; (adj) {C1} {buildings} столичный
               4T ?#  outskirts [ˈaʊtˌskɜːts] -es: (n) окраина
   843. (  1) 5T ?#PT overlook [ˌəʊvəˈlʊk] (v) {C1} игнорировать, проглядеть, {C1} {buildings} упускать из виду, не заметить, просмотреть; (n) упущение
+  945. (  1) xT ?#PT provincial [prəˈvɪnʃəl] (adj) {C1} {buildings} провинциальный, {C1} местный; (n) провинциал
+ 1010. (  1) 5T ?#PT residential [ˌrɛzɪˈdɛnʃəl] (adj) {C1} {houses and homes} {buildings} {education} жилой
+ 1101. (  2) 5T ?#PT span [spæn] (v) {C1} охватывать, {C1} {buildings} перекрывать; (n) {C1} диапазон, интервал
+ 1150. (  1) 4T ?#PT suburban [səˈbɜːbən] (adj) {C1} {buildings} пригородный, загородный; (n) житель пригорода
 
 {buildings {construction}}
 ..........................
@@ -7850,6 +7854,29 @@ Home and buildings
  1050. (  1) yT ?#PT rebuild [ˌriːˈbɪld] (v) восстанавливать, {B2} отстроить заново, {B2} {buildings} перестраивать, I: rebuild-rebult-rebuilt
               1T *#  support [səˈpɔːt] (n) {A2} {success} {B2} {healthcare} {C1} {music} поддержка, помощь; (v) {A2} {success} {politics} {B1} {money} {B2} {opinion and argument} {buildings} {C1} {music} поддерживать
 
+{C1} {buildings {construction}}
+   95. (  1) 5T ?#PT assemble [əˈsɛmbl] (v) {C1} {business} {buildings} собираться, собирать
+  125. (  1) 5T *#PT beam [biːm] (n) {C1} луч, {buildings} балка; (v) {C2} {feelings} {apperance} {tv, radio and news} излучать, сиять
+              xT ?#  cement [sɪˈmɛnt] (n) {C1} {physics and chemistry} {buildings} цемент, клей; (v) {C2} {discussion and agreement} цементировать
+              3T *#  concrete [ˈkɒnkriːt/kənˈkriːt] (n) {B2} {physics and chemistry} бетон; (adj) {C1} {doubt, guessing and certainty} конкретный, {B2} {buildings} {physics and chemistry} бетонный; (v) {C1} {buildings} бетонировать
+              4T ?#  crane [kreɪn] (n) {C1} {engineering} {buildings} кран, {C2} {birds} журавль; (v) вытягивать шею
+              5T ?#  demolish [dɪˈmɑlɪʃ] (v) {C1} {buildings} сносить, разрушать, уничтожать
+  470. (  1) 5T *#PT erect [ɪˈrɛkt] (v) {C1} возвести, {C1] {buildings} соорудить; (adj) прямо; (adj) {C2} {appearance} прямой, торчащий, стоячий
+              3T *#  foundation [faʊnˈdeɪʃən] (n) {B2} {C1} {buildings} фундамент, основы, {B2} {social issues} организация
+              yT ?#  insulated [ˈɪnsjʊleɪtɪd] -ed: (v) изолировать, обособлять, разобщать; (adj) {C1} {physics and chemistry} {buildings} изолированный, разобщенный
+              5T ?#  marble [ˈmɑːbl] (n) {C1} {buildings} мрамор; (adj) мраморный
+              5T ?#  plumbing [plʌmɪŋ] (n) {C1} {buildings} водопровод
+              5T ?#  reconstruct [ˌriːkənsˈtrʌkt] (v) {C1} {buildings} реконструировать, восстанавливать, перестраивать
+  974. (  1) 5T ?#PT reconstruction [ˌriːkənsˈtrʌkʃən] (n) {C1} реконструкция, {C1} {buildings} перестройка, {C1} {tv, radio and news} = an act of acting out events that are known to have happened in order to try and get more information or better understanding about what happened especially a crime
+              5T ?#  refurbish [ˌriːˈfɜːbɪʃ] (v) {C1} {buildings} отремонтировать, восстанавливать, обновлять
+              zT ?#  refurbishment [ˌriːˈfɜːbɪʃmənt] (n) {C1} {buildings} реконструкция
+              5T ?#  reinforce [ˌriɪnˈfɔrs] (v) {C1} {physics and chemistry} {buildings} укреплять, {B2} усиливать
+              5T ?#  renovate [ˈrɛnəˌveɪt] (v) {C1} {buildings} обновлять, ремонтировать
+              5T ?#  renovation [ˌrɛnəˈveɪʃən] (n) {C1} {buildings} ремонт, обновление
+ 1136. (  2) 3T *#PT strip [strɪp] (n) {C1} полоса; (v) {C1} {clothes and fashion} {houses and homes} {buildings} раздеваться, обнажать
+              xT ?#  tile [taɪl] (n) {C1} {houses and homes} {buildings} плитка, черепица, кафель
+ 1213. (  1) 5T ?#PT timber [ˈtɪmbə] (adj) лесной; (n) {C1} {plants and trees} лесоматериалы, {C1} {buildings} строевой лес
+
 {buildings {describing buildings}}
 ..................................
 {A1} {buildings {describing buildings}}
@@ -7878,6 +7905,9 @@ Home and buildings
   784. (  1) 3T *#PT maintain [meɪnˈteɪn] (v) {B2} {buildings} {opinion and argument} поддерживать, {B2} сохранять
               xx ?#  open-plan [ˈəʊp(ə)n-plæn] (adj) {B2} {houses and homes} {buildings} с открытой планировкой
               5T ?#  spacious [ˈspeɪʃəs] (adj) {B2} {buildings} просторный, вместительный, широкий
+
+{C1} {buildings {describing buildings}}
+   83. (  1) 5T *#PT architectural [ˌɑːkɪˈtɛkʧərəl] (adj) {C1} {buildings} архитектурный
 
 {buildings {historic buildings}}
 ................................
