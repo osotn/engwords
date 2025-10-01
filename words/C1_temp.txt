@@ -189,7 +189,7 @@
   170. (  1) 4T *#PT capitalist [ˈkæpɪt(ə)lɪst] (n) капиталист; (adj) капиталистический
   171. (  1) 5T ?#PT cargo [ˈkɑːgəʊ] (n) груз; (adj) грузовой
   172. (  1) 4T *#PT carriage [ˈkærɪʤ ] (n) перевозка, транспорт, каретка, вагон
-  173. (  1) 5T ?#PT carve [kɑːv] (v) {C1} {art} {buildings} вырезать, {C1} {cooking and eating} разделывать, резать, делить, {C1} высекать -2
+  173. (  1) 5T ?#PT carve [kɑːv] (v) {C1} {art} {buildings} вырезать, {C1} {cooking and eating} разделывать, резать, делить, {C1} высекать -3
   174. (  1) xT ?#PT casino [kəˈsiːnəʊ] (n) {C1} {money} {games and toys} казино, игорный дом
   175. (  1) yT ?#PT casualty [ˈkæʒjuəlti] (n) {C1} {healthcare} несчастный случай, жертва, авария, {C1} {war and conflict} раненый, убитый, подбитая машина; (adj) раненый -1
   176. (  1) xT ?#PT catalogue [ˈkæt(ə)lɒɡ] (n) {C1} каталог
@@ -344,7 +344,7 @@
   324. (  1) xT ?#PT custody [ˈkʌstədi] (n) хранение, опека, попечение, арест
   325. (  1) 4T *#PT cutting [kʌtɪŋ] -ing: (v) {A1} {health problems} резать, {B1} {money} отрезать, {B2} {computers} удалять, {C1} {film and theatre} выполнять монтаж, I:cut-cut-cut; (n) {C1} {tv, radio and news} {plants and trees} резка, газетная вырезка -1
   326. (  1) zT ?#PT cynical [ˈsɪnɪk(ə)l] (adj) {C1} циничный, бесстыдный
-  327. (  1) xT ?#PT dam [dæm] (n) плотина, дамба, запруда
+  327. (  1) xT ?#PT dam [dæm] (n) {C1} {buildings} {the environment} {geography} плотина, дамба, запруда -1
   328. (  1) yT ?#PT damaging [ˈdæmɪʤ ɪŋ] -ing: (v) {B1} {war and conflict} повредить
   329. (  1) 5T ?#PT dawn [dɔːn] (n) {C1} {time} рассвет
   330. (  1) 5T ?#PT debris [ˈdɛbriː/ˈdeɪbriː] (n) {C1} обломки, развалины, осколки, строительный мусор
@@ -457,7 +457,7 @@
   437. (  1) 5T *#PT elite [eɪˈliːt] (n) элита; (adj) элитный
   438. (  1) zT ?#PT embark [(UK)ɪmˈbɑːk/(US)ɛmˈbɑrk] (v) начинать, грузить, грузить на корабль
   439. (  1) 3T ?#PT embarrassment [ɪmˈbærəsmənt] (n) {C1} {feelings} смущение, затруднение, замешательство, конфуз, помеха
-  440. (  1) xT ?#PT embassy [ˈɛmbəsi] (n) посольство
+  440. (  1) xT ?#PT embassy [ˈɛmbəsi] (n) {C1} {politics} {buildings} посольство -1
   441. (  1) 5T *#PT embed [ɪmˈbɛd] (v) {C1} вставлять, встраивать, врезать, внедрять
   442. (  1) 5T ?#PT embody [ɪmˈbɒdi] (v) воплощать, реализовать
   443. (  1) 5T ?#PT emergence [ɪˈmɜːʤ əns] (n) {C1} появление, возникновение, выход
@@ -500,7 +500,7 @@
   480. (  1) 5T *#PT exceptional [ɪkˈsɛpʃənl] (adj) {C1} исключительный
   481. (  2) 5T ?#PT excess [(UK)ɪkˈsɛs/(US)ˈɛkˌsɛs] (n) избыток, превышение, излишек; (adj) лишний, избыточный
   482. (  1) 5T ?#PT exclusion [ɪksˈkluːʒən] (n) исключение, элиминация
-  483. (  1) 5T ?#PT exclusive [ɪksˈkluːsɪv] (adj) {C1} {buildings} эксклюзивный, {C1} исключительный; (adv) исключительно; (n) {C2} {tv, radio and news} эксклюзив
+  483. (  1) 5T ?#PT exclusive [ɪksˈkluːsɪv] (adj) {C1} {buildings} эксклюзивный, {C1} исключительный; (adv) исключительно; (n) {C2} {tv, radio and news} эксклюзив -1
   484. (  1) 5T *#PT exclusively [ɪksˈkluːsɪvli] -ly: (adj) {C1} {buildings} эксклюзивный, {C1} исключительный; (adv) {C1} исключительно, только, всецело
   485. (  1) 5T *#PT execute [ˈɛksɪkjuːt] (v) {C2} {art} выполнять, исполнять, {C1} {war and conflict} {crime and punishment} казнить
   486. (  1) 5T *#PT execution [ˌɛksəˈkjuʃən] (n) {C1} выполнение, исполнение, {C1} {war and conflict} {crime and punishment} казнь
@@ -679,7 +679,7 @@
   659. (  1) 5T ?#PT interfere [ˌɪntəˈfɪə] (v) {C1} вмешиваться
   660. (  1) 5T *#PT interference [ˌɪntəˈfɪərəns] (n) {C1} {C2} {physics and chemistry} {tv, radio and news} помехи, вмешательство, интерференция; (adj) интерференционный
   661. (  1) xT ?#PT interim [ˈɪntərɪm] (adj) промежуточный, временный; (n) промежуток времени, промежуток
-  662. (  2) 3T ?#PT interior [ɪnˈtɪərɪə] (n) {C1} {houses and homes} интерьер, внутренность, внутренний мир, сущность; (adj) {C1} {houses and homes} {buildings} внутренний
+  662. (  2) 3T ?#PT interior [ɪnˈtɪərɪə] (n) {C1} {houses and homes} интерьер, внутренность, внутренний мир, сущность; (adj) {C1} {houses and homes} {buildings} внутренний -1
   663. (  1) 5T *#PT intermediate [ˌɪntəˈmiːdiət] (adj) {C1} {language} промежуточный, {C1} средний; (n) {B2} {language} = a person who is learning something and who has more a basic knowledge of it but is not yet advanced -1
 
   665. (  1) 5T ?#PT intervention [ˌɪntə(ː)ˈvɛnʃən] (n) {C1} {discussion and agreement} вмешательство, {C1} интервенция, посредничество -1
@@ -711,7 +711,7 @@
   691. (  2) 3T *#PT latter [leɪtə] -er: (adv) поздно; -er: (adj) поздний, покойный, последний
   692. (  1) 5T ?#PT lawn [lɔːn] (n) газон, газон
   693. (  1) 5T *#PT lawsuit [ˈlɔːsjuːt] (n) иск, судебный процесс
-  694. (  1) 5T ?#PT layout [ˈleɪˌaʊt] (n) {C1} {buildings} макет, расположение, планировка
+
   695. (  2) 5T ?#PT leak [lik] (n) {C1} утечка; (v) {C1} течь, просачиваться
   696. (  2) 5T ?#PT leap [liːp] (n) скачок, прыжок; (v) скакать, прыгать, I: leap-leaped/leapt-leaped/leapt
   697. (  1) 5T ?#PT legacy [ˈlɛgəsi] (n) {C1} наследие, наследство
@@ -738,7 +738,7 @@
   718. (  1) xT *#PT listing [lɪstɪŋ] -ing: (v) {A1} перечислять; (n) {C1} составление списка, {C1} {tv, radio and news} листинг -1
   719. (  1) 5T ?#PT literacy [ˈlɪtərəsi] (n) грамотность
  -1
-  721. (  2) 5T ?#PT lobby [ˈlɒbi] (n) {C1} {holidays} {buildings} {politics} лобби, вестибюль, фойе, {C2} {politics} холл; (v) {C1} {discussion and agreement} {politics} = to try to influence a politician or the goverment and persuade to support or oppose a change in the law -1
+  721. (  2) 5T ?#PT lobby [ˈlɒbi] (n) {C1} {holidays} {buildings} {politics} лобби, вестибюль, фойе, {C2} {politics} холл; (v) {C1} {discussion and agreement} {politics} = to try to influence a politician or the goverment and persuade to support or oppose a change in the law -2
   722. (  2) 5T *#PT log [lɒg] (n) журнал, бревно, полено; (v) регистрировать; (adj) бревенчатый
   723. (  1) 3T *#PT logic [ˈlɒʤ ɪk] (n) логика
   724. (  1) xx ?    long-standing
@@ -771,7 +771,7 @@
   751. (  1) 4T *#PT maximize [ˈmæksɪmaɪz] (v) максимизировать
   752. (  1) 5T *#PT meaningful [ˈmiːnɪŋfʊl] (adj) {C1} значимый
   753. (  1) 4T ?#PT meantime [ˈmiːnˈtaɪm] (adv) тем временем, между тем
-  754. (  1) 5T ?#PT medieval [ˌmɛdɪˈiːvəl] (adj) {C1} {history} {buildings} средневековый
+  754. (  1) 5T ?#PT medieval [ˌmɛdɪˈiːvəl] (adj) {C1} {history} {buildings} средневековый -1
   755. (  1) xT *#PT meditation [ˌmɛdɪˈteɪʃən] (n) {C1} {religion and festivals} медитация, размышление
 
   757. (  1) 5T ?#PT memo [ˈmiːməʊ] (n) {C1} меморандум, памятная записка, заметка
@@ -817,7 +817,7 @@
   796. (  1) xT ?#PT namely [ˈneɪmli] (adv) а именно, именно, то есть
   797. (  1) xT ?#PT nationwide [ˈneɪʃənwaɪd] (adj) {C1} общенациональный
   798. (  1) 5T ?#PT naval [ˈneɪvəl] (adj) {C1} {war and conflict} морской, флотский, военно-морской
-  799. (  2) 5T ?#PT neglect [nɪˈglɛkt] (v) пренебрежение, пренебрегать, упускать
+  799. (  2) 5T ?#PT neglect [nɪˈglɛkt] (v) {C1} {difficulty and failure} {buildings} пренебрегать, {C1} упускать; (n) {C1} {buildings} пренебрежение -1
   800. (  1) yT *#PT neighbouring [ˈneɪbərɪŋ] близлежащий
  -1
   802. (  1) 3T *#PT net [nɛt] (n) {B1} сети, сеть, {A2} {sports: ball and racket sports} сетка
@@ -1011,7 +1011,7 @@
   990. (  1) 5T *#PT reliability [rɪˌlaɪəˈbɪlɪti] (n) надежность, достоверность
   991. (  1) 5T ?#PT reluctant [rɪˈlʌktənt] (adj) {C1} неохотный, вынужденный
   992. (  1) 5T *#PT remainder [rɪˈmeɪndə] (n) остаток
-  993. (  1) 3T *#PT remains [rɪˈmeɪnz] -es: (v) {B1} оставаться; -es: (n) остаток
+  993. (  1) 3T *#PT remains [rɪˈmeɪnz] -es: (v) {B1} оставаться; -es: (n) остаток; (n) {C1} {buildings} руины, развалины, реликвии, {C1} {life stages} прах, остатки -1
   994. (  1) 5T ?#PT remedy [ˈrɛmɪdi] (n) {C1} средство, {C1} {healthcare} лекарство -1
   995. (  1) 5T *#PT reminder [rɪˈmaɪndə] (n) напоминание
   996. (  1) 3T *#PT removal [rɪˈmuːvəl] (n) удаление, устранение, отстранение, перемещение
@@ -1591,6 +1591,20 @@
               xT ?#  tile [taɪl] (n) {C1} {houses and homes} {buildings} плитка, черепица, кафель -1
               xx ?#  bodyguard [ˈbɒdɪˌgɑːd] (n) {C1} {jobs} телохранитель, личная охрана, эскорт
               xT ?#  butler [ˈbʌtlə] (n) {C1} {jobs} дворецкий, старший лакей
+              3T ?#  damp [dæmp] (adj) {C1} {weather} влажный; (n) сырой, {C1} {buildings} сырость; (v) демпфировать, смачивать -1
+              5T ?#  exterior [ɛksˈtɪərɪə] (n) {C1} {houses and homes} {buildings} экстерьер, внешность, наружность; (adj) {C1} {buildings} внешний, наружный -1
+              yT ?#  storey [ˈstɔːri] (n) {C1} {houses and homes} {buildings} этаж, ярус, I:storey-storeys/(US)stories -1
+              5T ?#  vacant [ˈveɪk(ə)nt] (adj) {C1} {building} {houses and homes} вакантный, свободный, пустой -1
+              4T ?#  dungeon [ˈdʌnʤ ən] (n) {C1} {history} {buildings} темница; (v) сажать в тюрьму -1
+              5T *#  fort [fɔːt] (n) {C1} {history} {buildings} форт -1
+              5T ?#  fortress [ˈfɔːtrɪs] (n) {C1} {history} {buildings} крепость -1
+              5T ?#  escalator [ˈɛskəleɪtə] (n) {C1} {buildings} {shopping} эскалатор -1
+              5T ?#  landing [lændɪŋ] -ing: (v) {A2} {transport by air} {space} {transport by water} приземляться; (n) {B2} {space} {transport by air} приземление, {C1} {houses and homes} {buildings} лестничная площадка -1
+              4T ?#  lighthouse [ˈlaɪthaʊs] (n) {C1} {transport by water} {buildings} маяк, световой маяк -1
+              yT ?#  monastery [ˈmɒnəstəri] (n) {C1} {religion and festivals} {buildings} монастырь -1
+              yT ?#  shrine [ʃraɪn] (n) {C1} {religion and festivals} {buildings} храм, святыня -1
+              5T ?#  barn [bɑːn] (n) {C1} {buildings} {farming} сарай -1
+              5T ?#  dormitory [ˈdɔːmətri] (n) {C1} {houses and homes} {education} общая спальня, {C1} {buildings} общежитие
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
 
