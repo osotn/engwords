@@ -82,7 +82,7 @@
    62. (  1) xT ?#PT allowance [əˈlaʊəns] (n) допуск, скидка, {C1} {permission and obligation} разрешение, допущение, паек, {C1} пособие -1
    63. (  1) 3T ?#PT ally [ˈælaɪ->(n)/əˈlaɪ->(v)/ˈæli->(n)] (n) {C1} {politics} {family and relationships} союзник; (v) объединяться
    64. (  1) xT ?#PT aluminium [ˌæljəˈmɪniəm] (n) {C1} {physics and chemistry} алюминий
-   65. (  2) 5T *#PT amateur [ˈæmətə(ː)] (n) любитель, дилетант; (adj) любительский
+   65. (  2) 5T *#PT amateur [ˈæmətə(ː)] (n) {C1} любитель, дилетант; (adj) {C1} любительский
    66. (  1) xT *#PT ambassador [æmˈbæsədə] (n) посол
    67. (  1) 5T ?#PT amend [əˈmɛnd] (v) {C1} вносить поправки, исправлять, улучшать
    68. (  1) 5T ?#PT amendment [əˈmɛndmənt] (n) {C1} поправка, изменение, исправление
@@ -463,7 +463,7 @@
   443. (  1) 5T ?#PT emergence [ɪˈmɜːʤ əns] (n) {C1} появление, возникновение, выход
   444. (  1) xT *#PT empirical [ɛmˈpɪrɪkəl] (adj) {C1} {scientific research} эмпирический, основанный на опыте
   445. (  1) yT ?#PT empower [ɪmˈpaʊə] (v) уполномочивать, давать возможность, разрешать
-  446. (  1) zT ?    enact
+  446. (  1) zT ?#PT enact [ɪˈnækt] (v) {C1} принять, вводить в действие, играть роль
   447. (  1) 5T ?#PT encompass [ɪnˈkʌmpəs] (v) {C1} заключать в себе, охватить
   448. (  1) 3T ?#PT encouragement [ɪnˈkʌrɪʤ mənt] (n) поощрение, ободрение
   449. (  1) xT ?#PT encouraging [ɪnˈkʌrɪʤ ɪŋ] -ing: (v) {B1} {discussing and agreement} поощрять, поддерживать; (n) поощрение; (adj) {C1} обнадеживающий
@@ -1192,7 +1192,7 @@
  1171. (  1) 5T ?#PT surplus [ˈsɜːpləs] (n) избыток
  1172. (  1) 5T ?#PT surrender [səˈrɛndə] (n) сдача, капитуляция; (v) сдаваться
  1173. (  1) xT ?#PT surveillance [səˈveɪləns] (n) {C1} {war and conflict} {crime and punishment} наблюдение, надзор
- 1174. (  1) xT ?#PT suspension [səsˈpɛnʃən] (n) подвеска, суспензия, приостановка, прекращение; (adj) подвесной, висячий
+ 1174. (  1) xT ?#PT suspension [səsˈpɛnʃən] (n) {C2} {transport by car or lorry} подвеска, {C2} {physics and chemistry} суспензия, {C1} {education} приостановка, {C1} прекращение; (adj) подвесной, висячий
  1175. (  1) 3T ?#PT suspicion [səsˈpɪʃən] (n) подозрение, подозрительность, привкус
  1176. (  1) 3T ?#PT suspicious [səsˈpɪʃəs] (adj) {C1} {personal qualities} {crime and punishment} подозрительный
  1177. (  1) 5T ?#PT sustain [səsˈteɪn] (v) поддерживать, выдерживать, подкреплять
@@ -1619,6 +1619,7 @@
               3T *#  occupy [ˈɒkjʊpaɪ] (v) {B2} {C1} {houses and homes} {war and conflict} занимать, оккупировать, захватывать -1
               yT ?#  repayment [riˈpeɪmənt] (n) {C1} {money} {houses and homes} погашение, возмещение, выплата, возвращение -1
               3T ?#  survey [ˈsɜːveɪ->(n)/sɜːˈveɪ->(v)] (n) {A2} {opinion and argument} {scientific research} обзор, {B2} обследование, исследование, {C1} {houses and homes} осмотр; (v) {C1} {geography} {houses and homes} {B2} {opinion and argument} обследовать -1
+              5T ?#  heir [eə] (n) {C1} {family and relationships} {money} наследник
 
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
