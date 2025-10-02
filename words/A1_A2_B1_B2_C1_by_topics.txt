@@ -8072,7 +8072,21 @@ Home and buildings
 {C1} {buildings {types of building}}
               5T ?#  barn [bɑːn] (n) {C1} {buildings} {farming} сарай
   327. (  1) xT ?#PT dam [dæm] (n) {C1} {buildings} {the environment} {geography} плотина, дамба, запруда
+              5T ?#  dormitory [ˈdɔːmətri] (n) {C1} {houses and homes} {education} общая спальня, {C1} {buildings} общежитие
   440. (  1) xT ?#PT embassy [ˈɛmbəsi] (n) {C1} {politics} {buildings} посольство
+              xx ?#  high-rise [ˈhaɪraɪz] (adj) {C1} {buildings} высотный, многоэтажный; (n) {C1} {buildings} многоэтажное здание
+              4T *#  inn [ɪn] (n) {C1} {buildings} {holidays} трактир, гостиница, постоялый двор
+              yT ?#  kiosk [ˈkiːɒsk] (n) {C1} {shopping} {buildings} киоск, беседка
+              xT ?#  manor [ˈmænə] (n) {C1} {houses and homes} {buildings} поместье, феодальное поместье
+              5T ?#  mansion [ˈmænʃən] (n) {C1} {houses and homes} {buildings} особняк
+  773. (  1) 4T ?#PT mill [mɪl] (n) {C1} {buildings} {farming} {business} мельница; (adj) мельничный; (v) измельчать, толпиться
+              xT ?#  motel [məʊˈtel] (n) {C1} {buildings} {holidays} мотель
+              yT ?#  pier [pɪə(r)] (n) {C1} {buildings} {transport by water} пирс, причал, пристань
+              3T *#  premises [ˈprɛmɪsɪz->(n)/prɪˈmaɪzɪz->(v)] -es: (n) {C1} {opinion and argument} предпосылка, посылка; -es: (v) предпосылать; (n) {C1} {buildings} {business} помещение, дом
+ 1069. (  1) 5T ?#PT shed [ʃɛd] (n) {C1} {buildings} {gardens} {farming} сарай; (v) {C1} пролить, I:shed-shed-shed
+              3T *#  stable [ˈsteɪbl] (adj) {B2} {money} стабильный, {B2} устойчивый; (n) {C1} {buildings} {farming} конюшня
+ 1292. (  1) 5T ?#PT warehouse [ˈweəhaʊs->(n)/ˈweəhaʊz->(v)] (adj) складской; (n) {C1} {buildings} {business} товарный склад, амбар; (v) хранить на складе
+              4T ?#  windmill [ˈwɪnmɪl] (n) {C1} {buildings} {farming} ветряная мельница
 
 {gardens}
 ---------
@@ -8097,6 +8111,17 @@ Home and buildings
   370. (  1) 3T *#PT dig [dɪg] (v) {B2} {gardens} копать, рыть, I: dig-dug-dug
               3T *#  fork [fɔːk] (n) {A2} {cooking and eating} вилка, {B2} {gardens} вилы, {C1} {geography} {transport by car or lorry} развилка, ответвление; (v) {C1} {transport by car or lorry} разветвляться
               4T ?#  snail [sneɪl] (n) {B2} {insects, worms, etc.} {gardens} улитка
+
+{C1} {gardens {gardening}}
+              yT ?#  axe [æks] (n) {C1} {gardens} топор, секира; (v) сокращать
+              yT ?#  compost [ˈkɒmpɒst] (n) {C1} {gardens} составное удобрение, компост; (v) {C1} {gardens} {C2} {the environment} удобрять компостом
+              5T ?#  fertilizer [ˈfɜːtɪlaɪzə] (US) (n) {C1} {farming} {gardens} удобрение
+              zT ?#  mower [ˈməʊə(r)] (n) {C1} {gardens} косилка, сенокосилка
+              3T ?#  pot [pɒt] (n) {B1} {cooking and eating} горшок, кастрюля, {B1} {gardens} горшок (container); (v) {C1} {gardens} сажать в горшок
+              zT ?#  shovel [ˈʃʌvl] (n) {C1} {gardens} лопата, совок; (v) {C1} {gardens} перелопачивать
+              4T ?#  spade [speɪd] (n) {C1} {gardens} лопата, заступ; (v) копать лопатой
+              5T ?#  transplant [trænsˈplɑːnt] (v) {B2} {healthcare} {C1} {gardens} пересадить, переселять; (n) {B2} {healthcare} трансплантация
+ 1298. (  1) 5T ?#PT weed [wiːd] (n) {C1} {plants and trees} {gardens} сорняк, сорная трава, марихуана; (v) {C1} {gardens} полоть, пропалывать
 
 {gardens {in the garden}}
 .........................
@@ -8124,6 +8149,25 @@ Home and buildings
               xx ?#  plant+pot [plɑːnt pɒt] (n) {B2} {gardens} горшок для растений
               xx ?#  roof+garden [ruːf ˈɡɑːd(ə)n] (n) {B2} {gardens} сад на крыше
               xx ?#  tree+house [triː haʊs] (n) {B2} {gardens} дом на дереве
+
+{C1} {gardens {in the garden}}
+  129. (  1) 4T *#PT bench [bɛnʧ] (n) {C1} {gardens} {sports: ball and racket sports} скамья
+              3T *#  border [ˈbɔːdə] (n) {B1} {politics} граница, {C1} {gardens} бордюр, кайма; (v) {B2} граничить
+  148. (  1) 5T *#PT boundary [ˈbaʊndəri] (n) {C1} {gardens} граница, черта; (adj) пограничный
+              3T *#  container [kənˈteɪnə] (n) {B1} {C1} {transport by bus and train} {transport by water} {gardens} контейнер, резервуар, сосуд
+              4T ?#  courtyard [ˈkɔːtˌjɑːd] (n) {C1} {gardens} {buildings} двор, внутренний двор
+              5T ?#  deck [dɛk] (n) {B2} {transport by water} {transport by bus and train} палуба, {C1} колода, {C1} {gardens} настил
+              xT ?#  hose [həʊz] (n) {C1} {gardens} шланг, рукав; (v) поливать из шланга
+  692. (  1) 5T ?#PT lawn [lɔːn] (n) {C1} {gardens} газон
+  859. (  1) 5T *#PT patch [pæʧ] (n) {C1} заплата, пластырь, {C1} {gardens} клочок, небольшой участок земли; (v) латать, {C2} {computer} = to improve a computer program or correct a fault in it by adding a small piece of code
+              xT ?#  patio [ˈpætɪəʊ] (n) {C1} {gardens} патио, дворик, внутренний дворик
+              zT ?#  planter [ˈplɑːntə] (n) {C1} {farming} плантатор, {C1} {gardens} ящик для комнатных растений
+  885. (  1) 4T ?#PT pond [pɒnd] (n) {C1} {geography} {gardens} пруд, водоем, бассейн
+              3T ?#  post [pəʊst] (n) {A1} {B2} {working life} должность, {A2} {phones, email and the internet} пост, почта, {C1} {gardens} столб; (adv) после, почтой; (adj) почтовый; (v) {A1} {A2} {phones, email and the internet} вывешивать, осведомлять
+ 1069. (  1) 5T ?#PT shed [ʃɛd] (n) {C1} {buildings} {gardens} {farming} сарай; (v) {C1} пролить, I:shed-shed-shed
+ 1178. (  2) 3T ?#PT swing [swɪŋ] (n) {C1} {games and toys} {gardens} качели, {C1} {opinion and argument} = to change from one opinion to another; (v) {C1} качаться, {C1} {opinion and argument} = to change from one opinion to another, I:swing-swung-swung
+              5T ?#  terrace [ˈterəs] (n) {C2} {houses and homes} {buildings} ряд домов вдоль улицы; {C1} {gardens} веранда
+              5T ?#  tub [tʌb] (n) {C1} ванна, {C1} {gardens} бак; (v) мыться в ванне
 
 {houses and homes}
 ------------------
@@ -8155,6 +8199,16 @@ Home and buildings
               yT ?#  paperwork [ˈpeɪpəwɜːk] (n) {B2} {business} {houses and homes} проверка документации, бумажная работа
  1025. (  2) 3T ?#PT purchase [ˈpɜːʧəs] (n) {B2} {shopping} {houses and homes} покупка, приобретение; (v) {B2} {shopping} покупать, приобретать
 
+{B2} {houses and homes {buying a home}}
+  357. (  1) 3T *#PT deposit [dɪˈpɒzɪt] (n) {B2} {houses and homes} {C1} {money} депозит, залог, месторождение, вклад, взнос; (v) {C1} {money} {houses and homes} депонировать, осаждаться
+              yT ?#  homeowner [ˈhəʊməʊnə(r)] (n) {C1} {houses and homes} домовладелец
+              5T ?#  occupation [ˌɒkjʊˈpeɪʃən] (n) {C1} {war and conflict} {houses and homes} оккупация, {C1} занятие, {B2} {jobs} род занятий, занятость, профессия; (adj) оккупационный
+              3T *#  occupy [ˈɒkjʊpaɪ] (v) {B2} {C1} {houses and homes} {war and conflict} занимать, оккупировать, захватывать
+              yT ?#  repayment [riˈpeɪmənt] (n) {C1} {money} {houses and homes} погашение, возмещение, выплата, возвращение
+              3T ?#  survey [ˈsɜːveɪ->(n)/sɜːˈveɪ->(v)] (n) {A2} {opinion and argument} {scientific research} обзор, {B2} обследование, исследование, {C1} {houses and homes} осмотр; (v) {C1} {geography} {houses and homes} {B2} {opinion and argument} обследовать
+              5T ?#  vacant [ˈveɪk(ə)nt] (adj) {C1} {building} {houses and homes} вакантный, свободный, пустой
+              xT ?#  vendor [ˈvɛndɔː] (n) {C1} {houses and homes} продавец, торговец
+
 {houses and homes {furniture}}
 ..............................
 {A1} {houses and homes {furniture}}
@@ -8183,6 +8237,9 @@ Home and buildings
               yT ?#  couch [kaʊʧ] (n) {B2} {houses and homes} диван
               3T ?#  drawer [ˈdrɔːə] (n) {B2} {houses and homes} выдвижной ящик, рисовальщик
               1T *#  unit [ˈjunət/ˈjunɪt] (n) {A2} блок, единица, {B2} {healthcare} подразделение, элемент, единица измерения, {B2} {houses and homes} секция; (adj) единичный
+
+{C1} {houses and homes {furniture}}
+              yT ?#  bunk [bʌŋk] (n) {C1} {houses and homes} {C2} {transport by bus and train} {transport by water} койка; (v) ложиться спать
 
 {houses and homes {house equipment}}
 ....................................
