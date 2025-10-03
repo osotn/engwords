@@ -181,7 +181,7 @@
   162. (  1) yT ?#PT bureaucracy [bjʊəˈrɒkrəsi] (n) {C1} {politics} бюрократия, бюрократизм
   163. (  1) yT ?#PT burial [ˈbɛrɪəl] (n) захоронение, похороны
   164. (  1) 3T ?#PT burst [bɜːst] (n) взрыв, вспышка; (v) разрывать, I: burst-burst-burst
-  165. (  1) 3T ?#PT cabinet [ˈkæbɪnɪt] (n) {C1} {politics} кабинет, {C1} {houses and homes} шкаф, корпус
+  165. (  1) 3T ?#PT cabinet [ˈkæbɪnɪt] (n) {C1} {politics} кабинет, {C1} {houses and homes} шкаф, корпус -1
   166. (  1) 3T *#PT calculation [ˌkælkjʊˈleɪʃən] (n) {C1} {maths and measurement} {opinion and argument} расчет, вычисление, калькуляция -1
   167. (  1) 5T *#PT canvas [ˈkænvəs] (n) {C1} {art} холст, {C1} полотно; (adj) брезентовый -1
   168. (  1) 5T *#PT capability [ˌkeɪpəˈbɪlɪti] (n) возможности, {C1} способность, умение
@@ -190,7 +190,7 @@
   171. (  1) 5T ?#PT cargo [ˈkɑːgəʊ] (n) груз; (adj) грузовой
   172. (  1) 4T *#PT carriage [ˈkærɪʤ ] (n) перевозка, транспорт, каретка, вагон
   173. (  1) 5T ?#PT carve [kɑːv] (v) {C1} {art} {buildings} вырезать, {C1} {cooking and eating} разделывать, резать, делить, {C1} высекать -3
-  174. (  1) xT ?#PT casino [kəˈsiːnəʊ] (n) {C1} {money} {games and toys} казино, игорный дом
+  174. (  1) xT ?#PT casino [kəˈsiːnəʊ] (n) {C1} {money} {games and toys} казино, игорный дом -1
   175. (  1) yT ?#PT casualty [ˈkæʒjuəlti] (n) {C1} {healthcare} несчастный случай, жертва, авария, {C1} {war and conflict} раненый, убитый, подбитая машина; (adj) раненый -1
   176. (  1) xT ?#PT catalogue [ˈkæt(ə)lɒɡ] (n) {C1} каталог
   177. (  1) 5T ?#PT cater [ˈkeɪtə] (v) угождать, {C1} поставлять, поставлять провизию
@@ -533,7 +533,7 @@
   513. (  2) 3T *#PT fine [faɪn] (n) {C1} {crime and punishment} {money} штраф; (v) {C1} {crime and punishment} оштрафовать; (adv) хорошо, отлично; (adj) {A1} {B1} {weather} прекрасный, мелкий, {A1} {health and fitness} тонкий
   514. (  1) yT ?#PT firearm [ˈfaɪərɑːm] (n) огнестрельное оружие; (adj) огнестрельный
 
-  516. (  1) 5T ?#PT fixture [ˈfɪkstʧə] (n) приспособление
+
   517. (  1) 5T ?#PT flaw [flɔː] (n) {C1} недостаток, изъян, ошибка, брак; (v) портить, повреждать
   518. (  1) yT ?#PT flawed [flɔːd] -ed: (v) портить, повреждать
   519. (  1) yT ?#PT flee [fliː] (v) {C1} {danger} бежать, спасаться бегством, избегать, I: flee-fled-fled
@@ -679,7 +679,7 @@
   659. (  1) 5T ?#PT interfere [ˌɪntəˈfɪə] (v) {C1} вмешиваться
   660. (  1) 5T *#PT interference [ˌɪntəˈfɪərəns] (n) {C1} {C2} {physics and chemistry} {tv, radio and news} помехи, вмешательство, интерференция; (adj) интерференционный
   661. (  1) xT ?#PT interim [ˈɪntərɪm] (adj) промежуточный, временный; (n) промежуток времени, промежуток
-  662. (  2) 3T ?#PT interior [ɪnˈtɪərɪə] (n) {C1} {houses and homes} интерьер, внутренность, внутренний мир, сущность; (adj) {C1} {houses and homes} {buildings} внутренний -1
+ -1
   663. (  1) 5T *#PT intermediate [ˌɪntəˈmiːdiət] (adj) {C1} {language} промежуточный, {C1} средний; (n) {B2} {language} = a person who is learning something and who has more a basic knowledge of it but is not yet advanced -1
 
   665. (  1) 5T ?#PT intervention [ˌɪntə(ː)ˈvɛnʃən] (n) {C1} {discussion and agreement} вмешательство, {C1} интервенция, посредничество -1
@@ -703,7 +703,7 @@
  -1
   684. (  1) 5T *#PT kingdom [ˈkɪŋdəm] (n) {C1} {history} царство, королевство
   685. (  1) 4T *#PT lad [læd] (n) парень, мальчик
-  686. (  1) 4T ?#PT landlord [ˈlænlɔːd] (n) {C1} {houses and homes} {jobs} домовладелец, помещик, землевладелец
+  686. (  1) 4T ?#PT landlord [ˈlænlɔːd] (n) {C1} {houses and homes} {jobs} домовладелец, помещик, землевладелец -1
   687. (  1) yT ?#PT landmark [ˈlændmɑːk] (n) {C1} ориентир, {C1} веха, поворотный пункт, {B2} {buildings} достопримечательность
 
   689. (  1) xx *#   large-scale
@@ -807,7 +807,7 @@
   787. (  1) xT *#PT modification [ˌmɑdəfəˈkeɪʃən] (n) модификация, изменение, видоизменение
   788. (  1) xT ?#PT momentum [məʊˈmɛntəm] (n) импульс, момент, инерция, количество движения
   789. (  1) 4T ?#PT monk [mʌŋk] (n) монах
-  790. (  1) 5T ?#PT monopoly [məˈnɒpəli] (n) {C1} {money} {games and toys} монополия
+  790. (  1) 5T ?#PT monopoly [məˈnɒpəli] (n) {C1} {money} {games and toys} монополия -1
   791. (  1) yT ?#PT morality [məˈræləti] (n) {C1} {personal qualities} мораль, нравоучение
   792. (  1) 5T *#PT motive [ˈməʊtɪv] (n) мотив, повод, побуждение; (v) побуждать
   793. (  1) 4T ?#PT motorist [ˈməʊtərɪst] (n) автомобилист, автолюбитель
@@ -899,7 +899,7 @@
   878. (  1) yT ?#PT plea [pliː] (n) заявление, просьба, мольба
   879. (  1) zT ?#PT plead [pliːd] (v) {C1} умолять, {C1} {law and justice} просить, {C1} {opinion and argument} ссылаться -1
   880. (  2) 5T ?#PT pledge [plɛʤ ] (n) залог, обещание; (v) закладывать
-  881. (  2) 3T ?#PT plug [plʌg] (n) штепсель, пробка, штепсельная вилка; (v) вставлять
+  881. (  2) 3T ?#PT plug [plʌg] (n) {C1} {houses and homes} штепсель, {C1} пробка, штепсельная вилка; (v) {C1} вставлять -1
   882. (  1) 5T ?#PT plunge [plʌnʤ ] (n) погружение; (v) погружаться
   883. (  1) 3T ?#PT pole [pəʊl] (n) {C1} {geography} {C2} {physics and chemistry} полюс, {C1} шест, столб; (adj) полюсный
   884. (  1) 5T ?#PT poll [pəʊl] (n) {C1} {politics} голосование, список избирателей, {C1} {opinion adn argument} опрос; (v) голосовать, опрашивать -1
@@ -997,7 +997,7 @@
   976. (  1) yT ?#PT referendum [ˌrɛfəˈrɛndəm] (n) референдум
   977. (  1) 5T ?#PT reflection [rɪˈflɛkʃən] (n) {C1} отражение, рефлексия, размышление, отблеск
   978. (  2) 3T *#PT reform [ˌriːˈfɔːm] (n) {C1} {politics} реформа, преобразование; (v) {C1} {politics} реформировать
-  979. (  1) 4T ?#PT refuge [ˈrɛfjuːʤ ] (n) убежище, прибежище; (v) давать убежище
+  979. (  1) 4T ?#PT refuge [ˈrɛfjuːʤ ] (n) {C1} {danger} {social issues} {houses and homes} убежище, прибежище; (v) давать убежище -1
   980. (  1) 3T ?#PT refusal [rɪˈfjuːzəl] (n) отказ
   981. (  1) yT ?#PT regain [rɪˈgeɪn] (n) восстановление; (v) {C1} восстанавливать
   982. (  1) 5T *#PT regardless [rɪˈgɑːdlɪs] (adv) {C1} несмотря на; (adj) не заслуживающий внимания
@@ -1016,9 +1016,9 @@
   995. (  1) 5T *#PT reminder [rɪˈmaɪndə] (n) напоминание
   996. (  1) 3T *#PT removal [rɪˈmuːvəl] (n) удаление, устранение, отстранение, перемещение
   997. (  1) 5T ?#PT render [ˈrɛndə] (v) {C1} оказывать, представлять, воспроизводить, переводить
-  998. (  1) 5T *#PT renew [rɪˈnjuː] (v) обновлять, возобновить
+  998. (  1) 5T *#PT renew [rɪˈnjuː] (v) {C1} {houses and homes} обновлять, {C1} возобновить -1
   999. (  1) yT ?#PT renowned [rɪˈnaʊnd] (adj) знаменитый, прославленный
- 1000. (  1) 5T ?    rental
+
  1001. (  1) xT *#PT replacement [rɪˈpleɪsmənt] (n) {C1} замена, замещение, заменитель
  1002. (  1) yT ?    reportedly
  1003. (  1) 5T *#PT representation [ˌrɛprɪzɛnˈteɪʃən] (n) представление, изображение
@@ -1028,7 +1028,7 @@
  1007. (  1) 5T ?#PT resemble [rɪˈzɛmbl] (v) походить на, иметь сходство
  1008. (  1) 5T ?#PT reside [rɪˈzaɪd] (v) проживать, находиться, жить
  1009. (  1) 5T ?#PT residence [ˈrɛzɪdəns] (n) резиденция, проживание, пребывание, местожительство
- 1010. (  1) 5T ?#PT residential [ˌrɛzɪˈdɛnʃəl] (adj) {C1} {houses and homes} {buildings} {education} жилой -1
+ -1
  1011. (  1) 5T ?#PT residue [ˈrɛzɪdjuː] (n) остаток, осадок
  1012. (  1) yT ?#PT resignation [ˌrɛzɪɡˈneɪʃ(ə)n] (n) {C1} {working life} отставка, заявление об отставке
 
@@ -1154,7 +1154,7 @@
  1133. (  1) 5T ?#PT strand [strænd] (n) {C1} {appearance} прядь, нитка; (v) {C1} {transport by water} сесть на мель -1
  1134. (  1) xT *#PT strategic [strəˈtiːʤ ɪk] (adj) стратегический, оперативный
  1135. (  1) 3T ?#PT striking [straɪkɪŋ] -ing: (v) {B2} {war and conflict} бить, {B2} {working life} {social issues} бастовать, I:strike-struck-stricken/struck; (adj) {C1} {appearance} поразительный, {C1} ударный -1
- 1136. (  2) 3T *#PT strip [strɪp] (n) {C1} полоса; (v) {C1} {clothes and fashion} {houses and homes} {buildings} раздеваться, обнажать -2
+ 1136. (  2) 3T *#PT strip [strɪp] (n) {C1} полоса; (v) {C1} {clothes and fashion} {houses and homes} {buildings} раздеваться, обнажать -3
  1137. (  1) 5T ?#PT strive [straɪv] (v) {C1} {success} бороться, стараться, прилагать усилия, I:strive-strove-striven
  1138. (  1) xT *#PT structural [ˈstrʌkʧərəl] (adj) {C1} структурный
  1139. (  1) 5T ?#PT stumble [ˈstʌmbl] (v) {C1} {language} спотыкаться; (n) задержка, {C2} {difficulty and failure} запинка
@@ -1175,7 +1175,7 @@
  1154. (  1) 3T *#PT suck [sʌk] (v) {C1} сосать, высасывать; (n) всасывание
  1155. (  1) 5T ?#PT sue [sjuː] (v) {C1} {law and justice} предъявлять иск, возбуждать дело
  1156. (  1) 4T *#PT suicide [ˈsjʊɪsaɪd] (n) {C1} {crime and punishment} самоубийство, самоубийца; (v) покончить с собой
- 1157. (  1) 5T ?#PT suite [(GB)swiːt/(US)swit] (n) набор, апартаменты, комплект
+ 1157. (  1) 5T ?#PT suite [(GB)swiːt/(US)swit] (n) {C2} {computers} набор, {C1} {holidays} {houses and homes} апартаменты, комплект -1
  1158. (  1) 5T ?#PT summit [ˈsʌmɪt] (n) вершина
  1159. (  1) 5T ?#PT superb [sju(ː)ˈpɜːb] (adj) превосходный
  1160. (  1) 3T ?#PT superior [sju(ː)ˈpɪərɪə] (adj) {C1} {people in society} превосходный, высший
@@ -1207,11 +1207,11 @@
  1186. (  1) yT ?#PT tactical [ˈtæktɪkəl] (adj) тактический, боевой
  1187. (  1) yT ?    taxpayer
  1188. (  1) 5T ?#PT tempt [tɛmpt] (v) {C1} {discussion and agreement} искушать, {C1} соблазнять, испытывать -1
- 1189. (  1) 5T *#PT tenant [ˈtɛnənt] (n) {C1} {houses and homes} арендатор, жилец, наниматель, квартиросъемщик
+
  1190. (  1) 5T ?#PT tender [ˈtɛndər] (n) тендер, предложение; (adj) {C1} {personal qualities} {cooking and eating} нежный, ласковый, {C1} {health problems} болезненный; (v) предлагать -2
  1191. (  1) yT ?#PT tenure [ˈtɛnjʊə] (n) срок пребывания, владение
  1192. (  1) 5T *#PT terminal [ˈtɜːmɪnl] (n) {B2} {transport by air} {C1} {computers} терминал, клемма, {B2} {transport by water} {transport by bus and train} {buildings} вокзал; (adj) {C1} {health problems} концевой, терминальный, конечный -1
- 1193. (  1) 5T *#PT terminate [ˈtɜːmɪneɪt] (v) завершать, завершаться
+ 1193. (  1) 5T *#PT terminate [ˈtɜːmɪneɪt] (v) {C1} {houses and homes} {life stages} завершать, завершаться -1
  1194. (  1) 5T ?#PT terrain [təˈreɪn/ˈtɛreɪn] (n) местность, территория; (adj) земной
  1195. (  1) 5T ?#PT terrific [təˈrɪfɪk] (adj) ужасающий, {C1} потрясающий
  1196. (  1) yT ?#PT testify [ˈtɛstɪfaɪ] (v) свидетельствовать, давать показания
@@ -1226,7 +1226,7 @@
  1205. (  1) xx ?#   thought-provoking
  1206. (  1) 5T ?#PT thoughtful [θɔːtfʊl] (adj) вдумчивый, заботливый, задумчивый
 
- 1208. (  1) 5T *#PT threshold [ˈθrɛʃˌhəʊld/ˈθrɛʃəʊld] (n) {C1} {houses and homes} {buildings} порог (дома), {C1} порог (значение), предел -1
+ 1208. (  1) 5T *#PT threshold [ˈθrɛʃˌhəʊld/ˈθrɛʃəʊld] (n) {C1} {houses and homes} {buildings} порог (дома), {C1} порог (значение), предел -2
  1209. (  1) yT ?#PT thrilled [θrɪld] -ed: (v) {B2} {feelings} трепетать, дрожать; (adj) {C1} {feelings} взволнованный, возбужденный
  1210. (  1) 5T ?#PT thrive [θraɪv] (v) {C1} {success} {health and fitness} процветать, преуспевать -1
  1211. (  1) 5T ?#PT tide [taɪd] (n) {C1} волна, {C1} {transport by water} {geography} поток, {C1} {opinion and argument} течение -1
@@ -1355,7 +1355,7 @@
  -1
               5T ?#  buzz [bʌz] (v) {C1} {insect, worms, etc.} гудеть, жужжать, выпивать; (n) гул, жужжание, слухи, {C1} {feelings} эйфория -1
               5T ?#  pest [pɛst] (n) {C1} {insects, worms, etc.} {farmings} вредитель, бич, паразит -1
-              xT *#  antenna [ænˈtɛnə] (n) {C1} {insects, worms, etc} {engineering} {tv, radio and news} {houses and homes} антенна -2
+ -2
               5T ?#  monotonous [məˈnɒtnəs] (adj) {C1} {working life} {feelings} монотонный, однообразный
  -1
  -1
@@ -1378,7 +1378,7 @@
               5T ?#  linen [ˈlɪnɪn] (n) {C1} {shopping} белье, полотно, {C1} {clothes and fashion} льняное полотно -1
               xT *#  m [ɛm] (letter) l M n o; (abbr) {A2} {maths and measurement} meter, male, married, {C1} {maths and measurement} {clothes and fashion} (M) = medium, {C1} {film and theatre} (Mature) = classified as not recommended for children under the age of 15 -2
               xT ?#  nylon [ˈnaɪlɒn] (n) {C1} {physics and chemistry} {clothes and fashion} нейлон; (adj) нейлоновый -1
-              zT ?#  patterned [ˈpætənd] -es: (v) копировать, делать по образцу; (adj) {C1} {houses and homes} {clothes and fashion} узорчатый, узорный -1
+ -1
               xT *#  s [ɛs] (letter) r S t u; (abbr) second, {C1} {maths and measurement} {clothes and fashion} (S) = small (size); (suffix) -s -1
               yT ?#  electrode [ɪˈlektrəʊd] (n) {C1} {engineering} электрод
               5T *#  bronze [brɒnz] (n) {C1} {physics andd chemistry} {art} {sports: other sports} бронза; (adj) {C1} {colours and shapes} бронзовый -2
@@ -1395,14 +1395,14 @@
               4T ?#  feminine [ˈfɛmɪnɪn] (adj) {C1} {people in society} {language} женский, женственный, женоподобный; (n) {C1} {language} женский род, женщина -1
               zT ?#  masculine [ˈmɑːskjʊlɪn] (adj) {C1} {people in society} {language} мужской, мужественный; (n) {C1} {language} мужской род
               xx *#  ordinal [ˈɔːdɪnl] (adj) порядковый; (n) {C1} {maths and measurement} {language} порядковое числительное -1
-              3T *#  polish [ˈpɑlɪʃ->(n,v)/ˈpoʊlɪʃ->(adj)] (v) {C1} {houses and homes} полировать, шлифовать; (n) {C1} {houses and homes} полировка, лак, лоск, польский язык; (adj) польский -1
+ -1
               4T ?#  sodium [ˈsəʊdiəm] (n) {C1} {physics and chemistry} натрий
  -1
               1T *#  voice [vɔɪs] (n) {A2} {music} {C1} {opinion and argument} голос, глас, {B2} {language} залог; (adj) голосовой; (v) {C1} {opinion and argument} выражать, {C1} {language} произносить звонко -2
               zT *#  voiced [vɔɪst] -ed: (v) {C1} {opinion and argument} выражать, {C1} {language} произносить звонко; (adj) {C1} {language} звонкий -1
  -1
  -1
-              3T *#  extension [ɪksˈtɛnʃən] (n) {B2} {C1} {houses and homes} {buildings} {phones, email and the internet} расширение, продление, продолжение, удлинение, распространение -2
+ -2
               zT ?#  intercom [ˈɪntəkɒm] (n) {C1} {transport by air} {phones, email and the internet} домофон, внутренняя телефонная связь -1
               4T *#  notification [ˌnəʊtɪfɪˈkeɪʃən] (n) {C1} {computers} {phones, email and the internet} уведомление, оповещение, предупреждение -1
               3T *#  forwards [ˈfɔːwədz] (adv) {A2} вперед, {B1} впредь, {C1} {transport by water} = in or towards the front part of a ship/plane
@@ -1410,7 +1410,7 @@
               5T *#  disconnect [ˌdɪskəˈnɛkt] (v) {C1} {engineering} {phones, email and the internet} отключать, разъединять -1
               xT *#  browse [braʊz] (v) {C1} {shopping} {phones, email and the internet} просматривать, пролистать -1
               1T *#  live [lɪv->(v)/laɪv->(adj)] (v) {A1} жить; (adv) {B1} в прямом эфире; (adj) {B1} {tv, radio and news} реальный, живой, {B1} {music} = given or made when people are watching, not recorded; {C1} {engineering} под напряжением, {C1} {healthcare} жизненный = a live vaccine contains viruses or bacteria that are living, {C1} {phones, email and the internet} живой = functioning correctly, so that is connected to another document or page on the internet -2
-              5T ?#  mural [ˈmjʊərəl] (adj) {C2} {art} стенной, интрамуральный; (n) {C1} {houses and homes} {art} фреска, стенная роспись -1
+ -1
               5T *#  pottery [ˈpɒtəri] (n) {C1} {art} {hobbies} керамика, гончарные изделия, гончарное дело -1
               4T ?#  nun [nʌn] (n) {C1} {religion and festivals} монахиня
               5T ?#  wreck [rɛk] (n) {C1} {transport by water} {transport by car or lorry} крушение, авария, развалина, гибель; (v) разрушать
@@ -1555,13 +1555,13 @@
               xx ?#  optician [ɒpˈtɪʃ(ə)n] (n) {C1} {healthcare} {jobs} {shopping} оптик -1
               zT ?#  paramedic [ˌpærəˈmɛdɪk] (n) {C1} {healthcare} {jobs} фельдшер, парамедик, санитар -1
               zT ?#  psychiatrist [saɪˈkaɪətrɪst] (n) {C1} {mental health} {jobs} психиатр -1
-              4T ?#  chimney [ˈʧɪmni] (n) {C1} {buildings} {houses and homes} дымоход, камин, дымовая труба, кратер -1
+ -1
  -1
               zT ?#  decorator [ˈdekəreɪtə(r)] (n) {C1} {jobs} декоратор, маляр
-              4T ?#  fireplace [ˈfaɪəˌpleɪs] (n) {C1} {houses and homes} {buildings} камин, очаг, кузнечный горн -1
-              yT ?#  porch [pɔːʧ] (n) {C1} {houses and homes} {buildings} крыльцо, веранда, подъезд, терраса -1
-              5T ?#  shutter [ˈʃʌtə] (n) затвор, {C1} {houses and homes} {buildings} жалюзи, ставня; (v) закрывать ставнями -1
-              4T ?#  windowsill [ˈwɪndəʊsɪl] (n) {C1} {houses and homes} {buildings} подоконник -1
+ -1
+ -1
+ -1
+ -1
               xT ?#  victorian [vɪkˈtɔːrɪən] (adj) {C1} {history} {buildings} викторианский, консервативный; (n) {C1} {history} человек викторианской эпохи -1
               5T *#  avenue [ˈævɪnjuː] (n) {C1} {transport by car or lorry} {buildings} проспект, авеню, аллея, путь, дорога -1
               4T ?#  darling [ˈdɑːlɪŋ] (adj) {C1} {personal qualities} дорогой, милый, любимый
@@ -1575,8 +1575,8 @@
               yT ?#  cot [kɒt] (n) {C1} {life stages} детская кроватка, {C2} {holidays} раскладушка
               4T *#  jesus [ˈʤ iːzəs] (n) {C1} {religion and festivals} Иисус
               yT ?#  compartment [kəmˈpɑːtmənt] (n) {C1} {transport by bus and train} отсек, отделение, купе
-              5T ?#  mansion [ˈmænʃən] (n) {C1} {houses and homes} {buildings} особняк -1
-              xT ?#  manor [ˈmænə] (n) {C1} {houses and homes} {buildings} поместье, феодальное поместье -1
+ -1
+ -1
               xT ?#  motel [məʊˈtel] (n) {C1} {buildings} {holidays} мотель -1
               5T *#  nickel [ˈnɪkl] (n) {C1} {money} монета в пять центов, {C2} {physics and chemistry} никель; (adj) никелевый
               xT ?#  florist [ˈflɒrɪst] (n) {C1} {jobs} {shopping} флорист, цветочник, торговец цветами
@@ -1588,23 +1588,23 @@
               4T ?#  crane [kreɪn] (n) {C1} {engineering} {buildings} кран, {C2} {birds} журавль; (v) вытягивать шею -1
               yT ?#  insulated [ˈɪnsjʊleɪtɪd] -ed: (v) изолировать, обособлять, разобщать; (adj) {C1} {physics and chemistry} {buildings} изолированный, разобщенный -1
               5T ?#  reinforce [ˌriɪnˈfɔrs] (v) {C1} {physics and chemistry} {buildings} укреплять, {B2} усиливать -1
-              xT ?#  tile [taɪl] (n) {C1} {houses and homes} {buildings} плитка, черепица, кафель -1
+ -1
               xx ?#  bodyguard [ˈbɒdɪˌgɑːd] (n) {C1} {jobs} телохранитель, личная охрана, эскорт
               xT ?#  butler [ˈbʌtlə] (n) {C1} {jobs} дворецкий, старший лакей
               3T ?#  damp [dæmp] (adj) {C1} {weather} влажный; (n) сырой, {C1} {buildings} сырость; (v) демпфировать, смачивать -1
-              5T ?#  exterior [ɛksˈtɪərɪə] (n) {C1} {houses and homes} {buildings} экстерьер, внешность, наружность; (adj) {C1} {buildings} внешний, наружный -1
-              yT ?#  storey [ˈstɔːri] (n) {C1} {houses and homes} {buildings} этаж, ярус, I:storey-storeys/(US)stories -1
+ -1
+ -1
  -1
               4T ?#  dungeon [ˈdʌnʤ ən] (n) {C1} {history} {buildings} темница; (v) сажать в тюрьму -1
               5T *#  fort [fɔːt] (n) {C1} {history} {buildings} форт -1
               5T ?#  fortress [ˈfɔːtrɪs] (n) {C1} {history} {buildings} крепость -1
               5T ?#  escalator [ˈɛskəleɪtə] (n) {C1} {buildings} {shopping} эскалатор -1
-              5T ?#  landing [lændɪŋ] -ing: (v) {A2} {transport by air} {space} {transport by water} приземляться; (n) {B2} {space} {transport by air} приземление, {C1} {houses and homes} {buildings} лестничная площадка -1
+ -1
               4T ?#  lighthouse [ˈlaɪthaʊs] (n) {C1} {transport by water} {buildings} маяк, световой маяк -1
               yT ?#  monastery [ˈmɒnəstəri] (n) {C1} {religion and festivals} {buildings} монастырь -1
               yT ?#  shrine [ʃraɪn] (n) {C1} {religion and festivals} {buildings} храм, святыня -1
               5T ?#  barn [bɑːn] (n) {C1} {buildings} {farming} сарай -1
-              5T ?#  dormitory [ˈdɔːmətri] (n) {C1} {houses and homes} {education} общая спальня, {C1} {buildings} общежитие -1
+              5T ?#  dormitory [ˈdɔːmətri] (n) {C1} {houses and homes} {education} общая спальня, {C1} {buildings} общежитие -2
               4T ?#  gangster [ˈgæŋstə] (n) {C1} {crime and punishment} гангстер, бандит
               4T *#  inn [ɪn] (n) {C1} {buildings} {holidays} трактир, гостиница, постоялый двор -1
               yT ?#  kiosk [ˈkiːɒsk] (n) {C1} {shopping} {buildings} киоск, беседка -1
@@ -1622,6 +1622,9 @@
               5T ?#  heir [eə] (n) {C1} {family and relationships} {money} наследник
               4T ?#  peg [pɛg] (n) колышек, {C1} {holidays} колок, крючок, вешалка, затычка; (v) прикреплять колышком
               yT ?#  undercover [ˌʌndəˈkʌvə(r)] (adj) {C1} {law and justice} {crime and punishment} тайный, секретный; (adv) {C1} {law and justice} {crime and punishment} под прикрытием
+              xT ?#  aerial [ˈeəriəl] (n) {C1} {houses and homes} антенна; (adj) {C1} {transport by air} воздушный, авиационный -1
+              5T ?#  lease [lis] (n) {C1} {houses and homes} {law and justice} аренда, сдача внаем; (v) {C1} {houses and homes} арендовать, сдавать в аренду -1
+              yT ?#  chalet [ˈʃæleɪ] (n) {C1} {houses and homes} {holidays} коттедж, дача, шале -1
 
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
