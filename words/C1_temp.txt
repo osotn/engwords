@@ -172,7 +172,7 @@
   153. (  2) 3T ?#PT breed [briːd] (n) {C1} {animals} порода, поколение, потомство; (v) {C1} {birds} {animals} {farming} размножаться, вскармливать, I:breed-bred-bred -1
 
 
-  156. (  1) xT *#PT brutal [ˈbrutəl] (adj) жестокий, зверский
+  156. (  1) xT *#PT brutal [ˈbrutəl] (adj) {C1} жестокий, зверский
   157. (  1) xT ?#PT buck [bʌk] (n) {C1} {money} доллар, {C2} {animals} самец; (v) противиться, брыкаться
   158. (  1) 5T *#PT buddy [ˈbʌdi] (n) приятель, дружище, пердун
   159. (  1) xT *#PT buffer [ˈbʌfə] (n) буфер, амортизатор; (adj) буферный
@@ -1136,7 +1136,7 @@
  1115. (  2) 4T *#PT spy [spaɪ] (v) {C1} {war and conflict} шпионить; (n) {C1} {war and conflict} {jobs} шпион, диверсант
  1116. (  1) xT ?#PT squad [skwɒd] (n) отряд, команда, отделение; (v) сводить в команды
  1117. (  1) 3T ?#PT squeeze [skwiz] (v) {C1} {cooking and eating} выжимать, {C1} сжимать -1
- 1118. (  1) yT ?#PT stab [stæb] (v) ранить, закалывать; (n) попытка, удар ножом
+ 1118. (  1) yT ?#PT stab [stæb] (v) {C1} {crime and punishment} ранить, закалывать; (n) попытка, удар ножом
  1119. (  1) 5T *#PT stability [stəˈbɪlɪti] (n) {C1} стабильность, постоянство
  1120. (  1) 5T ?#PT stabilize [ˈsteɪbɪlaɪz] (v) стабилизировать, стабилизироваться, делать устойчивым
  1121. (  1) xT ?#PT stake [steɪk] (n) доля, ставка, участие; (v) делать ставку, рисковать
@@ -1620,6 +1620,8 @@
               yT ?#  repayment [riˈpeɪmənt] (n) {C1} {money} {houses and homes} погашение, возмещение, выплата, возвращение -1
               3T ?#  survey [ˈsɜːveɪ->(n)/sɜːˈveɪ->(v)] (n) {A2} {opinion and argument} {scientific research} обзор, {B2} обследование, исследование, {C1} {houses and homes} осмотр; (v) {C1} {geography} {houses and homes} {B2} {opinion and argument} обследовать -1
               5T ?#  heir [eə] (n) {C1} {family and relationships} {money} наследник
+              4T ?#  peg [pɛg] (n) колышек, {C1} {holidays} колок, крючок, вешалка, затычка; (v) прикреплять колышком
+              yT ?#  undercover [ˌʌndəˈkʌvə(r)] (adj) {C1} {law and justice} {crime and punishment} тайный, секретный; (adv) {C1} {law and justice} {crime and punishment} под прикрытием
 
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
