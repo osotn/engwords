@@ -132,7 +132,7 @@
   113. (  1) 5T ? PT backdrop [ˈbækdrɒp] (n) {C1} {film and theatre} фон
   114. (  1) 4T ?#PT backing [bækɪŋ] -ing: (v) {B2} {business} {money} поддерживать
   115. (  1) xT ?#PT backup [ˈbækʌp] резервный, дублирующий
-  116. (  1) yT ?#PT bail [beɪl] (n) залог, поручительство
+  116. (  1) yT ?#PT bail [beɪl] (n) {C1} {law and justice} {money} залог, поручительство; (v) {C1} {law and justice} брать на поруки
   117. (  1) xT ?#PT ballot [ˈbælət] (n) голосование, избирательный бюллетень; (v) голосовать, баллотировать
   118. (  1) 5T ?#PT banner [ˈbænə] (n) баннер, знамя, флаг; (adj) образцовый; (v) украшать флагами
   119. (  1) 5T ?#PT bare [beə] (adj) {C1} голый, пустой, неизолированный
@@ -435,7 +435,7 @@
   415. (  1) 5T ?#PT drain [dreɪn] (n) {C1} {buildings} дренаж, отток; (v) {C1} осушать, дренировать -1
   416. (  1) 5T ?#PT drift [drɪft] (n) {C1} {transport by water} {weather} дрейф, снос; (v) {C1} дрейфовать, плыть по течению
   417. (  1) 3T *#PT driving [draɪvɪŋ] -ing: (v)(intransitive) {A1} ездить, управлять, (v) {A2} вести (кого-то), I: drive-drove-driven; (n) {A2} вождение; (adj) {C1} сильный
-  418. (  1) zT ?#PT drown [draʊn] (v) тонуть, топить, заливать
+  418. (  1) zT ?#PT drown [draʊn] (v) {C1} тонуть, топить, заливать
   419. (  1) xT ?#PT dual [ˈdju(ː)əl] (adj) {C1} двойной, двойственный
   420. (  1) yT ?#PT dub [dʌb] (v) {C1} {film and theatre} {tv, radio and news} дублировать, {C1} ровнять, ударять; (n) {C2} {film and theatre} {tv, radio and news} {music} дубляж -2
   421. (  1) 5T ?#PT dumb [dʌm] (adj) {C1} глупый, тупой
@@ -757,7 +757,7 @@
   737. (  1) 5T ?#PT mandate [ˈmændeɪt] (n) мандат; (v) give someone authority to act in a certain way
   738. (  1) 5T *#PT mandatory [ˈmændətəri] (adj) обязательный
   739. (  1) yT ?#PT manifest [ˈmænɪfɛst] (n) манифест, декларация; (v) проявлять, обнаруживать; (adj) явный
-  740. (  1) 5T *#PT manipulate [məˈnɪpjʊleɪt] (v) манипулировать, воздействовать
+  740. (  1) 5T *#PT manipulate [məˈnɪpjʊleɪt] (v) {C1} манипулировать, воздействовать
   741. (  1) 4T *#PT manipulation [məˌnɪpjʊˈleɪʃən] (n) манипуляция, манипулирование, обращение, операции
   742. (  1) yT ?#PT manuscript [ˈmænjʊskrɪpt] (n) рукопись; (adj) рукописный
   743. (  2) 3T ?#PT march [mɑːʧ] (n) {A1} {time} март, {C1} {social issues} марш; (v) {C1} {social issues} маршировать
@@ -1113,7 +1113,7 @@
  1092. (  1) 4T *#PT socialist [ˈsəʊʃəlɪst] (n) социалист; (adj) социалистический
  1093. (  1) 5T ?#PT sole [səʊl] (n) {C1} {clothes and fashion} подошва, {C1} {body} ступня; (adj) {C1} единственный; (v) ставить подметку -1
  1094. (  1) 5T ?#PT solely [ˈsəʊli] (adv) исключительно
- 1095. (  1) 5T ?#PT solicitor [səˈlɪsɪtə] адвокат, стряпчий, юрисконсульт, ходатай
+ 1095. (  1) 5T ?#PT solicitor [səˈlɪsɪtə] (n) {C1} {law and justice} {jobs} {business} адвокат, стряпчий, юрисконсульт, ходатай
 
  1097. (  2) 5T ?#PT solo [ˈsəʊləʊ] (n) {C1} {music} соло, сольный номер, I:solo-solos; (adj) {C1} сольный, самостоятельный -1
  1098. (  1) 3T *#PT sound [saʊnd] (n) {A1} {film and theatre} звук; (adj) {C1} звуковой; (v)(stative) {A1} звучать, казаться
@@ -1215,7 +1215,7 @@
  1194. (  1) 5T ?#PT terrain [təˈreɪn/ˈtɛreɪn] (n) местность, территория; (adj) земной
  1195. (  1) 5T ?#PT terrific [təˈrɪfɪk] (adj) ужасающий, {C1} потрясающий
  1196. (  1) yT ?#PT testify [ˈtɛstɪfaɪ] (v) свидетельствовать, давать показания
- 1197. (  1) xT ?#PT testimony [ˈtɛstɪməni] (n) свидетельство, доказательство
+ 1197. (  1) xT ?#PT testimony [ˈtɛstɪməni] (n) {C1} {law and justice} свидетельство, {C1} доказательство
 
  1199. (  1) zT ?#PT thankfully [ˈθæŋkfʊli] благодарно, с благодарностью, с облегчением
 
