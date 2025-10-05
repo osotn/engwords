@@ -8532,6 +8532,7 @@ Leisure
 
 {C1} {games and toys {ball games}}
 
+
 {games and toys {board games}}
 ..............................
 {A1} {games and toys {board games}}
@@ -8605,6 +8606,7 @@ Leisure
               1T *#  world [wɜːld] (n) {A1} {B2} {games and toys} мир, кругозор; (adj) мировой, всемирный
 
 {C1} {games and toys {computer games}}
+              yT ?#  gameplay [ˈɡeɪmpleɪ] (n) {C1} {games and toys} геймплей, = the features of a computer game such as its story or the way it is played rather than the images or  sounds it uses
 
 {games and toys {games in general}}
 ...................................
@@ -8633,12 +8635,19 @@ Leisure
   897. (  1) 3T ?#PT opponent [əˈpoʊnənt] (n) {B2} {opinion and argument} {games and toys} оппонент, {B2} противник; (adj) противоположный
               yT ?#  scoreboard [ˈskɔːbɔːd] (n) {B2} {sports: other sports} {games and toys} табло
 
+{B2} {games and toys {games in general}}
+
 {games and toys {indoor games}}
 ...............................
 {A1} {games and toys {indoor games}}
 {A2} {games and toys {indoor games}}
 {B1} {games and toys {indoor games}}
 {B2} {games and toys {indoor games}}
+{C1} {games and toys {indoor games}}
+              xT ?#  arcade [ɑːˈkeɪd] (n) {C2} {buildings} {C1} {games and toys} аркада, пассаж
+              xT *#  bingo [ˈbɪŋgəʊ] (n) {C1} {games and toys} бинго
+              5T ?#  dart [dɑːt] (n) {C1} {sports: other sports} {games and toys} дартс, дротик, дротики, стрел
+              3T *#  pool [puːl] (n) {A1} {holidays} {A2} {geography} бассейн, {C1} {games and toys} {sports: other sports} пул, общий фонд; (v) объединять в общий фонд
 
 {games and toys {toys}}
 .......................
@@ -8655,8 +8664,15 @@ Leisure
   113. (  1) 5T ?#PT balloon [bəˈluːn] (n) {B2} {games and toys} воздушный шар, {B2} {transport by air} баллон; (v) подниматься на воздушном шаре, раздуваться, надувать
               4T ?#  kite [kaɪt] (n) {C2} {birds} коршун, {B2} {games and toys} воздушный змей
 
-{A1} {hobbies}
---------------
+{C1} {games and toys {toys}}
+              yT ?#  jigsaw [ˈʤ ɪgˌsɔː] (n) {C1} {games and toys} пазл, ажурная пила
+              yT ?#  lego [ˈlɛɡəʊ] (n) {C1} {games and toys} Лего
+              4T ?#  puppet [ˈpʌpɪt] (adj) кукольный, марионеточный; (n) {C1} {games and toys} марионетка
+              3T *#  slide [slaɪd] (n) {B2} {C1} {games and toys} горка, слайд; (v) {B2} скольжение, скользить, I: slide-slid-slid
+ 1178. (  2) 3T ?#PT swing [swɪŋ] (n) {C1} {games and toys} {gardens} качели, {C1} {opinion and argument} = to change from one opinion to another; (v) {C1} качаться, {C1} {opinion and argument} = to change from one opinion to another, I:swing-swung-swung
+
+{hobbies}
+---------
 {hobbies {activities and interests}}
 ....................................
 {A1} {hobbies {activities and interests}}
@@ -8713,6 +8729,13 @@ Leisure
  1201. (  1) 3T *#PT spare [speə] (adj) запасной, {B2} {hobbies} свободный, лишний, резервный; (v) {C1} жалеть, экономить; (n) запасная часть
  1399. (  1) 3T ?#PT wander [ˈwɒndə] (v) {B2} {hobbies} блуждать, {C1} бродить, {B2} скитаться; (n) странствие
 
+{C1} {hobbies {activities and interests}}
+              5T ?#  footpath [ˈfʊtpɑːθ] (n) {C1} {hobbies} пешеходная дорожка, тропинка
+              xx ?#  pastime [ˈpɑːstaɪm] (n) {C1} {hobbies} времяпровождение, игра, приятное времяпрепровождение
+              yT ?#  sudoku [suˈdəʊkuː/suˈdɒkuː] (n) {C1} {hobbies} судоку
+ 1226. (  2) 5T ?#PT trail [treɪl] (n) {C1} след, {C1} {hobbies} тропа, тропинка; (v) {C1} тащить, плестись
+              5T ?#  wade [weɪd] (v) {C1} {hobbies} пробираться, идти, преодолевать; (n) брод
+
 {hobbies {crafts and skills}}
 .............................
 {A1} {hobbies {crafts and skills}}
@@ -8731,8 +8754,16 @@ Leisure
 {B2} {hobbies {crafts and skills}}
   290. (  1) 3T ?#PT craft [(UK)krɑːft/(US)kræft] 3T ?#  craft [(UK)krɑːft/(US)kræft] (n) {B2} {shopping} {hobbies} ремесло, самолет, судно, {B2} мастерство, умение; (v) {C1} {hobbies} = to make something using special skills especially with your hand
 
-{A1} {shopping}
----------------
+{C1} {hobbies {crafts and skills}}
+  310. (  1) 3T ?#PT craft [(UK)krɑːft/(US)kræft] (n) {B2} {shopping} {hobbies} ремесло, самолет, судно, {B2} мастерство, умение; (v) {C1} {hobbies} = to make something using special skills especially with your hand
+              3T ?#  knit [nɪt] (v) {C1} {hobbies} вязать, объединяться; (n) вязка
+              3T ?#  knitting [nɪtɪɪŋ] -ing: (v) {C1} {hobbies} вязать, объединяться; (n) {C1} {hobbies} вязание, трикотаж
+              5T *#  pottery [ˈpɒtəri] (n) {C1} {art} {hobbies} керамика, гончарные изделия, гончарное дело
+              3T ?#  sew [səʊ/sjuː] (v) {C1} {hobbies} шить, пришивать, сшивать, зашивать, прошивать, I:sew-sewed-sewn
+              3T ?#  sewing [səʊɪŋ/sjuːɪŋ] -ing: (v) {C1} {hobbies} шить, пришивать, сшивать, зашивать, прошивать; (n) {C1} {hobbies} шитье
+
+{shopping}
+----------
 {shopping {department in store}}
 ................................
 {A1} {shopping {department in store}}
@@ -8763,6 +8794,13 @@ Leisure
   606. (  1) 3T ?#PT grocery [ˈgrəʊsəri] (n) {B2} бакалейная лавка, {B2} {shopping} бакалея; (adj) продуктовый
               5T *#  perfume [ˈpɜːfjuːm->(n)/pəˈfjuːm->(v)] (n) {B2} {shopping} духи; (v) подушить
 
+{C1} {shopping {department in store}}
+              5T *#  accessory [əkˈsɛsəri] (n) {C1} {shopping} {clothes and fashion} аксессуар, принадлежность; (adj) вспомогательный
+              4T ?#  cutlery [ˈkʌtləri] (n) {C1} {shopping} {cooking and eating} ножевые изделия, столовые приборы
+              5T ?#  fragrance [ˈfreɪgrəns] (n) {C1} {shopping} аромат, благоухание
+              5T ?#  linen [ˈlɪnɪn] (n) {C1} {shopping} белье, полотно, {C1} {clothes and fashion} льняное полотно
+              5T ?#  stationery [ˈsteɪʃnəri] (n) {C1} {shopping} канцелярские товары, канцтовары
+
 {shopping {online shopping}}
 ............................
 {A1} {shopping {online shopping}}
@@ -8786,6 +8824,10 @@ Leisure
 {B2} {shopping {online shopping}}
   134. (  2) 3T ?#PT bid [bɪd] (n) {B2} {art} {shopping} {business} заявка, предложение цены; (v) {B2} {art} {shopping} {business} предлагать цену
   343. (  1) 3T ?#PT delivery [dɪˈlɪvəri] (n) {B2} {shopping} доставка, сдача, поставка, {B2} выдача; (adj) нагнетательный
+
+{C1} {shopping {online shopping}}
+              5T ?#  postage [ˈpəʊstɪʤ ] (n) {C1} {shopping} почтовая оплата
+ 1071. (  1) 4T ?#PT shipping [ʃɪpɪŋ] -ing: (v) {B2} {business} грузить товары; (n) {C1} {transport by water} {shopping} {business} перевозки, погрузка
 
 {shopping {paying for shopping}}
 ................................
@@ -8830,6 +8872,13 @@ Leisure
  1060. (  1) 3T ?#PT reduction [rɪˈdʌkʃən] (n) {B2} {change, cause and effect} {shopping} {money} сокращение, уменьшение, восстановление
               xT ?#  refund [ˈriːfʌnd] (n) {B2} {money} {shopping} возврат; (v) {B2} {money} возвращать деньги
  1095. (  1) 5T ?#PT retail [ˈriːteɪl] (n) {B2} {business} {shopping} розничная торговля, в розницу, розничный; (v) {C1} {shopping} продавать в розницу; (adv) {C1} {shopping} в розницу
+
+{C1 {shopping {paying for shopping}}
+              yT ?#  barcode [ˈbɑːˌkəʊd] (n) {C1} {shopping} штрих-код; (v) наносить штрих-код
+              5T ?#  retail [ˈriːteɪl] (n) {B2} {business} {shopping} розничная торговля, в розницу, розничный; (v) {C1} {shopping} продавать в розницу; (adv) {C1} {shopping} в розницу
+              1T *#  safe [seɪf] (n) {C1} {money} {shopping} сейф; (adj) {A2} безопасный
+ 1228. (  1) 5T *#PT transaction [trænˈzækʃən] (n) {C1} {business} {shopping} сделка, трансакция, дело
+              yT ?#  voucher [ˈvaʊtʃə(r)] (n) {C1} {money} {shopping} ваучер, расписка, поручительство
 
 {shopping {shopping in store}}
 ..............................
@@ -8901,6 +8950,18 @@ Leisure
               4T ?#  trolley [ˈtrɒli] (n) {B2} {shopping} {sports: ball and racket sports} тележка, вагонетка, троллей, трамвай, дрезина
               xx ?#  try+on [traɪ ɒn] (phrasal verb) {B2} {shopping} попробовать, примерять
 
+{C1} {shopping {shopping in store}}
+              3T ?#  bargain [ˈbɑːgɪn] (v) {C1} {discussion and agreement} {shopping} торговаться; (n) {B2} {shopping} {money} {discussion and agreement} сделка
+              5T ?#  barter [ˈbɑːtə] (n) {C1} {shopping} бартер, товарообмен; (v) обменивать
+              xT *#  browse [braʊz] (v) {C1} {shopping} {phones, email and the internet} просматривать, пролистать
+              1T *#  business [ˈbɪznɪs] (n) {A1} {working life} {business} {C1} {shopping} бизнес, дело
+              yT ?#  cctv [siː-siː-tiː-ˈviː] (abbr) {C1} {shopping} Closed Circuit Television
+              5T ?#  escalator [ˈɛskəleɪtə] (n) {C1} {buildings} {shopping} эскалатор
+              3T ?#  promotion [prəˈməʊʃən] (n) {B2} {jobs} {success} {C1} {business} {shopping} продвижение, содействие, поощрение
+              xT ?#  rack [ræk] (n) {C1} {shopping} стеллаж; (v) мучить
+              3T *#  register [ˈrɛʤ ɪstə] (n) {B2} {education} {C2} {music} регистр, {C1} {shopping} реестр, запись; (v) {B2} регистрировать
+              3T *#  till [tɪl] (adv) до, пока; (conj) {B1} до тех пор пока, пока; (v) пахать; (n) {C1} {shopping} {money} касса
+
 {shopping {type of store}}
 ..........................
 {A1} {shopping {type of store}}
@@ -8940,6 +9001,19 @@ Leisure
  1228. (  1) yT ?#PT stall [stɔːl] (n) {B2} {shopping} киоск, ларек, кабинка, прилавок, {C2} {farming} стойло; (v) глохнуть, обманывать
  1230. (  1) 3T *#PT stand [stænd] (n) {B2} {opinion and argument} позиция, {B2} {shopping} стенд, подставка; (v) {A1} стоять, {B2} {politics} баллотироваться, I: stand-stood-stood
               xx ?#  travel+agency [ˈtræv(ə)l ˈeɪʤ (ə)nsi] (n) {B2} {shopping} {holidays} туристическое агентство
+
+{C1} {shopping {type of store}}
+              xT ?#  boutique [buːˈtiːk] (n) {C1} {shopping} бутик, небольшой магазин
+              yT ?#  deli [ˈdeli] (n) {C1} {shopping} гастроном
+              xT ?#  florist [ˈflɒrɪst] (n) {C1} {jobs} {shopping} флорист, цветочник, торговец цветами
+              4T ?#  grocer [ˈgrəʊsə] (n) {B2} {jobs} бакалейщик, {C1} {shopping} = a shop that sell these things
+  575. (  1) 5T *#PT hardware [ˈhɑːdweə] (n) {C1} {computers} {shopping} аппаратные средства, аппаратура
+              yT ?#  kiosk [ˈkiːɒsk] (n) {C1} {shopping} {buildings} киоск, беседка
+              xx ?#  optician [ɒpˈtɪʃ(ə)n] (n) {C1} {healthcare} {jobs} {shopping} оптик
+  839. (  1) 5T ?#PT outlet [ˈaʊtˌlɛt] (n) выход, выпускное отверстие, {C1} {shopping} {business} выпуск, выходное отверстие
+              yT ?#  pharmacist [ˈfɑːməsɪst] (n) {B2} {jobs} {healthcare} {C1} {shopping} фармацевт, провизор
+              xx ?#  stationer [ˈsteɪʃənə(r)] (n) {C1} {shopping} канцелярский товар, книгоиздатель
+              yT ?#  superstore [ˈsuːpəstɔː(r)] (n) {C1} {shopping} супермаркет
 
 Notions
 ========
@@ -8995,6 +9069,21 @@ Notions
  1315. (  1) 3T *#PT thus [ðʌs] (adv) {B2} таким образом, {B2} {change, cause and effect} поэтому
  1340. (  1) 5T ?#PT trigger [ˈtrɪgə] (n) {C1} {change, cause and effect} триггер, {C1} спусковой крючок; (v) {B2} {change, cause and effect} спускать курок
 
+{C1} {change, cause and effect {cause and effect}}
+   45. (  1) yT ?#PT aftermath [ˈɑːftəmæθ] (n) {C1} {change, cause and effect} последствия, отава
+              yT ?#  causal [ˈkɔːzəl] (adj) {C1} {change, cause and effect} причинный, каузальный
+              5T ?#  consequent [ˈkɒnsɪkwənt] (adj) последующий, последовательный, {C1} {change, cause and effect} являющийся результатом; (n) следствие, результат, последствие
+  280. (  1) xT ?#PT contributor [kənˈtrɪbjətə] (n) {C1} {tv, radio and news} {change, cause and effect} участник, жертвователь
+  430. (  1) 5T ?#PT effectiveness [ɪˈfɛktɪvnəs] (n) {C1} {success} {change, cause and effect} эффективность, действенность
+  462. (  1) xx ?#PT ensue [ɪnˈsjuː] (v) {C1} {change, cause and effect} следовать, вытекать, происходить
+  620. (  1) 5T ?#PT induce [ɪnˈdjuːs] (v) {C1} {change, cause and effect} вызывать, {C1} {discussion and agreement} побуждать, стимулировать
+              4T *#  ineffective [ˌɪnɪˈfɛktɪv] un-: (adj) {B1} {success} {change, cause and effect} эффективный; (adj) {C1} {change, cause and effect} {difficulty and failure} неэффективный
+  947. (  1) 5T ?#PT provoke [prəˈvəʊk] (v) {C1} {change, cause and effect} {opinion and argument} {feelings} провоцировать, вызывать, раздражать
+ 1204. (  1) 5T *#PT thereby [ˈðeəˈbaɪ] (adv) {C1} {change, cause and effect} тем, таким образом
+ 1241. (  1) 5T ?#PT trigger [ˈtrɪgə] (n) {C1} {change, cause and effect} триггер, {C1} спусковой крючок; (v) {B2} {change, cause and effect} спускать курок
+              5T ?#  underlie [ˌʌndəˈlaɪ] (v) {C1} {change, cause and effect} лежать в основе, лежать под чем-л. I: underlie-underlay-underlay
+ 1303. (  1) yT ?#PT whereby [weəˈbaɪ] (conj) посредством чего, каким образом, как; (adv) {C1} {change, cause and effect} чем
+
 {change, cause and effect {change}}
 ...................................
 {A1} {change, cause and effect {change}}
@@ -9042,6 +9131,25 @@ Notions
  1181. (  1) 3T *#PT significant [sɪgˈnɪfɪkənt] (adj) {B2} {change, cause and effect} значительный, существенный
  1182. (  1) 3T *#PT significantly [sɪgˈnɪfɪkəntli] -ly: (adj)->(adv) {B2} {change, cause and effect} значительный, существенный; (adv) {B2} {change, cause and effect} существенно, {B2} знаменательно
  1370. (  1) 3T ?#PT upwards [ˈʌpwədz] (adv) {B2} {change, cause and effect} вверх, {B2} кверху
+
+{C1} {change, cause and effect {change}}
+   12. (  1) 5T *#PT accelerate [əkˈsɛləreɪt] (v) {C1} {change, cause and effect} {physics and chemistry} {transport by car or lorry} ускорять, ускоряться
+   21. (  1) 5T *#PT accumulate [əˈkjuːmjʊleɪt] (v) {C1} {change, cause and effect} накапливать, накопить
+   22. (  1) 5T ?#PT accumulation [əˌkjuːmjʊˈleɪʃ(ə)n] (n) {C1} {change, cause and effect} накопление, скопление, аккумуляция
+              3T ?#  appreciate [əˈpriːʃɪeɪt] (v) {B1} {C1} {change, cause and effect} {money} ценить, понимать
+              3T ?#  climb [ˈklaɪm] (v) {A1} {A2} {sports: other sports} {hobbies} взобраться, {B2} {change, cause and effect} {money} подниматься; (n) {B1} {C1} {change, cause and effect} {money} подъем, подниматься
+  369. (  1) 5T ?#PT deteriorate [dɪˈtɪərɪəreɪt] (v) {C1} {change, cause and effect} ухудшаться, портиться, дегенерировать
+              4T ?#  deterioration [dɪˌtɪərɪəˈreɪʃən] (n) {C1} {change, cause and effect} ухудшение, износ
+              zT ?#  downturn [ˈdaʊntɜːn] (n) {C1} {change, cause and effect} {money} спад, уменьшение
+              3T ?#  downward [ˈdaʊnwəd] (adv) {C1} {change, cause and effect} вниз, книзу
+  696. (  2) 5T ?#PT leap [liːp] (n) {C1} {change, cause and effect} скачок, {C1} прыжок; (v) {C1} {change, cause and effect} скакать, {C1} прыгать, I:leap-leaped/leapt-leaped/leapt
+  882. (  1) 5T ?#PT plunge [plʌnʤ ] (n) {C1} {change, cause and effect} погружение; (v) {C1} {change, cause and effect} погружаться, {C1} влезать в долги
+  959. (  2) 5T ?#PT rally [ˈræli] (n) {C1} ралли, {C1} {politics} собрание, слет; (v) {C1} {change, cause and effect} сплотиться
+              4T *#  recovery [rɪˈkʌvəri] (n) {B2} {health problems} {C1} {change, cause and effect} {money} восстановление, выздоровление, извлечение
+              4T ?#  rocket [ˈrɑkət] (n) {B2} {space} {transport by air} ракета, {C1} {war and conflict} реактивный снаряд; (v) {C1} {change, cause and effect} взлетать
+              3T ?#  sink [sɪŋk] (v) {B1} {war and conflict} {C1} {change, cause and effect} потопить, тонуть, I: sink-sank-sunk; (n) {B1} {houses and homes} раковина, слив, сток
+              5T *#  spiral [ˈspaɪərəl] (n) {C1} {colours and shapes} {change, cause and effect} спираль; (adj) {C1} {colours and shapes} спиральный; (v) {C1} {money} {change, cause and effect} = to increase rapidly
+ 1169. (  2) 5T ?#PT surge [sɜːʤ ] (n) {C1} волны, {C1} {change, cause and effect} повышение; (v) {C1} вздыматься, волноваться, {C1} {change, cause and effect} подниматься
 
 {danger}
 --------
