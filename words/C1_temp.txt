@@ -68,7 +68,7 @@
    48. (  1) yT ?#PT aide [eɪd] (n) {C1} {jobs} помощник, адъютант
    49. (  1) yT ?#PT albeit [ɔːlˈbiːɪt] хотя, тем не менее
    50. (  2) xT ?#PT conjunction [kənˈʤ ʌŋkʃən] (n) {B1} {language} союз, соединение, конъюнкция
-   51. (  3) 5T *#PT alert [əˈlɜːt] (n) {C1} {danger} {war and conflict} {computers} {phones, email and internet} тревога; (adj) {C1} {danger} бдительный; (v) {C1} {danger} {war and conflict} объявлять тревогу -1
+   51. (  3) 5T *#PT alert [əˈlɜːt] (n) {C1} {danger} {war and conflict} {computers} {phones, email and internet} тревога; (adj) {C1} {danger} бдительный; (v) {C1} {danger} {war and conflict} объявлять тревогу -2
    52. (  1) 5T ?#PT alien [ˈeɪliən] (n) {B2} {social issues} {crime and punishment} иностранец, чужак, чужой, {B2} {space} инопланетянин; (adj) {C1} {space} инородный, {C1} иностранный
    53. (  1) xT *#PT align [əˈlaɪn] выровнять, выравнивать
    54. (  1) 5T *#PT alignment [əˈlaɪnmənt] (n) выравнивание, центровка, регулировка
@@ -422,7 +422,7 @@
   402. (  1) 5T *#PT distinction [dɪsˈtɪŋkʃən] (n) {C1} различие
   403. (  1) 5T ?#PT distinctive [dɪsˈtɪŋktɪv] (adj) отличительный
   404. (  1) 5T ?#PT distort [dɪsˈtɔːt] искажать, извращать, искривлять
-  405. (  2) 5T ?#PT distress [dɪsˈtrɛs] (n) бедствие, горе, страдание, несчастье, беда; (v) огорчать
+  405. (  2) 5T ?#PT distress [dɪsˈtrɛs] (n) {C1} {social issues} {danger} {transsport by water} {transport by air} бедствие, горе, {C1} {feelings} страдание, несчастье, беда; (v) {C1} {feelings} огорчать -1
   406. (  1) 3T ?#PT disturbing [dɪsˈtɜːbɪŋ] -ing: (v) {B2} беспокоить, мешать, нарушать, побеспокоить, {C1} волновать; (adj) {C1} тревожный, волнующий
   407. (  1) 5T ?#PT divert [daɪˈvɜːt] (v) {C1} отвлекать, отводить, отклонять
   408. (  1) xT ?#PT divine [dɪˈvaɪn] (adj) божественный, божий; (v) угадывать
@@ -1513,10 +1513,8 @@
               xx ?#  favourably [ˈfeɪvərəbli] -ly: (adj) {C1} {opinion and argument} {success} {weather} благоприятный; (adv) {C1} {opinion and argument} {success} благоприятно -1
  -1
  -1
-              xx ?#  acutely [əˈkjuːtli] -ly: (adj) {C1} {health problems} острый, {C1} проницательный; (adv) {C1} {danger} остро, резко
               xx ?#  duckling [ˈdʌklɪŋ] (n) {C1} {food} {birds} утенок
               yT ?#  meadow [ˈmɛdəʊ] (n) {C1} {farming} луг, поляна
-              4T ?#  gambler [ˈgæmblər] (n) игрок, {C1} {danger} азартный игрок
               5T *#  aluminum [əˈljʊmɪnəm] (n) {C1} {physics and chemistry} алюминий; (adj) алюминиевый
               5T ?#  frank [fræŋk] (adj) {C1} {personal qualities} откровенный, искренний; (n) франк
               xx ?#  arguable [ˈɑːɡjuːəb(ə)l] (adj) {C1} {opinion and argument} {doubt, guessing and certainty} спорный, доказуемый -1
@@ -1568,7 +1566,6 @@
               5T ?#  radiate [ˈreɪdieɪt] (v) {C1} {physics and chemistry} излучать, сиять
               yT ?#  crib [krɪb] (n) {C1} {life stages} детская кроватка, ясли, {C2} {education} шпаргалка, плагиат; (v) {C2} {education} совершать плагиат, списать
               5T ?#  resent [rɪˈzɛnt] (v) {C1} {feelings} возмущаться, обижаться, негодовать
-              4T *#  madness [ˈmædnɪs] (n) {C1} {danger} безумие, сумасшествие, бешенство
               xx ?#  mayonnaise [ˌmeɪəˈneɪz] (n) {C1} {food} майонез
               4T ?#  misty [ˈmɪsti] (adj) {C1} {weather} туманный
               zT ?#  gloom [gluːm] (n) мрак, {C1} {feelings} уныние; (v) хмуриться
@@ -1635,6 +1632,8 @@
               zT ?#  downturn [ˈdaʊntɜːn] (n) {C1} {change, cause and effect} {money} спад, уменьшение -1
               4T *#  recovery [rɪˈkʌvəri] (n) {B2} {health problems} {C1} {change, cause and effect} {money} восстановление, выздоровление, извлечение -1
               4T ?#  rocket [ˈrɑkət] (n) {B2} {space} {transport by air} ракета, {C1} {war and conflict} реактивный снаряд; (v) {C1} {change, cause and effect} взлетать -1
+              yT ?#  forensic [fəˈrɛnsɪk] (adj) {C1} {crime and punishment} судебный
+              5T ?#  menace [ˈmɛnəs] (n) {C1} {danger} угроза, {C2} {feelings} опасность, {C1} {personal qualities} зануда, надоеда; (v) {C2} {danger} угрожать -1
 
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated

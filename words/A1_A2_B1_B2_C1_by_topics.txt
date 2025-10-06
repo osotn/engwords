@@ -9150,6 +9150,7 @@ Notions
               3T ?#  sink [sɪŋk] (v) {B1} {war and conflict} {C1} {change, cause and effect} потопить, тонуть, I: sink-sank-sunk; (n) {B1} {houses and homes} раковина, слив, сток
               5T *#  spiral [ˈspaɪərəl] (n) {C1} {colours and shapes} {change, cause and effect} спираль; (adj) {C1} {colours and shapes} спиральный; (v) {C1} {money} {change, cause and effect} = to increase rapidly
  1169. (  2) 5T ?#PT surge [sɜːʤ ] (n) {C1} волны, {C1} {change, cause and effect} повышение; (v) {C1} вздыматься, волноваться, {C1} {change, cause and effect} подниматься
+              3T *#  upward [ˈʌpwəd] (adv) вверх, кверху; (adj) {C1} {change, cause and effect} восходящий
 
 {danger}
 --------
@@ -9164,6 +9165,13 @@ Notions
   234. (  1) 3T ?#PT emergency [ɪˈmɜːʤ ənsi] (adj) аварийный, экстренный, непредвиденный, запасной; (n) {B1} {danger} авария
 
 {B2} {danger {dangerous people/things}}
+{С1} {danger {dangerous people/things}}
+   51. (  3) 5T *#PT alert [əˈlɜːt] (n) {C1} {danger} {war and conflict} {computers} {phones, email and internet} тревога; (adj) {C1} {danger} бдительный; (v) {C1} {danger} {war and conflict} объявлять тревогу
+              3T ?#  dare [deə] (v) {B2} {personal qualities} дерзать, сметь; (n) {C1} {danger} вызов, подзадоривание
+  405. (  2) 5T ?#PT distress [dɪsˈtrɛs] (n) {C1} {social issues} {danger} {transsport by water} {transport by air} бедствие, горе, {C1} {feelings} страдание, несчастье, беда; (v) {C1} {feelings} огорчать
+              4T ?#  gambler [ˈgæmblər] (n) игрок, {C1} {danger} азартный игрок
+              4T *#  madness [ˈmædnɪs] (n) {C1} {danger} безумие, сумасшествие, бешенство
+              5T ?#  menace [ˈmɛnəs] (n) {C1} {danger} угроза, {C2} {feelings} опасность, {C1} {personal qualities} зануда, надоеда; (v) {C2} {danger} угрожать
 
 {danger {involving danger}}
 ...........................
@@ -9192,6 +9200,9 @@ Notions
               xx ?#  high-risk [ˈhaɪ-rɪsk] (adj) {B2} {danger} высокий риск
               xx ?#  low-risk [ləʊ-rɪsk] (adj) {B2} {danger} низкий риск
   851. (  1) xT ?#PT nasty [ˈnɑːsti] (adj) {B2} {personal qualities} неприятный, {B2} {danger} противный, {B2} отвратительный
+
+{C1} {danger {involving danger}}
+              xx ?#  acutely [əˈkjuːtli] -ly: (adj) {C1} {health problems} острый, {C1} проницательный; (adv) {C1} {danger} остро, резко
 
 {danger {preventing danger}}
 ............................
