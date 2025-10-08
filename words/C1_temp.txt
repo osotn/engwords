@@ -33,7 +33,7 @@
    13. (  1) 4T ?#PT acceptance [ækˈsɛptəns/əkˈsɛptəns] (n) {C1} принятие, {C1} {discussion and agreement} признание, {C1} {social issues} прием -1
    14. (  1) 5T *#PT accessible [əkˈsɛsəbl] (adj) {C1} доступный, достижимый
              5T ?#PT accommodate [əˈkɒmədeɪt] (v) {B2} {C1} вмещать, {C1} {discussion and agreement} приспосабливать -1
-   15. (  1) 5T ?#PT accomplishment [əˈkɒmplɪʃmənt] (n) {C1} {success} достижение, выполнение, завершение
+
    16. (  1) 4T ?#PT accordance [əˈkɔːdəns] (n) соответствие, предоставление, согласие
    17. (  1) 4T *#PT accordingly [əˈkɔːdɪŋli] (adv) соответственно, в соответствии, следовательно, поэтому, таким образом
 
@@ -68,7 +68,7 @@
    48. (  1) yT ?#PT aide [eɪd] (n) {C1} {jobs} помощник, адъютант
    49. (  1) yT ?#PT albeit [ɔːlˈbiːɪt] хотя, тем не менее
    50. (  2) xT ?#PT conjunction [kənˈʤ ʌŋkʃən] (n) {B1} {language} союз, соединение, конъюнкция
-   51. (  3) 5T *#PT alert [əˈlɜːt] (n) {C1} {danger} {war and conflict} {computers} {phones, email and internet} тревога; (adj) {C1} {danger} бдительный; (v) {C1} {danger} {war and conflict} объявлять тревогу -2
+   51. (  3) 5T *#PT alert [əˈlɜːt] (n) {C1} {danger} {war and conflict} {computers} {phones, email and internet} тревога; (adj) {C1} {danger} бдительный; (v) {C1} {danger} {war and conflict} объявлять тревогу -3
    52. (  1) 5T ?#PT alien [ˈeɪliən] (n) {B2} {social issues} {crime and punishment} иностранец, чужак, чужой, {B2} {space} инопланетянин; (adj) {C1} {space} инородный, {C1} иностранный
    53. (  1) xT *#PT align [əˈlaɪn] выровнять, выравнивать
    54. (  1) 5T *#PT alignment [əˈlaɪnmənt] (n) выравнивание, центровка, регулировка
@@ -110,7 +110,7 @@
    91. (  1) 5T ?#PT aspiration [ˌæspɪˈreɪʃ(ə)n] (n) {C1} {success} стремление, желание, аспирация, сильное желание
    92. (  1) yT ?#PT aspire [əsˈpaɪə] (v) стремиться
    93. (  1) yT ?#PT assassination [əˌsæsəˈneɪʃən] (n) убийство, политическое убийство
-   94. (  2) 5T ?#PT assault [əˈsɔːlt] (n) нападение, штурм, атака, насилие, изнасилование, высадка десанта с боем; (adj) штурмовой; (v) штурмовать
+   94. (  2) 5T ?#PT assault [əˈsɔːlt] (n) {C1} {crime and punishment} нападение, {C1} штурм, атака, {C1} {difficulty and failure} насилие, изнасилование, высадка десанта с боем; (adj) штурмовой; (v) {C1} {crime and punishment} штурмовать -1
    95. (  1) 5T ?#PT assemble [əˈsɛmbl] (v) {C1} {business} {buildings} собираться, собирать -1
    96. (  1) 5T *#PT assembly [əˈsɛmbli] (adj) монтажный, сборочный; (n) {C1} сборка, монтаж, {C1} {education} {business} собрание, {C1} {politics} ассамблея, агрегат
 
@@ -118,10 +118,10 @@
    99. (  1) xT ?#PT assurance [əˈʃʊrəns] (n) {C1} уверенность, гарантия
   100. (  1) xT ?#PT asylum [əˈsaɪləm] (n) убежище, приют, психиатрическая больница
   101. (  1) xx ?#PT atrocity [əˈtrɒsəti] (n) {C1} {war and conflict} зверство, злодеяние, жестокость
-  102. (  1) 5T ?#PT attain [əˈteɪn] (v) достигать, добиваться
+  102. (  1) 5T ?#PT attain [əˈteɪn] (v) {C1} достигать, {C1} {success} добиваться -1
   103. (  1) 5T ?#PT attendance [əˈtɛndəns] (n) {C1} {working life} {education} посещаемость, {C1} посещение
   104. (  1) 3T ?#PT attorney [əˈtɜːni] (n) {C1} {jobs} {law and justice} адвокат, прокурор, поверенный, {C1} {business} юрист
-  105. (  2) 5T *#PT attribute [ˈætrɪbjuːt->(n)/əˈtrɪbjuːt->(v)] (n) атрибут, признак; (v) приписывать
+  105. (  2) 5T *#PT attribute [ˈætrɪbjuːt->(n)/əˈtrɪbjuːt->(v)] (n) {C1} атрибут, признак; (v) {C1} приписывать
   106. (  1) 5T ?#PT audit [ˈɔdɪt] (n) {C1} {money} {business} ревизия; (v) {C1} {money} {business} ревизовать
   107. (  1) 5T ? PT authentic [ɔːˈθɛntɪk] (adj) подлинный, аутентичный, достоверный
   108. (  1) 5T ?#PT authorize [ˈɔːθəraɪz] (v) {C1} разрешать, санкционировать, авторизовать, уполномочивать
@@ -162,13 +162,13 @@
   143. (  1) 5T *#PT blessing [blɛsɪŋ] -ing: (v) благословить
   144. (  1) 5T ?#PT boast [bəʊst] (v) похвастать, хвастаться, гордиться
   145. (  1) xT ?#PT bonus [ˈbəʊnəs] (n) премия, бонус
-  146. (  1) 5T ?#PT boom [buːm] (n) бум, стрела, заграждение; (v) быстро расти
+  146. (  1) 5T ?#PT boom [buːm] (n) {C1} {success} {money} бум, стрела, заграждение; (v) {C1} {success} {money} быстро расти -1
   147. (  1) 5T ?#PT bounce [baʊns] (n) отскок, прыжок, упругость; (v) {C1} подпрыгивать, отскакивать
 
   149. (  2) 5T ?#PT bow [baʊ] (n) {C1} {history} {war and conflict} {sports: other sports} лук, {C1} {clothes and fashion} бант, {C1} {music} смычок, {C1} поклон, радуга, дуга; (v) {C1} кланяться -3
   150. (  2) 5T ?#PT breach [briːʧ] (n) {C1} {crime and punishment} {discussion and agreement} нарушение, брешь, разрыв; (v) {C1} {discussion and agreement} {crime and punishment} нарушать -1
-  151. (  1) xT ?#PT breakdown [ˈbreɪkˌdaʊn] (n) пробой, распад, разрушение, {C1} {transport by car or lorry} {engineering} поломка, анализ, {C1} {difficulty and failure} неудача, {C1} {mental health} полный упадок сил -1
-  152. (  1) yT ?#PT breakthrough [ˈbreɪkˌθruː] (n) прорыв, достижение, открытие, крупное достижение
+  151. (  1) xT ?#PT breakdown [ˈbreɪkˌdaʊn] (n) пробой, распад, разрушение, {C1} {transport by car or lorry} {engineering} поломка, анализ, {C1} {difficulty and failure} неудача, {C1} {mental health} полный упадок сил -2
+
   153. (  2) 3T ?#PT breed [briːd] (n) {C1} {animals} порода, поколение, потомство; (v) {C1} {birds} {animals} {farming} размножаться, вскармливать, I:breed-bred-bred -1
 
 
@@ -177,7 +177,7 @@
   158. (  1) 5T *#PT buddy [ˈbʌdi] (n) приятель, дружище, пердун
   159. (  1) xT *#PT buffer [ˈbʌfə] (n) буфер, амортизатор; (adj) буферный
   160. (  1) 5T ?#PT bulk [bʌlk] (n) {C1} масса, объем, основная масса; (v) казаться, ссыпать в кучу, ссыпать
-  161. (  1) 4T ?#PT burden [ˈbɜːdn] (n) {C1} {difficulty and failure} бремя, нагрузка, груз; (v) {C1} {difficulty and failure} обременять, отягощать, нагружать
+
   162. (  1) yT ?#PT bureaucracy [bjʊəˈrɒkrəsi] (n) {C1} {politics} бюрократия, бюрократизм
   163. (  1) yT ?#PT burial [ˈbɛrɪəl] (n) захоронение, похороны
   164. (  1) 3T ?#PT burst [bɜːst] (n) взрыв, вспышка; (v) разрывать, I: burst-burst-burst
@@ -195,7 +195,7 @@
   176. (  1) xT ?#PT catalogue [ˈkæt(ə)lɒɡ] (n) {C1} каталог
   177. (  1) 5T ?#PT cater [ˈkeɪtə] (v) угождать, {C1} поставлять, поставлять провизию
 
-  179. (  1) 5T ?#PT caution [ˈkɔːʃən] (n) {C2} {crime and punishment} осторожность, {C1} {suggestions and advice} {danger} предостережение, {C1} {personal qualities} предупреждение; (v) {C1} {danger} предостерегать -1
+  179. (  1) 5T ?#PT caution [ˈkɔːʃən] (n) {C2} {crime and punishment} осторожность, {C1} {suggestions and advice} {danger} предостережение, {C1} {personal qualities} предупреждение; (v) {C1} {danger} предостерегать -2
   180. (  1) 5T ?#PT cautious [ˈkɔːʃəs] (adj) осторожный
   181. (  1) 3T ?#PT cease [siːs] (v) прекратить
   182. (  1) xT ?#PT cemetery [(UK)ˈsɛmɪtri/(US)ˈsɛməˌtɛri/ˈsɛməˌtɛri] (n) {C1} {religion and festivals} {life stages} кладбище
@@ -253,14 +253,14 @@
   234. (  1) 5T ?#PT complication [ˌkɒmplɪˈkeɪʃən] (n) {C1} сложность, {C1} {health problems} осложнение, запутанность -1
 
   236. (  1) 5T ?#PT composition [ˌkɑmpəˈzɪʃən] (n) состав, композиция, структура, смесь, сочинение
-  237. (  2) 5T *#PT compromise [ˈkɒmprəmaɪz] (n) {C1} {discussion and agreement} компромисс; (adj) компромиссный; (v) {C1} {discussion and agreement} компрометировать, {C1} {danger} подвергать риску -1
+ -1
   238. (  1) 5T *#PT compute [kəmˈpjuːt] (v) {C1} вычислять; (n) вычисление
   239. (  1) 5T ?#PT conceal [kənˈsiːl] (v) скрывать, таить, маскировать
  -1
   241. (  1) 5T ?#PT conceive [kənˈsiːv] (v) забеременеть, зачать, понимать, задумывать, представлять себе
   242. (  1) 5T ?#PT conception [kənˈsɛpʃən] (n) концепция, зачатие, замысел
 
-  244. (  1) 5T ?#PT condemn [kənˈdɛm] (v) осуждать, обречь
+  244. (  1) 5T ?#PT condemn [kənˈdɛm] (v) {C1} {crime and punishment} осуждать, {C1} обречь
   245. (  1) 5T ?#PT confer [kənˈfɜː] (v) {C1} {education} присваивать, даровать, присуждать, {C1} {opinion and argument} обсуждать -1
   246. (  1) 5T ?#PT confession [kənˈfɛʃ(ə)n] (n) {C1} {crime and punishment} признание, {C1} {feelings} исповедь
   247. (  1) 5T *#PT configuration [kənˌfɪgjʊˈreɪʃən] (n) {C1} {C2} {computer} конфигурация, форма, очертание
@@ -271,7 +271,7 @@
   252. (  1) 4T *#PT congratulate [kənˈgrætjʊleɪt] (v) поздравлять
   253. (  1) yT ?#PT congregation [ˌkɒŋɡrɪˈɡeɪʃ(ə)n] (n) собрание, конгрегация, прихожане
   254. (  1) 5T ?#PT congressional [kəŋˈɡrɛʃ(ə)n(ə)l] (n) Конгресс; (adj) относящийся к конгрессу
-  255. (  1) 5T ?#PT conquer [ˈkɒŋkə] (v) {C1} {history} {war and conflict} покорять, {C1} завоевывать, {C1} {success} побеждать
+  255. (  1) 5T ?#PT conquer [ˈkɒŋkə] (v) {C1} {history} {war and conflict} покорять, {C1} завоевывать, {C1} {success} побеждать -1
   256. (  1) 5T ?#PT conscience [ˈkɒnʃəns] (n) {C1} совесть, {C1} {personal qualities} сознание
   257. (  1) 5T ?#PT consciousness [ˈkɒnʃəsnɪs] (n) {C1} сознание, сознательность, {C1} {opinion and argument} понимание -1
   258. (  1) 5T ?#PT consecutive [kənˈsɛkjʊtɪv] (adj) {C1} последовательный, следственный
@@ -279,7 +279,7 @@
  -1
   261. (  1) 5T *#PT conserve [kənˈsɜːv] (n) консервы, варенье; (v) сохранять, сберегать, консервировать, хранить
   262. (  1) 5T ?#PT consistency [kənˈsɪstənsi] (n) {C1} {opinion and argument} последовательность, согласованность, {C1} консистенция, постоянство, логичность -1
-  263. (  1) yT ?#PT consolidate [kənˈsɒlɪdeɪt] (v) укреплять, объединять
+  263. (  1) yT ?#PT consolidate [kənˈsɒlɪdeɪt] (v) {C1} {success} {money} укреплять, объединять -1
   264. (  1) yT ?#PT constituency [kənˈstɪʧuənsi] (n) {C1} {politics} избирательный округ, избиратели
   265. (  1) 5T ?#PT constitute [ˈkɒnstɪtjuːt] (v) {C1} составлять, учреждать
   266. (  1) 5T ?#PT constitution [ˌkɑnstəˈtuʃən] (n) конституция, состав
@@ -306,7 +306,7 @@
   286. (  1) 5T *#PT coordinate [kəʊˈɔːdnɪt->(n,adj)/kəʊˈɔːdɪneɪt->(v)] (n) {C2} {maths and measurement} координата; (v) координировать, {C1} {discussion and agreement} согласовывать -1
 
   288. (  1) xT ?#PT coordinator [kəʊˈɔːdɪneɪtə] (n) {C1} координатор
-  289. (  1) xT *#PT cop [kɒp] (adj) полицейский; (n) полисмен, фараон
+  289. (  1) xT *#PT cop [kɒp] (adj) полицейский; (n) {C1} {law and justice} полисмен, фараон
   290. (  1) 4T *#PT copper [ˈkɒpə] (n) {C1} {physics and chemistry} медь, {C2} {law and justice} полицейский; (adj) медный
   291. (  1) xT ?#PT copyright [ˈkɒpɪraɪt] (n) {C1} {law and justice} авторское право; (v) {C1} {law and justice} обеспечивать авторское право
   292. (  1) 4T *#PT correction [kəˈrɛkʃən] (n) {C1} коррекция, исправление, поправка
@@ -359,7 +359,7 @@
   339. (  1) xT *#PT default [dɪˈfɔːlt] (n) {C1} {preferences and decisions} {computers} умолчание, {C1} {permission and obligation} {crime and punishment} неуплата, отсутствие; (v) {C2} {crime and punishment} прекратить платежи -1
   340. (  1) 5T *#PT defect [dɪˈfɛkt] (n) дефект, недостаток, повреждение; (v) отступиться
   341. (  1) 5T ?#PT defensive [dɪˈfɛnsɪv] (adj) оборонительный, защитный; (n) оборона
-  342. (  1) 5T ?#PT deficiency [dɪˈfɪʃənsi] (n) {C1} дефицит, {C1} {difficulty and failure} недостаток, нехватка; (adv) недостаточно
+  342. (  1) 5T ?#PT deficiency [dɪˈfɪʃənsi] (n) {C1} дефицит, {C1} {difficulty and failure} недостаток, нехватка; (adv) недостаточно -1
   343. (  1) 5T ?#PT deficit [ˈdɛfɪsɪt] (n) дефицит
   344. (  1) zT ?#PT defy [dɪˈfaɪ] (v) {C1} {permission and obligation} бросать вызов, {C1} игнорировать -1
 
@@ -380,7 +380,7 @@
   360. (  1) 5T ?#PT descend [dɪˈsɛnd] (v) {C1} спускаться, сходить, опускаться
   361. (  1) 5T ?#PT descent [dɪˈsɛnt] (n) спуск, {C1} {history} {family and relationships} происхождение, {C1} {transport by air} нисхождение
   362. (  1) 5T ?#PT designate [ˈdɛzɪgneɪt] (v) обозначать, определять, указывать, называть, назначать на должность
-  363. (  1) 5T *#PT desirable [dɪˈzaɪəbl] (adj) желанный
+  363. (  1) 5T *#PT desirable [dɪˈzaɪəbl] (adj) {C1} желанный
   364. (  1) xT *#PT desktop [ˈdɛsktɒp] (n) {C1} {computers} рабочий стол
   365. (  1) 5T ?#PT destructive [dɪsˈtrʌktɪv] (adj) разрушительный, разрушающий, пагубный
   366. (  1) xx ?#PT detain [dɪˈteɪn] (v) {C1} {law and justice} {crime and punishment} задерживать, арестовывать, {C1} замедлять
@@ -403,8 +403,8 @@
   383. (  1) zT ?#PT diplomat [ˈdɪpləmæt] (n) {C1} {jobs} {politics} дипломат
   384. (  1) 5T ?#PT diplomatic [ˌdɪpləˈmætɪk] (adj) дипломатический
 
-  386. (  1) 5T ?#PT disastrous [dɪˈzɑːstrəs] (adj) гибельный, бедственный, катастрофический
-  387. (  1) 5T *#PT discard [ˈdɪskɑːd->(n)/dɪsˈkɑːd->(v)] (v) отбрасывать, выбрасывать; (n) сброс
+
+  387. (  1) 5T *#PT discard [ˈdɪskɑːd->(n)/dɪsˈkɑːd->(v)] (v) {C1} отбрасывать, выбрасывать; (n) сброс
   388. (  1) 5T ?#PT discharge [dɪsˈʧɑːʤ ] (n) разряд, разгрузка, освобождение, выписка (медицина); (v) {C1} выполнять, разрядить, {C1} {healthcare} {C2} {law and justice} выпускать -1
   389. (  1) xT ?#PT disclose [dɪsˈkləʊz] раскрывать, разоблачать
   390. (  1) xT ?#PT disclosure [dɪsˈkləʊʒə] (n) раскрытие, разоблачение
@@ -447,7 +447,7 @@
   427. (  2) xT *#PT echo [ˈekəʊ] (v) {C1} отражаться, {C1} {opinion and argument} поддакивать; (n) {C1} эхо, {C2} {opinion and argument} подражание
   428. (  1) 5T ?#PT ecological [ˌɛkəˈlɒʤ ɪkəl] (adj) {C1} {the environment} экологический
   429. (  1) yT ?#PT educator [ˈɛdju(ː)keɪtə] (n) педагог, воспитатель
-  430. (  1) 5T ?#PT effectiveness [ɪˈfɛktɪvnəs] (n) {C1} {success} {change, cause and effect} эффективность, действенность -1
+ -1
   431. (  1) 5T ?#PT efficiency [ɪˈfɪʃənsi] (n) эффективность
   432. (  1) yT ?#PT ego [ˈɛɡəʊ] (n) эго, субъект мысли, собственное 'я'
   433. (  1) 5T ?#PT elaborate [ɪˈlæbərɪt->(adj)/ɪˈlæbəreɪt->(v)] (adj) {C1} сложный, продуманный; (v) разрабатывать, вырабатывать
@@ -480,19 +480,19 @@
   460. (  1) 5T ?#PT enrich [ɪnˈrɪʧ] (v) обогащать, улучшать, удобрять
   461. (  1) zT ?    enrol
 
-  463. (  1) 5T ?#PT enterprise [ˈɛntəpraɪz] (n) {C1} {business} предприятие, предпринимательство, предприимчивость
+  463. (  1) 5T ?#PT enterprise [ˈɛntəpraɪz] (n) {C1} {business} {success} предприятие, предпринимательство, предприимчивость -1
   464. (  1) yT ? PT enthusiast [] 
   465. (  1) 3T ?#PT entitle [ɪnˈtaɪtl] (v) давать право, называть, озаглавливать
   466. (  1) 5T *#PT entity [ˈɛntɪti] (n) объект, сущность
   467. (  1) 5T ?#PT epidemic [ˌɛpɪˈdɛmɪk] (n) {C1} {health problems} эпидемия, {C1} вспышка болезни; (adj) эпидемический -1
-  468. (  1) 5T *#PT equality [i(ː)ˈkwɒlɪti] (n) равенство, равноправие
+  468. (  1) 5T *#PT equality [i(ː)ˈkwɒlɪti] (n) {C1} {social issues} равенство, равноправие
   469. (  1) xT *#PT equation [ɪˈkweɪʃən] (n) уравнение
   470. (  1) 5T *#PT erect [ɪˈrɛkt] (v) {C1} возвести, {C1] {buildings} соорудить; (adj) прямо; (adj) {C2} {appearance} прямой, торчащий, стоячий -1
   471. (  1) 5T ?#PT escalate [ˈɛskəleɪt] (v) обостряться, расширять
   472. (  1) xT ?#PT essence [ˈɛsəns] (n) сущность, существо
   473. (  1) xT ?#PT establishment [ɪsˈtæblɪʃmənt] (n) {C1} установление, учреждение, заведение, основание
   474. (  1) 5T ?#PT eternal [i(ː)ˈtɜːnl] (adj) {C1} вечный
-  475. (  1) xx ?#PT evacuate [ɪˈvækjueɪt] (v) эвакуировать
+  475. (  1) xx ?#PT evacuate [ɪˈvækjueɪt] (v) {C1} {danger} {war and conflict} эвакуировать -1
   476. (  1) 5T ?#PT evoke [ɪˈvəʊk] вызывать, вызывать чувства
   477. (  1) 5T *#PT evolutionary [ˌiːvəˈluːʃnəri] (adj) {C1} {biology} эволюционный
   478. (  1) 3T ?#PT exaggerate [ɪgˈzæʤ əreɪt] (v) {C1} преувеличивать, утрировать, муссировать, излишне подчеркивать
@@ -521,11 +521,11 @@
   501. (  1) 5T ?#PT faculty [ˈfækəlti] (n) {C1} {education} факультет, способность
   502. (  1) 5T ?#PT fade [feɪd] (v) {C1} увядать, выцветать, слинять, стираться
 
-  504. (  1) 5T ?#PT fatal [ˈfeɪtl] (adj) роковой, {C1} {health problems} смертельный, {C1} {diffuculty and failure} фатальный -1
+ -1
   505. (  1) 4T *#PT fate [feɪt] (n) {C1} судьба, {C1} {religion and festivals} рок, участь, удел; (v) предопределять
-  506. (  1) yT ?#PT favourable [ˈfeɪvərəbl] (adj) {C1} {opinion and argument} {success} {weather} благоприятный -1
+  506. (  1) yT ?#PT favourable [ˈfeɪvərəbl] (adj) {C1} {opinion and argument} {success} {weather} благоприятный -2
   507. (  1) 5T ?#PT feat [fiːt] (n) {C1} подвиг; (adj) ловкий
-  508. (  2) 5T ?#PT feminist [ˈfɛmɪnɪst] (n) феминистка, феминист; (adj) феминистский
+  508. (  2) 5T ?#PT feminist [ˈfɛmɪnɪst] (n) феминистка, феминист; (adj) {C1} феминистский
   509. (  1) xT *#PT fibre [faɪbə] (n) {C1} {cooking and eating} {physics and chemistry} {body} волокно, нить, фибра, = fiber -2
   510. (  1) 5T ?#PT fierce [fɪəs] (adj) {C1} {feelings} жестокий, {C1} свирепый, лютый
   511. (  1) xx ?    film-maker
@@ -536,15 +536,15 @@
 
   517. (  1) 5T ?#PT flaw [flɔː] (n) {C1} недостаток, изъян, ошибка, брак; (v) портить, повреждать
   518. (  1) yT ?#PT flawed [flɔːd] -ed: (v) портить, повреждать
-  519. (  1) yT ?#PT flee [fliː] (v) {C1} {danger} бежать, спасаться бегством, избегать, I: flee-fled-fled
+
   520. (  1) xT ?#PT fleet [fliːt] (n) флот
   521. (  1) 3T ?#PT flesh [flɛʃ] (n) {C1} {food} {body} мясо, {C1} тело, плоть -2
   522. (  1) 5T *#PT flexibility [ˌflɛksɪˈbɪlɪti] (n) {C1} гибкость, уступчивость
-  523. (  1) 5T ?#PT flourish [ˈflʌrɪʃ] (v) {C1} {feelings} {health and fitness} процветать, расцветать, {C1} {success} преуспевать; (n) туш, загогулина, процветание -1
+  523. (  1) 5T ?#PT flourish [ˈflʌrɪʃ] (v) {C1} {feelings} {health and fitness} процветать, расцветать, {C1} {success} преуспевать; (n) туш, загогулина, процветание -2
   524. (  1) 4T ?#PT fluid [ˈflu(ː)ɪd] (n) {C1} жидкость; (adj) жидкий
 
   526. (  1) 4T ?#PT foreigner [ˈfɒrɪnə] (n) иностранец
-  527. (  1) 5T ?#PT forge [fɔrʤ ] (adj) кузнечный; (n) кузница; (v) выковать
+  527. (  1) 5T ?#PT forge [fɔrʤ ] (adj) кузнечный; (n) кузница; (v) {C1} {succes} {crime and punishment} выковать -1
   528. (  1) 3T *#PT formula [ˈfɔːmjʊlə] (n) формула, рецепт
   529. (  1) 5T ?#PT formulate [ˈfɔːmjʊleɪt] (v) сформулировать, формулировать
   530. (  1) 4T *#PT forth [fɔrθ] (adv) {C1} вперед, дальше; (prep) из
@@ -597,13 +597,13 @@
   577. (  1) 5T ?#PT harsh [hɑːʃ] (adj) резкий, суровый, жесткий, грубый, строгий
   578. (  2) 5T *#PT harvest [ˈhɑːvɪst] (n) урожай; (v) собирать урожай
   579. (  1) 3T ?#PT hatred [ˈheɪtrɪd] (n) ненависть
-  580. (  1) 5T ?#PT haunt [hɔːnt] (v) преследовать, часто посещать
-  581. (  1) 5T ?#PT hazard [ˈhæzərd] (n) {C1} {danger} опасность, риск; (v) рисковать
+  580. (  1) 5T ?#PT haunt [hɔːnt] (v) {C1} {difficulty and failure} преследовать, {C1} часто посещать -1
+
   582. (  1) 5T ?#PT heighten [ˈhaɪtn] (v) повышать, усиливать, преувеличивать
   583. (  1) 5T ?#PT heritage [ˈhɛrɪtɪʤ ] (n) наследие, наследство
   584. (  1) 5T *#PT hierarchy [ˈhaɪərɑːki] (n) {C1} иерархия
   585. (  1) xx ?    high-profile
-
+{C1} {difficulty and failure} 
   587. (  1) xT ?#PT homeland [ˈhəʊmlænd] (n) родина, отечество
   588. (  1) 3T *#PT hook [hʊk] (n) {B2} крюк, крючок, ловушка, хук; (v) {C1} завербовать, подцепить
   589. (  1) 4T ?#PT hopeful [ˈhəʊpfʊl] (adj) {C1} надеющийся, {C1} {success} многообещающий, подающий надежды
@@ -640,7 +640,7 @@
  -1
   621. (  1) zT ?#PT indulge [ɪnˈdʌlʤ ] (v) предаваться, баловать, потворствовать
   622. (  1) yT *#PT inequality [ˌɪnɪˈkwɑləti/ˌɪnəˈkwɑləti] (n) неравенство
-  623. (  1) yT ?#PT infamous [ˈɪnfəməs] (adj) позорный, бесчестный, постыдный
+  623. (  1) yT ?#PT infamous [ˈɪnfəməs] (adj) {C1} {personal qualities} позорный, бесчестный, постыдный
   624. (  1) xT ?#PT infant [ˈɪnfənt] (n) {C1} {life stages} младенец, {C1} ребенок
   625. (  1) 3T ?#PT infect [ɪnˈfɛkt] (v) {C1} {health problems} {computers} заражать -1
   626. (  1) 5T ?#PT inflict [ɪnˈflɪkt] (v) причинять, налагать, навязывать
@@ -758,7 +758,7 @@
   738. (  1) 5T *#PT mandatory [ˈmændətəri] (adj) обязательный
   739. (  1) yT ?#PT manifest [ˈmænɪfɛst] (n) манифест, декларация; (v) проявлять, обнаруживать; (adj) явный
   740. (  1) 5T *#PT manipulate [məˈnɪpjʊleɪt] (v) {C1} манипулировать, воздействовать
-  741. (  1) 4T *#PT manipulation [məˌnɪpjʊˈleɪʃən] (n) манипуляция, манипулирование, обращение, операции
+  741. (  1) 4T *#PT manipulation [məˌnɪpjʊˈleɪʃən] (n) {C1} манипуляция, манипулирование, обращение, операции
   742. (  1) yT ?#PT manuscript [ˈmænjʊskrɪpt] (n) рукопись; (adj) рукописный
   743. (  2) 3T ?#PT march [mɑːʧ] (n) {A1} {time} март, {C1} {social issues} марш; (v) {C1} {social issues} маршировать
   744. (  1) yT ?#PT marginal [ˈmɑːʤ ɪnəl] (adj) {C1} {C2} {politics} {farming} маргинальный, предельный, незначительный
@@ -817,7 +817,7 @@
   796. (  1) xT ?#PT namely [ˈneɪmli] (adv) а именно, именно, то есть
   797. (  1) xT ?#PT nationwide [ˈneɪʃənwaɪd] (adj) {C1} общенациональный
   798. (  1) 5T ?#PT naval [ˈneɪvəl] (adj) {C1} {war and conflict} морской, флотский, военно-морской
-  799. (  2) 5T ?#PT neglect [nɪˈglɛkt] (v) {C1} {difficulty and failure} {buildings} пренебрегать, {C1} упускать; (n) {C1} {buildings} пренебрежение -1
+ -1
   800. (  1) yT *#PT neighbouring [ˈneɪbərɪŋ] близлежащий
  -1
   802. (  1) 3T *#PT net [nɛt] (n) {B1} сети, сеть, {A2} {sports: ball and racket sports} сетка
@@ -844,7 +844,7 @@
   823. (  1) 5T ?#PT obsession [əbˈsɛʃ(ə)n] (n) одержимость, навязчивая идея
   824. (  1) 5T ?#PT occasional [əˈkeɪʒənl] (adj) {C1} {time} случайный, редкий
   825. (  1) 5T *#PT occurrence [əˈkʌrəns] (n) вхождение, случай, происшествие
-  826. (  1) 5T ?#PT odds [ɑdz] {C1} шансы, {C1} {difficulty and failure} перевес, разница
+  826. (  1) 5T ?#PT odds [ɑdz] {C1} шансы, {C1} {difficulty and failure} перевес, разница -1
   827. (  1) 4T *#PT offering [ˈɒfəɪŋ] -ing: (v) {A2} {business] предлагать
   828. (  1) 5T *#PT offspring [ˈɒfsprɪŋ] (n) {C1} потомок, отпрыск, плод, результат
   829. (  1) 4T *#PT operational [ˌɒpəˈreɪʃənl] (adj) оперативный, операционный
@@ -888,7 +888,7 @@
   867. (  1) 5T ?#PT persist [pəˈsɪst] (v) {C1} сохраняться, упорствовать, сопротивляться
   868. (  1) 5T ?#PT persisptent [pəˈsɪstənt] (adj) {C1} постоянный, настойчивый, стойкий, устойчивый
   869. (  1) 5T ?#PT personnel [ˌpɜːsəˈnɛl] (n) персонал, кадры, личный состав
-  870. (  1) 5T ?#PT petition [pɪˈtɪʃ(ə)n] (n) ходатайство, петиция, прошение; (v) ходатайствовать, просить
+  870. (  1) 5T ?#PT petition [pɪˈtɪʃ(ə)n] (n) {C1} ходатайство, петиция, прошение; (v) ходатайствовать, просить
   871. (  1) 4T *#PT philosopher [fɪˈlɒsəfə] (n) философ
   872. (  1) 4T *#PT philosophical [ˌfɪləˈsɒfɪkəl] (adj) философский
 
@@ -915,7 +915,7 @@
   894. (  1) 5T *#PT precision [prɪˈsɪʒən] (n) точность, четкость; (adj) точный
 
   896. (  1) 5T ?#PT predecessor [ˈpriːdɪsɛsə] (n) предшественник, предок
-  897. (  1) 5T ?#PT predominantly [prɪˈdɑmənəntli] -ly: (adj)->(adv) преобладающий, доминирующий
+  897. (  1) 5T ?#PT predominantly [prɪˈdɑmənəntli] -ly: (adj) преобладающий, доминирующий; (adv) {C1} преимущественно
   898. (  1) xT ?#PT pregnancy [ˈprɛɡnənsi] (n) {C1} {life stages} беременность
   899. (  1) yT ?#PT prejudice [ˈprɛʤ ədɪs] (n) {C1} {preferences and decisions} {opinion and argument} {social issues} предубеждение, ущерб, предрассудок; (v) {C1} {opinion and argument} предубеждать, причинять вред, располагать -2
   900. (  1) 5T ?#PT preliminary [prɪˈlɪmɪnəri] (adj) {C1} предварительный
@@ -940,7 +940,7 @@
   919. (  1) yT *#PT privatization [ˌpraɪvɪtaɪˈzeɪʃ(ə)n] приватизация
   920. (  1) 5T *#PT privilege [ˈprɪvɪlɪʤ ] (n) {C1} привилегия, преимущество; (v) освобождать, давать привилегию
   921. (  2) 5T ?#PT prroarobe [prəʊb] (n) {C1} {C2} {space} {healthcare} {engineering} зонд, щуп, проба; (v) {C1} {C2} {healthcare} исследовать, зондировать
-  922. (  1) yT ?#PT problematic [ˌprɒblɪˈmætɪk] (adj) проблематичный, сомнительный, гадательный
+
   923. (  1) 5T ?#PT proceeding [prəˈsiːdɪŋ] -ing: (v) {B2} продолжать; (n) {C1} {law and justice} судебное разбирательство, {C1} поступок
   924. (  1) 5T *#PT proceeds [prəˈsiːdz] -es: (v) {B2} продолжать
   925. (  1) 4T *#PT processing [(UK)prəʊsesɪŋ/(US)ˈprɑːsesɪŋ] -ing: (v) {B2} {computers} обрабатывать
@@ -997,7 +997,7 @@
   976. (  1) yT ?#PT referendum [ˌrɛfəˈrɛndəm] (n) референдум
   977. (  1) 5T ?#PT reflection [rɪˈflɛkʃən] (n) {C1} отражение, рефлексия, размышление, отблеск
   978. (  2) 3T *#PT reform [ˌriːˈfɔːm] (n) {C1} {politics} реформа, преобразование; (v) {C1} {politics} реформировать
-  979. (  1) 4T ?#PT refuge [ˈrɛfjuːʤ ] (n) {C1} {danger} {social issues} {houses and homes} убежище, прибежище; (v) давать убежище -1
+  979. (  1) 4T ?#PT refuge [ˈrɛfjuːʤ ] (n) {C1} {danger} {social issues} {houses and homes} убежище, прибежище; (v) давать убежище -2
   980. (  1) 3T ?#PT refusal [rɪˈfjuːzəl] (n) отказ
   981. (  1) yT ?#PT regain [rɪˈgeɪn] (n) восстановление; (v) {C1} восстанавливать
   982. (  1) 5T *#PT regardless [rɪˈgɑːdlɪs] (adv) {C1} несмотря на; (adj) не заслуживающий внимания
@@ -1203,8 +1203,8 @@
  1182. (  1) 5T ?#PT synthesis [ˈsɪnθɪsɪs] (n) {C1} {biology} синтез, {C1} {physics and chemistry} соединение
  1183. (  1) 5T *#PT systematic [ˌsɪstɪˈmætɪk] (adj) систематический, планомерный
  1184. (  1) 3T ?#PT tackle [ˈtækl] (n) {C1} {sports: ball and racket sports} снасти, принадлежности, оборудование; (v) {C1} схватить, {B2} энергично браться, {C1} {sports: ball and racket sports} хватать
- 1185. (  1) yT ?#PT tactic [ˈtæktɪk] (n) тактика, действия; (adj) тактический
- 1186. (  1) yT ?#PT tactical [ˈtæktɪkəl] (adj) тактический, боевой
+ 1185. (  1) yT ?#PT tactic [ˈtæktɪk] (n) {C1} тактика, действия; (adj) тактический
+ 1186. (  1) yT ?#PT tactical [ˈtæktɪkəl] (adj) {C1} тактический, боевой
  1187. (  1) yT ?    taxpayer
  1188. (  1) 5T ?#PT tempt [tɛmpt] (v) {C1} {discussion and agreement} искушать, {C1} соблазнять, испытывать -1
 
@@ -1258,7 +1258,7 @@
  1237. (  1) 5T ?#PT tremendous [trɪˈmɛndəs] (adj) {C1} огромный, потрясающий
  1238. (  1) 5T ?#PT tribal [ˈtraɪbəl] (adj) племенной, родовой
  1239. (  1) xT ?#PT tribunal [traɪˈbjuːnl] трибунал, суд
- 1240. (  1) 5T ?#PT tribute [ˈtrɪbjuːt] (n) дань
+ 1240. (  1) 5T ?#PT tribute [ˈtrɪbjuːt] (n) {C1} дань
  1241. (  1) 5T ?#PT trigger [ˈtrɪgə] (n) {C1} {change, cause and effect} триггер, {C1} спусковой крючок; (v) {B2} {change, cause and effect} спускать курок -1
  1242. (  1) xT ?#PT trio [ˈtriːəʊ] (n) трио, тройка, трое
  1243. (  1) 5T ?#PT triumph [ˈtraɪəmf] (n) триумф; (v) восторжествовать
@@ -1470,7 +1470,7 @@
               yT ?#  jumbo [ˈʤ ʌmbəʊ] (adj) гигантский, огромный; (n) {C1} {transport by air}  = a large plane that can carry several hundred passengers, неуклюжее животное, I:jumbo-jumboes
               xx ?#  wrestle [ˈrɛsl] (v) {C1} {sports: other sports} бороться; (n) борьба, упорная борьба
               5T ?#  wrestling [ˈrɛslɪŋ] -ing: (v) {C1} {sports: other sports} бороться; (n) {C1} {sports: other sports} борьба
-              zT ?#  underdog [ˈʌndədɒɡ] (n) {C1} {difficulty and failure} {sports: other sports} аутсайдер
+              zT ?#  underdog [ˈʌndədɒɡ] (n) {C1} {difficulty and failure} {sports: other sports} аутсайдер -1
               3T ?#  warmth [wɔːmθ] (n) {C1} {weather} тепло, теплота, сердечность
               5T ?#  parasite [ˈpærəsaɪt] (n) {C1} {health problems} {bioligy} паразит, тунеядец; (v) паразитировать -1
               5T ?#  gulf [gʌlf] (n) {C1} {geography} пропасть, бездна, морской залив
@@ -1510,7 +1510,7 @@
               5T ?#  ingenious [ɪnˈʤ iːniəs] (adj) {C1} {personal qualities} остроумный, изобретательный, оригинальный, искусный
               3T *#  convert [ˈkɒnvɜːt->(n)/kənˈvɜːt->(v)] (v) {B2} {buildings} превращать, {B2} {religion and festivals} {C1} {opinion and argument} конвертировать; (n) {C1} {opinion and argument} {religion and festival} новообращенный; (adj) новообращенный -1
               xx ?#  deduce [dɪˈdjuːs] (v) {C1} {opinion and argument} {maths and measurement} выводить, делать вывод, устанавливать происхождение -1
-              xx ?#  favourably [ˈfeɪvərəbli] -ly: (adj) {C1} {opinion and argument} {success} {weather} благоприятный; (adv) {C1} {opinion and argument} {success} благоприятно -1
+              xx ?#  favourably [ˈfeɪvərəbli] -ly: (adj) {C1} {opinion and argument} {success} {weather} благоприятный; (adv) {C1} {opinion and argument} {success} благоприятно -2
  -1
  -1
               xx ?#  duckling [ˈdʌklɪŋ] (n) {C1} {food} {birds} утенок
@@ -1528,7 +1528,7 @@
               3T *#  disgust [dɪsˈgʌst] (n) {C1} {preferences and decisions} {feelings} отвращение, брезгливость, омерзение; (v) {C2} {feelings} внушать отвращение -1
               xT ?#  para [ˈpærə] (n) (informal) (paratrooper) = a member of the paratroops, десантник; (prefix) para- = outside/beyond, = similar to but not official or not fully qualified, {C1} {sports: other sports} {disability} = related to the Paralympic form of a sport -1
               zT ?#  gymnasium [ʤ ɪmˈneɪziəm] (n) {C1} {education} {health and fitness} гимнастический зал -1
-              5T ?#  blossom [ˈblɒsəm] (v) {C1} {plants and trees} {success} {health and fitness} цвести, расцвести, распускаться; (n) {C1} {plants and trees} цветок, цвет, цветение, расцвет -1
+              5T ?#  blossom [ˈblɒsəm] (v) {C1} {plants and trees} {success} {health and fitness} цвести, расцвести, распускаться; (n) {C1} {plants and trees} цветок, цвет, цветение, расцвет -2
               1T *#  form [fɔːm] (v) {A1} {language} {B2} {colours and shapes} образовывать, создавать, {C1} {health and fitness} {education} формировать -1
               3T *#  resistance [rɪˈzɪstəns] (n) {C1} {preferences and decisions} сопротивление, {C1} {health fitness} {C2} {physics and chemistry} {war and conflict} противодействие, {C1} резистор, катушка сопротивления -1
               zT ?#  thriving [θraɪvɪŋ] -ing: (v) {C1} {success} {health and fitness} процветать, преуспевать; (adj) {C1} {success} {health and fitness} процветающий, преуспевающий -1
@@ -1577,7 +1577,6 @@
               xT ?#  motel [məʊˈtel] (n) {C1} {buildings} {holidays} мотель -1
               5T *#  nickel [ˈnɪkl] (n) {C1} {money} монета в пять центов, {C2} {physics and chemistry} никель; (adj) никелевый
               xT ?#  florist [ˈflɒrɪst] (n) {C1} {jobs} {shopping} флорист, цветочник, торговец цветами -1
-              5T ?#  precaution [prɪˈkɔːʃ(ə)n] (n) {C1} {danger} предосторожность, предусмотрительность
               yT ?#  diaper [ˈdaɪpə(r)] (n) {C1} {life stages} подгузник, пеленка; (v) пеленать
               zT ?#  breezy [ˈbriːzi] (n) {C1} {weather} свежий, прохладный
 
@@ -1627,13 +1626,24 @@
               yT ?#  voucher [ˈvaʊtʃə(r)] (n) {C1} {money} {shopping} ваучер, расписка, поручительство -1
               3T ?#  promotion [prəˈməʊʃən] (n) {B2} {jobs} {success} {C1} {business} {shopping} продвижение, содействие, поощрение -1
               3T *#  till [tɪl] (adv) до, пока; (conj) {B1} до тех пор пока, пока; (v) пахать; (n) {C1} {shopping} {money} касса -1
-              4T *#  ineffective [ˌɪnɪˈfɛktɪv] un-: (adj) {B1} {success} {change, cause and effect} эффективный; (adj) {C1} {change, cause and effect} {difficulty and failure} неэффективный -1
+              4T *#  ineffective [ˌɪnɪˈfɛktɪv] un-: (adj) {B1} {success} {change, cause and effect} эффективный; (adj) {C1} {change, cause and effect} {difficulty and failure} неэффективный -2
               3T ?#  appreciate [əˈpriːʃɪeɪt] (v) {B1} {C1} {change, cause and effect} {money} ценить, понимать -1
               zT ?#  downturn [ˈdaʊntɜːn] (n) {C1} {change, cause and effect} {money} спад, уменьшение -1
               4T *#  recovery [rɪˈkʌvəri] (n) {B2} {health problems} {C1} {change, cause and effect} {money} восстановление, выздоровление, извлечение -1
               4T ?#  rocket [ˈrɑkət] (n) {B2} {space} {transport by air} ракета, {C1} {war and conflict} реактивный снаряд; (v) {C1} {change, cause and effect} взлетать -1
               yT ?#  forensic [fəˈrɛnsɪk] (adj) {C1} {crime and punishment} судебный
               5T ?#  menace [ˈmɛnəs] (n) {C1} {danger} угроза, {C2} {feelings} опасность, {C1} {personal qualities} зануда, надоеда; (v) {C2} {danger} угрожать -1
+              3T ?#  gamble [ˈgæmbl] (n) {C1} {danger} {money} азартная игра; (v) {C1} {money} {sports: other sports} {danger} рисковать, играть в азартные игры -1
+              yT ?#  evacuation [ɪˌvækjuˈeɪʃn] (n) {C1} {danger} {war and conflict} эвакуация -1
+              yT ?#  instability [ˌɪnstəˈbɪləti] (n) {C1} {difficulty and failure} {money} {C2} {mental health} неустойчивость, непостоянство -1
+              5T ?#  advancement [ədˈvɑːnsmənt] (n) {C1} {success} {scientific research} продвижение, прогресс, успех -1
+              4T *#  fbi [ɛf-biː-aɪ] (abbr) {C1} {law and justice} Federal Bureau of Investigation
+              4T ?#  bureau [bjʊəˈrəʊ] (n) {C1} {politics} бюро, контора, отдел
+              4T ?#  hijacker [ˈhaɪˌʤ ækə] (n) {C1} {war and conflict} {crime and punishment} угонщик, налетчик, бандит
+              zT ?#  hijack [ˈhaɪʤ æk] (n) налет, ограбление, угон самолета; (v) {C1} {war and conflict} {crime and punishment} нападать с целью грабежа, совершать налет
+              xx ?#  hijacking [ˈhaɪʤ ækɪŋ] -ing: (v) {C1} {war and conflict} {crime and punishment} нападать с целью грабежа, совершать налет; (n) {C1} {war and conflict} {crime and punishment} угон, налет, нападение
+              zT ?#  heterosexual [ˌhetərəˈsekʃuəl] (adj) {C1} {people in society} гетеросексуальный; (adj) {C2} {people in society} гетеросексуал
+              yT ?#  orthodox [ˈɔːθədɒks] (adj) {C1} {religion and festivals} православный, ортодоксальный
 
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
