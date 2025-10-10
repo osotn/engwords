@@ -112,7 +112,7 @@
    93. (  1) yT ?#PT assassination [əˌsæsəˈneɪʃən] (n) убийство, политическое убийство
    94. (  2) 5T ?#PT assault [əˈsɔːlt] (n) {C1} {crime and punishment} нападение, {C1} штурм, атака, {C1} {difficulty and failure} насилие, изнасилование, высадка десанта с боем; (adj) штурмовой; (v) {C1} {crime and punishment} штурмовать -1
    95. (  1) 5T ?#PT assemble [əˈsɛmbl] (v) {C1} {business} {buildings} собираться, собирать -1
-   96. (  1) 5T *#PT assembly [əˈsɛmbli] (adj) монтажный, сборочный; (n) {C1} сборка, монтаж, {C1} {education} {business} собрание, {C1} {politics} ассамблея, агрегат
+   96. (  1) 5T *#PT assembly [əˈsɛmbli] (adj) монтажный, сборочный; (n) {C1} сборка, монтаж, {C1} {education} {business} собрание, {C1} {politics} ассамблея, агрегат -1
 
    98. (  1) 4T *#PT assertion [əˈsɜːʃ(ə)n] (n) {C1} {opinion and argument} утверждение, {C1} заявление -1
    99. (  1) xT ?#PT assurance [əˈʃʊrəns] (n) {C1} уверенность, гарантия
@@ -376,7 +376,7 @@
   356. (  1) xT ?#PT deployment [dɪˈplɔɪmənt] (n) {C1} развертывание, размещение
   357. (  1) 3T *#PT deposit [dɪˈpɒzɪt] (n) {B2} {houses and homes} {C1} {money} депозит, залог, месторождение, вклад, взнос; (v) {C1} {money} {houses and homes} депонировать, осаждаться -1
   358. (  1) 5T ?#PT deprive [dɪˈpraɪv] (v) {C1} лишать, отнимать
-  359. (  1) xT ?#PT deputy [ˈdɛpjʊti] (n) заместитель, депутат, представитель
+  359. (  1) xT ?#PT deputy [ˈdɛpjʊti] (n) {C1} {education} {business} заместитель, {C1} {politics} депутат, представитель -1
   360. (  1) 5T ?#PT descend [dɪˈsɛnd] (v) {C1} спускаться, сходить, опускаться
   361. (  1) 5T ?#PT descent [dɪˈsɛnt] (n) спуск, {C1} {history} {family and relationships} происхождение, {C1} {transport by air} нисхождение
   362. (  1) 5T ?#PT designate [ˈdɛzɪgneɪt] (v) обозначать, определять, указывать, называть, назначать на должность
@@ -385,7 +385,7 @@
   365. (  1) 5T ?#PT destructive [dɪsˈtrʌktɪv] (adj) разрушительный, разрушающий, пагубный
   366. (  1) xx ?#PT detain [dɪˈteɪn] (v) {C1} {law and justice} {crime and punishment} задерживать, арестовывать, {C1} замедлять
   367. (  1) xT *#PT detection [dɪˈtɛkʃən] (n) обнаружение, выявление, детектирование, расследование
-  368. (  1) yT ?#PT detention [dɪˈtɛnʃ(ə)n] (n) {C1} {crime and punishment} {education} задержание, арест, оставление после уроков
+  368. (  1) yT ?#PT detention [dɪˈtɛnʃ(ə)n] (n) {C1} {crime and punishment} {education} задержание, арест, оставление после уроков -1
 
   370. (  1) 5T ?#PT devastate [ˈdɛvəsteɪt] (v) {C1} {feelings} опустошать, разорять
   371. (  1) 4T *#PT devil [ˈdɛvl] (n) {C1} дьявол
@@ -446,7 +446,7 @@
   426. (  2) 3T *#PT ease [iːz] (n) простота, легкость
   427. (  2) xT *#PT echo [ˈekəʊ] (v) {C1} отражаться, {C1} {opinion and argument} поддакивать; (n) {C1} эхо, {C2} {opinion and argument} подражание
   428. (  1) 5T ?#PT ecological [ˌɛkəˈlɒʤ ɪkəl] (adj) {C1} {the environment} экологический
-  429. (  1) yT ?#PT educator [ˈɛdju(ː)keɪtə] (n) педагог, воспитатель
+
  -1
   431. (  1) 5T ?#PT efficiency [ɪˈfɪʃənsi] (n) эффективность
   432. (  1) yT ?#PT ego [ˈɛɡəʊ] (n) эго, субъект мысли, собственное 'я'
@@ -1086,7 +1086,7 @@
  1065. (  1) 4T ?#PT settlement [ˈsɛtlmənt] (n) {C1} {discussion and agreement} {C2} {family and relationship} {law and justice} урегулирование, {C1} {social issues} поселение, поселок, заселение -1
  1066. (  1) 4T ?#PT sexuality [ˌsɛkʃʊˈæləti] (n) {C1} {people in society} сексуальность
  1067. (  1) yT ?#PT shareholder [ˈʃeəˌhəʊldə] (n) {C1} {business} акционер, пайщик
- 1068. (  1) 5T ?#PT shatter [ˈʃætə] (v) поколебать, разрушать, расшатывать; (n) обломок
+ 1068. (  1) 5T ?#PT shatter [ˈʃætə] (v) поколебать, {C1} {physics and chemistry} разрушать, {C1} расшатывать; (n) обломок
  1069. (  1) 5T ?#PT shed [ʃɛd] (n) {C1} {buildings} {gardens} {farming} сарай; (v) {C1} пролить, I:shed-shed-shed -2
  1070. (  1) 5T ?#PT sheer [ʃɪə] (adv) отвесно, полностью; (adj) явный
  1071. (  1) 4T ?#PT shipping [ʃɪpɪŋ] -ing: (v) {B2} {business} грузить товары; (n) {C1} {transport by water} {shopping} {business} перевозки, погрузка -1
@@ -1260,7 +1260,7 @@
  1239. (  1) xT ?#PT tribunal [traɪˈbjuːnl] трибунал, суд
  1240. (  1) 5T ?#PT tribute [ˈtrɪbjuːt] (n) {C1} дань
  1241. (  1) 5T ?#PT trigger [ˈtrɪgə] (n) {C1} {change, cause and effect} триггер, {C1} спусковой крючок; (v) {B2} {change, cause and effect} спускать курок -1
- 1242. (  1) xT ?#PT trio [ˈtriːəʊ] (n) трио, тройка, трое
+ 1242. (  1) xT ?#PT trio [ˈtriːəʊ] (n) {C1} {C2} {music} трио, тройка, трое
 
  1244. (  1) yT ? PT trophy [ˈtrəʊfi] (n) трофей, приз, награда; (v) украшать трофеями
  1245. (  1) yT *#PT troubled [ˈtrʌbld] -ed: (v) {B2} беспокоить
@@ -1312,7 +1312,7 @@
 
  1292. (  1) 5T ?#PT warehouse [ˈweəhaʊs->(n)/ˈweəhaʊz->(v)] (adj) складской; (n) {C1} {buildings} {business} товарный склад, амбар; (v) хранить на складе -1
  1293. (  1) yT ?#PT warfare [ˈwɔːfeə] (n) война
- 1294. (  2) 5T ?#PT warrant [ˈwɒrənt] (n) ордер, предписание; (v) гарантировать
+ 1294. (  2) 5T ?#PT warrant [ˈwɒrənt] (n) {C1} {law and justice} ордер, предписание; (v) {C1} гарантировать
  1295. (  1) 5T ?#PT warrior [ˈwɒrɪə] (n) {C1} воин, {C2} {social issues} боец, воитель
  -1
  1297. (  1) 5T ?#PT weave [wiːv] (v) ткать, плести; (n) узор
@@ -1527,9 +1527,9 @@
               1T *#  find [faɪnd] (n) находка; (v) {A1} {A2} {opinion and argument} {C1} {law and justice} {preference and decisions} находить, I: find-found-found -1
               3T *#  disgust [dɪsˈgʌst] (n) {C1} {preferences and decisions} {feelings} отвращение, брезгливость, омерзение; (v) {C2} {feelings} внушать отвращение -1
               xT ?#  para [ˈpærə] (n) (informal) (paratrooper) = a member of the paratroops, десантник; (prefix) para- = outside/beyond, = similar to but not official or not fully qualified, {C1} {sports: other sports} {disability} = related to the Paralympic form of a sport -1
-              zT ?#  gymnasium [ʤ ɪmˈneɪziəm] (n) {C1} {education} {health and fitness} гимнастический зал -1
+ -1
               5T ?#  blossom [ˈblɒsəm] (v) {C1} {plants and trees} {success} {health and fitness} цвести, расцвести, распускаться; (n) {C1} {plants and trees} цветок, цвет, цветение, расцвет -2
-              1T *#  form [fɔːm] (v) {A1} {language} {B2} {colours and shapes} образовывать, создавать, {C1} {health and fitness} {education} формировать -1
+ -1
               3T *#  resistance [rɪˈzɪstəns] (n) {C1} {preferences and decisions} сопротивление, {C1} {health fitness} {C2} {physics and chemistry} {war and conflict} противодействие, {C1} резистор, катушка сопротивления -1
  -1
               5T ?#  addict [ˈædɪkt->(n)/əˈdɪkt->(v)] (n) {C1} {health problems} {social issues} {feelings} наркоман, поклонник; (v) увлекаться -1
@@ -1599,7 +1599,7 @@
               yT ?#  monastery [ˈmɒnəstəri] (n) {C1} {religion and festivals} {buildings} монастырь -1
               yT ?#  shrine [ʃraɪn] (n) {C1} {religion and festivals} {buildings} храм, святыня -1
               5T ?#  barn [bɑːn] (n) {C1} {buildings} {farming} сарай -1
-              5T ?#  dormitory [ˈdɔːmətri] (n) {C1} {houses and homes} {education} общая спальня, {C1} {buildings} общежитие -2
+ -2
               4T ?#  gangster [ˈgæŋstə] (n) {C1} {crime and punishment} гангстер, бандит
               4T *#  inn [ɪn] (n) {C1} {buildings} {holidays} трактир, гостиница, постоялый двор -1
  -1
@@ -1652,6 +1652,15 @@
               1T *#  drive [draɪv] (v)(intransitive) {A1} {transport by car or lorry} ездить, управлять, (v) {A2} {transport by car or lorry} вести (кого-то), I: drive-drove-driven; (n) {A2} {transport by car or lorry} езда, {B2} {transport by car or lorry} {buildings} дорога, {C1} {success} {personal qualities} стимул, побуждение, привод, {C2} {computers} дисковод -1
               4T ?#  heroic [hɪˈrəʊɪk] (adj) {C1} {personal qualities} {success} героический, геройский; (n) напыщенный язык -1
               5T ?#  pinch [pɪnʧ] (v) {C1} {crime and punishment} ущипнуть, щипать, зажимать, {C1} {computers} сжимать; (n) щепотка, щипок -1
+              yT ?#  getaway [ˈɡetəweɪ] (n) {C1} {crime and punishment} бегство, побег
+              zT ?#  upstate [ʌpˈsteɪt] (adv) {C1} {geography} север штата; (adj) {C1} {geography} северная часть штата
+              5T *#  chalk [ʧɔːk] (n) {C1} {physics and chemistry} {education} мел, известь; (v) рисовать мелом -1
+              5T ?#  inspector [ɪnˈspɛktə] (n) {B2} {law and justice} {transport by bus and train} {C1} {education} {jobs} инспектор, контролер -1
+              1T *#  senior [ˈsiːnjə] (adj) {B2} {people in society} {jobs} {sports: other sports} {life stages} {family and relationships} {education} старший, выпускной, последний; (n) {C1} {sport: other sports} {education} старшеклассник, {C1} {life stages} пожилой человек -1
+              4T *#  algebra [ˈælʤ ɪbrə] (n) {C1} {maths and measurement} {C1} {education} алгебра -1
+              5T *#  arithmetic [əˈrɪθmətɪk->(n)/ˌærɪθˈmɛtɪk->(adj)] (n) {C1} {maths and measurement} {education} арифметика; (adj) арифметический -1
+              xx ?#  aristocrat [ˈærɪstəkræt] (n) {C1} {history} {people in society} аристократ
+              zT ?#  caterer [ˈkeɪtərə(r)] (n) {C1} {jobs} поставщик провизии, владелец ресторана
 
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated

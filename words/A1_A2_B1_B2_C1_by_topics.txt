@@ -9722,6 +9722,7 @@ People
   833. (  1) 5T ?#PT oral [ˈɔːrəl] (adj) {C1} {language} устный, {C1} {body} ротовой, оральный; (n) {C1} {language} {education} устный экзамен
   856. (  1) 3T *#PT passing [pæsɪŋ] -ing: (v) {A2} {education} проходить, {B1} {sports: ball and racket sports} передавать, {B2} {politics} принимать; (n) {C1} смерть, {C1} {politics} прохождение; (adj) {C1} {education} проходящий, беглый
               3T *#  practical [ˈpræktɪkəl] (adj) {B1} {success} {B2} {personal qualities} практический, практичный; (n) {C1} {education} = a lesson or an exam in science or technology in which students have to do or make things, not just read or write about them
+              xT *#  streaming [strimɪŋ] -ing: (v) вытекать, {C1} {music} транслировать; (adj) потоковое, текучий; (n) {C1} {education} потоковая передача
 
 {education {in school}}
 .......................
@@ -9755,6 +9756,11 @@ People
               yT ?#  workbook [ˈwɜːkbʊk] (n) {B2} {education} рабочая тетрадь, сборник упражнений, конспект
               yT ?#  worksheet [ˈwɜːkˌʃiːt] (n) {B2} {education} рабочий лист, анкета
 
+{C1} {education {in school}}
+              5T *#  chalk [ʧɔːk] (n) {C1} {physics and chemistry} {education} мел, известь; (v) рисовать мелом
+              5T ?#  dormitory [ˈdɔːmətri] (n) {C1} {houses and homes} {education} общая спальня, {C1} {buildings} общежитие
+              zT ?#  gymnasium [ʤ ɪmˈneɪziəm] (n) {C1} {education} {health and fitness} гимнастический зал
+
 {education {people in schools}}
 ...............................
 {A1} {education {people in schools}}
@@ -9781,6 +9787,16 @@ People
  1024. (  1) 3T *#PT pupil [ˈpjuːpl] (n) {B2} {education} ученик, {B2} {body} зрачок, {B2} подопечный
               xx ?#  teacher+trainer [ˈtiːʧə ˈtreɪnə] (n) {B2} {education} учитель-тренер
               4T *#  trainee [treɪˈniː] (n) {B2} {education} {jobs} стажер, практикант
+
+{C1} {education {people in schools}}
+              xx ?#  caretaker [ˈkeəˌteɪkə] (n) {C1} {education} смотритель, сторож
+  359. (  1) xT ?#PT deputy [ˈdɛpjʊti] (n) {C1} {education} {business} заместитель, {C1} {politics} депутат, представитель
+  429. (  1) yT ?#PT educator [ˈɛdju(ː)keɪtə] (n) {C1} {education} педагог, воспитатель
+              4T ?#  headmaster [ˌhɛdˈmɑːstə] (n) {C1} {education} директор, I:*master-*mistress
+              5T ?#  inspector [ɪnˈspɛktə] (n) {B2} {law and justice} {transport by bus and train} {C1} {education} {jobs} инспектор, контролер
+              3T *#  junior [ˈʤ uːnjə] (adj) {B2} {jobs} {sports: other sports} {C1} {education} {family and relationships} младший, юношеский; (n) {C1} {education} младший, юниор
+              5T *#  scholar [ˈskɒlə] (n) {B2} ученый, {C1} {education} ученик; (adj) ученый
+              1T *#  senior [ˈsiːnjə] (adj) {B2} {people in society} {jobs} {sports: other sports} {life stages} {family and relationships} {education} старший, выпускной, последний; (n) {C1} {sport: other sports} {education} старшеклассник, {C1} {life stages} пожилой человек
 
 {education {school life}}
 .........................
@@ -9820,6 +9836,14 @@ People
  1065. (  2) 3T *#PT register [ˈrɛʤ ɪstə] (n) {B2} {education} {C2} {music} регистр, реестр, запись; (v) {B2} регистрировать
               xx ?#  term+time [tɜːm taɪm] (n) {B2} {time} {education} время семестра
  1305. (  1) 4T *#PT textbook [ˈtɛkstbʊk] (n) {B2} {education} учебник
+
+{C1} {education {school life}}
+   96. (  1) 5T *#PT assembly [əˈsɛmbli] (adj) монтажный, сборочный; (n) {C1} сборка, монтаж, {C1} {education} {business} собрание, {C1} {politics} ассамблея, агрегат
+  368. (  1) yT ?#PT detention [dɪˈtɛnʃ(ə)n] (n) {C1} {crime and punishment} {education} задержание, арест, оставление после уроков
+              zT ?#  fieldwork [ˈfiːldwɜːk] (n) {C1} {education} полевые работы, работа в поле
+              1T *#  form [fɔːm] (v) {A1} {language} {B2} {colours and shapes} образовывать, создавать, {C1} {health and fitness} {education} формировать
+              4T *#  registration [ˌrɛʤ ɪsˈtreɪʃən] (n) {B2} {C1} {education} регистрация, учет, запись
+              yT ?#  syllabus [ˈsɪləbəs] (n) {C1} {education} учебный план, расписание
 
 {education {subjects and courses}}
 ..................................
@@ -9868,6 +9892,11 @@ People
               xx ?#  social+studies [ˈsəʊʃ(ə)l ˈstʌdiz] (n) {B2} {education} социальные исследования, = the study of people in society
               xT ?#  sociology [ˌsəʊsɪˈɒləʤ i] (n) {B2} {education} {people in society} социология
               xx ?#  summer+school [ˈsʌmə skuːl] (n) {B2} {education} летняя школа, серия лекций в университете, = courses that are held in the summer at a university or college in US/a school
+
+{C1} {education {subjects and courses}}
+              4T *#  algebra [ˈælʤ ɪbrə] (n) {C1} {maths and measurement} {C1} {education} алгебра
+              5T *#  arithmetic [əˈrɪθmətɪk->(n)/ˌærɪθˈmɛtɪk->(adj)] (n) {C1} {maths and measurement} {education} арифметика; (adj) арифметический
+              3T *#  classic [ˈklæsɪk] (adj) {B2} классический; (n) {B2} {literature and writing} {film and theatre} классическое произведение, {B2} = a thing that is an excellent example of its kind, классика, {C1} {education} классические языки
 
 {education {teaching and learning}}
 ...................................
