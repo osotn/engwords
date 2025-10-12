@@ -287,7 +287,7 @@
   268. (  1) 5T ?#PT constraint [kənˈstreɪnt] (n) {C1} ограничение, скованность, принуждение, стеснение
   269. (  1) 4T ?#PT consultation [ˌkɒnsəlˈteɪʃ(ə)n] (n) {C1} консультация, {C1} {preferences and decisions} совещание -1
   270. (  1) 5T ?#PT contemplate [ˈkɒntɛmpleɪt] (v) {C1} созерцать, лицезреть, размышлять, рассматривать
-  271. (  1) yT ?#PT contempt [kənˈtɛmpt] (n) презрение, неуважение
+  271. (  1) yT ?#PT contempt [kənˈtɛmpt] (n) {C1} {feelings} презрение, {C1} неуважение -1
   272. (  1) zT ?#PT contend [kənˈtɛnd] (v) {C1} бороться, соперничать, {C1} {opinion and argument} утверждать, спорить, состязаться -1
   273. (  1) 5T ?#PT contender [kənˈtɛndə] (n) соперник, претендент, кандидат
   274. (  1) 3T *#PT content [ˈkɒntɛnt->(n)/kənˈtɛnt->(v)] (n) {B1} содержание, содержимое; (v) довольствоваться; (adj) {C1} {feelings} довольный, согласный
@@ -553,8 +553,8 @@
   533. (  1) 5T ?#PT fragile [ˈfræʤ aɪl] (adj) {C1} {health problems} хрупкий, {C1} ломкий -1
   534. (  1) xT ?#PT franchise [ˈfrænʧaɪz] (n) франшиза, привилегия
   535. (  1) 4T *#PT frankly [fræŋkli] -ly: (adj) {C1} {personal qualities} откровенный, искренний; (adv) {C1} честно говоря, откровенно
-  536. (  1) yT ?#PT frustrated [frʌsˈtreɪtid] -ed: срывать, расстраивать планы
-  537. (  1) 5T ?#PT frustrating [frʌsˈtreɪtɪŋ] -ing: (v) срывать, расстраивать планы
+
+  537. (  1) 5T ?#PT frustrating [frʌsˈtreɪtɪŋ] -ing: (v) {C1} {feelings} срывать, {C2} {difficulty and failure} расстраивать планы; (adj) {C1} раздражающий
   538. (  1) 5T ?#PT frustration [frʌsˈtreɪʃən] (n) разочарование, расстройство, чувство разочарования
   539. (  1) 5T *#PT functional [ˈfʌŋkʃənl] (adj) функциональный, (n) функционал
   540. (  1) xT ?    fundraising
@@ -610,8 +610,8 @@
   590. (  1) 5T *#PT horizon [həˈraɪzn] (n) горизонт
   591. (  1) 3T *#PT horn [hɔːn] (n) {C1} {animals} рог, рожок, {C1} {transport by car or lorry} рупор; (adj) роговой -1
   592. (  1) yT ?#PT hostage [ˈhɒstɪʤ ] (n) {C1} {war and conflict} {crime and punishment} заложник
-  593. (  1) 5T ?#PT hostile [ˈhɒstaɪl] (adj) {C1} {opinion and argument} {feelings} {war and conflict} враждебный, вражеский -1
-  594. (  1) 5T ?#PT hostility [hɒsˈtɪlɪti] (n) {C1} {opinion and argument} {feelings} {war and conflict} враждебность, неприятие, военные действия -1
+  593. (  1) 5T ?#PT hostile [ˈhɒstaɪl] (adj) {C1} {opinion and argument} {feelings} {war and conflict} враждебный, вражеский -2
+  594. (  1) 5T ?#PT hostility [hɒsˈtɪlɪti] (n) {C1} {opinion and argument} {feelings} {war and conflict} враждебность, неприятие, военные действия -2
   595. (  1) 5T ?#PT humanitarian [hjuːˌmænɪˈteəriən] (adj) {C1} гуманитарный
   596. (  1) 5T *#PT humanity [hju(ː)ˈmænɪti] (n) {C1} человечество, {C1} {education} гуманность, {C1} {personal qualities} человеколюбие -1
   597. (  1) 5T ?#PT humble [ˈhʌmbl] (adj) покорный, смиренный
@@ -634,7 +634,7 @@
   614. (  1) 5T ?#PT inclined [ɪnˈklaɪnd] -ed: (v) наклонять, {C2} {opinion and argument} склоняться; (adj) {C1} наклонный, {C1} {opinion and argument} склонный, {C1} {preferences and decisions} расположенный -2
   615. (  1) 4T ?#PT inclusion [ɪnˈkluːʒən] (n) {C1} включение
   616. (  1) 5T ?#PT incur [ɪnˈkɜː] (v) подвергаться, навлечь на себя
-  617. (  1) xT *#PT indicator [ˈɪndɪkeɪtə] (n) индикатор, указатель; (adj) индикаторный
+  617. (  1) xT *#PT indicator [ˈɪndɪkeɪtə] (n) {C1} индикатор, {C1} {transport by car or lorry} указатель; (adj) индикаторный
   618. (  1) yT ?#PT indictment [ɪnˈdaɪtmənt] (n) обвинительный акт, обвинение, акт
   619. (  1) xT ?#PT indigenous [ɪnˈdɪʤ ənəs] (adj) {C1} {people in society} {animals} местный, туземный, здешний -1
  -1
@@ -740,7 +740,7 @@
  -1
   721. (  2) 5T ?#PT lobby [ˈlɒbi] (n) {C1} {holidays} {buildings} {politics} лобби, вестибюль, фойе, {C2} {politics} холл; (v) {C1} {discussion and agreement} {politics} = to try to influence a politician or the goverment and persuade to support or oppose a change in the law -2
   722. (  2) 5T *#PT log [lɒg] (n) журнал, бревно, полено; (v) регистрировать; (adj) бревенчатый
-  723. (  1) 3T *#PT logic [ˈlɒʤ ɪk] (n) логика
+  723. (  1) 3T *#PT logic [ˈlɒʤ ɪk] (n) {C1} {C2} {computers} логика
   724. (  1) xx ?    long-standing
   725. (  1) xx ?    long-time
   726. (  1) 5T ?#PT loom [luːm] (n) ткацкий станок, тень; (v) маячить, неясно вырисовываться
@@ -859,7 +859,7 @@
   838. (  1) yT ?#PT outing [ˈaʊtɪŋ] (n) выход, пикник
   839. (  1) 5T ?#PT outlet [ˈaʊtˌlɛt] (n) выход, выпускное отверстие, {C1} {shopping} {business} выпуск, выходное отверстие -1
   840. (  1) 5T ?#PT outlook [ˈaʊtlʊk] (n) {C1} {doubt, guessing and certainty} перспектива, {C1} кругозор, вид, точка зрения, виды на будущее -1
-  841. (  2) 5T ?#PT outrage [ˈaʊˌtreɪʤ ] (n) произвол, безобразие, надругательство, оскорбление, насилие; (v) надругаться
+  841. (  2) 5T ?#PT outrage [ˈaʊˌtreɪʤ ] (n) {C1} произвол, безобразие, надругательство, {C1} {feelings} оскорбление, насилие; (v) {C1} {feelings} надругаться -1
   842. (  1) 4T ?#PT outsider [ˌaʊtˈsaɪdə] (n) аутсайдер, посторонний человек; (adj) посторонний
   843. (  1) 5T ?#PT overlook [ˌəʊvəˈlʊk] (v) {C1} игнорировать, проглядеть, {C1} {buildings} упускать из виду, не заметить, просмотреть; (n) упущение -1
   844. (  1) yT ?#PT overly [ˈəʊvəli] чрезмерно, слишком
@@ -965,7 +965,7 @@
   944. (  1) 4T *#PT province [ˈprɒvɪns] (n) провинция, область, губерния
   945. (  1) xT ?#PT provincial [prəˈvɪnʃəl] (adj) {C1} {buildings} провинциальный, {C1} местный; (n) провинциал -1
   946. (  1) 5T ?#PT provision [prəˈvɪʒən] (n) положение, обеспечение, снабжение; (v) снабжать продовольствием
-  947. (  1) 5T ?#PT provoke [prəˈvəʊk] (v) {C1} {change, cause and effect} {opinion and argument} {feelings} провоцировать, вызывать, раздражать -2
+ -2
 
 
   950. (  2) 5T *#PT pump [pʌmp] (n) {C1} {engineering} насос, помпа; (v) {C1} {engineering} качать, выкачивать
@@ -975,7 +975,7 @@
   954. (  1) 5T *#PT quota [ˈkwəʊtə] квота, доля, часть
   955. (  1) 5T *#PT radar [ˈreɪdə] (n) {C1} {transport by water} {transport by air} радиолокатор
   956. (  1) 5T *#PT radical [ˈrædɪkəl] (n) радикал; (adj) радикальный, коренной
-  957. (  1) 5T ?#PT rage [reɪʤ ] (v) {C2} {feelings} свирепствовать, беситься; (n) {C1} {feelings} ярость, гнев
+
   958. (  2) 5T ?#PT raid [reɪd] (n) рейд, набег, налет
   959. (  2) 5T ?#PT rally [ˈræli] (n) {C1} ралли, {C1} {politics} собрание, слет; (v) {C1} {change, cause and effect} сплотиться -1
   960. (  1) xT ?#PT ranking [ræŋkɪŋ] -ing: (v) {C2} классифицировать, занимать место; (n) {C1} {sports: other sports} рейтинг, расстановка; (adj) вышестоящий
@@ -1093,7 +1093,7 @@
  1072. (  1) 3T *#PT shoot [ʃuːt] (v) {B1} {war and conflict} {crime and punishment} стрелять, расстрелять, {B2} {film and theatre} снять, застрелить, {B2} {sports: ball and racket sports} отстреливать, I: shoot-shot-shot; (n) {C1} {plants and trees} побег, охота
  1073. (  1) 5T ?#PT shrink [ʃrɪŋk] (v) {C1} сжиматься, уклоняться, I: shrink-shrunk/shrank-shrunk
  1074. (  1) xx ?#PT shrug [ʃrʌɡ] (n) пожимание плечами; (v) {C1} пожимать плечами
- 1075. (  2) yT ?#PT sigh [saɪ] (n) вздох; (v) вздыхать
+ 1075. (  2) yT ?#PT sigh [saɪ] (n) {C1} вздох; (v) {C1} {feelings} вздыхать -1
  1076. (  1) 5T *#PT simulate [ˈsɪmjʊleɪt] (v) имитировать, моделировать, симулировать
  1077. (  1) xT *#PT simulation [ˌsɪmjʊˈleɪʃən] (n) симуляция, симулирование
  1078. (  1) 4T *#PT simultaneously [ˌsɪməlˈteɪniəsli] -ly: (adj)->(adv) одновременный, симультанный
@@ -1356,10 +1356,10 @@
               5T ?#  buzz [bʌz] (v) {C1} {insect, worms, etc.} гудеть, жужжать, выпивать; (n) гул, жужжание, слухи, {C1} {feelings} эйфория -1
               5T ?#  pest [pɛst] (n) {C1} {insects, worms, etc.} {farmings} вредитель, бич, паразит -1
  -2
-              5T ?#  monotonous [məˈnɒtnəs] (adj) {C1} {working life} {feelings} монотонный, однообразный
+              5T ?#  monotonous [məˈnɒtnəs] (adj) {C1} {working life} {feelings} монотонный, однообразный -1
  -1
  -1
-              5T ?#  blush [blʌʃ] (n) {C1} {appearance} румянец; (v) {C1} {appearance} {feelings} краснеть -1
+ -1
  -1
               4T *#  bracket [ˈbrækɪt] (n) {C1} {language} {maths and measurement} скобка; (v) заключать в скобки -1
               xx ?#  suntan [ˈsʌntæn] (n) {C1} {appearance} {holidays} загар -1
@@ -1505,7 +1505,7 @@
               1T *#  say [seɪ] (v) {A1} {B1} {opinion and argument} {B2} {suggestions and advice} сказать, I: say-said-said; (n) {C1} {preferences and decisions} {opinion and argument} слово, мнение -1
               5T ?#  thesis [ˈθiːsɪs/ˈθɛsɪs] (n) {B2} {education} {C1} {opinion and argument} {scientific research} тезис, диссертация -1
               xx ?#  reminisce [ˌremɪˈnɪs] (v) {C1} {life stages} вспоминать, предаваться воспоминаниям
-              5T ?#  provocative [prəˈvɒkətɪv] (adj) {C1} {opinion and argument} {feelings} провокационный, задорный, дерзкий -1
+ -1
               yT ?#  gown [gaʊn] (n) {C2} {clothes and fashion} {healthcare} платье, {C1} {education} {law and justice} {religion and festivals} мантия -1
               5T ?#  ingenious [ɪnˈʤ iːniəs] (adj) {C1} {personal qualities} остроумный, изобретательный, оригинальный, искусный
               3T *#  convert [ˈkɒnvɜːt->(n)/kənˈvɜːt->(v)] (v) {B2} {buildings} превращать, {B2} {religion and festivals} {C1} {opinion and argument} конвертировать; (n) {C1} {opinion and argument} {religion and festival} новообращенный; (adj) новообращенный -1
@@ -1525,7 +1525,7 @@
               3T *#  regulation [ˌrɛgjʊˈleɪʃən] (n) {B2} {permission and obligation} {law and justice} {C1} {money} регулирование; (adj) {C1} {permission and obligation} установленный -1
               3T ?#  award [əˈwɔːd] (n) {A2} {C1} {money} премия, {C1} {preferences and decisions} {education} награда; (v) {B1} {preferences and decisions} присуждать -2
               1T *#  find [faɪnd] (n) находка; (v) {A1} {A2} {opinion and argument} {C1} {law and justice} {preference and decisions} находить, I: find-found-found -1
-              3T *#  disgust [dɪsˈgʌst] (n) {C1} {preferences and decisions} {feelings} отвращение, брезгливость, омерзение; (v) {C2} {feelings} внушать отвращение -1
+ -1
               xT ?#  para [ˈpærə] (n) (informal) (paratrooper) = a member of the paratroops, десантник; (prefix) para- = outside/beyond, = similar to but not official or not fully qualified, {C1} {sports: other sports} {disability} = related to the Paralympic form of a sport -1
  -1
               5T ?#  blossom [ˈblɒsəm] (v) {C1} {plants and trees} {success} {health and fitness} цвести, расцвести, распускаться; (n) {C1} {plants and trees} цветок, цвет, цветение, расцвет -2
@@ -1564,7 +1564,6 @@
               4T ?#  darling [ˈdɑːlɪŋ] (adj) {C1} {personal qualities} дорогой, милый, любимый
               5T ?#  radiate [ˈreɪdieɪt] (v) {C1} {physics and chemistry} излучать, сиять
               yT ?#  crib [krɪb] (n) {C1} {life stages} детская кроватка, ясли, {C2} {education} шпаргалка, плагиат; (v) {C2} {education} совершать плагиат, списать
-              5T ?#  resent [rɪˈzɛnt] (v) {C1} {feelings} возмущаться, обижаться, негодовать
               xx ?#  mayonnaise [ˌmeɪəˈneɪz] (n) {C1} {food} майонез
               4T ?#  misty [ˈmɪsti] (adj) {C1} {weather} туманный
               zT ?#  gloom [gluːm] (n) мрак, {C1} {feelings} уныние; (v) хмуриться
@@ -1684,6 +1683,7 @@
               3T ?#  devoted [dɪˈvəʊtɪd] -ed: (v) {B2} уделять, посвящать; (adj) {C1} {family and relationships} {feelings} преданный, посвященный -1
               5T ?#  devotion [dɪˈvəʊʃən] (n) {C1} {family and raltionships} {feelings} преданность, {C2} {religion and festivals} набожность -1
               xx *#  agitate [ˈæʤ ɪteɪt] (v) {C1} {social issues} оагитировать, {C1} {feeling} оволновать -1
+              4T ?#  resentful [rɪˈzɛntfʊl] (adj) {C1} {personal qualities} {feelings} обиженный, обидчивый, возмущенный, злопамятный -1
 
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
