@@ -10453,6 +10453,9 @@ People
 
 {C1} {feelings {excitement}}
               yT ?#  adrenaline [əˈdrɛnəlɪn] (n) {body} {feelings} адреналин
+              5T ?#  buzz [bʌz] (v) {C1} {insect, worms, etc.} гудеть, жужжать, выпивать; (n) гул, жужжание, слухи, {C1} {feelings} эйфория
+              3T ?#  excite [ɪkˈsaɪt] (v) {C1} {feelings} возбудить, возбуждать, волновать
+ 1209. (  1) yT ?#PT thrilled [θrɪld] -ed: (v) {B2} {feelings} трепетать, дрожать; (adj) {C1} {feelings} взволнованный, возбужденный
 
 {feelings {fear}}
 .................
@@ -10473,6 +10476,12 @@ People
               5T ?#  terrifying [ˈtɛrəˌfaɪɪŋ] -ing: (v) {B2} {feeling} ужасать, вселять ужас; {B2} {feelings} ужасающий
  1301. (  1) xT *#PT terror [ˈtɛrər] (n) {C1} {crime and punishment} террор, {B2} {feelings} ужас, страх
 
+{C1} {feelings {fear}}
+              4T ?#  fright [fraɪt] (n) {C1} {feelings} испуг
+              3T *#  frozen [frəʊzn] -2ed: (v) {B1} {weather} замораживать, I: freeze-froze-frozen; (adj) {B1} замороженный, холодный, {C1} {feelings} сдержанный, крайне сдержанный
+              zT ?#  shaken [ˈʃeɪkən] -2ed: (v) {A2} трясти, {A2} {opinion and argument} = to take somebody's hand, поколебать, {B2} {feelings} дрожать, I:shake-shook-shaken; (adj) {C1} {feelings} потрясенный, дрожащий
+              xx ?#  shiver [ˈʃɪvə] (n) {C2} {feelings} дрожь, трепет; (v) {C1} {feelings} {health problems} дрожать, трястись
+
 {feelings {fellings in general}}
 ................................
 {A1} {feelings {fellings in general}}
@@ -10485,6 +10494,10 @@ People
 
 {B2} {feelings {fellings in general}}
   436. (  1) 3T *#PT emotional [ɪˈməʊʃənl] (adj) {B2} {feelings} эмоциональный
+
+{C1} {feelings {fellings in general}}
+              3T *#  channel [ˈʧænl] (n) {B1} {tv, radio and news} {B2} {transport by water} {geography} {C1} {computers} {feelings} {geography} канал
+ 1061. (  1) yT ?#PT sentiment [ˈsɛntɪmənt] (n) {C1} {opinion and argument} {feelings} чувство, настроение, {C1} отношение
 
 {feelings {happiness}}
 ......................
@@ -10528,6 +10541,16 @@ People
  1142. (  2) 3T *#PT secure [sɪˈkjʊə] (adj) {B2} {success} {feelings} {personal qualities} безопасный; (v) {B2} {success} обезопасить, гарантировать
               1T *#  security [sɪˈkjʊərɪti] (n) {B1} {law and justice} {transport by air} {B2} {feelings} {C2} {money} безопасность, охрана, обеспечение, защита
 
+{C1} {feelings {happiness}}
+  274. (  1) 3T *#PT content [ˈkɒntɛnt->(n)/kənˈtɛnt->(v)] (n) {B1} содержание, содержимое; (v) довольствоваться; (adj) {C1} {feelings} довольный, согласный
+  523. (  1) 5T ?#PT flourish [ˈflʌrɪʃ] (v) {C1} {feelings} {health and fitness} процветать, расцветать, {C1} {success} преуспевать; (n) туш, загогулина, процветание
+              yT ?#  fulfilled [fʊlˈfɪld] -ed: (v) {B2} {success} {feelings} {business} выполнять, {B2} исполнять; (adj) {C1} {success} {feelings} выполненный, исполненный
+              yT ?#  gratitude [ˈgrætɪtjuːd] (n) {C1} {feelings} благодарность
+              4T ?#  joyful [ˈʤ ɔɪfʊl] (adj) {C1} {feelings} радостный, веселый
+              4T ?#  merry [ˈmɛri] (adj) {C1} {feelings} = happy and cheerful, веселый, радостный
+              4T *#  sunny [ˈsʌni] (adv) солнечно; (adj) {A1} {weather} солнечный, {C1} {feelings} радостный
+              4T *#  thankful [ˈθæŋkfəl] (adj) {C1} {feelings} благодарный
+
 {feelings {hate}}
 .................
 {A1} {feelings {hate}}
@@ -10538,6 +10561,9 @@ People
   335. (  1) 3T *#PT hate [heɪt] (n) {B1} {preference and decisions} {feelings} ненависть; (v) (stative) {A1} {preferences and decisions} {feelings} ненавидеть
 
 {B2} {feelings {hate}}
+{C1} {feelings {hate}}
+              5T ?#  detest [dɪˈtest] (v) {C1} {feelings} ненавидеть
+  579. (  1) 3T ?#PT hatred [ˈheɪtrɪd] (n) {C1} {feelings} ненависть
 
 {feelings {hunger}}
 ...................
@@ -10550,6 +10576,11 @@ People
               5T ?#  greedy [ˈgriːdi] (adj) {B2} {personal qualities} {feelings} {money} жадный, алчный
   646. (  1) 5T *#PT hunger [ˈhʌŋgə] (n) {B2} {social issues} {feelings} {C1} голод, жажда
 
+{C1} {feelings {hunger}}
+              5T ?#  devour [dɪˈvaʊə] (v) {C1} {feelings} пожирать, поглощать
+              4T ?#  greed [griːd] (n) {C1} {feelings} {money} жадность, алчность
+              3T *#  pig [pɪg] (n) {A1} {animals} свинья, поросенок; (v) {C1} {feelings} есть с жадностью
+
 {feelings {loneliness}}
 .......................
 {A1} {feelings {loneliness}}
@@ -10558,6 +10589,11 @@ People
              1T *#  alone [əˈləʊn] (adv) только, в одиночестве, наедине; (adj) {A2} один, {B1} {feeling} одинокий; (pron) сам
 
 {B2} {feelings {loneliness}}
+{C1} {feelings {loneliness}}
+              5T ?#  desolate [ˈdɛsəlɪt->(adj)/ˈdɛsəleɪt->(v)] (adj) {C1} {geography} {feelings} заброшенный; (v) опустошать
+  676. (  1) 5T *#PT isolation [ˌaɪsəʊˈleɪʃən] (n) {C1} {healthcare} {feelings} изоляция, оторванность
+              4T ?#  loneliness [ˈləʊnlɪnəs] (n) {C1} {feelings} одиночество
+              5T ?#  solitary [ˈsɒlɪtəri] (adj) {C1} {feelings} одинокий, {C1} {working life} уединенн
 
 {feelings {love}}
 .................
@@ -10578,6 +10614,19 @@ People
   360. (  2) 3T *#PT desire [dɪˈzaɪə] (n) {B2} {feelings} желание, пожелание, страсть; (v) {B2} желать, хотеть
   935. (  1) 5T ?#PT passionate [ˈpæʃənɪt] (adj) {B2} {family and relationships} {feelings} {personal qualities} страстный, пылкий, влюбленный
 
+{C1} {feelings {love}}
+   44. (  1) 3T ?#PT affection [əˈfɛkʃ(ə)n] (n) {C1} {feelings} {personal qualities} привязанность, любовь, склонность, влияние, влечение
+              5T ?#  affectionate [əˈfɛkʃnɪt] (adj) {C1} {feelings} {personal qualities} нежный, любящий
+              3T ?#  devoted [dɪˈvəʊtɪd] -ed: (v) {B2} уделять, посвящать; (adj) {C1} {family and relationships} {feelings} преданный, посвященный
+              5T ?#  devotion [dɪˈvəʊʃən] (n) {C1} {family and raltionships} {feelings} преданность, {C2} {religion and festivals} набожность
+              4T ?#  fond [fɑnd] (adj) {B2} любящий, {C1} {feelings} нежный; (n) фон, основа
+              xT ?#  idol [ˈaɪdl] (n) {C1} {feelings} идол, кумир, {C2} {religion and festivals} божество
+              4T ?#  lovable [ˈlʌvəbl] (adj) {C1} {feelings} привлекательный, милый
+              xT *#  loving [lʌvɪŋ] -ing: (v)(stative) {A1} {feelings} {preference and decisions} любить; (adj) {C1} {feelings} {personal qualities} любящий, нежный
+  942. (  1) 4T ?#PT protective [prəˈtɛktɪv] (adj) {C1} {feelings} защитный
+              5T ?#  sentimental [ˌsɛntɪˈmɛntl] (adj) {C1} {feelings} сентиментальный, чувствительный
+ 1315. (  2) 3T ?#PT worship [ˈwɜːʃɪp] (v) {C1} {religion and festivals} поклоняться, боготворить, {C1} {feelings} обожать; (n) {C1} {feelings} поклонение, {C1} {religion and festivals} культ
+
 {feelings {nervous}}
 ....................
 {A1} {feelings {nervous}}
@@ -10594,6 +10643,10 @@ People
               xx ?#  pessimism [ˈpɛsɪmɪz(ə)m] (n) {B2} {difficulty and failure} {feelings} пессимизм
               4T ?#  pessimist [ˈpɛsɪmɪst] (n) {B2} {feelings} пессимист
               3T *#  uncomfortable [ʌnˈkʌmf(ə)təbl] un-: (adj) {A2} {clothes and fashion} {B1} {personal qualities} комфортный, удобный; (adj) {B1} {clothes and fashion} {B2} {feelings} неудобно
+
+{C1} {feelings {nervous}}
+              xx ?#  agitated [ˈæʤ ɪteɪtɪd] -ed: (v) {C1} {social issues} оагитировать, {C1} {feeling} волновать; (adj) {C1} {feeling} взволнованный
+              5T ?#  dread [drɛd] (n) {C1} {feelings} страх; (v) {C1} {feelings} бояться, страшиться
 
 {feelings {showing interest}}
 .............................
