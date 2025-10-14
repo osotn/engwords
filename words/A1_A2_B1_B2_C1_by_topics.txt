@@ -10431,6 +10431,14 @@ People
 
 {C1} {feelings {embarrassment}}
               5T ?#  blush [blʌʃ] (n) {C1} {appearance} румянец; (v) {C1} {appearance} {feelings} краснеть
+  246. (  1) 5T ?#PT confession [kənˈfɛʃ(ə)n] (n) {C1} {crime and punishment} признание, {C1} {feelings} исповедь
+              5T ?#  discomfort [dɪsˈkʌmfət] (n) {C1} {health problems} дискомфорт, беспокойство; (v) {C1} {feelings} беспокоить, причинять неудобство
+  439. (  1) 3T ?#PT embarrassment [ɪmˈbærəsmənt] (n) {C1} {feelings} смущение, затруднение, замешательство, конфуз, помеха
+              5T *#  foolish [ˈfuːlɪʃ] (adj) {C1} {feelings} глупый, дурацкий
+  566. (  1) yT ?#PT guilt [gɪlt] (n) {C1} {law and justice} вина, {C1} {feelings} чувство вины
+              5T ?#  humiliate [hjuːˈmɪlieɪt] (v) {C1} {feelings} унижать
+              xx ?#  humiliating [hjuːˈmɪlieɪtɪŋ] -ing: (v) {C1} {feelings} унижать; (adj) (v) {C1} {feelings} унизительный, оскорбительный
+              4T ?#  humiliation [hju(ː)ˌmɪlɪˈeɪʃən] (n) {C1} {feelings} унижение
 
 {feelings {excitement}}
 .......................
@@ -10442,6 +10450,9 @@ People
 {B2} {feelings {excitement}}
               5T ?#  breathtaking [ˈbrɛθˌteɪkɪŋ] (adj) {B2} {feelings} захватывающий дух, потрясающий, поразительный
               yT ?#  thrill [θrɪl] (n) {B2} {feelings} трепет, возбуждение; (v) {B2} {feelings} трепетать, дрожать
+
+{C1} {feelings {excitement}}
+              yT ?#  adrenaline [əˈdrɛnəlɪn] (n) {body} {feelings} адреналин
 
 {feelings {fear}}
 .................

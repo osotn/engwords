@@ -60,7 +60,7 @@
    40. (  1) 5T *#PT adoption [əˈdɒpʃ(ə)n] (n) {C1} {preferences and decisions} принятие, {C1} {life stages} {law and justice} усыновление -1
    41. (  1) 5T ?#PT adverse [ˈædvɜːs] (adj) {C1} неблагоприятный, вредный, противоположный
    42. (  2) 5T ?#PT advocate [ˈædvəkɪt->(n)/ˈædvəkeɪt->(v)] (n) {C2} {law and justice} адвокат, {C1} защитник; (v) {C1} {opinion and argument} отстаивать, защищать -1
-   43. (  1) 5T ?#PT aesthetic [(UK)iːsˈθɛtɪk/(US)ɛˈsθɛtɪk] (adj) эстетический
+   43. (  1) 5T ?#PT aesthetic [(UK)iːsˈθɛtɪk/(US)ɛˈsθɛtɪk] (adj) {C1} эстетический
    44. (  1) 3T ?#PT affection [əˈfɛkʃ(ə)n] (n) {C1} {feelings} {personal qualities} привязанность, любовь, склонность, влияние, влечение
 
 
@@ -262,7 +262,7 @@
 
   244. (  1) 5T ?#PT condemn [kənˈdɛm] (v) {C1} {crime and punishment} осуждать, {C1} обречь
  -1
-  246. (  1) 5T ?#PT confession [kənˈfɛʃ(ə)n] (n) {C1} {crime and punishment} признание, {C1} {feelings} исповедь
+  246. (  1) 5T ?#PT confession [kənˈfɛʃ(ə)n] (n) {C1} {crime and punishment} признание, {C1} {feelings} исповедь -1
   247. (  1) 5T *#PT configuration [kənˌfɪgjʊˈreɪʃən] (n) {C1} {C2} {computer} конфигурация, форма, очертание
   248. (  1) 3T ?#PT confine [kənˈfaɪn] (v) ограничивать, придерживаться, заточать, заключать в тюрьму; (n) граница
   249. (  1) 5T ?#PT confirmation [ˌkɒnfəˈmeɪʃən] подтверждение, утверждение
@@ -456,7 +456,7 @@
   436. (  1) 5T ?#PT eligible [ˈɛlɪʤ əbl] (adj) подходящий, могущий быть избранным; (n) право
   437. (  1) 5T *#PT elite [eɪˈliːt] (n) элита; (adj) элитный
   438. (  1) zT ?#PT embark [(UK)ɪmˈbɑːk/(US)ɛmˈbɑrk] (v) начинать, грузить, грузить на корабль
-  439. (  1) 3T ?#PT embarrassment [ɪmˈbærəsmənt] (n) {C1} {feelings} смущение, затруднение, замешательство, конфуз, помеха
+
   440. (  1) xT ?#PT embassy [ˈɛmbəsi] (n) {C1} {politics} {buildings} посольство -1
   441. (  1) 5T *#PT embed [ɪmˈbɛd] (v) {C1} вставлять, встраивать, врезать, внедрять
   442. (  1) 5T ?#PT embody [ɪmˈbɒdi] (v) воплощать, реализовать
@@ -583,7 +583,7 @@
   563. (  1) 5T *#PT gross [grəʊs] (adj) {C1} грубый, крупный, толстый, ужасный
   564. (  1) zT ?#PT guerrilla [ɡəˈrɪlə] (n) {C1} {war and conflict} партизан; (adj) партизанский
 
-  566. (  1) yT ?#PT guilt [gɪlt] (n) вина, чувство вины
+  566. (  1) yT ?#PT guilt [gɪlt] (n) {C1} {law and justice} вина, {C1} {feelings} чувство вины -1
   567. (  1) yT ?#PT gut [gʌt] (n) {C1} {body} кишка, {C1} узкий проход -1
   568. (  1) 5T ?#PT hail [heɪl] (n) {C2} {weather} град; (v) {C1} приветствовать, окликать, звать, поздравлять, переговариваться, {C2} {weather} осыпать градом
   569. (  1) 4T *#PT halfway [ˌhɑːfˈweɪ] (adv) наполовину, на полпути, частично
@@ -890,7 +890,7 @@
   869. (  1) 5T ?#PT personnel [ˌpɜːsəˈnɛl] (n) персонал, кадры, личный состав
   870. (  1) 5T ?#PT petition [pɪˈtɪʃ(ə)n] (n) {C1} ходатайство, петиция, прошение; (v) ходатайствовать, просить
   871. (  1) 4T *#PT philosopher [fɪˈlɒsəfə] (n) философ
-  872. (  1) 4T *#PT philosophical [ˌfɪləˈsɒfɪkəl] (adj) философский
+  872. (  1) 4T *#PT philosophical [ˌfɪləˈsɒfɪkəl] (adj) {C1} философский
 
   874. (  2) 5T *#PT pioneer [ˌpaɪəˈnɪə] (n) пионер, первопроходец; (adj) первый; (v) быть пионером
   875. (  1) 4T *#PT pipeline [paɪˌplaɪn] (n) {C1} трубопровод; (v) прокладывать трубопровод
@@ -1094,7 +1094,7 @@
  1073. (  1) 5T ?#PT shrink [ʃrɪŋk] (v) {C1} сжиматься, уклоняться, I: shrink-shrunk/shrank-shrunk
  1074. (  1) xx ?#PT shrug [ʃrʌɡ] (n) пожимание плечами; (v) {C1} пожимать плечами
  1075. (  2) yT ?#PT sigh [saɪ] (n) {C1} вздох; (v) {C1} {feelings} вздыхать -1
- 1076. (  1) 5T *#PT simulate [ˈsɪmjʊleɪt] (v) имитировать, моделировать, симулировать
+ 1076. (  1) 5T *#PT simulate [ˈsɪmjʊleɪt] (v) {C1} имитировать, моделировать, симулировать
  1077. (  1) xT *#PT simulation [ˌsɪmjʊˈleɪʃən] (n) симуляция, симулирование
  1078. (  1) 4T *#PT simultaneously [ˌsɪməlˈteɪniəsli] -ly: (adj)->(adv) одновременный, симультанный
  1079. (  1) 4T *#PT sin [sɪn] (n) {C1} грех, порок; (v) грешить; (abbr) sine, Social Insurance Number
@@ -1366,7 +1366,7 @@
               xT ?#  tan [tæn] (n) {C1} {colours and shapes} {appearance} {holidays} загар; (v) {C1} {appearance} {holidays} загорать; (abbr) tangent; (adj) {C1} {colours and shapes} желтовато-коричневый -2
               4T ?#  stylist [ˈstaɪlɪst] (n) {C1} {appearance} {jobs} стилист, модельер -1
  -1
-              yT ?#  adrenaline [əˈdrɛnəlɪn] (n) {body} {feelings} адреналин -1
+ -1
               5T ?#  swamp [swɒmp] (n) {C1} {geography} болото; (adj) болотный; (v) заливать, засыпать, засасывать
               5T *#  shield [ʃiːld] (n) {C1} {history} {war and conflict} щит, экран, защита; (v) защищать, экранировать
               yT ?#  guts [gʌts] -es: (n) {C1} {body} кишка, {C1} узкий проход; (n) {C1} {personal qualities} мужество
@@ -1541,7 +1541,7 @@
               5T ?#  counselor [ˈkaʊns(ə)lə] (n) {C1} {suggestions and advice} {jobs} советник, консультант
               zT ?#  exhaustion [ɪgˈzɔːsʧən] (n) {C1} {feelings} истощение, изнеможение
               zT ?#  insecurity [ˌɪnsɪˈkjʊərəti] (n) {C1} {feelings} неуверенность, небезопасность
-              5T ?#  discomfort [dɪsˈkʌmfət] (n) {C1} {health problems} дискомфорт, беспокойство; (v) {C1} {feelings} беспокоить, причинять неудобство -1
+ -1
               xx ?#  shiver [ˈʃɪvə] (n) {C2} {feelings} дрожь, трепет; (v) {C1} {feelings} {health problems} дрожать, трястись -1
               5T ?#  fatigue [fəˈtiːg] (n) {C1} {health problems} {feelings} усталость, утомление -1
               5T ?#  antiseptic [ˌæntiˈsɛptɪk] (adj) {C1} {social issues} антисептический, противогнилостный; (n) {C1} {social issues} {healthcare} антисептическое средство -1
@@ -1684,6 +1684,8 @@
               5T ?#  devotion [dɪˈvəʊʃən] (n) {C1} {family and raltionships} {feelings} преданность, {C2} {religion and festivals} набожность -1
               xx *#  agitate [ˈæʤ ɪteɪt] (v) {C1} {social issues} оагитировать, {C1} {feeling} оволновать -1
               4T ?#  resentful [rɪˈzɛntfʊl] (adj) {C1} {personal qualities} {feelings} обиженный, обидчивый, возмущенный, злопамятный -1
+              5T ?#  drill [drɪl] (n) сверло, дрель, {C2} {education} {language} {war and conflict} упражнение, тренировка; (v) {C1} {the environment} сверлить
+              yT ?#  frontline [ˈfrʌntlaɪn] (adj) {C1} {jobs} передовая
 
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
