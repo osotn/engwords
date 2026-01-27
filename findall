@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 for f in translations/*; do
     if [ "$1" = "-w" ]; then
