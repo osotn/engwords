@@ -441,7 +441,7 @@
   421. (  1) 5T ?#PT dumb [dʌm] (adj) {C1} глупый, тупой
 
   423. (  1) 5T *#PT dynamic [daɪˈnæmɪk] (adj) {B2} {success} {personal qualities} {C1} динамический
-  424. (  1) 5T ?#PT eager [ˈiːgə] (adj) {C1} {feelings} нетерпеливый, стремящийся, сильно желающий
+
   425. (  1) 4T ?#PT earnings [ɜːnɪŋz] (n) прибыль, доход, заработок, выручка
   426. (  2) 3T *#PT ease [iːz] (n) простота, легкость
   427. (  2) xT *#PT echo [ˈekəʊ] (v) {C1} отражаться, {C1} {opinion and argument} поддакивать; (n) {C1} эхо, {C2} {opinion and argument} подражание
@@ -467,7 +467,8 @@
   447. (  1) 5T ?#PT encompass [ɪnˈkʌmpəs] (v) {C1} заключать в себе, охватить
   448. (  1) 3T ?#PT encouragement [ɪnˈkʌrɪʤ mənt] (n) поощрение, ободрение
   449. (  1) xT ?#PT encouraging [ɪnˈkʌrɪʤ ɪŋ] -ing: (v) {B1} {discussing and agreement} поощрять, поддерживать; (n) поощрение; (adj) {C1} обнадеживающий
-  450. (  1) yT ?    endeavour
+              yT ?#  endeavor [ɪnˈdɛvə(r)] (n) {C1} стремление, попытка; (v) стараться, прилагать усилия
+  450. (  1) yT ?#PT endeavour [ɪnˈdɛvə(r)] (n) {C1} стремление, попытка; (v) стараться, прилагать усилия
   451. (  1) 5T *#PT endless [ˈɛndləs] (adj) бесконечный, нескончаемый
   452. (  1) yT ?#PT endorse [ɪnˈdɔːs] (v) поддерживать, одобрять
   453. (  1) xT ?#PT endorsement [ɛnˈdɔrsmənt] (n) {C1} {business} {tv, radio and news} поддержка, подтверждение -1
@@ -481,7 +482,7 @@
 
 
   463. (  1) 5T ?#PT enterprise [ˈɛntəpraɪz] (n) {C1} {business} {success} предприятие, предпринимательство, предприимчивость -1
-  464. (  1) yT ? PT enthusiast [] 
+  464. (  1) yT ?#PT enthusiast [ɪnˈθjuːziæst] (n) {C1} {feelings} восторженный человек, {C1} энтузиаст -1
   465. (  1) 3T ?#PT entitle [ɪnˈtaɪtl] (v) давать право, называть, озаглавливать
   466. (  1) 5T *#PT entity [ˈɛntɪti] (n) объект, сущность
   467. (  1) 5T ?#PT epidemic [ˌɛpɪˈdɛmɪk] (n) {C1} {health problems} эпидемия, {C1} вспышка болезни; (adj) эпидемический -1
@@ -594,7 +595,7 @@
   574. (  1) xT ?#PT harassment [ˈhærəsmənt] (n) {C1} беспокойство, раздражение, забота, домогательство
   575. (  1) 5T *#PT hardware [ˈhɑːdweə] (n) {C1} {computers} {shopping} аппаратные средства, аппаратура -1
   576. (  1) 5T ?#PT harmony [ˈhɑːməni] (n) {C1} {opinion and argument} {social issues} {music} {art} гармония, согласие, стройность -2
-  577. (  1) 5T ?#PT harsh [hɑːʃ] (adj) резкий, суровый, жесткий, грубый, строгий
+  577. (  1) 5T ?#PT harsh [hɑːʃ] (adj) {C1} резкий, суровый, жесткий, строгий, {C1} {personal qualities} грубый
   578. (  2) 5T *#PT harvest [ˈhɑːvɪst] (n) урожай; (v) собирать урожай
 
   580. (  1) 5T ?#PT haunt [hɔːnt] (v) {C1} {difficulty and failure} преследовать, {C1} часто посещать -1
@@ -645,7 +646,7 @@
   625. (  1) 3T ?#PT infect [ɪnˈfɛkt] (v) {C1} {health problems} {computers} заражать -1
   626. (  1) 5T ?#PT inflict [ɪnˈflɪkt] (v) причинять, налагать, навязывать
   627. (  1) 5T *#PT influential [ˌɪnflʊˈɛnʃəl] (adj) {C1} влиятельный, важный
-  628. (  1) 5T ?#PT inherent [ɪnˈhɪərənt] (adj) присущий, неотъемлемый, свойственный
+  628. (  1) 5T ?#PT inherent [ɪnˈhɪərənt] (adj) {C1} присущий, неотъемлемый, свойственный
   629. (  1) 5T ?#PT inhibit [ɪnˈhɪbɪt] (v) {C1} подавлять, препятствовать, тормозить, сдерживать
   630. (  1) 5T ?#PT initiate [ɪˈnɪʃɪɪt/ɪˈnɪʃɪeɪt] (adj) посвященный; (v) начинать; (n) лицо, принятое в общество
   631. (  1) 5T ?#PT inject [ɪnˈʤ ɛkt] (v) {C1} {healthcare} вводить, впрыскивать, {C1} вставлять; (n) впрыскивание -1
@@ -1280,7 +1281,7 @@
  1259. (  2) 5T ?#PT upgrade [ʌpˈgreɪd->(v)/ˈʌpgreɪd->(n)] (v) модернизировать, улучшать породу, обогащать, повышать в должности; (n) модернизация, подъем
  1260. (  1) 5T ?#PT uphold [ʌpˈhəʊld] (v) {C1} {preferences and decisions} {law and justice} поддерживать, {C1} придерживаться -1
  1261. (  1) 5T *#PT utility [ju(ː)ˈtɪlɪti] (n) {C1} {money} утилита, полезность; (adj) вспомогательный
- 1262. (  1) 5T *#PT utilize [ˈjuːtɪˌlaɪz] (v) использовать, утилизировать
+ 1262. (  1) 5T *#PT utilize [ˈjuːtɪˌlaɪz] (v) {C1} использовать, утилизировать
  1263. (  1) 5T ?#PT utterly [ˈʌtəli] -ly: (adj) {C2} полный, абсолютный; (adv) {C1} крайне, абсолютно, чрезвычайно, вконец
  1264. (  1) 5T *#PT vacuum [ˈvækjʊəm] (n) {C1} {physics and chemistry} вакуум; (v) {B2} {houses and homes} пылесосить
  1265. (  1) 5T ?#PT vague [veɪg] (adj) неопределенный, неясный, расплывчатый
@@ -1663,7 +1664,6 @@
               5T ?#  vocational [vəʊˈkeɪʃənl] (adj) {C1} {education} {jobs} профессиональное, профессиональный -1
               yT ?#  zoology [zəʊˈɒləʤ i] (n) {C1} {education} {scientific research} {biology} зоология -1
               5T ?#  iceberg [ˈaɪsbɜːɡ] (n) {C1} {geography} айсберг, ледяная гора
-              5T ?#  fascination [ˌfæsɪˈneɪʃ(ə)n] (n) {C1} {feelings} очарование, обаяние, прелесть
               yT ?#  jolly [ˈʤ ɒli] (adj) {C1} {personal qualities} веселый; (adv) очень
               zT ?#  adoptive [əˈdɒptɪv] (adj) {C1} {life stages} {family and relationships} приемный -1
               5T ?#  ancestry [(UK)ˈænsɪstri/(US)ˈænsɛstri] (n) {C1} {history} {family and relationships} {people in society} происхождение, родословная, предки -1
@@ -1690,8 +1690,10 @@
               5T ?#  desolate [ˈdɛsəlɪt->(adj)/ˈdɛsəleɪt->(v)] (adj) {C1} {geography} {feelings} заброшенный; (v) опустошать -1
               5T ?#  affectionate [əˈfɛkʃnɪt] (adj) {C1} {feelings} {personal qualities} нежный, любящий -1
               xT *#  loving [lʌvɪŋ] -ing: (v)(stative) {A1} {feelings} {preference and decisions} любить; (adj) {C1} {feelings} {personal qualities} любящий, нежный -1
+              5T ?#  reap [riːp] (v) {C1} {farming} пожинать, жать; (n) сноп
 
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
+
 
 
