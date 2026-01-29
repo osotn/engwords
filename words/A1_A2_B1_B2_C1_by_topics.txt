@@ -10677,8 +10677,9 @@ People
   464. (  1) yT ?#PT enthusiast [ɪnˈθjuːziæst] (n) {C1} {feelings} восторженный человек, {C1} энтузиаст
               5T ?#  fascination [ˌfæsɪˈneɪʃ(ə)n] (n) {C1} {feelings} очарование, обаяние, прелесть
               xx ?#  inquisitive [ɪnˈkwɪzətɪv] (adj) {C1} {feelings} любознательный, пытливый
-
-<here>
+              5T ?#  intrigue [ɪnˈtriːg] (n) интрига, интрижка; (v) {C1} {feelings} заинтриговать, интриговать
+              zT ?#  intrigued [ɪnˈtriːgd] -ed: (v) {C1} {feelings} заинтриговать, интриговать; (adj) {C1} {feelings} = very interested in smth/smbd and wanting to know more about it/them
+              5T ?#  stimulate [ˈstɪmjʊleɪt] (v) {B2} стимулировать, поощрять, {C1} {feelings} побуждать, возбуждать
 
 {feelings {surprise}}
 .....................
@@ -10702,6 +10703,17 @@ People
               1T *#  shake [ʃeɪk] (v) {A2} {B1} трясти, {A2} {opinion and argument} = to take somebody's hand, поколебать, {B1} {B2} {feelings} дрожать, I: shake-shook-shaken; (n) {B1} {C1} {health problem} дрожание, встряска
  1169. (  2) 3T *#PT shock [ʃɒk] (n) {B2} шок, {B2} {engineering} {health problems} удар, {B2} {the environment} потрясение; (v) {B2} {feelings} шокировать, {B2} потрясать
 
+{C1} {feelings {surprise}}
+              4T ?#  astonishment [əsˈtɒnɪʃmənt] (n) {C1} {feelings} удивление
+              5T ?#  astound [əˈstaʊnd] (v) {C1} {feelings} поражать, изумлять
+              xx ?#  astounded [əˈstaʊndɪd] -ed: (v) {C1} {feelings} поражать, изумлять; (adj) {C1} {feelings} пораженный
+              4T ?#  gasp [gɑːsp] (n) удушье; (v) задыхаться, {C1} {feelings} страстно желать
+              5T ?#  marvel [ˈmɑrvəl] (n) {C2} {success} чудо, диво; (v) {C1} {feelings} восхищаться, удивляться
+ 1059. (  1) 5T ?#PT sensation [sɛnˈseɪʃən] (n) {C1} ощущение, сенсация, {C1} {feelings} чувство
+              5T ?#  sensational [sɛnˈseɪʃənl] (adj) сенсационный, {C1} {feelings} поразительный, нашумевший
+              xx *#  speechless [ˈspiːʧlɪs] (adj) немой, безмолвный, онемевший, {C1} {feelings} = not able to speak,especially because you are extremely angry
+ 1140. (  1) 5T ?#PT stun [stʌn] (v) {C1} {feelings} оглушать, ошеломлять; (n) шок; (abbr) Session Traversal Utilities for NAT
+
 {feelings {thirst}}
 ...................
 {A1} {feelings {thirst}}
@@ -10711,6 +10723,8 @@ People
 {B1} {feelings {thirst}}
 {B2} {feelings {thirst}}
               zT ?#  thirst [θɜːst] (n) {B2} {feelings} {drinks} жажда, тяга; (v) жаждать, хотеть пить
+
+{C1} {feelings {thirst}}
 
 {feelings {tiredness}}
 ......................
@@ -10724,6 +10738,12 @@ People
 
 {B2} {feelings {tiredness}}
               5T ?#  exhausting [ɪgˈzɑstɪɪŋ] -ing: (v) извести, затрахать, истощать; (adj) {B2} {feelings} изнурительный, утомительный
+
+{C1} {feelings {tiredness}}
+              3T *#  broken [brəʊkn] -2ed: (v) {A1} сломить, вырваться, {A1} {engineering} ломать, I: break-broke-broken; (adj) {A2} {health problems} {C1} {feelings} разбитый, сломанный
+              zT ?#  exhaustion [ɪgˈzɔːsʧən] (n) {C1} {feelings} истощение, изнеможение
+              5T ?#  fatigue [fəˈtiːg] (n) {C1} {health problems} {feelings} усталость, утомление
+              yT ?#  shattered [ˈʃætəd] -ed: (v) поколебать, {C1} {physics and chemistry} разрушать, {C1} расшатывать; (adj) {C1} {feelings} разбитый
 
 {feelings {unhappiness}}
 ........................
@@ -10762,6 +10782,10 @@ People
   957. (  1) 3T *#PT pity [ˈpɪti] (n) {B2} {C1} {feelings} жалость, сострадание, сожаление; (v) {B2} {feelings} жалеть, соболезновать
  1329. (  1) 4T *#PT tragic [ˈtræʤ ɪk] (adj) {B2} {feelings} {C1} {literature and writing} трагический, печальный
               3T ?#  upsetting [ʌpˈsɛtɪŋ] -ing: (v) {B1} {feelings} {health and fitness} расстраивает, огорчать, I: upset-upset-upset; (adj) {B2} {feelings} обсадной
+
+{C1} {feelings {unhappiness}}
+
+<here>
 
 {feelings {worry}}
 ..................
