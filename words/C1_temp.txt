@@ -295,7 +295,7 @@
   276. (  1) xT *#PT continually [kənˈtɪnjuəli/kənˈtɪnjuli] беспрестанно
   277. (  1) 5T ?#PT contractor [kənˈtræktə] (n) {C1} подрядчик, поставщик
 
-  279. (  2) 5T ?#PT contrary [ˈkɒntrəri->(n,adj)/kənˈtreəri->(v)] (adv) вопреки, против; (n) противоположность; (adj) противоположный
+  279. (  2) 5T ?#PT contrary [ˈkɒntrəri->(n,adj)/kənˈtreəri->(v)] (adv) вопреки, против; (n) {C1} противоположность; (adj) {C1} противоположный, {C2} {personal qualities} противный
  -1
              3T *#PT convention [kənˈvɛnʃən] (n) {C1} {discussion and agreement} {politics} конвенция, {B2} соглашение, собрание, {C1} условность -1
   281. (  1) 5T ?#PT conversion [kənˈvɜːʃən] (n) превращение, конверсия, переход, изменение, обращение, конвертация, перевод, пересчет; (adj) конверсионный
@@ -563,7 +563,7 @@
   542. (  1) 3T *#PT gallon [ˈgælən] (n) галлон
   543. (  1) 3T *#PT gambling [ˈgæmblɪŋ] -ing: (v) рисковать, играть в азартные игры; (adj) игорный; (n) азартная игра
   544. (  1) 4T *#PT gathering [ˈgæðəɪŋ] -ing: (v) {B1} собирать
-  545. (  2) yT ?#PT gaze [geɪz] (n) взор; (v) посмотреть, пристально глядеть
+  545. (  2) yT ?#PT gaze [geɪz] (n) {C1} взор; (v) {C1} посмотреть, пристально глядеть
   546. (  1) 3T ?#PT gear [gɪə] (n) механизм, шестерня, зубчатое колесо, передача; (v) запрягать, приспосабливать, сцепляться
   547. (  1) xT *#PT generic [ʤ ɪˈnɛrɪk] (adj) общий, родовой; (n) непатентованное средство
   548. (  1) yT ?#PT genocide [ˈʤ ɛnəʊsaɪd] (n) {C1} {crime and punishment} геноцид
@@ -1074,7 +1074,7 @@
  1052. (  1) 5T ?#PT secular [ˈsɛkjʊlə] (adj) светский, мирской, вековой
  1053. (  1) 5T ?#PT seemingly [siːmɪŋli] -ing & -ly: (v) казаться
  1054. (  1) 5T *#PT segment [ˈsɛgmənt->(n)/sɛgˈmɛnt->(v)] (n) сегмент, отрезок, {C1} {maths and measurement} часть, {C2} {food} доля, долька, кусок; (v) делить на сегменты, делиться на сегменты
- 1055. (  1) 4T ?#PT seize [siːz] (v) воспользоваться, схватить, конфисковать
+ 1055. (  1) 4T ?#PT seize [siːz] (v) {C1} воспользоваться, схватить, {C1} {law and justice} {crime and punishment} конфисковать
  1056. (  1) 4T *#PT seldom [ˈsɛldəm] (adv) редко
  1057. (  1) xT *#PT selective [sɪˈlɛktɪv] (adj) {C1} избирательный, выбирающий
  1058. (  1) 3T *#PT senator [ˈsɛnətə] (n) {C1} {politics} сенатор
@@ -1108,7 +1108,7 @@
  1086. (  1) 4T ?#PT slavery [ˈsleɪvəri] (n) {C1} рабство, рабовладение, неволя
  1087. (  1) xT *#PT slot [slɒt] (n) слот, шлиц, щель, паз; (v) прорезать
  1088. (  1) 3T ?#PT smash [smæʃ] (v) разгромить; (n) банкротство
- 1089. (  1) 5T ?#PT snap [snæp] (n) щелчок, хватка, кнопка, треск; (v) щелкать; (adj) поспешный
+ 1089. (  1) 5T ?#PT snap [snæp] (n) щелчок, хватка, кнопка, треск; (v) {C1} щелкать, огрызнуться, укусить, цапнуть; (adj) поспешный
  1090. (  1) yT ?#PT soak [səʊk] (v) {C1} впитывать, {C1} {weather} вымочить, мочить, намочить; (n) замачивание
  1091. (  1) yT ?#PT soar [sɔː] (v) {C1} {transport by air} {momey} {birds} парить, {C1} витать -1
  1092. (  1) 4T *#PT socialist [ˈsəʊʃəlɪst] (n) социалист; (adj) социалистический
@@ -1691,6 +1691,8 @@
               xT *#  loving [lʌvɪŋ] -ing: (v)(stative) {A1} {feelings} {preference and decisions} любить; (adj) {C1} {feelings} {personal qualities} любящий, нежный -1
               5T ?#  reap [riːp] (v) {C1} {farming} пожинать, жать; (n) сноп
               yT ?#  envy [ˈɛnvi] (n) {C1} {feelings} зависть; (v) {C1} {feelings} завидовать
+              4T *#  overhead [ˈəʊvɛhɛd] (n) накладные расходы; (adj) {C2} {business} верхний; {C1} {weather} наверху, на небе
+              zT ?#  uneasy [ʌnˈiːzi] -un: (adj) {A1} {working life} {C1} {personal qualites} легко, спокойно, легкий, удобный; (adj) {C1} {feelings} беспокойный, тревожный
 
               
 
