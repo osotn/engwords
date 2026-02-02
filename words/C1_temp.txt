@@ -147,7 +147,7 @@
   128. (  1) yT ?#PT beloved [bɪˈlʌvɪd/bɪˈlʌvd] (adj) возлюбленный; (n) любимая
   129. (  1) 4T *#PT bench [bɛnʧ] (n) {C1} {gardens} {sports: ball and racket sports} скамья
   130. (  1) xT ?#PT benchmark [ˈbɛnʧmɑːk] (n) отметка уровня, ориентир
-  131. (  1) 3T ?#PT beneath [bɪˈniːθ] (prep) под, ниже; (adv) ниже, внизу
+  131. (  1) 3T ?#PT beneath [bɪˈniːθ] (prep) {C1} под, ниже; (adv) ниже, внизу
   132. (  1) yT ?#PT beneficiary [ˌbɛnɪˈfɪʃəri] (n) бенефициар, глава церковного прихода, феодальный вассал, тот,_кто пользуется благодеяниями
   133. (  1) 5T ?#PT betray [bɪˈtreɪ] (v) {C1} предавать, изменять, выдавать
   134. (  1) xT *#PT bind [baɪnd] (v) {C1} связывать, привязывать, I: bind-bound-bound
@@ -824,7 +824,7 @@
   802. (  1) 3T *#PT net [nɛt] (n) {B1} сети, сеть, {A2} {sports: ball and racket sports} сетка
   803. (  1) xT ?#PT newsletter [ˈnjuːzˌlɛtə] (n) {C1} новостная рассылка
   804. (  1) 5T ?#PT niche [niːʃ/nɪʧ] (n) ниша, убежище, надлежащее место; (v) помещать в нишу, удобно устроиться
-  805. (  1) 4T ?#PT noble [ˈnəʊbl] (adj) благородный; (n) дворянин, нобль, пэр Англии, титулованное лицо
+  805. (  1) 4T ?#PT noble [ˈnəʊbl] (adj) {C1} {personal qualities} {people in society} благородный; (n) {C1} {history} {people in society} дворянин, нобль, пэр Англии, титулованное лицо
 
   807. (  1) 5T *#PT nominate [ˈnɒmɪneɪt] (v) {C1} {suggestions and advice} {politics} назначать -1
   808. (  1) xT *#PT nomination [ˌnɒmɪˈneɪʃn] (n) {C1} {suggestions and advice} {politics} номинация, назначение -1
@@ -1693,6 +1693,9 @@
               yT ?#  envy [ˈɛnvi] (n) {C1} {feelings} зависть; (v) {C1} {feelings} завидовать
               4T *#  overhead [ˈəʊvɛhɛd] (n) накладные расходы; (adj) {C2} {business} верхний; {C1} {weather} наверху, на небе
               zT ?#  uneasy [ʌnˈiːzi] -un: (adj) {A1} {working life} {C1} {personal qualites} легко, спокойно, легкий, удобный; (adj) {C1} {feelings} беспокойный, тревожный
+              xx ?#  downpour [ˈdaʊnpɔː] (n) {C1} {weather} ливень
+              5T ?#  irritable [ˈɪrɪtəbl] (adj) {C1} {personal qualities} раздражительный, раздражимый
+              zT ?#  headlight [ˈhɛdlaɪt] (n) {C1} {transport by car or lorry} фара
 
               
 
