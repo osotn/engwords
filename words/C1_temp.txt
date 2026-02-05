@@ -128,7 +128,7 @@
   109. (  1) xT *#PT auto [ˈɔːtəʊ] (n) автомобиль, (adj) автоматический
   110. (  1) 5T *#PT autonomy [ɔˈtɑnəmi] (n) автономия
   111. (  1) 4T *#PT availability [əˌveɪləˈbɪlɪti] (n) наличие, пригодность
-  112. (  1) 4T ?#PT await [əˈweɪt] (v) ждать, ожидать
+  112. (  1) 4T ?#PT await [əˈweɪt] (v) {C1} ждать, ожидать
   113. (  1) 5T ? PT backdrop [ˈbækdrɒp] (n) {C1} {film and theatre} фон
   114. (  1) 4T ?#PT backing [bækɪŋ] -ing: (v) {B2} {business} {money} поддерживать
   115. (  1) xT ?#PT backup [ˈbækʌp] резервный, дублирующий
@@ -587,7 +587,7 @@
   566. (  1) yT ?#PT guilt [gɪlt] (n) {C1} {law and justice} вина, {C1} {feelings} чувство вины -1
   567. (  1) yT ?#PT gut [gʌt] (n) {C1} {body} кишка, {C1} узкий проход -1
   568. (  1) 5T ?#PT hail [heɪl] (n) {C2} {weather} град; (v) {C1} приветствовать, окликать, звать, поздравлять, переговариваться, {C2} {weather} осыпать градом
-  569. (  1) 4T *#PT halfway [ˌhɑːfˈweɪ] (adv) наполовину, на полпути, частично
+  569. (  1) 4T *#PT halfway [ˌhɑːfˈweɪ] (adv) {C1} наполовину, на полпути, частично
   570. (  2) 5T ?#PT halt [hɔːlt] остановка, привал, хромать, останавливать
   571. (  1) 5T ?#PT handful [ˈhændfʊl] (n) {C1} горсть
   572. (  1) 4T *#PT handling [ˈhændlɪŋ] -ing: (v) {B2} обращаться, управлять
@@ -1106,8 +1106,8 @@
  1084. (  1) yT ?#PT slap [slæp] (n) пощечина, шлепок; (v) {C1} шлепать; (adv) прямо
  1085. (  1) 5T *#PT slash [slæʃ] (v) {C1} хлестать, сокращать, порезать; (n) {C1} {computers} {language} косая черта, сокращение -1
  1086. (  1) 4T ?#PT slavery [ˈsleɪvəri] (n) {C1} рабство, рабовладение, неволя
- 1087. (  1) xT *#PT slot [slɒt] (n) слот, шлиц, щель, паз; (v) прорезать
- 1088. (  1) 3T ?#PT smash [smæʃ] (v) разгромить; (n) банкротство
+ 1087. (  1) xT *#PT slot [slɒt] (n) {C1} слот, шлиц, щель, паз; (v) прорезать
+ 1088. (  1) 3T ?#PT smash [smæʃ] (v) {C1} разгромить, {C1} {transport by cat or lorry} разбивать; (n) банкротство, {C2} {film and theatre} огромный успех, {C2} {sports: ball and racket sports} столкновение
  1089. (  1) 5T ?#PT snap [snæp] (n) щелчок, хватка, кнопка, треск; (v) {C1} щелкать, огрызнуться, укусить, цапнуть; (adj) поспешный
  1090. (  1) yT ?#PT soak [səʊk] (v) {C1} впитывать, {C1} {weather} вымочить, мочить, намочить; (n) замачивание
  1091. (  1) yT ?#PT soar [sɔː] (v) {C1} {transport by air} {momey} {birds} парить, {C1} витать -1
@@ -1286,7 +1286,7 @@
  1264. (  1) 5T *#PT vacuum [ˈvækjʊəm] (n) {C1} {physics and chemistry} вакуум; (v) {B2} {houses and homes} пылесосить
  1265. (  1) 5T ?#PT vague [veɪg] (adj) неопределенный, неясный, расплывчатый
  1266. (  1) 5T ?#PT validity [vəˈlɪdɪti] (n) действительность, обоснованность, законность
- 1267. (  1) 5T ?#PT vanish [ˈvænɪʃ] (v) исчезать, пропадать, стремиться к нулю, сбегать
+ 1267. (  1) 5T ?#PT vanish [ˈvænɪʃ] (v) {C1} исчезать, пропадать, стремиться к нулю, сбегать
  1268. (  2) 5T *#PT variable [ˈveərɪəbl] (n) {C1} {maths and measurement} переменная; (adj) переменный
  1269. (  1) 3T *#PT varied [ˈveərid] -ed: (v) {B2} изменять; (adj) {C1} разнообразный, различный, разный
 
@@ -1330,7 +1330,7 @@
  1308. (  1) 4T *#PT widow [ˈwɪdəʊ] (n) вдова; (v) лишать
  1309. (  1) 3T *#PT width [wɪdθ] (n) {C1} {maths and measurement} {sports: water sports} ширина, широта
  1310. (  1) 3T ?#PT willingness [ˈwɪlɪŋnɪs] (n) {C1} готовность
- 1311. (  1) 4T ?#PT wipe [waɪp] (v) протирать, вытирать
+ 1311. (  1) 4T ?#PT wipe [waɪp] (v) {C1} протирать, вытирать
  1312. (  1) 5T ?#PT wit [wɪt] (n) остроумие, ум
  1313. (  1) 5T ?#PT withdrawal [wɪðˈdrɔːəl] (n) {C1} {money} изъятие, {C1} вывод войск, увод, {C1} {social issues} {health problems} = the period of time when somebody is getting used to not taking a drug that they have become addicted to and unpleasant effects of doing this -1
 
@@ -1696,6 +1696,16 @@
               xx ?#  downpour [ˈdaʊnpɔː] (n) {C1} {weather} ливень
               5T ?#  irritable [ˈɪrɪtəbl] (adj) {C1} {personal qualities} раздражительный, раздражимый
               zT ?#  headlight [ˈhɛdlaɪt] (n) {C1} {transport by car or lorry} фара
+              yT ?#  knob [nɑb] (n) {C1} {engineering} ручка, кнопка; (v) выпячиваться
+              yT ?#  snatch [snæʧ] (v) урвать, схватить, {C1} {crime and punishment} похищать; (n) рывок, обрывок
+              4T ?#  tulip [ˈtjuːlɪp] (n) {C1} {plants and trees} тюльпан
+              5T ?#  gloomy [ˈgluːmi] (adj) {C1} {weather} {feelings} мрачный, угрюмый, хмурый, унылый
+              4T ?#  outskirts [ˈaʊtˌskɜːts] (n) {C1} {geography} {buildings} окраина
+              xx ?#  cornflakes [ˈkɔːnfleɪks] (n) {C1} {food} кукурузные хлопья, корнфлекс
+              5T ?#  timid [ˈtɪmɪd] (adj) {C1} {personal qualities} робкий
+              5T ?#  seaweed [ˈsiːwiːd] (n) {C1} {plants and trees} морская водоросль
+              xT ?#  cannon [ˈkænən] (n) {C1} {history} {war and conflict} пушка, орудие
+              xx ?#  growl [ɡraʊl] (v) {C1} {animals} рычать; (n) {C1} {animals} рычание
 
               
 
