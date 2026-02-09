@@ -40,7 +40,7 @@
 
 
 
-   23. (  1) 5T ?#PT accusation [ˌækjəˈzeɪʃ(ə)n] (n) обвинение, обвинительный акт
+   23. (  1) 5T ?#PT accusation [ˌækjəˈzeɪʃ(ə)n] (n) {C1} обвинение, обвинительный акт
    24. (  1) xT ?#PT accused [əˈkjuːzd] -ed: (v) {B2} обвинять, винить, предъявлять обвинение; (n) {C1} обвиняемый, подсудимый
    25. (  1) 3T ?#PT acid [ˈæsɪd] (n) {B2} {physics and chemistry} кислота; (adj) {C1} {physics and chemistry} кислотный, едкий
    26. (  1) 5T ?#PT acquisition [ˌækwɪˈzɪʃ(ə)n] (n) {C1} приобретение, {C1} {business} сбор, овладение
@@ -216,13 +216,13 @@
   197. (  1) 5T *#PT classification [ˌklæsəfəˈkeɪʃən] классификация
   198. (  1) 5T ?#PT cling [klɪŋ] (v) {C1} цепляться
   199. (  1) 5T ?#PT clinical [ˈklɪnɪkəl] (adj) {C1} клинический
-  200. (  1) xT ?#PT closure [ˈkləʊʒə] (n) закрытие, завершение, смыкание; (v) закрывать прения
+  200. (  1) xT ?#PT closure [ˈkləʊʒə] (n) {C1} закрытие, завершение, смыкание, {C1} {transport by car or lorry} = temporary closing of a road or bridge; (v) закрывать прения
   201. (  1) 5T ?#PT cluster [ˈklʌstə] 5T ?#  cluster [ˈklʌstə] (n) {C1} скопление, рой, концентрация, {C1} {language} = a group of consonants that come together in a word or phase for example /str/; (v) расти пучками, собираться группами -1
   202. (  1) 5T ?#PT coalition [ˌkoʊəˈlɪʃən] (n) {C1} {politics} коалиция, объединение, {C1} союз; (adj) коалиционный
   203. (  1) 4T ?#PT coastal [ˈkəʊstəl] (adj) береговой; (v) судно береговой охраны
   204. (  1) 4T *#PT cocktail [ˈkɒkteɪl] (n) {C1} {drinks} {food} коктейль, {C1} = a mixture of different substances or elements -2
   205. (  1) 5T *#PT cognitive [ˈkɒɡnɪtɪv] (adj) {C1} познавательный
-  206. (  1) 5T ?#PT coincide [ˌkəʊɪnˈsaɪd] (v) совпадать
+  206. (  1) 5T ?#PT coincide [ˌkəʊɪnˈsaɪd] (v) {C1} совпадать
   207. (  1) 5T ?#PT collaborate [kəˈlæbəreɪt] (v) {C1} {discussion and agreement} сотрудничать, {C1} сотрудничать с врагом -1
   208. (  1) 5T ?#PT collaboration [kəˌlæbəˈreɪʃən] (n) {C1} {discussion and agreement} сотрудничество, {C1} совместная работа -1
   209. (  1) 5T ?#PT collective [kɒˈlɛktɪv] (n) коллектив, колхоз; (adj) коллективный
@@ -366,7 +366,7 @@
   346. (  1) 4T ?#PT delegation [ˌdɛlɪˈɡeɪʃ(ə)n] (n) {C1} = a group of people who represent the view of an organization/country/etc., делегация, = the process of giving somebody work or responsibilities that would usually be yours, делегирование
   347. (  1) 3T *#PT delicate [ˈdɛlɪkɪt] (adj) {C1} {health problems} тонкий, {C1} деликатный, нежный -1
   348. (  1) yT *#PT demon [ˈdiːmən] (n) демон
-  349. (  1) xT ?#PT denial [dɪˈnaɪəl] (n) отказ, отрицание, отречение, отклонение
+  349. (  1) xT ?#PT denial [dɪˈnaɪəl] (n) {C1} отказ, отрицание, отречение, отклонение
   350. (  1) 5T ?#PT denounce [dɪˈnaʊns] (v) денонсировать, осуждать, разоблачать, доносить, обвинять
   351. (  1) 5T ?#PT dense [dɛns] (adj) {C1} плотный
   352. (  1) 5T *#PT density [ˈdɛnsɪti] (n) плотность
@@ -387,7 +387,7 @@
   367. (  1) xT *#PT detection [dɪˈtɛkʃən] (n) обнаружение, выявление, детектирование, расследование
   368. (  1) yT ?#PT detention [dɪˈtɛnʃ(ə)n] (n) {C1} {crime and punishment} {education} задержание, арест, оставление после уроков -1
 
-  370. (  1) 5T ?#PT devastate [ˈdɛvəsteɪt] (v) {C1} {feelings} опустошать, разорять
+
   371. (  1) 4T *#PT devil [ˈdɛvl] (n) {C1} дьявол
   372. (  1) 5T ?#PT devise [dɪˈvaɪz] (v) разрабатывать, {C1} изобретать, придумывать, завещать
 
@@ -422,10 +422,10 @@
   402. (  1) 5T *#PT distinction [dɪsˈtɪŋkʃən] (n) {C1} различие
   403. (  1) 5T ?#PT distinctive [dɪsˈtɪŋktɪv] (adj) отличительный
   404. (  1) 5T ?#PT distort [dɪsˈtɔːt] искажать, извращать, искривлять
-  405. (  2) 5T ?#PT distress [dɪsˈtrɛs] (n) {C1} {social issues} {danger} {transsport by water} {transport by air} бедствие, горе, {C1} {feelings} страдание, несчастье, беда; (v) {C1} {feelings} огорчать -1
+  405. (  2) 5T ?#PT distress [dɪsˈtrɛs] (n) {C1} {social issues} {danger} {transport by water} {transport by air} бедствие, горе, {C1} {feelings} страдание, несчастье, беда; (v) {C1} {feelings} огорчать -2
   406. (  1) 3T ?#PT disturbing [dɪsˈtɜːbɪŋ] -ing: (v) {B2} беспокоить, мешать, нарушать, побеспокоить, {C1} волновать; (adj) {C1} тревожный, волнующий
   407. (  1) 5T ?#PT divert [daɪˈvɜːt] (v) {C1} отвлекать, отводить, отклонять
-  408. (  1) xT ?#PT divine [dɪˈvaɪn] (adj) божественный, божий; (v) угадывать
+  408. (  1) xT ?#PT divine [dɪˈvaɪn] (adj) {C1} {religion and festivals} божественный, божий; (v) {C2} {doubt, guessing and certainty} угадывать
   409. (  1) 5T ?#PT doctrine [ˈdɒktrɪn] (n) доктрина
   410. (  1) 5T *#PT documentation [ˌdɒkjʊmɛnˈteɪʃən] (n) документация
 
@@ -588,7 +588,7 @@
   567. (  1) yT ?#PT gut [gʌt] (n) {C1} {body} кишка, {C1} узкий проход -1
   568. (  1) 5T ?#PT hail [heɪl] (n) {C2} {weather} град; (v) {C1} приветствовать, окликать, звать, поздравлять, переговариваться, {C2} {weather} осыпать градом
   569. (  1) 4T *#PT halfway [ˌhɑːfˈweɪ] (adv) {C1} наполовину, на полпути, частично
-  570. (  2) 5T ?#PT halt [hɔːlt] остановка, привал, хромать, останавливать
+  570. (  2) 5T ?#PT halt [hɔːlt] (n) {C1} остановка, привал; (v) {C1} хромать, останавливать
   571. (  1) 5T ?#PT handful [ˈhændfʊl] (n) {C1} горсть
   572. (  1) 4T *#PT handling [ˈhændlɪŋ] -ing: (v) {B2} обращаться, управлять
   573. (  1) 5T ?#PT handy [ˈhændi] (adj) {C1} удобный, {C1} {buildings} портативный -1
@@ -639,7 +639,7 @@
   618. (  1) yT ?#PT indictment [ɪnˈdaɪtmənt] (n) обвинительный акт, обвинение, акт
   619. (  1) xT ?#PT indigenous [ɪnˈdɪʤ ənəs] (adj) {C1} {people in society} {animals} местный, туземный, здешний -1
  -1
-  621. (  1) zT ?#PT indulge [ɪnˈdʌlʤ ] (v) предаваться, баловать, потворствовать
+  621. (  1) zT ?#PT indulge [ɪnˈdʌlʤ ] (v) {C1} предаваться, баловать, потворствовать
   622. (  1) yT *#PT inequality [ˌɪnɪˈkwɑləti/ˌɪnəˈkwɑləti] (n) неравенство
   623. (  1) yT ?#PT infamous [ˈɪnfəməs] (adj) {C1} {personal qualities} позорный, бесчестный, постыдный
   624. (  1) xT ?#PT infant [ˈɪnfənt] (n) {C1} {life stages} младенец, {C1} ребенок
@@ -756,7 +756,7 @@
   735. (  2) 4T ?#PT mainstream [ˈmeɪnstriːm] (n) {C1} {preferences and decisions} {politics} основное направление, главная линия; (adj) {C1} = considered normal because it reflects what is done or accepted by most people -1
   736. (  1) 5T ?#PT maintenance [ˈmeɪntənəns] (n) обслуживание, поддержание
   737. (  1) 5T ?#PT mandate [ˈmændeɪt] (n) мандат; (v) give someone authority to act in a certain way
-  738. (  1) 5T *#PT mandatory [ˈmændətəri] (adj) обязательный
+  738. (  1) 5T *#PT mandatory [ˈmændətəri] (adj) {C1} обязательный
   739. (  1) yT ?#PT manifest [ˈmænɪfɛst] (n) манифест, декларация; (v) проявлять, обнаруживать; (adj) явный
   740. (  1) 5T *#PT manipulate [məˈnɪpjʊleɪt] (v) {C1} манипулировать, воздействовать
   741. (  1) 4T *#PT manipulation [məˌnɪpjʊˈleɪʃən] (n) {C1} манипуляция, манипулирование, обращение, операции
@@ -854,8 +854,8 @@
   832. (  1) yT *#PT optimism [ˈɒptɪmɪzm] (n) {C1} {success} {personal qualities} оптимизм -1
  -2
   834. (  1) 4T *#PT organizational [ˌɔːgənaɪˈzeɪʃən(ə)l] (adj) организационной
-  835. (  1) 5T *#PT orientation [ˌɔːriɛnˈteɪʃən] (n) ориентация
-  836. (  1) 5T ?#PT originate [əˈrɪʤ ɪneɪt] (v) происходить, возникать, создавать
+  835. (  1) 5T *#PT orientation [ˌɔːriɛnˈteɪʃən] (n) {C1} ориентация
+  836. (  1) 5T ?#PT originate [əˈrɪʤ ɪneɪt] (v) {C1} происходить, возникать, создавать, {C1} {transport by air} = to start in a particular place
 
   838. (  1) yT ?#PT outing [ˈaʊtɪŋ] (n) выход, пикник
   839. (  1) 5T ?#PT outlet [ˈaʊtˌlɛt] (n) выход, выпускное отверстие, {C1} {shopping} {business} выпуск, выходное отверстие -1
@@ -1050,7 +1050,7 @@
  1028. (  1) 5T ?#PT rifle [ˈraɪfəl] (n) {C1} {war and conflict} винтовка, ружье; (adj) стрелковый; (v) {C2} {crime and pushishment} стрелять из винтовки
  1029. (  1) 5T ?#PT riot [ˈraɪət] (n) бунт, беспорядки, восстание
  1030. (  1) 5T ?#PT rip [rɪp] (n) разрыв, разрез; (v) {C1} рвать, {C2} {computers} = to copy sound or video files from a website or CD on to a computer; (abbr) RIP = rest in peace
- 1031. (  1) 5T *#PT ritual [ˈrɪʧʊəl] (n) ритуал; (adj) ритуальный
+ 1031. (  1) 5T *#PT ritual [ˈrɪʧʊəl] (n) {C1} ритуал; (adj) {C1} {religion and festivals} ритуальный
  1032. (  1) 5T ?#PT robust [rəʊˈbʌst] (adj) {C1} {health and fitness} крепкий, {C1} здравый, {C1} {doubt, guessing and certainty} не допускающий возражений -2
  1033. (  1) 3T *#PT rock [rɒk] (n) {A2} камень, {A2} {geography} скала, {A2} {music} = rock music; (v) {C1} качать, качаться; (adj) горный, каменный
  1034. (  1) 5T ?#PT rod [rɒd] (n) {C1} стержень, штанга, тяга, шток, палочка
@@ -1198,7 +1198,7 @@
  1176. (  1) 3T ?#PT suspicious [səsˈpɪʃəs] (adj) {C1} {personal qualities} {crime and punishment} подозрительный
  1177. (  1) 5T ?#PT sustain [səsˈteɪn] (v) поддерживать, выдерживать, подкреплять
  1178. (  2) 3T ?#PT swing [swɪŋ] (n) {C1} {games and toys} {gardens} качели, {C1} {opinion and argument} = to change from one opinion to another; (v) {C1} качаться, {C1} {opinion and argument} = to change from one opinion to another, I:swing-swung-swung -3
- 1179. (  1) 4T *#PT sword [sɔːd] (n) меч
+ 1179. (  1) 4T *#PT sword [sɔːd] (n) {C1} {history} {war and conflict} меч
 -1
 
  1182. (  1) 5T ?#PT synthesis [ˈsɪnθɪsɪs] (n) {C1} {biology} синтез, {C1} {physics and chemistry} соединение
@@ -1339,7 +1339,7 @@
  1317. (  1) 4T ?#PT worthy [ˈwɜːði] (adj) достойный
  1318. (  1) 4T ?#PT yell [jɛl] (v) {C1} кричать, вопить; (n) вопль
  1319. (  2) 5T ?#PT yield [jiːld] (n) {C1} {business} {farming} {money} доходность, урожай, доход; (v) {C1} {business} {farming} {money} давать, приносить -1
- 1320. (  1) 4T ?#PT youngster [ˈjʌŋstə] (n) мальчик, юноша, юнец, детеныш
+ 1320. (  1) 4T ?#PT youngster [ˈjʌŋstə] (n) {C1} {life stages} мальчик, юноша, юнец, детеныш
 
 
 
@@ -1565,7 +1565,6 @@
               yT ?#  crib [krɪb] (n) {C1} {life stages} детская кроватка, ясли, {C2} {education} шпаргалка, плагиат; (v) {C2} {education} совершать плагиат, списать
               xx ?#  mayonnaise [ˌmeɪəˈneɪz] (n) {C1} {food} майонез
               4T ?#  misty [ˈmɪsti] (adj) {C1} {weather} туманный
-              zT ?#  gloom [gluːm] (n) мрак, {C1} {feelings} уныние; (v) хмуриться
               yT ?#  cot [kɒt] (n) {C1} {life stages} детская кроватка, {C2} {holidays} раскладушка
               4T *#  jesus [ˈʤ iːzəs] (n) {C1} {religion and festivals} Иисус
               yT ?#  compartment [kəmˈpɑːtmənt] (n) {C1} {transport by bus and train} отсек, отделение, купе
@@ -1690,7 +1689,6 @@
               5T ?#  affectionate [əˈfɛkʃnɪt] (adj) {C1} {feelings} {personal qualities} нежный, любящий -1
               xT *#  loving [lʌvɪŋ] -ing: (v)(stative) {A1} {feelings} {preference and decisions} любить; (adj) {C1} {feelings} {personal qualities} любящий, нежный -1
               5T ?#  reap [riːp] (v) {C1} {farming} пожинать, жать; (n) сноп
-              yT ?#  envy [ˈɛnvi] (n) {C1} {feelings} зависть; (v) {C1} {feelings} завидовать
               4T *#  overhead [ˈəʊvɛhɛd] (n) накладные расходы; (adj) {C2} {business} верхний; {C1} {weather} наверху, на небе
               zT ?#  uneasy [ʌnˈiːzi] -un: (adj) {A1} {working life} {C1} {personal qualites} легко, спокойно, легкий, удобный; (adj) {C1} {feelings} беспокойный, тревожный
               xx ?#  downpour [ˈdaʊnpɔː] (n) {C1} {weather} ливень
@@ -1699,13 +1697,16 @@
               yT ?#  knob [nɑb] (n) {C1} {engineering} ручка, кнопка; (v) выпячиваться
               yT ?#  snatch [snæʧ] (v) урвать, схватить, {C1} {crime and punishment} похищать; (n) рывок, обрывок
               4T ?#  tulip [ˈtjuːlɪp] (n) {C1} {plants and trees} тюльпан
-              5T ?#  gloomy [ˈgluːmi] (adj) {C1} {weather} {feelings} мрачный, угрюмый, хмурый, унылый
+              5T ?#  gloomy [ˈgluːmi] (adj) {C1} {weather} {feelings} мрачный, угрюмый, хмурый, унылый -1
               4T ?#  outskirts [ˈaʊtˌskɜːts] (n) {C1} {geography} {buildings} окраина
               xx ?#  cornflakes [ˈkɔːnfleɪks] (n) {C1} {food} кукурузные хлопья, корнфлекс
               5T ?#  timid [ˈtɪmɪd] (adj) {C1} {personal qualities} робкий
               5T ?#  seaweed [ˈsiːwiːd] (n) {C1} {plants and trees} морская водоросль
               xT ?#  cannon [ˈkænən] (n) {C1} {history} {war and conflict} пушка, орудие
               xx ?#  growl [ɡraʊl] (v) {C1} {animals} рычать; (n) {C1} {animals} рычание
+              5T ?#  puncture [ˈpʌŋkʧə] (n) {C1} {transport by car or lorry} прокол, укол; (v) прокалывать
+              yT ?#  homosexual [ˈhəʊməʊˈsɛksjʊəl] (n) {C1} {people in society} гомосексуал; (adj) {C1} {people in society} гомосексуальный
+              5T ?#  deception [dɪˈsɛpʃən] (n) {C1} {personal qualities} {crime and punishment} обман, ложь, хитрость
 
               
 

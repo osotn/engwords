@@ -3640,6 +3640,8 @@ Communication
 ......................
 {A1} {language {languages}}
               4T *#  english [ˈɪŋglɪʃ] (adj) английский; (n) {A1} {language} {education} английский язык, англичанин
+              4T *#  french [frɛnʧ] (adj) французский; (n) {A1} {language} французский язык
+              4T *#  german [ˈʤ ɜːmən] (adj) немецкий, германский; (n) {A1} {language} немецкий язык, немец
   432. (  1) 3T *#PT language [ˈlæŋgwɪʤ ] (n) {A1} {language} {computers} язык; (adj) языковой
               4T *#  spanish [ˈspænɪʃ] (adj) {A1} {language} испанский
 
@@ -10784,6 +10786,19 @@ People
               3T ?#  upsetting [ʌpˈsɛtɪŋ] -ing: (v) {B1} {feelings} {health and fitness} расстраивает, огорчать, I: upset-upset-upset; (adj) {B2} {feelings} обсадной
 
 {C1} {feelings {unhappiness}}
+              yT ?#  despair [dɪsˈpeə] (n) {C1} {feelings} отчаяние, безысходность; (v) {C1} {feelings} отчаиваться, терять надежду
+  370. (  1) 5T ?#PT devastate [ˈdɛvəsteɪt] (v) {C1} {feelings} опустошать, разорять
+              5T ?#  discontent [ˌdɪskənˈtɛnt] (n) {C1} {feelings} недовольство, неудовлетворенность; (adj) недовольный; (v) вызывать недовольство
+              5T ?#  discontented [ˌdɪskənˈtɛntɪd] -ed: (v) вызывать недовольство; (adj) {C1} {feelings} недовольный
+  405. (  2) 5T ?#PT distress [dɪsˈtrɛs] (n) {C1} {social issues} {danger} {transport by water} {transport by air} бедствие, горе, {C1} {feelings} страдание, несчастье, беда; (v) {C1} {feelings} огорчать
+              yT ?#  distressed [dɪsˈtrɛst] -ed: (v) {C1} {feelings} огорчать; (adj) {C1} {feelings} расстроенный, {C2} {health problems} потерпевший аварию
+              xx ?#  distressing [dɪsˈtrɛsɪŋ] -ing: (v) {C1} {feelings} огорчать; (adj) {C1} {feelings} тревожный, нушающий беспокойство
+              xT ?#  disturbed [dɪsˈtɜːbd] -ed: (v) {B2} беспокоить, мешать, нарушать, побеспокоить, {C1} волновать; (adj) {C1} {feelings} нарушенный, встревоженный, прерванный
+              yT ?#  envy [ˈɛnvi] (n) {C1} {feelings} зависть; (v) {C1} {feelings} завидовать
+              zT ?#  gloom [gluːm] (n) мрак, {C1} {feelings} уныние; (v) хмуриться
+              5T ?#  gloomy [ˈgluːmi] (adj) {C1} {weather} {feelings} мрачный, угрюмый, хмурый, унылый
+              xx *#  heartbroken [ˈhɑːtbrəʊkən] (adj) {C1} {feelings} с разбитым сердцем, убитый горем
+              xx ?#  homesickness [ˈhəʊmsɪknɪs] (n) {C1} {feelings} тоска по родине, ностальгия
 
 <here>
 
