@@ -768,7 +768,7 @@
   747. (  1) 5T *#PT mask [mæsk] (n) {C1} {heathcare} {sports: water sports} маска; (v) маскировать, скрывать -1
   748. (  1) yT ?#PT massacre [ˈmæsəkə] (n) резня, бойня, избиение
   749. (  1) 4T *#PT mathematical [ˌmæθɪˈmætɪkəl] (adj) {C1} {maths and measurement} математический
-  750. (  2) xT ?#PT mature [məˈtjʊə] (adj) {C1} {life stages} {personal qualities} зрелый; (v) {C1} {life stages} созреть
+  750. (  2) xT ?#PT mature [məˈtjʊə] (adj) {C1} {life stages} {personal qualities} зрелый; (v) {C1} {life stages} созреть -1
   751. (  1) 4T *#PT maximize [ˈmæksɪmaɪz] (v) максимизировать
   752. (  1) 5T *#PT meaningful [ˈmiːnɪŋfʊl] (adj) {C1} значимый
   753. (  1) 4T ?#PT meantime [ˈmiːnˈtaɪm] (adv) тем временем, между тем
@@ -798,7 +798,7 @@
   777. (  1) 3T *#PT ministry [ˈmɪnɪstrɪ] (n) министерство
   778. (  1) 3T *#PT minute [ˈmɪnət->(n,v)/maɪˈn(j)ut->(adj)] (n) {A1} {time} минута, момент; (adj) {C1} мельчайший, незначительный
   779. (  1) 5T ?#PT miracle [ˈmɪrəkl] (n) {C1} {religion and festivals} чудо, миракль, {C1} выдающееся событие, удивительная вещь
-  780. (  1) yT *#PT misery [ˈmɪzəri] (n) страдание, нищета, несчастья, горе
+  780. (  1) yT *#PT misery [ˈmɪzəri] (n) {C1} {feelings} страдание, {C1} нищета, несчастья, горе -1
   781. (  1) 5T ?#PT misleading [mɪsˈliːdɪŋ] -ing: (v) {B2} {personal qualities} вводить в заблуждение; (adj) {C1} {personal qualities} вводящий в заблуждение, обманчивый
   782. (  1) xT ?#PT missile [ˈmɪsaɪl] (n) ракета; (adj) ракетный
   783. (  1) 4T ?#PT mob [mɒb] (n) {C1} толпа, чернь, мафия, банда; (v) нападать толпой
@@ -1239,7 +1239,7 @@
  1217. (  1) 5T ?#PT tolerate [ˈtɒləreɪt] (v) {C1} терпеть, допускать, быть толерантным
  1218. (  1) xT ?#PT toll [toʊl] (n) {C1} {the environment} потери, дань, {C1} {transport by car or lorry} пошлина, {C2} {phones, email and the internet} сбор
  1219. (  1) 3T *#PT top [tɒp] (adj) {A2} верхний, высший; (n) {A2} верх; {A2} {clothes and fashion} = a piece of clothing worn on the upper part of the body; (v) {C1} {success} быть первым, превышать
- 1220. (  2) xT ?#PT torture [ˈtɔːʧə] (v) пытать, мучить; (n) пытка
+ 1220. (  2) xT ?#PT torture [ˈtɔːʧə] (v) {C1} {war and conflict} {feelings} пытать, мучить; (n) {C1} {war and conflict} {feelings} пытка -1
  1221. (  1) yT ?#PT toss [tɒs] (n) жеребьевка, бросание; (v) {C1} = to throw something lightly or carelessly, подбрасывать, {C1} {doubt, guessing and certainty} = to throw a coin in the air in order to decide something -1
  1222. (  1) 3T *#PT total [ˈtəʊtl] (adj) {B1} полный, суммарный, совокупный; (n) {B1} {shopping} {maths and measurement} итог, сумма, общее количество; (v) {C1} {maths and measurement} составлять, подсчитывать
  1223. (  1) 5T ?#PT toxic [ˈtɒksɪk] (adj) {C1} {the environment} токсический, ядовитый; (n) яд
@@ -1690,7 +1690,6 @@
               xT *#  loving [lʌvɪŋ] -ing: (v)(stative) {A1} {feelings} {preference and decisions} любить; (adj) {C1} {feelings} {personal qualities} любящий, нежный -1
               5T ?#  reap [riːp] (v) {C1} {farming} пожинать, жать; (n) сноп
               4T *#  overhead [ˈəʊvɛhɛd] (n) накладные расходы; (adj) {C2} {business} верхний; {C1} {weather} наверху, на небе
-              zT ?#  uneasy [ʌnˈiːzi] -un: (adj) {A1} {working life} {C1} {personal qualites} легко, спокойно, легкий, удобный; (adj) {C1} {feelings} беспокойный, тревожный
               xx ?#  downpour [ˈdaʊnpɔː] (n) {C1} {weather} ливень
               5T ?#  irritable [ˈɪrɪtəbl] (adj) {C1} {personal qualities} раздражительный, раздражимый
               zT ?#  headlight [ˈhɛdlaɪt] (n) {C1} {transport by car or lorry} фара
@@ -1707,6 +1706,7 @@
               5T ?#  puncture [ˈpʌŋkʧə] (n) {C1} {transport by car or lorry} прокол, укол; (v) прокалывать
               yT ?#  homosexual [ˈhəʊməʊˈsɛksjʊəl] (n) {C1} {people in society} гомосексуал; (adj) {C1} {people in society} гомосексуальный
               5T ?#  deception [dɪˈsɛpʃən] (n) {C1} {personal qualities} {crime and punishment} обман, ложь, хитрость
+              xx ?#  eco-anxiety [ˌiːkəʊ æŋˈzaɪəti] (n) {C1} {the environment} {feelings} = a feeling of worry about threats to the environment such as pollution and climate change -1
 
               
 

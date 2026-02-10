@@ -10799,8 +10799,13 @@ People
               5T ?#  gloomy [ˈgluːmi] (adj) {C1} {weather} {feelings} мрачный, угрюмый, хмурый, унылый
               xx *#  heartbroken [ˈhɑːtbrəʊkən] (adj) {C1} {feelings} с разбитым сердцем, убитый горем
               xx ?#  homesickness [ˈhəʊmsɪknɪs] (n) {C1} {feelings} тоска по родине, ностальгия
-
-<here>
+              xx ?#  loveless [ˈlʌvləs] (adj) {C1} без любви, нелюбящий, нелюбимый
+  780. (  1) yT *#PT misery [ˈmɪzəri] (n) {C1} {feelings} страдание, {C1} нищета, несчастья, горе
+              3T *#  pity [ˈpɪti] (n) {B2} {C1} {feelings} жалость, сострадание, сожаление; (v) {B2} {feelings} жалеть, соболезновать
+              4T ?#  sorrow [ˈsɒrəʊ] (n) {C1} {feelings} печаль, горе, скорбь; (v) печалиться
+ 1220. (  2) xT ?#PT torture [ˈtɔːʧə] (v) {C1} {war and conflict} {feelings} пытать, мучить; (n) {C1} {war and conflict} {feelings} пытка
+              zT ?#  uneasy [ʌnˈiːzi] -un: (adj) {A1} {working life} {C1} {personal qualites} легко, спокойно, легкий, удобный; (adj) {C1} {feelings} беспокойный, тревожный
+              4T *#  weep [wiːp] (v) {C1} {feelings} плакать, оплакивать, рыдать; I:weep-wept-wept
 
 {feelings {worry}}
 ..................
@@ -10822,6 +10827,11 @@ People
    67. (  1) 3T ?#PT anxious [ˈæŋkʃəs] (adj) {B2} {feelings} озабоченный, {B2} тревожный
               3T *#  stress [strɛs] (n) {A2} {feelings} стресс, {B2} {physics and chemistry} напряжение, усилие, {A2} {language} ударение, акцент; (v) {A2} {language} {B2} {feelings} подчеркивать
 
+{C1} {feelings {worry}}
+              xx ?#  apprehensive [ˌæprɪˈhensɪv] (adj) {C1} {feelings} тревожный, опасающийся
+              xx ?#  eco-anxiety [ˌiːkəʊ æŋˈzaɪəti] (n) {C1} {the environment} {feelings} = a feeling of worry about threats to the environment such as pollution and climate change
+              zT ?#  frantic [ˈfræntɪk] (adj) {C1} {feelings} безумный, неистовый
+
 {life stages}
 -------------
 {life stages {adults}}
@@ -10841,6 +10851,9 @@ People
               xx ?#  middle+age [ˈmɪd(ə)l eɪʤ ] (n) {B2} {life stages} зрелые годы
               xx *#  middle-aged [ˌmɪd(ə)lˈeɪʤ d] (adj) {B2} {life stages} среднего возраста, средних лет
 
+{C1} {life stages {adults}}
+  750. (  2) xT ?#PT mature [məˈtjʊə] (adj) {C1} {life stages} {personal qualities} зрелый; (v) {C1} {life stages} созреть
+
 {life stages {babies}}
 ......................
 {A1} {life stages {babies}}
@@ -10851,6 +10864,11 @@ People
 {B2} {life stages {babies}}
               3T *#  bottle [ˈbɒtl] (n) {A1} {cooking and eating} {B2} {life stages} бутылка; (v) поймать
   517. (  1) 3T *#PT feed [fiːd] (v) {A2} {animals} {farming} кормить, питаться, I: feed-fed-fed; (n) подача, питание, {B2} {life stage} кормление
+
+{C1} {life stages {babies}}
+              xx ?#  babyhood [ˈbeɪbihʊd] (n) {C1} {life stages} младенчество
+
+<here
 
 {life stages {birth}}
 .....................

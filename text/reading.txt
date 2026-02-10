@@ -83,6 +83,26 @@ VI тип (долгий)
 монофтонг                 [eə]   [ɔː]  [(j)ʊə]   [ɪə]    [aɪə]  [aɪə]
 дифтонг трифтонг
 
+========================
+
+                                  A         E       I       O       U       Y
+
+    Открытый слог (или + e):     [eɪ]      [iː]     [aɪ]    [əʊ]   [juː]    [aɪ]
+                                 name      we      nice     go     tube     my
+
+    Закрытый слог                [æ]       [ɛ]      [ɪ]     [ɒ]    [ʌ]     [ɪ]
+                                 cat       get     fish     dog    bus    symbol
+
+    Безударный слог              [ə]       [ə]     [ɪ]   [əʊ/ə/-] [ə]     [ɪ]
+                                animal    worker  mistake  doctor  surprise city
+
+    Перед r + согласная/-        [ɑː]      [ɜː]     [ɜː]    [ɔː]    [ɜː]     [ɜː]
+                                 car      earth     girl   horn    burn    myrrh
+
+    Перед r + гласная            [eə]      [ɪə]    [aɪə]   [ɔː]    [jʊə]   [aɪə]
+                                 care      hear     fire   story   during  tyrant
+
+
        I               II              III              IV
 --------------------------------------------------------------------
      VC (I)          VC(us, apple)   V+r(ar)            V+re(ore)
@@ -113,6 +133,43 @@ IV тип:
 
 
 Диграф:
+-------
+1-ая группа: Читаются обе буквы, чтение близко к латинскому
+    oi, oy = [ɔɪ]   noise, boy
+    ei, ey = [eɪ]   eight, they, реже [i:] receive, key
+                    !!! [aɪ] either, neither, height
+                    !!! [ɛ]  leisure
+                    в безударных как [ɪ] foreign, money
+2-ая группа: Чтение не следует из отдельных букв
+    au, aw = [ɔː]  daughter, law
+                   !!! [ɑː]  aunt, laugh
+                   !!! [ɒ]   because
+        oo = [uː]  too, moon
+                   !!! [ʊ] foot, good, soot, stood, wood, wool
+                   !!! [ʌ] blood, flood
+        oo+k = [ʊ] look, book
+        ou = [aʊ]  sound, out
+                   !!! фр. [uː] you, bouquet
+                   !!! [ʌ] country, enough, rough, trouble, young
+                   !!! [əʊ] shoulder, though
+                   !!! [ɒ] cough
+        ow = [əʊ], [aʊ] now, show, bow
+                   !!! [ɒ] knowledge 
+3-ая группа: Читается только первая буква, алфавитное чтение
+    ai, ay = [eɪ] main, day
+                  !!! [ɛ] said, says
+    oa, oe = [əʊ] boat, toe
+                  !!! [ɔː] abroad
+                  !!! [ʌ] does
+    ue, ui = [(j)uː] fruit, cruise, due, tuesday
+    ea, ee = [i:] see, meet
+                  !!! [i:]/[ɛ] tea, read, treat, bread, death, threat
+    ie, ye = [aɪ] в односложных словах tie, die, lie, dye, rye
+                  !!! [i:] piece, chief, believe
+
+4-ая группа: Читается только вторая буква, алфавитное чтение
+    eu, ew = [(j)uː] feud, neutral, new, few, steward, chew, jew, crew
+
 
 
 
@@ -152,17 +209,22 @@ IV тип:
                 - в сочетании air                   air, stair, pair, hair, chair,
                                                     fair
 
-    B   [b]
+    B   [b]                                         boy, cabbage, grab
+
     C   [k]     - перед a,o,u или согласной         come, cold, cat, clean, close,
-                                                    can
+                  или в конце                       can, music, topic
                 - в некоторых сочетании ch          school, character, chemistry,
                                                     technical, chemist
                 - в некоторых сочетании ck          back, clock, cock, black
         [s]     перед e,i,y                         ice, face, cite, fancy, space,
                                                     cycle
+        [ʃ]     - после согл., перед безуд. e,i     social, ocean
+        
+        [ks]    - cc перед e,i                      accent, accident
+        
         [ʧ]     - в некоторых сочетании ch          much, chess, teach, teacher
         
-    D   [d]
+    D   [d]                                         dog, spider, middle, odd, bad
 
     E   [iː]    - в открытом ударном слоге          be, Pete, me, we, meter, she,
                                                     these, he
@@ -185,20 +247,22 @@ IV тип:
         [uː]    - в сочетаниях rew                  grew, drew
         [ə]    - в неударном положении             worker, mister, calendar
 
-    F   [f]                                         fox
+    F   [f]                                         fox, family, rifle, cliff
+                                                  !!! [v] of
 
     G   [g]     перед a,o,u или согласной           great, go, big, dog, bag, got,
-                                                    pig, glad
-        [ʤ]    перед e,i,y                         age, engineer, gymnastics,
+                или в конце                         pig, glad, bag, iceberg, pig
+        [ʤ]     перед e,i,y                         age, engineer, gymnastics,
                                                     cage, gym
-                                                    !!! exceptions: get, begin, girl
-        [ʒ]     words from French -e                genre, beige, rouge
+                                                    !!! [g] get, begin, girl, forget, together 
+        [ʒ]     words from French -e                genre, beige, rouge, regime
         [ŋ]     - ing                               going, doing, calling
         [-]     в сочетании (gh)                    high, night, daughter
                             (g)n                    gnome, design, resign, foreign
                             (g)m                    phlegm, diaphragm
 
-    H   [h]
+    H   [h]                                         home, hello, inhabit
+        [-]                                         forehead, heir, hour, honour, honest, ghost, vehicle
 
     I   [aɪ]    - в открытом ударном слоге          five, nice, pine, bike, kite,
                                                     Mike, nine, wide
@@ -216,18 +280,19 @@ IV тип:
                   под ударением                     !!! exceptions: friend
         [aɪə]   - в сочетании ir + гласная          fire, tired, wire, iron, tire
 
-    J   [ʤ]                                        job, just
+    J   [ʤ]                                        job, just, jam, jug, subject, injure
         [ʒ]      words from French                  deja vu
         [j]                                         fjord, hallelujah
         [h]      Spanish loanwords                  San Jose
 
-    K   [k]
+    K   [k]                                         kid, skin, bake, ink
         [n]     - в сочетании kn                    know, knife, knock, knit, 
 
-    L   [l]
-    M   [m]
+    L   [l]                                         lemon, link, blue, alley
+                                                    bulk, build, help, smile, useful
+    M   [m]                                         man, common, blame
 
-    N   [n]
+    N   [n]                                         nose, net, bun, tune
         [ŋ]     - в сочетании ng                    ring, sing, young, thing, wing
         [ŋk]    - в сочетании nk                    ink, thank, monkey, sink, bank
 
@@ -278,21 +343,28 @@ IV тип:
         [f]     - в сочетании ph                    telephone, phonetics, phrase
 
     Q   [kw]                                        question
+        [k]     - words from French                 conquer, unique, queue
+
     R   [r]
 
     S   [s]     в начале слова                      send, salt, say, sand, sister,
                 в средине перед глухими             desk, less, sister, mist
-                ss в средине                        message, possible, lesson
+                ss в средине                        message, possible, lesson, blossom, miss
+                                                    !!! [z] scissors, possess
                 в конце после глухих (plurals, -s)  facts, books
+                   и после i, u, ou                 this, bus, famous
+                                                    !!! [z] is, his, as, has, was
                 в конце (один закр. слог)           bus, gas, this, yes
                 -se (n, adj)                        close, house, use
         [z]     после гласных (plurals, -s)         days, toys, bees
-                между гласными                      cause, 
+                между гласными                      cause, nose, pleasant, season, rise
+                                                    !!! [s] base, case, dose, goose, geese, house
+                                                            mouse, promise
                 после звонких (plurals, -s)         beds, bells
                 в конце (один откр. слог)           as, does, is, his, was
                 -se (v)                             close, house, use
         [ʃ]     в сочетании sh                      she, bush, short, dish, fish,
-                перед u                             sure, sugar
+                перед u                             sure, sugar, insure
                 в конце -sion -sial                 dimension, extension, controversial
                 в средине sc                        conscience, fascism
         [ʒ]     некоторые в конце -sion             vision, decision, collision, conclusion
@@ -300,8 +372,9 @@ IV тип:
         [-]      некоторые после i                   aisle, debris, island, chassis
 
     T   [t]
-        [-]     в сочетанииt)ch                     catch, kitchen, watch, switch,
-                                                    stretch
+        [-]     в сочетании ch                     catch, kitchen, watch, switch,
+                - words from French в конце        restaurant, parquet, jabot
+                               
         [ð]     в сочетании th                      these, that, there, mother,
                                                     they, with, them, then
         [θ]     в сочетании th                      thick, thin, thanks, three,
@@ -331,13 +404,16 @@ IV тип:
         [w]     - в сочетании wh                    what, why, when, while, white,
                                                     where
         [-]     - в сочетании (w)h + o              who, whom, whose, whole, wholly
-                - в сочетании wr                    write, wrong, wrist, wrap,
-                                                    wrest, wrap
+                - в сочетании wr                    write, wrong, wrist, wrap, wrest, wrap
+                - в средине слова                   two, answer, sword
 
     X   [ks]    в конце слов                        box, fix, fox, six
                 перед согласной                     next 
                 перед неударной гласной            
         [gz]    перед ударной гласной               exam, example, exact
+
+        [ɛks]   в начале составных слов             x-ray, x-line, x-treem
+        [z]     в начале слова                      xemophobia, Xerox
 
     Y   [aɪ]    в открытом ударном слоге            type, try, bye, cry, fly, my,
                                                     sky, lye
@@ -352,23 +428,37 @@ IV тип:
     Z   [z]
 
 
+Буквосочетания
+==============
+Це гласные и согласные в приделах одного слога.
 
-========================
-
-                                  A         E       I       O       U       Y
-
-    Открытый слог (или + e):     [eɪ]      [iː]     [aɪ]    [əʊ]   [juː]    [aɪ]
-                                 name      we      nice     go     tube     my
-
-    Закрытый слог                [æ]       [ɛ]      [ɪ]     [ɒ]    [ʌ]     [ɪ]
-                                 cat       get     fish     dog    bus    symbol
-
-    Безударный слог              [ə]       [ə]     [ɪ]   [əʊ/ə/-] [ə]     [ɪ]
-                                animal    worker  mistake  doctor  surprise city
-
-    Перед r + согласная/-        [ɑː]      [ɜː]     [ɜː]    [ɔː]    [ɜː]     [ɜː]
-                                 car      earth     girl   horn    burn    myrrh
-
-    Перед r + гласная            [eə]      [ɪə]    [aɪə]   [ɔː]    [jʊə]   [aɪə]
-                                 care      hear     fire   story   during  tyrant
+    aff         [ɑːf]       staff, chaff              !!! (US) [æf]
+    aft         [ɑːft]      craft, after, draft       !!! (US) [æft]
+    air         [eə]        fair, repair, hair
+    al+C        [ɔːl]       all, false, salt
+(кроме k,m,f,ve)
+    alf         [ɑːf]       half, calf                !!! (US) [æf]
+    alk         [ɔːk]       talk, walk, chalk
+    alm         [ɑːm]       palm, balm, calm
+    alve        [ɑːv]       calve, halves             !!! (US) [æv]
+    ance        [ɑːns]      chance, dance, glance     !!! (US) [æns]
+    anch        [ɑːnʧ]      branch, stanch            !!! (US) [ænʧ]
+    and         [ɑːnd]      demand, command           !!! (US) [ænd]
+    ant         [ɑːnt]      plant, can't, grand       !!! (US) [ænt]
+    arr         [ær]        marry, narrow, carrot
+    ask         [ɑːsk]      basket, task, mask        !!! (US) [æsk]
+    asp         [ɑːsp]      grasp, clasp, raspberry   !!! (US) [æsp]
+(в абсолютно закр.слоге)
+    ass         [ɑːs]       pass, grass, glass        !!! (US) [æs]
+    ast         [ɑːst]      fast, plaster, nasty      !!! (US) [æst]
+    aste        [eɪst]      taste, paste
+    ath         [ɑːθ]       bath, rather, path        !!! (US) [æθ]
+    bt          [t]         debt, doubt
+(в конце слова)
+    ch          [ʧ]         chat, bachelor, coach
+(в греч.словах) [k]         school, stomach, echo
+(в фр. словаx)  [ʃ]         machine, moustache
+    ck          [k]         clock, stick, huck
+(правило 3 букв: если одна глассная - то ck, если 2 то k (look))
+    ead         [ɛ]         head, bread, dead
 
