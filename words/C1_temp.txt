@@ -179,7 +179,7 @@
   160. (  1) 5T ?#PT bulk [bʌlk] (n) {C1} масса, объем, основная масса; (v) казаться, ссыпать в кучу, ссыпать
 
   162. (  1) yT ?#PT bureaucracy [bjʊəˈrɒkrəsi] (n) {C1} {politics} бюрократия, бюрократизм
-  163. (  1) yT ?#PT burial [ˈbɛrɪəl] (n) захоронение, похороны
+  163. (  1) yT ?#PT burial [ˈbɛrɪəl] (n) {C1} {religion and festivals} {life stages} захоронение, похороны -1
   164. (  1) 3T ?#PT burst [bɜːst] (n) взрыв, вспышка; (v) {C1} разрывать, I:burst-burst-burst
   165. (  1) 3T ?#PT cabinet [ˈkæbɪnɪt] (n) {C1} {politics} кабинет, {C1} {houses and homes} шкаф, корпус -1
   166. (  1) 3T *#PT calculation [ˌkælkjʊˈleɪʃən] (n) {C1} {maths and measurement} {opinion and argument} расчет, вычисление, калькуляция -1
@@ -198,7 +198,7 @@
   179. (  1) 5T ?#PT caution [ˈkɔːʃən] (n) {C2} {crime and punishment} осторожность, {C1} {suggestions and advice} {danger} предостережение, {C1} {personal qualities} предупреждение; (v) {C1} {danger} предостерегать -2
   180. (  1) 5T ?#PT cautious [ˈkɔːʃəs] (adj) осторожный
   181. (  1) 3T ?#PT cease [siːs] (v) прекратить
-  182. (  1) xT ?#PT cemetery [(UK)ˈsɛmɪtri/(US)ˈsɛməˌtɛri/ˈsɛməˌtɛri] (n) {C1} {religion and festivals} {life stages} кладбище
+  182. (  1) xT ?#PT cemetery [(UK)ˈsɛmɪtri/(US)ˈsɛməˌtɛri/ˈsɛməˌtɛri] (n) {C1} {religion and festivals} {life stages} кладбище -1
   183. (  1) 3T *#PT chamber [ˈʧeɪmbə] (n) {C1} камера, {C1} {politics} палата, {C2} {buildings} комната; (adj) камерный
   184. (  1) 5T ?#PT chaos [ˈkeɪɑs] (n) {C1} {war and conflict} хаос, беспорядок, полный беспорядок
   185. (  1) 5T ?#PT characterize [ˈkærɪktəraɪz] (v) характеризуют, отличать
@@ -328,7 +328,7 @@
   308. (  1) yT ?#PT coup [kuː] (n) переворот, удачный ход
   309. (  1) xT ?#PT courtesy [ˈkɜːtɪsi] (n) вежливость, учтивость, обходительность
 
-  311. (  1) 5T ?#PT crawl [krɔːl] (v) {C1} {life stages} {insects, worms, etc.} ползать -1
+ -1
   312. (  1) xT ?#PT creator [kriˈeɪtə] (n) автор, создатель, творец, разработчик
   313. (  1) yT ?#PT credibility [ˌkrɛdəˈbɪləti] (n) {C1} доверие, правдоподобие, вероятность
   314. (  1) yT ?#PT credible [ˈkrɛdəbl] (adj) {C1} {opinion and argument} вероятный, {C1} заслуживающий доверия -1
@@ -559,7 +559,7 @@
   538. (  1) 5T ?#PT frustration [frʌsˈtreɪʃən] (n) разочарование, расстройство, чувство разочарования
   539. (  1) 5T *#PT functional [ˈfʌŋkʃənl] (adj) функциональный, (n) функционал
   540. (  1) xT ?    fundraising
-  541. (  1) 3T ?#PT funeral [ˈfjuːnərəl] (n) {C1} {religion and festivals} {life stages} похороны; (adj) похоронный
+  541. (  1) 3T ?#PT funeral [ˈfjuːnərəl] (n) {C1} {religion and festivals} {life stages} похороны; (adj) похоронный -1
   542. (  1) 3T *#PT gallon [ˈgælən] (n) галлон
   543. (  1) 3T *#PT gambling [ˈgæmblɪŋ] -ing: (v) рисковать, играть в азартные игры; (adj) игорный; (n) азартная игра
   544. (  1) 4T *#PT gathering [ˈgæðəɪŋ] -ing: (v) {B1} собирать
@@ -642,7 +642,7 @@
   621. (  1) zT ?#PT indulge [ɪnˈdʌlʤ ] (v) {C1} предаваться, баловать, потворствовать
   622. (  1) yT *#PT inequality [ˌɪnɪˈkwɑləti/ˌɪnəˈkwɑləti] (n) неравенство
   623. (  1) yT ?#PT infamous [ˈɪnfəməs] (adj) {C1} {personal qualities} позорный, бесчестный, постыдный
-  624. (  1) xT ?#PT infant [ˈɪnfənt] (n) {C1} {life stages} младенец, {C1} ребенок
+  624. (  1) xT ?#PT infant [ˈɪnfənt] (n) {C1} {life stages} младенец, {C1} ребенок -1
   625. (  1) 3T ?#PT infect [ɪnˈfɛkt] (v) {C1} {health problems} {computers} заражать -1
   626. (  1) 5T ?#PT inflict [ɪnˈflɪkt] (v) причинять, налагать, навязывать
   627. (  1) 5T *#PT influential [ˌɪnflʊˈɛnʃəl] (adj) {C1} влиятельный, важный
@@ -1562,10 +1562,8 @@
               5T *#  avenue [ˈævɪnjuː] (n) {C1} {transport by car or lorry} {buildings} проспект, авеню, аллея, путь, дорога -1
               4T ?#  darling [ˈdɑːlɪŋ] (adj) {C1} {personal qualities} дорогой, милый, любимый
               5T ?#  radiate [ˈreɪdieɪt] (v) {C1} {physics and chemistry} излучать, сиять
-              yT ?#  crib [krɪb] (n) {C1} {life stages} детская кроватка, ясли, {C2} {education} шпаргалка, плагиат; (v) {C2} {education} совершать плагиат, списать
               xx ?#  mayonnaise [ˌmeɪəˈneɪz] (n) {C1} {food} майонез
               4T ?#  misty [ˈmɪsti] (adj) {C1} {weather} туманный
-              yT ?#  cot [kɒt] (n) {C1} {life stages} детская кроватка, {C2} {holidays} раскладушка
               4T *#  jesus [ˈʤ iːzəs] (n) {C1} {religion and festivals} Иисус
               yT ?#  compartment [kəmˈpɑːtmənt] (n) {C1} {transport by bus and train} отсек, отделение, купе
  -1
@@ -1573,9 +1571,7 @@
               xT ?#  motel [məʊˈtel] (n) {C1} {buildings} {holidays} мотель -1
               5T *#  nickel [ˈnɪkl] (n) {C1} {money} монета в пять центов, {C2} {physics and chemistry} никель; (adj) никелевый
               xT ?#  florist [ˈflɒrɪst] (n) {C1} {jobs} {shopping} флорист, цветочник, торговец цветами -1
-              yT ?#  diaper [ˈdaɪpə(r)] (n) {C1} {life stages} подгузник, пеленка; (v) пеленать
               zT ?#  breezy [ˈbriːzi] (n) {C1} {weather} свежий, прохладный
-
               xT ?#  cement [sɪˈmɛnt] (n) {C1} {physics and chemistry} {buildings} цемент, клей; (v) {C2} {discussion and agreement} цементировать -1
               4T ?#  crane [kreɪn] (n) {C1} {engineering} {buildings} кран, {C2} {birds} журавль; (v) вытягивать шею -1
               yT ?#  insulated [ˈɪnsjʊleɪtɪd] -ed: (v) изолировать, обособлять, разобщать; (adj) {C1} {physics and chemistry} {buildings} изолированный, разобщенный -1
@@ -1707,6 +1703,11 @@
               yT ?#  homosexual [ˈhəʊməʊˈsɛksjʊəl] (n) {C1} {people in society} гомосексуал; (adj) {C1} {people in society} гомосексуальный
               5T ?#  deception [dɪˈsɛpʃən] (n) {C1} {personal qualities} {crime and punishment} обман, ложь, хитрость
               xx ?#  eco-anxiety [ˌiːkəʊ æŋˈzaɪəti] (n) {C1} {the environment} {feelings} = a feeling of worry about threats to the environment such as pollution and climate change -1
+              5T ?#  ravine [rəˈviːn] (n) {C1} {geography} овраг, ущелье
+              5T ?#  smuggle [ˈsmʌgl] (v) {C1} {crime and punishment} заниматься контрабандой, провозить контрабандой
+              4T ?#  smuggling [ˈsmʌglɪŋ] -ing: (v) {C1} {crime and punishment} заниматься контрабандой, провозить контрабандой; (n) {C1} {crime and punishment} контрабанда
+              xT ?#  oak [əʊk] (n) {C1} {plants and trees} дуб; (adj) дубовый
+              xT ?#  maple [ˈmeɪpl] (n) {C1} {plants and trees} клен; (adj) кленовый
 
               
 

@@ -10867,8 +10867,16 @@ People
 
 {C1} {life stages {babies}}
               xx ?#  babyhood [ˈbeɪbihʊd] (n) {C1} {life stages} младенчество
-
-<here
+              yT ?#  cot [kɒt] (n) {C1} {life stages} детская кроватка, {C2} {holidays} раскладушка
+              xT ?#  cradle [ˈkreɪdl] (n) {C1} {life stages} колыбель, люлька, рама, {C2} {phones, email and the internet} гнездо; (v) баюкать
+  311. (  1) 5T ?#PT crawl [krɔːl] (v) {C1} {life stages} {insects, worms, etc.} ползать
+              yT ?#  crib [krɪb] (n) {C1} {life stages} детская кроватка, ясли, {C2} {education} шпаргалка, плагиат; (v) {C2} {education} совершать плагиат, списать
+              yT ?#  diaper [ˈdaɪpə(r)] (n) {C1} {life stages} подгузник, пеленка; (v) пеленать
+              5T ?#  infancy [ˈɪnfənsi] (n) {C1} {life stages} младенчество, детство, детский возраст, несовершеннолетие
+  624. (  1) xT ?#PT infant [ˈɪnfənt] (n) {C1} {life stages} младенец, {C1} ребенок
+              xx ?#  nappy [ˈnæpi] (n) {C1} {life stages} подгузник, пеленка
+              yT ?#  newborn [ˈnjuːbɔːn] (adj) {C1} {life states} новорожденный; (n) {C1} {life states} новорожденный
+              xT ?#  toddler [ˈtɒdlə] (n) {C1} {life stages} ползунок, ребенок, начинающий ходить
 
 {life stages {birth}}
 .....................
@@ -10881,6 +10889,11 @@ People
 {B1} {life stages {birth}}
 {B2} {life stages {birth}}
               yT *#  childbirth [ˈʧaɪldˌbɜrθ] (n) {B2} {life stages} роды, рождаемость
+
+{C1} {life stages {birth}}
+              xx ?#  birth+father [ˈbɜːθ fɑːðə(r)] (n) {C1} {family and relationships} {life stages} биологический отец
+              xx ?#  natural+childbirth [ˌnætʃrəl ˈtʃaɪldbɜːθ] (n) {C1} {life stages} естественные роды
+              5T ?#  premature [ˌprɛməˈtjʊə] (adj) {C1} {life stages} преждевременный, поспешный
 
 {life stages {death}}
 .....................
@@ -10895,6 +10908,13 @@ People
    89. (  1) 3T *#PT bury [ˈbɛri] (v) {B1} {religion and festivals} {life stages} похоронить, закапывать
 
 {B2} {life stages {death}}
+{C1} {life stages {death}}
+  163. (  1) yT ?#PT burial [ˈbɛrɪəl] (n) {C1} {religion and festivals} {life stages} захоронение, похороны
+  182. (  1) xT ?#PT cemetery [(UK)ˈsɛmɪtri/(US)ˈsɛməˌtɛri/ˈsɛməˌtɛri] (n) {C1} {religion and festivals} {life stages} кладбище
+              4T ?#  coffin [(UK)ˈkɒfɪn/(US)ˈkɔːfɪn] (n) {C1} {life stages} гроб; (adj) гробовой
+  541. (  1) 3T ?#PT funeral [ˈfjuːnərəl] (n) {C1} {religion and festivals} {life stages} похороны; (adj) похоронный
+
+<here
 
 {life stages {marriage}}
 ........................
