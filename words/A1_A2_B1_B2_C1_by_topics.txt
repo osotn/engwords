@@ -10913,8 +10913,10 @@ People
   182. (  1) xT ?#PT cemetery [(UK)ˈsɛmɪtri/(US)ˈsɛməˌtɛri/ˈsɛməˌtɛri] (n) {C1} {religion and festivals} {life stages} кладбище
               4T ?#  coffin [(UK)ˈkɒfɪn/(US)ˈkɔːfɪn] (n) {C1} {life stages} гроб; (adj) гробовой
   541. (  1) 3T ?#PT funeral [ˈfjuːnərəl] (n) {C1} {religion and festivals} {life stages} похороны; (adj) похоронный
-
-<here
+  556. (  2) 3T ?#PT grave [greɪv] (n) {C1} {religion and festivals} {life stages} могила, {C1} смерть; (adj) {C2} {feelings} серьезный, {C1} тяжелый
+              zT ?#  graveyard [ˈɡreɪvjɑːd] (n) {C1} {religion and festivals} {life stages} кладбище
+              xx ?#  pass+away [(UK)pɑːs əˈweɪ/(US)pæs əˈweɪ] (phrasal verb) {C1} {life stages} скончаться, умереть
+  993. (  1) 3T *#PT remains [rɪˈmeɪnz] -es: (v) {B1} оставаться; -es: (n) остаток; (n) {C1} {buildings} руины, развалины, реликвии, {C1} {life stages} прах, остатки
 
 {life stages {marriage}}
 ........................
@@ -10954,6 +10956,17 @@ People
  1012. (  1) 3T *#PT propose [prəˈpoʊz] (v) {B2} {suggestions and advice} {life stages} предлагать, {C1} {suggestions and advice} выдвинуть, намереваться
               xx ?#  wedding+anniversary [ˈwɛdɪŋ ˌænɪˈvɜːs(ə)ri] (n) {B2} {life stages} годовщина свадьбы
 
+{C1} {life stages {marriage}}
+              xx ?#  best+man [ˌbest ˈmæn] (n) {C1} {life stages} шафер
+              xx ?#  best+woman [ˌbest ˈwʊmən] (n) {C1} {life stages} = a female friend or relative of the bridegroom at a wedding who helps him during the wedding ceremony
+  457. (  1) xT ?#PT engagement [ɪnˈgeɪʤ mənt] (n) {C1} обязательство, {C1} {life stages} помолвка, занятие
+              xx ?#  fiance [fiˈɒnseɪ] (n) (fiancé) {C1} {life stages} жених
+              xx ?#  fiancee [fɪˈɑːnseɪ] (n) (fiancée) {C1} {life stages} невеста
+              yT ?#  marital [ˈmærɪtl] (adj) {C1} {life stages} брачный, супружеский
+ 1288. (  1) zT ?#PT vow [vaʊ] (n) {C1} {life stages} клятва, обет; (v) {C1} {life stages} клясться
+ 1308. (  1) 4T *#PT widow [ˈwɪdəʊ] (n) {C1} {life stages} вдова; (v) лишать
+              4T ?#  widower [ˈwɪdəʊə] (n) {C1} {life stages} вдовец
+
 {life stages {old age}}
 .......................
 {A1} {life stages {old age}}
@@ -10973,6 +10986,13 @@ People
  1421. (  1) xT *#PT wisdom [ˈwɪzdəm] (n) {B2} {life stages} {personal qualities} мудрость
  1422. (  1) 3T *#PT wise [waɪz] (adj) {B2} {life stages} {personal qualities} мудрый, благоразумный; (n) образ, способ
 
+{C1} {life stages {old age}}
+              3T *#  aged [eɪʤ d] -ed: (v) {B1} стареть; (adj) {B1} = of the age of, {C1} {life stages} пожилой
+              4T *#  elder [ˈɛldə] (n) {C1} {life stages} старшие, старейшина, старший из двух; (adj) {C1} {life stages} {family and relationships} старший
+              xx ?#  pensioner [ˈpenʃənə(r)] (n) {C1} {life stages} пенсионер
+              xx ?#  reminisce [ˌremɪˈnɪs] (v) {C1} {life stages} вспоминать, предаваться воспоминаниям
+              1T *#  senior [ˈsiːnjə] (adj) {B2} {people in society} {jobs} {sports: other sports} {life stages} {family and relationships} {education} старший, выпускной, последний; (n) {C1} {sport: other sports} {education} старшеклассник, {C1} {life stages} пожилой человек
+
 {life stages {pregancy}}
 ........................
 {A1} {life stages {pregnancy}}
@@ -10984,6 +11004,14 @@ People
 {B2} {life stages {pregnancy}}
   980. (  1) 3T *#PT pregnant [ˈprɛgnənt] (adj) {B2} {life stages} беременная
               5T *#  scan [skæn] (n) {B2} {healthcare} {life stages} сканирование, просмотр, развертка; (v) {B1} {B2} {computers} {healthcare} сканировать
+
+{C1} {life stages {pregnancy}}
+    3. (  1) xT ?#PT abortion [əˈbɔːʃ(ə)n] (n) {C1} {life stages} {healthcare} аборт
+  241. (  1) 5T ?#PT conceive [kənˈsiːv] (v) {C1} {life stages} забеременеть, зачать, {C1} понимать, задумывать, представлять себе
+  242. (  1) 5T ?#PT conception [kənˈsɛpʃən] (n) {C1} концепция, {C1} {life stages} зачатие, замысел
+  898. (  1) xT ?#PT pregnancy [ˈprɛɡnənsi] (n) {C1} {life stages} беременность
+ 1193. (  1) 5T *#PT terminate [ˈtɜːmɪneɪt] (v) {C1} {houses and homes} {life stages} завершать, завершаться
+              zT ?#  unborn [ˌʌnˈbɔːn] (adj) {C1} {life stages} будущий, еще не рожденный, нерожденный
 
 {life stages {raising children}}
 ................................
@@ -11014,6 +11042,28 @@ People
               xx ?#  single+parent [ˈsɪŋɡ(ə)l ˈpeər(ə)nt] (n) {B2} {life stages} = a person who takes care of their child or children without a husband, wife or partner
               xx ?#  upbringing [ˈʌpˌbrɪŋɪŋ] (n) {B2} {life stages} воспитание
 
+{C1} {life stages {raising children}}
+   40. (  1) 5T *#PT adoption [əˈdɒpʃ(ə)n] (n) {C1} {preferences and decisions} принятие, {C1} {life stages} {law and justice} усыновление
+              zT ?#  adoptive [əˈdɒptɪv] (adj) {C1} {life stages} {family and relationships} приемный
+              xx ?#  fatherhood [ˈfɑːðəhʊd] (n) {C1} {life stages} отцовство
+  532. (  1) 5T ?#PT foster [ˈfɒstə] (v) {C1} поощрять, {C1} {life stages} {family and relationships} воспитывать
+              zT ?#  homeschool [ˌhəʊmˈskuːl] (n) {C1} {life stages} учиться на домашнем обучении
+              zT ?#  homeschooling [ˌhəʊmˈskuːlɪŋ] -ing: (v) {C1} {life stages} учиться на домашнем обучении; (n) {C1} {life stages} домашнее обучение
+              zT ?#  motherhood [ˈmʌðəhʊd] (n) {C1} {life stages} материнство
+              yT ?#  nanny [ˈnæni] (n) {C1} {life stages} {jobs} няня, медсестра, коза, {C2} {family and relationships} = grandmother
+              xx ?#  nuclear+family [ˌnjuːkliə ˈfæməli] (n) {C1} {life stages} {family and relationships} = a family that consists of father/mother/children
+  819. (  1) xT ?#PT nursery [ˈnɜːsəri] (n) {C1} {life stages} питомник, ясли, инкубатор
+              zT ?#  nurture [ˈnɜːʧə] (n) {C1} {life stages} воспитание, обучение; (v) {C1} {life stages} воспитывать
+              4T ?#  orphan [ˈɔːfən] (n) {C1} {life stages} {family and relationships} сирота; (adj) сиротский
+              1T *#  parent [ˈpeərənt] (adj) родительский, исходный; (n) {A1} {life stages} {family and relationships} родитель; (v) {C1} {life stages} {family and relationships} = be or act as a parent to (a child)
+  851. (  1) xT ?#PT parental [pəˈrɛntl] (adj) {C1} {life stages} родительский
+              zT ?#  parenthood [ˈpeərənthʊd] (n) {C1} {life stages} отцовство, материнство
+              xT ?#  parenting [ˈpeərəntɪŋ] -ing: (v) {C1} {life stages} {family and relationships} = be or act as a parent to (a child); (n) {C1} {life stages} {family and relationships} воспитание детей
+              xx ?#  playgroup [ˈpleɪɡruːp] (n) {C1} {life stages} = a place where children who are below school age go regularly to play together and to learn through playing
+              xx ?#  playschool [ˈpleɪskuːl] (n) {C1} {life stages} детский сад
+              xx ?#  socialization [ˌsəʊʃəlaɪˈzeɪʃn] (n) {C1} {life stages} социализация, обобществление
+              xx ?#  stay-at-home [ˈsteɪ ət həʊm] (adj) {C1} {life stages} = a stay-at-home mother/father is one who stays at home to take care of their children instead of going out to work, домосед/ка
+
 {life stages {youth}}
 .....................
 {A1} {life stages {youth}}
@@ -11041,6 +11091,22 @@ People
               3T *#  innocent [ˈɪnəsənt] (adj) {B1} {law and justice} {B2} {crime and punishment} {life stages} невинный
  1289. (  1) 4T ?#PT teens [tiːnz] -es: (n) подросток, тинейджер; (n) {B2} {life stages} подростковый возрас, возраст от 13 до 19 лет
 
+{C1} {life stages {youth}}
+              zT ?#  adolescence [ˌædəˈlesns] (n) {C1} {life stages} подростковый возраст, юность, молодость
+   39. (  1) 5T ?#PT adolescent [ˌædəʊˈlɛsnt] (n) {C1} {life stages} подросток, юноша, девушка; (adj) {B2} {life stages} подростковый, юношеский
+              xx ?#  baby-faced [ˈbeɪbi feɪst] (n) {C1} {life stages} детское лицо
+              xx ?#  boyhood [ˈbɔɪhʊd] (n) {C1} {life stages} детство, отрочество
+              xx ?#  girlhood [ˈɡɜːlhʊd] (n) {C1} {life stages} девичество
+              xx ?#  grow+out+of [grəʊ aʊt ɒv] (phrasal verb) {C1} {life stages} вырастать, вырасти из, перерастать
+              5T *#  juvenile [ˈʤ uːvɪnaɪl] (n) несовершеннолетний, подросток; (adj) {C1} {life stages} {law and justice} юношеский, юный
+  685. (  1) 4T *#PT lad [læd] (n) {C1} {life stages} парень, мальчик
+  750. (  2) xT ?#PT mature [məˈtjʊə] (adj) {C1} {life stages} {personal qualities} зрелый; (v) {C1} {life stages} созреть
+              yT ?#  maturity [məˈtjʊərɪti] (n) {C1} {life stages} зрелость
+              4T *#  naive [ˌnaɪˈiv] (adj) {C1} {life stages} наивный
+              yT ?#  underage [ˌʌndəˈreɪʤ ] (adj) {C1} {life stages} несовершеннолетний
+ 1320. (  1) 4T ?#PT youngster [ˈjʌŋstə] (n) {C1} {life stages} мальчик, юноша, юнец, детеныш
+              4T ?#  youthful [ˈjuːθfʊl] (adj) {C1} {life stages} юношеский
+
 {personal qualities}
 --------------------
 {personal qualities {annoying}}
@@ -11056,6 +11122,16 @@ People
                xx ?#  nosy [ˈnəʊzi] (adj) {B2} {personal qualities} любопытный
                1T *#  pain [peɪn] (n) {A2} {health problems} боль, {A2} {feelings} страдание, {B2} {personal qualities} = a person or thing that is very annoying
                5T ?#  stubborn [ˈstʌbən] (adj) {B2} {opinion and argument} {personal qualities} упрямый, упорный
+
+{C1} {personal qualities {annoying}}
+               3T *#  cheek [ʧiːk] (n) {B2} {body} щека, {C1} {personal qualities} наглость; (v) нахальничать
+               4T ?#  cheeky [ˈʧiːki] (adj) {C1} {personal qualities} нахальный, дерзкий, развязный
+               xx ?#  loudmouth [ˈlaʊdmaʊθ] (n) {C1} {personal qualities} болтун, мудозвон
+               5T ?#  menace [ˈmɛnəs] (n) {C1} {danger} угроза, {C2} {feelings} опасность, {C1} {personal qualities} зануда, надоеда; (v) {C2} {danger} угрожать
+               zT ?#  moan [məʊn] (n) стон; (v) стонать, {C1} {personal qualities} жаловаться
+               yT ?#  nuisance [ˈnjuːsns] (n) {C1} {personal qualities} неприятность
+               5T ?#  unbearable [ʌnˈbeərəb(ə)l] (adv) невыносимо, невмоготу, невтерпеж; (adj) {C1} {personal qualities} невыносимый
+               zT ?#  whine [waɪn] (v) {C1} {personal qualities} скулить, ныть
 
 {personal qualities {brave}}
 ............................
@@ -11073,9 +11149,17 @@ People
   142. (  1) 5T ?#PT bold [bəʊld] (adj) {B2} {personal qualities} смелый, дерзкий, храбрый, наглый, подчеркнутый, {B2} жирный
   287. (  1) 3T ?#PT courage [(BR)ˈkʌrɪʤ /(US)ˈkɜrəʤ ,ˈkɜrɪʤ ] (n) {B2} {personal qualites} мужество, храбрость, смелость, отвага
   317. (  1) 3T ?#PT dare [deə] (v) {B2} {personal qualities} дерзать, сметь; (n) {C1} {danger} вызов, подзадоривание
-              5T ?#  daring [deəɪŋ] -ing: (v) {B2} {personal qualities} дерзать, сметь; (adj) {B2} {danger} {personal qualities} смелость
+              5T ?#  daring [deəɪŋ] -ing: (v) {B2} {personal qualities} дерзать, сметь; (adj) {B2} {danger} {personal qualities} смелый, дерзкий, бесстрашный; (n) {C1} {personal qualities} смелость, дерзание, отвага
               3T *#  spirit [ˈspɪrɪt] (n) {B2} {personal qualities} дух, {B2} {drinks} спирт, {B1} {B2} {religion and festivals} душа, настроение; (adj) спиртовой
               3T *#  strength [strɛŋθ] (n) {B1} {health and fitness} сила, {B2} {personal qualities} прочность
+
+{C1} {personal qualities {brave}}
+              4T ?#  courageous [kəˈreɪʤ əs] (adj) {C1} {personal qualities} смелый, храбрый, бравый
+              5T ?#  daring [deəɪŋ] -ing: (v) {B2} {personal qualities} дерзать, сметь; (adj) {B2} {danger} {personal qualities} смелый, дерзкий, бесстрашный; (n) {C1} {personal qualities} смелость, дерзание, отвага
+              yT ?#  gut [gʌt] (n) {C1} {body} кишка, {C1} узкий проход, (n) (guts) {C1} {personal qualities} = the courage and strength of mind that it takes to do something difficult or unplesant
+              4T ?#  heroic [hɪˈrəʊɪk] (adj) {C1} {personal qualities} {success} героический, геройский; (n) напыщенный язык
+              5T ?#  heroism [ˈhɛrəʊɪz(ə)m] (n) {C1} {personal qualities} героизм, доблесть
+              1T *#  man [mæn] (n) {A1} {life stages} {people in society} мужчина, {B1} человек, {C1} {personal qualities} = a person who is strong and brave or has other qualites that some people think are typically male, I:man-men
 
 {personal qualities {clever}}
 .............................
@@ -11096,6 +11180,15 @@ People
               3T *#  sharp [ʃɑːp] (adj) {B1} {B2} {personal qualities} острый
  1421. (  1) xT *#PT wisdom [ˈwɪzdəm] (n) {B2} {life stages} {personal qualities} мудрость
  1422. (  1) 3T *#PT wise [waɪz] (adj) {B2} {life stages} {personal qualities} мудрый, благоразумный; (n) образ, способ
+
+{C1} {personal qualities {clever}}
+              1T *#  able [ˈeɪbl] (adj) {A2} в состоянии, {C1} {personal qualities} способный
+   89. (  1) 5T ?#PT articulate [ɑːˈtɪkjʊlɪt->(adj)/ɑːˈtɪkjʊleɪt->(v,pp)] (v) {C1} {language} артикулировать, выговорить; (adj) {C1} {personal qualities} {language} членораздельный
+              xx ?#  brainy [ˈbreɪni] (adj) {C1} {personal qualities} умный, башковитый
+              5T ?#  ingenious [ɪnˈʤ iːniəs] (adj) {C1} {personal qualities} остроумный, изобретательный, оригинальный, искусный
+              5T ?#  intellect [ˈɪnt(ə)lɛkt] (n) {C1} {personal qualities} интеллект, разум, ум, рассудок, умнейший человек
+ 1312. (  1) 5T ?#PT wit [wɪt] (n) {C1} {personal qualities} остроумие, {C1} ум, {C2} {personal qualities} = a person who has the ability to say or write things that are both clever and humorous
+              4T ?#  witty [ˈwɪti] (adj) {C1} {personal qualities} остроумный
 
 {personal qualities {confident}}
 ................................
@@ -11121,12 +11214,23 @@ People
               xx ?#  self-confident [sɛlf-ˈkɒnfɪdənt] (adj) {B2} {personal qualities} самоуверенный
  1323. (  1) 3T ?#PT tough [tʌf] (adj) {B2} жесткий, {B2} {permission and obligation} {personal qualities} {cooking and eating} тяжелый, трудный
 
+{C1} {personal qualities {confident}}
+              xx ?#  assertive [əˈsɜːtɪv] (adj) {C1} {opinion and argument} {personal qualities} напористый, утвердительный, самоуверенный
+              3T ?#  attitude [ˈætəˌtud] (n) {B1} {opinion and argument} {C1} {personal qualities} отношение, позиция
+              3T *#  cool [kuːl] (adv) {B2} прохладно, свежо; (adj) {A1} {weather} {B2} {feelings} прохладный, {A1} {opinion and argument} клевый, {C1} {personal qualiies} спокойный; (v) охлаждать, хладнокровие; (n) хладнокровие, {B1} {weather} прохлада
+  832. (  1) yT *#PT optimism [ˈɒptɪmɪzm] (n) {C1} {success} {personal qualities} оптимизм
+              xx ?#  sureness [(UK)ˈʃʊənəs/ˈʃɔːnəs/(US)ˈʃʊrnəs] (n) {C1} {personal qualites} уверенность
+
 {personal qualities {cowardly}}
 ...............................
 {A1} {personal qualities {cowardly}}
 {A2} {personal qualities {cowardly}}
 {B1} {personal qualities {cowardly}}
 {B2} {personal qualities {cowardly}}
+{C1} {personal qualities {cowardly}}
+              yT ?#  coward [ˈkaʊəd] (n) {C1} {personal qualities} трус
+
+<here
 
 {personal qualities {dishonest}}
 ................................
