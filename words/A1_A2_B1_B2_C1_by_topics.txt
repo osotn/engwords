@@ -11229,8 +11229,7 @@ People
 {B2} {personal qualities {cowardly}}
 {C1} {personal qualities {cowardly}}
               yT ?#  coward [ˈkaʊəd] (n) {C1} {personal qualities} трус
-
-<here
+              4T ?#  cowardly [ˈkaʊədli] (adj) {C1} {personal qualities} трусливый, малодушный, трусливо
 
 {personal qualities {dishonest}}
 ................................
@@ -11252,6 +11251,17 @@ People
   508. (  1) 5T *#PT fake [feɪk] (n) {B1} {art} {personal qualities} подделка; (v) {B2} {crime and punishment} фальсифицировать; (adj) {B2} {crime and punishment} {personal qualities} фальшивый
               5T ?#  mislead [mɪsˈliːd] (v) {B2} {personal qualities} вводить в заблуждение
 
+{C1} {personal qualities {dishonest}}
+              5T ?#  deception [dɪˈsɛpʃən] (n) {C1} {personal qualities} {crime and punishment} обман, ложь, хитрость
+  781. (  1) 5T ?#PT misleading [mɪsˈliːdɪŋ] -ing: (v) {B2} {personal qualities} вводить в заблуждение; (adj) {C1} {personal qualities} вводящий в заблуждение, обманчивый
+              xx ?#  misrepresent [ˌmɪsˌreprɪˈzent] (v) {C1} {personal qualities} искажать, представлять в ложном свете
+              4T ?#  profess [prəˈfɛs] (v) исповедовать, {C1} {personal qualities} притворяться, претендовать
+              xx ?#  secretive [ˈsiːkrətɪv] (adj) {C1} {personal qualities} скрытный, замкнутый
+              5T ?#  superficial [ˈsuːpəˈfɪʃəl] (adj) {C1} {personal qualities} поверхностный, внешний, неглубокий
+ 1175. (  1) 3T ?#PT suspicion [səsˈpɪʃən] (n) {C1} подозрение, {C1} {personal qualities} подозрительность, привкус
+ 1176. (  1) 3T ?#PT suspicious [səsˈpɪʃəs] (adj) {C1} {personal qualities} {crime and punishment} подозрительный
+              xx ?#  untruthful [ʌnˈtruːθfʊl] -un: (adj) {C1} {personal qualities} правдивый, верный; (adj) {C1} {personal qualities} неправдивый, ложный
+
 {personal qualities {energetic}}
 ................................
 {A1} {personal qualities {energetic}}
@@ -11265,6 +11275,13 @@ People
   450. (  1) 3T *#PT enthusiastic [ɪnˌθjuːzɪˈæstɪk] (adj) {B2} {perosnal qualities} восторженный, полный энтузиазма, увлеченный
   769. (  1) 3T ?#PT lively [ˈlaɪvli] -ly: (adj) {B1} {tv, radio and news} реальный, живой, {B1} {music} = given or made when people are watching, not recorded; {C1} {engineering} под напряжением, {C1} {healthcare} жизненный = a live vaccine contains viruses or bacteria that are living, {C1} {phones, email and the internet} живой = functioning correctly, so that is connected to another document or page on the internet; (adj) {B2} {personal qualities} = full of life and energy, живой, оживленный; (adv) оживленно, весело
   935. (  1) 5T ?#PT passionate [ˈpæʃənɪt] (adj) {B2} {family and relationships} {feelings} {personal qualities} страстный, пылкий, влюбленный
+
+{C1} {personal qualities {energetic}}
+              3T *#  active [ˈæktɪv] (adj) {A2} {B1} {language} {C1} {personal qualities} активный, действующий
+              1T *#  drive [draɪv] (v)(intransitive) {A1} {transport by car or lorry} ездить, управлять, (v) {A2} {transport by car or lorry} вести (кого-то), I: drive-drove-driven; (n) {A2} {transport by car or lorry} езда, {B2} {transport by car or lorry} {buildings} дорога, {C1} {success} {personal qualities} стимул, побуждение, привод, {C2} {computers} дисковод
+              xx ?#  energize [ˈenədʒaɪz] (v) {C1} {personal qualities} возбуждать, питать энергией
+  971. (  1) 5T ?#PT rebel [ˈrɛbl->(n)/rɪˈbɛl->(v)] (v) {C1} {war and conflict} {personal qualities} бунтовать, восставать; (n) {C1} {personal qualities} бунтарь, {C1} {war and conflict} мятежник
+              5T ?#  rebellious [rɪˈbɛljəs] (adj) {C1} {personal qualities} мятежный, повстанческий
 
 {personal qualities {friendly}}
 -------------------------------
@@ -11286,6 +11303,18 @@ People
               3T *#  loyal [ˈlɔɪəl] (adj) {B2} {personal qualities} лояльный, верный, преданный
               4T ?#  talkative [ˈtɔːkətɪv] (adj) {B2} {personal qualities} разговорчивый, болтливый
 
+{C1} {personal qualities {friendly}}
+   44. (  1) 3T ?#PT affection [əˈfɛkʃ(ə)n] (n) {C1} {feelings} {personal qualities} привязанность, любовь, склонность, влияние, влечение
+              5T ?#  affectionate [əˈfɛkʃnɪt] (adj) {C1} {feelings} {personal qualities} нежный, любящий
+              xx ?#  chatty [ˈʧæti] (adj) {C1} {personal qualities} болтливый, = having a friendly informal style, вшивый
+              yT ?#  compassionate [kəmˈpæʃənət] (adj) {C1} {personal qualities} сострадательный
+              1T *#  easy [ˈiːzi] (adj) {A1} {working life} легкий, удобный, (easy-going) {C1} {personal qualites} = pleasant and friendly; (adv) легко, спокойно
+              3T ?#  faithful [ˈfeɪθfl] (adj) {C1} {personal qualities} верный, точный, {C2} {religion and festivals} верующий
+              4T ?#  goodwill [ˈgʊdˈwɪl] (n) {C1} {personal qualities} добрая воля, доброжелательность, ценность фирмы
+              5T ?#  hospitable [ˈhɒspɪtəb(ə)l] (adj) {C1} {family and relationships} {personal qualities} гостеприимный, открытый
+              yT ?#  jolly [ˈʤ ɒli] (adj) {C1} {personal qualities} веселый; (adv) очень
+              xT *#  loving [lʌvɪŋ] -ing: (v)(stative) {A1} {feelings} {preference and decisions} любить; (adj) {C1} {feelings} {personal qualities} любящий, нежный
+
 {personal qualities {honest}}
 -----------------------------
 {A1} {personal qualities {honest}}
@@ -11299,6 +11328,17 @@ People
   636. (  1) 4T ?#PT honesty [ˈɒnɪsti] (n) {B2} {personal qualities} честность
               1T *#  open [ˈoʊpən] (v) {A1} {computers} открыть, открывать; (adj) {A1} {B2} {personal qualities} открытый
  1348. (  2) 3T *#PT trust [trʌst] (v) {B2} {personal qualities} доверять, {B2} верить; (n) {B2} {personal qualities} доверие
+
+{C1} {personal qualities {honest}}
+              yT ?#  authenticity [ˌɔːθenˈtɪsəti] (n) {C1} {personal qualities} подлинность, достоверность
+              5T ?#  frank [fræŋk] (adj) {C1} {personal qualities} откровенный, искренний; (n) франк
+  651. (  1) 5T ?#PT integrity [ɪnˈtɛgrɪti] (n) {C1} {personal qualities} целостность, неприкосновенность, честность
+  680. (  1) 3T *#PT just [ʤ ʌst] (adv) {A1} {time} только что, просто, прямо, как раз, именно; (adj) {C1} {personal qualities} справедливый, точный
+              yT *#  openness [ˈəʊpənnəs] (n) {C1} {personal qualities} открытость, прямота, очевидность
+              3T *#  plain [pleɪn] (adj) {B2} {houses and homes} {clothes and fashion} {apperance} {C1} {personal qualities} простой, гладкий; (n) {C1} {geography} равнина
+ 1131. (  1) 5T *#PT straightforward [streɪtˈfɔːwəd] (adj) {C1} простой, {C1} {personal qualities} прямой
+              5T ?#  trustworthy [ˈtrʌstˌwɜːði] (adj) {C1} {personal qualities} надежный, заслуживающий доверия
+              4T *#  truthful [ˈtruːθfʊl] (adj) {C1} {personal qualities} правдивый, верный
 
 {personal qualities {immoral}}
 ------------------------------
@@ -11315,6 +11355,14 @@ People
   471. (  2) 3T *#PT evil [ˈivəl] (n) {B2} зло, бедствие; (adj) {B2} {personal qualities} злой
               3T ?#  immoral [ɪˈmɒrəl] un-: (adj) {B2} {personal qualities} моральный, нравственный; (adj) {B2} {personal qualities} безнравственный, аморальный
               4T ?#  villain [ˈvɪlən] (n) {B2} {film and theatre} {literature and writing} {personal qualities} злодей, негодяй, хитрец
+
+{C1} {personal qualities {immoral}}
+  299. (  1) yT ?#PT corrupt [kəˈrʌpt] (v) {C1} {crime and punishment} развращать, {C2} {computers} искажать; (adj) (of people) {C1} {personal qualities} {crime and punishment} продажный, (of behaviour) {C1}  = not honest or moral
+  300. (  1) 5T *#PT corruption [kəˈrʌpʃən] (n) {C1} {crime and punishment} {personal qualilties} коррупция, {C1} развращение, {C2} {computers} искажение, порча
+  623. (  1) yT ?#PT infamous [ˈɪnfəməs] (adj) {C1} {personal qualities} позорный, бесчестный, постыдный
+              yT ?#  rogue [rəʊɡ] (n) {C1} {personal qualities} жулик, мошенник, плут; (adj) норовистый
+
+<here
 
 {personal qualities {kind}}
 ...........................
