@@ -10,3 +10,4 @@ num-*
 ut
 tmp*
 *.swp
+/text/*.mp3
