@@ -11361,8 +11361,9 @@ People
   300. (  1) 5T *#PT corruption [kəˈrʌpʃən] (n) {C1} {crime and punishment} {personal qualilties} коррупция, {C1} развращение, {C2} {computers} искажение, порча
   623. (  1) yT ?#PT infamous [ˈɪnfəməs] (adj) {C1} {personal qualities} позорный, бесчестный, постыдный
               yT ?#  rogue [rəʊɡ] (n) {C1} {personal qualities} жулик, мошенник, плут; (adj) норовистый
-
-<here
+ 1281. (  1) xT *#PT vice [vaɪs] (n) {C1} {crime and punishment} {personal qualities} порок, заместитель, недостаток, зло; (adv)(prep) вместо
+              xx ?#  villainous [ˈvɪlənəs] (adj) {C1} {personal qualities} злодейский, подлый, отвратительный
+              xx *#  villainy [ˈvɪləni] (n) {C1} {personal qualities} злодейство, подлость
 
 {personal qualities {kind}}
 ...........................
@@ -11388,6 +11389,31 @@ People
  1151. (  1) 3T *#PT sensitive [ˈsɛnsɪtɪv] (n) {B2} {personal qualities} чувствительный
  1279. (  1) 3T ?#PT sympathetic [ˌsɪmpəˈθɛtɪk] (adj) {B2} {personal qualities} {C1} {opinion and argument} сочувственный, симпатический; (n) симпатический нерв
  1280. (  1) 3T *#PT sympathy [ˈsɪmpəθi] (n) {B2} {personal qualities} сочувствие, симпатия, сострадание
+
+{C1} {personal qualities {kind}}
+   73. (  1) 4T *#PT angel [ˈeɪnʤ əl] (n) {C1} {religion and festivals} {personal qualites} ангел, покровитель; (v) поддерживать
+              xx ?#  big-hearted [bɪg-ˈhɑːtɪd] (adj) {C1} {personal qualities} великодушный, с добрым сердцем
+              xx ?#  broad-minded [ˌbrɔːd ˈmaɪndɪd] (adj) {C1} {personal qualities} широко мыслящий, либеральный, терпимый
+              5T ?#  charitable [ˈʧærɪtəbl] (adj) {C1} {social issues} благотворительный, {C1} {personal qualities} милосердный, щедрый
+              5T ?#  considerate [kənˈsɪdərɪt] (adj) {C1} {personal qualities} тактичный, деликатный, внимательный к другим
+              4T ?#  darling [ˈdɑːlɪŋ] (adj) {C1} {personal qualities} дорогой, милый, любимый
+              3T *#  dear [dɪə] (adj) {A1} дорогой, милый, милый; (excl) {A2} = used in expressions that show that you are surprised, upset, annoyed or worried; (n) {C1} {personal qualities} милый, милая
+              5T ?#  dependable [dɪˈpɛndəb(ə)l] (adj) {C1} {personal qualities} надежный
+              zT *#  empathy [ˈɛmpəθi] (n) {C1} {personal qualities} сочувствие, сопереживание
+              xx ?#  good-hearted [ˌɡʊd ˈhɑːtɪd] (adj) {C1} {personal qualities} добросердечный, добрый
+              xx ?#  good+nature [ˌɡʊd ˈneɪtʃə(r)] (n) {C1} {personal qualities} добрый характер, добродушие
+              xx ?#  good-natured [ˌɡʊd ˈneɪtʃəd] (adj) {C1} {personal qualities} добродушный, добрый, беззлобный
+  596. (  1) 5T *#PT humanity [hju(ː)ˈmænɪti] (n) {C1} человечество, {C1} {education} гуманность, {C1} {personal qualities} человеколюбие
+              xx ?#  kind-hearted [ˌkaɪnd ˈhɑːtɪd] (adj) {C1} {personal qualities} добросердечный, добрый, мягкосердечный
+              3T ?#  kindly [ˈkaɪndli] (adv) {C2} любезно, доброжелательно; (adj) {C1} {personal qualities} добрый
+  762. (  1) xT *#PT mercy [ˈmɜːsi] (n) милость, {C1} {personal qualities} милосердие, сострадание
+              xx ?#  open-hearted [ˌəʊpən ˈhɑːtɪd] (adj) {C1} {personal qualities} открытый сердцем, чистосердечный, великодушный
+              xx ?#  open-minded [ˌəʊpən ˈmaɪndɪd] (adj) {C1} {personal qualities} открытый, с широким кругозором
+ 1042. (  1) 4T *#PT saint [seɪnt] (adj) святой; (n) {C1} {religion and festivals} {personal qualities} святой, праведник
+              3T *#  sweet [swiːt] (adj) {A2} {cooking and eating} сладкий, {C1} {personal qualities} милый, нежный, приятный; (n)(c) {A2} {food} {B2} {food} {cooking and eating} сладкое
+
+
+<here
 
 {personal qualities {lazy}}
 ...........................
