@@ -76,11 +76,10 @@ static BOOLEAN fNoSound = FALSE;	/* -m: Mute mode */
 static BOOLEAN fPutChars = FALSE;	/* -p: Putchar mode */
 static BOOLEAN fWithoutColor = FALSE;	/* -b: Black mode */
 static BOOLEAN fNoIndexes = FALSE;      /* -i: No indexes mode */
+static BOOLEAN fNoWordNum = FALSE;      /* -w: No word number info */ 
 /* Only for not unique mode */
 static BOOLEAN fNoInfo = FALSE;		/* -c: No info mode */
-static BOOLEAN fNoWordNum = FALSE;      /* -w: No word number info */ 
 static int how_many_sound_a_word = 1;	/* -s 1 */ 
-
 static int delay_sound_word_ms = 1000;
 
 static char *lang = "";                 /* english = "" */
@@ -470,18 +469,18 @@ int utf8_trick_isalpha(char *pc, int *pn)
 	   )) {
     *pn = 2;
     return 1;
-  } else   if (*(pc + 0) == (char)0xC4 &&
+  } else if (*(pc + 0) == (char)0xC4 &&
      (
               *(pc + 1) == (char)0x9e || /* Ğ */ *(pc + 1) == (char)0x9f || /* ğ */
               *(pc + 1) == (char)0xb0 || /* İ */ *(pc + 1) == (char)0xb1    /* ı */
       )) {
     *pn = 2;
     return 1; 
-  } else   if (*(pc + 0) == (char)0xC5 &&
+  } else if (*(pc + 0) == (char)0xC5 &&
       (
               *(pc + 1) == (char)0x92 || /* Œ */ *(pc + 1) == (char)0x93 || /* œ */
               *(pc + 1) == (char)0xb8 || /* Ÿ */
-	      *(pc + 1) == (char)0x9e || /* Ş */ *(pc + 1) == (char)0x9f    /* ş */
+	          *(pc + 1) == (char)0x9e || /* Ş */ *(pc + 1) == (char)0x9f    /* ş */
       )) {
     *pn = 2;
     return 1;
