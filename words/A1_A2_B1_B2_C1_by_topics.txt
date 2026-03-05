@@ -11411,9 +11411,12 @@ People
               xx ?#  open-minded [ˌəʊpən ˈmaɪndɪd] (adj) {C1} {personal qualities} открытый, с широким кругозором
  1042. (  1) 4T *#PT saint [seɪnt] (adj) святой; (n) {C1} {religion and festivals} {personal qualities} святой, праведник
               3T *#  sweet [swiːt] (adj) {A2} {cooking and eating} сладкий, {C1} {personal qualities} милый, нежный, приятный; (n)(c) {A2} {food} {B2} {food} {cooking and eating} сладкое
-
-
-<here
+              4T ?#  tactful [ˈtæktfʊl] (adj) {C1} {personal qualities} тактичный
+ 1190. (  1) 5T ?#PT tender [ˈtɛndər] (n) тендер, предложение; (adj) {C1} {personal qualities} {cooking and eating} нежный, ласковый, {C1} {health problems} болезненный; (v) предлагать
+ 1206. (  1) 5T ?#PT thoughtful [θɔːtfʊl] (adj) {C1} {personal qualities} вдумчивый, {C1} заботливый, задумчивый
+ 1216. (  1) 5T ?#PT tolerance [ˈtɒlərəns] (n) {C1} {discussion and agreement} {personal qualities} {social issues} толерантность, терпимость, допустимое отклонение
+              5T ?#  tolerant [ˈtɒlərənt] (adj) {C1} {discussion and agreement} {personal qualities} {social issues} толерантный, терпимый
+              xx ?#  warm-hearted [ˌwɔːm ˈhɑːtɪd] (adj) {C1} {personal qualities} сердечный, участливый, добрый
 
 {personal qualities {lazy}}
 ...........................
@@ -11423,6 +11426,10 @@ People
 
 {B1} {personal qualities {lazy}}
 {B2} {personal qualities {lazy}}
+{C1} {personal qualities {lazy}}
+              xx ?#  laze [leɪz] (v) {C1} {personal qualities} бездельничать
+              xx ?#  laze+away [leɪz əˈweɪ] (phrasal verb) {C1} {personal qualities} = lounge, = to spend time relaxing and doing very little, отдохнуть
+              xx ?#  lie+around [laɪ əˈraʊnd] (phrasal verb) {C1} {personal qualities} = to spend time doing nothing and being lazy, валяться, залеживаться
 
 {personal qualities {moral}}
 ............................
@@ -11442,6 +11449,18 @@ People
   835. (  2) 3T *#PT moral [ˈmɒrəl] (n) {B2} мораль, нравственность; (adj) {B2} {personal qualities} моральный, нравственный
   989. (  1) 3T *#PT principle [ˈprɪnsəpl] (n) {B2} {personal qualities} {scientific research} принцип, закон
 
+{C1} {personal qualities {moral}}
+  256. (  1) 5T ?#PT conscience [ˈkɒnʃəns] (n) {C1} совесть, {C1} {personal qualities} сознание
+              zT ?#  ethos [(UK)ˈiːθɒs/(US)ˈiːθɑːs] {C1} {personal qualities} нравственный облик, характер лица
+              4T ?#  honorable [ˈɑːnərəbl] (US) (adj) {C1} {personal qualities} почетный, достопочтенный, честный, (UK) = honourable
+              yT ?#  honourable [ˈɑnərəbəl] (UK) (adj) {C1} {personal qualities} почетный, достопочтенный, честный, (US) = honorable
+              xx ?#  judgemental [dʒʌdʒˈmentl] (adj) {C1} {personal qualities} осуждающий
+  791. (  1) yT ?#PT morality [məˈræləti] (n) {C1} {personal qualities} мораль, нравоучение
+  805. (  1) 4T ?#PT noble [ˈnəʊbl] (adj) {C1} {personal qualities} {people in society} благородный; (n) {C1} {history} {people in society} дворянин, нобль, пэр Англии, титулованное лицо
+  892. (  1) 5T ?#PT preach [priːʧ] (v) {C1} {religion and festivals} проповедовать, {C1} {suggestions and advice} {personal qualities} поучать, читать наставления, {C1} выступать в защиту
+              xx ?#  principled [ˈprɪnsəpld] (adj) {C1} {personal qualities} принципиальный, с твердыми устоями
+ 1286. (  1) 5T ?#PT virtue [ˈvɜːtjuː] (n) {C1} {personal qualities} добродетель, {C1} достоинство, сила
+
 {personal qualities {proud}}
 ............................
 {A1} {personal qualities {proud}}
@@ -11455,6 +11474,12 @@ People
   985. (  1) 3T *#PT pride [praɪd] (n) {B2} {personal qualities} гордость, гордыня; (v) гордиться
               xx ?#  show+off [ʃəʊ ɒf] (phrasal verb) {B2} {personal qualities} = to try to impress others by talking about abilities/possessions/etc., выпендриваться, показывать в выгодном свете
 
+{C1} {personal qualities {proud}}
+  144. (  1) 5T ?#PT boast [bəʊst] (v) {C1} {success} {personal qualities} похвастать, хвастаться, {C1} гордиться
+              4T ?#  brag [bræɡ] (v) {C1} {personal qualities} хвастаться; (n) хвастун
+              xx ?#  conceited [kənˈsiːtɪd] (adj) {C1} {personal qualities} самодовольный, тщеславный, высокомерный
+              yT ?#  vain [veɪn] (adj) {C1} {personal qualities} тщеславный, {C2} {difficulty and failure} пустой, тщетный
+
 {personal qualities {selfish}}
 ..............................
 {A1} {personal qualities {selfish}}
@@ -11464,6 +11489,10 @@ People
 
 {B2} {personal qualities {selfish}}
               5T ?#  greedy [ˈgriːdi] (adj) {B2} {personal qualities} {feelings} {money} жадный, алчный
+
+{C1} {personal qualities {selfish}}
+              xx ?#  self-centred [ˌself ˈsentəd] (adj) {C1} {personal qualities} эгоцентричный, эгоистичный
+              xx ?#  self-pity [ˌself ˈpɪti] (n) {C1} {personal qualities} жалость к себе
 
 {personal qualities {shy}}
 ..........................
@@ -11475,6 +11504,10 @@ People
 
 {B2} {personal qualities {shy}}
               xx ?#  introvert [ˈɪntrəʊˌvɜːt->(n)/ˌɪntrəʊˈvɜːt->(v)] (n) {B2} {personal qualities} интроверт; (v) втягивать внутрь
+
+{C1} {personal qualities {shy}}
+              5T ?#  timid [ˈtɪmɪd] (adj) {C1} {personal qualities} робкий
+              yT ?#  withdrawn [wɪðˈdrɔːn] -2ed: (v) {B2} {money} снять со счета, изымать, {C1} отзывать, I:withdraw-withdrew-withdrawn; (adj) {C1} {personal qualities} замкнутый, ушедший в себя
 
 {personal qualities {skills and qualities}}
 ...........................................
@@ -11515,6 +11548,23 @@ People
  1186. (  1) 3T *#PT skilled [skɪld] (adj) {B2} {personal qualities} {jobs} квалифицированный, опытный, умелый, искусный
               xx ?#  skill+set [skɪl sɛt] (n) {B2} {personal qualities} набор навыков
 
+{C1} {personal qualities {skills and qualities}}
+              5T ?#  accomplished [əˈkɒmplɪʃt] -ed: (v) {B2} {success} выполнять, совершать; (adj) {C1} {personal qualities} опытный
+              zT ?#  attentive [əˈtɛntɪv] (adj) {C1} {personal qualities} внимательный
+  179. (  1) 5T ?#PT caution [ˈkɔːʃən] (n) {C2} {crime and punishment} осторожность, {C1} {suggestions and advice} {danger} предостережение, {C1} {personal qualities} предупреждение; (v) {C1} {danger} предостерегать
+              5T ?#  cautious [ˈkɔːʃəs] (adj) {C1} {personal qualities} осторожный
+              5T *#  committed [kəˈmɪtɪd] -ed: (v) {B1} {crime and punishment} {discussion and agreement} {C1} {preferences and decisions} {opinion and argument} совершать, фиксировать, поручать; (adj) {C1} {personal qualities} преданный идее, идейный
+  229. (  1) 5T ?#PT competent [ˈkɒmpɪtənt] (adj) {C1} {personal qualities} компетентный, знающий, {C1} достаточный
+              5T ?#  conscientious [ˌkɒnʃɪˈɛnʃəs] (adj) {C1} {personal qualities} добросовестный, сознательный, совестливый
+              xx ?#  dignified [ˈdɪɡnɪfaɪd] -ed: (v) придать достоинство, величать; (adj) {C1} {personal qualities} достойный, величественный
+  392. (  1) xT ?#PT discretion [dɪsˈkrɛʃən] (n) {C1} усмотрение, {C1} {personal qualities} благоразумие
+              4T *#  knowledgeable [ˈnɒlɪʤ əbl] (adj) {C1} {personal qualities} хорошо осведомленный, умный
+  750. (  2) xT ?#PT mature [məˈtjʊə] (adj) {C1} {life stages} {personal qualities} зрелый; (v) {C1} {life stages} созреть
+  963. (  1) 5T *#PT rational [ˈræʃənl] (adj) {C1} {personal qualites} рациональный
+              xx ?#  relatable [rɪˈleɪtəbl] (adj) {C1} {personal qualities} понятный, {C2} {change, cause and effect} = that can be related to something else
+              xx ?#  self-motivated [ˌself ˈməʊtɪveɪtɪd] (adj) {C1} {personal qualties} самомотивированный
+              xx ?#  team+player [ˌtiːm ˈpleɪə(r)] (n) {C1} {personal qualities} командный игрок
+
 {personal qualities {unpleasant}}
 .................................
 {A1} {personal qualities {unpleasant}}
@@ -11533,6 +11583,29 @@ People
   889. (  1) 3T ?#PT offensive [əˈfɛnsɪv] (n) {C2} {war and conflict} наступление; (adj) {B2} {personal qualities} наступательный, оскорбительный
  1247. (  1) 3T *#PT strict [strɪkt] (adj) {B2} {permission and obligation} {personal qualities} строгий, {B2} {permission and obligation} точный, {B2} неукоснительный
               xx ?#  unfriendliness [ʌnˈfrɛndlɪnəs] (n) {B2} {personal qualities} недружелюбие
+
+{C1} {personal qualities {unpleasant}}
+              xx ?#  argumentative [ˌɑːɡjuˈmentətɪv] (adj) {C1} {opinion and argument} {personal qualities} любящий спорить, аргументированный, спорный, дискуссионный
+              3T ?#  bad-tempered [ˈbædˈtɛmpəd] (adj) {C1} {personal qualities} злой, вспыльчивый, раздражительный
+              3T *#  boss [bɒs] (n) {A2} {people in society} {working life} {jobs} {business} босс, шеф; (v) {C1} {personal qualities} распоряжаться
+              xx ?#  cold-hearted [ˌkəʊld ˈhɑːtɪd] (adj) {C1} {personal qualities} бессердечный
+  318. (  1) 5T ?#PT crude [kruːd] (adj) сырой, {C1} {personal qualities} грубый
+              5T ?#  disagreeable [ˌdɪsəˈgrɪəbl] (adj) {C1} {personal qualities} неприятный, противный
+  577. (  1) 5T ?#PT harsh [hɑːʃ] (adj) {C1} резкий, суровый, жесткий, строгий, {C1} {personal qualities} грубый
+              4T *#  icy [ˈaɪsi] (adj) {B2} {weather} {C1} {personal qualities} ледяной
+              zT ?#  insensitive [ɪnˈsɛnsɪtɪv] (adj) {C1} {personal qualities} нечувствительный, равнодушный
+              xx ?#  intolerant [ɪnˈtɒlərənt] (adj) {C1} {personal qualities} нетерпимый, {C2} {cooking and eating} = not able to eat particular foods/use particular medicines/etc. without becoming ill
+              5T ?#  irritable [ˈɪrɪtəbl] (adj) {C1} {personal qualities} раздражительный, раздражимый
+              yT ?#  malicious [məˈlɪʃəs] (adj) {C1} {personal qualities} {C2} {computers} злонамеренный
+              5T ?#  miserable [ˈmɪzərəbl] (adj) {B2} {feelings} {weather} несчастный, жалкий, {C1} {personal qualities} убогий
+              xx ?#  mistreat [ˌmɪsˈtriːt] (v) {C1} {personal qualities} плохо обращаться, жестоко обращаться
+              5T ?#  mock [mɒk] (v) {C1} {personal qualities} высмеивать, издеваться, насмехаться, глумиться; (adj) {C2} {education} {buildings} ложный, фиктивный; (n) насмешка, пародия, (UK) {C2} {education} = a practice exam that you do before the official one
+              xx ?#  narrow-minded [ˌnærəʊ ˈmaɪndɪd] (adj) {C1} {personal qualities} узкомыслящий, ограниченный
+              xx ?#  pushy [ˈpʊʃi] (adj) {C1} {personal qualities} напористый, пробивной, нахальный
+              4T ?#  resentful [rɪˈzɛntfʊl] (adj) {C1} {personal qualities} {feelings} обиженный, обидчивый, возмущенный, злопамятный
+              5T ?#  ridicule [ˈrɪdəˌkjul] (v) {C1} {personal qualities} высмеивать, осмеивать; (n) {C1} {personal qualities} насмешка, смехотворность
+              xx ?#  unchristian [ʌnˈkrɪstiən/ʌnˈkrɪsʧən] -un: (adj) {B2} {religion and festivals} христианский; (adj) {C1} {personal qualities} недобрый, неудобный
+              xx ?#  unsmiling [ʌnˈsmaɪlɪŋ] un- & -ing: (v) {A2} {feelings} {appearance} улыбаться; (adj) {C1} {personal qualities} неулыбчивый
 
 Politics and society
 =====================
@@ -11573,6 +11646,35 @@ Politics and society
  1172. (  1) 3T *#PT shooting [ʃuːtɪŋ] -ing: (v) {B1} {war and conflict} {crime and punishment} стрелять, расстрелять, {B2} {film and theatre} снять, застрелить, {B2} {sports: ball and racket sports} отстреливать, I: shoot-shot-shot; (n) {B2} {war and conflict} {crime and punishment} стрельба, охота, {B2} {film and theatre} киносъемка
               xx ?#  shoplift [ˈʃɒpˌlɪft] (v) {B2} {shopping} {crime and punishment} воровать товары; (n) магазинная кража
  1210. (  1) 3T *#PT speed [spiːd] (n) {A2} скорость, быстрота; (v) {B2} ускорять, {B2} {crime and punishment} спешить, торопить, I: speed-sped/speeded-sped/speeded
+
+{C1} {crime and punishment {committing crime}}
+   10. (  2) 3T ?#PT abuse [əˈbjus->(n)/əˈbjuz->(v)] (v) {C1} {crime and punishment} злоупотреблять, ругать, {C1} {feeling} оскорблять; (n) {C1} {feeling} оскорбление, {C1} {crime and punishment} злоупотребление
+   94. (  2) 5T ?#PT assault [əˈsɔːlt] (n) {C1} {crime and punishment} нападение, {C1} штурм, атака, {C1} {difficulty and failure} насилие, изнасилование, высадка десанта с боем; (adj) штурмовой; (v) {C1} {crime and punishment} штурмовать
+              xx ?#  blackmail [ˈblækmeɪl] (v) {C1} {crime and punishment} шантажировать; (n) {C1} {crime and punishment} шантаж
+  150. (  2) 5T ?#PT breach [briːʧ] (n) {C1} {crime and punishment} {discussion and agreement} нарушение, брешь, разрыв; (v) {C1} {discussion and agreement} {crime and punishment} нарушать
+              xx ?#  bribe [braɪb] (n) {C1} {discussion and agreement} {crime and punishment} {money} взятка, подкуп; (v) {C1} {discussion and agreement} {crime and punishment} {money} подкупать
+  299. (  1) yT ?#PT corrupt [kəˈrʌpt] (v) {C1} {crime and punishment} развращать, {C2} {computers} искажать; (adj) (of people) {C1} {personal qualities} {crime and punishment} продажный, (of behaviour) {C1} = not honest or moral
+  339. (  1) xT *#PT default [dɪˈfɔːlt] (n) {C1} {preferences and decisions} {computers} умолчание, {C1} {permission and obligation} {crime and punishment} неуплата, отсутствие; (v) {C2} {crime and punishment} прекратить платежи
+  527. (  1) 5T ?#PT forge [fɔrʤ ] (adj) кузнечный; (n) кузница; (v) {C1} {succes} выковать, лидировать, {C1} {crime and punishment} подделывать
+              yT ?#  getaway [ˈɡetəweɪ] (n) {C1} {crime and punishment} бегство, побег
+              xx ?#  get+away+with [gɛt əˈweɪ wɪð] (phrase verb) {C1} {crime and punishment} = to steal something and escape with it, = to receive a relatively light punishment, = to do something wrong and not be punished for it, сойти с рук
+              zT ?#  hijack [ˈhaɪʤ æk] (n) налет, ограбление, угон самолета; (v) {C1} {war and conflict} {crime and punishment} нападать с целью грабежа, совершать налет
+  592. (  1) yT ?#PT hostage [ˈhɒstɪʤ ] (n) {C1} {war and conflict} {crime and punishment} заложник
+  682. (  1) xx ?#PT kidnap [ˈkɪdnæp] (v) {C1} {crime and punishment} похищать детей, увезти, украсть ребенка, обманом похитить
+              4T ?#  mug [mʌg] (n) {B2} {cooking and eating} кружка, рожа, морда, харя; (v) гримасничать, {C1} {crime and punishment} грабить
+              yT ?#  phishing [ˈfɪʃɪŋ] (n) {C1} {crime and punishment} = the activity of tricking people into providing personal or financial information by sending emails/text/etc. that seem to be from companies that the person knows often in order to steal money from them, фишинг
+              5T ?#  pinch [pɪnʧ] (v) {C1} {crime and punishment} ущипнуть, щипать, зажимать, {C1} {computers} = to place the thumb and a finger of one hand on the screen of an electronic device such as a mobile phone or small computer and move them together or apart to make the image on the screen apear smaller of larger, сжать; (n) щепотка, щипок
+  876. (  1) yT ?#PT pirate [ˈpaɪrət] (n) {C1} {transport by water} {crime and punishment} пират
+              xx ?#  poach [pəʊtʃ] (v) {C2} {cooking and eating} размешивать, мять, {C1} {crime and punishment} браконьерствовать
+              zT ?#  ransom [ˈrænsəm] (n) {C1} {money} {crime and punishment} выкуп, искупление; (v) {C2} {crime and punishment} выкупать, требовать выкупа
+  961. (  2) xT *#PT rape [reɪp] (v) {C1} {crime and punishment} изнасиловать, насиловать; (n) {C1} {crime and punishment} изнасилование
+              1T *#  record [ˈrɛkɔːd->(n)/rɪˈkɔːd->(v)] (n) {B1} {music} запись, {A2} {success} {sports: other sports} рекорд, отчет, учет, регистрация, {C1} {law and justice} {crime and punishment} протокол; (v) {A2} {tv, radio and news} {music} записывать, регистрировать; (adj) рекордный
+ 1029. (  1) 5T ?#PT riot [ˈraɪət] (n) {C1} {social issues} {crime and punishment} бунт, беспорядки, {C1} восстание; (v) {C1} {social issues} {crime and punishment} бунтовать
+              xx ?#  rip+off [rɪp ɒf] (phrasal verb) (informal) {C1} {crime and punishment} = to cheat somebody by making them pay too much by selling them something of poor quality/etc., {C2} {crime and punishment} = to steal or illegally copy something
+              5T ?#  smuggle [ˈsmʌgl] (v) {C1} {crime and punishment} заниматься контрабандой, провозить контрабандой
+
+
+<here
 
 {crime and punishment {criminals}}
 ..................................

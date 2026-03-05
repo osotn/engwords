@@ -1,9 +1,57 @@
-I. Hardware
+ Preface
+ -------
 
-- how computer systems work
-- how break complex problems into manageable modules
-- how to build large-scale hardware and software
+Once upon a time, every computer specialist had a gestalt understanding of how computer worked. The overall interactions among hardware, software, compilers, and the operating system were simple and transparent enough to produce a coherent picture of the computer's operations. As modern computer technologies have become increasingly more complex, this clarity is all but lost: the most fundamental ideas and techniques in computer science - the very essence of the field - are now
+hidden under many layers of obscure interfaces and proprietary implementations. An inevitable consequence of this complexity has been specialization, leading to computer science curricula of many courses, each covering a single aspect
+of the field.
+We believe that the best way to understand how computers work is to build one from scratch. 
 
+ Scope.
+ -----
+
+Hardware: Logic gates, Boolean arithmetic, multiplexors, flip-flops, registers, RAM units, counters, HDL (Hardware Description Language), chip simulation and testing.
+
+Architecture: ALU / CPU design and implementation, machine code, assembly language programming, addressing modes, memory mapped input output (I/O).
+
+Operation systems: Memory management, math library, basic I/O drivers, screen management, file I/O, high level language support.
+
+Data structures and algorithms: Stacks, hash tables, lists, recursion, arithmetic algorithms, geometric algorithms, running time considerations.
+
+Software engineering: Modular design, the interface implementation paradigm, API design and documentation, proactive test planning, programming at the large, quality assurance.
+
+ Courses
+ -------
+A course based on this book is "perpendicular" to the normal computer science curriculum and can be taken at almost any point during the program. Two natural slots are "CS - 2" - immediately after learning programming and "CS - 199" - a capstone course coming at the end of the program.
+The book is completely self-contained, requiring only programming (in any language) as a prerequisite.
+
+ Projects
+ ---------
+
+The computer system described in the book is for real - it can actually be build,
+and it works!
+
+
+ Introduction
+ ------------
+
+You are about to learn three things:
+    - how computers work
+    - how to break complex problems into manageable modules
+    - how to develop large-scale hardware and software systems
+
+This program is written in Jack - a simple high-level language that has a conventional
+object - based syntax.
+
+// First example in Programming 101
+class Main {
+    function void main() {
+        do Output.printString("Hello World");
+        do Output.println();
+        return;
+    }
+}
+
+Trivial programs like Hello World are deceptively simple.
 Program is nothing more than a encounter sequence of plain characters,
 stored deceptively in a text file.
 
@@ -13,15 +61,44 @@ high-level language -> os
  -> compile -> vm code
  -> machine language -> cpu -> ALU, RAM -> gates
 
-Boolean operators: And, Or, Not, Xor
-Boolean values: True, False (1, 0)
 
-Gate is a physical device that implementes a simple Boolean function.
+ Abstractions
+ ------------
+Our ability to create and use abstractions.
+The notion of abstraction, central to many arts and sciences, is normally taken to be a mental expression that seeks to separate in thought, and capture in some concise manner, the essence of some entity.
+In computer science, we take the notion of abstraction very concretely, defining it to be a statement of "what the entity does" and ignoring the details "how it does it."
 
+ High-Level Language Land
+
+The topmost abstraction in our journey is the art of programming, where entrepreneurs and programmers dream up applications and write software that implements them. In doing so, they blissfully take for granted the two key tools of their trade: the high-level language in which they work, and the rich library of services that supports it.
+
+ Boolean Logic
+ -------------
+
+Every digital device - be it a personal computer, a cellular telephone, or a network router - is based on a set of chips designed to store and process information. Although these chip come in different shapes and forms, they are all made from the same building blocks: Elementary logic gates. The gates can be physically implemented in many different materials and fabrication technologies, but their logical behaviour is consistent across all computers.
+
+1.1.1 Boolean Algebra.
+
+Boolean algebra deals with Boolean (also called binary) values that are typically labeled true / false ( 1 / 0, yes / no, on  / off ).
+Boolean function is a function that operates on binary inputs and return binary outputs.
+
+The simplest way to specify a Boolean function is to enumerate all the possible values of the function's input variables, along with the function's output for each set of inputs. This is called the truth table representation of the function.
+
+In addition to the truth table specification, a Boolean function can also be specified using Boolean operations over input variables. Operations: And, Or, Not.
+
+Two Input Boolean Functions: Constant 0, Constant 1, And, x, y, Xor, Or, Equivalence, Nor, Nand, if y then x, if x then y, ...
+
+
+1.1.2 Gate Logic
+ 
+Gate is a physical device that implements a simple Boolean function.
+Today, most gates are implemented as transistors etched in silicon, packaged as chips.
+Computer scientists don't have to worry about physical things like electricity, circuits, switches, relays, and power supply. Instead, computer scientists can be content with the abstract notions of Boolean algebra and gate logic, trusting that someone else (the physicists and electrical engineers) will figure out how to actually realize them in hardware.
+
+    Gate interface             ->          Gate implementation
 
 XOR
-
-	a | b | out
+        a | b | out
         -----------
         0 | 0 | 0
         0 | 1 | 1
@@ -30,22 +107,36 @@ XOR
 
 out = !a & b | a & !b
 
-Half-adder
 
-       a | b | c | s
-       -------------
-       0 | 0 | 0 | 0
-       0 | 1 | 0 | 1
-       1 | 0 | 0 | 1
-       1 | 1 | 1 | 0
+1.1.4 HDL
 
-c = a & b;  s = xor(a,b)
+Hardware designers no longer build anything with their bare hands. Instead, they plan and optimize the chip architecture on a computer workstation, using structured modeling formalisms like HDL. The designer specifies the chip structure by writing an HDL program, which is then subjected to a rigorous battery of tests. These tests are carried out virtually, using computer simulation A special software tool, called a hardware simulator, takes the HDL program as input and builds an image of the modeled chip in memory. Next, the designer can instruct the simulator to test the virtual chip on various sets of inputs, generating simulated ship outputs. And also: speed of computation, energy consumption, the overall cost implied by chip design.
+Thus, using HDL, one can completely plan, debug, and optimize the entire chip before a single penny is spent on actual production.
 
-Full add
+HDL definition of a chip consists: of a header section (interface: chip name, names of inputs and outputs) and part section (name and topolody of all the lower level parts).
 
-s1, c1  = hadd(a,b)
-s2, c2 =  hadd(c, s1)
-c = c1 | c2
+HDL is case sensitive, keywords are written in uppercase letters.
+
+
+/* Comments */
+CHIP Xor {
+    IN a, b;
+    OUT out;
+    PARTS:
+    Not(in=a, out=nota);
+    Not(in=b, out=notb);
+    And(a=a, b=notb, out=w1);
+    And(a=nota, b=b, out=w2);
+    Or(a=w1, b=w2, out=out);
+}
+
+The hardware simulator is a computer program that know how to parse and interpret HDL code, turn it into an executable representation, and test it according to the specifications of a given test script.
+
+
+
+1.2.1 The Nand Gate.
+
+Nand
 
 Multiplexer
 
@@ -64,7 +155,7 @@ Multiplexer
 
 Demultiplexer:
 
-	sel | a  b
+        sel | a  b
          0  | in in
          1  | 0  in
 
@@ -77,6 +168,31 @@ Demultiplexer:
  a = in & !sel
  b = in & sel
 
+1.2.3 Multi Bit Versions of Basic Gates
+
+Multi-bit arrays called "buses".
+
+
+
+
+Half-adder
+
+       a | b | c | s
+       -------------
+       0 | 0 | 0 | 0
+       0 | 1 | 0 | 1
+       1 | 0 | 0 | 1
+       1 | 1 | 1 | 0
+
+c = a & b;  s = xor(a,b)
+
+Full add
+
+s1, c1  = hadd(a,b)
+s2, c2 =  hadd(c, s1)
+c = c1 | c2
+
+
 ALU
 ---
 
@@ -87,7 +203,7 @@ ny y=!y
 f x+y x&y
 no out=!out
 
-	zx | nx | zy | ny | f | no | out
+        zx | nx | zy | ny | f | no | out
          1 |  0 |  1 |  0 | 1 |  0 |  0           out = 0 + 0
          1 |  1 |  1 |  1 | 1 |  1 |  1           out = !(-1 + -1) = !(-2) = 1
          1 |  1 |  1 |  0 | 1 |  0 |  -1          out = -1 + 0 = -1
@@ -106,7 +222,10 @@ no out=!out
          0 |  0 |  0 |  1 | 1 |  1 |  y-x
          0 |  0 |  0 |  1 | 1 |  1 |  x&y
          0 |  1 |  0 |  1 | 0 |  1 |  x|y
-	
+
+
+
+
 Memory
 -----
 Such chips as ALU are called combinational: they respond to different combinations of their inputs
