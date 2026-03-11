@@ -97,6 +97,82 @@ Computer scientists don't have to worry about physical things like electricity, 
 
     Gate interface             ->          Gate implementation
 
+1.1.4 HDL
+
+Hardware designers no longer build anything with their bare hands. Instead, they plan and optimize the chip architecture on a computer workstation, using structured modeling formalisms like HDL. The designer specifies the chip structure by writing an HDL program, which is then subjected to a rigorous battery of tests. These tests are carried out virtually, using computer simulation A special software tool, called a hardware simulator, takes the HDL program as input and builds an image of the modeled chip in memory. Next, the designer can instruct the simulator to test the virtual chip on various sets of inputs, generating simulated ship outputs. And also: speed of computation, energy consumption, the overall cost implied by chip design.
+Thus, using HDL, one can completely plan, debug, and optimize the entire chip before a single penny is spent on actual production.
+
+The hardware simulator is a computer program that know how to parse and interpret HDL code, turn it into an executable representation, and test it according to the specifications of a given test script.
+
+HDL definition of a chip consists: of a header section (interface: chip name, names of inputs and outputs) and part section (name and topology of all the lower level parts).
+
+HDL is case sensitive, keywords are written in uppercase letters.
+Names of chips and pins may be any sequence of letters and digits not starting with digit. By convention, chip and pin start a capital letter and a lowercase letter, respectively.
+Space character, newline characters, and comments are ignored.
+Comments // (to end of line) and /* */ (until closing)
+
+    CHIP chip_name {
+        IN input_pin_name, input_pin_name,...;  // by default single-bit wide, or name [w] (0..w-1) from right to left
+        OUT output_pin_name, output_pin_name,...;
+        // body (implementation)
+    }
+
+A typical chip consists of several lower-level chips, connected to each other and to chip input/output pins in a certain "logic" (connectivity pattern) designed to deliver the chip functionality.
+        PARTS:
+            chip_name (connection, ...);
+            ...
+            
+Each connection describes how one pin of a part is connected to another pin in the chip definition.
+Internal pins are created as needed when they are specified the first time in the HDL program, and require no special declaration. Each internal pin has in 1 and unlimited out, meaning that it can be fed from single source only, yet it can feed many other parts. Can be constants true and false.
+
+    Foo(in[2..4] = v, in[6..7] = true, out[0..3] = x, out[2..6]=y)
+
+The hardware simulator features a library of built-in chips that can be used as internal parts by other chips. Built-in chips are implemented in code written in an programming language like Java, operating behind an HDL interface. Thus, a built-in has a standard HDL header (interface), but its HDL body (implemention) declares it as built-in.
+
+    BUILTIN Name; // Reference to builtIn/Name.class, instead of PARTS
+
+Computer chips are either combinational or sequential (also called clocked). The operation of combinational chips is instantaneous. In contrast, the operation of sequential chips is clock regulated.
+
+The simulator models the progression of time by supporting two operations called tick and tock. A tick ends the first phase of a time unit and starts its second phase, and a tock signals the first phase of the next time unit. During the first phase of the time unit (tick), the inputs of each sequential chip in the architecture are read and affect the chip's internal state, according to the chip logic. During the second phase of the time unit (tock), the outputs of the chip are set to the new values.
+
+    repeat n {tick, tock, output;}
+
+A built-in chip can declare its dependence on the clock explicitly, using the statement:
+    CLOCKED pin, pin,...,pin; // input or output
+
+The inclusion of an input pin x in the CLOCKED list instructs the simulator that changes to x should not affect my of the chip's output pins until the beginning of the next time unit. The inclusion of an ouput pin x in the CLOCKED list instructions the simulator that changes in any of the chip's input pins should not affect x until the beginning of the next time unit.
+
+The chip is clocked if its lower level chip parts are clocked, or if it built-in with CLOCKED keywords.
+
+Built-in DFF chip (D-Flip-Flop).
+
+    /* out[t] = in[t-1]
+    CHIP DFF {
+        IN in;
+        OUT out;
+        BUILTIN DFF; // Implemented by builtIn/DFF.class
+        CLOCKED in, out;
+    }
+
+Feedback Loops:
+    Not (in=loop1, out=loop1); // Invalid
+    DFF (in=loop2, out=loop2); // Valid
+
+
+1.2.1 The Nand Gate.
+
+Nand
+        a | b | out
+        -----------
+        0 | 0 | 1
+        0 | 1 | 1
+        1 | 0 | 1
+        1 | 1 | 0
+
+Some of the logic gates presented here are typically referred to as "elementary" of "basic". At the same time, every one of them can be composed from Nand gates alone.
+
+Not, And, Or, Xor, Mux
+
 XOR
         a | b | out
         -----------
@@ -106,17 +182,6 @@ XOR
         1 | 1 | 0
 
 out = !a & b | a & !b
-
-
-1.1.4 HDL
-
-Hardware designers no longer build anything with their bare hands. Instead, they plan and optimize the chip architecture on a computer workstation, using structured modeling formalisms like HDL. The designer specifies the chip structure by writing an HDL program, which is then subjected to a rigorous battery of tests. These tests are carried out virtually, using computer simulation A special software tool, called a hardware simulator, takes the HDL program as input and builds an image of the modeled chip in memory. Next, the designer can instruct the simulator to test the virtual chip on various sets of inputs, generating simulated ship outputs. And also: speed of computation, energy consumption, the overall cost implied by chip design.
-Thus, using HDL, one can completely plan, debug, and optimize the entire chip before a single penny is spent on actual production.
-
-HDL definition of a chip consists: of a header section (interface: chip name, names of inputs and outputs) and part section (name and topolody of all the lower level parts).
-
-HDL is case sensitive, keywords are written in uppercase letters.
-
 
 /* Comments */
 CHIP Xor {
@@ -130,15 +195,9 @@ CHIP Xor {
     Or(a=w1, b=w2, out=out);
 }
 
-The hardware simulator is a computer program that know how to parse and interpret HDL code, turn it into an executable representation, and test it according to the specifications of a given test script.
 
 
-
-1.2.1 The Nand Gate.
-
-Nand
-
-Multiplexer
+Mux = Multiplexer
 
         a | b | sel | out
         -----------------

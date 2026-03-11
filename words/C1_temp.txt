@@ -201,7 +201,7 @@
   182. (  1) xT ?#PT cemetery [(UK)ˈsɛmɪtri/(US)ˈsɛməˌtɛri/ˈsɛməˌtɛri] (n) {C1} {religion and festivals} {life stages} кладбище -1
   183. (  1) 3T *#PT chamber [ˈʧeɪmbə] (n) {C1} камера, {C1} {politics} палата, {C2} {buildings} комната; (adj) камерный
   184. (  1) 5T ?#PT chaos [ˈkeɪɑs] (n) {C1} {war and conflict} хаос, беспорядок, полный беспорядок
-  185. (  1) 5T ?#PT characterize [ˈkærɪktəraɪz] (v) характеризуют, отличать
+  185. (  1) 5T ?#PT characterize [ˈkærɪktəraɪz] (v) {C1} характеризуют, отличать
   186. (  1) xT ?#PT charm [ʧɑːm] (n) {C1} очарование, шарм, обаяние, чары; (v) очаровывать, прельщать
   187. (  1) 5T ?#PT charter [ˈʧɑːtə] (n) чартер, устав, хартия; (adj) чартерный; (v) фрахтовать, нанимать
 
@@ -564,7 +564,7 @@
   543. (  1) 3T *#PT gambling [ˈgæmblɪŋ] -ing: (v) рисковать, играть в азартные игры; (adj) игорный; (n) азартная игра
   544. (  1) 4T *#PT gathering [ˈgæðəɪŋ] -ing: (v) {B1} собирать
   545. (  2) yT ?#PT gaze [geɪz] (n) {C1} взор; (v) {C1} посмотреть, пристально глядеть
-  546. (  1) 3T ?#PT gear [gɪə] (n) механизм, шестерня, зубчатое колесо, передача; (v) запрягать, приспосабливать, сцепляться
+  546. (  1) 3T ?#PT gear [gɪə] (n) {C1} механизм, {C1} {transport by car or lorry} шестерня, зубчатое колесо, передача; (v) запрягать, приспосабливать, сцепляться
   547. (  1) xT *#PT generic [ʤ ɪˈnɛrɪk] (adj) общий, родовой; (n) непатентованное средство
   548. (  1) yT ?#PT genocide [ˈʤ ɛnəʊsaɪd] (n) {C1} {crime and punishment} геноцид
   549. (  2) 4T ?#PT glance [glɑːns] (n) взгляд, беглый взгляд; (v) {C1} взглянуть, глянуть
@@ -744,7 +744,7 @@
   723. (  1) 3T *#PT logic [ˈlɒʤ ɪk] (n) {C1} {C2} {computers} логика
   724. (  1) xx ?    long-standing
   725. (  1) xx ?    long-time
-  726. (  1) 5T ?#PT loom [luːm] (n) ткацкий станок, тень; (v) маячить, неясно вырисовываться
+  726. (  1) 5T ?#PT loom [luːm] (n) ткацкий станок, тень; (v) {C1} маячить, неясно вырисовываться
   727. (  1) 5T *#PT loop [lup] (n) {C1} петля; (v) делать петлю
   728. (  1) 4T ?#PT loyalty [ˈlɔɪəlti] (n) {C1} лояльность, верность, преданность
   729. (  1) 3T ?#PT machinery [məˈʃiːnəri] (n) {C1} {business} {engineering} машины, машинное оборудование, механизм, аппарат
@@ -754,7 +754,7 @@
   733. (  1) 5T ?#PT magnitude [ˈmægnɪtjuːd] (n) величина, размеры, важность
   734. (  1) 4T ?#PT mainland [ˈmeɪnlənd] (n) материк
   735. (  2) 4T ?#PT mainstream [ˈmeɪnstriːm] (n) {C1} {preferences and decisions} {politics} основное направление, главная линия; (adj) {C1} = considered normal because it reflects what is done or accepted by most people -1
-  736. (  1) 5T ?#PT maintenance [ˈmeɪntənəns] (n) обслуживание, поддержание
+  736. (  1) 5T ?#PT maintenance [ˈmeɪntənəns] (n) {C1} обслуживание, {C2} {money} поддержание
   737. (  1) 5T ?#PT mandate [ˈmændeɪt] (n) мандат; (v) give someone authority to act in a certain way
   738. (  1) 5T *#PT mandatory [ˈmændətəri] (adj) {C1} обязательный
   739. (  1) yT ?#PT manifest [ˈmænɪfɛst] (n) манифест, декларация; (v) проявлять, обнаруживать; (adj) явный
@@ -1011,7 +1011,7 @@
   989. (  1) 5T ?#PT relevance [ˈrɛlɪvəns] (n) релевантность, уместность, актуальность
   990. (  1) 5T *#PT reliability [rɪˌlaɪəˈbɪlɪti] (n) надежность, достоверность
   991. (  1) 5T ?#PT reluctant [rɪˈlʌktənt] (adj) {C1} неохотный, вынужденный
-  992. (  1) 5T *#PT remainder [rɪˈmeɪndə] (n) остаток
+  992. (  1) 5T *#PT remainder [rɪˈmeɪndə] (n) {C1} остаток
  -1
   994. (  1) 5T ?#PT remedy [ˈrɛmɪdi] (n) {C1} средство, {C1} {healthcare} лекарство -1
   995. (  1) 5T *#PT reminder [rɪˈmaɪndə] (n) напоминание
@@ -1096,7 +1096,7 @@
  1074. (  1) xx ?#PT shrug [ʃrʌɡ] (n) пожимание плечами; (v) {C1} пожимать плечами
  1075. (  2) yT ?#PT sigh [saɪ] (n) {C1} вздох; (v) {C1} {feelings} вздыхать -1
  1076. (  1) 5T *#PT simulate [ˈsɪmjʊleɪt] (v) {C1} имитировать, моделировать, симулировать
- 1077. (  1) xT *#PT simulation [ˌsɪmjʊˈleɪʃən] (n) симуляция, симулирование
+ 1077. (  1) xT *#PT simulation [ˌsɪmjʊˈleɪʃən] (n) {C1} симуляция, симулирование
  1078. (  1) 4T *#PT simultaneously [ˌsɪməlˈteɪniəsli] -ly: (adj)->(adv) одновременный, симультанный
  1079. (  1) 4T *#PT sin [sɪn] (n) {C1} грех, порок; (v) грешить; (abbr) sine, Social Insurance Number
  1080. (  1) xT *#PT situated [ˈsɪtjʊˌeɪtɪd] -ed: (v) размещать, располагать
@@ -1137,7 +1137,7 @@
  1115. (  2) 4T *#PT spy [spaɪ] (v) {C1} {war and conflict} шпионить; (n) {C1} {war and conflict} {jobs} шпион, диверсант
  1116. (  1) xT ?#PT squad [skwɒd] (n) отряд, команда, отделение; (v) сводить в команды
  1117. (  1) 3T ?#PT squeeze [skwiz] (v) {C1} {cooking and eating} выжимать, {C1} сжимать -1
- 1118. (  1) yT ?#PT stab [stæb] (v) {C1} {crime and punishment} ранить, закалывать; (n) попытка, удар ножом
+
  1119. (  1) 5T *#PT stability [stəˈbɪlɪti] (n) {C1} стабильность, постоянство
  1120. (  1) 5T ?#PT stabilize [ˈsteɪbɪlaɪz] (v) стабилизировать, стабилизироваться, делать устойчивым
  1121. (  1) xT ?#PT stake [steɪk] (n) доля, ставка, участие; (v) делать ставку, рисковать
@@ -1170,7 +1170,7 @@
  1148. (  1) 4T *#PT substitution [ˌsʌbstɪˈtjuːʃən] (n) замена
  1149. (  1) 5T ?#PT subtle [ˈsʌtl] (adj) {C1} {colours and shapes} тонкий, {C1} утонченный, нежный -1
 
- 1151. (  1) yT ?#PT succession [səkˈsɛʃən] (n) последовательность, преемственность
+ 1151. (  1) yT ?#PT succession [səkˈsɛʃən] (n) {C1} последовательность, преемственность
  1152. (  1) 5T ?#PT successive [səkˈsɛsɪv] (adj) последующий, последовательный
  1153. (  1) yT ?#PT successor [səkˈsɛsə] (n) преемник, наследник
  1154. (  1) 3T *#PT suck [sʌk] (v) {C1} сосать, высасывать; (n) всасывание
@@ -1195,7 +1195,7 @@
  1173. (  1) xT ?#PT surveillance [səˈveɪləns] (n) {C1} {war and conflict} {crime and punishment} наблюдение, надзор
  1174. (  1) xT ?#PT suspension [səsˈpɛnʃən] (n) {C2} {transport by car or lorry} подвеска, {C2} {physics and chemistry} суспензия, {C1} {education} приостановка, {C1} прекращение; (adj) подвесной, висячий -1
  1175. (  1) 3T ?#PT suspicion [səsˈpɪʃən] (n) {C1} подозрение, {C1} {personal qualities} подозрительность, привкус -1
- 1176. (  1) 3T ?#PT suspicious [səsˈpɪʃəs] (adj) {C1} {personal qualities} {crime and punishment} подозрительный -1
+ -1
  1177. (  1) 5T ?#PT sustain [səsˈteɪn] (v) поддерживать, выдерживать, подкреплять
  1178. (  2) 3T ?#PT swing [swɪŋ] (n) {C1} {games and toys} {gardens} качели, {C1} {opinion and argument} = to change from one opinion to another; (v) {C1} качаться, {C1} {opinion and argument} = to change from one opinion to another, I:swing-swung-swung -3
  1179. (  1) 4T *#PT sword [sɔːd] (n) {C1} {history} {war and conflict} меч
@@ -1284,7 +1284,7 @@
  1262. (  1) 5T *#PT utilize [ˈjuːtɪˌlaɪz] (v) {C1} использовать, утилизировать
  1263. (  1) 5T ?#PT utterly [ˈʌtəli] -ly: (adj) {C2} полный, абсолютный; (adv) {C1} крайне, абсолютно, чрезвычайно, вконец
  1264. (  1) 5T *#PT vacuum [ˈvækjʊəm] (n) {C1} {physics and chemistry} вакуум; (v) {B2} {houses and homes} пылесосить
- 1265. (  1) 5T ?#PT vague [veɪg] (adj) неопределенный, неясный, расплывчатый
+ 1265. (  1) 5T ?#PT vague [veɪg] (adj) {C1} неопределенный, неясный, расплывчатый
  1266. (  1) 5T ?#PT validity [vəˈlɪdɪti] (n) действительность, обоснованность, законность
  1267. (  1) 5T ?#PT vanish [ˈvænɪʃ] (v) {C1} исчезать, пропадать, стремиться к нулю, сбегать
  1268. (  2) 5T *#PT variable [ˈveərɪəbl] (n) {C1} {maths and measurement} переменная; (adj) переменный
@@ -1660,7 +1660,6 @@
               5T ?#  bond [bɒnd] (n) {B2} {family and relationships} связь, {C1} {law and justice} узы, {C2} {physics and chemistry} соединение; (v) {C1} {physics and chemistry} связывать, {C1} {family and relationships} скреплять; (adj) крепостной -1
  -1
               zT ?#  steward [stjʊəd] (n) {C1} {transport by water} {transport by air} {jobs} стюард, управляющий, эконом, официант
-              4T ?#  bandit [ˈbændɪt] (n) {C1} {crime and punishment} бандит, разбойник
  -1
  -1
  -1
@@ -1681,7 +1680,6 @@
               xx ?#  downpour [ˈdaʊnpɔː] (n) {C1} {weather} ливень
               zT ?#  headlight [ˈhɛdlaɪt] (n) {C1} {transport by car or lorry} фара
               yT ?#  knob [nɑb] (n) {C1} {engineering} ручка, кнопка; (v) выпячиваться
-              yT ?#  snatch [snæʧ] (v) урвать, схватить, {C1} {crime and punishment} похищать; (n) рывок, обрывок
               4T ?#  tulip [ˈtjuːlɪp] (n) {C1} {plants and trees} тюльпан
               5T ?#  gloomy [ˈgluːmi] (adj) {C1} {weather} {feelings} мрачный, угрюмый, хмурый, унылый -1
               4T ?#  outskirts [ˈaʊtˌskɜːts] (n) {C1} {geography} {buildings} окраина
@@ -1737,7 +1735,14 @@
               xT ?#  hybrid [ˈhaɪbrɪd] (adj) гибридный, смешанный, разнородный; (n) {C1} {biology} гибрид, помесь
               zT ?#  ransom [ˈrænsəm] (n) {C1} {money} {crime and punishment} выкуп, искупление; (v) {C2} {crime and punishment} выкупать, требовать выкупа -1
               1T *#  record [ˈrɛkɔːd->(n)/rɪˈkɔːd->(v)] (n) {B1} {music} запись, {A2} {success} {sports: other sports} рекорд, отчет, учет, регистрация, {C1} {law and justice} {crime and punishment} протокол; (v) {A2} {tv, radio and news} {music} записывать, регистрировать; (adj) рекордный -1
+              5T *#  subtraction [səbˈtrækʃən] (n) {C1} {maths and measurement} вычитание
+              3T *#  count [kaʊnt] (v) {A2} {maths and measurement} считать; (n) {B2} {maths and measurement} подсчет, {C1} {people in society} граф, I:count-countess
+              zT ?#  countess [ˈkaʊntɪs] (n) {C1} {people in society} графиня, I:count-countess
+              zT ?#  arson [ˈɑːsn] (n) {C1} {crime and punishment} поджог
+              zT ?#  assassin [əˈsæsɪn] (n) {C1} {war and conflict} {crime and punishment} убийца -1
+              xx ?#  mow [məʊ] (v) {C1} {gardens} косить
 
+              
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated
 

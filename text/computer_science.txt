@@ -2,4 +2,180 @@ Computer science illuminated, 2016
 
 A computing system made up of many layers, each layer plays a specific role in the overall design of the system: Information -> Hardware -> Programming -> Operating Systems -> Applications -> Communications.
 
+1. The Big Picture
+------------------
+
+This book is a tour through the world of computing. We explore how computers work - what they do and how they do it, from bottom to top, inside and out.
+
+Computing system:  Computer hardware, software, and data, which interact to solve problems;
+Computer hardware: The physical elements of a computing system;
+Computer software: The programs that provides the instructions that a computer executes.
+
+Information reflects the way we represent information on a computer. In many ways this is a purely conceptual level. Information on a computer is managed using binary digits, 1 and 0. So to understand computer processing, we must first understand the binary number system and its relationship to other number system (such as the decimal system, the one humans use on a daily basis). Then we can turn our attention to how we take the myriad types of information we manage - numbers, text, images, audio, video - and represent them in a binary format.
+
+Hardware consists of the physical hardware of a computer system. Computer hardware includes devices such as gates and circuits, which control the flow of electricity in fundamental ways. This core electric circuitry gives rise to specialized hardware components such as the computer's central unit (CPU) and memory.
+
+The programming layer deals with software, the instructions used to accomplish computations and manage data. Programs can take many forms, be performed at many levels, and be implemented in many languages. The goal is to solve problems.
+
+OS helps manage the computer's resources. OS, such as Windows, Linux, Mac help us interact with the computer system and manage the way hardware devices, programs, and data interact.
+
+Applications layer focuses on using computer to solve specific real world problems: design a building or play a game. The spectrum of area - specific computer software tools systems, artificial intelligence, and simulation.
+
+Computers no longer exist in isolation on someone's desktop. We use computer technology to communicate, and that communication is a fundamental layer at which computing systems operate. Computers are connected into networks so that they can share information and resources.
+
+Some issues of security are dealt with at low levels throughout a computer system.
+
+An abstraction is a mental model, a way to think about something, that removes or hides complex details. An abstraction leaves only the information necessary to accomplish our goal.
+
+Human being can actively manage about seven (plus or minus two, depending on the person) pieces of information in short - term memory at one time. This is called Miller ' s Law, based on the psychologist who first investigated.
+
+When we abstracted with something, we interact with with it as one entity. The irrelevant details are ignored, at least for the moment.
+
+Information hiding is a concept related to abstraction. Information hiding and abstraction are two sides of the same coin.
+
+1.2 The history of computing
+
+It explaining why computing system todays are designed as they are.
+
+In the middle of the seventeenth century, Blaise Pascal, a French mathematician, built and sold gear driven mechanical machines, which performed whole number addition and subtraction. Later in the seventeenth century, a German mathematician, Gottfried Wilhelm von Leibniz, built the first mechanical device designed to do all four whole - number operation: addition, subtraction, multiplication, and division. Unfortunately, the state of mechanical gears and levers at that time was such that the Leibniz machine was not very reliable.
+
+In the late eighteenth century, Joseph Jacquard developed what became known as Jacquard ' s loom, used for weaving cloth. The loom used of cards with holes punched in them to specify the use of specific colored thread and therefore dictate the design that was woven into the cloth. Although not a computing device, Jacquard ' s loom was the fist to make use of an important form of input: the punched card.
+
+Ada 1843 "Who can foresee the consequences of such an invention? The Analytical Engine weaves algebraic patterns just as the Jacquard loom weaves flowers and leaves. The engine might compose elaborate and scientific pieces of music of any degree of complexity or extent."
+
+In nineteenth century there was the next major step by a British mathematician. Charles Babbage designed what he called his analytical engine. His design was too complex for him to build with the technology of his day, so it was never implemented. His vision, however, included many of the important components of today's computers.
+Ada Augusta, Countess of Lovelace, was a very romantic figure in the history of computing. Ada, the daughter of Lord Byron, was a skilled mathematician. She became interested in Babbage ' s work on the analytical engine and extended his ideas. Ada is credited with being the first programmer. The concept of the loop - a series of instruction that repeat - is attributed to her.
+
+Alan M. Turing, another British mathematician, invented an abstract mathematical model called a Turing machine, laying the foundation for a major area of computing theory.
+
+In 1938, Konrad Zuse of Berlin built the first mechanical binary programmable computer.
+
+It took about 4000 years to fully reduce three - dimensional tokens to written sign. It all began about 7500 BC, when farmers made counters of clay in a dozen shapes to help keep track of their goods. In 3500 BC, after the rise of the city states, administrators started using clay balls as envelopes to hold the tokens, and in 3300-3200 BC, when record keepers started using the impression of the tokens on clay balls, dispensing with the tokens themselves.
+
+Hardware History:
+-----------------
+First Generation 1951-1959
+Computers were built using vacuum tubes to store information. A vacuum tube generated a great deal of heat and was not very reliable. The primary memory device of this first generation of computers was a magnetic drum that rotated under a read / write head. The input device was a card reader that read the holes punched in a IBM card. By the end of this generation, magnetic tape drives had been developed that were much faster than card readers.
+
+Second Generation 1959-1965
+The advent of the transistor. A transistor was smaller, more reliable, faster, more durable, and cheaper.
+
+Third Generation 1965-1971
+Transistor and other components for the computer were assembler by hand on printed circuit boards. ICs were much smaller, cheaper, faster and more reliable. The terminal, device with keyboard and screen, was introduced during this generation.
+
+Fourth Generation 1971-?
+Large scale integration characterizes. Micro processor and memory were made on chip technology.
+
+
+Software History:
+-----------------
+First Generation 1951-1959
+The first programs were written using machine language, the instructions built into the electrical circuitry of a particular computer. Then there was the first artificial programming languages called assembly languages, used mnemonic codes to represent each machine language instruction (used a software translator, called an assembler).
+There was the division between those programmers who wrote tools (systems programmer) and those programmers who used the tools. The assembly language acted as a buffer between the programmer and the machine hardware.
+
+    Assembly language -> Machine language
+
+Second Generation 1959-1965
+High Level languages allowed the programmer to write instructions using more English like statements.
+Fortran was designed for numerical applications and Cobol was designed for business applications.
+Lisp was designed mainly in artificial intelligence applications and research.
+
+The introduction of high level languages provided a vehicle for running the same program on more than one computer (for it is needed a program called a compiler).
+
+System programmers wrote tools like assemblers and compilers; those people who used the tools to write programs were called applications programmers.
+
+    High - level language -> Assembly language -> Machine language
+
+Third Generation 1965 - 1971
+Put the computer resources under the control of the computer - to write a program that would determine which programs were run when. This kind of program is called an operating system.
+During the first two generation only utility programs had been written to handle often needed tasks. Loaders loaded programs into memory and linkers linked pieces of large programs together. In the third generation, these utility programs were refined and put under the direction of the operation system.
+Time sharing provides many different users (via terminals) to use computers. Controlling this process was an operating system that organized and scheduled the different jobs.
+There were system programmers, application programmers, and computer users who were not programmers in the traditional sense.
+
+Fourth Generation 1971-1989
+Better programming techniques called structured programming, a logical, disciplined approach to programming. The languages Pascal and Modula - 2 were built on the principles of structured programming. C, a language that allows the user to intersperse assembly language statements in a high-level program, was also introduced. C++, a structured language that allows the user access to low-level statements as well, became the language of choice in the industry.
+Better and more powerful OS were being developed, such as UNIX, MS-DOS, ...
+
+    Application packages -> Systems software -> High - level language -> Assembly language -> Machine language
+
+Fifth Generation 1990 - Present
+The rise of Microsoft as a dominant player, object oriented design and programming, and WWW.
+OOB languages: Java, C++.
+HTML - language for formatting documents. Browser, a program that allows a user to access information from websites worldwide (Mosaic is the first graphics capable browser).
+
+
+A debate has long raged about whether computing is a mathematical discipline, a scientific discipline, or an engineering discipline. Computing certainly has strong roots in mathematical logic.
+
+
+The Information Layer
+=====================
+Binary Values and Number Systems
+
+Numbers are crucial to computing. In addition to using a computer to execute numeric computations, all types of information that we store and manage using a computer are ultimately stored as numbers.
+
+Let's recall that numbers can be classified into all sorts of categories:
+    - natural numbers;  0 or n=k+1          :               0 1 2 3 ...
+    - negative numbers; -1 or n=k-1         :  ... -3 -2 -1
+    - integer numbers;  natural or negative :  ... -3 -2 -1 0 1 2 3 ...
+    - quotient numbers; n=k%r, k!=r         :  ... 1/10 1/9 1/8 ...
+    - rational numbers; integer of quotient :  
+    - irrational numbers;
+    - ...
+
+Let's define the general concept of a number. A number is a unit belonging to an abstract mathematical system and is subject to specified laws of succession, addition, and multiplication. That is, a number is a representation of a value, and certain arithmetic operations can be consistently applied to such values.
+
+Positional notation: 943 = 9 hundreds plus 4 tens plus 3 ones.
+                               900    plus    40  plus 3.
+The answer depends on the base of the number system you are using.
+Base 10 or decimal, number system, which is the number system humans use every day.
+The base of a number system specifies the number of digits used in the system.
+Digits: 0 .. BASE-1
+2 : 0,1
+8 : 0,1,2,3,4,5,6,7
+10: 0,1,2,3,4,5,6,7,8,9
+
+The base also determines what the positions of digits mean: BASE^n
+
+Positional notation is a system of expressing numbers in which the digits are arranged in succession, the position of each digit has a place value, and the number is equal to the sum of the products of each digit by its place value.
+
+Base-2 (binary) number system is particularly important in computing. 
+It is also helpful use powers of 2, such as base-8 (octal) and base-16 (hexadecimal).
+Digits base-2   : 0,1
+Digits base-8   : 0,1,2,3,4,5,6,7
+Digits base-16  : 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+ 46_10 = 101110_2
+ 27_10 =  11011_2
+
+Addition: 
+ 
+ 1111 <--- carry
+ 101110
++ 11011
+-------
+1001001 = 64+8+1 = 73
+
+Substraction 
+ 1  11   --> borrow
+ 101110_46
+- 11011_27
+--------
+  10011_2 = 16+2+1 = 19_10
+
+To convert from binary to octal, you start at he rightmost binary digit and mark the digits in groups of three:
+  111  101  100
+  ---  ---  ---
+   7    5    4
+
+Converting from Base 10 to Other Bases
+The rules for converting base-10 numbers involve dividing by the base into which you are converting the number.
+From this division, you get a quotient and a remainder. The remainder becomes the next digit in the new number (going from right to left), and the quotient replaces the number to be converted. The process continues until the quotient is zero.
+
+Each storage unit is called a binary digit, or bit for shot.
+Bytes - by 8 bits.
+Words - in bytes group, N*bites
+
+
+3. Data Representation
+----------------------
 
