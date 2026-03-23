@@ -1,3 +1,6 @@
+x86 emulator => https://carlosrafaelgn.com.br/Asm86/
+
+
 Computer science illuminated, 2016
 
 A computing system made up of many layers, each layer plays a specific role in the overall design of the system: Information -> Hardware -> Programming -> Operating Systems -> Applications -> Communications.
@@ -178,4 +181,372 @@ Words - in bytes group, N*bites
 
 3. Data Representation
 ----------------------
+Data we need to store and manage on a computer must be represented in a way that captures the essence of the information we care about, and it must do so in a form convenient for computer processing.
+
+Data is basic values or facts, whereas information is data that has been organized and or processed in a way that is useful in solving some kind of problem. Data can be unstructured and lack context. Information helps us answer questions.
+
+Computers store, present, and help us modify many different types of data:
+    numbers, text, audio, images/graphics, video
+
+Ultimately, all of this data is stored as binary digits.
+
+Data compression: Reducing the amount of space needed to store a piece of data;
+Bandwidth: The number of bits/bytes that can be transmitted from one place to another in a fixed amount of time.
+
+Compression ratio: the size of the compressed data divided by the size of the uncompressed data.
+
+A data compression technique can be lossless, which means the data can be retrieved without losing any of the original information, or it can be lossy, in which case some information is lost in the process of compaction.
+
+The natural world, for the most part, is continuous and infinite. Computers, by contrast, are finite. Computer memory and other hardware devices have only so much room to store and manipulate a certain amount of data. We always fail in our attempt to represent an infinite world on a finite machine.
+
+Data can be represented in one of two ways: analog or digital. Analog data is a continuous representation, analogous to the actual information it represents. Digital data is a discrete representation, breaking the information up into separate elements.
+
+Digitize of data is breaking it into pieces and representing those pieces separately.
+
+In general, n bits can represent 2^n things because 2^n combinations of 0 and 1 can be made from n bits.
+
+3.2 Representing Numeric Data.
+
+Numeric values are the most prevalent type of data used in a computer system. Binary is a number system, a natural relationship exists between the numeric data and the binary values that we store to represent them.
+
+Aren't negative numbers just number with a minus sign in front?
+
+Signed-Magnitude Representation
+In traditional decimal system, a sign is placed before a number's value, although the positive sign is often assumed. The sign represents the ordering, and the digits represent the magnitude of the number:
+
+    Negative --------------------|------------------ Positive (sign usually omitted)
+               -6 -5 -4 -3 -2 -1 0  1  2  3  4  5  6
+
+Performing addition and subtraction with signed integer numbers can be described as moving a certain number of units in one direction or another. To add two numbers, you find the first number on the scale and move in the direction of the sign of the second as many units as specified.
+There are two representations of zero: plus zero and minus zero, and it within a computer can cause unnecessary complexity.
+
+Fixed-Sized Numbers
+We can represent numbers as just integer values, where half of them represent negative numbers. The sign is determined by the magnitude of the number.
+For example, 00-99: 1-49 = positive numbers, 50..99 = negative numbers (-50..-1).
+
+                50  ... 97 98 99 0  1  2  ... 49
+    Negative --------------------|------------------ Positive (sign usually omitted)
+               -6 -5 -4 -3 -2 -1 0  1  2  3  4  5  6
+
+To perform addition within this scheme, you just add the numbers together and discard any carry.
+Negative: 60 -> 100 - 60 = -40 !
+          99 -> 100 - 99 = -1
+          51 -> 100 - 51 = -49
+          50 -> 100 - 50 = 50 !!!
+ 
+Positive + Positive: 49 + 49 = 98
+Positive + Negative: 60->(-40) + 30 = 90->(-10), 90->(-10) + 30 = 120->20
+Negative + Negative: 80->(-20) + 80->(-20) = 160->60(-40)
+
+Subtraction: A - B = A + (-B)
+Negative: 100-I, or 2^k - I  it is called the two's complement (or ten's complement for 10^k).
+
+2^8:   -128..127
+2^7:    -64..63
+Negatives:  2^8= 256 - I;  -(2) = 256 - 2 = 254 !
+            2^7= 128 - I;  -(2) = 128 - 2 = 124 !
+
+The leftmost digit determines whether the number is negative or positive.
+To Negative it is easier way to calculate the two's complement: invert the bits and add 1.
+  4=00000100 -> 11111011 + 1 = 11111100 (252)
+  2^8 - I = (2^8-1) - I + 1 = ~I + 1
+
+Number Overflow
+Overflow occurs when the value that we compute cannot fit into the number of bits we have allocated for the result: 127 + 3 = 130 -> (256-130)= -126 ! not +130
+Overflow is a classic example of the type of problems we encounter by mapping an infinite world onto a finite machine.
+
+Representing Real Numbers
+In computing, we call all noninteger values - real values. We define a real number as a value with a potential fractional part.
+We store the value as an integer and include information showing where the radix point is. There are three parts: the sign (positive/negative); the mantissa (which is made up of the digits in the value with the radix point assumed to be to the right); and the exponent, which determines how the radix point is shifted relative to the mantissa:
+    sign * mantissa * 2^exp
+The representation is called floating point because the number of digits is fixed but the radix point floats.
+
+    64 bits:    1 bit for the sign, 11 bits for the exponent, 52 bits for the mantissa.
+
+To convert a whole value from base 10 to another base, we divide by the new base, recording the remainder as the next digit to the left in the result and continuing to divide the quotient by the new base until the quotient becomes zero. Converting the fractional part is similar, but we multiply by the new base rather than dividing. The carry from the multiplication becomes the next digit to the right in the answer. The fractional part of the result is then multiplied by the new base. The process continues until the fractional part of the result is zero:
+
+    0.75 * 2 = 1.5
+    0.5  * 2 = 1.0
+    0.75 =   .11
+    
+    .435 = 0.870 = 1.740 1.480 0.960 1.920 1.840  ~ .011011
+    
+    20.25 = 10100.01
+
+
+3.3 Representing Text
+A text document can be decomposed into paragraphs, sentences, words, and ultimately individual characters. To represent a text document in digital form, we simply need to be able to represent every possible character that may appear.
+When we create a document in a word processing program such as Microsoft Word, we can specify all kinds of formatting: fonts, margins, tabs, color, and so on. This extra information is stored along with the reset of the text so that the document can be displayed and printed the way you want it.
+There are a finite number of characters to represent. The general approach for representing characters is to list all of them and then assign a binary string to each character. The english language includes 26 letters. But uppercase and lowercase have to be treated separately, so that's really 52 unique characters. Punctuation characters also have to be represented, as do the numeric digits. Even the space character must have a representation.
+
+Character set: A list of the characters and the codes used to represent each one.
+ASCII Character Set.
+Unicode character set.
+
+Text Compression
+
+1. Keyword Encoding
+How often you use words such as "the", "and", "which", ... - replacing a frequently used words with a single character.
+Compression ratio - 1.0 - 0.+
+An extension of keyword encoding is to replace specific patterns of text with special characters.
+
+2. Run - Length Encoding
+It is sometimes called recurrence coding.
+In run-length encoding, a sequence of repeated characters is replaced by a flag character, followed by the repeated character, followed by a single digit that indicates how many times the character is repeated.
+ AAAAAAA = *A7 (or use binary code 0-256 after symbol as counter).
+ 
+3. Huffman Encoding
+Use variable - length bit strings to represent each character.
+            Character
+    00          A
+    01          E
+   100          L
+   110          O
+   111          R
+  1010          B
+  
+3.4 Representing Audio Data
+We perceive sound when a series of air compressions vibrate a membrane in our ear, which sends signals to our brain. Thus a sound is defined in nature by the wave of air that interacts with our eardrum. A stereo sends an electrical signal to a speaker to produce sound. This signal is an analog representation of the sound wave. The voltage in the signal varies in direct proportion to the sound wave. The speaker receives the signal and causes a membrane to vibrate, which in turn vibrates the air.
+To represent audio data on a computer, we must digitize the sound wave, somehow breaking it into discrete, manageable pieces. This process called sampling.
+In general, a sampling rate of around 40,000 times per second is enough to create a reasonable sound reproduction.
+
+Over the past few years, several formats for audio data have become popular, including WAV, AU, AIFF, VQF and MP3.
+MP3 offers a strong compression ratio than other formats
+
+MP3 is short for MPEG-2, audio layer 3 file. MPEG = Moving Picture Experts Group, international committee that develops standards for digital audio and video compression.
+MP3 employs both lossy and lossless compression. First, it analyzes the frequency spread and compares it to mathematical models of human psycho acoustics. Then, it discards information that can't be heard by humans. Finally, the bit stream is compressed using of Huffman encoding to achieve additional compression.
+
+3.5 Representing Images and Graphics
+Color is our perception of the various frequencies of light that reach the retinas. Our retinas have three types of color photoreceptor cone cells that respond to different sets of frequencies. Correspond to the colors of red, green, and blue.
+All other colors perceptible by the human eye can be made by combining various amounts of these three colors.
+
+RGB (red green blue) value:
+    Black - White
+    Red Green Blue
+    Yellow Magenta Cyan
+
+The amount of data that is used to represent a color is called the color depth. High Color 16 bit. True Color - 24 bits.
+
+Digitizing a picture is the act of representing it as a collection of individual dots called pixels, a term that stands for picture elements. Each pixel is composed of a single color. The number of pixels used to represent a picture is called the resolution.
+
+The storage of image information on a pixel by pixel basis is called a raster graphics format. BMP, GIF, and JPEG.
+
+BMP = a bitmap file is one of the most straightforward graphic representations.
+GIF = indexed color.
+JPEG is designed to exploit the nature of our eyes. Humans are more sensitive to gradual changes of brightness and color over distance than we are to rapid changes.
+
+
+Vector graphics is another technique for representing images. Instead of assigning colors to pixels as we do in raster graphics formats describes an images it terms of lines and geometric shapes. A vector graphic is a series of commands that describe a line's direction, thickness, and color.
+By contrast, vector graphics can be resized mathematically, and these changes can be calculated dynamically as needed.
+The most popular vector graphics format used on the Web today is called Flash. Flash images are stored in a binary format and require editor to create. A new vector graphics format, called SVG = scalable Vector Graphics, is expressed in plain text.
+
+3.6 Representing Video
+Video information is one of the most complex types of information to capture, compress, and still get a result that makes sense to the human eye. Some of the quality issues depend on the sophistication of video compression techniques, which are referred to as video codecs.
+Codec = COmpressor/DECompressor. A video codec refers to the methods used to shrink the size of a movie so that it can be played on a computer or over a network. Most codecs are block oriented, meaning that each frame of a video is divided into rectangular blocks. Some video codecs are accomplished completely in software, whereas others require special hardware.
+Video codecs employ two types of compression: temporal and spatial. Temporal compression looks for differences between consecutive frames. If most of an image in two frames hasn't changed, why should we waster space by duplicating all of the similar information? A keyframe is chosen as the basic on which to compare the differences, and its entire image is stored. For consecutive images, only the changes (called delta frames) are stored.
+Spatial compression removes redundant information within a frame. This problem is essentially the same as the one we face when compressing images. Spatial video compression often groups pixels into blocks that have the same color, such as a portion of a clear blue sky. This idea is similar to run length encoding.
+Various video codecs are popular today, including Sorenson, Cinepak, MPEG, and Real Video.
+
+
+The Hardware Layer
+==================
+4. Gates and Circuits
+---------------------
+
+4.1 Computers and Electricity
+Any given electronic signal has a level of voltage. A voltage level in the range of 0 to 2 volts is considered "low" and is interpreted as a binary 0. A signal in the 2 - 5 volt range is considered "high" and is interpreted as a binary 1.
+A gate is a device that performs a basic operation on electrical signals. It accepts one or more input signals and produces a single output signal.
+Gates are combined into circuits to perform more complicated tasks.
+Three different, but equally powerful, notational methods are used to describe the behavior of gates and circuits:
+    - boolean expressions; logic diagrams; truth tables.
+
+The English mathematician George Boole invented a form of algebra in which variables and functions take on only one of two possible values (0 and 1). This algebra s appropriately called Boolean algebra.
+A logic diagram is a graphical representation of a circuit. Each type of gate is represented by a specific graphical symbol. By connection those symbols in various ways, we can visually represent the logic of an entire circuit.
+A truth table defines the function of a gate by listing all possible input combinations that the gate could encounter, along with corresponding output.
+
+4.2. Gates
+The gates in a computer are sometimes referred to as logic gates because each performs just one logical function.
+    - Not, And, Or, Xor, Nand, Nor.
+
+4.3 Constructing Gates
+How is a gate constructed to control the flow of electricity.
+
+Transistors is a device that acts, depending on the voltage level of the input signal, either as a wire that conducts electricity or as a resistor that blocks the flow of electricity. A transistor has no moving parts, yet it acts like a switch.
+An electrical signal has a source, such as a battery or an outlet in your wall.
+A transistor has three terminals: a source, a base, and an emitter. The emitter is typically connected to a ground wire. The source produces a high voltage value, 5 volts. The base value regulates a gate that determines whether the connection between the source and ground is made. If the source signal is grounded, it is pulled down to 0 volts. If the base does not ground the source signal, it stays high.
+
+                                   Source (5V)
+                                       |-------------->
+                                     /
+                          Base --->|
+                                     \
+                                       | 
+                                     Emitter (ground)
+    Base     Transistor    Output
+     0V         off          5V
+     5V         on           0V
+
+  1 Transistor      -> Not
+  2 Tr in sequence  -> Or
+  2 Tr in parallel  -> And
+
+
+4.4 Circuits
+Circuits can be classified into two general categories: combination and sequential.
+In a combinational circuit, the input values explicitly determine the output. In sequential circuit, the output is a function of the input values as well as the existing state of the circuit. Thus sequential circuits usually involve the storage of information.
+
+    X = AB | AC = A(B|C)
+
+    A  B  C   X
+    0  0  0   0  
+    0  0  1   0
+    0  1  0   0
+    0  1  1   0
+    1  0  0   0
+    1  0  1   1
+    1  1  0   1
+    1  1  1   1
+
+Boolean algebra:
+    Commutative         AB = BA         A|B=B|A
+    Associative         (AB)C=A(BC)     (A|B)|C=A|(B|C)
+    Distributive
+    Identity
+    Complement
+    De Morgan's Law
+
+Xor = !a & b | a & !b     ~ 11 Transistors
+
+
+Adder
+The result of adding two binary digits could potentially produce a carry value. A circuit that computes the sum of two bits and produces the correct carry bit is called a half adder.
+
+    A  B   Sum   Carry                Sum   = Xor(A,B)
+    0  0   0     0                    Carry = And(A,B)
+    0  1   1     0
+    1  0   1     0
+    1  1   0     1
+
+       ~ 11+3 = 15 Transistors
+
+A circuit called a full adder takes the carry-in value into account.
+
+s1, c1  = hadd(a,b)
+s2, c2 =  hadd(c, s1)
+c = c1 | c2
+
+       ~ 2*15+3 = 33 Transistors
+
+ 8bits Adder = 7  Fadd + 1 hadd =  7*33 + 15 = 231+15 = 246 Transistors.
+16bits Adder = 15 Fadd + 1 hadd = 15*33 + 15 = 495+15 = 510 Transistors. 
+
+4.5 Circuits as Memory
+They can store information.
+Only one type of memory: S-R latch. It stores a single binary digit (1 or 0).
+
+CHIP SR_Larch {
+    IN s, r;
+    OUT x, y;
+    PARTS:
+    Nand(a=s, b=y, out=x);
+    Nand(a=r, b=x, out=y);
+}
+
+    S  R    X    Y
+    1  1    X   !X
+    0  1    1    0
+    1  0    0    1
+    0  0    ?    ?
+
+4.6 Integrated Circuits
+An integrated circuits (IC) = chip is a piece of silicon on which multiple gates have been embedded.
+IC technology (number of gates):
+    SSI (small scale integration)           1..10
+    MSI (medium scale integration)          10..100
+    LSI (large scale integration)           100..100,000
+    VLSI (very large scale integration)     >100,000
+
+4.7 CPU Chips
+CPU = central processing unit.
+
+5. Computing Components
+-----------------------
+5.1 Individual Computer Components
+
+Central processor inside the laptop: Core 2 is a type of processor, and Duo refers to the presence of two the these processors (called cores) on a single chip. The 2.66GHz tells how fast the processors are. FSB (front side bus) between processor and the outside world - 1066MHz FSB. 6MB cache = cache memory, it is a small, fast memory that is usually built into the processor chip. Thus, two cores have direct access to cache without using the FSB.
+
+5.2 The Stored Program Concept
+A major defining point in the history of computing was the realization in 1944 - 1945 that data and instructions to manipulate the data were logically the same and could be stored in the same place. The computer design built upon this principle, which became known as the von Neumann architecture, is still the basis for computers today. Five component of the von Neumann architecture:
+    - memory unit
+    - ALU unit
+    - Input unit
+    - Output unit
+    - Control unit
+
+Memory is collection of cells, each with a unique physical address.
+CPU: Control and ALU units
+
+ALU = arithmetic / logic unit is capable of performing basic arithmetic operations such as adding, subtracting, multiplying, and dividing two numbers. And also logical operation such as And, Or, and Not.
+
+An input unit is a device through which data and programs from the outside world are entered into the computer.
+An output unit is a device through which results stored in the computer memory are made available to the outside world.
+
+The control unit is the organizing force in the computer, for it is in charge of the fetch execute cycle. There are two special registers in the control unit. The instruction register (IR) contain the instruction that is being executed, and the program counter (PC) contains the address of the next instruction to be executed.
+Though bus data travels in the computer. Each bus carries three kinds of information: address, data, and control.
+Cache memory is a small amount of fast access is made, the CPU checks whether the data is stored in the cache memory.
+Pipelining uses to speed up the fetch execute cycle. This technique splits an instruction into smaller steps that can be overlapped.
+
+In a personal computer, the components in a von Neumann machine reside physically in a printed circuit board called the motherboard. The motherboard also has connections for attaching other devices to the bus, such as a mouse, a keyboard, or additional storage devices.
+
+A computer is a device that can store, retrieve, and process data.
+
+Instructions and data are both addressable. Instructions are stored in contiguous memory locations; data to be manipulated are stored together in a different part of memory. To start the fetch execute cycle, the address of the first instruction is loaded into the program counter. The processing cycle includes four cycles:
+    - fetch the next instruction;
+    - decode the instruction;
+    - get data if needed;
+    - execute the instruction.
+
+Fetch:  Get instruction from address in PC and load it in IR. Then PC=PC+1
+Decode: IR is decoded into control signal that say how to access data from an input device, to send data to an output device, or to perform some operation on a data value.
+If need there is requiring of additional memory access.
+Execute: Get result in some register or memory cells.
+
+5.3 Embedded Systems
+Embedded systems are computers that are designed to perform a narrow range of functions as part of a larger system.
+
+5.4 Parallel Architectures
+There are four general forms of parallel computing:
+    - bit level;
+    - instruction level;
+    - data level;
+    - task level.
+Bit level parallelism is based on increasing the word size of a computer.
+Instruction level parallelism is based on the idea that some instructions in a program can be carried out independently in parallel. Superscalar machine can do several operation in different units (two ALUs for example).
+Data-level parallelism is based on the idea that a single set of instructions can be run on different data sets at the same time. SIMD (single instruction, multiple data( and relies on a control unit directing multiple ALUs to carry out the same operation.
+Task level parallelism is based on the idea that different processors can execute different tasks on the same or different data sets.
+
+Multicore processors have multiple independent cores, usually CPUs.
+SMPs = symmetric multiprocessors have multiple identical cores.
+A distributed computer is one in which multiple memory units are connected through a network.
+A cluster is a group of stand-alone machines connected through an off the shelf network.
+
+The Programming Layer
+=====================
+6. Low-Level Programming Languages and Pseudocode
+6.1 Computer Operations
+The programming languages we use must mirror the types of operations that a computer can perform.
+The instructions that manipulate data are stored within the machine along with the data. To change what the computer does to the data, we change the instructions.
+Store, retrieve, and process are actions that the computer can perform on data.
+
+6.2 Machine Language
+The instructions builds into the hardware of a particular computer.
+Each machine language instruction performs only one very low-level task.
+It is true that very few programs are written in machine language today, primarily because they represent in ineffective use of a programmer's time.
+By definition, machine code differs from machine to machine. Each type of CPU has its own machine language that it understands.
+
+Pep/8 is the virtual machine. It has 39 machine language instructions.
+The memory unit of the Pep/8 made up of 65,536 bytes of storage.
+ALU is 16 bits in length.
+
+
 

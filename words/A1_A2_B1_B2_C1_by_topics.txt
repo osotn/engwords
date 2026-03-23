@@ -11715,8 +11715,26 @@ Politics and society
               4T ?#  bandit [ˈbændɪt] (n) {C1} {crime and punishment} бандит, разбойник
               xx ?#  blackmailer [ˈblækmeɪlə(r)] (n) {C1} {crime and punishment} шантажист
               xx ?#  conspirator [kənˈspɪrətə(r)] (n) {C1} {crime and punishment} заговорщик
-
-<here
+  282. (  1) 5T ?#PT convict [ˈkɑnvɪkt->(n)/kənˈvɪkt->(v)] (n) {C1} {crime and punishment} осужденный, каторжник, заключенный; (v) {C1} {law and justice} осуждать, {C1} изобличать
+              xx ?#  drink-driver [ˌdrɪŋk ˈdraɪvə(r)] (n) {C1} {transport by car or lorry} {crime and punishment} пьяный водитель
+              xx ?#  fire+starter [ˈfaɪəstɑːtə(r)] (n) {C1} {crime and punishment} поджигатель, = a device that allows you to start a fire usually by hitting a piece of flint against a piece of steel, (US) = a block of material that burns easily and is used to help start a coal or wood fire, (UK) = firelighter
+              xx ?#  first+offender [ˌfɜːst əˈfendə(r)] (n) {C1} {crime and punishment} совершивший преступление впервые
+              xx ?#  fraudster [ˈfrɔːdstə(r)] (UK) (n) {C1} {crime and punishment} мошенник
+              xT *#  hacker [ˈhækə] (n) {C1} {crime and punishment} {computers} хакер
+              4T ?#  hijacker [ˈhaɪˌʤ ækə] (n) {C1} {war and conflict} {crime and punishment} угонщик, налетчик, бандит
+              5T ?#  intruder [ɪnˈtruːdə] (n) {C1} {crime and punishment} нарушитель, незваный гость, самозванец, назойливый человек
+              xx ?#  juvenile+delinquent [ˌdʒuːvənaɪl dɪˈlɪŋkwənt] (n) {C1} {crime and punishment} = a young person who is not yet an adult and who is guilty of committing a crime, несовершеннолетний правонарушитель
+              xx ?#  kidnapper [ˈkɪdnæpə] (n) {C1} {crime and punishment} похититель детей
+              xx ?#  mugger [ˈmʌɡə(r)] {C1} {crime and punishment} = a person who threatens or attacks somebody in order to steal their money/jewellery/etc. especially in a public place, грабитель
+              yT ?#  outlaw [ˈaʊtlɔː] (adv) вне закона; (n) {C1} {crime and punishment} разбойник, изгой; (v) {C1} {law and justice} объявлять вне закона; (adj) незаконный
+  876. (  1) yT ?#PT pirate [ˈpaɪrət] (n) {C1} {transport by water} {crime and punishment} пират
+              xx ?#  poacher [ˈpəʊʧə] {C1} {crime and punishment} браконьер
+              yT ?#  raider [ˈreɪdə] (n) {C1} {crime and punishment} рейдер, участник налета
+              xx ?#  rapist [ˈreɪpɪst] (n) {C1} {crime and punishment} насильник
+              xx ?#  rioter [ˈraɪətə(r)] (n) {C1} {social issues} {crime and punishment} = one of a group of people who behave in a violent way in a public place often as a protest, бунтовщик, мятежник
+              xx ?#  scammer [ˈskæmə(r)] (n) {C1} {crime and punishment} = a person who cheats somebody in order to get something especially money from them
+              4T ?#  smuggler [ˈsmʌg(ə)lə(r)] (n) {C1} {crime and punishment} контрабандист
+              xx ?#  trafficker [ˈtræfɪkə(r)] (n) {C1} {crime and punishment} = a person who buys and sells something illegally, торговец, торговец людьми
 
 {crime and punishment {prison}}
 ...............................
@@ -11730,6 +11748,14 @@ Politics and society
   730. (  2) xT ?#PT jail [ʤ eɪl] (n) {B2} {crime and punishment} тюрьма, тюремное заключение; (v) {B2} {crime and punishment} сажать в тюрьму
               xx ?#  prisoner+of+war [ˈprɪz(ə)nə ɒv wɔː] (n) {B2} {war and conflict} {crime and punishment} военнопленный
               xx ?#  community+service [kəˈmjuːnəti ˈsɜːvɪs] (n) {B2} {social issues} {crime and punishment} общественные работы
+
+{C1} {crime and punishment {prison}}
+  324. (  1) xT ?#PT custody [ˈkʌstədi] (n) хранение, {C1} {family and relationships} {law and justice} опека, попечение, {C1} {crime and punishment} арест
+  368. (  1) yT ?#PT detention [dɪˈtɛnʃ(ə)n] (n) {C1} {crime and punishment} {education} задержание, арест, оставление после уроков
+              xx ?#  high-security [ˌhaɪ sɪˈkjʊərəti] (adj) {C1} {crime and punishment} высокий уровень безопасности
+  609. (  1) 5T ?#PT imprisonment [ɪmˈprɪznmənt] (n) {C1} тюремное заключение, {C1} {crime and punishment} лишение свободы, заключение
+  634. (  1) yT ?#PT inmate [ˈɪnmeɪt] (n) {C1} {crime and punishment} сокамерник, {C1} заключенный
+              1T *#  serve [sɜːv] (v) {A2} {cooking and eating} {shopping} служить, {B2} обслуживать, {C1} {crime and punishment} = to spend a period of time in prison; (n) {C2} {sports: ball and racket sports} подача
 
 {crime and punishment {punishment}}
 ...................................
@@ -11752,6 +11778,24 @@ Politics and society
   941. (  1) 5T ?#PT penalty [ˈpɛnlti] (n) {C1} {sports: ball and racket sports} пенальти, {B2} {crime and punishment} {money} {C1} штраф, наказание, взыскание
  1152. (  1) 3T *#PT sentence [ˈsɛntəns] (v) {B2} {crime and punishment} {law and justice} приговорить, осуждать; (n) {A1} {language} предложение, {B2} {crime and punishment} {law and justice} приговор
  1295. (  1) 3T *#PT term [tɜːm] (n) {A2} {B1} {time} {B2} {crime and punishment} {C1} {discussion and agreement} срок, термин, член, выражение, {B1} {education} семестр, элемент; (v) {B2} называть, выражать
+
+{C1} {crime and punishment {punishment}}
+              1T *#  capital [ˈkæpɪtl] (n) {A1} {B2} {business} {money} капитал, столица, заглавная буква; (adj) {A1} капитальный, основной, {C1} {crime and punishment} = involving punishment by death
+              xx ?#  capital+punishment [ˈkæpɪtl ˈpʌnɪʃmənt] (n) {C1} {crime and punishment} = punishment by death
+  244. (  1) 5T ?#PT condemn [kənˈdɛm] (v) {C1} {crime and punishment} осуждать, {C1} обречь
+              3T *#  damage [ˈdæmɪʤ ] (n) {B1} {B2} {war and conflict} {C1} {crime and punishment} урон, ущерб, повреждение; (v) {B1} {war and conflict} повредить
+  485. (  1) 5T *#PT execute [ˈɛksɪkjuːt] (v) {C2} {art} выполнять, исполнять, {C1} {war and conflict} {crime and punishment} казнить
+  486. (  1) 5T *#PT execution [ˌɛksəˈkjuʃən] (n) {C1} выполнение, исполнение, {C1} {war and conflict} {crime and punishment} казнь
+  488. (  1) yT ?#PT exile [ˈɛksaɪl] (n) изгнание, {C1} {crime and punishment} {politics} ссылка, изгнанник; (adj) ссыльный; (v) {C1} {crime and punishment} ссылать
+  513. (  2) 3T *#PT fine [faɪn] (n) {C1} {crime and punishment} {money} штраф; (v) {C1} {crime and punishment} оштрафовать; (adv) хорошо, отлично; (adj) {A1} {B1} {weather} прекрасный, мелкий, {A1} {health and fitness} тонкий
+              xx ?#  fixed+penalty [ˌfɪkst ˈpenəlti] (n) {C1} {crime and punishment} {money} фиксированный штраф
+              xT *#  hanging [hæŋɪŋ] -ing: (v) {B1} висеть, {B1} {crime and punishment} вешать, I:hang-hung-hung; (n) {C1} {crime and punishment} повешение, {C2} {houses and homes} = a large piece of material that is hung on a wall or around a bed for decoration
+  608. (  1) 4T ?#PT imprison [ɪmˈprɪzn] (v) {C1} {crime and punishment} сажать в тюрьму, заключать в тюрьму, лишать свободы
+              xx ?#  lock+up [(UK)lɒk ʌp/(US)lɑːk ʌp] (phrasal verb) {C1} {crime and punishment} (lock up|lock sth up) = to make a building safe by locking the doors and windows, (lock sb up/away) {C2} {crime and punishment} = (informal) to put somebody in prison
+              xx ?#  penalize [ˈpiːnəlaɪz] (v) {C1} {crime and punishment} наказывать, штрафовать
+              yT ?#  probation [prəˈbeɪʃən] (n) {C1} {crime and punishment} испытательный срок
+ 1044. (  1) 5T ?#PT sanction [ˈsæŋkʃən] (n) {C1} санкция, {C2} {law and justice} одобрение, {C1} {crime and punishment} меры воздействия; (v) {C1} {crime and punishment} санкционировать, {C2} {law and justice} (formal) одобрять
+              xx ?#  suspended+sentence [səˌspendɪd ˈsentəns] (n) {C1} {crime and punishment} условный срок, условный приговор
 
 {crime and punishment {solving crime}}
 {A1} {crime and punishment {solving crime}}
@@ -11795,6 +11839,31 @@ Politics and society
  1325. (  1) 3T *#PT trace [treɪs] (n) {C1} след, отпечаток, черта, тропа; (v) {B2} {crime and punishment} {phone, email and the internet} {family and relationships} {C1} прослеживать, следить
  1424. (  2) 3T *#PT witness [ˈwɪtnɪs] (n) {B2} {crime and punishment} {law and justice} свидетель, свидетельство, очевидец; (v) {B2} {crime and punishment} свидетельствовать
 
+{C1} {crime and punishment {solving crime}}
+              xx ?#  alibi [ˈælɪbaɪ] (n) {C1} {crime and punishment} алиби, оправдание, отговорка; (v) представить алиби
+  115. (  1) xT ?#PT backup [ˈbækʌp] (n) {C1} {computers} резервный, дублирующий, {C1} {crime and punishment} = extra help or support that you can get if necessary
+              xT *#  bug [bʌg] (n) {B2} {insects, worms, etc.} жук, клоп, {B2} {health problems} вирус, {C1} {crime and punishment} аппарат для подслушивания, {B2} {computers} ошибка; (v) {C1} {crime and punishment} подслушивать, раздражать
+  246. (  1) 5T ?#PT confession [kənˈfɛʃ(ə)n] (n) {C1} {crime and punishment} признание, {C1} {feelings} исповедь
+              zT ?#  crackdown [ˈkrækdaʊn] (n) {C1} {crime and punishment} применение суровых мер, жестокое преследование
+  366. (  1) xx ?#PT detain [dɪˈteɪn] (v) {C1} {law and justice} {crime and punishment} задерживать, арестовывать, {C1} замедлять
+              yT ?#  fingerprint [ˈfɪŋgəprɪnt] (n) {C1} {crime and punishment} отпечаток пальца; (v) {C1} {crime and punishment} снимать отпечатки пальцев
+              xx ?#  fingerprinting [ˈfɪŋgəprɪntɪŋ] -ing: (v) {C1} {crime and punishment} снимать отпечатки пальцев; (n) {C1} {crime and punishment} дактилоскопия
+              yT ?#  forensic [fəˈrɛnsɪk] (adj) {C1} {crime and punishment} судебный
+              zT ?#  forensics [fəˈrenzɪks] (n) {C1} {crime and punishment} криминалистика
+              xx ?#  handcuffs [ˈhændkʌfs] (n) {C1} {law and justice} {crime and punishment} наручники
+  637. (  1) 5T ?#PT inspect [ɪnˈspɛkt] (v) {C1} инспектировать, {C1} {crime and punishment} осматривать, обследовать, изучать
+  638. (  1) 5T *#PT inspection [ɪnˈspɛkʃən] (n) {C1} инспекция, контроль, {C1} {crime and punishment} осмотр
+  668. (  1) xT ?#PT investigator [ɪnˈvɛstɪɡeɪtə] (n) {C1} {crime and punishment} следователь, {C1} исследователь
+              xx ?#  lie+detector [ˈlaɪ dɪtektə(r)] (n) {C1} {crime and punishment} детектор лжи
+              xT ?#  pursuit [pəˈsjuːt] (n) {B2} стремление, {C1} {law and justice} {crime and punishment} преследование, погоня, {C1} занятие
+  958. (  2) 5T ?#PT raid [reɪd] (n) {C1} {law and justice} {crime and punishment} облава, {C1} рейд, набег, {C1} {war and conflict} налет; (v) {C1} {law and justice} {crime and punishment} совершать облаву, {C1} грабить, {C1} {war and conflict} совершать налет
+              xx ?#  security+risk [sɪˈkjʊərəti rɪsk] (n) {C1} {crime and punishment} неблагонадежный человек, подозрительная личность
+ 1055. (  1) 4T ?#PT seize [siːz] (v) {C1} воспользоваться, схватить, {C1} {law and justice} {crime and punishment} конфисковать
+ 1172. (  1) 5T ?#PT surrender [səˈrɛndə] n) (formal) {C1} сдача, {C1} {war and conflict} капитуляция; (v) {C1} {war and conflict} {crime and punishment} сдаваться
+ 1173. (  1) xT ?#PT surveillance [səˈveɪləns] (n) {C1} {war and conflict} {crime and punishment} наблюдение, надзор
+              5T ?#  uncover [ʌnˈkʌvə] (v) {C1} {crime and punishment} раскрывать, открывать, обнаруживать
+              yT ?#  undercover [ˌʌndəˈkʌvə(r)] (adj) {C1} {law and justice} {crime and punishment} тайный, секретный; (adv) {C1} {law and justice} {crime and punishment} под прикрытием
+
 {crime and punishment {type of crime}}
 ......................................
 {A1} {crime and punishment {type of crime}}
@@ -11828,6 +11897,12 @@ Politics and society
               zT ?#  vandalism [ˈvændəlɪzəm] (n) {B2} {crime and punishment} вандализм
  1387. (  1) 3T *#PT violence [ˈvaɪələns] (n) {B2} {crime and punishment} {war and conflict} насилие, жестокость
               xx ?#  war+crime [wɔː kraɪm] (n) {B2} {war and conflict} {crime and punishment} военное преступление
+
+{C1} {crime and punishment {type of crime}}
+              3T ?#  abuse [əˈbjus->(n)/əˈbjuz->(v)] (v) {C1} {crime and punishment} злоупотреблять, ругать, {C1} {feeling} оскорблять; (n) {C1} {feeling} оскорбление, {C1} {crime and punishment} злоупотребление
+
+
+<here
 
 {law and justice}
 -----------------
