@@ -548,5 +548,829 @@ Pep/8 is the virtual machine. It has 39 machine language instructions.
 The memory unit of the Pep/8 made up of 65,536 bytes of storage.
 ALU is 16 bits in length.
 
+PC = program counter, which contains the address of the next instruction to be executed
+IR = instruction register, which contains a copy of the instruction being executing
+A  = accumulator
+
+The accumulator is used to hold data and the results of operations.
+There are two parts to an instruction:
+    - the instruction specifier = such as "add"
+    - (optional) 16 bit operand specifier - either the operand inself or the address of where the operand is to be found.
+
+Instruction specifier:
+    - opcodes (operation codes) from 4 to 8 bits
+    - register 3 bit = 0 
+    - address mode 0 to 2
+
+Addres mode:
+    000 = immediate, operand is in the operand specifier
+    001 = direct, operand is the memory address
+
+Unary instructions - without operand
+
+Opcodes:
+    0000 - unary stop.
+    1100 - load the operand into the A register (word = 16 bits)
+    1110 - store the contents of the A register into the operand
+    0111 - add operand to the A register
+    1000 - substract the operand from the A register
+    01001 - character input to the operand  - from input device (only direct access)
+    01010 - character output from the operand - to output device immidiate or direct
+
+6.3. A program example
+
+    // Output 'Hello'
+    01010000 00000000_01001000      50 00 48          H
+    01010000 00000000_01100101      50 00 65          e
+    01010000 00000000_01101100      50 00 6C          l
+    01010000 00000000_01101100      50 00 6C          l
+    01010000 00000000_01101111      50 00 6F          0
+    00000000                        00              STOP
+
+zz - end of program for simulator
+
+6.5 Assembly language
+Assembly languages assign mnemonic letter codes to each machine language instruction.
+A program called an assembler reads each of the instructions in mnemonic form and translates it into machine language equivalent.
+
+Assembly mnemonic:          STOP, LDA, STA, ...
+Operand, mode specifier:    0x008B,i
+
+Beginning with assembly languages, most programming languages have two kinds of instructions:
+    - instructions to be translated
+    - instructions to the translating program.
+
+Assembler directives: .ASCII, .BLOCK, .WORD, .END
+
+    // Output 'Hello'
+    CHARO   0x0048,i        //  H
+    CHARO   0x0065,i        //  e
+    CHARO   0x006C,i        //  l
+    CHARO   0x006C,i        //  l
+    CHARO   0x006F,i        //  0
+    STOP
+    .END
+
+Assembly process: Program in assembly language => Assembler => Program in machine code
+nu
+        BR  main
+sum:    .WORD   0x0000
+num1:   .BLOCK  2
+num2:   .BLOCK  2
+
+main:   LDA     sum,d
+        DECI    num1,d
+        ADDA    num1,d
+        DECI    num2,d
+        ADDA    num2,d
+        STA     sum,d
+        DECO    sum,d
+        STOP
+        .END
+
+BR
+BRLT    if A is less than zero
+BREQ    if A is equal to zero
+
+
+        BR  main
+sum:    .WORD   0x0000
+num1:   .BLOCK  2
+num2:   .BLOCK  2
+
+negMsg: CHAR0   0x0045,i   ; 'E'
+        BR      finish
+main:   LDA     sum,d
+        DECI    num1,d
+        ADDA    num1,d
+        DECI    num2,d
+        ADDA    num2,d
+        BRLT    negMsg
+        STA     sum,d
+        DECO    sum,d
+finish: STOP
+        .END
+
+CPA ; compare operand with A 
+
+; Sum limit number (limit is first number)
+        BR  main
+sum:    .WORD   0x0000
+num:    .BLOCK  2
+limit:  .BLOCK  2
+counter:.WORD   0x000
+
+main:   DECI    limit,d
+loop:   DECI    num,d
+        LDA     num,d
+        ADDA    sum,d
+        STA     sum,d
+        LDA     counter,d
+        ADDA    1,i
+        STA     counter,d
+        CPA     limit,d
+        BREQ    quit
+        BR      loop
+quit:   DECO    sum,d
+        STOP
+        .END
+
+6.5 Expressing Algorithms
+We expressed the solution to each problem in paragraph form and then wrote the code. In computing, the plan for a solution is called an algorithm. Pseudocode is a language that allows us to express algorithms in a clearer form.
+There are not special grammar rules for pseudocode, but to express actions we must be able to represent the following concepts:
+    Variables: name that appear in pseudocode algorithms refer to places in memory where values are stored.
+    Assignment: we must have a wary to put variables in a values: Set sum to 0.
+    Input/Output: We can use the word write for input and the word read for input.
+    Selection: Allows a choice between performing an action or skipping it. If-Else-...
+    Repetition: Allows instructions to be repeated. WHILE (boolean expression)
+
+    Set sum to 0
+    Read num1
+    Set sum to sum + num1
+    Read num2
+    Set sum to sum + num1
+    If (sum < 0)
+        Write 'E'
+    Else
+        Wrire sum
+
+
+    Set counter to 0
+    Set sum to 0
+    Read limit
+    While (counter < limit)
+        Read num
+        Set sum to sum + num
+        Set counter to counter + 1
+    Write sum
+
+6.6 Testing
+There is far more to testing than just running the program once.
+We design and implement a test plan. A test plan is a document that specifies how many times and with which data a program must be run to thoroughly test the program. Each set of input data values is called a test case.
+Several approaches to testing can be used to guide this process. Code coverage is an approach that designs test case to ensure that each statement in the program is executed. Because the code is visible to the tester, this approach is also called clear-box testing. Data coverage, another approach, calls for designing test cases to ensure that the limits of the allowable data are covered. Because this approach is based solely on input data and not the code, it is also called black-box testing. Often testing entails a combination of these two approaches.
+
+Test plan implementaion involves running each of the test cases described in the test plan and recording the results. If the results are not as expected, you must go back to your design and find and correct the error.
+
+    Reason for Test Case - Input Test - Expected Output - Observed Output
+
+7. Problem Solving and Algorithms
+---------------------------------
+Computer science is sometimes defined as "the study of algorithms and their efficient implementation in a computer".
+Because algorithms operates on data, we examine ways to structure data so that it can be more efficiently processed.
+
+7.1 How to Solve Problems
+1) You have to understand the problem.
+    What is the unknown? What are the data? What is the condition?
+2) Find the connection between the data and the unknown.
+3) Carry out your plan.
+4) Examine the solution obtained.
+
+If you are given a problem or task verbally, you typically ask questions until what you are to do is clear. You ask when, why, and where until your task is completely specified.
+
+You should never reinvent the wheel. If a solution exists, use it.
+
+We constantly break up a large problem into smaller units we can handle.
+
+An algorithms (a plan of the solution) is a set of instructions for solving a problem or subproblem in a finite amount of time using finite amount of data.
+
+The computer problem solving process includes four phases:
+    the analysis and specification phase
+    the algorithm development phase
+    the implementation phase
+    the maintenance phase
+
+The listing of the main tasks is called the main module. Use English or pseudocode to restate the problem in the main module.
+
+7.2 Algorithms with Simple Variables
+Simple (atomic) are those that cannot be divided. They are value stored in a place.
+Numbers = simple variables.
+
+ - Selection
+
+Top level (main) module just expresses the tasks:
+    Write "Enter the temperature"
+    Read temperature
+    Determine dress
+
+Determine dress
+- - - - - - - -
+IF (t > 90)
+    Write "Texas weather: wear shorts"
+ELSE IF (t > 70)
+    Write "Ideal weather: short sleeves are fine"
+ELSE IF (t > 50)
+    ...
+ELSE
+    ...
+
+ - Repetition
+
+There are two basic types of loops:
+    - count controlled
+That repeats a process a specified number of times.
+There are three distinct parts to this kind of loop, which make use of a special variable called a loop control variable:
+        - initialized to a starting value;
+        - testing, reach a predetermined value;
+        - incrementation.
+    Set count to 0
+    WHILE (count < limit) // boolean expression
+        ...
+        Set count to count + 1
+
+Count is 0, 1, 2, ... limit-1
+
+"While" loop is called a pretest loop, because the testing takes place before the loop is executed.
+
+    - event controlled
+        - initialized to a starting value;
+        - testing, reach a predetermined value;
+        - updated.
+
+Structures in which one control structure is embedded within another structure are called nested structures.
+
+7.3 Composite Variables
+String of letters within quotations to represent a message to be written out.
+Letters within quotations are called strings.
+
+    - Arrays
+An array is a named collection of homogeneous items in which individual items are accessed by their place within the collection. The place within the collection is called an index.
+    integer numbers[position]
+    Write "Enter 10 integer numbers, one per line"
+    Set position to 0
+    WHILE (position < 10)
+        Read in numbers[position]
+        Set position to position + 1
+
+Algorithms with arrays are classified into three categories:
+    - searching;
+        It is just what it says - going through the items in the array one at a time looking for a particular value.
+    - sorting;
+        It is putting the items in the array into order.
+    - processing.
+        It is catch all phrase that encompasses all other computing done to or with items in an array.
+
+  - Records
+It is a named heterogeneous groups of items in which individual items are accessed by name.
+The collection can contain integers, real value, strings, or any other type of data.
+Records are good choices for bundling items together that relate to the same object.
+
+     Employer
+    +--------------+
+    |              | name
+    +--------------+
+    |              | age
+    +--------------+
+    |              | hourlyWage
+    +--------------+
+
+    Employer employer  // employer - variable, Employer - type
+    Set employer.name to "Frank Jones"
+    Set employer.age to 32
+    Set employer.hourlyWage to 27.50
+
+7.4 Searching Algorithms
+    - Sequential Search
+'Look for' is a synonym for searching. Our first searching algorithm follows this definition of searching exactly. We look at each item in turn and compare it to the one for which we are searching. If it matches, we have found the item. If not, we look at the next item.
+    Set position to 0
+    Set found to FALSE
+    WHILE (position < size AND NOT found)
+        IF (number[position] equals searchItem)
+            Set found to TRUE
+        ELSE
+            Set position to position + 1
+
+    - Sequential Search in a Sorted Array
+Rather than being specific about the number of items in the array, we use a variable "length" to tell us how many valid items in the array.
+
+    Set index to 0
+    Set found to FALSE
+    Set length to SIZE
+    WHILE (index < length AND NOT found)
+        IF (data[index] equals searchItem)
+            Set found to TRUE
+        ELSE IF (data[index] > searchItem)
+            Set index to length
+        ELSE
+            Set position to position + 1
+
+    - Binary search
+Algorithms assumes that the items in the array being searched are sorted.
+Rather than looking for the item starting at the beginning of the array and moving forward sequentially, the algorithm begins at the middle of the array in a binary search.
+
+    Set first to 0
+    Set last to SIZE-1
+    Set found to FALSE
+    WHILE (first < last AND NOT found)
+        Set middle to (first + last)/2
+        IF (data[middle] equals searchItem)
+            Set found to TRUE
+        ELSE 
+            IF (searchItem < data[middle])
+                Set last to middle - 1
+            ELSE
+                Set first to middle + 1
+
+In the binary search algorithm realy faster than sequential search.
+
+7.5 Sorting
+Sorting is putting things in order.
+
+    - Selection Sort
+If we handed you a set of index cards with the names and asked you to put them in order by name, you would probably go through the cards looking for the name that comes first in the alphabet.
+
+    WHILE more cards in first deck
+        Find smallest left in the first deck
+        Move to new deck
+
+This algorithms is simple, but it has one drawback: It requires space for two complete decks.
+We can instead of writing this name on a second list to exchange it with the name currently in the position where the new name should go.
+
+    Set firtUnsorted to 0
+    WHILE (not sorted yet)                              (1)
+        Find smallest unsorted item                     (2)
+        Swap firtUnsorted item with the smallest        (3)
+        Set firtUnsorted to firtUnsorted + 1
+
+This algorithm includes only three abstract steps.
+
+    - Not sorted yet
+    firstUnsorted < length-1
+
+    - Find smallest unsorted item
+    Set indexOfSmallest to firtUnsorted
+    Set index to indexOfSmallest+1
+    WHILE (index <= length-1)
+        IF (data[index] < data[indexOfSmallest])
+            Set indexOfSmallest to index
+        Set index to index+1
+
+    - Swap firstUnsorted with smallest
+    Set tempItem to data[firtUnsorted]
+    Set data[firtUnsorted] to data[indexOfSmallest]
+    Set data[indexOfSmallest] to tempItem
+
+
+    - Bubble Sort
+Starting with the last array element, we compare successive pairs of elements, swapping them whenever the bottom element of the pair is smaller than the one above it. In this way, the smallest element bubbles up to the top of the array.
+The bubble sort is a very slow sorting algorithms. Sorting algorithms are usually compared based on the number of iterations it takes to sort an array, and this approach takes one iteration for every item in the array except the last.
+
+    Set firtUnsorted to 0
+    Set swap to TRUE
+    WHILE (firtUnsorted < length-1 AND swap)
+        Set swap to FALSE
+        Bublle up the smallest item in unsorted part        (1)
+        Set firtUnsorted to firtUnsorted + 1
+
+    - Bublle up the smallest item in unsorted part
+    Set index to length-1
+    WHILE (index > firstUnsorted)
+        IF (data[index] < data[index-1])
+            Swap data[index] and data[index-1]      (*)
+            Set swap to TRUE
+        Set index to index-1
+
+
+    - Insertion Sort
+    Set current to 1
+    WHILE (current < length)
+        Set index to current
+        Set placeFound to FALSE
+        WHILE (index > 0 AND NOT placeFound)
+            IF (data[index] < data[index-1])
+                Swap data[index] and data[index-1]
+                Set index to index-1
+            ELSE
+                Set placeFound to TRUE
+        Set current to current+1
+
+7.6 Recursive Algorithms
+When an algorithms uses its own name within itself, it is called a recursive algorithm. Recursion is the ability of an algorithm to call itself, it is an alternative control structure to repetition (looping).
+Each recursive algorithms has at least two cases: the base and the general case.
+The base is the one to which we have an answer; the general case expresses the solution in terms of a call to itself with the a smaller version of the problem, eventually the program reaches the base case, where an answer is known.
+Associated with each recursive problem is some measure of the size of the problem. The size must become smaller with each recursive call. The first step in any recursive solution is to determine the size factor.
+
+New control structure: the subprogram statement.
+We can give a section of code a name and then use that name as a statement in another part of the program.
+When the name is encountered, the processing in the other part of the program halts while the name code executes.
+The place where the name of the code appears is known as the calling unit.
+Subprograms are powerful tools for abstraction. If a subprogram needs information to execute its task, we place the name of the data value in parentheses by the subprogram heading. If the subprogram returns a value to the calling unit, it uses the word RETURN.
+
+Recursive Factorial
+    N! = N * (N-1)!
+    0! = 1
+
+The size factor is N
+Base    case Factorial(0) = 1
+General case Factorial(N) = N * Factorial(N-1)
+
+    - Factorial(N)
+    IF (N equal 0)
+        RETURN 1
+    ELSE
+        RETURN N * Factorial(N-1)
+
+The data being given each time is called argument.
+If N < 0 then this situation is called infinite recursion (an infinite loop).
+
+Recursive Binary Search
+---
+    Write BinarySearch(0, lenght-1) // True or False
+
+    - BenarySearch(first, last)
+    IF (first > last)
+        RETURN FALSE
+    ELSE
+        Set middle to (first + last)/2
+        IF (item equals data[middle])
+            RETURN TRUE
+        ELSE
+            IF (item < data[middle])
+                BinarySearch(first, middle-1)
+            ELSE
+                BinarySearch(middle+1, first)
+
+Quicksort
+Developed by C.A.R. Hoare, is based on the idea that it is faster and easier to sort two small lists than one large one.
+The basic strategy of this sort is divide and conquer.
+
+                             A..Z
+                         A..L   M..Z
+                      A..F  G..L  M..R  S..Z
+
+    - Quicksort(first, last)
+    IF (first < last)
+        Select splitVal
+        Split (splitVal)
+        QuickSort(first, splitPoint-1)
+        QuickSort(splitPoint+1, last)
+
+SpitVal - 1) as first element = data[first]
+
+    - Select splitVal
+    Set splitVal to data[first]
+
+    - Split(splitVal)
+    Set left to first+1
+    Set right to last
+    WHILE (left <= right)
+        Increment left until data[left] > splitVal OR left > right
+        Decrement right until data[right] < splitVal OR left > right
+        IF (left < right)
+            Swap data[left] and data[right]
+    Set SplitPoint to right
+    Swap data[first] and data[splitPoint]
+    Return splitPoint
+
+Quicksort is an excellent sorting approach if the data to be sorted is in random order. If the data is already sorted, however, the algorithm degenerates so that each split has just one item in it.
+
+7.7 Important Threads
+Information Hiding
+Name to a task and not worrying about how the task is to be implemented until later.
+Deferring the details in a design has distinct advantages.
+This practice, called information hiding, make the details at a lower level inaccessible during the design of the higher levels.
+
+Abstraction
+Abstraction and information hiding are two sides of the same coin. Information hiding is the practice of hiding details;
+abstraction is the result with detail hidden.
+Data abstraction is the separation of the logical view of data from its implementation.
+Procedure abstraction refers to the view of actions.
+Control abstraction refers to the view of a control structure.
+
+Naming Things.
+Names are called identifiers.
+
+Testing
+Clear box and Black box.
+
+8. Abstract Data Types and Subprograms
+--------------------------------------
+In the programming layer, we have moved from concreteness of machine language, to assembly language, to pseudocode, to expressing algorithms.
+Now talk about abstract containers: composite structures for which we do not know the implementation. These abstract containers are called abstract data types (ADT). We know their properties and operations and we understand which types of values they can contain, but we have no information about their internal structure or implementation.
+
+8.1 What Is an Abstract Data Type?
+ADT is a container whose properties (data and operations) are specified independently of any particular implementation.
+The goal in design is to reduce complexity through abstraction.
+In computing, we view data from three perspectives:
+    - the application level
+    - the logical level
+    - the implementation level
+
+The application (or user) level is the view of the data within a particular problem.
+The logical (or abstract) level is an abstract view of the data values (the domain) and the operations that manipulate them.
+
+Data structure - the implementation of a composite data field in an abstract data type.
+Containers are objects whose role is to hold and manipulate other objects.
+
+8.2 Stacks
+A stack is an abstract composite structure in which accesses are made at only one end.
+You can insert an items as the first one and you can remove the first one.
+This design models many things in real life.
+LIFO - "last in, first out".
+
+Push = adding an item to the stack.
+Pop  = removing an imem from the stack.
+
+A stack does not have the property of length, so there is no operation that returns the number of items on the stack.
+
+IsEmpty operation.
+
+    - Reverse
+    WHILE (more data)
+        Read value
+        Push(myStack, value)
+    WHILE (NOT isEmpty(myStack))
+        Pop(myStack, value)
+        Write value
+
+8.3 Queues
+A queue is an abstract structure in which items are entered at one end and removed from the other end.
+FIFO = "first in, first out"
+Insertions are made at the rear of the queue and removals are made from the from the front of the queue.
+
+Enqueue (Insert) = for the insertion operation.
+Dequeue (Remove) = for the deletion operation.
+
+Here is an algorithm that reads in data values and prints them in the order in which they were entered:
+
+    - In Ordering
+    WHILE (more data)
+        Read value
+        Enque(myQueue, value)
+    WHILE (NOT isEmpty(myQueue))
+        Deque(myQueue, value)
+        Write value
+
+8.4 Lists
+Lists: guest, grocery, class, things-to-do lists.
+Three properties characterize lists:
+    - the items are homogeneous
+    - the items are linear
+    - list have varying lengths
+By linear we mean that each item except the first has a unique component that comes before it, and each item except the last has a unique component that comes after it.
+
+Insert = to insert an item
+Delete = to delete an item
+isThere = check whether an item is there
+GetLength = report the number of items in a list
+
+Reset, GetNext, MoreItems, ...
+
+An array is a built-in structure, a list is an abstract structure.
+
+A list may also be visualized as a linked structure. A linked structure is based on the concept of a node.
+A node consists of two pieces of information: the user's data and a link or pointer that indicates where to find the next node. The end of the list is a link that contains null.
+Unordered lists are those for which order is unimportant.
+
+Sorted lists are those where there is a semantic relationship between items in the list.
+
+    WHILE (more data)
+        Read value
+        Insert(myList, value)
+    Reset(myList)
+    WHILE (MoreItems(myList))
+        GetNext(myList, nextItem)
+        Write nextItem
+
+8.5 Trees
+Abstract structures such as lists, stack, and queues are linear in nature.
+Only one relationship in the data is being modeled. Items are next to each other in a list or are next to each other in terms of time in a stack or queue.
+Depicting more complex relationships requires more complex structures. For example, a hierarchical structure.
+Such hierarchical structures are called trees. Binary trees, each node in the tree can have no more than two children.
+
+Binary Trees is an abstract structure in which each node is capable of having two successor nodes, called children.
+The beginning of the tree is a unique starting node called the root, which is not the child of any node.
+Each node in the tree may have zero, one, or two children. The node to the left of a node, if it exists, is called its left child. The same is for right child.
+If a node in the trees has no children it is called a leaf.
+Every node (except the root) has a unique (single) parent.
+
+ - Binary Search Trees
+A tree is analogous to an unordered list. To find an item in the tree, we must examine every node until either we find the one we want or we discover that it isn't in the tree.
+A binary search tree is like a sorted list in theat there is a semantic ordering in the nodes.
+In addition to binary tree, a binary search tree has a semantic property that charactirizes the values in the nodes in the tree: The value in any node is greater than the value in any node in its left subtree and less than the value in any node in its right subtree.
+
+ - Searching a Binary Search Tree
+
+current - point to a node
+info(current) - user's data in the node
+left(current) - points to the root of the left subtree
+right(current) -
+null - special value
+
+    - IsThere(tree, item)
+    IF (tree is null)
+        RETURN FALSE
+    ELSE
+        IF (item equal info(tree))
+            RETURN TRUE
+        ELSE
+            IF (item < info(tree))
+                IsThere(left(tree), item)
+            ELSE
+                IsThere(right(tree), item)
+
+With each comparison, either we find the item or we cut the tree in half.
+Well, not exactly. The shape of a binary tree is not always well balanced.
+The shape of the tree is determined by the order in which items are entered into the tree.
+ n-level, it can be 4 for 15 or 14.
+
+    - building a binary search Tree
+One clue lies in the search algorithm. If we follow the search path and do not find the item, we end up at the place where the item would be.
+
+    - Insert(tree, item)
+    IF (tree is null)
+        Put item in tree
+    ELSE
+        IF (item < info(tree))
+            Insert(left(tree), item)
+        ELSE
+            Insert(right(tree), item)
+
+    - Print(tree)
+    IF (tree is NOT null)
+        Print(left(null))
+        Write info(tree)
+        Print(right(tree))
+
+    - Lenght(tree)
+    IF (tree is null)
+        RETURN 0
+    ELSE
+        RETURN length(left(tree)) + Lenght(right(tree)) + 1
+
+8.6 Graphs
+To represent other types of relationships such as sibling, cousin, aunt, ...
+Trees are a useful way to represent relationships in which a hierarchy exists.
+If we remove the restriction that each node may have only one parent node, we have a data structure called a graph.
+A graph is made up of a set of nodes called vertices and a set of lines called edges (or arcs) that connect the nodes.
+
+The vertices in the graph represent objects, and the edges describe relationships among the vertices.
+
+Undirected graph - a graph in which the edges have no direction.
+Directed graph (digraph) - a graph in which each edge is directed from one vertex to another.
+
+Adjacent vertices - two vertices that are connected by an edge.
+Path - a sequence of vertices that connects two nodes in a graph.
+
+    - Creating a graph
+List, stacks, queues, and trees are all just holding containers.
+A graph, in contract, has algorithms defined upon is that actually solve classic problems.
+A lot of information is represented in a graph: the vertices, the edges, and the weights.
+
+            A           B           C
+    A       -          200          -
+    B     100          -          -
+    C       -          400          -
+
+    - Graph Algorithms
+    Search: a depth-first search, a breadth-first seach, a single-source shortest-path search
+
+    - Depth-First Search
+    Set found to FALSE
+    Push(myStack, startVertex)
+    WHILE (NOT isEmpty(myStack) AND NOT found)
+        Pop(myStack, tempVertex)
+        IF (tempVertex equals end Vertex)
+            Write endVertex
+            Set found to TRUE
+        ELSE IF (tempVertex not visited)                              *
+            Write tempvertex
+            Push all unvisited vertices adjacent with tempVertex      *
+            Mark tempVertex as visited                                *
+    IF (found)
+        Write "Found"
+    ELSE
+        Write "Not found"
+
+
+    - Breadth First Search(StartVertex, endVertex)
+// How can you get from A to B with the fewest numbers of stops.
+// We use a queue.
+    Set found to FALSE
+    Enque(myQueue, startVertex)
+    WHILE (NOT isEmpty(myQueue) AND NOT found)
+        Deque(myQueue, tempVertex)
+        IF (tempVertex equals end Vertex)
+            Write endVertex
+            Set found to TRUE
+        ELSE IF (tempVertex not visited)                              *
+            Write tempvertex
+            Enque all unvisited vertices adjacent with tempVertex      *
+            Mark tempVertex as visited                                *
+    IF (found)
+        Write "Found"
+    ELSE
+        Write "Not found"
+
+    - Single-Source Shortest-Path Search
+
+8.7 Subprograms
+    - Parameter Passing
+A parameter list is a list of the identifiers or values with which the subprogram is to work; it appears in parentheses beside the subprogram name.
+Identifiers in subprogram are called parameters. In when called these called arguments.
+The arguments represent actual variables in the calling unit with which the subprogram is to work.
+
+    - Value and Reference Parameters
+There are two basic ways of passing parameters: by value and by reference (or address).
+If value then calling unit gives a copy of the argument.
+Subprogram can modify the copy, but the original variable will not be changed.
+
+9. Object-Oriented Design and High-Level Programming Languages
+--------------------------------------------------------------
+9.1 Object-Oriented Methodology
+Self-contained entities called objects, which are composed of both data and operations that manipulate the data.
+Object-oriented design focuses on the objects and their interactions within a problem.
+
+OOD (Object-oriented design) are the concepts of classes and objects.
+An object is a thing or entity that makes sense within the context of the problem.
+A group of simila objects is described by an object class (or class).
+Any particular object is an instance (concrete example) of the class.
+
+Objects communicate with one another by sending messages (invoking subprograms).
+A class contains fields that represent the properties and behaviors of the class.
+A field can contain data values and/or methods.
+
+    - Design Methodology
+Stages: brainstorming, filtering, scenarios, responsibility algorithms.
+
+    - Scenarios
+The goal of the scenarios phase is to assign responsibilities to each class.
+A class encapsulates its data (knowledge). Encapsulation is a key to abstraction.
+
+9.2 Translation Process
+A program written in assembly language is input to the assembler, which translates the assembly-language instructions into machine code. Then the machine code is executed.
+
+    - compilers
+The algorithms that translate assembly-language instructions into machine code are very simple.
+High-level languages provide a richer set of instructions that makes the programmer's life even easier.
+Programs that translate programs written in a high-level language are called compilers.
+
+    - interpreters
+An interpreter is a program that translates and executes the statements in sequence.
+Interpreters can be viewed as simulators or virtual machines.
+
+FORTRAN, COBOL, ALGOL were compiled.
+Lisp was interpreted.
+
+Java (from 1996) was portable. Java is compiled into a standard machine language called Bytecode.
+A software interpreter called the JVM (Java Virtual Machine) takes the Bytecode program and executes it.
+
+9.3 Programming Language Paradigms
+There are two main paradigms: imperative and declarative.
+
+    - Imperative Paradigm
+The von Neumann model of sequential instructions that operates on values in memory greatly influenced the most common model of a programming languages: FORTRAN, BASIC, C, Pascal, C++.
+In this paradigm, the program describes the processing necessary to solve the problem.
+It characterized by sequential execution of instructions, the use of variables that represent memory locations, and the use of assignment statement that change the values of these variables.
+
+    - Procedure Paradigm
+It is an imperative model in which the statements are grouped into subprograms.
+
+    - Object-Oriented Paradigm
+It is one of a world of interacting objects. Each object has responsibility for its own actions.
+
+    - Declarative Paradigm
+It is a model in which the results are described, but the steps to accomplish the results are not stated.
+There are two basic models within this paradigm: function and logic.
+
+    - Functional Model
+It is based on the concept of the function. Computation is expressed in terms of the evaluation of functions; the solution to problem is expressed in terms of function calls.
+The basic mechanism is the evaluation of functions and there are no variables and no assignment statements.
+Lisp, Scheme, ML.
+lambda is the word for defining a function.
+
+    - Logic Programming
+It is based on the principles of symbolic logic. This model comprises a set of facts about objects and a set of rules about the relationships among the objects.
+Prolog.
+
+Both Lisp and Prolog are used in artificial intelligence applicants.
+
+9.4 Functionality in High-Level Languages
+
+    - Boolean Expressions
+These statements are called assertions or conditions  =>  boolean expressions
+It is a sequence of identifiers, separated by compatible operators, that evaluates to either true or false.
+
+6 relation operation: less then (<), less than or equal (<=), greater than (>), greater than or equal (>=), not equal (!=, <>, /=), equal (=, ==).
+
+3 Boolean operators: AND OR NOT
+
+    - Data Typing
+The requirement that only a value of the proper type can be stored into a variable.
+
+Data type - a description of the set of values and the basic set of operations that can be applied to values of the type.
+
+4 distinc data types built into the languages: integer numbers, real numbers, characters, and Boolean.
+
+Integer: different sizes, min and max values, operations: +, -, *, /, modulus operator (%).
+Real: smaller to largest with given precision.
+Character: ASCII character, Unicode character.
+Boolean: true, false
+
+Composite data types: String (a sequence of characters)
+
+    - Declarations
+A declaration is a language statement that associates an identifier with a variable, an action, ...
+
+    - Input/Output Structures
 
 
