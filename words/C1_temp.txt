@@ -15,19 +15,16 @@
 
 (n)
     5. (  1) 3T *#PT absence [ˈæbsəns] (n) {C1} отсутствие
+    9. (  1) 5T ?#PT abundance [əˈbʌndəns] (n) {C1} изобилие, множество, избыток
 
 (v)
     0. (  1) 5T ?#PT abolish [əˈbɒlɪʃ] (v) {C1} отменять, упразднять
 
 (adj)
+    6. (  1) 3T *#PT absent [ˈæbsənt->(adj)/æbˈsɛnt->(v)] (v) (formal) отсутствовать; (adj) {C1} отсутствующий; (US) (prep) (formal) в отсутствие, без
+    8. (  1) 5T *#PT absurd [əbˈsɜːd] (n) абсурд, абсурдный; (adj) {C1} нелепый
 
 ===
-
- -1
-    6. (  1) 3T *#PT absent [ˈæbsənt->(adj)/æbˈsɛnt->(v)] (v) отсутствовать; (adj) отсутствующий; (prep) в отсутствие, без
-    8. (  1) 5T *#PT absurd [əbˈsɜːd] (n) абсурд, абсурдный; (adj) {C1} нелепый
-    9. (  1) 5T ?#PT abundance [əˈbʌndəns] (n) {C1} изобилие, множество, избыток
- -1
 
    12. (  1) 5T *#PT accelerate [əkˈsɛləreɪt] (v) {C1} {change, cause and effect} {physics and chemistry} {transport by car or lorry} ускорять, ускоряться -1
    13. (  1) 4T ?#PT acceptance [ækˈsɛptəns/əkˈsɛptəns] (n) {C1} принятие, {C1} {discussion and agreement} признание, {C1} {social issues} прием -1
@@ -152,7 +149,7 @@
   133. (  1) 5T ?#PT betray [bɪˈtreɪ] (v) {C1} предавать, изменять, выдавать
   134. (  1) xT *#PT bind [baɪnd] (v) {C1} связывать, привязывать, I: bind-bound-bound
 
-  136. (  1) 4T ?#PT bishop [ˈbɪʃəp] (n) {C1} {religion and festivals} {jobs} епископ, {C2} {games and toys} слон
+  136. (  1) 4T ?#PT bishop [ˈbɪʃəp] (n) {C1} {religion and festivals} {jobs} епископ, {C2} {games and toys} слон -1
   137. (  1) 5T ?#PT bizarre [bɪˈzɑː] (adj) {C1} странный, причудливый, эксцентричный
   138. (  1) 3T ?#PT blade [bleɪd] (n) {C1} лезвие, {C2} {plants and trees} травинка, {C1} {transport by air} {engineering} крыло, былинка
   139. (  2) 5T ?#PT blast [blɑːst] (n) {C1} {war and conflict} взрыв, {C1} звук, взрывная волна; (v) {C1} {war and conflict} взрывать
@@ -269,7 +266,7 @@
   250. (  1) 3T ?#PT confront [kənˈfrʌnt] (v) противостоять, столкнуться
 
 
-  253. (  1) yT ?#PT congregation [ˌkɒŋɡrɪˈɡeɪʃ(ə)n] (n) собрание, конгрегация, прихожане
+  253. (  1) yT ?#PT congregation [ˌkɒŋɡrɪˈɡeɪʃ(ə)n] (n) {C1} собрание, конгрегация, {C1} {religion and festivals} прихожане -1
 
   255. (  1) 5T ?#PT conquer [ˈkɒŋkə] (v) {C1} {history} {war and conflict} покорять, {C1} завоевывать, {C1} {success} побеждать -1
   256. (  1) 5T ?#PT conscience [ˈkɒnʃəns] (n) {C1} совесть, {C1} {personal qualities} сознание -1
@@ -807,7 +804,7 @@
  -1
   787. (  1) xT *#PT modification [ˌmɑdəfəˈkeɪʃən] (n) модификация, изменение, видоизменение
   788. (  1) xT ?#PT momentum [məʊˈmɛntəm] (n) импульс, момент, инерция, количество движения
-  789. (  1) 4T ?#PT monk [mʌŋk] (n) монах
+
   790. (  1) 5T ?#PT monopoly [məˈnɒpəli] (n) {C1} {money} {games and toys} монополия -1
 
   792. (  1) 5T *#PT motive [ˈməʊtɪv] (n) мотив, повод, побуждение; (v) побуждать
@@ -1505,7 +1502,7 @@
               5T ?#  thesis [ˈθiːsɪs/ˈθɛsɪs] (n) {B2} {education} {C1} {opinion and argument} {scientific research} тезис, диссертация -1
  -1
               yT ?#  gown [gaʊn] (n) {C2} {clothes and fashion} {healthcare} платье, {C1} {education} {law and justice} {religion and festivals} мантия -3
-              3T *#  convert [ˈkɒnvɜːt->(n)/kənˈvɜːt->(v)] (v) {B2} {buildings} превращать, {B2} {religion and festivals} {C1} {opinion and argument} конвертировать; (n) {C1} {opinion and argument} {religion and festival} новообращенный; (adj) новообращенный -1
+ -1
               xx ?#  deduce [dɪˈdjuːs] (v) {C1} {opinion and argument} {maths and measurement} выводить, делать вывод, устанавливать происхождение -1
               xx ?#  favourably [ˈfeɪvərəbli] -ly: (adj) {C1} {opinion and argument} {success} {weather} благоприятный; (adv) {C1} {opinion and argument} {success} благоприятно -2
  -1
@@ -1712,7 +1709,6 @@
               5T ?#  charitable [ˈʧærɪtəbl] (adj) {C1} {social issues} благотворительный, {C1} {personal qualities} милосердный, щедрый -1
               yT ?#  admiral [ˈædm(ə)rəl] (n) {C1} {war and conflict} {transport by water} адмирал, флагманский корабль
               5T ?#  colonel [ˈkɜːnl] (n) {C1} {war and conflict} полковник
-              xT ?#  catholic [ˈkæθəlɪk] (adj) {C1} {religion and festivals} католический; (n) {C1} {religion and festivals} католик
               5T *#  majesty [ˈmæʤ ɪsti] (n) величественность, {C1} {history} величество
               5T ?#  reed [riːd] (n) {C1} {plants and trees} тростник, камыш, {C2} {music} свирель
               xT ?#  gale [ɡeɪl] (n) {C1} {weather} шторм, буря
@@ -1763,7 +1759,8 @@
               xx ?#  extremism [ɪkˈstriːmɪzəm] (n)(u) {C1} {war and conflict} {politics} экстремизм -1
               xx ?#  bank+holiday [(UK)ˌbæŋk ˈhɒlədeɪ/(US)ˌbæŋk ˈhɑːlədeɪ] (UK) (n) {C1} {time} {holidays} {religion and festivals} официальный выходной день -1
               xx ?#  christmas+carol [ˌkrɪsməs ˈkærəl] (n) {C1} {religion and festivals} {music} рождественская песня
-              
+              yT ?#  robotics [rəʊˈbɒtɪks] (n) {C1} {engineering} = the science of designing and operating robots, робототехника
+              4T ?#  missionary [ˈmɪʃnəri] (adj) миссионерский; (n) {C1} {religion and festivals} {jobs} миссионер, проповедник -1
 
 
 === Words: 911 unknown, 36 unsounded, 32 untranslated

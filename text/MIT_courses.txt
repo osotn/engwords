@@ -1,0 +1,70 @@
+Department of Electrical Engineering and Computer Science
+=========================================================
+
+Electrical engineers and computer scientists are everywhere in industry and research areas as diverse as
+    - computer and communication networks,
+    - electronic circuits and systems,
+    - lasers and photonics,
+    - semiconductor and solid-state devices,
+    - nanoelectronics,
+    - biomedical engineering,
+    - computational biology,
+    - artificial intelligence,
+    - robotics,
+    - design and manufacturing,
+    - control and optimization,
+    - computer algorithms,
+    - games and graphics,
+    - software engineering,
+    - computer architecture,
+    - cryptography and computer security,
+    - power and energy systems,
+    - financial analysis,
+    and many more.
+
+The infrastructure and fabric of the informationage, including technologies such as 
+    - the internet and the web,
+    - search engines,
+    - cell phones,
+    - high-definition television,
+    - magnetic resonance imaging,
+    - and artificial intelligence,
+    are largely the result of innovations in electrical engineering and computer science.
+
+https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/
+https://catalog.mit.edu/degree-charts/electrical-engineering-computing-6-5/
+
+----
+
+6.1000 Introduction to Programming and Computer Science
+            Books: 6.1000 Introduction to Computation and Programming Using Python.pdf
+    
+6.1010      Fundamentals of Programming   => after 6.1000
+            books: 6.1010_1_sicp.pdf, 6.1010_2_V_Anton_Spraul-Think_Like_a_Programmer-EN.pd,
+                   6.1010_3_Clean.Code.A.Handbook.of.Agile.Software.Craftsmanship.pdf
+6.1020      Software Construction         => after 6.1010
+            books: 6.1020_1_code-complete-2nd-edition-v413hav.pdf, 6.1020_2_the-pragmatic-programmer.pdf
+
+6.1200[J]   Mathematics for Computer Science (video) => after Calculus I
+            books: 6.1200_mcs.pdf
+6.1210      Introduction to Algorithms  (video) => 6.1000 + 6.1200[J]
+            books: 6.1210_1_ProblemSolvingwithAlgorithmsandDataStructures.pdf, 
+                   6.1210_2_Introduction to Algorithms (3r - Cormen, Thomas H. & Leiserson,_5373.pdf
+
+6.1903      Introduction to Low-level Programming in C and Assembly => 6.1000
+            books: 6.1903_1_lowlevelprogramming.pdf, 6.1903_2_CSAPP_2016.pdf,
+                   6.1903_3_Jo Van Hoey - Beginning x64 Assembly Programming From Novice to AVX Professional.pdf
+6.1910      Computation Structures => Physics II + 6.1903  
+            books: 6.1910_Andrew Tanenbaum - structured computer organization (6th edition) - 2012.pdf,
+                   6.1910_2_David_Harris_Sarah_Harris-Digital_Design_and_Computer_Architecture-EN.pdf,
+                   6.1910_3_Computer Organization and Design- The Hardware_Software Interface.pdf
+ 
+6.1800      Computer Systems Engineering
+            books: 6.1800_Principles of Computer System Design An Introduction Part II (MIT 6.004).pdf
+
+18.01       Calculus I: Single Variable Calculus
+            video: https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.1x+2T2019/course/
+
+
+!!! https://github.com/lighthousand/books/blob/master/the-pragmatic-programmer.pdf - books
+

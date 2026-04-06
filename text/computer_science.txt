@@ -1372,5 +1372,29 @@ Composite data types: String (a sequence of characters)
 A declaration is a language statement that associates an identifier with a variable, an action, ...
 
     - Input/Output Structures
+Read uses for getting a value from outside the program and sorting it into a variable inside the program.
+Write/Print use for displaying a message for the human to see.
+
+High-level languages view text data as a stream of characters divided into lines.
+cin, cout  / scanf()/printf() / input()/print()
+
+    - Control Structures
+repetition, selection, and subprogram  = determine the order in which other instructions in a program are executed.
+
+We use indention to group statements within the body of an if / while statements in Python.
+We use braces ({}) in Java/C/C++.
+
+    - Nested Logic
+The statements to be executed or skipped in any control statement can be simple statements or blocks.
+
+    - Asynchronous Processing
+Asynchronous processing is also called event-driven processing.
+
+9.5 Functionality of Object-Oriented Languages
+Basic construct in an object-oriented languages is the class.
+The essential ingredients:
+    encapsulation, inheritance, polymorphism.
+
+
 
 
