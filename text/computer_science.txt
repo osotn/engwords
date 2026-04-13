@@ -1395,6 +1395,974 @@ Basic construct in an object-oriented languages is the class.
 The essential ingredients:
     encapsulation, inheritance, polymorphism.
 
+    - encapsulation
+Two important threads of problem solving: information hiding and abstraction.
+    Information hiding is the practice of hiding the details of a module with the goal of controlling access to the details.
+    Abstraction was a model of a complex system that includes only the details essential to the viewer.
+Abstraction is the goal; information hiding is a technique used to achieve the goal.
+
+OOD: Encapsulation is the bundling of data and actions in such a way that the logical properties of the data and actions remain separate from the implementation details. Another way of saying this is that encapsulation is a language feature that enforces information hiding.
+
+The construct used to provide encapsulation is the class.
+Class (implementation phase) is a language construct that is a pattern for an object and provides a mechanism for encapsulating the properties and actions of the object class.
+Object (problem-solving phase) - is an entity or thing that is relevant in the context of a problem.
+
+    - Classes
+Syntactically, a class is like a record in that it is a heterogeneous composite data type.
+Records have traditionally been considered passive structured.
+The class is an active structure and almost always has subprograms as fields.
+
+    public class Person
+        // Variables
+        Name name
+        String telephone
+        String email
+        // Methods
+        Initialize()
+        public Print()
+        public NameGetName()
+            RETURN Name
+        public StringGetEmail()
+            RETURN email
+        public StringGetTelephone()
+            RETURN telephone
+
+We must explicitly ask for the class to be created before we can use it.
+We have to instantiate the class by using the "new" operator to get an object that fits the pattern
+This operator takes the class name and returns an instance of the class.
+
+    Name aName = new Name()
+    aName.Initialize(...)
+    Person aPerson = new Person()
+    aPerson.Initialize(...)
+    aPerson.Print()
+
+The fields in a class are private by default.
+
+    - Inheritance
+It is a property of OO languages in which classes can inherit data and methods from other classes.
+This relationship is an "is-a" relationship.
+A superclass is a class being inherited from; a derived class is a class doing the inheriting.
+Classes form an inheritance hierarchy.
+
+Inheritance fosters reuse by allowing an application to take an already tested class and derive a class from it that inherits the properties the application needs. Other necessary properties and methods can then be added to the derived class.
+
+    - Polymorphism
+The ability of a programming language to handle this apparent ambiguity is called polymorphism.
+How does the language know which method is meant when Print() is invoked by the calling unit.
+
+Polymorphism is the ability of a language to determine at runtime which of several possible methods will be executed for a given invocation.
+The combination of inheritance and polymorphism allows the progremmers to build useful hierarchyes of classes that can be
+reused in different applications.
+
+9.6 Comparison of Procudural and OOD
+
+    public class List
+        // variables
+        values[]
+        length
+        // methods
+        public Boolean IsThere(item)
+            Set position to 0
+            WHILE (position < length AND values[position] != item)
+                Set position to position+1
+            RETURN position < length
+        public Detete(item)
+            // TODO.
+        
+        List list = new list()
+        WHILE (more value)
+            Read aValue
+            IF (NOT list.isThere(aValue))
+                list.insert(aValue)
+
+The Operating Systems Layer
+===========================
+10. Operating Systems
+---------------------
+The OS of a computer is the glue that holds the hardware and software together.
+
+10.1 Roles of OS
+Modern software can be divided into two categories, application software and system software.
+System software manages a computer system at a more fundamental level. It provides the tools and an environment in which applicatin software can be created and run.
+An operation system manages computer resources, such as memory and input output devices, and provides an interface throught which a human can interact with the computer.
+
+Computer hardware is wired to initially load a small set of system instructions that is sorted in permanent memory. These instructions load a larger portion of system software from secondary memory, usually a magnetic disk.
+Key elements of the operation system software are:
+    - loaded,
+    - start-up programs are executed
+    - the user interface is activated
+This activity is often called booting the computer.
+
+    - Memory, Process, and CPU Management
+Multiprogramming is the technique of keeping multiple programs in main memory at the same time.
+
+Process (a program in execution) is the dynamic entity that represents the program while it is being executed.
+A program is a static set of instructions.
+
+CPU scheduling determines which process in memory is executed by the CPU at any given point.
+
+    - Batch Processing
+Together the program and the system instructions were called a job.
+
+The word virtual means "in effect, though not in essence".
+
+Originally, timesharing systems consisted of a single computer, often called the mainframe, and a set of dumb terminals connected to the mainframe. A dumb terminal is essentially just a monitor display and a keyboard.
+
+Each user is represented by a login process that runs on the mainframe. When the user runs a program, another process is created (spawned by the user's login process).
+
+    - Other OS Factors
+Mainframe computers gave rise to minicomputers, and called a personal computer (PC).
+
+10.2 Memory Management
+A program is filled with references to variables and to other parts of the program code.
+When the program is compiled, these references are changed into the addresses in memory where the data and code reside.
+There are two kinds of addresses:
+    - logical addresses;
+    - physical addresses.
+
+A logical address (virtual or relative address) is a value that specifies a generic location relative to the program but not the reality of main memory.
+A physical address is an actual address in the main memory device.
+
+When a program is compiled, a reference to an identifier is changed to a logical address.
+When the program is eventually loaded into memory, each logical address is translated into a specific physical address.
+The mapping of a logical address to a physical address is called address binding.
+
+    - Single Contiguous Memory Management
+We can divide main memory up into two sections, one for each program. If only 2 program: half for 1st and half for 2nd.
+1st program: physical address = logical + 0, 2nd: physical address = logical + shift_value.
+
+Or every process has own Base register address.
+
+    - Paged Memory Management
+Main memory is divided into small fixed-size blocks of storage called frames.
+A process is divided into pages that we assume are the same size a frame.
+To keep track of these pages, the OS maintains a separate pagemap table for each process in memory.
+It maps each page to the frame in which it is loaded.
+
+Address is modified into two values: a page number and an offset.
+For process, logical address 2566 -> (page size = 1024) <2,518>  page 2 => frame 12
+    as result physical address: 12*1024 + 566
+
+The act of bringing in a page from secondary memory, which often causes another page to be written back to secondary memory, is called a page swap.
+
+10.3 Process Management
+    - the process states
+New: is being created.
+Ready: has no barrier to its execution. It is waiting for its chance to use the CPU.
+Running: is being executed by the CPU.
+Waiting: is waiting for resources
+Terminated: has completed and is no longer active.
+
+While running, the process might be interrupted by the OS to allow another process to have its chance.
+
+PCB (Process control block) for each process.
+PCB stores a variety of information about the process, including the current value of the program counter, which indicates the instruction in the process that is to be executed next. PCB also stored the values of all other CPU registers for that process. This exchange of information is called a context switch.
+
+10.4 CPU Scheduling
+CPU scheduling is the act of determining which process is the ready state should be moved to the running state.
+
+Non preemptive if decisions are made when a process switches from the running state to the waiting state.
+
+Scheduling algorithms are often evaluated using metrics, such as the turnaround time for a process.
+
+11. File Systems and Directories
+--------------------------------
+11.1 File Systems
+Main memory is where active programs and data are held while in use.
+Main memory is volatile, meaning that the data stored on it is lost if electric power is turned off.
+Secondary memory is nonvolatile - the data stored on it is maintained even when power is not on.
+
+A file is named collection of related data.
+A file system is the logical view that an OS provides so that users can manage data as a collection of files.
+A file system is often organized by grouping files into directories.
+
+    - Text and Binary Files
+Text files - ASCII or Unicode character sets.
+Binary requires a specific interpretation of the bits based on the data in the file.
+
+A program written in a high-level language is stored as a text file, which is sometimes referred to as a source file.
+
+    - File Types
+The kind of information contained in a document is called the file type.
+The extension indicates the type of the file:   .java   .jpg
+
+    - File Operations
+    ■ Create a file
+    ■ Delete a file
+    ■ Open a file
+    ■ Close a file
+    ■ Read data from a file
+    ■ Write data to a file
+    ■ Reposition the current file pointer in a file
+    ■ Append data to the end of a file
+    ■ Truncate a file (delete its contents)
+    ■ Rename a file
+    ■ Copy a file
+
+Most OS require that a file be opened before read/write operations are performed on it.
+The OS maintains a small table of all currently open files to avoid having to search for the file in the large file system every time a subsequent operation is performed.
+
+At any point in time, an open file has a current file pointer (an address) indicating the place where the next read or write operation should occur.
+
+    - File Access
+Two primary access techniques: sequential access, direct access.
+
+    - File Protection
+UNIX: three categories: Owner, Group, and World and Rad/Write/Execute.
+
+11.2 Directories
+A directory is a named collection of files.
+A directory, in most OS, is represented by a file.
+
+    - Directory Trees
+The directory containing: parent directory, subdirectories.
+UNIX: / = root
+
+    - Path Names
+
+    - cd        change directory
+
+A path may be absolute (begins at the root) or relative.
+
+    - ..        parent directory
+    - .         current working directory
 
 
+    PATH directory for searching files.
+
+11.3 Disk Scheduling
+A magnetic disk drive is organized as a stack of platters, where each platter is divided into tracks, and each is divided into sectors.
+
+Seek time is the amount of time it takes for the heads to reach the appropriate cylinder.
+
+The Applications Layer
+======================
+
+12 Information Systems
+----------------------
+12.1 Managing Information
+Data is raw facts, Information is data that has been organized to help us answer questions and solve problems.
+An Information system can be generally defined as software that helps us organize and analyse data.
+
+Three of the most popular general application information systems:
+    - electronic spreadsheets
+    - database management systems
+    - e-commerce
+
+Entire books have been written about spreadsheets and how they are set up and used.
+The same can be said for database management systems.
+
+12.2 Spreadsheets
+A spreadsheet is a software application that allows the user to organize and analyze data using a grid of labeled cells.
+A cell can contain data or a formula that is used to calculate a value.
+Data stored in a cell can be text, numbers, or special data such as dates.
+
+    - Spreadsheet Formulas
+Formulas is begin with an equl sign (=).
+
+    COUNT()     - number of nonblank cells in the specified range.
+
+    - Spreadsheet Analysis
+
+12.3 Database Management Systems
+A database can simply be defined as a structured set of data.
+A database management system (DBMS) is a combination of software and data made up of three components:
+    - physical database - a collection of files that contain the data
+    - database engine - software that supports access to and modification of the database contents
+    - database schema - a specification of the logical structure of the data stored in the database
+
+The database engine software interacts with specialized database languages that allow the user to specify the structure of data; add, modify, and delete data; and query the database to retrieve specific stored data.
+
+The database schema provides the logical view of the data in the database, independent of how it is physically stored.
+
+    - The Relational Model
+One that has dominated for many years is the relational model.
+In a relational DBMS, the data items and the relationships among them are organized into tables.
+A table is a collection of records.
+Each field of a database table contains a single data value.
+A record in a database table is also called a database object or an entity.
+The fields of a record are sometimes called the attributes of a data object.
+
+For example, a movie: key (movieId), Title, Genre, Rating
+
+    Movie (ModeId:key, Title, Genre, Rating)
+
+    - Relationships
+For example, rents is relationship between a customer and a movie, we can represent it as a record.
+
+    Rents( CustomerId, MoveId, DateRented, DataDue)
+
+    - Structured Query Language
+SQL is a comprehensive database language for managing relational databases.
+It includes statements that specify database schemas as well as statements that:
+    - add, modify, delete database content.
+
+The original version of SQL was Sequal (delevoped by IBM).
+SQL is ANSI.
+
+SQL is not case sensitive.
+Queries - the select statement is the primary tool for this purpose.
+Select statement includes a select clause, from clause, and where clause:
+
+    select attribute-list from table-list where condition
+
+    select Title from Movie where Rating = 'PG'
+The result of this query is a list of all titles from the Movie table.
+    * - all attributes
+
+    select * from Movie where Genre like ‘%action%’   # with words "action"
+
+    like - operator is SQL performs some simple pattern matching on strings, and the % symbol matches any string.
+
+    select * from Movie where Rating = ‘R’ order by Title # how result should be sorted.
+
+    - Modifying Database Content
+SQL's insert, update, and delete statements allow the data in a table to be changed.
+
+    insert into Customer value (9876, 'John Smith', '....', ... )
+
+    - Database Design
+Entity-relationship (ER) modeling A popular technique for designing relational databases
+ER diagram A graphical representation of an ER model
+
+12.4 E-Commerce
+Deal with purchases made through the Web.
+It includes all aspects of:
+    - The marketing;
+    - sales
+    - buying
+
+13. Artificial Intelligence
+---------------------------
+The subdiscipline of computing called AI = artificial intelligence is important in many ways.
+
+13.1 Thinking Machines
+
+The field of artificial intelligence (AI) is the study of computer systems that attempt to model and apply the intelligence of the human mind.
+
+    - The Turing Test
+Can machines think? After carefully defining terms such as intelligence and
+thinking, he ultimately concluded that we would eventually be able to create a computer that thinks.
+How will we know when we’ve succeeded?
+
+His answer to that question came to be called the Turing test, which is used to
+empirically determine whether a computer has achieved intelligence. The test is based on
+whether a computer could fool a human into believing that the computer is another
+human.
+
+Weak equivalence The equality of two systems based on their results
+Strong equivalence The equality of two systems based on their results and the process by which they arrive at those
+results
+
+Various programs, often referred to as chatbots, have been developed to perform this
+kind of conversational interaction between a computer and a person.
+
+    - Aspects of AI
+
+The field of artificial intelligence has many branches.
+
+    ■ Knowledge representation — the techniques used to represent knowledge so that a
+      computer system can apply it to intelligent problem solving
+    ■ Expert systems — computer systems that embody the knowledge of human experts
+    ■ Neural networks — computer systems that mimic the processing of the human brain
+    ■ Natural language processing — the challenge of processing languages that humans
+      use to communicate
+    ■ Robotics — the study of robots
+
+13.2 Knowledge Representation
+The knowledge we need to represent an object or event varies based on the situation.
+Depending on the problem we are trying to solve, we need specific information.
+
+There are many ways to represent knowledge.
+For example, we could describe it in natural language.
+
+We want to create a logic view of the data, independent of its actual underlying implementation, so that it can be processed in specific ways. We want to capture not only facts, but also relationships.
+Techniques for representing knowledge: semantic networks and search trees.
+
+    - Semantic Networks
+It is a knowledge representation technique the focuses on the relationship between objects.
+A directed graph is used to represent a semantic network or net.
+The nodes of the graph represent objects, and the arrows between nodes represent
+relationships. The arrows are labeled to indicate the types of relationships that exist.
+
+OO concepts: inheritance and instantiation.
+
+Inheritance:        is-a
+Intantiation:       instance-of (like)
+                    lives-in
+                    has-a
+
+A semantic network is a powerful, versatile way to represent a lot of information.
+The challenge is to model the right relationships and to populate (fill in) the network with accurate and complete data.
+
+    - Search Trees
+Trees play an important role in artificial intelligence.
+
+Search tree is a structure that represents alternatives in adversarial situations, such as game playing
+
+The concepts of search tree analysis can be applied nicely to other, more complicated
+games such as chess.
+
+13.3 Expert Systems
+
+Knowledge based system is software that uses a specific set of information
+Expert system is a software system based on the knowledge of human experts
+
+13.4 Neural Networks
+Some artificial intelligence researchers focus on how the human brain
+actually works and try to construct computing devices that work in similar ways.
+
+    - Biological Neural Networks
+A neuron is a single cell that conducts a chemically based electronic signal. The human brain contains billions of neurons connected into a network.
+At any point in time a neuron is in either an excited state or an inhibited state.
+An excited neuron conducts a strong signal; an inhibited neuron conducts a weak signal.
+
+A series of connected neurons forms a pathway.
+
+A biological neuron has multiple input tentacles called dendrites and one primary output tentacle called an axon.
+The dendrites of one neuron pick up the signals from the axons of other neurons to form the neural network.
+The gap between an axon and a dendrite is called a synapse.
+
+The output of a neuron on its axon is a function of all of its input signals.
+
+Neurons fire, or pulsate, up to 1000 times per second, so the pathways along the neural nets are in a constant state of flux. The activity of our brain causes some pathways to strengthen and others to weaken. As we learn new things, new strong neural pathways form in our brain.
+
+    - Artificial Neural Networks
+Each processing element in an artificial neural network is analogous to a biological neuron.
+An element accepts a certain number of input values and produces a single output value of either 0 or 1.
+
+Associated with each input value is a numeric weight.
+The effective weight of the element is defined as the sum of the weights multiplied by their respective input values.
+
+Suppose an artificial neuron accepts three input values: v1, v2, and v3. Associated with
+each input value is a weight: w1, w2, and w3.
+The effective weight is therefore   v1 * w1 + v2 * w2 + v3 * w3
+
+Each element has a numeric threshold value.
+The element compares the effective weight
+to this threshold value. If the effective weight exceeds the threshold, the unit produces an
+output value of 1. If it does not exceed the threshold, it produces an output value of 0.
+
+The process of adjusting the weights and threshold values in a neural net is called
+training. A neural net can be trained to produce whatever results are required. Initially, a
+neural net may be set up with random weights, threshold values, and initial inputs. The
+results are compared to the desired results and changes are made. This process continues
+until the desired results are achieved.
+
+13.5 Natural Language Processing
+
+Three basic types of processing occur during human/computer voice interaction:
+    ■ Voice recognition—recognizing human words
+    ■ Natural language comprehension—interpreting human communication
+    ■ Voice synthesis—recreating human speech
+
+    - Voice Synthesis
+There are two basic approaches to the solution:
+    - dynamic voice generation
+    - recorded speech.
+
+Human speech has been categorized into specific sound units called phonemes.
+Phonemes are the set of fundamental sounds made in any given natural language.
+
+After selecting the appropriate phonemes, the computer may modify the pitch of the
+phoneme based on the context in which it is used. The duration of each phoneme must
+also be determined. Finally, the phonemes are combined to form individual words. The
+sounds themselves are produced electronically, designed to mimic the way a human vocal
+track produces the sounds.
+
+The other approach to voice synthesis is to play digital recordings of a human voice
+saying specific words. Sentences are constructed by playing the appropriate words in the
+appropriate order. Sometimes common phrases or groups of words that are always used
+together are recorded as one entity.
+
+The dynamic voice-generation technique does not generally produce realistic human
+speech, but rather attempts to vocalize any words presented to it. Recorded playback is
+more realistic; it uses a real human voice but is limited in its vocabulary to the words that
+have been prerecorded, and it must have the memory capacity to store all the needed words.
+Generally, recorded playback is used when the number of words used is small.
+
+    - Voice Recognition
+
+Success is obtained when voice-recognition systems are “trained” to recognize a
+particular human’s voice and a set of vocabulary words. A spoken voice can be recorded as a
+voiceprint, which plots the frequency changes of the sound produced by the voice when
+speaking a specific word. A human trains a voice-recognition system by speaking a word
+several times so that the computer can record an average voiceprint for that word by that
+person. Later, when a word is spoken, the recorded voiceprints can be compared to
+determine which word was spoken.
+
+    - Natural Language Comprehension
+Even if a computer recognizes the words that are spoken, it is another task entirely to
+understand the meaning of those words. This is the most challenging aspect of natural
+language processing. Natural language is inherently ambiguous, meaning that the same
+syntactic structure could have multiple valid interpretations. These ambiguities can arise for
+several reasons.
+
+Lexical ambiguity is the ambiguity created when words have multiple meanings.
+Syntactic ambiguity is the ambiguity created when sentences can be constructed in various ways.
+Referential ambiguity is the ambiguity created when pronouns could be applied to multiple objects.
+
+13.6 Robotics
+Robotics — the study of robots—breaks down into two main categories:
+    - fixed robots
+    - mobile robots.
+
+Fixed robots are what you see on assembly lines.
+The machines stay put and the products move. Because the world of a fixed robot is circumscribed,
+its tasks can be built into the hardware. Thus fixed robots belong mostly in
+the area of industrial engineering.
+
+Mobile robots, by contrast, move about and must interact with their environment.
+Modeling the world of the mobile robot requires the techniques of artificial intelligence.
+
+    - The sense - plan - act Paradigm
+
+A robot is made up of sensors, actuators, and computational elements (a microprocessor).
+
+14. Simulation, Graphics, Gaming, and Other Applications
+--------------------------------------------------------
+14.1 What is Simulation ?
+The technique of using a model to represent phenomena, objects, or situations is called simulation.
+
+14.1 What is simulation?
+A simulation is a powerful tool used to study complex systems.
+Simulation is the development of a model of a complex system and the experimental manipulation of the model to observe the results.
+Models may be purely physical, such as a wind tunnel; a combination of physical objects under software control, such as a spaceship or flight simulator; or logical, as represented in a computer program.
+
+    - Complex Systems
+System is one of those words that we all intuitively understand but have difficulty defining.
+The objects can be animate or inanimate.
+
+    - Models
+Model is another of those words that we all understand but might have a difficult time defining.
+
+There are two dictionary definitions that relate to the use of the word in
+simulation: an analogy used to help visualize something that cannot be directly observed;
+and a set of postulates, data, and inferences presented as a mathematical description of an
+entity or state of affairs.
+
+For our purposes, a model is an abstraction of a real system. It is a representation of the
+objects within the system and the rules that govern the interactions of those objects.
+
+14.3 Computer Graphics
+Computer graphics can be very generally described as the setting of pixel values on the
+computer screen.
+
+Computer graphics plays a role in many aspects of computer science. The most
+common application is in the graphical user interface (GUI) of modern operating systems.
+Files and folders are represented as icons on the screen, with the icon indicating the file
+type. Interacting with the computer involves pointing, clicking, and dragging, which
+change the appearance of the screen. Computer graphics determines how to set the pixel
+colors to display the icons and how to change the pixel values as an icon is dragged across
+the screen.
+
+Computer-aided design (CAD) systems let engineers create the specification of new
+components using geometric modeling techniques
+
+    - Simulating Light
+
+The simulation of light interacting at one point on an object is called an illumination model,
+while the process of using an illumination model to determine the appearance of an entire
+object is called a shading model or just shading. The process of creating an entire image is
+called rendering.
+
+14.4 Gaming
+Computer gaming is a computer simulation of a virtual world that draws players into the
+world as participants. Although computer games can be used as teaching tools, their
+primary function is to entertain.
+
+A virtual world, which is also known as a digital or simulated world, is an interactive,
+computer-generated environment.
+
+The Communications Layer
+========================
+15 Networks
+-----------
+15.1 Networking
+A computer network is a collection of computing devices that are connected in various
+ways to communicate and share resources.
+
+We use networks to share both intangible resources, such as files, and tangible resources, such as printers.
+
+Usually, the connections between computers in a network are made using physical
+wires or cables. However, some connections are wireless, using radio waves or infrared
+signals to convey data. Networks are not defined only by physical connections; they are
+defined by the ability to communicate.
+
+Node (host) is any addressable device attached to a network.
+
+A key issue related to computer networks is the data transfer rate (bandwidth), the speed with which
+data is moved from one place on a network to another.
+
+Another key issue in computer networks is the protocols they use. As we’ve mentioned
+at other points in this book, a protocol is a set of rules describing how two things interact.
+In networking, we use well-defined protocols to describe how transferred data is formatted
+and processed.
+
+Computer networks have opened up an entire frontier in the world of computing called
+the client/server model. No longer do you have to think of computers solely in terms of
+the capabilities of the machine sitting in front of you. Instead, software systems are often
+distributed across a network, in which a client sends a request to a server for information or
+action, and the server responds
+
+The client/server model has also grown beyond the basic request/response approach.
+Increasingly, it is being used to support parallel processing, in which multiple computers
+are used to solve a problem by breaking it into pieces
+
+Another approach for computer interaction across networks is the P2P model, or peer-to-peer model.
+Instead of having a central server from which clients obtain information, a
+peer-to-peer network is decentralized, with nodes that share both resources and the
+responsibility for making these resources available to other peers. Depending on the
+request, a peer may act as a client or a server.
+
+    - Types of Networks
+Computer networks can be classified in various ways.
+LANs (Local area network) are usually confined to a single room or building.
+
+Various configurations, called topologies, have been used to administer LANs.
+
+Ring topology is a LAN configuration in which all nodes are connected in a closed loop
+Star topology is a LAN configuration in which a central node controls all message traffic
+Bus topology is a LAN configuration in which all nodes share a common line
+Ethernet is the industry standard for local-area networks, based on a bus topology
+
+WAN (wide area network) connects two or more local area networks over a potentially large geographic distance.
+Often one particular node on a LAN is set up to serve as a gateway to handle all communication going between that LAN and other networks.
+
+Communication between networks is called internetworking.
+The Internet, as we know it today, is essentially the ultimate wide-area network, spanning the entire globe.
+Internet is a vast collection of smaller networks that have all agreed to communicate using
+the same protocols and to pass along messages so that they can reach their final destination.
+
+    - Wireless and Mobile Computing
+WAP = wireless access point
+
+    - Packet Switching
+To improve the efficiency of transferring data over a shared communication line, messages
+are divided into fixed - size, numbered packets. These packets are sent over the network
+individually to their destination, where they are collected and reassembled into the original
+message. This approach is referred to as packet switching.
+
+A packet may make several intermediate hops between computers on various networks
+before it reaches its final destination. Network devices called routers direct the packets as
+they move between networks. Intermediate routers don’t plan out the packet’s entire
+course; each router merely knows the best next step to get it closer to its destination.
+Eventually a message reaches a router that knows where the destination machine is. If a
+path is blocked due to a down machine, or if a path currently has a lot of network traffic, a
+router might send a packet along an alternative route.
+
+15.2 Open Systems and Protocols
+
+Early in the development of computer networks, commercial vendors came out with a
+variety of technologies that they hoped businesses would adopt. The trouble was that these
+proprietary systems were developed with their own particular nuances and did not permit
+communication between networks of differing types. As network technologies grew, the
+need for interoperability became clear; we needed a way for computing systems made by
+different vendors to communicate.
+
+An open system is one based on a common model of network architecture and a suite
+of protocols used in its implementation. Open - system architectures maximize the
+opportunity for interoperability.
+
+The International Organization for Standardization (ISO) established the Open
+Systems Interconnection (OSI) Reference Model to facilitate the development of network
+technologies. It defines a series of layers of network interaction.
+
+    Layers:
+    7. Application
+    6. Presentation
+    5. Session
+    4. Transport
+    3. Network
+    2. Data Link
+    1. Physical
+
+
+    - TCP/IP
+TCP = Transmission Control Protocol
+
+IP software deals with the routing of packets through the maze of interconnected
+networks to their final destination. TCP software breaks messages into packets, hands them
+off to the IP software for delivery, and then orders and reassembles the packets at their
+destination. TCP software also deals with any errors that occur, such as if a packet never
+arrives at the destination.
+
+UDP = User Datagram Protocol
+
+    - High Level Protocols
+SMTP = simple mail transfer protocol
+FTP
+Telnet
+SSH
+HTTP
+
+Several high-level protocols have been assigned a particular port number. A port is a
+numeric designation that corresponds to a particular high-level protocol. Servers and
+routers use the port number to help control and process network traffic.
+
+    - Firewalls
+A firewall is a machine and its software that serve as a special gateway to a network,
+protecting it from inappropriate access. A firewall filters the network traffic that comes in,
+checking the validity of the messages as much as possible and perhaps denying some
+messages altogether. The main goal of a firewall is to protect (and, to some extent, hide) a
+set of more loosely administered machines that reside “behind” it.
+
+A firewall enforces an organization’s access control policy.
+
+A firewall is a low-level network communication mechanism. There are many other
+issues related to the security of information that every user should know as well.
+
+15.3 Network Addresses
+
+When you communicate across a computer network, you ultimately communicate with one
+particular computer out of all possible computers in the world. There is a fairly
+sophisticated mechanism for identifying specific machines to establish that communication.
+A hostname is a unique identification that specifies a particular computer on the
+Internet. Hostnames are generally readable words separated by dots.
+
+We humans prefer to use hostnames when dealing with email addresses and websites
+because they are easy to use and remember. Behind the scenes, however, network software
+translates a hostname into its corresponding IP address, which is easier for a computer to
+use. An IP address can be represented as a series of four decimal numbers separated by dots.
+
+205.39.155.18
+
+IPv6 is the successor to IPv4. Instead of using 32 bits, organized in four groups of
+eight, IPv6 addresses use 128 bits, organized in eight groups of 16. An IPv6 address is
+usually written using hexadecimal digits to keep the length manageable. For example:
+527FE80:0000:0000:0000:0202:B3FF:FE1E:8329
+
+    - DNS
+Domain Name System
+
+matisse.csc.villanova.edu => matisse is the name of a particular computer, and csc.villanova.edu is the domain name.
+
+The domain name system (DNS) is chiefly used to translate hostnames into numeric
+IP addresses. Before the DNS system was established, a Stanford research group maintained
+a single file known as the host table.
+
+15.4 Cloud Computing
+
+Cloud computing is a service through which you can obtain storage space, automatic synchronization of devices, and access to other resources on the Internet.
+
+Cloud computing takes that concept to a larger scale. You can store not just email but
+also documents, images, videos, etc. on network servers instead of a local machine. Again,
+that way you’ll have access to these files wherever you are.
+Cloud services usually provide other benefits as well. A cloud service typically makes
+backups of your data, relieving you of that responsibility. Some provide web hosting
+capabilities as part of their service. Some support synchronization services that keep things
+like browser bookmarks in sync on multiple devices automatically.
+
+Some cloud services are free, and services that charge a fee vary in cost significantly. If
+you’re interested in cloud computing, research your options carefully.
+
+16 The World Wide Web
+---------------------
+16.1 Spinning the Web
+
+Many people use the words Internet and Web interchangeably, but in reality they are
+fundamentally different.
+
+The World Wide Web (or simply the Web) is a relatively
+new idea. The Web is an infrastructure of distributed information combined with software
+that uses networks as a vehicle to exchange that information. A web page is a document
+that contains or references various kinds of data, such as text, images, graphics, and
+programs. Web pages also contain links to other web pages so that the user can “move
+around” as desired using the point-and-click interface provided by a computer mouse. A
+website is a collection of related web pages, usually designed and controlled by the same
+person or company.
+
+The Internet makes the communication possible, but the Web makes that
+communication easy, more productive, and more enjoyable.
+
+We communicate on the Web using a web browser, such as Firefox or Microsoft’s
+Internet Explorer. A web browser is a software tool that issues the request for the web page
+we want and displays it when it arrives.
+
+The requested web page is usually stored on another computer, which may be down the
+hall or halfway around the world. The computer that is set up to respond to web requests is
+called a web server.
+
+In a browser, we specify the web page we want by using a web address such as
+    www.villanova.edu/academics.html
+A web address is the core part of a Uniform Resource Locator (URL), which uniquely
+identifies the page you want out of all of the pages stored anywhere in the world. Note that
+part of a URL is the hostname of the computer on which the information is stored.
+
+In addition to text, a web page often consists of separate elements such as images.
+All elements associated with a particular web page are brought over when a request for that web page is made.
+
+    - Search Engines
+A web search engine is a site that helps you find other websites.
+A search engine produces its list of candidate sites by searching a database containing information about millions of websites. A good search engine keeps its database up to date and has effective techniques for matching the keywords to the content of a web page.
+
+Most search engines compare the keywords entered by the search engine user to a set of
+keywords that have been indexed about each website.
+
+Some search engines perform concept-based searches, which attempt to figure out the
+context of your search.
+
+    - Instant Messaging
+IM technology allows users to send short messages in real time.
+
+    - Weblogs
+Weblogs or blog for short, is a mechanism for publishing periodic articles on a website.
+
+    - Cookies
+Cookies are another web-based technology that has advanced the abilities and usefulness of
+the Web to its users. A cookie is a small text file that a web server stores on your local
+computer’s hard disk. A website may store a cookie on a user’s machine to capture key
+information about previous interactions that occurred between that machine and that
+website.
+
+Websites use cookies in many different ways. Some websites use cookies to accurately
+546determine how many unique visitors come to their site. Others store user preferences so
+that the website interaction is customized for that user. Cookies are also used to implement
+shopping carts that can be maintained from visit to visit.
+
+    - Web Analytics
+The word analytics refers to the discovery of patterns within data, which can be used to
+identify trends and help businesses make decisions. Web analytics is the collection and
+analysis of data regarding website usage. A person or organization running a website will
+often use a web analytics application to track the number and behavior of users coming to
+their site.
+
+Google Analytics, for example, is a web analytics application that anyone can use to
+analyze the web traffic to a site.
+
+16.2 HTML and CSS
+A webpage is created using a language called Hypertext Markup Language (HTML). The
+term hypertext refers to the fact that the information is not organized linearly like a book.
+Instead, you can embed links to other information and jump from one page to another as
+needed. A more accurate term would be hypermedia, because HTML handles many types of
+information in addition to text, including images, audio, and video.
+
+The term markup language refers to the fact that the primary elements of the language
+take the form of tags that you insert into a document to annotate the information stored
+there.
+
+HTML documents are regular text and can be created in any general-purpose editor or
+word processor. Special software tools are also available to help designers create web pages,
+but these tools ultimately generate HTML documents. When a web page is requested,
+HTML documents are transported over the Web.
+The current version of the HTML standard, HTML5, was released in 2011. The
+discussion in this section applies to HTML5. All of the major browsers support the
+HTML5 standard. If you’re doing web development, be sure you’re focusing on HTML5.
+
+HTML works in conjunction with another technology: Cascading Style Sheets (CSS).
+In general, HTML tags indicate what the information is (such as a paragraph, an image, or
+a list), and the style information defined by CSS indicates how you want that information
+to be displayed (such as centered text, a border around an image, or a background color).
+Since it’s of little use to discuss HTML without CSS, or vice versa, we’ll explore both
+technologies at the same time.
+
+Tags are enclosed in angle brackets (<… >). Words such as head, title, and body
+are called elements and specify the type of tag. Elements often consist of a start tag such as
+<body> and a corresponding end tag with a / before the element name, such as
+</body>.
+Every HTML file contains two main sections: the head of the document and the body
+of the document. The head contains information about the document itself, such as its
+title. The body of the document contains the information to be displayed.
+
+    - Basic HTML Elements
+    - Tag Attributes
+Many tags can contain attributes that indicate additional details about the information or
+describe how the enclosed information should be displayed. Attributes take the following
+form:
+    attribute-name = value, e.g., style=”text-align:center”
+
+An image can be incorporated into a web page using the img element, which takes an
+attribute that identifies the image file to display. The attribute name is src, meaning the
+source of the image. There is no separate closing tag for the img element, so the / is used
+at the end. For example,
+<img src=”myPicture.gif” />
+
+links are specified using the element a, which stands for anchor. An anchor tag
+contains an attribute called href that specifies the destination URL. For example,
+<a href=”http://google.com/”>Google It!</a>
+
+    - More HTML5 Elements
+is its support of dynamic content — content that changes even if the user is not interacting with the page.
+
+16.3 Interactive Web Pages
+When HTML was first developed, it was amazing in its ability to format network-based
+text and images in interesting ways. However, that information was static—there was no
+way to interact with the information and pictures presented in a web page.
+
+Many of the new ideas are offshoots of the Java programming
+language, which is able to exploit the Web because of its platform independence. Let’s look
+briefly at two of these technologies: Java applets and Java Server Pages.
+
+    - Java Applets
+A Java applet is a program that is designed to be embedded into an HTML document and
+transferred over the Web to someone who wants to run the program. An applet is actually
+executed in the browser used to view the web page.
+
+    <applet code="MyApplet.class" width=250 height=160> </applet>
+
+When a web user references the page containing this tag, the applet program
+MyApplet.class is sent along with any text, images, and other data that the page
+contains. The browser knows how to handle each type of data—it formats text
+appropriately and displays images as needed. In the case of an applet, the browser has a
+built-in interpreter that executes the applet, allowing the user to interact with it. Thousands
+of Java applets are available on the Web, and most browsers are set up to execute them.
+
+Java programs are compiled into Bytecode, a low-level representation of a program that is not
+the machine code for any particular type of CPU. This Bytecode can be executed by any
+valid Bytecode interpreter, no matter which type of machine it is running on.
+
+The Java language has a carefully constructed security
+model. An applet, for instance, cannot access any local files or change any system settings.
+
+    - Java Server Pages
+JSP is a web page that has JSP scriptlets embedded in it. A scriptlet is
+a small piece of executable code intertwined among regular HTML content. While not
+exactly the same as Java, JSP code resembles the general Java programming language.
+
+A JSP scriptlet is encased in special tags beginning with <% and ending with %>.
+Special objects have been predefined to facilitate some processing.
+
+But imagine JSP scriptlets as having the expressive power of a full programming
+language (which they do). We can make use of almost all aspects of a regular Java program,
+such as variables, conditionals, loops, and objects. With that kind of processing power, a
+JSP page can make significant decisions resulting in truly dynamic results.
+JSPs are executed on the server side, where the web page resides. They help dynamically
+define the content of a web page before it is shipped to the user. By the time it arrives at
+your computer, all active processing has taken place, producing a static (though
+dynamically created) web page.
+
+16.4 XML
+HTML is fixed; that is, HTML has a predefined set of tags and each tag has its own
+semantics (meaning). HTML specifies how the information in a web page should be
+formatted, but it doesn't really indicate what the information represents. For example,
+HTML may indicate that a piece of text should be formatted as a heading, but it doesn't
+specify what that heading describes. In fact, nothing about HTML tags describes the true
+content of a document. The Extensible Markup Language (XML) allows the creator of a
+document to describe its contents by defining his or her own set of tags.
+
+XML is a metalanguage. Metalanguage is the word language plus the prefix meta, which
+means “beyond” or “more comprehensive.” A metalanguage goes beyond a normal
+language by allowing us to speak precisely about that language. It is a language for talking
+about, or defining, other languages. It is like an English grammar book describing the rules
+of English.
+
+Keep in mind that XML is a markup specification language, whereas XML files are data.
+The files just sit there until you run a program that displays them (like a browser), does
+some work with them (like a converter that writes the data in another format or a database
+that reads the data), or modifies them (like an editor). XML and its related technologies
+provide a powerful mechanism for information management and for communicating that
+information over the Web in a versatile and efficient manner. As these technologies evolve,
+new opportunities to capitalize on them will surely emerge.
+
+16.5 Social Networks
+
+Have you ever heard the expression “six degrees of separation”? The small world
+phenomenon is the hypothesis that the chain of social acquaintances necessary to connect
+any two arbitrary people is generally short.
+
+
+17. Computer Security
+---------------------
+17.1 Security at All Levels
 

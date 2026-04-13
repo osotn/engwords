@@ -62,8 +62,21 @@ https://catalog.mit.edu/degree-charts/electrical-engineering-computing-6-5/
 6.1800      Computer Systems Engineering
             books: 6.1800_Principles of Computer System Design An Introduction Part II (MIT 6.004).pdf
 
+6.2000      Electrical Circuits: Modeling and Design of Physical => Physics II (GIR)
+            books: 6.2000_Agarwal and Lang (2005) Foundations of Analog and Digital.pdf
+
+
 18.01       Calculus I: Single Variable Calculus
             video: https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.1x+2T2019/course/
+
+
+8.01        Physics I           (Classical Mechanics)
+8.02        Physics II          (Electricity and Magnetism)
+8.03        Physics III         (Vibrations and Waves)
+8.04        Quantum Physics I
+8.05        Quantum Physics II
+8.06        Quantum Physics II
+
 
 
 !!! https://github.com/lighthousand/books/blob/master/the-pragmatic-programmer.pdf - books

@@ -1,0 +1,1319 @@
+Books: 6.1000 Introduction to Computation and Programming Using Python.pdf
+
+The book is aimed at students with little or no prior programming experience who have a desire to understand computational approaches to problem solving.
+For some of the students the material in this book will be a stepping stone to more advanced computer science courses. But for many of the students it will be their only formal exposure to computer science. For the seconds, we emphasize breadth rather than depth. The goal is to provide students with a brief introduction to many topics.
+
+Programming is an intrinsically difficult activity.
+
+1. Getting Started
+==================
+A computer does two things, and two things only:
+    - it performs calculations,
+    - it remembers the results of those calculations.
+But a billion instructions per second, hundreds of gigabytes of storage.
+
+For most of human history, computation was limited by the speed of calculation of the human brain and the ability to record computational results with the human hand.
+
+All knowledge can be thought of as either declarative or imperative.
+Declarative knowledge is composed of statements of fact: x = y*2. It doesn't tell us anything about how to find a square root.
+Imperative knowledge is "how to" knowledge, or recipes for deducing information. => Algorithm.
+
+A programming languages is said to be Turing complete if it can be used to simulate a universal Turing Machine.
+All modern programming languages are Turing complete. As a consequence, anything that can be programmed in one programming language can be programmed in any other programming language. Of course, some things may be easier to program in a particular language, but all language are fundamentally equal with respect to computational power.
+
+
+2. Introduction to Python
+=========================
+Languages:
+    - Low-Level vs. High-Level
+    - General vs targeted to an application domain.
+    - Interpreted vs. compiled.
+
+Python:
+    - general-purpose
+
+    bad for:
+        - high reliability constraints (weak static semantic checking)
+    
+    good for:
+        - easy to learn
+        - designed to be interpreted
+        - popular (a large number of freely available libraries).
+
+2.1 The basic elements of python
+A Python program sometimes called a script, is a sequence of definitions and commands.
+These definitions are evaluated and the commands are executed by the Python interpreter in something called the shell.
+
+A command, often called a statement, instructs the interpreter to do something.
+Objects are the core things that Python programs manipulate.
+Every object has a type that defines the kinds of things that programs can do with that object.
+Types are either scalar or non-scalar.
+Many types of objects can be denoted by literals.
+
+Python has four types of scalar objects:
+    - int   (integers)
+    - float (real numbers)
+    - bool  (Boolean) - True or False
+    - None
+
+Objects and operators can be combined to form expressions.
+
+The built-in Python function type can be used to find out the type of an object.
+type(3)
+
+Operators:
+    +       sum
+    -       minus
+    *       product
+    //      integer division
+    /       division
+    %       remainder
+    **      power 
+    
+    ==      equal
+    !=      not equal
+    >       greater
+    >=      at least
+    <       less
+    <=      at most
+
+The arithmetic operators have the usual precendence. * more than +
+
+    and     boolean AND
+    or      boolean OR
+    not     boolean NOT
+
+    =       assignment
+
+Variables provide a way to associate name with objects.
+It first binds the name pi and radius to different objects of type int.
+
+In Python, a variable is just a name, nothing more.
+An assignment statement associate the mane to the left of the = symbol with the object denoted by the expression to the right of the =.
+An object can have one, more than one, or no name associated with it.
+
+The reserved words
+in Python 3 are and, as, assert, break, class, continue, def, del, elif, else, except,
+False, finally, for, from, global, if, import, in, is, lambda, nonlocal, None, not, or,
+pass, raise, return, True, try, while, with, and yield.
+
+# comment
+
+Multiple assignment:
+    x, y = 2, 3
+
+2.2 Branching Programs
+
+Branching: such as conditional.
+
+    if Boolean expression:
+        block of code
+    [elif Boolean expression:
+        block of code]
+    [else:
+        block of code]
+
+Indentation is semantically meaningful in Python. It uses as group block. Nested.
+
+2.3 String and Input
+
+For string operator+ is overloaded.
+    +   concatenation
+    *   repetition
+
+    len()        - length
+    [x]          - indexing from 0, -x = length-x
+    [s:e]        - slicing [s,e) [:] = [0,lenght-1]
+
+    input()     => str
+    int()        - type conversions or type casts
+
+Loop
+    while Boolean expression:
+        block code
+
+    break statement
+
+3. Some simple Numerical programs
+=================================
+
+x = int(input('Enter an integer: '))
+ans = 0
+while ans**3 < abs(x):
+    ans = ans + 1
+if ans**3 != abs(x):
+    print(x, 'is not a perfect cube')
+else:
+    if x < 0:
+        ans = -ans
+        print('Cube root of', x,'is', ans)
+
+3.2 For Loops
+
+    for  variable in sequence:
+        code block
+
+built-in fucntion  range(start, end, step)
+
+"in" operator: for char:    c in 'hello"
+
+3.3 Approximate Solutions and Bisection Search
+
+x = 25
+epsilon = 0.01
+step = epsilon**2
+numGuesses = 0
+ans = 0.0
+while abs(ans**2 - x) >= epsilon and ans <= x:
+    ans += step
+    numGuesses += 1
+print('numGuesses =', numGuesses)
+if abs(ans**2 - x) >= epsilon:
+    print('Failed on square root of', x)
+else:
+    print(ans, 'is close to square root of', x)
+
+Exhaustive enumeration is a search technique that works only if the set of
+values being searched includes the answer.
+
+x = 25
+epsilon = 0.01
+numGuesses = 0
+low = 0.0
+high = max(1.0, x)
+ans = (high + low)/2.0
+while abs(ans**2 - x) >= epsilon:
+    print('low =', low, 'high =', high, 'ans =', ans)
+    numGuesses += 1
+    if ans**2 < x:
+        low = ans
+    else:
+        high = ans
+    ans = (high + low)/2.0
+print('numGuesses =', numGuesses)
+print(ans, 'is close to square root of', x)
+
+3.4 A few words about using Floats
+Most of the time, numbers of type float provide a reasonably good approximation to real numbers.
+But "most of the time" is not all the time.
+    float:  == wrong!!!  abs(x-y) < 0.0001 is correct
+
+3.5 Newton Raphson
+
+4 Functions, scoping, and Abstractions
+======================================
+
+4.1 Functions and scoping
+
+    def name of function (list of formal parameters):
+        body of function
+    
+    def maxVal(x,y):
+        if x > y:
+            return x
+        else:
+            return y
+
+    maxVal(5,6) # actual parameters (arguments)
+          () - function invocation changes the point of execution.
+
+If not return - None.
+
+Parameters provide something called lambda abstraction, allowing programmers to write code that manipulates not specific objects, but instead whatever objects the caller of the function chooses to use as actual parameters.
+
+In Python, there are two ways that formal parameters get bound to actual parameters.
+The most common method is called positional. 
+Python also supports keywords arguments, in which formal are bound to actuall using the name of the formal parameter.
+
+    def func(a,b,c):
+
+    func(1,2,3)
+    func(1,2,c = 3)
+    func(1, b = 2, c = 3)
+    func(a = 1, b = 2, c = 3)
+    # other is error
+
+    def func(a, b, c = 3): # default parameters
+
+4.2 Specification
+
+def findRoot(x, power, epsilon):
+    """Assumes x and epsilon int or float, power an int,
+            epsilon > 0 & power >= 1
+       Returns float y such that y**power is within epsilon of x.
+       If such a float does not exist, it returns None"""
+    if x < 0 and power%2 == 0: #Negative number has no even-powered
+                               #roots
+        return None
+    low = min(-1.0, x)
+    high = max(1.0, x)
+    ans = (high + low)/2.0
+    while abs(ans**power - x) >= epsilon:
+        if ans**power < x:
+            low = ans
+        else:
+            high = ans
+        ans = (high + low)/2.0
+    return ans
+
+def testFindRoot():
+    epsilon = 0.0001
+    for x in [0.25, -0.25, 2, -2, 8, -8]:
+        for power in range(1, 4):
+            print('Testing x =', str(x), 'and power = ', power)
+            result = findRoot(x, power, epsilon)
+            if result == None:
+                print('     No root')
+            else:
+                print(' ', result**power, '~=', x)
+
+testFindRoot()
+
+Decomposition, Abstraction.
+
+
+4.3 Recursion
+In general, a recursive definition is made up of two parts. There is at least one base case that directly specifies the result for a special case, and there is at least one recursive (inductive) case that defines the answer in terms of the answer to the question on some other input.
+
+The classic inductive definition:
+          1! = 1
+    (n + 1)! = (n + 1) * n!
+
+
+def factI(n):
+    """Assumes n an int > 0
+       Returns n!"""
+    result = 1
+    while n > 1:
+        result = result * n
+        n -= 1
+    return result
+
+def factR(n):
+    """Assumes n an int > 0
+        Returns n!"""
+    if n == 1:
+        return n
+    else:
+        return n*factR(n - 1)
+
+n = 5
+print("factI(", n, ") = ", factI(n))
+print("factR(", n, ") = ", factR(n))
+
+
+4.3.1 Fibonacci Numbers
+In the year 1202, the Italian mathematician Leonardo of Pisa, also known as Fibonacci, developed a formula to quantify this notion, albeit with some not terribly realistic assumptions.
+
+Growth in population of female rabbits.
+n > 1, females(n) = females(n-1) + females(n-2)
+F(0) = 1
+F(1) = 1
+F(3) = 1 + 1 = 2
+F(4) = 2 + 1 = 3
+F(5) = 3 + 2 = 5
+F(6) = 5 + 3 = 8
+
+def fib(n):
+    """Assumes n int >= 0
+       Returns Fibonacci of n"""
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)
+
+def testFib(n):
+    for i in range(n+1):
+        print('fib of', i, '=', fib(i))
+
+testFib(20)
+
+4.3.2 Palindromes
+
+def isPalindrome(s):
+    """Assumes s is a str
+       Returns True if s is a palindrome; False otherwise.
+       Punctuation marks, blanks, and capitalization are ignored."""
+
+    def toChars(s):
+        s = s.lower()
+        letters = ''
+        for c in s:
+            if c in 'abcdefghijklmnopqrstuvwxyz':
+                letters = letters + c
+        return letters
+
+    def isPal(s):
+        print(' isPal called with', s)
+        if len(s) <= 1:
+            print(' About to return True from base case')
+            return True
+        else:
+            answer = s[0] == s[-1] and isPal(s[1:-1])
+            print(' About to return', answer, 'for', s)
+            return answer
+
+    return isPal(toChars(s))
+
+def testIsPalindrome():
+    print('Try dogGod')
+    print(isPalindrome('dogGod'))
+    print('Try doGood')
+
+testIsPalindrome()
+
+4.4 Global Variables
+
+global variable
+
+4.5 Modules
+A module is .py file containing Python definitions and statements.
+
+pi = 3.14159
+def area(radius):
+    return pi*(radius**2)
+def circumference(radius):
+    return 2*pi*radius
+def sphereSurface(radius):
+    return 4.0*area(radius)
+def sphereVolume(radius):
+    return (4.0/3.0)*pi*(radius**3)
+
+import circle
+pi = 3
+print(pi)
+print(circle.pi)
+print(circle.area(3))
+print(circle.circumference(3))
+print(circle.sphereSurface(3))
+
+Executing import M creates a binding for module M in the scope in which the import appears.
+We use dot notation to indicate that we are referring to a name defined in the imported module.
+
+There is a variant of the import statement that allows the importing program
+to omit the module name when accessing names defined inside the imported
+module. Executing the statement from M import * creates bindings in the current
+scope to all objects defined within M, but not to M itself. For example, the code
+
+from circle import *
+
+4.6 Files
+A file handle
+    nameHandle = open('kids', 'w')
+
+
+nameHandle = open('kids', 'w')
+for i in range(2):
+    name = input('Enter name: ')
+    nameHandle.write(name + '\n')
+nameHandle.close()
+
+nameHandle = open('kids', 'r')
+for line in nameHandle:
+    print(line)
+nameHandle.close()
+
+'a' = appending
+
+5. Structured Types, Mutability, and Higher-Order Functions
+===========================================================
+
+Str, Tuple - is a rather simple generalization of str, list, range, dict.
+
+5.1 Tuples
+Like strings, tuples are immutable ordered sequences of elements.
+The difference is that the elements of a tuple need not be characters.
+    (a, b, c) - enclosing a comma-separated list of elements with parentheses.
+
+    - repeating     *
+    - concatenated  +
+    - indexed       [i]
+    - sliced        [s,e] [:]
+
+def intersect(t1, t2):
+    """Assumes t1 and t2 are tuples
+       Returns a tuple containing elements that are in
+       both t1 and t2"""
+    result = ()
+    for e in t1:
+        if e in t2:
+            result += (e,)
+    return result
+
+5.1.1 Sequences and Multiple Assignment
+
+assignment
+    a, b = 1, 2
+    a, b = (1, 2)
+
+5.2 Ranges
+string, tuples and ranges are immutable.
+
+range() function returns an object of type range.
+range(start, stop, step = 1)
+
+All of the operations on tuples are also available for ranges, except for concatenation and repetition.
+
+range(10)[2:6][2] => 4
+
+Unlike objects of type tuple, the amount of space occupied by an object of type range is not proportional to its length.
+Because a range is fully defined by its start, stop, and step values.
+
+The most common use of range is in for loops, but objects of type range can be used anywhere a sequence of integers can be used.
+
+5.2. List and Mutability
+Like a tuple, a list is an ordered sequence of values, where each value is identified by an index.
+The difference is that we use square brackets rather than parentheses.
+    [1, 3, 4] 
+
+Tuple, list singletone - (1,) [1,]
+            empty        ()   []
+
+ [] - list or index/slice
+ () - tuple or parentheses
+
+Lists differ from tuples in one hugely important way: lists are mutable.
+In contrast, tuples and strings are immutable.
+
+Bounding to different objects can be verified using the built-in Python function id, which returns a unique integer identifier for an object.
+
+id()
+
+    - appendex to end           .append()  - has side effect: not create a new list, it mutates the existing
+
+    - add elems of other list   .extend(L2)
+    - concantenation            +          - has not side effect: create new list.
+
+    - number of times that e occurs in L:       .count(e)
+    - insert object e into L at index i         .insert(i,e)
+    - remove object e                           .remove(e)
+    - return index of object e                  .index(e)
+    - removes and return the item at index i    .pop(i)
+    - sorts the elements                        .sort()
+    - reserses the element                      .reverse()
+
+One way to avoid kind of problem with changes list in for is to use slicing to clone (make a copy of)
+    for e1 in L1[:]: -> make copy
+
+Cloning:
+    - slicing [:]
+    - exression list(L)
+    - copy.deepcopy() # import copy
+
+5.3.2 List Comprehension
+
+    L = [x**2 for x in range(1,7)]
+    [x**2 for x in mixed if type(x) == int]
+
+5.4 Functions as Objects
+Function are first-class objects.
+That means that they can be treated like objects of any other type.
+
+>>> type(id)
+<class 'builtin_function_or_method'>
+
+Using functions as arguments allows a style of coding called higher-order
+programming
+
+Python has a built-in higher-order function, map, that is similar to, but more
+general than, the applyToEach function
+
+for i in map(fib, [2, 6, 4]):
+    print(i)
+
+prints
+2
+13
+5    
+ 
+Python supports the creation of anonymous function (i.e., function that are not bound to a name).
+
+    lambda expression:      lanbda <sequence of variable name>: <expression>
+
+L = []
+for i in map(lambda x, y: x**y, [1 ,2 ,3, 4], [3, 2, 1, 0]):
+    L.append(i)
+print(L)
+
+prints [1, 4, 3, 1].
+
+5.5 Strings, Tuples, Ranges, and Lists
+
+    str, tuple, range, list
+
+    - seq[i]            return the i-th element in the sequence
+    - len(seq)          length
+    - seq1 + seq2       concatenation (not for range)
+    - n*seq             repeats (not for range)
+    - seq[start:end]    slice
+    - e in seq          True if e is contained in sequence
+    - e not in seq
+    - for e in seq      iterates over the elements of the sequence
+
+Type        Type of elements        Examples of literals        Mutable
+str             characters          '', 'a', 'abc'                  No
+tuple           any type            (), (3,), ('abc', 4)            No
+range           integers            range(10), range(1, 10, 2)      No
+list            any type            [], [3], ['abc', 4]             Yes
+
+One advantage of tuples is that because they are immutable, aliasing is never
+a worry. Another advantage of their being immutable is that tuples, unlike lists,
+can be used as keys in dictionaries, as we will see in the next section.
+
+print('My favorite professor--John G.--rocks'.split(' '))
+print('My favorite professor--John G.--rocks'.split('-'))
+print('My favorite professor--John G.--rocks'.split('--'))
+
+prints
+['My', 'favorite', 'professor--John', 'G.--rocks']
+['My favorite professor', '', 'John G.', '', 'rocks']
+['My favorite professor', 'John G.', 'rocks']
+
+5.6 Dictionary
+
+Objects of type dict (short for dictionary) are like lists except that we index them
+using keys
+
+    a set of key/value pairs
+
+monthNumbers = {'Jan':1, 'Feb':2, 'Mar':3, 'Apr':4, 'May':5,
+                1:'Jan', 2:'Feb', 3:'Mar', 4:'Apr', 5:'May'}
+print('The third month is ' + monthNumbers[3])
+dist = monthNumbers['Apr'] - monthNumbers['Jan']
+print('Apr and Jan are', dist, 'months apart')
+
+will print
+The third month is Mar
+Apr and Jan are 3 months apart
+
+Like lists, dictionaries are mutable. We can add an entry by writing
+
+Dictionaries are one of the great things about Python.
+
+Not all types of of objects can be used as keys: A key must be an object of a
+hashable type. A type is hashable if it has
+• A __hash__ method that maps an object of the type to an int, and for every object the value returned by __hash__ does not change during the lifetime of the
+object, and
+• An __eq__ method that is used to compare objects for equality.
+
+All of Python’s built-in immutable types are hashable, and none of Python’s
+built-in mutable types are hashable
+
+    len(d)      returns the number of items in d.
+    d.keys()    returns a view of the keys in d.
+    d.values()  returns a view of the values in d.
+    k in d      returns True if key k is in d.
+    d[k]        returns the item in d with key k.
+    d.get(k, v) returns d[k] if k is in d, and v otherwise.
+    d[k] = v    associates the value v with the key k in d. If there is already a value
+                associated with k, that value is replaced.
+    del d[k]    removes the key k from d.
+    for k in d  iterates over the keys in d.
+
+
+6. Testing and Debugging
+========================
+Testing is the process of running a program to try and ascertain whether or
+not it works as intended. Debugging is the process of trying to fix a program that
+you already know does not work as intended.
+
+6.1 Testing
+
+Consider, for example, a program that purports to meet the specification
+def isBigger(x, y):
+    """Assumes x and y are ints
+       Returns True if x is less than y and False otherwise."""
+
+The key to testing is finding a collection of inputs, called a test suite, that has
+a high likelihood of revealing bugs, yet does not take too long to run
+
+A partition of a set divides that set into a collection of subsets such that each
+element of the original set belongs to exactly one of the subsets
+
+6.1.1 Black-Box Testing
+BBT are constructed without looking at the code to be tested.
+
+It is robust with respect to implementation changes.
+
+Boundary conditions.
+
+6.1.2 Glass-box Testing
+Black-box testing should never be skipped, but it is rarely sufficient.
+
+6.1.3 Conducting Tests
+Testing is often thought of as occuring in two phases. One should always start with unit testing.
+And then followed by integration testing.
+
+During unit testing, we often need to build stubs as well as drivers.
+Drivers simulate parts of the program that use the unit being tested, whereas stubs simulate parts of the program used by the unit being tested.
+
+6.2 Debugging
+Bugs:
+    - overt vs. covert bugs
+        -- overt bug has an obvious manifestation (crashes or take far longer to run than it should)
+        -- covert bug has no obvious manifestation (providing an incorrect answer).
+    - persistent vs. intermittent bugs
+        -- A persistent bug occurs every time the program is run with the same inputs.
+        -- An intermittent bug occurs only some of the time.
+
+The best kinds of bugs to have are overt and persistent.
+
+Good programmers try to write their programs in such a way that programming mistakes lead to bugs that are both overt and persistent. This is often called defensive programming.
+
+6.2.1 Learning to Debug
+Debugging is a learned skill. Nobody does it well instinctively. The good news is that it’s not hard to learn, and it is a transferable skill.
+
+For at least four decades people have been building tools called debuggers,
+and there are debugging tools built into all of the popular Python IDE’s. These
+are supposed to help people find bugs in their programs.
+
+    python3 -m pdb program.py
+    (Pdb)
+
+    n (next): Execute the current line and move to the next.
+    s (step): Step into a function call.
+    c (continue): Resume execution until the next breakpoint.
+    p <variable>: Print the value of a specific variable.
+    l (list): Show the source code around the current line.
+
+“When the going gets tough, the tough get going.”
+
+    • Stop asking yourself why the program isn't doing what you want it to. Instead,
+      ask yourself why it is doing what it is. That should be an easier question to answer,
+      and will probably be a good first step in figuring out how to fix the program.
+    • Keep in mind that the bug is probably not where you think it is. If it were, you
+      would probably have found it long ago. One practical way to go about deciding where to look is asking
+      where the bug cannot be. As Sherlock Holmes said,
+      "Eliminate all other factors, and the one which remains must be the truth."
+    • Try to explain the problem to somebody else. We all develop blind spots. It is
+      often the case that merely attempting to explain the problem to someone will
+      lead you to see things you have missed. A good thing to try to explain is why
+      the bug cannot be in certain places.
+    • Don’t believe everything you read. In particular, don't believe the documentation.
+      The code may not be doing what the comments suggest.
+    • Stop debugging and start writing documentation. This will help you approach the problem from a different perspective.
+    • Walk away, and try again tomorrow.
+
+6.2.4 When you Have Found "The" Bug
+
+7. Exceptions and assertions
+----------------------------
+An “exception” is usually defined as “something that does not conform to the
+norm,” and is therefore somewhat rare. There is nothing rare about exceptions in
+Python.
+
+IndexError is the type of exception that Python raises when a program tries to
+access an element that is outside the bounds of an indexable type.
+
+7.1 Handling Exceptions
+When an exception is raised, the program terminates (crashes might be a more appropriate word in this case).
+When an exception is raised that causes the program to terminate, we say that an unhandled exception has been raised.
+
+Exceptions, when raised, can and should be handled by the program.
+
+    try:
+        ...
+    except ValueError:
+        ...
+
+    try—except block.
+
+    def readVal(valType, requestMsg, errorMsg):
+        while True:
+            val = input(requestMsg + ' ')
+            try:
+                return(valType(val)) #convert str to valType before returning
+            except ValueError:
+                print(val, errorMsg)
+
+    readVal(int, 'Enter an integer:', 'is not an integer')
+
+The function readVal is polymorphic, i.e., it works for arguments of many
+different types. Such functions are easy to write in Python, since types are first -
+class objects. We can now ask for an integer using the code
+
+    val = readVal(int, 'Enter an integer:', 'is not an integer')
+
+To handle several exceptions:  except(ValueError, ...)
+
+            except ValueError:
+                ...
+            except: # all
+                ...
+
+7.2 Exceptions as a Control Flow Mechanism
+
+    raise statement:    raise exceptionName(arguments)
+exceptionName is usually one of the build-in exception, e.g., ValueError.
+Programmers can define new exceptions by creating a subclass.
+
+def getRatios(vect1, vect2):
+    """Assumes: vect1 and vect2 are equal length lists of numbers
+       Returns: a list containing the meaningful values of
+       vect1[i]/vect2[i]"""
+    ratios = []
+    for index in range(len(vect1)):
+        try:
+            ratios.append(vect1[index]/vect2[index])
+        except ZeroDivisionError:
+            ratios.append(float('nan')) #nan = Not a Number
+        except TypeError:
+            raise ValueError('my TypeError')
+        except:
+            raise ValueError('getRatios called with bad arguments')
+    return ratios
+
+vect1 = [1, 3, 5]
+vect2 = [2, 5, 6]
+print("vect1 = ", vect1, " vect2 = ", vect2, " getRatios = ", getRatios(v1ect1, vect2)
+
+vect1 = [1, 3, 5]
+vect2 = [2, 0, 6]
+print("vect1 = ", vect1, " vect2 = ", vect2, " getRatios = ", getRatios(v1ect1, vect2)
+
+vect1 = [1, 3, 5]
+vect2 = [2, "hell", 6]
+print("vect1 = ", vect1, " vect2 = ", vect2, " getRatios = ", getRatios(v1ect1, vect2)
+
+
+    # To print message
+    except ValueError as errorMsg:
+    print('Whoops.', errorMsg)
+
+
+7.3 Assertions
+
+The Python assert statement provides programmers with a simple way to confirm that the state of a computation is as expected. An assert statement can take
+one of two forms:
+    assert Boolean expression
+    or
+    assert Boolean expression, argument
+
+If it evaluates to
+False, an AssertionError exception is raised.
+
+8. Classes and Object Oriented Programming
+==========================================
+8.1 Abstract Data Types and Classes
+An abstract data type is a set of objects and the operations on those objects.
+
+    class Name(object):
+        """Description"""
+
+        def __init__(self):
+            """ ... """
+            self.vals = []   # data
+
+        def insert(self, e):
+            """..."""
+            if e not in self.vals:
+                self.vals.append(e)
+
+        def __str__(self):
+            """ ..."""
+            return str
+
+When a function definition occurs within a class definition, the defined function is called a method and is associated with the class.
+
+    Instantiation is used to create instances of the class.
+        s = IntSet() creates a new object of type IntSet.
+    Attribute references use dot notation to access attributes with the class.
+    s.member => member
+
+8.1.1 Designing Programs using Abstract Data Types
+
+    __lt__(self, other)  -   method overloads the < operator.
+
+8.2 Inheritance
+
+Inheritance provides a convenient mechanism for building groups of related abstractions.
+It allows programmers to create a type hierarchy in which each type inherits attributes from
+the types above it in the hierarchy.
+
+The class object is at the top of the hierarchy.
+
+
+class MITPerson(Person):
+
+    nextIdNum = 0 #identification number
+
+    def __init__(self, name):
+        Person.__init__(self, name)
+        self.idNum = MITPerson.nextIdNum
+        MITPerson.nextIdNum += 1
+
+    def getIdNum(self):
+        return self.idNum
+
+    def __lt__(self, other):
+        return self.idNum < other.idNum
+
+8.2.1 Multiple Levels Inheritance
+
+By using the Python reserved word pass as
+the body, we indicate that the class has no attributes other than those inherited
+from its superclass.
+
+    class Grad(Student)
+        pass
+
+    def isStudent(self):    # or  type(p1) == Student
+        return isinstance(self, Student)
+
+Notice that the meaning of isinstance(p6, Student) is quite different from
+the meaning of type(p6) == Student. The object to which p6 is bound is of type
+UG, not student, but since UG is a subclass of Student, the object to which p6 is
+bound is considered to be an instance of class Student (as well as an instance of
+MITPerson and Person).
+
+8.3 Encapsulation and Information Hiding
+
+Some programming languages (Java and C++, for example) provide mechanisms
+for enforcing information hiding. Programmers can make the attributes of
+a class private, so that clients of the class can access the data only through the object's methods.
+Python 3 uses a naming convention to make attributes invisible
+outside the class. When the name of an attribute starts with __ but does not end
+with __, that attribute is not visible outside the class.
+
+    self.visible = 'Look at me'
+    self.__alsoVisible__ = 'Look at me too'
+    self.__invisible = 'Don\'t look at me directly'
+
+Notice that when a subclass attempts to use a hidden attribute of its superclass an
+AttributeError occurs. This can make using information hiding in Python a bit
+cumbersome.
+Because it can be cumbersome, many Python programmers do not take advantage of
+the __ mechanism for hiding attributes—as we don’t in this book
+
+8.3.1 Generators
+
+    a yield statement
+
+Any function definition containing a yield statement is treated in a special
+way. The presence of yield tells the Python system that the function is a generator.
+Generators are typically used in conjunction with for statements
+
+    for s in course.getStudents():
+    
+    def getStudents(self):
+        """Return the students in the grade book one at a time
+           in alphabetical order"""
+        if not self.isSorted:
+            self.students.sort()
+            self.isSorted = True
+        for s in self.students:
+            yield s
+
+Generating one value at a time will be more efficient, because a new list containing the students will not be created.
+
+8.4 Mortgages, an Extended Example
+
+9 A Simplistic introduction to algorithmic complexity
+=====================================================
+Sometimes performance is an important aspect of correctness.
+Writing efficient programs is not easy.
+The most straightforward solution is often not the most efficient.
+Programmers often increase the conceptual complexity of a program in an effort to reduce its computation complexity.
+
+9.1 Thinking about computational complexity
+How long will the following function take to run?
+
+def f(i):
+    """Assumes i is an int and i >= 0"""
+    answer = 1
+    while i >= 1:
+        answer *= i
+        i -= 1
+    return answer
+
+It depends on:
+    - the speed of the computer on which it is run;
+    - the efficiency of the Python implementation on that machine
+    - the value of the input
+
+We get around the first two issues by using a more abstract measure of time.
+Instead of measuring time in milliseconds, we measure time in terms of the number of basic steps executed by the program.
+
+A step is an operation that takes a fixed amount of time, such as binding a variable to an object, making a comparison, executing an arithmetic operation, or accessing an object in memory.
+
+def linearSearch(L, x):
+    for e in L:
+        if e == x:
+            return True
+    return False
+
+In general, there are three broad cases to think about:
+    - the best case running time.
+    - worst case
+    - average case
+
+For factorial:
+    T(n) = 2 + 5n
+    T(1000) = 5002 steps.
+
+9.2 Asymptotic Notation
+Asymptotic notation to provide a formal way to talk about the relationship between the running time of an algorithm and the size of its input.
+
+
+def f(x):
+    """Assume x is an int > 0"""
+    ans = 0
+    #Loop that takes constant time
+    for i in range(1000):
+        ans += 1
+    print('Number of additions so far', ans)
+    #Loop that takes time x
+    for i in range(x):
+        ans += 1
+    print('Number of additions so far', ans)
+    #Nested loops take time x**2
+    for i in range(x):
+        for j in range(x):
+            ans += 1
+    print('Number of additions so far', ans)
+    return ans
+
+f(10)
+f(100)
+f(1000)
+f(10000)
+
+The most commonly used asymptotic notation is called "Big O" notation.
+Big O notation is used to give an upper bound on the asymptotic growth (often called the order of growth) of a function.
+
+For example, the formula f(x) ∈ O(x2)
+means that the function f grows no faster than the quadratic polynomial x2, in an
+asymptotic sense.
+
+9.3 Some important complexity classes
+
+    O(1)        denotes constant running time
+    O(log n)            logarithmic
+    O(n)                linear
+    O(n log n)          log-linear
+    O(n^k)              polynomial
+    O(c^n)              exponential
+
+9.3.1 Constant complexity
+This indicates that the asymptotic complexity is independent of the size of the inputs.
+
+9.3.2 Logarithmic complexity
+
+Binary search.
+
+def intToStr(i):
+    """Assumes i is a nonnegative int
+       Returns a decimal string representation of i"""
+    digits = '0123456789'
+    if i == 0:
+        return '0'
+    result = ''
+    while i > 0:
+        result = digits[i%10] + result
+        i = i//10
+    return result
+
+x = 50
+print("x = ", x, " str = ", intToStr(x))
+x = 154
+print("x = ", x, " str = ", intToStr(x))
+
+9.3.3 Linear complexity
+
+def factorial(x):
+    """Assumes that x is a positive int
+    Returns x!"""
+    if x == 1:
+        return 1
+    else:
+        return x*factorial(x-1)
+
+9.3.4 Log-Linear complexity
+
+Binary sorting
+
+
+10. Some Simple Algorithms and Data Structures
+==============================================
+
+10.1 Search Algorithms
+
+A search algorithm is a method for finding an item or group of items with specific properties within a collection of items. We refer to the collection of items as a search space.
+
+def search(L, e):
+    """Assumes L is a list.
+       Returns True if e is in L and False otherwise"""
+    pass
+
+10.1.1 Linear Search and Using Indirection to Access Elements
+
+for i in range(len(L)):
+    if L[i] == e:
+        return True
+    return False
+
+In Python, a list is represented as a length (the number of objects in the list) and a sequence of fixed-size pointers to objects.
+
+10.1.2 Binary Search and Exploiting Assumptions
+
+For sorted list:
+
+def search(L, e):
+    """Assumes L is a list, the elements of which are in
+       ascending order.
+       Returns True if e is in L and False otherwise"""
+    for i in range(len(L)):
+        if L[i] == e:
+            return True
+        if L[i] > e:
+            return False
+    return False
+
+This would improve the average time, but not change the worst case complexity.
+
+The idea is simple:
+    1. Pick an index, i, that divides the list L roughly in half.
+    2. Ask if L[i] == e.
+    3. If not, ask whether L[i] is larger or smaller than e.
+    4. Depending upon the answer, search either the left or right half of L for e.
+
+def search(L, e):
+    """Assumes L is a list, the elements of which are in
+       ascending order.
+       Returns True if e is in L and False otherwise"""
+
+    def bSearch(L, e, low, high):
+        #Decrements high - low
+        if high == low:
+            return L[low] == e
+        mid = (low + high)//2
+        if L[mid] == e:
+            return True
+        elif L[mid] > e:
+            if low == mid: #nothing left to search
+                return False
+            else:
+                return bSearch(L, e, low, mid - 1)
+        else:
+            return bSearch(L, e, mid + 1, high)
+
+    if len(L) == 0:
+        return False
+    else:
+        return bSearch(L, e, 0, len(L) - 1)
+
+10.2 Sorting Algorithms
+
+In practice, you will rarely need
+to implement your own sort function. In most cases, the right thing to do is to
+use either Python’s built-in sort method (L.sort() sorts the list L) or its built-in
+function sorted (sorted(L) returns a list with the same elements as L, but does not
+mutate L).
+
+def selSort(L):
+    """Assumes that L is a list of elements that can be
+       compared using >.
+       Sorts L in ascending order"""
+    suffixStart = 0
+    while suffixStart != len(L):
+        #look at each element in suffix
+        for i in range(suffixStart, len(L)):
+            if L[i] < L[suffixStart]:
+                #swap position of elements
+                L[suffixStart], L[i] = L[i], L[suffixStart]
+        suffixStart += 1
+
+    O(Len(L)^2)
+
+10.2.1 MergeSort
+
+Using divide and conquer algorithm.
+
+The threshold is sometimes called the recursive base.
+
+Merge sort is a prototypical divide-and-conquer algorithm. It was invented
+in 1945, by John von Neumann, and is still widely used. Like many divide-and-
+conquer algorithms it is most easily described recursively:
+
+    1. If the list is of length 0 or 1, it is already sorted.
+    2. If the list has more than one element, split the list into two lists, and use
+       merge sort to sort each of them.
+    3. Merge the results.
+
+The key observation made by von Neumann is that two sorted lists can be efficiently
+merged into a single sorted list. The idea is to look at the first element of
+each list, and move the smaller of the two to the end of the result list. When one
+of the lists is empty, all that remains is to copy the remaining items from the other list.
+
+The time complexity of mergeSort is O(n*log(n)), where n is len(L).
+
+This improvement in time complexity comes with a price. Selection sort is an
+example of an in-place sorting algorithm. Because it works by swapping the place
+of elements within the list, it uses only a constant amount of extra storage (one
+element in our implementation).
+
+Quicksort, which was invented by C.A.R. Hoare in 1960, is conceptually similar to merge sort,
+but considerably more complex. It has the advantage of needing only log(n) additional space.
+Unlike merge sort, its running time depends upon the way the elements in the list to be sorted are
+ordered relative to each other. Though its worst-case running time is O(n2), its expected running
+time is only O(n*log(n)).
+
+10.2.3 Sorting in Python
+The sorting algorithm used in most Python implementations is called timsort.
+
+Timsort was invented by Tim Peters in 2002 because he was unhappy with the previous
+algorithm used in Python.
+
+The key idea is to take advantage of the fact that in a lot of data sets the data is
+already partially sorted. Timsort’s worst-case performance is the same as merge
+sort’s, but on average it performs considerably better.
+
+Notice that when the sorted function is applied to a dictionary, it returns a
+sorted list of the keys of the dictionary.
+
+Both the list.sort method and the sorted function can have two additional
+parameters. The key parameter plays the same role as compare in our implementation of merge sort: it supplies the comparison function to be used. 
+The reverse parameter specifies whether the list is to be sorted in ascending or descending
+order relative to the comparison function.
+
+    L = [[1,2,3], (3,2,1,0), 'abc']
+    print(sorted(L, key = len, reverse = True))
+
+sorts the elements of L in reverse order of length and prints
+    [(3, 2, 1, 0), [1, 2, 3], 'abc']
+
+10.3 Hash Tables
+
+Dictionaries use a technique called hashing to do the lookup in time that is nearly independent of the size of the dictionary.
+
+The basic idea behind a hash table is simple.
+We convert the key to an integer, and then use that integer to index into a list.
+
+A hash function maps a large space of inputs (e.g., all natural numbers) to a smaller space of outputs
+(e.g., the natural numbers between 0 and 5000).
+
+Hash functions can be used to convert a large space of keys to a smaller space of integer indices.
+Hash function is a many to one mapping, i.e., multiple different inputs may be mapped to the same output.
+When two inputs are mapped to the same output, it is called a collision.
+A good hash function produces a uniform distribution - which minimizes the probability of collisions.
+
+Simple implementation:
+The basic idea is to represent an instance of class by a list of hash buckets, where each bucket is a list of key/value pairs implemented as tuples. By making each bucket a list, we handle collisions by storing all of the values that hash to the same bucket in the list.
+
+There are many other ways to handle collisions, some considerably more efficient than using lists.
+But this is probably the simplest mechanism, and it works
+fine if the hash table is large enough relative to the number of elements stored in
+it, and the hash function provides a good enough approximation to a uniform
+distribution.
+
+Complexity is O(1) if there were no collisions, and O(n) if all collisions.
+
+11. Plotting and More About Classes
+===================================
+
+PyLab is a Python standard library module that provides many of the facilities of
+MATLAB, “a high-level technical computing language and interactive environment for algorithm development, data visualization, data analysis, and numeric
+computation
+
+sudo apt install python3-matplotlib
+
+    import pylab
+
+    pylab.figure(1)                  #create figure 1
+    pylab.plot([1,2,3,4], [1,7,3,5]) #draw on figure 1
+    pylab.show()                     #show figure on screen
+
+The two parameters of pylab.plot must be sequences of the
+same length. The first specifies the x-coordinates of the points to be plotted, and
+the second specifies the y-coordinates.
+
+These are plotted in order. As each point is plotted, a line is drawn connecting it to the previous point.
+
+It is possible to produce multiple figures and to write them to files. These
+files can have any name you like, but they will all have the file extension .png.
+
+    pylab.figure(1)                     #create figure 1
+    pylab.plot([1,2,3,4], [1,2,3,4])    #draw on figure 1
+    pylab.figure(2)                     #create figure 2
+    pylab.plot([1,4,2,3], [5,6,7,8])    #draw on figure 2
+    pylab.savefig('Figure-Addie')       #save figure 2
+    pylab.figure(1)                     #go back to working on figure 1
+    pylab.plot([5,6,10,3])              #draw again on figure 1
+    pylab.savefig('Figure-Jane')        #save figure 1
+
+
+    pylab.title('5% Growth, Compounded Annually')
+    pylab.xlabel('Years of Compounding')
+    pylab.ylabel('Value of Principal ($)')
+
+The default format string is 'b-', which produces a solid blue line.
+To plot the the growth in principal with black circles, one would replace the call pylab.plot(values) by                
+
+    pylab.plot(values, 'ko')
+
+    #set line width
+    pylab.rcParams['lines.linewidth'] = 4
+    #set font size for titles
+    pylab.rcParams['axes.titlesize'] = 20
+
+11.2 Plotting Mortgages, an Extended Example
+
+Thus far, we have been calling the plotting functions of
+PyLab with arguments of type list. Under the covers, PyLab has been converting
+these lists to a different type, array, which PyLab inherits from numpy.
+
+numpy is a Python module that provides tools for scientific computing. In addition to providing
+multi-dimensional arrays it provides a variety of linear algebra tools.
+
+12. Knapsack and Graph Optimization Problems
+============================================
+
+In general, an optimization problem has two parts:
+    • An objective function that is to be maximized or minimized. For example, the airfare between Boston and Istanbul.
+    • A set of constraints (possibly empty) that must be honored. For example, an upper bound on the travel time.
+
+12.1 Knapsack problems
+
+Suppose for example, a burglar who has a knapsack73 that can hold at most 20 pounds of loot breaks into a house and finds the items in the table.
+
+                    Value       Weight      Value/Weight
+       Clock         175          10           17.5
+       Painting       90           9           10
+       Radio          20           4            5
+       Vase           50           2           25
+       Book           10           1           10
+       Computer      200          20           10
+
+12.1.1 Greedy Algorithms
+The thief would choose the best item first, then the next best, and continue until he reached his limit.
+
+Is the best item the most valuable, the least heavy, or maybe the item with the highest value-to-weight ratio?
+
+Though greedy-by-density (value-to-weight ratio) happens to yield the best
+result for this data set, there is no guarantee that a greedy-by-density algorithm
+always finds a better solution than greedy by weight or value.
+
+12.1.2 An Optimal Solution to the 0/1 Knapsack Problem
+
+Suppose we decide that an approximation is not good enough, i.e., we want the
+best possible solution to this problem. Such a solution is called optimal, not surprising
+since we are solving an optimization problem. As it happens, the problem
+confronting our burglar is an instance of a classic optimization problem, called
+the 0/1 knapsack problem
+
+The 0/1 knapsack problem can be formalized as follows:
+    • Each item is represented by a pair, <value, weight>.
+    • The knapsack can accommodate items with a total weight of no more than w.
+    • A vector, I, of length n, represents the set of available items. Each element of the vector is an item.
+    • A vector, V, of length n, is used to indicate whether or not each item is taken by the burglar. If V[i] = 1, item I[i] is taken. If V[i] = 0, item I[i] is not taken.
+    • Find a V that maximizes
+          n−1
+          ∑V[i]* I[i].value
+          i= 0
+    
+    subject to the constraint that
+
+          n−1
+          ∑V[i]* I[i].weight ≤ w
+          i= 0
+
