@@ -13735,8 +13735,20 @@ Science and technology
   115. (  1) xT ?#PT backup [ˈbækʌp] (n) {C1} {computers} резервный, дублирующий, {C1} {crime and punishment} = extra help or support that you can get if necessary
               yT ?#  bot [bɒt] (n) {C1} {computers} = a computer program that run automated tasks over the internet, = a robot, {C2} {computers} = a computer program that creates fakes social media accounts and communicates with other users
               xx ?#  digital+asset [ˌdɪdʒɪtl ˈæset] (n) {C1} {computers} цифровой актив
-
-<here
+              xx ?#  face+recognition [ˌfeɪs rekəɡˈnɪʃn] (n)(u) {C1} {computers} = ​technology that allows a computer to identify a person by their face
+              xT *#  firewall [ˈfaɪəwɔːl] (n) {C1} {computer} брандмауэр
+  657. (  1) 5T *#PT interactive [ˌɪntərˈæktɪv] (adj) {C1} {computers} интерактивный, диалоговый
+  658. (  1) 4T *#PT interface [ˈɪntəˌfeɪs] (n) {C1} {computers} интерфейс
+              xx ?#  operating+system [(UK)ˈɒpəreɪtɪŋ sɪstəm/(US)ˈɑːpəreɪtɪŋ sɪstəm] (n) {C1} {computers} Операционная система
+              yT ?#  piracy [ˈpaɪərəsi] (n) {C1} {crime and punishment} {transport by water} пиратство, {C1} {crime and punishment} {computers} нарушение авторского права
+              xx ?#  screen+reader [ˈskriːn riːdə(r)] (n) {C1} {computers} {disability} = a computer program that turns the text displayed on a screen into speech or Braille
+              xx ?#  spellcheck [ˈspeltʃek] (v) {C1} {computers} = to use a computer program to check your writing to see if your spelling is correct; (n) {C1} {computers} = a check of the spelling in a file or text using a spellchecker, = a computer program that checks your writing to see if your spelling is correct
+              xx ?#  spellchecker [ˈspeltʃekə(r)] (n) {C1} {computers} = a computer program that checks your writing to see if your spelling is correct
+              yT ?#  spreadsheet [ˈsprɛdʃiːt] (n) {C1} {computers} электронная таблица, таблица, = a computer program that is used when doing financial or project planning. You enter data in rows and columns and the program calculates costs/etc. from it. The individual documents are also called spreadsheets
+              xT *#  tab [tæb] (n) ушко, счет, {C1} {computers} ярлык, петелька; (v) обозначать
+              xx ?#  voice+assistant [ˈvɔɪs əsɪstənt] (n) {C1} {computers} = a computer program that can hold a conversation with somebody and complete particular tasks by responding to instructions or to information that it gathers from that person's digital device
+              xx ?#  voice+recognition [ˈvɔɪs rekəɡnɪʃn] (n) {C1} {computers} = technology that allows a computer to identify a voice
+              xx ?#  word+processing [ˈwɜːd prəʊsesɪŋ] (n) {C1} {computers} = the use of a computer to create, edit and store a piece of text usually typed in from a keyboard
 
 {computers {using a computer}}
 ..............................
@@ -13795,6 +13807,37 @@ Science and technology
  1145. (  1) 3T *#PT select [sɪˈlɛkt] (v) {B2} {computers} выбирать, {B2} сортировать; (adj) избранный
               xx ?#  uncheck [ˌʌnˈtʃek] (v) {B2} {computers} = to remove a mark check from a box on an electronic form to show that you do not want something
 
+{C1} {computers {using a computer}}
+              xx ?#  autoplay [ˈɔːtəʊpleɪ] (n)(u) {C1} {computers} = a feature that allows a video or audio file to play without the user needing to do anything
+              xx ?#  computer-aided [kəmˌpjuːtər ˈeɪdɪd] (adj) {C1} {computers} = performed or produced using a computer
+              xx ?#  computer-literate [kəmˌpjuːtə ˈlɪtərət] (adj) {C1} {computers} = able to use computers well
+              1T *#  control [kənˈtrəʊl] (n) {A2} {C1} {scientific research} {computers} контроль, управление, проверка; (v) {A2} управлять, регулировать; (adj) управляющий
+              xT *#  cursor [ˈkɜːsə] (n) {C1} {computers} курсор, указатель
+              xx ?#  cybersecurity [saɪbəsɪkjʊərəti] (n) {C1} {computers} информационная безопасность
+              yT ?#  cyberspace [ˈsaɪbəˌspeɪs] (n)(u) {C1} {computers} киберпространство
+              4T *#  deletion [dɪˈliːʃən] (n) {C1} {computers} удаление
+  364. (  1) xT *#PT desktop [ˈdɛsktɒp] (n) {C1} {computers} рабочий стол
+              3T *#  display [dɪsˈpleɪ] (n) дисплей, {C1} {computers} отображение, {B2} {shopping} показ, {B2} проявление; (v) {B2} отображать
+              xx ?#  drop-down+menu [ˌdrɒp daʊn ˈmenjuː] (n) {C1} {computers} = a menu that appears on a computer screen when you choose it and that stays there until you choose one of the functions on it
+  489. (  1) 3T *#PT exit [ˈɛksɪt] (n) {B2} {buildings} выход, {B2} {transport by car or lorry} выезд, {C1} {film and theatre} уход; (adj) выходной; (v) {C1} {computres} выходить
+              xx ?#  file+sharing [ˈfaɪl ʃeərɪŋ] (n)(u) {C1} {computers} = the practice of sharing computer files with other people over the internet or another computer network
+              5T *#  format [ˈfɔːmæt] (n) {B2} формат; (v) {C1} {computers} форматировать, оформлять
+              3T *#  load [ləʊd] (n) {B2} нагрузка, груз; (v) {B2} грузить, {C1} {computers} = to put data or a program into the memory of a computer usually from local disk
+              xx ?#  menu+bar [ˈmenjuː bɑː(r)] (n) {C1} {computers} = a bar at the top of a computer screen that contains drop-down menus such as File/Edit/Help
+              xx ?#  passcode [ˈpɑːskəʊd] (n) {C1} {computers} = a series of letters/numbers/etc. that you must provide in order to access a computer or other electronic device
+              4T ?#  paste [peɪst] (v) {C1} {computers} вставлять, наклеивать, обклеивать; (n) {C2} {food} паста
+              5T ?#  pinch [pɪnʧ] (v) {C1} {crime and punishment} ущипнуть, щипать, зажимать, {C1} {computers} = to place the thumb and a finger of one hand on the screen of an electronic device such as a mobile phone or small computer and move them together or apart to make the image on the screen apear smaller of larger, сжать; (n) щепотка, щипок
+              xx ?#  pop-up [pɒp ʌp] (n) {C1} {computer} = a computer menu/window/etc. that can be brought to the screen quickly while you are working on another document; = a computer window especially one containing an advertisement that appears on the screen although it has not been requested
+              4T *#  refresh [rɪˈfrɛʃ] (n) регенерация; (v) освежать, {C1} {computers} обновлять
+              1T *#  return [rɪˈtɜːn] (n) {A1} возвращение, {C1} {computers} возврат, {B1} {transport by bus and train} обратный путь; (v) {A1} {B1} {shopping} возвращаться
+              xx ?#  right-click [ˌraɪt ˈklɪk] (n) {C1} {computers} = to choose a particular function or item on a computer screen/etc. by pressing the button on a mouse that is on the right side
+              xT ?#  screenshot [(UK)ˈskriːnʃɒt/(US)ˈskriːnʃɑːt] (n) {C1} {computers} = an image of the display on a screen used when showing how a program works
+              xT *#  scroll [skrəʊl] (n) свиток, прокрутка; (v) украшать завитками, {C1} {computers} прокручивать
+              xx ?#  spellcheck [ˈspeltʃek] (v) {C1} {computers} = to use a computer program to check your writing to see if your spelling is correct; (n) {C1} {computers} = a check of the spelling in a file or text using a spellchecker, = a computer program that checks your writing to see if your spelling is correct
+              xx ?#  swipe [swaɪp] (v) {C2} {crime and punishment} красть, {C1} {computers} проведите пальцем, =  to move your finger quickly across the screen of an electronic device such as a mobile phone or small computer in order to move text/pictures/etc. or give commands; (n) коромысло, сильный удар
+              5T *#  underscore [ˌʌndəˈskɔː] (v) подчеркивать; (n) {C1} {computers} линия подчеркивания = _
+              yT ?#  uninstall [ˌʌnɪnˈstɔːl] (v) {C1} {computers} удалить, = to remove a program from a computer
+
 {engineering}
 -------------
 {engineering {branches of engineering}}
@@ -13806,6 +13849,10 @@ Science and technology
               xx ?#  chemical+engineering [ˈkɛmɪk(ə)l ˌɛnʤ ɪˈnɪərɪŋ] (n) {B2} {engineering} химическая инженерия
               xx ?#  electrical+engineering [ɪˈlɛktrɪkəl ˌɛnʤ ɪˈnɪərɪŋ] (n) {B2} {engineering} электротехника
               xx ?#  mechanical+engineering [mɪˈkænɪkəl ˌɛnʤ ɪˈnɪərɪŋ] (n) {B2} {engineering} машиностроение
+
+{C1} {engineering {branches of engineering}}
+              xx ?#  civil+engineering [ˌsɪvl endʒɪˈnɪərɪŋ] (n) {C1} {buildings} {engineering} гражданское строительство
+              yT ?#  robotics [rəʊˈbɒtɪks] (n) {C1} {engineering} = the science of designing and operating robots, робототехника
 
 {engineering {electronics}}
 ...........................
@@ -13824,6 +13871,17 @@ Science and technology
   428. (  1) xT *#PT electronics [ɪlɛkˈtrɒnɪks] (n) {B2} {engineering} электроника
  1169. (  2) 3T *#PT shock [ʃɒk] (n) {B2} шок, {B2} {engineering} {health problems} удар, {B2} {the environment} потрясение; (v) {B2} {feelings} шокировать, {B2} потрясать
  1420. (  1) 3T *#PT wire [ˈwaɪə] (n) {B2} {engineering} провод, проволока; (v) телеграфировать, скреплять проволокой
+
+{C1} {engineering {electronics}}
+              4T ?#  analogue [(UK)ˈænəˌlɒɡ/(US)ˈænəlɔːɡ] (UK) (adj) {C1} {computers} {engineering} аналоговый, = using a continuously changing range of physical quantities to measure or store data; (n) аналог, (US) = analog
+              3T *#  conduct [ˈkɒndʌkt->(n)/kənˈdʌkt->(v)] (n) {B2} поведение, ведение; (v) {B2} {scientific research} проводить, вести, {B2} {music} = to direct a group of people who are singing or playing music, {C1} {engineering} проводить
+              5T *#  disconnect [ˌdɪskəˈnɛkt] (v) {C1} {engineering} {phones, email and the internet} отключать, разъединять
+              yT ?#  electrode [ɪˈlektrəʊd] (n) {C1} {engineering} электрод
+              1T *#  live [lɪv->(v)/laɪv->(adj)] (v) {A1} жить; (adv) {B1} в прямом эфире; (adj) {B1} {tv, radio and news} реальный, живой, {B1} {music} = given or made when people are watching, not recorded; {C1} {engineering} под напряжением, {C1} {healthcare} жизненный = a live vaccine contains viruses or bacteria that are living, {C1} {phones, email and the internet} живой = functioning correctly, so that is connected to another document or page on the internet
+              xx ?#  microchip [ˈmaɪkrəʊtʃɪp] (n) {C1} {engineering} {computers} микрочип, микросхема; (v) {C2} {animals} = to put a microchip under the skin of an animal as a way of identifying it
+              xx ?#  silicon+chip [ˌsɪlɪkən ˈtʃɪp] (n) {C1} {engineering} {computers} кремниевый чип, микросхема
+              yT *#  transistor [trænˈzɪstə] (n) {C1} {engineering} {C2} {tv, radio and news} транзистор
+              5T *#  transmitter [trænzˈmɪtə] (n) {C1} {engineering} {tv, radio and news} передатчик, радиопередатчик, отправитель
 
 {engineering {how machines work}}
 .................................
@@ -13857,6 +13915,27 @@ Science and technology
  1278. (  1) 3T *#PT switch [swɪʧ] (n) {B2} {engineering} переключатель, коммутатор, выключатель; (v) {B1} переключаться
               xT ?#  technician [tɛkˈnɪʃən] (n) {B2} {jobs} {engineering} техник, специалист
 
+{C1} {engineering {how machines work}}
+   87. (  1) 3T *#PT arm [ɑːm] (n) {A1} {body} рука, {C1} {engineering} рычаг, рукоятка; (v) {C1} {war and conflict} вооружиться, вооружать
+              3T *#  belt [bɛlt] (n) {A2} {clothes and fashion} {C1} {engineering} ремень, пояс, зона; (v) гнать, опоясывать
+  138. (  1) 3T ?#PT blade [bleɪd] (n) {C1} лезвие, {C2} {plants and trees} травинка, {C1} {transport by air} {engineering} крыло, былинка
+  151. (  1) xT ?#PT breakdown [ˈbreɪkˌdaʊn] (n) пробой, распад, разрушение, {C1} {transport by car or lorry} {engineering} поломка, анализ, {C1} {difficulty and failure} неудача, {C1} {mental health} полный упадок сил
+              3T *#  capacity [kəˈpæsɪti] (n) {B2} мощность, {C1} {engineering} емкость, {C1} {business} способность
+              4T *#  dial [ˈdaɪəl] (n) {C1} {transport by car or lorry} {engineering} диск, циферблат; (v) {C1} {phones, email and the internet} набирать номер, набирать
+              xx ?#  first+generation [ˌfɜːst dʒenəˈreɪʃn] (n) {C1} {engineering} первое поколение
+              xx ?#  high+technology [ˌhaɪ tekˈnɒlədʒi] (n) {C1} {engineering} высокие технологии
+              yT ?#  knob [nɑb] (n) {C1} {engineering} ручка, кнопка; (v) выпячиваться
+              yT ?#  lever [ˈliːvə] (n) {C1} {engineering} рычаг, рукоятка
+              5T ?#  magnify [ˈmægnɪfaɪ] (v) {C1} {engineering} увеличивать
+              5T *#  prototype [ˈprəʊtəʊtaɪp] (n) {C1} {engineering} прототип, опытный образец
+  950. (  2) 5T *#PT pump [pʌmp] (n) {C1} {engineering} насос, помпа; (v) {C1} {engineering} качать, выкачивать
+ 1049. (  2) 3T ?#PT screw [skruː] (n) {C1} {engineering} винт, болт; (adj) винтовой; (v) {C1} {engineering} крутить
+              1T *#  service [ˈsɜːvɪs] (n) {A2} {business} {B1} {cooking and eating} {shopping} обслуживание, {B2} {war and conflict} {B2} {religion and festivals} служба, {C1} {transport by car or lorry} {engineering} {transport by bus and train} сервис, услуга, служение, {B2} {transport by bus and train} рейсы; (v) {C1} {tranport by car or lorry} {engineering} обслуживать
+              yT ?#  servicing [ˈsɜːvɪsɪŋ] -ing: (v) {C1} {tranport by car or lorry} {engineering} обслуживать; (n)(u) {C1} {engineering} обслуживание
+              xx ?#  shut+off [ʃʌt ɒf] (phrasal verb) (shut off) {C2} {engineering} = to stop working, (shut sth <-> off) {C1} {engineering} выключить
+              xx ?#  spare+part [ˌspeə ˈpɑːt] (n) {C1} {transport by car or lorry} {engineering} запчасть
+              xx ?#  time+switch [ˈtaɪm swɪtʃ] (n) {C1} {engineering} таймер
+
 {engineering {machines and devices}}
 ....................................
 {A1} {engineering {machines and devices}}
@@ -13880,6 +13959,21 @@ Science and technology
   842. (  2) 3T *#PT motor [ˈməʊtə] (n) {B2} {engineering} {C1} {transport by car or lorry} двигатель, мотор; (adj) {B2} моторный; (v) {B2} ехать на автомобиле
               xT *#  sensor [ˈsɛnsə] (n) {B2} {engineering} датчик, чувствительный элемент
               xT *#  timer [ˈtaɪmə] (n) {B2} {engineering} таймер
+
+{C1} {engineering {machines and devices}}
+   28. (  1) xT ?#PT activation [ˌæktɪˈveɪʃ(ə)n] (n) {C1} {engineering} {physics and chemistry} активация
+              xT *#  adapter [əˈdæptə] (n) {C1} {engineering} адаптер, переходник
+              4T *#  amplifier [ˈæmplɪfaɪə] (n) {C1} {engineering} {music} усилитель
+              xT *#  antenna [ænˈtɛnə] (n) {C1} {insects, worms, etc} {engineering} {tv, radio and news} {houses and homes} антенна
+              4T ?#  crane [kreɪn] (n) {C1} {engineering} {buildings} кран, {C2} {birds} журавль; (v) вытягивать шею
+              1T *#  generation [ˌʤ ɛnəˈreɪʃən] (n) {B1} {people in society} {history} {family and relationships} поколение, {C1} {engineering} генерация, {C1} {the environment} порождение
+              xT *#  generator [ˈʤ ɛnəreɪtə] (n) {C1} {business} {engineering} генератор
+  729. (  1) 3T ?#PT machinery [məˈʃiːnəri] (n) {C1} {business} {engineering} машины, машинное оборудование, механизм, аппарат
+              xx ?#  machine+tool [məˈʃiːn tuːl] (n) {C1} {engineering} станок
+              3T *#  meter [ˈmiːtə] (n) (US) {A1} {maths and measurement} метр, {C1} {engineering} = a device that measures and records the amount of electricity/gas/water/etc. that you have used or the time and distance you have travelled/etc., (UK) = metre; (v) измерять
+              xx ?#  next-generation [ˌnekst dʒenəˈreɪʃn] (adj) {C1} {engineering} = used to describe a product or form of technology that has been developed recently and is likely to replace current products or technology
+              5T *#  pump [pʌmp] (n) {C1} {engineering} насос, помпа; (v) {C1} {engineering} качать, выкачивать
+              xx ?#  solar+cell [ˌsəʊlə ˈsel] (n) {C1} {the environment} {engineering} солнечная батарея
 
 {maths and measurement}
 -----------------------
@@ -13910,6 +14004,23 @@ Science and technology
  1128. (  1) 3T *#PT scale [skeɪl] (n) {B2} {maths and measurement} масштаб, шкала, {C1} {music} гамма, {C1} {animals} {fish and shellfish} чешуя; {B2} {cooking and eating} чаша весов; (v) весить, взвешивать
               1T *#  set [sɛt] (n) {B1} набор, комплект, {B2} {maths and measurement} множество, {B2} {film and theatre} декорации; (adj) установленный; (v) {B1} {education} {film and theatre} устанавливать, I: set-set-set
  1382. (  1) 3T *#PT vertical [ˈvɜːtɪkəl] (n) вертикаль; (adj) {B2} {colours and shapes} {maths and measurement} вертикальный
+
+{C1} {maths and measurement {mathematical terminology}}
+              5T *#  axis [ˈæksɪs/ˈæksəs] (n) {C1} {space} {maths and measurement} ось, I:axis-axes
+              4T *#  bracket [ˈbrækɪt] (n) {C1} {language} {maths and measurement} скобка; (v) заключать в скобки
+              xx ?#  deduce [dɪˈdjuːs] (v) {C1} {opinion and argument} {maths and measurement} выводить, делать вывод, устанавливать происхождение
+  469. (  1) xT *#PT equation [ɪˈkweɪʃən] (n) {C1} {maths and measurement} уравнение, {C1} = the act of making something equal or considering something as equal, = a problem or situation in which several things must be considered and dealt with
+              3T *#  express [ɪkˈsprɛs] (v) {A2} {opinion and argument} {C1} {maths and measurement} выражать, высказываться; (n) {B1} {transport by bus and train} экспресс
+  528. (  1) 3T *#PT formula [ˈfɔːmjʊlə] (n) {C1} {maths and measurement} {scientific research} формула, {C1} рецепт, I:formula-formulas/formulae
+              3T *#  function [ˈfʌŋkʃən] (n) {C1} {maths and measurement} {C2} {computers} функция, {B1} назначение; (v) {B2} функционировать, работать, действовать
+              xT *#  infinite [ˈɪnfɪnɪt] (adj) {C1} {maths and measurement} бесконечный, безграничный; (n) бесконечность, множество
+              yT *#  infinity [ɪnˈfɪnɪti] (n) {C1} {maths and measurement} бесконечность, безграничность
+  749. (  1) 4T *#PT mathematical [ˌmæθɪˈmætɪkəl] (adj) {C1} {maths and measurement} математический
+              3T *#  proof [pruːf] (n) {B2} {scientific research} {opinion and argument} {C1} {maths and measurement} доказательство; (adj) {B2} {physics and chemistry} непроницаемый; (v) делать непроницаемым
+  962. (  1) xT *#PT ratio [ˈreɪʃɪəʊ] (n) {C1} {maths and measurement} соотношение, отношение, коэффициент, пропорция
+              xx ?#  round+bracket [ˈraʊnd brækɪt] (UK) (n) {C1} {language} {maths and measurement} круглая скобка, (US) = parenthesis
+ 1054. (  1) 5T *#PT segment [ˈsɛgmənt->(n)/sɛgˈmɛnt->(v)] (n) сегмент, отрезок, {C1} {maths and measurement} часть, {C2} {food} доля, долька, кусок; (v) делить на сегменты, делиться на сегменты
+              3T ?#  solid [ˈsɒlɪd] (adj) {B1} твердый, {C1} {colours and shapes} сплошной; (n) {B1} {physics and chemistry} {C1} {colour and shapes} {maths and measurement} твердое тело
 
 {maths and measurement {measurement}}
 .....................................
@@ -13969,6 +14080,33 @@ Science and technology
  1322. (  1) 3T ?#PT tonne [tʌn] (n) {B2} {maths and measurement} тонна, I:tonne-tonne/tonnes
  1395. (  1) 3T *#PT volume [ˈvɑljum] (n) {B2} {maths and measurement} объем, {B2} {literature and writing} том, {B2} {tv, radio and news} {music} громкость; (adj) объемный
 
+{C1} {maths and measurement {measurement}}
+   27. (  1) 4T ?#PT acre [ˈeɪkə] (n) {C1} {maths and measurement} {farming} акр, поместье
+              xT *#  c [siː] (letter) b C d e; (abbr) Coulomb; (n) {B1} {music} C = the 1st note in the scale of C major; (abbr) (C/c) cent(s), {C2} {history} century, (in cooking) cup, (C) {C1} {maths and measurement} Celsius, (©) copyright
+              5T ?#  centigrade [ˈsɛntɪgreɪd] (adj) {C1} {weather} {maths and measurement} стоградусный, = of or using a scale of temperature in which water freezes at 0° and boils at 100°
+              5T *#  diameter [daɪˈæmɪtə] (n) {C1} {colour and shapes} {maths and measurement} диаметр
+  380. (  1) 5T *#PT dimension [(UK)dɪˈmɛnʃən/(US)daɪˈmenʃn] (n) {C1} {colours and spaces} {maths and measurement} измерение, {C1} размерность, величина
+              4T ?#  fahrenheit [ˈfærənhaɪt] (n) {C1} {weather} {maths and measurement} {physics and chemistry} шкала Фаренгейта, [name] Фаренгейт
+  542. (  1) 3T *#PT gallon [ˈgælən] (n) {C1} {maths and measurement} галлон, (UK) = 4.5l, (US) = 3.8l
+              xx ?#  hectare [ˈhekteə(r)/ˈhektɑː(r)] (n) {C1} {maths and measurement} гектар, га
+              xx ?#  kmph [ˌkeɪ em piː ˈeɪtʃ] (abbr) {C1} {maths and measurement} kilometres per hour
+              xx ?#  kph [ˌkeɪ piː ˈeɪtʃ] (abbr) {C1} {maths and measurement} kilometres per hour
+              xT *#  l [ɛl] (letter) k L M n; (abbr) {C1} {maths and measurement} {clothes and fashion} (L) = large (size), (l) {C2} {maths and measurement} litre
+              xT *#  m [ɛm] (letter) l M n o; (abbr) {A2} {maths and measurement} meter, male, married, {C1} {maths and measurement} {clothes and fashion} (M) = medium, {C1} {film and theatre} (Mature) = classified as not recommended for children under the age of 15
+              xT ?#  metric [ˈmɛtrɪk] (n) {C2} {maths and measurement} метрика; (adj) {C1} {maths and measurement} метрический
+              xx ?#  metric+ton [ˌmetrɪk ˈtʌn] (n) {C1} {maths and measurement} метрическая тонна
+              xT ?#  mph [ˌem piː ˈeɪtʃ] (abbr) {C1} {maths and measurement} Miles Per Hour
+              5T ?#  ounce [aʊns] (n) {C1} {cooking and eating} {maths and measurement} унция, капля
+              3T ?#  pace [peɪs] (n) {B2} {sports: other sports} темп, скорость, {C1} {maths and measurement} шаг, походка; (v) {B2} {C1} {sports: other sports} расхаживать, шагать; (prep) {C2} {opinion and argument} = used before a person's name to polite disagree with what they have said
+              3T ?#  pint [paɪnt] (n) {C1} {drinks} {maths and measurement} пинта, кружка, {C1} {drinks} кружка пива
+              xT *#  radius [ˈreɪdiəs] (n) {C1} {maths and measurement} радиус, вылет, {C2} {body} лучевая кость, I: radius-radii
+              xx ?#  right+angle [ˈraɪt æŋɡl] (n) {C1} {colours and shapes} {maths and measurement} = an angle of 90°
+              xT *#  s [ɛs] (letter) r S t u; (abbr) second, {C1} {maths and measurement} {clothes and fashion} (S) = small (size); (suffix) -s
+              3T *#  stone [stəʊn] (n) {A2} {physics and chemistry} {buildings} камень, {B2} {clothes and fashion} = a rare valuable stone, such as a diamond that is used in jewellery, {C1} {maths and measurement} = (in the UK) a unit for measuring weight equal to 6.35 kilograms or 14 pounds
+              zT ?#  tablespoon [ˈteɪblspuːn] (n) {C1} {cooking and eating} {maths and measurement} столовая ложка
+              yT ?#  teaspoon [ˈtiːˌspuːn] (n) {B2} {cooking and eating} {C1} {maths and measurement} чайная ложка
+ 1309. (  1) 3T *#PT width [wɪdθ] (n) {C1} {maths and measurement} {sports: water sports} ширина, широта
+
 {maths and measurement {numbers}}
 .................................
 {A1} {maths and measurement {numbers}}
@@ -14012,12 +14150,31 @@ Science and technology
  1263. (  2) 3T *#PT sum [sʌm] (n) {B2} {money} {maths and measurement} сумма; (v) {B2} складывать
               1T *#  unit [ˈjunət/ˈjunɪt] (n) {A2} блок, единица, {B2} {healthcare} подразделение, элемент, единица измерения, {B2} {houses and homes} секция, {B2} {computers} = a small machine that has a particular purpose or is part of a large machine, {B2} {maths and measurement} = any whole number from 0 to 9; (adj) единичный
 
+{C1} {maths and measurement {numbers}}
+  166. (  1) 3T *#PT calculation [ˌkælkjʊˈleɪʃən] (n) {C1} {maths and measurement} {opinion and argument} расчет, вычисление, калькуляция
+              5T *#  decimal [ˈdɛsɪməl] (adj) десятичный; (n) {C1} {maths and measurement} десятичная дробь
+              1T *#  factor [ˈfæktə] (n) {A2} {change, cause and effect} фактор, {C1} {maths and measurement} коэффициент, множитель; (adj) управляющий
+              1T *#  into [ˈɪntuː] (prep) {A1} {C1} {maths and measurement} в, на, к
+              xT ?#  nil [nɪl] (n)(u) {C1} {maths and measurement} {sports: ball and racket sports} ноль, нуль, ничего, пустой список, пустой указатель
+              xx ?#  nought [nɔːt] (pron) ничто; (n) {C1} {maths and measurement} ноль, нуль
+              xT *#  numerical [nju(ː)ˈmɛrɪkəl] (adj) {C1} {maths and measurement} числовой, численный, цифровой
+              xx *#  ordinal [ˈɔːdɪnl] (adj) порядковый; (n) {C1} {maths and measurement} {language} порядковое числительное
+              1T *#  place [pleɪs] (n) {A1} {B1} {education} место, местечко, {C1} {maths and measurement} = the position of a figure after a decimal point; (v) {B1} размещать
+              1T ?#  score [skɔː] (n) {A2} {games and toys} {sports: ball and racket sports} {education} {C1} {music} {film and theatre} {maths and measurement} счет, количество очков, зарубка; (v) {A2} {games and toys} {sports: ball and racket sports} выигрывать, {B1} {education} засчитывать, овладеть женщиной
+              5T *#  subtract [səbˈtrækt] (v) {C1} {maths and measurement} вычитать, отнимать
+              5T *#  subtraction [səbˈtrækʃən] (n) {C1} {maths and measurement} вычитание
+              1T *#  value [ˈvæljuː] (n) значение, {B1} {money} {shopping} стоимость, {C1} {maths and measurement} величина; (v) ценить, {B2} {money} оценивать
+ 1268. (  2) 5T *#PT variable [ˈveərɪəbl] (n) {C1} {maths and measurement} переменная; (adj) переменный
+
 {maths and measurement {types of mathematics}}
 ..............................................
 {A1} {maths and measurement {types of mathematics}}
 {A2} {maths and measurement {types of mathematics}}
 {B1} {maths and measurement {types of mathematics}}
 {B2} {maths and measurement {types of mathematics}}
+{C1} {maths and measurement {types of mathematics}}
+              4T *#  algebra [ˈælʤ ɪbrə] (n) {C1} {maths and measurement} {C1} {education} алгебра
+              5T *#  arithmetic [əˈrɪθmətɪk->(n)/ˌærɪθˈmɛtɪk->(adj)] (n) {C1} {maths and measurement} {education} арифметика; (adj) арифметический
 
 {physics and chemistry}
 -----------------------
@@ -14045,6 +14202,29 @@ Science and technology
   919. (  1) 5T ?#PT oxygen [ˈɒksɪʤ ən] (n) {B2} {physics and chemistry} кислород; (adj) кислородный
               1T *#  product [ˈprɒdʌkt] (n) {A1} {business} {shopping} {B2} {physics and chemistry} {change, cause and effect} продукт, изделие, произведение
               3T *#  react [ri(ː)ˈækt] (v) {A2} {change, cause and effect} {B2} {physics and chemistry} реагировать, {B1} {health problems} воздействовать
+
+{C1} {physics and chemistry {chemistry and chemicals}}
+   25. (  1) 3T ?#PT acid [ˈæsɪd] (n) {B2} {physics and chemistry} кислота; (adj) {C1} {physics and chemistry} кислотный, едкий
+              5T ?#  acidity [əˈsɪdəti] (n)(u) {C1} {physics and chemistry} кислотность, едкость
+   28. (  1) xT ?#PT activation [ˌæktɪˈveɪʃ(ə)n] (n) {C1} {engineering} {physics and chemistry} активация
+              xx ?#  carbon+monoxide [ˌkɑːbən məˈnɒksaɪd] (n)(u) (CO) {C1} {the environment} {physics and chemistry} окись углерода, угарный газ
+              3T *#  chemistry [ˈkɛmɪstri] (n) {A2} {education} {scientific research} {C1} {physics and chemistry} химия
+  236. (  1) 5T ?#PT composition [ˌkɑmpəˈzɪʃən] (n) {C1} {physics and chemistry} {education} состав, {C2} {art} {music} композиция, структура, смесь, сочинение
+  290. (  1) 4T *#PT copper [ˈkɒpə] (n) {C1} {physics and chemistry} медь, {C2} {law and justice} полицейский; (adj) медный
+              yT ?#  dynamite [ˈdaɪnəmaɪt] (n) {C1} {physics and chemistry} динамит, героин, наркотик
+              xT ?#  glucose [ˈɡluːkəʊs/ˈɡluːkəʊz] (n) {C1} {physics and chemistry} глюкоза, виноградный сахар
+              4T ?#  gunpowder [ˈgʌnˌpaʊdə] (n)(u) {C1} {physics and chemistry} порох
+              5T ?#  helium [ˈhiːliəm] (n) {C1} {physics and chemistry} гелий
+  598. (  1) 5T ?#PT hydrogen [ˈhaɪdrəʤ ən] (n) {C1} {physics and chemistry} водород
+              1T *#  lead [liːd/lɛd] (n) {C1} {physics and chemistry} свинец, {B1} {sports: other sports} руководство, {C1} {film and theatre} исполнитель главной роли; (v) {A2} {change, cause and effect} вести, приводить, I:lead-led-led
+              5T ?#  neon [ˈniːən] (n)(u) (Ne) {C1} {physics and chemistry} неон; (adj) неоновый
+              xT ?#  nitrogen [ˈnaɪtrəʤ ən] (n) {C1} {physics and chemistry} азот
+              5T ?#  organic [ɔːˈgænɪk] (adj) {B2} {farming} {cooking and eating} (of food/farming methods/etc.) = produced or practised without using artificial chemicals, органический, {C1} {biology} = produced by or from living things, {C1} {physics and chemistry} = relating to chemical compounds that contain carbon and mainly or ultimately come from living things
+              5T ?#  ozone [ˈəʊzəʊn] (n)(u) {C1} {physics and chemistry} озон
+              5T ?#  petroleum [pɪˈtrəʊlɪəm] (n)(u) {C1} {physics and chemistry} нефть; (adj) нефтяной
+              3T *#  salt [sɔːlt] (n) {A1} {food} {C1} {physics and chemistry} соль; (adj) морской; (v) солить
+ 1182. (  1) 5T ?#PT synthesis [ˈsɪnθɪsɪs] (n) {C1} {biology} синтез, {C1} {physics and chemistry} соединение
+              5T ?#  synthetic [sɪnˈθɛtɪk] (adj) {C1} {physics and chemistry} синтетический, искусственный
 
 {physics and chemistry {energy and physical forces}}
 ....................................................
@@ -14087,6 +14267,41 @@ Science and technology
               3T *#  stress [strɛs] (n) {A2} {feelings} стресс, {B2} {physics and chemistry} напряжение, усилие, {A2} {language} ударение, акцент; (v) {A2} {language} {B2} {feelings} подчеркивать
               xx ?#  x-ray [ˈɛksˈreɪ] (n) {B2} {physics and chemistry} {healthcare} рентгеновский снимок; (v) {B2} {healthcare} = to photograph and examine bones and organs inside the body using X-rays
 
+{C1} {physics and chemistry {energy and physical forces}}
+   12. (  1) 5T *#PT accelerate [əkˈsɛləreɪt] (v) {C1} {change, cause and effect} {physics and chemistry} {transport by car or lorry} ускорять, ускоряться
+              5T *#  acceleration [əkˌsɛləˈreɪʃ(ə)n] (n) {C1} {physics and chemistry} {C2} {change, cause and effect} ускорение, акселерация
+              xx ?#  atomic+energy [əˌtɒmɪk ˈenədʒi] (n)(u) {C1} {the environment} {physics and chemistry} атомная энергия
+              5T ?#  centigrade [ˈsɛntɪgreɪd] (adj) {C1} {weather} {maths and measurement} стоградусный, = of or using a scale of temperature in which water freezes at 0° and boils at 100°
+              1T *#  charge [ʧɑːʤ ] (n) {C1} {physics and chemistry} заряд, обязанности, {B1} {money} цена, {B2} {law and justice} обвинение, ответственность; (v) {B1} {shopping} {money} назначать цену, {B1} {physics and chemistry} заряжать, {B2} {law and justice} обвинять, {C1} {war and conflict} = to rush forward and attack sb/sth
+              xT ?#  charged [ʧɑːʤ d] -ed: (v) {B1} {shopping} {money} назначать цену, {B1} {physics and chemistry} заряжать, {B2} {law and justice} обвинять, {C1} {war and conflict} = to rush forward and attack sb/sth; (adj) {C1} {physics and chemistry} = with an electric charge
+  190. (  1) 5T *#PT circulate [ˈsɜːkjʊleɪt] (v) {C1} {biology} {physics and chemistry} циркулировать, {C1} распространять, передавать
+              5T *#  conductor [kənˈdʌktə] (n) {C1} {physics and chemistry} проводник, {B1} {music} дирижер, {C2} {transport by bus and train} {jobs} кондуктор
+              5T ?#  emit [ɪˈmɪt] (v) (formal) {C1} {physics and chemistry} излучать, испускать, выделять, выбрасывать
+              1T *#  energy [ˈɛnəʤ i] (n) {A2} {health and fitness} {the environment} {C1} {physics and chemistry} энергия, силы, энергичность
+              5T ?#  evaporate [ɪˈvæpəreɪt] (v) {C1} {physics and chemistry} испаряться, испарять, исчезать
+              5T ?#  evaporation [ɪˌvæpəˈreɪʃən] (n)(u) {C1} {physics and chemistry} испарение, выпаривание
+              4T ?#  fahrenheit [ˈfærənhaɪt] (n) {C1} {weather} {maths and measurement} {physics and chemistry} шкала Фаренгейта, [name] Фаренгейт
+              4T *#  frequency [ˈfriːkwənsi] (n) {B2} {C1} {physics and chemistry} {tv, radio and news} частота, частотность; (adj) {B2} {time} частотный
+              5T ?#  fusion [ˈfjuːʒən] (n) {C1} {physics and chemistry} слияние, сплав, {C2} {music} объединение, плавка
+  557. (  1) 5T ?#PT gravity [ˈgrævɪti] (n) {C1} серьезность, тяжесть, {C1} {space} {physics and chemistry} сила тяжести, тяготение, притяжение
+  690. (  1) 5T *#PT laser [ˈleɪzə] (n) {C1} {physics and chemistry} лазер
+  732. (  1) 5T *#PT magnetic [mægˈnɛtɪk] (adj) {C1} {physics and chemistry} магнитный
+              5T *#  magnetic [mægˈnɛtɪk] (adj) {C1} {physics and chemistry} магнитный
+              5T ?#  magnetism [ˈmægnɪtɪzm] (n) {C1} {physics and chemistry} магнетизм, {C2} {personal qualities} привлекательность
+              4T *#  mechanic [mɪˈkænɪk] (n) {B2} {transport by car or lorry} {jobs} механик, слесарь, машинист, (u) {C1} {physics and chemistry} = the science of movement and force
+              5T *#  mechanical [mɪˈkænɪkəl] (adj) {C1} {physics and chemistry} механический, {B2} {engineering} механистический, технический
+              5T *#  microwave [ˈmaɪkrəʊweɪv] (n) {B1} {cooking and eating} {C1} {physics and chemistry} микроволновая печь, микроволны; (adj) микроволновый
+              xx ?#  nuclear+fusion [ˌnjuːkliə ˈfjuːʒn] (n)(u) {C1} {physics and chemistry} ядерный синтез
+              xx ?#  nuclear+reactor [ˌnjuːkliə riˈæktə(r)] (n) {C1} {the environment} {physics and chemistry} ядерный реактор
+              5T ?#  radiate [ˈreɪdieɪt] (v) {C1} {physics and chemistry} излучать, сиять
+              4T *#  radioactivity [ˈreɪdioʊækˈtɪvəti/ˌreɪdioʊækˈtɪvəti] (n)(u) {C1} {physics and chemistry} радиоактивность
+  964. (  1) 5T *#PT ray [reɪ] (n) {C1} {space} {physics and chemistry} луч; (adj) лучевой; (v) излучать
+              4T ?#  reactor [riˈæktə] (n) {C1} {the environment} {physics and chemistry} реактор, дроссель, стабилизатор
+ 1108. (  1) 5T ?#PT spectrum [ˈspɛktrəm] (n) {C1} {physics and chemistry} спектр; (adj) спектральный
+ 1132. (  1) 3T ?#PT strain [streɪn] (n) {C1} {health problem} штамм, {C1} напряжение, {C1} {physics and chemistry} деформация; (v) напрягать
+              5T *#  thermal [ˈθɜːməl] (adj) {C1} {physics and chemistry} тепловой, термальный, горячий, {C2} {clothes and fashion} = (of clothing) designed to keep you warm by preventing heat from escaping from the body
+              4T ?#  wavelength [ˈweɪvlɛŋθ] (n) {C1} {physics and chemistry} {tv, radio and news} длина волны
+
 {physics and chemistry {materials and properties}}
 ..................................................
 {A1} {physics and chemistry {materials and properties}}
@@ -14125,6 +14340,31 @@ Science and technology
  1246. (  2) 3T ?#PT stretch [strɛʧ] (v) {B2} простираться, {B2} {physics and chemistry} растягивать, {B2} {health and fitness} растягиваться; (n) {B2} протяжение
               3T ?#  tin [tɪn] (n) {B2} {physics and chemistry} олово, {B1} {cooking and eating} банка, белая жесть, жестянка; (adj) жестяной, оловянный; (v) лудить, консервировать
 
+{C1} {physics and chemistry {materials and properties}}
+   64. (  1) xT ?#PT aluminium [ˌæljəˈmɪniəm] (n) {C1} {physics and chemistry} алюминий
+              5T ?#  bond [bɒnd] (n) {B2} {family and relationships} связь, {C1} {law and justice} узы, {C2} {physics and chemistry} соединение; (v) {C1} {physics and chemistry} связывать, {C1} {family and relationships} скреплять; (adj) крепостной
+              5T *#  bronze [brɒnz] (n) {C1} {physics andd chemistry} {art} {sports: other sports} бронза; (adj) {C1} {colours and shapes} бронзовый
+              xT ?#  cement [sɪˈmɛnt] (n) {C1} {physics and chemistry} {buildings} цемент, клей; (v) {C2} {discussion and agreement} цементировать
+              5T *#  chalk [ʧɔːk] (n) {C1} {physics and chemistry} {education} мел, известь; (v) рисовать мелом
+              5T *#  compress [ˈkɒmprɛs->(n)/kəmˈprɛs->(v)] (n) компресс, мягкая повязка; (v) {C1} {physics and chemistry} {C2} {computers} сжимать
+  352. (  1) 5T *#PT density [ˈdɛnsɪti] (n) {C1} {physics and chemistry} плотность
+  401. (  1) 3T ?#PT dissolve [dɪˈzɒlv] (v) {C1} {physics and chemistry} растворить, расторгать
+  509. (  1) xT *#PT fibre [faɪbə] (n) {C1} {cooking and eating} {physics and chemistry} {body} волокно, нить, фибра, = fiber
+              5T ?#  graphite [ˈgræfaɪt] (n)(u) {C1} {physics and chemistry} графит
+              yT ?#  insulated [ˈɪnsjʊleɪtɪd] -ed: (v) изолировать, обособлять, разобщать; (adj) {C1} {physics and chemistry} {buildings} изолированный, разобщенный
+              xT ?#  lightweight [ˈlaɪtweɪt] (adj) {C1} {physics and chemistry} легкий, облегченный; (n) {C1} {sports: other sports} легкий вес
+              yT ?#  nanotechnology [ˌnænəʊtekˈnɒlədʒi] (n)(u) {C1} {physics and chemistry} нанотехнологии
+              xT ?#  nylon [ˈnaɪlɒn] (n) {C1} {physics and chemistry} {clothes and fashion} нейлон; (adj) нейлоновый
+              1T *#  property [ˈprɑpərti] (n) {B1} {C1} {physics and chemistry} свойство, {B2} {buildings} собственность, имущество; (adj) имущественный
+              xx ?#  raw+material [ˌrɑː məˈtɪəriəl] (n) {C1} {physics and chemistry} сырье, исходный материал
+              5T ?#  reinforce [ˌriɪnˈfɔrs] (v) {C1} {physics and chemistry} {buildings} укреплять, {B2} усиливать
+              5T ?#  rigid [ˈrɪʤ ɪd] (adj) {C1} {physics and chemistry} жесткий, твердый
+ 1068. (  1) 5T ?#PT shatter [ˈʃætə] (v) поколебать, {C1} {physics and chemistry} разрушать, {C1} расшатывать; (n) обломок
+              4T *#  silicon [ˈsɪlɪkən] (n) {C1} {physics and chemistry} кремний
+              4T ?#  sodium [ˈsəʊdiəm] (n) {C1} {physics and chemistry} натрий
+ 1250. (  2) 3T ?#PT twist [twɪst] (n) {C1} {literature and writing} {film and theatre} {transport by car or lorry} поворот, {C1} кручение, скручивание; (v) {C1} {physics and chemistry} {health problems} крутить
+              4T ?#  uranium [juˈreɪniəm] (n)(u) (U) {C1} {physics and chemistry} уран
+
 {physics and chemistry {molecular and matter}}
 ..............................................
 {A1} {physics and chemistry {molecular and matter}}
@@ -14138,6 +14378,18 @@ Science and technology
               3T *#  atom [ˈætəm] (n) {B2} {physics and chemistry} атом, мельчайшая частица
               1T *#  matter [ˈmætə] (n) {A2} вопрос, дело, {B2} {physics and chemistry} материя; (v) {A2} иметь значение, гноиться
               5T ?#  molecule [mɒlɪkjuːl] (n) {B2} {physics and chemistry} молекула
+
+{C1} {physics and chemistry {molecular and matter}}
+              5T *#  atomic [əˈtɒmɪk] (adj) {C1} {physics and chemistry} атомный
+  320. (  1) 5T *#PT crystal [ˈkrɪstl] (n) {C1} {physics and chemistry} {clothes and fashion} кристалл
+              5T *#  electron [ɪˈlɛktrɒn] (n) {C1} {physics and chemistry} электрон
+              3T *#  mass [mæs] (n) {B2} {C1} {physics and chemistry} масса, {B2} {politics} народные массы; (adj) {B2} массовый
+              5T ?#  molecular [məʊˈlɛkjʊlə] (adj) {C1} {physics and chemistry} молекулярный
+              5T ?#  nucleus [ˈnjuːklɪəs] (n) {C1} {physics and chemistry} {biology} ядро, зародыш
+              5T *#  particle [ˈpɑːtɪkl] (n) {B2} {lanugage} {C1} {physics and chemistry} частица, крупица
+ 1264. (  1) 5T *#PT vacuum [ˈvækjʊəm] (n) {C1} {physics and chemistry} вакуум; (v) {B2} {houses and homes} пылесосить
+              5T ?#  vapor [ˈveɪpə] (US) (n) {C1} {weather} {physics and chemistry} пар, пары, испарения; (v) испаряться, (UK) = vapour
+              zT ?#  vapour [ˈveɪpə] (UK) (n) {C1} {weather} {physics and chemistry} пар, пары, испарения; (v) испаряться, (US) = vapor
 
 {scientific research}
 ---------------------
@@ -14163,6 +14415,16 @@ Science and technology
  1017. (  1) 4T *#PT psychological [ˌsaɪkəˈlɒʤ ɪkəl] (adj) {B2} {scientific research} психологический
  1018. (  1) 4T *#PT psychologist [saɪˈkɒləʤ ɪst] (n) {B2} {jobs} {scientific research} психолог
 
+{C1} {scientific research {branches of science}}
+              xx ?#  geochemical [ˌdʒiːəʊˈkemɪkl] (adj) {C1} {scientific research} геохимический, = connected with the study of the different chemical substances that combine to form the earth and its rocks and minerals
+              xx ?#  geochemistry [ˌdʒiːəʊˈkemɪstri] (n)(u) {C1} {scientific research} геохимия, = the study of the different chemical substances that combine to form the earth and its rocks and minerals
+              xx ?#  geoscience [ˈdʒiːəʊsaɪəns] (n)(u) {C1} {scientific research} геонауки, наука о земле, = the sciences concerned with studying the earth or part of it especially geology
+              yT ?#  meteorological [(UK)ˌmiːtiərəˈlɒdʒɪkl/(US)ˌmiːtiərəˈlɑːdʒɪkl] (adj) {C1} {scientific research} метеорологический, атмосферический
+              5T ?#  meteorology [(UK)ˌmiːtiəˈrɒləʤ i/(US)ˌmiːtiəˈrɑːlədʒi] (n)(u) {C1} {scientific research} метеорология
+              5T *#  physiology [ˌfɪzɪˈɒləʤ i] (n) {C1} {scientific research} {biology} физиология
+              xx ?#  soil+science [ˈsɔɪl saɪəns] (n) {C1} {scientific research} почвоведение
+              yT ?#  zoology [zəʊˈɒləʤ i] (n) {C1} {education} {scientific research} {biology} зоология
+
 {scientific research {data}}
 ............................
 {A1} {scientific research {data}}
@@ -14180,6 +14442,10 @@ Science and technology
 {B2} {scientific research {data}}
  1009. (  1) 3T *#PT proof [pruːf] (n) {B2} {scientific research} {opinion and argument} {C1} {maths and measurement} доказательство; (adj) {B2} {physics and chemistry} непроницаемый; (v) делать непроницаемым
  1122. (  1) 3T *#PT sample [(UK)ˈsɑːmpl/(US)ˈsæmpəl] (n) {B1} образец, пример, {B2} {healthcare} {shopping} {scientific research} выборка; (v) пробовать
+
+{C1} {scientific research {data}}
+              xx ?#  carbon+dating [kɑːbən ˈdeɪtɪŋ] (n)(u) {C1} {scientific research} {history} радиоуглеродное датирование
+  528. (  1) 3T *#PT formula [ˈfɔːmjʊlə] (n) {C1} {maths and measurement} {scientific research} формула, {C1} рецепт, I:formula-formulas/formulae
 
 {scientific research {experiments}}
 ...................................
@@ -14201,6 +14467,16 @@ Science and technology
               xx ?#  thought+experiment [θɔːt ɪkˈspɛrɪmənt] (n) {B2} {scientific research} мысленный эксперимент
  1338. (  1) 3T *#PT trial [ˈtraɪəl] (adj) пробный, испытательный; (n) {B2} {law and justice} суд, {B2} {scientific research} испытание
 
+{C1} {scientific research {experiments}}
+             xx ?#  clinical+trial [ˌklɪnɪkl ˈtraɪəl] (n) {C1} {healthcare} {scientific research} клиническое исследование
+             1T *#  control [kənˈtrəʊl] (n) {A2} {C1} {scientific research} {computers} контроль, управление, проверка; (v) {A2} управлять, регулировать; (adj) управляющий
+  444. (  1) xT *#PT empirical [ɛmˈpɪrɪkəl] (adj) {C1} {scientific research} эмпирический, основанный на опыте
+              xx *#  empirically [ɛmˈpɪrɪkəli] -ly: (adj) {C1} {scientific research} эмпирический, основанный на опыте; (adv) {C1} {scientific research} эмпирически
+  491. (  1) 4T *#PT experimental [ɛksˌpɛrɪˈmɛntl] (adj) {C1} {scientific research} экспериментальный, {C1} опытный
+              4T *#  experimentation [ɛksˌpɛrɪmɛnˈteɪʃən] (n)(u) (formal) {C1} {scientific research} экспериментирование
+              xx ?#  guinea+pig [ˈɡɪni pɪɡ] (n) {B1} {animals} морская свинка, {C1} {scientific research} подопытный кролик, мичман
+              1T *#  subject [ˈsʌbʤ ɪkt->(adv,n)/səbˈʤ ɛkt->(v)] (v) подвергать, подчинять; (n) {A1} {language} {education} {C1} {scintific research} предмет; (adj) {B2} подлежащий, подданный
+
 {scientific research {results}}
 ...............................
 {A1} {scientific research {results}}
@@ -14221,6 +14497,14 @@ Science and technology
               3T *#  negative [ˈnɛgətɪv] (adj) {A1} {language} {B1} {opinion and argument} {B2} {maths and measurement} отрицательный; (n) {B2} {scientific research} отрицательный ответ, {B2} отказ
   968. (  1) 3T *#PT positive [ˈpɒzətɪv] (adj) {A1} {language} {A2} {opinion and argument} {B1} {success} {personal qualities} {B2} {doubt, guessing and certainty} {maths and measurement} положительный; (n) {B2} {scientific research} позитив
 
+{C1} {scientific research {results}}
+              5T ?#  bias [ˈbaɪəs] (n) {C1} {scientific research} смещение, {B2} {opinion and argument} {social issues} предвзятость, уклон; (adj) косой; (adv) косо; (v) {C1} {opinion and argument} {social issues} {scientific research} оказывать влияние, склонять
+  293. (  1) 5T ?#PT correlate [ˈkɒrəleɪt] (v) {C1} {scientific research} коррелировать, соотносить
+  294. (  1) xT *#PT correlation [ˌkɒrɪˈleɪʃən] (n) {C1} {scientific research} корреляция, соотношение, {C1} взаимосвязь
+              5T ?#  detectable [dɪˈtektəbl] (adj) {C1} {scientific research} обнаруживаемый, обнаружимый
+              xx ?#  disprove [ˌdɪsˈpruːv] (v) {C1} {scientific research} опровергать, доказывать ложность, I:disprove-disproved-disproved/disproven
+              xx ?#  self-report [ˌself rɪˈpɔːt] (n) {C1} {scientific research} самоотчет; (v) {C1} {scientific research} = to give details about an aspect of your life typically relating to your physical or mental condition
+
 {scientific research {scientific equipment}}
 ............................................
 {A1} {scientific research {scientific equipment}}
@@ -14232,6 +14516,11 @@ Science and technology
               3T *#  instrument [ˈɪnstrʊmənt] (n) {A2} {music} {B2} {scientific research} {engineering} инструмент, прибор
               5T *#  microscope [ˈmaɪkrəskəʊp] (n) {B2} {scientific research} микроскоп
               5T ?#  telescope [ˈtɛlɪskəʊp] (n) {B2} {space} {scientific research} телескоп; (v) сжимать
+
+{C1} {scientific research {scientific equipment}}
+   75. (  1) xT ?#PT apparatus [ˌæpəˈreɪtəs] (n) аппарат, (u) {C1} {scientific research} аппаратура, {C1} прибор
+  512. (  2) 5T *#PT filter [ˈfɪltə] (n) {C1} {scientific reseach} {C2} {phones, email and the internet} {computers} фильтр; (v) {C1} фильтровать
+              xx ?#  test+tube [(UK)ˈtest tjuːb/(US)ˈtest tuːb] (n) {C1} {scientific research} пробирка
 
 {scientific research {study}}
 .............................
@@ -14263,6 +14552,12 @@ Science and technology
   828. (  1) 3T *#PT model [ˈmɑdəl] (n) {A1} {A2} {clothes and fashion} {jobs} модель, образец; (v) {B1} {clothes and fashion} {B2} {scientific research} {clothes and fashion} {C1} {art} моделировать; (adj) образцовый
   989. (  1) 3T *#PT principle [ˈprɪnsəpl] (n) {B2} {personal qualities} {scientific research} принцип, закон
 
+{C1} {scientific research {study}}
+              5T ?#  advancement [ədˈvɑːnsmənt] (n) {C1} {success} {scientific research} продвижение, прогресс, успех
+              xx ?#  pseudoscience [(UK)ˈsuːdəʊsaɪəns/ˈsjuːdəʊsaɪəns/(US)ˈsuːdəʊsaɪəns] (n) {C1} {scientific research} псевдонаука
+ 1202. (  1) 5T *#PT theoretical [θɪəˈrɛtɪkəl] (adj) {C1} {scientific research} теоретический
+              5T ?#  thesis [ˈθiːsɪs/ˈθɛsɪs] (n) {B2} {education} {C1} {opinion and argument} {scientific research} тезис, диссертация
+
 Sport
 =====
 {sports: ball and racket sports}
@@ -14276,6 +14571,10 @@ Sport
 {B1} {sports: ball and racket sports {american football}}
 {B2} {sports: ball and racket sports {american football}}
   621. (  1) xT ?#PT helmet [ˈhɛlmɪt] (n) {B2} {clothes and fashion} {transport by car or lorry} {sports: ball and racket sports} каска, шлем, шапка
+
+{C1} {sports: ball and racket sports {american football}}
+              xx ?#  shoulder+pad [ˈʃəʊldə pæd] (n) {C1} {clothes and fashion} {sports: ball and racket sports} плечевая подкладка
+              xx ?#  super+bowl [ ˈsuːpə bəʊl] (n) (the Super Bowl) {C1} {sports: ball and racket sports} Супербоул, = an American football game played every year to decide the winner of the National Football League
 
 {sports: ball and racket sports {ball sports in general}}
 .........................................................
@@ -14333,6 +14632,28 @@ Sport
               1T *#  take [teɪk] (v) {A1} принимать, {A2} {education} {B1} {war and conflict} брать, {B2} {opinion and argument} считать, {A1} {transport by bus and train} использовать, {B2} {sports: ball and racket sports} = to kick or throw the ball from a fixed or agreed position, I: take-took-taken
  1324. (  1) 5T ?#PT tournament [ˈtʊənəmənt] (n) {B2} {sports: ball and racket sports} турнир, средневековый турнир
 
+{C1} {sports: ball and racket sports {ball sports in general}}
+              xx ?#  at+home [æt hoʊm] (idiom) {A1} = a person's own house/flat/etc., у себя, {B1} = comfortable and relaxed, {C1} {sports: ball and racket sports} = if a sports team plays at home it plays in the town/etc. that it comes from
+              xx ?#  commentary+box [(UK)ˈkɒməntri bɒks/(US)ˈkɑːmənteri bɑːks] (UK) (n) = a place in a sports ground where the people who describe what is happening in a sports event for radio or television sit
+              3T ?#  defend [dɪˈfɛnd] (v) {B2} {war and conflict} защищать, {B2} {opinion and argument} отстаивать, {C1} {sports: ball and racket sports} {B2} {law and justice} защищаться
+              1T *#  draw [drɔː] (n) {C1} {sports: ball and racket sports} ничья, жеребьевка; (v) {A1} {art} рисовать, привлекать, {C1} {money} проводить, {C1} {sports: ball and racket sports} играть в ничью, I:draw-drew-drawn
+              5T ?#  foul [faʊl] (n) {C1} {sports: ball and racket sports} нарушение правил, фол; (v) {C1} {sports: ball and racket sports} засорять, портить; (adj) {C2} {weather} грязный, отвратительный
+              xx ?#  goalscorer [ˈɡəʊlskɔːrə(r)] (n) {C1} {sports: ball and racket sports} бомбардир
+              4T *#  keeper [ˈkiːpə] (n) {C1} {sports: ball and racket sports} (informal) вратарь, хранитель, смотритель, сторож
+              xx ?#  league+table [ˈliːɡ teɪbl] (UK) (n) {C1} {sports: ball and racket sports} турнирная таблица
+              xx ?#  match+day [ˈmætʃ deɪ] (UK) (n) {C1} {sports: ball and racket sports} день матча
+              xx ?#  mexican+wave [meksɪkən ˈweɪv] (UK) {C1} {sports: ball and racket sports} = a continuous movement that looks like a wave on the sea made by a large group of people especially people watching a sports game when one person after another stands up/raises their arms and then sits down again, (US) = the wave
+              xT ?#  nil [nɪl] (n)(u) {C1} {maths and measurement} {sports: ball and racket sports} ноль, нуль, ничего, пустой список, пустой указатель
+              3T ?#  offense [əˈfɛns] (US) (n) преступление, правонарушение, {C1} {sports: ball and racket sports} нарушение, обида, оскорбление, (UK) = offence
+              1T *#  pass [(UK)pɑːs/(US)pæs] (n) {C1} {sports: ball and racket sports} пасс, передача, {B1} {education} проход, {B1} {transport by bus and train} пропуск; (v) {A2} {education} проходить, {B1} {sports: ball and racket sports} передавать, {B2} {politics} принимать
+              zT ?#  preseason [ˌpriːˈsiːzn] (adj) {C1} {sports: ball and racket sports} предсезонный; (n) ​{C1} {sports: ball and racket sports} = the period of time before the regular sports season begins
+              1T *#  rest [rɛst] (n) {A2} {healthcare} отдых, {A2} остальные, остальное, остаток, покой; (v) {A2} {healthcare} {C1} {sports: ball and racket sports} отдыхать, покоиться
+              xx ?#  semi-finalist [(UK)ˌsemi ˈfaɪnəlɪst/(US)ˌsemi ˈfaɪnəlɪst/ˌsemaɪ ˈfaɪnəlɪst] (n) {C1} {sports: ball and racket sports} полуфиналист
+              xx ?#  sending-off [(UK)ˌsendɪŋ ˈɒf/(US)ˌsendɪŋ ˈɔːf] (UK) (n) {C1} {sports: ball and racket sports} удаление
+ 1147. (  2) 3T *#PT substitute [ˈsʌbstɪtjuːt] (n) {C1} замена, {C1} {sports: ball and racket sports} = a player who replaces another player in a sport game; (v) {C1} заменять
+ 1184. (  1) 3T ?#PT tackle [ˈtækl] (n) {C1} {sports: ball and racket sports} снасти, принадлежности, оборудование; (v) {C1} схватить, {B2} энергично браться, {C1} {sports: ball and racket sports} хватать
+              3T ?#  whistle [ˈwɪsl] (n) {C1} {sports: ball and racket sports} {B2} {transport by bus and train} свисток, свист; (v) {C1} {music} свистеть
+
 {sports: ball and racket sports {baseball}}
 ...........................................
 {A1} {sports: ball and racket sports {baseball}}
@@ -14345,7 +14666,12 @@ Sport
               zT ?#  ballpark [ˈbɔːlpɑːk] (n) {B2} {sports: ball and racket sports} стадион, бейсбольный стадион
               yT ?#  catcher [ˈkæʧə] (n) {B2} {sports: ball and racket sports} ловец, уловитель
 
+{C1} {sports: ball and racket sports {baseball}}
+              1T *#  base [beɪs] (n) {B1} {war and conflict} {C1} {sports: ball and racket sports} база, основание; (adj) базовый, основной; (v) {B1} основывать, базировать
+              yT ?#  batter [ˈbætə] (v) {C2} {crime and punishment} колотить; (n) {C1} {cooking and eating} жидкое тесто, {C1} {sports: ball and racket sports} отбивающий мяч
 
+
+<here
 {sports: ball and racket sports {basketball}}
 .............................................
 {A1} {sports: ball and racket sports {basketball}}

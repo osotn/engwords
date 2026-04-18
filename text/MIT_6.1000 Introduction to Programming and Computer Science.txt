@@ -1241,7 +1241,6 @@ files can have any name you like, but they will all have the file extension .png
     pylab.plot([5,6,10,3])              #draw again on figure 1
     pylab.savefig('Figure-Jane')        #save figure 1
 
-
     pylab.title('5% Growth, Compounded Annually')
     pylab.xlabel('Years of Compounding')
     pylab.ylabel('Value of Principal ($)')
@@ -1316,4 +1315,795 @@ The 0/1 knapsack problem can be formalized as follows:
           n−1
           ∑V[i]* I[i].weight ≤ w
           i= 0
+
+Try to implement this formulation of the problem in a straightforward way:
+    1. Enumerate all possible combinations of items. That is to say, generate all subsets of the set of items.This is called the power set.
+    2. Remove all of the combinations whose weight exceeds the allowed weight.
+    3. From the remaining combinations choose any one whose value is the largest.
+
+The complexity of this implementation is O(n*2^n), where n is the length of items.
+The function genPowerset returns a list of lists of Items. This list is of length 2^n, and the longest list in it is of length n.
+
+    def genPowerset(items, constraint, getVal, getWeight)
+
+Notice that this solution is better than any of the solutions found by the
+greedy algorithms. The essence of a greedy algorithm is making the best (as defined by some metric)
+local choice at each step. It makes a choice that is locally
+optimal. However, as this example illustrates, a series of locally optimal decisions
+does not always lead to a solution that is globally optimal.
+
+    def getBinaryRep(n, numDigits):
+        """Assumes n and numDigits are non-negative ints
+           Returns a str of length numDigits that is a binary
+           representation of n"""
+        result = ''
+        while n > 0:
+            result = str(n%2) + result
+            n = n//2
+        if len(result) > numDigits:
+            raise ValueError('not enough digits')
+        for i in range(numDigits - len(result)):
+            result = '0' + result
+        return result
+
+    def genPowerset(L):
+        """Assumes L is a list
+           Returns a list of lists that contains all possible
+           combinations of the elements of L. E.g., if
+           L is [1, 2] it will return a list with elements
+           [], [1], [2], and [1,2]."""
+        powerset = []
+        for i in range(0, 2**len(L)):
+            binStr = getBinaryRep(i, len(L))
+            subset = []
+            for j in range(len(L)):
+                if binStr[j] == '1':
+                    subset.append(L[j])
+            powerset.append(subset)
+        return powerset
+
+    def chooseBest(pset, maxWeight, getVal, getWeight):
+        bestVal = 0.0
+        bestSet = None
+        for items in pset:
+            itemsVal = 0.0
+            itemsWeight = 0.0
+            for item in items:
+                itemsVal += getVal(item)
+                itemsWeight += getWeight(item)
+            if itemsWeight <= maxWeight and itemsVal > bestVal:
+                bestVal = itemsVal
+                bestSet = items
+        return (bestSet, bestVal)
+
+    def testBest(maxWeight = 20):
+        items = buildItems()
+        pset = genPowerset(items)
+        taken, val = chooseBest(pset, maxWeight, Item.getValue, Item.getWeight)
+        print('Total value of items taken is', val)
+        for item in taken:
+            print(item)
+
+Despite the fact that they do not always find the best solution, greedy algorithms
+are often used in practice. They are usually easier to implement and more
+efficient to run than algorithms guaranteed to find optimal solutions. As Ivan
+Boesky once said, “I think greed is healthy. You can be greedy and still feel good
+about yourself.”
+
+There is a variant of the knapsack problem, called the fractional (or continuous)
+knapsack problem, for which a greedy algorithm is guaranteed to find an
+optimal solution. Since the items are infinitely divisible, it always makes sense to
+take as much as possible of the item with the highest remaining value-to-weight
+ratio. In this case, a greedy-by-density algorithm will always find the optimal solution.
+
+12.2 Graph Optimization Problems
+
+Suppose you had a list of
+the prices of all of the airline flights between each pair of cities in the United
+States. Suppose also that for all cities, A, B, and C, the cost of flying from A to C by
+way of B was the cost of flying from A to B plus the cost of flying from B to C. A
+few questions you might like to ask are:
+
+    • What is the smallest number of stops between some pair of cities?
+    • What is the least expensive airfare between some pair of cities?
+    • What is the least expensive airfare between some pair of cities involving no more than two stops?
+    • What is the least expensive way to visit some collection of cities?
+
+All of these problems (and many others) can be easily formalized as graph problems.
+
+A graph is a set of objects called nodes (or vertices) connected by a set of edges (or arcs).
+If the edges are directional the graph is called a directed graph or digraph.
+In directed graph, if there is an edge from n1 to n2, we refer to n1 as the source or parent node and n2 as the destination or child node.
+
+Graphs are typically used to represent situations in which there are interesting
+relations among the parts. The first documented use of graphs in mathematics
+was in 1735 when the Swiss mathematician Leonhard Euler used what has
+come to be known as graph theory to formulate and solve the Königsberg bridges
+problem.
+
+If a weight is associated with each edge in a graph (or digraph) it is called a weighted graph.
+
+class Node(object):
+    def __init__(self, name):
+        """Assumes name is a string"""
+        self.name = name
+    def getName(self):
+        return self.name
+    def __str__(self):
+        return self.name
+
+class Edge(object):
+    def __init__(self, src, dest):
+        """Assumes src and dest are nodes"""
+        self.src = src
+        self.dest = dest
+    def getSource(self):
+        return self.src
+    def getDestination(self):
+        return self.dest
+    def __str__(self):
+        return self.src.getName() + '->' + self.dest.getName()
+
+class WeightedEdge(Edge):
+    def __init__(self, src, dest, weight = 1.0):
+        """Assumes src and dest are nodes, weight a number"""
+        self.src = src
+        self.dest = dest
+        self.weight = weight
+    def getWeight(self):
+        return self.weight
+    def __str__(self):
+        return self.src.getName() + '->(' + str(self.weight) + ')' + self.dest.getName()
+
+
+class Digraph(object):
+    #nodes is a list of the nodes in the graph
+    #edges is a dict mapping each node to a list of its children
+    def __init__(self):
+        self.nodes = []
+        self.edges = {}
+    def addNode(self, node):
+        if node in self.nodes:
+            raise ValueError('Duplicate node')
+        else:
+            self.nodes.append(node)
+            self.edges[node] = []
+    def addEdge(self, edge):
+        src = edge.getSource()
+        dest = edge.getDestination()
+        if not (src in self.nodes and dest in self.nodes):
+            raise ValueError('Node not in graph')
+        self.edges[src].append(dest)
+    def childrenOf(self, node):
+        return self.edges[node]
+    def hasNode(self, node):
+        return node in self.nodes
+    def __str__(self):
+        result = ''
+        for src in self.nodes:
+            for dest in self.edges[src]:
+                result = result + src.getName() + '->'c+ dest.getName() + '\n'
+        return result[:-1] #omit final newline
+
+class Graph(Digraph):
+    def addEdge(self, edge):
+        Digraph.addEdge(self, edge)
+        rev = Edge(edge.getDestination(), edge.getSource())
+        Digraph.addEdge(self, rev)
+
+One important decision is the choice of data structure used to represent a Di-
+graph. One common representation is an n × n adjacency matrix, where n is the
+number of nodes in the graph. Each cell of the matrix contains information (e.g.,
+weights) about the edges connecting the pair of nodes <𝑖, 𝑗>. If the edges are
+unweighted, each entry is True if and only if there is an edge from 𝑖 to 𝑗.
+
+Another common representation is an adjacency list, which we use here.
+Class Digraph has two instance variables. The variable nodes is a Python list containing
+the names of the nodes in the Digraph. The connectivity of the nodes is
+represented using an adjacency list implemented as a dictionary. The variable
+edges is a dictionary that maps each Node in the Digraph to a list of the children of
+that Node.
+
+12.2.1 Some Classic Graph Theoretic Problems
+
+Some of the best-known graph optimization problems are:
+    - shortest path. For some pair of nodes, 𝑛1 and 𝑛2, find the shortest sequence of edges <𝑠h , 𝑑h > (source node and destination node), such that
+        o The source node in the first edge is 𝑛1
+        o The destination node of the last edge is 𝑛2
+        o For all edges 𝑒1 and 𝑒2 in the sequence, if 𝑒2 follows 𝑒1 in the sequence, the source node of 𝑒2 is the destination node of 𝑒1.
+    - shortest weighted path. This is like the shortest path, except instead of choosing the shortest sequence of edges that connects two nodes, we define some function on the weights of the edges in the sequence (e.g., their sum) and minimize the value.
+    - Maximum clique. A clique is a set of nodes such that there is an edge between each pair of nodes in the set. A maximum clique is a clique of the largest size in a graph.
+    - Min cut. Given two sets of nodes in a graph, a cut is a set of edges whose removal eliminates all paths from each node in one set to each node in the other. The minimum cut is the smallest set of edges whose removal accomplishes this.
+
+12.2.2 Shortest Path: Depth First Search and Breadth First Search.
+
+def printPath(path):
+    """Assumes path is a list of nodes"""
+    result = ''
+    for i in range(len(path)):
+        result = result + str(path[i])
+        if i != len(path) - 1:
+            result = result + '->'
+    return result
+
+def DFS(graph, start, end, path, shortest, toPrint = False):
+    """Assumes graph is a Digraph; start and end are nodes;
+       path and shortest are lists of nodes
+       Returns a shortest path from start to end in graph"""
+    path = path + [start]
+    if toPrint:
+       print('Current DFS path:', printPath(path))
+    if start == end:
+        return path
+    for node in graph.childrenOf(start):
+        if node not in path: #avoid cycles
+            if shortest == None or len(path) < len(shortest):
+                newPath = DFS(graph, node, end, path, shortest, toPrint)
+                if newPath != None:
+                    shortest = newPath
+    return shortest
+
+def shortestPath(graph, start, end, toPrint = False):
+    """Assumes graph is a Digraph; start and end are nodes
+       Returns a shortest path from start to end in graph"""
+    return DFS(graph, start, end, [], None, toPrint
+
+DFS = depth-first-search
+
+def testSP():
+    nodes = []
+    for name in range(6): #Create 6 nodes
+        nodes.append (Node (str(name)))
+    g = Digraph()
+    for n in nodes:
+        g.addNode(n)
+    g.addEdge(Edge (nodes[0], nodes[1]))
+    g.addEdge(Edge (nodes [1], nodes [2]))
+    g.addEdge(Edge (nodes [2], nodes[3]))
+    g.addEdge(Edge (nodes [2], nodes[4]))
+    g.addEdge(Edge (nodes [3], nodes[4]))
+    g.addEdge(Edge (nodes [3], nodes[5]))
+    g.addEdge(Edge (nodes[0], nodes[2]))
+    g.addEdge(Edge (nodes [1], nodes[0]))
+    g.addEdge(Edge (nodes [3], nodes[1]))
+    g.addEdge(Edge (nodes [4], nodes[0]))
+    sp = shortestPath(g, nodes [0], nodes [5], toPrint = True) print('Shortest path is', printPath(sp))
+
+testSP()
+
+Another common approach is BFS = breadth first search.
+In BFS traversal one fisrt visits all children of the start node. If none of those is the end node, one visits all children of each of those nodes. It implemented iteratively.
+
+def BFS(graph, start, end, toPrint = False):
+    """Assumes graph is a Digraph; start and end are nodes
+       Returns a shortest path from start to end in graph"""
+    initPath = [start]
+    pathQueue = [initPath]
+    if toPrint:
+        print('Current BFS path:', printPath(path))
+    while len(pathQueue) != 0:
+        #Get and remove oldest element in pathQueue
+        tmpPath = pathQueue.pop(0)
+        print('Current BFS path:', printPath(tmpPath))
+        lastNode = tmpPath[-1]
+        if lastNode == end:
+            return tmpPath
+        for nextNode in graph.childrenOf(lastNode):
+            if nextNode not in tmpPath:
+                newPath = tmpPath + [nextNode]
+                pathQueue.append(newPath)
+    return None
+
+sp = BFS(g, nodes[0], nodes[5])
+print('Shortest path found by BFS:', printPath(sp))
+
+Comfortingly, each algorithm found a path of the same length. In this case,
+they found the same path. However, if a graph contains more than one shortest
+path between a pair of nodes, DFS and BFS will not necessarily find the same
+shortest path.
+
+As mentioned above, BFS is a convenient way to search for a path with the
+fewest edges because the first time a path is found, it is guaranteed to be such a
+path.
+
+13. Dynamic Programming
+
+This is called memoization, and is the key idea behind dynamic programming.
+
+A problem has optimal substructure if a globally optimal solution can be found by combining optimal solutions to local subproblems.
+A problem has overlapping subproblems if an optimal solution involves solving the same problem multiple times.
+
+13.1 Fibonacci Sequences, Revisited
+
+def fib(n):
+    """Assumes n is an int >= 0
+       Returns Fibonacci of n"""
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)
+
+While this implementation of the recurrence is obviously correct, it is terribly inefficient.
+
+The complexity is roughly O(fib(n)).
+
+fib(120) is 8,670,007,398,507,948,658,051,921. If each recursive call took a nanosecond, fib(120) would take about 250,000 years to finish.
+
+It doesn't require a genius to think that it might be a good
+idea to record the value returned by the first call, and then look it up rather than
+compute it each time it is needed. This is called memoization, and is the key idea
+behind dynamic programming.
+
+def fastFib(n, memo = {}):
+    """Assumes n is an int >= 0, memo used only by recursive calls
+       Returns Fibonacci of n"""
+    if n == 0 or n == 1:
+        return 1
+    try:
+        return memo[n]
+    except KeyError:
+        result = fastFib(n-1, memo) + fastFib(n-2, memo)
+        memo[n] = result
+        return result
+
+n = 20
+print("Fib(n) = ", fastFib(n))
+
+The complexity is O(n).
+
+13.2 Dynamic Programming and the 0/1 Knapsack Problem
+
+A rooted binary tree is an acyclic directed graph in which
+    • There is exactly one node with no parents. This is called the root.
+    • Each non-root node has exactly one parent.
+    • Each node has at most two children. A childless node is called a leaf.
+
+Each node in the search tree for the 0/1 knapsack problem is labeled with a
+quadruple that denotes a partial solution to the knapsack problem. The elements
+of the quadruple are:
+    • A set of items to be taken,
+    • The list of items for which a decision has not been made,
+    • The total value of the items in the set of items to be taken (this is merely an
+optimization, since the value could be computed from the set), and
+    • The remaining space in the knapsack. (Again, this is an optimization, since it
+is merely the difference between the weight allowed and the weight of all the
+items taken so far.)
+
+The tree is built top-down starting with the root.
+
+Because each edge represents a decision (to take or not to take an item), such trees are called decision trees.
+
+Let’s think about the size of the tree we are exploring. Since at each level of
+the tree we are deciding to keep or not keep one item, the maximum depth of the
+tree is len(items). At level 0 we have only one node, at level 1 up to two nodes, at
+level 2 up to four nodes, at level 3 up to eight nodes. At level 39 we have up to 2^39
+nodes. No wonder it takes a long time to run!
+
+13.3 Dynamic Programming and Divide and Conquer
+
+Like divide-and-conquer algorithms, dynamic programming is based upon solving
+independent subproblems and then combining those solutions. There are,
+however, some important differences.
+
+14. Random walks and more about data visualization
+
+A program is deterministic if whenever it is run on the same input, it produces
+the same output.
+
+Many aspects of the world in which we live can
+be accurately modeled only as stochastic processes.
+
+A process is stochastic if its
+next state can depend upon some random element. The outcome of a stochastic
+process is usually uncertain. Therefore, we can rarely make definitive statements
+about what they will do. Instead, we make probabilistic statements about what
+they might do. The rest of this book deals with building programs that help to
+understand uncertain situations. Many of these programs will be simulation
+models.
+
+A simulation mimics the activity of a real system.
+Think of that code as an experimental device, called a simulation model, that provides useful information about the possible behaviors of the system being modeled.
+
+It is important to remember that simulation models, like all models, are only
+an approximation of reality.
+
+14.1 Random Walks
+It is known as Brownian motion.
+
+Brownian motion is an example of a random walk. Random walks are widely
+used to model physical processes (e.g., diffusion), biological processes (e.g., the
+kinetics of displacement of RNA from heteroduplexes by DNA), and social processes (e.g., movements of the stock market).
+
+14.2 The Drunkard Walk
+
+Let’s start by sketching a simple model of the situation using Cartesian coordinates.
+Assume that the farmer is standing in a field where the grass has, mysteriously, been
+cut to resemble a piece of graph paper. Assume further that each step the farmer
+takes is of length one and is parallel to either the x-axis or y-axis.
+
+Looking at the smiley faces in the picture on the right, we see that with a
+probability of 0.25 she will be 0 units away, with a probability of 0.25 she will be 2
+units away, and with a probability of 0.5 she will be root of 2 units away.
+On average he will be away after two steps than after one step.
+
+class Location(object):
+    def __init__(self, x, y):
+        """x and y are numbers"""
+        self.x, self.y = x, y
+    def move(self, deltaX, deltaY):
+        """deltaX and deltaY are numbers"""
+        return Location(self.x + deltaX, self.y + deltaY)
+    def getX(self):
+        return self.x
+    def getY(self):
+        return self.y
+    def distFrom(self, other):
+        ox, oy = other.x, other.y
+        xDist, ydist = self.x – ox, self.y - oy
+        return (xDist**2 + yDist**2)**0.5
+    def __str__(self):
+        return '<' + str(self.x) + ', ' + str(self.y) + '>'
+
+class Field(object):
+    def __init__(self):
+        self.drunks = {}
+    def addDrunk(self, drunk, loc):
+        if drunk in self.drunks:
+            raise ValueError('Duplicate drunk')
+        else:
+            self.drunks[drunk] = loc
+    def moveDrunk(self, drunk):
+        if drunk not in self.drunks:
+            raise ValueError('Drunk not in field')
+        xDist, yDist = drunk.takeStep()
+        currentLocation = self.drunks[drunk]
+        #use move method of Location to get new location
+        self.drunks[drunk] = currentLocation.move(xDist, yDist)
+    def getLoc(self, drunk):
+        if drunk not in self.drunks:
+            raise ValueError('Drunk not in field')
+        return self.drunks[drunk]
+
+import random
+
+class Drunk(object):
+    def __init__(self, name = None):
+        """Assumes name is a str"""
+        self.name = name
+    def __str__(self):
+        if self != None:
+            return self.name
+            return 'Anonymous'
+
+class UsualDrunk(Drunk):
+    def takeStep(self):
+        stepChoices = [(0,1), (0,-1), (1, 0), (-1, 0)]
+        return random.choice(stepChoices)
+
+def walk(f, d, numSteps):
+    """Assumes: f a Field, d a Drunk in f, and numSteps an int >= 0.
+       Moves d numSteps times; returns the distance between the
+       final location and the location at the start of the walk."""
+    start = f.getLoc(d)
+    for s in range(numSteps):
+        f.moveDrunk(d)
+    return start.distFrom(f.getLoc(d))
+
+def simWalks(numSteps, numTrials, dClass):
+    """Assumes numSteps an int >= 0, numTrials an int > 0,
+       dClass a subclass of Drunk
+       Simulates numTrials walks of numSteps steps each.
+       Returns a list of the final distances for each trial"""
+    Homer = dClass()
+    origin = Location(0, 0)
+    distances = []
+    for t in range(numTrials):
+        f = Field()
+        f.addDrunk(Homer, origin)
+        distances.append(round(walk(f, Homer, numTrials), 1))
+    return distances
+
+def drunkTest(walkLengths, numTrials, dClass):
+    """Assumes walkLengths a sequence of ints >= 0
+       numTrials an int > 0, dClass a subclass of Drunk
+       For each number of steps in walkLengths, runs simWalks with
+       numTrials walks and prints results"""
+    for numSteps in walkLengths:
+        distances = simWalks(numSteps, numTrials, dClass)
+        print(dClass.__name__, 'random walk of', numSteps, 'steps')
+        print(' Mean =', round(sum(distances)/len(distances), 4))
+        print(' Max =', max(distances), 'Min =', min(distances))
+
+drunkTest((10, 100, 1000, 10000), 100, UsualDrunk)
+
+14.3 Biased Random Walks
+
+class ColdDrunk(Drunk):
+    def takeStep(self):
+        stepChoices = [(0.0,1.0), (0.0,-2.0), (1.0, 0.0),(-1.0, 0.0)]
+        return random.choice(stepChoices)
+
+class EWDrunk(Drunk):
+    def takeStep(self):
+        stepChoices = [(1.0, 0.0), (-1.0, 0.0)]
+        return random.choice(stepChoices)
+
+def simAll(drunkKinds, walkLengths, numTrials):
+    for dClass in drunkKinds:
+        drunkTest(walkLengths, numTrials, dClass)
+
+simAll((UsualDrunk, ColdDrunk, EWDrunk), (100, 1000), 10)
+
+
+
+class styleIterator(object):
+    def __init__(self, styles):
+        self.index = 0
+        self.styles = styles
+    def nextStyle(self):
+        result = self.styles[self.index]
+        if self.index == len(self.styles) - 1:
+            self.index = 0
+        else:
+            self.index += 1
+        return result
+
+Notice that both the
+x and y axes are on a logarithmic scale. This was done by calling the plotting
+functions pylab.semilogx and pylab.semilogy. These functions are always applied
+to the current figure.
+
+
+def simDrunk(numTrials, dClass, walkLengths):
+    meanDistances = []
+    for numSteps in walkLengths:
+        print('Starting simulation of', numSteps, 'steps')
+        trials = simWalks(numSteps, numTrials, dClass)
+        mean = sum(trials)/len(trials)
+        meanDistances.append(mean)
+    return meanDistances
+
+def simAll1(drunkKinds, walkLengths, numTrials):
+    styleChoice = styleIterator(('m-', 'r:', 'k-.'))
+    for dClass in drunkKinds:
+        curStyle = styleChoice.nextStyle()
+        print('Starting simulation of', dClass.__name__)
+        means = simDrunk(numTrials, dClass, walkLengths)
+        pylab.plot(walkLengths, means, curStyle, label = dClass.__name__)
+    pylab.title('Mean Distance from Origin ('+ str(numTrials) + ' trials)')
+    pylab.xlabel('Number of Steps')
+    pylab.ylabel('Distance from Origin')
+    pylab.legend(loc = 'best')
+    pylab.semilogx()
+    pylab.semilogy()
+
+pylab.figure(1)
+simAll1((UsualDrunk, ColdDrunk, EWDrunk), (10,100,1000,10000,100000), 100)
+
+
+pylab.show()
+
+Let's construct a different plot, that may help us get more insight into the behavior of these three classes.
+The next code plots the distribution of final locations for a single number of steps.
+
+def getFinalLocs(numSteps, numTrials, dClass):
+    locs = []
+    d = dClass()
+    for t in range(numTrials):
+        f = Field()
+        f.addDrunk(d, Location(0, 0))
+        for s in range(numSteps):
+            f.moveDrunk(d)
+        locs.append(f.getLoc(d))
+    return locs
+
+def plotLocs(drunkKinds, numSteps, numTrials):
+    styleChoice = styleIterator(('k+', 'r^', 'mo'))
+    for dClass in drunkKinds:
+        locs = getFinalLocs(numSteps, numTrials, dClass)
+        xVals, yVals = [], []
+        for loc in locs:
+            xVals.append(loc.getX())
+            yVals.append(loc.getY())
+        meanX = sum(xVals)/len(xVals)
+        meanY = sum(yVals)/len(yVals)
+        curStyle = styleChoice.nextStyle()
+        pylab.plot(xVals, yVals, curStyle, label = dClass.__name__ + ' mean loc. = <' + str(meanX) + ', ' + str(meanY) + '>')
+        pylab.title('Location at End of Walks (' + str(numSteps) + ' steps)')
+        pylab.xlabel('Steps East/West of Origin')
+        pylab.ylabel('Steps North/South of Origin')
+        pylab.legend(loc = 'lower left')
+
+plotLocs((UsualDrunk, ColdDrunk, EWDrunk), 100, 200)
+
+
+14.4 Treacherous Fields
+Game Chutes and Ladders (US) and Snakes and Ladders (UK).
+Landing on a square representing virtue send a player up a ladder to a higher tier of life.
+Landing on a square evil sent a player back to a lower tier of life.
+
+15. Stochastic Programs, Probability, and Distributions
+=======================================================
+The physical world is a completely predictable place - all future states of a physical system can be derived from knowledge about its current state.
+
+For centuries, this was the prevailing scientific wisdom; then along came
+quantum mechanics and the Copenhagen Doctrine. The doctrine’s proponents,
+led by Bohr and Heisenberg, argued that at its most fundamental level the behavior
+of the physical world cannot be predicted. One can make probabilistic statements
+of the form “x is highly likely to occur,” but not statements of the form
+“x is certain to occur.” Other distinguished physicists, most notably Einstein and
+Schrödinger, vehemently disagreed.
+
+This debate roiled the worlds of physics, philosophy, and even religion.
+The heart of the debate was the validity of causal nondeterminism, i.e., the belief that not every event is caused by previous events. Einstein and Schrödinger found this view philosophically unacceptable and could accept was predictive nondeterminism.
+Einstein said "The essentially statistical character of contemporary theory is solely to be ascribed to the fact that this theory operates with an incomplete description of physical systems."
+
+Whether the reason we cannon predict events is because they are truly unpredictable or is because we simply don't have enough information to predict them is of no practical importance.
+
+Perhaps the outcomes of horse races, spins of roulette wheels, and stock market investments are causally deterministic.
+However, there is ample evidence that it is perilous to treat them as predictably deterministic.
+
+15.1 Stochastic Programs
+A program is deterministic if whenever it is run on the same input, it produces the same output.
+
+def squareRoot(x, epsilon):
+    """Assumes x and epsilon are of type float; x >= 0 and epsilon > 0
+       Returns float y such that x-epsilon <= y*y <= x+epsilon"""
+
+Implementing a program to play a dice game, say backgammon or craps.
+
+def rollDie():
+    """Returns an int between 1 and 6"""
+
+Not all interesting specifications can be met by deterministic implementations.
+his would be problematic, since it allows the implementation to return the
+same number each time it is called, which would make for a pretty boring game.
+It would be better to specify that rollDie “returns a randomly chosen int between
+1 and 6,” thus requiring a stochastic implementation.
+
+Most programming languages, including Python, include simple ways to
+write stochastic programs, i.e., programs that exploit randomness.
+
+Rather than asking some person to roll a die multiple times, we wrote a program to simulate that activity.
+
+The code
+uses one of several useful functions found in the imported Python standard library
+module random. As we saw earlier, the function random.choice takes a nonempty
+sequence as its argument and returns a randomly chosen member of that
+sequence. Almost all of the functions in random are built using the function random.random,
+which, as we saw earlier in the book, generates a random floating
+point number between 0.0 and 1.0.
+
+import random
+
+def rollDie():
+    """Returns a random int between 1 and 6"""
+    return random.choice([1,2,3,4,5,6])
+def rollN(n):
+    result = ''
+    for i in range(n):
+        result = result + str(rollDie())
+    print(result)
+
+rollN(10)
+
+This is a bit easier to see if we simplify the situation by thinking about a two sided
+die (also known as a coin) with the values 0 and 1. This allows us to think
+of the output of a call of rollN as a binary number. When we use a binary die,
+there are 2n possible sequences that testN might return. Each of these sequences
+is equally likely; therefore each has a probability of occurring of (1/2)^n.
+
+The probability of rolling then consecutive 1s is (1/6)^10 = 1/6,000,000.
+Probability of not rolling a 1 ten time = (5/6)^10 = 0.16
+Probability of rolling at least one 1,  = 1 - (5/6)^10  = 0.84
+
+15.3 Inferential Statistics
+We can use a systematic process to derive the precise probability of some complex event based upon knowing the probability of one or more simpler events.
+
+def flip(numFlips):
+    """Assumes numFlips a positive int"""
+    heads = 0
+    for i in range(numFlips):
+        if random.choice(('H', 'T')) == 'H':
+            heads += 1
+    return heads/numFlips
+
+def flipSim(numFlipsPerTrial, numTrials):
+    """Assumes numFlipsPerTrial and numTrials positive ints"""
+    fracHeads = []
+    for i in range(numTrials):
+        fracHeads.append(flip(numFlipsPerTrial))
+    mean = sum(fracHeads)/len(fracHeads)
+    return mean
+
+print('Mean =', flipSim(10, 1)):
+
+
+We are depending upon is the law of large numbers (Bernoulli theorem).
+The law states that in repeated independent tests with the same actual probability p of a particular outcome in each test, the chance that the fraction of times that outcome occurs differs from p converges to zero as the number of trials goes to infinity.
+
+It is worth noting that the law of large numbers does not imply, as too many
+seem to think, that if deviations from expected behavior occur, these deviations
+are likely to be “evened out” by opposite deviations in the future. This misapplication
+of the law of large numbers is known as the gambler’s fallacy.
+
+Success in most endeavors requires a combination of skill and luck. The skill
+component determines the mean and the luck component accounts for the variability.
+The randomness of luck leads to regression to the mean.
+
+import random
+import pylab
+
+def flip(numFlips):
+    """Assumes numFlips a positive int"""
+    heads = 0
+    for i in range(numFlips):
+        if random.choice(('H', 'T')) == 'H':
+            heads += 1
+    return heads/numFlips
+
+
+def regressToMean(numFlips, numTrials):
+    #Get fraction of heads for each trial of numFlips
+    fracHeads = []
+    for t in range(numTrials):
+        fracHeads.append(flip(numFlips))
+    #Find trials with extreme results and for each the next trial
+    extremes, nextTrials = [], []
+    for i in range(len(fracHeads) - 1):
+        if fracHeads[i] < 0.33 or fracHeads[i] > 0.66:
+            extremes.append(fracHeads[i])
+            nextTrials.append(fracHeads[i+1])
+    #Plot results
+    pylab.plot(range(len(extremes)), extremes, 'ko', label = 'Extreme')
+    pylab.plot(range(len(nextTrials)), nextTrials, 'k^', label = 'Next Trial')
+    pylab.axhline(0.5)
+    pylab.ylim(0, 1)
+    pylab.xlim(-1, len(extremes) + 1)
+    pylab.xlabel('Extreme Example and Next Trial')
+    pylab.ylabel('Fraction Heads')
+    pylab.title('Regression to the Mean')
+    pylab.legend(loc = 'best')
+
+pylab.figure(1)
+regressToMean(15, 40)
+pylab.show()
+
+The horizontal line at 0.5, the expected mean, is created using the axhline
+function. The function pylab.xlim controls the extent of the x-axis. The function
+call pylab.xlim(xmin, xmax) sets the minimum and maximum values of the x-axis
+of the current figure. The function call pylab.xlim() returns a tuple composed of
+the minimum and maximum values of the x-axis of the current figure. The
+function pylab.ylim works the same way.
+
+
+The line random.seed(0) near the bottom ensures that the pseudorandom number generator used by random.random will
+generate the same sequence of pseudorandom numbers each time this code is executed
+
+The function random.seed can be
+called with any number. If it is called with no argument, the seed is chosen at
+random.
+
+How many samples do we need to look at before we can have justified confi-
+dence in our answer? This depends on the variance in the underlying distribu-
+tion. Roughly speaking, variance is a measure of how much spread there is in the
+possible different outcomes. More formally, the variance of a collection of values,
+𝑋 , is defined as:
+
+        variance(X) = SUM(x - u)^2 / |X|
+
+    X - size of collection
+    u - is its mean
+
+Informally, the variance describes what fraction of the values are close to the mean.
+
+
+The standard deviation of a collection of values is the square root of the variance.
+While it contains exactly the same information as the variance, the standard
+deviation is easier to interpret because it is in the same units as the original
+data.
+
+
+
+
 

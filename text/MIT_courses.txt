@@ -59,15 +59,43 @@ https://catalog.mit.edu/degree-charts/electrical-engineering-computing-6-5/
                    6.1910_2_David_Harris_Sarah_Harris-Digital_Design_and_Computer_Architecture-EN.pdf,
                    6.1910_3_Computer Organization and Design- The Hardware_Software Interface.pdf
  
-6.1800      Computer Systems Engineering
-            books: 6.1800_Principles of Computer System Design An Introduction Part II (MIT 6.004).pdf
+6.1800      Computer Systems Engineering => 6.1910
+            books: 6.1800_Principles of Computer System Design An Introduction-2009.pdf
+                   6.1800_Principles of Computer System Design An Introduction Part II (MIT 6.004).pdf
+
+6.1810      Operating System Engineering => 6.1910
+            Books: 6.1810_1_Andrew S. Tanenbaum - Modern Operating Systems.pdf
+                   6.1810_2_Operating Systems - Three Easy Pieces.pdf
+                   6.1810_3a_WritingOS.pdf
+                   6.1810_3_book-rev10.pdf / https://github.com/mit-pdos/xv6-public 
+                                             https://github.com/jserv/xv6-x86_64
+                   ~ 6.1810_3_RISCV_book-riscv-rev3.pdf = RISCV
+                   
+                   x86_64 => Rust https://os.phil-opp.com/ (good documentation)
+                   x86 => https://littleosbook.github.io/
+                   x86_64 => https://wiki.osdev.org/Meaty_Skeleton
+                   x86 => https://web.stanford.edu/class/cs140/projects/pintos/pintos.pdf / 
+
+                   https://www.youtube.com/playlist?list=PLm3B56ql_akNcvH8vvJRYOc7TbYhRs19M
+
+6.5820      Computer Networks => 6.1810
+            Books: 6.5820_Computer_Networks_Fifth_Edition_A_Systems_Approach_Larry_L_Peterson_Bruce_S_Daviewww.ebook-dl.com_.pdf
+
 
 6.2000      Electrical Circuits: Modeling and Design of Physical => Physics II (GIR)
             books: 6.2000_Agarwal and Lang (2005) Foundations of Analog and Digital.pdf
 
-
-18.01       Calculus I: Single Variable Calculus
+18.01       Calculus I:  Single Variable Calculus
             video: https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.1x+2T2019/course/
+            Books: 18_01_mitres_18_001_f17_full_book.pdf18_01_mitres_18_001_f17_full_book.pdf
+18.02       Calculus II: Multivariable Calculus
+18.03       Differential Equations
+18.04       Complex Variables
+18.05       Introduction to Probability and Statistics
+18.06       Linear Algebra
+
+
+
 
 
 8.01        Physics I           (Classical Mechanics)
@@ -76,7 +104,10 @@ https://catalog.mit.edu/degree-charts/electrical-engineering-computing-6-5/
 8.04        Quantum Physics I
 8.05        Quantum Physics II
 8.06        Quantum Physics II
+            books: 8.01_Douglas Giancoli - Physics for Scientists & Engineers (2020, Pearson) - libgen.li.pdf
 
+24.00       Problems of Philosophy
+            Books: 24.00_Introduction_to_Philosophy-WEB_cszrKYp.pdf
 
 
 !!! https://github.com/lighthousand/books/blob/master/the-pragmatic-programmer.pdf - books

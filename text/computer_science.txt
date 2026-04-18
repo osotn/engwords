@@ -5,6 +5,35 @@ Computer science illuminated, 2016
 
 A computing system made up of many layers, each layer plays a specific role in the overall design of the system: Information -> Hardware -> Programming -> Operating Systems -> Applications -> Communications.
 
+Laying the Groundwork Laying the Groundwork
+    1. The Big Picture
+The Information Layer
+    2. Binary Values and Number Systems
+    3. Data Representation
+The Hardware Layer
+    4. Gates and Circuits
+    5. Computing Components
+The Programming Layer
+    6. Low-Level Programming Languages and Pseudocode
+    7. Problem Solving and Algorithms
+    8. Abstract Data Types and Subprograms
+    9. Object Oriented Design and High Level Programming Languages
+The Operation Systems Layer
+   10. Operating Systems
+   11. File Systems and Directories
+The Application Layer
+   12. Information Systems
+   13. Artificial Intelligence
+   14. Simulation, Graphics, Gaming, and Other Applications.
+The Communications Layer
+   15. Networks
+   16. The World Wide Web
+   17. Computer Security
+In Conclusion
+   18. Limitations of Computing
+
+
+
 1. The Big Picture
 ------------------
 
@@ -2365,4 +2394,214 @@ any two arbitrary people is generally short.
 17. Computer Security
 ---------------------
 17.1 Security at All Levels
+Issues related to computer security must be dealt with at all levels in various ways.
+
+    - Information Security
+
+Information security makes certain that data cannot be read or modified
+by anyone without the proper authorization, and that the data will be available when
+needed to those who do.
+
+Information security can be described as the synthesis of confidentiality, integrity, and
+availability — the so-called CIA triad
+
+Confidentiality is ensuring that key data remains protected from unauthorized access.
+
+Integrity is ensuring that data can be modified only by appropriate mechanisms. It
+defines the level of trust you can have in the information.
+
+Availability is the degree to which authorized users can access appropriate information
+for legitimate purposes when needed. Even if data is protected, it isn't useful if you can’t
+get to it.
+
+From a business point of view, planning for information security requires risk analysis,
+which is the process of determining which data needs protecting, identifying the risks to
+that data, and calculating the likelihood that a risk may become reality. Once a risk analysis
+is complete, plans can be implemented to manage the risks accordingly. A risk is the pairing
+of a threat to a vulnerability. We want to minimize our vulnerability to threats that put us
+at the most risk. These threats can be either malicious, such as those posed by a hacker, or
+accidental, such as a system crash.
+
+17.2 Preventing Unauthorized Access
+
+One of the most obvious security issues from the user’s perspective is keeping other people
+from accessing your accounts and information. When you log into a website, for example,
+providing a username and password, you are performing user authentication. That is, you
+are convincing the software system that you are who you say you are.
+
+the username and password make up the authentication
+credentials, the information provided by the user to identify themselves. There are three
+general types of authentication credentials. The first, and most common, is based on
+something that the user knows, such as a username and password, a personal identification
+number (PIN), or a combination of these items.
+
+The second type is based on something that the user has, such as an identification card
+with a magnetic strip or a smart card that contains an embedded memory chip. This
+approach is more complex to administer, and often requires special hardware, but is
+generally considered more secure than the first.
+
+The third type of authentication credentials is based on biometrics, which are related to
+what a person is physiologically. Examples of biometrics include the analysis of fingerprints,
+retina pattern, or voice pattern. This approach is the most expensive to implement,
+Biometric analysis must deal with the problems of false rejection (rejecting an authorized
+individual) and false acceptance (accepting an unauthorized individual).
+
+    - Passwords
+Password is combined with username.
+
+    - CAPTCHA
+CAPTCHA A software mechanism used to verify that a web form is submitted by a human and not an automated program.
+
+ = Completely Automated Public Turing test to tell Computers and Humans Apart
+ 
+17.3 Malicious Code
+Malicious code, or malware, can be defined as any program code that explicitly attempts to bypass appropriate authorization safeguards and or perform unauthorized functions.
+
+There are many categories of malicious code. The term computer virus is often used to describe any malicious code.
+A virus is a program that embeds a copy itself in another program.
+
+A worm is self replicating like a virus but does not require a host program to infect.
+The worm runs as a stand alone program.
+A worm tends to cause problems on the networks it uses to send copies of itself to other systems.
+
+A Trojan horse is a program that appears to be helpful in some way, but actually causes some kind of problem when executed.
+
+A logic bomb is malicious code that executes when a specific system oriented event occurs.
+
+    - Antivirus Software
+
+    - Security Attacks
+
+Phishing is a technique that uses a web page that looks like an official part of some trusted environment, but is actually a page designed to collect key information such as usernames and passwords.
+
+Spoofing is an attack that allows one user to masquerade as another.
+
+A back door is a feature of a program that allows special access to a computer system or application, usually granting high levels of functional privileges. A programmer explicitly put a back door into a system, perhaps for bening testing purposes, or perhaps for the unscrupulous intent to bypass the system security at a later point.
+
+Buffer overflow is a defect in a computer program that could cause a system to crash and leave the user with
+heightened privileges
+
+A denial of service (DoS) attack does not directly corrupt data or give inappropriate
+access. Instead, it renders a system essentially useless by keeping a valid user from being able
+to access the resource. Usually, a DoS attack is network based, caused by flooding a website
+or other network resource with communication packets that keep it so busy it cannot deal
+with authorized users. It may even cause the system itself to crash due to the sheer volume
+of requests for its attention.
+
+Man-in-the-middle is a security attack in which network communication is intercepted in an attempt to obtain key
+data.
+
+17.4 Cryptography
+From the Greek term for "secret writing". It is the field of study related to encoded information.
+Encryption is the process of converting ordinary text, referred to a plaintext in cryptography terminology, into a form that is unreadable, called ciphertext.
+
+Decryption is reverse this process, translating ciphertext into plaintext.
+
+A cipher is an algorithm used to perform a particular type of encryption and decryption.
+The key to a cipher is the set of particular parameters that guide the algorithm.
+
+Substitution cipher A cipher that substitutes one character with another.
+
+Transposition cipher rearrange the order of the existing characters in a message in a certain way.
+
+Cryptanalysis is the process of breaking a cryptographic code.
+
+In public key cryptography each user has a pair of keys that are related mathematically.
+This relationship is so complex that a message encrypted with one key can be decrypted only with the corresponding partner key. One is the public key, other private key.
+
+Public key encrytion has also given rise to the use of digital signatures, which offer a way to sign a document by appending extra data to the message that is both unique to the sender and very difficult to forge.
+
+17.5 Protecting your information online
+
+In Conclusion
+=============
+18. Limitations of Computing
+----------------------------
+18.1 Hardware
+One factor is that numbers are infinite, but the representation of them within the computer is not.
+Another problem with hardware is just the fact that it it hardware; that is, it is made up of mechanical and electronic components that can fail. Another set of problems occurs when data is transmitted from one internal device to another of from one computer to another.
+
+    - Limits on Arithmetic
+There are limitations imposed by computer hardware on the representations of both integer numbers and real numbers.
+
+    - Integer Numbers
+Book The limits of Computing, tells the following fable.
+The moral of this story is that integer numbers can get very big very fast. If a computer
+word is 64 bits and we represent only positive numbers, we could just represent the number
+of kernels on the 64th square. If we tried to add up the kernels on the 64 squares, we could
+not do so. Overflow would occur.
+
+The hardware of a particular machine determines the limits of the numbers, both real
+and integer, that can be represented. Some software solutions, however, allow programs to
+overcome these limitations.
+We could represent a very large number as a list of smaller numbers. The program that manipulates integers in these forms would have to add each pair of digits beginning at the rightmost and add any carry into the next addition to the left.
+
+    - Real numbers
+We said that a real number is stored as an integer along with information
+about the position of the radix point. To better understand why real numbers pose a
+problem, let’s look at a coding scheme that represents the digits and the radix-point
+information.
+
+Representational (round-off) error An arithmetic error caused by the fact that the precision of the result of an
+arithmetic operation is greater than the precision of our machine
+
+Underflow The condition that occurs when the results of a calculation are too small to represent in a given
+machine
+
+Overflow The condition that occurs when the results of a calculation are too large to represent in a given machine
+
+Cancellation error A loss of accuracy during addition or subtraction of numbers of widely differing sizes, due to
+limits of precision
+
+The moral of this discussion is twofold. First, the
+results of real calculations often are not what you expect. Second, if you are working with
+very large numbers or very small numbers, you need to be very careful of the order in which
+you perform the calculations.
+
+    - Limits on Components
+“My hard disk crashed.” “The file server was down.” “My email went down last night.”
+
+Preventive maintenance also means that the computer is housed in an appropriate
+physical environment. Large mainframe computers often require air-conditioned, dust-free
+rooms.
+
+    - Limits on Communications
+Therefore, it is extremely important that the data not be corrupted in any way. This
+realization leads to strategies known as error-detecting and error-correcting codes.
+
+
+18.2 Software
+We have all encountered horror stories about software that contained errors.
+
+    - Complexity of Software
+If we accept the premise that commercial software contains errors, the logical question is
+“Why?” Don’t software developers test their products? The problem is actually not a lack of
+diligence but rather our old nemesis complexity. As our machines have grown increasingly
+more powerful, the problems that can be tackled have become increasingly more complex.
+A single programmer with a problem moved to a programming team with a problem and
+finally graduated to a team of teams with a problem.
+
+Software testing can demonstrate the presence of bugs but cannot prove their absence.
+We can test software, find errors and fix them, and then test the software some more. As we
+find problems and fix them, we raise our confidence that the software performs as it should.
+But we can never guarantee that we have removed all of the bugs. There is always the
+possibility of another bug lurking in the software that we haven’t found yet.
+
+Although the complexity of large software systems makes error-free products almost an
+impossibility, it doesn't mean that we should just give up. There are strategies that we can
+adopt that, if used, improve the quality of software.
+
+    - Software Engineering
+Four stages of computer problem solving: write the specification,
+develop the algorithm, implement the algorithm, and maintain the program. When we
+move from small, well-defined tasks to large software projects, we need to add two extra
+layers on top of these:
+software requirements and specifications. Software requirements are broad, but precise,
+statements outlining what is to be provided by the software product. Software
+specifications are a detailed description of the function, inputs, processing, outputs, and
+special features of a software product. The specifications tell what the program does, but
+not how it does it.
+
+18.3 Problems
+
 
