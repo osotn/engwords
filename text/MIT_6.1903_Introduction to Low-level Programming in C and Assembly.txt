@@ -1,0 +1,987 @@
+6.1903_1_lowlevelprogramming.pdf
+
+1. Basic Computer Architecture
+------------------------------
+1.1 The Core Architecture
+1.1.1 Model of Computation
+
+
+6.1903_2_CSAPP_2016.pdf
+
+This book (known as CS:APP) is for computer scientists, computer engineers, and
+others who want to be able to write better programs by learning what is going on
+“under the hood” of a computer system.
+
+1. A Tour of Computer Systems
+=============================
+A computer system consists of hardware and systems software that work together to run application programs.
+
+#include <stdio.h>
+int main()
+{
+    printf("hello, world\n");
+    return 0;
+}
+
+$ xxd ch1_01.c 
+00000000: 2369 6e63 6c75 6465 203c 7374 6469 6f2e  #include <stdio.
+00000010: 683e 0a69 6e74 206d 6169 6e28 290a 7b0a  h>.int main().{.
+00000020: 2020 2020 7072 696e 7466 2822 6865 6c6c      printf("hell
+00000030: 6f2c 2077 6f72 6c64 5c6e 2229 3b0a 2020  o, world\n");.  
+00000040: 2020 7265 7475 726e 2030 3b0a 7d0a 0a      return 0;.}..
+
+1.1 Information Is Bits + Context
+Our hello program begins life as a source program (or source file) that the programmer creates with an editor and saves in the a text file called hello.c. The source program is sequence of bits, each with a value of 0 or 1, organized in 8 bit chunk called bytes. Each byte represents some text character in the program.
+
+All information in a system - including disk files, programs stored in memory, user data stored in memory, and data transferred across a network. The only thing that distinguishes different data objects is the context in which we view them.
+
+1.2 Programs Are Translated by Other Programs into Different Forms
+The hello program begins life as a high-level C program because it can be read and understand by human beings in that form.
+C statements must be translated by other programs into a sequence of low-level machine-language instructions.
+These instructions are then packaged in a form called an executable object program and stored as a binary disk file.
+Object programs are also referred to as executable object files.
+
+    hello.c -> |preprocessor| -> hello.i -> |compiler| -> hello.s -> |assember| -> hello.o -> |linker| -> hello
+
+> gcc -o hello hello.c
+
+    - Preprocessor (cpp) modifies the original C program according to directives that begin with # character.
+    - Compiler (gcc) translates the text file hello.i into text file hello.s which contains an assembly language program.
+    - Assembler (as) translate hello.s into machine-language instructions, packages them in a form known as a relocatable object program, and stores the result in the object file hello.o.
+    - Linking phase. Hello program calls the printf function, which is part of the standard C library provided by every C compiler. The linker (ld) handles this merging. The result is the hello file, which is an executable object file that is ready to be loaded into memory and executed by the system.
+
+1.4 Processors Read and Interpret Instructions Stored in Memory
+To run the executable file on a Unix system, we type its name to an application program known as a shell:
+> ./hello
+The shell is a command line interpreter that prints a promt, waits for you to type a command line, and then performs the command.
+
+1.4.1 Hardware Organization of a System
+To understand what happens to our hello program when we run it, we need to understand the hardware organization of a typical system
+
+Buses. Running throughout the system is a collection of electrical conduits called buses that carry bytes of information back and forth between the components. 
+
+I/O Devices. Input / Output devices are the system's connection to the external world. Each I/O device is connected to the I/O bus by either a controller or an adapter.
+
+Main Memory. The main memory is a temporary storage device that holds both a program and the data it manipulates while the processor is executing the program.
+
+Processor. CPU is the engine that interprets (or executes) instructions stored in main memory. At its core is a word size storage device called PC. There are only a few of simple operations and they revolve around main memory the register file, and ALU. Operations: load (from memory into a register), store (from a register to memory), operate, jump (change PC).
+
+1.4.2 Running to hello Program.
+Shell program is executing its instructions, waiting for us to type a command. As we type the characters ./hello at the keyboard, the shell program reads each one into a register and then stores it in memory.
+When we hit the enter key on the keyboard, the shell knows that we have finished typing the command.
+The shell then loads the executable hello file by executing a sequence of instructions that copies the code and data in the hello object file from disk to main memory. The data includes the string of characters "hello, world\n" that will eventually be printed out.
+Using a technique known as DMA the data travel directly from disk to main memory, without passing through the processor.
+Once the code and data in the hello object file are loaded into memory, the processor begins executing the machine-language instructions in the hello program's main routine. These instruction copy the bytes in the "hello, world\n" string from memory to the register file, and from there to the display device, where they are displayed on the screen.
+
+1.5 Caches Matter
+A system spends a lot of time moving information from one place to another.
+Because of physical laws, larger storage devices are slower than smaller storage devices.
+System designers include smaller, faster storage devices called cache memories (or simple caches).
+
+1.7 The OS Manages the Hardware
+The OS has two primary purpose: 1) to protect the hardware from misuse by runaway applications 2) to provide applications with simple uniform mechanisms for manipulating complicated and often wildly different low-level hardware devices.
+The OS achieves both goals via the fundamental abstractions: processes, virtual memory, files.
+
+1.7.1 Processes
+The OS provides the illusion that the program is the only one running on the system.
+A process is the OS abstraction for a running program.
+
+Part I Program Structure
+========================
+2 Representing and Manipulating Information
+-------------------------------------------
+Modern computers store and process information represented as two valued signals.
+These lowly binary digits, or bits, form the basis of the digital revolution.
+
+The familiar decimal, or base 10, representation has been in use for over 1,000 years, having been developed in India, improved by Arab mathematicians in the 12th century, and brought to the West in the 13th century by the Italian mathematician Leonardo Pisano (Fibonacci).
+
+2.1 Information Storage
+A machine-level program views memory as a very large array of bytes, referred to as virtual memory.
+Every byte of memory is identified by a unique number, known as its address.
+
+C versiongcc command-line option
+GNU 89              none,  -std=gnu89
+ANSI, ISO C90       -ansi, -std=c89
+ISO C99             -std=c99
+ISO C11             -std=c11
+
+2.1.1 Hexadecimal Notation
+In binary notation value ranges from 00000000 to 11111111, or from 0 to 255 decimal.
+In hexadecimal notation it is from 0x00 to 0xFF
+
+2.1.2 Data Sizes
+Most 64 bit machines can also run programs compiled for use on 32 bit machines, a form of backward compatibility.
+> gcc -m32 prog.c
+> gcc -m64 prog.c
+
+2.1.3 Addressing and Byte ordering
+The former convention—where the least significant
+byte comes first—is referred to as little endian. The latter convention—where the
+most significant byte comes first—is referred to as big endian.
+
+4004d3: 01 05 43 0b 20 00       add %eax,0x200b43(%rip)
+
+This line was generated by a disassembler, a tool that determines the instruction
+sequence represented by an executable program file.
+
+#include <stdio.h>
+
+typedef unsigned char *byte_pointer;
+
+void show_bytes(byte_pointer start, size_t len) {
+    int i;
+    for (i = 0; i < len; i++)
+        printf(" %.2x", start[i]);
+    printf("\n");
+}
+
+void show_int(int x) {
+    printf("Int, sizeo(int) = %u \n", (unsigned)sizeof(int));
+    show_bytes((byte_pointer) &x, sizeof(int));
+}
+
+void show_float(float x) {
+    printf("Float, sizeo(float) = %u \n", (unsigned)sizeof(float));
+    show_bytes((byte_pointer) &x, sizeof(float));
+}
+
+void show_pointer(void *x) {
+    printf("Void, sizeo(void*) = %u \n", (unsigned)sizeof(void*));
+    show_bytes((byte_pointer) &x, sizeof(void *));
+}
+
+void test_show_bytes(int val) {
+    int ival = val;
+    float fval = (float) ival;
+    int *pval = &ival;
+    show_int(ival);
+    show_float(fval);
+    show_pointer(pval);
+}
+
+int main() {
+    test_show_bytes(12345);
+    return 0;
+}
+
+# default (-m64) 
+Int, sizeo(int) = 4 
+ 39 30 00 00
+Float, sizeo(float) = 4 
+ 00 e4 40 46
+Void, sizeo(void*) = 8 
+ 08 e1 70 b5 ff 7f 00 00
+
+2.1.4 Representing Strings
+A string in C is encoded by an array of characters terminated by the null.
+Each character is represented by some standard encoding, with the most common being the ASCII character code.
+
+String, "12345", strlen(s) = 5 
+ 31 32 33 34 35 00
+ 
+2.1.5 Representing Code
+
+int sum(int t, int y) {
+    return x + y;
+}
+
+When compiled on our sample machines, we generate machine code having
+the following byte representations:
+
+Linux 32    55 89 e5 8b 45 0c 03 45 08 c9 c3
+Linux 64    55 48 89 e5 89 7d fc 89 75 f8 03 45 fc c9 c3
+
+A fundamental concept of computer systems is that a program, from the
+perspective of the machine, is simply a sequence of bytes. The machine has no
+information about the original source program, except perhaps some auxiliary
+tables maintained to aid in debugging.
+
+2.2 Integer Representations
+2.2.1 Integral Data Types
+Each type can specify a size with keyword:  char, short, long.
+
+2.2.2 Unsigned Encodings
+
+x, as vector [x(w-1),...,x(0)], where x(i) bit.
+Treating vector as a number written in binary notation, we obtain the unsigned interpretation of x.
+In this encoding, each bit x(i) has value 0 or 1, with the latter case indicating that value 2^i should be included as part of the numeric value.
+
+    B2Uw()  - binary to unsigned with lenght w.
+              w-1        
+    B2Uw(x) = SUM(x(i)*2^i)
+              i=0
+
+    Umin_w = 0
+    Umax_w = 2^w - 1
+
+Uniqueness of unsigned encoding, Function B2Uw is a bijection.
+
+The mathematical term bijection refers to a function f that goes two ways:
+it maps a value x to a value y where y = f (x), but it can also operate in reverse,
+since for every y, there is a unique value x such that f (x) = y. This is given by
+the inverse function f −1, where, for our example, x = f −1(y). The function B2U w
+maps each bit vector of length w to a unique number between 0 and 2w − 1, and
+it has an inverse, which we call U2Bw (for “unsigned to binary”), that maps each
+number in the range 0 to 2w − 1 to a unique pattern of w bits.
+
+2.2.3 Two's complement Encodings
+
+The most common computer representation of signed numbers is known as two's-complement
+form. This is defined by interpreting the most significant bit of the word to have
+negative weight. We express this interpretation as a function B2T w (for “binary
+to two's complement” length w):
+
+    B2Tw()  - binary to two's complement with length w.
+                                 w-2        
+    B2Tw(x) = -x(w-1)*2^(w-1) +  SUM(x(i)*2^i)
+                                 i=0
+
+    Tmin_w = -2^(w-1)        => (w=8) -128
+    Tmax_w =  2^(w-1) - 1    => (w=8)  127
+
+
+    B2Ow()  - binary to one's complement with length w.
+                                       w-2        
+    B2Ow(x) = -x(w-1)*(2^(w-1) - 1) +  SUM(x(i)*2^i)
+                                       i=0
+
+    Omin_w = -2^(w-1) + 1  => (w=8) -127         -0 = 1111_1111
+    Omax_w =  2^(w-1) - 1  => (w=8)  127         +0 = 0000_0000
+
+
+    B2Sw()  - binary to sign magnitude with length w.
+                               w-2        
+    B2Sw(x) = (-1)^(x(w-1)) *  SUM(x(i)*2^i)
+                               i=0
+
+    Smin_w = -2^(w-1) + 1  => (w=8) -127         -0 = 1000_0000
+    Smax_w =  2^(w-1) - 1  => (w=8)  127         +0 = 0000_0000
+
+The file <limits.h> in the C library defines a set of constants
+delimiting the ranges of the different integer data types for the particular machine
+on which the compiler is running. For example, it defines constants INT_MAX, INT_
+MIN, and UINT_MAX describing the ranges of signed and unsigned integers. For a
+two's-complement machine in which data type int has w bits, these constants
+correspond to the values of TMaxw , TMinw , and UMaxw .
+
+INT_MAX = 2147483647 
+Int, sizeof(int) = 4 
+ ff ff ff 7f
+INT_MIN = -2147483648 
+Int, sizeof(int) = 4 
+ 00 00 00 80
+UINT_MAX = 4294967295 
+Unsigned, sizeof(unsigned) = 4 
+ ff ff ff ff
+UINT_MIN = 0 
+Unsigned, sizeof(unsigned) = 4 
+ 00 00 00 00
+
+2.2.4 Conversions between Signed and Unsigned
+
+2.4 Floating Point
+2.4.1 Fractional Binary Numbers
+2.4.2 IEEE Floating Point Representation
+
+    V = (−1)^s × M × 2^E
+
+The sign s determines whether the number is negative (s = 1), or positive (s = 0).
+The significand M is a fractional binary number that ranges either between 1 and 2
+The exponent E weights the value by a (possibly negative) power of 2.
+
+single precision
+
+   30        20        10        0
+  10987654321098765432109876543210
+  s|  exp |       frac            |
+
+    exp = 8 bits, frac = 23
+
+double precision
+
+     60        50        40        30        20        10        0
+  3210987654321098765432109876543210987654321098765432109876543210
+  s|   exp   |                     frac                           |
+  
+   exp = 11  frac = 52
+
+    exp 0..255 or 0..2047
+    E = e - Bias (127 or 1023)
+
+  0 < f < 1    0.f(n-1)...f(0)
+
+  M = f + 1
+
+ 1. Normalized  e = 1..254
+ 2. Denormalized e = 0
+ 3. Infinity e = 255  e==0
+ 4. Infinity e = 255  e!=0
+
+Denormalizd  E = 1 - Bias, M = f without +1
+
+Denormalized numbers serve two purposes. First, they provide a way to
+represent numeric value 0, since with a normalized number we must always have
+M ≥ 1, and hence we cannot represent 0. In fact, the floating-point representation
+of +0.0 has a bit pattern of all zeros: the sign bit is 0, the exponent field is all
+zeros (indicating a denormalized value), and the fraction field is all zeros, giving
+M = f = 0. Curiously, when the sign bit is 1, but the other fields are all zeros, we
+get the value −0.0. With IEEE floating-point format, the values −0.0 and +0.0
+are considered different in some ways and the same in others.
+
+3. Machine Level Representation of Programs
+-------------------------------------------
+3.1 A Historical Perspective
+    8086    (1978,  29K transistors)
+    80286   (1982, 135K)  - MS Windows
+     i386   (1985, 275K)  - 32 bits.
+     i486   (1989, 1.2M)  + float-point unit
+ Pentium    (1994, 3.1M)
+ Core i7    (2008m 781M)
+
+3.2 Program Encodings
+
+The machine code for x86_64 differs greatly from the original C code.
+
+    - Program counter (PC, called %rip) - address in memory of the next instruction to be executed.
+    - Integer register file 16 values.
+    - Condition code register.
+    - Set of vector register for floating-point values.
+
+3.2.2 Code examples
+
+long mult2(long, long);
+
+void multstore(long x, long y, long *dest) {
+    long t = mult2(x, y);
+    *dest = t;
+}
+
+> gcc -Og -S mstore.c
+> cat mstore.s
+multstore:
+	endbr64
+	pushq	%rbx
+	movq	%rdx, %rbx
+	call	mult2@PLT
+	movq	%rax, (%rbx)
+	popq	%rbx
+	ret
+
+> gcc -Og -c mstore.c
+> gdb mstore.o
+(gdb) x/18xb multstore
+0x0 <multstore>:    	0xf3	0x0f	0x1e	0xfa	0x53	0x48	0x89	0xd3
+0x8 <multstore+8>:  	0xe8	0x00	0x00	0x00	0x00	0x48	0x89	0x03
+0x10 <multstore+16>:	0x5b	0xc3
+
+> objdump -d mstore.o
+mstore.o:     file format elf64-x86-64
+Disassembly of section .text:
+0000000000000000 <multstore>:
+   0:	f3 0f 1e fa          	endbr64
+   4:	53                   	push   %rbx
+   5:	48 89 d3             	mov    %rdx,%rbx
+   8:	e8 00 00 00 00       	call   d <multstore+0xd>
+   d:	48 89 03             	mov    %rax,(%rbx)
+  10:	5b                   	pop    %rbx
+  11:	c3                   	ret
+
+
+x86-64 instructions can range in length from 1 to 15 bytes. The instruction
+encoding is designed so that commonly used instructions and those with fewer
+operands require a smaller number of bytes than do less common ones or ones
+with more operands.
+
+prog.c
+
+#include <stdio.h>
+
+void multstore(long, long, long *);
+
+int main() {
+    long d;
+    multstore(2, 3, &d);
+    printf("2 * 3 --> %ld\n", d);
+    return 0;
+    }
+
+long mult2(long a, long b) {
+    long s = a * b;
+    return s;
+}
+
+> gcc -Og -o prog prog.c mstore.c
+16112 prog
+
+> objdump -d prog
+...
+00000000000011d8 <multstore>:
+    11d8:	f3 0f 1e fa          	endbr64
+    11dc:	53                   	push   %rbx
+    11dd:	48 89 d3             	mov    %rdx,%rbx
+    11e0:	e8 e7 ff ff ff       	call   11cc <mult2>   # 11cc address
+    11e5:	48 89 03             	mov    %rax,(%rbx)
+    11e8:	5b                   	pop    %rbx
+    11e9:	c3                   	ret
+...
+
+Assembly in Intel/Microsoft format (by default GCC use AT&T format).
+> objdump -M intel  -d prog
+> gcc -Og -S -masm=intel mstore.c
+
+
+    C declaration       Intel data type     Assembly-code suffix  Size (bytes)
+        char               Byte                  b                    1
+        short              Word                  w                    2
+        int                Double word           l                    4
+        long               Quad word             q                    8
+        char *             Quad word             q                    8
+        float              Single                s                    4
+        double             Double                l                    8
+
+3.4 Accessing Information
+
+16 general purpose registers storing 64 bit values.
+These registers are used to store integer data as well as pointers.
+Their name all begin with %r.
+
+    %rax    %eax    %ax     %al     = return value
+    %rbx    %ebx    %bx     %bl     = callee saved
+    %rcx    %ecx    %cx     %cl     = 4th argument
+    %rdx    %edx    %dx     %dl     = 3rd argument
+    %rsi    %esi    %si     %sil    = 2nd argument
+    %rdi    %edi    %di     %dil    = 1st argument
+    %rbp    %ebp    %bp     %bpl    = callee saved
+    %rsp    %esp    %sp     %spl    = stack point
+    %r8     %r8d    %r8w    %r8b    = 5th argument
+    %r9     %r9d    %r9w    %r9b    = 6th argument
+    %r10    %r10d   %r10w   %r10b   = caller saved
+    %r11    %r11d   %r11w   %r11b   = caller saved
+    %r12    %r12d   %r12w   %r12b   = callee saved
+    %r13    %r13d   %r13w   %r13b   = callee saved
+    %r14    %r14d   %r14w   %r14b   = callee saved
+    %r15    %r15d   %r15w   %r15b   = callee saved
+
+3.4.1 Operand Specifiers
+
+    Immediate       $Imm        Imm             Immediate
+    Register        ra          R[ra]           Register
+    Memory          Imm         M[Imm]          Absolute
+    Memory          (ra)        M[R(ra)]        Indirect
+    Memory          Imm(rb)     M[Imm + R[rb]]  Indexed
+    ...
+
+3.4.2 Data Movement Instructions
+
+    Mov class of instructions that copy data from one location to another.
+
+    MOV     S, D    # S -> D
+    movl    $0x4050, %eax
+    movw    %bp, %sp
+    movb    $-17, (%esp)
+    movq    %rax, -12(%rbp)
+
+    movq    $0x12345678, %rax           # max 32bit number with sing extention to 64 bits
+    movabsq $0x0011223344556677, %rax   # only rax
+ 
+    movzbw                              # with zero extention word
+
+    movsXX                              # with sign extended
+
+    cltq    %rax                        # sign extend %eax to %rax
+
+
+3.4.3 Data Movement Example
+
+> vi exchange.c
+long exchange(long *xp, long y)
+{
+    long x = *xp;
+    *xp = y;
+    return x;
+}
+> gcc -Og -c exchange.c
+> objdump -d exchange.o
+0000000000000000 <exchange>:
+   0:	f3 0f 1e fa          	endbr64
+   4:	48 8b 07             	mov    (%rdi),%rax         # 1st argument rdi, 2nd rsi
+   7:	48 89 37             	mov    %rsi,(%rdi)         # rax - return
+   a:	c3                   	ret
+
+-fcf-protection=none to turn offf endbr64
+
+> gcc -Og -fcf-protection=none -c exchange.c
+> objdump -d exchange.o
+0000000000000000 <exchange>:
+   0:	48 8b 07             	mov    (%rdi),%rax
+   3:	48 89 37             	mov    %rsi,(%rdi)
+   6:	c3                   	ret
+
+3.4.4 Pushing and Popping Stack Data
+    pushq   S       R[%rsp] <- R[%rsp] - 8
+                    M[R[%rsp]] <- S
+    popq    D       D  <- M[R[%rsp]]
+                    R[%rsp] <- R[%rsp] + 8
+
+
+    pushq %rbp  =  subq $8,%rsp
+                   movq %rbp,(%rsp)
+
+    popq %rax   =  movq (%rsp),%rax
+                   addq $8,%rsp
+
+
+> rasm2 -a x86 -b 64 "mov eax, 5"
+b805000000
+
+> rasm2 -a x86 -b 64 -s att -d b805000000
+movl $5, %eax
+
+
+> echo 'movl $5, %eax' | as --64 -o temp.o && objdump -d temp.o  # AT&T by default
+
+.code64 
+.code32
+.code16
+mov $5, %ax
+
+> echo  '.code16;mov $5, %ax' | as   -o temp.o && objdump -m i8086 -d temp.o
+0:	b8 05 00             	mov    $0x5,%ax
+
+> echo -e "[bits 16]\n mov ax, 5" > t.asm &&  nasm -f bin -o t.bin t.asm && xxd -p t.bin
+b80500
+
+> echo -e "[bits 64]\n mov ax, 5" > t.asm &&  nasm -f bin -o t.bin t.asm && xxd -p t.bin
+66b80500
+
+> echo  'mov $5, %ax' | as   -o temp.o && objdump   -s -j .text temp.o | tail -n 1
+
+
+3.5 Arithmetic and Logical Operations
+
+The instruction class add consists of four addition instructions: addb, addw, addl, and
+addq, adding bytes, words, double words, and quad words, respectively.
+
+3.5.1 Load effective address
+
+The load effective address instruction leaq is actually a variant of the movq instruction.
+It has the form of an instruction that reads from memory to a register, but it does not reference memory at all.
+
+    leaq    S, D    # &S -> D   Load effective address
+    inc     D       # D + 1 -> D
+    dec     D       # D - 1 -> D
+    neg     D       # ~D -> D
+    not     D       # -D -> D
+    add     S, D    # D + S -> D
+    sub     S, D    # D - S -> D
+    imul    S, D    # D * S -> D
+    xor     S, D
+    or      S, D
+    and     S, D
+    sal     k, D    # D << k -> D
+    shl = sal
+    sar     k, D    # arithmetic right shift
+    shr     k, D    # logical right shift
+
+long scale(long x, long y, long z) {
+    long t = x + 4 * y + 12 * z;
+    return t;
+}
+
+> gcc -Og -fcf-protection=none -c scale.c
+> objdump -d scale.o
+0000000000000000 <scale>:                                   # x in %rdi, y in %rsi, z in %rdx
+   0:	48 8d 04 b7          	lea    (%rdi,%rsi,4),%rax   # x + 4*y
+   4:	48 8d 14 52          	lea    (%rdx,%rdx,2),%rdx   # z + 2*z = 3*z
+   8:	48 8d 04 90          	lea    (%rax,%rdx,4),%rax   # (x + 4*y) + 4*3*z = x + 4*y + 12*z
+   c:	c3                   	ret
+
+3.5.2 Unary and Binary Operations
+
+long arith(long x, long y, long z)
+{
+    long t1 = x ^ y;
+    long t2 = z * 48;
+    long t3 = t1 & 0x0F0F0F0F;
+    long t4 = t2 - t3;
+    return t4;
+}
+> gcc -Og -fcf-protection=none -c arith.c
+> objdump -d arith.o
+0000000000000000 <arith>:                                    # x in %rdi, y in %rsi, z in %rdx
+   0:	48 31 f7             	xor    %rsi,%rdi             # 
+   3:	48 8d 04 52          	lea    (%rdx,%rdx,2),%rax    # 3*z
+   7:	48 c1 e0 04          	shl    $0x4,%rax             # 3z << 4 = 48*z
+   b:	81 e7 0f 0f 0f 0f    	and    $0xf0f0f0f,%edi       
+  11:	48 29 f8             	sub    %rdi,%rax
+  14:	c3                   	ret
+
+3.5.4 Discussion
+3.5.5 Special Arithmetic Operations
+
+16 byte quantity as an oct word.
+
+    imulq   S           R[%rdx]:R[%rax]  <- S x R[%rax]     # signed full multiply
+    mulq    S           R[%rdx]:R[%rax]  <- S x R[%rax]     # unsigned full multiply
+    cqto                R[%rdx]:R[%rax]  <- SignedExtend(R[%rax])
+    idivq   S
+
+#include <inttypes.h>
+typedef unsigned __int128 uint128_t;
+
+void store_uprod(uint128_t *dest, uint64_t x, uint64_t y) {
+    *dest = x * (uint128_t) y;
+}
+> gcc -Og -fcf-protection=none -c store_uprod.c
+> objdump -d store_uprod.o
+0000000000000000 <store_uprod>:
+   0:	48 89 f0             	mov    %rsi,%rax
+   3:	48 f7 e2             	mul    %rdx
+   6:	48 89 07             	mov    %rax,(%rdi)
+   9:	48 89 57 08          	mov    %rdx,0x8(%rdi)
+   d:	c3                   	ret
+
+3.6 Control
+3.6.1 Condition Codes
+The CPU maintains a set of single bit condition code registers describing attributes of the most recent arithmetic or logical operations.
+    CF:     Carry flag. Used to detect overflow for unsigned operations.
+    ZF:     Zero flag. The most recent operation yielded zero.
+    SF:     Sign flag.
+    OF:     Overflow flag for two's complement overflow.
+
+leaq instruction does not alter any condition codes.
+cmp instructions set the condition codes according to the differences of their two operands.
+
+    cmp(b,w,l,q)    S1, S2      # S2 - S1
+    test(b,w,l,q)   S1, S2      # S2 & S1
+
+3.6.2 Accessing the Condition Codes
+Rather than reading the condition codes directly, there are three common ways
+of using the condition codes: (1) we can set a single byte to 0 or 1 depending
+on some combination of the condition codes, (2) we can conditionally jump to
+some other part of the program, or (3) we can conditionally transfer data.
+
+    set(e,ne,s,ns,l,le,a,ae,b,be)
+
+
+#define COMP ==
+#define TEST >=
+typedef long data_t;
+
+int test(data_t a, data_t b) {
+    return a TEST b;
+}
+
+int compare(data_t a, data_t b) {
+    return a COMP b;
+}
+
+> gcc -Og -fcf-protection=none -c check.c
+> objdump -d check.o
+0000000000000000 <test>:
+   0:	48 39 f7             	cmp    %rsi,%rdi
+   3:	0f 9d c0             	setge  %al
+   6:	0f b6 c0             	movzbl %al,%eax
+   9:	c3                   	ret
+000000000000000b <compare>:
+   b:	48 39 f7             	cmp    %rsi,%rdi
+   e:	0f 94 c0             	sete   %al
+  11:	0f b6 c0             	movzbl %al,%eax
+  14:	c3                   	ret
+
+3.6.3 Jump Instructions
+
+A jump instruction can cause the execution to switch to a completely
+new position in the program. These jump destinations are generally indicated in
+assembly code by a label.
+
+    jmp Label
+    jmp *Operand                            jmp *(%rax)
+    j(e,ne,s,ns,l,le,a,ae,b,be) Label
+
+3.6.4 Jump Instruction Encodings
+
+rep; ret  (or repz retq)
+
+Looking at the Intel and AMD documentation for the
+rep instruction, we find that it is normally used to implement a repeating string operation [3, 51]. It
+seems completely inappropriate here. The answer to this puzzle can be seen in AMD’s guidelines to
+compiler writers [1]. They recommend using the combination of rep followed by ret to avoid making
+the ret instruction the destination of a conditional jump instruction. Without the rep instruction, the
+jg instruction (line 7 of the assembly code) would proceed to the ret instruction when the branch is not
+taken.
+The rep instruction serves as a form of no-operation here,
+and so inserting it as the jump destination does not change behavior of the code, except to make it
+faster on AMD processors. We can safely ignore any rep or repz instruction we see in the rest of the
+code presented in this book.
+
+3.6.5 Implementing Conditional Branches with Conditional Control
+
+long lt_cnt = 0;
+long ge_cnt = 0;
+
+long absdiff_se(long x, long y)
+{
+    long result;
+    if (x < y) {
+        lt_cnt++;
+        result = y - x;
+    }
+    else {
+        ge_cnt++;
+        result = x - y;
+    }
+    return result;
+}
+
+> gcc -Og -fcf-protection=none -S if.c
+> cat if.s
+absdiff_se:
+	cmpq	%rsi, %rdi
+	jge	.L2
+	addq	$1, lt_cnt(%rip)
+	movq	%rsi, %rax
+	subq	%rdi, %rax
+	ret
+.L2:
+	addq	$1, ge_cnt(%rip)
+	movq	%rdi, %rax
+	subq	%rsi, %rax
+	ret
+
+if (test-expr)
+    then-statement
+else
+    else-statement
+
+
+t = test-expr;
+    if (!t)
+        goto false;
+     then-statement
+    goto done;
+false:
+    else-statement
+done:
+
+Conditional move instructions:  cmov(e,ne,..)
+
+3.6.7 Loops
+Combinations of conditional tests and jumps are used to implement the effect of loops.
+
+do
+    body-statement
+    while (test-expr);
+
+loop:
+    body-statement
+    t = test-expr;
+    if (t)
+        goto loop;
+
+
+long fact_do(long n)
+{
+    long result = 1;
+    do {
+        result *= n;
+        n = n-1;
+    } while (n > 1);
+    return result;
+}
+
+> gcc -Og -fcf-protection=none -S loop.c
+> cat loop.s
+fact_do:
+	movl	$1, %eax
+.L2:
+	imulq	%rdi, %rax
+	subq	$1, %rdi
+	cmpq	$1, %rdi
+	jg	.L2
+	ret
+
+while (test-expr)
+    body-statement
+
+    goto test;
+loop:
+    body-statement
+test:
+    t = test-expr;
+    if (t)
+        goto loop;
+
+long fact_while(long n)
+{
+    long result = 1;
+    while (n > 1) {
+        result *= n;
+        n = n-1;
+    }
+    return result;
+}
+
+fact_while:
+	movl	$1, %eax
+	jmp	.L2
+.L3:
+	imulq	%rdi, %rax
+	subq	$1, %rdi
+.L2:
+	cmpq	$1, %rdi
+	jg	.L3
+	ret
+
+for (init-expr; test-expr; update-expr)
+    body-statement
+
+init-expr;
+while (test-expr) {
+    body-statement
+    update-expr;
+}
+
+3.6.8 Switch Statements
+A switch statement provides a multiway branching capability based on the value of an integer index.
+
+3.7 Procedures
+Procedures are a key abstraction in software.
+There are many different attributes that must be handled when providing machine level support for procedures.
+For discussion purposes, suppose procedure P calls procedure Q, and Q then executes and returns back to P.
+The actions involve one or more of the following mechanisms:
+
+    - Passing control.
+    - Passing data.
+    - Allocating and deallocating memory.
+
+3.7.1 The Run-Time Stack
+
+A key feature of the procedure calling mechanism of C is that it can use of Last-in Fist-out memory management discipline
+provided by a stack that while Q is executing. P, along with any of the procedures in the chain of calls up to P, is temporarily suspended.
+While Q is running, only it will need the ability to allocate new storage for its local variables or to set up a call to another procedure.
+On the other hand, when Q returns, only local storage it has allocated can be freed.
+As P calls Q, control and data information are added to the end of the stack.
+
+The x86_64 stack grows toward lower addresses and the stack pointer %rsp points to the top element of the stack.
+Data can be stored on and retrieved from the stack using the pushq and popq instructions.
+When an x86_64 procedure requires storage beyond what it can hold in register, it allocates space on the stack.
+This region is referred to as the procedure stack frame.
+The frame for the currently executing procedure is always at the tip of the stack.
+When procedure P calls procedure Q, it will push the return address onto the stack, indicating where within P the program should resume execution once Q returns.
+The code for Q allocates the space required for its stack frame by extending the current stack boundary.
+Within that space, it can save the values of registers, allocate space for local variables, and set up arguments for the procedures it calls.
+
+3.7.2 Control Transfer
+Passing control from function P to function Q involves simply setting the program counter (PC) to the starting address of the code for Q.
+However, when it later comes time for Q to return, the processor must have some record of the code location where it should resume the execution of P.
+This information is recorded in x86-64 machines by invoking procedure Q with the instruction call Q.
+This instruction pushes an address A onto the stack and sets the PC to the beginning of Q.
+The counterpart instruction ret pops an address A off the stack and set the PC to A.
+
+    call Label
+    call *Operand
+    ret
+
+Like jumps, a call can be either direct of indirect.
+In assembly code, the target of a direct call is given as a label, while the target of an indirect call is given by * followed by an operand specifier using one of the formats.
+
+3.7.3 Data transfer
+Procedure calls may involves passing data as arguments, and returning from a procedure may also involve returning a value.
+With x86-64 most of these data passing to and from procedures take place via registers.
+
+        bits      1     2      3      4      5      6
+        64      %rdi   %rsi   %rdx   %rcx   %r8    %r9
+        32      %edi   %esi   %edx   %ecx   %r8d   %r9d
+        16       %di    %si    %dx    %cx   %r8w   %r9w
+         8       %dil   %sil   %dl    %cl   %r8b   %r9b
+
+When a function has more than six integral arguments, the other ones are passed on the stack.
+
+3.7.4 Local Storage on the Stack
+
+3.8 Array Allocation and Access
+
+C uses a particularly simple implementation of arrays, and hence the translation into machine code is fairly straightforward.
+
+3.8.1 Basic Principles
+
+    T A[N];  1) It allocates a contiguous region sizeof(T) x N bytes in memory.
+             2) It introduces an identifier A that can be used as a pointer to the beginning of the array.
+
+    int E[N];    %rdx (=E) + %rcx = (=i)
+    
+    movl    (%rdx, %rcx, 4), %eax
+
+     E[i] = %rdx + 4 x %rcx
+
+3.8.2 Pointer Arithmetic
+
+    Expr - object
+    *Expr - is a pointer givin the address of the object.
+
+3.8.3 Nested Array
+
+    int A[5][3]
+
+    typedef ing row3_t[5];         row3_t = int[5]  int *[5]
+    row3_t A[3]                    A int ** int** [5][3]
+
+    sizeof(A) = 4 x 3 x 5 = 60 bytes.
+    
+    A[0]                    A[1]    A[2]
+    [0][0] [0][1] .. [0][4]
+
+    T D[R][C]
+    &D[i][j] =  &D + sizeof(T) x (i*C + j)
+
+3.9 Heterogeneous Data Structures
+    structures + union
+
+3.10 Combining Control and Data in Machine Level Programs
+
+3.10.2 Life in Real World: Using the GDB Debugger
+
+> gdb prog
+The general scheme is to set breakpoints near points of interest in the program.
+When one of the breakpoints is hit during program execution, the program will halt and return control to the user.
+From a breakpoint, we can examine different registers and memory locations in various formats.
+We can also single step the program, running just a few instructions at a time.
+
+Rather than using the command line interface to GDB, many programmers prefer using DDD, an extension to GDB that provides a graphical user interface.
+
+    Command                 Effect
+    -------                 ------
+  Starting and Stopping
+    quit                    Exit GDB
+    run                     Run your program
+    kill                    Stop your program
+ Breakpoints
+    break <label>           Set breakpoint at entry to label (functions)
+    break *0x400000         Set breakpoint at address
+    delete 1                Delete breakpoint 1
+    delete                  Delete all breakpoints
+ Execution
+    stepi                   Execute one instructions
+    stepi 4                 Execute 4 instructions
+    nexti                   Like stepi, but proceed through function calls
+    continue                Resume execution
+    finish                  Run until current function returns
+  Examining code
+    disas                   Disassemble current function
+    disas multstore         Disassemble function
+    disas 0x30000           Dissasemble function around address
+    dissas 0x3000, 0x40000  Dissasemble code within address range
+    print /x $rip           Print PC in hex
+  Examining Data
+    print $rax              Print contents of %rax in decimal
+    print /x $rax           Print contents of %rax in hex
+    print /t $rax           Print contents of %rax in binary
+    print 0x100             Print 0x100 in decimal
+    print /x 555            Print 555 in hex
+    
+
+
+
+
+

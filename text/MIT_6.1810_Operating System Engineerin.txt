@@ -1,0 +1,514 @@
+6.1810_3a_WritingOS.pdf
+
+> nasm boot sect.asm -f bin -o boot sect.bin
+
+> vi sect.asm
+
+
+3.4.1 Memory, Address, and Labels
+CPU fetches and executes instructions from memory, and how it was BIOS that loaded 512 bytes boot sector into memory and then, having finished its initialisations, told CPU to jump to the start of our code, whereupon it began executing our first instruction, then the next, then the next, etc.
+
+So our boot sector code is somewhere in memory, but where?
+BIOS likes always to load the boot sector in the address 0x7C00, where it is sure will not be occupied by important routines.
+
+    0x0             Interrupt Vector Table (1 KB)
+    0x400           BIOS Data Area (256 bytes)
+                                 free
+    0x7C00          Loaded Boot Sector (512 bytes)
+    0x7E00                       free (638 KB)
+    0x9FC00         Extended BIOS Data Area (639 KB)
+    0xA0000         Video Memory (128 KB)
+    0xC0000         BIOS (256 KB)
+    0x100000                     free
+
+
+	mov bx, the_secret
+	add bx, 0x7c00
+	mov al, [bx]
+	int 0x10
+
+the_secret:
+	db 'X'
+
+[org 0x7c00] - telling it exactly where you expect the code to loaded in memory.
+
+
+Defining Strings
+
+my_string:
+    db 'Booting OS',0
+
+Stack implemented by two special CPU registers: bp and sp.
+
+some_label:
+    jmp some_label
+or
+    jmp $
+
+Include File:  %include "..."
+
+In 16 bits real mode, the maximum size of the register is 16 bits, and memory up to 0xffff.
+CPU designer added a few more special registers
+    cs, ds, ss, es  called segment registers.
+
+
+    data segment    ds
+    stack segment   ss   around bp
+
+    ds  = 0x42 ->  mov ax, [0x20] ; ds * 16 + 0x20 = 0x420 + 0x20 = 0x440
+
+    [org 0x7c00]     ds=0x7c0
+    
+    es -> general purpose segment
+
+    Limitation:  not possible mov ds, 0x1234
+    
+    1 MB (0xffff * 16 + 0xffff)
+
+Disk: CHS = Cylinder, Head, Sector (512)
+
+
+disk_load:
+	; load DH sectors to ES:BX from drive DL
+	; 
+        push dx		; 
+	mov ah, 0x02	; BIOS read sector function
+	mov al, dh	; DH sectors
+	mov ch, 0x00	; cylinder 0
+	mov dh, 0x00	; head 0
+	mov cl, 0x02	; from 2 sector
+	int 0x13	; BIOS read disk
+
+	jc disk_error	; CR if error
+
+	pop dx
+	cmp dh, al
+	jne disk_error
+	ret
+
+4. Entering 32 bit Protected Mode
+
+    - registers 32 bits
+    - two additional general purpose segment registers fs, gs
+    - memory offset up to 4 GB
+
+GDT = global descriptor table.
+
+Display device can be configured into one of several resolutions in one of two modes:
+    - text mode and graphics mode
+The display is an example of memory mapped hardware.
+
+VGA  80x25
+First byte = ASCII code, second b
+
+; GDT
+gdt_start :
+
+gdt_null :      ; the mandatory null descriptor
+    dd 0x0      ; ’ dd ’ means define double word ( i.e. 4 bytes )
+    dd 0x0
+
+gdt_code :      ; the code segment descriptor
+    ; base =0 x0 , limit =0 xfffff ,
+    ; 1 st flags : ( present )1 ( privilege )00 ( descriptor type )1 -> 1001 b
+    ; type flags : ( code )1 ( conforming )0 ( readable )1 ( accessed )0 -> 1010 b
+    ; 2 nd flags : ( granularity )1 (32 - bit default )1 (64 - bit seg )0 ( AVL )0 -> 1100 b
+    dw 0xffff       ; Limit ( bits 0 -15)
+    dw 0x0          ; Base ( bits 0 -15)
+    db 0x0          ; Base ( bits 16 -23)
+    db 10011010b    ; 1 st flags , type flags
+    db 11001111b    ; 2 nd flags , Limit ( bits 16 -19)
+    db 0x0          ; Base ( bits 24 -31)
+
+gdt_data : ; the data segment descriptor
+    ; Same as code segment except for the type flags :
+    ; type flags : ( code )0 ( expand down )0 ( writable )1 ( accessed )0 -> 0010 b
+    dw 0xffff       ; Limit ( bits 0 -15)
+    dw 0x0          ; Base ( bits 0 -15)
+    db 0x0          ; Base ( bits 16 -23)
+    db 10010010b    ; 1 st flags , type flags
+    db 11001111b    ; 2 nd flags , Limit ( bits 16 -19)
+    db 0x0         ; Base ( bits 24 -31)
+
+gdt_end :       ; The reason for putting a label at the end of the
+                ; GDT is so we can have the assembler calculate 
+                ; the size of the GDT for the GDT decriptor ( below )
+
+    ; GDT descriptior
+    gdt_ descript or :
+        dw gdt_end - gdt_start - 1  ; Size of our GDT , always less one
+        dd gdt_start                ; of the true size
+                                    ; Start address of our GDT
+
+; Define some handy constants for the GDT segment descriptor offsets , which
+; are what segment registers must contain when in protected mode. For example ,
+; when we set DS = 0 x10 in PM , the CPU knows that we mean it to use the
+; segment described at offset 0 x10 ( i.e. 16 bytes ) in our GDT , which in our
+; case is the DATA segment (0 x0 -> NULL ; 0 x08 -> CODE ; 0 x10 -> DATA )
+CODE_SEG equ gdt_code - gdt_start
+DATA_SEG equ gdt_data - gdt_start
+
+
+
+> basic.c
+int my_function() {
+	return 0xbaba;
+}
+> gcc -m32 -ffreestanding -nostdlib -fno-PIE -fno-asynchronous-unwind-tables  -c basic.c -o basic.o
+> objdump -d basic.o
+00000000 <my_function>:
+   0:	55                   	push   %ebp
+   1:	89 e5                	mov    %esp,%ebp
+   3:	b8 ba ba 00 00       	mov    $0xbaba,%eax
+   8:	5d                   	pop    %ebp
+   9:	c3                   	ret
+
+> ld -m elf_i386 -o basic.bin -Ttext 0x0 --oformat binary --nmagic -Os  basic.o
+> xxd basic.bin 
+00000000: 5589 e5b8 baba 0000 5dc3                 U.......].
+
+
+
+
+> gcc -m32 -ffreestanding -nostdlib -fno-PIE -fno-asynchronous-unwind-tables -fno-ident  -c kernel_main.c -o kernel_main.o
+> ld -m elf_i386 -o kernel.bin -T link.ld --oformat binary --nmagic -Os  kernel_main.o
+> 
+
+
+6.1810_3_book-rev10.pdf / https://github.com/mit-pdos/xv6-public 
+                          https://github.com/jserv/xv6-x86_64
+
+> git clone https://github.com/mit-pdos/xv6-public.git
+> cd xv6-public
+
+change Makefile:
+-CFLAGS = -fno-pic -static -fno-builtin -fno-strict-aliasing -O2 -Wall -MD -ggdb -m32 -Werror -fno-omit-frame-pointer
++CFLAGS = -fno-pic -static -fno-builtin -fno-strict-aliasing -O2 -Wall -MD -ggdb -m32 -Werror -fno-omit-frame-pointer -Wno-array-bounds -Wno-infinite-recursion
+
+> make
+> make qemu
+
+
+0. Operating system interfaces
+------------------------------
+The job of an operating system is to share a computer among multiple programs and to provide a more useful set of services than the hardware alone supports.
+
+When a process needs to invoke a kernel service, it invokes a procedure call in the OS interface.
+Such a procedure is called a system call.
+The system call enters the kernel; the kernel performs the service and returns.
+Thus a process alternates between executing in user space and kernel space.
+
+The kernel uses the CPU hardware protection mechanisms to ensure that each process executing in user space can access only its own memory. The kernel executes with hardware privileges required to implement these protections; user programs execute without those privileges. When a user program invokes a system call, the hardware raises the privilege level and starts executing a pre arranged function in the kernel.
+
+    - processes and memory
+An xv6 process consists of user space memory (instructions, data and stack) and per process state private to the kernel.
+xv6 can time share process: it transparently switches the available CPU among the set of processes waiting to execute.
+
+A process may create a new process using the fork system call.
+
+    int pid = fork();
+    if (pid > 0) {
+        printf("parent\n");
+        pid = wait();
+    } else if (pid == 0) {
+        printf("child\n");
+        exit();
+    } else {
+        printf("fork error\n");
+    }
+
+System call
+==========
+fork()
+exit()
+wait()
+kill(pid)
+getpid()
+sleep(n)
+exec(filename, *argv)
+sbrk(n)                     Grow process memory by n bytes.
+open(filename, flags)
+read(fd, buf, n)
+write(fd, buf, n)
+close(fd)
+dup(fd)
+pipe(p)
+chdir(dirname)
+mkdir(dirname)
+mknod(name, major, minor)
+fstat(fd)
+link(f1, f2)
+unlink(filename)
+
+The exec system call replaces the calling process memory with a new memory image loaded from a file stored in the file system. The file must have a particular format, which specifies which part of the file holds instructions, which part is data, at which instruction to start.
+
+When exec succeeds, it does not return to the calling program; instead, the instructions loaded from the file start executing at the entry point declared in the ELF header.
+
+Exec takes two arguments: the name of the file containing the executable and an array of string arguments.
+
+    - I/O and File descriptors
+
+1. OS organization
+------------------
+    - Kernel organization
+    - Process overview
+The unit of isolation in xv6 is a process.
+A process provides a program with what appears to be a private memory system, or address space, which other processes cannot read or write.
+Xv6 uses page tables (which are implemented by hardware) to give each process its own address space.
+The x86 page table translates a virtual address to a physical address.
+
+Xv6 maintains a separate page table for each process that defines that process address space.
+
+    0x0             User text and data
+                    User stack
+    0x80000000      BIOS
+    0x80100000      Kernel text and data
+
+Each process has a thread of execution (thread for short) that executes the process instructions.
+Each process has two stacks: a user stack and a kernel stack (p->stack).
+
+Bootloader run from disk into memory and executes.
+The bootloader loads the xv6 kernel into memory at physical address 0x100000.
+Entry sets up a page table that maps virtual addresses starting 0x80000000 (KERNBASE).
+The entry page table is defined in main.c.
+
+Entry loads the physical address of entrypgdir into control reg %cr3.
+
+The first process is going to execute a small program (initcode.S).
+Userinit calls setupkvm to create a page table for the process.
+
+2.Page tables
+
+An x86 page table is logically an array of 2^20 = 1MB page table entries PTEs.
+Each PTE contains 20 bit physical page number and some flags.
+
+    Virtual address: 10bits  10bits  12bits
+                      Dir     Table   Offset
+
+    Physical address:      20bits    12bits
+                           PPN
+
+    - Exex
+ELF binary.
+start with magic number 0x7F 'E' 'L' 'F' or ELF_MAGIC
+
+    3. Traps, interrupts, and drivers
+
+    4. Locking
+
+
+
+https://wiki.osdev.org/ELF  <-- ELF format
+
+> qemu:
+o /b 0x1F6 0xF0 -> i /b 0x1F7
+info block
+info qtree => ide.0 unit 0/1
+
+
+
+
+Переписування xv6 «з нуля» під x86 — це чудовий спосіб зрозуміти роботу ОС. Оскільки ви вже зіткнулися з проблемами Coreboot та MP-таблиць, ваш шлях буде дещо відрізнятися від класичного MIT-курсу.Ось покроковий план побудови власної версії xv6:
+
+Крок 1: Підготовка середовища (Freestanding)Ви вже почали це з -ffreestanding.Мета: Налаштувати збірку без стандартних бібліотек.Інструменти: gcc, ld, make.Важливо: Використовуйте свій напрацьований скрипт лінкера (link.ld), щоб точно контролювати розташування секцій .text та .data.
+
+Крок 2: Точка входу та завантажувач (Bootloader)Оскільки ви використовуєте Coreboot, вам не потрібен класичний bootblock.S на 512 байт.Дія: Напишіть мінімальний entry.S на асемблері, який:Налаштовує стек (mov esp, stack_top).Викликає main() з вашого C-коду.Coreboot: Налаштуйте його на завантаження вашого ядра як ELF-файлу (Payload).
+
+Крок 3: Виведення тексту (VGA/Serial)Без printf ви «сліпі».Дія: Реалізуйте функцію cprintf.Як: Прямий запис у відеопам'ять 0xB8000 (як ви робили з кольорами) або через послідовний порт 0x3F8 (COM1), що краще для логів у QEMU.
+
+Крок 4: Керування пам'яттю (Memory Management)xv6 використовує сторінкову організацію.Аллокатор сторінок: Створіть простий менеджер вільних кадрів пам'яті (freelist) — це ваш kalloc.c.Paging: Налаштуйте таблиці сторінок (vm.c). Створіть kmap, щоб відобразити ядро у верхню пам'ять.
+
+Крок 5: Переривання та винятки (Traps/Interrupts)Це те, де ви зараз застрягли з APIC.IDT: Опишіть таблицю дескрипторів переривань.Контролер: Якщо Coreboot не дає MP-таблиць, реалізуйте підтримку 8259 PIC (це простіше для початку).Таймер: Налаштуйте PIT (8253), щоб отримувати регулярні переривання для планувальника.
+
+(IDT — Interrupt Descriptor Table) реалізована через масив структур, де кожен елемент — це «брама» (gate), що вказує на конкретний обробник.
+
+struct gatedesc {
+  uint off_15_0 : 16;   // низькі 16 біт адреси обробника
+  uint cs : 16;         // селектор сегмента коду (зазвичай 1 << 3)
+  uint args : 5;        // 0 для переривань
+  uint rsv1 : 3;        // зарезервовано
+  uint type : 4;        // 0xE (32-bit Interrupt Gate)
+  uint s : 1;           // 0 для системних сегментів
+  uint dpl : 2;         // рівень доступу (0 для ядра, 3 для користувача)
+  uint p : 1;           // 1 (присутній)
+  uint off_31_16 : 16;  // високі 16 біт адреси
+};
+
+; vectors.S
+global alltraps
+%macro VECTOR 1
+  global vector%1
+  vector%1:
+    push %1    ; номер переривання
+    jmp alltraps
+%endmacro
+
+VECTOR 0 ; Divide error
+VECTOR 32 ; IRQ0 - Timer
+VECTOR 33 ; IRQ1 - Keyboard
+; ... і так далі до 255
+
+struct gatedesc idt[256];
+
+void idtinit() {
+  extern uint vectors[]; // масив адрес із vectors.S
+  for(int i = 0; i < 256; i++) {
+    uint addr = vectors[i];
+    idt[i].off_15_0 = addr & 0xffff;
+    idt[i].off_31_16 = addr >> 16;
+    idt[i].type = 0xE; // Interrupt Gate
+    idt[i].p = 1;
+    idt[i].cs = 1 << 3; // Kernel Code Segment
+    idt[i].dpl = (i == 64) ? 3 : 0; // Наприклад, 64 - системний виклик (доступний юзеру)
+  }
+  
+  // Завантаження IDT в процесор
+  struct {
+    ushort limit;
+    uint base;
+  } __attribute__((packed)) idtr = { sizeof(idt) - 1, (uint)idt };
+  
+  asm volatile("lidt (%0)" : : "r"(&idtr));
+}
+
+void trap(struct trapframe *tf) {
+  switch(tf->trapno) {
+    case 32: // Таймер
+      lapiceoi(); // Підтвердження переривання
+      break;
+      
+    case 33: // Keyboard
+      unsigned char c = inb(0x60); // Читаємо скан-код
+      printf("Key pressed: %x\n", c);
+      lapiceoi();
+      break;
+      
+    case 36: // UART (IRQ4)
+      char uart_char = inb(0x3F8);
+      printf("UART: %c\n", uart_char);
+      lapiceoi();
+      break;
+
+    case 64: // Software Interrupt (System Call)
+      printf("Syscall called!\n");
+      break;
+      
+    default:
+      printf("Unexpected trap %d\n", tf->trapno);
+      asm volatile("hlt");
+  }
+}
+
+Для нього в IDT треба поставити dpl = 3, інакше програма користувача отримає General Protection Fault при спробі виклику.
+
+PIC/IOAPIC: Щоб Keyboard та UART працювали, їх треба розблокувати в контролері переривань (як ви робили з IOAPIC раніше).
+
+EOI: Після кожного апаратного переривання обов'язково треба писати в регістр EOI (End of Interrupt) вашого контролера, інакше нові переривання не прийдуть.
+
+
+
+Вектори (генеруються або пишуться вручну)
+vector33:       # Клавіатура
+  push 0        # "Код помилки" (для IRQ він завжди 0, але потрібен для вирівнювання)
+  push 33       # Номер переривання
+  jmp alltraps
+
+alltraps:
+  # Зберігаємо всі регістри (формуємо struct trapframe)
+  push ds
+  push es
+  push fs
+  push gs
+  pushal        # Зберігає EAX, ECX, EDX, EBX, ESP, EBP, ESI, EDI
+
+  # Завантажуємо сегменти ядра
+  mov ax, (1<<3) # Сегмент даних ядра (зазвичай 0x10 або 1<<3)
+  mov ds, ax
+  mov es, ax
+
+  # Передаємо вказівник на стек (де лежать всі регістри) у функцію C
+  push esp      # Аргумент для trap(struct trapframe *tf)
+  call trap
+  add esp, 4    # Очищаємо аргумент після виклику
+
+global trapret
+trapret:
+  popal         # Відновлюємо загальні регістри
+  pop gs
+  pop fs
+  pop es
+  pop ds
+  add esp, 8    # Пропускаємо номер переривання та код помилки
+  iret          # Повернення з переривання (відновлює EIP, CS, EFLAGS)
+
+#define IOAPIC_ADDR  0xFEC00000
+#define REG_TABLE    0x10  // Початок таблиці (2 регістри на кожне IRQ)
+
+// Функція для запису в регістри IOAPIC
+void ioapic_write(int reg, uint data) {
+    volatile uint *ioapic = (uint*)IOAPIC_ADDR;
+    ioapic[0] = reg;      // Вибираємо регістр (IOREGSEL)
+    ioapic[4] = data;     // Записуємо дані (IOWIN)
+}
+
+void ioapic_enable(int irq, int cpu_apic_id) {
+    // Кожне IRQ займає 2 регістри: 0x10 + 2*irq та 0x11 + 2*irq
+    // Нижній регістр: номер вектора в IDT + спосіб доставки
+    // 33 — це вектор для клавіатури в IDT (IRQ1 + 32)
+    ioapic_write(REG_TABLE + 2 * irq, (32 + irq)); 
+    
+    // Верхній регістр: ID процесора, який отримає переривання
+    ioapic_write(REG_TABLE + 2 * irq + 1, cpu_apic_id << 24);
+}
+
+// У вашому main.c:
+void main() {
+    // ...
+    ioapic_enable(1, 0);  // Увімкнути клавіатуру (IRQ1) для CPU 0
+    ioapic_enable(4, 0);  // Увімкнути UART (IRQ4) для CPU 0
+    asm volatile("sti");  // Дозволити переривання на процесорі
+}
+
+
+void idt_set_soft_int(int n) {
+  extern uint vectors[];
+  uint addr = vectors[n];
+  
+  idt[n].off_15_0 = addr & 0xffff;
+  idt[n].off_31_16 = addr >> 16;
+  idt[n].type = 0xE;    // Interrupt Gate
+  idt[n].p = 1;         // Present
+  idt[n].cs = 1 << 3;   // Сегмент коду ядра
+  idt[n].dpl = 3;       // ДОЗВОЛЯЄМО ВИКЛИК З RING 3 (User mode)
+}
+
+void trap(struct trapframe *tf) {
+  if(tf->trapno == 64) {
+    printf("Software interrupt 0x40 triggered!\n");
+    // Тут зазвичай викликається syscall()
+    return; 
+  }
+  // ... інші переривання
+}
+
+Interrupts are handled via IDT (interrupt Descriptor Table).
+0-255 handlers: task, interrupt and trap handlers.
+
+32 bit address in the segment
+
+
+
+Крок 6: Процеси та Планувальник (Processes)Контекст: Визначте структуру context (регістри процесора).swtch.S: Напишіть функцію перемикання контексту на асемблері.Scheduler: Створіть цикл, який проходить по масиву процесів і запускає їх по черзі.
+
+Крок 7: Драйвер диска та Файлова системаIDE/ATA: Використовуйте ваші напрацювання з портами 0x1F0-0x1F7.Buffer Cache: Реалізуйте кешування блоків диска (bio.c).FS: Пошарово побудуйте систему: Блоки -> Іноди -> Директорії -> Файли.
+
+Крок 8: Системні виклики (Syscalls)Реалізуйте механізм переходу з режиму користувача (Ring 3) у режим ядра (Ring 0) через інструкцію int 0x40 або подібну.
+
+
+
+
+
+Learn xv6 Course: https://www.youtube.com/watch?v=k51934LHz3k&t=25s&index=1&list=PLEJxKK7AcSEGPOCFtQTJhOElU44J_JAun
+
+1. Introduction 21min
+

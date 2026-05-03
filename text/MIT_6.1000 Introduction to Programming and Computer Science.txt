@@ -2103,7 +2103,77 @@ While it contains exactly the same information as the variance, the standard
 deviation is easier to interpret because it is in the same units as the original
 data.
 
+The coefficient of variation is the standard deviation divided by the mean.
+When comparing data sets with different means (as here), the coefficient of variation
+is often more informative than the standard deviation. As you can see from
+its implementation in Figure 15.13, the coefficient of variation is not defined
+when the mean is 0.
+
+The main advantage of the coefficient of variation over the standard deviation
+is that it allows us to compare the dispersion of sets with different means.
+
+15.4 Distributions
+A histogram is a plot designed to show the distribution of values in a set of data.
+The values a first sorted, and then divided into a fixed number of equal width bins.
+A plot is then drawn that shows the number of element of each bin.
+
+The function call pylab.hist(vals, bins = 10) produces a histogram with ten
+bins. PyLab has automatically chosen the width of each bin based on the number
+of bins and the range of values.
+
+The method pylab.annotate is used to place some statistics on the figure
+showing the histogram. The first argument is the string to be displayed on the
+figure. The next two arguments control where the string is placed. The argument
+xycoords = 'axes fraction' indicates the placement of the text will be expressed as
+a fraction of the width and height of the figure. The argument xy = (0.67, 0.5)
+indicates that the text should begin two thirds of the way from the left edge of the
+figure and half way from the bottom edge of the figure.
+
+val = []
+for i in range(1000):
+    n1 = random.choice(range(0,101))
+    n2 = random.choice(range(0,101))
+    vals.append(num1+num2)
+pylab.hist(vals, bins = 10)
+pylab.xlabel("Number of Occurences")
+
+pylab.show()
 
 
+15.4.1 Probability Distributions
+A histogram is a depiction of a frequency distribution.
+
+15.4.2 Normal Distributions
+The SciPy library contains many mathematical functions commonly used by
+scientists and engineers. SciPy is organized into modules covering different scientific
+computing domains, such as signal processing and image processing. We
+will use a number of functions from SciPy later in this book. Here we use the
+function scipy.integrate.quad, which finds an approximation to the value of integrating
+a function between two points.
+
+The quad function returns a tuple of two floating point numbers. The first is
+an approximation to the value of the integral, and the second an estimate of the
+absolute error in the result.
+
+It is often useful to visualize confidence intervals using error bars.
+
+16. Monte Carlo Simulation
+==========================
+Monte Carlo simulation is a technique used
+to approximate the probability of an event by running the same simulation multiple times and averaging the results.
+
+The history of probability is intimately
+connected to the history of gambling. It is the existence of uncertainty that makes
+gambling possible. And the existence of gambling provoked the development of
+much of the mathematics needed to reason about uncertainty. Contributions to
+the foundations of probability theory by Cardano, Pascal, Fermat, Bernoulli, de
+Moivre, and Laplace were all motivated by a desire to better understand (and
+perhaps profit from) games of chance.
+
+16.1 Pascal Problem
+
+18. Understanding Experimental Data
+===================================
+18.1 The behaviour of Springs
 
 

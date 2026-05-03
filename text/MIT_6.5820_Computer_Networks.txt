@@ -1,0 +1,91 @@
+Books: 6.5820_Computer_Networks_Fifth_Edition_A_Systems_Approach_Larry_L_Peterson_Bruce_S_Daviewww.ebook-dl.com_.pdf
+
+1. Foundation
+-------------
+1.1 Applications
+1.1.1 Classes of Applications
+The WWW (World Wide Web) is the Internet application that catapulted the Internet from a somewhat obscure tool used mostly by scientists and engineers to the mainstream phenomenon that it is today.
+
+Users view pages full of textual and graphical objects and click on object that they want to learn more about, and a corresponding new page appears.
+The identifier, called URL = Uniform Resource Locator provides a way of identifying all the possible objects that can be viewed from your web browser.
+
+Another widespread application class of the Internet is the delivery of streaming audio and video.
+
+1.2 Requirements
+
+
+2. Getting Connected
+--------------------
+2.1 Perspectives on connecting
+Networks are constructed from two classes of hardware building blocks: nodes and links.
+
+2.2 Encoding
+How bits can transmitted from one node to the other.
+Signals propagate over physical links.
+The task is to encode the binary data to the source node want to send into the signals that the links are able to carry and then to decode the signal back into the corresponding binary data at the receiving node.
+
+We ignore the details of modulation and assume we are working with two discrete signals:
+    high and low.
+It can be two different voltages on a copper based link or two different power levels on an optical link.
+Most of the functions discussed in this chapter are performed by a network adaptor.
+The network adaptor contains a signalling component that actually encodes bits into signals at the sending node and decodes signals into bits at the receiving node.
+
+     +------------+                                     +------------+
+     |          --|----+                          +-----|--          |
+     | Node     Adaptor |))))))))))))))))))))))))| Adaptor      Node |
+     |          --|----+                          +-----|--          |
+     +------------+                                     +------------+
+     
+                 bits            Signal             bits
+                -------->========================------->
+
+    NRZ = non-return to zero:  1 - High signal,  0 - low signal.
+
+There are fundamental problem caused by long strings of 1s or 0s.
+Long strings lead to baseline wander.
+Problem to detect average and clock recovering.
+
+ONe approach, called non-return to zero inverted (NRZI) 1 - change, 0 - no change.
+This solves the problem of consecutive 1s, but obviously does nothing for consecutive 0s.
+
+Manchester encoding, does a more explicit job of merging the clock with the signal by NOR.
+Local clock alternates from low to high.
+The problem is double clock - 50% information.
+
+A final encoding that we consider, called 4B / 5B. 4bits = 5 bits.
+
+2.3 Framing
+
+2.6 Ethernet and Multiple Access Networks (802.3)
+
+Carrier Sense, Multiple Access with Collision Detect (CSMA/CD).
+
+2.7 Wireless: Wi-Fi (802.11)
+2.7.1 802.11/Wi-Fi
+
+3. Internetworking
+3.1 Switching and Bridging
+
+7. End to End Data
+------------------
+From the network perspective, application programs send messages to each other.
+Each of these messages is just an uninterpreted string of bytes.
+From application perspective these messages contain various kinds of data - arrays of integers, video frames, lines of text, digital images, and so on.
+
+Multimedia data types require us to think about both presentation and compression.
+
+7.1 Presentation formatting
+7.2 Multimedia Data
+lossless and lossy
+
+MPEG - video compression
+
+8. Network Security
+===================
+
+6.5820_Andrew S. Tanenbaum, Nick Feamster, David J. Wetherall - Computer Networks-Pearson (2021).pdf
+
+1. Introduction
+----------------
+
+

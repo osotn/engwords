@@ -1,0 +1,58 @@
+books: 6.1200_mcs.pdf
+
+I Proofs
+========
+Simply put, a proof is a method of establishing truth.
+Like beauty, "truth" sometimes depends on the eye of the beholder, and it should not be surprising that what constitutes a proof differs among fields.
+
+For example, in the judicial system, legal truth is decided by a jury based on the allowable evidence presented at trial.
+In business world, authoritative truth is specified by a trusted person or organization, or maybe just your boss.
+In fields such as physics or biology, scientific truth is confirmed by experiment.
+In statistics, probable truth is established by statistical analysis of sample data.
+
+Mathematics has its own specific notion of proof.
+
+Definition:
+    A mathematical proof of a proposition is a chain of logical deductions leading to the proposition from a base set of axioms.
+
+    proposition => logical deduction => axiom
+
+If you're going to prove a proposition, you'd better have a precise understanding of what the proposition means.
+To avoid ambiguity and uncertain definitions in ordinary language, mathematicians use language very precisely, and they often express propositions using logical formulas.
+
+1. What is a Proof?
+
+    Definition: A proposition is a statement (communication) that is either true or false.
+
+    Proposition 1.1.1:  2 + 3 = 5   T
+    Proposition 1.1.2:  1 + 1 = 3   F
+
+Unfortunately it is not always easy to decide if a proposition is true or false.
+
+    Proposition 1.1.3:  For every nonnegative integer, n, the value of n^2 + n + 41 is prime.
+                        (A prime is an integer greater than 1 that is not divisible by any other integer greater than 1).
+
+        p(n) = n**2 + n + 41
+        
+        n < 40 - OK
+        p(40) = 40^2 + 40 + 41 = 40*41 + 41 = 41*41 = 41**2
+
+By the way, propositions like this about all number or all items of some kind are so common that there is a special notation for them
+                    ∀ n ∊ N, p(n) is prime
+
+    ∀ is read "for all"
+    N is nonnegative integers
+    ∊ "is a member of" or "belongs to" or "is in"
+
+    Proposition 1.1.4 (Euler):
+            a**4 + b**4 + c**4 != d**4
+            ∀a ∊ Z+ V ∀b ∊ Z+ V ∀b ∊ Z+ V ∀d ∊ Z+
+
+    The solution he found was a = 95800; b = 217519; c = 414560; d = 422481.
+
+1.2 Predicates
+    A predicate is boolean expression.
+
+
+
+

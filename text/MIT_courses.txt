@@ -36,7 +36,7 @@ https://catalog.mit.edu/degree-charts/electrical-engineering-computing-6-5/
 
 ----
 
-6.1000 Introduction to Programming and Computer Science
++6.1000 Introduction to Programming and Computer Science
             Books: 6.1000 Introduction to Computation and Programming Using Python.pdf
     
 6.1010      Fundamentals of Programming   => after 6.1000
@@ -52,7 +52,8 @@ https://catalog.mit.edu/degree-charts/electrical-engineering-computing-6-5/
                    6.1210_2_Introduction to Algorithms (3r - Cormen, Thomas H. & Leiserson,_5373.pdf
 
 6.1903      Introduction to Low-level Programming in C and Assembly => 6.1000
-            books: 6.1903_1_lowlevelprogramming.pdf, 6.1903_2_CSAPP_2016.pdf,
+            books: 6.1903_1_lowlevelprogramming.pdf
+                   6.1903_2_CSAPP_2016.pdf,
                    6.1903_3_Jo Van Hoey - Beginning x64 Assembly Programming From Novice to AVX Professional.pdf
 6.1910      Computation Structures => Physics II + 6.1903  
             books: 6.1910_Andrew Tanenbaum - structured computer organization (6th edition) - 2012.pdf,
@@ -80,6 +81,7 @@ https://catalog.mit.edu/degree-charts/electrical-engineering-computing-6-5/
 
 6.5820      Computer Networks => 6.1810
             Books: 6.5820_Computer_Networks_Fifth_Edition_A_Systems_Approach_Larry_L_Peterson_Bruce_S_Daviewww.ebook-dl.com_.pdf
+                   6.5820_Andrew S. Tanenbaum, Nick Feamster, David J. Wetherall - Computer Networks-Pearson (2021).pdf
 
 
 6.2000      Electrical Circuits: Modeling and Design of Physical => Physics II (GIR)
@@ -94,10 +96,6 @@ https://catalog.mit.edu/degree-charts/electrical-engineering-computing-6-5/
 18.05       Introduction to Probability and Statistics
 18.06       Linear Algebra
 
-
-
-
-
 8.01        Physics I           (Classical Mechanics)
 8.02        Physics II          (Electricity and Magnetism)
 8.03        Physics III         (Vibrations and Waves)
@@ -106,9 +104,12 @@ https://catalog.mit.edu/degree-charts/electrical-engineering-computing-6-5/
 8.06        Quantum Physics II
             books: 8.01_Douglas Giancoli - Physics for Scientists & Engineers (2020, Pearson) - libgen.li.pdf
 
-24.00       Problems of Philosophy
++24.00       Problems of Philosophy
             Books: 24.00_Introduction_to_Philosophy-WEB_cszrKYp.pdf
+24.01       Classics of Western Philosophy
 
+24.900      Introduction To Linguistics
+            books: 24.900_Contemporary Linguistics - An Introduction (William O'Grady).pdf
 
 !!! https://github.com/lighthousand/books/blob/master/the-pragmatic-programmer.pdf - books
 

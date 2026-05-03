@@ -1,0 +1,279 @@
+6.1010_1_sicp.pdf
+
+sudo apt install mit-scheme
+
+mit-scheme
+
+Structure and Interpretation of Computer Programs
+
+Lisp is a survivor, having been in use for about a quarter of a century.
+Among the active programming languages only Fortran has had a longer life.
+Fortran for scientific and engineering computation and Lisp for artificial intelligence.
+
+The Scheme dialect used in this text has evolved from original Lisp and differs from the latter in several important ways.
+Scheme is as closely akin to Algol 60 as to early Lisps.
+Algol 60 never to be an active language again lives on in the genes of Scheme and Pascal.
+
+Pascal is for building pyramids—imposing, breathtaking, static structures
+built by armies pushing heavy blocks into place. Lisp is for building
+organisms—imposing, breathtaking, dynamic structures built by squads
+ﬁtting ﬂuctuating myriads of simpler organisms into place.
+
+1. Building Abstractions with Procedures
+========================================
+A computational process is indeed much like a sorcerer’s idea of a spirit.
+
+However, it is very real. It can perform intellectual work. It can answer
+questions. It can affect the world by disbursing money at a bank or by
+controlling a robot arm in a factory. Thee programs we use to conjure
+processes are like a sorcerer’s spells. They are carefully composed from
+symbolic expressions in arcane and esoteric programming languages that
+prescribe the tasks we want our processes to perform.
+
+A computational process, in a correctly working computer, executes
+programs precisely and accurately. Thus, like the sorcerer’s apprentice,
+novice programmers must learn to understand and to anticipate
+the consequences of their conjuring. Even small errors (usually called
+bugs or glitches) in programs can have complex and unanticipated consequences.
+
+Fortunately, learning to program is considerably less dangerous than learning sorcery, because the spirits we deal are conveniently 
+Real world programming however requires care, expertise, and wisdom.
+A small bug in a computer aided design program can lead to the catastrophic collapse of an airplane or a dam or the self destruction of an industrial robot.
+
+    - Programming in Lisp
+Lisp was invented in the late 1950s as formalism for reasoning about the use of certain kinds of logical expressions, called recursion equations, as a model for computation.
+Lisp is a practical programming language. A Lisp interpreter is a machine that carries out processes described in the Lisp Language.
+
+Lisp is by now a family of dialects, which, while sharing
+most of the original features, may differ from one another in significant
+ways. The dialect of Lisp used in this book is called Scheme.
+
+Lisp was at first very inefficient for numerical computations, at least in comparison with Fortran.
+
+1.1 The Elements  of Programming
+Every powerful language has three mechanisms for accomplishing this:
+    - primitive expressions
+    - means of combination
+    - means of abstraction
+
+In programming, we deal with two kinds of elements:
+    - procedures
+    - data
+
+Informally, data is stuff that we want to manipulate, and procedure are descriptions of the rules for manipulating the data.
+
+1.1.1 Expressions
+You type expression, and the interpreter responds by displaying the result of its evaluating that expression.
+
+One kind of primitive expression you might type is a number.
+Expressions representing numbers may be combined with an expression representing a primitive procedure.
+
+    (+ 137 349) => +,-,*,/
+
+Expressions such as these, formed by delimiting a list of expressions within parentheses in order to denote procedure application, are called combinations.
+The leftmost element in the list is called the operator, and other elements are called operands.
+The convention of placing the operator to the left of the operands is known as prefix notation, and it may be somewhat confusing at first.
+
+    (+ 21 35 12 7)
+
+Combinations can be nested.
+
+    (+ (* 3 5) (- 10 6))
+
+(+ (* 3
+      (+ (* 2 4)
+        (+ 3 5)))
+   (+ (- 10 7)
+6))
+
+1.1.2 Naming and the Environment
+
+We say that the name
+identifies a variable whose value is the object.
+In the Scheme dialect of Lisp, we name things with define.
+
+    (define size 2)
+The interpreter associate the value 2 with the name size.
+We can refer to the value 2 by name:
+    size
+
+    (* 5 size)
+
+"Define" is our language simplest means of abstraction, for it allows us to see simple names to refer to the results of compound operations.
+
+It should be clear that the possibility of associating values with symbols and later retrieving them means that the interpreter must maintain some sort of memory that keeps track of the name object pairs.
+This memory is called the environment (global environment).
+
+1.1.3 Evaluating Combinations
+The evaluation rule is recursive in nature.
+
+Symbols such as + and * are also included in the global environment, and are associated with the sequences of machine instructions that are their value.
+
+Notice that the evaluation rule given above does not handle definitions.
+For instance, evaluating (define x 3) does not apply define to two arguments.
+Such exceptions to the general evaluation rule are called special forms.
+
+Lisp has a very simple syntax.
+
+1.1.4 Compound Procedures
+
+    - Numbers and arithmetic operations are primitive data and procedures.
+    - Nesting of combinations provides a means of combining operations.
+    - Definitions that associate names with values provide a limited means of abstraction.
+
+Procedure definitions is a much more powerful abstraction technique by which a compound operation can be given a name and then referred to as a unit.
+
+To square something, multiply it by itself:
+    (define (square x) (* x x))
+
+We can understand this in the following way:
+
+    (define     (square     x)          (*      x       x))
+       |           |        |            |      |       |
+      To         square  something   multiply   it by  itself
+                <name> 
+                           <formal parameters> = parameters
+                                        <body>>
+
+Call <name><actual parameters> = argument
+
+1.1.5 The Substitution Model for Procedure Application
+
+Substitution model for procedure application.
+
+    - Applicative order versus normal order
+An alternative evaluation model would not evaluate the operands until their values were needed.
+Instead it would substitute operand expressions for parameters until it obtained an expression involving only primitive operators, and would then perform the evaluation.
+
+    (sum-of-squares (+ 5 1) (* 5 2))
+    (+(square (+ 5 1))(square (* 5 2))      )
+    (+(* (+ 5 1) (+ 5 1))(* (* 5 2) (* 5 2)))
+
+This alternative "fully expand and then reduce" evaluation method is known as normal order evaluation, in contrast to the "evaluate the arguments and then apply" method that the interpreter actually uses, which is called applicative order evaluation.
+
+Lisp uses applicative order evaluation, partly because of the additional efficiency obtained from avoiding multiple evaluations of expression.
+
+1.1.6 Conditional Expressions and Predicates
+Case analysis, and there is a special form in Lisp for notating such a case analysis.
+It is called cond.
+
+    (define (abs x)
+        (cond ((> x 0) x)
+              ((= x 0) 0)
+              ((< x 0) (- x))))
+
+
+(cond (⟨p1 ⟩ ⟨e1 ⟩)
+      (⟨p2 ⟩ ⟨e2 ⟩)
+      ...
+      (⟨pn ⟩ ⟨en ⟩))
+
+
+pairs of expressions (<p> <e>) called clauses.
+
+The first expression in each pair is a predicate - that is, an expression whose value is interpreted as either true or false.
+The predicate <p1> is evaluated first. If its value is false, then <p2> is evaluated.
+If none of the <p> is found to be true, the value of the cond is undefined.
+
+The word predicate is used for procedures that return true or false, as well as for expressions that evaluate to true or false.
+
+(define (abs x)
+    (cond ((< x 0) (- x))
+          (else       x)))
+
+Here is yet another way to write the absolute-value procedure:
+(define (abs x)
+    (if (< x 0)
+        (- x)
+           x))
+
+    (if ⟨ predicate ⟩ ⟨ consequent ⟩ ⟨ alternative ⟩)
+
+    and or not
+
+    (and (> x 5) (< x 10))
+    (define (>= x y) (or (> x y) (= x y)))
+    (define (>= x y) (not (< x y)))
+
+1.1.7 Example: Square Roots by Newton Method
+
+    sqrt(x) = the y such that y >= 0 and y^2 = x
+
+    pseudo-List
+    (define (sqrt x)
+        (the y (and (>= y 0)
+                    (= (square y) x))))
+
+The contrast between function and procedure is a reflection of the general distinction between describing of things and describing how to do things. I.e., between declarative knowledge and imperative knowledge.
+
+In mathematics we are usually concerned with declarative (what is) descriptions, whereas in computer science we are usually concerned with imperative (how to) descriptions.
+
+    Guess       Quotient                 Average
+     1           (y/Guess)=2/1=2       (Quotient + Guess)/2 = (2+1)/2=1.5
+     1.5         1.3333                  1.4167
+     1.4167      1.4118                  1.4142
+
+    (define (good-enough? guess x)
+        (< (abs (- (square guess) x)) 0.001))
+
+    (define (average x y)
+        (/ (+ x y) 2))
+
+    (define (improve guess x)
+        (average guess (/ x guess)))
+
+    (define (sqrt-iter guess x)
+        (if (good-enough? guess x)
+            guess
+            (sqrt-iter (improve guess x)  x)))
+
+    (define (sqrt x)
+        (sqrt-iter 1.0 x))
+
+The sqrt program also illustrates that the simple procedural language we have introduced so far is sufficient for writing any purely numerical program that one could write in C or Pascal.
+
+
+1.1.8 Procedures as Black Box Abstractions
+
+sqrt-iter is recursive.
+
+                        sqrt
+                          |
+                      sqrt-iter
+                      /       \
+               good-enough   improve
+                /      \        \
+             square    abs     average
+
+Procedural abstraction.
+
+(define (sqrt x)
+    (define (good-enough? guess x)
+        (< (abs (- (square guess) x)) 0.001))
+    (define (improve guess x) (average guess (/ x guess)))
+    (define (sqrt-iter guess x)
+        (if (good-enough? guess x)
+        guess
+        (sqrt-iter (improve guess x) x)))
+    (sqrt-iter 1.0 x))
+
+Nested and lexical scoping.
+
+1.2 Procedures and Processes They Generate
+
+(define (factorial n)
+    (if (= n 1)
+        1
+        (* n (factorial (- n 1)))))
+
+1.2.2 Tree Recursion
+the sequence of Fibonacci 
+
+(define (fib n)
+    (cond ((= n 0) 0)
+        ((= n 1) 1)
+        (else (+ (fib (- n 1))
+        (   fib (- n 2))))))
+
+1.2.3 Orders of Growth
+
