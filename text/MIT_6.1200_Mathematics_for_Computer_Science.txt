@@ -1,5 +1,7 @@
 books: 6.1200_mcs.pdf
 
+∀ ∃ ⊆ ∅ ∊ ∉ 
+
 I Proofs
 ========
 Simply put, a proof is a method of establishing truth.
@@ -52,6 +54,35 @@ By the way, propositions like this about all number or all items of some kind ar
 
 1.2 Predicates
     A predicate is boolean expression.
+
+1.3 The Axiomatic Method
+Propositions that are simply accepted as true are called axioms.
+A proof is a sequence of logical deductions from axioms and previously proved statements that concludes with the proposition in question.
+
+    Important true propositions are called theorems
+    A lemma is a preliminary proposition useful for proving later propositions.
+    A corollary is a preposition that follows in just a few logical steps from a theorem.
+
+1.4.1 Logical Deductions
+
+Logical deductions or inference rules, are used to prove new propositions using previously proved ones.
+
+    P implies Q is a proof of Q
+
+1.5 Proving an Implication
+
+        Implication:    if P, then Q
+
+1.5.1 Method #1
+    1. Write, Assume P
+    2. Show that Q logically follows
+1.5.2 Prove the Contrapositive
+
+1.6 Proving an If and only If
+
+    Iff = if and only if
+
+2. The well ordering principle
 
 
 

@@ -87,5 +87,189 @@ MPEG - video compression
 
 1. Introduction
 ----------------
+2. The physical layer
+---------------------
+2.1 Guided Transmission Media
+
+The purpose of the physical layer is to transport bits from one machine to another.
+Guided - physical cable or wire.
+
+Each type of guided transmission media has its own set of trade-offs in terms of:
+    - frequency, bandwidth, delay, cost, ease of installation and maintenance.
+
+Bandwidth in Hz as carrying capacity of a medium.
+
+2.1.2 Twisted Pairs
+One of the oldest and still most common transmission media is twisted pair.
+A twisted pair consists of two insulated copper wires, typically about 1 mm thick.
+The wires are twisted together in a helical form, similar to a DNA molecule.
+Two parallel wires constitute a fine antenna; when the wires are twisted, the waves from different twists cancel out, so the wire radiates less effectively.
+Transmitting the signal as the difference between the two voltage levels.
+
+The most common application of the twisted pair is the telephone system.
+Both telephone calls and ADSL Internet access run over these lines.
+
+Twisted pairs can run several kilometers without amplification, but for longer distances the signal becomes too attenuated and repeaters are needed.
+
+Twisted pairs can be used for transmitting either analog or digital information.
+The bandwidth depends on the thickness of the wire and the distance traveled, but hundreds of megabits per sec can be achieved for a few kilometers.
+
+Due to their adequate performance, widespread availability, and low cost, twisted pairs are widely used are likely to remain so for years to come.
+
+Category 5e or "Cat 5e" consists of two insulated wires gently twisted together.
+Four such pairs are typically grouped in a plastic sheath to protect the wires and keep them together.
+
+100 Mbps LAN Ethernet uses two pairs, one pair for each direction.
+To reach higher speeds, 1 Gbps Ethernet uses all four pairs in both directions simultaneously.
+
+UTP = unshielded twisted pair
+
+2.1.3 Coaxial Cable
+
+or coax
+
+It has better shielding and greater bandwidth than unshielded twisted pairs. So it can span longer distances at higher speeds.
+
+Two kinds of coaxial cable are widely used. One kind, 50 Ohm cable, is commonly used when it is intended for digital transmission from the start. The other kind, 75 ohm cable, is commonly used for analog transmission and cable television.
+
+A coaxial cable consists of a stiff copper wire as the core, surrounded by an insulating material.
+The insulator is encased by a cylindrical conductor, often as a closely woven braided mesh.
+The outer conductor is covered in a protective plastic sheath.
+
+The construction and shielding of the coaxial cable give it a good combination of high bandwidth and excellent noise immunity. Bandwidth up to 6 GHz.
+
+2.1.4 Power Lines
+Electrical power lines.
+
+2.1.5 Fiber Optics
+Fiber optics are used for long-haul transmission in network backbone, high-speed LANs.
+
+An optical transmission system has three key components:
+    - the light source;
+    - the transmission medium;
+    - detector.
+
+    1 - light
+    0 - no light
+
+The transmission medium is an ultra thin fiber of glass.
+
+Transmission system would leak light and be useless in practice were it not for an interesting principle of physics.
+When a light ray passes from one medium to another - for example, from fused silica (glass) to air - the ray is refracted 
+(bent) at the silica - air boundary.
+The amount of refraction depends on the properties of two media.
+For angles of incidence above a certain critical value, the light is refracted back int the silica; none of it escapes into the air.
+A fiber having this property is called a multimode fiber.
+If the fiber diameter is reduced to few wavelengths of light (< 10 microns, as opposed to more than 50 microns for multimode fiber), the fiber acts like a waveguide and light can propagate only in a straight line, without bouncing, yielding a single mode fiber.
+
+Single mode fibers are more expensive but are widely used for longer distances. They can transmit signals approximately 50 times farther than multimode fibers. Up tp 100Gbps for 100 km.
+
+Multimode fiber can be used for transmissions of up about 15 km and can allow the user of relatively less expensive fiber optic equipment.
+
+    - Transmission of Light Through Fiber
+Optical fibers are made of glass, which, in turn, is made from sand, an inexpensive raw material available in unlimited amounts.
+The attenuation of light through glass depends on the wavelength of the light.
+Three wavelength in the near infrared part of the spectrum used at 0.85 / 1.3 / 1.55 microns.
+All three bands are 25,000 to 30,000 GHz wide.
+
+    - Fiber Cables
+Fiber optic cables are similar to coax, except without the braid.
+At the center is the glass core through which the light propogates. (multimode ~ 50 microns, single ~ 8..10 microns).
+
+The core is surrounded by a glass cladding with a lower index of refraction that the core, to keep all the light in the core. Next comes a thin plastic jacket to protect the cladding. Fibers are typically grouped in bundles, protected by an outer sheath.
+
+Terrestrial fiber sheaths are normally laid in the ground within a meter of the surface, where they are occasionally subject to attacks by backhoes or gophers.
+
+Fiber can be connected in three different ways.
+First, they can terminate in connectors and be plugged into fiber sockets.
+Connectors lose about 10 to 20% of the light, but they make it easy to reconfigure systems.
+Second, they can be spliced mechanically.
+Third, two pieces of fiber can be fused (melted) to form a solid connection.
+
+Two kinds of light sources:
+    - LEDs (light emitting diodes)
+    - semiconductor lasers
+
+LED: low data rate, multi-mode short distance, long life, low cost
+Laser: high data rate, multi/singe modes, long distance, short life, expensive
+
+The receiving end of an optical fiber consists of a photodiode, which gives off an electrical pulse when struck by light.
+Converting time limits rate up 100Gbps.
+
+2.2 Wireless Transmission
+2.2.1 The electromagnetic Spectrum
+When electrons move, they create electromagnetic waves that can propagate through space.
+
+When antenna of the appropriate size is attached to an electrical circuit, the electromagnetic waves can be broadcast efficiently and received by a receiver some distance way.
+
+Speed of light, 30 cm for 1 nanosecond.
+
+2.2.2 Frequency Hopping Spread Spectrum
+In FHSS, transmitter hops from frequency to frequency hundreds of times per second.
+It is popular for military communication because it makes transmissions hard to detect and next to impossible to jam.
+For Bluetooth and older versions of 802.11.
+
+2.2.3 Direct Sequence Spread Spectrum
+DSSS uses a code sequence to spread the data signal over a wider frequency band.
+For 3G and GPS, and in 802.11b.
+
+2.2.4 Ultra Wideband Communication
+UWB sends a series of low energy rapid pulses, varying their carrier frequencies to communicate information.
+
+2.3 Using The spectrum for transmission
+2.3.1 Radio Transmission
+RF (radio frequency) waves are easy to generate, can travel long distances, and can penetrate buildings easily.
+
+2.3.2 Microwave Transmission
+Above 100 MHz the waves travel in nearly straight lines and can be therefore be narrowly focused.
+
+
+2.4 From Waveforms to bits
+2.4.2 The maximum data rates of a channel
+Even a perfect channel has a finite transmission capacity.
+
+    Maximum date rate = 2 x B
+
+for 3kHz it is 6000bps.
+
+If random noise is present, the situation deteriorates rapidly.
+
+SNR = signal to noise ratio
+
+    Maximum data rate = B x log2 ( 1 + S/N)bits/sec
+
+ADSL with bandwidth = 1 MHz, SNR = 40 dB = 13 Mbps
+
+2.4.3 Digital Modulation
+To send digital information, we must devise analog signals to represents bits.
+The process of converting between bits and signals that represent them is called digital modulation.
+
+    - Baseband Transmission
+
+The most straightforward form of digital modulation is to use a positive voltage to represent a 1 bit and negative voltage to represent a 0 bit. This scheme is called NRZ (Non Return to Zero).
+
+    - Bandwidth Efficiency
+We need bandwidth of at least B/2 Hz to bit rate B bits/sec.
+
+One strategy for using limited bandwidth more efficiently is to use more than two signaling levels.
+
+    - Clock Recovery
+
+    ASK (Amplitude Shift Keying)
+    FSK (Frequency Shift Keying)
+    PSK (Phase Shift Keying)
+
+    to send 2 bits per symbol - QPSK (Quadrature PSK)
+
+    QAM-16, QAM-256
+
+    OFDM (Orthogonal Frequency Division Multiplexing)
+
+2.6 Cellular Networks
+
+
+
+
+
 
 
