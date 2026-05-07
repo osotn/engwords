@@ -266,10 +266,110 @@ One strategy for using limited bandwidth more efficiently is to use more than tw
     OFDM (Orthogonal Frequency Division Multiplexing)
 
 2.6 Cellular Networks
+Mobile phone (cell phones) have gone through five distinct generations, widely called 1G, 2G, 3G, 4G and 5G.
+
+2.6.1 Common Concepts: Cells, Handoff, Paging
+In all mobile phone systems, a geographical region is divided up into cells, which is why the handsets are sometimes called cell phones.
 
 
+3. The Data Link Layer
+----------------------
+3.1 Data Link Layer Design issues
 
+    - Providing well defined service interface to the network layer
+    - Framing sequences of bytes as self contained segments
+    - Detecting and correcting transmission errors
+    - Regulating the flow of data so that slow receiver are not swamped by fast senders.
 
+To accomplish these goals, the data link layer takes the packets it gets from the network layer and encapsulates them into frames for transmission.
+    Frame:
+        - header
+        - payload
+        - trailer
 
+3.1.1 Serves Provided to the Network Layer
+The principal service of the link layer is transferring data from the network layer on the source machine to the network layer on the destination machine.
 
+    Services:
+        - unacknowledged connectionless     -> Ethernet
+        - acknowledged connectionless       -> WiFi (unreliable channel)
+        - acknowledged connection
+
+3.1.2 Framing
+The physical layer accepts a raw bit stream and attempts to deliver it to the destination.
+
+3.1.3 Error Control
+3.1.4 Flow Control
+
+3.2 Error Detection and Correction
+LDPC = Low Density Parity Check are linear block code.
+
+3.3 Elementary Data Link Protocols
+3.3.1 Initial Simplifying Assumptions
+Physical/Link/Network layers are independent processes that communicate by passing messages back and forth.
+
+The physical layer process and some of the data link layer process run on dedicated hardware called a NIC = Network Interface Card.
+
+3.3.2 Basic Transmission and Receipt
+
+3.5 Data Link Protocols in Practice
+
+PPP = Point to Point Protocol is used to send packets over links.
+SONET, ADSL, DOCSIS links apply PPP.
+
+3.5.1 Packet over SONET
+SONET is the physical layer protocol that is most commonly used over the wide area optical fiber links that make up the backbone of communications networks. It provides a bitstream up tp 2.4 Gbps.
+
+PPP improves on an earlier simpler protocol called SLIP (serial line internet protocol).
+
+3.5.2 ADSL
+Between ADSL and PPP are ATM (asynchronous transfer mode) and AAL5.
+
+3.5.3 DOCSIS = Data Over Cable Service Interface Specification
+PHY layer called PMD and MAC (media access control).
+
+4. MAC
+------
+4.1 The Channel Allocation Problem
+
+4.2.1 ALOHA
+
+    CSMA = Carrier Sense Multiple Access
+    CSMA/CD = CSMA with Collision Detection -> Ethernet
+
+4.3 Ethernet
+
+    IEEE 802.3
+
+Preamble with 10101010.
+Dst address
+Src address
+Type
+Data
+Pad
+Check sum
+
+4.4 Wireless LAN
+4.4.1 The 802.11 Architecture and Protocol Stack
+Can used in two modes. The most popular mode is to connect clients, such as laptops and smartphones, to another network, such as a company intranet or the Internet.
+In infrastructure mode, each clients is associated with an AP (Access Point) that is in turn connected to the other network.
+
+4.4.2 The 802.11 Physical Layer
+
+2.4G and 5G
+
+CDMA
+
+FrameControl
+Duration
+Addr 1
+Addr 2
+Addr 3
+Seq
+Data
+Check Sum
+
+4.5 Bluetooth
+
+ 
 

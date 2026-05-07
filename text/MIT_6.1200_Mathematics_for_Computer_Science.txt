@@ -83,7 +83,49 @@ Logical deductions or inference rules, are used to prove new propositions using 
     Iff = if and only if
 
 2. The well ordering principle
+2.1 Well Ordering Proofs
+2.2 Template for Well Ordering Proofs
+2.2.1 Summing the Integers
 
+    1 + 2 + ... + n = n(n+1)/2
 
+3. Logical Formulas
+-------------------
+To get around the ambiguity of English, mathematicians have devised a special language for talking about logical relationships.
+
+3.1 Propositions from Propositions
+
+    if-then, not, and, or
+
+    if all human are mortal and all Greeks are human, then all Greeks are mortal.
+
+    Propositional variables called Boolean variables and take on only value T true and F false.
+
+3.1.1 NOT, AND, and OR
+
+The precise mathematical meaning of these special words can be specified by truth tables.
+
+    OR, XOR = exclusive-or
+
+3.1.2 Implies
+
+        P implies Q    F only if P=T and Q=F
+
+3.1.3 IIF (if and only if)
+
+        P IFF Q   T if P=T/Q=T and P=F/Q=F
+
+3.2 Propositional Logic in Computer Programs
+
+3.4 The Algebra of Propositions
+
+4. Mathematical Data Types
+--------------------------
+4.1 Sets
+A set is a bunch of objects, which are called the elements of the set.
+
+    A = {a,b,c,d} - the order is not significant.
+
+    
 
 
