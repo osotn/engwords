@@ -370,6 +370,212 @@ Data
 Check Sum
 
 4.5 Bluetooth
+In 1994, the Swedish company L.M. Ericsson became interested in connecting its mobile phones to other devices (e.g., laptops) without cables. Together with four other companies (IBM, Intel, Nokia and Toshiba) it formed a SIG (Special Interest Group, i.e., consortium) in 1998 to develop a wireless standard for connecting computing and communication devices and accessories using short range, low-power, inexpensive wireless radios.
+Harald Blaatand (Bluetooth) II (940-981) a Viking king who unified Denmark and Norway.
 
- 
+All manner of consumer electronic devices now use bluetooth, from mobile phones and laptops to headsets, printers, keyboards, mice, game consoles, watches, music players, navigation units, and more.
+The Bluetooth protocols let these devices find and connect to each other, an act called pairing, and securely transfer data.
+
+4.5.1 Bluetooth Architecture
+The basic unit of a Bluetooth system is a piconet, which consists of a controller node and up to seven active worker nodes within a distance of 10 meters.
+Multiple piconets can exist in the same room and can even be connected via a bridge node that takes part in multiple piconets.
+
+The reason for the controller / worker design is that the designers intended to facilitate the implementation of complete Bluetooth chips for under 5$. At its heart, a piconet is a centralized TDM system, with the controller controlling the clock and determining which device gets to communicate in which time slot.
+
+4.5.2 Bluetooth Applications
+802.11 does not specify whether users should use their laptop computers for reading email, surfing the Web, or something else.
+In contrast, the Bluetooth SIG specifies particular applications to be supported and provides different protocol stacks for each one.
+Six of the profiles are for different uses of audio and video.
+The headset and handsfree profiles both provide voice communication between a headset and its base station.
+
+4.5.4 The Bluetooth Radio Layer
+2.4 GHz. The band is divided into 79 channels of 1 MHz each.
+Frequency hopping spread spectrum is used.
+1600 hops/sec over slots with a dwell time of 625 usec.
+
+
+4.7 Data Link Layer Switching
+To connect multiple LAN.
+The Ethernet switches are a modern name for bridges, they provide functionality that goes beyond classic Ethernet and Ethernet hubs to make it easy to join multiple LAN into a larger and faster network.
+
+Bridges operate in the data link layer, so they examine the data link layer addresses to forward frames.
+
+4.7.1 Uses of Bridges
+4.7.2 Learning Bridges
+The bridges are the devices to which the stations and hub are attached.
+
+Each bridge operates in promiscuous mode, that is, it accepts every frame transmitted by the stations attached to each of its ports.
+The bridge must decide whether to forward or discard each frame, and, if the former, on which port to output the frame.
+This decision is made by using the destination address.
+
+A simple way to implement this scheme is to have a big (hash) table inside the bridge.
+When the bridges are first plugged in, all the hash table are empty. None of the bridges know where any of the destinations are, so they use a flooding algorithm. As time goes on, the bridges learn where destinations are.
+Once a destination is known, frames destined for it are put only the proper port; they are not flooded.
+
+4.7.3 Spanning Tree Bridges
+To increase reliability, redundant links can be used between bridges.
+There are two links in parallel between a pair of bridges. It creates loops in the topology.
+The spanning tree algorithm was then standardized as IEEE 802.1D.
+
+4.7.4 Repeaters, Hubs, Bridges, Switches, Routers, and Gateways.
+The key to understanding these devices is to realize that they operate in different layers.
+
+    Application Layer   -> Application gateway
+    Transport Layer     -> Transport gateway
+    Network Layer       -> router
+    Data Link Layer     -> Bridge/switch
+    Physical Layer      -> Repeater, hub
+
+Repeaters are analog devices that work with signals on the cables to which they are connected.
+A signal appearing on one cable is cleaned up, amplified, and put out on another cable.
+Repeaters do not understand frames, packets, or headers.
+
+A hub has a number of input lines that it joins electrically. Frames arriving on any of the lines are sent out on all the others.
+
+A bridge connects two or more LANs. Like a hub, a modern bridge has multiple ports, from 4 to 48 input lines.
+Unlike in a hub, each port is isolated to be in own collision domain.
+When a frame arrives the bridge extracts the destination address from the frame header and looks it up in a table to see where to send the frame.
+
+Switches are modern bridges by another name. The differences are more to do with marketing than technical issues, but there are a few points worth knowing. The term "switch" is more popular nowadays.
+
+Router get payload of every packets. Software uses the packet header to choose an output line. For an IP packet, the packet header will contain a IPv4/v6 address.
+
+Transport gateway. These connect two computers that use different connection oriented transport protocols.
+
+4.7.5 Virtual LANs
+VLAN are based on VLAN aware switches. To set up a VLAN based network, the network administrator decides how many VLANs there will be, which computers will be on which VLAN, and what the VLANs will be called.
+
+IEEE 802.1Q
+
+Tagged frame
+
+
+5. The Network Layer
+--------------------
+5.1 Network Layer Design Issues
+5.1.2 Services Provided to the Transport Layer
+Provides services to the transport layer:
+    - the services should be independent of the router technology
+    - the transport layer should be shielded from the number, type and topology of the routers present.
+    - the network addresses made available to the transport layer should use a uniform numbering plan, even across LAN and WAN.
+
+5.1.3 Implementation of connectionless service
+
+Packets are called datagrams and the network is called a datagram network.
+Defragmentation packets.
+IP is the dominant example of a connectionless network service.
+
+5.1.4 Implementation of connection oriented service
+
+5.2 Routing Algorithms in a Single Network
+This process is forwarding.
+Nonadaptive/adaptive algorithms -> static/dynamic routing.
+
+5.4 Quality of Service and Application QOE
+The techniques we looked at in the previous sections are designed to reduce congestion and improve network performance. Sometimes need best effort.
+
+5.4.1 Application QoS Requirements
+A stream of packets from a source to a destination is called a flow.
+The needs of each flow can be characterized by four primary parameters: bandwidth, delay, jitter and loss.
+Together, these determine the QoS = Quality of Service.
+
+The variation in the delay or packet arrival times is called jitter.
+
+5.5 Internetworking
+5.5.4 Connecting Endpoints Across Heterogeneous Networks
+Tunneling
+VPNs = Virtual Private Networks
+
+5.7 The Network Layer in the Internet
+
+5.7.6 Internet Control Protocols
+ICMP, ARP, DHCP
+
+6. Transport Layer
+------------------
+6.1 The Transport Service
+6.1.1 Services Provided to the Upper Layers
+The ultimate goal of the transport layer is to provide efficient, reliable, and cost-effective data transmission service to its user, normally processes in the application layer.
+
+Connection oriented and connectionless.
+
+6.1.2 Transport Service Primitives
+
+    Listen  - block until process tries to connect
+    Connect - actively attempt to establish a connection
+    Send - send information
+    Receive - Block until a data packet arrives
+    Disconnect
+
+Segment for messages sent from transport entity to transport entity.
+TCP, UDP and other Internet Protocols.
+
+6.1.3 Berkeley Sockets
+Berkeley UNIX 4.2 BSD in 1983.
+
+    Socket
+    Bind
+    Listen
+    Accept
+    Connect
+    Send / Receive
+    Close
+
+6.4 UDP
+User Datagram Protocol
+
+6.4.3 Real Time Transport Protocols
+Real Time multimedia applications.
+RTCP - The Real Time Transport Control Protocol
+
+6.5 TCP
+Transmission Control Protocol
+
+7. Application Layer
+--------------------
+7.1 DNS = Domain Name System
+
+7.2 Electronic Mail
+email
+
+Email is full of jargon such as BTW (by the way), ROTFL (Rolling On the Floor Laughing).
+IMHO (in my humble opinion).
+ASCII symbols called smileys, starting with ubiquitous :-).
+This symbol and other emoticons help to convey the tone of the message.
+
+Email system architecture consists of two kinds of subsystems: the user agents and message transfer agents.
+
+The user agent is a program that provides a graphical interface, or sometimes a text and command based interface.
+
+The message transfer agents are typically system processes.
+They run in the background on mail server machines and are intended to be always available.
+SMTP = Simple Mail Transfer Protocol.
+
+Webmail
+
+
+7.3 WWW = World Wide Web
+Collection of content in the form of Web pages.
+A page may also link to other Web pages.
+Pages are generally viewed with a program called a browser.
+
+HTTP = Hyper Text Transfer Protocol
+HTTPS = Secure HTTP
+
+URL = Uniform Resource Locator.
+
+HTML = Hypertext Markup Language
+CSS = Cascading Style Sheets
+
+CGI = Common Gateway Interface
+
+By convention, programs invoked via CGI live in a directory called cgi-bin.
+
+A popular language for writing scripts - PHP = Hypertext Preprocessor.
+
+With JavaScript, when the submit button is clicked the browser interprets a JavaScript function contained on the page.
+
+7.3.4 HTTP and HTTPS
+
+
 
