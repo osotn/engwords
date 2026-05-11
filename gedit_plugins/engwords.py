@@ -49,7 +49,9 @@ class EngWordsWindowActivatable(GObject.Object, Gedit.WindowActivatable):
         p = self.engwords_path + self.lang + "words/"
         f = "/" + word + ".txt"
         return os.path.exists(p + "first_20000" + f) or \
-               os.path.exists(p + "first_30000" + f)
+               os.path.exists(p + "first_30000" + f) or \
+               os.path.exists(p + "first_50000" + f) or \
+               os.path.exists(p + "first_100000" + f) 
 
     def get_word(self, sel):
         iter, end = sel

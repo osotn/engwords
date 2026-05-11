@@ -53,6 +53,12 @@
 #define FIRST_30000_FILE_NAME "%swords/first_30000/%s.txt"
 #define FIRST_30000_FILE_NAME_SIZEOF (3 + sizeof(FIRST_30000_FILE_NAME) + MAX_WORD_SIZE)
 
+#define FIRST_50000_FILE_NAME "%swords/first_50000/%s.txt"
+#define FIRST_50000_FILE_NAME_SIZEOF (3 + sizeof(FIRST_50000_FILE_NAME) + MAX_WORD_SIZE)
+
+#define FIRST_100000_FILE_NAME "%swords/first_100000/%s.txt"
+#define FIRST_100000_FILE_NAME_SIZEOF (3 + sizeof(FIRST_100000_FILE_NAME) + MAX_WORD_SIZE)
+
 
 #define MY_ACTIVE_FILE_NAME "%swords/active/%s"
 #define MY_ACTIVE_FILE_NAME_SIZEOF (3 + sizeof(MY_ACTIVE_FILE_NAME) + MAX_WORD_SIZE) 
@@ -339,6 +345,22 @@ int is_first_30000(char *s)
    return (access(fname, F_OK) != -1);
 }
 
+int is_first_50000(char *s)
+{
+   char fname[FIRST_50000_FILE_NAME_SIZEOF + 1];
+ 
+   sprintf(fname, FIRST_50000_FILE_NAME, lang, s);
+   return (access(fname, F_OK) != -1);
+}
+
+int is_first_100000(char *s)
+{
+   char fname[FIRST_100000_FILE_NAME_SIZEOF + 1];
+ 
+   sprintf(fname, FIRST_100000_FILE_NAME, lang, s);
+   return (access(fname, F_OK) != -1);
+}
+
 int is_my_active(char *s)
 {
   char fname[MY_ACTIVE_FILE_NAME_SIZEOF + 1];
@@ -586,7 +608,8 @@ void main(int argc, char * argv[])
 {
   int i = 0;
   int len;
-  int is_s, is_p, is_t, is_a, is_f1000, is_f3000, is_f4000, is_f5000, is_f10000, is_f20000, is_f30000;
+  int is_s, is_p, is_t, is_a, is_f1000, is_f3000, is_f4000, is_f5000, is_f10000,
+      is_f20000, is_f30000, is_f50000, is_f100000;
   char *p;
   char word[MAX_WORD_SIZE + 1];
   int unknown_words = 0;
@@ -619,7 +642,9 @@ void main(int argc, char * argv[])
       is_f10000 = is_first_10000(p_word);
       is_f20000 = is_first_20000(p_word);
       is_f30000 = is_first_30000(p_word);
-      p = is_f1000 ? "1T" : (is_f3000 ? "3T" : (is_f4000 ? "4T" : (is_f5000 ? "5T" : (is_f10000 ? "xT" : (is_f20000 ? "yT" : (is_f30000 ? "zT" : "xx"))))));
+      is_f50000 = is_first_50000(p_word);
+      is_f100000 = is_first_100000(p_word);
+      p = is_f1000 ? "1T" : (is_f3000 ? "3T" : (is_f4000 ? "4T" : (is_f5000 ? "5T" : (is_f10000 ? "xT" : (is_f20000 ? "yT" : (is_f30000 ? "zT" : (is_f50000 ? "fT" : (is_f100000 ? "hT" : "xx"))))))));
       if (!fWithoutColor && !is_a)
         printf(TTY_LIGHT_CYAN);
 
@@ -712,7 +737,9 @@ void main(int argc, char * argv[])
     is_f10000 = is_first_10000(words[i].word);
     is_f20000 = is_first_20000(words[i].word);
     is_f30000 = is_first_30000(words[i].word);
-    p = is_f1000 ? "1T" : (is_f3000 ? "3T" : (is_f4000 ? "4T" : (is_f5000 ? "5T" : (is_f10000 ? "xT" : (is_f20000 ? "yT" : (is_f30000 ? "zT" : "xx"))))));
+    is_f50000 = is_first_50000(words[i].word);
+    is_f100000 = is_first_100000(words[i].word);
+    p = is_f1000 ? "1T" : (is_f3000 ? "3T" : (is_f4000 ? "4T" : (is_f5000 ? "5T" : (is_f10000 ? "xT" : (is_f20000 ? "yT" : (is_f30000 ? "zT" : (is_f50000 ? "fT" : (is_f100000 ? "hT" : "xx"))))))));
 //    printf("%s\n", words[i].word);
     if (!fWithoutColor && !is_a)
        printf(TTY_LIGHT_CYAN);

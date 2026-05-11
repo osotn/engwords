@@ -3449,18 +3449,18 @@ Animals
               xx ?#  longhair [ˈlɒŋheə(r)] (n) {C2} {animals} = ​a type of cat with long hair
               xx ?#  manx+cat [ˌmæŋks ˈkæt] (n) (Manx cat) {C2} {animals} = a breed of cat with no tail
               xx ?#  marmalade+cat [ˈmɑːməleɪd kæt] (n) {C2} {animals} = a cat with orange fur with darker orange stripes
-              xx ?#  microchip [ˈmaɪkrəʊtʃɪp] (n) {C1} {engineering} {computers} микрочип, микросхема; (v) {C2} {animals} = to put a microchip under the skin of an animal as a way of identifying it
+              hT ?#  microchip [ˈmaɪkrəʊtʃɪp] (n) {C1} {engineering} {computers} микрочип, микросхема; (v) {C2} {animals} = to put a microchip under the skin of an animal as a way of identifying it
               xx ?#  moggie [ˈmɒɡi] (UK) (n) (informal) {C2} {animals} = ​a cat especially an ordinary one of no particular breed
-              xx ?#  neuter [ˈnjuːtə] (adj) {C1} {language} средний, бесполый; (n) {C1} {language} средний род; (v) {C2} {animals} =  to remove part of the sex organs of an animal so that it cannot produce young
+              fT ?#  neuter [ˈnjuːtə] (adj) {C1} {language} средний, бесполый; (n) {C1} {language} средний род; (v) {C2} {animals} =  to remove part of the sex organs of an animal so that it cannot produce young
               xT ?#  pussy [ˈpʌsi->(adj)/ˈpʊsi->(n)] (n) {C2} {animals} киска, пизда, кошечка, девушка; (adj) гнойный, гноевидный
               xx ?#  shetland+pony [ˌʃetlənd ˈpəʊni] (n) {C2} {animals} шетландский пони
               xx ?#  shorthair [ˈʃɔːtheə(r)] (n) {C2} {animals} = a type of cat with short hair
               xx ?#  siamese+cat [ˌsaɪəmiːz ˈkæt] (n) (Siamese cat) {C2} {animals} = ​a cat with short pale fur and a brown face/ears/tail and feet
               xx ?#  spay [speɪ] (v) {C2} {animals} to remove the ovaries of a female animal to prevent it from producing young
-              xx ?#  tabby [ˈtæbi] (adj) полосатый, пестрый; (n) {C2} {animals} полосатая кошка, злая сплетница
+              fT ?#  tabby [ˈtæbi] (adj) полосатый, пестрый; (n) {C2} {animals} полосатая кошка, злая сплетница
               xT *#  tom [tɒm] (n) [first name for boys] Том, {C2} {animals} = a male cat
               yT ?#  tomcat [ˈtɒmˈkæt] (n) {C2} {animals} кот, = a male domestic cat
-              xx ?#  tortoiseshell [ˈtɔːtəsʃel/ˈtɔːtəʃel] (US) (n) {C2} {animals} = a cat with black/brown/orange/white fur
+              hT ?#  tortoiseshell [ˈtɔːtəsʃel/ˈtɔːtəʃel] (US) (n) {C2} {animals} = a cat with black/brown/orange/white fur
 
 {animals {wild mammals}}
 ........................
@@ -3499,23 +3499,40 @@ Animals
               zT *#  antelope [ˈæntɪləʊp] (n) {C1} {animals} антилопа
   122. (  1) 4T *#PT bat [bæt] (n) {C1} {animals} летучая мышь, {B2} {sports: ball and racket sports} бита, ракетка, удар; (v) {C1} бить палкой
               xx ?#  blue+whale [ˌbluː ˈweɪl] (n) {C1} {animals} синий/голубой кит
-              xx ?#  chimpanzee [ˌʧɪmpənˈziː] (n) {C1} {animals} шимпанзе
+              fT ?#  chimpanzee [ˌʧɪmpənˈziː] (n) {C1} {animals} шимпанзе
               yT ?#  cub [kʌb] (n) {C1} {animals} детёныш
               xx ?#  giant+panda [ˌdʒaɪənt ˈpændə] (n) {C1} {animals} гигантская панда
               4T ?#  gorilla [gəˈrɪlə] (n) {C1} {animals} горилла
               4T ?#  hare [heə] (n) {C1} {animals} заяц
               zT ?#  hippo [ˈhɪpəʊ] (n) {C1} {animals} гиппопотам
-              xx ?#  hippopotamus [ˌhɪpəˈpɒtəməs] (n) {C1} {animals} бегемотp
+              fT ?#  hippopotamus [ˌhɪpəˈpɒtəməs] (n) {C1} {animals} бегемотp
               xT ?#  jaguar [ˈʤ æɡjʊə] (n) {C1} {animals} ягуар
               5T ?#  primate [ˈpraɪmɪt] (n) {C1} {animals} примат, {C2} {religion and festivals} архиепископ
-              xx ?#  rhinoceros [raɪˈnɒsərəs] (n) {C1} {animals} носорог
+              fT ?#  rhinoceros [raɪˈnɒsərəs] (n) {C1} {animals} носорог
               5T ?#  rodent [ˈrəʊdənt] (n) {C1} {animals} грызун; (adj) разъедающий
               zT ?#  skunk [skʌŋk] (n) {C1} {animals} скунс, вонючка
               zT ?#  wildcat [ˈwaɪldkæt] (n) {C1} {animals} дикая кошка; (adj) вспыльчивый, рискованный
 
 {C2} {animals {wild mammals}}
               xx ?#  aardvark [ˈɑːdvɑːk] (n) {C2} {animals} трубкозуб, африканский муравьед
-              
+              hT ?#  anteater [ˈæntiːtə(r)] (n) {C2} {animals} муравьед
+              hT ?#  armadillo [ˌɑːməˈdɪləʊ] (n) {C2} {animals} броненосец, армадилл
+              5T ?#  baboon [bəˈbuːn] (n) {C2} {animals} бабуин, павиан
+              yT ?#  badger [ˈbæʤ ə] (n) {C2} {animals} барсук; (adj) барсучий; (v) дразнить
+              xx ?#  bandicoot [ˈbændɪkuːt] (n) {C2} {animals} бандикут
+              xT ?#  beaver [ˈbiːvə] (n) {C2} {animals} бобр, бобер; (adj) бобровый
+              xx ?#  bilby [ˈbɪlbi] (n) {C2} {animals} билби
+              5T ?#  bison [ˈbaɪsn] (n) {C2} {animals} зубр
+              zT ?#  boar [bɔː] (n) {C2} {animals} кабан, боров, хряк, I:boar-boar/boars
+              hT ?#  bobcat [ˈbɒbkæt] (n) {C2} {animals} рысь
+              xT ?#  buck [bʌk] (n) {C1} {money} доллар, {C2} {animals} самец; (v) противиться, брыкаться
+              xx ?#  bushbaby [ˈbʊʃbeɪbi] (n) {C2} {animals} = ​a small African animal with large eyes that lives in trees, кустовой
+              xx ?#  capybara [ˌkæpiˈbɑːrə] (n) {C2} {animals} капибара, I:capybara-capybara/capybaras
+              hT ?#  chamois [ˈʃæmwɑː/ˈʃæmi] (n) {C2} {animals} = an animal like a small deer that lives in the mountains of Europe and Asia серна, (u) замша, I:chamois-chamois
+              hT ?#  chipmunk [ˈtʃɪpmʌŋk] (n) {C2} {animals} бурундук
+              hT ?#  civet [ˈsɪvɪt] (n) {C2} {animals} циветта, цибетин
+              xx ?#  coati [kəʊˈɑːti] (n) {C2} {animals} коати
+              zT ?#  cougar [ˈkuːɡə(r)] (n) {C2} {animals} пума
 
 <here
 
