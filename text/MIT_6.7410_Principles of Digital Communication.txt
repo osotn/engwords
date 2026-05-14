@@ -1,0 +1,94 @@
+6.7410_Principles of Digital Communication.pdf
+
+Preface
+-------
+The digital communication industry is an enormous and rapidly growing industry, roughly comparable in size to the computer industry.
+
+Digital communication is a field in which theoretical ideas have had an unusually powerful impact on system design and practice. The basis of the theory was developed in 1948 by Claude Shannon, and is called information theory.
+
+By the mid 1970's mainstream systems using information theoretical ideas began to be widely implemented.
+The first reason for this was the increasing number of engineers who understood both information theory and communication system practice. The second reason was that the low cost and increasing processing power of digital hardware made it possible to implement the sophisticated algorithms suggested by information theory.
+The third reason was that the increasing complexity of communication systems required the architectural principles of information theory.
+
+The theoretical principles here fall roughly into two categories - the first provide analytical tools for determining the performance of particular systems, and the second put fundamental limits on the performance of any system.
+
+There are many excellent undergraduate texts on digital communication describing a wide variety of systems.
+
+1. Introduction to digital communication
+----------------------------------------
+Good communication is central to a civilized society.
+
+Communication technology as we view it today became important with telegraphy, then telephony, then video, then computer communication, and today the amazing mixture of all of these in inexpensive, small portable devices.
+
+    Source -> Source Encoder -> Channel Encoder -> Channel -> Channel Decoder -> Source Decoder -> Destination
+
+Two fundamental architectural principles are standardized interfaces and layering.
+
+1.2 Communication sources
+The source might be discrete, i.e., it might produce a sequence of discrete symbols, such as letters from the English alphabet, binary symbols from a computer file, etc.
+Alternatively, the source might produce an analog waveform, such as a voice signal from a microphone.
+the output of a sensor, a video waveform, etc.
+
+The study of communication before 1948 was based on Fourier analysis; basically one studied the effect of passing sine waves through various kinds of systems and components and viewed the source signal as superposition of sine waves. Our study of channels will begin with this kind of analysis (often called Nyquist theory) to develop basic results about sampling, intersymbol interference, and bandwidth.
+
+Shoannon's view, however, was that if the recipient knows that a sine wave of a given frequency is to be communicated, why not simply regenerate it at the output rather than send it over a long distance?
+Or, if the recipient knows that a sine wave of unknown frequency is to be communicated, why not simply send the frequency rather the entire waveform?
+
+1.2.1 Source coding
+The source encoder -> converting the input from its original form into a sequence of bits.
+
+Letters from 27 symbol English alphabet may be encoded into 5 bit blocks.
+Upper-case letters, lower-case and many special symbols may be converted into 8 bit block (ASCII code).
+
+The most straighforward approach to analog source coding is called analog to digital (A/D) conversion.
+The source waveform is first sampled at a sufficiently high rate, Each sample is then quantized sufficiently finely for adequate reproduction.
+
+Standard voice telephony with sampled 8000 times per second; each sample with 256 levels:
+        8000 x 8bits = bit rate of 64 Kbps.
+
+1.3 Communication channels
+A channel is viewed as that part of the communication system between source and destination that is given and not under the control of the designer.
+For telephone line modem might be a 4 kHz voice channel.
+It might be a physical coaxial cable of up to a certain length, with certain bandwidth restrictions.
+
+When the channel is taken to be the physical medium, the amplifiers, antennas, lasers, etc.
+
+Channel encoding and decoding whtn the channel is the physical medium (either with or withour amplifiers, antennas, lasers, etc.) is usually called (digital) modulation and demodulation respectively.
+
+The terminology comes from the days of analog communication where modulation referred to the process of combining a lowpass signal waveform with a high frequency sinusoid.
+
+Analog signal waveform could modulate the amplitude, frequency or phase of the sinusoid.
+
+Noise provides the fundamental limitation to performance in communication systems.
+
+    Waveform input X(t), an added noise waveform Z(t), and a waveform output Y(t) = X(t) + Z(t).
+
+Linear Gaussian channel, Y(t) = X(t) * h(t) + Z(t)
+    h(t) - impulse response, * - convolution.
+
+1.3.1 Channel encoding (modulation).
+
+
+2. Coding for Discrete Sources
+------------------------------
+2.1 Introduction
+2.2 Fixed-length codes for discrete sources
+
+size M this coding method requires L = log_2(M)
+
+2.3 Variable-length codes for discrete sources
+
+0 01 011 - 0 as the beginning of each new code word.
+
+3. Quantization
+---------------
+4. Source and channel waveforms
+-------------------------------
+
+9. Wireless digital communication
+---------------------------------
+
+6.4710_Book-Sklar.pdf
+=======================
+
+

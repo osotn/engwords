@@ -516,3 +516,161 @@ Learn xv6 Course: https://www.youtube.com/watch?v=k51934LHz3k&t=25s&index=1&list
 
 1. Introduction 21min
 
+
+6.1810_1_Andrew S. Tanenbaum - Modern Operating Systems.pdf
+
+1. Introduction
+---------------
+A modern computer consists of one or more processors, some main memory, disks, printers, a keyboard, a mouse, a display interfaces, and various other input output devices.
+
+The program that users interact with, usually called the shell when it is text based and the GUI.
+
+1.1.1 The OS as an Extended Machine
+The architecture (instruction set, memory organization, I/O, and bus structure) of most computers at the machine language level is primitive and awkward to program, especially for input output.
+
+1.2 History of OS
+
+batch system
+
+OS/360 IBM
+
+MULTICS
+
+UNIX        System V from AT&T and BSD
+
+MINIX
+
+Linux - Linus Torvalds
+
+DOS - Disk OS
+
+MS-DOS      IBM PC
+
+Mac OS X
+
+Windows NT
+Windows 95
+
+FreeBSD
+
+UNIX X Window System - X11
+GUI - Gnome, KDE
+
+
+Symbian OS
+iOS iPhone
+Android
+
+
+1.3 Computer Hardware Review
+1.3.1 Processors
+The "brain" of the computer is the CPU.
+It fetches instructions from memory and executes them.
+x86 Intel and ARM.
+
+1.3.6 Booting the Computer
+On the parenboard is a program called the system BIOS = Basic Input Output System.
+
+1.5 OS Concepts
+1.5.1 Processes
+A process is basically a program in execution.
+
+1.5.6 The Shell
+
+
+2. Processes and Threads
+------------------------
+2.1.2 Process Creation
+OS need some way to create processes.
+When OS is booted, typically numerous process are created -> daemons.
+
+UNIX -> call fork(). After the fork, the two processes, the parent and the child, have the same memory image, the same environment strings, and the same open files.
+
+2.1.3 Process Termination
+
+
+Process management:
+    - registers
+    - program counter
+    - program status word
+    - stack pointer
+    - process state
+    - priority
+    - scheduling parameters
+    - parent process
+    - process group
+    - signals
+    - Time when process started
+    - CPU time used
+    - Children CPU time
+    - Time of next alarm
+
+2.2 Threads
+2.3 IPC = interprocess communication
+2.3.1 Race Conditions
+Processes that are working together may share some common storage that each one can read and write.
+The shared storage may be in main memory or it may be a shared file.
+
+Situation where two or more processes are reading or writing some shared data and the final result depends on who runs precisely when, are called race conditions.
+
+2.3.2 Critical Regions
+Mutual exclusion
+
+2.3.3 Mutual Exclusion with Busy Waiting
+On a single processor system, the simplest solution is to have each process disable all interrupts just after entering its critical region and re-enable them just before leaving it.
+With interrupts disabled, no clock interrupts can occur.
+This approach is generally unattractive because it is unwise to give user processes the power to turn off interrupts.
+On the other hand, it is frequently convenient for the kernel itself to disable interrupts for a few instructions while it is updating variables or especially lists.
+
+As a second attempt, let us look for a software solution.
+Consider having a single, shared (lock) variable, initially 0.
+When a process wants to enter its critical region, it first test the lock.
+If the lock is 0, the process set it to 1 and enters the critical region.
+If the lock is already 1, the process just waits until it becomes 0.
+
+But, suppose that one process reads the lock and sees that it is 0, Before it can set the lock to 1, another process is scheduled, runs, and sets the lock to 1.
+
+A third approach to the mutual exclusion problem.
+
+Continuously testing a variable until some value appears is called busy waiting.
+It should usually be avoided, since it wastes CPU time.
+A lock that uses busy waiting is called a spin lock.
+One process set 1 and another 0.
+
+Little help from the hardware.
+Some computers, especially those designed with multiple processors in mind, have an instruction like
+    TSL RX,LOCK
+    (Test and Set Lock)
+It read the contents of the memory word lock into register RX and then stored a nonzero value at the memory address lock. The operations of reading the word and storing into it are guaranteed to be indivisible - no other processor can access the memory word until the instruction is finished. The CPU executing the TSL instruction locks the memory bus to prohibit other CPUs from accessing memory until it is done.
+
+To use the TSL instruction, we will use a shared variable, lock, to coordinate access to shared memory.
+When lock is 0, any process may set it to 1 using the TSL instruction and then read or write the shared memory.
+When it is done, the process set lock back to 0 using an ordinary move instruction.
+
+An alternative instruction to TSL is XCHG, which exchange the contents of two lacations atomically.
+    MOVE R,#1
+    XCHG R,Lock
+    CMP R,#0
+
+2.3.4 Sleep and Wakeup
+
+Sleep / Wakeup
+
+2.3.5 Semaphores
+
+Variable semaphore could have the value 0, indicating that no wakeups were saved, or some positive value if one or more wakeups were pending.
+Two operations on semaphore are down and up (generalizations sleep and wakeup).
+The down operation checks to see if the value is greater than 0.
+If so, it decrements the value and just continues.
+If the value is 0, the process is put to sleep without completing the down for the moment.
+
+
+
+
+
+
+
+
+
+
+

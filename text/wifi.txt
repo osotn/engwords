@@ -561,3 +561,317 @@ Laptop will also act as a beamformer for the transmission of acknowledgements.
 SU Beamforming.
  
  
+ 
+CWNA certified-wireless-network-administrator-6th.pdf
+=====================================================
+2021 y
+
+Foreword
+Wi-Fi is one of the most widely adopted technologies around world.
+Today, nearly every mobile device ships with Wi-Fi.
+Currently is over 15 billion Wi-Fi devices with 4.5 billion Wi-Fi devices in 2024.
+
+Wi-Fi Alliance, Wi-Fi CERTIFIED.
+
+1. Overview
+-----------
+Leaning a new technology can seem like a daunting task. There are so many new acronyms, initialisms, abbreviations, terms, and ideas to become familiar with. One of the keys to learning any subject is to learn the basics.
+
+    IEEE 802.11, more commonly referred to as Wi-Fi, is a standard technology for providing local area network (LAN) communications using radio frequencies (RF).
+
+In 19th century, numerous inventors and scientist, including Michael Faraday, James Clerk Maxwell, Heinrich Rudolf Hertz, Nikola Tesla, David Edward Hughes, Thomas Edison, and Guflielmo Marconi, began to experiment with wireless communications.
+These innovators discovered and created many theories about the concepts of electrical magnetic radio frequency (RF).
+
+Wi-Fi is a marketing term, recognized worldwide by millions of people as referring to 802.11 wireless networking.
+
+hi-fi = high fidelity
+
+FCC = federal communication commission regulates communications within the US.
+    - frequency
+    - bandwidth
+    - maximum power of the intentional radiator (IR)
+    - maximum equivalent isotropically radiated power (EIRP)
+    - Use (indoor and / or outdoor)
+    - spectrum sharing rules
+
+FCC rules are published in the Code of Federal Regulations (CFR).
+
+802.11ax : High Efficiency
+Wi-Fi 6E extension  1200 MHz of the 6 GHz band for unlicensed use.
+
+In order for the data to be transmitted, the signal must be manipulated so that the receiving station has a way of distinguishing 0s and 1s.
+This method of manipulating a signal so that it can represent multiple pieces of data is known as a keying method. A keying method is what changes a signal into a carrier signal. It provide the signal with the ability to encode data so that it can be communicated or transported.
+
+Three types of keying methods are reviewed in the following sections:
+    - ASK   amplitude shift keying
+    - FSK   frequency shift keying
+    - PSK   Phase shift keying
+ 
+ it referres as modulation techniques.
+
+    ASK varies the amplitude, or height, of a signal to represent the binary data.
+This shifting of amplitude determines the data that is being transmitted.
+Symbol period.
+
+    PSK varies the phase of the signal to represent the binary data.
+    Multiple PSK = MPSK
+
+2. Standard
+------------
+
+IEEE 802.11 1997    IEEE Std 802.11-1997
+                             802.11-1999 (R2003) - reaffirmed 
+                             802.11-2007
+                             802.11-2012
+                             802.11-2016
+                             802.11-2020
+
+IEEE specifically defines 802.11 technologies at the Physical layer and the MAC sublayer.
+
+PHY:
+    - Infrared (IR) been deprecated and removed
+    - FHSS = Frequency Hopping Spread Spectrum - has been deprecated and removed
+    - DSSS = Direct Sequence Spread Spectrum that uses fixed channels.
+
+    2.4 GHz ISM (industrial, scientific, medical)   2.4 ... 2.4835 GHz
+
+    Data rates: 1 Mbps , 2 Mbps
+
+    IEEE 802.11-2000 Ratified Amendments
+
+    802.11a-1999
+Operate in the 5 GHz using RF technology called OFDM = orthogonal frequency division multiplexing
+Three different 100 MHz unlicensed frequency bands in the 5 GHz range.
+
+2.4 GHz ISM:    bluetooth, microwave ovens, cordless phones, ...
+
+    Speed   6, 9, 12, 18, 24, 36 48 and 54 Mbps.
+    
+
+    802.11a-1999
+
+High Rate DSSS (HR-DSSS).
+
+Different spreading coding techniques called complementary code keying - CCK (Barker code).
+    CCK speed 1, 2, 5.5, 11 Mbps.
+
+    802.11b are backward compatible with the 802.11 DSSS data rates 1 Mbps and 2 Mbps.
+    The transmission data rates of 5.5 Mbps and 11 Mbps are known as HR-DSSS.
+
+    802.11g-2003
+
+    ERP = Extended Rate Physical data rate of 6, 9, 12, 18, 24, 36, 48 and 54 Mbps.
+
+    TPC = transmit power control.
+
+    802.11n-2009
+in both 2.4 GHz and 5 GHz frequency band.
+
+    MIMO = multiple input, muliple output.
+
+    802.11ac-2013
+    VHT = Very High Throughput
+
+    802.11n introduced the capability of 40 MHz, 802.11ac supports channels widths of 20/40/80/160 MHz/
+
+    256-QAM
+    MU-MIMO - multi user
+    Beamforming
+
+    802.11ax - high efficiency (HE)
+    in 2.4 GHz / 5 GHz / 6 GHz
+    
+    OFDMA = multiple access
+    
+    802.11be Extremely High Throughput EHT
+    up to 40 Gbps.
+    Wi-Fi 7
+
+3. RF
+-----
+The EM electromagnetic spectrum.
+
+    Radio, Microwaves, Infrared, Visible, Ultraviolet, X-ray, Gamma Ray.
+
+RF electromagnetic signal radiates away from the antenna in a continuous pattern that is governed by certain properties, such as wavelength, frequency, amplitude, and phase.
+Speed of light is 299,000,000 m/sec.
+
+RF signals travel through space and matter, they lose signal strength (attenuate).
+All antennas have effective area for receiving power, known as the aperture.
+
+    12 cm = 2.4 GHz
+     5 cm = 5 GHz
+
+Higher the frequency, typically the less the signal will penetrate through obstructions.
+
+Wave propagation 
+Electromagnetic waves can move through a perfect vacuum or pass through materials of different mediums.
+Wave propagation can vary drastically depending on the materials in the signal path.
+Drywall will have a much different effect on an RF signal than metal or concrete.
+
+What happens to an RF signal between two locations is a direct result of how the signal propagates.
+
+    - absorption
+The most common RF behaviour is absorption.
+If a signal does not bounce off an object, move around an object, or pass through an object, then 100 percent absorption has occurred. Most materials will absorb some amount of an RF signal to varying degrees.
+
+Brick and concrete walls will absorb a signal significantly, whereas drywall will absorb a signal to a lesser degree.
+
+    2.4GHz signal will be 1/16 the original power after propagating through a concrete wall or only 50% through drywall material.
+
+Water is another example of a medium that can absorb a signal to a large extent.
+
+    - Reflection
+When a wave hits a smooth object that is larger than the the wave itself, depending on the medium the wave may bounce in another direction.
+There are two major types of reflection:
+    - sky wave reflection;
+    - microwave reflection.
+
+Sky wave reflection can occur in frequencies below 1 GHz, where the signal has a very large wavelength.
+The signal bounces off the surface of the charged particles of the ionosphere in the earth atmosphere.
+
+Microwave signals, however, exist between 1GHz...300GHz.
+Much smaller wavelength.
+Microwaves can bounce off smaller objects like a metal door. Anything made of metal will absolutely cause reflection. Other materials, such as glass and concrete, may cause reflection as well.
+
+    - Scattering
+The color of the sky is blue because the molecules of the atmosphere are smaller than wavelength of light.
+Scattering can most easily be described as multiple reflections. These multiple reflections occur when the electromagnetic signal wavelength is larger than pieces of whatever medium the signal is reflecting from or passing through.
+
+Scattering can happen in two ways. The first type of scattering is on a lower level and has a lesser effect on the signal quality and strength. Smog in our atmosphere and sandstorms in the desert can cause this type of scattering.
+The second type of scattering occurs when an RF signal encounters some type of uneven surface and is reflected into multiple directions.
+
+    - Refraction
+In addition to RF signals being absorbed or bounced (via reflection or scattering), if certain conditions exist an RF signal can actually be bent, in a behaviour known as refraction.
+With medium with a different density - water vapor, changes in air temperature, and changes in air pressure.
+
+    - Diffraction
+Another RF propagation behaviour exists that also bends the RF signal; it is called diffraction. It is the bending of an RF signal around an object.
+
+    - Loss (attenuation)
+In cable because of the electrical impedance of the coaxial cabling or connections.
+
+    - Free Space Path Loss
+Free space path loss is the loss of signal strength caused by the natural broadening of the waves, often referred to as beam divergence.
+
+Depending on the center frequency of an individual channel, 2.4 GHz signal will attenuate by about 80 dB after 100 meters, 5 GHz will lose about 87 dB and 6 GHz - 89 dB.
+
+Doubling distance causes 6 dB loss.
+
+    - Multipath
+
+    - Gain (Amplification)
+        - active (using amplifier)
+        - passive (using antenna)
+
+    - RF Analysis Tools
+Frequency domain Tool called a spectrum analyzer.
+Time domain tools - oscilloscope.
+
+4. RF Components, Measurements and Mathematics
+----------------------------------------------
+
+    - Components of RF Communications
+Antenna, antenna cable, receiver/transmitter
+
+    - Transmitter
+When the transmitter receiver the data, it begins generating an alternating current (AC) signal.
+Power level of the transmitter.
+FCC controls power level.
+
+    - Antenna
+An antenna provides two functions in a communication system.
+It collect AC signal that it receives from the transmitter and directs, or radiates, the RF waves away from the antenna in a pattern specific to the antenna type.
+
+There are two ways to increase the power output from an antenna. The first is to generate more power at the transmitter, as stated in the previous section. The other is to direct, or focus, the RF signal that is radiating from the antenna.
+
+    - Receiver
+IR intentional radiator - power before antenna not including antenna - mW or dBm.
+EIRP - equivalent isotropically radiated power is the highest RF signal strength that is transmitted from a particular antenna.
+
+    - Units of Power and Comparison
+
+Units of power (absolute) - watt (W), milliwatt (mW), decibels relative to 1 milliwatt (dBm)
+         comparison (relative) - decibel (dB), decibels relative to an isotropic radiator (dBi)
+                                 decibels relative to a half wave dipole antenna (dBd)
+
+    - Watt
+A watt (W) is the basic unit of power, named after James Watt, an 18th century.
+    W = I x V (ampere (amp) x 1 volt).
+
+Milliwatt (mW) is also a unit of power = 1/1000 of watt.
+
+Wi-Fi is levels between 1mW to 100mW.
+
+    - Decibel
+Decibel (dB) is that it is a unit of comparison, not a unit of power.
+Decibel is derived from the bel.
+
+    log_10(10) =  1
+    log_10(100) = 2
+    log_10(1000) = 3
+    log_10(10000) = 4
+    
+    bels = log_10(P1/P2)
+    decibels = 10 * log_10(P1/P2)
+
+    - dBi
+
+Theoretically, an isotropic radiator can radiate an equal signal in all directions.
+A common antenna used on access points is the half wave dipole antenna. The half wave dipole antenna is a small, typically rubber or plastic encased, general purpose onmidirectional antenna. 2.4 GHz half wave dipole antenna has a dBi value 2.14.
+
+    - dBd
+dBd relative to a dipole antenna.
+
+    - dBm
+relative to 1 mW
+
+    0 dBm   =   1mW
+  +20 dBm   = 100mW 
+  -40 dBm   = 1/10,000 mW
+
+    - RF Mathematics
+
+    3 dB  = sqrt(10)  => x2
+   10 db              => x10
+   
+   
+   100mW + 3 dBi (cable) => 200mW
+   
+   100mW - 3 db  (cable) => 50mW
+   
+   40mW + 10 dBi => 400 mW
+
+    - Noise Floor
+It is the ambient or background level of radio energy on a specific channel.
+This background energy can include modulated or encoded bits coming from nearby 802.11 transmitting radios or unmodulated energy coming from non 802.11 devices.
+
+The amplitude of the noise floor, which is sometimes simply referred to as background noise varies in different environments.
+2.4 GHz ISM about -100 dBm in a typical environment.
+5 GHz is lower.
+
+    - SNR
+Signal to noise ratio
+SNR 25 dB or greater is considered good signal quality.
+
+    - SINR
+SINR = signal to interference plus noise ratio.
+It is the difference between the power of the primary RF signal, compared against the sum of the power of the RF interference and background noise.
+
+    - RSSI
+Received Signal Strength Indicator.
+Receive sensitivity refers to the power level of an RF signal required to be successfully received by the receiver radio.
+               RS, dBm
+    MCS7        -77
+    MCS6        -78     54 Mbps
+    MCS6        -80     48 Mbps
+    MCS5        -80
+    MCS4        -85     36 Mbps
+                -87     24 Mbps
+    MCS3        -90
+    MCS2        -90
+    MCS1        -90
+    MCS0        -90     18 Mbps
+                -91     9 / 6 Mbps
+
+

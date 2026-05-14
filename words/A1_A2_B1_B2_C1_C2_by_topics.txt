@@ -3533,8 +3533,70 @@ Animals
               hT ?#  civet [ˈsɪvɪt] (n) {C2} {animals} циветта, цибетин
               xx ?#  coati [kəʊˈɑːti] (n) {C2} {animals} коати
               zT ?#  cougar [ˈkuːɡə(r)] (n) {C2} {animals} пума
-
-<here
+              yT ?#  coyote [kaɪˈəʊti/kɔɪˈəʊti] (n) {C2} {animals} койот
+              fT ?#  cull [kʌl] (v) {C2} {animals} отбирать, браковать, выбирать; (n) отбросы
+              hT ?#  dingo [ˈdɪŋɡəʊ] (n) {C2} {animals} динго, I:dingo-dingoes
+              xT ?#  doe [dəʊ] (n) {C2} {animals} лань, самка оленя
+              xx ?#  dormouse [ˈdɔːmaʊs] (n) {C2} {animals} соня, I:dormouse-dormice
+              hT ?#  dugong [ˈduːɡɒŋ] (n) {C2} {animals} дюгонь
+              yT ?#  elk [elk] (UK) (n) {C2} {animals} лось, I:elk-elk/elks
+              fT ?#  fawn [fɔːn] (adj) {C2} {colours and shapes} желтовато-коричневый; (n) {C2} {animals} оленёнок, {C2} {colours and shapes} желтовато-коричневый цвет
+              zT ?#  ferret [ˈfɛrɪt] (n) {C2} {animals} хорек; (v) разведывать, разнюхивать
+              1T *#  game [geɪm] (n) {A1} {games and toys} {A2} {sports: ball and the racket sports} игра, {A1} {shopping} партия, {C2} {animals} {birds} = wild animals or birds that people hunt for sport or food; (adj) {C2} {danger} игровой; (v) играть в азартные игры
+              zT ?#  genet [ˈdʒenɪt] (n) {C2} {animals} генет, генетта
+              fT ?#  gibbon [ˈɡɪbən] (n) {C2} {animals} гиббон
+              zT ?#  gopher [ˈgəʊfə] (n) {C2} {animals} суслик, гофер
+              hT ?#  groundhog [ˈɡraʊndhɒɡ] (n) {C2} {animals} сурок
+              xT ?#  hart [hɑːt] (n) {C2} {animals} олень
+              zT ?#  hedgehog [ˈhɛʤ hɒg] (n) {C2} {animals} еж, дикобраз
+              4T ?#  hind [haɪnd] (n) {C2} {animals} лань, батрак; (adj) {C2} {animals} задний
+              hT ?#  humpback [ˈhʌmpbæk] (n) {C2} {animals} горб, горбун, горбатый (кит)
+              hT ?#  hyaena [haɪˈiːnə] (n) {C2} {animals} гиена
+              fT ?#  hyena [haɪˈiːnə] (n) {C2} {animals} гиена
+              hT ?#  ibex [ˈaɪbeks] (n) {C2} {animals} горный козел, козерог, I:ibex-ibex
+              fT ?#  jackal [ˈʤ ækɔːl] (n) {C2} {animals} шакал
+              hT ?#  jackrabbit [ˈdʒækræbɪt] (n) {C2} {animals} заяц-русак
+              zT ?#  koala [kəʊˈɑːlə] (n) {C2} {animals} коала, сумчатый медведь
+              hT ?#  lemming [ˈlemɪŋ] (n) {C2} {animals} лемминг
+              hT ?#  lemur [ˈliːmə(r)] (n) {C2} {animals} лемур
+              yT ?#  lynx [lɪŋks] (n) {C2} {animals} рысь, I:lynx-lynx/lynxes
+              hT ?#  manatee [ˈmænətiː] (n) {C2} {animals} ламантин
+              zT ?#  marmot [ˈmɑːmət] (n) {C2} {animals} сурок
+              hT ?#  marsupial [mɑːˈsuːpiəl] (n) {C2} {animals} сумчатое животное; (adj) сумчатый
+              fT ?#  marten [ˈmɑːtɪn] (n) {C2} {animals} куница
+              zT ?#  mink [mɪŋk] (n) {C2} {animals} норка, I:mink-mink/minks
+              yT ?#  mole [məʊl] (n) {C2} {physics and chemistry} моль, {C2} {animals} крот; (v) копать, рыть
+              hT ?#  mongoose [ˈmɒŋɡuːs] (n) {C2} {animals} мангуст
+              hT ?#  muskrat [ˈmʌskræt] (n) {C2} {animals} ондатра, выхухоль
+              xT ?#  mustang [ˈmʌstæŋ] (n) {C2} {animals} мустанг
+              hT ?#  opossum [əˈpɒsəm] (n) {C2} {animals} опоссум
+              hT ?#  orangutan [ˈɔːrəŋˈuːtæn] (n) {C2} {animals} орангутанг
+              yT ?#  otter [ˈɒtə] (n) {C2} {animals} выдра
+              4T ?#  panda [ˈpændə] (n) {C2} {animals} панда
+              4T ?#  panther [ˈpænθə] (n) {C2} {animals} пантера, леопард, барс, пума, ягуар
+              hT ?#  peccary [ˈpekəri] (n) {C2} {animals} дикая свинья
+              hT ?#  platypus [ˈplætɪpəs] (n) {C2} {animals} утконос
+              hT ?#  polecat [ˈpəʊlkæt] (n) {C2} {animals} хорек
+              5T ?#  porcupine [ˈpɔːkjupaɪn] (n) {C2} {animals} дикобраз
+              fT ?#  porpoise [ˈpɔːpəs] (n) {C2} {animals} морская свинья, бурый дельфин
+              yT ?#  puma [ˈpjuːmə] (UK) (n) {C2} {animals} пума, кугуар
+              zT ?#  pup [pʌp] (n) щенок, тюлененок, {C2} {animals} молокосос; (v) щениться
+              fT ?#  raccoon [rəˈkuːn] (n) {C2} {animals} енот
+              zT ?#  roo [ruː] (n) (informal) {C2} {animals} = kangaroo
+              zT ?#  sable [ˈseɪbl] (n) {C2} {animals} соболь
+              fT ?#  shrew [ʃruː] (n) {C2} {animals} землеройка, мегера, сварливая женщина
+              5T ?#  sloth [sləʊθ] (n) лень, {C2} {animals} ленивец, медлительность
+              yT ?#  stag [stæg] (n) холостяцкая вечеринка, {C2} {animals} олень-самец; (adj) холостяцкий
+              hT ?#  stoat [stəʊt] (n) {C2} {animals} горностай
+              hT ?#  tapir [ˈteɪpə(r)] (n) {C2} {animals} = an animal like a pig with a long nose that lives in Central and South America and South-East Asia, тапир
+              fT ?#  vermin [ˈvɜːmɪn] (n)(pl) {C2} {animals} вредители, паразиты
+              zT ?#  vixen [ˈvɪksn] (n) {C2} {animals} лисица
+              fT ?#  vole [vəʊl] (n) {C2} {animals} полевка
+              fT ?#  walrus [ˈwɔːlrəs] (n) {C2} {animals} морж
+              zT ?#  weasel [ˈwiːzl] (n) {C2} {animals} ласка
+              zT ?#  wolverine [ˈwʊlvəriːn] (n) {C2} {animals} росомаха
+              hT ?#  wombat [ˈwɒmbæt] (n) {C2} {animals} вомбат
+              hT ?#  woodchuck [ˈwʊdtʃʌk] (n) {C2} {animals} сурок
 
 {animals {working animals}}
 ................................
@@ -3548,6 +3610,9 @@ Animals
 
 {C1} {animals {working animals}}
               4T ?#  mule [mjuːl] (n) {C1} {animals} мул
+
+{C2} {animals {working animals}}
+              4T *#  hunter [ˈhʌntə] (n) охотник, {C2} (UK) {C2} {animals} = a fast strong horse used in hunting, (US) {C2} {animals} = a dog used in hunting
 
 {birds}
 ------------
@@ -3577,6 +3642,21 @@ Animals
               xx ?#  quack [kwæk] (n) шарлатан, {C1} {birds} кряканье, кряква, утка, медик; (v) {C1} {birds} крякать, болтать; (adj) шарлатанский
  1091. (  1) yT ?#PT soar [sɔː] (v) {C1} {transport by air} {momey} {birds} парить, {C1} витать
 
+{C2} {birds {bird behaviour}}
+              zT ?#  brood [bruːd] (n) {C2} {birds} выводок, семья, дети; (v) {C2} {feelings} размышлять, тяготить
+              fT ?#  chirp [tʃɜːp] (n) {C2} {birds} чириканье
+              hT ?#  cluck [klʌk] (v) кудахтать; (n) {C2} {birds} кудахтанье
+              5T ?#  clutch [klʌʧ] (n) {C2} {transport by car or lorry} сцепление, муфта, {C2} {birds} выводок; (v) ухватиться, хвататься, схватить; (adj) {C2} {sports: ball and racket sports} надежный
+              zT ?#  coo [kuː] (v) {C2} {birds} ворковать; (n) воркование, (abbr) Chief Operating Officer
+              3T *#  flight [flaɪt] (n) {A1} {transport by air} полет, {C2} {danger} = the act of running away from a dangerous or difficult situation, {C2} {birds} = a group of birds or aircraft flying together; (v) совершать перелет
+              hT ?#  gaggle [ˈɡæɡl] (n) {C2} {birds} стая (гусей), гоготание; (v) гоготать
+              fT ?#  hoot [huːt] (n) {C2} {birds} уханье = the call of an owl, крики; (v) гудеть, {C2} {birds} ухать
+              fT ?#  incubate [ˈɪŋkjubeɪt] (v) {C2} {birds} инкубировать, высиживать
+              5T ?#  peck [pɛk] (v) {C2} {birds} клевать, долбить, чмокнуть; (n) {C2} {birds} клевок, куча, легкий поцелуй
+              hT ?#  squawk [skwɔːk] (v) {C2} {birds} громко протестовать; (n) {C2} {birds} визг
+              xx ?#  tweet [twiːt] (v) {B1} {phones, email and the internet} = to send a message or picture using the social media service previously called Twitter, {C2} {birds} чирикать; (n) {B1} {phones, email and the internet} твит, {C2} {birds} птичий щебет
+              hT ?#  twitter [ˈtwɪtə] (n) {B1} {phones, email and the internet} {C2} {birds} твиттер, щебет; (v) {C2} {birds} щебетать
+
 {birds {bird homes}}
 ....................
 {A1} {birds {bird homes}}
@@ -3587,6 +3667,12 @@ Animals
 
 {C1} {birds {bird homes}}
   801. (  1) 3T *#PT nest [nɛst] (n) {C1} {birds} {insects, worms, etc.} гнездо, гнездышко; (v) {C1} {birds} гнездиться
+
+{C2} {birds {bird homes}}
+              hT ?#  aviary [ˈeɪviəri] (n) {C2} {birds} вольер
+              5T ?#  coop [kuːp] (n) {C2} {birds} курятник; (v) сажать в курятник
+              hT ?#  rookery [ˈrʊkəri] (n) {C2} {birds} колония, лежбище
+              5T ?#  roost [ruːst] (n) {C2} {birds} насест, курятник, спальня, постель; (v) {C2} {birds} усаживаться на насест
 
 {birds {birds}}
 ...............
@@ -3612,7 +3698,8 @@ Animals
               4T ?#  parrot [ˈpærət] (n) {B2} {birds} попугай
               4T ?#  pigeon [ˈpɪʤ ɪn] (n) {B2} {birds} голубь; (adj) голубиный
 
-{B2} {birds {birds}}
+{C1} {birds {birds}}
+              hT ?#  bluebird [ˈbluːbɜːd] (n) {C1} {birds} певчая птица
               xx ?#  budgerigar [ˈbʌdʒəriɡɑː(r)] (n) {C1} {birds} волнистый попугайчик
               xx ?#  budgie [ˈbʌdʒi] (n) {C1} {birds} волнистый попугайчик
               yT ?#  canary [kəˈneəri] (n) {C1} {birds} канарейка, певичка; (adj) канареечный
@@ -3620,6 +3707,7 @@ Animals
               4T ?#  claw [klɔː] (n) {C1} {animals} {birds} коготь, {C1} {fish and shellfish} клешня, лапа, зубец; (v) хватать
               4T ?#  crow [kroʊ] (n) {C1} {birds} ворона; (v) кукарекать, I:crow-crew/crewed-crowed
               4T ?#  dove [dʌv] (n) {C1} {birds} голубь
+              hT ?#  duckling [ˈdʌklɪŋ] (n) {C1} {food} {birds} утенок
               5T ?#  falcon [ˈfɔːlkən] (n) {C1} {birds} сокол
               5T ?#  finch [fɪnʧ] (n) {C1} {birds} зяблик
               xT ?#  hawk [hɔːk] (n) {C1} {birds} ястреб, сторонник жесткого курса
@@ -3628,8 +3716,61 @@ Animals
               4T ?#  peacock [ˈpiːkɒk] (n) {C1} {birds} павлин; (adj) павлиний; (v) важничать
               xT ?#  poultry [ˈpoʊltri] (n) {C1} {food} {birds} домашняя птица
               5T ?#  raven [ˈreɪvn] (n) {C1} {birds} ворон
-              xx ?#  seagull [ˈsiːgʌl] (n) {C1} {birds} чайка
+              fT ?#  seagull [ˈsiːgʌl] (n) {C1} {birds} чайка
+              hT ?#  songbird [ˈsɒŋbɜːd] (n) {C1} {birds} певунья
               4T ?#  swan [swɒn] (n) {C1} {birds} лебедь, бард; (adj) лебединый
+              fT ?#  vulture [ˈvʌltʃə(r)] (n) {C1} {birds} гриф, стервятник
+
+{C2} {birds {birds}}
+              fT ?#  albatross [ˈælbətrɒs] (n) {C2} {birds} альбатрос
+              zT ?#  bantam [ˈbæntəm] (n) {C2} {birds} петух, забияка
+              fT ?#  booby [ˈbuːbi] (n) {C2} {birds} олуша, балбес
+              hT ?#  bustard [ˈbʌstəd] (n) {C2} {birds} дрофа
+              fT ?#  buzzard [ˈbʌzəd] (n) {C2} {birds} канюк, глупец
+              5T ?#  cardinal [ˈkɑːdɪnl] (n) {C2} {religion and festivals} кардинал, {C2} {maths and measurement} {language} количественное числительное, {C2} {birds} ​= a North American bird (the male cardinal is bright red); (adj) (formal) кардинальный, основной, главный
+              hT ?#  chickadee [ˈtʃɪkədiː/ˌtʃɪkəˈdiː] (n) {C2} {birds} синица
+              4T *#  cock [kɒk] (n) {C2} {birds} петух, кран, хуй, пенис
+              hT ?#  cockatoo [ˌkɒkəˈtuː] (n) {C2} {birds} какаду
+              hT ?#  cockerel [ˈkɒkərəl] (n) {C2} {birds} петушок, драчун
+              5T ?#  condor [ˈkɒndɔː(r)] (n) {C2} {birds} кондор
+              hT ?#  coot [kuːt] (n) {C2} {birds} лысуха, простак
+              hT ?#  cormorant [ˈkɔːmərənt] (n) {C2} {birds} баклан
+              4T ?#  crane [kreɪn] (n) {C1} {engineering} {buildings} кран, {C2} {birds} журавль; (v) вытягивать шею
+              4T ?#  cuckoo [ˈkʊkuː->(adj/n)/ˈkʊˈkuː->(v)] (n) {C2} {birds} кукушка, разиня, глупец; (v) куковать; (adj) спятивший, чокнутый
+              hT ?#  curlew [ˈkɜːljuː] (n) {C2} {birds} кулик, I:curlew/curlews
+              fT ?#  dipper [ˈdɪpə(r)] (n) {C2} {birds} черпак, оляпка, красильщик
+              yT ?#  drake [dreɪk] (n) {C2} {birds} селезень
+              hT ?#  egret [ˈiːɡrət] (n) {C2} {birds} цапля
+              yT ?#  emu [ˈiːmjuː] (n) {C2} {birds} эму
+              yT ?#  flamingo [fləˈmɪŋɡəʊ] (n) {C2} {birds} фламинго
+              hT ?#  flycatcher [ˈflaɪkætʃə(r)] (n) {C2} {birds} мухоловка
+              4T ?#  fowl [faʊl] (n) {C2} {food} {birds} птица, дичь, домашняя птица, I:fowl-fowl/fowls
+              1T *#  game [geɪm] (n) {A1} {games and toys} {A2} {sports: ball and the racket sports} игра, {A1} {shopping} партия, {C2} {animals} {birds} = wild animals or birds that people hunt for sport or food; (adj) {C2} {danger} игровой; (v) играть в азартные игры
+              hT ?#  gander [ˈɡændə(r)] (n) {C2} {birds} гусак, глупец
+              hT ?#  gannet [ˈɡænɪt] (n) {C2} {birds} баклан
+              hT ?#  goldfinch [ˈɡəʊldfɪnʧ] (n) {C2} {birds} щегол, золотая монета
+              hT ?#  goshawk [ˈɡɒshɔːk] (n) {C2} {birds} ястреб-тетеревятник
+              hT ?#  gosling [ˈɡɒzlɪŋ] (n) {C2} {birds} гусенок, глупыш
+              hT ?#  grebe [ɡriːb] (n) {C2} {birds} поганка, = a bird like a duck that can also swim underwater
+              zT ?#  grouse [ɡraʊs] (n) {C2} {food} {birds} куропатка, I:grouse-grouse
+              5T ?#  gull [gʌl] (n) {C2} {birds} чайка; (v) дурачить
+              hT ?#  harrier [ˈhæriə(r)] (n) {C2} {birds} = ​a bird of prey (a bird that kills other creatures for food) of the hawk family
+              5T ?#  hatchling [ˈhætʃlɪŋ] (n) {C2} {birds} вылупившийся птенец
+              4T ?#  hen [hɛn] (n) {C2} {birds} курица
+              zT ?#  heron [ˈherən] (n) {C2} {birds} цапля
+              5T ?#  hornbill [ˈhɔːnbɪl] (n) {C2} {birds} птица-носорог
+              5T ?#  hummingbird [hʌmɪŋbɜːd] (n) {C2} {birds} колибри
+              yT ?#  ibis [ˈaɪbɪs] (n) {C2} {birds} ибис
+              hT ?#  jackdaw [ˈdʒækdɔː] (n) {C2} {birds} галка
+              xT *#  jay [ʤ eɪ] (n) Джей, {C2} {birds} сойка
+              hT ?#  kestrel [ˈkestrəl] (n) {C2} {birds} пустельга
+              4T ?#  kite [kaɪt] (n) {C2} {birds} коршун, {B2} {games and toys} воздушный змей
+              zT ?#  lark [lɑːk] (n) {C2} {bird} жаворонок, забава, шутка
+              hT ?#  linnet [ˈlɪnɪt] (n) {C2} {birds} щегла, коноплянка
+              zT ?#  loon [luːn] (n) {C2} {birds} полярная гагара, псих, деревенщина
+              hT ?#  macaw [məˈkɔː] (n) {C2} {birds} ара
+
+<here
 
 {birds {parts of birds}}
 ........................

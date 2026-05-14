@@ -576,6 +576,113 @@ A popular language for writing scripts - PHP = Hypertext Preprocessor.
 With JavaScript, when the submit button is clicked the browser interprets a JavaScript function contained on the page.
 
 7.3.4 HTTP and HTTPS
+HTTPS protocol over a sercure transport protocol called TLS = Transport Layer Security.
+
+HTTP is a simply request response protocol.
+Operations called methods.
+Each request consists of one or more lines of ASCII text.
+The names are case sensitive.
+
+The GET method requests the server to send the pages.
+
+    GET     - read a Web page
+    HEAD    - read a Web page header
+    POST    - Append to a Web page
+    PUT     - Store a web page
+    DELETE  - remove the web page
+    TRACE   - echo the incoming request
+    CONNECT - conncet through a proxy
+    OPTION  - Query options for a page.
+
+    GET filename HTTP/1.1
+
+Every request gets a response consisting of a status line, and possibly additional information.
+The status line: 
+    1xx Information
+    2xx Success             200 = request succeeded
+    3xx Redirection
+    4xx Client error        404 = page not found
+    5xx Server error
+
+Cookies are small files that servers place on client computers to remember information for later.
 
 
+7.4 Streaming Audio and Video
+
+7.4.2 Digital Video
+Pixels: 1280x720 = 720p
+        1920x1080 = 1080p or HD
+        3840x2160 = 4k
+        7680x4320 = 8k
+
+    - Video Compression
+MPEG = Motion Picture Experts Group
+JPEG = Joint Photographic Experts Group
+
+7.4.3 Streaming Stored Media
+VoD = Video on Demand.
+
+RTP = Real Time Protocol
+TCP or UDP. UDP due to congestion errors, but we can use forward error correction.
+
+DASH = Dynamic Adaptive Streaming over HTTP.
+
+8. Network Security
+-------------------
+8.1 Fundamentals of Networking Security
+The classic way to deal with network security problems is to distinguish three essential security properties:
+    - confidentiality
+    - integrity
+    - availability
+
+    CIA abbr
+
+Confidentiality has to do with keeping information out of the grubby little hands of unauthorized.
+Integrity is all about ensuring that the information you received was really the information sent and not something that an adversary modified.
+Availability deals with preventing system and services from becoming unusable due to crashes, overload situations, or deliberate misconfigurations.
+
+Authentication deals with determining whom you are talking to before revealing sensitive information or entering into a business deal.
+
+8.1.1 Fundamental Security Principles
+
+8.4 Cryptography
+
+Cryptography comes from the Greek words for secret writing.
+
+    ciphers vs codes
+A cipher is a character for character or bit for bit transformation.
+
+Plaintext are transformed by a key. The output is ciphertext.
+The art of breaking ciphers, known as cryptoanalysis.
+
+8.5 Symmetric key algorithms
+Use the same key for encryption and decryption.
+
+Cipher Modes: AES (DES) - 128 bits.
+
+8.6 Public Key Algorithms
+Requires each user to have two keys: a public key, used by the entire world for encrypting messages to be sent to that user, and a private key, which the user needs for decrypting messages.
+
+RSA
+
+SHA - Secure Hash Algorithm
+
+CA = Certification Authority
+
+8.9 Authentication Protocols
+
+Based on Shared Secret Key
+
+8.10 Communication Security
+
+IPsec
+VPN = Virtual Private Networks
+
+8.10.3 Wireless Security
+WPA2 = WiFi Protection Access 2
+
+802.1X EAP = Extensible Authentication Protocol
+
+8.12.3 TLS
+SSL = Secure Sockets Layer
 

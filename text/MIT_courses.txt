@@ -87,6 +87,25 @@ https://catalog.mit.edu/degree-charts/electrical-engineering-computing-6-5/
 6.2000      Electrical Circuits: Modeling and Design of Physical => Physics II (GIR)
             books: 6.2000_Agarwal and Lang (2005) Foundations of Analog and Digital.pdf
 
+6.3000      Signal Processing => 6.1000
+
+6.3700      Introduction to Probability => Calculus II
+
+6.7410      Principles of Digital Communication => (6.3000 or 6.3102) and (6.3700, 6.3800, or 18.05)
+            Books: 6.7410_Principles of Digital Communication.pdf
+
+6.7440      Principles of Wireless Communication => 6.7410
+            Books: 6.7440_Principles of Wireless Communication.pdf
+
+6.2080      Semiconductor Electronic Circuits => 6.2000
+            Books: URL = https://www.chu.berkeley.edu/modern-semiconductor-devices-for-integrated-circuits-chenming-calvin-hu-2010/
+
+6.6020      High-Frequency Integrated Circuits => 6.2080
+            Books: 6.7440_Principles of Wireless Communication.pdf - !!! only 69 pages
+
+
+
+
 18.01       Calculus I:  Single Variable Calculus
             video: https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.1x+2T2019/course/
             Books: 18_01_mitres_18_001_f17_full_book.pdf18_01_mitres_18_001_f17_full_book.pdf
