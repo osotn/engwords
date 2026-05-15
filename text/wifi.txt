@@ -874,4 +874,46 @@ Receive sensitivity refers to the power level of an RF signal required to be suc
     MCS0        -90     18 Mbps
                 -91     9 / 6 Mbps
 
+RSSI as relative metric used by 802.11 radios to measure signal strength (amplitude).
+RSSI can have a value from 0 to 255.
+                                   Signal strength (%)       SNR
+        30      ->      -30dBm          100%                 70 dB
+        25      ->      -41dBm           90%                 60 dB
+        21      ->      -52dBm           80%                 43 dB
+        15      ->      -63dBm           60%                 ...
+        10      ->      -75dBm           40%
+        5       ->      -89dBm           10%
+        0       ->     -110dBm            0%
 
+RSSI depends from vendor.
+
+Signal quality (SQ), which is a measure of pseudonoise (PN) code correlation quality received by a radio.
+
+RSSI and SNR can be passed along from the PHY layer to the MAC sublayer.
+Some SQ parameters might also be used in conjunction with RSSI as part of a clear channel assessment (CCA) scheme.
+
+        - Link budget
+Include original transmit gain, passive antenna gain, and active gain from RF amplifier.
+
+5. RF, Signal and Antenna concepts
+----------------------------------
+There are many types of antennas designed for many different purposes, just as there are many types of lights designed for many different purposes.
+
+Azimuth charts and elevation charts, commonly known as radiation patterns, for their antennas.
+These radiation patterns are created in controlled environments, where the results cannot be skewed by outside influences.
+
+These charts are commonly known as polar charts or antenna radiation envelopes.
+
+        Azimuth chart   H - plane (top-down view)
+        Elevation chart E - plane (side view)
+
+        - Beamwidth
+Beamwidth is the measurement of how broad or narrow the focus of an antenna is - and is measured both horizontally and vertically.
+Where the signal decreases by half power (-3 dB).
+
+        Antenna type:
+        Omnidirectional
+        Patch / Panel
+        Yagi
+        Sector
+        Parabolic dish
