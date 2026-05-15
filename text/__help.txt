@@ -27,5 +27,10 @@
    33  cp gedit_plugins/engwords.p* ~/.local/share/gedit/plugins
    43  sudo apt update && sudo apt install python-is-python3 -y
 
+sudo modprobe -r kvm_amd kvm
+
+Window after Linux -> https://www.youtube.com/watch?v=o-2GopsJrIE&list=PL6QbNN95NP_uJxMDlZk8Ohui9RYrv4kRk
+
+
 
 
