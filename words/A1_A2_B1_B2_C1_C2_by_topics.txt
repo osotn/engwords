@@ -3784,8 +3784,35 @@ Animals
               hT ?#  petrel [ˈpetrəl] (n) {C2} {birds} буревестник
               zT ?#  pheasant [ˈfeznt] (n) {C2} {food} {birds} фазан, I:pheasant-pheasant/pheasants
               fT ?#  plover [ˈplʌvə(r)] (n) {C2} {birds} ржанка, зуек
-
-<here
+              hT ?#  ptarmigan [ˈtɑːmɪɡən] (n) {C2} {birds} куропатка
+              hT ?#  puffin [ˈpʌfɪn] (n) {C2} {birds} тупик
+              5T ?#  quail [kweɪl] (n) {C2} {birds} перепела; (v) {C2} {feelings} струсить
+              fT ?#  rhea [ˈriːə] (n) {C2} {birds} рея
+              hT ?#  roadrunner [ˈrəʊdrʌnə(r)] (n) {C2} {birds} дорожный бегун
+              xT *#  robin [ˈrɒbɪn] (n) [first name for boys] Робин, {C2} {birds} малиновка
+              fT *#  rook [rʊk] (n) ладья, {C2} {bird} грач; (v) выманивать
+              5T ?#  roost [ruːst] (n) {C2} {birds} насест, курятник, спальня, постель; (v) {C2} {birds} усаживаться на насест
+              5T ?#  rooster [ˈruːstə] (n) {C2} {birds} петух
+              zT ?#  ruff [rʌf] (n) воротник, {C2} {birds} = a ring of coloured or marked feathers or fur around the neck of a bird or an animal, = a wide stiff white collar with many folds in it worn especially in 16/17th centuries
+              hT ?#  sandpiper [ˈsændpaɪpə(r)] (n) {C2} {birds} кулик
+              hT ?#  shag [ˈʃæg] (v) трахать; (n) {C2} {birds} баклан хохлатый
+              hT ?#  shearwater [ˈʃɪəwɔːtə(r)] (n) {C2} {birds} буревестник
+              hT ?#  shrike [ʃraɪk] (n) {C2} {birds} сорокопут
+              hT ?#  skua [ˈskjuːə] (n) {C2} {birds} поморник
+              hT ?#  skylark [ˈskaɪlɑːk] (n) {C2} {birds} жаворонок
+              fT ?#  snipe [snaɪp] (n) {C2} бекас, I:snipe-snipe
+              5T ?#  sparrow [ˈspærəʊ] (n) {C2} {birds} воробей
+              fT ?#  starling [ˈstɑːlɪŋ] (n) {C2} {birds} скворец
+              fT ?#  stork [stɔːk] (n) {C2} {birds} аист
+              3T ?#  swallow [ˈswɒləʊ] (n) глотка, {C2} {birds} ласточка; (v) {B2} глотать, проглатывать
+              5T ?#  swift [swɪft] (adv) быстро, поспешно; (adj) быстрый; (n) {C2} {birds} стриж; (v) обтягивать
+              fT ?#  tern [tɜːn] (n) {C2} {birds} крачка
+              zT ?#  thrush [θrʌʃ] (n) {C2} {birds} молочница, дрозд, афтозный стоматит
+              xT ?#  tit [tɪt] (n) {C2} {birds} синица, сиська, сосок, телка
+              zT ?#  waterfowl [ˈwɔːtəfaʊl] (n) {C2} {birds} водяные птицы, I:waterfowl-waterfowl
+              fT ?#  woodcock [ˈwʊdkɒk] (n) {C2} {birds} вальдшнеп, I:woodcock-woodcock/woodcocks
+              4T ?#  woodpecker [ˈwʊdˌpɛkə] (n) {C2} {birds} дятел
+              zT ?#  wren [ren] (n) {C2} {birds} крапивник
 
 {birds {parts of birds}}
 ........................
@@ -3804,6 +3831,19 @@ Animals
   514. (  1) 3T ?#PT feather [ˈfɛðə] (n) {B2} {birds} перо; (v) оперять
 
 {C1} {birds {parts of birds}}
+{C2} {birds {parts of birds}}
+              1T *#  bill [bɪl] (n) {B2} {law and justice} {politics} законопроект, {A1} {shopping} {cooking and eating} счет, банкнот, {C2} {film and theatre} = ​a programme of entertainment at a theatre/etc., {C2} {business} = a notice in a public place to advertise an event, {C2} {birds} = the hard pointed or curved outer part of a bird's mouth; (v) {B2} нежничать
+              hT ?#  craw [krɔː] (n) {C2} {birds} зоб
+              xT ?#  crest [krest] (n) {C2} {geography} пик, {C2} {birds} гребешок
+              3T ?#  crop [krɒp] (n) {B2} {farming} урожай, культура, {C2} {apppearance} =  a very short hairstyle, {C2} {birds} = a part of a bird's throat that has the shape of a bag where food is stored before it passes into the stomach; (v) {C2} {appearance} обрезать, подстригать, {C2} {farming} = (of plants) to produce a crop
+              1T *#  down [daʊn] (adv) {A1} вниз, внизу; (prop) {A1} вниз по, вниз; (n) {C2} {birds} пух, спуск; (adj) {B2} {feelings} (informal) = sad or depressed, {C1} {computers} = not working, нисходящий; (v) опускать
+              hT ?#  gizzard [ˈɡɪzəd] (n) {C2} {birds} желудок, глотка, второй желудок
+              fT ?#  mandible [ˈmændɪbl] (n) {C2} {body} нижняя челюсть, {C2} {insects, worms, etc.} жвало, {C2} {birds} = the upper or lower part of a bird's beak
+              5T ?#  plumage [ˈpluːmɪʤ ] (n)(u) {C2} {birds} оперение, перья
+              zT ?#  talon [ˈtælən] (n) {C2} {birds} коготь, талон, длинный ноготь
+              5T ?#  vent [vɛnt] (n) {C2} {houses and homes} выход, вентиляционное отверстие, клапан, {C2} {fish and shellfish} {birds} задний проход; (v) выпускать, выражать
+              fT ?#  wattle [ˈwɒtl] (n) {C2} {birds} бородка, акация, плетень
+              hT ?#  wishbone [ˈwɪʃbəʊn] (n) {C2} {birds} виловидная кость, дужка
 
 {fish and shellfish}
 -------------------------
@@ -3834,12 +3874,36 @@ Animals
               5T ?#  aquarium [əˈkweərɪəm] (n) {C1} {fish and shellfish} {buildings} аквариум
               zT ?#  catfish [ˈkætfɪʃ] (n) {C1} {fish and shellfish} сом, зубатка полосатая
               xT ?#  cod [kɒd] (n) {C1} {fish and shellfish} треска, стручок, шелуха; (adj) тресковый; (v) надувать
+              hT ?#  codfish [ˈkɒdfɪʃ] (n) {C1} {fish and shellfish} треска
+              hT ?#  dogfish [ˈdɒɡfɪʃ] (n) {C1} {fish and shellfish} морская собака, акула
               4T ?#  eel [iːl] (n) {C1} {fish and shellfish} угорь
+              hT ?#  flatfish [ˈflætfɪʃ] (n) {C1} {fish and shellfish} камбала, плоская рыба, I:flatfish-flatfish
+              xx ?#  game+fish [ˈɡeɪm fɪʃ] (n) {C1} {fish and shellfish} промысловая рыба
               5T ?#  hatch [hæʧ] (n) {C2} {transport by water} {transport by air} люк, штрих, выводок; (v) {C1} {birds} {fish and shellfish} {insects, worms, etc.} вылупиться, штриховать
               yT ?#  herring [ˈhɛrɪŋ] (n) {C1} {fish and shellfish} сельдь, селедка
               zT ?#  piranha [pɪˈrɑːnə] (n) {C1} {fish and shellfish} пиранья
               4T ?#  sardine [sɑːˈdiːn] (n) {C1} {birds} сардина
               xT ?#  trout [traʊt] (n) {C1} {fish and shellfish} форель
+
+{C2} {fish and shellfish {fish}}
+              fT ?#  anchovy [ˈæntʃəvi] (n) {C2} {fish and shellfish} анчоус, хамса
+              zT ?#  barracuda [ˌbærəˈkjuːdə] (n) {C2} {fish and shellfish} барракуда, морская щука
+              xT ?#  bass [beɪs->(n,adj)/bæs->(n)] (n) {C1} {music} бас, {C2} {fish and shellfish} окунь; (adj) басовый, низкий
+              hT ?#  beluga [bəˈluːɡə] (n) {C2} {fish and shellfish} белуга, I:beluga-beluga/belugas
+              hT ?#  bluefish [ˈbluːfɪʃ] (n) {C2} {fish and shellfish} синяя рыба, I:bluefish-bluefish
+              hT ?#  bream [briːm] (n) {C2} {fish and shellfish} лещ, I:bream-bream
+              zT ?#  chinook [tʃɪˈnuːk/ʃɪˈnuːk] (n) {C2} {fish and shellfish} чинук
+              hT ?#  chub [tʃʌb] (n) {C2} {fish and shellfish} голавль, I:chub-chub
+              hT *#  coley [ˈkəʊli] (n) {C2} {fish and shellfish} Коли, I:coley-coley/coleys
+              fT ?#  conger [ˈkɒŋɡə(r)] (n) {C2} {fish and shellfish} угорь
+              yT ?#  dab [dæb] (n) прикосновение, мастер, легкий удар, {C2} {fish and shellfish} = a small flat fish; (v) тыкать, намазывать, дотрагиваться
+              hT ?#  dory [ˈdɔːri] (n) {C2} {fish and shellfish} дори
+              5T ?#  flounder [ˈflaʊndə] (n) {C2} {fish and shellfish} камбала; (v) {C2} {difficulty and failure} барахтаться, путаться, сбиваться
+              hT ?#  guppy [ˈɡʌpi] (n) {C2} {fish and shellfish} гуппи
+              fT ?#  haddock [ˈhædək] (n) {C2} {fish and shellfish} пикша
+
+
+<here
 
 {fish and shellfish {other sea creatures}}
 ..........................................

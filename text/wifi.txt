@@ -911,9 +911,301 @@ These charts are commonly known as polar charts or antenna radiation envelopes.
 Beamwidth is the measurement of how broad or narrow the focus of an antenna is - and is measured both horizontally and vertically.
 Where the signal decreases by half power (-3 dB).
 
-        Antenna type:
-        Omnidirectional
-        Patch / Panel
-        Yagi
-        Sector
-        Parabolic dish
+        Antenna type:           Hor beamwidth           Ver beamwidth
+        Omnidirectional              360                        7..80
+        Patch / Panel                30..180                    6..90
+        Yagi                         30..78                     14..64
+        Sector                       60..180                    7..17
+        Parabolic dish                4..25                     4..21
+
+        - omnidirectional antennas
+in all directions
+dipole antenna, sometimes referred to as a rubber duck antenna, is the classical example of an omnidirectional antennas.
+
+Antennas are most effective when the length of the element in an even fraction (such as 1/4 or 1/2) or a multiple of the wavelength.
+2.4GHz half wave dipole antenna.
+                                                              3.1 cm     3.1 cm   -> 2.4
+                                                              1.5 cm     1.5 cm   ->  5 GHz
+Omnidirectional, consist of two half by 1/4 wavelength    ----------- ------------
+                                                                    | |
+Omnidirectional uses for point-to-multipoint
+
+        - Semidirectional Antennas
+In a specific direction
+
+        - Patch
+        - Pannel
+
+Has hor beamwidth ~ 180
+
+For point to point - parabolic / grid antennas
+
+
+Static beamforming is performed by using directional antennas to provide a fixed radiation pattern.
+Use multiple directional antennas, all clustered together but aimed away from a center point or location.
+
+Dynamic Beamforming focuses RF energy in a specific direction and in a particular shape.
+
+Transmit beamforming (TxBF) is performed by transmitting multiple phase shifted signals with the hope and intation that they will arrive in phase at the location where the transmitter believes that the receiver is located.
+Unlike dynamic beamforming, TxBF does not change the antenna ratiation pattern.
+Transmit beamforming is not really an antenna technology; it is a digital signal processing technology on the transmitting device that duplicates the transmitted signal on more than one antenna to optimize a combined signal at the client.
+
+The 802.11n amendment defined two types of transmit beamforming: implicit TxBF and explicit TxBF.
+Implicit TxBF uses an implicit channel sounding process to optimize the phase differentials between the transmit chains.
+Explicit TxBF requires feedback from the stations in order to determine the amount of phase shift required for each signal.
+
+Implicit TxBF never really caught on in the marketplace, however support for explicit TxBF became commonplace beginning with the 802.11ac.
+
+
+        - Antenna Polarization
+Proper polarization alignment is vital when installing any type of antenna.
+As waves radiate from an antenna, the amplitude of the wave can oscillate either vertically or horizontally.
+It is important to have the polarization of the transmitting and receiving antennas oriented the same in order to receive the strongest
+possible signal.
+Whether the antennas are installed with horizontal or vertical polarization is usually irrelevant, as long as both antennas are aligned with the same polarization.
+
+Polarization is not as important for indoor communication, because the polarization of the RF signal often changes when it is reflected, which is a common occurrence indoors.
+Most access points have built-in antennas, or use low-gain omnidirectional antennas, which should be mounted from the ceiling with vertical polarization.
+Laptop manufactorers build antennas into the sides of the monitor.
+When the laptop monitor is in the upright position, the internal antennas have vertical polarization as well.
+
+        - Antenna Diversity
+Wireless networks, especially indoor networks, are prone to multipath signals.
+When using non MIMO technolody to help compensate for the effects of multipaths, antenna diversity, also called spatial diversity, is commonly implemented in wireless networking equipment.
+
+Antenna diversity exists when an AP has two or more antennas with a receiver functioning together to minimize the negative effects of multipath.
+
+
+        - MIMO
+MIMO is another, more sophisticated form of antenna diversity.
+Unlike conventional single transmission antenna system, where multipath propagation is an impairment, MIMO systems take advantage of multipath.
+These techniques send data by using multiple simultaneous RF signals. The receiver then reconstructs the data from those signals.
+
+
+Impedance is a value of ohms of electrical resistance to an AC signal.
+When the transmitter generates the AC radio signal, the signal travel along the cable to the antenna.
+Some of this incident energy is reflected back toward the transmitter because of impedance mismatch.
+The amount of energy reflected depends on the level of mismatch between the transmitter, cable, and antenna.
+The ratio between the voltage of the reflected wave and the voltage of the incident wave, at the same point along the cable, is called the voltage reflection coefficient.
+
+6. Wireless Networks and Spread Spectrum Technologies
+-----------------------------------------------------
+Throughput vs. Bandwidth
+Frequency band is the bandwidth.
+
+Bandwidth, data encoding, modulation, encryption and other have influence on data throughput.
+
+Data encoding and modulation determine data rates.
+OFDM - legacy 802.11a can transmit 6,9,12,18,24,36,48,54 Mbps.
+
+Frequency bandwidth of 20 MHz is the same for all of the 5 GHz channels.
+
+Narrowband and Spread Spectrum
+Narrowband signal are typically transmitted using much higher power than spread spectrum signals.
+
+Multipath Interference
+One of the problems that can occur with RF communications is multipath interference.
+Multipath occurs when a reflected signal arrives at the receiving antenna after the primary signal.
+
+Delay spread - 30..270 ns.
+ISI = intersymbol interference.
+
+DSSS, HR-DSSS (b) and ERP (g) are tolerant of delay spread only to a certain extent.
+OFDM is greater tolerance of delay spread. 54 Mbps with delay up about 150 ns.
+
+
+FHSS = Frequency Hopping Spread Spectrum was used in the original 802.11 for 1Mbps and 2Mbps.
+FHSS works is that it transmits data by using a small frequency carrier space, then hops to anoter small frequency carrier space and transmits data, then to another frequency, and so on.
+Using a specific frequency for a set period of time, known as the dwell time.
+When the dwell time expires, the system changes to another frequency and begins to transmit on that frequency for the duration of the dwell time.
+FHSS radios use a predefined hopping sequence.
+Each hop be 1 MHz in size in predefined sequence.
+Dwell time is a defined amound of time that the FHSS system transmits on a specific frequency before it switches to the next frequency in the hop set.
+FCC specifies 400 ms per carrier frequency during any 30 second period of time.
+Typical dwell times are around 100ms to 200ms.
+75 hops by 400ms = 30 sec
+
+FHSS uses Gaussian frequency shift keying (GFSK) to encode the data.
+Two level GFSK uses two frequencies to represent 0 or 1.
+4GFSK use 4 freqs.
+
+DSSS = Direct sequence spread spectrum was originally specified in the primary, or root, 802.11 for 1 and 2 Mbps with 2.4GHz.
+An updated implementation of DSSS is HR-DSSS in 802.11b for 5.5 and 11 Mbps.
+
+Current 2.4GHz are backward compatible with legacy DSSS.
+DSSS is set to one channel. The data transmitted is spread across the range of frequencies that make up the channel.
+The process of spreading the data across the channel is known as data encoding.
+
+DSSS Data Encoding
+The system converts the 1 bit of data into a series of bits that are referred as chips.
+To create the chips, a XOR is performed on the data bit and a fixed length bit sequence pseudorandom number (PN).
+Barker code
+        1 = 10110111000
+        0 = 01001000111
+
+This sequence of chips is then spread across a wider frequency space.
+
+        1bit needs 2 MHz
+        11chips need 22 MHz
+
+Spreading or chipping 
+
+The Barker code uses an 11 chip PN.
+More complex code, complementary code keying (CCK).
+CCK uses 8 chip PN, along with different PNs for different bit sequences.
+CCK can encode 4 bits of data with 8 chips (5.5Mbps) and can encode 8 bits of data with 8 chips (11Mbps_.
+
+Modulation.
+DBPSK = differential binary phase shift keying uses two phase shifts.
+        one for 0 chip and another for 1 chip.
+DQPSK (quadrature) uses 4 phase shifts.
+
+
+                          rate (Mbps)           Encoding        Chip Lenght      Bit encoded     Modulation
+        DSSS                  1                  Barker             11               1            DBPSK
+        DSSS                  2                  Barker             11               1            DQPSK
+     HR-DSSS                  5.5                 CCK                8               4            DQPSK
+     HR-DSSS                 11                   CCK                8               8            DQPSK
+
+Spectrum mask 22MHz HR-DSSS channel.
+              -11 ... +11 MHz for -30db, and -22 ... -22 for -50db.
+
+
+OFDM is one of the most popular.
+for 5 GHz and ERP-OFDM for 2.4GHz.
+
+        20 MHz OFDM channel consists of 64 separate and precisely spaced frequencies, often referred to as subcarriers.
+        
+        48 Data, 4 Pilot, 12 NULL
+        
+        12 NULL is guard band.
+        
+        The frequency width of each subcarrier is 312.5 kHz.
+        Symbol time is 3.2us.
+        
+        Rates (Mbps)    Modulation        coder bits per subcarrier     data bits per symbol  coded bits    Coding rate (data to code)
+           6               BPSK                      1                         24                48               1/2
+           9               BPSK                      1                         36                48               3/4
+          12               QPSK                      2                         48                96               1/2
+          18               QPSK                      2                         72                96               3/4
+          24            16-QAM                       4                         96                192              1/2
+          36                                                                  144                                 3/4
+          48            64-QAM                       6                        192                288              2/3
+          54                                                                  216                                 3/4
+
+EVM = error vector magnitude
+
+
+OFDMA = Multiple Access is a multi-user version, called resource units (RUs). For ax.
+
+2.4GHz channels
+        1               2.412
+        2               2.417
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+        11
+        12      2.467
+        13      2.472
+        14      2.484 !!!
+
+        Independent     ch1 ch6 ch11 ch14
+
+5 GHz
+                U-NII-1 U-NII-2A C 3
+        
+        36      5.180
+        40      5.200
+        64      5.320
+       100      5.500
+       144      5.720
+       149      5.745
+       165      5.825
+
+DFS - Dynamic Frequency Selection to avoid interference with radar.
+
+AFC for 6GHz 5,7 bands - automated frequeny coordination - need GPS.
+
+
+7. WLAN Topologies
+------------------
+Computer networks can be configured as peer-to-peer, as client-server, or as clustered central processing units with distributed dumb terminals.
+
+Wireless topology is service sets.
+
+WLAN = Wireless Local Area Network.
+
+The main component of 802.11 wireless network is the radio, which is referenced by the standard as station (STA).
+
+All stations are identified by a unique MAC address.
+
+SS - the station service:
+        - authentication
+        - Deauthentication
+        - data confidentiality
+        - MSDU
+        - DFS
+        - TPC
+        - QoS
+        - Radio measurement
+
+DSS = distribution system service operates only within APs and mesh portals.
+
+Client Station, are known as associated on L2.
+
+AP is a radio that functions as a wireless portal from which other client stations can communicate.
+
+WDS = Wireless Distribution System
+WDS can connect access points together using what is referred to as a wireless backhaul.
+
+BSS = basic service set
+ESS = extended service set
+IBSS = independent BSS
+PBSS = personal BSS
+MBSS = mesh BSS
+
+SSID = the service set identifier is a logical name used to identify network.
+Up to 32 characters and is case sensitive.
+
+Client that support TDLS = tunneled direct link setup are the rare exception.
+
+BSSID - 48bits MAC address.
+
+ESS. seamless roaming
+
+IBSS. between two STAs.
+
+MBSS = Mesh.
+The mesh functions are used to provide wireless distribution of network traffic, and the set of APs that provide mesh distribution form a MBSS.
+Any mesh AP connected to the upstream wired medium is known as mesh portal.
+Mesh portal station is mesh gate, referred to as a mesh gateway.
+
+        - AP Modes
+The default configurations of some WLAN vendor AP is known as root mode.
+        - mesh mode or repeater mode
+        - sensor mode - monitor mode or scanner mode
+        - bridge mode - extra MAC layer intelligence.
+
+8. Medium Access
+----------------
+CSMA/CA vs CSMA/CD
+
+MAC = medium access control
+CSMA/ CA CD = Carrier Sense Multiple Access with Collision Detection/Avoidance
+
+Collision Detection
+On unicast frame radio will reply with an acknowledgment (ASK) frame.
+
+Physical carrier sense has two purposes:
+        - determine whether a frame transmission is inbound a station to receive.
+          if the medium is busy, the radio will attempt to synchronize with the transmission.
+        - determine whether the medium is busy before transmitting.
+          must be clear before a station can transmit.
+To achieve these two physical carrier sense goal, 802.11 radios use a CCA = clear channel assessment.
+to appraise 
+
