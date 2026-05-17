@@ -3901,9 +3901,37 @@ Animals
               5T ?#  flounder [ˈflaʊndə] (n) {C2} {fish and shellfish} камбала; (v) {C2} {difficulty and failure} барахтаться, путаться, сбиваться
               hT ?#  guppy [ˈɡʌpi] (n) {C2} {fish and shellfish} гуппи
               fT ?#  haddock [ˈhædək] (n) {C2} {fish and shellfish} пикша
-
-
-<here
+              hT ?#  hake [heɪk] (n) {C2} {fish and shellfish} хек, I:hake-hake
+              fT ?#  halibut [ˈhælɪbət] (n) {C2} {fish and shellfish} палтус, I:halibut-halibut
+              zT ?#  koi [kɔɪ] (n) {C2} {fish and shellfish} кои, I:koi-koi
+              hT ?#  lamprey [ˈlæmpri] (n) {C2} {fish and shellfish} минога
+              fT ?#  mackerel [ˈmækrəl] (n) {C2} {fish and shellfish} скумбрия, макрель, I:mackerel-mackerel
+              hT ?#  manta [ˈmæntə] (n) {C2} {fish and shellfish} манта
+              yT ?#  marlin [ˈmɑːlɪn] (n) {C2} {fish and shellfish} марлин, I:marlin-marlin
+              hT ?#  minnow [ˈmɪnəʊ] (n) {C2} {fish and shellfish} пескарь, блесна
+              yT ?#  molly [ˈmɒli] (n) {C2} {fish and shellfish} Молли, большая корзина, проститутка
+              fT ?#  moray [ˈmɒreɪ] (n) {C2} {fish and shellfish} мурей
+              fT ?#  mullet [ˈmʌlɪt] (n) {C2} {fish and shellfish} кефаль, {C2} {appearance} = (informal) a hairstyle in which the hair is short at the front and sides and long at the back, I:mullet-mullet
+              5T ?#  perch [pɜːʧ] (n) {C2} {fish and shellfish} окунь, карниз, выступ; (v) {C1} {birds} взгромоздиться
+              xT ?#  pike [paɪk] (n) {C2} {fish and shellfish} щука, I:pike-pike
+              hT ?#  plaice [pleɪs] (n) {C2} {fish and shellfish} камбала, I:plaice-plaice
+              fT ?#  plankton [ˈplæŋktən] (n)(u) {C2} {plants and trees} {fish and shellfish} планктон
+              5T *#  ray [reɪ] (n) {C1} {space} {physics and chemistry} луч, {C2} {fish and shellfish} = a sea fish with a large broad flat body and a long tail that is used for food; (adj) лучевой, [first name for boys] Рэй; (v) излучать
+              1T *#  school [skuːl] (n) {A1} {buildings} {education} школа, обучение, {C2} {art} = a group of writers/artists/etc. whose style of work or opinions have been influenced by the same person or ideas, {C2} {fish and shellfish} = a large number of fish or other sea animals swimming together; (adj) школьный; (v) обучать, дисциплинировать, посылать в школу
+              fT ?#  shoal [ʃəʊl] (n) {C2} {fish and shellfish} косяк, стая
+              hT ?#  skipjack [ˈskɪpdʒæk] (n) {C2} {fish and shellfish} попрыгунчик
+              zT ?#  snapper [ˈsnæpə(r)] (n) {C2} {fish and shellfish} окунь, {C2} {tv, radio and news} (informal) = a photographer especially one who takes pictures of famous people for newspapers and magazines
+              5T ?#  sole [səʊl] (n) {C1} {clothes and fashion} подошва, {C1} {body} ступня, {C2} {fish and shellfish} камбала; (adj) {C1} единственный; (v) ставить подметку
+              5T ?#  spawn [spɔːn] (v) {C2} {change, cause and effect} {games and toys} порождать, метать икру; (n) {C2} {fish and shellfish} икра, порождение
+              hT ?#  sprat [spræt] (n) {C2} {fish and shellfish} шпрота, килька
+              hT ?#  stickleback [ˈstɪklbæk] (n) {C2} {fish and shellfish} колюшка
+              hT ?#  stingray [ˈstɪŋreɪ] (n) {C2} {fish and shellfish} скат
+              zT ?#  sturgeon [ˈstɜːdʒən] (n) {C2} {fish and shellfish} осетр, I:sturgeon-sturgeon/sturgeons
+              fT ?#  swordfish [ˈsɔːdfɪʃ] (n) {C2} {fish and shellfish} рыба-меч, I:swordfish-swordfish
+              hT ?#  tench [tentʃ] (n) {C2} {fish and shellfish} линь, I:tench-tench
+              hT ?#  tilapia [tɪˈlæpiə/tɪˈleɪpiə] (n) {C2} {fish and shellfish} тилапия, I:tilapia-tilapia/tilapias
+              hT ?#  turbot [ˈtɜːbət] (n) {C2} {fish and shellfish} палтус, I:turbot-turbot/turbots
+              zT ?#  whiting [ˈwaɪtɪŋ] (n) {C2} {fish and shellfish} мерланг, I:whiting-whiting
 
 {fish and shellfish {other sea creatures}}
 ..........................................
@@ -3917,6 +3945,11 @@ Animals
               5T ?#  octopus [ˈɒktəpəs] (n) {C1} {fish and shellfish} осьминог, спрут
               yT ?#  squid [skwɪd] (n) {C1} {fish and shellfish} кальмар, головоногое животное
               5T ?#  starfish [ˈstɑːfɪʃ] (n) {C1} {fish and shellfish} морская звезда, I:starfish-starfish
+
+{C2} {fish and shellfish {other sea creatures}}
+              hT ?#  cuttlefish [ˈkʌtlfɪʃ] (n) {C2} {fish and shellfish} каракатица, I:cuttlefish-cuttlefish
+              fT ?#  polyp [ˈpɒlɪp] (n) {C2} {fish and shellfish} полип
+              5T ?#  sponge [spʌnʤ ] (n) {C2} {fish and shellfish} {food} губка
 
 {fish and shellfish {parts of fish}}
 ....................................
@@ -3936,6 +3969,11 @@ Animals
               3T *#  scale [skeɪl] (n) {B2} {maths and measurement} масштаб, шкала, {C1} {music} гамма, {C1} {animals} {fish and shellfish} чешуя; {B2} {cooking and eating} чаша весов; (v) весить, взвешивать
               5T ?#  tentacle [ˈtɛntəkl] (n) {C1} {fish and shellfish} щупальце, усик
 
+{C2} {fish and shellfish {parts of fish}}
+              hT ?#  pincer [ˈpɪnsə(r)] (n) {C2} {fish and shellfish} клещи
+              zT *#  sucker [sʌkə] (n) {C2} {plants and trees} {fish and shellfish} присоска, сосунок, простак
+              5T ?#  vent [vɛnt] (n) {C2} {houses and homes} выход, вентиляционное отверстие, клапан, {C2} {fish and shellfish} {birds} задний проход; (v) выпускать, выражать
+
 {fish and shellfish {shellfish}}
 ................................
 {A1} {fish and shellfish {shellfish}}
@@ -3951,6 +3989,24 @@ Animals
 {C1} {fish and shellfish {shellfish}}
               5T ?#  lobster [ˈlɒbstə] (n) {C1} {fish and shellfish} {food} омар, рак
               xx ?#  mussel [ˈmʌsl] (n) {C1} {fish and shellfish} мидия
+
+{C2} {fish and shellfish {shellfish}}
+              hT ?#  abalone [ˌæbəˈləʊni] (n) {C2} {fish and shellfish} морское ушко
+              hT ?#  barnacle [ˈbɑːnəkl] (n) {C2} {fish and shellfish} морская уточка
+              hT ?#  bivalve [ˈbaɪvælv] (n) {C2} {fish and shellfish} двустворчатый моллюск
+              hT ?#  brachiopod [ˈbrækiəpɒd] (n) {C2} {fish and shellfish} брахиопод
+              5T ?#  clam [klæm] (n) {C2} {fish and shellfish} съедобный морской моллюск
+              hT ?#  cockle [ˈkɒkl] (n) {C2} {fish and shellfish} съедобный моллюск, гребешок
+              hT ?#  crawfish [ˈkrɔːfɪʃ] (n) {C2} {fish and shellfish} рак, лангуст, I:crawfish:crawfish
+              zT ?#  cray [kreɪ] (n) {C2} {fish and shellfish} крэй
+              fT ?#  crayfish [ˈkreɪfɪʃ] (n) {C2} {fish and shellfish} рак, лангуст, I:crayfish-crayfish
+              5T ?#  crustacean [krʌˈsteɪʃn] (n) {C2} {fish and shellfish} ракообразное
+              hT ?#  krill [krɪl] (n) {C2} {fish and shellfish} криль
+              hT ?#  limpet [ˈlɪmpɪt] (n) {C2} {fish and shellfish} присоска
+              zT ?#  nautilus [ˈnɔːtɪləs] (n) {C2} {fish and shellfish} наутилус
+              fT ?#  scallop [ˈskɒləp] (n) {C2} {fish and shellfish} гребешок
+              xx ?#  whelk [wɛlk] (n) {C2} {fish and shellfish} брюхоногий моллюск, прыщ
+              fT ?#  winkle [ˈwɪŋkl] (n) {C2} {fish and shellfish} улитка
 
 {insects, worms, etc.}
 ---------------------------
@@ -3974,6 +4030,8 @@ Animals
   311. (  1) 5T ?#PT crawl [krɔːl] (v) {C1} {life stages} {insects, worms, etc.} ползать
               5T ?#  hatch [hæʧ] (n) {C2} {transport by water} {transport by air} люк, штрих, выводок; (v) {C1} {birds} {fish and shellfish} {insects, worms, etc.} вылупиться, штриховать
 
+{C2} {insects, worms, etc. {insect behaviour}}
+
 {insects, worms, etc. {insect forms}}
 .....................................
 {A1} {insects, worms, etc. {insect forms}}
@@ -3984,6 +4042,11 @@ Animals
 {B2} {insects, worms, etc. {insect forms}}
 {C1} {insects, worms, etc. {insect forms}}
               5T ?#  caterpillar [ˈkætəpɪlə(r)] (n) {C1} {insects, worms, etc.} гусеница
+              fT ?#  silkworm [ˈsɪlkwɜːm] (n) {C1} {insects, worms, etc.} шелкопряд
+
+{C2} {insects, worms, etc. {insect forms}}
+              hT ?#  chrysalis [ˈkrɪsəlɪs] (n) {C2} {insects, worms, etc.} куколка, кокон
+<here
 
 {insects, worms, etc. {insect homes}}
 .....................................

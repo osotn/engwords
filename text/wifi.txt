@@ -1207,5 +1207,113 @@ Physical carrier sense has two purposes:
         - determine whether the medium is busy before transmitting.
           must be clear before a station can transmit.
 To achieve these two physical carrier sense goal, 802.11 radios use a CCA = clear channel assessment.
-to appraise 
+to appraise the RF medium.
+
+The CCA involves listening for RF transmissions at the Physical layer.
+Use two separate CCA thresholds when listening to the RF medium.
+
+SD = signal detect threshold is used to identify any 802.11 preamble transmissions from another radio.
+The SD threshold is statistically 4 dB SNR.
+
+The energy detect ED threshold is used to detect any other type of RF transmissions. Is 20 dB higher than SD.
+
+9. MAC
+------
+
+Data Link Layer
+The upper portion is 802.2 LLC = Logical Link Control.
+The bottom portion is MAC = Media Access Control.
+
+MSDU = MAC service data unit.
+MSDU is 2.304 bytes.
+
+aggregate MSDU = A-MSDU is 3,839 .. 7,935 bytes.
+
+        MAC header + MSDU (payload 0..2304) + trailer
+
+MAC Header
+        - frame control
+        - duration / ID
+        - Addr1
+        - Addr2
+        - Addr3
+        - seq control
+        - Addr4
+        - QoS control
+        - HT control
+        - Frame Body
+        - FCS
+
+Frame type:
+        - 00 Management
+        - 01 control
+        - 10 Data
+        - 11 Extension
+
+ax Power Management
+TWT = Target wake time
+
+10. MIMO Technology: HT and VHT
+-------------------------------
+
+Multiple radios and antennas called radio chains.
+
+MIMO systems can also use multiple antennas to provide for better transmit and receive diversity techniques.
+STBS = space time block coding and CSD cyclic shift diversity.
+
+STBC is a method where the same information is transmitted on two or more antennas; however, the number of antennas must be even.
+
+11. WLAN Architecture
+---------------------
+
+The main hardware in a Wi-Fi network interface card (NIC) is a half-duplex radio transceiver.
+
+PCMCIA / USB
+SD (secure digital) / compact flash (CF).
+Mini PCI / Mini PCI express
+
+Enterprise WLAN branch routers
+        - L2
+        - 802.1X/EAP
+        - NAT
+        - Port address translation - PAT
+        - Port forwarding
+        - Firewall
+        - VPN
+        - 3G/4G cellular backhaul
+        
+WLAN Mesh Access Points
+
+CLI / GUI
+
+SNMP / MIB
+CLI: console, telnet, ssh
+
+12. PoE
+Power over Ethernet
+
+13. WLAN Design Concepts
+------------------------
+DRS - dynamic rate switching
+
+19. 802.11ax  HE = High Efficiency
+----------------------------------
+802.11n MIMO
+
+Wi-Fi 6
+added 6GHz
+
+Wi-Fi 4 -> 2009         20/40 MHz
+Wi-Fi 5 -> 2013         20/40/80/160 MHz
+Wi-Fi 6 -> 2019         20/40/80/160 MHz
+
+OFDMA with MU-MIMO
+
+BSS color
+
+20. WLAN Deployment and Vertical Markets
+----------------------------------------
+
+
+
 
