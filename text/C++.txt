@@ -1,0 +1,23 @@
+0.1 Introduction
+----------------
+A computer program is sequence of instructions that directs a computer to perform certain actions in a specified order.
+
+The underlying design philosophy of C and C++ be summed up as Trust the programmer.
+
+A computer program is a sequence of instructions that tell the computer what to do.
+A statement is a type of instruction that causes the program to perform some action.
+
+An object represents a region of storage that can hold a value.
+An object with name is called a variable.
+
+        int a;  // default initialization (no initializer).
+        int b = 5; // copy initialization 
+        int c (6); // direct initialization
+        int d {7}; // direct list initialization
+        int e {};  // value initialization
+        int f = {6}; // copy list initialization (rarely used)
+
+        [[maybe_unused]] double pi;
+
+
+

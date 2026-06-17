@@ -88,7 +88,13 @@ size M this coding method requires L = log_2(M)
 9. Wireless digital communication
 ---------------------------------
 
-6.4710_Book-Sklar.pdf
+6.7410_Book-Sklar.pdf
 =======================
+Basic system parameters such as:
+        - SNR;
+        - probability of error;
+        - bandwidth expenditure;
 
+
+Information source.
 

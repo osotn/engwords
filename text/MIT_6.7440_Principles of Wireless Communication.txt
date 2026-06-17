@@ -1,0 +1,13 @@
+6.7440_Principles of Wireless Communication.pdf
+
+5. Digital Modulation and Detection
+-----------------------------------
+Digital modulation offers a number of advantages over analog modulation, including higher spectral efficiency, powerful error correction techniques, resistance to channel impariments, more efficient multiple access strategies, and better security and privacy.
+
+Pulse amplitude modulation              - PAM
+phase-shift keying                      - PSK
+quadrature amplitude modulation         - QAM
+frequency-shift keying                  - FSK
+minimum-shift keying                    - MSK
+
+

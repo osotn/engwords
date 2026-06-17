@@ -418,6 +418,8 @@ DB-1218: [wpa_suppl] Log list of found BSS(es) matching the SSID
 VID-17341: [connmancust] Extra DHCP debug logs
 
 
+=====
+
 git checkout master
 git pull
 git log
@@ -425,13 +427,24 @@ git log
 git fetch --force --tags
 git ls-remote --tags origin
 
-git tag -n9 | grep oa8000-2.49
+//
+git tag -n9 | grep camera-2.827
+
+git tag camera-2.827
+
+git push --tags origin HEAD
+
+
+
+====
+
+
 
 git tag camera-2.419
 
 git tag -n9 | grep oa8000-2.49
 
-git push --tags origin HEAD
+
 
 
 
@@ -439,7 +452,6 @@ git push --tags origin HEAD
 
 oa8000-2.495
 
-git tag camera-2.410
 git tag nvr-2.377
 git tag oa8000-2.486
 
@@ -1913,7 +1925,12 @@ rm -rf ./output
 ./gen-signed-fw.sh ./output/images/vmsfw-xxx-X_Y.bin ./test-fw-keys/1.priv ./output/images/vmsfw-xxx-X_Y.sig.bin
 
 ./gen-signed-fw.sh output/images/vmsfw-doorbell-oa8000-nand-2_172_rel-rw.bin test-fw-keys/oa8000/privkey_root output/images/vmsfw-doorbell-oa8000-nand-2_172_rel-rw.sig.bin OA8000
+
+
+
 ./gen-sec-boot-oa8000.py --prod 0 --hexid "0000112c" --vmsfw output/images/vmsfw-doorbell-oa8000-nand-2_329_rel-DB-863_test-rw.bin --wifi_ssid "botsman_2g" --wifi_key "wifi_test" --priv-key test-fw-keys/oa8000/privkey_root --pub-key test-fw-keys/oa8000/pubkey_root --cfg output/images/prj_cfg.txt --hwrev 4 --reg-domain "EU" --color "GRAPHITE"
+
+
 ./gen-sec-boot-sigmastar-camera.sh --prod=0 --hexid=00001007 --device-type=TURRET --sensor=imx415 --lens=yt0w9d71 --priv-key=./test-fw-keys/1.priv --pub-key=./test-fw-keys/1.pub --platform=ssc338 --hwrev=1
 
 1) при запуске камеры нажать Enter
@@ -5152,6 +5169,49 @@ tomer/evb_tests #
 /customer/evb_tests # ./iperf3-arm32v7   -c 192.168.28.192 -i 1 -t 10000 -b 20m 
 -u
 /customer/evb_tests # 
+
+
+
+
+ 
+ usage() {
+-    echo "Usage: gen-sec-boot-sigmastar-camera.sh --prod=0|1 --hexid=HEXID --device-type=DEVICE_TYPE --sensor=SENSOR --lens=LENS --priv-key=PATH --pub-key=PATH --platform=NAME [--masterkey=MASTER_KEY] [--hwrev=HW_REV] [--color=COLOR] [--aes-key=AES-KEY] [--sensor-rotation=0|180] [--sensor-mirror=true|false] [--cali-alsc=PATH] [--cali-obc=PATH] [--wifi-ssid=WIFI_SSID] [--wifi-key=WIFI_KEY] [--vendor=VENDOR] [--vendor-name=VENDOR_NAME] [--direct-connect-id=ID]"
++    echo "Usage: gen-sec-boot-sigmastar-camera.sh --prod=0|1 --hexid=HEXID --device-type=DEVICE_TYPE --sensor=SENSOR --lens=LENS --priv-key=PATH --pub-key=PATH --platform=NAME [--masterkey=MASTER_KEY] [--hwrev=HW_REV] [--color=COLOR] [--aes-key=AES-KEY] [--sensor-rotation=0|180] [--sensor-mirror=true|false] [--cali-alsc=PATH] [--cali-obc=PATH] [--wifi-ssid=WIFI_SSID] [--wifi-key=WIFI_KEY] [--reg-domain=REG_DOMAIN] [--vendor=VENDOR] [--vendor-name=VENDOR_NAME] [--direct-connect-id=ID]"
+     echo "Supported platforms are: $PLATFORMS"
+     echo "Supported hw_rev for ssc338: $HW_REVS_SSC338 (default: 1)"
+     echo "Supported hw_rev for sav533: $HW_REVS_SAV533 (default: 1)"
+@@ -95,6 +95,7 @@ ARG_PLATFORM=""
+ ARG_HW_REV="1"
+ ARG_WIFI_SSID=""
+ ARG_WIFI_KEY=""
++ARG_REG_DOMAIN="EU"
+ ARG_VENDOR="Ajax"
+ ARG_VENDOR_NAME=""
+ ARG_DIRECT_CONNECT_ID=""
+@@ -186,6 +187,11 @@ for I in "$@"; do
+         ARG_WIFI_KEY="$V"
+         shift
+         ;;
++    --reg-domain=*)
++        V="${I#*=}"
++        ARG_REG_DOMAIN="$V"
++        shift
++        ;;
+     --platform=*)
+         V="${I#*=}"
+         ARG_PLATFORM="$V"
+@@ -450,6 +456,10 @@ if [ ! -z "$ARG_WIFI_KEY" ]; then
+     echo -n ",\"wifiKey\":" >> ./output/images/$ARG_HEXID.KEYS.sig.bin
+     echo -nE "$ARG_WIFI_KEY" | jq -aRs >> ./output/images/$ARG_HEXID.KEYS.sig.bin
+ fi
++if [ ! -z "$ARG_REG_DOMAIN" ]; then
++    echo -n ",\"regDomain\":" >> ./output/images/$ARG_HEXID.KEYS.sig.bin
++    echo -nE "$ARG_REG_DOMAIN" | jq -aRs >> ./output/images/$ARG_HEXID.KEYS.sig.bin
++fi
+ if [ ! -z "$ARG_DIRECT_CONNECT_ID" ]; then
+     echo -n ",\"directConnectId\": \"$ARG_DIRECT_CONNECT_ID\"" >> ./output/images/$ARG_HEXID.KEYS.sig.bin
+ fi
+
 
 
 

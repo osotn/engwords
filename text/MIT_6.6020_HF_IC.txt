@@ -1,0 +1,15 @@
+6.6020_High-Frequency Integrated circuits.pdf
+
+A transistor level, design intensive overview of high speed and high frequency monolithic IC for wireless and broadband systems from 2GHz to 200GHz, this comprehensive text covers high speed, RF, mm wave, and optical fiber circuits using nanoscale CMOS, SiGe, BiCMOS.
+
+
+Preface
+-------
+The field of monolithic microwave IC = MMICs emerged in the late 1970s and early 1980s with the development of the fist GaAs MESFET and pseudomorphic high electron mobility transistor IC technologies and started to thrive in the mid-to-late 1990s once the performance of silicon transistors became adequate for Rf applications above 1 GHz.
+
+1. Introduction
+---------------
+The term radio frequency IC, or in short RFIC, describes circuits operating in the 300 MHz to 3GHz range.
+In contrast, microwave 3-30GHz and mm wave 30-300GHz monolithic IC first introduced in the 1970s.
+
+

@@ -14,9 +14,13 @@
     9  sudo apt install git
    10  git config --global user.name "Oleksandr Sotnikov"
    11  git config --global user.email "oleksanr.v.sotnikov@gmail.com"
+
+git config --global user.name "Oleksandr Sotnikov"
+git config --global user.email "sotnikov.o@ajax.systems"
+   
    12  sudo apt install build-essential bc libssl-dev cpio python3 unzip wget rsync file
    13  sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager
-   14  sudo apt install qemu-system-arm qemu-efi-aarch64 ovmf
+   14  sudo apt install qemu-system-arm qemu-efsi-aarch64 ovmf
    15  sudo apt install gedit
    16  sudo apt install gedit-plugin-draw-spaces 
    17  sudo apt install gedit-dev 
@@ -37,4 +41,948 @@ Github - ajax-sotnikov-o
 sudo apt update && sudo apt install virtualbox virtualbox-ext-pack -y
 sudo apt install virtualbox-guest-additions-iso -y
   
+  
+  Вітаю з першим робочим днем та початком твоєї історії з Ajax Systems🚀
+Щоб розпочати роботу, найперше тобі необхідно зайти на свою корпоративну пошту Gmail :)
+Email: sotnikov.o@ajax.systems
+Password: p58szTYi7D6t
+
+150881_SotnAjax - sotnikov.o@ajax.systems
+
+
+батарейная камера - к финалу, сертификация, калибровки от Ажурвей.
+Сертификаты - 2 дб, разрах на 5
+800 м - дальность
+ажурвей, инфинион
+Драйвера с сорцами, кодом айтул, драйвера, прошивка.
+Команда - больше. 
+Рома - mqqt
+Артем
+
+Леша - свеп, начальный коннект.
+
+ajax-sotnikov-o
+
+- сделать - тикет по гитхабу
+
+Дорбел - пока не делаем
+        - лайт без фем - с среду, 
+        
+Для всех девайсов:
+        - диагностика в клауд. 
+          (для батарейной и 
+
+
+Батарейная камера:
+        - 
+ Новый модуль - поменьше, применять в других девайсам - звоночек на ВайФай (типа Дорбел лайт).
+        - термостаты тоже
+        - хаб хач скрин
+        
+Релиз - август, сентябрь.
+
+Инфинион - в Тайване были, в пятницу уезжает к Инфиниону.
+            (всю неделю не будет).
+
+ВайФай чип отваливается - 2.4 в зависимости от Роутера, 5 хв.
+        - Инфинион вызнав що проблема у них.
+
+        - страница Онбординга --- 
+        
+        
+        Block Diagram
+        
+        6 разробников - 
+        тестировщики - вакансии 
+        Лид Саша.
+        
+
+ - https://ajaxsystems.atlassian.net/browse/DEVOPS-17489  - тикет github created
+ 
+ 575931
+ 
+
+
+
+
+
+
+
+
+
+
+
+https://mycases.infineon.com/ 
+Account  by email - changed on password 150881_Sotn2, but not connect to project/issues.
+
+https://wireless.support.azurewave.com/projects/ajax   - try by email, don't work
+
+
+        1. github account    - wait to connect to Ajax, then add to projects
+        2. bitbacket ? - should be ok.
+        3. Infineon - ok, awarewave - ??? wait
+        4. VPN - to check
+
+
+Tomorrow
+        --- Need access to code, all vms
+        --- Check build vms
+        --- check VPN registration
+
+
+//// firmware DoorBell + virtualBox in ones.
+https://ajaxsystems.atlassian.net/wiki/spaces/AV/pages/4311843797/Initial+firmwarehttps://ajaxsystems.atlassian.net/wiki/spaces/AV/pages/4311843797/Initial+firmware
+
+
+tar -xf archive.tar.gz --to-stdout | xz -9 > archive.tar.xz
+
+
+  476  git clone --recurse-submodules  git@github.com:ajax-systems/vms-firmware.git 
+  477  cd vms-firmware/
+  481  sudo apt install git-lfs flex bison libssl-dev lzop u-boot-tools bc pv 
+  482  ./cfg-init.sh omnivision_oa8000_doorbell_nand_defconfig --rw=1 --debug=0
+  494  ./cfg-init.sh omnivision_oa8000_doorbell_nand_defconfig --rw=1 --debug=0
+       ./cfg-init.sh sigmastar_sav533q_dualos_nand_release_defconfig  --rw=1 --debug=0
+
+  495  make -j 12 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
+  500  ./cfg-init.sh sigmastar_sav533q_dualos_nand_defconfig --rw=1 --debug=0
+  502  df
+  503  sudo truncate -s 0 /var/log/syslog
+  504  sudo journalctl --vacuum-size=1G
+  510  sudo apt install build-essential binfmt-support libncurses-dev xz-utils file wget cpio unzip rsync bc
+  513  sudo apt install git-lfs
+  517  git lfs install
+  sudo truncate -s 0 /var/log/syslog
+  519  git clone --recurse-submodules  git@github.com:ajax-systems/vms-firmware.git
+  521  ./cfg-init.sh omnivision_oa8000_doorbell_nand_defconfig --rw=1 --debug=0
+  524  sudo apt install cmake
+  525  sudo apt install doxygen
+  528  sudo dpkg --add-architecture i386
+  529  sudo apt update
+  530  sudo apt install libc6:i386 libstdc++6:i386 zlib1g:i386
+  
+./cfg-init.sh sigmastar_sav533q_dualos_nand_defconfig --rw=1 --debug=0
+  537  cat output/.config | grep ARM
+  538  make -j 12 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
+  
+// fw
+4bce42b955e332be8a42ab3f489f3908f622b826 -> 5b7b5b1b0f8d95c6d5aa80db7c0fe6ca22af8f0b
+// itool
+4da1b9b5c05351d9717b6bb0eaad082c1e9508dd -> 3f3e40aa8a443d2b02c37dbb0ec134ea7d8cbdf2
+
+
+BPC-1789: [infineon-firmware, infineon-itool] add region-selected choice of Infineon Wi-Fi firmware
+
+
+
+
+
+
+
+
+
+WIFI_CONNECT_FILE="/media/settings/.early-wifi-connect"
+
+
+
+
+19.05
+10-30 daily meeting
+
+12:00
+one-to-one
+
+конфиг региона
+
+
+
+BPC-1789 Introduce option to set region of US/EU in the makefile
+----------------------------------------------------------------
+2 options:
+        1) use different firmware from separate NVRAM;
+        2) values from OTA
+        Europa - 13 channels.
+
+BPC-2062 Introduce builds of 2 firmwares (NA, EU) into buildroot
+
+BPC-2063 Introduce regions handling of Wi-Fi firmware into VMS firmware
+
+README.omnivision.md
+--------------------
+`--reg-domain` Regulatory domain in which a particular device will operate
+"EU", "MA", "NA" (for WiFi same as "US"), "AU", "SA", "IN".
+
+
+./gen-sec-boot-oa8000.py ... --reg-domain "EU"
+
+S03InitMod
+----------
+init_wfx() {
+    if [ -z "$KEYS_regDomain" ]; then
+       log_echo "init_wfx: RF regulatory domain is not defined in KEYS partition!"
+    fi
+
+    case "$KEYS_regDomain" in
+    US | NA)
+        log_echo "init_wfx: Configuring for US regularory domain."
+        local PDS_BASE="$HW_REV_wf200PdsUs"
+        local CCA="REL"
+        local COUNTRY_CODE="US"
+        ;;
+    *)
+        log_echo "init_wfx: Configuring for EU regularory domain."
+        local PDS_BASE="$HW_REV_wf200PdsEu"
+        local CCA="ABS"
+        local COUNTRY_CODE="DE"
+        ;;
+    esac
+
+iw reg set $COUNTRY_CODE
+modprobe wfx.ko cca="$CCA" pds_base="$PDS_BASE" pds_calib="$KEYS_pdsCalib"
+
+
+infineon-cyw5591x-firmware
+
+git@github.com:ajax-systems/infineon-cyw5591x-firmware.git
+
+	$(MAKE) -C $(@D)/cyw5591x-firmware CYW5591X_GIT_HASH= (INFINEON_CYW5591X_FIRMWARE_VERSION) build;
+	
+
+      !!!  whd_drv->country = whd_init_config->country
+
+
+static whd_init_config_t init_config_default =
+{
+    .country            = CY_WIFI_COUNTRY
+};
+
+
+cyw5591x-firmware/configs/release.mk:DEFINES += CY_WIFI_COUNTRY=WHD_COUNTRY_UNITED_STATES
+cyw5591x-firmware/bsps/TARGET_CYW55912/bsp.mk:BSP_DEFINES+=CY_WIFI_COUNTRY='WHD_COUNTRY_UNITED_STATES'
+
+
+WHD_COUNTRY_GERMANY
+
+
+make MODE=release_US
+make MODE=release_EU
+
+
+DEFINES += CY_WIFI_COUNTRY=WHD_COUNTRY_UNITED_STATES
+DEFINES += CY_WIFI_COUNTRY=WHD_COUNTRY_GERMANY
+
+
+
+
+* Added support for overriding the default country code by defining CY_WIFI_COUNTRY to a value from whd_country_code_t.
+
+/usr/share/wifi_firmware
+
+in target image:
+output/images/wifi_firmware/
+
+inviram - ARM
+OTP chip.
+configurate
+
+NVRAM configurate - patch NVRAM.
+
+boot -> 
+
+NVRAM =>  wifi/ config OTP and NVRAM
+
+banner device - printf firmware 
+
+NVRAM / OTP
+multi regions NVRAM_OTP
+     blob file <-- region config
+
+itool tag -> 
+
+ping pong firmware
+chip crept by key
+firmware can be signed
+
+itool firmware burn !!!!!
+
+
+     itool "fast_dfu"
+
+vmsapp.ini for dualos
+----------------------
+firmware.path = /usr/share/wifi_firmware/CYW55912-wifi-firmware.ota.bin
+
+## Firmware upgrade
+
+[FirmwareUpgrade.h](FirmwareUpgrade.h) wraps the `com.ajax.McuCommunicator.FirmwareUpgrade` interface. The service handles two firmware files — the MCU itself (`firmware.dir`, region-selected at runtime from `HardwareConfiguration::regDomain`) and the radar sensor (`radarFirmware.path`).
+
+firmwarePath_ = gSvcCtx->appConfig()->getString("mcu service.firmware.dir") + '/' + hwConf_.regDomain + ".bin";
+
+README.omnivision.md:### Backward compatibility (regDomain)
+README.omnivision.md:Devices w/o `regDomain` property in keys partition are treated as EU devices.\
+
+MCU:
+firmware.dir = /usr/share/mcu_fw
+
+
+
+
+
+// release.mk
+ifdef AJAX_WIFI_COUNTRY
+DEFINES += CY_WIFI_COUNTRY=$(AJAX_WIFI_COUNTRY)
+else
+DEFINES += CY_WIFI_COUNTRY=WHD_COUNTRY_UNITED_STATES
+endif
+
+
+define build_reg_firmware
+	$(Q)echo "Building Infineon CYW5591X firmware for "$(2)" domain reg...";
+	$(MAKE) AJAX_WIFI_COUNTRY=$(1) -C $(@D)/cyw5591x-firmware CYW5591X_GIT_HASH=$(INFINEON_CYW5591X_FIRMWARE_VERSION) build;
+	cd $(@D)/output && shopt -s nullglob && for f in *CYW55912-wifi-firmware*; do mv "$$f" "$${f/CYW55912-wifi-firmware/$(2)}"; done
+endef
+
+	$(call build_reg_firmware,WHD_COUNTRY_UNITED_STATES,NA)
+	$(call build_reg_firmware,WHD_COUNTRY_GERMANY,EU)
+
+// NetworworkServiceImpl.h
+        std::string regDomain_;
+        std::string firmwarePath_;
+
+// NetworworkServiceImpl.cpp
+        regDomain_ = "EU";
+        auto json = gSvcCtx->service<SystemService>()->readPlatformData();
+        if (!json.isNull()) {
+            if (json.isMember("regDomain")) {
+                regDomain_ = json["regDomain"].asString();
+            }
+        }
+        if (regDomain_ != "EU") {
+            regDomain_ = "NA";
+        }
+        //firmwarePath_ = gSvcCtx->appConfig()->getString("network service.firmware.path");
+        firmwarePath_ = gSvcCtx->appConfig()->getString("network service.firmware.dir") + '/' + regDomain_ + ".ota.bin";
+
+///
+// vmsapp.ini.sav533-dualos
+firmware.dir = /usr/share/wifi_firmware
+
+
+Add --reg-domain
+//
+parser.add_argument('--reg-domain', choices=['EU', 'MA', 'NA', 'AU', 'SA', 'IN'], default='EU',
+                    help='RF regulatory region to comply with (default: %(default)s).')
+
+
+git clone -b BPC-1789 git@github.com:ajax-systems/vms.git
+ - 911aa0360dc0e87bd78cb7f2f0c2abdcd4294bb0
+   6a70115a265a66facea53aa148b08231cd51f69f
+git clone -b BPC-1789 git@github.com:ajax-systems/infineon-cyw5591x-firmware.git
+ - be0408f32c2d23ec9a47b94a58b4e3fd876e279a
+   7098372b30df66478050efa512beca7699d18246
+   ba8280dfc27e30c36bd21fbded2eff358159f401
+git clone --recurse-submodules -b BPC-1789 git@github.com:ajax-systems/vms-firmware.git  vms-firmware-bpc-1789
+
+
+BPC-1789: Add region-selected choice of Infineon Wi-Fi firmware
+
+* Select region domain Wi-Fi firmware from "network service.firmware.dir".
+
+BPC-1789: Add support to build region-selected Wi-Fi firmware
+
+* Added AJAX_WIFI_COUNTRY to choice reg domain.
+
+BPC-1789: [infineon-firmware, vmsapp] add region-selected choice of Infineon Wi-Fi firmware
+
+* Added AJAX_WIFI_COUNTRY to choice reg domain in firmware makefile.
+* Select region domain Wi-Fi firmware from "network service.firmware.dir" in vmsapp.
+
+sudo apt install curl
+
+./gen-sec-boot-sigmastar-camera.sh --device-type=TURRET --sensor=sc500ai --lens=yt0w9d71-5mp --hwrev=1  --platform=sav533-dualos --prod=0 --hexid=000010A7 --priv-key=./test-fw-keys/rsa_4096.priv --pub-key=./test-fw-keys/rsa_4096.pub
+
+./gen-sec-boot-sigmastar-camera.sh --device-type=TURRET --sensor=sc500ai --lens=yt0w9d71-5mp --hwrev=1 --reg-domain=NA --platform=sav533-dualos --prod=0 --hexid=000010A7 --priv-key=./test-fw-keys/rsa_4096.priv --pub-key=./test-fw-keys/rsa_4096.pub
+
+./gen-sec-boot-sigmastar-camera.sh --device-type=TURRET --sensor=sc500ai --lens=yt0w9d71-5mp --hwrev=1 --reg-domain=EU --platform=sav533-dualos --prod=0 --hexid=000010A7 --priv-key=./test-fw-keys/rsa_4096.priv --pub-key=./test-fw-keys/rsa_4096.pub
+
+./gen-sec-boot-sigmastar-camera.sh --device-type=TURRET --sensor=sc500ai --lens=yt0w9d71-5mp --platform=sav533-dualos --prod=0 --hexid=000010A7 --reg-domain=EU --priv-key=./test-fw-keys/rsa_2048.priv --pub-key=./test-fw-keys/rsa_2048.pub --masterkey=00000000
+
+
+make infineon-cyw5591x-firmware-reconfigure  -j 12 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
+
+
+make infineon-cyw5591x-firmware-rebuild  -j 12 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
+
+
+make infineon-cyw5591x-itool-reconfigure  -j 12 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
+
+P.S. login: root     password: 
+welcome-to-ajax
+
+       sudo apt install wireshark
+ 1987  sudo iw dev
+ 1988  sudo apt install iw
+
+ 1993  sudo ip link set wlo1 down
+ 1996  sudo iw wlo1 set monitor none
+ 1997  sudo ip link set wlo1 up
+ 1998  sudo iw wlo1 set channel 13
+
+50:2E:91:DB:7E:E5
+
+// turn off
+sudo ip link set wlo1 down
+sudo iw wlo1 set type managed
+sudo ip link set wlo1 up
+
+Could not set Country code
+
+setenv autoload no; dhcp;
+set -f gatewayip 192.168.1.1;set -f ipaddr 192.168.1.101;set -f netmask 255.255.255.0;set -f serverip 192.168.1.100
+
+tftp $(loadaddr) 000010A7.KEYS.sig.bin
+keys_update $(loadaddr) $(filesize)
+
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_824_dev-rw.sig.bin
+fw_update $(loadaddr) $(filesize)
+
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_820_rel-rw.sig.bin
+fw_update $(loadaddr) $(filesize)
+
+======================
+Ajax BatteryCam HL
+DFU v1.0.1
+Reg-domain: DE 
+Git Hash: ba8280dfc27e30c36bd21fbded2eff358159f401
+===============================================================
+
+Could not set Country code
+Could not deinit whd because wifi power is on
+[F4]:[L1]:00:00:01.010 Error in getting primary interface mac address !!
+[F4]:[L1]:00:00:01.010 Error : Initializing Wi-Fi interface 
+[F1]:[L1]:00:00:01.010 Wi-Fi Connection Manager initialization failed!
+
+
+./gen-sec-boot-sigmastar-camera.sh --device-type=TURRET --sensor=sc500ai --lens=yt0w9d71-5mp --hwrev=1  --platform=sav533-dualos --prod=0 --hexid=000010A7 --priv-key=./test-fw-keys/rsa_4096.priv --pub-key=./test-fw-keys/rsa_4096.pub
+
+sudo ifconfig enxec9a0c1d6955 192.168.1.100 netmask 255.255.255.0 up
+
+
+// Тест
+{
+    whd_result_t result;
+    uint32_t band = 2; // 5
+    uint32_t count = 0;
+    char country_list[512];
+    const char* abbrev;
+    extern whd_interface_t whd_ifs[2];
+
+    printf("OSOTN: whd_wifi_get_country_list()\r\n");
+    result = whd_wifi_get_country_list(whd_ifs[0], band, &count, country_list);
+    if (result == WHD_SUCCESS)
+    {
+        printf("Supported Country list\r\n");
+        for (int i = 0; i < count; i++) {
+            abbrev = (char*)&country_list[i * 4];
+            printf(("%s\n", abbrev));
+        }
+    } else
+        printf("Error: whd_wifi_get_country_list\r\n");
+    }
+}
+
+extern whd_result_t whd_wifi_get_country_code(whd_interface_t ifp, char* country_abbrev);
+
+IPL 3e2acb1
+D-11
+SW Reset
+MCP1866_4X Nanya
+miupll_400MHz
+256MB
+Find CIS in block00
+NonpmSPI 104M,PMSPI86MHz & SPI_CK driving
+
+Load BL from SPINAND
+
+IPL_CUST g3e2acb1
+Find CIS in block00
+NonpmSPI 104M,PMSPI86MHz & SPI_CK driving
+
+using FW01 firmware
+Find CIS in block00
+NonpmSPI 104M,PMSPI86MHz & SPI_CK driving
+
+Load BL from SPINAND
+u32RunAddr = 0x2f808000
+laodaddr = 0x2f808000
+
+
+wifi  - 957df63330be78b1663a27a0c4b9c6998b43ea3e        +2  -> 4179367a84b86a46755375509146ab0bbcc5f006
+itool - d900c122b40cd8f4f81df913218e9d95a91391db        +1  -> 1e1b7712e8a65980df234d22045d4c225b74286d
+
+vms-fw - 8851adf8532130847c0a1d55e008f6949a2579c6
+
+
+BPC-1789: Add support for region-selected Wi-Fi firmware
+* Added commands get/set reg domain (stored in ext flash).
+* Set default country from ext flash on Wifi initialization.
+
+
+
+BPC-1789: Add support for region-selected Wi-Fi firmware
+* Added commands get/set reg domain.
+
+
+BPC-1789: [infineon-firmware, infineon-itool] dd support for region-selected Wi-Fi firmware
+* Added commands get/set reg domain (stored in ext flash).
+* Set default country from ext flash on Wifi initialization.
+* Added '--reg-domain' optional argument to keys_extra.
+
+
+modprobe infhosted
+itoold
+itool_cmd connect "homeless" wpa3_wpa2 "1234567890"
+
+itool_cmd connect "homeless" wpa3_wpa2 "homeless"
+
+itool_cmd fast_dfu  /root/0001_NA.ota.bin
+
+itool_cmd set_fw_log_lvl all trace
+
+
+# itool_cmd connect "homeless" wpa3_wpa2 "homeless"
+ === iTool ===
+Triggered wifi connect
+Network event: NW_EVENT_RECONNECTED
+Current connection:
+SSID: homeless
+BSSID: 08:8a:f1:a3:89:3a
+channel: 13, channel_width: 20
+signal_strength: -24, security_type: wpa2_aes
+Got IP information...
+Configuring network:
+ip addr flush dev wlan0
+ip addr add 192.168.1.101/24 dev wlan0
+ip route replace default via 192.168.1.1 dev wlan0
+
+# ./itool_cmd set_reg_domain "EU"
+ === iTool ===
+
+
+[F1]:[L4]:00:01:54.390 [SDIO] CMD CB invoked, set=1, cmd_len=7; msg_id: 8
+[F1]:[L4]:00:01:54.390 OSOTN: set reg  1
+[F1]:[L4]:00:01:54.390 OSOTN: flash reg reg = EU
+[F1]:[L4]:00:01:54.390 OSOTN: set reg  2
+
+
+
+
+
+# itool_cmd fast_dfu /usr/share/wifi_firmware/CYW55912-wifi-firmware.ota.bin                                            
+ === iTool ===                                                                                                          
+Starting DFU with file: /usr/share/wifi_firmware/CYW55912-wifi-firmware.ota.bin                                         
+image size 617764                                                                                                       
+crc 5e2d684b                                                                                                            
+Firmware downloading ...                                                                                                
+[00000292/ 00617764]                                                                                                    
+Firmware verifying ...                                                                                                  
+Removing infineon modules                                                                                               
+sdmmc_reset for device 1                                                                                                
+Loading infineon modules                                                                                                
+Infineon firmware hash = 255ea18b018e7a2f0f95ec3c75e556318afd5395 
+
+======================
+Ajax BatteryCam HL
+DFU v1.0.1
+Git Hash: 255ea18b018e7a2f0f95ec3c75e556318afd5395
+===============================================================
+
+
+
+
+
+
+./ChipLoad -BLUETOOLMODE -ENTERDOWNLOADMODE -PORT /dev/ttyUSB0 -LAUNCHADDRESS 0x00000000 -BAUDRATE 115200 -NOVERIFY -MINIDRIVER  CYW55912-wifi-firmware-minidriver.hex -BTP CYW55912-wifi-firmware-device-preset.btp -CONFIG ./CYW55912-wifi-firmware.ota.bin -DL_TIMEOUT_MULTIPLIER 2
+
+sudo ./ChipLoad_patched -BLUETOOLMODE -ENTERDOWNLOADMODE -PORT /dev/ttyUSB0 -LAUNCHADDRESS 0x00000000 -BAUDRATE 115200 -NOVERIFY -MINIDRIVER  CYW55912-wifi-firmware-minidriver.hex -BTP CYW55912-wifi-firmware-device-preset.btp -CONFIG ./CYW55912-wifi-firmware_unsigned.hex -DL_TIMEOUT_MULTIPLIER 2
+
+
+
+
+
+
+
+======================                                                                                                  
+Ajax BatteryCam HL                                                                                                      
+DFU v1.0.1                                                                                                              
+Reg-domain: US                                                                                                          
+OSOTN ver.001                                                                                                           
+Git Hash: 9a8b180d4112d6dea832fffbd6796885d74b97d1                                                                      
+===============================================================                                                         
+                                                                                                                        
+chip serial: 130000007f3f480064c72500fa0e3d00                                                                           
+WLAN MAC Address : 50:2E:91:DB:7E:E5                                                                                    
+WLAN Firmware    : wl0: Feb  4 2026 02:36:18 version 28.10.591.6 (74ce0df) FWID 01-7c68d568                             
+, Chip ID : 55900WLAN CLM         : API: 20.0 Data: AzureWave.CU640 Compiler: 1.49.5 ClmImport: 1.49.0 Customization: v 
+WHD VERSION      : 5.2.3.29261 : 11ax v5.2.3 : GCC 11.3 : 2026-01-20 06:49:52 +0000                                     
+Offloads not configured                                                                                                 
+[F1]:[L4]:00:00:01.030 Wi-Fi Connection Manager initialized.                                                            
+[F1]:[L4]:00:00:01.030 Using default DHCP hostname: AjaxBatteryCam                                                      
+SDIO for HM configured successfully                                                                                     
+[F1]:[L4]:00:00:01.030 Hosted Mode enabled                                                                              
+[F1]:[L4]:00:00:01.030 Configure WiFi Subsystem finished                                                                
+OSOTN: whd_wifi_get_country_list()                                                                                      
+[F1]:[L4]:00:00:01.030 [ConnMon] Started Connection Monitor                                                             
+Supported Country list                                                                                                  
+CE                                                                                                                      
+JP                                                                                                                      
+US                                                                                                                      
+WW                                                                                                                      
+[F1]:[L4]:00:00:01.030 [SM_PM] State: 0 Event: 0;                                                                       
+SDIO is in already Initialized state
+
+
+whd_wifi_get_country_list():
+CE, JP, US, WW
+
+#include "whd_wifi_api.h"
+#include "whd_types.h"
+
+// Define a placeholder macro if you are targeting a specific region
+#ifndef WHD_COUNTRY_EUROPEAN_WIDE
+#define WHD_COUNTRY_EUROPEAN_WIDE (whd_country_code_t)MK_CNTRY('E', 'U', 0)
+#endif
+
+/**
+ * @brief Dynamically changes the Wi-Fi country code at runtime by power-cycling the WHD stack.
+ * 
+ * @param driver_handle      Pointer to the initialized WHD driver instance object.
+ * @param interface_handle   Pointer to the primary Wi-Fi interface handle.
+ * @param new_country_code   The new regulatory country code enum to apply.
+ * @return whd_result_t      WHD_SUCCESS on success, error code otherwise.
+ */
+whd_result_t switch_whd_country_code(whd_driver_t driver_handle, 
+                                     whd_interface_t *interface_handle, 
+                                     whd_country_code_t new_country_code)
+{
+    whd_result_t res;
+    whd_init_config_t new_init_config;
+
+    // Step 1: Disconnect safely if currently associated to an Access Point
+    // Ignore errors here if the radio was not connected to anything
+    (void)whd_wifi_leave(*interface_handle);
+
+    // Step 2: Power down the Wi-Fi driver and internal firmware stack
+    res = whd_wifi_off(driver_handle);
+    if (res != WHD_SUCCESS)
+    {
+        // Handle stack shutdown failure (e.g., driver busy, power management lock)
+        return res; 
+    }
+
+    // Step 3: Clear and reinitialize the configuration structure
+    // This wipes previous runtime artifacts and prepares a clean memory block
+    memset(&new_init_config, 0, sizeof(whd_init_config_t));
+    
+    // Step 4: Inject the new regulatory country profile enum
+    new_init_config.country = new_country_code;
+
+    // Step 5: Boot the Wi-Fi radio back up with the modified regulatory rules
+    res = whd_wifi_on(driver_handle, interface_handle, &new_init_config);
+    if (res != WHD_SUCCESS)
+    {
+        // Re-boot failed (likely due to an unsupported country code by the firmware)
+        return res;
+    }
+
+    return WHD_SUCCESS;
+}
+
+
+
+
+# Define the custom CE (E0 revision 0) macro globally
+DEFINES+=CY_WIFI_COUNTRY=MK_CNTRY(\'E\',\'0\',0)
+
+WHD_COUNTRY_EUROPEAN_WIDE_REV895                  = MK_CNTRY('E', '0', 895), /**< E0 European_Wide Revision 895 */
+
+
+======================
+Ajax BatteryCam HL
+DFU v1.0.1
+Reg-domain: E0, rev = 127
+OSOTN ver.001
+Git Hash: 9a8b180d4112d6dea832fffbd6796885d74b97d1
+===============================================================                                  
+                                                                                                 
+Could not set Country code                                                                       
+Could not deinit whd because wifi power is on 
+
+======================           |                             |
+Ajax BatteryCam HL               +-----------------------------+
+DFU v1.0.1
+Reg-domain: E0, rev = 0
+OSOTN ver.001
+Git Hash: 9a8b180d4112d6dea832fffbd6796885d74b97d1
+===============================================================                                  
+                                                                                                 
+Could not set Country code                                                                       
+Could not deinit whd because wifi power is on 
+
+
+whd_wifi_get_country_list():
+CE, JP, US, WW
+
+1. /usr/share/wifi_fw/NA.bin
+======================
+Ajax BatteryCam HL
+DFU v1.0.1
+Reg-domain: US , rev = 0
+OSOTN ver.001
+
+2. /usr/share/wifi_fw/EU.bin
+======================
+Ajax BatteryCam HL
+DFU v1.0.1
+Reg-domain: CE, rev = 0
+OSOTN ver.001
+
+
+
+
+======================
+Ajax BatteryCam HL
+DFU v1.0.1
+Git Hash: 32361d66a88e839ad2a503c173649798fc236956
+===============================================================
+
+[F1]:[L4]:00:00:00.000 [EXT_FLASH] flash read reg domain = EU
+[F1]:[L4]:00:00:00.000 Using reg domain from flash: "EU"
+[F1]:[L4]:00:00:00.000 Using reg domain country "CE": "EU"
+chip serial: 130000007f3f480064c72500fa0e3d00
+WLAN MAC Address : 50:2E:91:DB:7E:E5
+WLAN Firmware    : wl0: Feb  4 2026 02:36:18 version 28.10.591.6 (74ce0df) FWID 01-7c68d568
+, Chip ID : 55900WLAN CLM         : API: 20.0 Data: AzureWave.CU640 Compiler: 1.49.5 ClmImport: 1.49.0 Cus 
+WHD VERSION      : 5.3.1.29649 : 11ax v5.3.1 : GCC 11.3 : 2026-04-13 16:24:07 +0800
+Offloads not configured 
+[F1]:[L4]:00:00:01.030 Wi-Fi Connection Manager initialized. 
+[F1]:[L4]:00:00:01.030 Using default DHCP hostname: AjaxBatteryCam
+[F4]:[L5]:00:00:01.030 wcm_mutex - Acquiring Mutex 0x4d555445 
+[F4]:[L5]:00:00:01.030 wcm_mutex - Releasing Mutex 0x4d555445 [1030] SDIO for HM configured successfully
+[1030] Added white list port 22 for Hosted Mode, list number:1
+[1030] Added white list port 554 for Hosted Mode, list number:2
+[1030] Added white list port 1337 for Hosted Mode, list number:3
+[1030] Added white list port 8554 for Hosted Mode, list number:4
+[F1]:[L4]:00:00:01.030 Hosted Mode enabled 
+[F1]:[L4]:00:00:01.030 Configure WiFi Subsystem finished
+[F1]:[L4]:00:00:01.030 [ConnMon] Started Connection Monitor
+[F1]:[L4]:00:00:01.030 [SM_PM] State: 0 Event: 0;
+[F5]:[L5]:00:00:01.030 rx set callback
+[F5]:[L10]:00:00:01.030 suspend wifi_comm
+[1130] SDIO already initialized
+[F1]:[L4]:00:00:04.050 [SDIO] CMD CB invoked, set=0, cmd_len=45; msg_id: 1
+[F1]:[L2]:00:00:04.050 [MQTT PUB] skip global q item because not connected
+[F1]:[L2]:00:00:04.050 [MQTT PUB] skip global q item because not connected
+[F1]:[L4]:00:00:04.060 [SDIO] CMD CB invoked, set=1, cmd_len=8; msg_id: 4
+[4060] Port 22 already in white list, nothing to do
+[4060] Port 554 already in white list, nothing to do
+[4060] Port 1337 already in white list, nothing to do
+[4060] Port 8554 already in white list, nothing to do
+[F1]:[L2]:00:00:04.060 [MQTT PUB] skip global q item because not connected
+
+
+// itool
+https://github.com/ajax-systems/infineon-cyw5591x-itool/pull/39
+
+// fw
+https://github.com/ajax-systems/infineon-cyw5591x-firmware/pull/112
+
+
+
+====
+======================
+Ajax BatteryCam HL
+DFU v1.0.1
+Git Hash: b8d3beb79c21d5ed623821d7c14f68a3e7f3c9ee
+===============================================================
+
+[F1]:[L4]:00:00:00.000 [EXT_FLASH] flash read reg domain = NA
+[F1]:[L4]:00:00:00.000 Using reg domain from flash: "NA"
+[F1]:[L4]:00:00:00.000 Using reg domain country "US": "NA"
+chip serial: 130000007f3f480064c72500fa0e3d00
+WLAN MAC Address : 50:2E:91:DB:7E:E5
+WLAN Firmware    : wl0: Feb  4 2026 02:36:18 version 28.10.591.6 (74ce0df) FWID 01-7c68d568
+, Chip ID : 55900WLAN CLM         : API: 20.0 Data: AzureWave.CU640 Compiler: 1.49.5 ClmImport: 1.49.0 Customization: v1 25/12/03 Creation: 2025-12-04 03:37:30 
+WHD VERSION      : 5.3.1.29649 : 11ax v5.3.1 : GCC 11.3 : 2026-04-13 16:24:07 +0800
+Offloads not configured 
+[F1]:[L4]:00:00:01.030 Wi-Fi Connection Manager initialized. 
+[F1]:[L4]:00:00:01.030 Using default DHCP hostname: AjaxBatteryCam
+[F4]:[L5]:00:00:01.030 wcm_mutex - Acquiring Mutex 0x4d555445 
+[F4]:[L5]:00:00:01.030 wcm_mutex - Releasing Mutex 0x4d555445 [1030] SDIO for HM configured successfully
+[1030] Added white list port 22 for Hosted Mode, list number:1
+[1030] Added white list port 554 for Hosted Mode, list number:2
+[1030] Added white list port 1337 for Hosted Mode, list number:3
+[1030] Added white list port 8554 for Hosted Mode, list number:4
+[F1]:[L4]:00:00:01.030 Hosted Mode enabled 
+[F1]:[L4]:00:00:01.030 Configure WiFi Subsystem finished
+[F1]:[L4]:00:00:01.030 [ConnMon] Started Connection Monitor
+[F1]:[L4]:00:00:01.030 [SM_PM] State: 0 Event: 0;
+[F5]:[L5]:00:00:01.030 rx set callback
+[F5]:[L10]:00:00:01.030 suspend wifi_comm
+[F5]:[L5]:00:00:01.100 gpio_interrupt_handler
+[F5]:[L10]:00:00:01.100 resume wifi_comm
+[F5]:[L5]:00:00:01.110 wifi_comm_api_uart_init
+[1130] SDIO already initialized
+[F5]:[L10]:00:00:01.130 WIFI_CMD_SOC_STATE command received
+[F5]:[L10]:00:00:01.130 Wifi send command: 1
+[F1]:[L4]:00:00:01.130 [SM_PM] State: 0 Event: 1;
+[F5]:[L5]:00:00:01.140 wifi_comm_api_uart_deinit
+[F5]:[L5]:00:00:01.140 rx set callback
+[F5]:[L10]:00:00:01.150 suspend wifi_comm
+[F5]:[L5]:00:00:01.150 gpio_interrupt_handler
+[F5]:[L10]:00:00:01.150 resume wifi_comm
+[F5]:[L5]:00:00:01.160 wifi_comm_api_uart_init
+[F1]:[L2]:00:00:01.180 [MQTT PUB] skip snapshot because not connected
+[F5]:[L10]:00:00:01.180 battery_status.level => 69
+[F5]:[L10]:00:00:01.180 battery_status.charging_state => 1
+[F5]:[L10]:00:00:01.180 ext_power_status.is_connected => 0
+[F5]:[L10]:00:00:01.180 ext_power_status.voltage_mv => 0
+[F5]:[L10]:00:00:01.180 ext_power_status.current_ma => 0
+[F5]:[L10]:00:00:01.180 system_info_status.is_lid_opened => 1
+[F5]:[L10]:00:00:01.180 system_info_status.operation_temp_state => 0
+[F5]:[L10]:00:00:01.180 WIFI_CMD_SEND_MCU_STATUS command received
+[F5]:[L10]:00:00:01.180 Wifi send command: 1
+[F5]:[L5]:00:00:01.190 wifi_comm_api_uart_deinit
+[F5]:[L5]:00:00:01.190 rx set callback
+[F5]:[L10]:00:00:01.200 suspend wifi_comm
+[F1]:[L4]:00:00:03.660 [SDIO] CMD CB invoked, set=0, cmd_len=45; msg_id: 1
+[F1]:[L2]:00:00:03.660 [MQTT PUB] skip global q item because not connected
+[F1]:[L2]:00:00:03.670 [MQTT PUB] skip global q item because not connected
+[F1]:[L4]:00:00:03.670 [SDIO] CMD CB invoked, set=1, cmd_len=8; msg_id: 4
+[3670] Port 22 already in white list, nothing to do
+[3670] Port 554 already in white list, nothing to do
+[3670] Port 1337 already in white list, nothing to do
+[3670] Port 8554 already in white list, nothing to do
+[F1]:[L2]:00:00:03.670 [MQTT PUB] skip global q item because not connected
+[F1]:[L4]:00:00:03.720 [SDIO] CMD CB invoked, set=1, cmd_len=7; msg_id: 8
+[F1]:[L4]:00:00:03.720 [EXT_FLASH] flash read reg domain = NA
+
+=====
+
+Jan  1 00:00:05 AjaxCameraDev user.warn kernel: [    1.377107] compat: loading out-of-tree module taints kernel.                                                       
+Jan  1 00:00:05 AjaxCameraDev user.info kernel: [    1.389731] >> [sdmmc] ms_sdmmc_probe                                                                               
+Jan  1 00:00:05 AjaxCameraDev user.err kernel: [    1.389746] >> [sdmmc] Err: Could not get dts [slot-en-pwr-high-valid] option!                                       
+Jan  1 00:00:05 AjaxCameraDev user.err kernel: [    1.389756] >> [sdmmc] Warn: Could not get dts [slot-sdio-dis-intr] option!                                          
+Jan  1 00:00:05 AjaxCameraDev user.debug kernel: [    1.389849] cma: cma_alloc(cma 000308e1, count 1, align 0)                                                         
+Jan  1 00:00:05 AjaxCameraDev user.debug kernel: [    1.390583] cma: cma_alloc(): returned 279bf906                                                                    
+Jan  1 00:00:05 AjaxCameraDev user.info kernel: [    1.399592] >> [sdmmc_0] Probe Platform Devices                                                                     
+Jan  1 00:00:05 AjaxCameraDev user.debug kernel: [    1.399620] cma: cma_alloc(cma 000308e1, count 1, align 0)                                                         
+Jan  1 00:00:05 AjaxCameraDev user.debug kernel: [    1.401015] cma: cma_alloc(): returned e7ff6f4d                                                                    
+Jan  1 00:00:05 AjaxCameraDev user.info kernel: [    1.409584] >> [sdmmc_1] Probe Platform Devices                                                                     
+Jan  1 00:00:05 AjaxCameraDev user.info kernel: [    1.425877] infhost_module_init: Initializing Infineon Host Driver                                                  
+Jan  1 00:00:05 AjaxCameraDev user.info kernel: [    1.425901] infhost: proc filesystem initialized at /proc/infhost                                                   
+Jan  1 00:00:05 AjaxCameraDev user.info kernel: [    1.425905] infhost_sdio_register: Registered with sdmmc driverr                                                    
+Jan  1 00:00:05 AjaxCameraDev user.err kernel: [    1.502314] >> [sdmmc_1] Err: #Cmd_52 (0x00000C00)=>(E: 0x0008)(S: 0x00000000)__(L:1065)                             
+Jan  1 00:00:05 AjaxCameraDev user.err kernel: [    1.502841] >> [sdmmc_1] Err: #Cmd_52 (0x80000C08)=>(E: 0x0008)(S: 0x00000000)__(L:1065)                             
+Jan  1 00:00:05 AjaxCameraDev user.info kernel: [    1.542827] mmc1: new high speed SDIO card at address 0001                                                          
+Jan  1 00:00:05 AjaxCameraDev user.info kernel: [    1.553975] infhost_sdio_probe: Try attaching sdio device                                                           
+Jan  1 00:00:05 AjaxCameraDev user.info sysinit: S46Wifi: setting up eth.                                                                                              
+Jan  1 00:00:05 AjaxCameraDev user.info kernel: [    1.564865] infhost_sdio_probe: Waiting for firmware Hosted Mode to initialize...                                   
+Jan  1 00:00:05 AjaxCameraDev daemon.info itoold[557]: Start itool daemon                                                                                              
+Jan  1 00:00:05 AjaxCameraDev daemon.info itoold[557]: rev-hash: [eda0eb3aca0f9d40da74153bb1e3e231f781fae2];                                                           
+Jan  1 00:00:05 AjaxCameraDev daemon.info itoold[557]: Setup OK. Daemonizing                                                                                           
+Jan  1 00:00:05 AjaxCameraDev daemon.info itoold[568]: Register with driver, attempt: 1                                                                                
+Jan  1 00:00:05 AjaxCameraDev user.info sysinit: S46Wifi: setting up wifi.                                                                                             
+Jan  1 00:00:05 AjaxCameraDev authpriv.info dropbear[587]: Running in background                                                                                       
+Jan  1 00:00:05 AjaxCameraDev daemon.info polkitd[593]: Started polkitd version 0.119                                                                                  
+Jan  1 00:00:05 AjaxCameraDev daemon.info nit: starting pid 629, tty '/dev/console': '/sbin/getty -L  console 0 vt100 '                                                
+Jan  1 00:00:06 AjaxCameraDev daemon.info itoold[568]: Register with driver, attempt: 2                                                                                
+Jan  1 00:00:07 AjaxCameraDev daemon.info itoold[568]: Register with driver, attempt: 3                                                                                
+Jan  1 00:00:08 AjaxCameraDev daemon.info dbus-daemon[551]: [system] Activating service name='com.ajax.McuCommunicator' requested by ':1.0' (uid=0 pid=599 comm="dbus-)
+Jan  1 00:00:08 AjaxCameraDev daemon.info dbus-daemon[551]: [system] Activating service name='org.freedesktop.UDisks2' requested by ':1.1' (uid=0 pid=598 comm="dbus-s)
+Jan  1 00:00:08 AjaxCameraDev authpriv.notice polkitd[593]: Loading rules from directory /etc/polkit-1/rules.d                                                         
+Jan  1 00:00:08 AjaxCameraDev authpriv.notice polkitd[593]: Loading rules from directory /usr/share/polkit-1/rules.d                                                   
+Jan  1 00:00:08 AjaxCameraDev authpriv.notice polkitd[593]: Finished loading, compiling and executing 1 rules                                                          
+Jan  1 00:00:08 AjaxCameraDev authpriv.notice polkitd[593]: Acquired the name org.freedesktop.PolicyKit1 on the system bus                                             
+Jan  1 00:00:08 AjaxCameraDev user.info kernel: [    4.699146] infhost_add_if:  ==== (50:2e:91:db:7e:e5) created ===                                                   
+Jan  1 00:00:08 AjaxCameraDev user.info kernel: [    4.714733] infhost_net_attach: wlan0: Registered net device                                                        
+Jan  1 00:00:08 AjaxCameraDev user.info kernel: [    4.714747] infhost_sdio_probe: Firmware Hosted Mode ready after 3149 ms.                                           
+Jan  1 00:00:08 AjaxCameraDev user.info kernel: [    4.714752] infhost_sdio_probe: INFHOST sdio probe completed!!                                                      
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: Register with driver, attempt: 4                                                                                
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: Register successful                                                                                             
+Jan  1 00:00:08 AjaxCameraDev user.info kernel: [    4.723491] infhost_cmd_drvr_set: INF_C_REG_APP with PID[568] is regd                                               
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: Infineon firmware version = b8d3beb79c21d5ed623821d7c14f68a3e7f3c9ee                                            
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: Whitelist port cleared                                                                                          
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: Current connection:                                                                                             
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: SSID:                                                                                                           
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: BSSID: 00:00:00:00:00:00                                                                                        
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: channel: 0, channel_width: 0                                                                                    
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: signal_strength: 0, security_type: open                                                                         
+Jan  1 00:00:08 AjaxCameraDev user.info kernel: [    4.733774] infhost_net_setcarrier: bsscfgidx=0 carrier=0                                                           
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: Got IP information...                                                                                           
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: Configuring network:                                                                                            
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: ip addr flush dev wlan0                                                                                         
+Jan  1 00:00:08 AjaxCameraDev daemon.info dbus-daemon[551]: [system] Successfully activated service 'com.ajax.McuCommunicator'                                         
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: ip route replace default via 0.0.0.0 dev wlan0                                                                  
+Jan  1 00:00:08 AjaxCameraDev user.info kernel: [    4.760883] [Padmux]reset PAD5(reg 0x103c00:6f; mask0x700) t0 GPIO (org: I2C2_MODE_4)                               
+Jan  1 00:00:08 AjaxCameraDev user.err kernel: [    4.761073] [MS_PM_INTC] hw:14 -> v:71                                                                               
+Jan  1 00:00:08 AjaxCameraDev user.err kernel: [    4.761374] [MS_PM_INTC] hw:13 -> v:72                                                                               
+Jan  1 00:00:08 AjaxCameraDev daemon.info itoold[568]: Updated network                                                                                                 
+Jan  1 00:00:08 AjaxCameraDev daemon.info dbus-daemon[551]: [system] Successfully activated service 'org.freedesktop.UDisks2'                                          
+Jan  1 00:00:36 AjaxCameraDev auth.info login[629]: root login on 'console' 
+
+
+
+======================
+Ajax BatteryCam HL
+DFU v1.0.1
+Git Hash: b8d3beb79c21d5ed623821d7c14f68a3e7f3c9ee
+===============================================================
+
+[F1]:[L4]:00:00:00.000 [EXT_FLASH] flash read reg domain = EU
+[F1]:[L4]:00:00:00.000 Using reg domain from flash: "EU"
+[F1]:[L4]:00:00:00.000 Using reg domain country "CE": "EU"
+chip serial: 130000007f3f480064c72500fa0e3d00
+
+
+BPC-1789: Add support for region-selected Wi-Fi firmware
+* Added commands get/set reg domain.
+
+
+=====
+
+====
+Привіт,
+Створи плз таску для VMS тіми для встановлення регіона з ключа в network-itool service на Аверина, як продовжениия таски
+https://ajaxsystems.atlassian.net/browse/BPC-1789
+
+ajax-vorobyev-s: make a task for vms team, we'll make this call as part of network-itool service, do not change anything in these scripts, they aren't controlling anthing, all control is from vmsapp's network-itool service
+
+Description: Implement logic in VMS similar to the next script:
+=====
+REG_DOMAIN="EU"
+
+# read reg domain
+parse_mtd_keys_extra KEYS 2>/dev/null
+
+if [ ! -z "$KEYS_regDomain" ]; then
+	REG_DOMAIN="$KEYS_regDomain"
+fi
+
+# set reg domain
+itool_cmd set_reg_domain "$REG_DOMAIN" > /dev/null 2>&1
+
+=====
+
+https://ajaxsystems.atlassian.net/browse/BPC-2252
+
+
+
+
+
+BPC-1789: [infineon-firmware, infineon-itool] add support for region-selected Wi-Fi firmware
+* Added commands get/set reg domain (stored in ext flash).
+* Set default country from ext flash on Wifi initialization.
+* Added '--reg-domain' optional argument to keys_extra.
+
 

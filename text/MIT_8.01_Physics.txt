@@ -1,0 +1,228 @@
+8.01_Douglas Giancoli - Physics for Scientists & Engineers, Volume 1 (Chapters 1-20) (2020, Pearson) - libgen.li.pdf
+===
+
+1. Introduction, Measurement, Estimating
+----------------------------------------
+Physics in the most basic of the sciences.
+It deals with the behavior and structure of matter.
+The field of physics is usually divided into:
+        classical physics:
+                - motion
+                - fluids
+                - heat
+                - sound
+                - light
+                - electricity
+                - magnetism
+        modern physics:
+                - relativity
+                - atomic structure
+                - condensed matter
+                - nuclear physics
+                - elementary particles
+                - cosmology
+                - astrophysics
+
+One important aspect of science is observation of events.
+
+2. Describing Motion: Kinematics in one dimension
+--------------------------------------------------
+The study of the motion of objects, and the related concepts of force and energy, form the field called mechanics.
+Kinematics and dynamics.
+
+3. Kinematics in two or three dimensions; Vectors
+-------------------------------------------------
+4. Dynamics: Newton Laws of Motion
+----------------------------------
+Force as any kind of a push or a pull on an object.
+Contact forces, force of gravity.
+
+Mass is a measure of the inertia of an object.
+
+5. Using Newton Laws: Friction, Circular Motion, Drag Forces.
+-------------------------------------------------------------
+Sliding friction, which is usually called kinetic friction.
+
+5-6 Velocity dependent forces: Drag and terminal velocity.
+When an object slides along a surface, the force of friction acting on the object is nearly independent of how fast the object is moving. But other types of resistive forces do depend on the object velocity.
+A fluid offers resistance to the motion on an object moving through it, and this resistive force, or drag force, depends on the velocity of the object.
+
+6. Gravitation and Newton Synthesis
+-----------------------------------
+Every particle in the universe attracts every other particle with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between them. This force acts along the line joining the two particles.
+
+
+In the twentieth century, physicists came to recognize four fundamental forces in nature:
+        - the gravitational force
+        - the electromagnetic force
+        - the strong nuclear force (which holds protons and neutrons together to form atomic nuclei)
+        - the weak nuclear force (involved in radioactivity)
+
+The electromagnetic and weak nuclear forces have been theoretically united to form electroweak theory, in which the electromagnetic and weak forces are seen as two aspects of a single electroweak force.
+
+Ordinary forces, other than gravity, such as pushes, pulls, and other contact forces like the normal force and friction, are today considered to be due to the electromagnetic force acting at the atomic level.
+
+7. Work and Energy
+------------------
+
+9. Linear Momentum
+-------------------
+
+10. Rotational Motion
+---------------------
+
+12. Static Equilibrium; Elasticity and Fracture
+-----------------------------------------------
+13. Fluids
+----------
+The three common phases, or states, of matter are:
+        - solid
+        - liquid
+        - gas
+
+a solid maintains a generally fixed size and shape
+a liquid does not maintain a fixed shape
+a gas has neither a fixed shape nor a fixed volume
+
+The division of matter into three phases is not always simple.
+A fourth phase of matter can be distinguished, the plasma phase, which occurs only at very high temperatures and consists of ionized atoms (electrons separated from the nuclei).
+
+Pressure in fluids:
+        Pressure is defined as force per unit area, where the force F is understood to be the magnitude of the force acting perpendicular to the surface area A:
+                pressure = P = F/A
+
+Although force is a vector, pressure is a scalar.
+Pa = pascal  = N / m^2
+
+for fluids P = F/A = pAhg/A = pgh
+
+Atmosphere = atm
+        1 atm = 101.3 kPa
+
+Objects submerged in a fluid appear to weight less than they do when outside the fluid.
+The buoyant force occurs because the pressure in a fluid increases with depth.
+
+14. Oscillations
+-----------------
+
+15. Wave Motion
+---------------
+16. Sound
+---------
+Sound is associated with our sence of hearing and, therefore, with the physiology of our ears and the psychology of our brain, which interprets the sensations that reach our ears.
+The term sound also refers to the physical sensation that stimulates our ears: namely, longitudinal pressure waves.
+
+Speed of sound is 331 m/s.
+
+17. Temperature, Thermal Expansion and the Ideal Gas Law
+--------------------------------------------------------
+The idea that matter is made up of atoms dates back to the ancient Greeks.
+
+An element is a substance, such as neon, gold, iron, or copper, that cannot be broken down into simpler substances by chemical means.
+Compounds are substances made up of elements, and can be broken down into them.
+
+21. Electric Charge and Electric Field
+--------------------------------------
+The idea of a force between two objects even when the objects are not touching.
+Idea of the field, developed by British scientist Michael Faraday.
+
+In the electrical case, according to Faraday, an electric field extends outward from every charge and permeates all of spaces.
+
+If a second charge is placed near the first change, then it feels exerted by the electric field that is there.
+
+The electric field at point P is considered to interact directly with charge q to produce the force on q.
+
+The electric field, E, at any point in space is defined as the force F exerted on a tiny positive test charge placed at that point divided by the magnitude of the test charge q:  E = F/g.
+
+Superposition principle for electric fields is fully confirmed by experiment.
+
+21-9 Electric Fields and Conductors
+-----------------------------------
+The electric field inside a conductor is zero in the static situation - that is, when the charges are at rest.
+If there were an electric field within a conductor, there would be a force on the free electrons. The electrons would move until they reached positions where the electric field, and therefore the electric force on them, did become zero.
+
+Any net charge on a conductor distributes itself on the surface.
+
+The electric field is always perpendicular to the surface outside of a conductor.
+
+
+21-10 Motion of a Charged Particle in an Electric Field
+-------------------------------------------------------
+21-11 Electric Dipoles
+----------------------
+p - dipole moment Ql
+
+22. Gauss Law
+-------------
+Gauss law is an elegant relation between electric charge and electric field.
+It is more general than Coulomb law.
+Gauss law involves an integral of the electric field E at each point on a closed surface.
+
+Karl Friedrich Gauss developed an important relation, now known as Gauss law, which we develop and discuss in this chapter. It is a statement of the relation between electric charge and electric field and is a more general and elegant form of Coulomb law.
+
+The total electric field at any point will be the vector sum (or integral) of contributions from all charges present.
+
+Gauss law involves the concept of electric flux, which refers to the electric field passing through a given area.
+
+Total flux through a closed surface - a surface of any shape that completely encloses a volume of space.
+
+        integral E dA = Q/є, є - is the same constant (permittivity of free space).
+
+
+23 Electric Potential
+---------------------
+To apply conservation of energy to electric phenomena, we need to define electric potential energy as we did for other types of potential energy.
+
+When a point charge q moves from some point a to another point b, as the negative of the work done by the electric force on the charge as it moves from point a to point b.
+
+The unit of electric potential, and of potential difference, is joules / coulomb and is given a special name, the volt, in honor of Alessandro Volta. Potential difference, since it is measured in volts, is often referred to as voltage.
+
+23-2 Relation between Electric Potential and Electric Field
+23-3 Electric Potential due to point charges
+24. Capacitance, Dielectrics, Electric Energy Storage
+-----------------------------------------------------
+25. Electric Current and Resistance
+-----------------------------------
+27. Magnetism
+-------------
+An electric motor converts electric energy into rotational mechanical energy.
+
+28. Sources of Magnetic Field
+-----------------------------
+29. Electromagnetic Induction and Faraday Law
+---------------------------------------------
+
+37. Early Quantum Theory and Models of the Atoms
+------------------------------------------------
+One of the observations that was unexplained at the end of the nineteenth century was the spectrum of light
+emitted by hot objects.
+All objects emit radiation whose total intensity is proportional to the fourth power of the Kelvin.
+
+Maxwell electromagnetic theory had predicted that oscillating electric charges produce electromagnetic waves,
+and the radiation emitted by a hot object could be due to the oscillations of electric charges in the molecules of the
+material. Although this would explain where the radiation came from, it did not correctly predict the observed spectrum of emitted light.
+
+In the year 1900 Max Planck proposed an empirical formula that nicely fit the data:
+
+The smallest amount of energy possible is called the quantum of energy.
+
+Because all light ultimately comes from a radiating source, this idea suggests that light is transmitted as tiny particles, or photons.
+
+Compton effect (1923).
+X-rays - scattered light had a slightly longer wavelength than did the incident light.
+
+What is an electron?
+No one, however, has actually seen an electron directly.
+
+38. Quantum Mechanics
+---------------------
+
+The classical Newtonian view of the world is a deterministic one.
+The position and velocity of an object are known at a particular time, its future positioin can be predicted if the forces on it are known.
+According to quantum mechanics, the position and velocity of an object cannot even be known accurately at the same time.
+This is expressed in the uncertainty priciple, and arises because basic entities, such as electrons, are not considered simply as particles: they have wave properties as well.
+Quantum mechanics allows us to calculate only the probability that, say, an electron will be observed at various places.
+
+
+39. Quantum Mechanics of Atoms
+------------------------------
