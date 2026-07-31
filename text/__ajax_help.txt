@@ -428,32 +428,16 @@ git fetch --force --tags
 git ls-remote --tags origin
 
 //
-git tag -n9 | grep camera-2.827
+git tag -n9 | grep camera-2.92
 
-git tag camera-2.827
-
-git push --tags origin HEAD
-
-
+git tag camera-2.928
+git push origin camera-2.928
 
 ====
 
 
 
-git tag camera-2.419
 
-git tag -n9 | grep oa8000-2.49
-
-
-
-
-
-
-
-oa8000-2.495
-
-git tag nvr-2.377
-git tag oa8000-2.486
 
 
 ea8b391b1deca38d50536929a46cfe185a14c1cf

@@ -407,6 +407,18 @@ sudo apt install curl
 
 ./gen-sec-boot-sigmastar-camera.sh --device-type=TURRET --sensor=sc500ai --lens=yt0w9d71-5mp --platform=sav533-dualos --prod=0 --hexid=000010A7 --reg-domain=EU --priv-key=./test-fw-keys/rsa_2048.priv --pub-key=./test-fw-keys/rsa_2048.pub --masterkey=00000000
 
+000010A755100000000
+
+
+
+000010A955100000000
+
+sudo ./gen-sec-boot-sigmastar-camera.sh --device-type=BATTERY_HL --sensor=sc533hai --lens=yt0w9d71-5mp --platform=sav533-dualos --prod=0 --hexid=000010A9 --wifi-ssid="homeless" --wifi-key="wifi_test" --priv-key=./test-fw-keys/rsa_2048.priv --pub-key=./test-fw-keys/rsa_2048.pub --masterkey=00000000
+
+
+
+./gen-sec-boot-sigmastar-camera.sh --device-type=TURRET --sensor=sc500ai --lens=yt0w9d71-5mp --platform=sav533-dualos --prod=0 --hexid=000010A7 --priv-key=./test-fw-keys/rsa_2048.priv --pub-key=./test-fw-keys/rsa_2048.pub --masterkey=00000000
+
 
 make infineon-cyw5591x-firmware-reconfigure  -j 12 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
 
@@ -415,6 +427,8 @@ make infineon-cyw5591x-firmware-rebuild  -j 12 -C $(pwd)/buildroot O=$(pwd)/outp
 
 
 make infineon-cyw5591x-itool-reconfigure  -j 12 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
+
+make infineon-cyw5591x-suite-rebuild  -j 12 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
 
 P.S. login: root     password: 
 welcome-to-ajax
@@ -440,13 +454,29 @@ Could not set Country code
 setenv autoload no; dhcp;
 set -f gatewayip 192.168.1.1;set -f ipaddr 192.168.1.101;set -f netmask 255.255.255.0;set -f serverip 192.168.1.100
 
+
+
+
+
 tftp $(loadaddr) 000010A7.KEYS.sig.bin
 keys_update $(loadaddr) $(filesize)
+
+tftp $(loadaddr) 000010A9.KEYS.sig.bin
+keys_update $(loadaddr) $(filesize)
+
 
 tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_824_dev-rw.sig.bin
 fw_update $(loadaddr) $(filesize)
 
-tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_820_rel-rw.sig.bin
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_813_dev-rw_2.sig.bin
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_813_dev-rw_3.sig.bin
+
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_812_dev-rw.sig.bin
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_813_dev-rw.sig.bin
+
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_928_dev-rw.sig.bin
+
+
 fw_update $(loadaddr) $(filesize)
 
 ======================
@@ -465,7 +495,7 @@ Could not deinit whd because wifi power is on
 
 ./gen-sec-boot-sigmastar-camera.sh --device-type=TURRET --sensor=sc500ai --lens=yt0w9d71-5mp --hwrev=1  --platform=sav533-dualos --prod=0 --hexid=000010A7 --priv-key=./test-fw-keys/rsa_4096.priv --pub-key=./test-fw-keys/rsa_4096.pub
 
-sudo ifconfig enxec9a0c1d6955 192.168.1.100 netmask 255.255.255.0 up
+sudo ifconfig enx00aa3458890a 192.168.1.100 netmask 255.255.255.0 up
 
 
 // Тест
@@ -523,20 +553,21 @@ itool - d900c122b40cd8f4f81df913218e9d95a91391db        +1  -> 1e1b7712e8a65980d
 vms-fw - 8851adf8532130847c0a1d55e008f6949a2579c6
 
 
-BPC-1789: Add support for region-selected Wi-Fi firmware
-* Added commands get/set reg domain (stored in ext flash).
-* Set default country from ext flash on Wifi initialization.
+BPC-2291: Add support for hw rev of Wi-Fi firmware
+* Added commands get/set hw rev (stored in ext flash).
 
 
+BPC-2291: Add support for hw rev of Wi-Fi firmware
+* Added commands get/set hw rev.
 
-BPC-1789: Add support for region-selected Wi-Fi firmware
-* Added commands get/set reg domain.
+
+BPC-2291: [infineon-firmware, infineon-itool] add support for hw rev of Wi-Fi firmware
+* Added commands get/set hw rev (stored in ext flash).version bump
 
 
-BPC-1789: [infineon-firmware, infineon-itool] dd support for region-selected Wi-Fi firmware
-* Added commands get/set reg domain (stored in ext flash).
-* Set default country from ext flash on Wifi initialization.
-* Added '--reg-domain' optional argument to keys_extra.
+BPC-2291: [infineon-firmware, infineon-itool] version bump
+* Added commands get/set hw rev (stored in ext flash).
+
 
 
 modprobe infhosted
@@ -545,10 +576,11 @@ itool_cmd connect "homeless" wpa3_wpa2 "1234567890"
 
 itool_cmd connect "homeless" wpa3_wpa2 "homeless"
 
+itool_cmd connect "MikroTik-D5F3F3" wpa3_wpa2  "wifi_test"
+
 itool_cmd fast_dfu  /root/0001_NA.ota.bin
 
 itool_cmd set_fw_log_lvl all trace
-
 
 # itool_cmd connect "homeless" wpa3_wpa2 "homeless"
  === iTool ===
@@ -604,7 +636,8 @@ Git Hash: 255ea18b018e7a2f0f95ec3c75e556318afd5395
 
 ./ChipLoad -BLUETOOLMODE -ENTERDOWNLOADMODE -PORT /dev/ttyUSB0 -LAUNCHADDRESS 0x00000000 -BAUDRATE 115200 -NOVERIFY -MINIDRIVER  CYW55912-wifi-firmware-minidriver.hex -BTP CYW55912-wifi-firmware-device-preset.btp -CONFIG ./CYW55912-wifi-firmware.ota.bin -DL_TIMEOUT_MULTIPLIER 2
 
-sudo ./ChipLoad_patched -BLUETOOLMODE -ENTERDOWNLOADMODE -PORT /dev/ttyUSB0 -LAUNCHADDRESS 0x00000000 -BAUDRATE 115200 -NOVERIFY -MINIDRIVER  CYW55912-wifi-firmware-minidriver.hex -BTP CYW55912-wifi-firmware-device-preset.btp -CONFIG ./CYW55912-wifi-firmware_unsigned.hex -DL_TIMEOUT_MULTIPLIER 2
+
+sudo ./ChipLoad -BLUETOOLMODE -ENTERDOWNLOADMODE -PORT /dev/ttyUSB0 -LAUNCHADDRESS 0x00000000 -BAUDRATE 115200 -NOVERIFY -MINIDRIVER  CYW55912-wifi-firmware-minidriver.hex -BTP CYW55912-wifi-firmware-device-preset.btp -CONFIG ./CYW55912-wifi-firmware_unsigned.hex -DL_TIMEOUT_MULTIPLIER 2
 
 
 
@@ -984,5 +1017,574 @@ BPC-1789: [infineon-firmware, infineon-itool] add support for region-selected Wi
 * Added commands get/set reg domain (stored in ext flash).
 * Set default country from ext flash on Wifi initialization.
 * Added '--reg-domain' optional argument to keys_extra.
+
+
+BPC-2241 Whitelist capability
+=============================
+
+The current implementation:
+---------------------------
+        1. itoold (main.c) send MSG_WHITELIST_PORT (cmd=4).
+
+        2. infineon-firmware (subsystems.c) on this cmd add:
+                sdio_arb_add_whitelist_port(22);  // SSH
+                sdio_arb_add_whitelist_port(554);  // RTSP
+                sdio_arb_add_whitelist_port(1337);  // webrts
+                sdio_arb_add_whitelist_port(8554);  // RTPS
+
+        3. On Linux exit:
+                infineon-firmware (sdio_arbitration.c) clear ports.
+
+        4. On linux boot:
+                infineon-firmware (sdio_arbitration.c) restore all ports from the backup list.
+
+We remove restorig of ports from backup, and VMS should set ports every time on the start?
+
+The current commands:
+        whitelist_port (internal) - set default ports
+        set_wl_port <port>        - set one more port
+
+We isn't going to use whitelist_port command, all necessary ports should be setting explicitly.
+
+The new commands:
+        get_wl_port                    returns whitelist ports:  22, 554, ...
+        reset_wl_port <port>           deletes all ports
+        set_wl_port_range <beg> <end>  add port range [beg, end], if beg=0 the range will be empty.
+        get_wl_port_range              returns port range: 22..23
+ete command for all ports?
+
+S46Wifi script only for DEV building:
+        before Wifi connection set some default ports:
+                itool_cmd set_wl_port 22
+                itool_cmd set_wl_port 5001
+
+
+
+
+BPC-2241: Add whitelist ports capability
+* Add reset/set whitelist ports commands.
+* Remove setting of default whitelist ports.
+
+
+BPC-2241: Add whitelist ports capability
+* Add reset/set whitelist ports commands.
+* Remove restoring of whitelist ports.
+
+
+
+BPC-2241: [infineon-firmware, infineon-itool] add whitelist ports capability
+* Add reset/set whitelist ports commands.
+* Remove setting of default whitelist ports.
+* Add setting of SSH port for DEV build.
+
+
+
+//
+Итого, добавляем две команды:
+    1) itool_cmd reset_wl_ports  # удаляет все порты из whitelist
+    2) itool_cmd set_wl_ports 22 80 # добавляет порты в whitelist
+Максимум (за раз или за несколько) можно добавить до 16 портов.
+Остальные команды (get/del и get/set port range) нам не нужны на данном этапе.
+
+Так же, мы удаляем восстановление портов в прошивке ВайФай при ребуте Линукса (которая была реализована Infineon).
+
+Команда vms реализует логику добавления необходимых портов (нужно завести таску).
+
+Для dev сборки (где нет vms), добавление портов (только ssh = 22) будет из скрипта S46Wifi.
+
+Нужно будет ещё продумать такой момент - до реализации установки хост портов в vms (таких как 554, 1337, 8554), у нас их не будет (до реализации в vms). Это для нас не проблема? 
+
+Реализация:
+        https://github.com/ajax-systems/vms-firmware/tree/BPC-2241
+        https://github.com/ajax-systems/infineon-cyw5591x-firmware/tree/BPC-2241
+        https://github.com/ajax-systems/infineon-cyw5591x-itool/tree/BPC-2241
+
+//
+
+Обсуждение деталей реализации таски в google chat: https://chat.google.com/room/AAQAHHoSc7c/D65kkqy0AKU/D65kkqy0AKU?cls=10
+
+Коротко, добавляем только 2 команды: reset и set (список портов) портов:
+    1) itool_cmd reset_wl_ports  # удаляет все порты из whitelist
+    2) itool_cmd set_wl_ports 22 80 # добавляет порты в whitelist
+
+Восстановление портов при рестарте Линукса в прошивке ВайФай отключаем.
+
+
+
+
+static void whitelist_host_ports()
+{
+    sdio_arb_add_whitelist_port(22);  // SSH
+    sdio_arb_add_whitelist_port(554);  // RTSP
+    sdio_arb_add_whitelist_port(1337);  // webrts
+    sdio_arb_add_whitelist_port(8554);  // RTPS
+};
+
+
+https://jenkins.stage-internal.ajax.systems/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/13516/
+
+# 1. Restrict global memory caps to exactly 80 KB (Allows 40 KB payload space)
+echo 81920 > /proc/sys/net/core/rmem_max
+echo 81920 > /proc/sys/net/core/wmem_max
+
+# 2. Match your TCP structures to the same ceiling
+echo '40960 40960 40960' > /proc/sys/net/ipv4/tcp_wmem
+echo '40960 40960 40960' > /proc/sys/net/ipv4/tcp_rmem
+
+# 3. Disable dynamic scaling 
+echo 0 > /proc/sys/net/ipv4/tcp_moderate_rcvbuf
+echo 1 > /proc/sys/net/ipv4/tcp_adv_win_scale
+
+# 4. Turn off Window Scaling completely (The Magic Override)
+echo 0 > /proc/sys/net/ipv4/tcp_window_scaling
+
+# 5. Reset the route-specific caching metrics (Flushes active handles)
+echo 1 > /proc/sys/net/ipv4/route/flush
+
+
+echo 196608 > /proc/sys/net/core/rmem_max
+echo 1048576 > /proc/sys/net/core/wmem_max
+echo '40960 40960 40960' > /proc/sys/net/ipv4/tcp_wmem
+echo '40960 40960 40960' > /proc/sys/net/ipv4/tcp_rmem
+
+
+# cat /proc/sys/net/core/wmem_max                                                                                                              
+1048576                                                                                                                                        
+# cat /proc/sys/net/core/rmem_max                                                                                                              
+196608                                                                                                                                         
+# cat /proc/sys/net/ipv4/tcp_wmem                                                                                                              
+4096    16384   757056                                                                                                                         
+# cat /proc/sys/net/ipv4/tcp_rmem                                                                                                              
+4096    131072  757056 
+
+
+
+
+
+Cwnd = 68k
+
+46..48 packets × 1,460 bytes (payload size) = ~67.1 KB.
+
+Traffic Control - tc !!!
+
+
+
+
+
+
+log_echo "OSOTN: PARAM OK"
+echo 12582912 > /proc/sys/net/core/rmem_max
+echo 12582912 > /proc/sys/net/core/wmem_max
+echo 2097152 > /proc/sys/net/core/rmem_default
+echo 2097152 > /proc/sys/net/core/wmem_default
+echo '10240 2097152 12582912' > /proc/sys/net/ipv4/tcp_rmem
+echo '10240 2097152 12582912' > /proc/sys/net/ipv4/tcp_wmem
+echo '12582912 12582912 12582912' > /proc/sys/net/ipv4/tcp_mem
+echo '12582912 12582912 12582912' > /proc/sys/net/ipv4/udp_mem
+echo 1310720 > /proc/sys/net/ipv4/tcp_limit_output_bytes
+echo 1 > /proc/sys/net/ipv4/route/flush
+echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+
+
+echo 12582912 | sudo tee /proc/sys/net/core/rmem_max
+echo 12582912 | sudo tee /proc/sys/net/core/wmem_max
+echo 2097152 | sudo tee /proc/sys/net/core/rmem_default
+echo 2097152 | sudo tee /proc/sys/net/core/wmem_default
+echo '10240 2097152 12582912' | sudo tee /proc/sys/net/ipv4/tcp_rmem
+echo '10240 2097152 12582912' | sudo tee /proc/sys/net/ipv4/tcp_wmem
+echo '12582912 12582912 12582912' | sudo tee /proc/sys/net/ipv4/tcp_mem
+echo '12582912 12582912 12582912' | sudo tee /proc/sys/net/ipv4/udp_mem
+echo 1310720 | sudo tee /proc/sys/net/ipv4/tcp_limit_output_bytes
+echo 1 | sudo tee /proc/sys/net/ipv4/route/flush
+echo performance | sudo tee /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+
+
+
+Test methodology described in the Infineon Doc, page 14 (attached).
+
+Steps to Reproduce(TCP UL):
+
+Check connectivity between BPC DUT and PC. Send ping from BPC:
+
+
+
+ping <PC_IP>
+Log in to BPC SOC_Linux UART console(login: root, pass: welcome-to-ajax) on a DUT.
+
+Enable port 5001 for iperf testing:
+
+
+
+itool_cmd set_wl_port 5001
+On DUT side start  iperf3 server: 
+
+
+
+iperf3 -s -f m -i 1 -p 5001
+Start iperf client with the DUT IP as a target IP.
+
+
+
+iperf3 -c <DUT_IP> -w 40K -f m -i 1 -p 5001 -t 60
+Wait for a long time period(60 sec). 
+
+itool_cmd disconnect
+itool_cmd connect "MikroTik-D5F3F3" wpa3_wpa2  "wifi_test"
+
+
+
+iperf3 -c 192.168.88.251 -w 25K -f m -i 1 -p 5001 -t 60 -Z -O 20 --repeating-payload
+
+iperf3 -c 192.168.1.104  -f m -i 1 -p 5001 -t 60 -u -b 40m
+iperf3 -c 192.168.1.104 -f m -i 1 -p 5001 -t 60 -Z -O 20 --repeating-payload
+
+
+
+iperf3 -c 192.168.88.251 -w 40K -f m -i 1 -p 5001 -t 60
+iperf3 -c 192.168.88.251  -f m -i 1 -p 5001 -t 60 -u -b 40m
+
+iperf3 -c 192.168.1.104 -w 40K -f m -i 1 -p 5001 -t 60
+iperf3 -c 192.168.1.104  -f m -i 1 -p 5001 -t 60 -u -b 40m
+
+set -f gatewayip 192.168.88.1;set -f ipaddr 192.168.88.101;set -f netmask 255.255.255.0;set -f serverip 192.168.88.251
+
+set -f gatewayip 192.168.1.1;set -f ipaddr 192.168.1.120;set -f netmask 255.255.255.0;set -f serverip 192.168.1.104
+
+
+tftp $(loadaddr) 000010A9.KEYS.sig.bin
+keys_update $(loadaddr) $(filesize)
+
+
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_812_dev-rw.sig.bin
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_813_dev-rw.sig.bin
+
+
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_813_dev-rw_split_rx_tx.sig.bin
+
+
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_900_dev-rw.sig.bin
+
+
+
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_894_dev-rw.sig.bin
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_894_rel-rw.sig.bin
+
+
+fw_update $(loadaddr) $(filesize)
+
+sudo ifconfig enx00aa3458890a 192.168.1.100 netmask 255.255.255.0 up
+
+
+
+options infhosted sdio_idleclk_disable=0 app_events=1
+ ->
+options infhosted sdio_idleclk_disable=0 bus_idle_time=0
+
+
+
+? research if it actual currently !!! - maybe no
+? itool стопит vms на выключении 
+https://ajaxsystems.atlassian.net/browse/BPC-2037
+
+https://ajaxsystems.atlassian.net/browse/BPC-2349 : 1) return error; 
+                                                    2) patch check on sign
+                                                    3) need to reset chip
+https://chat.google.com/room/AAQAiuOw2as/58Wxa_MBhvQ/58Wxa_MBhvQ?cls=10
+
+
+BPC-2243
+
+/* This is adjusted to handle TCP throughput based on memory/pool availability.
+ * DEFAULT_TCP_WINDOW_SIZE has to be mapped based on this max rxbufpost value,
+ * To get better throughput, define RX_PACKET_POOL_SIZE as 20,
+ * then, 18-1 = 17 --> (17*1460 = 24820(24k), this becomes window size for TCP) */
+
+# Set the TX/RX buffer pool size
+DEFINES += TX_PACKET_POOL_SIZE=24
+DEFINES += RX_PACKET_POOL_SIZE=22 
+
+# The tcp window size is calculated by number of Rx buffers available
+# total rx buffer available is RX_PACKET_POOL_SIZE(22) - MAX_EVENTBUF_POST(2)
+# then, tcp window size is ((20 - 2) * 1460), Use 25k as window size to get stable throughput
+DEFINES += DEFAULT_TCP_WINDOW_SIZE=26280
+
+26280 x 2 = 52560
+
+
+sudo ip route change default via $(ip route show default | awk '{print $3}') dev eth0 window 32120
+
+
+
+ 1 cd /opt/
+   2 ./fw_keys.sh get
+   3 ./fw_keys.sh set wifiSSID \"homeless\"
+   4 ./fw_keys.sh get
+   5 ./fw_keys.sh set wifiKey \"wifi_test\"
+   6 ./fw_keys.sh get
+   7 rm /media/settings/settings.pb 
+   
+
+
+# The tcp window size is calculated by number of Rx buffers available
+# total rx buffer available is RX_PACKET_POOL_SIZE(22) - MAX_EVENTBUF_POST(2)
+# then, tcp window size is ((20 - 2) * 1460), Use 25k as window size to get stable throughput
+DEFINES += DEFAULT_TCP_WINDOW_SIZE=26280
+   
+# Infineon Wi-Fi firmware uses very limited TCP windows size (26280 bytes),
+# but it's enough for througput up to 40 mbps (that limited by chip performance).
+# For getting stable throughput TCP windows sizes between Linux and firmware must
+# be equaled.
+#
+# Fix TCP window to exactly 26280 bytes without affecting UDP/UNIX sockets.
+# Per 'man 7 tcp' and kernel docs, 'tcp_adv_win_scale=1' splits memory 50/50.
+# Half goes to internal sk_buff metadata overhead, half to advertised data.
+# Therefore, 52560 = 2x26280 buffers (tcp_rmem/wmem) guarantee a strict TCP window size.
+
+
+# Infineon cyw5591x Wi-Fi firmware uses a limited TCP window size (26,280 bytes),
+# which is sufficient for its maximum hardware throughput of ~40 Mbps.
+# Matching the Linux and firmware TCP window sizes ensures stable throughput.
+# Per 'man 7 tcp', 'tcp_adv_win_scale=1' splits socket memory 50/50 between
+# application data and sk_buff overhead. Thus, a 52,560-byte buffer (2x 26,280)
+# guarantees a strict 26,280-byte TCP window without affecting UDP or UNIX sockets.
+echo 1 > /proc/sys/net/ipv4/tcp_adv_win_scale
+echo '52560 52560 52560' > /proc/sys/net/ipv4/tcp_rmem
+echo '52560 52560 52560' > /proc/sys/net/ipv4/tcp_wmem
+
+echo '4096 131072 757056' > /proc/sys/net/ipv4/tcp_rmem
+echo '4096 16384  757056' > /proc/sys/net/ipv4/tcp_wmem
+BPC-2243: [infineon-cyw5591x-suite] align Linux TCP windows with Wi-Fi firmware
+
+* Matching Linux and Wi-Fi firmware TCP window sizes ensures stable throughput.
+
+
+                                                                                                                                
+# cat /proc/sys/net/ipv4/tcp_rmem                                                                                                              
+ BPC-2243
+
+BPC-2243: [infineon-cyw5591x-suite] configure TCP window sizes for Wi-Fi firmware
+* Matching the Linux and Wi-Fi firmware TCP window sizes for stable throughput.
+
+BPC-2243: [sav533q-dualos-overlay] align Linux TCP windows with Wi-Fi firmware
+
+* Matching Linux and Wi-Fi firmware TCP window sizes ensures stable throughput.
+* Infineon cyw5591x Wi-Fi firmware uses a limited TCP window size (26,280 bytes),
+  which is sufficient for its maximum hardware throughput of ~40 Mbps.
+  Setting 'tcp_adv_win_scale=1' splits socket memory 50/50 between application
+  data and sk_buff overhead. Thus, a buffer twice the size of the target window
+  helps align the base Linux TCP window with the Wi-Fi firmware.
+
+
+
+
+	echo 1 > /proc/sys/net/ipv4/tcp_adv_win_scale
+	echo '52560 52560 52560' > /proc/sys/net/ipv4/tcp_rmem
+	echo '52560 52560 52560' > /proc/sys/net/ipv4/tcp_wmem
+
+
+# Before
+ 2026  ifconfig
+ 2027  sudo airmon-ng check kill
+ 2028  sudo killall wpa_supplicant
+ 2029  sudo ip link set wlo1 down
+ 2030  sudo iw wlo1 set type monitor
+ 2031  sudo ip link set wlo1 up
+ 2032  sudo airodump-ng -c 10 wlo1
+ 2033  sudo wireshark &
+
+
+# After
+sudo systemctl start NetworkManager
+
+
+
+
+
+
+
+
+
+
+
+
+====
+
+
+To optimize a system for the Infineon CYW5591X Wi-Fi chip, the dynamic relationship between the SDIO ring buffer, TCP receive window (RcvWnd), congestion window (Cwnd), and the chosen congestion control algorithm must be perfectly synchronized. The hardware firmware enforces a rigid RcvWnd cap of 26,280 bytes due to strict on-chip SRAM memory constraints. To match this on the Linux host, configuring tcp_adv_win_scale=1 with a 52,560-byte socket buffer effectively limits the maximum available TCP transmission window to exactly half the buffer size. This manual boundary directly prevents the Linux congestion control algorithm from aggressively scaling the Cwnd past the chip's actual physical capacity. While modern algorithms like BBR can be too aggressive for small embedded buffers, using a loss-based algorithm like Cubic ensures the Cwnd smoothly hovers right at the 26,280-byte ceiling instead of causing memory overruns. Meanwhile, the on-chip SDIO Rx ring buffer should ideally be provisioned slightly larger (e.g., ~32 KB) to provide a safe processing margin and prevent hardware-level packet drops during DMA bursts. When these parameters and algorithms are aligned, the system avoids data retransmissions, eliminates the risk of the chip entering a blocking "Zero Window" state, and locks in a consistent, stable hardware-limited throughput of ~40 Mbps.
+
+
+               LINUX HOST TCP STACK                          TRANSIT               INFINEON FIRMWARE
+               
+     +-------------+   +-------------+
+     | Congestion  |   |   Physical  |                                             +---------------------+
+     | window size |-->|     TCP     |  ====================> SDIO ==============> | SDIO Rx Ring Buffer |
+     |  (Cwnd)     |   | window size |                                             |     26,280 bytes    |
+     +-------------+   +-------------+                                             +---------------------+
+                         26.280 bytes                                                 F/W doesn't change
+                   tcp_adv_win_scale = 1                                             physical windows size
+                    tcp_(r/w)mem = 52,560
+
+
+    
+
+               
+┌─────────────────────────────────────────────────┐               ┌──────────┐          ┌───────────────────────────┐
+│              TCP Buffer Limit                   │               │          │          │    SDIO Rx Ring Buffer    │
+│                52,560 bytes                     │               │          │          │       26,280 bytes        │
+│                                                 │               │          │          │                           │
+│           tcp_adv_win_scale = 1                 │               │ SDIO Bus │          │                           │
+├────────────────────────┬────────────────────────┤  Data Flow    │          │  (DMA)   ├───────────────────────────┤
+│                        │ Target TCP Window Size │  (DMA with    │          │─────────►│   Physical Window Size    │
+│       Overhead         │ 26,280 bytes           │  Hardware     │          │          │       26,280 bytes        │
+│                        │ (Derived from Buffers) │  Segmentation)│          │          │                           │
+├────────────────────────┴────────────────────────┤               └──────────┘          └───────────────────────────┘
+│ [TSO/GSO Packet Aggregation Active]             │                     │
+│ iperf3 reporting: Virtual Cwnd > 65k bytes      │                     ▼
+│ (Inflated telemetry optimized for host CPU)     │      ┌──────────────────────────────┐
+└─────────────────────────────────────────────────┘      │ Stable Throughput: ~40 Mbps  │
+                                                         └──────────────────────────────┘
+
+
+
+
+
+        sdio_cmd_dfu_tx_rsp(HCI_CONTROL_OTA_RSP, &ota_status, 1);
+        printf("switch image, need to wait\n");
+        cy_rtos_delay_milliseconds(3000);
+        result = cy_ota_storage_switch_to_new_image(1);
+        if(result != 0)
+        {
+            printf("switch image failed 0x%x\n", result);
+            ota_status = ota_rsp_err;
+            sdio_cmd_dfu_tx_rsp(HCI_CONTROL_OTA_RSP, &ota_status, 1);
+            if(ota_app.ota_context)
+            {
+                cy_ota_agent_stop(&ota_app.ota_context);
+            }
+        }
+    }
+
+// Linux
+itool_cmd set_fw_log_lvl all trace
+
+// MCU
+send_mcu_status all
+
+
+
+ 2218  rm -rf output/
+ 2219  history 
+ 2220  ./cfg-init.sh sigmastar_sav533q_dualos_nand_defconfig --rw=1 --debug=0
+ 2221  make   -j 12 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
+ 
+ 
+echo 262144 > /proc/sys/net/ipv4/tcp_limit_output_bytes 
+
+
+echo 1000 > /proc/sys/net/ipv4/tcp_limit_output_bytes
+
+
+
+
+
+tcp_limit_output_bytes
+
+
+
+======
+
+
+           LINUX HOST TCP STACK                          TRANSIT               INFINEON FIRMWARE
+ +-------------+   +-------------+
+ | Congestion  |   |   Physical  |                                             +---------------------+
+ | window size |-->|     TCP     |  ====================> SDIO ==============> | SDIO Rx Ring Buffer |
+ |  (Cwnd)     |   | window size |                                             |     26,280 bytes    |
+ +-------------+   +-------------+                                             +---------------------+
+                     26.280 bytes                                                 F/W doesn't change
+               tcp_adv_win_scale = 1                                             physical windows size
+                tcp_(r/w)mem = 52,560
+
+
+
+Q:
+"When I set tcp_wmem = 26000 and run an iperf3 client test without the -w flag over an SDIO link with a 26 KB Rx buffer, I get much better throughput compared to the default tcp_wmem settings.However, changing tcp_limit_output_bytes = 26000 has no effect on throughput; the performance remains identical to the default value. How can this behavior be explained?"
+
+A:
+The reason changing tcp_wmem improves throughput while changing tcp_limit_output_bytes does nothing comes down to where the data is being throttled and how the Linux TCP engine scales its transfer speed.Here is the exact explanation of why this happens.
+
+1. Why tcp_wmem = 26000 dramatically increases throughput. When you use the default tcp_wmem settings, the Linux kernel allocates a massive memory buffer (often 4MB to 16MB) for your iperf3 client.
+The Overwhelm: The client aggressively blasts megabytes of data down the stack into the SDIO bus.The Bottleneck: The data immediately hits the tiny 26 KB SDIO Rx Ring Buffer on the Infineon firmware.The Penalty: Because the firmware can only handle 26 KB, it is forced to drop the extra packets. This triggers massive packet drops, causing TCP timeouts, retransmissions, and forcing the TCP congestion algorithm (like Cubic or Reno) to repeatedly slash its speeds by 50%. Your throughput plummets.When you restrict tcp_wmem = 26000:You forcefully cap the entire volume of unacknowledged data allowed to exist.The Linux client is physically incapable of sending more than ~26 KB of data before stopping to wait for an ACK from the receiver.This completely eliminates packet loss at the SDIO boundary. The transmission becomes perfectly paced, steady, and frictionless, resulting in much higher sustained throughput.
+
+2. Why tcp_limit_output_bytes makes no differenceThe tcp_limit_output_bytes parameter belongs to a system called TSQ (TCP Small Queues). It is designed to solve a completely different problem: local latency (bufferbloat), not overall throughput.It only looks downstream: tcp_limit_output_bytes only limits how many bytes can sit in the local Linux network device driver queue (the driver level right above your SDIO bus).It does not limit the socket: Even if you set tcp_limit_output_bytes = 26000, the underlying tcp_wmem socket buffer is still allowed to hold megabytes of data.
+
+
+
+
+
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/14493/
+
+
+BPC-2384: Handle FW revert from unsigned FW back to signed on provisioned chip
+
+* Added fix IFX-260630-2201077, provisioned chip OTA an unsigned FW, update PDL to 3142 (#53)
+* Enabled OTA bootloader logs
+
+
+BPC-2384: [infineon-cyw5591x-firmware] version bump
+
+* Handle WiFi FW revert from unsigned FW back to signed on provisioned chip
+
+
+
+
+ 2002  ip link show
+ 2003  sudo modprobe ifb numifbs=1
+ 2004  ip link show
+ 2005  sudo ip link set dev ifb0 up
+ 2006  sudo tc qdisc add dev enx00aa3458890a handle ffff: ingress
+ 2007  sudo tc filter add dev eth0 parent ffff: protocol ip u32 match u32 0 0 action mirred egress redirect dev ifb0
+ 2008  sudo tc filter add dev enx00aa34588 parent ffff: protocol ip u32 match u32 0 0 action mirred egress redirect dev ifb0
+ 2009  ip link show
+ 2010  sudo tc filter add dev enx00aa3458890a parent ffff: protocol ip u32 match u32 0 0 action mirred egress redirect dev ifb0
+ 2011  sudo tc qdisc add dev ifb0 root netem delay 100ms
+ 2012  tc -s qdisc show dev ifb0
+ 2013  ping 8.8.8.8
+
+
+# 1. Remove the delay rule
+sudo tc qdisc del dev ifb0 root
+
+# 2. Remove the ingress redirect rule from your real card
+sudo tc qdisc del dev eth0 ingress
+
+# 3. Shut down the virtual link
+sudo ip link set dev ifb0 down
+
+
+echo '4096 16384  757056' > /proc/sys/net/ipv4/tcp_wmem
+echo '4096 131072 757056' > /proc/sys/net/ipv4/tcp_rmem
+
+# echo '4096 16384 80000' > /proc/sys/net/ipv4/tcp_wmem
+# echo '4096 80000 80000' > /proc/sys/net/ipv4/tcp_rmem
+
+
+BPC-2384: [infineon-cyw5591x-firmware] version bump
+
+* Handle WiFi FW revert from unsigned FW back to signed on provisioned chip
+
+git submodule update --init --recursive --force
+
+
+BPC-2349: Handle OTA image error after DFU
+    
+* Added fix IFX-260724-2233394: dfu error handler
+  https://github.com/ajax-systems/external-infineon-cyw55913-firmware/pull/66
+
+
+
+BPC-2349: [infneon-cyw5591x-firmware/itool] version bump
+
+* Handle OTA image error after DFU (fix IFX-260724-2233394)
+
 
 

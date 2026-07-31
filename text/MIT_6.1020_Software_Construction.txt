@@ -1,0 +1,170 @@
+6.1020_2_the-pragmatic-programmer.pdf
+
+Programming is a craft.
+It comes down to getting a computer to do what you/user wants it to do.
+
+As a programmer, you are part listener, part advisor, part interpreter, and part dictator.
+
+You try to capture elusive requirement and find a way of expressing them so that a mere machine can do them justice.
+You try to document you work so that others can understand it, and you try to engineer you work so that others can build on it.
+You try to do all this again the relentless ticking of the project clock.
+You work small miracles every day.
+
+It's a difficult job.
+
+There are many people offering you help.
+Tool vendors tout the miracles their products perform.
+Methodology gurus promise that their techniques guarantee results.
+Everyone claims that their programming language is the best, and every OS is the answer to all conceivable ills.
+
+There are no easy answers. There is no such thing as a best solution, be it a tool, a language, or an OS.
+There can only be systems that are more appropriate in a particular set of circumstances.
+
+Who should read this book?
+- You fell frustrated that you don't seem to be achieving your potential.
+- You look at colleagues who seem to be using tools to make themselves more productive than you.
+- You current job uses older technologies.
+
+What makes a pragmatic programmer?
+- Each developer is unique, with individual strengths and weaknesses
+- Over time, each will craft his/her own personal environment. It will reflect the programmer's individuality just 
+  as forcefully as his/her hobbies, clothing, or haircut.
+- Early adapter / fast adapter.
+- Inquisitive. Ask questions.
+- Critical thinker.
+- Realistic.
+- Jack of all trades.
+
+Tips:
+- Care about your craft.
+- Think! About your work. To think about what you're doing while you're doing it.
+
+The construction of software should be an engineering discipline.
+Within the overall structure of a project there is always room for individuality and craftsmanship.
+
+Chapter 1.
+A pragmatic phylosophy
+----------------------
+
+What distinguishes pragmatic programmers?
+- It's an attitude
+- It's a style
+- It's a philosophy of approaching problems and their solutions.
+
+They think beyond the immediate problem, always trying to place it in its larger context, always trying to be aware of the bigger picture.
+
+They take responsibility for everything they do.
+
+Learning is a continuous and ongoing process.
+
+Communicate!
+
+
+The cat ate my source code
+- - - - - - - - - - - - -
+The greatest of all weaknesses is the fear of appearing weak.
+
+One of the cornerstones of the pragmatic philosophy is the idea of taking responsibility for yourself and your actions in terms of your career advancement, your project, and your day to day work.
+
+Take responsibility:
+- It is smth you actively agree to.
+- In addition to doing your own personal best, you must analyze the situation for risks that are beyond your control.
+- Your have the right not to take on a responsibility for an impossible situation, or one in which the risks are too great.
+
+Tip 3: Provide options, don't make lame excuses.
+
+2. Software Entropy
+- - - - - - - - - - 
+Software development is immune from almost all physical laws, but entropy hits us hard.
+Entropy is amount of disorder in a system.
+When disorder increases in software, programmers call it software rot:
+ - psychology;
+ - culture;
+ - work on a project.
+ - broken window theory
+
+Tip 4: Don't live with broken windows.
+
+3. Stone Soup and Boiled Frogs
+- - - - - - - - - - - - - - - -
+
+Tip 5: Be a catalyst for change
+Tip 6: Remember the Big Picture
+
+4. Good Enough Software
+- - - - - - - - - - - - -
+
+Tip 7: Make Quality a Requirements Issue
+
+5. Your knowledge Portfolio
+- - - - - - - - - - - - - -
+Tip 8: Invest Regularly in Your Knowledge Portfolio
+Tip 9: Critically Analyze What You Read and Hear
+
+6. communicate
+- - - - - - - -
+As developers, we have to communicate on many levels.
+We spend hours in meetings, listening and talking.
+
+Chapter 2
+A Pragmatic Approach
+---------------------
+
+Tip 15: Use tracer bullets to find the target.
+Tip 17: Program close to the problem domain
+Tip 18: Estimate to avoid surprises
+
+
+Chapter 3
+The basic tools
+---------------
+
+Tools amplify your talent. The better your tools, and the better you know how to use them, the
+more productive you can be.
+
+Plain text is made up of printable characters in a form that can be read and understand directly by people.
+
+Tip 20: Keep knowledge in Plain text
+
+Psychology of Debugging:
+Debugging itself is a sensitive, emotional subject for many developers.
+Instead of attacking it as a puzzle to be solved, you may encounter denial, finger pointing, lame excuses, or
+just plain apathy.
+
+Embrace the fact that debugging is just problem solving, and attack it as such.
+
+Tip 24: Fix the problem, not the blame
+
+Above all, remember the first rule of debugging: don't panic.
+
+Chapter 4.
+Pragmatic Paranoia
+------------------
+
+Tip 30: You can't write perfect software
+
+Accept it as an axiom of life.
+
+
+Chapter 5.
+Bend, or Break
+--------------
+
+Chapter 6.
+While you are coding
+---------------------
+
+Refactoring
+- - - - - -
+
+
+Chapter 7.
+Before the project
+------------------
+
+Chapter 8.
+Progratic Projects
+------------------
+
+
+
