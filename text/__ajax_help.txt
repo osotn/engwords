@@ -428,10 +428,13 @@ git fetch --force --tags
 git ls-remote --tags origin
 
 //
-git tag -n9 | grep camera-2.92
+git tag -n9 | grep camera-2.98
 
-git tag camera-2.928
-git push origin camera-2.928
+git tag -n9 | grep camera-2.99
+
+git tag camera-2.993
+git push origin camera-2.993
+
 
 ====
 
@@ -4077,6 +4080,7 @@ rtsp://Admin_1234:Admin_1234@192.168.28.14:554/stream1
 rtsp://Admin_1234:Admin_1234@192.168.28.14:554/stream2
 
 
+rtsp://192.168.1.100:8554/502e91db7ee5-0_ma
 
 
 
@@ -5462,6 +5466,15 @@ gsupplicant.h
 
 static void aj_supplicant_sigmon_poll_result(const char *error, DBusMessageIter *iter, void *user_data);
 void aj_supplicant_sigmon_poll_result(const char *error, DBusMessageIter *iter, void *user_data);
+
+
+
+
+
+
+
+
+
 
 
 

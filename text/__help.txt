@@ -143,8 +143,12 @@ tar -xf archive.tar.gz --to-stdout | xz -9 > archive.tar.xz
   482  ./cfg-init.sh omnivision_oa8000_doorbell_nand_defconfig --rw=1 --debug=0
   494  ./cfg-init.sh omnivision_oa8000_doorbell_nand_defconfig --rw=1 --debug=0
        ./cfg-init.sh sigmastar_sav533q_dualos_nand_release_defconfig  --rw=1 --debug=0
+       ./cfg-init.sh sigmastar_sav533q_dualos_nand_release_defconfig  --rw=1 --debug=0
+       
+       msfw-camera-sav533q-dualos-nand-2_894_rel-rw.sig.bin
 
   495  make -j 12 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
+       make -j 8 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
   500  ./cfg-init.sh sigmastar_sav533q_dualos_nand_defconfig --rw=1 --debug=0
   502  df
   503  sudo truncate -s 0 /var/log/syslog
@@ -384,6 +388,12 @@ git clone -b BPC-1789 git@github.com:ajax-systems/infineon-cyw5591x-firmware.git
 git clone --recurse-submodules -b BPC-1789 git@github.com:ajax-systems/vms-firmware.git  vms-firmware-bpc-1789
 
 
+git clone --recurse-submodules  git@github.com:ajax-systems/infineon-cyw5591x-firmware.git  infineon-cyw5591x-firmware_test
+
+
+
+
+
 BPC-1789: Add region-selected choice of Infineon Wi-Fi firmware
 
 * Select region domain Wi-Fi firmware from "network service.firmware.dir".
@@ -427,6 +437,8 @@ make infineon-cyw5591x-firmware-rebuild  -j 12 -C $(pwd)/buildroot O=$(pwd)/outp
 
 
 make infineon-cyw5591x-itool-reconfigure  -j 12 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
+
+make infineon-cyw5591x-itool-rebuild  -j 12 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
 
 make infineon-cyw5591x-suite-rebuild  -j 12 -C $(pwd)/buildroot O=$(pwd)/output BR2_DL_DIR=$(pwd)/dl BR2_EXTERNAL=$(pwd)/tree
 
@@ -473,6 +485,9 @@ tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_813_dev-rw_3.sig.bin
 
 tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_812_dev-rw.sig.bin
 tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_813_dev-rw.sig.bin
+
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_928_dev-rw.sig.bin
+
 
 tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_928_dev-rw.sig.bin
 
@@ -1243,6 +1258,9 @@ iperf3 -c 192.168.1.104 -f m -i 1 -p 5001 -t 60 -Z -O 20 --repeating-payload
 iperf3 -c 192.168.88.251 -w 40K -f m -i 1 -p 5001 -t 60
 iperf3 -c 192.168.88.251  -f m -i 1 -p 5001 -t 60 -u -b 40m
 
+
+iperf3 -c 192.168.88.252  -f m -i 1 -p 5001 -t 60 -u -b 40m
+
 iperf3 -c 192.168.1.104 -w 40K -f m -i 1 -p 5001 -t 60
 iperf3 -c 192.168.1.104  -f m -i 1 -p 5001 -t 60 -u -b 40m
 
@@ -1266,9 +1284,21 @@ tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_900_dev-rw.sig.bin
 
 
 
-tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_894_dev-rw.sig.bin
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_928_dev-rw.sig.bin
+
 tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_894_rel-rw.sig.bin
 
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_928_rel-rw.sig.bin
+
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_933_rel-rw.sig.bin
+
+
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_943_rel-rw.sig.bin
+
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_956_rel-rw.sig.bin
+
+
+tftp $(loadaddr) vmsfw-camera-sav533q-dualos-nand-2_978_rel-rw.sig.bin
 
 fw_update $(loadaddr) $(filesize)
 
@@ -1323,6 +1353,18 @@ sudo ip route change default via $(ip route show default | awk '{print $3}') dev
    6 ./fw_keys.sh get
    7 rm /media/settings/settings.pb 
    
+cd /opt/ ; ./fw_keys.sh set wifiSSID \"\" ; ./fw_keys.sh set wifiKey \"\" ; rm /media/settings/settings.pb
+
+
+cd /opt/ ; ./fw_keys.sh set wifiSSID \"\" ; ./fw_keys.sh set wifiKey \"\" ; rm /media/settings/settings.pb
+
+
+cd /opt/ ; ./fw_keys.sh set wifiSSID \"homeless\" ; ./fw_keys.sh set wifiKey \"wifi_test\" ; rm /media/settings/settings.pb
+
+cd /opt/ ; ./fw_keys.sh set wifiSSID \"borispol_9\" ; ./fw_keys.sh set wifiKey \"15088111\" ; rm /media/settings/settings.pb
+
+cd /opt/ ; ./fw_keys.sh set wifiSSID "\"AJAX | Prime\"" ; ./fw_keys.sh set wifiKey \"2Megitsune2013\" ; rm /media/settings/settings.pb
+
 
 
 # The tcp window size is calculated by number of Rx buffers available
@@ -1382,6 +1424,9 @@ BPC-2243: [sav533q-dualos-overlay] align Linux TCP windows with Wi-Fi firmware
 	echo '52560 52560 52560' > /proc/sys/net/ipv4/tcp_wmem
 
 
+sudo systemctl stop NetworkManager
+sudo systemctl disable NetworkManager
+
 # Before
  2026  ifconfig
  2027  sudo airmon-ng check kill
@@ -1394,8 +1439,8 @@ BPC-2243: [sav533q-dualos-overlay] align Linux TCP windows with Wi-Fi firmware
 
 
 # After
+sudo systemctl stop  NetworkManager
 sudo systemctl start NetworkManager
-
 
 
 
@@ -1582,9 +1627,917 @@ BPC-2349: Handle OTA image error after DFU
 
 
 
-BPC-2349: [infneon-cyw5591x-firmware/itool] version bump
+BPC-2349: [infneon-cyw5591x-firmware] version bump
 
 * Handle OTA image error after DFU (fix IFX-260724-2233394)
+
+
+0:14:45.670 [ota] OPCODE c088
+00:14:45.670 dfu block wifi_comm
+00:14:45.670 [ota] cy_ota_agent_start() Result: 0x0
+00:14:45.690 [ota] OPCODE c088
+00:14:45.690 dfu block wifi_comm
+00:14:45.690 [ota] cy_ota_agent_start() Failed - result: 0x8360005
+00:14:47.670 [MQTT] connect timer callback;
+00:15:06.240 [SDIO] unable to put msg on queue[res-101580801]
+
+
+BPC-2465: Add check for OTA verification
+
+* Check that the firmware resets and does not respond to commands
+  after successful verification.
+
+BPC-2465: [infineon-cyw5591x-firmware, infineon-cyw5591x-itool] version bump
+
+* Added check for OTA verification (IFX-260724-2233394)
+
+BPC-2465: Add check for OTA verification (IFX-260724-2233394)
+
+* Added user command getting of OTA verification result.
+* Checked firmware-stored OTA verification result.
+
+
+BPC-2465: Add check for OTA verification (IFX-260724-2233394)
+
+* Stored OTA verification result in NOINIT memory to persist across reset. 
+* Added user command getting of OTA verification result.
+
+
+BPC-2037: [infineon-cyw5591x-itool] version bump
+
+* Avoid a 30-second timeout in itool by skipping the connection 
+  command if the requested AP and IP configurations match the 
+  current settings.
+
+BPC-2037: Avoid connection timeout when already connected to the same AP
+
+* Avoid a 30-second timeout by skipping the connection 
+  command if the requested AP and IP configurations match the 
+  current settings.
+
+
+
+!!!
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/15134/
+
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/15134/
+
+
+
+
+BPC-1852: Fix failed DFU that makes WiFi chip unresponsive
+
+* Added a workaround to stop the previous OTA agent during the pre-download command,
+  avoiding initialization failures when starting a new one.
+
+BPC-1852: [infineon-cyw5591x-firmware] version bump
+
+* Fixed failed DFU that makes WiFi chip unresponsive
+
+
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/14812/
+
+(don't forget)
+Will be rebase after merging of https://github.com/ajax-systems/vms-firmware/pull/1563
+to avoid jumping over https://github.com/ajax-systems/infineon-cyw5591x-firmware/commit/439e133998549886f647c8bae693a15d4ef75d66
+
+
+already connected to same AP
+Same-SSID connect with changed IP mode/settings: forci
+
+Please review PRs:
+https://github.com/ajax-systems/infineon-cyw5591x-firmware/pull/163
+https://github.com/ajax-systems/infineon-cyw5591x-itool/pull/51
+BPC-2465 (Check result OTA verification)
+
+
+
+
+
+
+
+
+
+
+./itool_cmd fast_dfu /usr/share/wifi_firmware/CYW55912-wifi-firmware.ota.bin
+ === iTool ===
+trigger wifi disconnect success
+Starting DFU with file: /root/CYW55912-wifi-firmware.ota.bin
+ip addr flush dev wlan0
+image size 681508
+crc a4129a7a
+Firmware downloading ...
+[00000036/ 00681508]
+Firmware verifying ...
+Removing infineon modules
+sdmmc_reset for device 1
+Loading infineon modules
+Infineon firmware hash = 536047bee3d7b73f86870e34856d7b922bb2c981
+
+
+echo -n "" > /root/empty.bin
+./itool_cmd fast_dfu /root/empty.bin 
+ === iTool ===
+trigger wifi disconnect success
+Starting DFU with file: /root/empty.bin
+image size 0
+crc 00000000
+Firmware downloading ...
+
+Firmware verifying ...
+Removing infineon modules
+sdmmc_reset for device 1
+Loading infineon modules
+Firmware verification is failed
+inf_cmd_fast_dfu failed
+
+
+
+
+
+./itool_cmd fw_ota_verif
+ === iTool ===
+FW OTA verification result is stored = 0x0
+
+./itool_cmd fw_ota_verif
+ === iTool ===
+FW OTA verification result is stored = 0x8360002
+
+./itool_cmd fw_ota_verif
+ === iTool ===
+FW OTA verification result is not stored
+
+
+
+
+
+
+# ./itool_cmd ip_info
+ === iTool ===
+DHCP: 1
+address: 192.168.1.100
+netmask: 255.255.255.0
+gateway: 192.168.1.1
+primary: 192.168.1.1
+secondary: 0.0.0.0
+
+# ./itool_cmd connect homeless wpa2 wifi_test 192.168.1.109 192.168.1.1 255.255.
+255.0
+ === iTool ===
+Triggered wifi connect
+Network event: NW_EVENT_CONNECTED
+Current connection:
+SSID: homeless
+BSSID: 08:8a:f1:a3:89:3a
+channel: 10, channel_width: 20
+signal_strength: -26, security_type: wpa2
+Got IP information...
+Configuring network:
+ip addr flush dev wlan0
+ip addr add 192.168.1.109/24 dev wlan0
+ip route replace default via 192.168.1.1 dev wlan0
+
+# ./itool_cmd ip_info
+ === iTool ===
+DHCP: 0
+address: 192.168.1.109
+netmask: 255.255.255.0
+gateway: 192.168.1.1
+primary: 192.168.1.1
+secondary: 0.0.0.0
+
+# ./itool_cmd connect homeless wpa2 wifi_test 192.168.1.109 192.168.1.1 255.255.
+255.0 8.8.8.8
+ === iTool ===
+Triggered wifi connect
+^C
+# ./itool_cmd ip_info
+ === iTool ===
+DHCP: 0
+address: 192.168.1.109
+netmask: 255.255.255.0
+gateway: 192.168.1.1
+primary: 8.8.8.8
+secondary: 0.0.0.0
+
+# ./itool_cmd connect homeless wpa2 wifi_test 192.168.1.109 192.168.1.1 255.255.
+255.0 8.8.8.8 4.4.4.4
+ === iTool ===
+Triggered wifi connect
+Connect timeout (30 sec)
+
+# ./itool_cmd ip_info
+ === iTool ===
+DHCP: 0
+address: 192.168.1.109
+netmask: 255.255.255.0
+gateway: 192.168.1.1
+primary: 8.8.8.8
+secondary: 4.4.4.4
+
+# 
+# 
+# cat /etc/resolv.conf 
+nameserver 192.168.1.1
+# 
+# ./itool_cmd ip_info
+ === iTool ===
+DHCP: 0
+address: 192.168.1.109
+netmask: 255.255.255.0
+gateway: 192.168.1.1
+primary: 8.8.8.8
+secondary: 4.4.4.4
+
+# cat /etc/resolv.conf 
+nameserver 192.168.1.1
+# 
+# 
+# 
+# ./itool_cmd connect homeless wpa2 wifi_test 192.168.1.109 192.168.1.1 255.255.
+255.0 8.8.8.8 4.4.4.4
+ === iTool ===
+Triggered wifi connect
+Connect timeout (30 sec)
+
+# ./itool_cmd disconnect
+ === iTool ===
+trigger wifi disconnect success
+
+# ./itool_cmd connect homeless wpa2 wifi_test 192.168.1.109 192.168.1.1 255.255.
+255.0 8.8.8.8 4.4.4.4
+ === iTool ===
+Triggered wifi connect
+Network event: NW_EVENT_CONNECTED
+Current connection:
+SSID: homeless
+BSSID: 08:8a:f1:a3:89:3a
+channel: 10, channel_width: 20
+signal_strength: -27, security_type: wpa2
+Got IP information...
+Configuring network:
+ip addr flush dev wlan0
+ip addr add 192.168.1.109/24 dev wlan0
+ip route replace default via 192.168.1.1 dev wlan0
+
+# cat /etc/resolv.conf 
+nameserver 8.8.8.8
+# 
+# 
+# ./itool_cmd disconnect
+ === iTool ===
+trigger wifi disconnect success
+
+# ./itool_cmd connect homeless wpa2 wifi_test 
+ === iTool ===
+Triggered wifi connect
+Network event: NW_EVENT_CONNECTED
+Current connection:
+SSID: homeless
+BSSID: 08:8a:f1:a3:89:3a
+channel: 10, channel_width: 20
+signal_strength: -28, security_type: wpa2
+Got IP information...
+Configuring network:
+ip addr flush dev wlan0
+ip addr add 192.168.1.100/24 dev wlan0
+ip route replace default via 192.168.1.1 dev wlan0
+
+# cat /etc/resolv.conf 
+nameserver 192.168.1.1
+# ./itool_cmd connect homeless wpa2 wifi_test 192.168.1.109 192.168.1.1 255.255.
+255.0 8.8.8.8 4.4.4.4
+ === iTool ===
+Triggered wifi connect
+ip addr flush dev wlan0
+Network event: NW_EVENT_CONNECTED
+Current connection:
+SSID: homeless
+BSSID: 08:8a:f1:a3:89:3a
+channel: 10, channel_width: 20
+signal_strength: -27, security_type: wpa2
+Got IP information...
+Configuring network:
+ip addr flush dev wlan0
+ip addr add 192.168.1.109/24 dev wlan0
+ip route replace default via 192.168.1.1 dev wlan0
+
+# cat /etc/resolv.conf 
+nameserver 8.8.8.8
+# 
+# 
+# ./itool_cmd ip_info
+ === iTool ===
+DHCP: 0
+address: 192.168.1.109
+netmask: 255.255.255.0
+gateway: 192.168.1.1
+primary: 8.8.8.8
+secondary: 4.4.4.4
+
+
+
+
+====
+
+В логах  messages-2.716.txt та BPC-1162b-messages.txt  (що в були в attachment) є наступні помилки:
+
+
+//messages-2.716.txt
+Apr 16 12:11:13 AjaxCameraRel daemon.info itoold[566]: Network event: NW_EVENT_CONNECT_FAILED, ipv4=-, ipv6=-, reason=0
+Apr 16 12:11:13 AjaxCameraRel user.err kernel: [   51.158757] infhost_event_nw: event type: 0 ,version (1) != 2
+Apr 16 12:11:13 AjaxCameraRel user.err kernel: [   51.158769] infhost_event_handler: handle event code (0) failed
+
+//BPC-1162b-messages.txt  
+Apr 16 14:58:17 AjaxCameraRel daemon.info itoold[562]: Network event: NW_EVENT_CONNECTED, ipv4=-, ipv6=-, reason=0
+Apr 16 14:58:17 AjaxCameraRel user.err kernel: [   20.751792] infhost_event_nw: event type: 0 ,version (1) != 2
+Apr 16 14:58:17 AjaxCameraRel user.err kernel: [   20.751822] infhost_event_handler: handle event code (0) failed
+Apr 16 14:58:17 AjaxCameraRel user.err kernel: [   20.757616] infhost_event_nw: event type: 0 ,version (1) != 2
+Apr 16 14:58:17 AjaxCameraRel user.err kernel: [   20.757644] infhost_event_handler: handle event code (0) failed
+
+
+
+infhost_event_nw: event type: 0 ,version (1) != 2   - це якраз і ще, що версії між  “itool - infhost_driver - wifi_firmware” івентів різні  і  iTool не бачить 
+
+=====
+
+
+Sync internal connection state for non-event update_network calling
+
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/15194/
+
+
+ffplay -rtsp_transport tcp  'rtsp://admin:Admin_1234@192.168.1.100:8554/562e91db7ee5-0_m'
+ffplay -rtsp_transport tcp  'rtsp://admin:Admin_1234@192.168.1.101:8554/562e91db7ee5-0_s'
+
+sudo apt install python3-pip
+pip install onvif-zeep-async --break-system-packages
+---
+import asyncio
+import warnings
+from onvif import ONVIFCamera
+
+# Suppress local self-signed SSL certificate warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+
+async def main():
+    print("Connecting to camera using HTTPS over port 8443...")
+    
+    # 1. Initialize camera object over HTTPS
+    cam = ONVIFCamera('https://192.168.1.100', 8443, 'admin', 'Admin_1234', encrypt=False)
+    
+    try:
+        # 2. Run the connection handshake
+        await cam.update_xaddrs()
+
+        # 3. Explicitly initialize the Device Management Service to fix the AttributeError
+        devicemgmt_service = await cam.create_devicemgmt_service()
+        
+        # Pull device metadata safely using the loaded service instance
+        device_info = await devicemgmt_service.GetDeviceInformation()
+        print("\n🎉 CONNECTION SUCCESSFUL! 🎉")
+        print(f"Manufacturer: {device_info.Manufacturer}")
+        print(f"Model:        {device_info.Model}")
+        print(f"Firmware:     {device_info.FirmwareVersion}")
+
+        # 4. Explicitly initialize the Media Service
+        media_service = await cam.create_media_service()
+        profiles = await media_service.GetProfiles()
+
+        print("\n--- Available Stream Profiles ---")
+        for profile in profiles:
+            stream_uri = await media_service.GetStreamUri({
+                'StreamSetup': {'Stream': 'RTP-Unicast', 'Transport': {'Protocol': 'RTSP'}},
+                'ProfileToken': profile.token
+            })
+            print(f"Profile: {profile.Name} (Token: {profile.token})")
+            print(f"URL:     {stream_uri.Uri}\n")
+            
+    except Exception as e:
+        print(f"\n❌ Handshake dropped: {type(e).__name__}")
+        print(f"Details: {e}")
+        
+    finally:
+        if hasattr(cam, 'close'):
+            await cam.close()
+
+if __name__ == "__main__":
+    asyncio.run(main())
+
+---
+python3 test.py
+
+
+// itool
+BPC-2465: Add check for OTA verification (IFX-260724-2233394)
+
+* Added user command getting of OTA verification result.
+* Checked firmware-stored OTA verification result.
+* Sync internal connection state for non-event update_network calling.
+
+
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/15199/
+
+
+Standard routers automatically drop limited broadcast packets = 255.255.255.255
+
+IGMP Snooping - router actively blocks multicast streams unless a wireless client has explicitly send an IGMP Join request.
+
+Multicast - to - unicast conversion (Proxy ARP / Directed Multicast).
+
+Join to IGMP multicast Group:
+        224.0.0.0 ... 239.255.255.255
+
+cy_wcm_is_connected_to_ap() - check connection
+wifi_is_low_power_enabled
+
+
+git submodule update --init --recursive --force
+git diff   --submodule=diff external/ > ../art.patch
+
+
+=====
+
+/**
+ * @brief Updates the port whitelist by adding new ports and removing missing ones.
+ * 
+ * @param[in] ports  Pointer to the array containing the target new list of ports.
+ * @param[in] num    Number of ports in the input array.
+ * @return 0 on success, or -1 on failure (e.g., list full or uninitialized).
+ */
+int sdio_arb_update_whitelist_ports(const uint16_t *ports, int num)
+{
+    if (g_sdio_arb_whitelist == NULL) {
+        return -1;
+    }
+
+    if (num < 0 || (num > 0 && ports == NULL)) {
+        return -1;
+    }
+
+    if (sdio_arb_inited) {
+        sdio_arb_mutex_lock();
+    }
+
+    /* --- КРОК 1: Видаляємо старі порти, яких немає у новому списку --- */
+    for (int i = 0; i < (int)g_sdio_arb_whitelist->port_count; ) 
+    {
+        uint16_t current_old_port = g_sdio_arb_whitelist->ports[i];
+        bool keep_port = false;
+
+        // Шукаємо, чи є цей старий порт у новому масиві
+        for (int j = 0; j < num; j++) {
+            if (ports[j] == current_old_port) {
+                keep_port = true;
+                break;
+            }
+        }
+
+        if (!keep_port) {
+            /* Видаляємо порт методом заміщення з кінця (як у вашій del_whitelist функції) */
+            HM_INFO_MSG(("Updating: Removing missing port %d from whitelist\n", current_old_port));
+            
+            if (i != (int)(g_sdio_arb_whitelist->port_count - 1)) {
+                g_sdio_arb_whitelist->ports[i] = 
+                    g_sdio_arb_whitelist->ports[g_sdio_arb_whitelist->port_count - 1];
+            }
+            g_sdio_arb_whitelist->ports[g_sdio_arb_whitelist->port_count - 1] = 0;
+            g_sdio_arb_whitelist->port_count -= 1;
+            
+            /* Важливо: індекс 'i' НЕ інкрементуємо, бо на це місце став елемент із кінця масиву,
+             * і його теж треба перевірити на наступній ітерації! */
+        } else {
+            i++; // Порт залишається, переходимо до наступного
+        }
+    }
+
+    /* --- КРОК 2: Додаємо нові порти, яких ще немає у списку --- */
+    for (int i = 0; i < num; i++) 
+    {
+        uint16_t new_port = ports[i];
+        bool already_exists = false;
+
+        // Перевіряємо, чи цей новий порт уже є в білому списку
+        for (uint16_t j = 0; j < g_sdio_arb_whitelist->port_count; j++) {
+            if (g_sdio_arb_whitelist->ports[j] == new_port) {
+                already_exists = true;
+                break;
+            }
+        }
+
+        if (!already_exists) {
+            /* Перевіряємо ліміт перед додаванням */
+            if (g_sdio_arb_whitelist->port_count >= WHITE_LIST_PORT_MAX) {
+                PRINT_HM_ERROR(("Update failed, up to %d ports can be set. List is full.\n", WHITE_LIST_PORT_MAX));
+                if (sdio_arb_inited) {
+                    sdio_arb_mutex_unlock();
+                }
+                return -1;
+            }
+
+            /* Додаємо унікальний новий порт */
+            g_sdio_arb_whitelist->ports[g_sdio_arb_whitelist->port_count++] = new_port;
+            HM_INFO_MSG(("Updating: Added unique white list port %d, total count:%ld\n",
+                         new_port, g_sdio_arb_whitelist->port_count));
+        }
+    }
+
+    if (sdio_arb_inited) {
+        sdio_arb_mutex_unlock();
+    }
+
+    return 0;
+}
+
+
+====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            ajax_log_info("======OSOTN TMP: LI = %u\n",
+                (unsigned)(enforce_listen_interval_enabled ? enforced_dtim_period : bss_info.dtim_period));
+
+
+
+wifi_force_custom_dtim_li
+
+
+BPC-2514: [infineon-cyw5591x-firmware] version bump
+
+* Enable WS-Discovery multicast packet forwarding to host in Wi-Fi FW.
+
+
+BPC-2514: Enable WS-Discovery multicast packet forwarding to host
+
+* [wifi-ncp_hm] register SDIO arbitration callback to filter incoming multicast traffic.
+* Add multicast filter for WS-Discovery.
+* Disable enforcing of DTIM listen interval while the Linux host is awake
+  to ensure multicast packets are not missed.
+
+
+Changes after the previous review:
+    
+* Disable enforcing of DTIM listen interval while the Linux host is awake
+  (instead of disabling of powersave).
+
+
+
++ * Callback function type to filter multicast frames for host forwarding.
+ 
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/15589/
+
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/15589/
+
+
+WoWL IEEE 802.11 frame.
+UDP port 7,9,842
+Magic Packet
+Port 7 (Echo), 9 (Discard), 842 - legacy
+
+Ethe type 0x842 Wake-on-Lan = WoWL
+
+Broadcast (Standard) - IP 255.255.255.255 / MAC 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+
+If the target device is asleep, the router will drop the packet because its IP-to-MAC mapping (ARP cache) has expired.
+
+			
+
+19:04:28.403] Core dump:lr 0x006eded3
+
+
+BPC-2501: Implement WoWL for NVR support
+
+- Configure UDP port 9 filter in offload feature array.
+- Enable system wake up chain: Magic Packet -> Infineon CM33 -> Linux host.
+- Add WoWL payload parsing with 1-second duplicate packet debounce window.
+
+
+
+
+BPC-2501: [infineon-cyw5591x-firmware] version bump
+
+* Implement WoWL for NVR support in Wi-Fi FW.
+
+
+68ab2ad0aa9bc3d8d87158e461268429c3cb2015
+
+===
+
+https://jenkins.stage-internal.ajax.systems/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Utils/job/force-update-targets-firmware
+2.988-prodsign
+31B73CBD
+
+BPC-2593: Extend whitelist ports command
+
+* Add replace_wl_ports command that atomically overwrites the existing whitelist
+  with a new set of ports (clear whitelist entirely if with zero agruments).
+
+
+BPC-2593: Extend whitelist ports command
+
+* Add replace_wl_ports command that atomically overwrites the existing whitelist
+  with a new set of ports (clear whitelist entirely if with zero agruments).
+* Enable whitelist ports restoration from backup on Linux warm reboot.
+
+
+BPC-2593: [infineon-cyw5591x-firmware, infineon-cyw5591x-itool] version bump
+
+* Add replace_wl_ports command that atomically overwrites the existing whitelist
+  with a new set of ports (clear whitelist entirely if with zero agruments).
+* Enable whitelist ports restoration from backup on Linux warm reboot.
+
+
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/15969/
+
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/15995/
+
+
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/16172/
+
+
+
+
+Vms::SSC338 [] - VENC(0): have preloaded frames
+
+//wifi
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-infineon-fw/
+// force-ota
+https://jenkins.stage-internal.ajax.systems/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Utils/job/force-update-targets-firmware/
+// vms
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/
+// test
+https://jenkins.stage-internal.ajax.systems/job/EMBEDDED-VIDEO/job/AUTOMATION/job/TESTS/job/MQTT/job/MQTT/
+
+
+
+   4h - rewrite wowl.c
+   1/2 - add define
+   2h - check wowl
+   2h - prepare on review
+   
+   
+   1h - multicast, check rebase to master
+   2h - build Jenkins
+   2h - merge with Roma code
+   2h - new review
+
+
+
+warning: 'cy_pf_ol_cfg_0' defined but not used [-Wunused-const-variable=]
+   35 | static const cy_pf_ol_cfg_t cy_pf_ol_cfg_0[] =
+      |                             ^~~~~~~~~~~~~~
+/home/osotn/gitspace/ajax/infineon-cyw5591x-firmware/cyw5591x-firmware/bsps/TARGET_CYW55912/config/GeneratedSource/cycfg_peripherals.c:33:16: warning: 'pf_ol_0' defined but not used [-Wunused-variable]
+   33 | static pf_ol_t pf_ol_0;
+
+
+
+CB: 80493689
+
+
+
+14:00 to 10:00  (20h - 4h = 16h)
+24:00 to 10:00  (10h - 2h = 8h)
+
+(8h - 2h)
++ multicast check - 2h                 (1h) sometimes, not every
+multicast implement - 3h
+multicast check2 - 2h
+text and question to Chine - 1h
+
+(8h-6h) - mandatory
++ socket - 2h check
++ implement - 2h
+ check - (4h-2h) 
+
+(1.5h) - mandatory
+Ticket Infineon - 1,5h
+
+(4)
+Replace wl implement fw+itool - 2h
+Check - 2h
+
+
+
+Support WoWL feature for CYW55913.
+
+
+To implement it, we added item UDP:dest_port item in "Pkt_Filter" in cycfg ol_lis.
+And then recvfrom() packets in CM33 from UDP socket (binded to port=9) and ourselve check magic packet on our MAC addr.
+
+
+
+
+
+
+CYW55913: Standard Magic Packet WoWL configuration using LPA / WHD API
+
+For our application we want to wake Host Linux on WoWL magic packet (standard, UDP, dest_port=9).
+Currently, we have added a UDP dest_port 9 item into the "Pkt_Filter" array configuration within the 
+cycfg_peripherals.c/ol_list. And on the CM33 side, we recvfrom() packets from UDP socket bound to port 9. 
+Then ourselve check packets on Magic Packet / our MAC address and wake Host Linux.
+
+It works, but CM33 wakes on for all WoWL UDP:dest_port=9 packets in LAN packet, even with other MAC address.
+I see that there are WoWL API functions in WHD: (whd_wowl_xxx) and also in LPA (cylpa_wowlpf_ol_xxx) for WoWL.
+
+My question are those APIs supported for CYW55913 chip?
+And is there some documentation or example how to use they (in particullar how CM33 can know that wakeup from deep sleep was caused by WoWL packet - event/status)?
+
+
+
+When a packet arrives, the CM33 wakes up, parses the payload to check for our specific MAC address, and subsequently triggers a GPIO to wake up the Linux Host.The Problem:While this solution works, it is highly inefficient for battery/power consumption. The hardware packet filter currently forces the CM33 to wake up on every single broadcast/unicast Wake-on-LAN packet present in the local network, regardless of whether the target MAC matches our device or belongs to another machine on the LAN.To drastically improve power consumption, we want to delegate the Magic Packet filtering completely to the hardware layer of the CYW55913 Wi-Fi core, allowing the CM33 to remain in Deep Sleep until a valid MAC match occurs.During code inspection, we discovered the following low-power/WoWL APIs in the LPA (Low Power Assistant) middleware (v5.8.2) and WHD stack:whd_set_wowl_cap()whd_wowl_activate()whd_set_wowl_pattern()cylpa_wowlpf_ol_xxx functionsOur Questions:Is the true hardware-level WoWL (or WoWL packet filtering offload) natively supported on the CYW55913 chip when running in a hosted / dual-network-stack topology?Is there any official documentation, application note, or code example detailing how to properly configure the WHD/LPA layer to arm the hardware for a standard Magic Packet (6x 0xFF + 16x MAC) without creating a software UDP socket on the CM33 side?Should we pass the WL_WOWL_MAGIC flag directly into whd_set_wowl_cap() to let the firmware handle the pattern generation automatically based on the STA MAC address, or do we need to explicitly inject the 102-byte frame mask using whd_set_wowl_pattern()?Once the system is woken up by a valid WoWL packet via the WL_HOST_WAKE line, how can the CM33 software query the exact wake-up reason? Is there a specific event callback or a bit-register/status field we can read (such as calling whd_wifi_get_wowl_wake_reason())?
+
+
+
+
+
+
+For our application, we want to wake the Host Linux on a WoWL magic packet (standard, UDP, dest_port=9).
+
+Currently, we have added a UDP dest_port 9 item into the "Pkt_Filter" array configuration within the cycfg_peripherals.c ol_list. 
+On the CM33 side, we call recvfrom() for packets from a UDP socket bound to port 9.
+Then we check the packets ourselves for the Magic Packet structure matching our MAC address and wake the Host Linux.
+
+It works, but the CM33 wakes up for all WoWL UDP:dest_port=9 packets in the LAN, even those with other MAC addresses,
+which significantly increases power consumption.
+I see that there are WoWL API functions in WHD (whd_wowl_xxx) and also in LPA (cylpa_wowlpf_ol_xxx) for WoWL.
+
+My questions are:
+ 1) Are those APIs supported for the CYW55913 chip?
+ 2) Is there some documentation or an example on how to use them (in particular, how the CM33 can know that a wakeup from deep sleep was caused by a WoWL packet — via event or status)?
+
+
+
+
+
+
+commit b691f36bb45de4d16bc0698ffb8ae1792c48cb2f (HEAD -> main)
+Author: Artem Dmytriv <dmytriv.a@ajax.systems>
+Date:   Mon Sep 21 11:05:05 2026 +0300
+
+    BPC-2550: Add MQTT Healthcheck watchdog timer (#169)
+    
+    * BPC-2550: Add Mqtt Watchdog implementation
+    
+    - Refactor, added reschedule call in client and publisher
+    - Add config for MQTT healthcheck feature
+    - Set Watchdog timer for 2 hour period
+    
+    * Made changes due to updated Watchdog requirements
+    
+    * Add log for watchdog cb fire without assert
+    
+    * Fix manufactor build
+    
+    * Reverted updating components/video-svc-mqtt-proto submodule made by mistake
+    
+    * Added ASSERTs on possible timer API failures
+    
+    * Added watchdog reschedule after successfull connect to AP
+
+commit b611f307400c87ff9259ff1c1a89fa0019903d02
+Author: ajax-kolevatov-o <kolevatov.o@ajax.systems>
+Date:   Thu Sep 17 18:48:33 2026 +0300
+
+    BPC-2563: Integrate WCM fix (#187)
+    
+    - Cherry-pick of WCM fixes:
+    - Cherry-pick of App-controlled wifi reconnection fix;
+
+commit f74329b0176fa3529de262a24a39d08e0b24138f
+Author: Oleksandr Sotnikov <sotnikov.o@ajax.systems>
+Date:   Thu Sep 17 13:49:39 2026 +0300
+
+
+commit f74329b0176fa3529de262a24a39d08e0b24138f
+Author: Oleksandr Sotnikov <sotnikov.o@ajax.systems>
+Date:   Thu Sep 17 13:49:39 2026 +0300
+
+    BPC-2514: Enable WS-Discovery multicast packet forwarding to host (#182)
+    
+    * [wifi-ncp_hm] register SDIO arbitration callback to filter incoming multicast traffic.
+    * Add multicast filter for WS-Discovery.
+    * Disable enforcing of DTIM listen interval while the Linux host is awake
+      to ensure multicast packets are not missed.
+
+commit 92da05511179453796d848bd1763be61c2315c1d
+Author: Vladyslav Otroshcneko <otroshchenko.v@ajax.systems>
+Date:   Wed Sep 16 09:18:13 2026 +0300
+
+    BPC-2609: Handle possible .noinit address shift after OTA (#178)
+    
+    * BPC-2609: Handle possible .noinit address shift after OTA
+    * remove log calls from IFS context
+    * Enable OTA logs
+
+commit a6733edb43eaa88c8687f8f5cb163edae68d8570
+Author: Gren Sergiy <gren.s@ajax.systems>
+Date:   Tue Sep 15 12:49:32 2026 +0300
+
+    [BPC-2499]Extend sleep-related logging (#184)
+    
+    -fix asset
+
+
+
+55baa823c7740956e8d7787bd61ad7867de4fee4
+
+
+
+wake-up
+//
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/16332/
+
+
+
+https://jenkins.stage-internal.ajax.systems/view/Embedded%20video/job/EMBEDDED-VIDEO/job/VMS-FIRMWARE/job/Builds/job/build-firmware-stage/16332/
+
+Ext: BPC-2501-QA-test-22-Sep,  infineon-fw hash 68ab2ad0aa9bc3d8d87158e461268429c3cb2015
+
+
+NA (US)USПряма відповідністьMA 
+(Марокко)EUМарокко використовує європейський стандарт ETSISA 
+(ПАР)EUПАР використовує європейський стандарт ETSIAU
+(Австралія)USАвстралія базується на стандартах
+FCCIN (Індія)US (для 2.4 GHz) / EU (для 5 GHz)
+
+
+    case "$KEYS_regDomain" in
+    US | NA)
+        local COUNTRY_CODE="US"
+        ;;
+    *)
+        local COUNTRY_CODE="DE"
+        ;;
+    esac
+
+
+// AP router, wifi_test
+10.19.143.54
+http://10.19.143.54/#networkMap
+
+http://mwlogin.net/
+
+
+
+BPC-2501: [infineon-cyw5591x-firmware] version bump
+
+* Implement WoWL for NVR support in Wi-Fi FW.
+
+
++int sdio_arb_replace_whitelist_ports(uint16_t *ports, uint16_t port_count)
++{
++    if (g_sdio_arb_whitelist == NULL)
++        return -1;
++
++    if (sdio_arb_inited)
++        sdio_arb_mutex_lock();
++
++    HM_INFO_MSG(("Replace white list ports:\n"));
++
++    if (port_count > WHITE_LIST_PORT_MAX) {
++        HM_INFO_MSG(("  Truncated port numbers %u to %u.\n", port_count, WHITE_LIST_PORT_MAX));
++        port_count = WHITE_LIST_PORT_MAX;
++    }
++
++    memset(g_sdio_arb_whitelist->ports, 0, sizeof(g_sdio_arb_whitelist->ports));
++    for (uint16_t i = 0; i < port_count; i++) {
++        g_sdio_arb_whitelist->ports[i] = ports[i];
++        HM_INFO_MSG(("    port %u, list number:%u\n", ports[i], i + 1));
++    }
++    g_sdio_arb_whitelist->port_count = port_count;
++    if (port_count == 0) {
++        HM_INFO_MSG(("    (empty list)\n"));
++    }
++
++    if (sdio_arb_inited)
++        sdio_arb_mutex_unlock();
++
++    return 0;
++}
+
+
+
+
+
+
+ping 10.19.160.71 | ts '%Y-%m-%d %H:%M:%S'
+sudo apt install moreutils
+
+minicom Ctrl+A+Z O screen - timestamp (extended)
+
+
 
 
 
